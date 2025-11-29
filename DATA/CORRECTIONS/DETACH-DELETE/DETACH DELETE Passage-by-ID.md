@@ -1,0 +1,3 @@
+```Cypher
+MATCH (p:PASSAGE) WHERE elementId(p) = '4:6025ac98-e9e7-43b6-9144-0a9e55023399:73' DETACH DELETE p;
+```

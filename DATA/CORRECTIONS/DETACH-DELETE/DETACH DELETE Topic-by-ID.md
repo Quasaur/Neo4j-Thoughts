@@ -1,0 +1,3 @@
+```Cypher
+MATCH (t:TOPIC) WHERE elementId(t) = '4:6025ac98-e9e7-43b6-9144-0a9e55023399:72' DETACH DELETE t;
+```

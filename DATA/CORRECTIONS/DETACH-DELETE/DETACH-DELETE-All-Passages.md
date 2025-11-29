@@ -1,0 +1,5 @@
+```Cypher
+MATCH (p:PASSAGE) DETACH DELETE p;
+MATCH (c:CONTENT) WHERE c.name = 'content.KINDNESS AND TRUTH' DETACH DELETE c;
+
+```

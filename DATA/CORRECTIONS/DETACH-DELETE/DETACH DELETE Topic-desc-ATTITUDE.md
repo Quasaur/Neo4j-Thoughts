@@ -1,0 +1,3 @@
+```Cypher
+MATCH (d:DESCRIPTION) WHERE d.name = 'desc.ATTITUDE' DETACH DELETE d;
+```

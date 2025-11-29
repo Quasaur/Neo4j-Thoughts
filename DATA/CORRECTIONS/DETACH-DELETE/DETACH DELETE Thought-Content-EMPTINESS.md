@@ -1,0 +1,4 @@
+```Cypher
+MATCH (c:CONTENT) WHERE c.name = 'content.EMPTINESS' DETACH DELETE c;
+MATCH (t:THOUGHT) WHERE t.name = 'thought.EMPTINESS' DETACH DELETE t;
+```
