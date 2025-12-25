@@ -3,7 +3,7 @@
 CREATE (q:QUOTE
     {
 	    name: "quote.MIRACLES (2)",
-		alias: "Quote: Diine Miracles", 
+		alias: "Quote: Divine Miracles", 
 		parent: "topic.THE GODHEAD", 
 		tags: ["miracles", "divine", "reason", "logic", "discernment"], 
 		source: "IMMMUNITY to the Lake of Fire: A No-Nonsense Guide",

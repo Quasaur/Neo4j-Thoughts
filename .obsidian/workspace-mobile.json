@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "1ca5bb861b7b12c1",
+        "id": "f205c7caea4569c3",
         "type": "tabs",
         "children": [
           {
-            "id": "fd94f663f43cff80",
+            "id": "ee60a2a1047774a5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "WEBDEV/PROMPTS/GitHub CoPilot/copilot-instructions.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "copilot-instructions"
+              "title": "New tab"
             }
           }
         ]
@@ -49,7 +45,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "cf81ef03",
+            "query": "Heroku Eco",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -151,8 +147,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fd94f663f43cff80",
+  "active": "ee60a2a1047774a5",
   "lastOpenFiles": [
+    "WEBDEV/DJANGO/Stripe Subscriptions.md",
+    "WEBDEV/JS/REACT/Start Here Page Segments.md",
+    "WEBDEV/GIT/Git Explanations.md",
+    "WEBDEV/DJANGO/Heroku Setup.md",
+    "WEBDEV/GIT/Git - Heroku.md",
+    "WEBDEV/DJANGO/Heroku and DNS.md",
+    "WEBDEV/DJANGO/G-Antigravity -> Heroku.md",
+    "WEBDEV/DART/Dart Tri-Client Deploy.md",
+    "WEBDEV/DART/Wisdom-Book-Dart.md",
+    "WEBDEV/DART",
+    "WEBDEV/CLOJURE/Wisdom-Book-clj.md",
+    "WEBDEV/DJANGO/Django Deployment Process.md",
+    "WEBDEV/DJANGO/Deploy on GCP.md",
+    "WEBDEV/DJANGO/Free Hosting.md",
+    "WEBDEV/DJANGO/Deploy on Railway.md",
+    "WEBDEV/PROMPTS/GitHub CoPilot/copilot-instructions.md",
     "WEBDEV/ZORIN-ARCHON/ARCHON OS Setup/VSCode in Zorin OS.md",
     "DATA/env file contents.md",
     "Neo4j-AI/Foreign Languages.md",
@@ -165,10 +177,6 @@
     "WEBDEV/JS/Wix Studio/Wix-EDA-AuraDB.md",
     "WEBDEV/JS/Wix Studio/Wix Studio-Neo4j AuraDB.md",
     "WEBDEV/DJANGO/Django VS Code Extensions.md",
-    "WEBDEV/AI-CODING Assistance.md",
-    "DJANGO/Django Project - App.md",
-    "DJANGO",
-    "DATA/NULL TOPIC.md",
-    "Neo4j/Cypher Schema.md"
+    "DJANGO"
   ]
 }

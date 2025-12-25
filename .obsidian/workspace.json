@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "59c90dc948736803",
+        "id": "cc4ba58e7d39b0be",
         "type": "tabs",
         "children": [
           {
-            "id": "30c61f25dacf3d80",
+            "id": "82096840c17f5837",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WEBDEV/DJANGO/Book of Thoughts Replication-1st Try.md",
+                "file": "DATA/TOPICS/folder-NULL-TOPIC/folder-TOPIC-THE-GODHEAD/0004-topic-FAITHFULNESS.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Book of Thoughts Replication-1st Try"
+              "title": "0004-topic-FAITHFULNESS"
             }
           }
         ]
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "venv",
+                "query": "0011-thought",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -177,43 +177,43 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "30c61f25dacf3d80",
+  "active": "82096840c17f5837",
   "lastOpenFiles": [
-    "WEBDEV/PROMPTS/G-Antigravity/1st Playground UI Prototype.md",
-    "WEBDEV/PROMPTS/G-Antigravity/1st Agent Mgr Prompt.md",
-    "WEBDEV/PROMPTS/Claude-AI/Super_Claude_Docs.md",
-    "WEBDEV/PROMPTS/G-Antigravity",
-    "WEBDEV/PROMPTS/Kimi-K2/Kimi-K2 Prompts-Gemini.md",
-    "WEBDEV/PROMPTS/Claude-AI",
-    "WEBDEV/PROMPTS/Kimi-K2/Gemini Gem.md",
     "DATA/TOPICS/folder-NULL-TOPIC/folder-TOPIC-THE-GODHEAD/folder-TOPIC-CREATION/folder-TOPIC-HUMANITY/0020-topic-PSYCHOLOGY.md",
-    "DATA/TOPICS/folder-NULL-TOPIC/folder-TOPIC-THE-GODHEAD/folder-TOPIC-SPIRITUALITY/folder-TOPIC-ATTITUDE/0015-topic-HUMILITY.md",
+    "DATA/TOPICS/folder-NULL-TOPIC/folder-TOPIC-THE-GODHEAD/folder-TOPIC-CREATION/0011-topic-WEALTH.md",
+    "DATA/TOPICS/0000-NULL TOPIC.md",
+    "DATA/THOUGHTS/folder-TOPIC-THE_GODHEAD/folder-TOPIC-CREATION/folder-TOPIC-HUMANITY/folder-TOPIC-PSYCHOLOGY/0012-thought-692-189.md",
+    "DATA/THOUGHTS/folder-TOPIC-THE_GODHEAD/0009-thought-THE-HOLY-SPIRIT.md",
+    "DATA/THOUGHTS/folder-TOPIC-THE_GODHEAD/0005-thought-MEEK.md",
+    "DATA/THOUGHTS/folder-TOPIC-THE_GODHEAD/folder-TOPIC-CREATION/folder-TOPIC-HUMANITY/folder-TOPIC-PSYCHOLOGY",
+    "DATA/THOUGHTS/folder-TOPIC-THE_GODHEAD/folder-TOPIC-CREATION/folder-TOPIC-HUMANITY",
+    "DATA/THOUGHTS/folder-TOPIC-THE_GODHEAD/folder-TOPIC-CREATION",
     "DATA/TOPICS/folder-NULL-TOPIC/folder-TOPIC-THE-GODHEAD/folder-TOPIC-CREATION/0010-topic-HUMANITY.md",
+    "DATA/TOPICS/folder-NULL-TOPIC/folder-TOPIC-THE-GODHEAD/0002-topic-CREATION.md",
+    "WEBDEV/DJANGO/wisdom-book Django Admin param.md",
+    "WEBDEV/DJANGO/Stripe Subscriptions.md",
+    "WEBDEV/DJANGO/Heroku App URL.md",
+    "WEBDEV/DJANGO/Book of Thoughts Replication-1st Try.md",
+    "DATA/QUOTES/folder-TOPIC-THE GODHEAD/0005-quote-MIRACLES (2).md",
+    "DATA/CORRECTIONS/SET/Set Quote-by-alias.md",
+    "DATA/CORRECTIONS/SET/Set Passage-by-alias.md",
+    "DATA/THOUGHTS/folder-TOPIC-THE_GODHEAD/0001-thought-EGO.md",
+    "EXAMPLES/Display TOPIC Humanity and everything connected to it..md",
+    "DATA/PASSAGES/folder-TOPIC-THE-GODHEAD/folder-TOPIC-CREATION/folder-TOPIC-HUMANITY/0002-passage-KNOWLEDGE.md",
+    "DATA/TOPICS/folder-NULL-TOPIC/0001-topic-GODHEAD.md",
+    "WEBDEV/DJANGO/Heroku Setup.md",
+    "WEBDEV/DJANGO/Heroku and DNS.md",
+    "DATA/PASSAGES/folder-TOPIC-THE-GODHEAD/folder-TOPIC-DIVINE SOVEREIGNTY/0001-passage-HEART OF THE KING.md",
+    "DATA/QUOTES/folder-TOPIC-THE GODHEAD/0001-quote-ETERNITY.md",
+    "WEBDEV/PROMPTS/G-Antigravity/Topics Page Prompt.md",
+    "WEBDEV/DJANGO/Start Book-of-Thoughts Server.md",
+    "WEBDEV/PROMPTS/G-Antigravity/1st Playground UI Prototype.md",
+    "WEBDEV/PROMPTS/G-Antigravity",
+    "WEBDEV/PROMPTS/Claude-AI",
     "DATA/TOPICS/folder-NULL-TOPIC/folder-TOPIC-THE-GODHEAD/folder-TOPIC-CREATION/folder-TOPIC-HUMANITY",
-    "DATA/CORRECTIONS/Chinese Texts/DESCRIPTIONs/TOPIC-CREATION/Topics/desc-HUMANITY.md",
-    "DATA/QUOTES/folder-TOPIC-THE GODHEAD/folder-SPIRITUALITY/folder-MORALITY/folder-RELIGION/0011-quote-WORKS.md",
-    "DATA/QUOTES/folder-TOPIC-THE GODHEAD/folder-SPIRITUALITY/0010-quote-HEAVENLY-FOOD.md",
-    "DATA/TOPICS/folder-NULL-TOPIC/folder-TOPIC-THE-GODHEAD/folder-TOPIC-SPIRITUALITY/folder-TOPIC-MORALITY/0019-topic-RELIGION.md",
     "DATA/QUOTES/folder-TOPIC-THE GODHEAD/folder-SPIRITUALITY/folder-MORALITY/folder-RELIGION",
-    "DATA/TOPICS/folder-NULL-TOPIC/folder-TOPIC-THE-GODHEAD/folder-TOPIC-SPIRITUALITY/0017-topic-MORALITY.md",
     "DATA/QUOTES/folder-TOPIC-THE GODHEAD/folder-SPIRITUALITY/folder-MORALITY",
     "DATA/QUOTES/folder-TOPIC-THE GODHEAD/folder-SPIRITUALITY",
-    "DATA/TOPICS/folder-NULL-TOPIC/folder-TOPIC-THE-GODHEAD/folder-TOPIC-SPIRITUALITY/0014-topic-UNDERSTANDING.md",
-    "WEBDEV/QNAP/local domain setup.md",
-    "WEBDEV/ZORIN-ARCHON/ARCHON OS Setup/Supabase/Supabase Params.md",
-    "WEBDEV/ZORIN-ARCHON/ARCHON OS Setup/Supabase/Local Supabase Install.md",
-    "DATA/QUOTES/folder-TOPIC-THE GODHEAD/folder-TOPIC-DIVINE-SOVEREIGNTY/0009-quote-CONSEQUENCES (2).md",
-    "DATA/QUOTES/folder-TOPIC-THE GODHEAD/folder-TOPIC-CREATION/folder-TOPIC-WORSHIP/0008-quote-THE DESIRE OF NATIONS.md",
-    "DATA/QUOTES/folder-TOPIC-THE GODHEAD/0004-quote-GOODNESS OF GOD.md",
-    "DATA/QUOTES/folder-TOPIC-THE GODHEAD/folder-TOPIC-DIVINE-SOVEREIGNTY",
-    "WEBDEV/QNAP/QNAP Params.md",
-    "DATA/PASSAGES/folder-TOPIC-THE-GODHEAD/folder-TOPIC-SPIRITUALITY/folder-TOPIC-MORALITY/0012-passage-HOUSE-OF-THE-WICKED.md",
-    "DATA/TOPICS/folder-NULL-TOPIC/folder-TOPIC-THE-GODHEAD/folder-TOPIC-SPIRITUALITY/0018-topic-EVIL.md",
-    "DATA/PASSAGES/folder-TOPIC-THE-GODHEAD/folder-TOPIC-SPIRITUALITY/folder-TOPIC-MORALITY",
-    "DATA/CORRECTIONS/TOPICS/TOPIC-tags-UNDERSTANDING.md",
-    "DATA/CORRECTIONS/TOPICS/TOPIC-tags-HUMANITY.md",
-    "DATA/TOPICS/folder-NULL-TOPIC/folder-TOPIC-THE-GODHEAD/folder-TOPIC-SPIRITUALITY/folder-TOPIC-MORALITY",
-    "WEBDEV/ZORIN-ARCHON/ARCHON OS Setup/Archon README.md",
-    "WEBDEV/ASUS"
+    "DATA/QUOTES/folder-TOPIC-THE GODHEAD/folder-TOPIC-DIVINE-SOVEREIGNTY"
   ]
 }
