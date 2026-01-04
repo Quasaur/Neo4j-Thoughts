@@ -1,0 +1,55 @@
+---
+name: "thought.LOVE ABUSER HATE ABUSE"
+alias: "Thought: Love Abuser Hate Abuse"
+type: THOUGHT
+parent: "topic.THE GODHEAD"
+tags:
+- love
+- abuse
+- character
+- god
+- justice
+level: 1
+neo4j: true
+insert: true
+---
+# Love Abuser Hate Abuse
+
+> [!Thought-en]
+> God loves abusers (it's the act of abuse He has a problem with).
+
+```Cypher
+// Generated from Book6E-FINAL.md (ID: 17-Feb-2012a)
+CREATE (t:THOUGHT {
+    name: "thought.LOVE ABUSER HATE ABUSE",
+    alias: "Thought: Love Abuser Hate Abuse",
+    parent: "topic.THE GODHEAD",
+    tags: ['love', 'abuse', 'character', 'god', 'justice'],
+    notes: "",
+    level: 1
+});
+
+CREATE (c:CONTENT {
+    name: "content.LOVE ABUSER HATE ABUSE",
+    en_title: "Love Abuser Hate Abuse",
+    en_content: "God loves abusers (it's the act of abuse He has a problem with).",
+    es_title: "TITULO DEL PENSAMIENTO",
+    es_content: "CONTENIDO DEL PENSAMIENTO",
+    fr_title: "TITRE DE LA PENSÉE",
+    fr_content: "CONTENU DE LA PENSÉE",
+    hi_title: "शिखा",
+    hi_content: "सामग्री",
+    zh_title: "biāo tí",
+    zh_content: "nèi róng"
+});
+
+MATCH (t:THOUGHT)
+MATCH (c:CONTENT)
+WHERE t.name = "thought.LOVE ABUSER HATE ABUSE" AND c.name = "content.LOVE ABUSER HATE ABUSE"
+MERGE (t)-[:HAS_CONTENT { "name": "edge.LOVE ABUSER HATE ABUSE" }]->(c);
+
+MATCH (parent:TOPIC)
+MATCH (child:THOUGHT)
+WHERE parent.name = "topic.THE GODHEAD" AND child.name = "thought.LOVE ABUSER HATE ABUSE"
+MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >LOVE ABUSER HATE ABUSE" }]->(child);
+```

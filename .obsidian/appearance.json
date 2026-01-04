@@ -1,1 +1,12 @@
-{}
+{
+  "cssTheme": "Vileplume",
+  "interfaceFontFamily": "Courier,American Typewriter",
+  "theme": "obsidian",
+  "baseFontSize": 18,
+  "accentColor": "",
+  "enabledCssSnippets": [
+    "callouts",
+    "tableOutlines"
+  ],
+  "textFontFamily": "Courier New"
+}

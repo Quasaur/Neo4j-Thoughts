@@ -1,0 +1,54 @@
+---
+name: "thought.DIVINE WILL"
+alias: "Thought: Sovereignty of God's Will"
+type: THOUGHT
+tags:
+- sovereignty
+- gods_will
+- omnipotence
+- authority
+- providence
+parent: topic.DIVINE-SOVEREIGNTY
+level: 2
+neo4j: true
+insert: true
+---
+# Thought: DIVINE WILL
+> [!Thought-en]
+> Do you really believe that God has EVER done something He didn't want to do?
+
+```Cypher
+// Generated from Book6E-FINAL.md
+CREATE (t:THOUGHT {
+    name: "thought.DIVINE WILL",
+    alias: "Thought: DIVINE WILL",
+    parent: "topic.DIVINE SOVEREIGNTY",
+    tags: ["sovereignty", "gods_will", "omnipotence", "authority", "providence"],
+    notes: "",
+    level: 2
+});
+
+CREATE (c:CONTENT {
+    name: "content.DIVINE WILL",
+    en_title: "DIVINE WILL",
+    en_content: "Do you really believe that God has EVER done something He didn't want to do?",
+    es_title: "VOLUNTAD DIVINA",
+    es_content: "¿De verdad crees que Dios ha hecho ALGUNA VEZ algo que no quería hacer?",
+    fr_title: "VOLONTÉ DIVINE",
+    fr_content: "Croyez-vous vraiment que Dieu a JAMAIS fait quelque chose qu'il ne voulait pas faire ?",
+    hi_title: "ईश्वरीय इच्छा",
+    hi_content: "क्या आप वास्तव में मानते हैं कि ईश्वर ने कभी भी ऐसा कुछ किया है जो वह नहीं करना चाहता था?"
+    zh_title: "shén dì yì zhì",
+    zh_content: "nǐ zhēn de xiāng xìn shàng dì céng jīng zhuò guò tā bù xiǎng zhuò de shì ma ？"
+});
+
+MATCH (t:THOUGHT)
+MATCH (c:CONTENT)
+WHERE t.name = "thought.DIVINE WILL" AND c.name = "content.DIVINE WILL"
+MERGE (t)-[:HAS_CONTENT {name: "edge.DIVINE WILL"}]->(c);
+
+MATCH (parent:TOPIC)
+MATCH (child:THOUGHT)
+WHERE parent.name = "topic.DIVINE SOVEREIGNTY" AND child.name = "thought.DIVINE WILL"
+MERGE (parent)-[:HAS_THOUGHT {name: "edge.DIVINE SOVEREIGNTY >DIVINE WILL"}]->(child);
+```

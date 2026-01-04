@@ -1,0 +1,7 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - neo4j == true
+        - type == "PASSAGE"

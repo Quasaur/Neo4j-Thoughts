@@ -1,0 +1,55 @@
+---
+name: "thought.ATHEISM SUCKS"
+alias: "Thought: Atheism Sucks"
+type: THOUGHT
+parent: "topic.PHILOSOPHY"
+tags:
+- atheism
+- philosophy
+- humanity
+- truth
+- skepticism
+level: 4
+neo4j: true
+insert: true
+---
+# Atheism Sucks
+
+> [!Thought-en]
+> The problem with believing you're a thing is that you'll start treating other people as things. Atheism sucks!
+
+```Cypher
+// Generated from Book6E-FINAL.md (ID: 10-Aug-2013d)
+CREATE (t:THOUGHT {
+    name: "thought.ATHEISM SUCKS",
+    alias: "Thought: Atheism Sucks",
+    parent: "topic.PHILOSOPHY",
+    tags: ['atheism', 'philosophy', 'humanity', 'truth', 'skepticism'],
+    notes: "",
+    level: 4
+});
+
+CREATE (c:CONTENT {
+    name: "content.ATHEISM SUCKS",
+    en_title: "Atheism Sucks",
+    en_content: "The problem with believing you're a thing is that you'll start treating other people as things. Atheism sucks!",
+    es_title: "TITULO DEL PENSAMIENTO",
+    es_content: "CONTENIDO DEL PENSAMIENTO",
+    fr_title: "TITRE DE LA PENSÉE",
+    fr_content: "CONTENU DE LA PENSÉE",
+    hi_title: "शिखा",
+    hi_content: "सामग्री",
+    zh_title: "biāo tí",
+    zh_content: "nèi róng"
+});
+
+MATCH (t:THOUGHT)
+MATCH (c:CONTENT)
+WHERE t.name = "thought.ATHEISM SUCKS" AND c.name = "content.ATHEISM SUCKS"
+MERGE (t)-[:HAS_CONTENT { "name": "edge.ATHEISM SUCKS" }]->(c);
+
+MATCH (parent:TOPIC)
+MATCH (child:THOUGHT)
+WHERE parent.name = "topic.PHILOSOPHY" AND child.name = "thought.ATHEISM SUCKS"
+MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY >ATHEISM SUCKS" }]->(child);
+```

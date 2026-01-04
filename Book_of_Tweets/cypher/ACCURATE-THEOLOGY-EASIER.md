@@ -1,0 +1,55 @@
+---
+name: "thought.ACCURATE THEOLOGY EASIER"
+alias: "Thought: Accurate Theology Easier"
+type: THOUGHT
+parent: "topic.TRUTH"
+tags:
+- theology
+- truth
+- christianity
+- clarity
+- wisdom
+level: 2
+neo4j: true
+insert: true
+---
+# Accurate Theology Easier
+
+> [!Thought-en]
+> The more accurate our theology, the easier the Christian life gets.
+
+```Cypher
+// Generated from Book6E-FINAL.md (ID: 27-Apr-2012b)
+CREATE (t:THOUGHT {
+    name: "thought.ACCURATE THEOLOGY EASIER",
+    alias: "Thought: Accurate Theology Easier",
+    parent: "topic.TRUTH",
+    tags: ['theology', 'truth', 'christianity', 'clarity', 'wisdom'],
+    notes: "",
+    level: 2
+});
+
+CREATE (c:CONTENT {
+    name: "content.ACCURATE THEOLOGY EASIER",
+    en_title: "Accurate Theology Easier",
+    en_content: "The more accurate our theology, the easier the Christian life gets.",
+    es_title: "TITULO DEL PENSAMIENTO",
+    es_content: "CONTENIDO DEL PENSAMIENTO",
+    fr_title: "TITRE DE LA PENSÉE",
+    fr_content: "CONTENU DE LA PENSÉE",
+    hi_title: "शिखा",
+    hi_content: "सामग्री",
+    zh_title: "biāo tí",
+    zh_content: "nèi róng"
+});
+
+MATCH (t:THOUGHT)
+MATCH (c:CONTENT)
+WHERE t.name = "thought.ACCURATE THEOLOGY EASIER" AND c.name = "content.ACCURATE THEOLOGY EASIER"
+MERGE (t)-[:HAS_CONTENT { "name": "edge.ACCURATE THEOLOGY EASIER" }]->(c);
+
+MATCH (parent:TOPIC)
+MATCH (child:THOUGHT)
+WHERE parent.name = "topic.TRUTH" AND child.name = "thought.ACCURATE THEOLOGY EASIER"
+MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH >ACCURATE THEOLOGY EASIER" }]->(child);
+```

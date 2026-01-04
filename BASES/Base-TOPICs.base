@@ -1,0 +1,26 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - type == "TOPIC"
+    order:
+      - file.name
+      - name
+      - alias
+      - neo4j
+      - level
+      - parent
+      - type
+    sort:
+      - property: neo4j
+        direction: ASC
+      - property: level
+        direction: ASC
+      - property: parent
+        direction: ASC
+    columnSize:
+      note.name: 324
+      note.type: 111
+      note.parent: 284
+      note.alias: 696
