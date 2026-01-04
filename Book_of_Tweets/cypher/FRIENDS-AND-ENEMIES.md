@@ -1,5 +1,5 @@
 ---
-name: thought.FRIENDS AND ENEMIES
+name: "thought.FRIENDS AND ENEMIES"
 alias: "Thought: Divine Design"
 en_content: "Something to think about: God created His friends AND His enemies!"
 parent: topic.CREATION

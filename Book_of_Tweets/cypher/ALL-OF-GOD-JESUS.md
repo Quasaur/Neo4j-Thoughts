@@ -3,14 +3,14 @@ name: "thought.ALL OF GOD JESUS"
 alias: "Thought: All Of God Jesus"
 type: THOUGHT
 en_content: "Jesus Christ is the only Man Who could fit ALL OF GOD in Himself, because HE IS GOD!"
-parent: "topic.THE GODHEAD"
+parent: topic.THE GOSPEL
 tags:
-- jesus
-- christ
-- fullness
-- divinity
-- god
-level: 1
+  - jesus
+  - christ
+  - fullness
+  - divinity
+  - god
+level: 2
 neo4j: true
 insert: true
 ---

@@ -1,5 +1,5 @@
 ---
-name: thought.AWESOME GOD
+name: "thought.AWESOME GOD"
 alias: "Thought: Divine Majesty"
 en_content: "To His children God is AWESOME."
 parent: topic.THE GODHEAD
