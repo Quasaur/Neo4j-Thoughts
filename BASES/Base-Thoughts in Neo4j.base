@@ -1,0 +1,14 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - neo4j == true
+        - type == "THOUGHT"
+    order:
+      - file.name
+      - ptopic
+      - neo4j
+      - file.folder
+    columnSize:
+      file.name: 174

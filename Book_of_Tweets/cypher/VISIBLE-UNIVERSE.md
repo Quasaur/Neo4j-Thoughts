@@ -1,0 +1,55 @@
+---
+name: "thought.VISIBLE UNIVERSE"
+alias: "Thought: Visible Universe"
+type: THOUGHT
+parent: "topic.CREATION"
+tags:
+- universe
+- creation
+- power
+- majesty
+- sight
+level: 2
+neo4j: true
+insert: true
+---
+# Visible Universe
+
+> [!Thought-en]
+> The Visible Universe: God Is Great
+
+```Cypher
+// Generated from Book6E-FINAL.md (ID: 27-Jul-2011)
+CREATE (t:THOUGHT {
+    name: "thought.VISIBLE UNIVERSE",
+    alias: "Thought: Visible Universe",
+    parent: "topic.CREATION",
+    tags: ['universe', 'creation', 'power', 'majesty', 'sight'],
+    notes: "",
+    level: 2
+});
+
+CREATE (c:CONTENT {
+    name: "content.VISIBLE UNIVERSE",
+    en_title: "Visible Universe",
+    en_content: "The Visible Universe: God Is Great",
+    es_title: "TITULO DEL PENSAMIENTO",
+    es_content: "CONTENIDO DEL PENSAMIENTO",
+    fr_title: "TITRE DE LA PENSÉE",
+    fr_content: "CONTENU DE LA PENSÉE",
+    hi_title: "विट्गेन्स्टाइन की खोज",
+    hi_content: "सामग्री",
+    zh_title: "biāo tí",
+    zh_content: "nèi róng"
+});
+
+MATCH (t:THOUGHT)
+MATCH (c:CONTENT)
+WHERE t.name = "thought.VISIBLE UNIVERSE" AND c.name = "content.VISIBLE UNIVERSE"
+MERGE (t)-[:HAS_CONTENT { "name": "edge.VISIBLE UNIVERSE" }]->(c);
+
+MATCH (parent:TOPIC)
+MATCH (child:THOUGHT)
+WHERE parent.name = "topic.CREATION" AND child.name = "thought.VISIBLE UNIVERSE"
+MERGE (parent)-[:HAS_THOUGHT { "name": "CREATION >VISIBLE UNIVERSE" }]->(child);
+```

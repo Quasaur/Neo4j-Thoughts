@@ -1,4 +1,21 @@
 {
+  "promptDelete": true,
   "readableLineLength": false,
-  "showLineNumber": true
+  "alwaysUpdateLinks": true,
+  "fileSortOrder": "alphabetical",
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "userIgnoreFilters": [
+    "quartz/",
+    "docs/",
+    "public/",
+    "node_modules/"
+  ],
+  "attachmentFolderPath": "attachments",
+  "showUnsupportedFiles": true
 }

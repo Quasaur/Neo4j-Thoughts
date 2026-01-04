@@ -292,7 +292,7 @@ if settings.DEBUG:
 cd /path/to/wisdom-book
 
 # Create Heroku app
-heroku create wisdom-book-prod
+heroku create wisdom-book-clmjournal
 # Or let Heroku generate a name: heroku create
 
 # Verify app was created
@@ -303,16 +303,16 @@ heroku apps:info
 
 ```bash
 # Add Postgres addon (Mini tier - $5/month)
-heroku addons:create heroku-postgresql:mini -a wisdom-book-prod
+heroku addons:create heroku-postgresql:mini -a wisdom-book-clmjournal
 
 # Or for free testing tier (not recommended for production):
 # heroku addons:create heroku-postgresql:essential-0
 
 # Verify addon was created
-heroku addons -a wisdom-book-prod
+heroku addons -a wisdom-book-clmjournal
 
 # Check database info (automatically sets DATABASE_URL)
-heroku config:get DATABASE_URL -a wisdom-book-prod
+heroku config:get DATABASE_URL -a wisdom-book-clmjournal
 ```
 
 ## Part 7: Set Environment Variables
@@ -322,16 +322,16 @@ heroku config:get DATABASE_URL -a wisdom-book-prod
 python3 -c 'from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())'
 
 # Set Django configuration
-heroku config:set DJANGO_SECRET_KEY='paste-generated-secret-key-here' -a wisdom-book-prod
-heroku config:set DEBUG=False -a wisdom-book-prod
+heroku config:set DJANGO_SECRET_KEY='paste-generated-secret-key-here' -a wisdom-book-clmjournal
+heroku config:set DEBUG=False -a wisdom-book-clmjournal
 
 # Set Neo4j AuraDB credentials (get these from your Neo4j AuraDB console)
-heroku config:set NEO4J_URI='neo4j+s://your-instance.databases.neo4j.io' -a wisdom-book-prod
-heroku config:set NEO4J_USERNAME='neo4j' -a wisdom-book-prod
-heroku config:set NEO4J_PASSWORD='your-auradb-password' -a wisdom-book-prod
+heroku config:set NEO4J_URI='neo4j+s://your-instance.databases.neo4j.io' -a wisdom-book-clmjournal
+heroku config:set NEO4J_USERNAME='neo4j' -a wisdom-book-clmjournal
+heroku config:set NEO4J_PASSWORD='your-auradb-password' -a wisdom-book-clmjournal
 
 # Verify all config variables
-heroku config -a wisdom-book-prod
+heroku config -a wisdom-book-clmjournal
 ```
 
 ## Part 8: Deploy to Heroku
@@ -343,49 +343,49 @@ git add .
 git commit -m "Initial Heroku deployment setup"
 
 # Add Heroku remote
-heroku git:remote -a wisdom-book-prod
+heroku git:remote -a wisdom-book-clmjournal
 
 # Deploy to Heroku
 git push heroku main
 # If your default branch is 'master': git push heroku master:main
 
 # Monitor deployment logs
-heroku logs --tail -a wisdom-book-prod
+heroku logs --tail -a wisdom-book-clmjournal
 ```
 
 ## Part 9: Run Database Setup
 
 ```bash
 # Run Django migrations on Heroku Postgres
-heroku run python manage.py migrate -a wisdom-book-prod
+heroku run python manage.py migrate -a wisdom-book-clmjournal
 
 # Create superuser for Django admin
-heroku run python manage.py createsuperuser -a wisdom-book-prod
+heroku run python manage.py createsuperuser -a wisdom-book-clmjournal
 
 # Collect static files
-heroku run python manage.py collectstatic --noinput -a wisdom-book-prod
+heroku run python manage.py collectstatic --noinput -a wisdom-book-clmjournal
 
 # If you have a custom management command to sync Neo4j → Postgres:
-heroku run python manage.py sync_neo4j_to_postgres -a wisdom-book-prod
+heroku run python manage.py sync_neo4j_to_postgres -a wisdom-book-clmjoural
 ```
 
 ## Part 10: Verify Deployment
 
 ```bash
 # Open your app in browser
-heroku open -a wisdom-book-prod
+heroku open -a wisdom-book-clmjournal
 
 # Check app status
-heroku ps -a wisdom-book-prod
+heroku ps -a wisdom-book-clmjournal
 
 # View logs in real-time
-heroku logs --tail -a wisdom-book-prod
+heroku logs --tail -a wisdom-book-cljournal
 
 # Test Django admin
 # Navigate to: https://your-app.herokuapp.com/admin
 
 # Run Django shell for debugging
-heroku run python manage.py shell -a wisdom-book-prod
+heroku run python manage.py shell -a wisdom-book-cljournal
 ```
 
 ## Part 11: Set Up Automated Neo4j Sync (Optional)
@@ -394,10 +394,10 @@ If you need to periodically sync data from Neo4j AuraDB to Postgres:
 
 ```bash
 # Add Heroku Scheduler addon (free)
-heroku addons:create scheduler:standard -a wisdom-book-prod
+heroku addons:create scheduler:standard -a wisdom-book-clmjournal
 
 # Open scheduler dashboard
-heroku addons:open scheduler -a wisdom-book-prod
+heroku addons:open scheduler -a wisdom-book-clmjournal
 ```
 
 **In the Scheduler web interface:**
@@ -411,10 +411,10 @@ heroku addons:open scheduler -a wisdom-book-prod
 
 ```bash
 # Add custom domain
-heroku domains:add www.wisdombook.com -a wisdom-book-prod
+heroku domains:add www.wisdombook.com -a wisdom-book-clmjournal
 
 # Get DNS target
-heroku domains -a wisdom-book-prod
+heroku domains -a wisdom-book-clmjournal
 
 # Add CNAME record in your DNS provider:
 # CNAME: www -> [dns-target-from-heroku]
@@ -426,35 +426,35 @@ heroku domains -a wisdom-book-prod
 
 ```bash
 # Disable collectstatic during build
-heroku config:set DISABLE_COLLECTSTATIC=1 -a wisdom-book-prod
+heroku config:set DISABLE_COLLECTSTATIC=1 -a wisdom-book-clmjournal
 
 # Manually collect static files after deployment
-heroku run python manage.py collectstatic --noinput -a wisdom-book-prod
+heroku run python manage.py collectstatic --noinput -a wisdom-book-clmjournal
 ```
 
 ### Issue: Database connection errors
 
 ```bash
 # Check DATABASE_URL is set
-heroku config:get DATABASE_URL -a wisdom-book-prod
+heroku config:get DATABASE_URL -a wisdom-book-clmjournal
 
 # Verify database exists
-heroku pg:info -a wisdom-book-prod
+heroku pg:info -a wisdom-book-clmjournal
 
 # Check database credentials
-heroku pg:credentials:url DATABASE -a wisdom-book-prod
+heroku pg:credentials:url DATABASE -a wisdom-book-clmjournal
 ```
 
 ### Issue: Neo4j connection fails
 
 ```bash
 # Verify Neo4j credentials
-heroku config:get NEO4J_URI -a wisdom-book-prod
-heroku config:get NEO4J_USERNAME -a wisdom-book-prod
-heroku config:get NEO4J_PASSWORD -a wisdom-book-prod
+heroku config:get NEO4J_URI -a wisdom-book-clmjournal
+heroku config:get NEO4J_USERNAME -a wisdom-book-clmjournal
+heroku config:get NEO4J_PASSWORD -a wisdom-book-clmjournal
 
 # Test connection in Django shell
-heroku run python manage.py shell -a wisdom-book-prod
+heroku run python manage.py shell -a wisdom-book-clmjournal
 >>> from neomodel import db
 >>> db.cypher_query("RETURN 1")
 ```
@@ -492,17 +492,17 @@ CORS_ALLOW_ALL_ORIGINS = True  # Remove in production
 ### View logs
 
 ```bash
-heroku logs --tail -a wisdom-book-prod
+heroku logs --tail -a wisdom-book-clmjournal
 ```
 
 ### Scale dynos
 
 ```bash
 # Scale up
-heroku ps:scale web=2 -a wisdom-book-prod
+heroku ps:scale web=2 -a wisdom-book-clmjournal
 
 # Scale down
-heroku ps:scale web=1 -a wisdom-book-prod
+heroku ps:scale web=1 -a wisdom-book-clmjournal
 ```
 
 ### Update app after code changes
@@ -517,16 +517,16 @@ git push heroku main
 
 ```bash
 # Create manual backup
-heroku pg:backups:capture -a wisdom-book-prod
+heroku pg:backups:capture -a wisdom-book-clmjournal
 
 # Download backup
-heroku pg:backups:download -a wisdom-book-prod
+heroku pg:backups:download -a wisdom-book-clmjournal
 ```
 
 ### Monitor database usage
 
 ```bash
-heroku pg:info -a wisdom-book-prod
+heroku pg:info -a wisdom-book-clmjournal
 ```
 
 ## Cost Summary

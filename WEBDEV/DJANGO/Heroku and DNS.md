@@ -6,7 +6,7 @@ You asked about Heroku’s level of support for hosting domains. Here’s what I
 ✅ What Heroku Provides
 
 - Default Domain: Every Heroku app comes with a built-in Heroku subdomain like appname-identifier.herokuapp.com. This is automatically available and secured with DNSSEC.[1](https://devcenter.heroku.com/articles/custom-domains)
-- Custom Domains: You can add custom domains (e.g., www.yourdomain.com) to any Heroku app at no extra cost. This requires:
+- Custom Domains: You can add custom domains (e.g., www.wisdombook.life) to any Heroku app at no extra cost. This requires:
 
 - Verifying your Heroku account.
 - Configuring your DNS provider to point to Heroku’s DNS target.
