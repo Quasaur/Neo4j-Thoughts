@@ -2,6 +2,7 @@
 name: "thought.LEGALITY OF ATONEMENT"
 alias: "Thought: Legality Of Atonement"
 type: THOUGHT
+en_content: "IT'S NOT LEGAL for you AND Jesus to suffer for the same sin!"
 parent: "topic.GRACE"
 tags:
 - atonement

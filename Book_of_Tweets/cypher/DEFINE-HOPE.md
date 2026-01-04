@@ -2,6 +2,7 @@
 name: "thought.DEFINE HOPE"
 alias: "Thought: Define Hope"
 type: THOUGHT
+en_content: "HOPE = DESIRE + EXPECTATION"
 parent: "topic.ATTITUDE"
 tags:
 - hope

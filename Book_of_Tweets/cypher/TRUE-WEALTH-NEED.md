@@ -2,6 +2,7 @@
 name: "thought.TRUE WEALTH NEED"
 alias: "Thought: True Wealth Need"
 type: THOUGHT
+en_content: "Matthew 10:34-39: One is not truly wealthy until they've lost their need for everything!"
 parent: "topic.PHILOSOPHY"
 tags:
 - wealth

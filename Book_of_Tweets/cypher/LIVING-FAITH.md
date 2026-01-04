@@ -2,6 +2,7 @@
 name: "thought.LIVING FAITH"
 alias: "Thought: Active Belief"
 type: THOUGHT
+en_content: "Faith is when Divine Truth is caught by your imagination and you begin to live it."
 parent: "topic.FAITH"
 tags:
 - faith

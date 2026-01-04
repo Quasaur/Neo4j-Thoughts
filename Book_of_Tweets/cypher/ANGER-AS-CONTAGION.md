@@ -2,6 +2,7 @@
 name: "thought.ANGER AS CONTAGION"
 alias: "Thought: Anger As Contagion"
 type: THOUGHT
+en_content: "Anger is a contagion that easily leaps from soul to soul where there is an absence of reason."
 parent: "topic.ATTITUDE"
 tags:
 - anger

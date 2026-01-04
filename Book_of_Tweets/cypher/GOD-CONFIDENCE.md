@@ -2,6 +2,7 @@
 name: "thought.GOD CONFIDENCE"
 alias: "Thought: God Confidence"
 type: THOUGHT
+en_content: "God-confidence is better than self-confidence."
 parent: "topic.FAITH"
 tags:
 - faith

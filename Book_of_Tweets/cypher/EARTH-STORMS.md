@@ -2,6 +2,7 @@
 name: "thought.EARTH STORMS"
 alias: "Thought: Earth Storms"
 type: THOUGHT
+en_content: "Earth has about 16 million storms per year...God is Great!"
 parent: "topic.CREATION"
 tags:
 - creation

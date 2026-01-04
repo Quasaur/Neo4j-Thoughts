@@ -2,6 +2,7 @@
 name: "thought.TRANSFORMING POWER LOVE"
 alias: "Thought: Transforming Power Love"
 type: THOUGHT
+en_content: "God's Love is frighteningly powerful: turning dirt into flesh, flesh into spirit, sin into righteousness and death into life."
 parent: "topic.THE GODHEAD"
 tags:
 - love

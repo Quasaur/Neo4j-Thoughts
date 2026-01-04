@@ -2,6 +2,7 @@
 name: "thought.JUDGMENT OF NATIONS"
 alias: "Thought: Judgment Of Nations"
 type: THOUGHT
+en_content: "God will not only judge individuals, but nations (ethnic and political). May God grant repentance to the USA."
 parent: "topic.DIVINE SOVEREIGNTY"
 tags:
 - judgment

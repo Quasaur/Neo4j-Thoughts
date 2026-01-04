@@ -2,6 +2,7 @@
 name: "thought.FACE TO FACE"
 alias: "Thought: Face To Face"
 type: THOUGHT
+en_content: "When you meet God face to Face you will not ask any questions; His Glory is the answer to every question and the end of every dispute."
 parent: "topic.THE GODHEAD"
 tags:
 - glory

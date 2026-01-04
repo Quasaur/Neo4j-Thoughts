@@ -2,6 +2,7 @@
 name: "thought.VALUE OF ETERNITY"
 alias: "Thought: Eternal Perspective"
 type: THOUGHT
+en_content: "No matter how long you've lived, in the end life is just a few seconds long. It's Eternity that really counts!"
 parent: "topic.SPIRITUALITY"
 tags:
 - eternity

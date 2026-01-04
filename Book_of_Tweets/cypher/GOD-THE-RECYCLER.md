@@ -2,6 +2,7 @@
 name: "thought.GOD THE RECYCLER"
 alias: "Thought: God The Recycler"
 type: THOUGHT
+en_content: "God recycles."
 parent: "topic.CREATION"
 tags:
 - recycling

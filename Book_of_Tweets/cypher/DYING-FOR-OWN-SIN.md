@@ -2,6 +2,7 @@
 name: "thought.DYING FOR OWN SIN"
 alias: "Thought: Dying For Own Sin"
 type: THOUGHT
+en_content: "I die--not for Adam's sin but for my own; for I was in Adam when he sinned and therefore sinned with him!"
 parent: "topic.HUMANITY"
 tags:
 - sin

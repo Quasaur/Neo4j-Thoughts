@@ -2,6 +2,7 @@
 name: "thought.END OF ALL FLESH"
 alias: "Thought: End Of All Flesh"
 type: THOUGHT
+en_content: "\"The end of all flesh is come before Me...\" -- God"
 parent: "topic.DIVINE SOVEREIGNTY"
 tags:
 - judgment

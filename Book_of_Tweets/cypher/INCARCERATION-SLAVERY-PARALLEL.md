@@ -2,6 +2,7 @@
 name: "thought.INCARCERATION SLAVERY PARALLEL"
 alias: "Thought: Incarceration Slavery Parallel"
 type: THOUGHT
+en_content: "Today in the USA there are more black people incarcerated than there were black slaves in 1850. Thank you, America!"
 parent: "topic.MORALITY"
 tags:
 - incarceration

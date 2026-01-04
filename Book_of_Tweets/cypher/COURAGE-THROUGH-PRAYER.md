@@ -2,6 +2,7 @@
 name: "thought.COURAGE THROUGH PRAYER"
 alias: "Thought: Courage Through Prayer"
 type: THOUGHT
+en_content: "Prayer is where I find Courage and Perseverance."
 parent: "topic.SPIRITUALITY"
 tags:
 - prayer

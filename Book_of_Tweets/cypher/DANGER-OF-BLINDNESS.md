@@ -2,6 +2,7 @@
 name: "thought.DANGER OF BLINDNESS"
 alias: "Thought: Danger Of Blindness"
 type: THOUGHT
+en_content: "Blindness is great...until you fall off a cliff."
 parent: "topic.UNDERSTANDING"
 tags:
 - blindness

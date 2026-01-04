@@ -2,6 +2,7 @@
 name: "thought.GOD TALKING BACK"
 alias: "Thought: God Talking Back"
 type: THOUGHT
+en_content: "\"YOU DO NOT TALK TO ME.\" - God"
 parent: "topic.THE GODHEAD"
 tags:
 - communication

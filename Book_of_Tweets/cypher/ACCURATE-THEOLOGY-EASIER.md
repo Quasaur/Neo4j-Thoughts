@@ -2,6 +2,7 @@
 name: "thought.ACCURATE THEOLOGY EASIER"
 alias: "Thought: Accurate Theology Easier"
 type: THOUGHT
+en_content: "The more accurate our theology, the easier the Christian life gets."
 parent: "topic.TRUTH"
 tags:
 - theology

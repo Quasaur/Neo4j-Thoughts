@@ -2,6 +2,7 @@
 name: "thought.SHOULD BE VS WILL BE"
 alias: "Thought: Should Be Vs Will Be"
 type: THOUGHT
+en_content: "Everything is as it should be, but not as it will be."
 parent: "topic.DIVINE SOVEREIGNTY"
 tags:
 - sovereignty

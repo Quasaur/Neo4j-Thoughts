@@ -2,6 +2,7 @@
 name: "thought.ETERNAL IMMORTALITY"
 alias: "Thought: Eternal Immortality"
 type: THOUGHT
+en_content: "If you die eternally, you're already dead; if you live eternally, you were always immortal!"
 parent: "topic.THE GODHEAD"
 tags:
 - eternity

@@ -2,6 +2,7 @@
 name: "thought.SPECIFIED COMPLEXITY"
 alias: "Thought: Specified Complexity"
 type: THOUGHT
+en_content: "Evolution can't explain Specified Complexity."
 parent: "topic.CREATION"
 tags:
 - creation

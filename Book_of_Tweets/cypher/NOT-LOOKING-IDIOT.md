@@ -2,6 +2,7 @@
 name: "thought.NOT LOOKING IDIOT"
 alias: "Thought: Not Looking Idiot"
 type: THOUGHT
+en_content: "I don't mind being an idiot, just looking like one."
 parent: "topic.ATTITUDE"
 tags:
 - idiot

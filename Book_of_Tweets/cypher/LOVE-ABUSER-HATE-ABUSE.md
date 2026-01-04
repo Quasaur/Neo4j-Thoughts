@@ -2,6 +2,7 @@
 name: "thought.LOVE ABUSER HATE ABUSE"
 alias: "Thought: Love Abuser Hate Abuse"
 type: THOUGHT
+en_content: "God loves abusers (it's the act of abuse He has a problem with)."
 parent: "topic.THE GODHEAD"
 tags:
 - love

@@ -2,6 +2,7 @@
 name: "thought.BORED VS BORING"
 alias: "Thought: Bored Vs Boring"
 type: THOUGHT
+en_content: "Better to be bored than to be boring."
 parent: "topic.ATTITUDE"
 tags:
 - boredom

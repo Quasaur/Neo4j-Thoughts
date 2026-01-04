@@ -2,6 +2,7 @@
 name: "thought.CHURCH PILLAR OF TRUTH"
 alias: "Thought: Church Pillar Of Truth"
 type: THOUGHT
+en_content: "1 Tim. 3:15: The Church of God is the Pillar and Ground of the Truth on Earth, and to attack and criticize her is perilous."
 parent: "topic.RELIGION"
 tags:
 - church

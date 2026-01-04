@@ -2,6 +2,7 @@
 name: "thought.LETTING GO"
 alias: "Thought: Unlearning"
 type: THOUGHT
+en_content: "One of the hardest things in life to do is to let go of what you Think you know."
 parent: "topic.UNDERSTANDING"
 tags:
 - unlearning

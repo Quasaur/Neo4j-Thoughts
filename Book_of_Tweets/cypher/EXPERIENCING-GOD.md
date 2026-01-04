@@ -2,6 +2,7 @@
 name: "thought.EXPERIENCING GOD"
 alias: "Thought: Experiencing God"
 type: THOUGHT
+en_content: "You don't want to live your entire life and die without experiencing God."
 parent: "topic.SPIRITUALITY"
 tags:
 - experience

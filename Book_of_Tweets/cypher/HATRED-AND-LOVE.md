@@ -2,6 +2,7 @@
 name: "thought.HATRED AND LOVE"
 alias: "Thought: Hatred And Love"
 type: THOUGHT
+en_content: "One who is incapable of hatred is also incapable of love."
 parent: "topic.PHILOSOPHY"
 tags:
 - love

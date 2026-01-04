@@ -2,6 +2,7 @@
 name: "thought.GOD OF PROJECTS"
 alias: "Thought: God Of Projects"
 type: THOUGHT
+en_content: "Jesus Christ is The God of Project Management."
 parent: "topic.THE GODHEAD"
 tags:
 - jesus

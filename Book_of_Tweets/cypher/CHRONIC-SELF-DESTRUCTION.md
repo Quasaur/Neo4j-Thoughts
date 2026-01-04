@@ -2,6 +2,7 @@
 name: "thought.CHRONIC SELF DESTRUCTION"
 alias: "Thought: Chronic Self Destruction"
 type: THOUGHT
+en_content: "As a species the homosapien is chronically self-destructive and IT CANNOT STOP ITSELF...therefore God must judge it."
 parent: "topic.HUMANITY"
 tags:
 - humanity

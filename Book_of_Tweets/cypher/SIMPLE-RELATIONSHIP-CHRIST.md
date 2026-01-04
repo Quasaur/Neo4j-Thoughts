@@ -2,6 +2,7 @@
 name: "thought.SIMPLE RELATIONSHIP CHRIST"
 alias: "Thought: Simple Relationship Christ"
 type: THOUGHT
+en_content: "A relationship with Christ is simple...I make it complicated."
 parent: "topic.SPIRITUALITY"
 tags:
 - relationship

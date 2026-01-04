@@ -2,6 +2,7 @@
 name: "thought.OPPRESSING THE POOR"
 alias: "Thought: Oppressing The Poor"
 type: THOUGHT
+en_content: "Whoever oppresses the poor to increase his own wealth, or gives to the rich, will only come to poverty. Proverbs 22:16, ESV"
 parent: "topic.MORALITY"
 tags:
 - oppression

@@ -2,6 +2,7 @@
 name: "thought.ABORTION AND GOLDEN RULE"
 alias: "Thought: Abortion And Golden Rule"
 type: THOUGHT
+en_content: "Abortion is a violation of the Golden Rule: \"Do unto others as you would have them do into you.\""
 parent: "topic.MORALITY"
 tags:
 - morality

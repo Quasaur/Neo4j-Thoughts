@@ -2,6 +2,7 @@
 name: "thought.UNSUSTAINABLE WORLD SYSTEM"
 alias: "Thought: Unsustainable World System"
 type: THOUGHT
+en_content: "I believe the Hebrew Scriptures...this world system is unsustainable."
 parent: "topic.HUMANITY"
 tags:
 - humanity

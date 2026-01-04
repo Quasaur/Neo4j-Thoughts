@@ -8,6 +8,7 @@ tags:
 - presence_god
 - awakening
 - consciousness
+en_content: "This life is a dream...and only in the Presence of God are we truly awake."
 parent: topic.PHILOSOPHY
 level: 4
 neo4j: true

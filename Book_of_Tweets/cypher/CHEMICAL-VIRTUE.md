@@ -2,6 +2,7 @@
 name: "thought.CHEMICAL VIRTUE"
 alias: "Thought: Chemical Virtue"
 type: THOUGHT
+en_content: "You yourself are a supernatural being! Explain LOVE, or COURAGE or VIRTUE chemically."
 parent: "topic.PHILOSOPHY"
 tags:
 - supernatural

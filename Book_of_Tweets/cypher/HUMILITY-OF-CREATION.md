@@ -2,6 +2,7 @@
 name: "thought.HUMILITY OF CREATION"
 alias: "Thought: Humility Of Creation"
 type: THOUGHT
+en_content: "It was The Supreme Act of Humility for God, Who doesn't need anything, to create something!"
 parent: "topic.THE GODHEAD"
 tags:
 - humility

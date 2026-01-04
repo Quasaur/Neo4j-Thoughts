@@ -2,6 +2,7 @@
 name: "thought.DISABILITY OF SPIRIT"
 alias: "Thought: Disability Of Spirit"
 type: THOUGHT
+en_content: "The inability to perceive God's Immediate Presence is a greater disability than not being able to walk or see."
 parent: "topic.SPIRITUALITY"
 tags:
 - presence

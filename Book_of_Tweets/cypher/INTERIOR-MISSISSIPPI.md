@@ -2,6 +2,7 @@
 name: "thought.INTERIOR MISSISSIPPI"
 alias: "Thought: Interior Mississippi"
 type: THOUGHT
+en_content: "\"You know what they say: 'Between Pittsburgh and Philadelphia is Mississippi!'\" -- Anonymous"
 parent: "topic.MORALITY"
 tags:
 - society

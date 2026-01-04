@@ -2,6 +2,7 @@
 name: "thought.ELECTROMAGNETISM TOUCH"
 alias: "Thought: Electromagnetism Touch"
 type: THOUGHT
+en_content: "Under normal circumstances, electromagnetism prevents any 2 surfaces from touching...God is great!"
 parent: "topic.CREATION"
 tags:
 - science

@@ -2,6 +2,7 @@
 name: "thought.ORDERS GIVING TAKING"
 alias: "Thought: Orders Giving Taking"
 type: THOUGHT
+en_content: "I'm highly suspicious of people who can give orders but not take orders."
 parent: "topic.ATTITUDE"
 tags:
 - authority

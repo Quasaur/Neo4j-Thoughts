@@ -2,6 +2,7 @@
 name: "thought.CREATORS SUFFERING"
 alias: "Thought: Creators Suffering"
 type: THOUGHT
+en_content: "Better for all of us to have gone to Hell than for Our Precious Creator to have suffered the way He did."
 parent: "topic.THE GODHEAD"
 tags:
 - suffering

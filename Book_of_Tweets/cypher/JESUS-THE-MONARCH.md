@@ -2,6 +2,7 @@
 name: "thought.JESUS THE MONARCH"
 alias: "Thought: Jesus The Monarch"
 type: THOUGHT
+en_content: "Jesus is neither a Republican nor a Democrat; Jesus is God...an Absolute Monarch."
 parent: "topic.DIVINE SOVEREIGNTY"
 tags:
 - sovereignty

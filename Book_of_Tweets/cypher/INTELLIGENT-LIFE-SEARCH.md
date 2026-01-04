@@ -2,6 +2,7 @@
 name: "thought.INTELLIGENT LIFE SEARCH"
 alias: "Thought: Intelligent Life Search"
 type: THOUGHT
+en_content: "Why is it that all of the instruments seeking intelligent life in the universe are pointed away from Earth?"
 parent: "topic.PHILOSOPHY"
 tags:
 - intelligence

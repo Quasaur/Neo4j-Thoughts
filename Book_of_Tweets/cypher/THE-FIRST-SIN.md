@@ -2,6 +2,7 @@
 name: "thought.THE FIRST SIN"
 alias: "Thought: The First Sin"
 type: THOUGHT
+en_content: "The First Sinner committed the First Sin by taking the credit for that which he did not create: himself."
 parent: "topic.HUMANITY"
 tags:
 - sin

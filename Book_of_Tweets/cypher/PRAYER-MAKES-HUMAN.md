@@ -2,6 +2,7 @@
 name: "thought.PRAYER MAKES HUMAN"
 alias: "Thought: Prayer Makes Human"
 type: THOUGHT
+en_content: "Prayer, above all else, is what makes me Human; without it, I'm just an animal."
 parent: "topic.SPIRITUALITY"
 tags:
 - prayer

@@ -2,6 +2,7 @@
 name: "thought.DNA MEMORY VS REINCARNATION"
 alias: "Thought: Dna Memory Vs Reincarnation"
 type: THOUGHT
+en_content: "Reincarnation: what if these memories are not of previous lives, but of the lives of our ancestors engraved on our spirits/DNA?"
 parent: "topic.PHILOSOPHY"
 tags:
 - philosophy

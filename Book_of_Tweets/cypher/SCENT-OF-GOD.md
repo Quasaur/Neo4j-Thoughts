@@ -2,6 +2,7 @@
 name: "thought.SCENT OF GOD"
 alias: "Thought: Scent Of God"
 type: THOUGHT
+en_content: "It is Prayer, and Prayer alone, that places the Scent of God on us."
 parent: "topic.SPIRITUALITY"
 tags:
 - prayer

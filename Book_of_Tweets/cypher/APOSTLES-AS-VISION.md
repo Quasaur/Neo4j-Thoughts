@@ -2,6 +2,7 @@
 name: "thought.APOSTLES AS VISION"
 alias: "Thought: Apostles As Vision"
 type: THOUGHT
+en_content: "The Apostles loved Jesus' Vision because the Apostles WERE Jesus' Vision!"
 parent: "topic.RELIGION"
 tags:
 - apostles

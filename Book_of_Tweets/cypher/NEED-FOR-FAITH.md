@@ -2,6 +2,7 @@
 name: "thought.NEED FOR FAITH"
 alias: "Thought: Need For Faith"
 type: THOUGHT
+en_content: "As long as there is ignorance, there will be a need for faith."
 parent: "topic.FAITH"
 tags:
 - faith

@@ -2,6 +2,7 @@
 name: "thought.ALIGNING THROUGH PRAYER"
 alias: "Thought: Aligning Through Prayer"
 type: THOUGHT
+en_content: "The purpose of prayer is not just to get God to do stuff, but to align myself with what God is doing!"
 parent: "topic.SPIRITUALITY"
 tags:
 - prayer

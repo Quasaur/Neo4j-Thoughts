@@ -2,6 +2,7 @@
 name: "thought.DEFINE TRUST"
 alias: "Thought: Define Trust"
 type: THOUGHT
+en_content: "TRUST is born of both confidence and ignorance."
 parent: "topic.FAITH"
 tags:
 - trust

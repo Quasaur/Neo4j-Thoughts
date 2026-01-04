@@ -2,6 +2,7 @@
 name: "thought.CHURCH AS LOVE GROUP"
 alias: "Thought: Church As Love Group"
 type: THOUGHT
+en_content: "The number of hate groups has doubled the last 10 years. Where's the love groups? Oh yeah: that's what the CHURCH's supposed to be!"
 parent: "topic.RELIGION"
 tags:
 - church

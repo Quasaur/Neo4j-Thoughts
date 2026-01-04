@@ -2,6 +2,7 @@
 name: "thought.ALL TRUTH GODS"
 alias: "Thought: All Truth Gods"
 type: THOUGHT
+en_content: "All truth belongs to God."
 parent: "topic.TRUTH"
 tags:
 - truth

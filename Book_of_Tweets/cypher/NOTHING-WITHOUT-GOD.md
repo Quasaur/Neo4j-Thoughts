@@ -2,6 +2,7 @@
 name: "thought.NOTHING WITHOUT GOD"
 alias: "Thought: Nothing Without God"
 type: THOUGHT
+en_content: "You are NOTHING without God; You are EVERYTHING to God."
 parent: "topic.HUMANITY"
 tags:
 - humanity

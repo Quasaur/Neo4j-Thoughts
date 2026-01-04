@@ -2,6 +2,7 @@
 name: "thought.PRAYER NOT JOB"
 alias: "Thought: Prayer Not Job"
 type: THOUGHT
+en_content: "Prayer was never meant to be a job."
 parent: "topic.SPIRITUALITY"
 tags:
 - prayer

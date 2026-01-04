@@ -2,6 +2,7 @@
 name: "thought.IRREDUCIBLE COMPLEXITY"
 alias: "Thought: Irreducible Complexity"
 type: THOUGHT
+en_content: "It's going to take more than a judge's ruling to disprove the TRUTH of Irreducible Complexity."
 parent: "topic.CREATION"
 tags:
 - creation

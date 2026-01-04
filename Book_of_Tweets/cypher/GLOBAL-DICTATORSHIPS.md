@@ -2,6 +2,7 @@
 name: "thought.GLOBAL DICTATORSHIPS"
 alias: "Thought: Global Dictatorships"
 type: THOUGHT
+en_content: "2 billion of the 7 billion people on this planet live under dictatorships."
 parent: "topic.MORALITY"
 tags:
 - dictatorship

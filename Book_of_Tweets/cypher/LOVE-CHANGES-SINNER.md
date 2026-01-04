@@ -2,6 +2,7 @@
 name: "thought.LOVE CHANGES SINNER"
 alias: "Thought: Love Changes Sinner"
 type: THOUGHT
+en_content: "It is the LOVE OF GOD that changes a sinner to a saint."
 parent: "topic.GRACE"
 tags:
 - love

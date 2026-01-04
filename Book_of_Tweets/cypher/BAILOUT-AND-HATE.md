@@ -2,6 +2,7 @@
 name: "thought.BAILOUT AND HATE"
 alias: "Thought: Bailout And Hate"
 type: THOUGHT
+en_content: "Obama bailed out the Republicans...which made them hate him all the more."
 parent: "topic.MORALITY"
 tags:
 - politics

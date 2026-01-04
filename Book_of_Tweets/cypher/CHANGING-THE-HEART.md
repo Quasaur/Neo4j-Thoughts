@@ -2,6 +2,7 @@
 name: "thought.CHANGING THE HEART"
 alias: "Thought: Changing The Heart"
 type: THOUGHT
+en_content: "Proverbs 21:1; Matthew 19:25, 26. God has--and uses--the ability to change the heart's intent...otherwise no one would be saved."
 parent: "topic.DIVINE SOVEREIGNTY"
 tags:
 - sovereignty

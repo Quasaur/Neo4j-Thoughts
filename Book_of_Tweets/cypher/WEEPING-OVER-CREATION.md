@@ -2,6 +2,7 @@
 name: "thought.WEEPING OVER CREATION"
 alias: "Thought: Ecological Care"
 type: THOUGHT
+en_content: "(Weeping over BP Oil Spill)."
 parent: "topic.CREATION"
 tags:
 - creation

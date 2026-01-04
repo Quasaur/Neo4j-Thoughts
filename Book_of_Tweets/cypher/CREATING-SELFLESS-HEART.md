@@ -2,6 +2,7 @@
 name: "thought.CREATING SELFLESS HEART"
 alias: "Thought: Creating Selfless Heart"
 type: THOUGHT
+en_content: "Only God can create a selfless heart from a pile of dust."
 parent: "topic.THE GODHEAD"
 tags:
 - heart

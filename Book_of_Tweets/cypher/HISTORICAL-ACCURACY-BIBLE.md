@@ -2,6 +2,7 @@
 name: "thought.HISTORICAL ACCURACY BIBLE"
 alias: "Thought: Historical Accuracy Bible"
 type: THOUGHT
+en_content: "The God in The Bible is described as Truth; therefore The Bible itself must be HISTORICALLY ACCURATE."
 parent: "topic.TRUTH"
 tags:
 - truth

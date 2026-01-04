@@ -2,6 +2,7 @@
 name: "thought.GODS SUPERIOR OFFER"
 alias: "Thought: Gods Superior Offer"
 type: THOUGHT
+en_content: "God has FAR MORE to offer me than I have to offer Him."
 parent: "topic.THE GODHEAD"
 tags:
 - god

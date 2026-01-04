@@ -2,6 +2,7 @@
 name: "thought.GLORY THROUGH LOSERS"
 alias: "Thought: Glory Through Losers"
 type: THOUGHT
+en_content: "God prefers losers so that when we win God gets the glory!"
 parent: "topic.GRACE"
 tags:
 - grace

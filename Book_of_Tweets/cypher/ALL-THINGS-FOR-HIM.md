@@ -2,6 +2,7 @@
 name: "thought.ALL THINGS FOR HIM"
 alias: "Thought: All Things For Him"
 type: THOUGHT
+en_content: "All things are from, to and for Him; this is fitting, for He is worthy."
 parent: "topic.THE GODHEAD"
 tags:
 - worthyship

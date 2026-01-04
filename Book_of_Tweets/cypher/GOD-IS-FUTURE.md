@@ -2,6 +2,7 @@
 name: "thought.GOD IS FUTURE"
 alias: "Thought: God Is Future"
 type: THOUGHT
+en_content: "God is your Future."
 parent: "topic.SPIRITUALITY"
 tags:
 - future

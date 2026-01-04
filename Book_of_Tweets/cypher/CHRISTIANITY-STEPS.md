@@ -2,6 +2,7 @@
 name: "thought.CHRISTIANITY STEPS"
 alias: "Thought: Christianity Steps"
 type: THOUGHT
+en_content: "Christianity: READ, HEAR, BELIEVE, CONFESS, OBEY, ASK, RECEIVE."
 parent: "topic.RELIGION"
 tags:
 - faith

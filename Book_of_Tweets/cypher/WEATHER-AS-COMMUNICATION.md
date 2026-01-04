@@ -2,6 +2,7 @@
 name: "thought.WEATHER AS COMMUNICATION"
 alias: "Thought: Weather As Communication"
 type: THOUGHT
+en_content: "2 Chronicles 7:12-14; Leviticus 18:25: Yes, God DOES communicate and punish through weather and nature."
 parent: "topic.DIVINE SOVEREIGNTY"
 tags:
 - sovereignty

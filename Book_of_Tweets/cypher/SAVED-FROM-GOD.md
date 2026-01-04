@@ -2,6 +2,7 @@
 name: "thought.SAVED FROM GOD"
 alias: "Thought: Saved From God"
 type: THOUGHT
+en_content: "God can save you from anybody...but who can save you from God?"
 parent: "topic.DIVINE SOVEREIGNTY"
 tags:
 - salvation

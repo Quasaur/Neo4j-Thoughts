@@ -2,6 +2,7 @@
 name: "thought.FAITH REQUIRES LOVE"
 alias: "Thought: Faith Requires Love"
 type: THOUGHT
+en_content: "True Faith is impossible to achieve without LOVE."
 parent: "topic.FAITH"
 tags:
 - faith

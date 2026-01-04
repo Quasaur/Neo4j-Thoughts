@@ -2,6 +2,7 @@
 name: "thought.STANDARD MODEL OBSERVATION"
 alias: "Thought: Standard Model Observation"
 type: THOUGHT
+en_content: "Are you even aware that the Standard Model DOESN'T reflect what's actually being observed in the Cosmos??"
 parent: "topic.PHILOSOPHY"
 tags:
 - science

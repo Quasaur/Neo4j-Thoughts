@@ -2,6 +2,7 @@
 name: "thought.INVISIBLE IN IMPOSSIBLE"
 alias: "Thought: Invisible In Impossible"
 type: THOUGHT
+en_content: "God is invisible except in the impossible."
 parent: "topic.THE GODHEAD"
 tags:
 - god

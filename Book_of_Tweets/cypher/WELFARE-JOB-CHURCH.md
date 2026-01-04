@@ -2,6 +2,7 @@
 name: "thought.WELFARE JOB CHURCH"
 alias: "Thought: Welfare Job Church"
 type: THOUGHT
+en_content: "Welfare is not the job of government; it's the job of the Church (Matthew 25:31-46)."
 parent: "topic.RELIGION"
 tags:
 - welfare

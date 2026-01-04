@@ -2,6 +2,7 @@
 name: "thought.MOTHER OF JESUS"
 alias: "Thought: Mother Of Jesus"
 type: THOUGHT
+en_content: "Mary is the BIOLOGICAL mother of Jesus, not the SPIRITUAL mother of God."
 parent: "topic.THE GODHEAD"
 tags:
 - mary

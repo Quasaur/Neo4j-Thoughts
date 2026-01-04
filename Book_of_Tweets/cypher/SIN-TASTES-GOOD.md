@@ -2,6 +2,7 @@
 name: "thought.SIN TASTES GOOD"
 alias: "Thought: Sin Tastes Good"
 type: THOUGHT
+en_content: "Sin is killing us; but at least it tastes good!"
 parent: "topic.MORALITY"
 tags:
 - sin

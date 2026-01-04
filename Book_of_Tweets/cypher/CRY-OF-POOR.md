@@ -2,6 +2,7 @@
 name: "thought.CRY OF POOR"
 alias: "Thought: Cry Of Poor"
 type: THOUGHT
+en_content: "Whoever closes his ear to the cry of the poor will himself call out and not be answered. Proverbs 21:13, ESV"
 parent: "topic.MORALITY"
 tags:
 - poor

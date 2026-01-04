@@ -2,6 +2,7 @@
 name: "thought.CAT ON KNEE"
 alias: "Thought: Cat On Knee"
 type: THOUGHT
+en_content: "My cat will jump up on my knee, and from there knock things off the table so he can play with them on the floor...God is great!"
 parent: "topic.CREATION"
 tags:
 - creation

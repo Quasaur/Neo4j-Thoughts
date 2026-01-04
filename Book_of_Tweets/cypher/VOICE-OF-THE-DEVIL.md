@@ -2,6 +2,7 @@
 name: "thought.VOICE OF THE DEVIL"
 alias: "Thought: Voice Of The Devil"
 type: THOUGHT
+en_content: "Submitting to hate, bitterness and violence is giving a voice to The Devil; these have become his most cherished attributes."
 parent: "topic.EVIL"
 tags:
 - hate

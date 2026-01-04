@@ -2,6 +2,7 @@
 name: "thought.SPIRIT VS MATTER"
 alias: "Thought: Spirit Vs Matter"
 type: THOUGHT
+en_content: "SPIRIT is far older, stronger and eternally more powerful than matter."
 parent: "topic.PHILOSOPHY"
 tags:
 - spirit

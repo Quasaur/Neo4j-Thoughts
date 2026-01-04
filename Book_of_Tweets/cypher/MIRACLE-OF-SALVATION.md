@@ -2,6 +2,7 @@
 name: "thought.MIRACLE OF SALVATION"
 alias: "Thought: Miracle Of Salvation"
 type: THOUGHT
+en_content: "Salvation (separating a sinner from their sin) is a miracle performed by God, not man."
 parent: "topic.GRACE"
 tags:
 - salvation

@@ -2,6 +2,7 @@
 name: "thought.GORGEOUS DIVINITY"
 alias: "Thought: Gorgeous Divinity"
 type: THOUGHT
+en_content: "God is overwhelmingly gorgeous...both inside and out!"
 parent: "topic.BEAUTY"
 tags:
 - beauty

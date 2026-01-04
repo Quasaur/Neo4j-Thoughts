@@ -2,6 +2,7 @@
 name: "thought.OBSOLETE HUMAN RACE"
 alias: "Thought: Obsolete Human Race"
 type: THOUGHT
+en_content: "The human race is obsolete...God is creating a new race with Christ as The Adam; familyship is granted by Grace through Faith."
 parent: "topic.HUMANITY"
 tags:
 - humanity

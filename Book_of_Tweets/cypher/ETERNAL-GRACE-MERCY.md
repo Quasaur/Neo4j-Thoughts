@@ -2,6 +2,7 @@
 name: "thought.ETERNAL GRACE MERCY"
 alias: "Thought: Eternal Grace Mercy"
 type: THOUGHT
+en_content: "Psalm 136: Grace, Mercy and Kindness will never be obsolete; they endure forever."
 parent: "topic.THE GODHEAD"
 tags:
 - grace

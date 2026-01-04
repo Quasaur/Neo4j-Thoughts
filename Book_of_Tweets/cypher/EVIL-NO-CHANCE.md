@@ -2,6 +2,7 @@
 name: "thought.EVIL NO CHANCE"
 alias: "Thought: Evil No Chance"
 type: THOUGHT
+en_content: "Look at God. Evil never had a chance!"
 parent: "topic.THE GODHEAD"
 tags:
 - god

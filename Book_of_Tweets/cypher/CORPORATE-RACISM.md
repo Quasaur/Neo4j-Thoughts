@@ -2,6 +2,7 @@
 name: "thought.CORPORATE RACISM"
 alias: "Thought: Corporate Racism"
 type: THOUGHT
+en_content: "Racism, Discrimination and Prejudice are alive and well in Corporate America."
 parent: "topic.MORALITY"
 tags:
 - racism

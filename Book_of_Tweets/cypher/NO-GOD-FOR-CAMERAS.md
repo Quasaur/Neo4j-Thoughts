@@ -2,6 +2,7 @@
 name: "thought.NO GOD FOR CAMERAS"
 alias: "Thought: No God For Cameras"
 type: THOUGHT
+en_content: "I am convinced that God doesn't perform for cameras."
 parent: "topic.THE GODHEAD"
 tags:
 - god

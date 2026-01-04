@@ -2,6 +2,7 @@
 name: "thought.CHRISTS AMNESTY"
 alias: "Thought: Christs Amnesty"
 type: THOUGHT
+en_content: "Humanity's trial is over, and we have been judged. Execution of sentence is nearer than we realize. Christ is God's Only Amnesty."
 parent: "topic.GRACE"
 tags:
 - amnesty

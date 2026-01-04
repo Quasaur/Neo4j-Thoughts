@@ -2,6 +2,7 @@
 name: "thought.TRULY HUMAN ENGAGEMENT"
 alias: "Thought: Truly Human Engagement"
 type: THOUGHT
+en_content: "One is not truly human until they have engaged their Creator."
 parent: "topic.HUMANITY"
 tags:
 - humanity

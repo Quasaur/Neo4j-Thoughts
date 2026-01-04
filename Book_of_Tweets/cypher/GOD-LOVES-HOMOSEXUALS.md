@@ -2,6 +2,7 @@
 name: "thought.GOD LOVES HOMOSEXUALS"
 alias: "Thought: God Loves Homosexuals"
 type: THOUGHT
+en_content: "God loves homosexuals."
 parent: "topic.THE GODHEAD"
 tags:
 - love

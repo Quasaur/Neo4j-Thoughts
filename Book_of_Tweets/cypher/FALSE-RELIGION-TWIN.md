@@ -2,6 +2,7 @@
 name: "thought.FALSE RELIGION TWIN"
 alias: "Thought: False Religion Twin"
 type: THOUGHT
+en_content: "The Twin of Wickedness is False Religion."
 parent: "topic.RELIGION"
 tags:
 - religion

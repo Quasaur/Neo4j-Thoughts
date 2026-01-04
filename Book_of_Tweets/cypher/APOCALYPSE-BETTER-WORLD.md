@@ -2,6 +2,7 @@
 name: "thought.APOCALYPSE BETTER WORLD"
 alias: "Thought: Apocalypse Better World"
 type: THOUGHT
+en_content: "The Better World is coming! Apocalypse!"
 parent: "topic.DIVINE SOVEREIGNTY"
 tags:
 - apocalypse

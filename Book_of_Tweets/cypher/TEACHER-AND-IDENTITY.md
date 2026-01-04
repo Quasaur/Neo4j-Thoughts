@@ -2,6 +2,7 @@
 name: "thought.TEACHER AND IDENTITY"
 alias: "Thought: Teacher And Identity"
 type: THOUGHT
+en_content: "A teacher challenges your identity and your knowledge, then helps you discover both so that you can stand strong under pressure."
 parent: "topic.WISDOM"
 tags:
 - wisdom

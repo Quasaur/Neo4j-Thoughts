@@ -2,6 +2,7 @@
 name: "thought.WANTING LOVE ONLY"
 alias: "Thought: Wanting Love Only"
 type: THOUGHT
+en_content: "We want to be loved, but we don't want to love...how pathetic."
 parent: "topic.ATTITUDE"
 tags:
 - love

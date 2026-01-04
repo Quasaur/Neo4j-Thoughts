@@ -2,6 +2,7 @@
 name: "thought.DAILY DIVINE LOVE"
 alias: "Thought: Daily Divine Love"
 type: THOUGHT
+en_content: "Though I may deserve Wrath I still need Love...and God gives me His Love every morning!"
 parent: "topic.GRACE"
 tags:
 - love

@@ -2,6 +2,7 @@
 name: "thought.SPITTING ON THE CROSS"
 alias: "Thought: Spitting On The Cross"
 type: THOUGHT
+en_content: "Jesus has been punished for the sin you have committed against me; if I don't forgive you I have spit on The Cross of Christ."
 parent: "topic.GRACE"
 tags:
 - forgiveness

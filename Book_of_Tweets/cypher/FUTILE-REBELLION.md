@@ -2,6 +2,7 @@
 name: "thought.FUTILE REBELLION"
 alias: "Thought: Futile Rebellion"
 type: THOUGHT
+en_content: "Rebellion against God is futile!"
 parent: "topic.HUMANITY"
 tags:
 - rebellion

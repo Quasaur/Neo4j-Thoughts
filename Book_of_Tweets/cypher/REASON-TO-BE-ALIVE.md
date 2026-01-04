@@ -2,6 +2,7 @@
 name: "thought.REASON TO BE ALIVE"
 alias: "Thought: Reason To Be Alive"
 type: THOUGHT
+en_content: "The only reason we are alive is to find Jesus that He may take away our sin."
 parent: "topic.SPIRITUALITY"
 tags:
 - jesus

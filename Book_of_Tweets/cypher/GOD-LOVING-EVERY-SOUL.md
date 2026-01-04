@@ -2,6 +2,7 @@
 name: "thought.GOD LOVING EVERY SOUL"
 alias: "Thought: God Loving Every Soul"
 type: THOUGHT
+en_content: "There is no soul created by God that He did not love."
 parent: "topic.THE GODHEAD"
 tags:
 - love

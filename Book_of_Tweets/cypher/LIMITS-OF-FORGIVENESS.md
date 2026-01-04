@@ -2,6 +2,7 @@
 name: "thought.LIMITS OF FORGIVENESS"
 alias: "Thought: Limits Of Forgiveness"
 type: THOUGHT
+en_content: "The only people God doesn't forgive are those who don't want to be forgiven."
 parent: "topic.GRACE"
 tags:
 - forgiveness

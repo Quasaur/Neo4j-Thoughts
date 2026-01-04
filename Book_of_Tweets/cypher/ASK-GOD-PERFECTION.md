@@ -2,6 +2,7 @@
 name: "thought.ASK GOD PERFECTION"
 alias: "Thought: Ask God Perfection"
 type: THOUGHT
+en_content: "Perfection isn't that difficult...ask God!"
 parent: "topic.THE GODHEAD"
 tags:
 - perfection

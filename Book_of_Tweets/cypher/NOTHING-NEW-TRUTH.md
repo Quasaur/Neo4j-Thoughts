@@ -2,6 +2,7 @@
 name: "thought.NOTHING NEW TRUTH"
 alias: "Thought: Nothing New Truth"
 type: THOUGHT
+en_content: "There is nothing new about Truth."
 parent: "topic.TRUTH"
 tags:
 - truth

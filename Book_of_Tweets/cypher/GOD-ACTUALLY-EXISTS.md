@@ -2,6 +2,7 @@
 name: "thought.GOD ACTUALLY EXISTS"
 alias: "Thought: God Actually Exists"
 type: THOUGHT
+en_content: "The idea that a Being such as That described in the Bible (God) actually exists should frighten us all...and it will."
 parent: "topic.THE GODHEAD"
 tags:
 - existence

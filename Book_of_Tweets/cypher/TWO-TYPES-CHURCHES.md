@@ -2,6 +2,7 @@
 name: "thought.TWO TYPES CHURCHES"
 alias: "Thought: Two Types Churches"
 type: THOUGHT
+en_content: "There are two churches: (1) the institutionalized church, and (2) the REAL church elected by God; one is temporary, one is eternal."
 parent: "topic.RELIGION"
 tags:
 - church

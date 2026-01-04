@@ -2,6 +2,7 @@
 name: "thought.LOVING THE HATEFUL"
 alias: "Thought: Loving The Hateful"
 type: THOUGHT
+en_content: "Loving the hateful... how does God do it? How can I do it?"
 parent: "topic.THE GODHEAD"
 tags:
 - love

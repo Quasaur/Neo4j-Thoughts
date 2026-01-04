@@ -2,6 +2,7 @@
 name: "thought.QUESTIONING GODS EXISTENCE"
 alias: "Thought: Questioning Gods Existence"
 type: THOUGHT
+en_content: "In a perverse generation they question God's Existence, when it's their existence and survival that has a question mark behind them."
 parent: "topic.PHILOSOPHY"
 tags:
 - existence

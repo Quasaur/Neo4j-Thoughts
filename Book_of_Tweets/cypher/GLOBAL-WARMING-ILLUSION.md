@@ -2,6 +2,7 @@
 name: "thought.GLOBAL WARMING ILLUSION"
 alias: "Thought: Global Warming Illusion"
 type: THOUGHT
+en_content: "Do you still believe global warming is an illusion?"
 parent: "topic.CREATION"
 tags:
 - creation

@@ -2,6 +2,7 @@
 name: "thought.PLANETARY STARVATION"
 alias: "Thought: Planetary Starvation"
 type: THOUGHT
+en_content: "There's enough resources on Planet Earth for EVERYONE...so why are people starving?!?"
 parent: "topic.MORALITY"
 tags:
 - poverty

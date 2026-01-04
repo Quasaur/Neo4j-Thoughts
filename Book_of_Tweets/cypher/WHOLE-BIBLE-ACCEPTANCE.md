@@ -2,6 +2,7 @@
 name: "thought.WHOLE BIBLE ACCEPTANCE"
 alias: "Thought: Whole Bible Acceptance"
 type: THOUGHT
+en_content: "We should accept the whole Bible, or none of it; otherwise we distort its message."
 parent: "topic.TRUTH"
 tags:
 - bible

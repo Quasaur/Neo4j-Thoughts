@@ -2,6 +2,7 @@
 name: "thought.AMERICA CHEATS ITSELF"
 alias: "Thought: America Cheats Itself"
 type: THOUGHT
+en_content: "America is a nation that CHEATS ITSELF out of its own money."
 parent: "topic.MORALITY"
 tags:
 - america

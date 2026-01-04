@@ -2,6 +2,7 @@
 name: "thought.UNIVERSAL MERCY REQUIREMENT"
 alias: "Thought: Universal Mercy Requirement"
 type: THOUGHT
+en_content: "God has to have mercy on everybody in order to save anybody."
 parent: "topic.GRACE"
 tags:
 - mercy

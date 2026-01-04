@@ -2,6 +2,7 @@
 name: "thought.GODS SELF PORTRAIT"
 alias: "Thought: Gods Self Portrait"
 type: THOUGHT
+en_content: "Jesus Christ is God's Self Portrait, etched on the canvas of humanity by the Holy Spirit."
 parent: "topic.THE GODHEAD"
 tags:
 - jesus

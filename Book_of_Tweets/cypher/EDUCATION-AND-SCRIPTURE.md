@@ -2,6 +2,7 @@
 name: "thought.EDUCATION AND SCRIPTURE"
 alias: "Thought: Education And Scripture"
 type: THOUGHT
+en_content: "How can anyone be considered educated without having surveyed the Holy Scriptures?"
 parent: "topic.TRUTH"
 tags:
 - education

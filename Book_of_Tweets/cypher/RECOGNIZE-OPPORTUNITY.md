@@ -2,6 +2,7 @@
 name: "thought.RECOGNIZE OPPORTUNITY"
 alias: "Thought: Recognize Opportunity"
 type: THOUGHT
+en_content: "The tragedy is that African American men do not recognize opportunity when they see it."
 parent: "topic.WISDOM"
 tags:
 - opportunity

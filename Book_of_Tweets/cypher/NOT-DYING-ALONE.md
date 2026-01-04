@@ -2,6 +2,7 @@
 name: "thought.NOT DYING ALONE"
 alias: "Thought: Not Dying Alone"
 type: THOUGHT
+en_content: "God will let you die...but He will not let you die alone."
 parent: "topic.SPIRITUALITY"
 tags:
 - death

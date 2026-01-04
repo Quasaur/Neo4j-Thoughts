@@ -2,6 +2,7 @@
 name: "thought.SALVATION FOR ANYBODY"
 alias: "Thought: Salvation For Anybody"
 type: THOUGHT
+en_content: "Salvation is not for everybody, yet God can save anybody!"
 parent: "topic.GRACE"
 tags:
 - salvation

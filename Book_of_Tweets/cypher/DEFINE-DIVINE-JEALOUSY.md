@@ -2,6 +2,7 @@
 name: "thought.DEFINE DIVINE JEALOUSY"
 alias: "Thought: Define Divine Jealousy"
 type: THOUGHT
+en_content: "Divine Jealousy: Ownership in Love with Responsibility and Accountability."
 parent: "topic.THE GODHEAD"
 tags:
 - jealousy

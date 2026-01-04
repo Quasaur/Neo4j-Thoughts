@@ -2,6 +2,7 @@
 name: "thought.WEIGHT OF GREED"
 alias: "Thought: Weight Of Greed"
 type: THOUGHT
+en_content: "America is finally buckling under the weight of its own greed."
 parent: "topic.MORALITY"
 tags:
 - greed

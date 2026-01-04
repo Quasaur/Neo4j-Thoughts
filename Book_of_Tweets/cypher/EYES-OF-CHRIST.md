@@ -2,6 +2,7 @@
 name: "thought.EYES OF CHRIST"
 alias: "Thought: Eyes Of Christ"
 type: THOUGHT
+en_content: "From the smallest subatomic particle to the deepest intent of the human heart, the Eyes of Christ miss nothing."
 parent: "topic.THE GODHEAD"
 tags:
 - omniscience

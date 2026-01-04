@@ -2,6 +2,7 @@
 name: "thought.TRUTH CONFIRMS GOD"
 alias: "Thought: Truth Confirms God"
 type: THOUGHT
+en_content: "There is no truth that denies God's Existence."
 parent: "topic.TRUTH"
 tags:
 - truth

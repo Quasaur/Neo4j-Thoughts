@@ -2,6 +2,7 @@
 name: "thought.COST OF HEAVEN"
 alias: "Thought: Cost Of Heaven"
 type: THOUGHT
+en_content: "Heaven is free--but it ain't cheap!"
 parent: "topic.GRACE"
 tags:
 - heaven

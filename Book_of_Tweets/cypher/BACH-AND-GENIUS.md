@@ -8,6 +8,7 @@ tags:
 - music
 - gift
 - transcendence
+en_content: "Johann Sebastian Bach is one of those rare souls whose gifts transcend all genius!"
 parent: topic.MUSIC
 level: 6
 neo4j: true

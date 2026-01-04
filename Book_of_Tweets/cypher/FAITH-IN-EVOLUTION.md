@@ -2,6 +2,7 @@
 name: "thought.FAITH IN EVOLUTION"
 alias: "Thought: Faith In Evolution"
 type: THOUGHT
+en_content: "Evolution requires FAR MORE FAITH than Intelligent Design."
 parent: "topic.FAITH"
 tags:
 - faith

@@ -2,6 +2,7 @@
 name: "thought.OPPRESSIVE WEALTH"
 alias: "Thought: Oppressive Wealth"
 type: THOUGHT
+en_content: "The Bible says some nasty things about rich people who oppress the masses."
 parent: "topic.MORALITY"
 tags:
 - wealth

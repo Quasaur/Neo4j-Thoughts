@@ -2,6 +2,7 @@
 name: "thought.DARK MATTER NEED"
 alias: "Thought: Dark Matter Need"
 type: THOUGHT
+en_content: "If the Standard Model was doing its job, there'd be no need for \"dark matter\", \"dark energy\" or \"dark flow\"!"
 parent: "topic.PHILOSOPHY"
 tags:
 - science

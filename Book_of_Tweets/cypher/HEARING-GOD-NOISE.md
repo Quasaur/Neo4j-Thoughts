@@ -2,6 +2,7 @@
 name: "thought.HEARING GOD NOISE"
 alias: "Thought: Hearing God Noise"
 type: THOUGHT
+en_content: "We cannot hear God through the noise of our own desire."
 parent: "topic.SPIRITUALITY"
 tags:
 - spirituality

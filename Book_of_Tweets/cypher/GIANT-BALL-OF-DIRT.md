@@ -2,6 +2,7 @@
 name: "thought.GIANT BALL OF DIRT"
 alias: "Thought: Giant Ball Of Dirt"
 type: THOUGHT
+en_content: "We are living on a GIANT BALL OF DIRT...God is great!"
 parent: "topic.CREATION"
 tags:
 - creation

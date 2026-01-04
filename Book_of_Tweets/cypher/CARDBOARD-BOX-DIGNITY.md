@@ -2,6 +2,7 @@
 name: "thought.CARDBOARD BOX DIGNITY"
 alias: "Thought: Cardboard Box Dignity"
 type: THOUGHT
+en_content: "I'd rather live in a cardboard box than to earn 6 figures and be treated like a pet!"
 parent: "topic.HUMANITY"
 tags:
 - dignity

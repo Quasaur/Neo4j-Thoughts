@@ -2,6 +2,7 @@
 name: "thought.CHRISTIANS ON CROSSES"
 alias: "Thought: Christians On Crosses"
 type: THOUGHT
+en_content: "True Christians are easy to identify: they're the ones hanging on crosses."
 parent: "topic.RELIGION"
 tags:
 - christians

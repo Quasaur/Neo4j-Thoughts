@@ -2,6 +2,7 @@
 name: "thought.REMOVING ALL THINGS"
 alias: "Thought: Removing All Things"
 type: THOUGHT
+en_content: "\"I will completely remove all things from the face of the earth,\" -- God, Zephaniah 1:2"
 parent: "topic.DIVINE SOVEREIGNTY"
 tags:
 - judgment

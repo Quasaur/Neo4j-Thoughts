@@ -2,6 +2,7 @@
 name: "thought.DAMNING THE ARROGANT"
 alias: "Thought: Damning The Arrogant"
 type: THOUGHT
+en_content: "How does God damn a sinner? By letting them prosper in their arrogance."
 parent: "topic.DIVINE SOVEREIGNTY"
 tags:
 - judgment

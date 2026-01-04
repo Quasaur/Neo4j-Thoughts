@@ -2,6 +2,7 @@
 name: "thought.DISENFRANCHISING POOR WATCHING"
 alias: "Thought: Disenfranchising Poor Watching"
 type: THOUGHT
+en_content: "To those that continue to disenfranchise the poor and minorities: GOD IS WATCHING."
 parent: "topic.MORALITY"
 tags:
 - poor

@@ -2,6 +2,7 @@
 name: "thought.RECONCILING IN CHRIST"
 alias: "Thought: Reconciling In Christ"
 type: THOUGHT
+en_content: "1st Corinthians 15:24-28: God is reconciling and consolidating all things into Christ."
 parent: "topic.THE GODHEAD"
 tags:
 - reconciliation

@@ -2,6 +2,7 @@
 name: "thought.SELF DECEPTION FIRST"
 alias: "Thought: Self Deception First"
 type: THOUGHT
+en_content: "To deceive another, you must first deceive yourself."
 parent: "topic.PSYCHOLOGY"
 tags:
 - deception

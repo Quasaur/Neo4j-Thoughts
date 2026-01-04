@@ -2,6 +2,7 @@
 name: "thought.ECONOMIC INJUSTICE"
 alias: "Thought: Economic Injustice"
 type: THOUGHT
+en_content: "This economic downturn is especially difficult for African Americans; we're the last to get hired and the 1st to get fired."
 parent: "topic.MORALITY"
 tags:
 - justice

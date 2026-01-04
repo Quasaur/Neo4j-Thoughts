@@ -2,6 +2,7 @@
 name: "thought.BOUNTIFUL EYE"
 alias: "Thought: Bountiful Eye"
 type: THOUGHT
+en_content: "Whoever has a bountiful eye will be blessed, for he shares his bread with the poor. Proverbs 22:9, ESV"
 parent: "topic.MORALITY"
 tags:
 - blessing

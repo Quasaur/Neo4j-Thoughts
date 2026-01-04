@@ -2,6 +2,7 @@
 name: "thought.EARTH SPEED SPACE"
 alias: "Thought: Earth Speed Space"
 type: THOUGHT
+en_content: "The Earth is tearing thru space at over 667,000 MPH, and we're not dead ...God is great!"
 parent: "topic.CREATION"
 tags:
 - creation

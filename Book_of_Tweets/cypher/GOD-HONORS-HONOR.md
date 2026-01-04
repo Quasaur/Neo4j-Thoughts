@@ -2,6 +2,7 @@
 name: "thought.GOD HONORS HONOR"
 alias: "Thought: God Honors Honor"
 type: THOUGHT
+en_content: "God is not stupid; He honors those who honor Him...those who ignore Him are lightly esteemed."
 parent: "topic.THE GODHEAD"
 tags:
 - god

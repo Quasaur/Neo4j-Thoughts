@@ -2,6 +2,7 @@
 name: "thought.NET VS SELF WORTH"
 alias: "Thought: Net Vs Self Worth"
 type: THOUGHT
+en_content: "Don't confuse net worth with self-worth."
 parent: "topic.HUMANITY"
 tags:
 - wealth

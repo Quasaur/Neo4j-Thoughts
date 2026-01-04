@@ -2,6 +2,7 @@
 name: "thought.PRIDE OF SATAN"
 alias: "Thought: Pride Of Satan"
 type: THOUGHT
+en_content: "\"I'm the center of my universe...why can't I be the center of everyone else's?\" -- The Devil"
 parent: "topic.EVIL"
 tags:
 - pride

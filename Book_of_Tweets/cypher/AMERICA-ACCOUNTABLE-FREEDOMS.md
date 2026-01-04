@@ -2,6 +2,7 @@
 name: "thought.AMERICA ACCOUNTABLE FREEDOMS"
 alias: "Thought: America Accountable Freedoms"
 type: THOUGHT
+en_content: "America, God will hold you accountable for the way you spent your freedoms."
 parent: "topic.MORALITY"
 tags:
 - america

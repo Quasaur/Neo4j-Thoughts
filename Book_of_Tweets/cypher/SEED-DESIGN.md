@@ -2,6 +2,7 @@
 name: "thought.SEED DESIGN"
 alias: "Thought: Seed Design"
 type: THOUGHT
+en_content: "Seeds are designed to know when their environment is appropriate for germination...God is Great!"
 parent: "topic.CREATION"
 tags:
 - design

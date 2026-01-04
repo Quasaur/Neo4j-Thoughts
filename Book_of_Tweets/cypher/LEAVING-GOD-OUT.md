@@ -2,6 +2,7 @@
 name: "thought.LEAVING GOD OUT"
 alias: "Thought: Leaving God Out"
 type: THOUGHT
+en_content: "We've left God out."
 parent: "topic.RELIGION"
 tags:
 - secularism

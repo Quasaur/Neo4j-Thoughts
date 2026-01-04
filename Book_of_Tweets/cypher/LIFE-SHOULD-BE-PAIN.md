@@ -2,6 +2,7 @@
 name: "thought.LIFE SHOULD BE PAIN"
 alias: "Thought: Life Should Be Pain"
 type: THOUGHT
+en_content: "Many will tell you life is pain; not many will say it should be. It should be."
 parent: "topic.PHILOSOPHY"
 tags:
 - pain

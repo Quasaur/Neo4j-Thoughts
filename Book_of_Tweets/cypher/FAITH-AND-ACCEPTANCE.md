@@ -2,6 +2,7 @@
 name: "thought.FAITH AND ACCEPTANCE"
 alias: "Thought: Faith And Acceptance"
 type: THOUGHT
+en_content: "Acceptance and faith are irrevocably linked."
 parent: "topic.FAITH"
 tags:
 - faith

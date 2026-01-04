@@ -2,6 +2,7 @@
 name: "thought.THE PRICE OF PROMISCUITY"
 alias: "Thought: The Price Of Promiscuity"
 type: THOUGHT
+en_content: "People who are promiscuous wind up paying a terrible price."
 parent: "topic.MORALITY"
 tags:
 - morality

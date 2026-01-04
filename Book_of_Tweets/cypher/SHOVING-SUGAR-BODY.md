@@ -2,6 +2,7 @@
 name: "thought.SHOVING SUGAR BODY"
 alias: "Thought: Shoving Sugar Body"
 type: THOUGHT
+en_content: "We keep shoving sugar into a body that itself manufactures sugar and then wonder why we get diabetes!"
 parent: "topic.MORALITY"
 tags:
 - sugar

@@ -2,6 +2,7 @@
 name: "thought.SAUL WASTING LIFE"
 alias: "Thought: Saul Wasting Life"
 type: THOUGHT
+en_content: "Saul wasted a large portion of his life trying to kill David while neglecting weightier matters...like his relationship with God."
 parent: "topic.RELIGION"
 tags:
 - saul

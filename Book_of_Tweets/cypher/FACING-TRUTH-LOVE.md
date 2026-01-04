@@ -2,6 +2,7 @@
 name: "thought.FACING TRUTH LOVE"
 alias: "Thought: Facing Truth Love"
 type: THOUGHT
+en_content: "It's God's Love for us that enables us to face the truth about ourselves."
 parent: "topic.GRACE"
 tags:
 - love

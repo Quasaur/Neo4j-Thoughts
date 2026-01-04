@@ -2,6 +2,7 @@
 name: "thought.GOD CARES LITTLE"
 alias: "Thought: God Cares Little"
 type: THOUGHT
+en_content: "God cares about the little people. He made the big people to care for the little people."
 parent: "topic.THE GODHEAD"
 tags:
 - compassion

@@ -2,6 +2,7 @@
 name: "thought.LIVING IN CHRISTS RIGHTEOUSNESS"
 alias: "Thought: Living In Christs Righteousness"
 type: THOUGHT
+en_content: "I live--not with my own righteousness but with Christ's; for God placed me in Christ when He obeyed...now He obeys in me!"
 parent: "topic.GRACE"
 tags:
 - righteousness

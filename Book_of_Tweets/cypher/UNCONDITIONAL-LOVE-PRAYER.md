@@ -2,6 +2,7 @@
 name: "thought.UNCONDITIONAL LOVE PRAYER"
 alias: "Thought: Unconditional Love Prayer"
 type: THOUGHT
+en_content: "Prayer is where I am loved unconditionally."
 parent: "topic.SPIRITUALITY"
 tags:
 - prayer

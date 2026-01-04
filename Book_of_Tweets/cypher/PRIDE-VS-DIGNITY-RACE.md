@@ -2,6 +2,7 @@
 name: "thought.PRIDE VS DIGNITY RACE"
 alias: "Thought: Pride Vs Dignity Race"
 type: THOUGHT
+en_content: "Why do African American men confuse pride with dignity?"
 parent: "topic.HUMANITY"
 tags:
 - pride

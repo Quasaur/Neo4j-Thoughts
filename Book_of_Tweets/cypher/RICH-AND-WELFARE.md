@@ -2,6 +2,7 @@
 name: "thought.RICH AND WELFARE"
 alias: "Thought: Rich And Welfare"
 type: THOUGHT
+en_content: "The rich don't want to pay for welfare ...nor do they wish to hire welfare recipients."
 parent: "topic.MORALITY"
 tags:
 - wealth

@@ -2,6 +2,7 @@
 name: "thought.JESUS AND SCRIPTURE"
 alias: "Thought: Jesus And Scripture"
 type: THOUGHT
+en_content: "Jesus treated the Scriptures as the Testimony of God...I would be foolish to do otherwise."
 parent: "topic.TRUTH"
 tags:
 - jesus

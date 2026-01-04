@@ -2,6 +2,7 @@
 name: "thought.PREEMINENCE OF GOODNESS"
 alias: "Thought: Preeminence Of Goodness"
 type: THOUGHT
+en_content: "That which comes first has the preeminence; righteousness came before sin and goodness came before evil."
 parent: "topic.THE GODHEAD"
 tags:
 - goodness

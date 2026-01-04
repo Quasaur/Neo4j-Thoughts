@@ -2,6 +2,7 @@
 name: "thought.NOTHING WRONG GOD"
 alias: "Thought: Nothing Wrong God"
 type: THOUGHT
+en_content: "There is nothing wrong with God."
 parent: "topic.THE GODHEAD"
 tags:
 - character

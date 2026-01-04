@@ -2,6 +2,7 @@
 name: "thought.MEETING UNCREATED BEING"
 alias: "Thought: Meeting Uncreated Being"
 type: THOUGHT
+en_content: "You haven't lived till you've met An Uncreated Being!"
 parent: "topic.THE GODHEAD"
 tags:
 - encounter

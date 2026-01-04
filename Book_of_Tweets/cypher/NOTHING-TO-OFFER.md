@@ -2,6 +2,7 @@
 name: "thought.NOTHING TO OFFER"
 alias: "Thought: Nothing To Offer"
 type: THOUGHT
+en_content: "God is not interested in what you can offer Him; because the truth is that you have nothing to give God until He gives it to you first!"
 parent: "topic.THE GODHEAD"
 tags:
 - provision

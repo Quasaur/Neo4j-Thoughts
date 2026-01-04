@@ -2,6 +2,7 @@
 name: "thought.RESPECT AND AFFECTION"
 alias: "Thought: Respect And Affection"
 type: THOUGHT
+en_content: "Respect breeds affection."
 parent: "topic.MORALITY"
 tags:
 - respect

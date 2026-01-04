@@ -2,6 +2,7 @@
 name: "thought.LOOKING LIKE JESUS"
 alias: "Thought: Looking Like Jesus"
 type: THOUGHT
+en_content: "Jesus is what you look like to God!"
 parent: "topic.THE GODHEAD"
 tags:
 - jesus

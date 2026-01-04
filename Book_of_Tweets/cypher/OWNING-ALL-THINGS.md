@@ -2,6 +2,7 @@
 name: "thought.OWNING ALL THINGS"
 alias: "Thought: Owning All Things"
 type: THOUGHT
+en_content: "Revelation 21:7: You cannot own ALL THINGS unless you no longer need them."
 parent: "topic.PHILOSOPHY"
 tags:
 - ownership

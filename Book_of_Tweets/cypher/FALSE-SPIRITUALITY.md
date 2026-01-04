@@ -2,6 +2,7 @@
 name: "thought.FALSE SPIRITUALITY"
 alias: "Thought: False Spirituality"
 type: THOUGHT
+en_content: "False Spirituality: placing the Devil around every corner, under every rock and behind every bush to cover defects of character."
 parent: "topic.SPIRITUALITY"
 tags:
 - spirituality

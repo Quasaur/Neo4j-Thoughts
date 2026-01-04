@@ -2,6 +2,7 @@
 name: "thought.DEFINE BEING ALONE"
 alias: "Thought: Define Being Alone"
 type: THOUGHT
+en_content: "The true definition of being alone is being unaware of God's Loving Presence."
 parent: "topic.SPIRITUALITY"
 tags:
 - alone

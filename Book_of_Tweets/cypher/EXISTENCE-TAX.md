@@ -2,6 +2,7 @@
 name: "thought.EXISTENCE TAX"
 alias: "Thought: Existence Tax"
 type: THOUGHT
+en_content: "Cost of Living: Men can't CREATE Life...so they're gonna charge it an existence tax...are you kidding me?!?"
 parent: "topic.MORALITY"
 tags:
 - life

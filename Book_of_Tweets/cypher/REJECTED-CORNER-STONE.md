@@ -2,6 +2,7 @@
 name: "thought.REJECTED CORNER STONE"
 alias: "Thought: Rejected Corner Stone"
 type: THOUGHT
+en_content: "The Stone that the builders rejected...(smile)!"
 parent: "topic.RELIGION"
 tags:
 - stone

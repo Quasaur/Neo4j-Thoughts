@@ -2,6 +2,7 @@
 name: "thought.INVESTMENT IN CHURCH"
 alias: "Thought: Investment In Church"
 type: THOUGHT
+en_content: "If you put something into your church, you'll ALWAYS get something out!"
 parent: "topic.RELIGION"
 tags:
 - church

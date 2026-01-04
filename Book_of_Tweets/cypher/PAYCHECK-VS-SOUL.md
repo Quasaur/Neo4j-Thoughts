@@ -2,6 +2,7 @@
 name: "thought.PAYCHECK VS SOUL"
 alias: "Thought: Paycheck Vs Soul"
 type: THOUGHT
+en_content: "Stop living like your paycheck is worth more than the dignity of your SOUL! Matthew 16:26"
 parent: "topic.MORALITY"
 tags:
 - soul

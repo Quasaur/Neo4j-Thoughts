@@ -2,6 +2,7 @@
 name: "thought.NEAR COLLISION"
 alias: "Thought: Near Collision"
 type: THOUGHT
+en_content: "An AA jet had a near collision with a United over AL...my sister was on the AA plane and could read the writing on the other plane."
 parent: "topic.SPIRITUALITY"
 tags:
 - providence

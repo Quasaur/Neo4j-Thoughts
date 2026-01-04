@@ -2,6 +2,7 @@
 name: "thought.GOOD STRONGER EVIL"
 alias: "Thought: Good Stronger Evil"
 type: THOUGHT
+en_content: "Jesus PROVED that Good is stronger than Evil...that Righteousness is MORE POWERFUL than Sin!"
 parent: "topic.THE GODHEAD"
 tags:
 - jesus

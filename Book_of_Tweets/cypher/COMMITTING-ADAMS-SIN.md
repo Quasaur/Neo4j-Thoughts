@@ -2,6 +2,7 @@
 name: "thought.COMMITTING ADAMS SIN"
 alias: "Thought: Committing Adams Sin"
 type: THOUGHT
+en_content: "We continue to commit Adam's sin, and then wonder why we suffer."
 parent: "topic.HUMANITY"
 tags:
 - sin

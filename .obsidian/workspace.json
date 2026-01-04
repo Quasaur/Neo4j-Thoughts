@@ -89,7 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 468.5086555480957
+    "width": 313.5086555480957
   },
   "right": {
     "id": "23b5a9898015fd07",
@@ -179,6 +179,7 @@
   },
   "active": "de5101ee1a07e21a",
   "lastOpenFiles": [
+    "Book_of_Tweets/add_en_content.py",
     "Book_of_Tweets/cypher/FRIENDS-AND-ENEMIES.md",
     "BASES/Base-Book of Thoughts.md",
     "Book_of_Tweets/cypher/THE-SPEAKING-GOD.md",
@@ -214,7 +215,6 @@
     "content/TOPICS/cypher/done/topic-FREEDOM.log",
     "content/TOPICS/cypher/done/topic-FREEDOM.cypher",
     "Untitled.md",
-    "templater/Template - Move Level to Frontmatter.md",
     "Untitled.canvas",
     "public/attachments/og-image.png",
     "public/static/og-image.png",

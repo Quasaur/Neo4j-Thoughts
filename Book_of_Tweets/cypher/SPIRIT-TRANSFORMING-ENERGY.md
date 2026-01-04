@@ -2,6 +2,7 @@
 name: "thought.SPIRIT TRANSFORMING ENERGY"
 alias: "Thought: Spirit Transforming Energy"
 type: THOUGHT
+en_content: "SPIRIT is so powerful; He can take frozen energy and transform it into Living Energy!"
 parent: "topic.THE GODHEAD"
 tags:
 - spirit

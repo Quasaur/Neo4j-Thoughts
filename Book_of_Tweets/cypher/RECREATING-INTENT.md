@@ -2,6 +2,7 @@
 name: "thought.RECREATING INTENT"
 alias: "Thought: Recreating Intent"
 type: THOUGHT
+en_content: "Fear of judgment will change our behavior...but not our hearts. Only the Love of Christ can recreate my intent."
 parent: "topic.GRACE"
 tags:
 - love

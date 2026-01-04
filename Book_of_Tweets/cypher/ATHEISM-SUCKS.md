@@ -2,6 +2,7 @@
 name: "thought.ATHEISM SUCKS"
 alias: "Thought: Atheism Sucks"
 type: THOUGHT
+en_content: "The problem with believing you're a thing is that you'll start treating other people as things. Atheism sucks!"
 parent: "topic.PHILOSOPHY"
 tags:
 - atheism

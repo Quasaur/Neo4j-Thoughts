@@ -2,6 +2,7 @@
 name: "thought.GRACE VS MERIT"
 alias: "Thought: Grace Vs Merit"
 type: THOUGHT
+en_content: "The merit system and Grace are incompatible...we have to choose one or the other."
 parent: "topic.GRACE"
 tags:
 - grace

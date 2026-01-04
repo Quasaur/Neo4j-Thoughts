@@ -2,6 +2,7 @@
 name: "thought.GOD OF SCIENCE"
 alias: "Thought: God Of Science"
 type: THOUGHT
+en_content: "Jesus Christ is The God of Wisdom, Knowledge, Science and Technology."
 parent: "topic.THE GODHEAD"
 tags:
 - jesus

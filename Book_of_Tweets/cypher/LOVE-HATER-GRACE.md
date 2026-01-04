@@ -2,6 +2,7 @@
 name: "thought.LOVE HATER GRACE"
 alias: "Thought: Love Hater Grace"
 type: THOUGHT
+en_content: "To love the one who loves you is pleasure. To love the one who ignores you is compassion. To love the one who hates you is Grace."
 parent: "topic.GRACE"
 tags:
 - love

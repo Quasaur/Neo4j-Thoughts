@@ -2,6 +2,7 @@
 name: "thought.CORPORATE MONEY WORSHIP"
 alias: "Thought: Corporate Money Worship"
 type: THOUGHT
+en_content: "The corporation as a legal \"person\" worships money."
 parent: "topic.MORALITY"
 tags:
 - morality

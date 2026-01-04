@@ -2,6 +2,7 @@
 name: "thought.SALARY VS VALUE"
 alias: "Thought: Salary Vs Value"
 type: THOUGHT
+en_content: "What's more valuable: my salary or me?"
 parent: "topic.HUMANITY"
 tags:
 - value

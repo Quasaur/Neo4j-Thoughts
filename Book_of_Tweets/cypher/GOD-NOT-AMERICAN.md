@@ -2,6 +2,7 @@
 name: "thought.GOD NOT AMERICAN"
 alias: "Thought: God Not American"
 type: THOUGHT
+en_content: "God is NOT an American."
 parent: "topic.THE GODHEAD"
 tags:
 - god

@@ -2,6 +2,7 @@
 name: "thought.SHOWING MERCY"
 alias: "Thought: Showing Mercy"
 type: THOUGHT
+en_content: "Everybody wants Mercy...few show Mercy."
 parent: "topic.MORALITY"
 tags:
 - mercy

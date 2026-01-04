@@ -2,6 +2,7 @@
 name: "thought.PREFERENCE VS NECESSITY"
 alias: "Thought: Preference Vs Necessity"
 type: THOUGHT
+en_content: "Preference must give way to Necessity."
 parent: "topic.WISDOM"
 tags:
 - wisdom

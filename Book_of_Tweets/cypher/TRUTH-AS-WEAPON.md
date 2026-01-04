@@ -2,6 +2,7 @@
 name: "thought.TRUTH AS WEAPON"
 alias: "Thought: Truth As Weapon"
 type: THOUGHT
+en_content: "Truth is a weapon far more dangerous than the hydrogen bomb."
 parent: "topic.TRUTH"
 tags:
 - truth

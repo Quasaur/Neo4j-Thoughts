@@ -2,6 +2,7 @@
 name: "thought.SCIENCE AND SCRIPTURE"
 alias: "Thought: Science And Scripture"
 type: THOUGHT
+en_content: "No discrepancy exists between Science and Scripture; the discrepancy is between scientists and God."
 parent: "topic.TRUTH"
 tags:
 - science

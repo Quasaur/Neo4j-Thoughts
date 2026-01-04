@@ -2,6 +2,7 @@
 name: "thought.CONGRESS NOT OURS"
 alias: "Thought: Congress Not Ours"
 type: THOUGHT
+en_content: "The United States Congress no longer belongs to the American People."
 parent: "topic.MORALITY"
 tags:
 - congress

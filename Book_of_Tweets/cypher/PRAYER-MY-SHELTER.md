@@ -2,6 +2,7 @@
 name: "thought.PRAYER MY SHELTER"
 alias: "Thought: Prayer My Shelter"
 type: THOUGHT
+en_content: "Prayer is my shelter...my fortress...my stress-free zone...my dessert."
 parent: "topic.SPIRITUALITY"
 tags:
 - prayer

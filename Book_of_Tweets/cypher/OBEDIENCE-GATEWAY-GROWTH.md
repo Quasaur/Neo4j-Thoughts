@@ -2,6 +2,7 @@
 name: "thought.OBEDIENCE GATEWAY GROWTH"
 alias: "Thought: Obedience Gateway Growth"
 type: THOUGHT
+en_content: "Obedience is the ONLY gateway to spiritual growth."
 parent: "topic.SPIRITUALITY"
 tags:
 - obedience

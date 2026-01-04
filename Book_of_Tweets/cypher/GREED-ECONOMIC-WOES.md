@@ -2,6 +2,7 @@
 name: "thought.GREED ECONOMIC WOES"
 alias: "Thought: Greed Economic Woes"
 type: THOUGHT
+en_content: "The true source of our economic woes is GREED; therefore no recovery will ever be permanent until Christ returns."
 parent: "topic.MORALITY"
 tags:
 - greed

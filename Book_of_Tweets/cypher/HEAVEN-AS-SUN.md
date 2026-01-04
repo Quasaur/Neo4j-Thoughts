@@ -2,6 +2,7 @@
 name: "thought.HEAVEN AS SUN"
 alias: "Thought: Heaven As Sun"
 type: THOUGHT
+en_content: "What is Heaven like? The center of the Sun!"
 parent: "topic.SPIRITUALITY"
 tags:
 - heaven

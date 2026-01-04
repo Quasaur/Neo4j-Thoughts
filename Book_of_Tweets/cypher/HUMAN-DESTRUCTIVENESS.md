@@ -2,6 +2,7 @@
 name: "thought.HUMAN DESTRUCTIVENESS"
 alias: "Thought: Human Nature"
 type: THOUGHT
+en_content: "BP Oil Spill: we humans are amazingly self-destructive."
 parent: "topic.HUMANITY"
 tags:
 - human_nature

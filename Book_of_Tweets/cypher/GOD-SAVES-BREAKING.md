@@ -2,6 +2,7 @@
 name: "thought.GOD SAVES BREAKING"
 alias: "Thought: God Saves Breaking"
 type: THOUGHT
+en_content: "God will save you...after He breaks you. Matthew 21:44"
 parent: "topic.GRACE"
 tags:
 - salvation

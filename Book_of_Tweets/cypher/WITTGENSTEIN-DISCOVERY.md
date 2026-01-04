@@ -2,6 +2,7 @@
 name: "thought.WITTGENSTEIN DISCOVERY"
 alias: "Thought: Wittgenstein Discovery"
 type: THOUGHT
+en_content: "I have discovered Ludwig Josef Johann Wittgenstein."
 parent: "topic.PHILOSOPHY"
 tags:
 - philosophy

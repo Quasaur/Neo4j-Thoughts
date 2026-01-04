@@ -2,6 +2,7 @@
 name: "thought.FEAR AS BAD MOTIVE"
 alias: "Thought: Fear As Bad Motive"
 type: THOUGHT
+en_content: "Fear is rarely a good motive for any action."
 parent: "topic.ATTITUDE"
 tags:
 - fear

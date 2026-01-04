@@ -2,6 +2,7 @@
 name: "thought.POWERLESS CHURCH"
 alias: "Thought: Powerless Church"
 type: THOUGHT
+en_content: "The church that is without power doesn't understand The Gospel (Romans 1:16)."
 parent: "topic.RELIGION"
 tags:
 - church

@@ -2,6 +2,7 @@
 name: "thought.DIGNITY OR DEATH"
 alias: "Thought: Dignity Or Death"
 type: THOUGHT
+en_content: "Give me DIGNITY or give me death!"
 parent: "topic.HUMANITY"
 tags:
 - dignity

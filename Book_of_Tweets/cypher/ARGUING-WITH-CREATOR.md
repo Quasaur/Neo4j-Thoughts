@@ -2,6 +2,7 @@
 name: "thought.ARGUING WITH CREATOR"
 alias: "Thought: Arguing With Creator"
 type: THOUGHT
+en_content: "Humanity's constant pastime is to argue with its Creator."
 parent: "topic.HUMANITY"
 tags:
 - humanity

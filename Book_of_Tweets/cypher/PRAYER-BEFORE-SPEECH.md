@@ -2,6 +2,7 @@
 name: "thought.PRAYER BEFORE SPEECH"
 alias: "Thought: Prayer Before Speech"
 type: THOUGHT
+en_content: "It is inappropriate to speak out on what we don't pray out."
 parent: "topic.SPIRITUALITY"
 tags:
 - prayer

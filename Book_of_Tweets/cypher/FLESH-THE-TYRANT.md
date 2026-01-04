@@ -2,6 +2,7 @@
 name: "thought.FLESH THE TYRANT"
 alias: "Thought: Flesh The Tyrant"
 type: THOUGHT
+en_content: "The Flesh is a tyrant."
 parent: "topic.HUMANITY"
 tags:
 - flesh

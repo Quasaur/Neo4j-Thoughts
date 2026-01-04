@@ -2,6 +2,7 @@
 name: "thought.HORDES OF THE ABYSS"
 alias: "Thought: Hordes Of The Abyss"
 type: THOUGHT
+en_content: "Humanity will be visited by the hordes of the Abyss because that is what it, by its deeds, asked for."
 parent: "topic.EVIL"
 tags:
 - abyss

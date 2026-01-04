@@ -2,6 +2,7 @@
 name: "thought.UNREASONABLE PRIDE"
 alias: "Thought: Unreasonable Pride"
 type: THOUGHT
+en_content: "Self Pride is always unreasonable."
 parent: "topic.ATTITUDE"
 tags:
 - pride

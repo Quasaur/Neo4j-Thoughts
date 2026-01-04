@@ -2,6 +2,7 @@
 name: "thought.THE CROSS"
 alias: "Thought: The Cross"
 type: THOUGHT
+en_content: "The Cross is the Nexus of a Divine Science that never ceases to inform, renew and inspire awe, wonder, reverence and understanding."
 parent: "topic.THE GOSPEL"
 tags:
 - the_cross

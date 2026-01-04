@@ -2,6 +2,7 @@
 name: "thought.RESURRECTION BIRTH"
 alias: "Thought: Eternal Life"
 type: THOUGHT
+en_content: "This life is my womb...The Resurrection is my birth."
 parent: "topic.THE GOSPEL"
 tags:
 - resurrection

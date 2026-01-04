@@ -2,6 +2,7 @@
 name: "thought.THE BRINK OF EXTINCTION"
 alias: "Thought: The Brink Of Extinction"
 type: THOUGHT
+en_content: "Matthew 24:21, 22: It may be that Christ will not return until humanity is on the brink of extinction."
 parent: "topic.THE GODHEAD"
 tags:
 - prophecy

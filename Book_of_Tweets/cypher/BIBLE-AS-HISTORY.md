@@ -2,6 +2,7 @@
 name: "thought.BIBLE AS HISTORY"
 alias: "Thought: Bible As History"
 type: THOUGHT
+en_content: "The Bible says that God cannot lie. If therefore the Bible is not an ACCURATE HISTORICAL DOCUMENT, then it cannot be inspired by God."
 parent: "topic.TRUTH"
 tags:
 - bible

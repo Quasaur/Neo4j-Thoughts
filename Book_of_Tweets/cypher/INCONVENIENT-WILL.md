@@ -2,6 +2,7 @@
 name: "thought.INCONVENIENT WILL"
 alias: "Thought: Inconvenient Will"
 type: THOUGHT
+en_content: "Accomplishing God's Will is rarely convenient."
 parent: "topic.SPIRITUALITY"
 tags:
 - will

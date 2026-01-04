@@ -2,6 +2,7 @@
 name: "thought.NO DIVINE EXCUSES"
 alias: "Thought: No Divine Excuses"
 type: THOUGHT
+en_content: "God can and will forgive anything...but He will not excuse anything."
 parent: "topic.THE GODHEAD"
 tags:
 - forgiveness

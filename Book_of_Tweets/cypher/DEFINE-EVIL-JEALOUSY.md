@@ -2,6 +2,7 @@
 name: "thought.DEFINE EVIL JEALOUSY"
 alias: "Thought: Define Evil Jealousy"
 type: THOUGHT
+en_content: "Evil Jealousy: fear of loss."
 parent: "topic.EVIL"
 tags:
 - jealousy

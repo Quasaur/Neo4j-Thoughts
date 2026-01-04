@@ -2,6 +2,7 @@
 name: "thought.BOX JELLYFISH EYES"
 alias: "Thought: Box Jellyfish Eyes"
 type: THOUGHT
+en_content: "The box jellyfish--nature's most poisonous creature--has 24 eyes and 360-degree vision...God is great!"
 parent: "topic.CREATION"
 tags:
 - creation

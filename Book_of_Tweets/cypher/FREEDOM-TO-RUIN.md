@@ -2,6 +2,7 @@
 name: "thought.FREEDOM TO RUIN"
 alias: "Thought: Freedom To Ruin"
 type: THOUGHT
+en_content: "It appears that God has given us the freedom to ruin our lives as we see fit...so much for Freedom."
 parent: "topic.HUMANITY"
 tags:
 - freedom

@@ -2,6 +2,7 @@
 name: "thought.GOD OF FINANCE"
 alias: "Thought: God Of Finance"
 type: THOUGHT
+en_content: "Jesus Christ is The God of Finance and Economics."
 parent: "topic.THE GODHEAD"
 tags:
 - jesus

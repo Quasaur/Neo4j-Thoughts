@@ -2,6 +2,7 @@
 name: "thought.GRACE TO HUMBLE"
 alias: "Thought: Grace To Humble"
 type: THOUGHT
+en_content: "Salvation in a Nutshell: God resists the proud, but gives Grace to the humble."
 parent: "topic.GRACE"
 tags:
 - grace

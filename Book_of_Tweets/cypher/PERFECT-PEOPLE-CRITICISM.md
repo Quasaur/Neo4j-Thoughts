@@ -2,6 +2,7 @@
 name: "thought.PERFECT PEOPLE CRITICISM"
 alias: "Thought: Perfect People Criticism"
 type: THOUGHT
+en_content: "Have you ever noticed that perfect people don't respond well to criticism?"
 parent: "topic.ATTITUDE"
 tags:
 - perfection

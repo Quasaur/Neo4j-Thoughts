@@ -2,6 +2,7 @@
 name: "thought.HAPPINESS AND JOY"
 alias: "Thought: Happiness And Joy"
 type: THOUGHT
+en_content: "Happiness: pleasing God. Joy: being pleased by God."
 parent: "topic.SPIRITUALITY"
 tags:
 - happiness

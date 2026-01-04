@@ -2,6 +2,7 @@
 name: "thought.PERISHING DEMOCRACY"
 alias: "Thought: Perishing Democracy"
 type: THOUGHT
+en_content: "Government of, by and for the People is perishing from the Earth!"
 parent: "topic.MORALITY"
 tags:
 - government

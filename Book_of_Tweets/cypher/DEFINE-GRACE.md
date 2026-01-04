@@ -2,6 +2,7 @@
 name: "thought.DEFINE GRACE"
 alias: "Thought: Define Grace"
 type: THOUGHT
+en_content: "GRACE is God saying \"I like you! I'm gonna cut you a break!\""
 parent: "topic.GRACE"
 tags:
 - grace

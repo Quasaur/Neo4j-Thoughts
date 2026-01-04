@@ -2,6 +2,7 @@
 name: "thought.DESTROYING OUR PLANET"
 alias: "Thought: Destroying Our Planet"
 type: THOUGHT
+en_content: "Our technology, industry and greed are destroying our planet."
 parent: "topic.MORALITY"
 tags:
 - technology

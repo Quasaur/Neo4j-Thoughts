@@ -2,6 +2,7 @@
 name: "thought.EDUCATION AS SELLING OUT"
 alias: "Thought: Education As Selling Out"
 type: THOUGHT
+en_content: "At what point in history did African American men decide that being educated was selling out??"
 parent: "topic.TRUTH"
 tags:
 - education

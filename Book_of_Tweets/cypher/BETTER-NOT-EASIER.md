@@ -2,6 +2,7 @@
 name: "thought.BETTER NOT EASIER"
 alias: "Thought: Better Not Easier"
 type: THOUGHT
+en_content: "Jesus did not come to make our lives easier; Christ came to make our lives better!"
 parent: "topic.THE GODHEAD"
 tags:
 - jesus

@@ -2,6 +2,7 @@
 name: "thought.ARROGANCE VS DIGNITY"
 alias: "Thought: Arrogance Vs Dignity"
 type: THOUGHT
+en_content: "Far too many black men have mistaken arrogance for dignity."
 parent: "topic.HUMANITY"
 tags:
 - dignity

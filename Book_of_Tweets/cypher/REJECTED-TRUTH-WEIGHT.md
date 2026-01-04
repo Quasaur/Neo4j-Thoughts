@@ -2,6 +2,7 @@
 name: "thought.REJECTED TRUTH WEIGHT"
 alias: "Thought: Rejected Truth Weight"
 type: THOUGHT
+en_content: "The World will perish...crushed under the weight of the Truth it has rejected."
 parent: "topic.TRUTH"
 tags:
 - truth

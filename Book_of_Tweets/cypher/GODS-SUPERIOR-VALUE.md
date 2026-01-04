@@ -2,6 +2,7 @@
 name: "thought.GODS SUPERIOR VALUE"
 alias: "Thought: Gods Superior Value"
 type: THOUGHT
+en_content: "In the REAL WORLD, God is more valuable than all of us put together."
 parent: "topic.THE GODHEAD"
 tags:
 - value

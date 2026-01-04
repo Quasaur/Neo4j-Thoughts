@@ -2,6 +2,7 @@
 name: "thought.NOBODY LOVES LIKE JESUS"
 alias: "Thought: Nobody Loves Like Jesus"
 type: THOUGHT
+en_content: "My mother loved me VERY MUCH; but on her finest day she could not take away my sins...nobody loves me like Jesus!"
 parent: "topic.THE GODHEAD"
 tags:
 - love

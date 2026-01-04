@@ -2,6 +2,7 @@
 name: "thought.CHRISTS FINAL VIRTUE"
 alias: "Thought: Christs Final Virtue"
 type: THOUGHT
+en_content: "Humanity's Last and only remaining Virtue is Jesus Christ; rejecting Him is turning our backs on the only Good left to us."
 parent: "topic.GRACE"
 tags:
 - jesus

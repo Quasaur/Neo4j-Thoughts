@@ -8,6 +8,7 @@ tags:
 - plans
 - gods_plan
 - humility
+en_content: "Our egos are so massive...we're always trying to fit God into our plans rather than submitting ourselves to His Plan."
 parent: topic.HUMILITY
 level: 4
 neo4j: true

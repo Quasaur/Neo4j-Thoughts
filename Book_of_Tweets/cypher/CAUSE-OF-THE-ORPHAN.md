@@ -2,6 +2,7 @@
 name: "thought.CAUSE OF THE ORPHAN"
 alias: "Thought: Cause Of The Orphan"
 type: THOUGHT
+en_content: "\"They do not plead the cause, (The cause of the orphan), THAT THEY MAY PROSPER; And they do not defend the rights of the poor.\" -- Jeremiah"
 parent: "topic.MORALITY"
 tags:
 - justice

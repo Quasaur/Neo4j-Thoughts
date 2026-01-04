@@ -2,6 +2,7 @@
 name: "thought.EQUALITY AT RETURN"
 alias: "Thought: Equality At Return"
 type: THOUGHT
+en_content: "True economic political and social equality will never exist on Earth until Christ returns."
 parent: "topic.DIVINE SOVEREIGNTY"
 tags:
 - equality

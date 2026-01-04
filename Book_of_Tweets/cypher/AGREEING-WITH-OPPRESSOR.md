@@ -2,6 +2,7 @@
 name: "thought.AGREEING WITH OPPRESSOR"
 alias: "Thought: Agreeing With Oppressor"
 type: THOUGHT
+en_content: "Every day we do things to let the Opressor know that we AGREE that his money is worth more than justice, dignity, equity and honor."
 parent: "topic.MORALITY"
 tags:
 - oppression

@@ -2,6 +2,7 @@
 name: "thought.SACRIFICE IN SERVICE"
 alias: "Thought: Sacrifice In Service"
 type: THOUGHT
+en_content: "You cannot serve God without sacrificing something of great personal value."
 parent: "topic.WORSHIP"
 tags:
 - sacrifice

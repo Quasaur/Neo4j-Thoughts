@@ -2,6 +2,7 @@
 name: "thought.JESUS TAKES OVER"
 alias: "Thought: Jesus Takes Over"
 type: THOUGHT
+en_content: "\"I come: not to take sides, but to take over.\" - Jesus Christ"
 parent: "topic.THE GODHEAD"
 tags:
 - jesus

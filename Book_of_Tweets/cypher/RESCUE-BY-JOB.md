@@ -2,6 +2,7 @@
 name: "thought.RESCUE BY JOB"
 alias: "Thought: Rescue By Job"
 type: THOUGHT
+en_content: "I wish to publicly thank God for rescuing us with a job that kept a roof over our heads and the lights on...Jesus is HOT STUFF!!!"
 parent: "topic.SPIRITUALITY"
 tags:
 - provision

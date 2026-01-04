@@ -2,6 +2,7 @@
 name: "thought.DANGER OF TRUTH"
 alias: "Thought: Danger Of Truth"
 type: THOUGHT
+en_content: "Truth is a dangerous thing...yet so is a lie."
 parent: "topic.TRUTH"
 tags:
 - truth

@@ -2,6 +2,7 @@
 name: "thought.NOT POLITICALLY CORRECT"
 alias: "Thought: Not Politically Correct"
 type: THOUGHT
+en_content: "God is not politically correct."
 parent: "topic.THE GODHEAD"
 tags:
 - truth

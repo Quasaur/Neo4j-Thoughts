@@ -2,6 +2,7 @@
 name: "thought.FLESH VS SPIRIT"
 alias: "Thought: Flesh Vs Spirit"
 type: THOUGHT
+en_content: "The flesh is too stupid to be spiritual; it must be crucified with Christ and brought in subjection by the Love of God to the Spirit of God."
 parent: "topic.SPIRITUALITY"
 tags:
 - flesh

@@ -2,6 +2,7 @@
 name: "thought.UNIVERSE INSIDE GOD"
 alias: "Thought: Universe Inside God"
 type: THOUGHT
+en_content: "You do know that all of us--yeah, the entire Universe--is inside of God, right? Jeremiah 23:24"
 parent: "topic.THE GODHEAD"
 tags:
 - universe

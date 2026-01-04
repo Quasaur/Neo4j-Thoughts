@@ -2,6 +2,7 @@
 name: "thought.DESTROYING THE EARTH"
 alias: "Thought: Destroying The Earth"
 type: THOUGHT
+en_content: "God will destroy us for destroying the Earth (Revelation 11:18)."
 parent: "topic.DIVINE SOVEREIGNTY"
 tags:
 - judgment

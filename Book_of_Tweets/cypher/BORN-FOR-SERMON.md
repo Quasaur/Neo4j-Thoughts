@@ -2,6 +2,7 @@
 name: "thought.BORN FOR SERMON"
 alias: "Thought: Born For Sermon"
 type: THOUGHT
+en_content: "Christmas sermon at the Pittsburgh prison was well-received...this is what I was born to do!"
 parent: "topic.SPIRITUALITY"
 tags:
 - calling

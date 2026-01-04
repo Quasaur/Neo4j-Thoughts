@@ -2,6 +2,7 @@
 name: "thought.SEAT OF POWER"
 alias: "Thought: Seat Of Power"
 type: THOUGHT
+en_content: "The Seat of True Power is in Heaven, where the Christ patiently waits for His Daddy to turn His Enemies into His footrest."
 parent: "topic.THE GODHEAD"
 tags:
 - power

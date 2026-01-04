@@ -2,6 +2,7 @@
 name: "thought.LIMITS OF KNOWLEDGE"
 alias: "Thought: Limits Of Knowledge"
 type: THOUGHT
+en_content: "\"If any man thinks he knows anything, he does not yet know as he ought.\" -- The Apostle Paul"
 parent: "topic.WISDOM"
 tags:
 - wisdom

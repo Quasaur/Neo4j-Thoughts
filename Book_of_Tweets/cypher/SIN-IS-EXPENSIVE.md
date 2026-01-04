@@ -2,6 +2,7 @@
 name: "thought.SIN IS EXPENSIVE"
 alias: "Thought: Sin Is Expensive"
 type: THOUGHT
+en_content: "Law enforcement, court costs incarceration, healthcare, security, protection, insurance premiums, funeral costs...Sin is expensive!"
 parent: "topic.MORALITY"
 tags:
 - sin

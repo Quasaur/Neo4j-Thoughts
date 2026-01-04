@@ -2,6 +2,7 @@
 name: "thought.CHRIST MY TREASURE"
 alias: "Thought: Christ My Treasure"
 type: THOUGHT
+en_content: "Christ is my Treasure, my Fortune, my Wealth, my NestEgg and my Riches!"
 parent: "topic.THE GODHEAD"
 tags:
 - christ

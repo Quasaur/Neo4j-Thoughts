@@ -2,6 +2,7 @@
 name: "thought.IMMORTAL SINLESS LIFE"
 alias: "Thought: Immortal Sinless Life"
 type: THOUGHT
+en_content: "An immortal life is a sinless life."
 parent: "topic.THE GODHEAD"
 tags:
 - immortality

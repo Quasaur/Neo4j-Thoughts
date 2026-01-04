@@ -2,6 +2,7 @@
 name: "thought.MARRIAGE RELIGIOUS INSTITUTION"
 alias: "Thought: Marriage Religious Institution"
 type: THOUGHT
+en_content: "Congress shall make no law regarding the practice of religion...marriage is a RELIGIOUS institution!"
 parent: "topic.RELIGION"
 tags:
 - marriage

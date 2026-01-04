@@ -2,6 +2,7 @@
 name: "thought.NATIONAL DEBT STATS"
 alias: "Thought: National Debt Stats"
 type: THOUGHT
+en_content: "The National Debt: $16 TRILLION...that's $30 million every second for a year!!!"
 parent: "topic.MORALITY"
 tags:
 - debt
