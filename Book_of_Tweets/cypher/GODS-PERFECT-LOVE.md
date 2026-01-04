@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Gods Perfect Love
-
-> [!Thought-en]
-> God loves us with ALL His Heart, Soul, Mind and Strength!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 19-Jan-2012c)

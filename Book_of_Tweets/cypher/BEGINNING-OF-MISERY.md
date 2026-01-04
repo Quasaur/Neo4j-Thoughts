@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Beginning Of Misery
-
-> [!Thought-en]
-> Misery began when some idiot decided he was more important than God.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 10-Jan-2012)

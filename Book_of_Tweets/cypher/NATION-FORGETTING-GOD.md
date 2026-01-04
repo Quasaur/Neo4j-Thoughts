@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Nation Forgetting God
-
-> [!Thought-en]
-> I'm watching a nation that has forgotten God turn into Hell.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 14-Aug-2013a)

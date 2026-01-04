@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Attraction To Forbidden
-
-> [!Thought-en]
-> What attracts us to the forbidden? Sin.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 15-Oct-2011d)

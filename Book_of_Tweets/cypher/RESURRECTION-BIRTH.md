@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Resurrection Birth
-
-> [!Thought-en]
-> This life is my womb...The Resurrection is my birth.
 
 ```Cypher
 CREATE (t:THOUGHT {

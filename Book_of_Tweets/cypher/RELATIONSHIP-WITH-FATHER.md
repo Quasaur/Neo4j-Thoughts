@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Relationship With Father
-
-> [!Thought-en]
-> The Gospel: Jesus Christ has given us His Relationship with The Father!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 24-Apr-2012b)

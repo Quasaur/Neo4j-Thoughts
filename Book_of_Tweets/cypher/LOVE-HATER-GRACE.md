@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Love Hater Grace
-
-> [!Thought-en]
-> To love the one who loves you is pleasure. To love the one who ignores you is compassion. To love the one who hates you is Grace.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 16-Sep-2013e)

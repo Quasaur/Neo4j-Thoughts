@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Bailout And Hate
-
-> [!Thought-en]
-> Obama bailed out the Republicans...which made them hate him all the more.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 06-Oct-2011c)

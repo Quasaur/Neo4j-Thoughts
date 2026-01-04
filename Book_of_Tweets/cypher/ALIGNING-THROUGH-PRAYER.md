@@ -13,10 +13,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Aligning Through Prayer
-
-> [!Thought-en]
-> The purpose of prayer is not just to get God to do stuff, but to align myself with what God is doing!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 11-Mar-2014)

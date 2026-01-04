@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Cost Of Heaven
-
-> [!Thought-en]
-> Heaven is free--but it ain't cheap!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 12-Oct-2011b)

@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Grace Vs Satan
-
-> [!Thought-en]
-> Apart from Grace, what difference is there between me and Satan? He's older and smarter...other than that we're both petty little monsters.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 07-Aug-2011)

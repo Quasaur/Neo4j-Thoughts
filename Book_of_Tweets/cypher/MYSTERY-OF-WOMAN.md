@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Mystery Of Woman
-
-> [!Thought-en]
-> Adam did not see Eve being created; therefore Woman will always be a Mystery to Man.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 17-Jul-2012)

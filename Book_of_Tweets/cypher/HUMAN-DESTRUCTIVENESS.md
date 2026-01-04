@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Self Destructive Humans
-
-> [!Thought-en]
-> BP Oil Spill: we humans are amazingly self-destructive.
 
 ```Cypher
 CREATE (t:THOUGHT {

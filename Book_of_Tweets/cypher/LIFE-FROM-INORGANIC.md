@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Life From Inorganic
-
-> [!Thought-en]
-> In 13 billion years 100 monkeys will never write a novel and life will never rise from inorganic matter without an Act of God.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 17-Oct-2011a)

@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Wrath Of God
-
-> [!Thought-en]
-> The worst thing Earth must face is not Antichrist, but The Wrath of God.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 09-Aug-2013b)

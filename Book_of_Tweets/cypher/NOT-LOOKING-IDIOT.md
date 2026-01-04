@@ -13,10 +13,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Not Looking Idiot
-
-> [!Thought-en]
-> I don't mind being an idiot, just looking like one.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 04-Nov-2013)

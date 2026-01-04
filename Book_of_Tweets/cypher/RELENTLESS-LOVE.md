@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Relentless Love
-
-> [!Thought-en]
-> Love is ruthless...relentless...persistent and unflagging...thank God!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 05-Oct-2012)

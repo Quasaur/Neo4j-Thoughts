@@ -14,10 +14,6 @@ level: 6
 neo4j: true
 insert: true
 ---
-# Gorgeous Divinity
-
-> [!Thought-en]
-> God is overwhelmingly gorgeous...both inside and out!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 29-Aug-2012)

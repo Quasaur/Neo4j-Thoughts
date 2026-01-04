@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Prayer For Wisdom
-
-> [!Thought-en]
-> Lord Jesus, fill my mind with Your Wisdom; fill my heart with Your Love; fill my bowels with Your Mercy!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 21-Nov-2011)

@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# God Sired Christ
-
-> [!Thought-en]
-> God did not create Christ, He SIRED Him! That's why Jesus is called THE ONLY BEGOTTEN of the Father.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 02-Oct-2013)

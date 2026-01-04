@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Kindness Of Jesus
-
-> [!Thought-en]
-> I have NEVER met anyone more kind that Jesus...and I never will!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 14-Aug-2010b)

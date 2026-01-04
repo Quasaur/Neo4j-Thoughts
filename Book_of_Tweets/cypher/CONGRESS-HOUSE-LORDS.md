@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Congress House Lords
-
-> [!Thought-en]
-> Both houses of this American Congress have become a House of Lords.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 05-Jul-2013a)

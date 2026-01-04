@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Immortal Sinless Life
-
-> [!Thought-en]
-> An immortal life is a sinless life.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 01-Jan-2012)

@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Creating Selfless Heart
-
-> [!Thought-en]
-> Only God can create a selfless heart from a pile of dust.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 16-Feb-2012a)

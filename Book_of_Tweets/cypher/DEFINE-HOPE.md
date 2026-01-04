@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Define Hope
-
-> [!Thought-en]
-> HOPE = DESIRE + EXPECTATION
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 01-Dec-2011b)

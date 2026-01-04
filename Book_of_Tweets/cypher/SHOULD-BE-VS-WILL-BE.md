@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Should Be Vs Will Be
-
-> [!Thought-en]
-> Everything is as it should be, but not as it will be.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 01-Aug-2013c)

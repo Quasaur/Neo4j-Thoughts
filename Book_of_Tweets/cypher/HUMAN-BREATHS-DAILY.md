@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Human Breaths Daily
-
-> [!Thought-en]
-> The average human takes 17,280-23,040 breaths per day; God is great!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 21-Aug-2011)

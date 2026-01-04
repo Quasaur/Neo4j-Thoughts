@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Dehumanizing Labor Watching
-
-> [!Thought-en]
-> To those that continue to dehumanize blue and white collar laborers: GOD IS WATCHING.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 18-Jul-2013b)

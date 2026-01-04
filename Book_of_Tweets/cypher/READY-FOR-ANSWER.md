@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Ready For Answer
-
-> [!Thought-en]
-> Asking a question does not mean you are ready for the answer.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 04-Oct-2011a)

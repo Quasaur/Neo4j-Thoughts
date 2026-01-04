@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Hell And Hypocrisy
-
-> [!Thought-en]
-> If I send you to Hell, it's guaranteed that I will be following you shortly.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 02-Dec-2011b)

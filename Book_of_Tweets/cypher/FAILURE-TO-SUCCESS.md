@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Failure To Success
-
-> [!Thought-en]
-> God can love any failure into a success.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 31-Aug-2010)

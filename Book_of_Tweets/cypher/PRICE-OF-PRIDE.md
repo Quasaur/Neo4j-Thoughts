@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Price Of Pride
-
-> [!Thought-en]
-> At what point in history did African American men decide that pride was worth the price of killing each other??
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 24-Mar-2012e)

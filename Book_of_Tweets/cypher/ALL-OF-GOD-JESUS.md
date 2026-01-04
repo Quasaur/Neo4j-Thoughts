@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# All Of God Jesus
-
-> [!Thought-en]
-> Jesus Christ is the only Man Who could fit ALL OF GOD in Himself, because HE IS GOD!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 03-Oct-2013a)

@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Heavy Divine Will
-
-> [!Thought-en]
-> The Will of God is far too heavy for frail human hands to budge it in any direction; answered prayer is ALWAYS an Act of Divine Mercy.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 23-Jul-2011d)

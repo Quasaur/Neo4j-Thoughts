@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Investment In Church
-
-> [!Thought-en]
-> If you put something into your church, you'll ALWAYS get something out!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 10-Aug-2013e)

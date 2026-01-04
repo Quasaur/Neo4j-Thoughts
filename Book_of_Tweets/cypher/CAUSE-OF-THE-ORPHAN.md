@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Cause Of The Orphan
-
-> [!Thought-en]
-> "They do not plead the cause, (The cause of the orphan), THAT THEY MAY PROSPER; And they do not defend the rights of the poor." -- Jeremiah
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 06-Sep-2011)

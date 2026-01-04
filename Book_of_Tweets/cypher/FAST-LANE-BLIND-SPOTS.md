@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Fast Lane Blind Spots
-
-> [!Thought-en]
-> If you're living in the fast lane, watch your blind spots.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 20-Dec-2011)

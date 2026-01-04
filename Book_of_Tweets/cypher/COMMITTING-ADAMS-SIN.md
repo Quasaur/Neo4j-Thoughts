@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Committing Adams Sin
-
-> [!Thought-en]
-> We continue to commit Adam's sin, and then wonder why we suffer.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 12-Sep-2013a)

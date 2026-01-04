@@ -14,10 +14,6 @@ neo4j: true
 insert: true
 type: THOUGHT
 ---
-# Awesome God
-
-> [!Thought-en]
-> To His children God is AWESOME.
 
 ```Cypher
 CREATE (t:THOUGHT {

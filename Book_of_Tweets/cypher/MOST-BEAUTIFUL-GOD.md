@@ -14,10 +14,6 @@ level: 6
 neo4j: true
 insert: true
 ---
-# Most Beautiful God
-
-> [!Thought-en]
-> There is no being God has created that is more handsome, beautiful or gorgeous than Himself.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 03-May-2012)

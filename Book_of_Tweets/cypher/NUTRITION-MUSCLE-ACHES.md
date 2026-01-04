@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Nutrition Muscle Aches
-
-> [!Thought-en]
-> Nutrition: Muscle aches may benefit from the following: Astaxanthin, Calcium, Magnesium, Bromelain, Creatine.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 08-Oct-2011)

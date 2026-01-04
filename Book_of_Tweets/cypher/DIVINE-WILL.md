@@ -14,9 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Thought: DIVINE WILL
-> [!Thought-en]
-> Do you really believe that God has EVER done something He didn't want to do?
 
 ```Cypher
 // Generated from Book6E-FINAL.md

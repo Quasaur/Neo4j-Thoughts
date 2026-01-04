@@ -13,10 +13,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Glorified In Humanity
-
-> [!Thought-en]
-> God WILL be glorified in Humanity: either by rewarding obedience, faith and courage...or by punishing rebellion, unbelief and cowardice.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 19-Mar-2014)

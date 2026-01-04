@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Living In Christs Righteousness
-
-> [!Thought-en]
-> I live--not with my own righteousness but with Christ's; for God placed me in Christ when He obeyed...now He obeys in me!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 10-Sep-2011a)

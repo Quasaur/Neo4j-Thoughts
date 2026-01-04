@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Fossil Amino Acids
-
-> [!Thought-en]
-> Why is it that amino acids are still found in fossils and are not broken down after hundreds of millions of years?
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 10-Jul-2011)

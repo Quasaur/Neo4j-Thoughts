@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Cooked Food Humans
-
-> [!Thought-en]
-> Why are humans the only creatures on planet earth that eat cooked food?
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 23-May-2012a)

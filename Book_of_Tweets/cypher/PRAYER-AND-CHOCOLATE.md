@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Prayer And Chocolate
-
-> [!Thought-en]
-> Is there a better way to start a day than with prayer and chocolate? I think not!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 26-Jul-2013)

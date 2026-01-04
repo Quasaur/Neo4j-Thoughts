@@ -14,10 +14,6 @@ level: 4
 neo4j: true
 insert: true
 ---
-# Spirit Vs Matter
-
-> [!Thought-en]
-> SPIRIT is far older, stronger and eternally more powerful than matter.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 06-Oct-2011d)

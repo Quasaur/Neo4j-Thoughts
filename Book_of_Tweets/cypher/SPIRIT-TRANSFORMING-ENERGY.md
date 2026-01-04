@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Spirit Transforming Energy
-
-> [!Thought-en]
-> SPIRIT is so powerful; He can take frozen energy and transform it into Living Energy!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 10-Aug-2013b)

@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Bible As History
-
-> [!Thought-en]
-> The Bible says that God cannot lie. If therefore the Bible is not an ACCURATE HISTORICAL DOCUMENT, then it cannot be inspired by God.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 23-Sep-2011a)

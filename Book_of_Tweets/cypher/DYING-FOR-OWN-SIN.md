@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Dying For Own Sin
-
-> [!Thought-en]
-> I die--not for Adam's sin but for my own; for I was in Adam when he sinned and therefore sinned with him!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 10-Sep-2011)

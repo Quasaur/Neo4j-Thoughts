@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Daily Divine Love
-
-> [!Thought-en]
-> Though I may deserve Wrath I still need Love...and God gives me His Love every morning!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 01-Jun-2012b)

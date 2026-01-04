@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Qualified To Break
-
-> [!Thought-en]
-> The only Person qualified to break me is The One Who has demonstrated Their LOVE for me.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 09-Oct-2012c)

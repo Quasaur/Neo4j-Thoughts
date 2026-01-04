@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# The First Sin
-
-> [!Thought-en]
-> The First Sinner committed the First Sin by taking the credit for that which he did not create: himself.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 12-Dec-2011)

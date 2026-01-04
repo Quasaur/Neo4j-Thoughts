@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Sherbert And Blowtorch
-
-> [!Thought-en]
-> You can't make sherbert with a blowtorch.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 08-Jan-2011)

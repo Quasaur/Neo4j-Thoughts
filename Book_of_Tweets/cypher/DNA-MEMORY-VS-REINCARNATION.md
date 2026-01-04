@@ -14,10 +14,6 @@ level: 4
 neo4j: true
 insert: true
 ---
-# Dna Memory Vs Reincarnation
-
-> [!Thought-en]
-> Reincarnation: what if these memories are not of previous lives, but of the lives of our ancestors engraved on our spirits/DNA?
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 07-Sep-2011a)

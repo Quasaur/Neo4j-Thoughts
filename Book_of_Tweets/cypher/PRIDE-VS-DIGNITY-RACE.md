@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Pride Vs Dignity Race
-
-> [!Thought-en]
-> Why do African American men confuse pride with dignity?
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 24-Mar-2012c)

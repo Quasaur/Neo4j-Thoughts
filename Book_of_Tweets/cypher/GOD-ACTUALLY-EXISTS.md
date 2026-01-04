@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# God Actually Exists
-
-> [!Thought-en]
-> The idea that a Being such as That described in the Bible (God) actually exists should frighten us all...and it will.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 17-Oct-2013)

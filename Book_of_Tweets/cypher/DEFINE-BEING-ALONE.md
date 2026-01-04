@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Define Being Alone
-
-> [!Thought-en]
-> The true definition of being alone is being unaware of God's Loving Presence.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 16-Sep-2013a)

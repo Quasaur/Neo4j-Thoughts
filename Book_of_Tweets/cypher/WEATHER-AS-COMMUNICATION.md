@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Weather As Communication
-
-> [!Thought-en]
-> 2 Chronicles 7:12-14; Leviticus 18:25: Yes, God DOES communicate and punish through weather and nature.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 07-Sep-2011d)

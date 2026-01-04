@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Simple And Deep
-
-> [!Thought-en]
-> The simplest things are the most deep; the deepest things are the most simple.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 14-Jan-2012)

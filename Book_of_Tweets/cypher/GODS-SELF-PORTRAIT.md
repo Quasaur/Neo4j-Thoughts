@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Gods Self Portrait
-
-> [!Thought-en]
-> Jesus Christ is God's Self Portrait, etched on the canvas of humanity by the Holy Spirit.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 19-Jan-2012a)

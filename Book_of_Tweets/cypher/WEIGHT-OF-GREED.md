@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Weight Of Greed
-
-> [!Thought-en]
-> America is finally buckling under the weight of its own greed.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 05-Oct-2011b)

@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Arrogance Vs Dignity
-
-> [!Thought-en]
-> Far too many black men have mistaken arrogance for dignity.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 30-Jan-2012b)

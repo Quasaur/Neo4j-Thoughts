@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Remembering Vs Living Past
-
-> [!Thought-en]
-> There's no sin in remembering the past...only in trying to live in it.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 07-Aug-2013)

@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Shadows Of Christ
-
-> [!Thought-en]
-> That which is most precious to us...and those whom we love more than life are but shadows of the Figure of Christ!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 29-Feb-2012a)

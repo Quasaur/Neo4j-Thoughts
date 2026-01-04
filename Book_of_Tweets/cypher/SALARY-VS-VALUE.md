@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Salary Vs Value
-
-> [!Thought-en]
-> What's more valuable: my salary or me?
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 12-Oct-2012c)

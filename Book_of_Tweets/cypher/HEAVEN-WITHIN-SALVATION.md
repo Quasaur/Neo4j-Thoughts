@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Heaven Within Salvation
-
-> [!Thought-en]
-> The objective of Salvation is not to get you into Heaven, but to get Heaven into you.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 22-Aug-2011b)

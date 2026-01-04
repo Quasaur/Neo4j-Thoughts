@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Existence Tax
-
-> [!Thought-en]
-> Cost of Living: Men can't CREATE Life...so they're gonna charge it an existence tax...are you kidding me?!?
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 10-Apr-2011)

@@ -14,10 +14,6 @@ level: 6
 neo4j: true
 insert: true
 ---
-# God Is Beauty
-
-> [!Thought-en]
-> God is Beauty. Apart from Him we are ugly.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 07-Jul-2011)

@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Truth Exposes Lies
-
-> [!Thought-en]
-> Truth is dangerous because it exposes lies that people believe to be true; and many would rather kill Truth than abandon their lies.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 21-Oct-2012)

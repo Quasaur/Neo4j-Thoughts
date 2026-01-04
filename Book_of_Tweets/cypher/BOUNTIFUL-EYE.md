@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Bountiful Eye
-
-> [!Thought-en]
-> Whoever has a bountiful eye will be blessed, for he shares his bread with the poor. Proverbs 22:9, ESV
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 16-Oct-2012b)

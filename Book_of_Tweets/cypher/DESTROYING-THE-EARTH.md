@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Destroying The Earth
-
-> [!Thought-en]
-> God will destroy us for destroying the Earth (Revelation 11:18).
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 27-Jul-2013c)

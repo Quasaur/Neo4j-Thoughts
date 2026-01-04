@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Heaven Within
-
-> [!Thought-en]
-> If Heaven isn't in us, then we can't go to Heaven.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 03-Sep-2010b)

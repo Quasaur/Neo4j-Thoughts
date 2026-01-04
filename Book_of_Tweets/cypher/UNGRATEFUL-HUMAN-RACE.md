@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Ungrateful Human Race
-
-> [!Thought-en]
-> What single word best describes the human race? UNGRATEFUL.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 08-Apr-2012)

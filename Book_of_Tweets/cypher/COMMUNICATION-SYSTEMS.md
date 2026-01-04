@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Communication Systems
-
-> [!Thought-en]
-> Every communication system must have a language, a medium, a device that reads, and an intelligence that writes/interprets...God is Great!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 22-Apr-2011d)

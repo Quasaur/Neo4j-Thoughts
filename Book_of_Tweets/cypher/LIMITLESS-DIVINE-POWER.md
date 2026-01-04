@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Limitless Divine Power
-
-> [!Thought-en]
-> ABSOLUTE POWER: Besides His Own Limitless Power, everyone else's power is also at God's Disposal...even Satan's.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 24-Sep-2011e)

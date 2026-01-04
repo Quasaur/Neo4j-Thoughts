@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Cat On Knee
-
-> [!Thought-en]
-> My cat will jump up on my knee, and from there knock things off the table so he can play with them on the floor...God is great!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 14-Oct-2011)

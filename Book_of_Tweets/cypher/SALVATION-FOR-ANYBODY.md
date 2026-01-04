@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Salvation For Anybody
-
-> [!Thought-en]
-> Salvation is not for everybody, yet God can save anybody!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 22-Oct-2012a)

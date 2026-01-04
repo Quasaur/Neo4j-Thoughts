@@ -14,10 +14,6 @@ level: 4
 neo4j: true
 insert: true
 ---
-# Define Faith Persuasion
-
-> [!Thought-en]
-> Faith is not me persuading God to keep His Promises, but God persuading me that He is watching over His Word to perform It.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 24-Oct-2013c)

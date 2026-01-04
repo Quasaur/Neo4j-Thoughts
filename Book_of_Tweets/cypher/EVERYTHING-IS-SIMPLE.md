@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Everything Is Simple
-
-> [!Thought-en]
-> To God complexity itself does not exists...everything is simple to God.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 26-Oct-2011a)

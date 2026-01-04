@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# God The Answer
-
-> [!Thought-en]
-> The fact that God is That Single Answer does not in any way diminish the wonder of His Creation.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 15-Oct-2011h)

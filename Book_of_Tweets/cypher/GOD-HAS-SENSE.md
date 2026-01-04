@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# God Has Sense
-
-> [!Thought-en]
-> God has sense: if you talk to Him He'll talk to you; if you listen to Him He'll listen to you; if you'll honor Him He'll honor you.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 26-Nov-2011a)

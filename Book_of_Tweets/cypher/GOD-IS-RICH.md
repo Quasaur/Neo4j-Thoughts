@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# God Is Rich
-
-> [!Thought-en]
-> God ain't broke.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 30-Jan-2012a)

@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Wealth Disparity Gap
-
-> [!Thought-en]
-> Median White household wealth: $US113,000. Median Black household wealth: $US5,700. Oh yeah...life's fair!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 16-Sep-2011)

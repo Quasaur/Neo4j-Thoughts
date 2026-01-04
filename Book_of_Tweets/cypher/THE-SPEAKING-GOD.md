@@ -14,10 +14,6 @@ neo4j: true
 insert: true
 type: THOUGHT
 ---
-# The Speaking God
-
-> [!Thought-en]
-> It's been said that the only thing God has ever done is talk...what do you think?
 
 ```Cypher
 CREATE (t:THOUGHT {

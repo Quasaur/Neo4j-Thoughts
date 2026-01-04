@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# America Accountable Freedoms
-
-> [!Thought-en]
-> America, God will hold you accountable for the way you spent your freedoms.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 04-Jul-2013)

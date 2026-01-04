@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Relationship Impact
-
-> [!Thought-en]
-> You are either a beneficiary or a casualty of my relationship with God.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 28-Jul-2010)

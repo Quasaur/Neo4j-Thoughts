@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Eternal Grace Mercy
-
-> [!Thought-en]
-> Psalm 136: Grace, Mercy and Kindness will never be obsolete; they endure forever.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 08-Feb-2012a)

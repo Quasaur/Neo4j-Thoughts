@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Respecting Our Bodies
-
-> [!Thought-en]
-> We don't respect our own bodies yet we want others to respect us!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 17-Sep-2013d)

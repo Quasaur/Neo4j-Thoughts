@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# No Anger Selflessness
-
-> [!Thought-en]
-> There is no anger in selflessness.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 09-Oct-2011c)

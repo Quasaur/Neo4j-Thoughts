@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Two Types Churches
-
-> [!Thought-en]
-> There are two churches: (1) the institutionalized church, and (2) the REAL church elected by God; one is temporary, one is eternal.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 05-Apr-2012b)

@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Christianity Steps
-
-> [!Thought-en]
-> Christianity: READ, HEAR, BELIEVE, CONFESS, OBEY, ASK, RECEIVE.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 12-Oct-2011a)

@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Emulating Gods Character
-
-> [!Thought-en]
-> What kind of person is God? The kind I've always admired and desired to emulate.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 05-May-2012b)

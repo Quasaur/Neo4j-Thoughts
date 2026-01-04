@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Perishing Democracy
-
-> [!Thought-en]
-> Government of, by and for the People is perishing from the Earth!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 05-Jul-2013b)

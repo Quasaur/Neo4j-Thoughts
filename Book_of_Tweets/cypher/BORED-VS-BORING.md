@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Bored Vs Boring
-
-> [!Thought-en]
-> Better to be bored than to be boring.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 09-Aug-2013a)

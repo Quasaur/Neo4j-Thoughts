@@ -14,9 +14,6 @@ level: 4
 neo4j: true
 insert: true
 ---
-# Thought: SUBMITTING OUR PLANS
-> [!Thought-en]
-> Our egos are so massive...we're always trying to fit God into our plans rather than submitting ourselves to His Plan.
 
 ```Cypher
 // Generated from Book6E-FINAL.md

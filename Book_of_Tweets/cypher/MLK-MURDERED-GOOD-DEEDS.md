@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Mlk Murdered Good Deeds
-
-> [!Thought-en]
-> Remember: Martin Luther King Jr. was murdered -- not for his crimes, but for his good deeds.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 28-Aug-2013)

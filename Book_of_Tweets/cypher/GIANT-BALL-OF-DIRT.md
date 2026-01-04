@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Giant Ball Of Dirt
-
-> [!Thought-en]
-> We are living on a GIANT BALL OF DIRT...God is great!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 30-Aug-2011b)

@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Rejoicing In Others
-
-> [!Thought-en]
-> I rejoice in the achievements God accomplished in you as though He had accomplished them in me.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 29-Dec-2011b)

@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Lightning Bolt
-
-> [!Thought-en]
-> A single lightning bolt can be 5 miles in length and hotter than the surface of the Sun...God is Great!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 22-Apr-2011b)

@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Definition of Sin
-
-> [!Thought-en]
-> What is sin? Suffering under the delusion that I'm on my own in this life.
 
 ```Cypher
 CREATE (t:THOUGHT {

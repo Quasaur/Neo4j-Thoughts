@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Nothing To Offer
-
-> [!Thought-en]
-> God is not interested in what you can offer Him; because the truth is that you have nothing to give God until He gives it to you first!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 24-Apr-2012a)

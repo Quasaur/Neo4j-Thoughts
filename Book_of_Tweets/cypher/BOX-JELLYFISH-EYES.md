@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Box Jellyfish Eyes
-
-> [!Thought-en]
-> The box jellyfish--nature's most poisonous creature--has 24 eyes and 360-degree vision...God is great!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 18-Aug-2011a)

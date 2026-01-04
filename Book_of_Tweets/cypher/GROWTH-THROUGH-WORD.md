@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Growth Through Word
-
-> [!Thought-en]
-> I cannot grow as a Christian without consistently hearing and speaking God's Word.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 03-Apr-2012c)

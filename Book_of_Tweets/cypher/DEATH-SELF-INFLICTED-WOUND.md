@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Death Self Inflicted Wound
-
-> [!Thought-en]
-> Death is not natural; it's a self-inflicted wound we incurred when we separated ourselves from God through disobedience.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 30-Oct-2013)

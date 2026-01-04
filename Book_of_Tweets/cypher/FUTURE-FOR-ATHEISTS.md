@@ -13,10 +13,6 @@ level: 4
 neo4j: true
 insert: true
 ---
-# Future For Atheists
-
-> [!Thought-en]
-> Is there any future for a species that so despises its Creator as to announce that He doesn't exist?
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 07-Nov-2013)

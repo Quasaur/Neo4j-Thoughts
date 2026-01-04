@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Simple Relationship Christ
-
-> [!Thought-en]
-> A relationship with Christ is simple...I make it complicated.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 14-Dec-2011)

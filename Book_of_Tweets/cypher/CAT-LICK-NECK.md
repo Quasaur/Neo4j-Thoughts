@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Cat Lick Neck
-
-> [!Thought-en]
-> My cat can lick its own neck...God is great!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 01-Sep-2011)

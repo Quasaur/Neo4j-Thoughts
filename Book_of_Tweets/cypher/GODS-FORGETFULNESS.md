@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Gods Forgetfulness
-
-> [!Thought-en]
-> Don't bring to mind what God has decided to forget.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 03-Feb-2012b)

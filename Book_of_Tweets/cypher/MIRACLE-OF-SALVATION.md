@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Miracle Of Salvation
-
-> [!Thought-en]
-> Salvation (separating a sinner from their sin) is a miracle performed by God, not man.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 10-Oct-2011d)

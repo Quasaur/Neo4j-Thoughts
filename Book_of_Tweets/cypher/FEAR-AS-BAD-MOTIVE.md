@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Fear As Bad Motive
-
-> [!Thought-en]
-> Fear is rarely a good motive for any action.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 20-Oct-2013)

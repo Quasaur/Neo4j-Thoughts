@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Love Changes Sinner
-
-> [!Thought-en]
-> It is the LOVE OF GOD that changes a sinner to a saint.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 04-Oct-2012b)

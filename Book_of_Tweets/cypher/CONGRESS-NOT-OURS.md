@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Congress Not Ours
-
-> [!Thought-en]
-> The United States Congress no longer belongs to the American People.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 29-Sep-2013a)

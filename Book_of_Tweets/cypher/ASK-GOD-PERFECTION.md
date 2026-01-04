@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Ask God Perfection
-
-> [!Thought-en]
-> Perfection isn't that difficult...ask God!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 22-Sep-2012)

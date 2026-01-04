@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Proving Creation
-
-> [!Thought-en]
-> "In The Beginning God created the heavens and the Earth." -- Genesis 1:1 There's not a soul on the planet that can prove otherwise.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 19-Jan-2012b)

@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Meeting Lord Jesus
-
-> [!Thought-en]
-> I have met the Lord Jesus: He is to live for, and to die for!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 26-Sep-2010)

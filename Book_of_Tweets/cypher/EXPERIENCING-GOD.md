@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Experiencing God
-
-> [!Thought-en]
-> You don't want to live your entire life and die without experiencing God.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 05-Jan-2012a)

@@ -14,10 +14,6 @@ level: 4
 neo4j: true
 insert: true
 ---
-# Nature Of Reality
-
-> [!Thought-en]
-> Reality: perhaps matter is only real to other matter...?
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 08-Aug-2010b)

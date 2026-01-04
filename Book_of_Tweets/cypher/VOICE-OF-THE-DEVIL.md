@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Voice Of The Devil
-
-> [!Thought-en]
-> Submitting to hate, bitterness and violence is giving a voice to The Devil; these have become his most cherished attributes.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 18-Sep-2010)

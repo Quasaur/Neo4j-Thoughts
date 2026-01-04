@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Ten Trillion Cells
-
-> [!Thought-en]
-> The human body is made up of at least 10 trillion cells...God is great!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 07-Sep-2011b)

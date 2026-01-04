@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# God Loves Homosexuals
-
-> [!Thought-en]
-> God loves homosexuals.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 27-Jan-2012)

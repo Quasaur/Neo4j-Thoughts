@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Power And Will
-
-> [!Thought-en]
-> We don't tap into God's Strength because we are not committed to executing God's Will.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 16-Oct-2010)

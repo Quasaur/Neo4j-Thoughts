@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Define Grace
-
-> [!Thought-en]
-> GRACE is God saying "I like you! I'm gonna cut you a break!"
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 19-Apr-2011)

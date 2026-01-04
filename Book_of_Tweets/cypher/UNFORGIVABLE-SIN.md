@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Unforgivable Sin
-
-> [!Thought-en]
-> What is the Unforgiveable Sin? Unforgiveness.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 25-Oct-2010)

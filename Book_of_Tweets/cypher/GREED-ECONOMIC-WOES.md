@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Greed Economic Woes
-
-> [!Thought-en]
-> The true source of our economic woes is GREED; therefore no recovery will ever be permanent until Christ returns.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 19-Feb-2012d)

@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Galatians Law Debate
-
-> [!Thought-en]
-> The debate of Galatians is not over the law, but whether or not keeping the law will save one WHO HAS ALREADY BROKEN IT.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 16-Apr-2013)

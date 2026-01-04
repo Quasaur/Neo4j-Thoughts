@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Jesus in Disguise
-
-> [!Thought-en]
-> "Each person you meet is Jesus in disguise." -- Mother Teresa
 
 ```Cypher
 CREATE (t:THOUGHT {

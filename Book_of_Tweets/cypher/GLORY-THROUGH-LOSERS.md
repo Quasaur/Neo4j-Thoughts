@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Glory Through Losers
-
-> [!Thought-en]
-> God prefers losers so that when we win God gets the glory!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 29-Sep-2011)

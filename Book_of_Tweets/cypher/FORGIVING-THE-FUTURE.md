@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Forgiving The Future
-
-> [!Thought-en]
-> We're so busy struggling to forgive the past we never consider the necessity of forgiving the future.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 06-Apr-2011)

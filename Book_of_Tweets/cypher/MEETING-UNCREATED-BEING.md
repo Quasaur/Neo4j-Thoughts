@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Meeting Uncreated Being
-
-> [!Thought-en]
-> You haven't lived till you've met An Uncreated Being!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 29-Nov-2012)

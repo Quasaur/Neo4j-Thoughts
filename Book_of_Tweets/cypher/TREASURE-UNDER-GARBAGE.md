@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Treasure Under Garbage
-
-> [!Thought-en]
-> Treasure is often hidden under garbage...be a treasure hunter!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 31-Aug-2012c)

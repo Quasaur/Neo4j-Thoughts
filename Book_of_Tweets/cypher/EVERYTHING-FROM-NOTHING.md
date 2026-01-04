@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Everything From Nothing
-
-> [!Thought-en]
-> Saying that everything came from nothing makes no sense.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 15-Oct-2011b)

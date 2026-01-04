@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Dont Know Doing
-
-> [!Thought-en]
-> God! Forgive us! WE DON'T KNOW WHAT WE'RE DOING!! Luke 23:34
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 01-Aug-2013a)

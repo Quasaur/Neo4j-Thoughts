@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Global Economics Footstool
-
-> [!Thought-en]
-> Global economics: God is making Christ's enemies His Footstool.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 25-Aug-2011)

@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Limits Of Knowledge
-
-> [!Thought-en]
-> "If any man thinks he knows anything, he does not yet know as he ought." -- The Apostle Paul
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 19-Nov-2011)

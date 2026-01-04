@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Movie Already Over
-
-> [!Thought-en]
-> The Bible says the movie is already over...roll the credits!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 22-Mar-2013)

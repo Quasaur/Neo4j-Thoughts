@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Mercy Of Jesus
-
-> [!Thought-en]
-> Jesus is FAR MORE merciful and compassionate than you are!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 18-Nov-2011)

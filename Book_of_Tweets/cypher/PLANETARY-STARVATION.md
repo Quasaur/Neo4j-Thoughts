@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Planetary Starvation
-
-> [!Thought-en]
-> There's enough resources on Planet Earth for EVERYONE...so why are people starving?!?
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 14-Jun-2012b)

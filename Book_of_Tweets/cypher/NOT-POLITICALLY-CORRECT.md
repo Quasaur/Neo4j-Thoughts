@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Not Politically Correct
-
-> [!Thought-en]
-> God is not politically correct.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 21-Oct-2011b)

@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Rejected Truth Weight
-
-> [!Thought-en]
-> The World will perish...crushed under the weight of the Truth it has rejected.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 30-May-2012c)

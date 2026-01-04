@@ -14,10 +14,6 @@ level: 4
 neo4j: true
 insert: true
 ---
-# God Confidence
-
-> [!Thought-en]
-> God-confidence is better than self-confidence.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 27-Apr-2012a)

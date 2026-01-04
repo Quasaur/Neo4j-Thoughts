@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Fourth Branch Church
-
-> [!Thought-en]
-> The true power of the Church is demonstrated by its tax-free status AND that no one's willing to ADMIT it's the 4th Branch of the U.S. Gov.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 05-Apr-2012a)

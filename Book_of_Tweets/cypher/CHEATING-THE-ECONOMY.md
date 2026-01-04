@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Cheating The Economy
-
-> [!Thought-en]
-> As long as we feel it necessary to cheat, lie and steal to survive, our economy will never truly prosper.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 19-Feb-2012g)

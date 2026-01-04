@@ -14,10 +14,6 @@ level: 4
 neo4j: true
 insert: true
 ---
-# Hatred And Love
-
-> [!Thought-en]
-> One who is incapable of hatred is also incapable of love.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 30-Nov-2012)

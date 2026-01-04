@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Penalty Vs Sin
-
-> [!Thought-en]
-> We want to be saved from the PENALTY of sin but not sin itself.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 31-Aug-2011b)

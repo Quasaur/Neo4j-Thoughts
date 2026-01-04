@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Lucifers Deception
-
-> [!Thought-en]
-> God knew what Lucifer was doing...and allowed him to tempt, deceive and lead astray one third of Heaven.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 07-Jan-2011)

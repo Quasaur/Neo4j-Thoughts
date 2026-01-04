@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Wisdom Of God
-
-> [!Thought-en]
-> God is older, wiser, smarter, more intelligent and more powerful than you.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 23-Nov-2011b)

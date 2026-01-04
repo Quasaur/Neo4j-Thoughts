@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Limits Of Forgiveness
-
-> [!Thought-en]
-> The only people God doesn't forgive are those who don't want to be forgiven.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 25-Aug-2010)

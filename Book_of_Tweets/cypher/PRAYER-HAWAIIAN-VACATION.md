@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Prayer Hawaiian Vacation
-
-> [!Thought-en]
-> Prayer is my Hawaiian vacation.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 20-Jul-2013b)

@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Wanting Forgiveness Only
-
-> [!Thought-en]
-> We want to be forgiven, but we don't want to forgive...how disgusting.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 23-Jul-2013c)

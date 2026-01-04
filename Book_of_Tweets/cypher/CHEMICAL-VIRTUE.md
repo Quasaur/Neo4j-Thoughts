@@ -14,10 +14,6 @@ level: 4
 neo4j: true
 insert: true
 ---
-# Chemical Virtue
-
-> [!Thought-en]
-> You yourself are a supernatural being! Explain LOVE, or COURAGE or VIRTUE chemically.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 15-Oct-2011f)

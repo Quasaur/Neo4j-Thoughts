@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Corporate Racism
-
-> [!Thought-en]
-> Racism, Discrimination and Prejudice are alive and well in Corporate America.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 17-Oct-2011c)

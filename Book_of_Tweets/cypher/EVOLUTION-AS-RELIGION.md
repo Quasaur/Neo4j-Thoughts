@@ -14,10 +14,6 @@ level: 4
 neo4j: true
 insert: true
 ---
-# Evolution As Religion
-
-> [!Thought-en]
-> Evolution is a RELIGION, evidence for which has been dwindling as scientific observation has grown more sophisticated.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 06-Nov-2010c)

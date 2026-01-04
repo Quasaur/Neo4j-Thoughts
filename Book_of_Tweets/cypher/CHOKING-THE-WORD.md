@@ -14,10 +14,6 @@ level: 4
 neo4j: true
 insert: true
 ---
-# Choking The Word
-
-> [!Thought-en]
-> Like weeds choke a flower, the cares of this life and the deceitfulness of riches choke the Word of God in my heart, and make it unfruitful.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 25-Sep-2010)

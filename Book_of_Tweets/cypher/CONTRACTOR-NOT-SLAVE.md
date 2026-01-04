@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Contractor Not Slave
-
-> [!Thought-en]
-> A contractor is NOT a slave.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 15-Oct-2012)

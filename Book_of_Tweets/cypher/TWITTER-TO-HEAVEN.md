@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Twitter To Heaven
-
-> [!Thought-en]
-> If I could, I'd take my Twitter followers to Heaven with me.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 10-Oct-2011b)

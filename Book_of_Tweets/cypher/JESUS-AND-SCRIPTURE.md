@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Jesus And Scripture
-
-> [!Thought-en]
-> Jesus treated the Scriptures as the Testimony of God...I would be foolish to do otherwise.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 03-Sep-2012)

@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Work To Be Saved
-
-> [!Thought-en]
-> Getting saved is hard work; but hard work alone won't get you saved.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 05-Mar-2012)

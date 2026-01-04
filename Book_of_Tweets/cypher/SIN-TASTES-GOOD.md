@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Sin Tastes Good
-
-> [!Thought-en]
-> Sin is killing us; but at least it tastes good!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 02-Nov-2013b)

@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Interior Mississippi
-
-> [!Thought-en]
-> "You know what they say: 'Between Pittsburgh and Philadelphia is Mississippi!'" -- Anonymous
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 24-Oct-2011)

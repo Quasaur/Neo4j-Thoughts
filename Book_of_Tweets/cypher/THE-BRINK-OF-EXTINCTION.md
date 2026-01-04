@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# The Brink Of Extinction
-
-> [!Thought-en]
-> Matthew 24:21, 22: It may be that Christ will not return until humanity is on the brink of extinction.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 19-Dec-2010)

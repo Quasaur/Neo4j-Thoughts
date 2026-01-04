@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Unsustainable World System
-
-> [!Thought-en]
-> I believe the Hebrew Scriptures...this world system is unsustainable.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 26-Feb-2012a)

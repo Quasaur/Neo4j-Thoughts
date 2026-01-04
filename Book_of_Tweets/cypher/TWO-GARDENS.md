@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Two Gardens
-
-> [!Thought-en]
-> In the Bible there are 2 gardens. In the 1st garden are 2 trees; in the 2nd garden is only 1 tree. What happened to the 2nd tree?
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 16-Feb-2011)

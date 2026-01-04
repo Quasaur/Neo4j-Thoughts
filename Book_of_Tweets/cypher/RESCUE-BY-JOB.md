@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Rescue By Job
-
-> [!Thought-en]
-> I wish to publicly thank God for rescuing us with a job that kept a roof over our heads and the lights on...Jesus is HOT STUFF!!!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 16-Oct-2011a)

@@ -14,10 +14,6 @@ level: 4
 neo4j: true
 insert: true
 ---
-# True Wealth Need
-
-> [!Thought-en]
-> Matthew 10:34-39: One is not truly wealthy until they've lost their need for everything!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 24-Oct-2012b)

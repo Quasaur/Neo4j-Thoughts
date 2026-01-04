@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Science And Scripture
-
-> [!Thought-en]
-> No discrepancy exists between Science and Scripture; the discrepancy is between scientists and God.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 23-Sep-2011b)

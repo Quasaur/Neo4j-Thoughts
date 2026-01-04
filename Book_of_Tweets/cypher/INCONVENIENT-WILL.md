@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Inconvenient Will
-
-> [!Thought-en]
-> Accomplishing God's Will is rarely convenient.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 30-Oct-2011)

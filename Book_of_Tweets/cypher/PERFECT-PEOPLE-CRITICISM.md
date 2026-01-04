@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Perfect People Criticism
-
-> [!Thought-en]
-> Have you ever noticed that perfect people don't respond well to criticism?
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 24-Oct-2013a)

@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Christs Final Virtue
-
-> [!Thought-en]
-> Humanity's Last and only remaining Virtue is Jesus Christ; rejecting Him is turning our backs on the only Good left to us.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 21-Oct-2013)

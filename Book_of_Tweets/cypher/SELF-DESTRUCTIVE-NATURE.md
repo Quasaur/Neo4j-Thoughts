@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Self Destructive Nature
-
-> [!Thought-en]
-> We are self-destructive by nature and teach our children to be self-destructive.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 17-Sep-2013c)

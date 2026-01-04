@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Powerless Church
-
-> [!Thought-en]
-> The church that is without power doesn't understand The Gospel (Romans 1:16).
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 18-Jan-2012)

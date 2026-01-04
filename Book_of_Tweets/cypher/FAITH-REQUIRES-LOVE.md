@@ -14,10 +14,6 @@ level: 4
 neo4j: true
 insert: true
 ---
-# Faith Requires Love
-
-> [!Thought-en]
-> True Faith is impossible to achieve without LOVE.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 30-May-2013)

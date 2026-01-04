@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Prayer For Revelation
-
-> [!Thought-en]
-> God knows things about the people around you that you have no idea of; if one of those things comes to light, it is so you can pray.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 10-Oct-2011c)

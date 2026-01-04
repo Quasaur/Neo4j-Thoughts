@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Happiness Of Giving
-
-> [!Thought-en]
-> God is happier than everyone else because He gives more than anyone else.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 16-Nov-2011b)

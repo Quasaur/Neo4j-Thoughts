@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Psychopathic Corporations
-
-> [!Thought-en]
-> The corporation as a legal "person" is demonstrably psychopathic.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 10-Sep-2011b)

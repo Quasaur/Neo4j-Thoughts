@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Forgiving Others Problem
-
-> [!Thought-en]
-> If a person has received forgiveness from God for EVERY sin, why would they have a problem forgiving anyone else?
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 26-Oct-2011b)

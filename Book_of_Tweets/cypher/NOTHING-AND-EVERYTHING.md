@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Nothing And Everything
-
-> [!Thought-en]
-> I am nothing to God...and yet...I am everything to God.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 01-Oct-2011a)

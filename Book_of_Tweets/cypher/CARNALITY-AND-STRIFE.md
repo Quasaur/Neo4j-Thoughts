@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Carnality And Strife
-
-> [!Thought-en]
-> 1 Corinthians 3:3: "...for whereas there is among you envying, and strife, and divisions, are ye not carnal, and walk as men?"
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 04-Sep-2011)

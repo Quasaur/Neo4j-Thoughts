@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Rich And Welfare
-
-> [!Thought-en]
-> The rich don't want to pay for welfare ...nor do they wish to hire welfare recipients.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 31-Aug-2011d)

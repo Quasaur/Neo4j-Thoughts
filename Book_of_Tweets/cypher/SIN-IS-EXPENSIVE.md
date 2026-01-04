@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Sin Is Expensive
-
-> [!Thought-en]
-> Law enforcement, court costs incarceration, healthcare, security, protection, insurance premiums, funeral costs...Sin is expensive!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 02-Nov-2013a)

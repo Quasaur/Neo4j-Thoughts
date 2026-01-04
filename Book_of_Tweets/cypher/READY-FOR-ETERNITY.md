@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Ready For Eternity
-
-> [!Thought-en]
-> We are all going to die; are you ready for Eternity?
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 19-Jun-2012)

@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Grace To Humble
-
-> [!Thought-en]
-> Salvation in a Nutshell: God resists the proud, but gives Grace to the humble.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 04-Jan-2012b)

@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Pride Is Prison
-
-> [!Thought-en]
-> Pride is a prison, and Unconditional Love the only Liberator.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 03-Oct-2011)

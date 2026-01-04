@@ -14,10 +14,6 @@ level: 4
 neo4j: true
 insert: true
 ---
-# Evolution Compassion Mercy
-
-> [!Thought-en]
-> Can evolution explain Compassion? Mercy?
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 31-Aug-2013)

@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Christ My Treasure
-
-> [!Thought-en]
-> Christ is my Treasure, my Fortune, my Wealth, my NestEgg and my Riches!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 18-May-2012)

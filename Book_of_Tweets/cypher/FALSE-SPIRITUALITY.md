@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# False Spirituality
-
-> [!Thought-en]
-> False Spirituality: placing the Devil around every corner, under every rock and behind every bush to cover defects of character.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 28-Dec-2011)

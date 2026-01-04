@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Second Coming Stats
-
-> [!Thought-en]
-> One out of every 24 verses in the New Testament refers to the Second Coming of Christ.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 01-Dec-2011c)

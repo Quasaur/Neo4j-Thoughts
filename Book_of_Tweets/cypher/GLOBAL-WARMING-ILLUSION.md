@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Global Warming Illusion
-
-> [!Thought-en]
-> Do you still believe global warming is an illusion?
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 18-Aug-2011b)

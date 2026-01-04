@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Education As Selling Out
-
-> [!Thought-en]
-> At what point in history did African American men decide that being educated was selling out??
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 24-Mar-2012d)

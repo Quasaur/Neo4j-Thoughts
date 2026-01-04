@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Changing Evil To Righteous
-
-> [!Thought-en]
-> God's Other Genius is changing evil people into righteous people!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 16-Sep-2013d)

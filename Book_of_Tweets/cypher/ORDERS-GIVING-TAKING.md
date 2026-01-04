@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Orders Giving Taking
-
-> [!Thought-en]
-> I'm highly suspicious of people who can give orders but not take orders.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 20-Apr-2013)

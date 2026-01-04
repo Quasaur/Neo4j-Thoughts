@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Treated As Family
-
-> [!Thought-en]
-> God has always treated me as family, whether I deserved it or not.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 10-May-2012)

@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Preference Vs Necessity
-
-> [!Thought-en]
-> Preference must give way to Necessity.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 09-Jul-2011b)

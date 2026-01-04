@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Heaven Home Within
-
-> [!Thought-en]
-> Before I can go Home to Heaven, Heaven must find a home in me.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 27-Feb-2012b)

@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Recognize Opportunity
-
-> [!Thought-en]
-> The tragedy is that African American men do not recognize opportunity when they see it.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 24-Mar-2012a)

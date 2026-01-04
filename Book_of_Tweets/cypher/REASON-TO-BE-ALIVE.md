@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Reason To Be Alive
-
-> [!Thought-en]
-> The only reason we are alive is to find Jesus that He may take away our sin.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 18-Sep-2013c)

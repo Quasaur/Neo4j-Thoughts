@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Unequally Yoked Marriage
-
-> [!Thought-en]
-> The Christian who marries a unbeliever has the Devil for a father-in-law!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 01-Jun-2012c)

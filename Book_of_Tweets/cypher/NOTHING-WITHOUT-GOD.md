@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Nothing Without God
-
-> [!Thought-en]
-> You are NOTHING without God; You are EVERYTHING to God.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 21-Dec-2011)

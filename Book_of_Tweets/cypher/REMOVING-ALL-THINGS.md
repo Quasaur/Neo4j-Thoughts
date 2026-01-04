@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Removing All Things
-
-> [!Thought-en]
-> "I will completely remove all things from the face of the earth," -- God, Zephaniah 1:2
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 24-Nov-2011c)

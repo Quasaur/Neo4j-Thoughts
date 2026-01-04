@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Nature Of The Godhead
-
-> [!Thought-en]
-> Anyone who thinks they understand the Nature of the Godhead is a liar.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 31-Jan-2012)

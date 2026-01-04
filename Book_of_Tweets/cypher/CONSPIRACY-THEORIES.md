@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Conspiracy Theories
-
-> [!Thought-en]
-> I LOVE conspiracy theories...they allow me to pass responsibility for my failures to someone else!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 03-Nov-2010b)

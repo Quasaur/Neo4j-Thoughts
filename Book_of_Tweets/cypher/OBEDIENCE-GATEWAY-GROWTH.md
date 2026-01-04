@@ -13,10 +13,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Obedience Gateway Growth
-
-> [!Thought-en]
-> Obedience is the ONLY gateway to spiritual growth.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 28-Apr-2014)

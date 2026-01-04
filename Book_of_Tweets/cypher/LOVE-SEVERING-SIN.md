@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Love Severing Sin
-
-> [!Thought-en]
-> Only Love can separate sinners from their sins.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 25-Jan-2012b)

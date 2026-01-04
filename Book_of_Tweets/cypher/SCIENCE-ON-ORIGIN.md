@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Science On Origin
-
-> [!Thought-en]
-> If I can't trust science to explain origin, why is it so infallible on development??
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 15-Oct-2011e)

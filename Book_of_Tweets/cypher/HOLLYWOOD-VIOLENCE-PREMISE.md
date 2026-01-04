@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Hollywood Violence Premise
-
-> [!Thought-en]
-> The original premise of Hollywood violence was "If they're watching violence they're not committing it."...Oops!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 01-Jan-2013)

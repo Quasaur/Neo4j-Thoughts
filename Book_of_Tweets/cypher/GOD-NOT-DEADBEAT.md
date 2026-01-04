@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# God Not Deadbeat
-
-> [!Thought-en]
-> God is not a deadbeat... He takes care of His own.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 02-Jun-2013)

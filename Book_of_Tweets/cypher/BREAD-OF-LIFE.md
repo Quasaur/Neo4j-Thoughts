@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Bread Of Life
-
-> [!Thought-en]
-> We overeat in our attempt to feed our starving spirit with natural food instead of The BREAD of LIFE which is Christ.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 03-Apr-2012a)

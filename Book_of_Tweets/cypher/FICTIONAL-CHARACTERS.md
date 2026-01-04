@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Fictional Characters
-
-> [!Thought-en]
-> Compared to GOD we are all fictional characters.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 06-May-2011a)

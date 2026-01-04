@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Christ Coming Clouds
-
-> [!Thought-en]
-> History is going to play out just as the Bible says; what are you going to do when you see Christ coming in the clouds of Heaven?
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 21-Jun-2012)

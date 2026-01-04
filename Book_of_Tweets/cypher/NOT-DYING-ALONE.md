@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Not Dying Alone
-
-> [!Thought-en]
-> God will let you die...but He will not let you die alone.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 12-Jan-2012)

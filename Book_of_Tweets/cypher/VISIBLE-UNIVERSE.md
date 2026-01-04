@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Visible Universe
-
-> [!Thought-en]
-> The Visible Universe: God Is Great
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 27-Jul-2011)

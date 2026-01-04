@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Judgment Of Nations
-
-> [!Thought-en]
-> God will not only judge individuals, but nations (ethnic and political). May God grant repentance to the USA.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 05-May-2011b)

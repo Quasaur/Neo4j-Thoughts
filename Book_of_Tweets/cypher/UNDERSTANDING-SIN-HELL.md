@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Understanding Sin Hell
-
-> [!Thought-en]
-> You will never understand how God feels about sin until you look into Hell.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 24-Aug-2012)

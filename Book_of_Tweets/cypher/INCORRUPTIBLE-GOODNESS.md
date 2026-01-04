@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Incorruptible Goodness
-
-> [!Thought-en]
-> Good is greater than evil; for the Fountain of All Good (God) has never been nor can ever be corrupted by evil.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 19-Feb-2012c)

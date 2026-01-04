@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Danger Of Truth
-
-> [!Thought-en]
-> Truth is a dangerous thing...yet so is a lie.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 02-Oct-2012)

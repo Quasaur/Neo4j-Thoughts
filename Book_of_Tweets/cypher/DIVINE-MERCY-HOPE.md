@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Divine Mercy Hope
-
-> [!Thought-en]
-> Apart from Divine Mercy there is no hope for the human race.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 09-Dec-2010)

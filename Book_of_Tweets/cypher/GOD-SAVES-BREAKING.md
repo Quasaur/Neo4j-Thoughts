@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# God Saves Breaking
-
-> [!Thought-en]
-> God will save you...after He breaks you. Matthew 21:44
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 07-Oct-2013)

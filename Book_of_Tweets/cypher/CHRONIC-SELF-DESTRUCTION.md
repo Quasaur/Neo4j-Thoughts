@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Chronic Self Destruction
-
-> [!Thought-en]
-> As a species the homosapien is chronically self-destructive and IT CANNOT STOP ITSELF...therefore God must judge it.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 10-Sep-2011c)

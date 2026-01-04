@@ -14,9 +14,6 @@ level: 6
 neo4j: true
 insert: true
 ---
-# Thought: BACH AND GENIUS
-> [!Thought-en]
-> Johann Sebastian Bach is one of those rare souls whose gifts transcend all genius!
 
 ```Cypher
 // Generated from Book6E-FINAL.md

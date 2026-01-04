@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Power Of Weakness
-
-> [!Thought-en]
-> True Strength understands the Power of Weakness.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 03-Mar-2012a)

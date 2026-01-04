@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# One True God Yhwh
-
-> [!Thought-en]
-> I believe there is One True God -- YHWH; and Jesus Christ is His Living Word! Hebrews 1:1-4
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 11-Sep-2011)

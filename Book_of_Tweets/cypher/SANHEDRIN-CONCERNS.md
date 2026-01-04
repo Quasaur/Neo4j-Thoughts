@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Sanhedrin Concerns
-
-> [!Thought-en]
-> The Sanhedrin was more concerned about their authority and money than about serving God or God's people.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 30-Sep-2012)

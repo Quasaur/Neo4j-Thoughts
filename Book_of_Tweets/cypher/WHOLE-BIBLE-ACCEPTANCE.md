@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Whole Bible Acceptance
-
-> [!Thought-en]
-> We should accept the whole Bible, or none of it; otherwise we distort its message.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 24-Apr-2013)

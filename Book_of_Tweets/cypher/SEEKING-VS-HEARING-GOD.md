@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Seeking Vs Hearing God
-
-> [!Thought-en]
-> You would think that a person desperate to hear from God would be desperate to seek God...
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 20-Sep-2013b)

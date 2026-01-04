@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Unconditional Love Prayer
-
-> [!Thought-en]
-> Prayer is where I am loved unconditionally.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 20-Jul-2013f)

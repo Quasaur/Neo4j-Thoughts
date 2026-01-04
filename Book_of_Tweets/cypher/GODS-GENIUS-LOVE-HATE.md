@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Gods Genius Love Hate
-
-> [!Thought-en]
-> What identifies God's Genius is the ability to hate evil while simultaneously loving evil people.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 16-Sep-2013c)

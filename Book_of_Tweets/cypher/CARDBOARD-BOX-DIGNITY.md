@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Cardboard Box Dignity
-
-> [!Thought-en]
-> I'd rather live in a cardboard box than to earn 6 figures and be treated like a pet!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 12-Oct-2012d)

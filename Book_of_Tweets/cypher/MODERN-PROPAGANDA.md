@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Modern Propaganda
-
-> [!Thought-en]
-> Modern Propaganda (good vampires, pious werewolves, virtuous mediums) has perpetuated humanity's slide into Satan's occult domain.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 03-Sep-2010a)

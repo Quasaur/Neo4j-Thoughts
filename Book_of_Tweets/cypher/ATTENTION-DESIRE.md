@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Attention Desire
-
-> [!Thought-en]
-> I only want your attention when you don't want to give it to me.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 22-Aug-2011a)

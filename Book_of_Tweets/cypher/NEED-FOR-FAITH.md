@@ -14,10 +14,6 @@ level: 4
 neo4j: true
 insert: true
 ---
-# Need For Faith
-
-> [!Thought-en]
-> As long as there is ignorance, there will be a need for faith.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 15-Jan-2012)

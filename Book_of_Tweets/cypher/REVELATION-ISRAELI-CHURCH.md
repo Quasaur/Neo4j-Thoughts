@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Revelation Israeli Church
-
-> [!Thought-en]
-> Revelation is not about the gentile church as much as the Israeli church. In this context, everything starts to make sense.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 09-Jun-2013)

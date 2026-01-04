@@ -14,10 +14,6 @@ level: 4
 neo4j: true
 insert: true
 ---
-# Faith In Evolution
-
-> [!Thought-en]
-> Evolution requires FAR MORE FAITH than Intelligent Design.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 06-Nov-2010d)

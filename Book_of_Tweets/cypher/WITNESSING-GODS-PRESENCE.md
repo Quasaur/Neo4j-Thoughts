@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Witnessing Gods Presence
-
-> [!Thought-en]
-> We assemble to witness the manifestation of God's Presence; it is there that sins are forgiven, yokes are broken and bodies are healed.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 30-Aug-2011a)

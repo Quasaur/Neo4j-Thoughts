@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Defining Evil Pride
-
-> [!Thought-en]
-> Evil is considering this God-given treasure (Self) more precious than The God Who gave it.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 21-Aug-2012a)

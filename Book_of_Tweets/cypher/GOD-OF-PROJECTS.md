@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# God Of Projects
-
-> [!Thought-en]
-> Jesus Christ is The God of Project Management.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 27-Jun-2011b)

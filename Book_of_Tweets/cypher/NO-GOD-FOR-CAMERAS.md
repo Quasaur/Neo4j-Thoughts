@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# No God For Cameras
-
-> [!Thought-en]
-> I am convinced that God doesn't perform for cameras.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 10-Sep-2012)

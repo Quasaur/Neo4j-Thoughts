@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Truth Confirms God
-
-> [!Thought-en]
-> There is no truth that denies God's Existence.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 15-Oct-2013)

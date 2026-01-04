@@ -14,10 +14,6 @@ level: 4
 neo4j: true
 insert: true
 ---
-# Questioning Gods Existence
-
-> [!Thought-en]
-> In a perverse generation they question God's Existence, when it's their existence and survival that has a question mark behind them.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 21-Aug-2012b)

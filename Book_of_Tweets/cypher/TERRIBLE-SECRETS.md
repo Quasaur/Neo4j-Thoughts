@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Terrible Secrets
-
-> [!Thought-en]
-> Secrets can be terrible things.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 03-Mar-2012c)

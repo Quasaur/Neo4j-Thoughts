@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Prayer Makes Human
-
-> [!Thought-en]
-> Prayer, above all else, is what makes me Human; without it, I'm just an animal.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 20-Jul-2013i)

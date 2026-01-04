@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Nothing New Truth
-
-> [!Thought-en]
-> There is nothing new about Truth.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 04-Dec-2012)

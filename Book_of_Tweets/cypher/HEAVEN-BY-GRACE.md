@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Heaven By Grace
-
-> [!Thought-en]
-> I know I have no business being in Heaven--but I'm going...such is the Power of Divine Grace!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 01-Dec-2011a)

@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Mastering Sin
-
-> [!Thought-en]
-> Genesis 4:6,7 God doesn't expect us to eradicate sin (that's His Job)...but He does expect us to master sin.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 06-Sep-2010)

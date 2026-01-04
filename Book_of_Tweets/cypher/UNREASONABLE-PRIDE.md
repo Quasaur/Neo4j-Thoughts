@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Unreasonable Pride
-
-> [!Thought-en]
-> Self Pride is always unreasonable.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 29-Dec-2011c)

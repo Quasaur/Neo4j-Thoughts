@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Ultimate Reality God
-
-> [!Thought-en]
-> God is the Ultimate Reality. So if you're not interested in God, how real are you?
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 19-Mar-2013)

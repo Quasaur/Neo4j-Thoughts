@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Responsibility No Authority
-
-> [!Thought-en]
-> Responsibility without authority is like a boat without a motor.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 05-Aug-2013)
