@@ -1,6 +1,7 @@
 ---
 name: "thought.THE LORD GIVES"
 alias: "Thought: Divine Sovereignty"
+type: THOUGHT
 parent: "topic.DIVINE SOVEREIGNTY"
 tags:
 - sovereignty

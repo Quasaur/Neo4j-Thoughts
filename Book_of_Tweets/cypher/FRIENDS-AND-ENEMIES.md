@@ -1,16 +1,17 @@
 ---
-name: "thought.FRIENDS AND ENEMIES"
+name: thought.FRIENDS AND ENEMIES
 alias: "Thought: Divine Design"
-parent: "topic.CREATION"
+parent: topic.CREATION
 tags:
-- creation
-- purpose
-- sovereignty
-- relations
-- divine_will
+  - creation
+  - purpose
+  - sovereignty
+  - relations
+  - divine_will
 level: 2
 neo4j: true
 insert: true
+type: THOUGHT
 ---
 # Friends and Enemies
 

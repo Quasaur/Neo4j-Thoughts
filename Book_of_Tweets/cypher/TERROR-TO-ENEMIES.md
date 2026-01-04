@@ -1,16 +1,17 @@
 ---
-name: "thought.TERROR TO ENEMIES"
+name: thought.TERROR TO ENEMIES
 alias: "Thought: Divine Justice"
-parent: "topic.THE GODHEAD"
+parent: topic.THE GODHEAD
 tags:
-- divine_wrath
-- justice
-- holiness
-- judgment
-- gods_enemies
+  - divine_wrath
+  - justice
+  - holiness
+  - judgment
+  - gods_enemies
 level: 1
 neo4j: true
 insert: true
+type: THOUGHT
 ---
 # Terror to Enemies
 

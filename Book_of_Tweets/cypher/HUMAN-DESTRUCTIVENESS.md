@@ -1,6 +1,7 @@
 ---
 name: "thought.HUMAN DESTRUCTIVENESS"
 alias: "Thought: Human Nature"
+type: THOUGHT
 parent: "topic.HUMANITY"
 tags:
 - human_nature

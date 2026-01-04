@@ -1,6 +1,7 @@
 ---
 name: "thought.WEEPING OVER CREATION"
 alias: "Thought: Ecological Care"
+type: THOUGHT
 parent: "topic.CREATION"
 tags:
 - creation

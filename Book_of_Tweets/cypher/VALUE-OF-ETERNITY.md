@@ -1,6 +1,7 @@
 ---
 name: "thought.VALUE OF ETERNITY"
 alias: "Thought: Eternal Perspective"
+type: THOUGHT
 parent: "topic.SPIRITUALITY"
 tags:
 - eternity

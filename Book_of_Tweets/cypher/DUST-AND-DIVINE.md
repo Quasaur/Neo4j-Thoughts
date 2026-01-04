@@ -1,6 +1,7 @@
 ---
 name: "thought.DUST AND DIVINE"
 alias: "Thought: Image of God"
+type: THOUGHT
 parent: "topic.HUMANITY"
 tags:
 - humanity

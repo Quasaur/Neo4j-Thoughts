@@ -1,6 +1,7 @@
 ---
 name: "thought.THE CROSS"
 alias: "Thought: The Cross"
+type: THOUGHT
 parent: "topic.THE GOSPEL"
 tags:
 - the_cross

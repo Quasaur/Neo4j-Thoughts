@@ -1,16 +1,17 @@
 ---
-name: "thought.DIVINE GOODNESS"
+name: thought.DIVINE GOODNESS
 alias: "Thought: Divine Goodness"
-parent: "topic.THE GODHEAD"
+parent: topic.THE GODHEAD
 tags:
-- divine_goodness
-- divine_nature
-- holiness
-- worship
-- grace
+  - divine_goodness
+  - divine_nature
+  - holiness
+  - worship
+  - grace
 level: 1
 neo4j: true
 insert: true
+type: THOUGHT
 ---
 # God is Good
 

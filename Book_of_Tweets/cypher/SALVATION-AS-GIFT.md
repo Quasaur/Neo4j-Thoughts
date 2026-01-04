@@ -1,6 +1,7 @@
 ---
 name: "thought.SALVATION AS GIFT"
 alias: "Thought: Salvation"
+type: THOUGHT
 parent: "topic.THE GOSPEL"
 tags:
 - salvation

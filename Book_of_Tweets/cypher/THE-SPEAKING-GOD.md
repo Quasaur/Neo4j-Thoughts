@@ -1,16 +1,17 @@
 ---
-name: "thought.THE SPEAKING GOD"
+name: thought.THE SPEAKING GOD
 alias: "Thought: Divine Word"
-parent: "topic.THE GODHEAD"
+parent: topic.THE GODHEAD
 tags:
-- divine_word
-- divine_speech
-- creation_act
-- sovereignty
-- revelation
+  - divine_word
+  - divine_speech
+  - creation_act
+  - sovereignty
+  - revelation
 level: 1
 neo4j: true
 insert: true
+type: THOUGHT
 ---
 # The Speaking God
 
