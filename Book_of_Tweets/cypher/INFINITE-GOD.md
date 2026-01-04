@@ -1,16 +1,17 @@
 ---
-name: "thought.INFINITE GOD"
+name: thought.INFINITE GOD
 alias: "Thought: Divine Magnitude"
-parent: "topic.THE GODHEAD"
+parent: topic.THE GODHEAD
 tags:
-- infinite
-- godhead
-- majesty
-- understanding
-- limits
+  - infinite
+  - godhead
+  - majesty
+  - understanding
+  - limits
 level: 1
 neo4j: true
 insert: true
+type: THOUGHT
 ---
 # Infinite God
 

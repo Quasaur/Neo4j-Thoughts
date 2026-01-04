@@ -1,6 +1,7 @@
 ---
 name: "thought.JESUS IN DISGUISE"
 alias: "Thought: Image of God"
+type: THOUGHT
 parent: "topic.HUMANITY"
 tags:
 - humanity

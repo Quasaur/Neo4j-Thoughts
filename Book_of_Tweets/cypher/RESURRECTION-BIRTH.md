@@ -1,6 +1,7 @@
 ---
 name: "thought.RESURRECTION BIRTH"
 alias: "Thought: Eternal Life"
+type: THOUGHT
 parent: "topic.THE GOSPEL"
 tags:
 - resurrection

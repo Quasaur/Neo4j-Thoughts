@@ -1,6 +1,7 @@
 ---
 name: "thought.LETTING GO"
 alias: "Thought: Unlearning"
+type: THOUGHT
 parent: "topic.UNDERSTANDING"
 tags:
 - unlearning

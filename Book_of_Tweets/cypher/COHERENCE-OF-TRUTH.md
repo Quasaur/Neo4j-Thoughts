@@ -1,6 +1,7 @@
 ---
 name: "thought.COHERENCE OF TRUTH"
 alias: "Thought: Logic of Reality"
+type: THOUGHT
 parent: "topic.TRUTH"
 tags:
 - truth_logic

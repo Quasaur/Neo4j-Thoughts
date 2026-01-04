@@ -1,6 +1,7 @@
 ---
 name: "thought.DEFINITION OF SIN"
 alias: "Thought: Delusion of Self"
+type: THOUGHT
 parent: "topic.MORALITY"
 tags:
 - sin

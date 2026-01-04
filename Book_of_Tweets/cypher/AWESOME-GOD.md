@@ -1,16 +1,17 @@
 ---
-name: "thought.AWESOME GOD"
+name: thought.AWESOME GOD
 alias: "Thought: Divine Majesty"
-parent: "topic.THE GODHEAD"
+parent: topic.THE GODHEAD
 tags:
-- divine_majesty
-- holiness
-- awe_wonder
-- worship
-- gods_children
+  - divine_majesty
+  - holiness
+  - awe_wonder
+  - worship
+  - gods_children
 level: 1
 neo4j: true
 insert: true
+type: THOUGHT
 ---
 # Awesome God
 

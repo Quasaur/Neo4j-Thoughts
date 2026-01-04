@@ -1,6 +1,7 @@
 ---
 name: "thought.LIVING FAITH"
 alias: "Thought: Active Belief"
+type: THOUGHT
 parent: "topic.FAITH"
 tags:
 - faith
