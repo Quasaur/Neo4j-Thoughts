@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Education And Scripture
-
-> [!Thought-en]
-> How can anyone be considered educated without having surveyed the Holy Scriptures?
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 27-Jul-2013a)

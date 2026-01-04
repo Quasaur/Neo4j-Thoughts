@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Suppressing The Bible
-
-> [!Thought-en]
-> Where Satan cannot suppress the distribution of the Bible he has convinced the population to stay away from it.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 21-Sep-2011a)

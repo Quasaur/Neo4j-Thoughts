@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Humility Of Creation
-
-> [!Thought-en]
-> It was The Supreme Act of Humility for God, Who doesn't need anything, to create something!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 12-Oct-2011c)

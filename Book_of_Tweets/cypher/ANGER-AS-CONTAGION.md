@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Anger As Contagion
-
-> [!Thought-en]
-> Anger is a contagion that easily leaps from soul to soul where there is an absence of reason.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 31-Aug-2012a)

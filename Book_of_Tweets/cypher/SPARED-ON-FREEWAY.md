@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Spared On Freeway
-
-> [!Thought-en]
-> I lost my brakes on the freeway last nite; but God spared me from accident and injury and I got the car home.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 23-Nov-2011a)

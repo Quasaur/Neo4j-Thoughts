@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Apostles As Vision
-
-> [!Thought-en]
-> The Apostles loved Jesus' Vision because the Apostles WERE Jesus' Vision!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 31-Oct-2012)

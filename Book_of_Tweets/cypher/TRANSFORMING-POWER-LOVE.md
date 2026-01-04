@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Transforming Power Love
-
-> [!Thought-en]
-> God's Love is frighteningly powerful: turning dirt into flesh, flesh into spirit, sin into righteousness and death into life.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 23-Dec-2011b)

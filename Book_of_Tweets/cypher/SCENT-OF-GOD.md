@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Scent Of God
-
-> [!Thought-en]
-> It is Prayer, and Prayer alone, that places the Scent of God on us.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 04-Oct-2012a)

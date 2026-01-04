@@ -14,9 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Thought: BUNYANS MASTERPIECE
-> [!Thought-en]
-> Reading Bunyan's masterpiece: The Doctrine of Law and Grace Unfolded...Wow!!!
 
 ```Cypher
 // Generated from Book6E-FINAL.md

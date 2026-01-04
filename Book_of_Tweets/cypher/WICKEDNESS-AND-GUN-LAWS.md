@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Wickedness And Gun Laws
-
-> [!Thought-en]
-> Humanity will continue to grow more wicked. As a nation we would be IDIOTS to leave our gun laws in their current state.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 18-Sep-2013b)

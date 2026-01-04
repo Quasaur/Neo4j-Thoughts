@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# The Price Of Promiscuity
-
-> [!Thought-en]
-> People who are promiscuous wind up paying a terrible price.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 16-Nov-2011c)

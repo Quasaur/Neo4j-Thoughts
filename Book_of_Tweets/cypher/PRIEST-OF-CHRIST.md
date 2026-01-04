@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Priest Of Christ
-
-> [!Thought-en]
-> As a priest of Christ, it's my job to speak God's Word (The Holy Bible) into the planetary atmosphere.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 03-Apr-2012b)

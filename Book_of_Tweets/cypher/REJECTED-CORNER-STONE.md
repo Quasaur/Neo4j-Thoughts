@@ -13,10 +13,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Rejected Corner Stone
-
-> [!Thought-en]
-> The Stone that the builders rejected...(smile)!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 20-Dec-2013)

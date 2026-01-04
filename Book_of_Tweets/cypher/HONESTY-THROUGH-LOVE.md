@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Honesty Through Love
-
-> [!Thought-en]
-> When you know God loves you, it's easier to be honest about your faults.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 14-Jun-2012a)

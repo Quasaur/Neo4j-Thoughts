@@ -14,10 +14,6 @@ level: 4
 neo4j: true
 insert: true
 ---
-# Living Faith
-
-> [!Thought-en]
-> Faith is when Divine Truth is caught by your imagination and you begin to live it.
 
 ```Cypher
 CREATE (t:THOUGHT {

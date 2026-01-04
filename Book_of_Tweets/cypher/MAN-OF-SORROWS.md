@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Man Of Sorrows
-
-> [!Thought-en]
-> Jesus was a Man of sorrows...acquainted with grief--not because of what they did to Him, but what they did to each other!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 09-Oct-2012a)

@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Greater Than Being Loved
-
-> [!Thought-en]
-> What could be greater than being loved? Being able to love!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 09-Aug-2011)

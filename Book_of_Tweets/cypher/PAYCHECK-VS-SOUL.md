@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Paycheck Vs Soul
-
-> [!Thought-en]
-> Stop living like your paycheck is worth more than the dignity of your SOUL! Matthew 16:26
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 12-Oct-2012d_2)

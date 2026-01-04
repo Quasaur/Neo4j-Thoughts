@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Christians On Crosses
-
-> [!Thought-en]
-> True Christians are easy to identify: they're the ones hanging on crosses.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 18-Oct-2013)

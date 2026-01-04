@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Evil No Chance
-
-> [!Thought-en]
-> Look at God. Evil never had a chance!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 01-Aug-2013b)

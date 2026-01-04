@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Dust and Divine
-
-> [!Thought-en]
-> We are dust...that look like God.
 
 ```Cypher
 CREATE (t:THOUGHT {

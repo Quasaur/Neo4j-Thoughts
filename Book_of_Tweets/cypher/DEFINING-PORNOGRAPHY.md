@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Defining Pornography
-
-> [!Thought-en]
-> Matthew 5:27-30: Porn is adultery to a married man and fornication to a bachelor.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 03-Sep-2011a)

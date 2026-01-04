@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Knowing Jesus Name
-
-> [!Thought-en]
-> Matthew 7:22, 23 -- Using Jesus' Name doesn't mean you know Jesus.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 16-Nov-2011a)

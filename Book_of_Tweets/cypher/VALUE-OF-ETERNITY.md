@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Value of Eternity
-
-> [!Thought-en]
-> No matter how long you've lived, in the end life is just a few seconds long. It's Eternity that really counts!
 
 ```Cypher
 CREATE (t:THOUGHT {

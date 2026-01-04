@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# God Always Right
-
-> [!Thought-en]
-> Only God is right about everything.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 12-Mar-2013a)

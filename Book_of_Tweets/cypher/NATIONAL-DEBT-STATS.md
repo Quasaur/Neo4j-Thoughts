@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# National Debt Stats
-
-> [!Thought-en]
-> The National Debt: $16 TRILLION...that's $30 million every second for a year!!!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 20-Oct-2011)

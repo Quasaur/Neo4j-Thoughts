@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Showing Mercy
-
-> [!Thought-en]
-> Everybody wants Mercy...few show Mercy.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 18-Jan-2011)

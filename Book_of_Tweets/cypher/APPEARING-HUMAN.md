@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Appearing Human
-
-> [!Thought-en]
-> Beware of those who appear human, but ain't!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 24-Dec-2012)

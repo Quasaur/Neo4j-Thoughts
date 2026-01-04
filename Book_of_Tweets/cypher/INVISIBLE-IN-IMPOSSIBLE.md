@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Invisible In Impossible
-
-> [!Thought-en]
-> God is invisible except in the impossible.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 10-Apr-2013)

@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Marriage Religious Institution
-
-> [!Thought-en]
-> Congress shall make no law regarding the practice of religion...marriage is a RELIGIOUS institution!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 28-Sep-2013)

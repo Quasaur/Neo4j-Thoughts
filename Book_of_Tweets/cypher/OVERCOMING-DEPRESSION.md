@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Overcoming Depression
-
-> [!Thought-en]
-> Long after the point when Depression ceases to be a memory...I will still be here.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 05-Jul-2011a)

@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Preeminence Of Goodness
-
-> [!Thought-en]
-> That which comes first has the preeminence; righteousness came before sin and goodness came before evil.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 05-Nov-2011)

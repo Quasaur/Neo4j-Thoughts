@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Equality At Return
-
-> [!Thought-en]
-> True economic political and social equality will never exist on Earth until Christ returns.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 19-Feb-2012f)

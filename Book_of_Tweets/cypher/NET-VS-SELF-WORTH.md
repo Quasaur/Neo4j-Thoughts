@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Net Vs Self Worth
-
-> [!Thought-en]
-> Don't confuse net worth with self-worth.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 04-Apr-2012b)

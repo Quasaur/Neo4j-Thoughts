@@ -14,10 +14,6 @@ level: 4
 neo4j: true
 insert: true
 ---
-# Purposeless Existence
-
-> [!Thought-en]
-> What is so scientific about saying that Existence has no purpose?
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 15-Oct-2011a)

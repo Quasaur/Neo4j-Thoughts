@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# No Divine Excuses
-
-> [!Thought-en]
-> God can and will forgive anything...but He will not excuse anything.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 28-Nov-2012)

@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Agreeing With Oppressor
-
-> [!Thought-en]
-> Every day we do things to let the Opressor know that we AGREE that his money is worth more than justice, dignity, equity and honor.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 12-Oct-2012e)

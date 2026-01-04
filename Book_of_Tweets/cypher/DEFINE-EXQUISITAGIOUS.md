@@ -14,10 +14,6 @@ level: 6
 neo4j: true
 insert: true
 ---
-# Define Exquisitagious
-
-> [!Thought-en]
-> New Word: exquisitagious Meaning: something so exquisite that the feeling's contagious!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 19-Jan-2012d)

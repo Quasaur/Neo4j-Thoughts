@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Change Others Not Self
-
-> [!Thought-en]
-> We want God to change everyone but ourselves; for the truth is that change can be a painful process...even when God is performing it.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 21-Mar-2012)

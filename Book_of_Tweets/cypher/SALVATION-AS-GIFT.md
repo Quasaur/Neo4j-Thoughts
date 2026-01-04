@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Salvation is Gift
-
-> [!Thought-en]
-> Salvation is neither a formula, methodology nor incantation...it's a Gift!
 
 ```Cypher
 CREATE (t:THOUGHT {

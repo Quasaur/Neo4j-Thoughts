@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Atrocities Of Religion
-
-> [!Thought-en]
-> It's amazing what atrocities religion will allow.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 03-Mar-2012b)

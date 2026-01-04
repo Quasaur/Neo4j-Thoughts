@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Obeying Gods Character Laws
-
-> [!Thought-en]
-> Just because it's legal, doesn't mean it's ethical or just or fair. God doesn't expect us to obey laws that violate His Character.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 20-Sep-2013a)

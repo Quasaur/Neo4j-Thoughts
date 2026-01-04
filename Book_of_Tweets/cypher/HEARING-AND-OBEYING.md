@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Hearing And Obeying
-
-> [!Thought-en]
-> Half the battle: Hearing God's Voice; the Other Half: obeying it.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 20-Aug-2010)

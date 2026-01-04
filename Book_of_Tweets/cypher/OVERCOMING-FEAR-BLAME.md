@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Overcoming Fear Blame
-
-> [!Thought-en]
-> If you keep blaming others for your fears, you'll never overcome them.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 14-Sep-2012)

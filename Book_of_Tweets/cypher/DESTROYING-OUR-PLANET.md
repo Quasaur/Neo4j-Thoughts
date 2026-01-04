@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Destroying Our Planet
-
-> [!Thought-en]
-> Our technology, industry and greed are destroying our planet.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 27-Jul-2013b)

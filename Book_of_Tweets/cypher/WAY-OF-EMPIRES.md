@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Way Of Empires
-
-> [!Thought-en]
-> We are going the way of the Roman Empire and the Soviet Union.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 25-Aug-2011)

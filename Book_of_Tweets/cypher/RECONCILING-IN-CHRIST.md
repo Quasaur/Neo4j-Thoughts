@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Reconciling In Christ
-
-> [!Thought-en]
-> 1st Corinthians 15:24-28: God is reconciling and consolidating all things into Christ.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 24-Nov-2011a)

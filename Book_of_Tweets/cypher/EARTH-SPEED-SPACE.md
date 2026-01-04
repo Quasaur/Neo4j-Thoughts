@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Earth Speed Space
-
-> [!Thought-en]
-> The Earth is tearing thru space at over 667,000 MPH, and we're not dead ...God is great!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 30-Aug-2011c)

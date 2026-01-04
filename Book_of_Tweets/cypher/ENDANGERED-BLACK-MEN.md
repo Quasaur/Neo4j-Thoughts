@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Endangered Black Men
-
-> [!Thought-en]
-> African American men have ALWAYS been the targets of genocide...we are an ENDANGERED SPECIES.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 23-Mar-2012)

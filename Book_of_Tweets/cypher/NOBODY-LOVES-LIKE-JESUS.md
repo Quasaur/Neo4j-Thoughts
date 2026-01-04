@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Nobody Loves Like Jesus
-
-> [!Thought-en]
-> My mother loved me VERY MUCH; but on her finest day she could not take away my sins...nobody loves me like Jesus!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 29-Jul-2011)

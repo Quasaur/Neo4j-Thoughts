@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Progress And Failure
-
-> [!Thought-en]
-> There's no progress without failure.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 27-Sep-2011)

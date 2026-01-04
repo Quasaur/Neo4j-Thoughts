@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Arguing With Creator
-
-> [!Thought-en]
-> Humanity's constant pastime is to argue with its Creator.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 21-Sep-2010)

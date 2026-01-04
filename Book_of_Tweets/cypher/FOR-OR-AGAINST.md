@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# For Or Against
-
-> [!Thought-en]
-> "Whoever is not for Me is against Me." -- Jesus Christ
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 19-Oct-2011)

@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Saved From God
-
-> [!Thought-en]
-> God can save you from anybody...but who can save you from God?
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 12-Nov-2010)

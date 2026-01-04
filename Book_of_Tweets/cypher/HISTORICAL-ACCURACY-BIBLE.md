@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Historical Accuracy Bible
-
-> [!Thought-en]
-> The God in The Bible is described as Truth; therefore The Bible itself must be HISTORICALLY ACCURATE.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 15-Sep-2011)

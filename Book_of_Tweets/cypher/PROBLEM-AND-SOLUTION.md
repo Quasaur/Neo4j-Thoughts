@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Problem And Solution
-
-> [!Thought-en]
-> Identifying the problem is only half the solution.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 24-Jul-2013)

@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Withholding Powers
-
-> [!Thought-en]
-> God withholds powers from us because we do not give Him glory for powers already bestowed.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 19-Dec-2011)

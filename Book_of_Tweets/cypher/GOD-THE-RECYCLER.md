@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# God The Recycler
-
-> [!Thought-en]
-> God recycles.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 27-Feb-2012a)

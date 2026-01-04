@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# God Honors Honor
-
-> [!Thought-en]
-> God is not stupid; He honors those who honor Him...those who ignore Him are lightly esteemed.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 11-Sep-2010)

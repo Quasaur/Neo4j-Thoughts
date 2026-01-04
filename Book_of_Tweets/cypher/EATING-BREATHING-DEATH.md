@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Eating Breathing Death
-
-> [!Thought-en]
-> We insist on eating and breathing death (meat and cigarettes) and then wonder why we get sick and die so fast and why healthcare costs are so high!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 17-Sep-2013a)

@@ -14,10 +14,6 @@ level: 4
 neo4j: true
 insert: true
 ---
-# Define Perfect Love
-
-> [!Thought-en]
-> Love: the blurring of identity between two or more persons. The Love among the Members of The Godhead is such: to see One is to see All.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 16-Feb-2012b)

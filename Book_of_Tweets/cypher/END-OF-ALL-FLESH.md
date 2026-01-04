@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# End Of All Flesh
-
-> [!Thought-en]
-> "The end of all flesh is come before Me..." -- God
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 01-Oct-2010)

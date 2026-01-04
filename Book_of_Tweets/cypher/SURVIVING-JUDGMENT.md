@@ -14,9 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Thought: SURVIVING JUDGMENT
-> [!Thought-en]
-> Salvation: the means by which a wicked, rebellious sinner can survive the Judgment coming upon the whole world.
 
 ```Cypher
 // Generated from Book6E-FINAL.md

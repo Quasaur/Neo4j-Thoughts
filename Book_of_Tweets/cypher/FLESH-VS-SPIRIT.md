@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Flesh Vs Spirit
-
-> [!Thought-en]
-> The flesh is too stupid to be spiritual; it must be crucified with Christ and brought in subjection by the Love of God to the Spirit of God.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 22-Sep-2010)

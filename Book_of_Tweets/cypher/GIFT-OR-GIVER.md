@@ -14,9 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Thought: GIFT OR GIVER
-> [!Thought-en]
-> Which is greater: the gift, or the Giver?
 
 ```Cypher
 // Generated from Book6E-FINAL.md

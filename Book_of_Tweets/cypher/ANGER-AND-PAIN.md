@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Anger And Pain
-
-> [!Thought-en]
-> Anger as a first response is often indicative of an underlying issue...that issue usually being pain.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 31-Aug-2012b)

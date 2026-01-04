@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Good Stronger Evil
-
-> [!Thought-en]
-> Jesus PROVED that Good is stronger than Evil...that Righteousness is MORE POWERFUL than Sin!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 09-Oct-2012b)

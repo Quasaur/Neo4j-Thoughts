@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Christs Amnesty
-
-> [!Thought-en]
-> Humanity's trial is over, and we have been judged. Execution of sentence is nearer than we realize. Christ is God's Only Amnesty.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 01-Feb-2012)

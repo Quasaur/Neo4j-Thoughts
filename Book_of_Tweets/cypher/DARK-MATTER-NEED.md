@@ -14,10 +14,6 @@ level: 4
 neo4j: true
 insert: true
 ---
-# Dark Matter Need
-
-> [!Thought-en]
-> If the Standard Model was doing its job, there'd be no need for "dark matter", "dark energy" or "dark flow"!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 16-Oct-2011d)

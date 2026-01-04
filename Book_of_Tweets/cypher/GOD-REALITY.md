@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# God Reality
-
-> [!Thought-en]
-> As I was watching TV I realized: God is real...we're just cartoon characters compared to Him!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 17-Jul-2010)

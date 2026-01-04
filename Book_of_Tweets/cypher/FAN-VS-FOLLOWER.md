@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Fan Vs Follower
-
-> [!Thought-en]
-> You can be a fan of Christ yet not a follower; but you cannot be a follower and not be a fan!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 05-May-2012a)

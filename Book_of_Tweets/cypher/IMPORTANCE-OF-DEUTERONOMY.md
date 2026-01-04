@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Importance Of Deuteronomy
-
-> [!Thought-en]
-> I'm convinced that the most important book of the Old Testament is Deuteronomy, which contains the ENTIRE PANORAMA of Biblical history.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 10-Apr-2011)

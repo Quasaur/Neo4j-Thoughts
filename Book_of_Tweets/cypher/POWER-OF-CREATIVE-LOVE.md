@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Power Of Creative Love
-
-> [!Thought-en]
-> Love is not weak. Love created this insanely huge universe by simply SPEAKING!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 25-Jan-2012a)

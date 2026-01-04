@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Identity In God
-
-> [!Thought-en]
-> The only reason anyone would want to be "normal" or "like everyone else" is that they do not know who they are in God!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 28-Oct-2012)

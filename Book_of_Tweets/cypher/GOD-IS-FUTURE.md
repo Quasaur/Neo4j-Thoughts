@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# God Is Future
-
-> [!Thought-en]
-> God is your Future.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 29-Jun-2012)

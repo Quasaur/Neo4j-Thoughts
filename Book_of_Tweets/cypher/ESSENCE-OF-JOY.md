@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Essence Of Joy
-
-> [!Thought-en]
-> The essence of Joy is to discover that God is more wonderful, more great and more important than I.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 06-Jan-2012)

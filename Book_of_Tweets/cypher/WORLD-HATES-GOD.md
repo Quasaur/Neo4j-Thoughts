@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# World Hates God
-
-> [!Thought-en]
-> God loves the world. The world hates God. This is not going to end well for the world.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 08-Feb-2012b)

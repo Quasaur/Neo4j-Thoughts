@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# American Poverty Line
-
-> [!Thought-en]
-> 46 million Americans are at or below the poverty line.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 13-Sep-2011)

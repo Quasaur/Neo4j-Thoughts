@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Flesh The Tyrant
-
-> [!Thought-en]
-> The Flesh is a tyrant.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 26-Feb-2012b)

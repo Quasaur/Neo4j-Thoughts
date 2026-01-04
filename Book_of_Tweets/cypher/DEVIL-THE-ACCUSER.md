@@ -13,10 +13,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Devil The Accuser
-
-> [!Thought-en]
-> The Devil is called the Accuser (Prosecutor) for a reason: he directs our focus to what we have done than what Christ has done for us.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 13-Mar-2014)

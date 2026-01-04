@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Spitting On The Cross
-
-> [!Thought-en]
-> Jesus has been punished for the sin you have committed against me; if I don't forgive you I have spit on The Cross of Christ.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 29-Aug-2011)

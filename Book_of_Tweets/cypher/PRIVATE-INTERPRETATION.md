@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Private Interpretation
-
-> [!Thought-en]
-> Where Satan can't stop Bible reading he distracts with private interpretation.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 01-Oct-2011b)

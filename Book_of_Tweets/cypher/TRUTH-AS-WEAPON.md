@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Truth As Weapon
-
-> [!Thought-en]
-> Truth is a weapon far more dangerous than the hydrogen bomb.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 21-Sep-2011b)

@@ -14,10 +14,6 @@ level: 4
 neo4j: true
 insert: true
 ---
-# Meaningless Life Lie
-
-> [!Thought-en]
-> Religion: if no one's right, and everyone's wrong, then life is both meaningless AND a lie.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 05-Jan-2012b)

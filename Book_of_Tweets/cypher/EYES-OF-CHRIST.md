@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Eyes Of Christ
-
-> [!Thought-en]
-> From the smallest subatomic particle to the deepest intent of the human heart, the Eyes of Christ miss nothing.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 16-Sep-2012)

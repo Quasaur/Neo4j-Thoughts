@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Looking Like Jesus
-
-> [!Thought-en]
-> Jesus is what you look like to God!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 14-Jul-2012a)

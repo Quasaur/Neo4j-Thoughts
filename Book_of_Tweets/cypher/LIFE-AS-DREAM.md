@@ -14,9 +14,6 @@ level: 4
 neo4j: true
 insert: true
 ---
-# Thought: LIFE AS DREAM
-> [!Thought-en]
-> This life is a dream...and only in the Presence of God are we truly awake.
 
 ```Cypher
 // Generated from Book6E-FINAL.md

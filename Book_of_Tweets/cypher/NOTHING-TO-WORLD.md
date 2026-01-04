@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Nothing To World
-
-> [!Thought-en]
-> You cannot be something in God until you are nothing to the world.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 29-Dec-2011a)

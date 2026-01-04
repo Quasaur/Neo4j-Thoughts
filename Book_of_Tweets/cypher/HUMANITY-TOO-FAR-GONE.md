@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Humanity Too Far Gone
-
-> [!Thought-en]
-> The Bible teaches that humanity is too far gone to have any desire for the One True God; God has to put it in us to save us.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 18-Sep-2013a)

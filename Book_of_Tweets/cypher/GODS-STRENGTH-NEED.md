@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Gods Strength Need
-
-> [!Thought-en]
-> "I don't need your strength...you need Mine." -- God
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 02-Dec-2011a)

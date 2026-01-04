@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Prayer Not Job
-
-> [!Thought-en]
-> Prayer was never meant to be a job.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 20-Jul-2013a)

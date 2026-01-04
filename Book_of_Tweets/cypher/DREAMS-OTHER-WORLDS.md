@@ -14,10 +14,6 @@ level: 4
 neo4j: true
 insert: true
 ---
-# Dreams Other Worlds
-
-> [!Thought-en]
-> What if dreams were peeks into another life...on another planet ...in another galaxy very similar to ours?
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 07-Sep-2011)

@@ -13,10 +13,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Truly Human Engagement
-
-> [!Thought-en]
-> One is not truly human until they have engaged their Creator.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 16-Jan-2014)

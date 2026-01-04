@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Universe Inside God
-
-> [!Thought-en]
-> You do know that all of us--yeah, the entire Universe--is inside of God, right? Jeremiah 23:24
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 18-Sep-2013e)

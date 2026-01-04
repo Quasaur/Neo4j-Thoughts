@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Sin Makes Idiots
-
-> [!Thought-en]
-> Sin makes idiots of us all; Christ came to take away the sins of the body (disease) as well as the sins of the soul!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 17-Sep-2013e)

@@ -14,10 +14,6 @@ level: 4
 neo4j: true
 insert: true
 ---
-# Standard Model Observation
-
-> [!Thought-en]
-> Are you even aware that the Standard Model DOESN'T reflect what's actually being observed in the Cosmos??
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 16-Oct-2011c)

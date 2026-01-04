@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Jesus Takes Over
-
-> [!Thought-en]
-> "I come: not to take sides, but to take over." - Jesus Christ
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 09-Sep-2012)

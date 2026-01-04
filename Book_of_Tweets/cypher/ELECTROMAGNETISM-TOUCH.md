@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Electromagnetism Touch
-
-> [!Thought-en]
-> Under normal circumstances, electromagnetism prevents any 2 surfaces from touching...God is great!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 24-Sep-2011a)

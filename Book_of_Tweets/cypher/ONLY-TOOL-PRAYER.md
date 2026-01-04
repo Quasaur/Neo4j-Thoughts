@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Only Tool Prayer
-
-> [!Thought-en]
-> Prayer is not our best tool; it's our ONLY tool.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 26-May-2011a)

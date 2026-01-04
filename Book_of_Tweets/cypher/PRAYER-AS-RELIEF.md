@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Prayer As Relief
-
-> [!Thought-en]
-> Prayer is my relief.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 20-Jul-2013c)

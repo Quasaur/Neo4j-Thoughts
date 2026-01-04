@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Complexity Vs Simplicity
-
-> [!Thought-en]
-> There is no "natural law" that would bring complexity out of simplicity!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 16-Oct-2011b)

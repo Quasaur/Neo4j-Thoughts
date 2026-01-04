@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Changing The Heart
-
-> [!Thought-en]
-> Proverbs 21:1; Matthew 19:25, 26. God has--and uses--the ability to change the heart's intent...otherwise no one would be saved.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 05-May-2011a)

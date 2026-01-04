@@ -14,10 +14,6 @@ level: 4
 neo4j: true
 insert: true
 ---
-# Standard Model Holes
-
-> [!Thought-en]
-> The holes in the Standard Model, irreducible and specific complexity, the lack of transitional links in the fossil record...take your pick.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 06-Nov-2010e)

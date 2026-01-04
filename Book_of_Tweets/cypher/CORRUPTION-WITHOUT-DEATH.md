@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Corruption Without Death
-
-> [!Thought-en]
-> Watched movie "In Time"; without death, humanity would be even more hideously corrupt than it is now.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 19-Feb-2012a)

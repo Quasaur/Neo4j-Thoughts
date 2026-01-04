@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Universal Mercy Requirement
-
-> [!Thought-en]
-> God has to have mercy on everybody in order to save anybody.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 17-Nov-2011)

@@ -14,10 +14,6 @@ level: 4
 neo4j: true
 insert: true
 ---
-# God The Dreamer
-
-> [!Thought-en]
-> Existence is a Dream--but we're not the dreamers...God is!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 11-Oct-2010)

@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Way To Mans Ego
-
-> [!Thought-en]
-> The fastest way to a man's heart is not through his stomach, but his ego.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 25-Jul-2013)

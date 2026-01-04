@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Abortion And Golden Rule
-
-> [!Thought-en]
-> Abortion is a violation of the Golden Rule: "Do unto others as you would have them do into you."
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 17-Oct-2011b)

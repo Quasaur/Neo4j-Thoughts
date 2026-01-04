@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Define Divine Jealousy
-
-> [!Thought-en]
-> Divine Jealousy: Ownership in Love with Responsibility and Accountability.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 29-Feb-2012b)

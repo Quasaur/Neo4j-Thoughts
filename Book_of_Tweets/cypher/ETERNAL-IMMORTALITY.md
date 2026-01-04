@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Eternal Immortality
-
-> [!Thought-en]
-> If you die eternally, you're already dead; if you live eternally, you were always immortal!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 25-May-2012b)

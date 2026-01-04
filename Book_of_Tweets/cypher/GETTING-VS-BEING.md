@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Getting Vs Being
-
-> [!Thought-en]
-> We are more concerned with GETTING more than we are BEING more.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 04-Apr-2012a)

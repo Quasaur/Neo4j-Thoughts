@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# God Hiding Plain Sight
-
-> [!Thought-en]
-> Sure, God is hiding...in plain sight.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 18-Sep-2013f)

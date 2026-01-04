@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Obsolete Human Race
-
-> [!Thought-en]
-> The human race is obsolete...God is creating a new race with Christ as The Adam; familyship is granted by Grace through Faith.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 10-Dec-2011)

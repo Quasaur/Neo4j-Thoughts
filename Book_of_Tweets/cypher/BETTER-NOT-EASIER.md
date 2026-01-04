@@ -13,10 +13,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Better Not Easier
-
-> [!Thought-en]
-> Jesus did not come to make our lives easier; Christ came to make our lives better!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 10-Nov-2013)

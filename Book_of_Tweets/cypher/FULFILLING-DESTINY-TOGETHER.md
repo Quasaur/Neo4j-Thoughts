@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Fulfilling Destiny Together
-
-> [!Thought-en]
-> I can only fulfill my destiny by assisting you in fulfilling yours.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 12-Sep-2012a)

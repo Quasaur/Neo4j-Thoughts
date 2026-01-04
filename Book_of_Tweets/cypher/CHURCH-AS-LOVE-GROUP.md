@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Church As Love Group
-
-> [!Thought-en]
-> The number of hate groups has doubled the last 10 years. Where's the love groups? Oh yeah: that's what the CHURCH's supposed to be!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 08-Aug-2012)

@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Tragedy In Church
-
-> [!Thought-en]
-> To be in church all one's life, and still go to Hell...what a tragedy!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 03-Nov-2011)

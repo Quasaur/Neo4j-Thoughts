@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Teacher And Identity
-
-> [!Thought-en]
-> A teacher challenges your identity and your knowledge, then helps you discover both so that you can stand strong under pressure.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 09-Oct-2011a)

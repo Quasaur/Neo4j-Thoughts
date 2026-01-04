@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Wanting Love Only
-
-> [!Thought-en]
-> We want to be loved, but we don't want to love...how pathetic.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 23-Jul-2013b)

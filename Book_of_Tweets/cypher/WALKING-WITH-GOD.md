@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Walking With God
-
-> [!Thought-en]
-> The Bible doesn't say that God walked with Enoch, but that Enoch walked with God. Enoch was led by the Holy Spirit.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 02-Sep-2010)

@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Legality Of Atonement
-
-> [!Thought-en]
-> IT'S NOT LEGAL for you AND Jesus to suffer for the same sin!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 14-Jul-2012b)

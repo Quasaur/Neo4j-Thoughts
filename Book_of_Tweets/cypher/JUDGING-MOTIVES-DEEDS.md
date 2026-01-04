@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Judging Motives Deeds
-
-> [!Thought-en]
-> While your neighbor is looking at your deeds to judge your motives, God is looking at your motives to judge your deeds!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 18-Jul-2012)

@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Respect And Affection
-
-> [!Thought-en]
-> Respect breeds affection.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 04-Oct-2011b)

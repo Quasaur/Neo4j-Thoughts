@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Unity In Christ
-
-> [!Thought-en]
-> True unity of spirit, soul, body, family, community and nation lies only in Jesus Christ.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 09-Oct-2011b)

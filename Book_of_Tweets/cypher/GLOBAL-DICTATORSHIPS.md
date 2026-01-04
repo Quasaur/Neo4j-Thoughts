@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Global Dictatorships
-
-> [!Thought-en]
-> 2 billion of the 7 billion people on this planet live under dictatorships.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 23-Dec-2011a)

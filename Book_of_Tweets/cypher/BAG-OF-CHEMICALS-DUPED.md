@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Bag Of Chemicals Duped
-
-> [!Thought-en]
-> It's hard to fathom that people can be duped into thinking they're nothing more than a bag of chemicals and electricity.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 10-Aug-2013c)

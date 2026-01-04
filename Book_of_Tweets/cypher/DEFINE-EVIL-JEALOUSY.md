@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Define Evil Jealousy
-
-> [!Thought-en]
-> Evil Jealousy: fear of loss.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 29-Feb-2012c)

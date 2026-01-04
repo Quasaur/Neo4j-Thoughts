@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Divine Visitation Effect
-
-> [!Thought-en]
-> A Divine Visitation will ruin you for this life. You may look and act like everyone, but you're not like them...you're of another World.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 15-Sep-2013)

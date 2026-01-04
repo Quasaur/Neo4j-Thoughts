@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Creators Suffering
-
-> [!Thought-en]
-> Better for all of us to have gone to Hell than for Our Precious Creator to have suffered the way He did.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 23-Jul-2011c)

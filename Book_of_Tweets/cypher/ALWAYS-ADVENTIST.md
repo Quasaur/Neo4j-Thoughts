@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Always Adventist
-
-> [!Thought-en]
-> A part of me will always be Adventist, I guess (smile).
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 04-Oct-2011c)

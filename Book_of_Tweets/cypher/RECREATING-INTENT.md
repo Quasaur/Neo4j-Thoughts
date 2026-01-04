@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Recreating Intent
-
-> [!Thought-en]
-> Fear of judgment will change our behavior...but not our hearts. Only the Love of Christ can recreate my intent.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 09-Jul-2011a)

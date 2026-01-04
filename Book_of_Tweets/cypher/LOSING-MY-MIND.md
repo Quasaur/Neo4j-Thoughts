@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Losing My Mind
-
-> [!Thought-en]
-> I was insane until I lost my mind!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 10-Oct-2011a)

@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Church Is Big Business
-
-> [!Thought-en]
-> In America church is big business...that's a problem.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 29-Sep-2013b)

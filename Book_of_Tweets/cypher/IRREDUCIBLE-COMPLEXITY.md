@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Irreducible Complexity
-
-> [!Thought-en]
-> It's going to take more than a judge's ruling to disprove the TRUTH of Irreducible Complexity.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 06-Nov-2010b)

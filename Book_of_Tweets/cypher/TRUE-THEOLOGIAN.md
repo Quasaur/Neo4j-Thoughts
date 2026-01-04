@@ -14,9 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Thought: TRUE THEOLOGIAN
-> [!Thought-en]
-> Can a theologian who has not had a personal encounter with God be truly called a theologian?
 
 ```Cypher
 // Generated from Book6E-FINAL.md

@@ -13,10 +13,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Gods Priorities Vs Ours
-
-> [!Thought-en]
-> The things that are important to God are rarely important to us.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 23-Nov-2013)

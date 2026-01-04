@@ -14,10 +14,6 @@ level: 4
 neo4j: true
 insert: true
 ---
-# Atheism Sucks
-
-> [!Thought-en]
-> The problem with believing you're a thing is that you'll start treating other people as things. Atheism sucks!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 10-Aug-2013d)

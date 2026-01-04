@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# God Not American
-
-> [!Thought-en]
-> God is NOT an American.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 27-Mar-2012)

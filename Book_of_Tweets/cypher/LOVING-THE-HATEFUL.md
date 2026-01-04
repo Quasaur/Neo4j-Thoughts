@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Loving The Hateful
-
-> [!Thought-en]
-> Loving the hateful... how does God do it? How can I do it?
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 24-Oct-2013b)

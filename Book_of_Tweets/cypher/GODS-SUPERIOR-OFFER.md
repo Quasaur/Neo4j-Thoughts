@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Gods Superior Offer
-
-> [!Thought-en]
-> God has FAR MORE to offer me than I have to offer Him.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 13-Mar-2012)

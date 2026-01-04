@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Obedience As Highway
-
-> [!Thought-en]
-> Obedience is like the lines on a highway: though restrictive, they will take you where you need to go.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 05-Oct-2011a)

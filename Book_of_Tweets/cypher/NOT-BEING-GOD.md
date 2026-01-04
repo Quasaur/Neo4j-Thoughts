@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Not Being God
-
-> [!Thought-en]
-> I am not God; and I'm so glad that I don't have to be!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 22-Oct-2012b)

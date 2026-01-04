@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Letting Go
-
-> [!Thought-en]
-> One of the hardest things in life to do is to let go of what you Think you know.
 
 ```Cypher
 CREATE (t:THOUGHT {

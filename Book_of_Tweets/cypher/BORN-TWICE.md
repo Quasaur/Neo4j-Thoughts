@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Born Twice
-
-> [!Thought-en]
-> Born once, die twice; born twice, die once--Happy Resurrection Day!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 24-Apr-2011)

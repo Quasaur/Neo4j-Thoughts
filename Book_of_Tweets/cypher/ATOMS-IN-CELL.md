@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Atoms In Cell
-
-> [!Thought-en]
-> The average human cell is made of approx. 200 trillion atoms...God is great!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 07-Dec-2012)

@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# God Cares Little
-
-> [!Thought-en]
-> God cares about the little people. He made the big people to care for the little people.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 06-Oct-2012)

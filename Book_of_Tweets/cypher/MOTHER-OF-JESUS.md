@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Mother Of Jesus
-
-> [!Thought-en]
-> Mary is the BIOLOGICAL mother of Jesus, not the SPIRITUAL mother of God.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 07-Sep-2011c)

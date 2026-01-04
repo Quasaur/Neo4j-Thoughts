@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Faith And Wealth
-
-> [!Thought-en]
-> Faith is the closest we can get to free wealth.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 19-Aug-2013b)

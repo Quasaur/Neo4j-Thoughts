@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# God Loving Every Soul
-
-> [!Thought-en]
-> There is no soul created by God that He did not love.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 06-Jul-2012)

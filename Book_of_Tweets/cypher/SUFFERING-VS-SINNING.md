@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Suffering Vs Sinning
-
-> [!Thought-en]
-> We are tired of suffering, yet we are not tired of sinning.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 02-Dec-2011d)

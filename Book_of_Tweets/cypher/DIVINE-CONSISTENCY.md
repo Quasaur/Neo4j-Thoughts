@@ -14,9 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Thought: DIVINE CONSISTENCY
-> [!Thought-en]
-> God is not schizophrenic.
 
 ```Cypher
 // Generated from Book6E-FINAL.md

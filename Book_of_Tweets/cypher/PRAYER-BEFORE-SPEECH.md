@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Prayer Before Speech
-
-> [!Thought-en]
-> It is inappropriate to speak out on what we don't pray out.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 22-Aug-2012a)

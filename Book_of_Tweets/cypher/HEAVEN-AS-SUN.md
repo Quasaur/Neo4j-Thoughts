@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Heaven As Sun
-
-> [!Thought-en]
-> What is Heaven like? The center of the Sun!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 17-Dec-2012)

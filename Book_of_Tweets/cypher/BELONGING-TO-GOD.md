@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Belonging To God
-
-> [!Thought-en]
-> If we don't belong to God, we belong to ourselves...and shall perish in ourselves because we choose not to live in God.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 04-May-2011)

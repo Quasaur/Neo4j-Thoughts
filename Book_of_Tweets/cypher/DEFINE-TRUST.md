@@ -14,10 +14,6 @@ level: 4
 neo4j: true
 insert: true
 ---
-# Define Trust
-
-> [!Thought-en]
-> TRUST is born of both confidence and ignorance.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 16-Dec-2011)

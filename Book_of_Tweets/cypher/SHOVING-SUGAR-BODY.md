@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Shoving Sugar Body
-
-> [!Thought-en]
-> We keep shoving sugar into a body that itself manufactures sugar and then wonder why we get diabetes!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 17-Sep-2013b)

@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Unconditional Love Hatred
-
-> [!Thought-en]
-> God's Love is unconditional...as is His Hatred of evil.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 23-Oct-2011)

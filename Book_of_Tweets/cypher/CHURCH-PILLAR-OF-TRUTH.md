@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Church Pillar Of Truth
-
-> [!Thought-en]
-> 1 Tim. 3:15: The Church of God is the Pillar and Ground of the Truth on Earth, and to attack and criticize her is perilous.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 03-Feb-2012a)

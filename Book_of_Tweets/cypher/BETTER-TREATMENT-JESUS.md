@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Better Treatment Jesus
-
-> [!Thought-en]
-> Jesus treats me FAR BETTER than I've treated Him. I crucified Him; He gave me LIFE!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 29-Mar-2012)

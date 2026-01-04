@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Humility In Prayer
-
-> [!Thought-en]
-> Prayer needs no Humility to be spoken, but no prayer is heard without it.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 17-May-2012)

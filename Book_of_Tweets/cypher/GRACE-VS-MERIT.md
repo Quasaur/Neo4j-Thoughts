@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Grace Vs Merit
-
-> [!Thought-en]
-> The merit system and Grace are incompatible...we have to choose one or the other.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 03-Aug-2010b)

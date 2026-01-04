@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Cry Of Poor
-
-> [!Thought-en]
-> Whoever closes his ear to the cry of the poor will himself call out and not be answered. Proverbs 21:13, ESV
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 16-Oct-2012a)

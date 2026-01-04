@@ -13,10 +13,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Treating Judas Iscariot
-
-> [!Thought-en]
-> Do you think Jesus treated Judas Iscariot differently from the rest of the disciples?
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 09-Dec-2013)

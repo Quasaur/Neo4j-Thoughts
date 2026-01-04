@@ -13,10 +13,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Happy If God Pleased
-
-> [!Thought-en]
-> How can I not be happy if God is pleased with me?
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 06-Mar-2014)

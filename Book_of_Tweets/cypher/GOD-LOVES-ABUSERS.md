@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# God Loves Abusers
-
-> [!Thought-en]
-> God loves abusers.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 06-Feb-2012)

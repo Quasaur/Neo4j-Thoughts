@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Laws And The Rich
-
-> [!Thought-en]
-> As long as the laws favor the rich, the poor will always exist.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 19-Feb-2012e)

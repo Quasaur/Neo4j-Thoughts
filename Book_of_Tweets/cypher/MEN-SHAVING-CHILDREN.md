@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Men Shaving Children
-
-> [!Thought-en]
-> It may be that women like us men to shave that they may treat us like children.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 25-Sep-2013)

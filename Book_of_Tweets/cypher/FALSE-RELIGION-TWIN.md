@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# False Religion Twin
-
-> [!Thought-en]
-> The Twin of Wickedness is False Religion.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 25-Sep-2012)

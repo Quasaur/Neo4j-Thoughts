@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# All Things For Him
-
-> [!Thought-en]
-> All things are from, to and for Him; this is fitting, for He is worthy.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 05-Jul-2011b)

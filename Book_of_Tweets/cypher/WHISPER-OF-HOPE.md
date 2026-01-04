@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Whisper Of Hope
-
-> [!Thought-en]
-> When your mind says "Give up," Hope whispers "One more try!"
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 06-May-2011b)

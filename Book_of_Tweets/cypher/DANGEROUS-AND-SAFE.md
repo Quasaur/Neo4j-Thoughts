@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Dangerous And Safe
-
-> [!Thought-en]
-> Who is more dangerous than God? Who is more safe than The Almighty?
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 05-Jan-2012c)

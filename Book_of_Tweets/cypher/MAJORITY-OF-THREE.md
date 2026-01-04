@@ -13,10 +13,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Majority Of Three
-
-> [!Thought-en]
-> The Godhead is a Majority of Three: Their LIFE far outweighs all Death in the Cosmos...and their GOODNESS overwhelms all Evil!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 09-Jun-2014)

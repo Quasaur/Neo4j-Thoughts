@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Pride Of Satan
-
-> [!Thought-en]
-> "I'm the center of my universe...why can't I be the center of everyone else's?" -- The Devil
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 13-Sep-2010)

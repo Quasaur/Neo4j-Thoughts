@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Welfare Job Church
-
-> [!Thought-en]
-> Welfare is not the job of government; it's the job of the Church (Matthew 25:31-46).
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 11-Jul-2013)

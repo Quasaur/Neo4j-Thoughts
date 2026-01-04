@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Self Deception First
-
-> [!Thought-en]
-> To deceive another, you must first deceive yourself.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 09-Jun-2012)

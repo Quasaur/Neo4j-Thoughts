@@ -13,10 +13,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# God Talking Back
-
-> [!Thought-en]
-> "YOU DO NOT TALK TO ME." - God
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 05-Nov-2013)

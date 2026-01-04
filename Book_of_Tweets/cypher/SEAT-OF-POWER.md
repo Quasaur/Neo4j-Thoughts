@@ -13,10 +13,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Seat Of Power
-
-> [!Thought-en]
-> The Seat of True Power is in Heaven, where the Christ patiently waits for His Daddy to turn His Enemies into His footrest.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 21-Apr-2014)

@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# The Lord Gives
-
-> [!Thought-en]
-> "The Lord gives. The Lord takes away. Blessed be The Name of the Lord!" -- The Prophet 'Iyowb (Job)
 
 ```Cypher
 CREATE (t:THOUGHT {

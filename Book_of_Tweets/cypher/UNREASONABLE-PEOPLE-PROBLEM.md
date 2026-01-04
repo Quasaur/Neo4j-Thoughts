@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Unreasonable People Problem
-
-> [!Thought-en]
-> Life would be perfect but for the presence of unreasonable people.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 06-Oct-2013a)

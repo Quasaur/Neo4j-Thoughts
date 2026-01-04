@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Familiar Spirits Warning
-
-> [!Thought-en]
-> "You do not turn nor seek to those having familiar spirits nor necromancers to be unclean by them; I am YHWH your God." -- Leviticus 19:31
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 26-Sep-2011)

@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Oppressing The Poor
-
-> [!Thought-en]
-> Whoever oppresses the poor to increase his own wealth, or gives to the rich, will only come to poverty. Proverbs 22:16, ESV
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 16-Oct-2012c)

@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Nothing Wrong God
-
-> [!Thought-en]
-> There is nothing wrong with God.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 05-Feb-2013)

@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Self Torture Ownership
-
-> [!Thought-en]
-> Self-torture implies self-ownership.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 03-Sep-2011b)

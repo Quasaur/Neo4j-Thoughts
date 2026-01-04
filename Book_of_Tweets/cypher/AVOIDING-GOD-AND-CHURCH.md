@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Avoiding God And Church
-
-> [!Thought-en]
-> Why do African American men avoid God and His Church???
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 24-Mar-2012b)

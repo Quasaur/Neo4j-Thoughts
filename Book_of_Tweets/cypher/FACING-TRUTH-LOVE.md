@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Facing Truth Love
-
-> [!Thought-en]
-> It's God's Love for us that enables us to face the truth about ourselves.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 29-Sep-2012)

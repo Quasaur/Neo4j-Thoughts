@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Pursuit Of Happiness
-
-> [!Thought-en]
-> The pursuit of God is the pursuit of happiness. The pursuit of happiness is the pursuit of God.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 22-Jul-2013)

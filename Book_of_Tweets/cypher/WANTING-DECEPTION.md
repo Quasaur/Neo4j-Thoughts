@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Wanting Deception
-
-> [!Thought-en]
-> The Bible says that Satan has deceived us all...and we want to be deceived!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 11-Dec-2012)

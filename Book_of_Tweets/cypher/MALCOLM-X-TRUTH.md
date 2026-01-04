@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Malcolm X Truth
-
-> [!Thought-en]
-> Malcolm X loved his people enough to tell them the Truth about themselves.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 19-May-2011)

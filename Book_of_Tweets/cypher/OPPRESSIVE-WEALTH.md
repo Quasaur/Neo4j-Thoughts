@@ -15,10 +15,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Oppressive Wealth
-
-> [!Thought-en]
-> The Bible says some nasty things about rich people who oppress the masses.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 13-May-2012)

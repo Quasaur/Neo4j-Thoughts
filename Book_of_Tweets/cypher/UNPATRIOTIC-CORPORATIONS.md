@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Unpatriotic Corporations
-
-> [!Thought-en]
-> The corporation as a legal "person" is unpatriotic.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 24-Sep-2011c)

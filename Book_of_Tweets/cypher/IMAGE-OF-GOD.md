@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Image Of God
-
-> [!Thought-en]
-> I'm NOT the child of monkeys; I was created in God's Image and after His Likeness; I should be treated as such--and so should you!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 12-Oct-2012c_2)

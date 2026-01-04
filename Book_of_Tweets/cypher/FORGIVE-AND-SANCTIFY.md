@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Forgive And Sanctify
-
-> [!Thought-en]
-> God can forgive any sin and sanctify any sinner.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 02-Dec-2011c)

@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Christ Universal Destiny
-
-> [!Thought-en]
-> Christ is everyone's Destiny...no exceptions!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 12-Sep-2012b)

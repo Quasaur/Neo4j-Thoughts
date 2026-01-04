@@ -14,10 +14,6 @@ neo4j: true
 insert: true
 type: THOUGHT
 ---
-# Friends and Enemies
-
-> [!Thought-en]
-> Something to think about: God created His friends AND His enemies!
 
 ```Cypher
 CREATE (t:THOUGHT {

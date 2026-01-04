@@ -13,10 +13,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# The Next Life Importance
-
-> [!Thought-en]
-> There's NOTHING in this life that's more important than The Next Life!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 24-May-2014)

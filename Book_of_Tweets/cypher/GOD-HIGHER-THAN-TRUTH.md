@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# God Higher Than Truth
-
-> [!Thought-en]
-> "There is no god higher than Truth." - Gandhi. "There is no truth higher than God." - Mitchell
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 05-Oct-2013)

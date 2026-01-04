@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Near Collision
-
-> [!Thought-en]
-> An AA jet had a near collision with a United over AL...my sister was on the AA plane and could read the writing on the other plane.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 30-Apr-2011)

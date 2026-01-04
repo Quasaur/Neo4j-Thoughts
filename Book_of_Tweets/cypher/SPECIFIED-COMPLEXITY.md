@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Specified Complexity
-
-> [!Thought-en]
-> Evolution can't explain Specified Complexity.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 06-Nov-2010a)

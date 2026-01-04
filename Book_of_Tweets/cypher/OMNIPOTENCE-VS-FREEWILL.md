@@ -14,10 +14,6 @@ level: 4
 neo4j: true
 insert: true
 ---
-# Omnipotence Vs Freewill
-
-> [!Thought-en]
-> Free Will exists only due to human ignorance of The Divine Omnipotence.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 01-Jun-2012a)

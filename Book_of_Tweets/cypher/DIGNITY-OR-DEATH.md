@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Dignity Or Death
-
-> [!Thought-en]
-> Give me DIGNITY or give me death!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 12-Oct-2012b)

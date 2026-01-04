@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Saying No To Self
-
-> [!Thought-en]
-> Only a person who can say no to themselves can say no to the world and to the devil.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 22-Oct-2012c)

@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# The Suffering God
-
-> [!Thought-en]
-> In Christ God has suffered more than any human.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 23-Jul-2011e)

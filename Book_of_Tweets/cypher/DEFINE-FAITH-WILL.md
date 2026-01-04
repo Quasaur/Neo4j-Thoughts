@@ -13,10 +13,6 @@ level: 4
 neo4j: true
 insert: true
 ---
-# Define Faith Will
-
-> [!Thought-en]
-> New Definition of Faith: KNOWING God's Will for me in every situation.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 16-Feb-2014)

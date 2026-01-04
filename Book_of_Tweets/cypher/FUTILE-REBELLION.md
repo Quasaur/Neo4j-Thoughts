@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Futile Rebellion
-
-> [!Thought-en]
-> Rebellion against God is futile!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 04-Jan-2012a)

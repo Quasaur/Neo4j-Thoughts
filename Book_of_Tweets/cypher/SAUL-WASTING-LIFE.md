@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Saul Wasting Life
-
-> [!Thought-en]
-> Saul wasted a large portion of his life trying to kill David while neglecting weightier matters...like his relationship with God.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 09-Oct-2013)

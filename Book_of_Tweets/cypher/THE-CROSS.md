@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Nexus of Science
-
-> [!Thought-en]
-> The Cross is the Nexus of a Divine Science that never ceases to inform, renew and inspire awe, wonder, reverence and understanding.
 
 ```Cypher
 CREATE (t:THOUGHT {

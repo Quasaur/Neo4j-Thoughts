@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Fear And Selfishness
-
-> [!Thought-en]
-> Fear wouldn't be so debilitating if I were not so selfish.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 24-Aug-2011a)

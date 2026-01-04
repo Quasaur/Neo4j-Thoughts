@@ -14,10 +14,6 @@ level: 4
 neo4j: true
 insert: true
 ---
-# Life Should Be Pain
-
-> [!Thought-en]
-> Many will tell you life is pain; not many will say it should be. It should be.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 23-Jul-2013d)

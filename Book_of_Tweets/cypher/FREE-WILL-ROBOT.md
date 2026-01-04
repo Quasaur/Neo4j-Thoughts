@@ -14,10 +14,6 @@ level: 4
 neo4j: true
 insert: true
 ---
-# Free Will Robot
-
-> [!Thought-en]
-> If you WERE a robot...HOW WOULD YOU KNOW your will wasn't free?
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 28-Apr-2011)

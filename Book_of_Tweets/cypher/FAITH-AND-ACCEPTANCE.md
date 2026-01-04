@@ -14,10 +14,6 @@ level: 4
 neo4j: true
 insert: true
 ---
-# Faith And Acceptance
-
-> [!Thought-en]
-> Acceptance and faith are irrevocably linked.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 06-Nov-2010f)

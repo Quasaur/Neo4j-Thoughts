@@ -14,10 +14,6 @@ level: 4
 neo4j: true
 insert: true
 ---
-# Intelligent Life Search
-
-> [!Thought-en]
-> Why is it that all of the instruments seeking intelligent life in the universe are pointed away from Earth?
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 01-Mar-2012)

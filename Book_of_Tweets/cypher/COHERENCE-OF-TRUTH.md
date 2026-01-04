@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Coherence of Truth
-
-> [!Thought-en]
-> Truth/Reality is logically and reasonably coherent; any point of view that isn't is a fantasy that will eventually betray its subscriber.
 
 ```Cypher
 CREATE (t:THOUGHT {

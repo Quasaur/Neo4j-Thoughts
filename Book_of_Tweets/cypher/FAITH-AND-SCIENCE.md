@@ -14,10 +14,6 @@ level: 4
 neo4j: true
 insert: true
 ---
-# Faith And Science
-
-> [!Thought-en]
-> The Standard Model (Inflation, Dark Matter/Energy/Flow) takes more FAITH than to believe God holds the universe together by His Word.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 27-Jul-2010)

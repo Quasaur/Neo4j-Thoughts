@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Love Abuser Hate Abuse
-
-> [!Thought-en]
-> God loves abusers (it's the act of abuse He has a problem with).
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 17-Feb-2012a)

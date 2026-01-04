@@ -14,10 +14,6 @@ level: 4
 neo4j: true
 insert: true
 ---
-# Wittgenstein Discovery
-
-> [!Thought-en]
-> I have discovered Ludwig Josef Johann Wittgenstein.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 25-Jul-2010)

@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Sacrifice In Service
-
-> [!Thought-en]
-> You cannot serve God without sacrificing something of great personal value.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 09-Aug-2010)

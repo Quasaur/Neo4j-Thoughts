@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Three Types Of Humanity
-
-> [!Thought-en]
-> Humanity: (1) those who place God 1st; (2) those who give God a priority other than 1st; (3) those who give God no priority at all.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 08-Aug-2011)

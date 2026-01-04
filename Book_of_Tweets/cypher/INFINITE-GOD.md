@@ -14,10 +14,6 @@ neo4j: true
 insert: true
 type: THOUGHT
 ---
-# Infinite God
-
-> [!Thought-en]
-> God is ALWAYS more than we think He is.
 
 ```Cypher
 CREATE (t:THOUGHT {

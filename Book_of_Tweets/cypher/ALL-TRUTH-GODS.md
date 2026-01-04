@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# All Truth Gods
-
-> [!Thought-en]
-> All truth belongs to God.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 24-Feb-2013)

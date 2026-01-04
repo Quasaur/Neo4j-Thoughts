@@ -14,10 +14,6 @@ level: 6
 neo4j: true
 insert: true
 ---
-# Outer Vs Inner Beauty
-
-> [!Thought-en]
-> Outer beauty doesn't make up for inner ugly.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 24-Aug-2011b)

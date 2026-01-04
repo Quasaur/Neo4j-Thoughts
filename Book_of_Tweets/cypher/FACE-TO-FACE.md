@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Face To Face
-
-> [!Thought-en]
-> When you meet God face to Face you will not ask any questions; His Glory is the answer to every question and the end of every dispute.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 23-Jul-2011b)

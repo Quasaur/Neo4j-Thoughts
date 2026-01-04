@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Jesus The Monarch
-
-> [!Thought-en]
-> Jesus is neither a Republican nor a Democrat; Jesus is God...an Absolute Monarch.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 03-Aug-2010a)

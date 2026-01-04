@@ -179,6 +179,7 @@
   },
   "active": "de5101ee1a07e21a",
   "lastOpenFiles": [
+    "Book_of_Tweets/cleanup_thoughts.py",
     "Book_of_Tweets/cypher/GOD-REALITY.md",
     "Book_of_Tweets/cypher/RECONCILING-ALL-THINGS.md",
     "Book_of_Tweets/cypher/FAITH-AND-WEALTH.md",
@@ -211,7 +212,6 @@
     "WEBDEV/DJANGO/G-Antigravity -> Heroku.md",
     "WEBDEV/DJANGO/New Auth Params.md",
     "WEBDEV/ZORIN-ARCHON/Zorin OS/Zorin Params.md",
-    "WEBDEV/ZORIN-ARCHON/ARCHON OS Setup/Supabase/Supabase Params.md",
     "BASES/Base-Thoughts in Neo4j.base",
     "BASES/Base-TOPICs.base",
     "BASES/Base-TOPICS.base",

@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Bible How To Eat
-
-> [!Thought-en]
-> The Bible not only tells us how to live, but also HOW TO EAT!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 17-Sep-2013f)

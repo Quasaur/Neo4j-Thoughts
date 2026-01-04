@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Suns Energy Core
-
-> [!Thought-en]
-> Energy generated in the Sun's core takes a million years to reach its surface: God is great!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 05-Aug-2011)

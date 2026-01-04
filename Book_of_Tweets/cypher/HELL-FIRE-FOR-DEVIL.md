@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Hell Fire For Devil
-
-> [!Thought-en]
-> Hell Fire wasn't made by the Devil...it was made for the Devil by God.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 30-Aug-2013)

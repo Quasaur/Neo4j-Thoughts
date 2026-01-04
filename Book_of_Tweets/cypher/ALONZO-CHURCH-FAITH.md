@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Alonzo Church Faith
-
-> [!Thought-en]
-> Alonzo Church Ph.D, Inventor of the lambda calculus, was a devout Christian...who says science and faith don't mix?
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 03-Oct-2013b)

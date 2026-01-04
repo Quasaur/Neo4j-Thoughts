@@ -13,10 +13,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# God Is Real
-
-> [!Thought-en]
-> In these uncertain times GOD IS REAL...but not much else.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 23-Jun-2014)

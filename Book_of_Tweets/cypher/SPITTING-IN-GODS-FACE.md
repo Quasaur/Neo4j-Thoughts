@@ -13,10 +13,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Spitting In Gods Face
-
-> [!Thought-en]
-> America can spit in God's Face over this gay thing if it wants to, but this is NOT going to end well for any of us.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 07-Mar-2014)

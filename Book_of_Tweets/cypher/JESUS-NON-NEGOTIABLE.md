@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Jesus Non Negotiable
-
-> [!Thought-en]
-> I must have Jesus...everything else is negotiable.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 24-Oct-2012c)

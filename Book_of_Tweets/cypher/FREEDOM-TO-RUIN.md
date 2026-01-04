@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Freedom To Ruin
-
-> [!Thought-en]
-> It appears that God has given us the freedom to ruin our lives as we see fit...so much for Freedom.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 24-Jan-2011)

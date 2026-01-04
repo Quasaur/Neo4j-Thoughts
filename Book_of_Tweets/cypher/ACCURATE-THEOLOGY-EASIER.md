@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Accurate Theology Easier
-
-> [!Thought-en]
-> The more accurate our theology, the easier the Christian life gets.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 27-Apr-2012b)

@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Spirit Of Christ Encounter
-
-> [!Thought-en]
-> The greatest moment of my existence was being swallowed up by the Spirit of Christ...all I want is to go back (or forward) to that moment.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 26-Nov-2011b)

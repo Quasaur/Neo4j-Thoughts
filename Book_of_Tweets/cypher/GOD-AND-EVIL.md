@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# God And Evil
-
-> [!Thought-en]
-> God can use evil without being evil.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 01-Jul-2010)

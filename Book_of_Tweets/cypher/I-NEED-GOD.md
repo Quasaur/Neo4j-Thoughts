@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# I Need God
-
-> [!Thought-en]
-> Revelation 20:11, 12: I don't need a universe to exist; I just need God.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 05-Jul-2011c)

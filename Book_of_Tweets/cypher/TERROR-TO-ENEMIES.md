@@ -14,10 +14,6 @@ neo4j: true
 insert: true
 type: THOUGHT
 ---
-# Terror to Enemies
-
-> [!Thought-en]
-> God is only a Terror to His enemies.
 
 ```Cypher
 CREATE (t:THOUGHT {

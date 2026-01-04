@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Incarceration Slavery Parallel
-
-> [!Thought-en]
-> Today in the USA there are more black people incarcerated than there were black slaves in 1850. Thank you, America!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 08-Aug-2013)

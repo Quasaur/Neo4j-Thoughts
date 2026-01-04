@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# God Of Science
-
-> [!Thought-en]
-> Jesus Christ is The God of Wisdom, Knowledge, Science and Technology.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 27-Jun-2011a)

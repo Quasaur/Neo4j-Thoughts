@@ -13,10 +13,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Life In Prayer
-
-> [!Thought-en]
-> There is no life outside of Prayer.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 15-Feb-2014)

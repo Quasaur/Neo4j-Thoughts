@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Economic Injustice
-
-> [!Thought-en]
-> This economic downturn is especially difficult for African Americans; we're the last to get hired and the 1st to get fired.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 03-Nov-2010a)

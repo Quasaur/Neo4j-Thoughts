@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Unemployment Stats
-
-> [!Thought-en]
-> White Unemployment : 9%...Black Unemployment : 16%.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 31-Aug-2011c)

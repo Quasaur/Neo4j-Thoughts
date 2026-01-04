@@ -13,10 +13,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Gods Will And Power
-
-> [!Thought-en]
-> God has His Own Will and Desire and more than enough Power to execute Them.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 22-Apr-2014)

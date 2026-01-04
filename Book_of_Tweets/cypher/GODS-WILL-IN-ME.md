@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Gods Will In Me
-
-> [!Thought-en]
-> I can't make God do anything; yet He effortlessly executes His Will in me without my awareness of the act.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 23-Jul-2011a)

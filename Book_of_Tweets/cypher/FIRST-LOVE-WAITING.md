@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# First Love Waiting
-
-> [!Thought-en]
-> Prayer is where my First Love is always waiting for me!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 20-Jul-2013h)

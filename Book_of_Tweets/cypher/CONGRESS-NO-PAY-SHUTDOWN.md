@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Congress No Pay Shutdown
-
-> [!Thought-en]
-> Congress should not get paid as long as the Federal Government is shut down!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 06-Oct-2013b)

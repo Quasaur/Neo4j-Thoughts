@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Define Apathy
-
-> [!Thought-en]
-> Love & hate are not opposites...they are 2 halves of the same coin; the opposite of love / hate is Apathy.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 04-Mar-2011)

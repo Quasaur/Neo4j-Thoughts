@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Born For Sermon
-
-> [!Thought-en]
-> Christmas sermon at the Pittsburgh prison was well-received...this is what I was born to do!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 27-Dec-2010)

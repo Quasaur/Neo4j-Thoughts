@@ -14,9 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Thought: BROKEN RELATIONSHIP
-> [!Thought-en]
-> A relationship with Christ that does not bear fruit in submission, worship and obedience is either broken or non-existent.
 
 ```Cypher
 // Generated from Book6E-FINAL.md

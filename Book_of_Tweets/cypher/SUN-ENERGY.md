@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Sun Energy
-
-> [!Thought-en]
-> The Sun releases 5 million tons of matter per second...God is Great!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 22-Apr-2011c)

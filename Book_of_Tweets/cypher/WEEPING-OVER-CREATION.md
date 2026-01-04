@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Weeping over Creation
-
-> [!Thought-en]
-> (Weeping over BP Oil Spill).
 
 ```Cypher
 CREATE (t:THOUGHT {

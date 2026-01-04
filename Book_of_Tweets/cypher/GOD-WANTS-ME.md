@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# God Wants Me
-
-> [!Thought-en]
-> Everybody demands something from me, but only God wants me.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 12-Sep-2012c)

@@ -14,10 +14,6 @@ level: 4
 neo4j: true
 insert: true
 ---
-# Owning All Things
-
-> [!Thought-en]
-> Revelation 21:7: You cannot own ALL THINGS unless you no longer need them.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 24-Oct-2012a)

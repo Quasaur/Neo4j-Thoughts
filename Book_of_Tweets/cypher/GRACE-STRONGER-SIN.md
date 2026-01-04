@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Grace Stronger Sin
-
-> [!Thought-en]
-> Grace is stronger than sin, else no one could be saved. Ephesians 2:8, 9
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 12-Oct-2012a)

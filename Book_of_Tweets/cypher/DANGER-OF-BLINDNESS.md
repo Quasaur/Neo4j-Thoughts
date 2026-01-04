@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Danger Of Blindness
-
-> [!Thought-en]
-> Blindness is great...until you fall off a cliff.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 13-Oct-2010)

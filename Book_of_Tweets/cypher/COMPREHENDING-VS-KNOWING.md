@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Comprehending Vs Knowing
-
-> [!Thought-en]
-> If I could comprehend Him, He wouldn't be God; but I can know Him.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 23-Jul-2013a)

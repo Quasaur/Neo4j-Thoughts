@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Awareness Of Presence
-
-> [!Thought-en]
-> Many believe they are aware of God's Wrath but few are aware of God's Loving Presence.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 16-Sep-2013b)

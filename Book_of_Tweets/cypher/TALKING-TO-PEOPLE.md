@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# Talking To People
-
-> [!Thought-en]
-> If you don't know how to talk to people, you probably shouldn't talk to people.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 19-Aug-2013a)

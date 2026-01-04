@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# No Poor In Heaven
-
-> [!Thought-en]
-> There are no poor in Heaven.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 20-Jan-2012)

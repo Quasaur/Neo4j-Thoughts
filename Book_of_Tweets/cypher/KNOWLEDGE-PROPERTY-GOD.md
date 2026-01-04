@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Knowledge Property God
-
-> [!Thought-en]
-> Genesis 2:15, 16: Knowledge is not a right; knowledge is the property of God.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 12-Mar-2013b)

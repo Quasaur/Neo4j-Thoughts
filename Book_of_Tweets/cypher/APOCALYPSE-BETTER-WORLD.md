@@ -13,10 +13,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Apocalypse Better World
-
-> [!Thought-en]
-> The Better World is coming! Apocalypse!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 26-Dec-2013)

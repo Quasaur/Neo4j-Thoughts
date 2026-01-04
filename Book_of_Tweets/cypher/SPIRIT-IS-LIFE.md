@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Spirit Is Life
-
-> [!Thought-en]
-> Spirit, not electricity, is Life.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 10-Aug-2013a)

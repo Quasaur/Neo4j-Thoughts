@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Opportunity For Anger
-
-> [!Thought-en]
-> People don't need a reason to be angry...just an opportunity.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 18-Dec-2011)

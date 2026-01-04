@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Hearing God Noise
-
-> [!Thought-en]
-> We cannot hear God through the noise of our own desire.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 31-Aug-2011a)

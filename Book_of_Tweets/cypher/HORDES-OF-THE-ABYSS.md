@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Hordes Of The Abyss
-
-> [!Thought-en]
-> Humanity will be visited by the hordes of the Abyss because that is what it, by its deeds, asked for.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 18-Sep-2013d)

@@ -14,10 +14,6 @@ level: 3
 neo4j: true
 insert: true
 ---
-# America Cheats Itself
-
-> [!Thought-en]
-> America is a nation that CHEATS ITSELF out of its own money.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 04-Dec-2011)

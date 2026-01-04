@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Love Is Not Weak
-
-> [!Thought-en]
-> Love is not weak.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 22-Aug-2012b)

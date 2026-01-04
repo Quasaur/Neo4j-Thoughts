@@ -14,10 +14,6 @@ level: 4
 neo4j: true
 insert: true
 ---
-# Pseudoscience Failure
-
-> [!Thought-en]
-> The Standard Model: pseudo-science's failure to convince the world of a God-less universe.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 05-Aug-2010)

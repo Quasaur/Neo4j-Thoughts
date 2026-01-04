@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# No Complexity For God
-
-> [!Thought-en]
-> Ideas like "complexity" and "difficulty" don't exist for God; so He is able to make my life EASIER!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 11-Sep-2013)

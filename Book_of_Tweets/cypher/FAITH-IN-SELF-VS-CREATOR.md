@@ -14,10 +14,6 @@ level: 4
 neo4j: true
 insert: true
 ---
-# Faith In Self Vs Creator
-
-> [!Thought-en]
-> We have more faith in ourselves than we have in our Creator; this is a recipe for disaster.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 24-Sep-2011d)

@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Disability Of Spirit
-
-> [!Thought-en]
-> The inability to perceive God's Immediate Presence is a greater disability than not being able to walk or see.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 11-Oct-2013)

@@ -14,10 +14,6 @@ neo4j: true
 insert: true
 type: THOUGHT
 ---
-# God is Good
-
-> [!Thought-en]
-> It blows my mind how good God is to a person as wicked as I am.
 
 ```Cypher
 CREATE (t:THOUGHT {

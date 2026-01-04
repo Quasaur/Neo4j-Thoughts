@@ -14,10 +14,6 @@ level: 1
 neo4j: true
 insert: true
 ---
-# Weight Of Sin
-
-> [!Thought-en]
-> Christ bore in His Body the sins of the 12 billion sinners who have lived since Adam.
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 23-Jul-2011f)

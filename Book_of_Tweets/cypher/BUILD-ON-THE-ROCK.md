@@ -14,10 +14,6 @@ level: 2
 neo4j: true
 insert: true
 ---
-# Build On The Rock
-
-> [!Thought-en]
-> You can build WITH Gold, but you can't build ON Gold; you must build on The ROCK...it's not as shiny, but it's a lot stronger!
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 12-Sep-2013b)
