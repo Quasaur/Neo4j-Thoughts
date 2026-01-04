@@ -10,16 +10,14 @@ views:
         - file.folder == "Book_of_Tweets/cypher"
     order:
       - file.name
+      - name
       - level
       - parent
       - en_content
     sort:
-      - property: level
-        direction: ASC
-      - property: parent
+      - property: name
         direction: ASC
     columnSize:
       file.name: 285
-      note.type: 114
-      note.parent: 302
-      file.folder: 265
+      note.name: 372
+      note.parent: 243

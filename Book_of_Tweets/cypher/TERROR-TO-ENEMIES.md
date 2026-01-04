@@ -1,5 +1,5 @@
 ---
-name: thought.TERROR TO ENEMIES
+name: "thought.TERROR TO ENEMIES"
 alias: "Thought: Divine Justice"
 en_content: "God is only a Terror to His enemies."
 parent: topic.THE GODHEAD

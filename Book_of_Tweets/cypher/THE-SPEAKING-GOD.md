@@ -1,5 +1,5 @@
 ---
-name: thought.THE SPEAKING GOD
+name: "thought.THE SPEAKING GOD"
 alias: "Thought: Divine Word"
 en_content: "It's been said that the only thing God has ever done is talk...what do you think?"
 parent: topic.THE GODHEAD

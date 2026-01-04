@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Apple",
+                "query": "topic.THE GOSPEL",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313.5086555480957
+    "width": 313.5086555480957,
+    "collapsed": true
   },
   "right": {
     "id": "23b5a9898015fd07",
@@ -179,6 +180,12 @@
   },
   "active": "de5101ee1a07e21a",
   "lastOpenFiles": [
+    "Book_of_Tweets/quote_frontmatter_fields.py",
+    "Book_of_Tweets/cypher/ACCURATE-THEOLOGY.md",
+    "BASES/Base-Book of Thoughts.md",
+    "content/QUOTES/imm/SALVATION.md",
+    "Book_of_Tweets/cypher/ALL-OF-GOD-JESUS.md",
+    "content/THOUGHTS/a/ADOPTION.md",
     "Book_of_Tweets/cleanup_thoughts.py",
     "Book_of_Tweets/cypher/GOD-REALITY.md",
     "Book_of_Tweets/cypher/RECONCILING-ALL-THINGS.md",
@@ -190,7 +197,6 @@
     "Book_of_Tweets/reconcile.py",
     "Book_of_Tweets/add_en_content.py",
     "Book_of_Tweets/cypher/FRIENDS-AND-ENEMIES.md",
-    "BASES/Base-Book of Thoughts.md",
     "Book_of_Tweets/cypher/THE-SPEAKING-GOD.md",
     "Book_of_Tweets/cypher/INFINITE-GOD.md",
     "Book_of_Tweets/cypher/TERROR-TO-ENEMIES.md",
@@ -208,13 +214,8 @@
     "WEBDEV/GOOGLE",
     "WEBDEV/DJANGO/Heroku App URL.md",
     "WEBDEV/DJANGO/Heroku and DNS.md",
-    "WEBDEV/GIT/Git - Heroku.md",
-    "WEBDEV/DJANGO/G-Antigravity -> Heroku.md",
-    "WEBDEV/DJANGO/New Auth Params.md",
-    "WEBDEV/ZORIN-ARCHON/Zorin OS/Zorin Params.md",
     "BASES/Base-Thoughts in Neo4j.base",
     "BASES/Base-TOPICs.base",
-    "BASES/Base-TOPICS.base",
     "Untitled.canvas",
     "public/attachments/og-image.png",
     "public/static/og-image.png",
