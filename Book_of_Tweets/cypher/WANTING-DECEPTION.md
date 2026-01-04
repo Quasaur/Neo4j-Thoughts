@@ -2,6 +2,7 @@
 name: "thought.WANTING DECEPTION"
 alias: "Thought: Wanting Deception"
 type: THOUGHT
+en_content: "The Bible says that Satan has deceived us all...and we want to be deceived!"
 parent: "topic.TRUTH"
 tags:
 - deception

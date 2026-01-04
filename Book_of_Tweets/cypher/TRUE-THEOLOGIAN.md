@@ -8,6 +8,7 @@ tags:
 - personal_relation
 - knowing_god
 - spirituality
+en_content: "Can a theologian who has not had a personal encounter with God be truly called a theologian?"
 parent: topic.SPIRITUALITY
 level: 2
 neo4j: true

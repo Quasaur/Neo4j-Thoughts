@@ -2,6 +2,7 @@
 name: "thought.PRAYER AND CHOCOLATE"
 alias: "Thought: Prayer And Chocolate"
 type: THOUGHT
+en_content: "Is there a better way to start a day than with prayer and chocolate? I think not!"
 parent: "topic.SPIRITUALITY"
 tags:
 - prayer

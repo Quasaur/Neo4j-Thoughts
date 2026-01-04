@@ -2,6 +2,7 @@
 name: "thought.COMMUNICATION SYSTEMS"
 alias: "Thought: Communication Systems"
 type: THOUGHT
+en_content: "Every communication system must have a language, a medium, a device that reads, and an intelligence that writes/interprets...God is Great!"
 parent: "topic.CREATION"
 tags:
 - design

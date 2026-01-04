@@ -2,6 +2,7 @@
 name: "thought.FAITH IN SELF VS CREATOR"
 alias: "Thought: Faith In Self Vs Creator"
 type: THOUGHT
+en_content: "We have more faith in ourselves than we have in our Creator; this is a recipe for disaster."
 parent: "topic.FAITH"
 tags:
 - faith

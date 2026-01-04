@@ -2,6 +2,7 @@
 name: "thought.JESUS NON NEGOTIABLE"
 alias: "Thought: Jesus Non Negotiable"
 type: THOUGHT
+en_content: "I must have Jesus...everything else is negotiable."
 parent: "topic.SPIRITUALITY"
 tags:
 - jesus

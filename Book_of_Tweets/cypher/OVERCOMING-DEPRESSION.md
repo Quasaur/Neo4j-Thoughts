@@ -2,6 +2,7 @@
 name: "thought.OVERCOMING DEPRESSION"
 alias: "Thought: Overcoming Depression"
 type: THOUGHT
+en_content: "Long after the point when Depression ceases to be a memory...I will still be here."
 parent: "topic.PSYCHOLOGY"
 tags:
 - depression

@@ -2,6 +2,7 @@
 name: "thought.APPEARING HUMAN"
 alias: "Thought: Appearing Human"
 type: THOUGHT
+en_content: "Beware of those who appear human, but ain't!"
 parent: "topic.EVIL"
 tags:
 - deception

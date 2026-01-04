@@ -2,6 +2,7 @@
 name: "thought.WEALTH DISPARITY GAP"
 alias: "Thought: Wealth Disparity Gap"
 type: THOUGHT
+en_content: "Median White household wealth: $US113,000. Median Black household wealth: $US5,700. Oh yeah...life's fair!"
 parent: "topic.MORALITY"
 tags:
 - wealth

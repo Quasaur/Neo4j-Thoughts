@@ -2,6 +2,7 @@
 name: "thought.STANDARD MODEL HOLES"
 alias: "Thought: Standard Model Holes"
 type: THOUGHT
+en_content: "The holes in the Standard Model, irreducible and specific complexity, the lack of transitional links in the fossil record...take your pick."
 parent: "topic.PHILOSOPHY"
 tags:
 - science

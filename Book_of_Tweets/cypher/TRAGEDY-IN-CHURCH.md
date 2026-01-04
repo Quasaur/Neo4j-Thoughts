@@ -2,6 +2,7 @@
 name: "thought.TRAGEDY IN CHURCH"
 alias: "Thought: Tragedy In Church"
 type: THOUGHT
+en_content: "To be in church all one's life, and still go to Hell...what a tragedy!"
 parent: "topic.RELIGION"
 tags:
 - religion

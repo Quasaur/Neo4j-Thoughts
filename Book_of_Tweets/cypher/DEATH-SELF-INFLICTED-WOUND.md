@@ -2,6 +2,7 @@
 name: "thought.DEATH SELF INFLICTED WOUND"
 alias: "Thought: Death Self Inflicted Wound"
 type: THOUGHT
+en_content: "Death is not natural; it's a self-inflicted wound we incurred when we separated ourselves from God through disobedience."
 parent: "topic.HUMANITY"
 tags:
 - death

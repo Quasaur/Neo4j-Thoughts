@@ -2,6 +2,7 @@
 name: "thought.RELATIONSHIP WITH FATHER"
 alias: "Thought: Relationship With Father"
 type: THOUGHT
+en_content: "The Gospel: Jesus Christ has given us His Relationship with The Father!"
 parent: "topic.THE GODHEAD"
 tags:
 - father

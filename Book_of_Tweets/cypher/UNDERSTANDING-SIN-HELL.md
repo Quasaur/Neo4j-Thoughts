@@ -2,6 +2,7 @@
 name: "thought.UNDERSTANDING SIN HELL"
 alias: "Thought: Understanding Sin Hell"
 type: THOUGHT
+en_content: "You will never understand how God feels about sin until you look into Hell."
 parent: "topic.EVIL"
 tags:
 - sin

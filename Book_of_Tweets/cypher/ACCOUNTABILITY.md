@@ -2,6 +2,7 @@
 name: "thought.ACCOUNTABILITY"
 alias: "Thought: Accountability"
 type: THOUGHT
+en_content: "God doesn't spare you the consequences of my actions."
 parent: "topic.MORALITY"
 tags:
 - accountability

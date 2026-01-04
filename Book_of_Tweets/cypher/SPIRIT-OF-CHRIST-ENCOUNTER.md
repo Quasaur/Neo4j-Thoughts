@@ -2,6 +2,7 @@
 name: "thought.SPIRIT OF CHRIST ENCOUNTER"
 alias: "Thought: Spirit Of Christ Encounter"
 type: THOUGHT
+en_content: "The greatest moment of my existence was being swallowed up by the Spirit of Christ...all I want is to go back (or forward) to that moment."
 parent: "topic.SPIRITUALITY"
 tags:
 - spirit

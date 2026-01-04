@@ -2,6 +2,7 @@
 name: "thought.NATION FORGETTING GOD"
 alias: "Thought: Nation Forgetting God"
 type: THOUGHT
+en_content: "I'm watching a nation that has forgotten God turn into Hell."
 parent: "topic.MORALITY"
 tags:
 - nation

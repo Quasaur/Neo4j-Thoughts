@@ -2,6 +2,7 @@
 name: "thought.FICTIONAL CHARACTERS"
 alias: "Thought: Fictional Characters"
 type: THOUGHT
+en_content: "Compared to GOD we are all fictional characters."
 parent: "topic.THE GODHEAD"
 tags:
 - god

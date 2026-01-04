@@ -2,6 +2,7 @@
 name: "thought.PROGRESS AND FAILURE"
 alias: "Thought: Progress And Failure"
 type: THOUGHT
+en_content: "There's no progress without failure."
 parent: "topic.WISDOM"
 tags:
 - wisdom

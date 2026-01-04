@@ -2,6 +2,7 @@
 name: "thought.GROWTH THROUGH WORD"
 alias: "Thought: Growth Through Word"
 type: THOUGHT
+en_content: "I cannot grow as a Christian without consistently hearing and speaking God's Word."
 parent: "topic.SPIRITUALITY"
 tags:
 - growth

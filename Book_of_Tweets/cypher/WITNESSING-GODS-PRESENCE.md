@@ -2,6 +2,7 @@
 name: "thought.WITNESSING GODS PRESENCE"
 alias: "Thought: Witnessing Gods Presence"
 type: THOUGHT
+en_content: "We assemble to witness the manifestation of God's Presence; it is there that sins are forgiven, yokes are broken and bodies are healed."
 parent: "topic.WORSHIP"
 tags:
 - presence

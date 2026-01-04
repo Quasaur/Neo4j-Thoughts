@@ -2,6 +2,7 @@
 name: "thought.GOD IS REAL"
 alias: "Thought: God Is Real"
 type: THOUGHT
+en_content: "In these uncertain times GOD IS REAL...but not much else."
 parent: "topic.THE GODHEAD"
 tags:
 - real

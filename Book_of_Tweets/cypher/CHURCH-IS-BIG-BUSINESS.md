@@ -2,6 +2,7 @@
 name: "thought.CHURCH IS BIG BUSINESS"
 alias: "Thought: Church Is Big Business"
 type: THOUGHT
+en_content: "In America church is big business...that's a problem."
 parent: "topic.RELIGION"
 tags:
 - church

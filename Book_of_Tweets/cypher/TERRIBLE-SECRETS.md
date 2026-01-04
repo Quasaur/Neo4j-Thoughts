@@ -2,6 +2,7 @@
 name: "thought.TERRIBLE SECRETS"
 alias: "Thought: Terrible Secrets"
 type: THOUGHT
+en_content: "Secrets can be terrible things."
 parent: "topic.ATTITUDE"
 tags:
 - secrets

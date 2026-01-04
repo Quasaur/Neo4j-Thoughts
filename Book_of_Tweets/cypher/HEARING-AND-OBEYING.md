@@ -2,6 +2,7 @@
 name: "thought.HEARING AND OBEYING"
 alias: "Thought: Hearing And Obeying"
 type: THOUGHT
+en_content: "Half the battle: Hearing God's Voice; the Other Half: obeying it."
 parent: "topic.SPIRITUALITY"
 tags:
 - obedience

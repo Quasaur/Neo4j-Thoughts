@@ -2,6 +2,7 @@
 name: "thought.FULFILLING DESTINY TOGETHER"
 alias: "Thought: Fulfilling Destiny Together"
 type: THOUGHT
+en_content: "I can only fulfill my destiny by assisting you in fulfilling yours."
 parent: "topic.HUMANITY"
 tags:
 - destiny

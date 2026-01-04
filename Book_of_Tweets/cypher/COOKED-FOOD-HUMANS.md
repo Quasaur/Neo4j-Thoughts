@@ -2,6 +2,7 @@
 name: "thought.COOKED FOOD HUMANS"
 alias: "Thought: Cooked Food Humans"
 type: THOUGHT
+en_content: "Why are humans the only creatures on planet earth that eat cooked food?"
 parent: "topic.CREATION"
 tags:
 - creation

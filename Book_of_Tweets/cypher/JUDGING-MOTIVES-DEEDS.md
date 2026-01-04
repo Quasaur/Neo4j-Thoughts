@@ -2,6 +2,7 @@
 name: "thought.JUDGING MOTIVES DEEDS"
 alias: "Thought: Judging Motives Deeds"
 type: THOUGHT
+en_content: "While your neighbor is looking at your deeds to judge your motives, God is looking at your motives to judge your deeds!"
 parent: "topic.THE GODHEAD"
 tags:
 - motives

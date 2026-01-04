@@ -1,6 +1,7 @@
 ---
 name: thought.INFINITE GOD
 alias: "Thought: Divine Magnitude"
+en_content: "God is ALWAYS more than we think He is."
 parent: topic.THE GODHEAD
 tags:
   - infinite

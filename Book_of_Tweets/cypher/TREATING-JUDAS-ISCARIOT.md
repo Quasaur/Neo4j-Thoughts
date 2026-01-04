@@ -2,6 +2,7 @@
 name: "thought.TREATING JUDAS ISCARIOT"
 alias: "Thought: Treating Judas Iscariot"
 type: THOUGHT
+en_content: "Do you think Jesus treated Judas Iscariot differently from the rest of the disciples?"
 parent: "topic.THE GODHEAD"
 tags:
 - judas

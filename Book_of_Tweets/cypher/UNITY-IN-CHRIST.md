@@ -2,6 +2,7 @@
 name: "thought.UNITY IN CHRIST"
 alias: "Thought: Unity In Christ"
 type: THOUGHT
+en_content: "True unity of spirit, soul, body, family, community and nation lies only in Jesus Christ."
 parent: "topic.THE GODHEAD"
 tags:
 - unity

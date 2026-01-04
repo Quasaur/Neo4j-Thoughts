@@ -2,6 +2,7 @@
 name: "thought.MALCOLM X TRUTH"
 alias: "Thought: Malcolm X Truth"
 type: THOUGHT
+en_content: "Malcolm X loved his people enough to tell them the Truth about themselves."
 parent: "topic.HUMANITY"
 tags:
 - truth

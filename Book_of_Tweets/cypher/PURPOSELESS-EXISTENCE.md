@@ -2,6 +2,7 @@
 name: "thought.PURPOSELESS EXISTENCE"
 alias: "Thought: Purposeless Existence"
 type: THOUGHT
+en_content: "What is so scientific about saying that Existence has no purpose?"
 parent: "topic.PHILOSOPHY"
 tags:
 - purpose

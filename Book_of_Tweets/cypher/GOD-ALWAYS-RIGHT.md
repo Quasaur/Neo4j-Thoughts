@@ -2,6 +2,7 @@
 name: "thought.GOD ALWAYS RIGHT"
 alias: "Thought: God Always Right"
 type: THOUGHT
+en_content: "Only God is right about everything."
 parent: "topic.THE GODHEAD"
 tags:
 - truth

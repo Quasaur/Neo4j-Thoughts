@@ -2,6 +2,7 @@
 name: "thought.HAPPINESS OF GIVING"
 alias: "Thought: Happiness Of Giving"
 type: THOUGHT
+en_content: "God is happier than everyone else because He gives more than anyone else."
 parent: "topic.THE GODHEAD"
 tags:
 - giving

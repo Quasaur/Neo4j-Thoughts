@@ -2,6 +2,7 @@
 name: "thought.HEAVEN WITHIN SALVATION"
 alias: "Thought: Heaven Within Salvation"
 type: THOUGHT
+en_content: "The objective of Salvation is not to get you into Heaven, but to get Heaven into you."
 parent: "topic.GRACE"
 tags:
 - salvation

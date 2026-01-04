@@ -2,6 +2,7 @@
 name: "thought.FOSSIL AMINO ACIDS"
 alias: "Thought: Fossil Amino Acids"
 type: THOUGHT
+en_content: "Why is it that amino acids are still found in fossils and are not broken down after hundreds of millions of years?"
 parent: "topic.CREATION"
 tags:
 - science

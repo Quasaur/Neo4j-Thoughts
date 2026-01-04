@@ -2,6 +2,7 @@
 name: "thought.DUST AND DIVINE"
 alias: "Thought: Image of God"
 type: THOUGHT
+en_content: "We are dust...that look like God."
 parent: "topic.HUMANITY"
 tags:
 - humanity

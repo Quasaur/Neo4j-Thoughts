@@ -2,6 +2,7 @@
 name: "thought.CHRIST COMING CLOUDS"
 alias: "Thought: Christ Coming Clouds"
 type: THOUGHT
+en_content: "History is going to play out just as the Bible says; what are you going to do when you see Christ coming in the clouds of Heaven?"
 parent: "topic.RELIGION"
 tags:
 - prophecy

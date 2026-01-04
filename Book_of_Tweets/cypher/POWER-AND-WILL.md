@@ -2,6 +2,7 @@
 name: "thought.POWER AND WILL"
 alias: "Thought: Power And Will"
 type: THOUGHT
+en_content: "We don't tap into God's Strength because we are not committed to executing God's Will."
 parent: "topic.SPIRITUALITY"
 tags:
 - strength

@@ -2,6 +2,7 @@
 name: "thought.FAMILIAR SPIRITS WARNING"
 alias: "Thought: Familiar Spirits Warning"
 type: THOUGHT
+en_content: "\"You do not turn nor seek to those having familiar spirits nor necromancers to be unclean by them; I am YHWH your God.\" -- Leviticus 19:31"
 parent: "topic.EVIL"
 tags:
 - occult

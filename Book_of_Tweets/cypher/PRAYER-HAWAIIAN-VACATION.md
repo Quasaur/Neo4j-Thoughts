@@ -2,6 +2,7 @@
 name: "thought.PRAYER HAWAIIAN VACATION"
 alias: "Thought: Prayer Hawaiian Vacation"
 type: THOUGHT
+en_content: "Prayer is my Hawaiian vacation."
 parent: "topic.SPIRITUALITY"
 tags:
 - prayer

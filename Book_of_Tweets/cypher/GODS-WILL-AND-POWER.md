@@ -2,6 +2,7 @@
 name: "thought.GODS WILL AND POWER"
 alias: "Thought: Gods Will And Power"
 type: THOUGHT
+en_content: "God has His Own Will and Desire and more than enough Power to execute Them."
 parent: "topic.THE GODHEAD"
 tags:
 - will

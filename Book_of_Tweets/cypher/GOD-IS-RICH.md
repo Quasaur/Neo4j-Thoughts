@@ -2,6 +2,7 @@
 name: "thought.GOD IS RICH"
 alias: "Thought: God Is Rich"
 type: THOUGHT
+en_content: "God ain't broke."
 parent: "topic.THE GODHEAD"
 tags:
 - provision

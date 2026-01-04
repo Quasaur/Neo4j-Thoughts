@@ -2,6 +2,7 @@
 name: "thought.EVOLUTION COMPASSION MERCY"
 alias: "Thought: Evolution Compassion Mercy"
 type: THOUGHT
+en_content: "Can evolution explain Compassion? Mercy?"
 parent: "topic.PHILOSOPHY"
 tags:
 - evolution

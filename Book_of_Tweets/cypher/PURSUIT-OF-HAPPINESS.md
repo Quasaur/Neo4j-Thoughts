@@ -2,6 +2,7 @@
 name: "thought.PURSUIT OF HAPPINESS"
 alias: "Thought: Pursuit Of Happiness"
 type: THOUGHT
+en_content: "The pursuit of God is the pursuit of happiness. The pursuit of happiness is the pursuit of God."
 parent: "topic.THE GODHEAD"
 tags:
 - god

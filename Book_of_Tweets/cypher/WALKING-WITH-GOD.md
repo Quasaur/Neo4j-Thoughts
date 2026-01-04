@@ -2,6 +2,7 @@
 name: "thought.WALKING WITH GOD"
 alias: "Thought: Walking With God"
 type: THOUGHT
+en_content: "The Bible doesn't say that God walked with Enoch, but that Enoch walked with God. Enoch was led by the Holy Spirit."
 parent: "topic.SPIRITUALITY"
 tags:
 - holyspirit

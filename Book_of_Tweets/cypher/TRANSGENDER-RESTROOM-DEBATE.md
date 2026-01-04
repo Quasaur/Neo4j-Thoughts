@@ -2,6 +2,7 @@
 name: "thought.TRANSGENDER RESTROOM DEBATE"
 alias: "Thought: Transgender Restroom Debate"
 type: THOUGHT
+en_content: "A bill that lets a transgendered male into a girls' restroom is one thing; getting that male past the girl's father is another."
 parent: "topic.MORALITY"
 tags:
 - morality

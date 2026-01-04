@@ -2,6 +2,7 @@
 name: "thought.ALWAYS ADVENTIST"
 alias: "Thought: Always Adventist"
 type: THOUGHT
+en_content: "A part of me will always be Adventist, I guess (smile)."
 parent: "topic.RELIGION"
 tags:
 - identity

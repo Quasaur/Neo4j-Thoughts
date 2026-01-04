@@ -2,6 +2,7 @@
 name: "thought.LIGHTNING BOLT"
 alias: "Thought: Lightning Bolt"
 type: THOUGHT
+en_content: "A single lightning bolt can be 5 miles in length and hotter than the surface of the Sun...God is Great!"
 parent: "topic.CREATION"
 tags:
 - creation

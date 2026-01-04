@@ -2,6 +2,7 @@
 name: "thought.BIBLE HOW TO EAT"
 alias: "Thought: Bible How To Eat"
 type: THOUGHT
+en_content: "The Bible not only tells us how to live, but also HOW TO EAT!"
 parent: "topic.TRUTH"
 tags:
 - bible

@@ -2,6 +2,7 @@
 name: "thought.NATURE OF THE GODHEAD"
 alias: "Thought: Nature Of The Godhead"
 type: THOUGHT
+en_content: "Anyone who thinks they understand the Nature of the Godhead is a liar."
 parent: "topic.THE GODHEAD"
 tags:
 - godhead

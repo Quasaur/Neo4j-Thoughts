@@ -2,6 +2,7 @@
 name: "thought.ALONZO CHURCH FAITH"
 alias: "Thought: Alonzo Church Faith"
 type: THOUGHT
+en_content: "Alonzo Church Ph.D, Inventor of the lambda calculus, was a devout Christian...who says science and faith don't mix?"
 parent: "topic.RELIGION"
 tags:
 - science

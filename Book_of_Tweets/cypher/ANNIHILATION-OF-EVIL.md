@@ -2,6 +2,7 @@
 name: "thought.ANNIHILATION OF EVIL"
 alias: "Thought: Annihilation Of Evil"
 type: THOUGHT
+en_content: "Evil itself is doomed to annihilation...forever."
 parent: "topic.DIVINE SOVEREIGNTY"
 tags:
 - evil

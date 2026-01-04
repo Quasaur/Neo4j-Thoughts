@@ -2,6 +2,7 @@
 name: "thought.FAN VS FOLLOWER"
 alias: "Thought: Fan Vs Follower"
 type: THOUGHT
+en_content: "You can be a fan of Christ yet not a follower; but you cannot be a follower and not be a fan!"
 parent: "topic.SPIRITUALITY"
 tags:
 - follower

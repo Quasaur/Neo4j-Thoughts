@@ -2,6 +2,7 @@
 name: "thought.DEFINING EVIL PRIDE"
 alias: "Thought: Defining Evil Pride"
 type: THOUGHT
+en_content: "Evil is considering this God-given treasure (Self) more precious than The God Who gave it."
 parent: "topic.EVIL"
 tags:
 - evil

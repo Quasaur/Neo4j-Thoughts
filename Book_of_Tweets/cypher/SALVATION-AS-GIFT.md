@@ -2,6 +2,7 @@
 name: "thought.SALVATION AS GIFT"
 alias: "Thought: Salvation"
 type: THOUGHT
+en_content: "Salvation is neither a formula, methodology nor incantation...it's a Gift!"
 parent: "topic.THE GOSPEL"
 tags:
 - salvation

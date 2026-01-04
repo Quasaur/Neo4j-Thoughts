@@ -2,6 +2,7 @@
 name: "thought.READY FOR ANSWER"
 alias: "Thought: Ready For Answer"
 type: THOUGHT
+en_content: "Asking a question does not mean you are ready for the answer."
 parent: "topic.WISDOM"
 tags:
 - wisdom

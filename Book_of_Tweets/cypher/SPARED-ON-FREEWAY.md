@@ -2,6 +2,7 @@
 name: "thought.SPARED ON FREEWAY"
 alias: "Thought: Spared On Freeway"
 type: THOUGHT
+en_content: "I lost my brakes on the freeway last nite; but God spared me from accident and injury and I got the car home."
 parent: "topic.SPIRITUALITY"
 tags:
 - providence

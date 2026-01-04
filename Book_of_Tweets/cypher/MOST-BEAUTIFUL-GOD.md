@@ -2,6 +2,7 @@
 name: "thought.MOST BEAUTIFUL GOD"
 alias: "Thought: Most Beautiful God"
 type: THOUGHT
+en_content: "There is no being God has created that is more handsome, beautiful or gorgeous than Himself."
 parent: "topic.BEAUTY"
 tags:
 - beauty

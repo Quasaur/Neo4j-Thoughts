@@ -2,6 +2,7 @@
 name: "thought.WITHHOLDING POWERS"
 alias: "Thought: Withholding Powers"
 type: THOUGHT
+en_content: "God withholds powers from us because we do not give Him glory for powers already bestowed."
 parent: "topic.DIVINE SOVEREIGNTY"
 tags:
 - power

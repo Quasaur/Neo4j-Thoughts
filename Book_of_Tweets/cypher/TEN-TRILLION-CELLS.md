@@ -2,6 +2,7 @@
 name: "thought.TEN TRILLION CELLS"
 alias: "Thought: Ten Trillion Cells"
 type: THOUGHT
+en_content: "The human body is made up of at least 10 trillion cells...God is great!"
 parent: "topic.CREATION"
 tags:
 - creation

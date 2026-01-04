@@ -2,6 +2,7 @@
 name: "thought.PRIVATE INTERPRETATION"
 alias: "Thought: Private Interpretation"
 type: THOUGHT
+en_content: "Where Satan can't stop Bible reading he distracts with private interpretation."
 parent: "topic.TRUTH"
 tags:
 - bible

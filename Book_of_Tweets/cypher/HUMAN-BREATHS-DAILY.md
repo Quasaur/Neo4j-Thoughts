@@ -2,6 +2,7 @@
 name: "thought.HUMAN BREATHS DAILY"
 alias: "Thought: Human Breaths Daily"
 type: THOUGHT
+en_content: "The average human takes 17,280-23,040 breaths per day; God is great!"
 parent: "topic.CREATION"
 tags:
 - creation

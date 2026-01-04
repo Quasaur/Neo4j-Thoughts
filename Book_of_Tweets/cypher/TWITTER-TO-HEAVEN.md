@@ -2,6 +2,7 @@
 name: "thought.TWITTER TO HEAVEN"
 alias: "Thought: Twitter To Heaven"
 type: THOUGHT
+en_content: "If I could, I'd take my Twitter followers to Heaven with me."
 parent: "topic.SPIRITUALITY"
 tags:
 - heaven

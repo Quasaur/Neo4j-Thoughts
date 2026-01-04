@@ -2,6 +2,7 @@
 name: "thought.LOVE SEVERING SIN"
 alias: "Thought: Love Severing Sin"
 type: THOUGHT
+en_content: "Only Love can separate sinners from their sins."
 parent: "topic.GRACE"
 tags:
 - love

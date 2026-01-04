@@ -2,6 +2,7 @@
 name: "thought.HONESTY THROUGH LOVE"
 alias: "Thought: Honesty Through Love"
 type: THOUGHT
+en_content: "When you know God loves you, it's easier to be honest about your faults."
 parent: "topic.ATTITUDE"
 tags:
 - honesty

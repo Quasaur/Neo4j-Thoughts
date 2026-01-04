@@ -2,6 +2,7 @@
 name: "thought.GODS STRENGTH NEED"
 alias: "Thought: Gods Strength Need"
 type: THOUGHT
+en_content: "\"I don't need your strength...you need Mine.\" -- God"
 parent: "topic.SPIRITUALITY"
 tags:
 - strength

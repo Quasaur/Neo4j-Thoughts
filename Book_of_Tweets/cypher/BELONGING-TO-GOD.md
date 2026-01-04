@@ -2,6 +2,7 @@
 name: "thought.BELONGING TO GOD"
 alias: "Thought: Belonging To God"
 type: THOUGHT
+en_content: "If we don't belong to God, we belong to ourselves...and shall perish in ourselves because we choose not to live in God."
 parent: "topic.HUMANITY"
 tags:
 - belonging

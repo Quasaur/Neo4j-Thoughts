@@ -2,6 +2,7 @@
 name: "thought.CORRUPTION WITHOUT DEATH"
 alias: "Thought: Corruption Without Death"
 type: THOUGHT
+en_content: "Watched movie \"In Time\"; without death, humanity would be even more hideously corrupt than it is now."
 parent: "topic.HUMANITY"
 tags:
 - death

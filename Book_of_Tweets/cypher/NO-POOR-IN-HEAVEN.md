@@ -2,6 +2,7 @@
 name: "thought.NO POOR IN HEAVEN"
 alias: "Thought: No Poor In Heaven"
 type: THOUGHT
+en_content: "There are no poor in Heaven."
 parent: "topic.SPIRITUALITY"
 tags:
 - heaven

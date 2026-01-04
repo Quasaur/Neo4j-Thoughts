@@ -2,6 +2,7 @@
 name: "thought.PRAYER FOR REVELATION"
 alias: "Thought: Prayer For Revelation"
 type: THOUGHT
+en_content: "God knows things about the people around you that you have no idea of; if one of those things comes to light, it is so you can pray."
 parent: "topic.SPIRITUALITY"
 tags:
 - prayer

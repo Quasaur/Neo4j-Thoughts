@@ -2,6 +2,7 @@
 name: "thought.CAT LICK NECK"
 alias: "Thought: Cat Lick Neck"
 type: THOUGHT
+en_content: "My cat can lick its own neck...God is great!"
 parent: "topic.CREATION"
 tags:
 - creation

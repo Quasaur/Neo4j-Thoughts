@@ -2,6 +2,7 @@
 name: "thought.EVERYTHING IS SIMPLE"
 alias: "Thought: Everything Is Simple"
 type: THOUGHT
+en_content: "To God complexity itself does not exists...everything is simple to God."
 parent: "topic.THE GODHEAD"
 tags:
 - simplicity

@@ -2,6 +2,7 @@
 name: "thought.MEETING LORD JESUS"
 alias: "Thought: Meeting Lord Jesus"
 type: THOUGHT
+en_content: "I have met the Lord Jesus: He is to live for, and to die for!"
 parent: "topic.THE GODHEAD"
 tags:
 - jesus

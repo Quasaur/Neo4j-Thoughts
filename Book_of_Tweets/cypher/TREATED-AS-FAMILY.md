@@ -2,6 +2,7 @@
 name: "thought.TREATED AS FAMILY"
 alias: "Thought: Treated As Family"
 type: THOUGHT
+en_content: "God has always treated me as family, whether I deserved it or not."
 parent: "topic.GRACE"
 tags:
 - family

@@ -2,6 +2,7 @@
 name: "thought.HEAVEN WITHIN"
 alias: "Thought: Heaven Within"
 type: THOUGHT
+en_content: "If Heaven isn't in us, then we can't go to Heaven."
 parent: "topic.SPIRITUALITY"
 tags:
 - heaven

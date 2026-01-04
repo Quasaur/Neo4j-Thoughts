@@ -2,6 +2,7 @@
 name: "thought.BEGINNING OF MISERY"
 alias: "Thought: Beginning Of Misery"
 type: THOUGHT
+en_content: "Misery began when some idiot decided he was more important than God."
 parent: "topic.HUMANITY"
 tags:
 - misery

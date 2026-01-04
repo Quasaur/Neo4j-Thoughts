@@ -2,6 +2,7 @@
 name: "thought.EATING BREATHING DEATH"
 alias: "Thought: Eating Breathing Death"
 type: THOUGHT
+en_content: "We insist on eating and breathing death (meat and cigarettes) and then wonder why we get sick and die so fast and why healthcare costs are so high!"
 parent: "topic.MORALITY"
 tags:
 - health

@@ -2,6 +2,7 @@
 name: "thought.DREAMS OTHER WORLDS"
 alias: "Thought: Dreams Other Worlds"
 type: THOUGHT
+en_content: "What if dreams were peeks into another life...on another planet ...in another galaxy very similar to ours?"
 parent: "topic.PHILOSOPHY"
 tags:
 - philosophy

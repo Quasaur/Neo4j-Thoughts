@@ -2,6 +2,7 @@
 name: "thought.GOD THE ANSWER"
 alias: "Thought: God The Answer"
 type: THOUGHT
+en_content: "The fact that God is That Single Answer does not in any way diminish the wonder of His Creation."
 parent: "topic.THE GODHEAD"
 tags:
 - god

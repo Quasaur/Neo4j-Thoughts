@@ -2,6 +2,7 @@
 name: "thought.SECOND COMING STATS"
 alias: "Thought: Second Coming Stats"
 type: THOUGHT
+en_content: "One out of every 24 verses in the New Testament refers to the Second Coming of Christ."
 parent: "topic.RELIGION"
 tags:
 - prophecy

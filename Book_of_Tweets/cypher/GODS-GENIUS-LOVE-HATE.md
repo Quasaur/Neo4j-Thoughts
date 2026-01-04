@@ -2,6 +2,7 @@
 name: "thought.GODS GENIUS LOVE HATE"
 alias: "Thought: Gods Genius Love Hate"
 type: THOUGHT
+en_content: "What identifies God's Genius is the ability to hate evil while simultaneously loving evil people."
 parent: "topic.THE GODHEAD"
 tags:
 - genius

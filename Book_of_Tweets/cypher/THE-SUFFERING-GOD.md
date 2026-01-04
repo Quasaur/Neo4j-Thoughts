@@ -2,6 +2,7 @@
 name: "thought.THE SUFFERING GOD"
 alias: "Thought: The Suffering God"
 type: THOUGHT
+en_content: "In Christ God has suffered more than any human."
 parent: "topic.THE GODHEAD"
 tags:
 - suffering

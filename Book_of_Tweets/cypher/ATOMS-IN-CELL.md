@@ -2,6 +2,7 @@
 name: "thought.ATOMS IN CELL"
 alias: "Thought: Atoms In Cell"
 type: THOUGHT
+en_content: "The average human cell is made of approx. 200 trillion atoms...God is great!"
 parent: "topic.CREATION"
 tags:
 - creation

@@ -2,6 +2,7 @@
 name: "thought.MAN OF SORROWS"
 alias: "Thought: Man Of Sorrows"
 type: THOUGHT
+en_content: "Jesus was a Man of sorrows...acquainted with grief--not because of what they did to Him, but what they did to each other!"
 parent: "topic.THE GODHEAD"
 tags:
 - jesus

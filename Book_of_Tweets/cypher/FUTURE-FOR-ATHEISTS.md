@@ -2,6 +2,7 @@
 name: "thought.FUTURE FOR ATHEISTS"
 alias: "Thought: Future For Atheists"
 type: THOUGHT
+en_content: "Is there any future for a species that so despises its Creator as to announce that He doesn't exist?"
 parent: "topic.PHILOSOPHY"
 tags:
 - future

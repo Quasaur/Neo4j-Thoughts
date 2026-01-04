@@ -10,12 +10,9 @@ views:
         - file.folder == "Book_of_Tweets/cypher"
     order:
       - file.name
-      - type
       - level
       - parent
-      - file.folder
-      - neo4j
-      - insert
+      - en_content
     sort:
       - property: level
         direction: ASC

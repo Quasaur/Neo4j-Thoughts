@@ -2,6 +2,7 @@
 name: "thought.GOD LOVES ABUSERS"
 alias: "Thought: God Loves Abusers"
 type: THOUGHT
+en_content: "God loves abusers."
 parent: "topic.THE GODHEAD"
 tags:
 - love

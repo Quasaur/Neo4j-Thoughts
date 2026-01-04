@@ -2,6 +2,7 @@
 name: "thought.HEAVEN HOME WITHIN"
 alias: "Thought: Heaven Home Within"
 type: THOUGHT
+en_content: "Before I can go Home to Heaven, Heaven must find a home in me."
 parent: "topic.SPIRITUALITY"
 tags:
 - heaven

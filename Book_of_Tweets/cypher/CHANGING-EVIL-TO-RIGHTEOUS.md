@@ -2,6 +2,7 @@
 name: "thought.CHANGING EVIL TO RIGHTEOUS"
 alias: "Thought: Changing Evil To Righteous"
 type: THOUGHT
+en_content: "God's Other Genius is changing evil people into righteous people!"
 parent: "topic.THE GODHEAD"
 tags:
 - transformation

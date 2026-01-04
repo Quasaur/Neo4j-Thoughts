@@ -2,6 +2,7 @@
 name: "thought.GOD IS BEAUTY"
 alias: "Thought: God Is Beauty"
 type: THOUGHT
+en_content: "God is Beauty. Apart from Him we are ugly."
 parent: "topic.BEAUTY"
 tags:
 - beauty

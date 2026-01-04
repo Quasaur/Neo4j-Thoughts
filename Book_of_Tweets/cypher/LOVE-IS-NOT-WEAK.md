@@ -2,6 +2,7 @@
 name: "thought.LOVE IS NOT WEAK"
 alias: "Thought: Love Is Not Weak"
 type: THOUGHT
+en_content: "Love is not weak."
 parent: "topic.LOVE"
 tags:
 - love

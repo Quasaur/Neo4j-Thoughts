@@ -2,6 +2,7 @@
 name: "thought.DIVINE VISITATION EFFECT"
 alias: "Thought: Divine Visitation Effect"
 type: THOUGHT
+en_content: "A Divine Visitation will ruin you for this life. You may look and act like everyone, but you're not like them...you're of another World."
 parent: "topic.SPIRITUALITY"
 tags:
 - visitation

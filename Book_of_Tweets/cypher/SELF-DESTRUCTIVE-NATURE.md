@@ -2,6 +2,7 @@
 name: "thought.SELF DESTRUCTIVE NATURE"
 alias: "Thought: Self Destructive Nature"
 type: THOUGHT
+en_content: "We are self-destructive by nature and teach our children to be self-destructive."
 parent: "topic.HUMANITY"
 tags:
 - humanity

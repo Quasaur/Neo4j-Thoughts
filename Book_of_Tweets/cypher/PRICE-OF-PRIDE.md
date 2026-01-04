@@ -2,6 +2,7 @@
 name: "thought.PRICE OF PRIDE"
 alias: "Thought: Price Of Pride"
 type: THOUGHT
+en_content: "At what point in history did African American men decide that pride was worth the price of killing each other??"
 parent: "topic.MORALITY"
 tags:
 - pride

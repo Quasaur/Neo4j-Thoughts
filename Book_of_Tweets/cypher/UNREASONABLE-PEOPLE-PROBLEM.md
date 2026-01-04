@@ -2,6 +2,7 @@
 name: "thought.UNREASONABLE PEOPLE PROBLEM"
 alias: "Thought: Unreasonable People Problem"
 type: THOUGHT
+en_content: "Life would be perfect but for the presence of unreasonable people."
 parent: "topic.ATTITUDE"
 tags:
 - people

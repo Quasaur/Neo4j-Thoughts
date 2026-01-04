@@ -2,6 +2,7 @@
 name: "thought.INTELLIGENT DESIGN PROOF"
 alias: "Thought: Intelligent Design Proof"
 type: THOUGHT
+en_content: "There is TONS of evidence for Intelligent Design evolutionists don't want you to know."
 parent: "topic.CREATION"
 tags:
 - creation

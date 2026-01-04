@@ -2,6 +2,7 @@
 name: "thought.NOTHING AND EVERYTHING"
 alias: "Thought: Nothing And Everything"
 type: THOUGHT
+en_content: "I am nothing to God...and yet...I am everything to God."
 parent: "topic.HUMANITY"
 tags:
 - humanity

@@ -2,6 +2,7 @@
 name: "thought.MAJORITY OF THREE"
 alias: "Thought: Majority Of Three"
 type: THOUGHT
+en_content: "The Godhead is a Majority of Three: Their LIFE far outweighs all Death in the Cosmos...and their GOODNESS overwhelms all Evil!"
 parent: "topic.THE GODHEAD"
 tags:
 - godhead

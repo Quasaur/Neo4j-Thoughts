@@ -2,6 +2,7 @@
 name: "thought.DEFINITION OF SIN"
 alias: "Thought: Delusion of Self"
 type: THOUGHT
+en_content: "What is sin? Suffering under the delusion that I'm on my own in this life."
 parent: "topic.MORALITY"
 tags:
 - sin

@@ -2,6 +2,7 @@
 name: "thought.HAPPY IF GOD PLEASED"
 alias: "Thought: Happy If God Pleased"
 type: THOUGHT
+en_content: "How can I not be happy if God is pleased with me?"
 parent: "topic.ATTITUDE"
 tags:
 - happiness

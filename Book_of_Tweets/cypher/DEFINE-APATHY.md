@@ -2,6 +2,7 @@
 name: "thought.DEFINE APATHY"
 alias: "Thought: Define Apathy"
 type: THOUGHT
+en_content: "Love & hate are not opposites...they are 2 halves of the same coin; the opposite of love / hate is Apathy."
 parent: "topic.ATTITUDE"
 tags:
 - love

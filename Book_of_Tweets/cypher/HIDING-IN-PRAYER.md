@@ -2,6 +2,7 @@
 name: "thought.HIDING IN PRAYER"
 alias: "Thought: Hiding In Prayer"
 type: THOUGHT
+en_content: "Prayer is where I hide from the world."
 parent: "topic.SPIRITUALITY"
 tags:
 - prayer

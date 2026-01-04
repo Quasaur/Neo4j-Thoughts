@@ -2,6 +2,7 @@
 name: "thought.CONTRACTOR NOT SLAVE"
 alias: "Thought: Contractor Not Slave"
 type: THOUGHT
+en_content: "A contractor is NOT a slave."
 parent: "topic.MORALITY"
 tags:
 - work

@@ -2,6 +2,7 @@
 name: "thought.FAST LANE BLIND SPOTS"
 alias: "Thought: Fast Lane Blind Spots"
 type: THOUGHT
+en_content: "If you're living in the fast lane, watch your blind spots."
 parent: "topic.WISDOM"
 tags:
 - wisdom

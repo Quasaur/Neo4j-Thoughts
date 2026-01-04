@@ -2,6 +2,7 @@
 name: "thought.CARNALITY AND STRIFE"
 alias: "Thought: Carnality And Strife"
 type: THOUGHT
+en_content: "1 Corinthians 3:3: \"...for whereas there is among you envying, and strife, and divisions, are ye not carnal, and walk as men?\""
 parent: "topic.MORALITY"
 tags:
 - morality

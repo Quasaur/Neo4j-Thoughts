@@ -2,6 +2,7 @@
 name: "thought.WRATH OF GOD"
 alias: "Thought: Wrath Of God"
 type: THOUGHT
+en_content: "The worst thing Earth must face is not Antichrist, but The Wrath of God."
 parent: "topic.DIVINE SOVEREIGNTY"
 tags:
 - wrath

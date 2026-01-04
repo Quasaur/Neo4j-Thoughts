@@ -2,6 +2,7 @@
 name: "thought.PENALTY VS SIN"
 alias: "Thought: Penalty Vs Sin"
 type: THOUGHT
+en_content: "We want to be saved from the PENALTY of sin but not sin itself."
 parent: "topic.GRACE"
 tags:
 - sin

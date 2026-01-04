@@ -2,6 +2,7 @@
 name: "thought.OBEYING GODS CHARACTER LAWS"
 alias: "Thought: Obeying Gods Character Laws"
 type: THOUGHT
+en_content: "Just because it's legal, doesn't mean it's ethical or just or fair. God doesn't expect us to obey laws that violate His Character."
 parent: "topic.MORALITY"
 tags:
 - law

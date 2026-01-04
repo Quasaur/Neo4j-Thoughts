@@ -2,6 +2,7 @@
 name: "thought.GLORIFIED IN HUMANITY"
 alias: "Thought: Glorified In Humanity"
 type: THOUGHT
+en_content: "God WILL be glorified in Humanity: either by rewarding obedience, faith and courage...or by punishing rebellion, unbelief and cowardice."
 parent: "topic.DIVINE SOVEREIGNTY"
 tags:
 - glory

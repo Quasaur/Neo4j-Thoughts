@@ -2,6 +2,7 @@
 name: "thought.THE LORD GIVES"
 alias: "Thought: Divine Sovereignty"
 type: THOUGHT
+en_content: "\"The Lord gives. The Lord takes away. Blessed be The Name of the Lord!\" -- The Prophet 'Iyowb (Job)"
 parent: "topic.DIVINE SOVEREIGNTY"
 tags:
 - sovereignty

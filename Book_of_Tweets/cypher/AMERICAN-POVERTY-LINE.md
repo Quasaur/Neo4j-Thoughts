@@ -2,6 +2,7 @@
 name: "thought.AMERICAN POVERTY LINE"
 alias: "Thought: American Poverty Line"
 type: THOUGHT
+en_content: "46 million Americans are at or below the poverty line."
 parent: "topic.MORALITY"
 tags:
 - poverty

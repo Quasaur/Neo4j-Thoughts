@@ -2,6 +2,7 @@
 name: "thought.SUN ENERGY"
 alias: "Thought: Sun Energy"
 type: THOUGHT
+en_content: "The Sun releases 5 million tons of matter per second...God is Great!"
 parent: "topic.CREATION"
 tags:
 - creation

@@ -2,6 +2,7 @@
 name: "thought.LIFE IN PRAYER"
 alias: "Thought: Life In Prayer"
 type: THOUGHT
+en_content: "There is no life outside of Prayer."
 parent: "topic.SPIRITUALITY"
 tags:
 - prayer

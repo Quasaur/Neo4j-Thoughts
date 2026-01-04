@@ -8,6 +8,7 @@ tags:
 - spirit_fruit
 - commitment
 - worship
+en_content: "A relationship with Christ that does not bear fruit in submission, worship and obedience is either broken or non-existent."
 parent: topic.WORSHIP
 level: 3
 neo4j: true

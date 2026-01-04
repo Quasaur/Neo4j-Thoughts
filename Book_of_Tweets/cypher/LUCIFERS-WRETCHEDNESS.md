@@ -2,6 +2,7 @@
 name: "thought.LUCIFERS WRETCHEDNESS"
 alias: "Thought: Lucifers Wretchedness"
 type: THOUGHT
+en_content: "What a wretch Lucifer must be, to despise his most ardent Supporter!"
 parent: "topic.EVIL"
 tags:
 - lucifer

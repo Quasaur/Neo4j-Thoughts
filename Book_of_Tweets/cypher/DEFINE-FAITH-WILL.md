@@ -2,6 +2,7 @@
 name: "thought.DEFINE FAITH WILL"
 alias: "Thought: Define Faith Will"
 type: THOUGHT
+en_content: "New Definition of Faith: KNOWING God's Will for me in every situation."
 parent: "topic.FAITH"
 tags:
 - faith

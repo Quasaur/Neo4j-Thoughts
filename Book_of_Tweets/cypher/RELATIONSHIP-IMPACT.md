@@ -2,6 +2,7 @@
 name: "thought.RELATIONSHIP IMPACT"
 alias: "Thought: Relationship Impact"
 type: THOUGHT
+en_content: "You are either a beneficiary or a casualty of my relationship with God."
 parent: "topic.SPIRITUALITY"
 tags:
 - spirituality

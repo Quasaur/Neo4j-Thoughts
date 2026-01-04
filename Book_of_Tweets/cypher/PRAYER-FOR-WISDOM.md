@@ -2,6 +2,7 @@
 name: "thought.PRAYER FOR WISDOM"
 alias: "Thought: Prayer For Wisdom"
 type: THOUGHT
+en_content: "Lord Jesus, fill my mind with Your Wisdom; fill my heart with Your Love; fill my bowels with Your Mercy!"
 parent: "topic.SPIRITUALITY"
 tags:
 - prayer

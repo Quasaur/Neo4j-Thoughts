@@ -2,6 +2,7 @@
 name: "thought.PRIDE IS PRISON"
 alias: "Thought: Pride Is Prison"
 type: THOUGHT
+en_content: "Pride is a prison, and Unconditional Love the only Liberator."
 parent: "topic.ATTITUDE"
 tags:
 - pride

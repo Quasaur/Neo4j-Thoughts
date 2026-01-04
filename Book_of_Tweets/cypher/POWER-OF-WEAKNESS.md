@@ -2,6 +2,7 @@
 name: "thought.POWER OF WEAKNESS"
 alias: "Thought: Power Of Weakness"
 type: THOUGHT
+en_content: "True Strength understands the Power of Weakness."
 parent: "topic.WISDOM"
 tags:
 - strength

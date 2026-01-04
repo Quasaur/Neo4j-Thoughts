@@ -2,6 +2,7 @@
 name: "thought.POWER OF JESUS"
 alias: "Thought: Power Of Jesus"
 type: THOUGHT
+en_content: "I have NEVER met anyone more powerful that Jesus...and I never will."
 parent: "topic.THE GODHEAD"
 tags:
 - jesus

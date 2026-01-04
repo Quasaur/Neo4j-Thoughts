@@ -2,6 +2,7 @@
 name: "thought.HEAVEN BY GRACE"
 alias: "Thought: Heaven By Grace"
 type: THOUGHT
+en_content: "I know I have no business being in Heaven--but I'm going...such is the Power of Divine Grace!"
 parent: "topic.GRACE"
 tags:
 - grace

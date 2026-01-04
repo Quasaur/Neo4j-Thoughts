@@ -2,6 +2,7 @@
 name: "thought.GODS FORGETFULNESS"
 alias: "Thought: Gods Forgetfulness"
 type: THOUGHT
+en_content: "Don't bring to mind what God has decided to forget."
 parent: "topic.GRACE"
 tags:
 - forgiveness

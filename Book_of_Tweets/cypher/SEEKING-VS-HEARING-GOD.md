@@ -2,6 +2,7 @@
 name: "thought.SEEKING VS HEARING GOD"
 alias: "Thought: Seeking Vs Hearing God"
 type: THOUGHT
+en_content: "You would think that a person desperate to hear from God would be desperate to seek God..."
 parent: "topic.SPIRITUALITY"
 tags:
 - seeking

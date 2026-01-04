@@ -2,6 +2,7 @@
 name: "thought.BUILD ON THE ROCK"
 alias: "Thought: Build On The Rock"
 type: THOUGHT
+en_content: "You can build WITH Gold, but you can't build ON Gold; you must build on The ROCK...it's not as shiny, but it's a lot stronger!"
 parent: "topic.SPIRITUALITY"
 tags:
 - rock

@@ -2,6 +2,7 @@
 name: "thought.ATTRACTION TO FORBIDDEN"
 alias: "Thought: Attraction To Forbidden"
 type: THOUGHT
+en_content: "What attracts us to the forbidden? Sin."
 parent: "topic.MORALITY"
 tags:
 - sin

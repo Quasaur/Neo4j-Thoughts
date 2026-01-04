@@ -2,6 +2,7 @@
 name: "thought.HELL AND HYPOCRISY"
 alias: "Thought: Hell And Hypocrisy"
 type: THOUGHT
+en_content: "If I send you to Hell, it's guaranteed that I will be following you shortly."
 parent: "topic.MORALITY"
 tags:
 - judgment

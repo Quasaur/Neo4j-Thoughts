@@ -2,6 +2,7 @@
 name: "thought.WICKEDNESS AND GUN LAWS"
 alias: "Thought: Wickedness And Gun Laws"
 type: THOUGHT
+en_content: "Humanity will continue to grow more wicked. As a nation we would be IDIOTS to leave our gun laws in their current state."
 parent: "topic.MORALITY"
 tags:
 - guns

@@ -2,6 +2,7 @@
 name: "thought.GOD HIDING PLAIN SIGHT"
 alias: "Thought: God Hiding Plain Sight"
 type: THOUGHT
+en_content: "Sure, God is hiding...in plain sight."
 parent: "topic.THE GODHEAD"
 tags:
 - hidden

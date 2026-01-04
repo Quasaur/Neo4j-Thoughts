@@ -2,6 +2,7 @@
 name: "thought.MLK MURDERED GOOD DEEDS"
 alias: "Thought: Mlk Murdered Good Deeds"
 type: THOUGHT
+en_content: "Remember: Martin Luther King Jr. was murdered -- not for his crimes, but for his good deeds."
 parent: "topic.MORALITY"
 tags:
 - mlk

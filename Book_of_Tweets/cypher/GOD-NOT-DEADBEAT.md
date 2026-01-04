@@ -2,6 +2,7 @@
 name: "thought.GOD NOT DEADBEAT"
 alias: "Thought: God Not Deadbeat"
 type: THOUGHT
+en_content: "God is not a deadbeat... He takes care of His own."
 parent: "topic.THE GODHEAD"
 tags:
 - provision

@@ -2,6 +2,7 @@
 name: "thought.PEOPLE MORE UNFORGIVING"
 alias: "Thought: People More Unforgiving"
 type: THOUGHT
+en_content: "People are FAR MORE unforgiving than God."
 parent: "topic.THE GODHEAD"
 tags:
 - forgiveness

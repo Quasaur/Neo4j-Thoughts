@@ -2,6 +2,7 @@
 name: "thought.SPIRIT IS LIFE"
 alias: "Thought: Spirit Is Life"
 type: THOUGHT
+en_content: "Spirit, not electricity, is Life."
 parent: "topic.THE GODHEAD"
 tags:
 - spirit

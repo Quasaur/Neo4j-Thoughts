@@ -2,6 +2,7 @@
 name: "thought.GREATER THAN BEING LOVED"
 alias: "Thought: Greater Than Being Loved"
 type: THOUGHT
+en_content: "What could be greater than being loved? Being able to love!"
 parent: "topic.LOVE"
 tags:
 - love

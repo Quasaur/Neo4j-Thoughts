@@ -2,6 +2,7 @@
 name: "thought.OVERCOMING FEAR BLAME"
 alias: "Thought: Overcoming Fear Blame"
 type: THOUGHT
+en_content: "If you keep blaming others for your fears, you'll never overcome them."
 parent: "topic.ATTITUDE"
 tags:
 - fear

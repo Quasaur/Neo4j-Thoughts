@@ -2,6 +2,7 @@
 name: "thought.BORN TWICE"
 alias: "Thought: Born Twice"
 type: THOUGHT
+en_content: "Born once, die twice; born twice, die once--Happy Resurrection Day!"
 parent: "topic.RELIGION"
 tags:
 - resurrection

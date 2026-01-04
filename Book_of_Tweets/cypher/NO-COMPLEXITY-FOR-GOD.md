@@ -2,6 +2,7 @@
 name: "thought.NO COMPLEXITY FOR GOD"
 alias: "Thought: No Complexity For God"
 type: THOUGHT
+en_content: "Ideas like \"complexity\" and \"difficulty\" don't exist for God; so He is able to make my life EASIER!"
 parent: "topic.THE GODHEAD"
 tags:
 - god

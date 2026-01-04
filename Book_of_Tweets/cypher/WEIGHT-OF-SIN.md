@@ -2,6 +2,7 @@
 name: "thought.WEIGHT OF SIN"
 alias: "Thought: Weight Of Sin"
 type: THOUGHT
+en_content: "Christ bore in His Body the sins of the 12 billion sinners who have lived since Adam."
 parent: "topic.THE GODHEAD"
 tags:
 - atonement

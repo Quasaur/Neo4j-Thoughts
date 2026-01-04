@@ -2,6 +2,7 @@
 name: "thought.MEN SHAVING CHILDREN"
 alias: "Thought: Men Shaving Children"
 type: THOUGHT
+en_content: "It may be that women like us men to shave that they may treat us like children."
 parent: "topic.HUMANITY"
 tags:
 - men

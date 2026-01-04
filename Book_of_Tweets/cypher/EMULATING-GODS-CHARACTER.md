@@ -2,6 +2,7 @@
 name: "thought.EMULATING GODS CHARACTER"
 alias: "Thought: Emulating Gods Character"
 type: THOUGHT
+en_content: "What kind of person is God? The kind I've always admired and desired to emulate."
 parent: "topic.THE GODHEAD"
 tags:
 - character

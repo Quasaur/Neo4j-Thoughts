@@ -2,6 +2,7 @@
 name: "thought.DANGEROUS AND SAFE"
 alias: "Thought: Dangerous And Safe"
 type: THOUGHT
+en_content: "Who is more dangerous than God? Who is more safe than The Almighty?"
 parent: "topic.THE GODHEAD"
 tags:
 - god

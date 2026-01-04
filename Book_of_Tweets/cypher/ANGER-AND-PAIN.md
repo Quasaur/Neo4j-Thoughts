@@ -2,6 +2,7 @@
 name: "thought.ANGER AND PAIN"
 alias: "Thought: Anger And Pain"
 type: THOUGHT
+en_content: "Anger as a first response is often indicative of an underlying issue...that issue usually being pain."
 parent: "topic.PSYCHOLOGY"
 tags:
 - anger

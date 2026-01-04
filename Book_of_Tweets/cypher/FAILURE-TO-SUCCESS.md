@@ -2,6 +2,7 @@
 name: "thought.FAILURE TO SUCCESS"
 alias: "Thought: Failure To Success"
 type: THOUGHT
+en_content: "God can love any failure into a success."
 parent: "topic.GRACE"
 tags:
 - grace

@@ -2,6 +2,7 @@
 name: "thought.HUMILITY IN PRAYER"
 alias: "Thought: Humility In Prayer"
 type: THOUGHT
+en_content: "Prayer needs no Humility to be spoken, but no prayer is heard without it."
 parent: "topic.SPIRITUALITY"
 tags:
 - prayer

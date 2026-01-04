@@ -2,6 +2,7 @@
 name: "thought.INCORRUPTIBLE GOODNESS"
 alias: "Thought: Incorruptible Goodness"
 type: THOUGHT
+en_content: "Good is greater than evil; for the Fountain of All Good (God) has never been nor can ever be corrupted by evil."
 parent: "topic.THE GODHEAD"
 tags:
 - goodness

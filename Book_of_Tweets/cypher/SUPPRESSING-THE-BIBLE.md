@@ -2,6 +2,7 @@
 name: "thought.SUPPRESSING THE BIBLE"
 alias: "Thought: Suppressing The Bible"
 type: THOUGHT
+en_content: "Where Satan cannot suppress the distribution of the Bible he has convinced the population to stay away from it."
 parent: "topic.TRUTH"
 tags:
 - bible

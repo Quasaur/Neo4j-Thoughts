@@ -2,6 +2,7 @@
 name: "thought.COHERENCE OF TRUTH"
 alias: "Thought: Logic of Reality"
 type: THOUGHT
+en_content: "Truth/Reality is logically and reasonably coherent; any point of view that isn't is a fantasy that will eventually betray its subscriber."
 parent: "topic.TRUTH"
 tags:
 - truth_logic

@@ -2,6 +2,7 @@
 name: "thought.ENDANGERED BLACK MEN"
 alias: "Thought: Endangered Black Men"
 type: THOUGHT
+en_content: "African American men have ALWAYS been the targets of genocide...we are an ENDANGERED SPECIES."
 parent: "topic.HUMANITY"
 tags:
 - race

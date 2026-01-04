@@ -2,6 +2,7 @@
 name: "thought.MERCY OF JESUS"
 alias: "Thought: Mercy Of Jesus"
 type: THOUGHT
+en_content: "Jesus is FAR MORE merciful and compassionate than you are!"
 parent: "topic.THE GODHEAD"
 tags:
 - jesus

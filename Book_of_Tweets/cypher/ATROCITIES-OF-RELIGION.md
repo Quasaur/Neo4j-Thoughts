@@ -2,6 +2,7 @@
 name: "thought.ATROCITIES OF RELIGION"
 alias: "Thought: Atrocities Of Religion"
 type: THOUGHT
+en_content: "It's amazing what atrocities religion will allow."
 parent: "topic.RELIGION"
 tags:
 - religion

@@ -2,6 +2,7 @@
 name: "thought.OBEDIENCE AS HIGHWAY"
 alias: "Thought: Obedience As Highway"
 type: THOUGHT
+en_content: "Obedience is like the lines on a highway: though restrictive, they will take you where you need to go."
 parent: "topic.SPIRITUALITY"
 tags:
 - obedience

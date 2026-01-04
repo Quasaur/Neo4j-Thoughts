@@ -2,6 +2,7 @@
 name: "thought.AVOIDING GOD AND CHURCH"
 alias: "Thought: Avoiding God And Church"
 type: THOUGHT
+en_content: "Why do African American men avoid God and His Church???"
 parent: "topic.RELIGION"
 tags:
 - church

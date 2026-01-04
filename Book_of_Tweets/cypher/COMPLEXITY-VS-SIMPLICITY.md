@@ -2,6 +2,7 @@
 name: "thought.COMPLEXITY VS SIMPLICITY"
 alias: "Thought: Complexity Vs Simplicity"
 type: THOUGHT
+en_content: "There is no \"natural law\" that would bring complexity out of simplicity!"
 parent: "topic.TRUTH"
 tags:
 - complexity

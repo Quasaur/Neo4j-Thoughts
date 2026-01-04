@@ -2,6 +2,7 @@
 name: "thought.CHOKING THE WORD"
 alias: "Thought: Choking The Word"
 type: THOUGHT
+en_content: "Like weeds choke a flower, the cares of this life and the deceitfulness of riches choke the Word of God in my heart, and make it unfruitful."
 parent: "topic.FAITH"
 tags:
 - faith

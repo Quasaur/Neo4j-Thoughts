@@ -2,6 +2,7 @@
 name: "thought.ONLY TOOL PRAYER"
 alias: "Thought: Only Tool Prayer"
 type: THOUGHT
+en_content: "Prayer is not our best tool; it's our ONLY tool."
 parent: "topic.SPIRITUALITY"
 tags:
 - prayer

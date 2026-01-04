@@ -2,6 +2,7 @@
 name: "thought.OMNIPOTENCE VS FREEWILL"
 alias: "Thought: Omnipotence Vs Freewill"
 type: THOUGHT
+en_content: "Free Will exists only due to human ignorance of The Divine Omnipotence."
 parent: "topic.PHILOSOPHY"
 tags:
 - philosophy

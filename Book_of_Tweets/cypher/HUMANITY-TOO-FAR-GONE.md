@@ -2,6 +2,7 @@
 name: "thought.HUMANITY TOO FAR GONE"
 alias: "Thought: Humanity Too Far Gone"
 type: THOUGHT
+en_content: "The Bible teaches that humanity is too far gone to have any desire for the One True God; God has to put it in us to save us."
 parent: "topic.GRACE"
 tags:
 - salvation

@@ -2,6 +2,7 @@
 name: "thought.UNCONDITIONAL LOVE HATRED"
 alias: "Thought: Unconditional Love Hatred"
 type: THOUGHT
+en_content: "God's Love is unconditional...as is His Hatred of evil."
 parent: "topic.THE GODHEAD"
 tags:
 - love

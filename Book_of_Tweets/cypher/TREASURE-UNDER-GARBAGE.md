@@ -2,6 +2,7 @@
 name: "thought.TREASURE UNDER GARBAGE"
 alias: "Thought: Treasure Under Garbage"
 type: THOUGHT
+en_content: "Treasure is often hidden under garbage...be a treasure hunter!"
 parent: "topic.WISDOM"
 tags:
 - wisdom

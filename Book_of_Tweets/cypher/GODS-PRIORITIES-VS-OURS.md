@@ -2,6 +2,7 @@
 name: "thought.GODS PRIORITIES VS OURS"
 alias: "Thought: Gods Priorities Vs Ours"
 type: THOUGHT
+en_content: "The things that are important to God are rarely important to us."
 parent: "topic.THE GODHEAD"
 tags:
 - priorities

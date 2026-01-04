@@ -2,6 +2,7 @@
 name: "thought.NUTRITION MUSCLE ACHES"
 alias: "Thought: Nutrition Muscle Aches"
 type: THOUGHT
+en_content: "Nutrition: Muscle aches may benefit from the following: Astaxanthin, Calcium, Magnesium, Bromelain, Creatine."
 parent: "topic.CREATION"
 tags:
 - creation

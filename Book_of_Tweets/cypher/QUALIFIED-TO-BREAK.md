@@ -2,6 +2,7 @@
 name: "thought.QUALIFIED TO BREAK"
 alias: "Thought: Qualified To Break"
 type: THOUGHT
+en_content: "The only Person qualified to break me is The One Who has demonstrated Their LOVE for me."
 parent: "topic.THE GODHEAD"
 tags:
 - love

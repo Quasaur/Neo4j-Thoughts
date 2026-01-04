@@ -2,6 +2,7 @@
 name: "thought.HELL FIRE FOR DEVIL"
 alias: "Thought: Hell Fire For Devil"
 type: THOUGHT
+en_content: "Hell Fire wasn't made by the Devil...it was made for the Devil by God."
 parent: "topic.THE GODHEAD"
 tags:
 - hell

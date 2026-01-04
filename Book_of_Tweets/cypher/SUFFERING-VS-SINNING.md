@@ -2,6 +2,7 @@
 name: "thought.SUFFERING VS SINNING"
 alias: "Thought: Suffering Vs Sinning"
 type: THOUGHT
+en_content: "We are tired of suffering, yet we are not tired of sinning."
 parent: "topic.HUMANITY"
 tags:
 - suffering

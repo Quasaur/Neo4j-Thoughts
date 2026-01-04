@@ -2,6 +2,7 @@
 name: "thought.RELENTLESS LOVE"
 alias: "Thought: Relentless Love"
 type: THOUGHT
+en_content: "Love is ruthless...relentless...persistent and unflagging...thank God!"
 parent: "topic.THE GODHEAD"
 tags:
 - love

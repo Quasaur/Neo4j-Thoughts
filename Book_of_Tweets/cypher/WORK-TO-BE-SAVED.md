@@ -2,6 +2,7 @@
 name: "thought.WORK TO BE SAVED"
 alias: "Thought: Work To Be Saved"
 type: THOUGHT
+en_content: "Getting saved is hard work; but hard work alone won't get you saved."
 parent: "topic.GRACE"
 tags:
 - salvation

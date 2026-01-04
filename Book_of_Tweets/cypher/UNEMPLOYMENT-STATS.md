@@ -2,6 +2,7 @@
 name: "thought.UNEMPLOYMENT STATS"
 alias: "Thought: Unemployment Stats"
 type: THOUGHT
+en_content: "White Unemployment : 9%...Black Unemployment : 16%."
 parent: "topic.MORALITY"
 tags:
 - justice

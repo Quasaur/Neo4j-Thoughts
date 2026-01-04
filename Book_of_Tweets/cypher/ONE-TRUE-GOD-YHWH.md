@@ -2,6 +2,7 @@
 name: "thought.ONE TRUE GOD YHWH"
 alias: "Thought: One True God Yhwh"
 type: THOUGHT
+en_content: "I believe there is One True God -- YHWH; and Jesus Christ is His Living Word! Hebrews 1:1-4"
 parent: "topic.THE GODHEAD"
 tags:
 - god

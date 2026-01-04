@@ -2,6 +2,7 @@
 name: "thought.LUCIFERS DECEPTION"
 alias: "Thought: Lucifers Deception"
 type: THOUGHT
+en_content: "God knew what Lucifer was doing...and allowed him to tempt, deceive and lead astray one third of Heaven."
 parent: "topic.EVIL"
 tags:
 - lucifer

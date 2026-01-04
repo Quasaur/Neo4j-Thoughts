@@ -2,6 +2,7 @@
 name: "thought.DIVINE MERCY HOPE"
 alias: "Thought: Divine Mercy Hope"
 type: THOUGHT
+en_content: "Apart from Divine Mercy there is no hope for the human race."
 parent: "topic.GRACE"
 tags:
 - mercy

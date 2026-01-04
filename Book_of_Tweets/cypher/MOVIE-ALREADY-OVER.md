@@ -2,6 +2,7 @@
 name: "thought.MOVIE ALREADY OVER"
 alias: "Thought: Movie Already Over"
 type: THOUGHT
+en_content: "The Bible says the movie is already over...roll the credits!"
 parent: "topic.RELIGION"
 tags:
 - prophecy

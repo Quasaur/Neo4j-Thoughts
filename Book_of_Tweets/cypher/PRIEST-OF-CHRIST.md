@@ -2,6 +2,7 @@
 name: "thought.PRIEST OF CHRIST"
 alias: "Thought: Priest Of Christ"
 type: THOUGHT
+en_content: "As a priest of Christ, it's my job to speak God's Word (The Holy Bible) into the planetary atmosphere."
 parent: "topic.SPIRITUALITY"
 tags:
 - priest

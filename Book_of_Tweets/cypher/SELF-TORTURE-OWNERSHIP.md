@@ -2,6 +2,7 @@
 name: "thought.SELF TORTURE OWNERSHIP"
 alias: "Thought: Self Torture Ownership"
 type: THOUGHT
+en_content: "Self-torture implies self-ownership."
 parent: "topic.HUMANITY"
 tags:
 - ownership

@@ -2,6 +2,7 @@
 name: "thought.IDENTITY IN GOD"
 alias: "Thought: Identity In God"
 type: THOUGHT
+en_content: "The only reason anyone would want to be \"normal\" or \"like everyone else\" is that they do not know who they are in God!"
 parent: "topic.SPIRITUALITY"
 tags:
 - identity

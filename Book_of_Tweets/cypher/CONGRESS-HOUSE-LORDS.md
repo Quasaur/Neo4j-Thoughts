@@ -2,6 +2,7 @@
 name: "thought.CONGRESS HOUSE LORDS"
 alias: "Thought: Congress House Lords"
 type: THOUGHT
+en_content: "Both houses of this American Congress have become a House of Lords."
 parent: "topic.MORALITY"
 tags:
 - congress

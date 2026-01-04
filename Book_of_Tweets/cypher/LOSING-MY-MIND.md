@@ -2,6 +2,7 @@
 name: "thought.LOSING MY MIND"
 alias: "Thought: Losing My Mind"
 type: THOUGHT
+en_content: "I was insane until I lost my mind!"
 parent: "topic.PSYCHOLOGY"
 tags:
 - insanity

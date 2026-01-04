@@ -2,6 +2,7 @@
 name: "thought.REMEMBERING VS LIVING PAST"
 alias: "Thought: Remembering Vs Living Past"
 type: THOUGHT
+en_content: "There's no sin in remembering the past...only in trying to live in it."
 parent: "topic.ATTITUDE"
 tags:
 - past

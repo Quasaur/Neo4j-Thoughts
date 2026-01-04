@@ -2,6 +2,7 @@
 name: "thought.WAY TO MANS EGO"
 alias: "Thought: Way To Mans Ego"
 type: THOUGHT
+en_content: "The fastest way to a man's heart is not through his stomach, but his ego."
 parent: "topic.HUMANITY"
 tags:
 - man

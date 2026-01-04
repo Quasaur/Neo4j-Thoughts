@@ -2,6 +2,7 @@
 name: "thought.GLOBAL ECONOMICS FOOTSTOOL"
 alias: "Thought: Global Economics Footstool"
 type: THOUGHT
+en_content: "Global economics: God is making Christ's enemies His Footstool."
 parent: "topic.DIVINE SOVEREIGNTY"
 tags:
 - sovereignty

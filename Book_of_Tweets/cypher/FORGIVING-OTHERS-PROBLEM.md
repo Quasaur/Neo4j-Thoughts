@@ -2,6 +2,7 @@
 name: "thought.FORGIVING OTHERS PROBLEM"
 alias: "Thought: Forgiving Others Problem"
 type: THOUGHT
+en_content: "If a person has received forgiveness from God for EVERY sin, why would they have a problem forgiving anyone else?"
 parent: "topic.GRACE"
 tags:
 - forgiveness

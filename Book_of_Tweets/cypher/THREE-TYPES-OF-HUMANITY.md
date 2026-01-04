@@ -2,6 +2,7 @@
 name: "thought.THREE TYPES OF HUMANITY"
 alias: "Thought: Three Types Of Humanity"
 type: THOUGHT
+en_content: "Humanity: (1) those who place God 1st; (2) those who give God a priority other than 1st; (3) those who give God no priority at all."
 parent: "topic.HUMANITY"
 tags:
 - humanity

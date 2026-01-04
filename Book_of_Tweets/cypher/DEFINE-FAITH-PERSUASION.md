@@ -2,6 +2,7 @@
 name: "thought.DEFINE FAITH PERSUASION"
 alias: "Thought: Define Faith Persuasion"
 type: THOUGHT
+en_content: "Faith is not me persuading God to keep His Promises, but God persuading me that He is watching over His Word to perform It."
 parent: "topic.FAITH"
 tags:
 - faith

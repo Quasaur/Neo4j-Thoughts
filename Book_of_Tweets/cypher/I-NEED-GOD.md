@@ -2,6 +2,7 @@
 name: "thought.I NEED GOD"
 alias: "Thought: I Need God"
 type: THOUGHT
+en_content: "Revelation 20:11, 12: I don't need a universe to exist; I just need God."
 parent: "topic.SPIRITUALITY"
 tags:
 - existence

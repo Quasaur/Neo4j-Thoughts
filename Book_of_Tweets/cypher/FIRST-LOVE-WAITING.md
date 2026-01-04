@@ -2,6 +2,7 @@
 name: "thought.FIRST LOVE WAITING"
 alias: "Thought: First Love Waiting"
 type: THOUGHT
+en_content: "Prayer is where my First Love is always waiting for me!"
 parent: "topic.SPIRITUALITY"
 tags:
 - prayer

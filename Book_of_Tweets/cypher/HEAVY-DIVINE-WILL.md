@@ -2,6 +2,7 @@
 name: "thought.HEAVY DIVINE WILL"
 alias: "Thought: Heavy Divine Will"
 type: THOUGHT
+en_content: "The Will of God is far too heavy for frail human hands to budge it in any direction; answered prayer is ALWAYS an Act of Divine Mercy."
 parent: "topic.DIVINE SOVEREIGNTY"
 tags:
 - will

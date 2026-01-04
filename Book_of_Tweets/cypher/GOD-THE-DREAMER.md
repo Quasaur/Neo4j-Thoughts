@@ -2,6 +2,7 @@
 name: "thought.GOD THE DREAMER"
 alias: "Thought: God The Dreamer"
 type: THOUGHT
+en_content: "Existence is a Dream--but we're not the dreamers...God is!"
 parent: "topic.PHILOSOPHY"
 tags:
 - reality

@@ -2,6 +2,7 @@
 name: "thought.WORLD HATES GOD"
 alias: "Thought: World Hates God"
 type: THOUGHT
+en_content: "God loves the world. The world hates God. This is not going to end well for the world."
 parent: "topic.HUMANITY"
 tags:
 - world

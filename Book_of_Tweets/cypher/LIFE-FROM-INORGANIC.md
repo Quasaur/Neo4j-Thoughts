@@ -2,6 +2,7 @@
 name: "thought.LIFE FROM INORGANIC"
 alias: "Thought: Life From Inorganic"
 type: THOUGHT
+en_content: "In 13 billion years 100 monkeys will never write a novel and life will never rise from inorganic matter without an Act of God."
 parent: "topic.TRUTH"
 tags:
 - life

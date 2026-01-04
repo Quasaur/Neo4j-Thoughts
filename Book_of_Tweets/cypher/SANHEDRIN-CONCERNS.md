@@ -2,6 +2,7 @@
 name: "thought.SANHEDRIN CONCERNS"
 alias: "Thought: Sanhedrin Concerns"
 type: THOUGHT
+en_content: "The Sanhedrin was more concerned about their authority and money than about serving God or God's people."
 parent: "topic.MORALITY"
 tags:
 - authority

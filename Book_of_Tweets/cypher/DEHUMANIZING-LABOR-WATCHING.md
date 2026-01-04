@@ -2,6 +2,7 @@
 name: "thought.DEHUMANIZING LABOR WATCHING"
 alias: "Thought: Dehumanizing Labor Watching"
 type: THOUGHT
+en_content: "To those that continue to dehumanize blue and white collar laborers: GOD IS WATCHING."
 parent: "topic.MORALITY"
 tags:
 - labor

@@ -2,6 +2,7 @@
 name: "thought.INTELLIGENT DESIGN"
 alias: "Thought: Intelligent Design"
 type: THOUGHT
+en_content: "INTELLIGENT DESIGN!"
 parent: "topic.CREATION"
 tags:
 - creation

@@ -2,6 +2,7 @@
 name: "thought.HEAVEN HEALS SORROW"
 alias: "Thought: Heaven Heals Sorrow"
 type: THOUGHT
+en_content: "Earth has no sorrow that Heaven cannot heal. -- Hymn"
 parent: "topic.SPIRITUALITY"
 tags:
 - healing

@@ -2,6 +2,7 @@
 name: "thought.WISDOM OF GOD"
 alias: "Thought: Wisdom Of God"
 type: THOUGHT
+en_content: "God is older, wiser, smarter, more intelligent and more powerful than you."
 parent: "topic.THE GODHEAD"
 tags:
 - god

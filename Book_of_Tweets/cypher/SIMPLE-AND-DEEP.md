@@ -2,6 +2,7 @@
 name: "thought.SIMPLE AND DEEP"
 alias: "Thought: Simple And Deep"
 type: THOUGHT
+en_content: "The simplest things are the most deep; the deepest things are the most simple."
 parent: "topic.WISDOM"
 tags:
 - wisdom

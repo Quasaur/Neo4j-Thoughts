@@ -2,6 +2,7 @@
 name: "thought.DEVIL THE ACCUSER"
 alias: "Thought: Devil The Accuser"
 type: THOUGHT
+en_content: "The Devil is called the Accuser (Prosecutor) for a reason: he directs our focus to what we have done than what Christ has done for us."
 parent: "topic.GRACE"
 tags:
 - accuser

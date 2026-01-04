@@ -2,6 +2,7 @@
 name: "thought.SHERBERT AND BLOWTORCH"
 alias: "Thought: Sherbert And Blowtorch"
 type: THOUGHT
+en_content: "You can't make sherbert with a blowtorch."
 parent: "topic.WISDOM"
 tags:
 - wisdom

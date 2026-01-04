@@ -2,6 +2,7 @@
 name: "thought.FAITH AND SCIENCE"
 alias: "Thought: Faith And Science"
 type: THOUGHT
+en_content: "The Standard Model (Inflation, Dark Matter/Energy/Flow) takes more FAITH than to believe God holds the universe together by His Word."
 parent: "topic.FAITH"
 tags:
 - faith

@@ -2,6 +2,7 @@
 name: "thought.FREE WILL ROBOT"
 alias: "Thought: Free Will Robot"
 type: THOUGHT
+en_content: "If you WERE a robot...HOW WOULD YOU KNOW your will wasn't free?"
 parent: "topic.PHILOSOPHY"
 tags:
 - philosophy

@@ -2,6 +2,7 @@
 name: "thought.FORGIVING THE FUTURE"
 alias: "Thought: Forgiving The Future"
 type: THOUGHT
+en_content: "We're so busy struggling to forgive the past we never consider the necessity of forgiving the future."
 parent: "topic.GRACE"
 tags:
 - forgiveness

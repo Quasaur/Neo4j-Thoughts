@@ -2,6 +2,7 @@
 name: "thought.RESPONSIBILITY NO AUTHORITY"
 alias: "Thought: Responsibility No Authority"
 type: THOUGHT
+en_content: "Responsibility without authority is like a boat without a motor."
 parent: "topic.WISDOM"
 tags:
 - responsibility

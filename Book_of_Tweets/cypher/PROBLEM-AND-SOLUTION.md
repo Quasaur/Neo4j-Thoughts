@@ -2,6 +2,7 @@
 name: "thought.PROBLEM AND SOLUTION"
 alias: "Thought: Problem And Solution"
 type: THOUGHT
+en_content: "Identifying the problem is only half the solution."
 parent: "topic.WISDOM"
 tags:
 - problem

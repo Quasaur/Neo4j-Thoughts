@@ -2,6 +2,7 @@
 name: "thought.GOD WANTS ME"
 alias: "Thought: God Wants Me"
 type: THOUGHT
+en_content: "Everybody demands something from me, but only God wants me."
 parent: "topic.THE GODHEAD"
 tags:
 - love

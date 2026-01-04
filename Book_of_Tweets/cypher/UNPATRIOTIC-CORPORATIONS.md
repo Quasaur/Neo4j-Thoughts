@@ -2,6 +2,7 @@
 name: "thought.UNPATRIOTIC CORPORATIONS"
 alias: "Thought: Unpatriotic Corporations"
 type: THOUGHT
+en_content: "The corporation as a legal \"person\" is unpatriotic."
 parent: "topic.MORALITY"
 tags:
 - morality

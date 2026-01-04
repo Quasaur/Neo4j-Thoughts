@@ -2,6 +2,7 @@
 name: "thought.TRUTH EXPOSES LIES"
 alias: "Thought: Truth Exposes Lies"
 type: THOUGHT
+en_content: "Truth is dangerous because it exposes lies that people believe to be true; and many would rather kill Truth than abandon their lies."
 parent: "topic.TRUTH"
 tags:
 - truth

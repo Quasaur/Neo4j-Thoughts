@@ -2,6 +2,7 @@
 name: "thought.JESUS IN DISGUISE"
 alias: "Thought: Image of God"
 type: THOUGHT
+en_content: "\"Each person you meet is Jesus in disguise.\" -- Mother Teresa"
 parent: "topic.HUMANITY"
 tags:
 - humanity

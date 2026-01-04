@@ -2,6 +2,7 @@
 name: "thought.LOYALTY TO GOD"
 alias: "Thought: Loyalty To God"
 type: THOUGHT
+en_content: "What pleases God? Loyalty...at whatever cost to yourself, your family or your friends."
 parent: "topic.SPIRITUALITY"
 tags:
 - loyalty

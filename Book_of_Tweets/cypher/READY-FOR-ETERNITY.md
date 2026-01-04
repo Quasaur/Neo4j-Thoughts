@@ -2,6 +2,7 @@
 name: "thought.READY FOR ETERNITY"
 alias: "Thought: Ready For Eternity"
 type: THOUGHT
+en_content: "We are all going to die; are you ready for Eternity?"
 parent: "topic.SPIRITUALITY"
 tags:
 - eternity

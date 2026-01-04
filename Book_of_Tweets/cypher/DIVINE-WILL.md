@@ -8,6 +8,7 @@ tags:
 - omnipotence
 - authority
 - providence
+en_content: "Do you really believe that God has EVER done something He didn't want to do?"
 parent: topic.DIVINE-SOVEREIGNTY
 level: 2
 neo4j: true

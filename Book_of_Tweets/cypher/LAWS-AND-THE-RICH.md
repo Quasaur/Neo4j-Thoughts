@@ -2,6 +2,7 @@
 name: "thought.LAWS AND THE RICH"
 alias: "Thought: Laws And The Rich"
 type: THOUGHT
+en_content: "As long as the laws favor the rich, the poor will always exist."
 parent: "topic.MORALITY"
 tags:
 - poverty

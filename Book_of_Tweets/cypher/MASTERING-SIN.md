@@ -2,6 +2,7 @@
 name: "thought.MASTERING SIN"
 alias: "Thought: Mastering Sin"
 type: THOUGHT
+en_content: "Genesis 4:6,7 God doesn't expect us to eradicate sin (that's His Job)...but He does expect us to master sin."
 parent: "topic.MORALITY"
 tags:
 - sin

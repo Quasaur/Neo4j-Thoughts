@@ -2,6 +2,7 @@
 name: "thought.NOT BEING GOD"
 alias: "Thought: Not Being God"
 type: THOUGHT
+en_content: "I am not God; and I'm so glad that I don't have to be!"
 parent: "topic.HUMANITY"
 tags:
 - humility

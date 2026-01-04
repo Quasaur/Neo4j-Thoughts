@@ -2,6 +2,7 @@
 name: "thought.MEANINGLESS LIFE LIE"
 alias: "Thought: Meaningless Life Lie"
 type: THOUGHT
+en_content: "Religion: if no one's right, and everyone's wrong, then life is both meaningless AND a lie."
 parent: "topic.PHILOSOPHY"
 tags:
 - philosophy

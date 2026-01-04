@@ -2,6 +2,7 @@
 name: "thought.THE NEXT LIFE IMPORTANCE"
 alias: "Thought: The Next Life Importance"
 type: THOUGHT
+en_content: "There's NOTHING in this life that's more important than The Next Life!"
 parent: "topic.SPIRITUALITY"
 tags:
 - life

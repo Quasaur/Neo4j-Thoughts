@@ -2,6 +2,7 @@
 name: "thought.GOD HAS SENSE"
 alias: "Thought: God Has Sense"
 type: THOUGHT
+en_content: "God has sense: if you talk to Him He'll talk to you; if you listen to Him He'll listen to you; if you'll honor Him He'll honor you."
 parent: "topic.SPIRITUALITY"
 tags:
 - relationship

@@ -2,6 +2,7 @@
 name: "thought.GODS PERFECT LOVE"
 alias: "Thought: Gods Perfect Love"
 type: THOUGHT
+en_content: "God loves us with ALL His Heart, Soul, Mind and Strength!"
 parent: "topic.THE GODHEAD"
 tags:
 - love

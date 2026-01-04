@@ -2,6 +2,7 @@
 name: "thought.VISIBLE UNIVERSE"
 alias: "Thought: Visible Universe"
 type: THOUGHT
+en_content: "The Visible Universe: God Is Great"
 parent: "topic.CREATION"
 tags:
 - universe

@@ -2,6 +2,7 @@
 name: "thought.COMPREHENDING VS KNOWING"
 alias: "Thought: Comprehending Vs Knowing"
 type: THOUGHT
+en_content: "If I could comprehend Him, He wouldn't be God; but I can know Him."
 parent: "topic.THE GODHEAD"
 tags:
 - knowledge

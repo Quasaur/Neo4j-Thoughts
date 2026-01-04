@@ -2,6 +2,7 @@
 name: "thought.PRAYER AS RELIEF"
 alias: "Thought: Prayer As Relief"
 type: THOUGHT
+en_content: "Prayer is my relief."
 parent: "topic.SPIRITUALITY"
 tags:
 - prayer

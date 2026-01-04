@@ -2,6 +2,7 @@
 name: "thought.CONSPIRACY THEORIES"
 alias: "Thought: Conspiracy Theories"
 type: THOUGHT
+en_content: "I LOVE conspiracy theories...they allow me to pass responsibility for my failures to someone else!"
 parent: "topic.UNDERSTANDING"
 tags:
 - responsibility

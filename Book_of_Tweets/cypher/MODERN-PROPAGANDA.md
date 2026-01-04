@@ -2,6 +2,7 @@
 name: "thought.MODERN PROPAGANDA"
 alias: "Thought: Modern Propaganda"
 type: THOUGHT
+en_content: "Modern Propaganda (good vampires, pious werewolves, virtuous mediums) has perpetuated humanity's slide into Satan's occult domain."
 parent: "topic.EVIL"
 tags:
 - evil

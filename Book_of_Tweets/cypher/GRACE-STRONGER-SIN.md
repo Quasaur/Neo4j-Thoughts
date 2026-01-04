@@ -2,6 +2,7 @@
 name: "thought.GRACE STRONGER SIN"
 alias: "Thought: Grace Stronger Sin"
 type: THOUGHT
+en_content: "Grace is stronger than sin, else no one could be saved. Ephesians 2:8, 9"
 parent: "topic.GRACE"
 tags:
 - grace

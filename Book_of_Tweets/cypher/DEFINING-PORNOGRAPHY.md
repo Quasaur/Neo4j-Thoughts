@@ -2,6 +2,7 @@
 name: "thought.DEFINING PORNOGRAPHY"
 alias: "Thought: Defining Pornography"
 type: THOUGHT
+en_content: "Matthew 5:27-30: Porn is adultery to a married man and fornication to a bachelor."
 parent: "topic.MORALITY"
 tags:
 - morality

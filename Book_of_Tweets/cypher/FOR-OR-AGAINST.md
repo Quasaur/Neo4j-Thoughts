@@ -2,6 +2,7 @@
 name: "thought.FOR OR AGAINST"
 alias: "Thought: For Or Against"
 type: THOUGHT
+en_content: "\"Whoever is not for Me is against Me.\" -- Jesus Christ"
 parent: "topic.THE GODHEAD"
 tags:
 - jesus

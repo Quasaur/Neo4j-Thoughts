@@ -2,6 +2,7 @@
 name: "thought.CHEATING THE ECONOMY"
 alias: "Thought: Cheating The Economy"
 type: THOUGHT
+en_content: "As long as we feel it necessary to cheat, lie and steal to survive, our economy will never truly prosper."
 parent: "topic.MORALITY"
 tags:
 - cheat

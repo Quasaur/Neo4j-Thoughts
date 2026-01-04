@@ -2,6 +2,7 @@
 name: "thought.FORGIVE AND SANCTIFY"
 alias: "Thought: Forgive And Sanctify"
 type: THOUGHT
+en_content: "God can forgive any sin and sanctify any sinner."
 parent: "topic.GRACE"
 tags:
 - forgiveness

@@ -2,6 +2,7 @@
 name: "thought.DEFINE PERFECT LOVE"
 alias: "Thought: Define Perfect Love"
 type: THOUGHT
+en_content: "Love: the blurring of identity between two or more persons. The Love among the Members of The Godhead is such: to see One is to see All."
 parent: "topic.PHILOSOPHY"
 tags:
 - love

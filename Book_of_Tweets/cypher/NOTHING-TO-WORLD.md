@@ -2,6 +2,7 @@
 name: "thought.NOTHING TO WORLD"
 alias: "Thought: Nothing To World"
 type: THOUGHT
+en_content: "You cannot be something in God until you are nothing to the world."
 parent: "topic.SPIRITUALITY"
 tags:
 - spirituality

@@ -2,6 +2,7 @@
 name: "thought.REVELATION ISRAELI CHURCH"
 alias: "Thought: Revelation Israeli Church"
 type: THOUGHT
+en_content: "Revelation is not about the gentile church as much as the Israeli church. In this context, everything starts to make sense."
 parent: "topic.RELIGION"
 tags:
 - revelation

@@ -2,6 +2,7 @@
 name: "thought.LIVELIER LIVING"
 alias: "Thought: Livelier Living"
 type: THOUGHT
+en_content: "Soap makes water wetter; Jesus Christ makes living livelier!"
 parent: "topic.SPIRITUALITY"
 tags:
 - jesus

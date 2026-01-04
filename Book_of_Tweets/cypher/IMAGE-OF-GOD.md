@@ -2,6 +2,7 @@
 name: "thought.IMAGE OF GOD"
 alias: "Thought: Image Of God"
 type: THOUGHT
+en_content: "I'm NOT the child of monkeys; I was created in God's Image and after His Likeness; I should be treated as such--and so should you!"
 parent: "topic.CREATION"
 tags:
 - creation

@@ -2,6 +2,7 @@
 name: "thought.GOD HIGHER THAN TRUTH"
 alias: "Thought: God Higher Than Truth"
 type: THOUGHT
+en_content: "\"There is no god higher than Truth.\" - Gandhi. \"There is no truth higher than God.\" - Mitchell"
 parent: "topic.THE GODHEAD"
 tags:
 - truth

@@ -2,6 +2,7 @@
 name: "thought.DONT KNOW DOING"
 alias: "Thought: Dont Know Doing"
 type: THOUGHT
+en_content: "God! Forgive us! WE DON'T KNOW WHAT WE'RE DOING!! Luke 23:34"
 parent: "topic.GRACE"
 tags:
 - forgiveness

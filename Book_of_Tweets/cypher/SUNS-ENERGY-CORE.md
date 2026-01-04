@@ -2,6 +2,7 @@
 name: "thought.SUNS ENERGY CORE"
 alias: "Thought: Suns Energy Core"
 type: THOUGHT
+en_content: "Energy generated in the Sun's core takes a million years to reach its surface: God is great!"
 parent: "topic.CREATION"
 tags:
 - science

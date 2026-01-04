@@ -2,6 +2,7 @@
 name: "thought.DEFINE EXQUISITAGIOUS"
 alias: "Thought: Define Exquisitagious"
 type: THOUGHT
+en_content: "New Word: exquisitagious Meaning: something so exquisite that the feeling's contagious!"
 parent: "topic.BEAUTY"
 tags:
 - beauty

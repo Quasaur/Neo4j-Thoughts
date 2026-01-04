@@ -2,6 +2,7 @@
 name: "thought.UNFORGIVABLE SIN"
 alias: "Thought: Unforgivable Sin"
 type: THOUGHT
+en_content: "What is the Unforgiveable Sin? Unforgiveness."
 parent: "topic.GRACE"
 tags:
 - forgiveness

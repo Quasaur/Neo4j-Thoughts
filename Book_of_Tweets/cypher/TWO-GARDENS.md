@@ -2,6 +2,7 @@
 name: "thought.TWO GARDENS"
 alias: "Thought: Two Gardens"
 type: THOUGHT
+en_content: "In the Bible there are 2 gardens. In the 1st garden are 2 trees; in the 2nd garden is only 1 tree. What happened to the 2nd tree?"
 parent: "topic.CREATION"
 tags:
 - bible

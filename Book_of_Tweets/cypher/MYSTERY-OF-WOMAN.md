@@ -2,6 +2,7 @@
 name: "thought.MYSTERY OF WOMAN"
 alias: "Thought: Mystery Of Woman"
 type: THOUGHT
+en_content: "Adam did not see Eve being created; therefore Woman will always be a Mystery to Man."
 parent: "topic.HUMANITY"
 tags:
 - woman

@@ -2,6 +2,7 @@
 name: "thought.UNGRATEFUL HUMAN RACE"
 alias: "Thought: Ungrateful Human Race"
 type: THOUGHT
+en_content: "What single word best describes the human race? UNGRATEFUL."
 parent: "topic.HUMANITY"
 tags:
 - ingratitude

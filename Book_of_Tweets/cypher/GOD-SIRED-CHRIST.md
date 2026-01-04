@@ -2,6 +2,7 @@
 name: "thought.GOD SIRED CHRIST"
 alias: "Thought: God Sired Christ"
 type: THOUGHT
+en_content: "God did not create Christ, He SIRED Him! That's why Jesus is called THE ONLY BEGOTTEN of the Father."
 parent: "topic.THE GODHEAD"
 tags:
 - christ

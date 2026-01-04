@@ -2,6 +2,7 @@
 name: "thought.SCIENCE ON ORIGIN"
 alias: "Thought: Science On Origin"
 type: THOUGHT
+en_content: "If I can't trust science to explain origin, why is it so infallible on development??"
 parent: "topic.TRUTH"
 tags:
 - science

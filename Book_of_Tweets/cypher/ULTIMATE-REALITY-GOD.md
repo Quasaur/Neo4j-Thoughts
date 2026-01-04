@@ -2,6 +2,7 @@
 name: "thought.ULTIMATE REALITY GOD"
 alias: "Thought: Ultimate Reality God"
 type: THOUGHT
+en_content: "God is the Ultimate Reality. So if you're not interested in God, how real are you?"
 parent: "topic.THE GODHEAD"
 tags:
 - god

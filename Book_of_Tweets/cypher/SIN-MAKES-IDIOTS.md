@@ -2,6 +2,7 @@
 name: "thought.SIN MAKES IDIOTS"
 alias: "Thought: Sin Makes Idiots"
 type: THOUGHT
+en_content: "Sin makes idiots of us all; Christ came to take away the sins of the body (disease) as well as the sins of the soul!"
 parent: "topic.GRACE"
 tags:
 - sin

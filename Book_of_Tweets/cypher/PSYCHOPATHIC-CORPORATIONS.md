@@ -2,6 +2,7 @@
 name: "thought.PSYCHOPATHIC CORPORATIONS"
 alias: "Thought: Psychopathic Corporations"
 type: THOUGHT
+en_content: "The corporation as a legal \"person\" is demonstrably psychopathic."
 parent: "topic.MORALITY"
 tags:
 - morality

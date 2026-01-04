@@ -2,6 +2,7 @@
 name: "thought.BETTER TREATMENT JESUS"
 alias: "Thought: Better Treatment Jesus"
 type: THOUGHT
+en_content: "Jesus treats me FAR BETTER than I've treated Him. I crucified Him; He gave me LIFE!"
 parent: "topic.THE GODHEAD"
 tags:
 - jesus

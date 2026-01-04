@@ -2,6 +2,7 @@
 name: "thought.PSEUDOSCIENCE FAILURE"
 alias: "Thought: Pseudoscience Failure"
 type: THOUGHT
+en_content: "The Standard Model: pseudo-science's failure to convince the world of a God-less universe."
 parent: "topic.PHILOSOPHY"
 tags:
 - science

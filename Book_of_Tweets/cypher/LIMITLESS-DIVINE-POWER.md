@@ -2,6 +2,7 @@
 name: "thought.LIMITLESS DIVINE POWER"
 alias: "Thought: Limitless Divine Power"
 type: THOUGHT
+en_content: "ABSOLUTE POWER: Besides His Own Limitless Power, everyone else's power is also at God's Disposal...even Satan's."
 parent: "topic.DIVINE SOVEREIGNTY"
 tags:
 - power

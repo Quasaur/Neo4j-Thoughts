@@ -2,6 +2,7 @@
 name: "thought.GALATIANS LAW DEBATE"
 alias: "Thought: Galatians Law Debate"
 type: THOUGHT
+en_content: "The debate of Galatians is not over the law, but whether or not keeping the law will save one WHO HAS ALREADY BROKEN IT."
 parent: "topic.RELIGION"
 tags:
 - galatians

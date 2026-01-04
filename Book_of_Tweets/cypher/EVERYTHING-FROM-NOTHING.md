@@ -2,6 +2,7 @@
 name: "thought.EVERYTHING FROM NOTHING"
 alias: "Thought: Everything From Nothing"
 type: THOUGHT
+en_content: "Saying that everything came from nothing makes no sense."
 parent: "topic.TRUTH"
 tags:
 - truth

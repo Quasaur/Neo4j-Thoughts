@@ -2,6 +2,7 @@
 name: "thought.AWARENESS OF PRESENCE"
 alias: "Thought: Awareness Of Presence"
 type: THOUGHT
+en_content: "Many believe they are aware of God's Wrath but few are aware of God's Loving Presence."
 parent: "topic.THE GODHEAD"
 tags:
 - presence

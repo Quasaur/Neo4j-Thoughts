@@ -2,6 +2,7 @@
 name: "thought.GOD LOVES KINDNESS"
 alias: "Thought: God Loves Kindness"
 type: THOUGHT
+en_content: "God loves Kindness!"
 parent: "topic.THE GODHEAD"
 tags:
 - kindness

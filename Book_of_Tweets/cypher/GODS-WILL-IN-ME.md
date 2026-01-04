@@ -2,6 +2,7 @@
 name: "thought.GODS WILL IN ME"
 alias: "Thought: Gods Will In Me"
 type: THOUGHT
+en_content: "I can't make God do anything; yet He effortlessly executes His Will in me without my awareness of the act."
 parent: "topic.DIVINE SOVEREIGNTY"
 tags:
 - sovereignty

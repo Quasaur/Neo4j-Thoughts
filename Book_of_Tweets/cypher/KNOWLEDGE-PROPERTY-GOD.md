@@ -2,6 +2,7 @@
 name: "thought.KNOWLEDGE PROPERTY GOD"
 alias: "Thought: Knowledge Property God"
 type: THOUGHT
+en_content: "Genesis 2:15, 16: Knowledge is not a right; knowledge is the property of God."
 parent: "topic.TRUTH"
 tags:
 - knowledge

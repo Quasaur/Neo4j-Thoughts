@@ -2,6 +2,7 @@
 name: "thought.SAYING NO TO SELF"
 alias: "Thought: Saying No To Self"
 type: THOUGHT
+en_content: "Only a person who can say no to themselves can say no to the world and to the devil."
 parent: "topic.SPIRITUALITY"
 tags:
 - discipline

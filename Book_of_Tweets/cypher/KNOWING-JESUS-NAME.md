@@ -2,6 +2,7 @@
 name: "thought.KNOWING JESUS NAME"
 alias: "Thought: Knowing Jesus Name"
 type: THOUGHT
+en_content: "Matthew 7:22, 23 -- Using Jesus' Name doesn't mean you know Jesus."
 parent: "topic.THE GODHEAD"
 tags:
 - jesus

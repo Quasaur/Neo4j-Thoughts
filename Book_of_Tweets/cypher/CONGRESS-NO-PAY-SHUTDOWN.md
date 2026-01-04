@@ -2,6 +2,7 @@
 name: "thought.CONGRESS NO PAY SHUTDOWN"
 alias: "Thought: Congress No Pay Shutdown"
 type: THOUGHT
+en_content: "Congress should not get paid as long as the Federal Government is shut down!"
 parent: "topic.MORALITY"
 tags:
 - congress

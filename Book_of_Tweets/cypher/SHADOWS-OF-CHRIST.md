@@ -2,6 +2,7 @@
 name: "thought.SHADOWS OF CHRIST"
 alias: "Thought: Shadows Of Christ"
 type: THOUGHT
+en_content: "That which is most precious to us...and those whom we love more than life are but shadows of the Figure of Christ!"
 parent: "topic.THE GODHEAD"
 tags:
 - christ

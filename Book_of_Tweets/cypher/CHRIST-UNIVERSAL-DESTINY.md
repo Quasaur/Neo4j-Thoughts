@@ -2,6 +2,7 @@
 name: "thought.CHRIST UNIVERSAL DESTINY"
 alias: "Thought: Christ Universal Destiny"
 type: THOUGHT
+en_content: "Christ is everyone's Destiny...no exceptions!"
 parent: "topic.THE GODHEAD"
 tags:
 - christ

@@ -2,6 +2,7 @@
 name: "thought.IMPORTANCE OF DEUTERONOMY"
 alias: "Thought: Importance Of Deuteronomy"
 type: THOUGHT
+en_content: "I'm convinced that the most important book of the Old Testament is Deuteronomy, which contains the ENTIRE PANORAMA of Biblical history."
 parent: "topic.TRUTH"
 tags:
 - bible

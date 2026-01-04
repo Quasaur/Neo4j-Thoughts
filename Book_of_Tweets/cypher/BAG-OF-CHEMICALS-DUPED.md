@@ -2,6 +2,7 @@
 name: "thought.BAG OF CHEMICALS DUPED"
 alias: "Thought: Bag Of Chemicals Duped"
 type: THOUGHT
+en_content: "It's hard to fathom that people can be duped into thinking they're nothing more than a bag of chemicals and electricity."
 parent: "topic.HUMANITY"
 tags:
 - humanity

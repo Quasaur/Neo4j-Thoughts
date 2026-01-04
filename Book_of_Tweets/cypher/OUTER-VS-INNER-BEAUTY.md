@@ -2,6 +2,7 @@
 name: "thought.OUTER VS INNER BEAUTY"
 alias: "Thought: Outer Vs Inner Beauty"
 type: THOUGHT
+en_content: "Outer beauty doesn't make up for inner ugly."
 parent: "topic.BEAUTY"
 tags:
 - beauty

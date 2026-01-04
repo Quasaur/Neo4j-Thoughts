@@ -2,6 +2,7 @@
 name: "thought.EVOLUTION AS RELIGION"
 alias: "Thought: Evolution As Religion"
 type: THOUGHT
+en_content: "Evolution is a RELIGION, evidence for which has been dwindling as scientific observation has grown more sophisticated."
 parent: "topic.PHILOSOPHY"
 tags:
 - evolution

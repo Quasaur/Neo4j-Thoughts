@@ -2,6 +2,7 @@
 name: "thought.FOURTH BRANCH CHURCH"
 alias: "Thought: Fourth Branch Church"
 type: THOUGHT
+en_content: "The true power of the Church is demonstrated by its tax-free status AND that no one's willing to ADMIT it's the 4th Branch of the U.S. Gov."
 parent: "topic.RELIGION"
 tags:
 - church

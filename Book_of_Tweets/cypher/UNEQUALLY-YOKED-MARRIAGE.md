@@ -2,6 +2,7 @@
 name: "thought.UNEQUALLY YOKED MARRIAGE"
 alias: "Thought: Unequally Yoked Marriage"
 type: THOUGHT
+en_content: "The Christian who marries a unbeliever has the Devil for a father-in-law!"
 parent: "topic.MORALITY"
 tags:
 - marriage

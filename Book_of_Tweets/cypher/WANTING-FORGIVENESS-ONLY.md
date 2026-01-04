@@ -2,6 +2,7 @@
 name: "thought.WANTING FORGIVENESS ONLY"
 alias: "Thought: Wanting Forgiveness Only"
 type: THOUGHT
+en_content: "We want to be forgiven, but we don't want to forgive...how disgusting."
 parent: "topic.ATTITUDE"
 tags:
 - forgiveness

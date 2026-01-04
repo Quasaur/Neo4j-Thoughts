@@ -2,6 +2,7 @@
 name: "thought.FEAR AND SELFISHNESS"
 alias: "Thought: Fear And Selfishness"
 type: THOUGHT
+en_content: "Fear wouldn't be so debilitating if I were not so selfish."
 parent: "topic.PSYCHOLOGY"
 tags:
 - fear

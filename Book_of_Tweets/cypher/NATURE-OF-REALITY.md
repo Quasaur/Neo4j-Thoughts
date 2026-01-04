@@ -2,6 +2,7 @@
 name: "thought.NATURE OF REALITY"
 alias: "Thought: Nature Of Reality"
 type: THOUGHT
+en_content: "Reality: perhaps matter is only real to other matter...?"
 parent: "topic.PHILOSOPHY"
 tags:
 - reality

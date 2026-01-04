@@ -2,6 +2,7 @@
 name: "thought.WAY OF EMPIRES"
 alias: "Thought: Way Of Empires"
 type: THOUGHT
+en_content: "We are going the way of the Roman Empire and the Soviet Union."
 parent: "topic.HUMANITY"
 tags:
 - history

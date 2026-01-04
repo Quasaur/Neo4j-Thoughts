@@ -2,6 +2,7 @@
 name: "thought.GOD AND EVIL"
 alias: "Thought: God And Evil"
 type: THOUGHT
+en_content: "God can use evil without being evil."
 parent: "topic.DIVINE SOVEREIGNTY"
 tags:
 - sovereignty
