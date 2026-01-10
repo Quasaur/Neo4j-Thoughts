@@ -1,34 +1,41 @@
 ---
-title: "Thought: GRATITUDE"
-draft: false
+name: thought.GRATITUDE
+alias: "Thought: GRATITUDE"
 type: THOUGHT
-mling: false
+parent: topic.ATTITUDE
 tags:
 - thanksgiving
 - humility
 - decision
 - mercy
 - dead
-aliases:
-- "Thought: Thanksgiving"
+neo4j: true
 ptopic: "[[topic-ATTITUDE]]"
 level: 3
-neo4j: true
 ---
-# Thought: GRATITUDE
-> [!Thought-en]
-> The past couple of months have been very challenging...but it beats being dead (LOL)!
 
-## Dataview
+```Cypher
+CREATE (t:THOUGHT {
+    name: "thought.GRATITUDE",
+    alias: "Thought: GRATITUDE",
+    parent: "topic.ATTITUDE",
+    tags: ["thanksgiving", "humility", "decision", "mercy", "dead"],
+    level: 3
+});
 
-> [!Thought-es]
-> Los últimos meses han sido muy desafiantes... ¡pero es mejor que estar muerto (LOL)!
+CREATE (c:CONTENT {
+    name: "content.GRATITUDE",
+    en_title: "GRATITUDE",
+    en_content: ""
+});
 
-> [!Thought-fr]
-> Les derniers mois ont été très difficiles... mais c'est mieux que d'être mort (MDR) !
+MATCH (t:THOUGHT)
+MATCH (c:CONTENT)
+WHERE t.name = "thought.GRATITUDE" AND c.name = "content.GRATITUDE"
+MERGE (t)-[:HAS_CONTENT {name: "edge.GRATITUDE"}]->(c);
 
-> [!Thought-hi]
-> पिछले कुछ महीने बहुत चुनौतीपूर्ण रहे हैं...लेकिन यह मरने से भी बेहतर है (LOL)!
-
-> [!Thought-zh]
-> guò qù de jǐ gè yuè fēi cháng jù yǒu tiǎo zhàn xìng …… dàn zǒng bǐ sǐ le hǎo （ xiào ）！
+MATCH (parent:TOPIC)
+MATCH (child:THOUGHT)
+WHERE parent.name = "topic.ATTITUDE" AND child.name = "thought.GRATITUDE"
+MERGE (parent)-[:HAS_THOUGHT {name: "edge.ATTITUDE->GRATITUDE"}]->(child);
+```

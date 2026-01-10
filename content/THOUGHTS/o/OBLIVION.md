@@ -1,41 +1,42 @@
 ---
-title: "Thought: OBLIVION"
-draft: false
+name: thought.OBLIVION
+alias: "Thought: OBLIVION"
 type: THOUGHT
-mling: false
+parent: topic.HISTORY
 tags:
 - apocalypse
 - ele
 - extinction
 - oblivion
 - thelastday
-aliases:
-- "Thought: Extinction"
-- "Thought: Apocalypse"
+neo4j: true
 ptopic: "[[topic-HISTORY]]"
 level: 4
-neo4j: true
 ---
-# OBLIVION
-The Lord Jesus said that humanity would be driven to the edge of extinction before He returns…and Jesus never lies.
 
-## Dataview
+```Cypher
+CREATE (t:THOUGHT {
+    name: "thought.OBLIVION",
+    alias: "Thought: OBLIVION",
+    parent: "topic.HISTORY",
+    tags: ["apocalypse", "ele", "extinction", "oblivion", "thelastday"],
+    level: 4
+});
 
-## Links
-[# the newsroom s03e03 climate change interview](https://youtu.be/XM0uZ9mfOUI)
+CREATE (c:CONTENT {
+    name: "content.OBLIVION",
+    en_title: "OBLIVION",
+    en_content: "# OBLIVION
+The Lord Jesus said that humanity would be driven to the edge of extinction before He returns…and Jesus never lies."
+});
 
-> [!Thought-es]
-> #OLVIDO
-El Señor Jesús dijo que la humanidad estaría al borde de la extinción antes de que Él regrese... y Jesús nunca miente.
+MATCH (t:THOUGHT)
+MATCH (c:CONTENT)
+WHERE t.name = "thought.OBLIVION" AND c.name = "content.OBLIVION"
+MERGE (t)-[:HAS_CONTENT {name: "edge.OBLIVION"}]->(c);
 
-> [!Thought-fr]
-> # OBLIVION
-Le Seigneur Jésus a dit que l’humanité serait conduite au bord de l’extinction avant son retour… et Jésus ne ment jamais.
-
-> [!Thought-hi]
-> # विस्मृति
-प्रभु यीशु ने कहा था कि उनके लौटने से पहले मानवता विलुप्त होने के कगार पर पहुंच जाएगी... और यीशु कभी झूठ नहीं बोलते।
-
-> [!Thought-zh]
-> #  yí wàng 
- zhǔ yē sū shuō ， zài tā zài lái zhī qián ， rén lèi jiāng bèi bī dào miè jué de biān yuán …… yē sū cóng lái bù shuō huǎng 。
+MATCH (parent:TOPIC)
+MATCH (child:THOUGHT)
+WHERE parent.name = "topic.HISTORY" AND child.name = "thought.OBLIVION"
+MERGE (parent)-[:HAS_THOUGHT {name: "edge.HISTORY->OBLIVION"}]->(child);
+```

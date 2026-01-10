@@ -1,33 +1,41 @@
 ---
-title: "Thought: AMERICAN"
-draft: false
+name: thought.AMERICAN
+alias: "Thought: AMERICAN"
 type: THOUGHT
-mling: false
+parent: topic.POLITICAL-SCIENCE
 tags:
 - nationalism
 - american
 - addiction
 - dependency
 - codependency
+neo4j: true
 ptopic: "[[topic-POLITICAL-SCIENCE]]"
 level: 4
-neo4j: true
 ---
-# Thought: AMERICAN
-> [!Thought-en]
-> You're not really an American unless you're addicted to something.
 
-## Dataview
-alias:: "Thought: The Ubiquitousness of Addiction in America"
+```Cypher
+CREATE (t:THOUGHT {
+    name: "thought.AMERICAN",
+    alias: "Thought: AMERICAN",
+    parent: "topic.POLITICAL-SCIENCE",
+    tags: ["nationalism", "american", "addiction", "dependency", "codependency"],
+    level: 4
+});
 
-> [!Thought-es]
-> No eres realmente estadounidense a menos que seas adicto a algo.
+CREATE (c:CONTENT {
+    name: "content.AMERICAN",
+    en_title: "AMERICAN",
+    en_content: ""
+});
 
-> [!Thought-fr]
-> Vous n’êtes pas vraiment américain à moins d’être accro à quelque chose.
+MATCH (t:THOUGHT)
+MATCH (c:CONTENT)
+WHERE t.name = "thought.AMERICAN" AND c.name = "content.AMERICAN"
+MERGE (t)-[:HAS_CONTENT {name: "edge.AMERICAN"}]->(c);
 
-> [!Thought-hi]
-> आप वास्तव में अमेरिकी नहीं हैं जब तक कि आप किसी चीज़ के आदी न हों।
-
-> [!Thought-zh]
-> chú fēi nǐ duì mǒu jiàn shì shàng yǐn ， fǒu zé nǐ jiù bú shì zhēn zhèng de měi guó rén 。
+MATCH (parent:TOPIC)
+MATCH (child:THOUGHT)
+WHERE parent.name = "topic.POLITICAL-SCIENCE" AND child.name = "thought.AMERICAN"
+MERGE (parent)-[:HAS_THOUGHT {name: "edge.POLITICAL-SCIENCE->AMERICAN"}]->(child);
+```

@@ -1,6 +1,6 @@
 ```base
 view: View-Thoughts
-folder: Book_of_Thoughts/
+folder: Book_of_Tweets/
 columns:
 views:
   - type: table
@@ -8,19 +8,27 @@ views:
     filters:
       and:
         - file.folder == "Book_of_Tweets/cypher"
+    groupBy:
+      property: parent
+      direction: ASC
     order:
-      - file.name
+      - file.path
       - name
       - insert
       - level
       - ptopic
-      - parent
       - en_content
     sort:
+      - property: parent
+        direction: ASC
+      - property: level
+        direction: ASC
       - property: name
         direction: ASC
     columnSize:
-      file.name: 285
-      note.name: 372
+      file.path: 300
+      note.name: 287
+      note.insert: 150
+      note.level: 171
       note.ptopic: 153
-      note.parent: 243
+    rowHeight: medium

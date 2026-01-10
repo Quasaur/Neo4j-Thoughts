@@ -1,35 +1,41 @@
 ---
-title: "Thought: DEBTORS"
-draft: false
+name: thought.DEBTORS
+alias: "Thought: DEBTORS"
 type: THOUGHT
-mling: false
+parent: topic.ECONOMICS
 tags:
 - economics
 - nation
 - debtors
 - slaves
 - liability
-aliases:
-- "Thought: A Nation of Debtors"
-- "Thought: Debt and Slavery"
+neo4j: true
 ptopic: "[[topic-ECONOMICS]]"
 level: 4
-neo4j: true
 ---
-# Thought: DEBTORS
-> [!Thought-en]
-> A nation of debtors is a nation of slaves.
 
-## Dataview
+```Cypher
+CREATE (t:THOUGHT {
+    name: "thought.DEBTORS",
+    alias: "Thought: DEBTORS",
+    parent: "topic.ECONOMICS",
+    tags: ["economics", "nation", "debtors", "slaves", "liability"],
+    level: 4
+});
 
-> [!Thought-es]
-> Una nación de deudores es una nación de esclavos.
+CREATE (c:CONTENT {
+    name: "content.DEBTORS",
+    en_title: "DEBTORS",
+    en_content: ""
+});
 
-> [!Thought-fr]
-> Une nation de débiteurs est une nation d’esclaves.
+MATCH (t:THOUGHT)
+MATCH (c:CONTENT)
+WHERE t.name = "thought.DEBTORS" AND c.name = "content.DEBTORS"
+MERGE (t)-[:HAS_CONTENT {name: "edge.DEBTORS"}]->(c);
 
-> [!Thought-hi]
-> कर्ज़दारों का राष्ट्र गुलामों का राष्ट्र होता है।
-
-> [!Thought-zh]
-> yí gè zhài wù rén de guó jiā jiù shì yí gè nú lì de guó jiā 。
+MATCH (parent:TOPIC)
+MATCH (child:THOUGHT)
+WHERE parent.name = "topic.ECONOMICS" AND child.name = "thought.DEBTORS"
+MERGE (parent)-[:HAS_THOUGHT {name: "edge.ECONOMICS->DEBTORS"}]->(child);
+```

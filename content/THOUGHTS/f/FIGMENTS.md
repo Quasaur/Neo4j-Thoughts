@@ -1,34 +1,41 @@
 ---
-title: "Thought: FIGMENTS"
-draft: false
+name: thought.FIGMENTS
+alias: "Thought: FIGMENTS"
 type: THOUGHT
-mling: false
+parent: topic.CREATION
 tags:
 - imagination
 - fables
 - lessreal
 - fictitious
 - created
-aliases:
-- "Thought: Fictitious Fables"
+neo4j: true
 ptopic: "[[topic-CREATION]]"
 level: 2
-neo4j: true
 ---
-# Thought: FIGMENTS
-> [!Thought-en]
-> We are all figments of the Divine Imagination--and what an Imagination!
 
-## Dataview
+```Cypher
+CREATE (t:THOUGHT {
+    name: "thought.FIGMENTS",
+    alias: "Thought: FIGMENTS",
+    parent: "topic.CREATION",
+    tags: ["imagination", "fables", "lessreal", "fictitious", "created"],
+    level: 2
+});
 
-> [!Thought-es]
-> Todos somos producto de la Imaginación Divina... ¡y qué Imaginación!
+CREATE (c:CONTENT {
+    name: "content.FIGMENTS",
+    en_title: "FIGMENTS",
+    en_content: ""
+});
 
-> [!Thought-fr]
-> Nous sommes tous le produit de l’imagination divine – et quelle imagination !
+MATCH (t:THOUGHT)
+MATCH (c:CONTENT)
+WHERE t.name = "thought.FIGMENTS" AND c.name = "content.FIGMENTS"
+MERGE (t)-[:HAS_CONTENT {name: "edge.FIGMENTS"}]->(c);
 
-> [!Thought-hi]
-> हम सभी दिव्य कल्पना की प्रतिमूर्ति हैं--और क्या कल्पना है!
-
-> [!Thought-zh]
-> wǒ men dōu shì shén shèng xiǎng xiàng lì de xū gòu —— zhè shì duō me měi miào de xiǎng xiàng lì a ！
+MATCH (parent:TOPIC)
+MATCH (child:THOUGHT)
+WHERE parent.name = "topic.CREATION" AND child.name = "thought.FIGMENTS"
+MERGE (parent)-[:HAS_THOUGHT {name: "edge.CREATION->FIGMENTS"}]->(child);
+```

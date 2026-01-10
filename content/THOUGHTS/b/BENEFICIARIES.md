@@ -1,35 +1,41 @@
 ---
-title: "Thought: BENEFICIARIES"
-draft: false
+name: thought.BENEFICIARIES
+alias: "Thought: BENEFICIARIES"
 type: THOUGHT
-mling: false
+parent: topic.EVANGELISM
 tags:
 - interpersonal
 - encounter
 - daily
 - victims
 - beneficiaries
-aliases:
-- "Thought: The Effect of Faith on Interpersonal Encounters"
-- "Thought: An Effective Witness"
+neo4j: true
 ptopic: "[[topic-EVANGELISM]]"
 level: 3
-neo4j: true
 ---
-# Thought: BENEFICIARIES
-> [!Thought-en]
-> Those I encounter in my everyday life are either victims or beneficiaries of my relationship with God.
 
-## Dataview
+```Cypher
+CREATE (t:THOUGHT {
+    name: "thought.BENEFICIARIES",
+    alias: "Thought: BENEFICIARIES",
+    parent: "topic.EVANGELISM",
+    tags: ["interpersonal", "encounter", "daily", "victims", "beneficiaries"],
+    level: 3
+});
 
-> [!Thought-es]
-> Aquellos con los que me encuentro en mi vida diaria son víctimas o beneficiarios de mi relación con Dios.
+CREATE (c:CONTENT {
+    name: "content.BENEFICIARIES",
+    en_title: "BENEFICIARIES",
+    en_content: ""
+});
 
-> [!Thought-fr]
-> Ceux que je rencontre dans ma vie quotidienne sont soit des victimes, soit des bénéficiaires de ma relation avec Dieu.
+MATCH (t:THOUGHT)
+MATCH (c:CONTENT)
+WHERE t.name = "thought.BENEFICIARIES" AND c.name = "content.BENEFICIARIES"
+MERGE (t)-[:HAS_CONTENT {name: "edge.BENEFICIARIES"}]->(c);
 
-> [!Thought-hi]
-> मैं अपने रोजमर्रा के जीवन में जिन लोगों से मिलता हूं वे या तो पीड़ित हैं या भगवान के साथ मेरे रिश्ते के लाभार्थी हैं।
-
-> [!Thought-zh]
-> wǒ zài rì cháng shēng huó zhōng yù dào de rén yào me shì wǒ yǔ shàng dì guān xì de shòu hài zhě ， yào me shì shòu yì zhě 。
+MATCH (parent:TOPIC)
+MATCH (child:THOUGHT)
+WHERE parent.name = "topic.EVANGELISM" AND child.name = "thought.BENEFICIARIES"
+MERGE (parent)-[:HAS_THOUGHT {name: "edge.EVANGELISM->BENEFICIARIES"}]->(child);
+```

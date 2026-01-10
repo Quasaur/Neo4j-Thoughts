@@ -1,34 +1,41 @@
 ---
-title: "Thought: FOURTH VOLITION"
-draft: false
+name: thought.VOLITION4
+alias: "Thought: FOURTH VOLITION"
 type: THOUGHT
-mling: false
+parent: topic.DIVINE-SOVEREIGNTY
 tags:
 - freedom
 - volition
 - freewill
 - hell
 - damnation
-aliases:
-- "Thought: The End Justifies the Means"
+neo4j: true
 ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
 level: 2
-neo4j: true
 ---
-# Thought: FOURTH VOLITION
-> [!Thought-en]
->  If Free Will puts you in Hell, what was the point???
 
-## Dataview
+```Cypher
+CREATE (t:THOUGHT {
+    name: "thought.VOLITION4",
+    alias: "Thought: FOURTH VOLITION",
+    parent: "topic.DIVINE-SOVEREIGNTY",
+    tags: ["freedom", "volition", "freewill", "hell", "damnation"],
+    level: 2
+});
 
-> [!Thought-es]
-> Si el libre albedrío te lleva al infierno, ¿cuál era el punto?
+CREATE (c:CONTENT {
+    name: "content.VOLITION4",
+    en_title: "FOURTH VOLITION",
+    en_content: ""
+});
 
-> [!Thought-fr]
-> Si le Libre Arbitre vous met en Enfer, à quoi ça sert ???
+MATCH (t:THOUGHT)
+MATCH (c:CONTENT)
+WHERE t.name = "thought.VOLITION4" AND c.name = "content.VOLITION4"
+MERGE (t)-[:HAS_CONTENT {name: "edge.VOLITION4"}]->(c);
 
-> [!Thought-hi]
-> यदि स्वतंत्र इच्छा आपको नर्क में डाल देती है, तो बात क्या थी???
-
-> [!Thought-zh]
-> rú guǒ zì yóu yì zhì ràng nǐ xià dì yù ， nà hái yǒu shén me yì yì ？？？
+MATCH (parent:TOPIC)
+MATCH (child:THOUGHT)
+WHERE parent.name = "topic.DIVINE-SOVEREIGNTY" AND child.name = "thought.VOLITION4"
+MERGE (parent)-[:HAS_THOUGHT {name: "edge.DIVINE-SOVEREIGNTY->VOLITION4"}]->(child);
+```

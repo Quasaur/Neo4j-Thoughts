@@ -1,33 +1,41 @@
 ---
-title: "Thought: PERCEPTION"
-draft: false
+name: thought.PERCEPTION
+alias: "Thought: PERCEPTION"
 type: THOUGHT
-mling: false
+parent: topic.ATTITUDE
 tags:
 - attitude
 - seeing
 - observing
 - perception
 - selfimprovement
+neo4j: true
 ptopic: "[[topic-ATTITUDE]]"
 level: 3
-neo4j: true
 ---
-# Thought: PERCEPTION
-> [!Thought-en]
-> We cannot always change what we see...but we can always change how we see it.
 
-## Dataview
-alias:: "Thought: Observance"
+```Cypher
+CREATE (t:THOUGHT {
+    name: "thought.PERCEPTION",
+    alias: "Thought: PERCEPTION",
+    parent: "topic.ATTITUDE",
+    tags: ["attitude", "seeing", "observing", "perception", "selfimprovement"],
+    level: 3
+});
 
-> [!Thought-es]
-> No siempre podemos cambiar lo que vemos... pero siempre podemos cambiar cómo lo vemos.
+CREATE (c:CONTENT {
+    name: "content.PERCEPTION",
+    en_title: "PERCEPTION",
+    en_content: ""
+});
 
-> [!Thought-fr]
-> Nous ne pouvons pas toujours changer ce que nous voyons... mais nous pouvons toujours changer la façon dont nous le voyons.
+MATCH (t:THOUGHT)
+MATCH (c:CONTENT)
+WHERE t.name = "thought.PERCEPTION" AND c.name = "content.PERCEPTION"
+MERGE (t)-[:HAS_CONTENT {name: "edge.PERCEPTION"}]->(c);
 
-> [!Thought-hi]
-> हम जो देखते हैं उसे हमेशा नहीं बदल सकते...लेकिन हम उसे देखने का तरीका हमेशा बदल सकते हैं।
-
-> [!Thought-zh]
-> wǒ men bù néng zǒng shì gǎi biàn wǒ men suǒ kàn dào de …… dàn wǒ men zǒng shì kě yǐ gǎi biàn wǒ men kàn dài tā de fāng shì 。
+MATCH (parent:TOPIC)
+MATCH (child:THOUGHT)
+WHERE parent.name = "topic.ATTITUDE" AND child.name = "thought.PERCEPTION"
+MERGE (parent)-[:HAS_THOUGHT {name: "edge.ATTITUDE->PERCEPTION"}]->(child);
+```

@@ -1,33 +1,41 @@
 ---
-title: "Thought: AMBITION"
-draft: false
+name: thought.AMBITION
+alias: "Thought: AMBITION"
 type: THOUGHT
-mling: false
+parent: topic.THE-GOSPEL
 tags:
 - dailyroutine
 - eating
 - sleeping
 - working
 - discipline
+neo4j: true
 ptopic: "[[topic-THE-GOSPEL]]"
 level: 2
-neo4j: true
 ---
-# Thought: AMBITION
-> [!Thought-en]
-> God is Everything you want to be!
 
-## Dataview
-alias:: "Thought: Be Like God All You Can Be!"
+```Cypher
+CREATE (t:THOUGHT {
+    name: "thought.AMBITION",
+    alias: "Thought: AMBITION",
+    parent: "topic.THE-GOSPEL",
+    tags: ["dailyroutine", "eating", "sleeping", "working", "discipline"],
+    level: 2
+});
 
-> [!Thought-es]
-> ¡Dios es todo lo que quieres ser!
+CREATE (c:CONTENT {
+    name: "content.AMBITION",
+    en_title: "AMBITION",
+    en_content: ""
+});
 
-> [!Thought-fr]
-> Dieu est tout ce que vous voulez être !
+MATCH (t:THOUGHT)
+MATCH (c:CONTENT)
+WHERE t.name = "thought.AMBITION" AND c.name = "content.AMBITION"
+MERGE (t)-[:HAS_CONTENT {name: "edge.AMBITION"}]->(c);
 
-> [!Thought-hi]
-> ईश्वर वह सब कुछ है जो आप बनना चाहते हैं!
-
-> [!Thought-zh]
-> shén jiù shì nǐ xiǎng chéng wéi de yī qiè ！
+MATCH (parent:TOPIC)
+MATCH (child:THOUGHT)
+WHERE parent.name = "topic.THE-GOSPEL" AND child.name = "thought.AMBITION"
+MERGE (parent)-[:HAS_THOUGHT {name: "edge.THE-GOSPEL->AMBITION"}]->(child);
+```

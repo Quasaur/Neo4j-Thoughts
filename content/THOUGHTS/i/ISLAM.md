@@ -1,35 +1,41 @@
 ---
-title: "Thought: ISLAM"
-draft: false
+name: thought.ISLAM
+alias: "Thought: ISLAM"
 type: THOUGHT
-mling: false
+parent: topic.RELIGION
 tags:
 - islam
 - religion
 - antichrist
 - demonic
 - deception
-aliases:
-- "Thought: Muslim Religion"
-- "Thought: Antichrist"
+neo4j: true
 ptopic: "[[topic-RELIGION]]"
 level: 4
-neo4j: true
 ---
-# Thought: ISLAM
-> [!Thought-en]
-> There is NO harmony possible between The Gospel of Jesus Christ (which is the only Barrier between humanity and The Lake of Fire and Sulfur) and the Religion of Mohammed.
 
-## Dataview
+```Cypher
+CREATE (t:THOUGHT {
+    name: "thought.ISLAM",
+    alias: "Thought: ISLAM",
+    parent: "topic.RELIGION",
+    tags: ["islam", "religion", "antichrist", "demonic", "deception"],
+    level: 4
+});
 
-> [!Thought-es]
-> NO hay armonía posible entre El Evangelio de Jesucristo (que es la única Barrera entre la humanidad y El Lago de Fuego y Azufre) y la Religión de Mahoma.
+CREATE (c:CONTENT {
+    name: "content.ISLAM",
+    en_title: "ISLAM",
+    en_content: ""
+});
 
-> [!Thought-fr]
-> Il n’y a AUCUNE harmonie possible entre l’Évangile de Jésus-Christ (qui est la seule barrière entre l’humanité et l’étang de feu et de soufre) et la religion de Mahomet.
+MATCH (t:THOUGHT)
+MATCH (c:CONTENT)
+WHERE t.name = "thought.ISLAM" AND c.name = "content.ISLAM"
+MERGE (t)-[:HAS_CONTENT {name: "edge.ISLAM"}]->(c);
 
-> [!Thought-hi]
-> ईसा मसीह के सुसमाचार (जो मानवता और आग और गंधक की झील के बीच एकमात्र बाधा है) और मोहम्मद के धर्म के बीच कोई सामंजस्य संभव नहीं है।
-
-> [!Thought-zh]
-> yē sū jī dū de fú yīn （ zhè shì rén lèi yǔ huǒ liú hú zhī jiān de wéi yī zhàng ài ） yǔ mù hǎn mò dé de zōng jiào zhī jiān bù kě néng yǒu hé xié 。
+MATCH (parent:TOPIC)
+MATCH (child:THOUGHT)
+WHERE parent.name = "topic.RELIGION" AND child.name = "thought.ISLAM"
+MERGE (parent)-[:HAS_THOUGHT {name: "edge.RELIGION->ISLAM"}]->(child);
+```

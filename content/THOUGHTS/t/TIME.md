@@ -1,35 +1,41 @@
 ---
-title: "Thought: TIME"
-draft: false
+name: thought.TIME
+alias: "Thought: TIME"
 type: THOUGHT
-mling: false
+parent: topic.JUSTICE
 tags:
 - spirituality
 - damnation
 - soul
-- lakeoffire 
+- lakeoffire
 - judgment
-aliases:
-- "Thought: The Afterlife"
-- "Thought: The Fate of the Soul"
+neo4j: true
 ptopic: "[[topic-JUSTICE]]"
 level: 5
-neo4j: true
 ---
-# Thought: TIME
-> [!Thought-en]
-> You will spend more time in Eternity than you ever did in this life (or “previous” lives)…and you have NO concern regarding the fate of your soul?!
 
-## Dataview
+```Cypher
+CREATE (t:THOUGHT {
+    name: "thought.TIME",
+    alias: "Thought: TIME",
+    parent: "topic.JUSTICE",
+    tags: ["spirituality", "damnation", "soul", "lakeoffire", "judgment"],
+    level: 5
+});
 
-> [!Thought-es]
-> Pasarás más tiempo en la Eternidad que en esta vida (o en vidas “anteriores”)… ¡¿y NO te preocupas por el destino de tu alma?!
+CREATE (c:CONTENT {
+    name: "content.TIME",
+    en_title: "TIME",
+    en_content: ""
+});
 
-> [!Thought-fr]
-> Vous passerez plus de temps dans l’Éternité que vous ne l’avez jamais fait dans cette vie (ou dans vos vies « précédentes »)… et vous n’avez AUCUNE préoccupation concernant le sort de votre âme ?!
+MATCH (t:THOUGHT)
+MATCH (c:CONTENT)
+WHERE t.name = "thought.TIME" AND c.name = "content.TIME"
+MERGE (t)-[:HAS_CONTENT {name: "edge.TIME"}]->(c);
 
-> [!Thought-hi]
-> आप अनंत काल में इस जीवन (या "पिछले" जीवन) की तुलना में अधिक समय व्यतीत करेंगे...और आपको अपनी आत्मा के भाग्य के बारे में कोई चिंता नहीं है?!
-
-> [!Thought-zh]
-> nǐ jiāng zài yǒng héng zhōng dù guò bǐ jīn shēng （ huò “ qián shì ”） gèng duō de shí jiān …… ér qiě nǐ bù guān xīn nǐ líng hún de mìng yùn ？！
+MATCH (parent:TOPIC)
+MATCH (child:THOUGHT)
+WHERE parent.name = "topic.JUSTICE" AND child.name = "thought.TIME"
+MERGE (parent)-[:HAS_THOUGHT {name: "edge.JUSTICE->TIME"}]->(child);
+```

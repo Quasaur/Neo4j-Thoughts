@@ -1,34 +1,41 @@
 ---
-title: "Thought: GLOVES"
-draft: false
+name: thought.GLOVES
+alias: "Thought: GLOVES"
 type: THOUGHT
-mling: false
+parent: topic.EVANGELISM
 tags:
 - vessel
 - instrument
 - gospel
 - missionaries
 - believers
-aliases:
-- "Thought: God is the Hand, I am the Glove"
+neo4j: true
 ptopic: "[[topic-EVANGELISM]]"
 level: 3
-neo4j: true
 ---
-# Thought: GLOVES
-> [!Thought-en]
-> God is not looking for hands...He's looking for gloves!
 
-## Dataview
+```Cypher
+CREATE (t:THOUGHT {
+    name: "thought.GLOVES",
+    alias: "Thought: GLOVES",
+    parent: "topic.EVANGELISM",
+    tags: ["vessel", "instrument", "gospel", "missionaries", "believers"],
+    level: 3
+});
 
-> [!Thought-es]
-> Dios no busca manos... ¡Busca guantes!
+CREATE (c:CONTENT {
+    name: "content.GLOVES",
+    en_title: "GLOVES",
+    en_content: ""
+});
 
-> [!Thought-fr]
-> Dieu ne cherche pas des mains... Il cherche des gants !
+MATCH (t:THOUGHT)
+MATCH (c:CONTENT)
+WHERE t.name = "thought.GLOVES" AND c.name = "content.GLOVES"
+MERGE (t)-[:HAS_CONTENT {name: "edge.GLOVES"}]->(c);
 
-> [!Thought-hi]
-> भगवान हाथों की तलाश में नहीं है...वह दस्ताने की तलाश में है!
-
-> [!Thought-zh]
-> shàng dì bú shì zài xún zhǎo shuāng shǒu …… tā shì zài xún zhǎo shǒu tào ！
+MATCH (parent:TOPIC)
+MATCH (child:THOUGHT)
+WHERE parent.name = "topic.EVANGELISM" AND child.name = "thought.GLOVES"
+MERGE (parent)-[:HAS_THOUGHT {name: "edge.EVANGELISM->GLOVES"}]->(child);
+```

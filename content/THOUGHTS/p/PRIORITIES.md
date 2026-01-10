@@ -1,35 +1,41 @@
 ---
-title: "Thought: PRIORITIES"
-draft: false
+name: thought.PRIORITIES
+alias: "Thought: PRIORITIES"
 type: THOUGHT
-mling: false
+parent: topic.WISDOM
 tags:
 - priorities
 - seekyefirst
 - divinewill
 - god
 - faith
-aliases:
-- "Thought: Seek Ye First"
-- "Thought: God's Will Above All"
+neo4j: true
 ptopic: "[[topic-WISDOM]]"
 level: 4
-neo4j: true
 ---
-# Thought: PRIORITIES
-> [!Thought-en]
-> The truth is that God's Will is not important enough to any of us.
 
-## Dataview
+```Cypher
+CREATE (t:THOUGHT {
+    name: "thought.PRIORITIES",
+    alias: "Thought: PRIORITIES",
+    parent: "topic.WISDOM",
+    tags: ["priorities", "seekyefirst", "divinewill", "god", "faith"],
+    level: 4
+});
 
-> [!Thought-es]
-> La verdad es que la Voluntad de Dios no es lo suficientemente importante para ninguno de nosotros.
+CREATE (c:CONTENT {
+    name: "content.PRIORITIES",
+    en_title: "PRIORITIES",
+    en_content: ""
+});
 
-> [!Thought-fr]
-> La vérité est que la Volonté de Dieu n’est pas assez importante pour aucun d’entre nous.
+MATCH (t:THOUGHT)
+MATCH (c:CONTENT)
+WHERE t.name = "thought.PRIORITIES" AND c.name = "content.PRIORITIES"
+MERGE (t)-[:HAS_CONTENT {name: "edge.PRIORITIES"}]->(c);
 
-> [!Thought-hi]
-> सच तो यह है कि ईश्वर की इच्छा हममें से किसी के लिए भी उतनी महत्वपूर्ण नहीं है।
-
-> [!Thought-zh]
-> shì shí shàng ， shàng dì de zhǐ yì duì wǒ men rèn hé rén lái shuō dōu bù gòu zhòng yào 。
+MATCH (parent:TOPIC)
+MATCH (child:THOUGHT)
+WHERE parent.name = "topic.WISDOM" AND child.name = "thought.PRIORITIES"
+MERGE (parent)-[:HAS_THOUGHT {name: "edge.WISDOM->PRIORITIES"}]->(child);
+```

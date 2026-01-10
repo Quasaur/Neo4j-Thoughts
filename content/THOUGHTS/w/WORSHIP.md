@@ -1,35 +1,41 @@
 ---
-title: "Thought: WORSHIP"
-draft: false
+name: thought.WORSHIP
+alias: "Thought: WORSHIP"
 type: THOUGHT
-mling: false
+parent: topic.SPIRITUALITY
 tags:
 - worship
 - praise
 - prayer
 - fellowship
 - eternalfather
-aliases:
-- "Thought: Praise in Prayer"
-- "Thought: Private Worship"
+neo4j: true
 ptopic: "[[topic-SPIRITUALITY]]"
 level: 2
-neo4j: true
 ---
-# Thought: WORSHIP
-> [!Thought-en]
-> A prayer life without worship will always be incomplete; a stillborn child.
 
-## Dataview
+```Cypher
+CREATE (t:THOUGHT {
+    name: "thought.WORSHIP",
+    alias: "Thought: WORSHIP",
+    parent: "topic.SPIRITUALITY",
+    tags: ["worship", "praise", "prayer", "fellowship", "eternalfather"],
+    level: 2
+});
 
-> [!Thought-es]
-> Una vida de oración sin adoración siempre será incompleta; un niño nacido muerto.
+CREATE (c:CONTENT {
+    name: "content.WORSHIP",
+    en_title: "WORSHIP",
+    en_content: ""
+});
 
-> [!Thought-fr]
-> Une vie de prière sans culte sera toujours incomplète ; un enfant mort-né.
+MATCH (t:THOUGHT)
+MATCH (c:CONTENT)
+WHERE t.name = "thought.WORSHIP" AND c.name = "content.WORSHIP"
+MERGE (t)-[:HAS_CONTENT {name: "edge.WORSHIP"}]->(c);
 
-> [!Thought-hi]
-> आराधना के बिना प्रार्थना जीवन सदैव अधूरा रहेगा; एक मृत बच्चा.
-
-> [!Thought-zh]
-> méi yǒu jìng bài de dǎo gào shēng huó yǒng yuǎn shì bù wán zhěng de ； méi yǒu jìng bài de dǎo gào shēng huó yǒng yuǎn shì bù wán zhěng de 。 yí gè sǐ chǎn de hái zi
+MATCH (parent:TOPIC)
+MATCH (child:THOUGHT)
+WHERE parent.name = "topic.SPIRITUALITY" AND child.name = "thought.WORSHIP"
+MERGE (parent)-[:HAS_THOUGHT {name: "edge.SPIRITUALITY->WORSHIP"}]->(child);
+```

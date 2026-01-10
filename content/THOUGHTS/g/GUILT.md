@@ -1,35 +1,41 @@
 ---
-title: "Thought: GUILT"
-draft: false
+name: thought.GUILT
+alias: "Thought: GUILT"
 type: THOUGHT
-mling: false
+parent: topic.PSYCHOLOGY
 tags:
 - guilt
 - expression
 - ego
 - self
-- conscience 
-aliases:
-- "Thought: Guilt, a Product of the Ego"
-- "Thought: Origins of Conscience"
+- conscience
+neo4j: true
 ptopic: "[[topic-PSYCHOLOGY]]"
 level: 4
-neo4j: true
 ---
-# Thought: GUILT
-> [!Thought-en]
-> Guilt is just another expression of the ego.
 
-## Dataview
+```Cypher
+CREATE (t:THOUGHT {
+    name: "thought.GUILT",
+    alias: "Thought: GUILT",
+    parent: "topic.PSYCHOLOGY",
+    tags: ["guilt", "expression", "ego", "self", "conscience"],
+    level: 4
+});
 
-> [!Thought-es]
-> La culpa es sólo otra expresión del ego.
+CREATE (c:CONTENT {
+    name: "content.GUILT",
+    en_title: "GUILT",
+    en_content: ""
+});
 
-> [!Thought-fr]
-> La culpabilité n'est qu'une autre expression de l'ego.
+MATCH (t:THOUGHT)
+MATCH (c:CONTENT)
+WHERE t.name = "thought.GUILT" AND c.name = "content.GUILT"
+MERGE (t)-[:HAS_CONTENT {name: "edge.GUILT"}]->(c);
 
-> [!Thought-hi]
-> अपराध बोध अहंकार की ही एक और अभिव्यक्ति है।
-
-> [!Thought-zh]
-> nèi jiù zhǐ shì zì wǒ de lìng yī zhǒng biǎo dá 。
+MATCH (parent:TOPIC)
+MATCH (child:THOUGHT)
+WHERE parent.name = "topic.PSYCHOLOGY" AND child.name = "thought.GUILT"
+MERGE (parent)-[:HAS_THOUGHT {name: "edge.PSYCHOLOGY->GUILT"}]->(child);
+```

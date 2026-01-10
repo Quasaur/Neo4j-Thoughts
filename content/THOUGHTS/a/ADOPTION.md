@@ -1,33 +1,41 @@
 ---
-title: "Thought: ADOPTION"
-draft: false
+name: thought.ADOPTION
+alias: "Thought: ADOPTION"
 type: THOUGHT
-mling: false
+parent: topic.THE-GOSPEL
 tags:
 - adoption
 - abba
 - father
 - childofgod
 - everlasting
+neo4j: true
 ptopic: "[[topic-THE-GOSPEL]]"
 level: 2
-neo4j: true
 ---
-# Thought: ADOPTION
-> [!Thought-en]
-> He is the Architect of the Cosmos and the Seat of Absolute Power...and my Daddy!
 
-## Dataview
-alias:: "Thought: Divine Family Reunion!"
+```Cypher
+CREATE (t:THOUGHT {
+    name: "thought.ADOPTION",
+    alias: "Thought: ADOPTION",
+    parent: "topic.THE-GOSPEL",
+    tags: ["adoption", "abba", "father", "childofgod", "everlasting"],
+    level: 2
+});
 
-> [!Thought-es]
-> Él es el Arquitecto del Cosmos y la Sede del Poder Absoluto... ¡y mi Papá!
+CREATE (c:CONTENT {
+    name: "content.ADOPTION",
+    en_title: "ADOPTION",
+    en_content: ""
+});
 
-> [!Thought-fr]
-> Il est l'architecte du cosmos et le siège du pouvoir absolu... et mon papa !
+MATCH (t:THOUGHT)
+MATCH (c:CONTENT)
+WHERE t.name = "thought.ADOPTION" AND c.name = "content.ADOPTION"
+MERGE (t)-[:HAS_CONTENT {name: "edge.ADOPTION"}]->(c);
 
-> [!Thought-hi]
-> वह ब्रह्मांड के वास्तुकार और पूर्ण शक्ति के केंद्र हैं...और मेरे पिताजी!
-
-> [!Thought-zh]
-> tā shì yǔ zhòu de jiàn zhù shī hé jué duì quán lì de bǎo zuò …… hái yǒu wǒ de bà bà ！
+MATCH (parent:TOPIC)
+MATCH (child:THOUGHT)
+WHERE parent.name = "topic.THE-GOSPEL" AND child.name = "thought.ADOPTION"
+MERGE (parent)-[:HAS_THOUGHT {name: "edge.THE-GOSPEL->ADOPTION"}]->(child);
+```

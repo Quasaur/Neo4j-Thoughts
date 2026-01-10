@@ -1,34 +1,41 @@
 ---
-title: "Thought: THIRD VOLITION"
-draft: false
+name: thought.VOLITION3
+alias: "Thought: THIRD VOLITION"
 type: THOUGHT
-mling: false
+parent: topic.DIVINE-SOVEREIGNTY
 tags:
 - freedom
 - volition
 - freewill
 - accountability
 - judgment
-aliases:
-- "Thought: We Answer to God for Our Choices"
+neo4j: true
 ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
 level: 2
-neo4j: true
 ---
-# Thought: THIRD VOLITION
-> [!Thought-en]
->  Free Will is great...as long as you're making the choices God approves of.
 
-## Dataview
+```Cypher
+CREATE (t:THOUGHT {
+    name: "thought.VOLITION3",
+    alias: "Thought: THIRD VOLITION",
+    parent: "topic.DIVINE-SOVEREIGNTY",
+    tags: ["freedom", "volition", "freewill", "accountability", "judgment"],
+    level: 2
+});
 
-> [!Thought-es]
-> El libre albedrío es genial... siempre y cuando tomes las decisiones que Dios aprueba.
+CREATE (c:CONTENT {
+    name: "content.VOLITION3",
+    en_title: "THIRD VOLITION",
+    en_content: ""
+});
 
-> [!Thought-fr]
-> Le libre arbitre est formidable… tant que vous faites les choix que Dieu approuve.
+MATCH (t:THOUGHT)
+MATCH (c:CONTENT)
+WHERE t.name = "thought.VOLITION3" AND c.name = "content.VOLITION3"
+MERGE (t)-[:HAS_CONTENT {name: "edge.VOLITION3"}]->(c);
 
-> [!Thought-hi]
-> स्वतंत्र इच्छा महान है...जब तक आप वही विकल्प चुन रहे हैं जो ईश्वर को मंजूर है।
-
-> [!Thought-zh]
-> zì yóu yì zhì shì wěi dà de …… zhǐ yào nǐ zuò chū shàng dì rèn kě de xuǎn zé 。
+MATCH (parent:TOPIC)
+MATCH (child:THOUGHT)
+WHERE parent.name = "topic.DIVINE-SOVEREIGNTY" AND child.name = "thought.VOLITION3"
+MERGE (parent)-[:HAS_THOUGHT {name: "edge.DIVINE-SOVEREIGNTY->VOLITION3"}]->(child);
+```

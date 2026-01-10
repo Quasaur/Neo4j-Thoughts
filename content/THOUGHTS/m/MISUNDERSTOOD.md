@@ -1,34 +1,41 @@
 ---
-title: "Thought: MISUNDERSTOOD"
-draft: false
+name: thought.MISUNDERSTOOD
+alias: "Thought: MISUNDERSTOOD"
 type: THOUGHT
-mling: false
+parent: topic.UNDERSTANDING
 tags:
 - misunderfstood
 - understanding
 - communication
 - fellowship
 - intimacy
-aliases:
-- "Thought: Miscommunicatiion"
+neo4j: true
 ptopic: "[[topic-UNDERSTANDING]]"
 level: 3
-neo4j: true
 ---
-# Thought: MISUNDERSTOOD
-> [!Thought-en]
-> Among life's greatest agonies is being misunderstood.
 
-## Dataview
+```Cypher
+CREATE (t:THOUGHT {
+    name: "thought.MISUNDERSTOOD",
+    alias: "Thought: MISUNDERSTOOD",
+    parent: "topic.UNDERSTANDING",
+    tags: ["misunderfstood", "understanding", "communication", "fellowship", "intimacy"],
+    level: 3
+});
 
-> [!Thought-es]
-> Una de las mayores agonías de la vida es la de ser incomprendido.
+CREATE (c:CONTENT {
+    name: "content.MISUNDERSTOOD",
+    en_title: "MISUNDERSTOOD",
+    en_content: ""
+});
 
-> [!Thought-fr]
-> L'une des plus grandes souffrances de la vie est celle d'être mal comprise.
+MATCH (t:THOUGHT)
+MATCH (c:CONTENT)
+WHERE t.name = "thought.MISUNDERSTOOD" AND c.name = "content.MISUNDERSTOOD"
+MERGE (t)-[:HAS_CONTENT {name: "edge.MISUNDERSTOOD"}]->(c);
 
-> [!Thought-hi]
-> जीवन की सबसे बड़ी पीड़ाओं में से एक है गलत समझा जाना।
-
-> [!Thought-zh]
-> rén shēng zuì dà de tòng kǔ zhī yī jiù shì bèi wù jiě 。
+MATCH (parent:TOPIC)
+MATCH (child:THOUGHT)
+WHERE parent.name = "topic.UNDERSTANDING" AND child.name = "thought.MISUNDERSTOOD"
+MERGE (parent)-[:HAS_THOUGHT {name: "edge.UNDERSTANDING->MISUNDERSTOOD"}]->(child);
+```
