@@ -8,6 +8,7 @@ tags:
 - privilege
 - right
 neo4j: true
+ptopic: "[[topic-ATTITUDE]]"
 level: 4
 ---
 

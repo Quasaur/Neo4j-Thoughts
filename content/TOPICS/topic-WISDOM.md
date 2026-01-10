@@ -10,6 +10,7 @@ tags:
 - understanding
 - brilliance
 neo4j: true
+ptopic: "[[topic-SPIRITUALITY]]"
 level: 3
 ---
 

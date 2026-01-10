@@ -12,6 +12,7 @@ en_content: "This life is a dream...and only in the Presence of God are we truly
 parent: topic.PHILOSOPHY
 level: 4
 neo4j: true
+ptopic: 
 insert: true
 ---
 

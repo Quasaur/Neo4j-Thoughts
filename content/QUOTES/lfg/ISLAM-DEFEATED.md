@@ -10,6 +10,7 @@ tags:
 - bible
 - jesuschrist
 neo4j: true
+ptopic: "[[topic-RELIGION]]"
 level: 4
 ---
 

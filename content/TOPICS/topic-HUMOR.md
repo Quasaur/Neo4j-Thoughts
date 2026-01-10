@@ -10,6 +10,7 @@ tags:
 - comical
 - funny
 neo4j: true
+ptopic: "[[topic-PSYCHOLOGY]]"
 level: 5
 ---
 

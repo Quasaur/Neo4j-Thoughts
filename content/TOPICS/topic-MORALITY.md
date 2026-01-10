@@ -10,6 +10,7 @@ tags:
 - virtue
 - integrity
 neo4j: true
+ptopic: "[[topic-SPIRITUALITY]]"
 level: 3
 ---
 

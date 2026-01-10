@@ -10,6 +10,7 @@ tags:
 - fools
 - destruction
 neo4j: true
+ptopic: "[[topic-EVIL]]"
 level: 4
 ---
 ```Cypher

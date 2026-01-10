@@ -10,6 +10,7 @@ tags:
 - contention
 - motive
 neo4j: true
+ptopic: "[[topic-SOCIOLOGY]]"
 level: 4
 ---
 ```Cypher

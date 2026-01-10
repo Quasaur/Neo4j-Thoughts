@@ -10,6 +10,7 @@ tags:
 - unrestrained
 - decisions
 neo4j: true
+ptopic: "[[topic-LAW]]"
 level: 5
 ---
 

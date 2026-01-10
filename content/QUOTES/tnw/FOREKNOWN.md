@@ -10,6 +10,7 @@ tags:
 - jesuschrist
 - eternity
 neo4j: true
+ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
 level: 2
 ---
 

@@ -10,6 +10,7 @@ tags:
 - earth
 - land
 neo4j: true
+ptopic: "[[topic-HUMANITY]]"
 level: 4
 ---
 

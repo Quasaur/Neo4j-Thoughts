@@ -10,6 +10,7 @@ tags:
 - righteousness
 - assurance
 neo4j: true
+ptopic: "[[topic-RELIGION]]"
 level: 4
 ---
 

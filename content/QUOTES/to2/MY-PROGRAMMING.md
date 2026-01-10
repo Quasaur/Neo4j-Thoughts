@@ -10,6 +10,7 @@ tags:
 - dream
 - fiction
 neo4j: true
+ptopic: "[[topic-PSYCHOLOGY]]"
 level: 4
 ---
 

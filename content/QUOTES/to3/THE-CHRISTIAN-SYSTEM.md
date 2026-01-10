@@ -10,6 +10,7 @@ tags:
 - political
 - economic
 neo4j: true
+ptopic: "[[topic-POLITICAL-SCIENCE]]"
 level: 4
 ---
 

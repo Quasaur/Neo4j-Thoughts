@@ -10,6 +10,7 @@ tags:
 - reason
 - knowledge
 neo4j: true
+ptopic: "[[topic-HUMANITY]]"
 level: 4
 ---
 

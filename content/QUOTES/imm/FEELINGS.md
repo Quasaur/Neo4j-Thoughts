@@ -10,6 +10,7 @@ tags:
 - wordofgod
 - believe
 neo4j: true
+ptopic: "[[topic-FAITH]]"
 level: 4
 ---
 

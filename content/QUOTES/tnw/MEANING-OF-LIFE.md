@@ -3,6 +3,7 @@ name: quote.THE_MEANING_OF_LIFE
 alias: "Quote: Quote: The MEANING OF LIFE"
 type: QUOTE
 parent: topic.PHILOSOPHY
+ptopic: "[[topic-PHILOSOPHY]]"
 tags:
 - lakeoffire
 - sulfur

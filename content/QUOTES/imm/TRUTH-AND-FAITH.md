@@ -10,6 +10,7 @@ tags:
 - lakeoffire
 - love
 neo4j: true
+ptopic: "[[topic-THE-GOSPEL]]"
 level: 2
 ---
 

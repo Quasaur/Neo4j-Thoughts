@@ -10,6 +10,7 @@ tags:
 - pride
 - right
 neo4j: true
+ptopic: "[[topic-MORALITY]]"
 level: 4
 ---
 

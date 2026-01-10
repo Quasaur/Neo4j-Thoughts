@@ -1,0 +1,12 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.folder.startsWith("WEBDEV")
+    order:
+      - file.ctime
+      - file.name
+    sort:
+      - property: file.ctime
+        direction: DESC

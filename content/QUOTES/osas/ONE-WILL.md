@@ -10,6 +10,7 @@ tags:
 - deity
 - sovereignty
 neo4j: true
+ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
 level: 2
 ---
 

@@ -10,6 +10,7 @@ tags:
 - bills
 - morality
 neo4j: true
+ptopic: "[[topic-MORALITY]]"
 level: 3
 ---
 ```Cypher

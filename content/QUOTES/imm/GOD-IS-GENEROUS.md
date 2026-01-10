@@ -10,6 +10,7 @@ tags:
 - gracious
 - stingy
 neo4j: true
+ptopic: "[[topic-GRACE]]"
 level: 3
 ---
 

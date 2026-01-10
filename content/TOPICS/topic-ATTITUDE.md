@@ -10,6 +10,7 @@ tags:
 - spirit
 - fruit
 neo4j: true
+ptopic: "[[topic-SPIRITUALITY]]"
 level: 3
 ---
 

@@ -10,6 +10,7 @@ tags:
 - spiritual
 - economical
 neo4j: true
+ptopic: "[[topic-POLITICAL-SCIENCE]]"
 level: 4
 ---
 

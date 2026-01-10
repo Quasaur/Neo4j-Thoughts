@@ -10,6 +10,7 @@ tags:
 - god
 - adoption
 neo4j: true
+ptopic: "[[topic-SPIRITUALITY]]"
 level: 2
 ---
 

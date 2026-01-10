@@ -10,6 +10,7 @@ tags:
 - foundation
 - jesuschrist
 neo4j: true
+ptopic: "[[topic-ATTITUDE]]"
 level: 3
 ---
 

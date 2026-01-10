@@ -9,6 +9,7 @@ tags:
 - discipling
 - goodnews
 neo4j: true
+ptopic: "[[topic-THE-GOSPEL]]"
 level: 3
 ---
 

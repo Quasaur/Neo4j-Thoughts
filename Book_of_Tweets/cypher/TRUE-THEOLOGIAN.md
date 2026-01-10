@@ -12,6 +12,7 @@ en_content: "Can a theologian who has not had a personal encounter with God be t
 parent: topic.SPIRITUALITY
 level: 2
 neo4j: true
+ptopic: 
 insert: true
 ---
 

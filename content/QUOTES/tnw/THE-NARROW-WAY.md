@@ -10,6 +10,7 @@ tags:
 - selfdenial
 - submission
 neo4j: true
+ptopic: "[[topic-THE-GOSPEL]]"
 level: 2
 ---
 

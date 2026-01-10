@@ -10,6 +10,7 @@ tags:
 - acts
 - accountable
 neo4j: true
+ptopic: "[[topic-LINGUISTICS]]"
 level: 5
 ---
 

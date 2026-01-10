@@ -10,6 +10,7 @@ tags:
 - self
 - circumstance
 neo4j: true
+ptopic: "[[topic-WORSHIP]]"
 level: 3
 ---
 

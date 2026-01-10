@@ -11,6 +11,7 @@ tags:
   - divine_will
 level: 2
 neo4j: true
+ptopic: 
 insert: true
 type: THOUGHT
 ---

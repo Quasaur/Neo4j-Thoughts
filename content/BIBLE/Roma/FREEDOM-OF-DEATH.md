@@ -10,6 +10,7 @@ tags:
 - thecross
 - jesuschrist
 neo4j: true
+ptopic: "[[topic-FREEDOM]]"
 level: 5
 ---
 ```Cypher

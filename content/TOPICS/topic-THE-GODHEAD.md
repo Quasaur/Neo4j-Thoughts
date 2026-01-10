@@ -10,6 +10,7 @@ tags:
 - omega
 - the_one
 neo4j: true
+ptopic: "[[topic-NULL]]"
 level: 1
 ---
 
