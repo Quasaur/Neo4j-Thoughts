@@ -11,7 +11,9 @@ views:
     order:
       - file.name
       - name
+      - insert
       - level
+      - ptopic
       - parent
       - en_content
     sort:
@@ -20,4 +22,5 @@ views:
     columnSize:
       file.name: 285
       note.name: 372
+      note.ptopic: 153
       note.parent: 243

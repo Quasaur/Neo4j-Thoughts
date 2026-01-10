@@ -3,6 +3,7 @@ name: quote.THE_HEART_OF_MANKIND
 alias: "Quote: Quote: The HEART OF MANKIND"
 type: QUOTE
 parent: topic.RELIGION
+ptopic: "[[topic-RELIGION]]"
 tags:
 - heart
 - human

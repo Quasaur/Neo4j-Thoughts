@@ -10,6 +10,7 @@ tags:
 - holyscripture
 - accuracy
 neo4j: true
+ptopic: "[[topic-THE-BIBLE]]"
 level: 5
 ---
 

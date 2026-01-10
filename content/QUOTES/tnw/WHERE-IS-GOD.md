@@ -3,6 +3,7 @@ name: quote.WHERE_IS_GOD?
 alias: "Quote: Quote: WHERE IS GOD?"
 type: QUOTE
 parent: topic.DIVINE-SOVEREIGNTY
+ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
 tags:
 - unperceived
 - spiritualdeath

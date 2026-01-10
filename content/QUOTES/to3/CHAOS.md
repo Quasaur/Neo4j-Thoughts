@@ -10,6 +10,7 @@ tags:
 - perception
 - delusion
 neo4j: true
+ptopic: "[[topic-PSYCHOLOGY]]"
 level: 4
 ---
 

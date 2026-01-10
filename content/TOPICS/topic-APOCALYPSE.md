@@ -8,6 +8,7 @@ tags:
 - last_day
 - end_of_the_world
 neo4j: true
+ptopic: "[[topic-HISTORY]]"
 level: 5
 ---
 

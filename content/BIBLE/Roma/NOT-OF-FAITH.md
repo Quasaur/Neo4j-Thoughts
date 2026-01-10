@@ -10,6 +10,7 @@ tags:
 - sin
 - wordofgod
 neo4j: true
+ptopic: "[[topic-FAITH]]"
 level: 4
 ---
 ```Cypher

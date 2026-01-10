@@ -3,6 +3,7 @@ name: quote.THE_VALUE_OF_FAITH
 alias: "Quote: Quote: THE VALUE OF FAITH"
 type: QUOTE
 parent: topic.FAITH
+ptopic: "[[topic-FAITH]]"
 tags:
 - faith
 - value

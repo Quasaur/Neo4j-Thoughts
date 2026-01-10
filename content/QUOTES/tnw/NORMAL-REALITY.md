@@ -10,6 +10,7 @@ tags:
 - normal
 - glory
 neo4j: true
+ptopic: "[[topic-TRUTH]]"
 level: 2
 ---
 

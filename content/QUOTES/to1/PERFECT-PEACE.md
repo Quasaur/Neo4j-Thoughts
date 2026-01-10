@@ -10,6 +10,7 @@ tags:
 - holiness
 - love
 neo4j: true
+ptopic: "[[topic-GRACE]]"
 level: 3
 ---
 

@@ -10,6 +10,7 @@ tags:
 - life
 - confidence
 neo4j: true
+ptopic: "[[topic-WISDOM]]"
 level: 3
 ---
 ```Cypher

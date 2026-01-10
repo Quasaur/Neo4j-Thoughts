@@ -10,6 +10,7 @@ tags:
 - sovereignty
 - volition
 neo4j: true
+ptopic: "[[topic-DIVINE]]"
 level: 2
 ---
 

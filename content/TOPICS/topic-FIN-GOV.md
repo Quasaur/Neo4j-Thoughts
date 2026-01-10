@@ -10,6 +10,7 @@ tags:
 - bankroll
 - liquidate
 neo4j: true
+ptopic: "[[topic-FINANCE]]"
 level: 5
 ---
 

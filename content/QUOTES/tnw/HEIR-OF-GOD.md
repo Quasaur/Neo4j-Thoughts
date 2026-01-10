@@ -3,6 +3,7 @@ name: quote.HEIR_OF_GOD!
 alias: "Quote: Quote: HEIR OF GOD!"
 type: QUOTE
 parent: topic.THE-GOSPEL
+ptopic: "[[topic-THE-GOSPEL]]"
 tags:
 - heir
 - adoption

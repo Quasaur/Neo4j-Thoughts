@@ -12,6 +12,7 @@ en_content: "Salvation: the means by which a wicked, rebellious sinner can survi
 parent: topic.THE-GOSPEL
 level: 2
 neo4j: true
+ptopic: 
 insert: true
 ---
 

@@ -10,6 +10,7 @@ tags:
 - exalted
 - holyspirit
 neo4j: true
+ptopic: "[[topic-HUMANITY]]"
 level: 3
 ---
 

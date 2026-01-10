@@ -1,15 +1,16 @@
 ---
-name: "topic.NULL TOPIC"
-alias: "Topic ZERO: THE NULL TOPIC"
+name: '"topic.NULL TOPIC"'
+alias: '"Topic ZERO: THE NULL TOPIC"'
 type: TOPIC
-parent: 'null'
+parent: "null"
 tags:
-- topic
-- first
-- prime
-- root
-- zero
+  - topic
+  - first
+  - prime
+  - root
+  - zero
 neo4j: true
+ptopic: null
 level: 0
 ---
 

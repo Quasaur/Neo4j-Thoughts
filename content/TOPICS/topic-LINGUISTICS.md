@@ -10,6 +10,7 @@ tags:
 - language
 - lexical
 neo4j: true
+ptopic: "[[topic-ANTHROPOLOGY]]"
 level: 5
 ---
 

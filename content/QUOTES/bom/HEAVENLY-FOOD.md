@@ -10,6 +10,7 @@ tags:
 - heavenly_food
 - bread_of_life
 neo4j: true
+ptopic: "[[topic-SPIRITUALITY]]"
 level: 2
 ---
 

@@ -10,6 +10,7 @@ tags:
 - water_streams
 - free_will
 neo4j: true
+ptopic: "[[topic-DIVINE]]"
 level: 2
 ---
 ```Cypher

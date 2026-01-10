@@ -10,6 +10,7 @@ tags:
 - childofgod
 - holyspirit
 neo4j: true
+ptopic: "[[topic-GRACE]]"
 level: 3
 ---
 

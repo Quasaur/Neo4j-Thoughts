@@ -8,6 +8,7 @@ tags:
 - exercise
 - lifestyle
 neo4j: true
+ptopic: "[[topic-HUMANITY]]"
 level: 4
 ---
 

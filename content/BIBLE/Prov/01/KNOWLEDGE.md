@@ -10,6 +10,7 @@ tags:
 - fools
 - instruction
 neo4j: true
+ptopic: "[[topic-HUMANITY]]"
 level: 3
 ---
 ```Cypher

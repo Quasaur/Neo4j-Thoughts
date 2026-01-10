@@ -10,6 +10,7 @@ tags:
 - reputation
 - god
 neo4j: true
+ptopic: "[[topic-ATTITUDE]]"
 level: 3
 ---
 ```Cypher

@@ -2,7 +2,7 @@
 name: "topic.MUSIC"
 alias: "Topic: Music"
 type: TOPIC
-parent: "topic.BEAUTY"
+parent: "topic.MUSICOLOGY"
 tags:
 - music
 - art
@@ -10,7 +10,7 @@ tags:
 - harmony
 - melody
 neo4j: true
-ptopic: '"[[topic-BEAUTY]]"'
+ptopic: '"[[topic-MUSICOLOGY]]"'
 level: 6
 insert: true
 ---
@@ -20,7 +20,7 @@ insert: true
 CREATE (t:TOPIC {
     name: "topic.MUSIC",
     alias: "Topic: Music",
-    parent: "topic.BEAUTY",
+    parent: "topic.MUSICOLOGY",
     tags: ["music", "art", "sound", "harmony", "melody"],
     notes: "",
     level: 6
@@ -47,6 +47,6 @@ MERGE (t)-[:HAS_DESCRIPTION {name: "edge.MUSIC"}]->(d);
 
 MATCH (parent:TOPIC)
 MATCH (child:TOPIC)
-WHERE parent.name = "topic.BEAUTY" AND child.name = "topic.MUSIC"
-MERGE (parent)-[:HAS_CHILD {name: "edge.BEAUTY->MUSIC"}]->(child);
+WHERE parent.name = "topic.MUSICOLOGY" AND child.name = "topic.MUSIC"
+MERGE (parent)-[:HAS_CHILD {name: "edge.MUSICOLOGY->MUSIC"}]->(child);
 ```

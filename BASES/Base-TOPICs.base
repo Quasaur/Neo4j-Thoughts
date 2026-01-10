@@ -13,6 +13,8 @@ views:
       - parent
       - type
     sort:
+      - property: name
+        direction: ASC
       - property: neo4j
         direction: ASC
       - property: level

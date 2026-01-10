@@ -10,6 +10,7 @@ tags:
 - empower
 - anointing
 neo4j: true
+ptopic: "[[topic-CREATION]]"
 level: 3
 ---
 

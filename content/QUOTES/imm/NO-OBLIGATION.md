@@ -10,6 +10,7 @@ tags:
 - leniency
 - evil
 neo4j: true
+ptopic: "[[topic-MERCY]]"
 level: 5
 ---
 

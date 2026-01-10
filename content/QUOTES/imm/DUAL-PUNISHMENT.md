@@ -10,6 +10,7 @@ tags:
 - substitute
 - sacrifice
 neo4j: true
+ptopic: "[[topic-JUSTICE]]"
 level: 5
 ---
 

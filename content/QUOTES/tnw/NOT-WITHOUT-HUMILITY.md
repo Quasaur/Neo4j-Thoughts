@@ -10,6 +10,7 @@ tags:
 - essential
 - heart
 neo4j: true
+ptopic: "[[topic-ATTITUDE]]"
 level: 3
 ---
 

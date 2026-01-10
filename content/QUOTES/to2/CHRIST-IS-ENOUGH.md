@@ -10,6 +10,7 @@ tags:
 - salvation
 - redemption
 neo4j: true
+ptopic: "[[topic-GRACE]]"
 level: 3
 ---
 

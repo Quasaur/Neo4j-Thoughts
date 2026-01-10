@@ -1,17 +1,18 @@
 ---
-name: "thought.BACH AND GENIUS"
+name: thought.BACH AND GENIUS
 alias: "Thought: Gift of Genius"
 type: THOUGHT
 tags:
-- bach
-- genius
-- music
-- gift
-- transcendence
-en_content: "Johann Sebastian Bach is one of those rare souls whose gifts transcend all genius!"
+  - bach
+  - genius
+  - music
+  - gift
+  - transcendence
+en_content: Johann Sebastian Bach is one of those rare souls whose gifts transcend all genius!
 parent: topic.MUSIC
 level: 6
 neo4j: true
+ptopic: '"[[topic-MUSICOLOGY]]"'
 insert: true
 ---
 

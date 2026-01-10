@@ -12,6 +12,7 @@ en_content: "Our egos are so massive...we're always trying to fit God into our p
 parent: topic.HUMILITY
 level: 4
 neo4j: true
+ptopic: 
 insert: true
 ---
 

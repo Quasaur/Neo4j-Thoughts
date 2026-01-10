@@ -10,6 +10,7 @@ tags:
 - torn
 - land
 neo4j: true
+ptopic: "[[topic-EVIL]]"
 level: 4
 ---
 ```Cypher

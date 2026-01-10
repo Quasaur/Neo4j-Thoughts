@@ -10,6 +10,7 @@ tags:
 - value
 - precious
 neo4j: true
+ptopic: "[[topic-THE-GOSPEL]]"
 level: 2
 ---
 

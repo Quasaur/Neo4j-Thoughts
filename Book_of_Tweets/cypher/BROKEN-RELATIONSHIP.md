@@ -12,6 +12,7 @@ en_content: "A relationship with Christ that does not bear fruit in submission, 
 parent: topic.WORSHIP
 level: 3
 neo4j: true
+ptopic: 
 insert: true
 ---
 

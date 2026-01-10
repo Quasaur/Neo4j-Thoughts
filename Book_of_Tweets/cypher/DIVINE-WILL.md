@@ -12,6 +12,7 @@ en_content: "Do you really believe that God has EVER done something He didn't wa
 parent: topic.DIVINE-SOVEREIGNTY
 level: 2
 neo4j: true
+ptopic: 
 insert: true
 ---
 

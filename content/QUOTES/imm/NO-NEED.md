@@ -10,6 +10,7 @@ tags:
 - money
 - wisdom
 neo4j: true
+ptopic: "[[topic-WEALTH]]"
 level: 3
 ---
 

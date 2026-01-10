@@ -10,6 +10,7 @@ tags:
 - collecting
 - counsel
 neo4j: true
+ptopic: "[[topic-UNDERSTANDING]]"
 level: 3
 ---
 ```Cypher

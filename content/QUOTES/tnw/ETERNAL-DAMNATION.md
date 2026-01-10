@@ -10,6 +10,7 @@ tags:
 - torment
 - breathless
 neo4j: true
+ptopic: "[[topic-APOCALYPSE]]"
 level: 5
 ---
 

@@ -10,6 +10,7 @@ tags:
 - ritual
 - superstition
 neo4j: true
+ptopic: "[[topic-MORALITY]]"
 level: 4
 ---
 

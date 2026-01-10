@@ -10,6 +10,7 @@ tags:
 - treeoflife
 - peace
 neo4j: true
+ptopic: "[[topic-WISDOM]]"
 level: 3
 ---
 ```Cypher

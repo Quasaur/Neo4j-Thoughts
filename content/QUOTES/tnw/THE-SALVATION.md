@@ -10,6 +10,7 @@ tags:
 - truth
 - jesuschrist
 neo4j: true
+ptopic: "[[topic-THE-GOSPEL]]"
 level: 2
 ---
 
