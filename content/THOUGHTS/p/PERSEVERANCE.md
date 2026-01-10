@@ -1,34 +1,41 @@
 ---
-title: "Thought: PERSEVERANCE"
-draft: false
+name: thought.PERSEVERANCE
+alias: "Thought: PERSEVERANCE"
 type: THOUGHT
-mling: false
+parent: topic.ATTITUDE
 tags:
 - persistence
 - failure
 - quitting
 - consequence
 - success
-aliases:
-- "Thought: Never Give Up!"
+neo4j: true
 ptopic: "[[topic-ATTITUDE]]"
 level: 3
-neo4j: true
 ---
-# Thought: PERSEVERANCE
-> [!Thought-en]
-> Failure is assured to the one who stops trying.
 
-## Dataview
+```Cypher
+CREATE (t:THOUGHT {
+    name: "thought.PERSEVERANCE",
+    alias: "Thought: PERSEVERANCE",
+    parent: "topic.ATTITUDE",
+    tags: ["persistence", "failure", "quitting", "consequence", "success"],
+    level: 3
+});
 
-> [!Thought-es]
-> El fracaso está asegurado para quien deja de intentarlo.
+CREATE (c:CONTENT {
+    name: "content.PERSEVERANCE",
+    en_title: "PERSEVERANCE",
+    en_content: ""
+});
 
-> [!Thought-fr]
-> L'échec est assuré à celui qui cesse d'essayer.
+MATCH (t:THOUGHT)
+MATCH (c:CONTENT)
+WHERE t.name = "thought.PERSEVERANCE" AND c.name = "content.PERSEVERANCE"
+MERGE (t)-[:HAS_CONTENT {name: "edge.PERSEVERANCE"}]->(c);
 
-> [!Thought-hi]
-> जो प्रयास करना बंद कर देता है, उसकी असफलता निश्चित है।
-
-> [!Thought-zh]
-> duì yú tíng zhǐ cháng shì de rén lái shuō ， shī bài shì zhù dìng de 。
+MATCH (parent:TOPIC)
+MATCH (child:THOUGHT)
+WHERE parent.name = "topic.ATTITUDE" AND child.name = "thought.PERSEVERANCE"
+MERGE (parent)-[:HAS_THOUGHT {name: "edge.ATTITUDE->PERSEVERANCE"}]->(child);
+```

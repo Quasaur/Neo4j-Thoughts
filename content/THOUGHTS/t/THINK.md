@@ -1,47 +1,41 @@
 ---
-title: "Thought: THINK"
-draft: false
+name: thought.THINK
+alias: "Thought: THINK"
 type: THOUGHT
-mling: true
+parent: topic.PSYCHOLOGY
 tags:
 - think
 - howto
 - cognition
 - critical
 - logic
+neo4j: true
 ptopic: "[[topic-PSYCHOLOGY]]"
 level: 4
-neo4j: true
 ---
-# Thought: THINK
-> [!Thought-en]
-> Do you think that you know how to think?
 
->[!Pensamiento-es]
->¿Crees que sabes pensar?
+```Cypher
+CREATE (t:THOUGHT {
+    name: "thought.THINK",
+    alias: "Thought: THINK",
+    parent: "topic.PSYCHOLOGY",
+    tags: ["think", "howto", "cognition", "critical", "logic"],
+    level: 4
+});
 
->[!Pensée-fr]
->Pensez-vous que vous savez comment penser ?
+CREATE (c:CONTENT {
+    name: "content.THINK",
+    en_title: "THINK",
+    en_content: ""
+});
 
->[!सोचा-hi]
-> 你认为你知道如何思考吗？
+MATCH (t:THOUGHT)
+MATCH (c:CONTENT)
+WHERE t.name = "thought.THINK" AND c.name = "content.THINK"
+MERGE (t)-[:HAS_CONTENT {name: "edge.THINK"}]->(c);
 
->[!思考-zh]
-> 你认为你知道如何思考吗？
-
-
-
-## Dataview
-alias:: "Thought: Critical Thinking"
-
-> [!Thought-es]
-> ¿Crees que sabes pensar?
-
-> [!Thought-fr]
-> Pensez-vous que vous savez penser ?
-
-> [!Thought-hi]
-> क्या आपको लगता है कि आप सोचना जानते हैं?
-
-> [!Thought-zh]
-> nǐ rèn wéi nǐ zhī dào rú hé sī kǎo ma ？
+MATCH (parent:TOPIC)
+MATCH (child:THOUGHT)
+WHERE parent.name = "topic.PSYCHOLOGY" AND child.name = "thought.THINK"
+MERGE (parent)-[:HAS_THOUGHT {name: "edge.PSYCHOLOGY->THINK"}]->(child);
+```

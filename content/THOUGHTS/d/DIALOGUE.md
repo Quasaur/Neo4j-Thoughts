@@ -1,34 +1,41 @@
 ---
-title: "Thought: DIALOGUE"
-draft: false
+name: thought.DIALOGUE
+alias: "Thought: DIALOGUE"
 type: THOUGHT
-mling: false
+parent: topic.EVIL
 tags:
 - devil
 - ego
 - slave
 - sin
 - tongue
-aliases:
-- "Thought: Don't Talk with The Devil"
+neo4j: true
 ptopic: "[[topic-EVIL]]"
 level: 4
-neo4j: true
 ---
-# Thought: DIALOGUE
-> [!Thought-en]
-> Arguing with the Devil is extremely dangerous because far too often we share his point of view.
 
-## Dataview
+```Cypher
+CREATE (t:THOUGHT {
+    name: "thought.DIALOGUE",
+    alias: "Thought: DIALOGUE",
+    parent: "topic.EVIL",
+    tags: ["devil", "ego", "slave", "sin", "tongue"],
+    level: 4
+});
 
-> [!Thought-es]
-> Discutir con el Diablo es extremadamente peligroso porque con demasiada frecuencia compartimos su punto de vista.
+CREATE (c:CONTENT {
+    name: "content.DIALOGUE",
+    en_title: "DIALOGUE",
+    en_content: ""
+});
 
-> [!Thought-fr]
-> Discuter avec le Diable est extrêmement dangereux car bien trop souvent nous partageons son point de vue.
+MATCH (t:THOUGHT)
+MATCH (c:CONTENT)
+WHERE t.name = "thought.DIALOGUE" AND c.name = "content.DIALOGUE"
+MERGE (t)-[:HAS_CONTENT {name: "edge.DIALOGUE"}]->(c);
 
-> [!Thought-hi]
-> शैतान के साथ बहस करना बेहद खतरनाक है क्योंकि अक्सर हम उसका दृष्टिकोण साझा करते हैं।
-
-> [!Thought-zh]
-> yǔ mó guǐ zhēng lùn shì jí qí wēi xiǎn de ， yīn wèi wǒ men cháng cháng tóng yì tā de guān diǎn 。
+MATCH (parent:TOPIC)
+MATCH (child:THOUGHT)
+WHERE parent.name = "topic.EVIL" AND child.name = "thought.DIALOGUE"
+MERGE (parent)-[:HAS_THOUGHT {name: "edge.EVIL->DIALOGUE"}]->(child);
+```

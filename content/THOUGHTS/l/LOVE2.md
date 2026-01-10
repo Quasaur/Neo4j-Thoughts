@@ -1,35 +1,41 @@
 ---
-title: "Thought: LOVE 2"
-draft: false
+name: thought.LOVE2
+alias: "Thought: LOVE 2"
 type: THOUGHT
-mling: false
+parent: topic.LOVE
 tags:
 - love
 - sacrificial
 - give
 - selfless
 - cause
-aliases: 
-- "Thought: The Greater Cause"
-- "Thought: Unconditional Love"
+neo4j: true
 ptopic: "[[topic-LOVE]]"
 level: 2
-neo4j: true
 ---
-# Thought: LOVE 2
-> [!Thought-en]
-> What drives you to give yourself to a cause bigger than you? LOVE.
 
-## Dataview
+```Cypher
+CREATE (t:THOUGHT {
+    name: "thought.LOVE2",
+    alias: "Thought: LOVE 2",
+    parent: "topic.LOVE",
+    tags: ["love", "sacrificial", "give", "selfless", "cause"],
+    level: 2
+});
 
-> [!Thought-es]
-> ¿Qué te impulsa a entregarte a una causa más grande que tú? AMAR.
+CREATE (c:CONTENT {
+    name: "content.LOVE2",
+    en_title: "LOVE 2",
+    en_content: ""
+});
 
-> [!Thought-fr]
-> Qu’est-ce qui vous pousse à vous consacrer à une cause plus grande que vous ? AMOUR.
+MATCH (t:THOUGHT)
+MATCH (c:CONTENT)
+WHERE t.name = "thought.LOVE2" AND c.name = "content.LOVE2"
+MERGE (t)-[:HAS_CONTENT {name: "edge.LOVE2"}]->(c);
 
-> [!Thought-hi]
-> कौन सी चीज़ आपको अपने आप को अपने से बड़े उद्देश्य के लिए समर्पित करने के लिए प्रेरित करती है? प्यार।
-
-> [!Thought-zh]
-> shì shén me qū shǐ nǐ quán shēn xīn tóu rù dào bǐ nǐ gèng wěi dà de shì yè zhōng ？ ài 。
+MATCH (parent:TOPIC)
+MATCH (child:THOUGHT)
+WHERE parent.name = "topic.LOVE" AND child.name = "thought.LOVE2"
+MERGE (parent)-[:HAS_THOUGHT {name: "edge.LOVE->LOVE2"}]->(child);
+```

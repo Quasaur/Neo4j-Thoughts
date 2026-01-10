@@ -1,35 +1,41 @@
 ---
-title: "Thought: GNOSIS"
-draft: false
+name: thought.GNOSIS
+alias: "Thought: GNOSIS"
 type: THOUGHT
-mling: false
+parent: topic.FAITH
 tags:
 - gnosis
 - faith
 - immortality
 - knowledge
-- believe 
-aliases:
-- "Thought: Knowledge"
-- "Thought: Understanding"
+- believe
+neo4j: true
 ptopic: "[[topic-FAITH]]"
 level: 4
-neo4j: true
 ---
-# Thought: GNOSIS
-> [!Thought-en]
-> The Knowledge that brings IMMORTALITY is not hidden…it’s just incredibly difficult to BELIEVE (in the Biblical sense)!
 
-## Dataview
+```Cypher
+CREATE (t:THOUGHT {
+    name: "thought.GNOSIS",
+    alias: "Thought: GNOSIS",
+    parent: "topic.FAITH",
+    tags: ["gnosis", "faith", "immortality", "knowledge", "believe"],
+    level: 4
+});
 
-> [!Thought-es]
-> El Conocimiento que trae la INMORTALIDAD no está oculto... ¡es simplemente increíblemente difícil de CREER (en el sentido bíblico)!
+CREATE (c:CONTENT {
+    name: "content.GNOSIS",
+    en_title: "GNOSIS",
+    en_content: ""
+});
 
-> [!Thought-fr]
-> La Connaissance qui apporte l’IMMORTALITÉ n’est pas cachée… c’est juste incroyablement difficile à CROIRE (au sens biblique) !
+MATCH (t:THOUGHT)
+MATCH (c:CONTENT)
+WHERE t.name = "thought.GNOSIS" AND c.name = "content.GNOSIS"
+MERGE (t)-[:HAS_CONTENT {name: "edge.GNOSIS"}]->(c);
 
-> [!Thought-hi]
-> वह ज्ञान जो अमरता लाता है, छिपा नहीं है...इस पर विश्वास करना अविश्वसनीय रूप से कठिन है (बाइबिल के अर्थ में)!
-
-> [!Thought-zh]
-> dài lái bù xiǔ de zhī shí bìng bú shì yǐn cáng de …… zhǐ shì nán yǐ zhì xìn dì nán yǐ xiāng xìn （ zài shèng jīng yì yì shàng ）！
+MATCH (parent:TOPIC)
+MATCH (child:THOUGHT)
+WHERE parent.name = "topic.FAITH" AND child.name = "thought.GNOSIS"
+MERGE (parent)-[:HAS_THOUGHT {name: "edge.FAITH->GNOSIS"}]->(child);
+```

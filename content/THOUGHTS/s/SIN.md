@@ -1,35 +1,41 @@
 ---
-title: "Thought: SIN"
-draft: false
+name: thought.SIN
+alias: "Thought: SIN"
 type: THOUGHT
-mling: false
+parent: topic.GRACE
 tags:
 - grace
 - gospel
 - love
 - power
 - jesuschrist
-aliases:
-- "Thought: Broken Chains'
-- "Thought: Released from Prison"
+neo4j: true
 ptopic: "[[topic-GRACE]]"
 level: 3
-neo4j: true
 ---
-# Thought: SIN
-> [!Thought-en]
-> Grace is not GOD being weak towards Sin; Grace is GOD making you Stronger than sin!
 
-## Dataview
+```Cypher
+CREATE (t:THOUGHT {
+    name: "thought.SIN",
+    alias: "Thought: SIN",
+    parent: "topic.GRACE",
+    tags: ["grace", "gospel", "love", "power", "jesuschrist"],
+    level: 3
+});
 
-> [!Thought-es]
-> La gracia no es que DIOS sea débil ante el pecado; ¡La gracia es DIOS haciéndote más fuerte que el pecado!
+CREATE (c:CONTENT {
+    name: "content.SIN",
+    en_title: "SIN",
+    en_content: ""
+});
 
-> [!Thought-fr]
-> La grâce n’est pas que DIEU soit faible envers le péché ; La grâce, c'est DIEU qui vous rend plus fort que le péché !
+MATCH (t:THOUGHT)
+MATCH (c:CONTENT)
+WHERE t.name = "thought.SIN" AND c.name = "content.SIN"
+MERGE (t)-[:HAS_CONTENT {name: "edge.SIN"}]->(c);
 
-> [!Thought-hi]
-> पाप के प्रति ईश्वर का कमजोर होना अनुग्रह नहीं है; ईश्वर की कृपा ही आपको पाप से अधिक मजबूत बनाती है!
-
-> [!Thought-zh]
-> ēn diǎn bú shì shén duì zuì de ruǎn ruò ； ér shì shén duì zuì de ruǎn ruò 。 ēn diǎn shì shén ràng nǐ bǐ zuì gèng qiáng dà ！
+MATCH (parent:TOPIC)
+MATCH (child:THOUGHT)
+WHERE parent.name = "topic.GRACE" AND child.name = "thought.SIN"
+MERGE (parent)-[:HAS_THOUGHT {name: "edge.GRACE->SIN"}]->(child);
+```

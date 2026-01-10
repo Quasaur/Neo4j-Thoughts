@@ -1,35 +1,41 @@
 ---
-title: "Thought: REPARATIONS"
-draft: false
+name: thought.REPARATIONS
+alias: "Thought: REPARATIONS"
 type: THOUGHT
-mling: false
+parent: topic.JUSTICE
 tags:
 - reparations
 - slavery
 - blackamericans
 - compensation
 - justice
-aliases:
-- "Thought: Broken Promises"
-- "Thought: Slavery Compensation"
+neo4j: true
 ptopic: "[[topic-JUSTICE]]"
 level: 5
-neo4j: true
 ---
-# Thought: REPARATIONS
-> [!Thought-en]
-> Reasonable reparations to the descendants of black slaves: those descendants should be FEDERAL & STATE TAX-EXEMPT.
 
-## Dataview
+```Cypher
+CREATE (t:THOUGHT {
+    name: "thought.REPARATIONS",
+    alias: "Thought: REPARATIONS",
+    parent: "topic.JUSTICE",
+    tags: ["reparations", "slavery", "blackamericans", "compensation", "justice"],
+    level: 5
+});
 
-> [!Thought-es]
-> Reparaciones razonables a los descendientes de esclavos negros: esos descendientes deben estar EXENTOS DE IMPUESTOS FEDERALES Y ESTATALES.
+CREATE (c:CONTENT {
+    name: "content.REPARATIONS",
+    en_title: "REPARATIONS",
+    en_content: ""
+});
 
-> [!Thought-fr]
-> Réparations raisonnables aux descendants d’esclaves noirs : ces descendants devraient être EXEMPTÉS D’IMPÔTS FÉDÉRAUX ET D’ÉTAT.
+MATCH (t:THOUGHT)
+MATCH (c:CONTENT)
+WHERE t.name = "thought.REPARATIONS" AND c.name = "content.REPARATIONS"
+MERGE (t)-[:HAS_CONTENT {name: "edge.REPARATIONS"}]->(c);
 
-> [!Thought-hi]
-> काले दासों के वंशजों को उचित मुआवज़ा: उन वंशजों को संघीय और राज्य कर-मुक्त होना चाहिए।
-
-> [!Thought-zh]
-> duì hēi rén nú lì de hòu dài de hé lǐ péi cháng ： zhè xiē hòu dài yīng gāi xiǎng shòu lián bāng hé zhōu miǎn shuì 。
+MATCH (parent:TOPIC)
+MATCH (child:THOUGHT)
+WHERE parent.name = "topic.JUSTICE" AND child.name = "thought.REPARATIONS"
+MERGE (parent)-[:HAS_THOUGHT {name: "edge.JUSTICE->REPARATIONS"}]->(child);
+```

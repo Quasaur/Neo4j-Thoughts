@@ -1,38 +1,41 @@
 ---
-title: "Thought: WHY"
-draft: false
+name: thought.WHY
+alias: "Thought: WHY"
 type: THOUGHT
-mling: false
+parent: topic.PSYCHOLOGY
 tags:
 - children
 - adults
 - demanded
 - cause
 - why
+neo4j: true
 ptopic: "[[topic-PSYCHOLOGY]]"
 level: 4
-neo4j: true
 ---
-# Thought: WHY
-> [!Thought-en]
-> What is often overlooked by children but frequently demanded by grown-ups?
-> An explanation.
 
-## Dataview
-alias:: "Thought: An Explanation"
+```Cypher
+CREATE (t:THOUGHT {
+    name: "thought.WHY",
+    alias: "Thought: WHY",
+    parent: "topic.PSYCHOLOGY",
+    tags: ["children", "adults", "demanded", "cause", "why"],
+    level: 4
+});
 
-> [!Thought-es]
-> ¿Qué es lo que los niños suelen pasar por alto pero que los adultos exigen con frecuencia?
-Una explicación.
+CREATE (c:CONTENT {
+    name: "content.WHY",
+    en_title: "WHY",
+    en_content: ""
+});
 
-> [!Thought-fr]
-> Qu'est-ce qui est souvent négligé par les enfants mais fréquemment exigé par les adultes ?
-Une explication.
+MATCH (t:THOUGHT)
+MATCH (c:CONTENT)
+WHERE t.name = "thought.WHY" AND c.name = "content.WHY"
+MERGE (t)-[:HAS_CONTENT {name: "edge.WHY"}]->(c);
 
-> [!Thought-hi]
-> वह कौन सी चीज़ है जिसे अक्सर बच्चे नज़रअंदाज़ कर देते हैं लेकिन बड़े लोग अक्सर उसकी मांग करते हैं?
-एक स्पष्टीकरण.
-
-> [!Thought-zh]
-> shén me shì hái zi men cháng cháng hū shì dàn dà rén cháng cháng yāo qiú de ？
- yí gè jiě shì 。
+MATCH (parent:TOPIC)
+MATCH (child:THOUGHT)
+WHERE parent.name = "topic.PSYCHOLOGY" AND child.name = "thought.WHY"
+MERGE (parent)-[:HAS_THOUGHT {name: "edge.PSYCHOLOGY->WHY"}]->(child);
+```

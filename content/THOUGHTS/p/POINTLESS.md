@@ -1,35 +1,41 @@
 ---
-title: "Thought: POINTLESS"
-draft: false
+name: thought.POINTLESS
+alias: "Thought: POINTLESS"
 type: THOUGHT
-mling: false
+parent: topic.DIVINE-SOVEREIGNTY
 tags:
 - pointless
 - purpose
 - meaning
 - god
 - sovereignty
-aliases:
-- "Thought: Absence of Purpose"
-- "Thought: Meaninglessness"
+neo4j: true
 ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
 level: 2
-neo4j: true
 ---
-# Thought: POINTLESS
-> [!Thought-en]
->  A God-less life is truly pointless.
 
-## Dataview
+```Cypher
+CREATE (t:THOUGHT {
+    name: "thought.POINTLESS",
+    alias: "Thought: POINTLESS",
+    parent: "topic.DIVINE-SOVEREIGNTY",
+    tags: ["pointless", "purpose", "meaning", "god", "sovereignty"],
+    level: 2
+});
 
-> [!Thought-es]
-> Una vida sin Dios es verdaderamente inútil.
+CREATE (c:CONTENT {
+    name: "content.POINTLESS",
+    en_title: "POINTLESS",
+    en_content: ""
+});
 
-> [!Thought-fr]
-> Une vie sans Dieu est vraiment inutile.
+MATCH (t:THOUGHT)
+MATCH (c:CONTENT)
+WHERE t.name = "thought.POINTLESS" AND c.name = "content.POINTLESS"
+MERGE (t)-[:HAS_CONTENT {name: "edge.POINTLESS"}]->(c);
 
-> [!Thought-hi]
-> ईश्वर-विहीन जीवन वास्तव में व्यर्थ है।
-
-> [!Thought-zh]
-> méi yǒu shén de shēng huó què shí háo wú yì yì 。
+MATCH (parent:TOPIC)
+MATCH (child:THOUGHT)
+WHERE parent.name = "topic.DIVINE-SOVEREIGNTY" AND child.name = "thought.POINTLESS"
+MERGE (parent)-[:HAS_THOUGHT {name: "edge.DIVINE-SOVEREIGNTY->POINTLESS"}]->(child);
+```

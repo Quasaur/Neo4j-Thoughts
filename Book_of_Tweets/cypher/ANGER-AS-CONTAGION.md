@@ -1,18 +1,18 @@
 ---
-name: "thought.ANGER AS CONTAGION"
+name: thought.ANGER AS CONTAGION
 alias: "Thought: Anger As Contagion"
 type: THOUGHT
-en_content: "Anger is a contagion that easily leaps from soul to soul where there is an absence of reason."
-parent: "topic.ATTITUDE"
+en_content: Anger is a contagion that easily leaps from soul to soul where there is an absence of reason.
+parent: topic.ATTITUDE
 tags:
-- anger
-- reason
-- soul
-- attitude
-- character
+  - anger
+  - reason
+  - soul
+  - attitude
+  - character
 level: 2
 neo4j: true
-ptopic: 
+ptopic: "[[topic-ATTITUDE]]"
 insert: true
 ---
 

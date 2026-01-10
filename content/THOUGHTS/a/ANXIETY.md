@@ -1,35 +1,41 @@
 ---
-title: "Thought: ANXIETY"
-draft: false
+name: thought.ANXIETY
+alias: "Thought: ANXIETY"
 type: THOUGHT
-mling: false
+parent: topic.FAITH
 tags:
 - peace
 - faith
 - carefree
 - confident
 - trust
-aliases:
-- "Thought: Fear"
-- "Thought: Worry"
+neo4j: true
 ptopic: "[[topic-FAITH]]"
 level: 4
-neo4j: true
 ---
-# Thought: ANXIETY
-> [!Thought-en]
-> Don't worry...be obedient in faith!
 
-## Dataview
+```Cypher
+CREATE (t:THOUGHT {
+    name: "thought.ANXIETY",
+    alias: "Thought: ANXIETY",
+    parent: "topic.FAITH",
+    tags: ["peace", "faith", "carefree", "confident", "trust"],
+    level: 4
+});
 
-> [!Thought-es]
-> No te preocupes... ¡sé obediente en la fe!
+CREATE (c:CONTENT {
+    name: "content.ANXIETY",
+    en_title: "ANXIETY",
+    en_content: ""
+});
 
-> [!Thought-fr]
-> Ne vous inquiétez pas... soyez obéissant dans la foi !
+MATCH (t:THOUGHT)
+MATCH (c:CONTENT)
+WHERE t.name = "thought.ANXIETY" AND c.name = "content.ANXIETY"
+MERGE (t)-[:HAS_CONTENT {name: "edge.ANXIETY"}]->(c);
 
-> [!Thought-hi]
-> चिंता मत करो...विश्वास में आज्ञाकारी बनो!
-
-> [!Thought-zh]
-> bié dān xīn ... yào píng xìn xīn shùn fú ！
+MATCH (parent:TOPIC)
+MATCH (child:THOUGHT)
+WHERE parent.name = "topic.FAITH" AND child.name = "thought.ANXIETY"
+MERGE (parent)-[:HAS_THOUGHT {name: "edge.FAITH->ANXIETY"}]->(child);
+```

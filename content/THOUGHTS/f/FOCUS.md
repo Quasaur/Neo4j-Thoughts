@@ -1,32 +1,41 @@
 ---
-title: "Thought: FOCUS"
-draft: false
+name: thought.FOCUS
+alias: "Thought: FOCUS"
 type: THOUGHT
-mling: false
+parent: topic.PSYCHOLOGY
 tags:
 - focus
 - crisis
 - forward
 - criticalthinking
 - faith
+neo4j: true
 ptopic: "[[topic-PSYCHOLOGY]]"
 level: 4
-neo4j: true
 ---
-# Thought: FOCUS
-> [!Thought-en]
-> When your back is against the wall, you don't have to look behind you.
 
-## Dataview
+```Cypher
+CREATE (t:THOUGHT {
+    name: "thought.FOCUS",
+    alias: "Thought: FOCUS",
+    parent: "topic.PSYCHOLOGY",
+    tags: ["focus", "crisis", "forward", "criticalthinking", "faith"],
+    level: 4
+});
 
-> [!Thought-es]
-> Cuando tu espalda está contra la pared, no tienes que mirar hacia atrás.
+CREATE (c:CONTENT {
+    name: "content.FOCUS",
+    en_title: "FOCUS",
+    en_content: ""
+});
 
-> [!Thought-fr]
-> Lorsque vous êtes dos au mur, vous n’avez pas besoin de regarder derrière vous.
+MATCH (t:THOUGHT)
+MATCH (c:CONTENT)
+WHERE t.name = "thought.FOCUS" AND c.name = "content.FOCUS"
+MERGE (t)-[:HAS_CONTENT {name: "edge.FOCUS"}]->(c);
 
-> [!Thought-hi]
-> जब आपकी पीठ दीवार से सटी हो तो आपको पीछे देखने की जरूरत नहीं है।
-
-> [!Thought-zh]
-> dāng nǐ bèi kào qiáng shí ， nǐ bù bì xiàng hòu kàn 。
+MATCH (parent:TOPIC)
+MATCH (child:THOUGHT)
+WHERE parent.name = "topic.PSYCHOLOGY" AND child.name = "thought.FOCUS"
+MERGE (parent)-[:HAS_THOUGHT {name: "edge.PSYCHOLOGY->FOCUS"}]->(child);
+```

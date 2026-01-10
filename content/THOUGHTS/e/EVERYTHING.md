@@ -1,34 +1,41 @@
 ---
-title: "Thought: EVERYTHING"
-draft: false
+name: thought.EVERYTHING
+alias: "Thought: EVERYTHING"
 type: THOUGHT
-mling: false
+parent: topic.CREATION
 tags:
 - god
 - creator
 - all
 - kingdom
 - cosmos
-aliases:
-- "Thought: Creation: God's Act of Humility"
+neo4j: true
 ptopic: "[[topic-CREATION]]"
 level: 2
-neo4j: true
 ---
-# Thought: EVERYTHING
-> [!Thought-en]
-> It was the supreme Act of Humility for God, Who doesn't need anything, to create everything!
 
-## Dataview
+```Cypher
+CREATE (t:THOUGHT {
+    name: "thought.EVERYTHING",
+    alias: "Thought: EVERYTHING",
+    parent: "topic.CREATION",
+    tags: ["god", "creator", "all", "kingdom", "cosmos"],
+    level: 2
+});
 
-> [!Thought-es]
-> ¡Fue el Acto supremo de Humildad para Dios, que no necesita nada, para crearlo todo!
+CREATE (c:CONTENT {
+    name: "content.EVERYTHING",
+    en_title: "EVERYTHING",
+    en_content: ""
+});
 
-> [!Thought-fr]
-> C'était l'acte suprême d'humilité pour Dieu, qui n'a besoin de rien, pour tout créer !
+MATCH (t:THOUGHT)
+MATCH (c:CONTENT)
+WHERE t.name = "thought.EVERYTHING" AND c.name = "content.EVERYTHING"
+MERGE (t)-[:HAS_CONTENT {name: "edge.EVERYTHING"}]->(c);
 
-> [!Thought-hi]
-> यह ईश्वर के लिए विनम्रता का सर्वोच्च कार्य था, जिसे सब कुछ बनाने के लिए किसी चीज़ की आवश्यकता नहीं है!
-
-> [!Thought-zh]
-> zhè shì shàng dì zuì gāo de qiān bēi xíng wéi ， tā bù xū yào rèn hé dōng xī ， jiù chuàng zào le yī qiè ！
+MATCH (parent:TOPIC)
+MATCH (child:THOUGHT)
+WHERE parent.name = "topic.CREATION" AND child.name = "thought.EVERYTHING"
+MERGE (parent)-[:HAS_THOUGHT {name: "edge.CREATION->EVERYTHING"}]->(child);
+```

@@ -1,33 +1,41 @@
 ---
-title: "Thought: ENDING"
-draft: false
+name: thought.ENDING
+alias: "Thought: ENDING"
 type: THOUGHT
-mling: false
+parent: topic.APOCALYPSE
 tags:
 - ending
 - bible
 - apocalypse
 - judgment
 - newjerusalem
+neo4j: true
 ptopic: "[[topic-APOCALYPSE]]"
 level: 5
-neo4j: true
 ---
-# Thought: ENDING
-> [!Thought-en]
-> The Bible goes into far more detail regarding how the world will end than how the world began.
 
-## Dataview
-alias:: "Thought: End of the World"
+```Cypher
+CREATE (t:THOUGHT {
+    name: "thought.ENDING",
+    alias: "Thought: ENDING",
+    parent: "topic.APOCALYPSE",
+    tags: ["ending", "bible", "apocalypse", "judgment", "newjerusalem"],
+    level: 5
+});
 
-> [!Thought-es]
-> La Biblia entra en muchos más detalles sobre cómo terminará el mundo que cómo comenzó.
+CREATE (c:CONTENT {
+    name: "content.ENDING",
+    en_title: "ENDING",
+    en_content: ""
+});
 
-> [!Thought-fr]
-> La Bible donne beaucoup plus de détails sur la façon dont le monde finira que sur la façon dont le monde a commencé.
+MATCH (t:THOUGHT)
+MATCH (c:CONTENT)
+WHERE t.name = "thought.ENDING" AND c.name = "content.ENDING"
+MERGE (t)-[:HAS_CONTENT {name: "edge.ENDING"}]->(c);
 
-> [!Thought-hi]
-> दुनिया कैसे शुरू हुई इसकी तुलना में बाइबल इस बारे में कहीं अधिक विस्तार से बताती है कि दुनिया का अंत कैसे होगा।
-
-> [!Thought-zh]
-> shèng jīng duì shì jiè rú hé jié shù de miáo shù bǐ shì jiè rú hé kāi shǐ gèng jiā xiáng xì 。
+MATCH (parent:TOPIC)
+MATCH (child:THOUGHT)
+WHERE parent.name = "topic.APOCALYPSE" AND child.name = "thought.ENDING"
+MERGE (parent)-[:HAS_THOUGHT {name: "edge.APOCALYPSE->ENDING"}]->(child);
+```

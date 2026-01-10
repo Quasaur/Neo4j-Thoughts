@@ -1,35 +1,41 @@
 ---
-title: "Thought: CONTENTMENT"
-draft: false
+name: thought.CONTENTMENT
+alias: "Thought: CONTENTMENT"
 type: THOUGHT
-mling: false
+parent: topic.ATTITUDE
 tags:
 - contentment
 - acceptance
 - carefree
 - failure
 - faith
-aliases:
-- "Thought: Acceptance"
-- "Thought: Carefree"
+neo4j: true
 ptopic: "[[topic-ATTITUDE]]"
 level: 3
-neo4j: true
 ---
-# Thought: CONTENTMENT
-> [!Thought-en]
-> I play my best chess when i don’t care about winning…or rather, when I have no anxiety over making mistakes.
 
-## Dataview
+```Cypher
+CREATE (t:THOUGHT {
+    name: "thought.CONTENTMENT",
+    alias: "Thought: CONTENTMENT",
+    parent: "topic.ATTITUDE",
+    tags: ["contentment", "acceptance", "carefree", "failure", "faith"],
+    level: 3
+});
 
-> [!Thought-es]
-> Juego mi mejor ajedrez cuando no me importa ganar... o mejor dicho, cuando no tengo ansiedad por cometer errores.
+CREATE (c:CONTENT {
+    name: "content.CONTENTMENT",
+    en_title: "CONTENTMENT",
+    en_content: ""
+});
 
-> [!Thought-fr]
-> Je joue de mon mieux aux échecs quand je ne me soucie pas de gagner… ou plutôt, quand je n’ai aucune angoisse à l’idée de faire des erreurs.
+MATCH (t:THOUGHT)
+MATCH (c:CONTENT)
+WHERE t.name = "thought.CONTENTMENT" AND c.name = "content.CONTENTMENT"
+MERGE (t)-[:HAS_CONTENT {name: "edge.CONTENTMENT"}]->(c);
 
-> [!Thought-hi]
-> मैं अपना सर्वश्रेष्ठ शतरंज तब खेलता हूं जब मुझे जीत की परवाह नहीं होती... या यूँ कहें कि, जब मुझे गलतियाँ करने की कोई चिंता नहीं होती।
-
-> [!Thought-zh]
-> dāng wǒ bù guān xīn shèng lì shí ， huò zhě gèng què qiè dì shuō ， dāng wǒ bù dān xīn fàn cuò wù shí ， wǒ huì xià zuì hǎo de qí 。
+MATCH (parent:TOPIC)
+MATCH (child:THOUGHT)
+WHERE parent.name = "topic.ATTITUDE" AND child.name = "thought.CONTENTMENT"
+MERGE (parent)-[:HAS_THOUGHT {name: "edge.ATTITUDE->CONTENTMENT"}]->(child);
+```

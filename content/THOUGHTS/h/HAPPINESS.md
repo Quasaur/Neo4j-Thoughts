@@ -1,38 +1,41 @@
 ---
-title: "Thought: HAPPINESS"
-draft: false
+name: thought.HAPPINESS
+alias: "Thought: HAPPINESS"
 type: THOUGHT
-mling: false
+parent: topic.ATTITUDE
 tags:
 - happy
 - fulfilled
 - satisfied
 - delighted
 - content
+neo4j: true
 ptopic: "[[topic-ATTITUDE]]"
 level: 3
-neo4j: true
 ---
-# Thought: HAPPINESS
-> [!Thought-en]
-> HAPPINESS is not the product of doing what you want...
-> ...but of doing what is RIGHT. 
 
-## Dataview
-alias:: "Thought: Contentment"
+```Cypher
+CREATE (t:THOUGHT {
+    name: "thought.HAPPINESS",
+    alias: "Thought: HAPPINESS",
+    parent: "topic.ATTITUDE",
+    tags: ["happy", "fulfilled", "satisfied", "delighted", "content"],
+    level: 3
+});
 
-> [!Thought-es]
-> LA FELICIDAD no es producto de hacer lo que quieres...
-...sino de hacer lo CORRECTO.
+CREATE (c:CONTENT {
+    name: "content.HAPPINESS",
+    en_title: "HAPPINESS",
+    en_content: ""
+});
 
-> [!Thought-fr]
-> LE BONHEUR n'est pas le produit du fait de faire ce que l'on veut...
-... mais de faire ce qui est BIEN.
+MATCH (t:THOUGHT)
+MATCH (c:CONTENT)
+WHERE t.name = "thought.HAPPINESS" AND c.name = "content.HAPPINESS"
+MERGE (t)-[:HAS_CONTENT {name: "edge.HAPPINESS"}]->(c);
 
-> [!Thought-hi]
-> ख़ुशी वह करने का परिणाम नहीं है जो आप चाहते हैं...
-...लेकिन वही करना जो सही है।
-
-> [!Thought-zh]
-> xìng fú bú shì zuò nǐ xiǎng zuò de shì de jié guǒ ......
-... ér shì zuò zhèng què de shì 。
+MATCH (parent:TOPIC)
+MATCH (child:THOUGHT)
+WHERE parent.name = "topic.ATTITUDE" AND child.name = "thought.HAPPINESS"
+MERGE (parent)-[:HAS_THOUGHT {name: "edge.ATTITUDE->HAPPINESS"}]->(child);
+```

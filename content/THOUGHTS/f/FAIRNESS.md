@@ -1,35 +1,41 @@
 ---
-title: "Thought: FAIRNESS"
-draft: false
+name: thought.FAIRNESS
+alias: "Thought: FAIRNESS"
 type: THOUGHT
-mling: false
+parent: topic.JUSTICE
 tags:
 - justice
 - fairness
 - mercy
 - forgiveness
 - compassion
-aliases:
-- "Thought: Mercy vs Justice"
-- "Thought: Fairplay"
+neo4j: true
 ptopic: "[[topic-JUSTICE]]"
 level: 5
-neo4j: true
 ---
-# Thought: FAIRNESS
-> [!Thought-en]
-> Mercy is never fair.
 
-## Dataview
+```Cypher
+CREATE (t:THOUGHT {
+    name: "thought.FAIRNESS",
+    alias: "Thought: FAIRNESS",
+    parent: "topic.JUSTICE",
+    tags: ["justice", "fairness", "mercy", "forgiveness", "compassion"],
+    level: 5
+});
 
-> [!Thought-es]
-> La misericordia nunca es justa.
+CREATE (c:CONTENT {
+    name: "content.FAIRNESS",
+    en_title: "FAIRNESS",
+    en_content: ""
+});
 
-> [!Thought-fr]
-> La miséricorde n'est jamais juste.
+MATCH (t:THOUGHT)
+MATCH (c:CONTENT)
+WHERE t.name = "thought.FAIRNESS" AND c.name = "content.FAIRNESS"
+MERGE (t)-[:HAS_CONTENT {name: "edge.FAIRNESS"}]->(c);
 
-> [!Thought-hi]
-> दया कभी भी उचित नहीं होती.
-
-> [!Thought-zh]
-> lián mǐn cóng lái dōu bú shì gōng píng de 。
+MATCH (parent:TOPIC)
+MATCH (child:THOUGHT)
+WHERE parent.name = "topic.JUSTICE" AND child.name = "thought.FAIRNESS"
+MERGE (parent)-[:HAS_THOUGHT {name: "edge.JUSTICE->FAIRNESS"}]->(child);
+```

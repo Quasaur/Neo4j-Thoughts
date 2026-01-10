@@ -1,35 +1,41 @@
 ---
-title: "Thought: NOISE"
-draft: false
+name: thought.NOISE
+alias: "Thought: NOISE"
 type: THOUGHT
-mling: false
+parent: topic.GRACE
 tags:
 - heart
 - noise
 - voiceofgod
 - hearing
 - holyspirit
-aliases:
-- "Thought: Listening to God"
-- "Thought: Hearing God's Voice"
+neo4j: true
 ptopic: "[[topic-GRACE]]"
 level: 3
-neo4j: true
 ---
-# Thought: NOISE
-> [!Thought-en]
-> It's hard to hear the Voice of God when my heart is making so much noise!
 
-## Dataview
+```Cypher
+CREATE (t:THOUGHT {
+    name: "thought.NOISE",
+    alias: "Thought: NOISE",
+    parent: "topic.GRACE",
+    tags: ["heart", "noise", "voiceofgod", "hearing", "holyspirit"],
+    level: 3
+});
 
-> [!Thought-es]
-> ¡Es difícil escuchar la Voz de Dios cuando mi corazón hace tanto ruido!
+CREATE (c:CONTENT {
+    name: "content.NOISE",
+    en_title: "NOISE",
+    en_content: ""
+});
 
-> [!Thought-fr]
-> C'est difficile d'entendre la Voix de Dieu quand mon cœur fait autant de bruit !
+MATCH (t:THOUGHT)
+MATCH (c:CONTENT)
+WHERE t.name = "thought.NOISE" AND c.name = "content.NOISE"
+MERGE (t)-[:HAS_CONTENT {name: "edge.NOISE"}]->(c);
 
-> [!Thought-hi]
-> जब मेरा दिल इतना शोर कर रहा हो तो भगवान की आवाज़ सुनना कठिन है!
-
-> [!Thought-zh]
-> dāng wǒ de xīn fā chū rú cǐ dà de zào yīn shí ， hěn nán tīng dào shàng dì de shēng yīn ！
+MATCH (parent:TOPIC)
+MATCH (child:THOUGHT)
+WHERE parent.name = "topic.GRACE" AND child.name = "thought.NOISE"
+MERGE (parent)-[:HAS_THOUGHT {name: "edge.GRACE->NOISE"}]->(child);
+```

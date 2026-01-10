@@ -1,35 +1,41 @@
 ---
-title: "Thought: LOVE"
-draft: false
+name: thought.LOVE
+alias: "Thought: LOVE"
 type: THOUGHT
-mling: false
+parent: topic.LOVE
 tags:
 - love
 - spirit
 - attitude
 - selfless
 - generosity
-aliases: 
-- "Thought: Agape"
-- "Thought: Unconditional Love"
+neo4j: true
 ptopic: "[[topic-LOVE]]"
 level: 2
-neo4j: true
 ---
-# Thought: LOVE
-> [!Thought-en]
-> Love is so much more than just a feeling...It's a decision to treat someone as good as or better than you treat yourself!
 
-## Dataview
+```Cypher
+CREATE (t:THOUGHT {
+    name: "thought.LOVE",
+    alias: "Thought: LOVE",
+    parent: "topic.LOVE",
+    tags: ["love", "spirit", "attitude", "selfless", "generosity"],
+    level: 2
+});
 
-> [!Thought-es]
-> El amor es mucho más que un simple sentimiento... ¡Es una decisión de tratar a alguien tan bien o mejor de lo que te tratas a ti mismo!
+CREATE (c:CONTENT {
+    name: "content.LOVE",
+    en_title: "LOVE",
+    en_content: ""
+});
 
-> [!Thought-fr]
-> L'amour est bien plus qu'un simple sentiment... C'est une décision de traiter quelqu'un aussi bien, voire mieux, que vous-même !
+MATCH (t:THOUGHT)
+MATCH (c:CONTENT)
+WHERE t.name = "thought.LOVE" AND c.name = "content.LOVE"
+MERGE (t)-[:HAS_CONTENT {name: "edge.LOVE"}]->(c);
 
-> [!Thought-hi]
-> प्यार महज़ एक एहसास से कहीं ज़्यादा है...यह किसी के साथ उतना ही अच्छा या उससे बेहतर व्यवहार करने का निर्णय है जितना आप अपने साथ करते हैं!
-
-> [!Thought-zh]
-> ài bù jǐn jǐn shì yī zhǒng gǎn jué …… tā shì yí gè jué dìng ， duì dài mǒu rén jiù xiàng duì dài zì jǐ yī yàng hǎo ， shèn zhì gèng hǎo ！
+MATCH (parent:TOPIC)
+MATCH (child:THOUGHT)
+WHERE parent.name = "topic.LOVE" AND child.name = "thought.LOVE"
+MERGE (parent)-[:HAS_THOUGHT {name: "edge.LOVE->LOVE"}]->(child);
+```

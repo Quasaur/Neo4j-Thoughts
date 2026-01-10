@@ -1,35 +1,41 @@
 ---
-title: "Thought: EMPATHY"
-draft: false
+name: thought.EMPATHY
+alias: "Thought: EMPATHY"
 type: THOUGHT
-mling: false
+parent: topic.LOVE
 tags:
 - emptiness
 - void
 - hunger
 - addiction
 - spirituality
-aliases:
-- "Thought: The Void Within:
-- "Thought: The GOD-Shaped Hole"
+neo4j: true
 ptopic: "[[topic-LOVE]]"
 level: 2
-neo4j: true
 ---
-# Thought: EMPATHY
-> [!Thought-en]
-> To LOVE you, I must be as tolerant of your flaws as I am of my own.
 
-## Dataview
+```Cypher
+CREATE (t:THOUGHT {
+    name: "thought.EMPATHY",
+    alias: "Thought: EMPATHY",
+    parent: "topic.LOVE",
+    tags: ["emptiness", "void", "hunger", "addiction", "spirituality"],
+    level: 2
+});
 
-> [!Thought-es]
-> Para AMARTE, debo ser tan tolerante con tus defectos como lo soy con los míos propios.
+CREATE (c:CONTENT {
+    name: "content.EMPATHY",
+    en_title: "EMPATHY",
+    en_content: ""
+});
 
-> [!Thought-fr]
-> Pour t’aimer, je dois être aussi tolérante envers tes défauts que envers les miens.
+MATCH (t:THOUGHT)
+MATCH (c:CONTENT)
+WHERE t.name = "thought.EMPATHY" AND c.name = "content.EMPATHY"
+MERGE (t)-[:HAS_CONTENT {name: "edge.EMPATHY"}]->(c);
 
-> [!Thought-hi]
-> आपसे प्यार करने के लिए, मुझे आपकी कमियों के प्रति उतना ही सहनशील होना होगा जितना कि अपनी कमियों के प्रति।
-
-> [!Thought-zh]
-> wèi le ài nǐ ， wǒ bì xū xiàng róng rěn wǒ zì jǐ de quē diǎn yī yàng róng rěn nǐ de quē diǎn 。
+MATCH (parent:TOPIC)
+MATCH (child:THOUGHT)
+WHERE parent.name = "topic.LOVE" AND child.name = "thought.EMPATHY"
+MERGE (parent)-[:HAS_THOUGHT {name: "edge.LOVE->EMPATHY"}]->(child);
+```

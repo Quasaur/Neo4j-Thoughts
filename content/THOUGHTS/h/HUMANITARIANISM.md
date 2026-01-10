@@ -1,34 +1,41 @@
 ---
-title: "Thought: HUMANITARIANISM"
-draft: false
+name: thought.HUMANITARIANISM
+alias: "Thought: HUMANITARIANISM"
 type: THOUGHT
-mling: false
+parent: topic.RELIGION
 tags:
 - humanity
 - selfworship
 - god
 - judgment
 - accountable
-aliases:
-- "Thought: Humanity's Godhood"
+neo4j: true
 ptopic: "[[topic-RELIGION]]"
 level: 4
-neo4j: true
 ---
-# Thought: HUMANITARIANISM
-> [!Thought-en]
-> Without accountability, man can call himself God (humanitarianism, evolution's twin sister).
 
-## Dataview
+```Cypher
+CREATE (t:THOUGHT {
+    name: "thought.HUMANITARIANISM",
+    alias: "Thought: HUMANITARIANISM",
+    parent: "topic.RELIGION",
+    tags: ["humanity", "selfworship", "god", "judgment", "accountable"],
+    level: 4
+});
 
-> [!Thought-es]
-> Sin responsabilidad, el hombre puede llamarse Dios (humanitarismo, hermana gemela de la evolución).
+CREATE (c:CONTENT {
+    name: "content.HUMANITARIANISM",
+    en_title: "HUMANITARIANISM",
+    en_content: ""
+});
 
-> [!Thought-fr]
-> Sans responsabilité, l'homme peut s'appeler Dieu (l'humanitarisme, la sœur jumelle de l'évolution).
+MATCH (t:THOUGHT)
+MATCH (c:CONTENT)
+WHERE t.name = "thought.HUMANITARIANISM" AND c.name = "content.HUMANITARIANISM"
+MERGE (t)-[:HAS_CONTENT {name: "edge.HUMANITARIANISM"}]->(c);
 
-> [!Thought-hi]
-> जवाबदेही के बिना, मनुष्य स्वयं को भगवान (मानवतावाद, विकासवाद की जुड़वां बहन) कह सकता है।
-
-> [!Thought-zh]
-> méi yǒu zé rèn ， rén kě yǐ chēng zì jǐ wèi shàng dì （ rén dào zhǔ yì ， jìn huà lùn de luán shēng jiě mèi ）。
+MATCH (parent:TOPIC)
+MATCH (child:THOUGHT)
+WHERE parent.name = "topic.RELIGION" AND child.name = "thought.HUMANITARIANISM"
+MERGE (parent)-[:HAS_THOUGHT {name: "edge.RELIGION->HUMANITARIANISM"}]->(child);
+```

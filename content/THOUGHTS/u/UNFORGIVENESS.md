@@ -1,35 +1,41 @@
 ---
-title: "Thought: UNFORGIVENESS"
-draft: false
+name: thought.UNFORGIVENESS
+alias: "Thought: UNFORGIVENESS"
 type: THOUGHT
-mling: false
+parent: topic.ATTITUDE
 tags:
 - unforgiveness
 - hell
 - unmerciful
 - condemnation
 - salvation
-aliases:
-- "Thought: Grudge"
-- "Thought: Unmerciful"
+neo4j: true
 ptopic: "[[topic-ATTITUDE]]"
 level: 3
-neo4j: true
 ---
-# Thought: UNFORGIVENESS
-> [!Thought-en]
-> The ONLY people going to Hell are those who COULD NOT FORGIVE!
-> 
-## Dataview
 
-> [!Thought-es]
-> ¡Las ÚNICAS personas que van al infierno son aquellas que NO PODRÍAN PERDONAR!
+```Cypher
+CREATE (t:THOUGHT {
+    name: "thought.UNFORGIVENESS",
+    alias: "Thought: UNFORGIVENESS",
+    parent: "topic.ATTITUDE",
+    tags: ["unforgiveness", "hell", "unmerciful", "condemnation", "salvation"],
+    level: 3
+});
 
-> [!Thought-fr]
-> Les SEULS gens qui vont en Enfer sont ceux qui NE PEUVENT PAS PARDONNER !
+CREATE (c:CONTENT {
+    name: "content.UNFORGIVENESS",
+    en_title: "UNFORGIVENESS",
+    en_content: ""
+});
 
-> [!Thought-hi]
-> नर्क में जाने वाले केवल वही लोग हैं जो क्षमा नहीं कर सकते!
+MATCH (t:THOUGHT)
+MATCH (c:CONTENT)
+WHERE t.name = "thought.UNFORGIVENESS" AND c.name = "content.UNFORGIVENESS"
+MERGE (t)-[:HAS_CONTENT {name: "edge.UNFORGIVENESS"}]->(c);
 
-> [!Thought-zh]
-> wéi yī xià dì yù de rén jiù shì nà xiē wú fǎ kuān shù de rén ！
+MATCH (parent:TOPIC)
+MATCH (child:THOUGHT)
+WHERE parent.name = "topic.ATTITUDE" AND child.name = "thought.UNFORGIVENESS"
+MERGE (parent)-[:HAS_THOUGHT {name: "edge.ATTITUDE->UNFORGIVENESS"}]->(child);
+```
