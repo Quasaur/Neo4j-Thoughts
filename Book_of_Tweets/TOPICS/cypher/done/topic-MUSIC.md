@@ -1,17 +1,17 @@
 ---
-name: "topic.MUSIC"
+name: topic.MUSIC
 alias: "Topic: Music"
 type: TOPIC
-parent: "topic.MUSICOLOGY"
+parent: topic.MUSICOLOGY
 tags:
-- music
-- art
-- sound
-- harmony
-- melody
+  - music
+  - art
+  - sound
+  - harmony
+  - melody
 neo4j: true
 ptopic: '"[[topic-MUSICOLOGY]]"'
-level: 6
+level: 5
 insert: true
 ---
 # Topic: Music
