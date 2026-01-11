@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "416210fb62956a8f",
+        "id": "d85884735b1e55d6",
         "type": "tabs",
         "children": [
           {
-            "id": "de5101ee1a07e21a",
+            "id": "274bcf3f5298a538",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/TOPICS/topic-ANTHROPOLOGY.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "topic-ANTHROPOLOGY"
+              "title": "New tab"
             }
           }
         ]
@@ -85,7 +80,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -177,34 +173,36 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "de5101ee1a07e21a",
+  "active": "61abae784b843940",
   "lastOpenFiles": [
-    "content/THOUGHTS/UnInserted/TRUE-FAITH.md",
-    "content/THOUGHTS/UnInserted/YOUR-KINGDOM.md",
-    "content/THOUGHTS/UnInserted/WILL-VS-WILL.md",
-    "content/THOUGHTS/UnInserted/WHEN-JESUS-RETURNS.md",
-    "content/THOUGHTS/UnInserted/US-FOREIGN-POLICY.md",
-    "content/THOUGHTS/UnInserted/THINKING-TIME.md",
-    "content/THOUGHTS/UnInserted/THE-TRUE-VINE.md",
-    "content/THOUGHTS/UnInserted/THE-REAL-YOU.md",
-    "content/THOUGHTS/UnInserted/THE-QUICK-AND-THE-DEAD.md",
-    "content/THOUGHTS/UnInserted/THE-LAST-WORD.md",
-    "content/THOUGHTS/UnInserted/THE-LAKE-OF-FIRE-AND-SULFUR.md",
-    "content/THOUGHTS/UnInserted/THE-IRC.md",
-    "content/THOUGHTS/UnInserted/THE-END-OF-EVIL.md",
-    "content/THOUGHTS/UnInserted/THE-BIBLE.md",
-    "content/THOUGHTS/UnInserted/SPIRITUAL-HEALTH.md",
-    "content/THOUGHTS/UnInserted/SOL-VELOCITY.md",
-    "content/THOUGHTS/UnInserted/SOL-ROTATION.md",
-    "content/THOUGHTS/UnInserted/SKEWERED-TIMELINES.md",
-    "content/THOUGHTS/UnInserted/SHUT-DOWN.md",
-    "content/THOUGHTS/UnInserted/SELF-WORSHIP.md",
-    "content/THOUGHTS/UnInserted/SELF-DENIAL.md",
-    "content/THOUGHTS/UnInserted/SCIENCE-CONSPIRACY.md",
-    "content/THOUGHTS/UnInserted/ROYAL-DIET.md",
-    "content/THOUGHTS/UnInserted/QUIET-THE-FLESH.md",
-    "content/THOUGHTS/UnInserted/PSEUDO-SCIENCE.md",
-    "content/THOUGHTS/UnInserted/PROSPERITY-NOW.md",
+    "content/THOUGHTS/UnInserted/A-GREAT-DAY.md",
+    "content/THOUGHTS/THE-ULTIMATE.md",
+    "content/THOUGHTS/HAPPY-SABBATH.md",
+    "content/THOUGHTS/EVIL-WAS-NECESSARY.md",
+    "content/THOUGHTS/THE-TRUE-VINE.md",
+    "content/THOUGHTS/NOT-LIKE-ME.md",
+    "content/THOUGHTS/THE-QUICK-AND-THE-DEAD.md",
+    "content/THOUGHTS/MODIFIED-GOSPEL.md",
+    "content/THOUGHTS/GOD-IN-CHARGE.md",
+    "content/THOUGHTS/HUMAN-MERCY.md",
+    "content/THOUGHTS/ACTS-OF-THE-APOSTLES.md",
+    "content/THOUGHTS/THINKING-TIME.md",
+    "content/THOUGHTS/DESPISING-THE-CROSS.md",
+    "content/THOUGHTS/THE-BIBLE.md",
+    "content/THOUGHTS/DIVINE-SEED.md",
+    "content/THOUGHTS/LIVING-RELATIONSHIPS.md",
+    "content/THOUGHTS/HUMAN-LAW.md",
+    "content/THOUGHTS/FIRST-RULE.md",
+    "content/THOUGHTS/GLORY-TO-GOD.md",
+    "content/THOUGHTS/SELF-WORSHIP.md",
+    "content/THOUGHTS/ANOTHER-SINNER.md",
+    "content/THOUGHTS/THE-REAL-YOU.md",
+    "content/THOUGHTS/692-189.md",
+    "content/THOUGHTS/NEAR-TO-GOD.md",
+    "content/THOUGHTS/SHUT-DOWN.md",
+    "content/THOUGHTS/ANTI-SEMITISM.md",
+    "python/check_and_move_inserted_thoughts.py",
+    "python/query_thought_692_189.py",
     "python/convert_uninserted_to_obsidian_cypher.py",
     "content/THOUGHTS/UnInserted/cypher/done/thought-YOUR_KINGDOM.cypher",
     "content/THOUGHTS/UnInserted/cypher/done/thought-WILL_VS_WILL.cypher",
@@ -213,8 +211,6 @@
     "content/THOUGHTS/UnInserted/cypher/done/thought-TRUE_FAITH.cypher",
     "content/THOUGHTS/UnInserted/cypher/done/thought-THINKING_TIME.cypher",
     "content/THOUGHTS/UnInserted/cypher/done/thought-THE_TRUE_VINE.cypher",
-    "content/THOUGHTS/UnInserted/cypher/done/thought-THE_REAL_YOU.cypher",
-    "content/THOUGHTS/UnInserted/cypher/done/thought-THE_QUICK_AND_THE_DEAD.cypher",
     "Untitled.canvas",
     "public/attachments/og-image.png",
     "public/static/og-image.png",
