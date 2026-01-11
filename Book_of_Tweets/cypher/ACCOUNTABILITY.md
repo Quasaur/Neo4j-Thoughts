@@ -31,14 +31,14 @@ CREATE (c:CONTENT {
     name: "content.ACCOUNTABILITY",
     en_title: "Accountability",
     en_content: "God doesn't spare you the consequences of my actions.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
+    es_title: "Responsabilidad",
+    es_content: "Dios no te libra de las consecuencias de mis acciones.",
+    fr_title: "Responsabilité",
+    fr_content: "Dieu ne t'épargne pas les conséquences de mes actions.",
     hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    hi_content: "भगवान आपको मेरे कार्यों के परिणामों से नहीं बचाते।",
+    zh_title: "问责制",
+    zh_content: "上帝不会让你免受我行为的后果。"
 });
 
 MATCH (t:THOUGHT)

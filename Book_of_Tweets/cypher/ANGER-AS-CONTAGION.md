@@ -31,14 +31,14 @@ CREATE (c:CONTENT {
     name: "content.ANGER AS CONTAGION",
     en_title: "Anger As Contagion",
     en_content: "Anger is a contagion that easily leaps from soul to soul where there is an absence of reason.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "La Ira como Contagio",
+    es_content: "La ira es un contagio que salta fácilmente de alma en alma donde hay ausencia de razón.",
+    fr_title: "La Colère comme Contagion",
+    fr_content: "La colère est une contagion qui saute facilement d'âme en âme là où la raison est absente.",
+    hi_title: "संक्रमण के रूप में क्रोध",
+    hi_content: "क्रोध एक संक्रमण है जो आसानी से एक आत्मा से दूसरी आत्मा में कूद जाता है जहां तर्क की अनुपस्थिति होती है।",
+    zh_title: "愤怒如同传染病",
+    zh_content: "愤怒是一种传染病，在缺乏理性的地方很容易从一个灵魂跳到另一个灵魂。"
 });
 
 MATCH (t:THOUGHT)

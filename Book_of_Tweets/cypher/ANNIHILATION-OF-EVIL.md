@@ -31,14 +31,14 @@ CREATE (c:CONTENT {
     name: "content.ANNIHILATION OF EVIL",
     en_title: "Annihilation Of Evil",
     en_content: "Evil itself is doomed to annihilation...forever.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Aniquilación del Mal",
+    es_content: "El mal mismo está condenado a la aniquilación... para siempre.",
+    fr_title: "Anéantissement du Mal",
+    fr_content: "Le mal lui-même est voué à l'anéantissement... pour toujours.",
+    hi_title: "बुराई का विनाश",
+    hi_content: "बुराई स्वयं विनाश के लिए अभिशप्त है... हमेशा के लिए।",
+    zh_title: "邪恶的毁灭",
+    zh_content: "邪恶本身注定要被毁灭...永远。"
 });
 
 MATCH (t:THOUGHT)

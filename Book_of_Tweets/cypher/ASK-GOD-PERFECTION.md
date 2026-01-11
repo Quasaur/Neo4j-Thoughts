@@ -31,14 +31,14 @@ CREATE (c:CONTENT {
     name: "content.ASK GOD PERFECTION",
     en_title: "Ask God Perfection",
     en_content: "Perfection isn't that difficult...ask God!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Pregúntale a Dios sobre la Perfección",
+    es_content: "La perfección no es tan difícil... ¡pregúntale a Dios!",
+    fr_title: "Demandez à Dieu la Perfection",
+    fr_content: "La perfection n'est pas si difficile... demandez à Dieu !",
+    hi_title: "परमेश्वर से पूर्णता पूछें",
+    hi_content: "पूर्णता इतनी कठिन नहीं है... परमेश्वर से पूछें!",
+    zh_title: "问神关于完美",
+    zh_content: "完美并不那么困难...问问神吧！"
 });
 
 MATCH (t:THOUGHT)

@@ -31,14 +31,14 @@ CREATE (c:CONTENT {
     name: "content.ATOMS IN CELL",
     en_title: "Atoms In Cell",
     en_content: "The average human cell is made of approx. 200 trillion atoms...God is great!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Átomos en una Célula",
+    es_content: "La célula humana promedio está compuesta por aprox. 200 billones de átomos... ¡Dios es grande!",
+    fr_title: "Atomes dans une Cellule",
+    fr_content: "La cellule humaine moyenne est composée d'environ 200 trillions d'atomes... Dieu est grand !",
+    hi_title: "कोशिका में परमाणु",
+    hi_content: "औसत मानव कोशिका लगभग 200 ट्रिलियन परमाणुओं से बनी होती है... परमेश्वर महान है!",
+    zh_title: "细胞中的原子",
+    zh_content: "平均每个人类细胞由大约200万亿个原子组成...神是伟大的！"
 });
 
 MATCH (t:THOUGHT)

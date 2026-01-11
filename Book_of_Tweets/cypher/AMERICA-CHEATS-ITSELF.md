@@ -31,14 +31,14 @@ CREATE (c:CONTENT {
     name: "content.AMERICA CHEATS ITSELF",
     en_title: "America Cheats Itself",
     en_content: "America is a nation that CHEATS ITSELF out of its own money.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "América se Engaña a Sí Misma",
+    es_content: "América es una nación que SE ENGAÑA A SÍ MISMA quitándose su propio dinero.",
+    fr_title: "L'Amérique se Trompe Elle-même",
+    fr_content: "L'Amérique est une nation qui SE TROMPE ELLE-MÊME en se privant de son propre argent.",
+    hi_title: "अमेरिका स्वयं को धोखा देता है",
+    hi_content: "अमेरिका एक ऐसा राष्ट्र है जो अपने ही पैसे से खुद को धोखा देता है।",
+    zh_title: "美国欺骗自己",
+    zh_content: "美国是一个欺骗自己，剥夺自己金钱的国家。"
 });
 
 MATCH (t:THOUGHT)

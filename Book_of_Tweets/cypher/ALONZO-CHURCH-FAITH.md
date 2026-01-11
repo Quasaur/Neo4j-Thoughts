@@ -31,14 +31,14 @@ CREATE (c:CONTENT {
     name: "content.ALONZO CHURCH FAITH",
     en_title: "Alonzo Church Faith",
     en_content: "Alonzo Church Ph.D, Inventor of the lambda calculus, was a devout Christian...who says science and faith don't mix?",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "La Fe de Alonzo Church",
+    es_content: "Alonzo Church Ph.D, inventor del cálculo lambda, era un cristiano devoto... ¿quién dice que la ciencia y la fe no se mezclan?",
+    fr_title: "La Foi d'Alonzo Church",
+    fr_content: "Alonzo Church Ph.D, inventeur du lambda-calcul, était un chrétien fervent... qui dit que la science et la foi ne se mélangent pas ?",
+    hi_title: "एलोंजो चर्च की आस्था",
+    hi_content: "एलोंजो चर्च पीएच.डी., लैम्ब्डा कैलकुलस के आविष्कारक, एक समर्पित ईसाई थे... कौन कहता है कि विज्ञान और आस्था मिश्रित नहीं होते?",
+    zh_title: "阿隆佐·丘奇的信仰",
+    zh_content: "阿隆佐·丘奇博士，λ演算的发明者，是一位虔诚的基督徒...谁说科学和信仰不能共存？"
 });
 
 MATCH (t:THOUGHT)

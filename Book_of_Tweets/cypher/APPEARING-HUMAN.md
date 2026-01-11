@@ -31,14 +31,14 @@ CREATE (c:CONTENT {
     name: "content.APPEARING HUMAN",
     en_title: "Appearing Human",
     en_content: "Beware of those who appear human, but ain't!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Apariencia Humana",
+    es_content: "¡Cuidado con aquellos que parecen humanos, pero no lo son!",
+    fr_title: "Apparence Humaine",
+    fr_content: "Méfiez-vous de ceux qui paraissent humains, mais ne le sont pas !",
+    hi_title: "मानवीय दिखावा",
+    hi_content: "उन लोगों से सावधान रहें जो मानव दिखते हैं, लेकिन हैं नहीं!",
+    zh_title: "看似人类",
+    zh_content: "小心那些看起来像人类，但实际上不是的！"
 });
 
 MATCH (t:THOUGHT)

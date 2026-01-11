@@ -4,17 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "d85884735b1e55d6",
+        "id": "5c4920c452ca73f4",
         "type": "tabs",
         "children": [
           {
-            "id": "274bcf3f5298a538",
+            "id": "4cd24b13011d2d83",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "CYPHER/CORRECTIONS/THOUGHT/THOUGHT-level-Thought.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "THOUGHT-level-Thought"
             }
           }
         ]
@@ -80,8 +85,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -173,8 +177,27 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "61abae784b843940",
+  "active": "4cd24b13011d2d83",
   "lastOpenFiles": [
+    "python/find_auradb_placeholders.py",
+    "python/query_auradb_status.py",
+    "python/update_auradb_translations.py",
+    "python/batch_1_translations.json",
+    "python/generate_complete_translations.py",
+    "python/apply_translations.py",
+    "python/translation_workbook.json",
+    "python/generate_translation_workbook.py",
+    "python/direct_translate.py",
+    "python/translation_controller.py",
+    "python/translate_with_ai.py",
+    "content/THOUGHTS/COWARDS.md",
+    "CYPHER/CORRECTIONS/THOUGHT/THOUGHT-alias-Thought.md",
+    "BASES/Base-THOUGHTS.md",
+    "Book_of_Tweets/cypher/ALL-THINGS-FOR-HIM.md",
+    "BASES/Base-QUOTES.md",
+    "BASES/Base-Book of Thoughts.md",
+    "Book_of_Tweets/cypher/SCENT-OF-GOD.md",
+    "content/THOUGHTS/UnInserted/692-189.md",
     "content/THOUGHTS/UnInserted/A-GREAT-DAY.md",
     "content/THOUGHTS/THE-ULTIMATE.md",
     "content/THOUGHTS/HAPPY-SABBATH.md",
@@ -192,25 +215,6 @@
     "content/THOUGHTS/DIVINE-SEED.md",
     "content/THOUGHTS/LIVING-RELATIONSHIPS.md",
     "content/THOUGHTS/HUMAN-LAW.md",
-    "content/THOUGHTS/FIRST-RULE.md",
-    "content/THOUGHTS/GLORY-TO-GOD.md",
-    "content/THOUGHTS/SELF-WORSHIP.md",
-    "content/THOUGHTS/ANOTHER-SINNER.md",
-    "content/THOUGHTS/THE-REAL-YOU.md",
-    "content/THOUGHTS/692-189.md",
-    "content/THOUGHTS/NEAR-TO-GOD.md",
-    "content/THOUGHTS/SHUT-DOWN.md",
-    "content/THOUGHTS/ANTI-SEMITISM.md",
-    "python/check_and_move_inserted_thoughts.py",
-    "python/query_thought_692_189.py",
-    "python/convert_uninserted_to_obsidian_cypher.py",
-    "content/THOUGHTS/UnInserted/cypher/done/thought-YOUR_KINGDOM.cypher",
-    "content/THOUGHTS/UnInserted/cypher/done/thought-WILL_VS_WILL.cypher",
-    "content/THOUGHTS/UnInserted/cypher/done/thought-WHEN_JESUS_RETURNS.cypher",
-    "content/THOUGHTS/UnInserted/cypher/done/thought-US_FOREIGN_POLICY.cypher",
-    "content/THOUGHTS/UnInserted/cypher/done/thought-TRUE_FAITH.cypher",
-    "content/THOUGHTS/UnInserted/cypher/done/thought-THINKING_TIME.cypher",
-    "content/THOUGHTS/UnInserted/cypher/done/thought-THE_TRUE_VINE.cypher",
     "Untitled.canvas",
     "public/attachments/og-image.png",
     "public/static/og-image.png",

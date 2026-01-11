@@ -31,14 +31,14 @@ CREATE (c:CONTENT {
     name: "content.AMERICAN POVERTY LINE",
     en_title: "American Poverty Line",
     en_content: "46 million Americans are at or below the poverty line.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
+    es_title: "Línea de Pobreza Estadounidense",
+    es_content: "46 millones de estadounidenses están en o por debajo de la línea de pobreza.",
+    fr_title: "Seuil de Pauvreté Américain",
+    fr_content: "46 millions d'Américains sont au niveau ou en dessous du seuil de pauvreté.",
     hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    hi_content: "4 करोड़ 60 लाख अमेरिकी गरीबी रेखा पर या उससे नीचे हैं।",
+    zh_title: "美国贫困线",
+    zh_content: "4600万美国人处于或低于贫困线。"
 });
 
 MATCH (t:THOUGHT)
