@@ -31,14 +31,14 @@ CREATE (c:CONTENT {
     name: "content.ALL THINGS FOR HIM",
     en_title: "All Things For Him",
     en_content: "All things are from, to and for Him; this is fitting, for He is worthy.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
+    es_title: "Todas las Cosas Para Él",
+    es_content: "Todas las cosas son de, para y por Él; esto es apropiado, porque Él es digno.",
+    fr_title: "Toutes Choses Pour Lui",
+    fr_content: "Toutes choses sont de, pour et par Lui ; ceci est convenable, car Il est digne.",
     hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    hi_content: "सब कुछ उससे, उसके लिए और उसके द्वारा है; यह उचित है, क्योंकि वह योग्य है।",
+    zh_title: "万物为了祂",
+    zh_content: "万物都是从祂、归于祂、为了祂；这是合宜的，因为祂配得。"
 });
 
 MATCH (t:THOUGHT)

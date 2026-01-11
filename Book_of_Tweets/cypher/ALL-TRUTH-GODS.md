@@ -31,14 +31,14 @@ CREATE (c:CONTENT {
     name: "content.ALL TRUTH GODS",
     en_title: "All Truth Gods",
     en_content: "All truth belongs to God.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Toda Verdad es de Dios",
+    es_content: "Toda verdad pertenece a Dios.",
+    fr_title: "Toute Vérité Appartient à Dieu",
+    fr_content: "Toute vérité appartient à Dieu.",
+    hi_title: "सभी सत्य परमेश्वर के हैं",
+    hi_content: "सभी सत्य परमेश्वर के हैं।",
+    zh_title: "一切真理属于神",
+    zh_content: "一切真理都属于神。"
 });
 
 MATCH (t:THOUGHT)

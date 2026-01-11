@@ -1,0 +1,402 @@
+[
+  {
+    "file": "/Users/quasaur/Developer/WISDOM/Neo4j-Thoughts/Book_of_Tweets/cypher/ABORTION-AND-GOLDEN-RULE.md",
+    "name": "ABORTION-AND-GOLDEN-RULE.md",
+    "en_title": "Abortion And Golden Rule",
+    "en_content": "Abortion is a violation of the Golden Rule: \"Do unto others as you would have them do into you.\"",
+    "translations": {
+      "es_title": "El Aborto y la Regla de Oro",
+      "es_content": "El aborto es una violación de la Regla de Oro: \\\"Haz a los demás lo que quieras que te hagan a ti.\\\"",
+      "fr_title": "L'avortement et la Règle d'Or",
+      "fr_content": "L'avortement est une violation de la Règle d'Or : \\\"Fais aux autres ce que tu voudrais qu'ils te fassent.\\\"",
+      "hi_title": "गर्भपात और स्वर्णिम नियम",
+      "hi_content": "गर्भपात स्वर्णिम नियम का उल्लंघन है: \\\"दूसरों के साथ वैसा ही करो जैसा तुम चाहते हो कि तुम्हारे साथ किया जाए।\\\"",
+      "zh_title": "堕胎与黄金法则",
+      "zh_content": "堕胎违反了黄金法则：\\\"己所不欲，勿施于人。\\\""
+    }
+  },
+  {
+    "file": "/Users/quasaur/Developer/WISDOM/Neo4j-Thoughts/Book_of_Tweets/cypher/ACCOUNTABILITY.md",
+    "name": "ACCOUNTABILITY.md",
+    "en_title": "Accountability",
+    "en_content": "God doesn't spare you the consequences of my actions.",
+    "translations": {
+      "es_title": "Responsabilidad",
+      "es_content": "Dios no te libra de las consecuencias de mis acciones.",
+      "fr_title": "Responsabilité",
+      "fr_content": "Dieu ne t'épargne pas les conséquences de mes actions.",
+      "hi_title": "जवाबदेही",
+      "hi_content": "भगवान आपको मेरे कार्यों के परिणामों से नहीं बचाते।",
+      "zh_title": "问责制",
+      "zh_content": "上帝不会让你免受我行为的后果。"
+    }
+  },
+  {
+    "file": "/Users/quasaur/Developer/WISDOM/Neo4j-Thoughts/Book_of_Tweets/cypher/ACCURATE-THEOLOGY.md",
+    "name": "ACCURATE-THEOLOGY.md",
+    "en_title": "Accurate Theology",
+    "en_content": "The more accurate our theology, the easier the Christian life gets.",
+    "translations": {
+      "es_title": "Teología Precisa",
+      "es_content": "Cuanto más precisa sea nuestra teología, más fácil se vuelve la vida cristiana.",
+      "fr_title": "Théologie Précise",
+      "fr_content": "Plus notre théologie est précise, plus la vie chrétienne devient facile.",
+      "hi_title": "सटीक धर्मशास्त्र",
+      "hi_content": "हमारा धर्मशास्त्र जितना सटीक होगा, ईसाई जीवन उतना ही आसान होगा।",
+      "zh_title": "准确的神学",
+      "zh_content": "我们的神学越准确，基督徒的生活就越容易。"
+    }
+  },
+  {
+    "file": "/Users/quasaur/Developer/WISDOM/Neo4j-Thoughts/Book_of_Tweets/cypher/AGREEING-WITH-OPPRESSOR.md",
+    "name": "AGREEING-WITH-OPPRESSOR.md",
+    "en_title": "Agreeing With Oppressor",
+    "en_content": "Every day we do things to let the Opressor know that we AGREE that his money is worth more than justice, dignity, equity and honor.",
+    "translations": {
+      "es_title": "De Acuerdo con el Opresor",
+      "es_content": "Cada día hacemos cosas para hacerle saber al Opresor que ESTAMOS DE ACUERDO en que su dinero vale más que la justicia, la dignidad, la equidad y el honor.",
+      "fr_title": "Accord avec l'Oppresseur",
+      "fr_content": "Chaque jour, nous faisons des choses pour faire savoir à l'Oppresseur que nous ACCEPTONS que son argent vaut plus que la justice, la dignité, l'équité et l'honneur.",
+      "hi_title": "उत्पीड़क से सहमति",
+      "hi_content": "हर दिन हम ऐसे काम करते हैं जिससे उत्पीड़क को पता चल जाए कि हम सहमत हैं कि उसका पैसा न्याय, सम्मान, समानता और मर्यादा से अधिक मूल्यवान है।",
+      "zh_title": "与压迫者达成一致",
+      "zh_content": "每天我们都在做一些事情，让压迫者知道我们同意他的金钱比正义、尊严、公平和荣誉更有价值。"
+    }
+  },
+  {
+    "file": "/Users/quasaur/Developer/WISDOM/Neo4j-Thoughts/Book_of_Tweets/cypher/ALIGNING-THROUGH-PRAYER.md",
+    "name": "ALIGNING-THROUGH-PRAYER.md",
+    "en_title": "Aligning Through Prayer",
+    "en_content": "The purpose of prayer is not just to get God to do stuff, but to align myself with what God is doing!",
+    "translations": {
+      "es_title": "Alinearse Mediante la Oración",
+      "es_content": "El propósito de la oración no es solo conseguir que Dios haga cosas, ¡sino alinearme con lo que Dios está haciendo!",
+      "fr_title": "S'Aligner par la Prière",
+      "fr_content": "Le but de la prière n'est pas seulement d'obtenir que Dieu fasse des choses, mais de m'aligner sur ce que Dieu fait !",
+      "hi_title": "प्रार्थना के माध्यम से संरेखण",
+      "hi_content": "प्रार्थना का उद्देश्य केवल भगवान से चीजें करवाना नहीं है, बल्कि स्वयं को उस काम के साथ संरेखित करना है जो भगवान कर रहे हैं!",
+      "zh_title": "通过祷告对齐",
+      "zh_content": "祷告的目的不仅仅是让上帝做事，而是让自己与上帝正在做的事对齐！"
+    }
+  },
+  {
+    "file": "/Users/quasaur/Developer/WISDOM/Neo4j-Thoughts/Book_of_Tweets/cypher/ALL-OF-GOD-JESUS.md",
+    "name": "ALL-OF-GOD-JESUS.md",
+    "en_title": "All Of God Jesus",
+    "en_content": "Jesus Christ is the only Man Who could fit ALL OF GOD in Himself, because HE IS GOD!",
+    "translations": {
+      "es_title": "Todo Dios en Jesús",
+      "es_content": "¡Jesucristo es el único Hombre que pudo contener TODO DE DIOS en Sí mismo, porque ÉL ES DIOS!",
+      "fr_title": "Tout Dieu en Jésus",
+      "fr_content": "Jésus-Christ est le seul Homme qui pourrait contenir TOUT DIEU en Lui-même, parce qu'IL EST DIEU !",
+      "hi_title": "यीशु में संपूर्ण परमेश्वर",
+      "hi_content": "यीशु मसीह एकमात्र मनुष्य हैं जो अपने आप में संपूर्ण परमेश्वर को समा सकते हैं, क्योंकि वे ही परमेश्वर हैं!",
+      "zh_title": "耶稣是完全的神",
+      "zh_content": "耶稣基督是唯一能够将全部的神容纳在自己里面的人，因为他就是神！"
+    }
+  },
+  {
+    "file": "/Users/quasaur/Developer/WISDOM/Neo4j-Thoughts/Book_of_Tweets/cypher/ALL-THINGS-FOR-HIM.md",
+    "name": "ALL-THINGS-FOR-HIM.md",
+    "en_title": "All Things For Him",
+    "en_content": "All things are from, to and for Him; this is fitting, for He is worthy.",
+    "translations": {
+      "es_title": "Todas las Cosas Para Él",
+      "es_content": "Todas las cosas son de, para y por Él; esto es apropiado, porque Él es digno.",
+      "fr_title": "Toutes Choses Pour Lui",
+      "fr_content": "Toutes choses sont de, pour et par Lui ; ceci est convenable, car Il est digne.",
+      "hi_title": "सब कुछ उसके लिए",
+      "hi_content": "सब कुछ उससे, उसके लिए और उसके द्वारा है; यह उचित है, क्योंकि वह योग्य है।",
+      "zh_title": "万物为了祂",
+      "zh_content": "万物都是从祂、归于祂、为了祂；这是合宜的，因为祂配得。"
+    }
+  },
+  {
+    "file": "/Users/quasaur/Developer/WISDOM/Neo4j-Thoughts/Book_of_Tweets/cypher/ALL-TRUTH-GODS.md",
+    "name": "ALL-TRUTH-GODS.md",
+    "en_title": "All Truth Gods",
+    "en_content": "All truth belongs to God.",
+    "translations": {
+      "es_title": "Toda Verdad es de Dios",
+      "es_content": "Toda verdad pertenece a Dios.",
+      "fr_title": "Toute Vérité Appartient à Dieu",
+      "fr_content": "Toute vérité appartient à Dieu.",
+      "hi_title": "सभी सत्य परमेश्वर के हैं",
+      "hi_content": "सभी सत्य परमेश्वर के हैं।",
+      "zh_title": "一切真理属于神",
+      "zh_content": "一切真理都属于神。"
+    }
+  },
+  {
+    "file": "/Users/quasaur/Developer/WISDOM/Neo4j-Thoughts/Book_of_Tweets/cypher/ALONZO-CHURCH-FAITH.md",
+    "name": "ALONZO-CHURCH-FAITH.md",
+    "en_title": "Alonzo Church Faith",
+    "en_content": "Alonzo Church Ph.D, Inventor of the lambda calculus, was a devout Christian...who says science and faith don't mix?",
+    "translations": {
+      "es_title": "La Fe de Alonzo Church",
+      "es_content": "Alonzo Church Ph.D, inventor del cálculo lambda, era un cristiano devoto... ¿quién dice que la ciencia y la fe no se mezclan?",
+      "fr_title": "La Foi d'Alonzo Church",
+      "fr_content": "Alonzo Church Ph.D, inventeur du lambda-calcul, était un chrétien fervent... qui dit que la science et la foi ne se mélangent pas ?",
+      "hi_title": "एलोंजो चर्च की आस्था",
+      "hi_content": "एलोंजो चर्च पीएच.डी., लैम्ब्डा कैलकुलस के आविष्कारक, एक समर्पित ईसाई थे... कौन कहता है कि विज्ञान और आस्था मिश्रित नहीं होते?",
+      "zh_title": "阿隆佐·丘奇的信仰",
+      "zh_content": "阿隆佐·丘奇博士，λ演算的发明者，是一位虔诚的基督徒...谁说科学和信仰不能共存？"
+    }
+  },
+  {
+    "file": "/Users/quasaur/Developer/WISDOM/Neo4j-Thoughts/Book_of_Tweets/cypher/ALWAYS-ADVENTIST.md",
+    "name": "ALWAYS-ADVENTIST.md",
+    "en_title": "Always Adventist",
+    "en_content": "A part of me will always be Adventist, I guess (smile).",
+    "translations": {
+      "es_title": "Siempre Adventista",
+      "es_content": "Una parte de mí siempre será adventista, supongo (sonrisa).",
+      "fr_title": "Toujours Adventiste",
+      "fr_content": "Une partie de moi sera toujours adventiste, je suppose (sourire).",
+      "hi_title": "हमेशा एडवेंटिस्ट",
+      "hi_content": "मेरा एक हिस्सा हमेशा एडवेंटिस्ट रहेगा, मुझे लगता है (मुस्कान)।",
+      "zh_title": "永远的复临信徒",
+      "zh_content": "我想，我的一部分将永远是复临信徒（微笑）。"
+    }
+  },
+  {
+    "file": "/Users/quasaur/Developer/WISDOM/Neo4j-Thoughts/Book_of_Tweets/cypher/AMERICA-ACCOUNTABLE-FREEDOMS.md",
+    "name": "AMERICA-ACCOUNTABLE-FREEDOMS.md",
+    "en_title": "America Accountable Freedoms",
+    "en_content": "America, God will hold you accountable for the way you spent your freedoms.",
+    "translations": {
+      "es_title": "América Responsable de sus Libertades",
+      "es_content": "América, Dios te hará responsable por la forma en que usaste tus libertades.",
+      "fr_title": "L'Amérique Responsable de ses Libertés",
+      "fr_content": "Amérique, Dieu te tiendra responsable de la façon dont tu as utilisé tes libertés.",
+      "hi_title": "अमेरिका अपनी स्वतंत्रताओं के लिए जवाबदेह",
+      "hi_content": "अमेरिका, भगवान आपको जवाबदेह ठहराएंगे कि आपने अपनी स्वतंत्रताओं का उपयोग कैसे किया।",
+      "zh_title": "美国对自由负责",
+      "zh_content": "美国，上帝会让你为你使用自由的方式负责。"
+    }
+  },
+  {
+    "file": "/Users/quasaur/Developer/WISDOM/Neo4j-Thoughts/Book_of_Tweets/cypher/AMERICA-CHEATS-ITSELF.md",
+    "name": "AMERICA-CHEATS-ITSELF.md",
+    "en_title": "America Cheats Itself",
+    "en_content": "America is a nation that CHEATS ITSELF out of its own money.",
+    "translations": {
+      "es_title": "América se Engaña a Sí Misma",
+      "es_content": "América es una nación que SE ENGAÑA A SÍ MISMA quitándose su propio dinero.",
+      "fr_title": "L'Amérique se Trompe Elle-même",
+      "fr_content": "L'Amérique est une nation qui SE TROMPE ELLE-MÊME en se privant de son propre argent.",
+      "hi_title": "अमेरिका स्वयं को धोखा देता है",
+      "hi_content": "अमेरिका एक ऐसा राष्ट्र है जो अपने ही पैसे से खुद को धोखा देता है।",
+      "zh_title": "美国欺骗自己",
+      "zh_content": "美国是一个欺骗自己，剥夺自己金钱的国家。"
+    }
+  },
+  {
+    "file": "/Users/quasaur/Developer/WISDOM/Neo4j-Thoughts/Book_of_Tweets/cypher/AMERICAN-POVERTY-LINE.md",
+    "name": "AMERICAN-POVERTY-LINE.md",
+    "en_title": "American Poverty Line",
+    "en_content": "46 million Americans are at or below the poverty line.",
+    "translations": {
+      "es_title": "Línea de Pobreza Estadounidense",
+      "es_content": "46 millones de estadounidenses están en o por debajo de la línea de pobreza.",
+      "fr_title": "Seuil de Pauvreté Américain",
+      "fr_content": "46 millions d'Américains sont au niveau ou en dessous du seuil de pauvreté.",
+      "hi_title": "अमेरिकी गरीबी रेखा",
+      "hi_content": "4 करोड़ 60 लाख अमेरिकी गरीबी रेखा पर या उससे नीचे हैं।",
+      "zh_title": "美国贫困线",
+      "zh_content": "4600万美国人处于或低于贫困线。"
+    }
+  },
+  {
+    "file": "/Users/quasaur/Developer/WISDOM/Neo4j-Thoughts/Book_of_Tweets/cypher/ANGER-AND-PAIN.md",
+    "name": "ANGER-AND-PAIN.md",
+    "en_title": "Anger And Pain",
+    "en_content": "Anger as a first response is often indicative of an underlying issue...that issue usually being pain.",
+    "translations": {
+      "es_title": "Ira y Dolor",
+      "es_content": "La ira como primera respuesta suele ser indicativa de un problema subyacente... ese problema suele ser el dolor.",
+      "fr_title": "Colère et Douleur",
+      "fr_content": "La colère en première réponse est souvent révélatrice d'un problème sous-jacent... ce problème étant généralement la douleur.",
+      "hi_title": "क्रोध और पीड़ा",
+      "hi_content": "पहली प्रतिक्रिया के रूप में क्रोध अक्सर एक अंतर्निहित मुद्दे का संकेत होता है... वह मुद्दा आमतौर पर पीड़ा होती है।",
+      "zh_title": "愤怒与痛苦",
+      "zh_content": "愤怒作为第一反应通常表明存在潜在问题...该问题通常是痛苦。"
+    }
+  },
+  {
+    "file": "/Users/quasaur/Developer/WISDOM/Neo4j-Thoughts/Book_of_Tweets/cypher/ANGER-AS-CONTAGION.md",
+    "name": "ANGER-AS-CONTAGION.md",
+    "en_title": "Anger As Contagion",
+    "en_content": "Anger is a contagion that easily leaps from soul to soul where there is an absence of reason.",
+    "translations": {
+      "es_title": "La Ira como Contagio",
+      "es_content": "La ira es un contagio que salta fácilmente de alma en alma donde hay ausencia de razón.",
+      "fr_title": "La Colère comme Contagion",
+      "fr_content": "La colère est une contagion qui saute facilement d'âme en âme là où la raison est absente.",
+      "hi_title": "संक्रमण के रूप में क्रोध",
+      "hi_content": "क्रोध एक संक्रमण है जो आसानी से एक आत्मा से दूसरी आत्मा में कूद जाता है जहां तर्क की अनुपस्थिति होती है।",
+      "zh_title": "愤怒如同传染病",
+      "zh_content": "愤怒是一种传染病，在缺乏理性的地方很容易从一个灵魂跳到另一个灵魂。"
+    }
+  },
+  {
+    "file": "/Users/quasaur/Developer/WISDOM/Neo4j-Thoughts/Book_of_Tweets/cypher/ANNIHILATION-OF-EVIL.md",
+    "name": "ANNIHILATION-OF-EVIL.md",
+    "en_title": "Annihilation Of Evil",
+    "en_content": "Evil itself is doomed to annihilation...forever.",
+    "translations": {
+      "es_title": "Aniquilación del Mal",
+      "es_content": "El mal mismo está condenado a la aniquilación... para siempre.",
+      "fr_title": "Anéantissement du Mal",
+      "fr_content": "Le mal lui-même est voué à l'anéantissement... pour toujours.",
+      "hi_title": "बुराई का विनाश",
+      "hi_content": "बुराई स्वयं विनाश के लिए अभिशप्त है... हमेशा के लिए।",
+      "zh_title": "邪恶的毁灭",
+      "zh_content": "邪恶本身注定要被毁灭...永远。"
+    }
+  },
+  {
+    "file": "/Users/quasaur/Developer/WISDOM/Neo4j-Thoughts/Book_of_Tweets/cypher/APOCALYPSE-BETTER-WORLD.md",
+    "name": "APOCALYPSE-BETTER-WORLD.md",
+    "en_title": "Apocalypse Better World",
+    "en_content": "The Better World is coming! Apocalypse!",
+    "translations": {
+      "es_title": "Apocalipsis Mundo Mejor",
+      "es_content": "¡El Mundo Mejor está llegando! ¡Apocalipsis!",
+      "fr_title": "Apocalypse Monde Meilleur",
+      "fr_content": "Le Monde Meilleur arrive ! Apocalypse !",
+      "hi_title": "सर्वनाश बेहतर दुनिया",
+      "hi_content": "बेहतर दुनिया आ रही है! सर्वनाश!",
+      "zh_title": "启示录更美好的世界",
+      "zh_content": "更美好的世界即将来临！启示录！"
+    }
+  },
+  {
+    "file": "/Users/quasaur/Developer/WISDOM/Neo4j-Thoughts/Book_of_Tweets/cypher/APOSTLES-AS-VISION.md",
+    "name": "APOSTLES-AS-VISION.md",
+    "en_title": "Apostles As Vision",
+    "en_content": "The Apostles loved Jesus' Vision because the Apostles WERE Jesus' Vision!",
+    "translations": {
+      "es_title": "Los Apóstoles como Visión",
+      "es_content": "¡Los Apóstoles amaban la Visión de Jesús porque los Apóstoles ERAN la Visión de Jesús!",
+      "fr_title": "Les Apôtres comme Vision",
+      "fr_content": "Les Apôtres aimaient la Vision de Jésus parce que les Apôtres ÉTAIENT la Vision de Jésus !",
+      "hi_title": "दृष्टि के रूप में प्रेरित",
+      "hi_content": "प्रेरितों ने यीशु की दृष्टि से प्यार किया क्योंकि प्रेरित यीशु की दृष्टि थे!",
+      "zh_title": "使徒作为异象",
+      "zh_content": "使徒们热爱耶稣的异象，因为使徒们就是耶稣的异象！"
+    }
+  },
+  {
+    "file": "/Users/quasaur/Developer/WISDOM/Neo4j-Thoughts/Book_of_Tweets/cypher/APPEARING-HUMAN.md",
+    "name": "APPEARING-HUMAN.md",
+    "en_title": "Appearing Human",
+    "en_content": "Beware of those who appear human, but ain't!",
+    "translations": {
+      "es_title": "Apariencia Humana",
+      "es_content": "¡Cuidado con aquellos que parecen humanos, pero no lo son!",
+      "fr_title": "Apparence Humaine",
+      "fr_content": "Méfiez-vous de ceux qui paraissent humains, mais ne le sont pas !",
+      "hi_title": "मानवीय दिखावा",
+      "hi_content": "उन लोगों से सावधान रहें जो मानव दिखते हैं, लेकिन हैं नहीं!",
+      "zh_title": "看似人类",
+      "zh_content": "小心那些看起来像人类，但实际上不是的！"
+    }
+  },
+  {
+    "file": "/Users/quasaur/Developer/WISDOM/Neo4j-Thoughts/Book_of_Tweets/cypher/ARROGANCE-VS-DIGNITY.md",
+    "name": "ARROGANCE-VS-DIGNITY.md",
+    "en_title": "Arrogance Vs Dignity",
+    "en_content": "Far too many black men have mistaken arrogance for dignity.",
+    "translations": {
+      "es_title": "Arrogancia vs Dignidad",
+      "es_content": "Demasiados hombres negros han confundido la arrogancia con la dignidad.",
+      "fr_title": "Arrogance vs Dignité",
+      "fr_content": "Beaucoup trop d'hommes noirs ont confondu l'arrogance avec la dignité.",
+      "hi_title": "अहंकार बनाम गरिमा",
+      "hi_content": "बहुत से अश्वेत पुरुषों ने अहंकार को गरिमा समझ लिया है।",
+      "zh_title": "傲慢与尊严",
+      "zh_content": "太多黑人男性将傲慢误认为是尊严。"
+    }
+  },
+  {
+    "file": "/Users/quasaur/Developer/WISDOM/Neo4j-Thoughts/Book_of_Tweets/cypher/ASK-GOD-PERFECTION.md",
+    "name": "ASK-GOD-PERFECTION.md",
+    "en_title": "Ask God Perfection",
+    "en_content": "Perfection isn't that difficult...ask God!",
+    "translations": {
+      "es_title": "Pregúntale a Dios sobre la Perfección",
+      "es_content": "La perfección no es tan difícil... ¡pregúntale a Dios!",
+      "fr_title": "Demandez à Dieu la Perfection",
+      "fr_content": "La perfection n'est pas si difficile... demandez à Dieu !",
+      "hi_title": "परमेश्वर से पूर्णता पूछें",
+      "hi_content": "पूर्णता इतनी कठिन नहीं है... परमेश्वर से पूछें!",
+      "zh_title": "问神关于完美",
+      "zh_content": "完美并不那么困难...问问神吧！"
+    }
+  },
+  {
+    "file": "/Users/quasaur/Developer/WISDOM/Neo4j-Thoughts/Book_of_Tweets/cypher/ATHEISM-SUCKS.md",
+    "name": "ATHEISM-SUCKS.md",
+    "en_title": "Atheism Sucks",
+    "en_content": "The problem with believing you're a thing is that you'll start treating other people as things. Atheism sucks!",
+    "translations": {
+      "es_title": "El Ateísmo Apesta",
+      "es_content": "El problema de creer que eres una cosa es que empezarás a tratar a otras personas como cosas. ¡El ateísmo apesta!",
+      "fr_title": "L'Athéisme Craint",
+      "fr_content": "Le problème de croire que vous êtes une chose, c'est que vous commencerez à traiter les autres comme des choses. L'athéisme craint !",
+      "hi_title": "नास्तिकता घृणित है",
+      "hi_content": "यह मानने की समस्या कि आप एक वस्तु हैं, यह है कि आप अन्य लोगों को वस्तुओं के रूप में मानना शुरू कर देंगे। नास्तिकता घृणित है!",
+      "zh_title": "无神论糟糕透了",
+      "zh_content": "相信自己是一个物体的问题在于，你会开始把其他人当作物体。无神论糟糕透了！"
+    }
+  },
+  {
+    "file": "/Users/quasaur/Developer/WISDOM/Neo4j-Thoughts/Book_of_Tweets/cypher/ATOMS-IN-CELL.md",
+    "name": "ATOMS-IN-CELL.md",
+    "en_title": "Atoms In Cell",
+    "en_content": "The average human cell is made of approx. 200 trillion atoms...God is great!",
+    "translations": {
+      "es_title": "Átomos en una Célula",
+      "es_content": "La célula humana promedio está compuesta por aprox. 200 billones de átomos... ¡Dios es grande!",
+      "fr_title": "Atomes dans une Cellule",
+      "fr_content": "La cellule humaine moyenne est composée d'environ 200 trillions d'atomes... Dieu est grand !",
+      "hi_title": "कोशिका में परमाणु",
+      "hi_content": "औसत मानव कोशिका लगभग 200 ट्रिलियन परमाणुओं से बनी होती है... परमेश्वर महान है!",
+      "zh_title": "细胞中的原子",
+      "zh_content": "平均每个人类细胞由大约200万亿个原子组成...神是伟大的！"
+    }
+  },
+  {
+    "file": "/Users/quasaur/Developer/WISDOM/Neo4j-Thoughts/Book_of_Tweets/cypher/ATROCITIES-OF-RELIGION.md",
+    "name": "ATROCITIES-OF-RELIGION.md",
+    "en_title": "Atrocities Of Religion",
+    "en_content": "It's amazing what atrocities religion will allow.",
+    "translations": {
+      "es_title": "Atrocidades de la Religión",
+      "es_content": "Es asombroso las atrocidades que la religión permitirá.",
+      "fr_title": "Atrocités de la Religion",
+      "fr_content": "C'est étonnant les atrocités que la religion permettra.",
+      "hi_title": "धर्म के अत्याचार",
+      "hi_content": "यह आश्चर्यजनक है कि धर्म किन अत्याचारों की अनुमति देगा।",
+      "zh_title": "宗教的暴行",
+      "zh_content": "令人惊讶的是宗教会允许什么样的暴行。"
+    }
+  },
+  {
+    "file": "/Users/quasaur/Developer/WISDOM/Neo4j-Thoughts/Book_of_Tweets/cypher/ATTENTION-DESIRE.md",
+    "name": "ATTENTION-DESIRE.md",
+    "en_title": "Attention Desire",
+    "en_content": "I only want your attention when you don't want to give it to me.",
+    "translations": {
+      "es_title": "Deseo de Atención",
+      "es_content": "Solo quiero tu atención cuando no quieres dármela.",
+      "fr_title": "Désir d'Attention",
+      "fr_content": "Je ne veux ton attention que lorsque tu ne veux pas me la donner.",
+      "hi_title": "ध्यान की इच्छा",
+      "hi_content": "मुझे केवल तभी आपका ध्यान चाहिए जब आप मुझे देना नहीं चाहते।",
+      "zh_title": "渴望关注",
+      "zh_content": "我只在你不想给我关注的时候才想要你的关注。"
+    }
+  }
+]

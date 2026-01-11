@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.APOCALYPSE BETTER WORLD",
     en_title: "Apocalypse Better World",
     en_content: "The Better World is coming! Apocalypse!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Apocalipsis Mundo Mejor",
+    es_content: "¡El Mundo Mejor está llegando! ¡Apocalipsis!",
+    fr_title: "Apocalypse Monde Meilleur",
+    fr_content: "Le Monde Meilleur arrive ! Apocalypse !",
+    hi_title: "सर्वनाश बेहतर दुनिया",
+    hi_content: "बेहतर दुनिया आ रही है! सर्वनाश!",
+    zh_title: "启示录更美好的世界",
+    zh_content: "更美好的世界即将来临！启示录！"
 });
 
 MATCH (t:THOUGHT)

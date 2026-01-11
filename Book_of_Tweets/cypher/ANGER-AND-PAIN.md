@@ -31,14 +31,14 @@ CREATE (c:CONTENT {
     name: "content.ANGER AND PAIN",
     en_title: "Anger And Pain",
     en_content: "Anger as a first response is often indicative of an underlying issue...that issue usually being pain.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Ira y Dolor",
+    es_content: "La ira como primera respuesta suele ser indicativa de un problema subyacente... ese problema suele ser el dolor.",
+    fr_title: "Colère et Douleur",
+    fr_content: "La colère en première réponse est souvent révélatrice d'un problème sous-jacent... ce problème étant généralement la douleur.",
+    hi_title: "क्रोध और पीड़ा",
+    hi_content: "पहली प्रतिक्रिया के रूप में क्रोध अक्सर एक अंतर्निहित मुद्दे का संकेत होता है... वह मुद्दा आमतौर पर पीड़ा होती है।",
+    zh_title: "愤怒与痛苦",
+    zh_content: "愤怒作为第一反应通常表明存在潜在问题...该问题通常是痛苦。"
 });
 
 MATCH (t:THOUGHT)

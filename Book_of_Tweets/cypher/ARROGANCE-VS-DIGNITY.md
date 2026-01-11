@@ -31,14 +31,14 @@ CREATE (c:CONTENT {
     name: "content.ARROGANCE VS DIGNITY",
     en_title: "Arrogance Vs Dignity",
     en_content: "Far too many black men have mistaken arrogance for dignity.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Arrogancia vs Dignidad",
+    es_content: "Demasiados hombres negros han confundido la arrogancia con la dignidad.",
+    fr_title: "Arrogance vs Dignité",
+    fr_content: "Beaucoup trop d'hommes noirs ont confondu l'arrogance avec la dignité.",
+    hi_title: "अहंकार बनाम गरिमा",
+    hi_content: "बहुत से अश्वेत पुरुषों ने अहंकार को गरिमा समझ लिया है।",
+    zh_title: "傲慢与尊严",
+    zh_content: "太多黑人男性将傲慢误认为是尊严。"
 });
 
 MATCH (t:THOUGHT)

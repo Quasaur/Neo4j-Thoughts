@@ -31,14 +31,14 @@ CREATE (c:CONTENT {
     name: "content.ABORTION AND GOLDEN RULE",
     en_title: "Abortion And Golden Rule",
     en_content: "Abortion is a violation of the Golden Rule: \"Do unto others as you would have them do into you.\"",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "El Aborto y la Regla de Oro",
+    es_content: "El aborto es una violación de la Regla de Oro: \"Haz a los demás lo que quieras que te hagan a ti.\"",
+    fr_title: "L'avortement et la Règle d'Or",
+    fr_content: "L'avortement est une violation de la Règle d'Or : \"Fais aux autres ce que tu voudrais qu'ils te fassent.\"",
+    hi_title: "गर्भपात और स्वर्णिम नियम",
+    hi_content: "गर्भपात स्वर्णिम नियम का उल्लंघन है: \"दूसरों के साथ वैसा ही करो जैसा तुम चाहते हो कि तुम्हारे साथ किया जाए।\"",
+    zh_title: "堕胎与黄金法则",
+    zh_content: "堕胎违反了黄金法则：\"己所不欲，勿施于人。\""
 });
 
 MATCH (t:THOUGHT)

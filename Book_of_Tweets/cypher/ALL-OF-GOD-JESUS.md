@@ -31,14 +31,14 @@ CREATE (c:CONTENT {
     name: "content.ALL OF GOD JESUS",
     en_title: "All Of God Jesus",
     en_content: "Jesus Christ is the only Man Who could fit ALL OF GOD in Himself, because HE IS GOD!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Todo Dios en Jesús",
+    es_content: "¡Jesucristo es el único Hombre que pudo contener TODO DE DIOS en Sí mismo, porque ÉL ES DIOS!",
+    fr_title: "Tout Dieu en Jésus",
+    fr_content: "Jésus-Christ est le seul Homme qui pourrait contenir TOUT DIEU en Lui-même, parce qu'IL EST DIEU !",
+    hi_title: "यीशु में संपूर्ण परमेश्वर",
+    hi_content: "यीशु मसीह एकमात्र मनुष्य हैं जो अपने आप में संपूर्ण परमेश्वर को समा सकते हैं, क्योंकि वे ही परमेश्वर हैं!",
+    zh_title: "耶稣是完全的神",
+    zh_content: "耶稣基督是唯一能够将全部的神容纳在自己里面的人，因为他就是神！"
 });
 
 MATCH (t:THOUGHT)

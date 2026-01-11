@@ -31,14 +31,14 @@ CREATE (c:CONTENT {
     name: "content.AGREEING WITH OPPRESSOR",
     en_title: "Agreeing With Oppressor",
     en_content: "Every day we do things to let the Opressor know that we AGREE that his money is worth more than justice, dignity, equity and honor.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "De Acuerdo con el Opresor",
+    es_content: "Cada día hacemos cosas para hacerle saber al Opresor que ESTAMOS DE ACUERDO en que su dinero vale más que la justicia, la dignidad, la equidad y el honor.",
+    fr_title: "Accord avec l'Oppresseur",
+    fr_content: "Chaque jour, nous faisons des choses pour faire savoir à l'Oppresseur que nous ACCEPTONS que son argent vaut plus que la justice, la dignité, l'équité et l'honneur.",
+    hi_title: "उत्पीड़क से सहमति",
+    hi_content: "हर दिन हम ऐसे काम करते हैं जिससे उत्पीड़क को पता चल जाए कि हम सहमत हैं कि उसका पैसा न्याय, सम्मान, समानता और मर्यादा से अधिक मूल्यवान है।",
+    zh_title: "与压迫者达成一致",
+    zh_content: "每天我们都在做一些事情，让压迫者知道我们同意他的金钱比正义、尊严、公平和荣誉更有价值。"
 });
 
 MATCH (t:THOUGHT)

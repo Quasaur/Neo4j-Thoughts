@@ -31,14 +31,14 @@ CREATE (c:CONTENT {
     name: "content.AMERICA ACCOUNTABLE FREEDOMS",
     en_title: "America Accountable Freedoms",
     en_content: "America, God will hold you accountable for the way you spent your freedoms.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "América Responsable de sus Libertades",
+    es_content: "América, Dios te hará responsable por la forma en que usaste tus libertades.",
+    fr_title: "L'Amérique Responsable de ses Libertés",
+    fr_content: "Amérique, Dieu te tiendra responsable de la façon dont tu as utilisé tes libertés.",
+    hi_title: "अमेरिका अपनी स्वतंत्रताओं के लिए जवाबदेह",
+    hi_content: "अमेरिका, भगवान आपको जवाबदेह ठहराएंगे कि आपने अपनी स्वतंत्रताओं का उपयोग कैसे किया।",
+    zh_title: "美国对自由负责",
+    zh_content: "美国，上帝会让你为你使用自由的方式负责。"
 });
 
 MATCH (t:THOUGHT)

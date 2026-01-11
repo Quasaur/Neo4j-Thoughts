@@ -31,14 +31,14 @@ CREATE (c:CONTENT {
     name: "content.ACCURATE THEOLOGY",
     en_title: "Accurate Theology",
     en_content: "The more accurate our theology, the easier the Christian life gets.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Teología Precisa",
+    es_content: "Cuanto más precisa sea nuestra teología, más fácil se vuelve la vida cristiana.",
+    fr_title: "Théologie Précise",
+    fr_content: "Plus notre théologie est précise, plus la vie chrétienne devient facile.",
+    hi_title: "सटीक धर्मशास्त्र",
+    hi_content: "हमारा धर्मशास्त्र जितना सटीक होगा, ईसाई जीवन उतना ही आसान होगा।",
+    zh_title: "准确的神学",
+    zh_content: "我们的神学越准确，基督徒的生活就越容易。"
 });
 
 MATCH (t:THOUGHT)

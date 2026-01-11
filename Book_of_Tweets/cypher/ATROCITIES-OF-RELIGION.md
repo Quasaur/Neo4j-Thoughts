@@ -31,14 +31,14 @@ CREATE (c:CONTENT {
     name: "content.ATROCITIES OF RELIGION",
     en_title: "Atrocities Of Religion",
     en_content: "It's amazing what atrocities religion will allow.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Atrocidades de la Religión",
+    es_content: "Es asombroso las atrocidades que la religión permitirá.",
+    fr_title: "Atrocités de la Religion",
+    fr_content: "C'est étonnant les atrocités que la religion permettra.",
+    hi_title: "धर्म के अत्याचार",
+    hi_content: "यह आश्चर्यजनक है कि धर्म किन अत्याचारों की अनुमति देगा।",
+    zh_title: "宗教的暴行",
+    zh_content: "令人惊讶的是宗教会允许什么样的暴行。"
 });
 
 MATCH (t:THOUGHT)
