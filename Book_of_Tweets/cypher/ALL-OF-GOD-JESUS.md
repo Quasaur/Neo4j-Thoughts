@@ -37,8 +37,8 @@ CREATE (c:CONTENT {
     fr_content: "Jésus-Christ est le seul Homme qui pourrait contenir TOUT DIEU en Lui-même, parce qu'IL EST DIEU !",
     hi_title: "यीशु में संपूर्ण परमेश्वर",
     hi_content: "यीशु मसीह एकमात्र मनुष्य हैं जो अपने आप में संपूर्ण परमेश्वर को समा सकते हैं, क्योंकि वे ही परमेश्वर हैं!",
-    zh_title: "耶稣是完全的神",
-    zh_content: "耶稣基督是唯一能够将全部的神容纳在自己里面的人，因为他就是神！"
+    zh_title: "Yēsū shì shén",
+    zh_content: "Yēsū jīdū shì wéiyī nénggòu jiāng quánbù de shén róngnà zài zìjǐ lǐmiàn de rén, yīnwèi tā jiùshì shén!"
 });
 
 MATCH (t:THOUGHT)

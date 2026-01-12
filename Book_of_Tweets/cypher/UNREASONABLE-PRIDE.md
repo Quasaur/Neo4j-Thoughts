@@ -1,18 +1,18 @@
 ---
-name: "thought.UNREASONABLE PRIDE"
+name: thought.UNREASONABLE PRIDE
 alias: "Thought: Unreasonable Pride"
 type: THOUGHT
-en_content: "Self Pride is always unreasonable."
-parent: "topic.ATTITUDE"
+en_content: Self Pride is always unreasonable.
+parent: topic.EVIL
 tags:
-- pride
-- attitude
-- reason
-- character
-- arrogance
+  - pride
+  - attitude
+  - reason
+  - character
+  - arrogance
 level: 3
 neo4j: true
-ptopic: 
+ptopic: "[[topic-EVIL]]"
 insert: true
 ---
 

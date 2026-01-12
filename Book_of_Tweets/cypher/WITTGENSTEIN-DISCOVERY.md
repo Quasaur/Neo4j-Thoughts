@@ -37,7 +37,7 @@ CREATE (c:CONTENT {
     fr_content: "J'ai découvert Ludwig Wittgenstein.",
     hi_title: "विट्गेन्स्टाइन की खोज",
     hi_content: "मैंने लुडविग विट्गेन्स्टाइन की खोज की।",
-    zh_title: "wéi tè gēn sī tǎn",
+    zh_title: "Wéitègēnsītǎn fāxiàn",
     zh_content: "wǒ fā xiàn le wéi tè gēn sī tǎn."
 });
 

@@ -37,7 +37,7 @@ CREATE (c:CONTENT {
     fr_content: "Qu'est-ce qui est le plus grand : le cadeau ou le Donateur ?",
     hi_title: "उपहार या दाता",
     hi_content: "कौन बड़ा है: उपहार, या दाता?"
-    zh_title: "lǐ wù huò dào tǐ",
+    zh_title: "Lǐwù huò shīzhě",
     zh_content: "ná gè gèng dài ： lǐ wù ， huò shì dào tǐ ？"
 });
 

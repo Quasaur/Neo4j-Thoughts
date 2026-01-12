@@ -1,18 +1,18 @@
 ---
-name: "thought.WANTING FORGIVENESS ONLY"
+name: thought.WANTING FORGIVENESS ONLY
 alias: "Thought: Wanting Forgiveness Only"
 type: THOUGHT
-en_content: "We want to be forgiven, but we don't want to forgive...how disgusting."
-parent: "topic.ATTITUDE"
+en_content: We want to be forgiven, but we don't want to forgive...how disgusting.
+parent: topic.LOVE
 tags:
-- forgiveness
-- hypocrisy
-- attitude
-- character
-- disgusting
+  - forgiveness
+  - hypocrisy
+  - attitude
+  - character
+  - disgusting
 level: 3
 neo4j: true
-ptopic: 
+ptopic: "[[topic-LOVE]]"
 insert: true
 ---
 

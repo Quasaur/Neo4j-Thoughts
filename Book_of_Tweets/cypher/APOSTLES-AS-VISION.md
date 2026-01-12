@@ -37,8 +37,8 @@ CREATE (c:CONTENT {
     fr_content: "Les Apôtres aimaient la Vision de Jésus parce que les Apôtres ÉTAIENT la Vision de Jésus !",
     hi_title: "दृष्टि के रूप में प्रेरित",
     hi_content: "प्रेरितों ने यीशु की दृष्टि से प्यार किया क्योंकि प्रेरित यीशु की दृष्टि थे!",
-    zh_title: "使徒作为异象",
-    zh_content: "使徒们热爱耶稣的异象，因为使徒们就是耶稣的异象！"
+    zh_title: "Shǐtú zuòwéi yìxiàng",
+    zh_content: "Shǐtúmen rè'ài yēsū de yìxiàng, yīnwèi shǐtúmen jiùshì yēsū de yìxiàng!"
 });
 
 MATCH (t:THOUGHT)

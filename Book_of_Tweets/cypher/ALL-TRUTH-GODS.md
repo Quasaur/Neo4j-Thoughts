@@ -37,8 +37,8 @@ CREATE (c:CONTENT {
     fr_content: "Toute vérité appartient à Dieu.",
     hi_title: "सभी सत्य परमेश्वर के हैं",
     hi_content: "सभी सत्य परमेश्वर के हैं।",
-    zh_title: "一切真理属于神",
-    zh_content: "一切真理都属于神。"
+    zh_title: "Zhēnlǐ shǔyú shén",
+    zh_content: "Yīqiè zhēnlǐ dōu shǔyú shén."
 });
 
 MATCH (t:THOUGHT)

@@ -1,18 +1,18 @@
 ---
-name: "thought.BORED VS BORING"
+name: thought.BORED VS BORING
 alias: "Thought: Bored Vs Boring"
 type: THOUGHT
-en_content: "Better to be bored than to be boring."
-parent: "topic.ATTITUDE"
+en_content: Better to be bored than to be boring.
+parent: topic.ATTITUDE
 tags:
-- boredom
-- personality
-- attitude
-- character
-- irony
+  - boredom
+  - personality
+  - attitude
+  - character
+  - irony
 level: 3
 neo4j: true
-ptopic: 
+ptopic: "[[topic-ATTITUDE]]"
 insert: true
 ---
 

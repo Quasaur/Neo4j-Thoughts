@@ -37,8 +37,8 @@ CREATE (c:CONTENT {
     fr_content: "Beaucoup trop d'hommes noirs ont confondu l'arrogance avec la dignité.",
     hi_title: "अहंकार बनाम गरिमा",
     hi_content: "बहुत से अश्वेत पुरुषों ने अहंकार को गरिमा समझ लिया है।",
-    zh_title: "傲慢与尊严",
-    zh_content: "太多黑人男性将傲慢误认为是尊严。"
+    zh_title: "Àomàn yǔ zūnyán",
+    zh_content: "Tài duō hēirén nánxìng jiāng àomàn wù rènwéi shì zūnyán."
 });
 
 MATCH (t:THOUGHT)

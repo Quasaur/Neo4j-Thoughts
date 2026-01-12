@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "Le Monde Meilleur arrive ! Apocalypse !",
     hi_title: "सर्वनाश बेहतर दुनिया",
     hi_content: "बेहतर दुनिया आ रही है! सर्वनाश!",
-    zh_title: "启示录更美好的世界",
-    zh_content: "更美好的世界即将来临！启示录！"
+    zh_title: "Qǐshìlù gèng shìjiè",
+    zh_content: "Gèng měihǎo de shìjiè jíjiāng láilín! Qǐshìlù!"
 });
 
 MATCH (t:THOUGHT)

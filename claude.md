@@ -124,6 +124,11 @@ MERGE (parent)-[:HAS_THOUGHT {name: "edge.PARENT->EXAMPLE"}]->(child);
 - File names use hyphens: `692-189.md`
 - Content titles vary (check existing database for consistency)
 
+### Multilingual Content Rules
+- **zh_title**: Must use Chinese Pinyin (NOT Chinese Simplified characters), maximum 4 words
+- **zh_content**: Must use Chinese Pinyin (NOT Chinese Simplified characters)
+- All other language fields follow standard conventions for their respective languages
+
 ---
 
 ## Git Workflow

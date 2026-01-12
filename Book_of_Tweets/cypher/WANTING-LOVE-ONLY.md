@@ -1,18 +1,18 @@
 ---
-name: "thought.WANTING LOVE ONLY"
+name: thought.WANTING LOVE ONLY
 alias: "Thought: Wanting Love Only"
 type: THOUGHT
-en_content: "We want to be loved, but we don't want to love...how pathetic."
-parent: "topic.ATTITUDE"
+en_content: We want to be loved, but we don't want to love...how pathetic.
+parent: topic.LOVE
 tags:
-- love
-- selfishness
-- attitude
-- pathetic
-- character
+  - love
+  - selfishness
+  - attitude
+  - pathetic
+  - character
 level: 3
 neo4j: true
-ptopic: 
+ptopic: "[[topic-LOVE]]"
 insert: true
 ---
 

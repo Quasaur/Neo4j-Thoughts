@@ -37,8 +37,8 @@ CREATE (c:CONTENT {
     fr_content: "Alonzo Church Ph.D, inventeur du lambda-calcul, était un chrétien fervent... qui dit que la science et la foi ne se mélangent pas ?",
     hi_title: "एलोंजो चर्च की आस्था",
     hi_content: "एलोंजो चर्च पीएच.डी., लैम्ब्डा कैलकुलस के आविष्कारक, एक समर्पित ईसाई थे... कौन कहता है कि विज्ञान और आस्था मिश्रित नहीं होते?",
-    zh_title: "阿隆佐·丘奇的信仰",
-    zh_content: "阿隆佐·丘奇博士，λ演算的发明者，是一位虔诚的基督徒...谁说科学和信仰不能共存？"
+    zh_title: "Ālóngzuǒ qiūqí xìnyǎng",
+    zh_content: "Ālóngzuǒ qiūqí bóshì, λ yǎnsuàn de fāmíngzhě, shì yīwèi qiánchéng de jīdūtú... shéi shuō kēxué hé xìnyǎng bùnéng gòngcún?"
 });
 
 MATCH (t:THOUGHT)

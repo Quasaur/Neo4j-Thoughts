@@ -37,8 +37,8 @@ CREATE (c:CONTENT {
     fr_content: "Amérique, Dieu te tiendra responsable de la façon dont tu as utilisé tes libertés.",
     hi_title: "अमेरिका अपनी स्वतंत्रताओं के लिए जवाबदेह",
     hi_content: "अमेरिका, भगवान आपको जवाबदेह ठहराएंगे कि आपने अपनी स्वतंत्रताओं का उपयोग कैसे किया।",
-    zh_title: "美国对自由负责",
-    zh_content: "美国，上帝会让你为你使用自由的方式负责。"
+    zh_title: "Měiguó duì zìyóu",
+    zh_content: "Měiguó, shàngdì huì ràng nǐ wèi nǐ shǐyòng zìyóu de fāngshì fùzé."
 });
 
 MATCH (t:THOUGHT)

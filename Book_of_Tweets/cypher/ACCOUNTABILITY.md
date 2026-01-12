@@ -37,8 +37,8 @@ CREATE (c:CONTENT {
     fr_content: "Dieu ne t'épargne pas les conséquences de mes actions.",
     hi_title: "विट्गेन्स्टाइन की खोज",
     hi_content: "भगवान आपको मेरे कार्यों के परिणामों से नहीं बचाते।",
-    zh_title: "问责制",
-    zh_content: "上帝不会让你免受我行为的后果。"
+    zh_title: "Wènzé zhì",
+    zh_content: "Shàngdì bù huì ràng nǐ miǎnshòu wǒ xíngwéi de hòuguǒ."
 });
 
 MATCH (t:THOUGHT)

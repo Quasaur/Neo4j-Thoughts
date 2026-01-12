@@ -1,18 +1,18 @@
 ---
-name: "thought.UNREASONABLE PEOPLE PROBLEM"
+name: thought.UNREASONABLE PEOPLE PROBLEM
 alias: "Thought: Unreasonable People Problem"
 type: THOUGHT
-en_content: "Life would be perfect but for the presence of unreasonable people."
-parent: "topic.ATTITUDE"
+en_content: Life would be perfect but for the presence of unreasonable people.
+parent: topic.WISDOM
 tags:
-- people
-- reason
-- life
-- attitude
-- problem
+  - people
+  - reason
+  - life
+  - attitude
+  - problem
 level: 3
 neo4j: true
-ptopic: 
+ptopic: "[[topic-WISDOM]]"
 insert: true
 ---
 

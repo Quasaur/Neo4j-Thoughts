@@ -1,18 +1,18 @@
 ---
-name: "thought.OVERCOMING FEAR BLAME"
+name: thought.OVERCOMING FEAR BLAME
 alias: "Thought: Overcoming Fear Blame"
 type: THOUGHT
-en_content: "If you keep blaming others for your fears, you'll never overcome them."
-parent: "topic.ATTITUDE"
+en_content: If you keep blaming others for your fears, you'll never overcome them.
+parent: topic.ATTITUDE
 tags:
-- fear
-- blame
-- attitude
-- courage
-- character
+  - fear
+  - blame
+  - attitude
+  - courage
+  - character
 level: 3
 neo4j: true
-ptopic: 
+ptopic: "[[topic-ATTITUDE]]"
 insert: true
 ---
 

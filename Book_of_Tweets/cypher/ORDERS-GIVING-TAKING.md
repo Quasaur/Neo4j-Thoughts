@@ -1,18 +1,18 @@
 ---
-name: "thought.ORDERS GIVING TAKING"
+name: thought.ORDERS GIVING TAKING
 alias: "Thought: Orders Giving Taking"
 type: THOUGHT
-en_content: "I'm highly suspicious of people who can give orders but not take orders."
-parent: "topic.ATTITUDE"
+en_content: I'm highly suspicious of people who can give orders but not take orders.
+parent: topic.WISDOM
 tags:
-- authority
-- humility
-- attitude
-- character
-- orders
+  - authority
+  - humility
+  - attitude
+  - character
+  - orders
 level: 3
 neo4j: true
-ptopic: 
+ptopic: "[[topic-WISDOM]]"
 insert: true
 ---
 

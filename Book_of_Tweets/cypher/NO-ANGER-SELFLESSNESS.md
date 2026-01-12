@@ -1,18 +1,18 @@
 ---
-name: "thought.NO ANGER SELFLESSNESS"
+name: thought.NO ANGER SELFLESSNESS
 alias: "Thought: No Anger Selflessness"
 type: THOUGHT
-en_content: "There is no anger in selflessness."
-parent: "topic.ATTITUDE"
+en_content: There is no anger in selflessness.
+parent: topic.ATTITUDE
 tags:
-- selflessness
-- anger
-- attitude
-- peace
-- character
+  - selflessness
+  - anger
+  - attitude
+  - peace
+  - character
 level: 3
 neo4j: true
-ptopic: 
+ptopic: "[[topic-ATTITUDE]]"
 insert: true
 ---
 

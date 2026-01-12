@@ -1,18 +1,18 @@
 ---
-name: "thought.FEAR AS BAD MOTIVE"
+name: thought.FEAR AS BAD MOTIVE
 alias: "Thought: Fear As Bad Motive"
 type: THOUGHT
-en_content: "Fear is rarely a good motive for any action."
-parent: "topic.ATTITUDE"
+en_content: Fear is rarely a good motive for any action.
+parent: topic.ATTITUDE
 tags:
-- fear
-- motive
-- action
-- attitude
-- character
+  - fear
+  - motive
+  - action
+  - attitude
+  - character
 level: 3
 neo4j: true
-ptopic: 
+ptopic: "[[topic-ATTITUDE]]"
 insert: true
 ---
 

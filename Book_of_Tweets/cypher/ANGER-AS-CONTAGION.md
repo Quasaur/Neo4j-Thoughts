@@ -11,9 +11,8 @@ tags:
   - attitude
   - character
 level: 3
-neo4j: true
+neo4j: false
 ptopic: "[[topic-ATTITUDE]]"
-insert: true
 ---
 
 ```Cypher
@@ -37,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "La colère est une contagion qui saute facilement d'âme en âme là où la raison est absente.",
     hi_title: "संक्रमण के रूप में क्रोध",
     hi_content: "क्रोध एक संक्रमण है जो आसानी से एक आत्मा से दूसरी आत्मा में कूद जाता है जहां तर्क की अनुपस्थिति होती है।",
-    zh_title: "愤怒如同传染病",
-    zh_content: "愤怒是一种传染病，在缺乏理性的地方很容易从一个灵魂跳到另一个灵魂。"
+    zh_title: "Fènnù rú chuánrǎnbìng",
+    zh_content: "Fènnù shì yī zhǒng chuánrǎnbìng, zài quēfá lǐxìng de dìfāng hěn róngyì cóng yīgè línghún tiào dào lìng yīgè línghún."
 });
 
 MATCH (t:THOUGHT)

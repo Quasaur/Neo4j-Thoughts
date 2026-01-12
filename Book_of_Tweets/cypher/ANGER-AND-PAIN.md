@@ -37,8 +37,8 @@ CREATE (c:CONTENT {
     fr_content: "La colère en première réponse est souvent révélatrice d'un problème sous-jacent... ce problème étant généralement la douleur.",
     hi_title: "क्रोध और पीड़ा",
     hi_content: "पहली प्रतिक्रिया के रूप में क्रोध अक्सर एक अंतर्निहित मुद्दे का संकेत होता है... वह मुद्दा आमतौर पर पीड़ा होती है।",
-    zh_title: "愤怒与痛苦",
-    zh_content: "愤怒作为第一反应通常表明存在潜在问题...该问题通常是痛苦。"
+    zh_title: "Fènnù yǔ tòngkǔ",
+    zh_content: "Fènnù zuòwéi dì yī fǎnyìng tōngcháng biǎomíng cúnzài qiánzài wèntí... gāi wèntí tōngcháng shì tòngkǔ."
 });
 
 MATCH (t:THOUGHT)

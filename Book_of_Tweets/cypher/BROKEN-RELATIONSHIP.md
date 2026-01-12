@@ -37,7 +37,7 @@ CREATE (c:CONTENT {
     fr_content: "Une relation avec le Christ qui ne porte pas de fruits de soumission, d'adoration et d'obéissance est soit brisée, soit inexistante.",
     hi_title: "टूटा हुआ रिश्ता",
     hi_content: "मसीह के साथ एक रिश्ता जो समर्पण, आराधना और आज्ञाकारिता में फल नहीं देता है, वह या तो टूटा हुआ है या अस्तित्वहीन है।"
-    zh_title: "pò suì de guān xì",
+    zh_title: "Pòsuì de guānxì",
     zh_content: "yī gè yǔ jī dū de guān xì ， rú guǒ bù néng zài fú cóng 、 qìng bài hé fú cóng zhōng jié chū guǒ shí ， nà tā bù shì pò suì de jiù shì bù cún zài de 。"
 });
 

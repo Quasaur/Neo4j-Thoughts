@@ -37,8 +37,8 @@ CREATE (c:CONTENT {
     fr_content: "Le problème de croire que vous êtes une chose, c'est que vous commencerez à traiter les autres comme des choses. L'athéisme craint !",
     hi_title: "नास्तिकता घृणित है",
     hi_content: "यह मानने की समस्या कि आप एक वस्तु हैं, यह है कि आप अन्य लोगों को वस्तुओं के रूप में मानना शुरू कर देंगे। नास्तिकता घृणित है!",
-    zh_title: "无神论糟糕透了",
-    zh_content: "相信自己是一个物体的问题在于，你会开始把其他人当作物体。无神论糟糕透了！"
+    zh_title: "Wúshénlùn zāogāo",
+    zh_content: "Xiāngxìn zìjǐ shì yīgè wùtǐ de wèntí zàiyú, nǐ huì kāishǐ bǎ qítā rén dàngzuò wùtǐ. Wúshénlùn zāogāo tòule!"
 });
 
 MATCH (t:THOUGHT)

@@ -1,18 +1,18 @@
 ---
-name: "thought.OPPORTUNITY FOR ANGER"
+name: thought.OPPORTUNITY FOR ANGER
 alias: "Thought: Opportunity For Anger"
 type: THOUGHT
-en_content: "People don't need a reason to be angry...just an opportunity."
-parent: "topic.ATTITUDE"
+en_content: People don't need a reason to be angry...just an opportunity.
+parent: topic.ATTITUDE
 tags:
-- anger
-- attitude
-- character
-- human_nature
-- emotion
+  - anger
+  - attitude
+  - character
+  - human_nature
+  - emotion
 level: 3
 neo4j: true
-ptopic: 
+ptopic: "[[topic-ATTITUDE]]"
 insert: true
 ---
 

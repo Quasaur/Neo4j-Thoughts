@@ -37,8 +37,8 @@ CREATE (c:CONTENT {
     fr_content: "L'avortement est une violation de la Règle d'Or : \"Fais aux autres ce que tu voudrais qu'ils te fassent.\"",
     hi_title: "गर्भपात और स्वर्णिम नियम",
     hi_content: "गर्भपात स्वर्णिम नियम का उल्लंघन है: \"दूसरों के साथ वैसा ही करो जैसा तुम चाहते हो कि तुम्हारे साथ किया जाए।\"",
-    zh_title: "堕胎与黄金法则",
-    zh_content: "堕胎违反了黄金法则：\"己所不欲，勿施于人。\""
+    zh_title: "Duòtāi yǔ huángjīn fǎzé",
+    zh_content: "Duòtāi wéifǎnle huángjīn fǎzé."己所不欲，勿施于人。\""
 });
 
 MATCH (t:THOUGHT)

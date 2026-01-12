@@ -1,18 +1,18 @@
 ---
-name: "thought.DEFINE APATHY"
+name: thought.DEFINE APATHY
 alias: "Thought: Define Apathy"
 type: THOUGHT
-en_content: "Love & hate are not opposites...they are 2 halves of the same coin; the opposite of love / hate is Apathy."
-parent: "topic.ATTITUDE"
+en_content: Love & hate are not opposites...they are 2 halves of the same coin; the opposite of love / hate is Apathy.
+parent: topic.ATTITUDE
 tags:
-- love
-- hate
-- apathy
-- attitude
-- philosophy
+  - love
+  - hate
+  - apathy
+  - attitude
+  - philosophy
 level: 3
 neo4j: true
-ptopic: 
+ptopic: "[[topic-ATTITUDE]]"
 insert: true
 ---
 

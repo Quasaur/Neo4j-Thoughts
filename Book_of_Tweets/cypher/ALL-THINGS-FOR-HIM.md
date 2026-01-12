@@ -37,8 +37,8 @@ CREATE (c:CONTENT {
     fr_content: "Toutes choses sont de, pour et par Lui ; ceci est convenable, car Il est digne.",
     hi_title: "विट्गेन्स्टाइन की खोज",
     hi_content: "सब कुछ उससे, उसके लिए और उसके द्वारा है; यह उचित है, क्योंकि वह योग्य है।",
-    zh_title: "万物为了祂",
-    zh_content: "万物都是从祂、归于祂、为了祂；这是合宜的，因为祂配得。"
+    zh_title: "Wànwù wèile tā",
+    zh_content: "Wànwù dōu shì cóng tā, guīyú tā, wèile tā; zhè shì héyí de, yīnwèi tā pèidé."
 });
 
 MATCH (t:THOUGHT)

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "76b686094a26773c",
+        "id": "15cb592e385f6502",
         "type": "tabs",
         "children": [
           {
-            "id": "e3797dc1ed2b4b30",
+            "id": "a59c06b062dc5bf7",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -84,7 +84,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313.5086555480957
+    "width": 313.5086555480957,
+    "collapsed": true
   },
   "right": {
     "id": "23b5a9898015fd07",
@@ -172,11 +173,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e3797dc1ed2b4b30",
+  "active": "a59c06b062dc5bf7",
   "lastOpenFiles": [
+    "python/find_chinese_simplified.py",
+    "BASES/Base-Book of Tweets.md",
+    "Book_of_Tweets/cypher/ANGER-AS-CONTAGION.md",
+    "Book_of_Tweets/cypher/ATTENTIONS-DESIRE.md",
     "claude.md",
     "python/fix_book_of_tweets_levels.py",
-    "BASES/Base-Book of Tweets.md",
     "content/TOPICS/topic-ATTITUDE.md",
     "CYPHER/CORRECTIONS/THOUGHT/THOUGHT-level-Thought.md",
     "python/find_auradb_placeholders.py",
@@ -207,9 +211,6 @@
     "content/THOUGHTS/HUMAN-MERCY.md",
     "content/THOUGHTS/ACTS-OF-THE-APOSTLES.md",
     "content/THOUGHTS/THINKING-TIME.md",
-    "content/THOUGHTS/DESPISING-THE-CROSS.md",
-    "content/THOUGHTS/THE-BIBLE.md",
-    "content/THOUGHTS/DIVINE-SEED.md",
     "Untitled.canvas",
     "public/attachments/og-image.png",
     "public/static/og-image.png",
