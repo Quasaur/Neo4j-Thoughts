@@ -1,5 +1,5 @@
 ---
-name: thought.REMEMBERING VS LIVING PAST
+name: "thought.REMEMBERING VS LIVING PAST"
 alias: "Thought: Remembering Vs Living Past"
 type: THOUGHT
 en_content: There's no sin in remembering the past...only in trying to live in it.
@@ -13,7 +13,6 @@ tags:
 level: 3
 neo4j: true
 ptopic: "[[topic-WISDOM]]"
-insert: true
 ---
 
 ```Cypher

@@ -1,5 +1,5 @@
 ---
-name: thought.DEFINE HOPE
+name: "thought.DEFINE HOPE"
 alias: "Thought: Define Hope"
 type: THOUGHT
 en_content: HOPE = DESIRE + EXPECTATION
@@ -11,9 +11,8 @@ tags:
   - attitude
   - philosophy
 level: 3
-neo4j: true
+neo4j: false
 ptopic: "[[topic-ATTITUDE]]"
-insert: true
 ---
 
 ```Cypher

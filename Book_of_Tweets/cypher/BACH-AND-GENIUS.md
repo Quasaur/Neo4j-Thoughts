@@ -1,5 +1,5 @@
 ---
-name: thought.BACH AND GENIUS
+name: "thought.BACH AND GENIUS"
 alias: "Thought: Gift of Genius"
 type: THOUGHT
 tags:
@@ -13,7 +13,6 @@ parent: topic.MUSIC
 level: 5
 neo4j: true
 ptopic: '"[[topic-MUSIC]]"'
-insert: true
 ---
 
 ```Cypher

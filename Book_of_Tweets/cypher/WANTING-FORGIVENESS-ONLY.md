@@ -1,5 +1,5 @@
 ---
-name: thought.WANTING FORGIVENESS ONLY
+name: "thought.WANTING FORGIVENESS ONLY"
 alias: "Thought: Wanting Forgiveness Only"
 type: THOUGHT
 en_content: We want to be forgiven, but we don't want to forgive...how disgusting.
@@ -13,7 +13,6 @@ tags:
 level: 3
 neo4j: true
 ptopic: "[[topic-LOVE]]"
-insert: true
 ---
 
 ```Cypher

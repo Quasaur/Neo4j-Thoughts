@@ -1,5 +1,5 @@
 ---
-name: thought.OPPORTUNITY FOR ANGER
+name: "thought.OPPORTUNITY FOR ANGER"
 alias: "Thought: Opportunity For Anger"
 type: THOUGHT
 en_content: People don't need a reason to be angry...just an opportunity.
@@ -11,9 +11,8 @@ tags:
   - human_nature
   - emotion
 level: 3
-neo4j: true
+neo4j: false
 ptopic: "[[topic-ATTITUDE]]"
-insert: true
 ---
 
 ```Cypher

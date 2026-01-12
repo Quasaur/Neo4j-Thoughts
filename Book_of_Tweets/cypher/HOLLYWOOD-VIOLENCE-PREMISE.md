@@ -1,5 +1,5 @@
 ---
-name: thought.HOLLYWOOD VIOLENCE PREMISE
+name: "thought.HOLLYWOOD VIOLENCE PREMISE"
 alias: "Thought: Hollywood Violence Premise"
 type: THOUGHT
 en_content: The original premise of Hollywood violence was "If they're watching violence they're not committing it."...Oops!
@@ -13,7 +13,6 @@ tags:
 level: 3
 neo4j: true
 ptopic: "[[topic-WISDOM]]"
-insert: true
 ---
 
 ```Cypher

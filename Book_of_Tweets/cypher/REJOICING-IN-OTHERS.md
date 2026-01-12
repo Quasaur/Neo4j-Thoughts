@@ -1,5 +1,5 @@
 ---
-name: thought.REJOICING IN OTHERS
+name: "thought.REJOICING IN OTHERS"
 alias: "Thought: Rejoicing In Others"
 type: THOUGHT
 en_content: I rejoice in the achievements God accomplished in you as though He had accomplished them in me.
@@ -13,7 +13,6 @@ tags:
 level: 3
 neo4j: true
 ptopic: "[[topic-LOVE]]"
-insert: true
 ---
 
 ```Cypher

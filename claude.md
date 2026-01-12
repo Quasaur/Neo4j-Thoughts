@@ -69,6 +69,8 @@ level: N
 inserted: true
 ```
 
+**IMPORTANT**: All YAML `name` & `alias` values will be encased in quotes ("").
+
 ### Properties to EXCLUDE
 - `draft` - Delete this
 - `mling` - Delete this

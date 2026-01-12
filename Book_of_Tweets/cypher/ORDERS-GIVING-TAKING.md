@@ -1,5 +1,5 @@
 ---
-name: thought.ORDERS GIVING TAKING
+name: "thought.ORDERS GIVING TAKING"
 alias: "Thought: Orders Giving Taking"
 type: THOUGHT
 en_content: I'm highly suspicious of people who can give orders but not take orders.
@@ -13,7 +13,6 @@ tags:
 level: 3
 neo4j: true
 ptopic: "[[topic-WISDOM]]"
-insert: true
 ---
 
 ```Cypher

@@ -1,5 +1,5 @@
 ---
-name: thought.PERFECT PEOPLE CRITICISM
+name: "thought.PERFECT PEOPLE CRITICISM"
 alias: "Thought: Perfect People Criticism"
 type: THOUGHT
 en_content: Have you ever noticed that perfect people don't respond well to criticism?
@@ -11,9 +11,8 @@ tags:
   - attitude
   - character
 level: 3
-neo4j: true
+neo4j: false
 ptopic: "[[topic-ATTITUDE]]"
-insert: true
 ---
 
 ```Cypher

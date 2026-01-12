@@ -1,5 +1,5 @@
 ---
-name: thought.PRIDE IS PRISON
+name: "thought.PRIDE IS PRISON"
 alias: "Thought: Pride Is Prison"
 type: THOUGHT
 en_content: Pride is a prison, and Unconditional Love the only Liberator.
@@ -13,7 +13,6 @@ tags:
 level: 3
 neo4j: true
 ptopic: "[[topic-EVIL]]"
-insert: true
 ---
 
 ```Cypher

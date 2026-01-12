@@ -13,7 +13,6 @@ parent: topic.SPIRITUALITY
 level: 2
 neo4j: true
 ptopic: 
-insert: true
 ---
 
 ```Cypher

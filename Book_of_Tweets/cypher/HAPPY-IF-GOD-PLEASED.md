@@ -1,5 +1,5 @@
 ---
-name: thought.HAPPY IF GOD PLEASED
+name: "thought.HAPPY IF GOD PLEASED"
 alias: "Thought: Happy If God Pleased"
 type: THOUGHT
 en_content: How can I not be happy if God is pleased with me?
@@ -12,7 +12,6 @@ tags:
 level: 3
 neo4j: true
 ptopic: "[[topic-WORSHIP]]"
-insert: true
 ---
 
 ```Cypher

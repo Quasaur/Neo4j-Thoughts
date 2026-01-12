@@ -13,7 +13,6 @@ parent: topic.HUMILITY
 level: 4
 neo4j: true
 ptopic: 
-insert: true
 ---
 
 ```Cypher

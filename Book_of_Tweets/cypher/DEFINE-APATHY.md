@@ -1,5 +1,5 @@
 ---
-name: thought.DEFINE APATHY
+name: "thought.DEFINE APATHY"
 alias: "Thought: Define Apathy"
 type: THOUGHT
 en_content: Love & hate are not opposites...they are 2 halves of the same coin; the opposite of love / hate is Apathy.
@@ -11,9 +11,8 @@ tags:
   - attitude
   - philosophy
 level: 3
-neo4j: true
+neo4j: false
 ptopic: "[[topic-ATTITUDE]]"
-insert: true
 ---
 
 ```Cypher
