@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.SPIRIT OF CHRIST ENCOUNTER",
     en_title: "Spirit Of Christ Encounter",
     en_content: "The greatest moment of my existence was being swallowed up by the Spirit of Christ...all I want is to go back (or forward) to that moment.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Encuentro con el Espíritu de Cristo",
+    es_content: "El momento más grandioso de mi existencia fue ser absorbido por el Espíritu de Cristo...todo lo que quiero es regresar (o avanzar) a ese momento.",
+    fr_title: "Rencontre avec l'Esprit du Christ",
+    fr_content: "Le plus grand moment de mon existence fut d'être englouti par l'Esprit du Christ...tout ce que je veux c'est retourner (ou avancer) vers ce moment.",
+    hi_title: "मसीह की आत्मा से मुलाकात",
+    hi_content: "मेरे अस्तित्व का सबसे महान क्षण था मसीह की आत्मा में समा जाना...मैं केवल उस क्षण में वापस जाना (या आगे बढ़ना) चाहता हूँ।",
+    zh_title: "Jīdū zhī Líng xiāng yù",
+    zh_content: "Wǒ cúnzài zhōng zuì wěidà de shíkè jiùshì bèi Jīdū zhī Líng tūnmò...wǒ suǒ xiǎng de jiùshì huí dào (huò qiánjìn dào) nàgè shíkè."
 });
 
 MATCH (t:THOUGHT)

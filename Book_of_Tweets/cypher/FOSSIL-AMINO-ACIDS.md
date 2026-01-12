@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.FOSSIL AMINO ACIDS",
     en_title: "Fossil Amino Acids",
     en_content: "Why is it that amino acids are still found in fossils and are not broken down after hundreds of millions of years?",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Aminoácidos Fósiles",
+    es_content: "¿Por qué es que los aminoácidos todavía se encuentran en los fósiles y no se descomponen después de cientos de millones de años?",
+    fr_title: "Acides Aminés Fossiles",
+    fr_content: "Pourquoi les acides aminés se trouvent-ils encore dans les fossiles et ne se décomposent-ils pas après des centaines de millions d'années?",
+    hi_title: "जीवाश्म अमीनो अम्ल",
+    hi_content: "ऐसा क्यों है कि अमीनो अम्ल अभी भी जीवाश्मों में पाए जाते हैं और सैकड़ों मिलियन वर्षों बाद भी विघटित नहीं होते हैं?",
+    zh_title: "Huashi Anjisuan",
+    zh_content: "Weishenme anjisuan rengran zai huashi zhong beizhao dao, zai ji yi nian hou ye mei you fenjie?"
 });
 
 MATCH (t:THOUGHT)

@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.VOICE OF THE DEVIL",
     en_title: "Voice Of The Devil",
     en_content: "Submitting to hate, bitterness and violence is giving a voice to The Devil; these have become his most cherished attributes.",
-    es_title: "TITULO",
-    es_content: "CONTENIDO",
-    fr_title: "TITRE",
-    fr_content: "CONTENU",
-    hi_title: "SHIRSHAK",
-    hi_content: "SAMAGRI",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Voz del diablo",
+    es_content: "Someterse al odio, la amargura y la violencia es darle voz al Diablo;estos se han convertido en sus atributos más preciados.",
+    fr_title: "Voix du diable",
+    fr_content: "Se soumettre à la haine, à l’amertume et à la violence, c’est donner la parole au Diable ;ceux-ci sont devenus ses attributs les plus précieux.",
+    hi_title: "शैतान की आवाज",
+    hi_content: "नफरत, कड़वाहट और हिंसा के आगे झुकना शैतान को आवाज़ देना है;ये उनके सबसे प्रिय गुण बन गए हैं।",
+    zh_title: "恶魔之声",
+    zh_content: "屈服于仇恨、痛苦和暴力就是向魔鬼发出声音；这些已成为他最珍惜的品质。"
 });
 
 MATCH (t:THOUGHT)

@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.FOR OR AGAINST",
     en_title: "For Or Against",
     en_content: "\"Whoever is not for Me is against Me.\" -- Jesus Christ",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "A favor o en contra",
+    es_content: "\",
+    fr_title: "Pour ou contre",
+    fr_content: "\",
+    hi_title: "पक्ष या विपक्ष में",
+    hi_content: "\",
+    zh_title: "支持或反对",
+    zh_content: "\"
 });
 
 MATCH (t:THOUGHT)

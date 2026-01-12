@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.GLOBAL DICTATORSHIPS",
     en_title: "Global Dictatorships",
     en_content: "2 billion of the 7 billion people on this planet live under dictatorships.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Dictaduras Globales",
+    es_content: "2 mil millones de los 7 mil millones de personas en este planeta viven bajo dictaduras.",
+    fr_title: "Dictatures Mondiales",
+    fr_content: "2 milliards des 7 milliards de personnes sur cette planète vivent sous des dictatures.",
+    hi_title: "वैश्विक तानाशाही",
+    hi_content: "इस ग्रह पर 7 अरब लोगों में से 2 अरब लोग तानाशाही के तहत रहते हैं।",
+    zh_title: "Quanqiu Ducai Zhengzhi",
+    zh_content: "Zai zhe ge xingqiu shang qi shi yi ren zhong you er shi yi ren shenghuo zai ducai zhengquan xia."
 });
 
 MATCH (t:THOUGHT)

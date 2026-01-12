@@ -29,14 +29,14 @@ CREATE (c:CONTENT {
     name: "content.GOD TALKING BACK",
     en_title: "God Talking Back",
     en_content: "\"YOU DO NOT TALK TO ME.\" - God",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Dios respondiendo",
+    es_content: "\",
+    fr_title: "Dieu répond",
+    fr_content: "\",
+    hi_title: "भगवान वापस बात कर रहे हैं",
+    hi_content: "\",
+    zh_title: "神回话",
+    zh_content: "\"
 });
 
 MATCH (t:THOUGHT)

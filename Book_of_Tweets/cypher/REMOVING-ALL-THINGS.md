@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.REMOVING ALL THINGS",
     en_title: "Removing All Things",
     en_content: "\"I will completely remove all things from the face of the earth,\" -- God, Zephaniah 1:2",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Eliminando todas las cosas",
+    es_content: "\",
+    fr_title: "Supprimer toutes choses",
+    fr_content: "\",
+    hi_title: "सभी चीज़ें हटाना",
+    hi_content: "\",
+    zh_title: "删除所有东西",
+    zh_content: "\"
 });
 
 MATCH (t:THOUGHT)

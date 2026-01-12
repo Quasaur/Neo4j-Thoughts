@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.IMPORTANCE OF DEUTERONOMY",
     en_title: "Importance Of Deuteronomy",
     en_content: "I'm convinced that the most important book of the Old Testament is Deuteronomy, which contains the ENTIRE PANORAMA of Biblical history.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Importancia del Deuteronomio",
+    es_content: "Estoy convencido de que el libro más importante del Antiguo Testamento es Deuteronomio, que contiene todo el PANORAMA COMPLETO de la historia bíblica.",
+    fr_title: "Importance du Deutéronome",
+    fr_content: "Je suis convaincu que le livre le plus important de l'Ancien Testament est le Deutéronome, qui contient le PANORAMA ENTIER de l'histoire biblique.",
+    hi_title: "व्यवस्थाविवरण का महत्व",
+    hi_content: "मैं आश्वस्त हूं कि पुराने नियम की सबसे महत्वपूर्ण पुस्तक व्यवस्थाविवरण है, जिसमें बाइबिल के इतिहास का संपूर्ण चित्रपट समाहित है।",
+    zh_title: "Shēnmìngjì de Zhòngyàoxìng",
+    zh_content: "Wǒ xiāngxìn Jiùyuē zhōng zuì zhòngyào de shū shì Shēnmìngjì, tā bāohánle Shèngjīng lìshǐ de ZHĚNGGÈ QUÁNJǏNG."
 });
 
 MATCH (t:THOUGHT)

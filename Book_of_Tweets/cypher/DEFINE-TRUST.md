@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.DEFINE TRUST",
     en_title: "Define Trust",
     en_content: "TRUST is born of both confidence and ignorance.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Definir la Confianza",
+    es_content: "La CONFIANZA nace tanto de la certeza como de la ignorancia.",
+    fr_title: "Définir la Confiance",
+    fr_content: "La CONFIANCE naît à la fois de la certitude et de l'ignorance.",
+    hi_title: "भरोसे की परिभाषा",
+    hi_content: "भरोसा विश्वास और अज्ञानता दोनों से जन्म लेता है।",
+    zh_title: "Dìng Yì Xìn Rèn",
+    zh_content: "Xìn Rèn jì shēng yú xìn xīn, yě shēng yú wú zhī."
 });
 
 MATCH (t:THOUGHT)

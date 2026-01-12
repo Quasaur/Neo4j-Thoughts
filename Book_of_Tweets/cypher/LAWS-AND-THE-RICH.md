@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.LAWS AND THE RICH",
     en_title: "Laws And The Rich",
     en_content: "As long as the laws favor the rich, the poor will always exist.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Las Leyes y Los Ricos",
+    es_content: "Mientras las leyes favorezcan a los ricos, los pobres siempre existirán.",
+    fr_title: "Les Lois et Les Riches",
+    fr_content: "Tant que les lois favorisent les riches, les pauvres existeront toujours.",
+    hi_title: "कानून और धनवान",
+    hi_content: "जब तक कानून धनवानों का पक्ष लेते रहेंगे, तब तक गरीब हमेशा रहेंगे।",
+    zh_title: "Fǎlǜ Yǔ Fùrén",
+    zh_content: "Zhǐyào fǎlǜ piān'ài fùrén, qióngrén jiù yǒngyuǎn cúnzài."
 });
 
 MATCH (t:THOUGHT)

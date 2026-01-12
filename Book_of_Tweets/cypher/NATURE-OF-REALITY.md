@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.NATURE OF REALITY",
     en_title: "Nature Of Reality",
     en_content: "Reality: perhaps matter is only real to other matter...?",
-    es_title: "TITULO",
-    es_content: "CONTENIDO",
-    fr_title: "TITRE",
-    fr_content: "CONTENU",
-    hi_title: "SHIRSHAK",
-    hi_content: "SAMAGRI",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Naturaleza de la realidad",
+    es_content: "Realidad: ¿quizás la materia sólo es real para otra materia...?",
+    fr_title: "Nature de la réalité",
+    fr_content: "Réalité : peut-être que la matière n'est réelle que pour une autre matière... ?",
+    hi_title: "वास्तविकता की प्रकृति",
+    hi_content: "वास्तविकता: शायद पदार्थ केवल दूसरे पदार्थ के लिए ही वास्तविक है...?",
+    zh_title: "现实的本质",
+    zh_content: "现实：也许物质只对其他物质才是真实的……？"
 });
 
 MATCH (t:THOUGHT)

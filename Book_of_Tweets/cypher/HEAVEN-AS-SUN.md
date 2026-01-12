@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.HEAVEN AS SUN",
     en_title: "Heaven As Sun",
     en_content: "What is Heaven like? The center of the Sun!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "El Cielo Como Sol",
+    es_content: "¿Cómo es el Cielo? ¡El centro del Sol!",
+    fr_title: "Le Ciel Comme Soleil",
+    fr_content: "À quoi ressemble le Ciel ? Le centre du Soleil !",
+    hi_title: "स्वर्ग सूर्य के समान",
+    hi_content: "स्वर्ग कैसा है? सूर्य का केंद्र!",
+    zh_title: "Tiān táng rú tài yáng",
+    zh_content: "Tiān táng shì shén me yàng de? Tài yáng de zhōng xīn!"
 });
 
 MATCH (t:THOUGHT)

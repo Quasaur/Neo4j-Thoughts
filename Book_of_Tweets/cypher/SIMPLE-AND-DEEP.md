@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.SIMPLE AND DEEP",
     en_title: "Simple And Deep",
     en_content: "The simplest things are the most deep; the deepest things are the most simple.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Simple y Profundo",
+    es_content: "Las cosas más simples son las más profundas; las cosas más profundas son las más simples.",
+    fr_title: "Simple et Profond",
+    fr_content: "Les choses les plus simples sont les plus profondes ; les choses les plus profondes sont les plus simples.",
+    hi_title: "सरल और गहरा",
+    hi_content: "सबसे सरल बातें सबसे गहरी होती हैं; सबसे गहरी बातें सबसे सरल होती हैं।",
+    zh_title: "Jiǎn Dān Ér Shēn Kè",
+    zh_content: "Zuì jiǎn dān de shì qíng shì zuì shēn kè de; zuì shēn kè de shì qíng shì zuì jiǎn dān de."
 });
 
 MATCH (t:THOUGHT)

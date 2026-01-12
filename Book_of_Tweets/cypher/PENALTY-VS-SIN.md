@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.PENALTY VS SIN",
     en_title: "Penalty Vs Sin",
     en_content: "We want to be saved from the PENALTY of sin but not sin itself.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Castigo Vs Pecado",
+    es_content: "Queremos ser salvos del CASTIGO del pecado pero no del pecado mismo.",
+    fr_title: "Châtiment Vs Péché",
+    fr_content: "Nous voulons être sauvés du CHÂTIMENT du péché mais pas du péché lui-même.",
+    hi_title: "दंड बनाम पाप",
+    hi_content: "हम पाप के दंड से मुक्ति चाहते हैं लेकिन पाप से नहीं।",
+    zh_title: "Xingfa Dui Zuie",
+    zh_content: "Women xiang cong zuie de XINGFA zhong dedao zhengiu, dan bu xiang cong zuie benshen zhong dedao zhengiu."
 });
 
 MATCH (t:THOUGHT)

@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.PROBLEM AND SOLUTION",
     en_title: "Problem And Solution",
     en_content: "Identifying the problem is only half the solution.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Problema Y Solución",
+    es_content: "Identificar el problema es solo la mitad de la solución.",
+    fr_title: "Problème Et Solution",
+    fr_content: "Identifier le problème n'est que la moitié de la solution.",
+    hi_title: "समस्या और समाधान",
+    hi_content: "समस्या की पहचान करना केवल समाधान का आधा हिस्सा है।",
+    zh_title: "Wèntí Hé Jiějué",
+    zh_content: "Shíbié wèntí zhǐshì jiějué fāng'àn de yībàn."
 });
 
 MATCH (t:THOUGHT)

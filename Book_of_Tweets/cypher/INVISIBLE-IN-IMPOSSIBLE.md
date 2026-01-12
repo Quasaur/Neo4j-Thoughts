@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.INVISIBLE IN IMPOSSIBLE",
     en_title: "Invisible In Impossible",
     en_content: "God is invisible except in the impossible.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Invisible En Lo Imposible",
+    es_content: "Dios es invisible excepto en lo imposible.",
+    fr_title: "Invisible Dans L'Impossible",
+    fr_content: "Dieu est invisible sauf dans l'impossible.",
+    hi_title: "असंभव में अदृश्य",
+    hi_content: "परमेश्वर असंभव के अलावा अदृश्य है।",
+    zh_title: "Zai Bu Ke Neng Zhong De Bu Ke Jian",
+    zh_content: "Chu Le Zai Bu Ke Neng De Shi Qing Shang, Shang Di Shi Bu Ke Jian De."
 });
 
 MATCH (t:THOUGHT)

@@ -29,14 +29,14 @@ CREATE (c:CONTENT {
     name: "content.FUTURE FOR ATHEISTS",
     en_title: "Future For Atheists",
     en_content: "Is there any future for a species that so despises its Creator as to announce that He doesn't exist?",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Futuro Para Los Ateos",
+    es_content: "¿Hay algún futuro para una especie que tanto desprecia a su Creador como para anunciar que Él no existe?",
+    fr_title: "Avenir Pour Les Athées",
+    fr_content: "Y a-t-il un avenir pour une espèce qui méprise tant son Créateur au point d'annoncer qu'Il n'existe pas ?",
+    hi_title: "नास्तिकों के लिए भविष्य",
+    hi_content: "क्या उस प्रजाति का कोई भविष्य है जो अपने सृष्टिकर्ता से इतनी घृणा करती है कि वह घोषणा करती है कि वह अस्तित्व में नहीं है?",
+    zh_title: "Wu shen lun zhe de wei lai",
+    zh_content: "Yi ge wu shi qi zao wu zhu zhi shen zhi xuan bu ta bu cun zai de wu zhong, hai you shen me wei lai ma?"
 });
 
 MATCH (t:THOUGHT)

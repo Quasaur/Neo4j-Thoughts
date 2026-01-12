@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.EXISTENCE TAX",
     en_title: "Existence Tax",
     en_content: "Cost of Living: Men can't CREATE Life...so they're gonna charge it an existence tax...are you kidding me?!?",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Impuesto de Existencia",
+    es_content: "Costo de Vida: Los hombres no pueden CREAR Vida...así que le van a cobrar un impuesto de existencia...¿¡en serio!?",
+    fr_title: "Taxe d'Existence",
+    fr_content: "Coût de la Vie: Les hommes ne peuvent pas CRÉER la Vie...alors ils vont lui imposer une taxe d'existence...vous plaisantez ?!",
+    hi_title: "अस्तित्व कर",
+    hi_content: "जीवन यापन की लागत: पुरुष जीवन का सृजन नहीं कर सकते...इसलिए वे इस पर अस्तित्व कर लगाने जा रहे हैं...क्या आप मजाक कर रहे हैं?!",
+    zh_title: "Cúnzài Shuì",
+    zh_content: "Shēnghuó Chéngběn: Nánrén bùnéng CHUÀNGZÀO Shēngmìng...suǒyǐ tāmen yào duì tā shōu cúnzài shuì...nǐ zài kāi wánxiào ma?!"
 });
 
 MATCH (t:THOUGHT)

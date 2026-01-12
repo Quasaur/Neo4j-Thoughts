@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.FACING TRUTH LOVE",
     en_title: "Facing Truth Love",
     en_content: "It's God's Love for us that enables us to face the truth about ourselves.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Amor que Enfrenta la Verdad",
+    es_content: "Es el Amor de Dios por nosotros lo que nos permite enfrentar la verdad sobre nosotros mismos.",
+    fr_title: "L'Amour qui Affronte la Vérité",
+    fr_content: "C'est l'Amour de Dieu pour nous qui nous permet de faire face à la vérité sur nous-mêmes.",
+    hi_title: "सत्य का सामना करने वाला प्रेम",
+    hi_content: "यह परमेश्वर का हमारे लिए प्रेम है जो हमें अपने बारे में सत्य का सामना करने में सक्षम बनाता है।",
+    zh_title: "Mian Dui Zhen Li De Ai",
+    zh_content: "Zheng Shi Shang Di Dui Wo Men De Ai Shi Wo Men Neng Gou Mian Dui Guan Yu Zi Ji De Zhen Li."
 });
 
 MATCH (t:THOUGHT)

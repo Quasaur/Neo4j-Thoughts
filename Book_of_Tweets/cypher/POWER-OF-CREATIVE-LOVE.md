@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.POWER OF CREATIVE LOVE",
     en_title: "Power Of Creative Love",
     en_content: "Love is not weak. Love created this insanely huge universe by simply SPEAKING!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "El Poder del Amor Creativo",
+    es_content: "El amor no es débil. ¡El amor creó este universo increíblemente inmenso simplemente HABLANDO!",
+    fr_title: "Le Pouvoir de l'Amour Créateur",
+    fr_content: "L'amour n'est pas faible. L'amour a créé cet univers incroyablement immense en PARLANT simplement !",
+    hi_title: "सृजनशील प्रेम की शक्ति",
+    hi_content: "प्रेम कमजोर नहीं है। प्रेम ने इस अविश्वसनीय रूप से विशाल ब्रह्मांड को केवल बोलकर ही बनाया!",
+    zh_title: "Chuàngzào zhī Ài de Lìliàng",
+    zh_content: "Ài bùshì ruòxiǎo de. Ài tōngguò jiǎndān de SHUŌHUÀ chuàngzàole zhège jídù pángdà de yǔzhòu!"
 });
 
 MATCH (t:THOUGHT)

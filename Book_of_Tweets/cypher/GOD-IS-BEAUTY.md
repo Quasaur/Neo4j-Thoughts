@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.GOD IS BEAUTY",
     en_title: "God Is Beauty",
     en_content: "God is Beauty. Apart from Him we are ugly.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Dios Es Belleza",
+    es_content: "Dios es Belleza. Aparte de Él somos feos.",
+    fr_title: "Dieu Est Beauté",
+    fr_content: "Dieu est Beauté. En dehors de Lui nous sommes laids.",
+    hi_title: "परमेश्वर सुंदरता है",
+    hi_content: "परमेश्वर सुंदरता है। उसके अलावा हम कुरूप हैं।",
+    zh_title: "Shàngdì shì měilì",
+    zh_content: "Shàngdì shì měilì. Chúle tā zhīwài, wǒmen dōu shì chǒulòu de."
 });
 
 MATCH (t:THOUGHT)

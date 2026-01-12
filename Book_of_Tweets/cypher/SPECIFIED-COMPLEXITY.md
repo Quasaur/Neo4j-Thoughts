@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.SPECIFIED COMPLEXITY",
     en_title: "Specified Complexity",
     en_content: "Evolution can't explain Specified Complexity.",
-    es_title: "TITULO",
-    es_content: "CONTENIDO",
-    fr_title: "TITRE",
-    fr_content: "CONTENU",
-    hi_title: "SHIRSHAK",
-    hi_content: "SAMAGRI",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Complejidad especificada",
+    es_content: "La evolución no puede explicar la Complejidad Especificada.",
+    fr_title: "Complexité spécifiée",
+    fr_content: "L'évolution ne peut pas expliquer la complexité spécifiée.",
+    hi_title: "निर्दिष्ट जटिलता",
+    hi_content: "विकास निर्दिष्ट जटिलता की व्याख्या नहीं कर सकता।",
+    zh_title: "指定复杂度",
+    zh_content: "进化论无法解释特定的复杂性。"
 });
 
 MATCH (t:THOUGHT)

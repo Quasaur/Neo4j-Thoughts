@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.GRACE VS SATAN",
     en_title: "Grace Vs Satan",
     en_content: "Apart from Grace, what difference is there between me and Satan? He's older and smarter...other than that we're both petty little monsters.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Gracia Vs Satanás",
+    es_content: "Sin la Gracia, ¿qué diferencia hay entre yo y Satanás? Él es más viejo y más astuto... aparte de eso, ambos somos pequeños monstruos mezquinos.",
+    fr_title: "Grâce Contre Satan",
+    fr_content: "Sans la Grâce, quelle différence y a-t-il entre moi et Satan ? Il est plus âgé et plus intelligent... à part cela, nous sommes tous deux de petits monstres mesquins.",
+    hi_title: "कृपा बनाम शैतान",
+    hi_content: "कृपा के अतिरिक्त, मेरे और शैतान के बीच क्या अंतर है? वह अधिक पुराना और चतुर है... इसके अलावा हम दोनों छोटे और क्षुद्र राक्षस हैं।",
+    zh_title: "En Dian Dui Sa Dan",
+    zh_content: "Chu Le En Dian, Wo He Sa Dan You Shen Me Qu Bie Ne? Ta Nian Ji Geng Da, Geng Cong Ming... Chu Ci Zhi Wai, Wo Men Dou Shi Xiao Qi De Xiao Guai Wu."
 });
 
 MATCH (t:THOUGHT)

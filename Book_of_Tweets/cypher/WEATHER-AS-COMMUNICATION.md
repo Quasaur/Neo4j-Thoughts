@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.WEATHER AS COMMUNICATION",
     en_title: "Weather As Communication",
     en_content: "2 Chronicles 7:12-14; Leviticus 18:25: Yes, God DOES communicate and punish through weather and nature.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "El Clima Como Comunicación",
+    es_content: "2 Crónicas 7:12-14; Levítico 18:25: Sí, Dios SÍ se comunica y castiga a través del clima y la naturaleza.",
+    fr_title: "Le Temps Comme Communication",
+    fr_content: "2 Chroniques 7:12-14; Lévitique 18:25: Oui, Dieu communique et punit VRAIMENT à travers le temps et la nature.",
+    hi_title: "मौसम संचार के रूप में",
+    hi_content: "2 इतिहास 7:12-14; लैव्यव्यवस्था 18:25: हाँ, परमेश्वर मौसम और प्रकृति के माध्यम से संवाद करता और दंडित करता है।",
+    zh_title: "Tianqi Zuowei Goutong",
+    zh_content: "Lishi zhi 7:12-14; Liweiji 18:25: Shi de, Shen QUESHI tongguo tianqi he ziran lai goutong he chengfa."
 });
 
 MATCH (t:THOUGHT)

@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.OWNING ALL THINGS",
     en_title: "Owning All Things",
     en_content: "Revelation 21:7: You cannot own ALL THINGS unless you no longer need them.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Poseer Todas las Cosas",
+    es_content: "Apocalipsis 21:7: No puedes poseer TODAS LAS COSAS a menos que ya no las necesites.",
+    fr_title: "Posséder Toutes Choses",
+    fr_content: "Apocalypse 21:7: Tu ne peux posséder TOUTES CHOSES que si tu n'en as plus besoin.",
+    hi_title: "सभी चीजों का स्वामित्व",
+    hi_content: "प्रकाशितवाक्य 21:7: आप सभी चीजों के स्वामी तब तक नहीं हो सकते जब तक आपको उनकी आवश्यकता है।",
+    zh_title: "Yōngyǒu Yīqiè",
+    zh_content: "Qǐshìlù 21:7: Chúfēi nǐ bù zài xūyào tāmen, fǒuzé nǐ wúfǎ yōngyǒu YĪQIÈ SHÌWÙ."
 });
 
 MATCH (t:THOUGHT)

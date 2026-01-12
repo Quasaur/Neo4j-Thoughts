@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.RESPONSIBILITY NO AUTHORITY",
     en_title: "Responsibility No Authority",
     en_content: "Responsibility without authority is like a boat without a motor.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Responsabilidad Sin Autoridad",
+    es_content: "La responsabilidad sin autoridad es como un barco sin motor.",
+    fr_title: "Responsabilité Sans Autorité",
+    fr_content: "La responsabilité sans autorité est comme un bateau sans moteur.",
+    hi_title: "अधिकार के बिना जिम्मेदारी",
+    hi_content: "अधिकार के बिना जिम्मेदारी एक मोटर के बिना नाव के समान है।",
+    zh_title: "Wu Quan Wei De Ze Ren",
+    zh_content: "Mei you quan wei de ze ren jiu xiang mei you fa dong ji de chuan."
 });
 
 MATCH (t:THOUGHT)

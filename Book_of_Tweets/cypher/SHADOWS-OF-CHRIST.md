@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.SHADOWS OF CHRIST",
     en_title: "Shadows Of Christ",
     en_content: "That which is most precious to us...and those whom we love more than life are but shadows of the Figure of Christ!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Sombras de Cristo",
+    es_content: "¡Aquello que es más preciado para nosotros...y aquellos a quienes amamos más que la vida no son sino sombras de la Figura de Cristo!",
+    fr_title: "Ombres du Christ",
+    fr_content: "Ce qui nous est le plus précieux...et ceux que nous aimons plus que la vie ne sont que des ombres de la Figure du Christ !",
+    hi_title: "मसीह की छायाएँ",
+    hi_content: "जो हमारे लिए सबसे बहुमूल्य है...और जिन्हें हम जीवन से भी अधिक प्रेम करते हैं वे केवल मसीह की आकृति की छायाएँ हैं!",
+    zh_title: "Jī dū de Yǐng zi",
+    zh_content: "Duì wǒmen lái shuō zuì zhēn guì de...hé nàxiē wǒmen ài de chāo guò shēng mìng de rén dōu zhǐ bùguò shì Jī dū xíng xiàng de yǐng zi!"
 });
 
 MATCH (t:THOUGHT)

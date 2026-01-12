@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.NATION FORGETTING GOD",
     en_title: "Nation Forgetting God",
     en_content: "I'm watching a nation that has forgotten God turn into Hell.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Nación Olvidando a Dios",
+    es_content: "Estoy viendo a una nación que ha olvidado a Dios convertirse en el Infierno.",
+    fr_title: "Nation Oubliant Dieu",
+    fr_content: "Je regarde une nation qui a oublié Dieu se transformer en Enfer.",
+    hi_title: "राष्ट्र परमेश्वर को भूलना",
+    hi_content: "मैं एक ऐसे राष्ट्र को देख रहा हूँ जो परमेश्वर को भूल गया है और नरक में बदल रहा है।",
+    zh_title: "Guójiā Wàngjì Shàngdì",
+    zh_content: "Wǒ zhèngzài kànzhe yī gè wàngjì le Shàngdì de guójiā biànchéng dìyù."
 });
 
 MATCH (t:THOUGHT)

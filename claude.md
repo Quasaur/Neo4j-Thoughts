@@ -13,6 +13,10 @@ This document contains critical rules and conventions that must be followed at a
 - **METHOD**: Run git commands via `run_in_terminal` tool
 - **DO NOT USE**: GitKraken MCP tools
 
+### Translation Operations
+- **NO MORE PAID TRANSLATION OPERATIONS**: Always use free translation services (googletrans, translatepy)
+- **PYTHON SCRIPTS**: All Python scripts must be created and stored under the `python/` folder
+
 ---
 
 ## Neo4j Hierarchy & Level Rules

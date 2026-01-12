@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.PRAYER FOR REVELATION",
     en_title: "Prayer For Revelation",
     en_content: "God knows things about the people around you that you have no idea of; if one of those things comes to light, it is so you can pray.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Oración Por Revelación",
+    es_content: "Dios conoce cosas acerca de las personas que te rodean de las que no tienes ni idea; si una de esas cosas sale a la luz, es para que puedas orar.",
+    fr_title: "Prière Pour La Révélation",
+    fr_content: "Dieu connaît des choses sur les gens qui t'entourent dont tu n'as aucune idée; si l'une de ces choses vient à la lumière, c'est pour que tu puisses prier.",
+    hi_title: "प्रकाशन के लिए प्रार्थना",
+    hi_content: "परमेश्वर आपके आसपास के लोगों के बारे में ऐसी बातें जानता है जिनका आपको कोई अंदाज़ा नहीं है; यदि उनमें से कोई बात प्रकाश में आती है, तो यह इसलिए है कि आप प्रार्थना कर सकें।",
+    zh_title: "qǐ qiú qǐ shì de dǎo gào",
+    zh_content: "shàng dì zhī dào nǐ zhōu wéi rén men de shì qíng, ér nǐ duì cǐ háo wú tóu xù; rú guǒ qí zhōng yī jiàn shì qíng bào lù chū lái, nà shi wèi le ràng nǐ néng gòu qí dǎo."
 });
 
 MATCH (t:THOUGHT)

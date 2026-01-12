@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.GODS FORGETFULNESS",
     en_title: "Gods Forgetfulness",
     en_content: "Don't bring to mind what God has decided to forget.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "El Olvido de Dios",
+    es_content: "No traigas a la mente lo que Dios ha decidido olvidar.",
+    fr_title: "L'Oubli de Dieu",
+    fr_content: "Ne rappelle pas à l'esprit ce que Dieu a décidé d'oublier.",
+    hi_title: "परमेश्वर की विस्मृति",
+    hi_content: "जिसे परमेश्वर ने भुलाने का निर्णय लिया है, उसे मन में न लाएं।",
+    zh_title: "Shén de Yíwàng",
+    zh_content: "Bùyào tí qǐ Shàngdì juédìng yíwàng de shìqíng."
 });
 
 MATCH (t:THOUGHT)

@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.HAPPINESS OF GIVING",
     en_title: "Happiness Of Giving",
     en_content: "God is happier than everyone else because He gives more than anyone else.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "La Felicidad de Dar",
+    es_content: "Dios es más feliz que todos los demás porque Él da más que cualquier otro.",
+    fr_title: "Le Bonheur de Donner",
+    fr_content: "Dieu est plus heureux que tous les autres parce qu'Il donne plus que quiconque.",
+    hi_title: "देने की खुशी",
+    hi_content: "परमेश्वर सबसे अधिक खुश है क्योंकि वह सबसे अधिक देता है।",
+    zh_title: "Gěi Yǔ De Kuài Lè",
+    zh_content: "Shàng Dì bǐ qí tā rèn hé rén dōu gèng kuài lè, yīn wèi Tā bǐ rèn hé rén dōu gěi de gèng duō."
 });
 
 MATCH (t:THOUGHT)

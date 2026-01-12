@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.JESUS NON NEGOTIABLE",
     en_title: "Jesus Non Negotiable",
     en_content: "I must have Jesus...everything else is negotiable.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Jesús No Negociable",
+    es_content: "Debo tener a Jesús...todo lo demás es negociable.",
+    fr_title: "Jésus Non Négociable",
+    fr_content: "Je dois avoir Jésus...tout le reste est négociable.",
+    hi_title: "यीशु अपरिवर्तनीय",
+    hi_content: "मुझे यीशु चाहिए...बाकी सब कुछ परिवर्तनीय है।",
+    zh_title: "Yesu Buke Tanpan",
+    zh_content: "Wo bixu yongyou Yesu...qita yiqie dou keyi tanpan."
 });
 
 MATCH (t:THOUGHT)

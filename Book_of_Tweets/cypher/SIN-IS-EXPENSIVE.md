@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.SIN IS EXPENSIVE",
     en_title: "Sin Is Expensive",
     en_content: "Law enforcement, court costs incarceration, healthcare, security, protection, insurance premiums, funeral costs...Sin is expensive!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "El Pecado Es Costoso",
+    es_content: "Aplicación de la ley, costos judiciales, encarcelamiento, atención médica, seguridad, protección, primas de seguro, costos funerarios...¡El pecado es costoso!",
+    fr_title: "Le Péché Coûte Cher",
+    fr_content: "Application de la loi, frais judiciaires, incarcération, soins de santé, sécurité, protection, primes d'assurance, frais funéraires...Le péché coûte cher !",
+    hi_title: "पाप महंगा है",
+    hi_content: "कानून व्यवस्था, न्यायालय की लागत, कारावास, स्वास्थ्य सेवा, सुरक्षा, संरक्षण, बीमा प्रीमियम, अंतिम संस्कार की लागत...पाप महंगा है!",
+    zh_title: "Zuì È Hěn Ángguì",
+    zh_content: "Zhí fǎ, fǎtíng fèiyòng, jiānjìn, yīliáo, ānquán, bǎohù, bǎoxiǎn fèi, zànglǐ fèiyòng...Zuì è hěn ángguì!"
 });
 
 MATCH (t:THOUGHT)

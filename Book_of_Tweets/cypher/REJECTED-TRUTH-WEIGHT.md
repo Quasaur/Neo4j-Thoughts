@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.REJECTED TRUTH WEIGHT",
     en_title: "Rejected Truth Weight",
     en_content: "The World will perish...crushed under the weight of the Truth it has rejected.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Peso de la Verdad Rechazada",
+    es_content: "El Mundo perecerá...aplastado bajo el peso de la Verdad que ha rechazado.",
+    fr_title: "Poids de la Vérité Rejetée",
+    fr_content: "Le Monde périra...écrasé sous le poids de la Vérité qu'il a rejetée.",
+    hi_title: "अस्वीकृत सत्य का भार",
+    hi_content: "संसार नष्ट हो जाएगा...उस सत्य के भार तले दबकर जिसे उसने अस्वीकार किया है।",
+    zh_title: "Bèi Jùjué Zhēnlǐ de Zhòngliàng",
+    zh_content: "Shìjiè jiāng miè wáng...bèi tā suǒ jùjué de Zhēnlǐ zhòngliàng suǒ yāsuì."
 });
 
 MATCH (t:THOUGHT)

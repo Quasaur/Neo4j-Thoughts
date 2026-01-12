@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.LIMITS OF FORGIVENESS",
     en_title: "Limits Of Forgiveness",
     en_content: "The only people God doesn't forgive are those who don't want to be forgiven.",
-    es_title: "TITULO",
-    es_content: "CONTENIDO",
-    fr_title: "TITRE",
-    fr_content: "CONTENU",
-    hi_title: "SHIRSHAK",
-    hi_content: "SAMAGRI",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Límites del perdón",
+    es_content: "Las únicas personas que Dios no perdona son aquellas que no quieren ser perdonadas.",
+    fr_title: "Limites du pardon",
+    fr_content: "Les seules personnes que Dieu ne pardonne pas sont celles qui ne veulent pas être pardonnées.",
+    hi_title: "क्षमा की सीमा",
+    hi_content: "केवल उन्हीं लोगों को ईश्वर क्षमा नहीं करता है जो क्षमा नहीं चाहते हैं।",
+    zh_title: "宽恕的限度",
+    zh_content: "神唯一不饶恕的人是那些不想被饶恕的人。"
 });
 
 MATCH (t:THOUGHT)

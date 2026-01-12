@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.LIFE SHOULD BE PAIN",
     en_title: "Life Should Be Pain",
     en_content: "Many will tell you life is pain; not many will say it should be. It should be.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "La Vida Debe Ser Dolor",
+    es_content: "Muchos te dirán que la vida es dolor; no muchos dirán que debe serlo. Debe serlo.",
+    fr_title: "La Vie Doit Être Souffrance",
+    fr_content: "Beaucoup vous diront que la vie est souffrance ; peu nombreux sont ceux qui diront qu'elle doit l'être. Elle doit l'être.",
+    hi_title: "जीवन पीड़ा होना चाहिए",
+    hi_content: "बहुत से लोग आपसे कहेंगे कि जीवन पीड़ा है; बहुत कम कहेंगे कि यह होना चाहिए। यह होना चाहिए।",
+    zh_title: "Shēngmìng Yīnggāi Shì Tòngkǔ",
+    zh_content: "Xǔduō rén huì gàosu nǐ shēngmìng shì tòngkǔ de; dàn bù duō de rén huì shuō tā yīnggāi shì. Tā yīnggāi shì."
 });
 
 MATCH (t:THOUGHT)

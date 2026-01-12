@@ -31,14 +31,14 @@ CREATE (c:CONTENT {
     name: "content.OPPRESSIVE WEALTH",
     en_title: "Oppressive Wealth",
     en_content: "The Bible says some nasty things about rich people who oppress the masses.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Riqueza Opresiva",
+    es_content: "La Biblia dice cosas duras acerca de los ricos que oprimen a las masas.",
+    fr_title: "Richesse Oppressive",
+    fr_content: "La Bible dit des choses sévères sur les riches qui oppriment les masses.",
+    hi_title: "उत्पीड़नकारी धन",
+    hi_content: "बाइबल उन अमीर लोगों के बारे में कड़ी बातें कहती है जो जनसाधारण पर अत्याचार करते हैं।",
+    zh_title: "Ya Po Xing De Cai Fu",
+    zh_content: "Sheng Jing Dui Ya Po Min Zhong De Fu Ren Shuo Le Xie Yan Li De Hua."
 });
 
 MATCH (t:THOUGHT)

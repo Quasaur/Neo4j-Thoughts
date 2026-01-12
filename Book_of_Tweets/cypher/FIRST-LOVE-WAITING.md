@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.FIRST LOVE WAITING",
     en_title: "First Love Waiting",
     en_content: "Prayer is where my First Love is always waiting for me!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Primer Amor Esperando",
+    es_content: "¡La oración es donde mi Primer Amor siempre me está esperando!",
+    fr_title: "Premier Amour qui Attend",
+    fr_content: "La prière est là où mon Premier Amour m'attend toujours !",
+    hi_title: "प्रथम प्रेम प्रतीक्षा",
+    hi_content: "प्रार्थना वह स्थान है जहाँ मेरा प्रथम प्रेम हमेशा मेरी प्रतीक्षा कर रहा है!",
+    zh_title: "Chū Ài Děng Hòu",
+    zh_content: "Dǎo gào shì wǒ de Chū Ài yǒng yuǎn zài děng dài wǒ de dì fāng!"
 });
 
 MATCH (t:THOUGHT)

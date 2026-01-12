@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.IRREDUCIBLE COMPLEXITY",
     en_title: "Irreducible Complexity",
     en_content: "It's going to take more than a judge's ruling to disprove the TRUTH of Irreducible Complexity.",
-    es_title: "TITULO",
-    es_content: "CONTENIDO",
-    fr_title: "TITRE",
-    fr_content: "CONTENU",
-    hi_title: "SHIRSHAK",
-    hi_content: "SAMAGRI",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Complejidad irreductible",
+    es_content: "Se necesitará más que el fallo de un juez para refutar la VERDAD de la Complejidad Irreducible.",
+    fr_title: "Complexité irréductible",
+    fr_content: "Il faudra plus qu’une décision d’un juge pour réfuter la VÉRITÉ de la complexité irréductible.",
+    hi_title: "अघुलनशील जटिलता",
+    hi_content: "इरेड्यूसबल जटिलता के सत्य को अस्वीकार करने में एक न्यायाधीश के फैसले से अधिक समय लगेगा।",
+    zh_title: "不可减少的复杂性",
+    zh_content: "要反驳不可简化的复杂性的真相，需要的不仅仅是法官的裁决。"
 });
 
 MATCH (t:THOUGHT)

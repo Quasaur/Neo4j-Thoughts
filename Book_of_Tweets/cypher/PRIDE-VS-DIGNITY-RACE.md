@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.PRIDE VS DIGNITY RACE",
     en_title: "Pride Vs Dignity Race",
     en_content: "Why do African American men confuse pride with dignity?",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Carrera Orgullo Vs Dignidad",
+    es_content: "¿Por qué los hombres afroamericanos confunden orgullo con dignidad?",
+    fr_title: "Course fierté contre dignité",
+    fr_content: "Pourquoi les hommes afro-américains confondent-ils fierté et dignité ?",
+    hi_title: "गौरव बनाम गरिमा की दौड़",
+    hi_content: "अफ़्रीकी अमेरिकी पुरुष गर्व को गरिमा के साथ भ्रमित क्यों करते हैं?",
+    zh_title: "骄傲与尊严竞赛",
+    zh_content: "为什么非裔美国男性会将骄傲与尊严混为一谈？"
 });
 
 MATCH (t:THOUGHT)

@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.SELF TORTURE OWNERSHIP",
     en_title: "Self Torture Ownership",
     en_content: "Self-torture implies self-ownership.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Propiedad de la Auto-Tortura",
+    es_content: "La auto-tortura implica auto-propiedad.",
+    fr_title: "Propriété de l'Auto-Torture",
+    fr_content: "L'auto-torture implique la propriété de soi.",
+    hi_title: "आत्म-यंत्रणा स्वामित्व",
+    hi_content: "आत्म-यंत्रणा आत्म-स्वामित्व को दर्शाता है।",
+    zh_title: "Zi Wo Zhe Mo Suo You Quan",
+    zh_content: "Zi wo zhe mo an han zi wo suo you quan."
 });
 
 MATCH (t:THOUGHT)

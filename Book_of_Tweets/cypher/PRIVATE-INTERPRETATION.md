@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.PRIVATE INTERPRETATION",
     en_title: "Private Interpretation",
     en_content: "Where Satan can't stop Bible reading he distracts with private interpretation.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Interpretación Privada",
+    es_content: "Donde Satanás no puede detener la lectura de la Biblia, distrae con interpretación privada.",
+    fr_title: "Interprétation Privée",
+    fr_content: "Là où Satan ne peut pas arrêter la lecture de la Bible, il distrait par l'interprétation privée.",
+    hi_title: "निजी व्याख्या",
+    hi_content: "जहाँ शैतान बाइबल पढ़ने को रोक नहीं सकता, वहाँ वह निजी व्याख्या से भटकाता है।",
+    zh_title: "Si Ren Jie Shi",
+    zh_content: "Dang Sa Dan Wu Fa Zu Zhi Du Sheng Jing Shi, Ta Jiu Yong Si Ren Jie Shi Lai Fen San Zhu Yi Li."
 });
 
 MATCH (t:THOUGHT)

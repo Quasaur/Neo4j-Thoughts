@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.MOVIE ALREADY OVER",
     en_title: "Movie Already Over",
     en_content: "The Bible says the movie is already over...roll the credits!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "La Película Ya Terminó",
+    es_content: "La Biblia dice que la película ya terminó... ¡pasen los créditos!",
+    fr_title: "Le Film Est Déjà Fini",
+    fr_content: "La Bible dit que le film est déjà fini... passez le générique !",
+    hi_title: "फिल्म पहले से ही समाप्त",
+    hi_content: "बाइबल कहती है कि फिल्म पहले से ही समाप्त हो गई है... क्रेडिट रोल करें!",
+    zh_title: "Dianying Yijing Jieshu",
+    zh_content: "Shengjing shuo dianying yijing jieshu le... gunchu zimu ba!"
 });
 
 MATCH (t:THOUGHT)

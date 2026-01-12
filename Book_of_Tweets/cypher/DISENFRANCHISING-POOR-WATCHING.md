@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.DISENFRANCHISING POOR WATCHING",
     en_title: "Disenfranchising Poor Watching",
     en_content: "To those that continue to disenfranchise the poor and minorities: GOD IS WATCHING.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Dios Observa la Privación de Derechos de los Pobres",
+    es_content: "A aquellos que continúan privando de derechos a los pobres y las minorías: DIOS ESTÁ OBSERVANDO.",
+    fr_title: "Dieu Observe la Privation des Droits des Pauvres",
+    fr_content: "À ceux qui continuent de priver de leurs droits les pauvres et les minorités : DIEU REGARDE.",
+    hi_title: "गरीबों के अधिकार हनन को देख रहा परमेश्वर",
+    hi_content: "उन लोगों के लिए जो गरीबों और अल्पसंख्यकों के अधिकारों का हनन करते रहते हैं: परमेश्वर देख रहा है।",
+    zh_title: "Shén Zhèngzài Kànzhe Duóqǔ Qióngmín Quánlì",
+    zh_content: "Duìyú nàxiē jìxù bōduó qióngmín hé shǎoshù mínzú quánlì de rén: SHÀNGDÌ ZHÈNGZÀI KÀNZHE."
 });
 
 MATCH (t:THOUGHT)

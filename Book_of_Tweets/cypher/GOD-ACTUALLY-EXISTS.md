@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.GOD ACTUALLY EXISTS",
     en_title: "God Actually Exists",
     en_content: "The idea that a Being such as That described in the Bible (God) actually exists should frighten us all...and it will.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Dios Realmente Existe",
+    es_content: "La idea de que un Ser como Aquel descrito en la Biblia (Dios) realmente existe debería asustarnos a todos... y lo hará.",
+    fr_title: "Dieu Existe Réellement",
+    fr_content: "L'idée qu'un Être tel que Celui décrit dans la Bible (Dieu) existe réellement devrait nous effrayer tous... et cela arrivera.",
+    hi_title: "परमेश्वर वास्तव में अस्तित्व में है",
+    hi_content: "यह विचार कि बाइबल में वर्णित एक ऐसा अस्तित्व (परमेश्वर) वास्तव में है, हम सभी को डराना चाहिए... और यह होगा।",
+    zh_title: "Shén què shí cún zài",
+    zh_content: "Xiàng Shèng jīng zhōng miáo shù de nà yàng yī gè cún zài (Shén) què shí cún zài de xiǎng fǎ yīng gāi ràng wǒ men suǒ yǒu rén dōu gǎn dào kǒng jù... ér qiě huì de."
 });
 
 MATCH (t:THOUGHT)

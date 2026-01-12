@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.EVOLUTION AS RELIGION",
     en_title: "Evolution As Religion",
     en_content: "Evolution is a RELIGION, evidence for which has been dwindling as scientific observation has grown more sophisticated.",
-    es_title: "TITULO",
-    es_content: "CONTENIDO",
-    fr_title: "TITRE",
-    fr_content: "CONTENU",
-    hi_title: "SHIRSHAK",
-    hi_content: "SAMAGRI",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "La evolución como religión",
+    es_content: "La evolución es una RELIGIÓN, cuya evidencia ha ido disminuyendo a medida que la observación científica se ha vuelto más sofisticada.",
+    fr_title: "L'évolution en tant que religion",
+    fr_content: "L’évolution est une RELIGION dont les preuves diminuent à mesure que l’observation scientifique devient plus sophistiquée.",
+    hi_title: "धर्म के रूप में विकास",
+    hi_content: "विकास एक धर्म है, जिसके प्रमाण कम होते जा रहे हैं क्योंकि वैज्ञानिक अवलोकन अधिक परिष्कृत हो गया है।",
+    zh_title: "作为宗教的进化论",
+    zh_content: "进化论是一种宗教，随着科学观察变得更加复杂，其证据却在不断减少。"
 });
 
 MATCH (t:THOUGHT)

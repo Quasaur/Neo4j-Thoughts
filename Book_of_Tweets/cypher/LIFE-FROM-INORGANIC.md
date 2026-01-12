@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.LIFE FROM INORGANIC",
     en_title: "Life From Inorganic",
     en_content: "In 13 billion years 100 monkeys will never write a novel and life will never rise from inorganic matter without an Act of God.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Vida de lo Inorgánico",
+    es_content: "En 13 mil millones de años 100 monos nunca escribirán una novela y la vida nunca surgirá de la materia inorgánica sin un Acto de Dios.",
+    fr_title: "La Vie à Partir de l'Inorganique",
+    fr_content: "En 13 milliards d'années 100 singes n'écriront jamais un roman et la vie ne naîtra jamais de la matière inorganique sans un Acte de Dieu.",
+    hi_title: "अकार्बनिक से जीवन",
+    hi_content: "13 अरब वर्षों में 100 बंदर कभी कोई उपन्यास नहीं लिख सकेंगे और जीवन कभी भी अकार्बनिक पदार्थ से ईश्वर के कार्य के बिना उत्पन्न नहीं होगा।",
+    zh_title: "Cong Wu Ji Wu Zhong Lai De Sheng Ming",
+    zh_content: "Zai yi bai san shi yi nian li yi bai zhi hou zi yong yuan xie bu chu xiao shuo, er sheng ming ye yong yuan bu hui cong wu ji wu zhi zhong chan sheng, chu fei you Shang Di de shen ji."
 });
 
 MATCH (t:THOUGHT)

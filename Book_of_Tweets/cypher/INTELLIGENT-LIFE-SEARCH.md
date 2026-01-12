@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.INTELLIGENT LIFE SEARCH",
     en_title: "Intelligent Life Search",
     en_content: "Why is it that all of the instruments seeking intelligent life in the universe are pointed away from Earth?",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Búsqueda de Vida Inteligente",
+    es_content: "¿Por qué es que todos los instrumentos que buscan vida inteligente en el universo están apuntados lejos de la Tierra?",
+    fr_title: "Recherche de Vie Intelligente",
+    fr_content: "Pourquoi est-ce que tous les instruments cherchant la vie intelligente dans l'univers sont pointés loin de la Terre ?",
+    hi_title: "बुद्धिमान जीवन की खोज",
+    hi_content: "ऐसा क्यों है कि ब्रह्मांड में बुद्धिमान जीवन की खोज करने वाले सभी उपकरण पृथ्वी से दूर की ओर निर्देशित हैं?",
+    zh_title: "Zhìnéng Shēngmìng Sōusuǒ",
+    zh_content: "Wèishénme suǒyǒu zài yǔzhòu zhōng xúnzhǎo zhìnéng shēngmìng de yíqì dōu zhǐxiàng yuǎnlí dìqiú de dìfāng?"
 });
 
 MATCH (t:THOUGHT)

@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.INTERIOR MISSISSIPPI",
     en_title: "Interior Mississippi",
     en_content: "\"You know what they say: 'Between Pittsburgh and Philadelphia is Mississippi!'\" -- Anonymous",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "El interior del Misisipi",
+    es_content: "\",
+    fr_title: "L'intérieur du Mississippi",
+    fr_content: "\",
+    hi_title: "मिसिसिपी का आंतरिक भाग",
+    hi_content: "\",
+    zh_title: "密西西比河的内部",
+    zh_content: "\"
 });
 
 MATCH (t:THOUGHT)

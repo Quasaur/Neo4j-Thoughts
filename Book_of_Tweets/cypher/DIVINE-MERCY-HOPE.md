@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.DIVINE MERCY HOPE",
     en_title: "Divine Mercy Hope",
     en_content: "Apart from Divine Mercy there is no hope for the human race.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Esperanza de la Misericordia Divina",
+    es_content: "Sin la Misericordia Divina no hay esperanza para la raza humana.",
+    fr_title: "Espoir de la Miséricorde Divine",
+    fr_content: "Sans la Miséricorde Divine, il n'y a pas d'espoir pour la race humaine.",
+    hi_title: "दिव्य कृपा की आशा",
+    hi_content: "दिव्य कृपा के बिना मानव जाति के लिए कोई आशा नहीं है।",
+    zh_title: "Shén Cí Xīwàng",
+    zh_content: "Chúle Shén de cíbēi zhīwài, rénlèi méiyǒu xīwàng."
 });
 
 MATCH (t:THOUGHT)

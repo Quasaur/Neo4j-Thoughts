@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.TEACHER AND IDENTITY",
     en_title: "Teacher And Identity",
     en_content: "A teacher challenges your identity and your knowledge, then helps you discover both so that you can stand strong under pressure.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Maestro E Identidad",
+    es_content: "Un maestro desafía tu identidad y tu conocimiento, luego te ayuda a descubrir ambos para que puedas mantenerte firme bajo presión.",
+    fr_title: "Maître Et Identité",
+    fr_content: "Un maître défie votre identité et votre connaissance, puis vous aide à découvrir les deux afin que vous puissiez rester ferme sous la pression.",
+    hi_title: "शिक्षक और पहचान",
+    hi_content: "एक शिक्षक आपकी पहचान और आपके ज्ञान को चुनौती देता है, फिर दोनों की खोज करने में आपकी सहायता करता है ताकि आप दबाव में मजबूत खड़े रह सकें।",
+    zh_title: "Lǎoshī Yǔ Shēnfèn",
+    zh_content: "Lǎoshī tiǎozhàn nǐ de shēnfèn hé nǐ de zhīshi, ránhòu bāngzhù nǐ fāxiàn zhè liǎng zhě, shǐ nǐ néng zài yālì xià jiānqiáng dìzhù."
 });
 
 MATCH (t:THOUGHT)

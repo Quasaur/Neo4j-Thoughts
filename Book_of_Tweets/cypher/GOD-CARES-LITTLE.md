@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.GOD CARES LITTLE",
     en_title: "God Cares Little",
     en_content: "God cares about the little people. He made the big people to care for the little people.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Dios Se Preocupa por los Pequeños",
+    es_content: "Dios se preocupa por la gente pequeña. Él hizo a la gente grande para cuidar de la gente pequeña.",
+    fr_title: "Dieu Se Soucie des Petits",
+    fr_content: "Dieu se soucie des petites gens. Il a fait les grandes gens pour prendre soin des petites gens.",
+    hi_title: "परमेश्वर छोटों की चिंता करता है",
+    hi_content: "परमेश्वर छोटे लोगों की चिंता करता है। उसने बड़े लोगों को छोटे लोगों की देखभाल के लिए बनाया है।",
+    zh_title: "Shàngdì Guānxīn Xiǎo Rén",
+    zh_content: "Shàngdì guānxīn xiǎo rén. Tā chuàngzào dà rén lái zhàogù xiǎo rén."
 });
 
 MATCH (t:THOUGHT)

@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.FEAR AND SELFISHNESS",
     en_title: "Fear And Selfishness",
     en_content: "Fear wouldn't be so debilitating if I were not so selfish.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Miedo Y Egoísmo",
+    es_content: "El miedo no sería tan debilitante si yo no fuera tan egoísta.",
+    fr_title: "Peur Et Égoïsme",
+    fr_content: "La peur ne serait pas si débilitante si je n'étais pas si égoïste.",
+    hi_title: "भय और स्वार्थ",
+    hi_content: "यदि मैं इतना स्वार्थी न होता तो भय इतना दुर्बल करने वाला न होता।",
+    zh_title: "Kǒngju Hé Zìsī",
+    zh_content: "Rúguǒ wǒ bù shì zhème zìsī de huà, kǒngju jiù bù huì rúcǐ lìng rén shuāiruò le."
 });
 
 MATCH (t:THOUGHT)

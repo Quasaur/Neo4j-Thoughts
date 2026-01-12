@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.ESSENCE OF JOY",
     en_title: "Essence Of Joy",
     en_content: "The essence of Joy is to discover that God is more wonderful, more great and more important than I.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Esencia del Gozo",
+    es_content: "La esencia del Gozo es descubrir que Dios es más maravilloso, más grande y más importante que yo.",
+    fr_title: "Essence de la Joie",
+    fr_content: "L'essence de la Joie est de découvrir que Dieu est plus merveilleux, plus grand et plus important que moi.",
+    hi_title: "आनंद का सार",
+    hi_content: "आनंद का सार यह खोजना है कि परमेश्वर मुझसे कहीं अधिक अद्भुत, महान और महत्वपूर्ण है।",
+    zh_title: "Kuàilè de Běnzhì",
+    zh_content: "Kuàilè de běnzhì jiùshì fāxiàn Shàngdì bǐ wǒ gèng qímiào, gèng wěidà, gèng zhòngyào."
 });
 
 MATCH (t:THOUGHT)

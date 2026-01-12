@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.GOD WANTS ME",
     en_title: "God Wants Me",
     en_content: "Everybody demands something from me, but only God wants me.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Dios Me Quiere",
+    es_content: "Todos me exigen algo, pero solo Dios me quiere.",
+    fr_title: "Dieu Me Veut",
+    fr_content: "Tout le monde exige quelque chose de moi, mais seul Dieu me veut.",
+    hi_title: "परमेश्वर मुझे चाहता है",
+    hi_content: "हर कोई मुझसे कुछ न कुछ मांगता है, लेकिन केवल परमेश्वर मुझे चाहता है।",
+    zh_title: "Shàngdì Xiǎng Yào Wǒ",
+    zh_content: "Měi gè rén dōu xiàng wǒ suǒqǔ shénme, dàn zhǐyǒu Shàngdì xiǎng yào wǒ."
 });
 
 MATCH (t:THOUGHT)

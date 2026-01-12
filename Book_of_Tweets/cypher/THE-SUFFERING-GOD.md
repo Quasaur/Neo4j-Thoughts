@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.THE SUFFERING GOD",
     en_title: "The Suffering God",
     en_content: "In Christ God has suffered more than any human.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "El Dios que Sufre",
+    es_content: "En Cristo, Dios ha sufrido más que cualquier ser humano.",
+    fr_title: "Le Dieu Souffrant",
+    fr_content: "En Christ, Dieu a souffert plus que tout être humain.",
+    hi_title: "दुःख सहने वाले परमेश्वर",
+    hi_content: "मसीह में परमेश्वर ने किसी भी मनुष्य से अधिक दुःख सहा है।",
+    zh_title: "Shòukǔ de Shàngdì",
+    zh_content: "Zài Jīdū lǐ, Shàngdì bǐ rènhé rén dōu chéngshòu le gèng duō de kǔnàn."
 });
 
 MATCH (t:THOUGHT)

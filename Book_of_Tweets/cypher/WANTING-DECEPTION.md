@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.WANTING DECEPTION",
     en_title: "Wanting Deception",
     en_content: "The Bible says that Satan has deceived us all...and we want to be deceived!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Deseando el Engaño",
+    es_content: "La Biblia dice que Satanás nos ha engañado a todos...¡y queremos ser engañados!",
+    fr_title: "Désirer la Tromperie",
+    fr_content: "La Bible dit que Satan nous a tous trompés...et nous voulons être trompés !",
+    hi_title: "धोखा चाहना",
+    hi_content: "बाइबल कहती है कि शैतान ने हम सभी को धोखा दिया है...और हम धोखा खाना चाहते हैं!",
+    zh_title: "Xiang Yao Bei Qi Pian",
+    zh_content: "Sheng Jing shuo Sa Dan qi pian le wo men suo you ren...er wo men xiang yao bei qi pian!"
 });
 
 MATCH (t:THOUGHT)

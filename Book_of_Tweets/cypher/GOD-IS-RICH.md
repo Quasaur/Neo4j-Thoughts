@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.GOD IS RICH",
     en_title: "God Is Rich",
     en_content: "God ain't broke.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Dios Es Rico",
+    es_content: "Dios no está quebrado.",
+    fr_title: "Dieu Est Riche",
+    fr_content: "Dieu n'est pas fauché.",
+    hi_title: "ईश्वर धनी है",
+    hi_content: "ईश्वर दरिद्र नहीं है।",
+    zh_title: "Shén shì fùyǒu de",
+    zh_content: "Shén bù pínqióng."
 });
 
 MATCH (t:THOUGHT)

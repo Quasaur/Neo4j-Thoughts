@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.QUALIFIED TO BREAK",
     en_title: "Qualified To Break",
     en_content: "The only Person qualified to break me is The One Who has demonstrated Their LOVE for me.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Calificado Para Quebrantar",
+    es_content: "La única Persona calificada para quebrantarme es Aquella que ha demostrado Su AMOR por mí.",
+    fr_title: "Qualifié Pour Briser",
+    fr_content: "La seule Personne qualifiée pour me briser est Celle qui a démontré Son AMOUR pour moi.",
+    hi_title: "तोड़ने के लिए योग्य",
+    hi_content: "मुझे तोड़ने के लिए योग्य एकमात्र व्यक्ति वह है जिसने मेरे लिए अपना प्रेम प्रदर्शित किया है।",
+    zh_title: "You Zi Ge Da Po",
+    zh_content: "Wei yi you zi ge da po wo de Na Wei, shi yi jing xiang wo zheng ming le Ta de AI de Na Yi Wei."
 });
 
 MATCH (t:THOUGHT)

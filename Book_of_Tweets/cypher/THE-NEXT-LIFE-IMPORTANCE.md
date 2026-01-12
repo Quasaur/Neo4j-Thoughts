@@ -29,14 +29,14 @@ CREATE (c:CONTENT {
     name: "content.THE NEXT LIFE IMPORTANCE",
     en_title: "The Next Life Importance",
     en_content: "There's NOTHING in this life that's more important than The Next Life!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "La Importancia de la Próxima Vida",
+    es_content: "¡NO hay NADA en esta vida que sea más importante que La Próxima Vida!",
+    fr_title: "L'Importance de la Vie Future",
+    fr_content: "Il n'y a RIEN dans cette vie qui soit plus important que La Vie Future !",
+    hi_title: "अगले जीवन का महत्व",
+    hi_content: "इस जीवन में कुछ भी अगले जीवन से अधिक महत्वपूर्ण नहीं है!",
+    zh_title: "Lai Shi De Zhong Yao Xing",
+    zh_content: "Zai Zhe Ge Shi Jie Shang Mei You Ren He Shi Qing Bi Lai Shi Geng Zhong Yao!"
 });
 
 MATCH (t:THOUGHT)

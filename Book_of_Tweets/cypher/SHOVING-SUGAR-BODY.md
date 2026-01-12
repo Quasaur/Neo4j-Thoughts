@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.SHOVING SUGAR BODY",
     en_title: "Shoving Sugar Body",
     en_content: "We keep shoving sugar into a body that itself manufactures sugar and then wonder why we get diabetes!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Empujando Azúcar al Cuerpo",
+    es_content: "¡Seguimos empujando azúcar a un cuerpo que él mismo manufactura azúcar y luego nos preguntamos por qué contraemos diabetes!",
+    fr_title: "Bourrer le Corps de Sucre",
+    fr_content: "Nous continuons à bourrer de sucre un corps qui fabrique lui-même du sucre, puis nous nous demandons pourquoi nous attrapons le diabète !",
+    hi_title: "शरीर में चीनी ठूंसना",
+    hi_content: "हम एक ऐसे शरीर में चीनी ठूंसते रहते हैं जो खुद ही चीनी बनाता है और फिर आश्चर्य करते हैं कि हमें मधुमेह क्यों हो जाता है!",
+    zh_title: "Wang Shenti Li Sai Tang",
+    zh_content: "Women bu duan wang yi ge ben shen jiu neng zhi zao tang de shenti li sai tang, ran hou you qi guai wei shenme women de le tang niao bing!"
 });
 
 MATCH (t:THOUGHT)

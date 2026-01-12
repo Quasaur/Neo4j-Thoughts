@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.THE PRICE OF PROMISCUITY",
     en_title: "The Price Of Promiscuity",
     en_content: "People who are promiscuous wind up paying a terrible price.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "El Precio de la Promiscuidad",
+    es_content: "Las personas que son promiscuas terminan pagando un precio terrible.",
+    fr_title: "Le Prix de la Promiscuité",
+    fr_content: "Les personnes qui sont promiscues finissent par payer un prix terrible.",
+    hi_title: "व्यभिचार की कीमत",
+    hi_content: "जो लोग व्यभिचारी होते हैं, वे अंततः भयानक कीमत चुकाते हैं।",
+    zh_title: "Fàngdàng de Dàijià",
+    zh_content: "Fàngdàng bùjiǎn de rén zuìzhōng huì fùchū kěpà de dàijià."
 });
 
 MATCH (t:THOUGHT)

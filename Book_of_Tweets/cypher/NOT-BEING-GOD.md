@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.NOT BEING GOD",
     en_title: "Not Being God",
     en_content: "I am not God; and I'm so glad that I don't have to be!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "No Ser Dios",
+    es_content: "¡Yo no soy Dios; y estoy tan agradecido de no tener que serlo!",
+    fr_title: "Ne Pas Être Dieu",
+    fr_content: "Je ne suis pas Dieu ; et je suis si heureux de ne pas avoir à l'être !",
+    hi_title: "ईश्वर न होना",
+    hi_content: "मैं ईश्वर नहीं हूं; और मैं बहुत खुश हूं कि मुझे ईश्वर होने की आवश्यकता नहीं है!",
+    zh_title: "Bú Shì Shàngdì",
+    zh_content: "Wǒ bú shì Shàngdì; wǒ hěn qìngxìng wǒ bú bìxū chéngwéi Shàngdì!"
 });
 
 MATCH (t:THOUGHT)

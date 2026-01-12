@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.ONE TRUE GOD YHWH",
     en_title: "One True God Yhwh",
     en_content: "I believe there is One True God -- YHWH; and Jesus Christ is His Living Word! Hebrews 1:1-4",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Un Dios Verdadero Yhwh",
+    es_content: "Creo que hay Un Dios Verdadero -- YHWH; y Jesucristo es Su Palabra Viviente! Hebreos 1:1-4",
+    fr_title: "Un Seul Vrai Dieu Yhwh",
+    fr_content: "Je crois qu'il y a Un Seul Vrai Dieu -- YHWH; et Jésus-Christ est Sa Parole Vivante! Hébreux 1:1-4",
+    hi_title: "एक सच्चा परमेश्वर यहवा",
+    hi_content: "मैं विश्वास करता हूँ कि एक सच्चा परमेश्वर है -- यहवा; और यीशु मसीह उसका जीवित वचन है! इब्रानियों 1:1-4",
+    zh_title: "Wei Yi Zhen Shen Ye He Hua",
+    zh_content: "Wo xiang xin you Yi Wei Zhen Shen -- YE HE HUA; Ye Su Ji Du shi Ta de Huo Po de Dao! Xi Bo Lai Shu 1:1-4"
 });
 
 MATCH (t:THOUGHT)

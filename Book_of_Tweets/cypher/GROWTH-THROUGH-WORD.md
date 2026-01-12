@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.GROWTH THROUGH WORD",
     en_title: "Growth Through Word",
     en_content: "I cannot grow as a Christian without consistently hearing and speaking God's Word.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Crecimiento a Través de la Palabra",
+    es_content: "No puedo crecer como cristiano sin escuchar y hablar consistentemente la Palabra de Dios.",
+    fr_title: "Croissance par la Parole",
+    fr_content: "Je ne peux pas grandir en tant que chrétien sans entendre et proclamer constamment la Parole de Dieu.",
+    hi_title: "वचन के द्वारा विकास",
+    hi_content: "मैं परमेश्वर के वचन को लगातार सुने और बोले बिना एक मसीही के रूप में बढ़ नहीं सकता।",
+    zh_title: "Tōngguò Shèngdào Chéngzhǎng",
+    zh_content: "Rúguǒ bù chíxù tīng hé shuō Shàngdì de huà, wǒ jiù wúfǎ zuòwéi Jīdūtú ér chéngzhǎng."
 });
 
 MATCH (t:THOUGHT)

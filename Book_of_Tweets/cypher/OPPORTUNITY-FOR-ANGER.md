@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.OPPORTUNITY FOR ANGER",
     en_title: "Opportunity For Anger",
     en_content: "People don't need a reason to be angry...just an opportunity.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Oportunidad Para La Ira",
+    es_content: "Las personas no necesitan una razón para estar enojadas...solo una oportunidad.",
+    fr_title: "Opportunité Pour La Colère",
+    fr_content: "Les gens n'ont pas besoin d'une raison pour être en colère...juste d'une opportunité.",
+    hi_title: "क्रोध के लिए अवसर",
+    hi_content: "लोगों को गुस्सा होने के लिए किसी कारण की जरूरत नहीं...बस एक अवसर की।",
+    zh_title: "Fen Nu De Ji Hui",
+    zh_content: "Ren men bu xu yao sheng qi de li you...zhi xu yao yi ge ji hui."
 });
 
 MATCH (t:THOUGHT)

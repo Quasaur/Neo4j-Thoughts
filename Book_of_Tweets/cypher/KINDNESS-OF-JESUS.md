@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.KINDNESS OF JESUS",
     en_title: "Kindness Of Jesus",
     en_content: "I have NEVER met anyone more kind that Jesus...and I never will!",
-    es_title: "TITULO",
-    es_content: "CONTENIDO",
-    fr_title: "TITRE",
-    fr_content: "CONTENU",
-    hi_title: "SHIRSHAK",
-    hi_content: "SAMAGRI",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Bondad de Jesús",
+    es_content: "NUNCA he conocido a nadie más amable que Jesús... ¡y nunca lo haré!",
+    fr_title: "La bonté de Jésus",
+    fr_content: "Je n'ai JAMAIS rencontré quelqu'un de plus gentil que Jésus... et je ne le ferai jamais !",
+    hi_title: "यीशु की दयालुता",
+    hi_content: "मैं यीशु से अधिक दयालु किसी व्यक्ति से कभी नहीं मिला...और मैं कभी नहीं मिलूंगा!",
+    zh_title: "耶稣的仁慈",
+    zh_content: "我从来没有遇到过比耶稣更仁慈的人……我永远也不会！"
 });
 
 MATCH (t:THOUGHT)

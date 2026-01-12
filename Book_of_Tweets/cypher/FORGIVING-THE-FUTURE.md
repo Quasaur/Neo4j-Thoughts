@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.FORGIVING THE FUTURE",
     en_title: "Forgiving The Future",
     en_content: "We're so busy struggling to forgive the past we never consider the necessity of forgiving the future.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Perdonando el Futuro",
+    es_content: "Estamos tan ocupados luchando por perdonar el pasado que nunca consideramos la necesidad de perdonar el futuro.",
+    fr_title: "Pardonner l'Avenir",
+    fr_content: "Nous sommes si occupés à lutter pour pardonner le passé que nous n'envisageons jamais la nécessité de pardonner l'avenir.",
+    hi_title: "भविष्य को क्षमा करना",
+    hi_content: "हम अतीत को क्षमा करने के संघर्ष में इतने व्यस्त हैं कि हम भविष्य को क्षमा करने की आवश्यकता पर कभी विचार नहीं करते।",
+    zh_title: "Kuanshu Weilai",
+    zh_content: "Women mangyu zhengzha kuanshu guoqu, que conglai meiyou kaolü kuanshu weilai de biyaoxing."
 });
 
 MATCH (t:THOUGHT)

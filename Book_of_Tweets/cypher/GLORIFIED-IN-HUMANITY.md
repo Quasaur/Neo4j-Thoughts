@@ -29,14 +29,14 @@ CREATE (c:CONTENT {
     name: "content.GLORIFIED IN HUMANITY",
     en_title: "Glorified In Humanity",
     en_content: "God WILL be glorified in Humanity: either by rewarding obedience, faith and courage...or by punishing rebellion, unbelief and cowardice.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Glorificado en la Humanidad",
+    es_content: "Dios SERÁ glorificado en la Humanidad: ya sea recompensando la obediencia, la fe y el valor...o castigando la rebelión, la incredulidad y la cobardía.",
+    fr_title: "Glorifié dans l'Humanité",
+    fr_content: "Dieu SERA glorifié dans l'Humanité : soit en récompensant l'obéissance, la foi et le courage...soit en punissant la rébellion, l'incrédulité et la lâcheté.",
+    hi_title: "मानवता में महिमामंडित",
+    hi_content: "परमेश्वर मानवता में महिमामंडित होंगे: या तो आज्ञाकारिता, विश्वास और साहस को पुरस्कृत करके...या विद्रोह, अविश्वास और कायरता को दंडित करके।",
+    zh_title: "Zài rénlèi zhōng dédào róngguāng",
+    zh_content: "Shàngdì jiāng zài rénlèi zhōng dédào róngguāng: huòzhě tōngguò jiǎngshǎng shùncóng, xìnyǎng hé yǒngqì...huòzhě tōngguò chéngfá pànluàn, bù xìn hé qiènuò."
 });
 
 MATCH (t:THOUGHT)

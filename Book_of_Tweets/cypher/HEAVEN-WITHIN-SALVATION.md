@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.HEAVEN WITHIN SALVATION",
     en_title: "Heaven Within Salvation",
     en_content: "The objective of Salvation is not to get you into Heaven, but to get Heaven into you.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "El Cielo Dentro de la Salvación",
+    es_content: "El objetivo de la Salvación no es llevarte al Cielo, sino traer el Cielo dentro de ti.",
+    fr_title: "Le Ciel Dans le Salut",
+    fr_content: "L'objectif du Salut n'est pas de vous amener au Ciel, mais d'amener le Ciel en vous.",
+    hi_title: "मोक्ष के भीतर स्वर्ग",
+    hi_content: "मोक्ष का उद्देश्य आपको स्वर्ग में ले जाना नहीं है, बल्कि स्वर्ग को आप के भीतर लाना है।",
+    zh_title: "Jiù'ēn zhī zhōng de tiāntáng",
+    zh_content: "Jiù'ēn de mùdì bùshì ràng nǐ jìnrù tiāntáng, ér shì ràng tiāntáng jìnrù nǐ de nèixīn."
 });
 
 MATCH (t:THOUGHT)

@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.TWO TYPES CHURCHES",
     en_title: "Two Types Churches",
     en_content: "There are two churches: (1) the institutionalized church, and (2) the REAL church elected by God; one is temporary, one is eternal.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Dos Tipos de Iglesias",
+    es_content: "Hay dos iglesias: (1) la iglesia institucionalizada, y (2) la iglesia VERDADERA elegida por Dios; una es temporal, una es eterna.",
+    fr_title: "Deux Types d'Églises",
+    fr_content: "Il y a deux églises : (1) l'église institutionnalisée, et (2) la VRAIE église élue par Dieu ; l'une est temporaire, l'une est éternelle.",
+    hi_title: "दो प्रकार की कलीसियाएं",
+    hi_content: "दो कलीसियाएं हैं: (१) संस्थागत कलीसिया, और (२) परमेश्वर द्वारा चुनी गई वास्तविक कलीसिया; एक अस्थायी है, एक अनन्त है।",
+    zh_title: "Liǎng Zhǒng Jiàohuì",
+    zh_content: "Yǒu liǎng gè jiàohuì: (1) zhìdùhuà de jiàohuì, hé (2) Shàngdì xuǎnzhòng de zhēnzhèng jiàohuì; yī gè shì línshí de, yī gè shì yǒnghéng de."
 });
 
 MATCH (t:THOUGHT)

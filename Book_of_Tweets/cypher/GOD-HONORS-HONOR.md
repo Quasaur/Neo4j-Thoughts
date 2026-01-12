@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.GOD HONORS HONOR",
     en_title: "God Honors Honor",
     en_content: "God is not stupid; He honors those who honor Him...those who ignore Him are lightly esteemed.",
-    es_title: "TITULO",
-    es_content: "CONTENIDO",
-    fr_title: "TITRE",
-    fr_content: "CONTENU",
-    hi_title: "SHIRSHAK",
-    hi_content: "SAMAGRI",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Dios honra el honor",
+    es_content: "Dios no es estúpido;Él honra a quienes lo honran... quienes lo ignoran son poco estimados.",
+    fr_title: "Dieu honore l'honneur",
+    fr_content: "Dieu n'est pas stupide ;Il honore ceux qui l'honorent... ceux qui l'ignorent sont peu estimés.",
+    hi_title: "भगवान सम्मान सम्मान",
+    hi_content: "भगवान मूर्ख नहीं है;वह उन लोगों का सम्मान करता है जो उसका सम्मान करते हैं...जो लोग उसकी उपेक्षा करते हैं उन्हें कम महत्व दिया जाता है।",
+    zh_title: "神尊重荣耀",
+    zh_content: "神并不愚蠢；他尊重那些尊敬他的人……那些忽视他的人受到轻视。"
 });
 
 MATCH (t:THOUGHT)

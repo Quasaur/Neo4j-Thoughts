@@ -29,14 +29,14 @@ CREATE (c:CONTENT {
     name: "content.GODS PRIORITIES VS OURS",
     en_title: "Gods Priorities Vs Ours",
     en_content: "The things that are important to God are rarely important to us.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Las Prioridades de Dios Vs las Nuestras",
+    es_content: "Las cosas que son importantes para Dios rara vez son importantes para nosotros.",
+    fr_title: "Les Priorités de Dieu Vs les Nôtres",
+    fr_content: "Les choses qui sont importantes pour Dieu sont rarement importantes pour nous.",
+    hi_title: "परमेश्वर की प्राथमिकताएं बनाम हमारी",
+    hi_content: "जो बातें परमेश्वर के लिए महत्वपूर्ण हैं वे शायद ही कभी हमारे लिए महत्वपूर्ण होती हैं।",
+    zh_title: "Shàngdì de Yōuxiān Shìxiàng Yǔ Wǒmen de",
+    zh_content: "Duì Shàngdì zhòngyào de shìqíng duì wǒmen lái shuō hěn shǎo shì zhòngyào de."
 });
 
 MATCH (t:THOUGHT)

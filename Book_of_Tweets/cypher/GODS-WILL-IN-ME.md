@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.GODS WILL IN ME",
     en_title: "Gods Will In Me",
     en_content: "I can't make God do anything; yet He effortlessly executes His Will in me without my awareness of the act.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "La Voluntad de Dios en Mí",
+    es_content: "No puedo hacer que Dios haga nada; sin embargo, Él ejecuta sin esfuerzo Su Voluntad en mí sin que yo tenga conciencia del acto.",
+    fr_title: "La Volonté de Dieu en Moi",
+    fr_content: "Je ne peux pas faire faire quoi que ce soit à Dieu ; pourtant Il exécute sans effort Sa Volonté en moi sans que j'aie conscience de l'acte.",
+    hi_title: "मुझमें परमेश्वर की इच्छा",
+    hi_content: "मैं परमेश्वर से कुछ भी करवा नहीं सकता; फिर भी वह सहजता से मुझमें अपनी इच्छा का क्रियान्वयन करता है बिना मेरे इस कृत्य के प्रति जागरूक हुए।",
+    zh_title: "Shén de Yìzhì zài Wǒ Xīnzhōng",
+    zh_content: "Wǒ bùnéng ràng Shén zuò rènhé shì; rán'ér Tā háobùfèilì de zài wǒ xīnzhōng zhíxíng Tā de Yìzhì, ér wǒ què duì zhè xíngwéi háowú zhījué."
 });
 
 MATCH (t:THOUGHT)

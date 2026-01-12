@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.PRAYER AS RELIEF",
     en_title: "Prayer As Relief",
     en_content: "Prayer is my relief.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "La Oración Como Alivio",
+    es_content: "La oración es mi alivio.",
+    fr_title: "La Prière Comme Soulagement",
+    fr_content: "La prière est mon soulagement.",
+    hi_title: "राहत के रूप में प्रार्थना",
+    hi_content: "प्रार्थना मेरी राहत है।",
+    zh_title: "Dǎogào Zuòwéi Ānwèi",
+    zh_content: "Dǎogào shì wǒ de ānwèi."
 });
 
 MATCH (t:THOUGHT)

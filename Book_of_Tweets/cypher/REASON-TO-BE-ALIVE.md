@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.REASON TO BE ALIVE",
     en_title: "Reason To Be Alive",
     en_content: "The only reason we are alive is to find Jesus that He may take away our sin.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Razón Para Estar Vivos",
+    es_content: "La única razón por la que estamos vivos es encontrar a Jesús para que Él pueda quitar nuestro pecado.",
+    fr_title: "Raison d'Être Vivant",
+    fr_content: "La seule raison pour laquelle nous sommes vivants est de trouver Jésus afin qu'Il puisse enlever notre péché.",
+    hi_title: "जीवित रहने का कारण",
+    hi_content: "हमारे जीवित रहने का एकमात्र कारण यीशु को खोजना है ताकि वह हमारे पाप को दूर कर सकें।",
+    zh_title: "Huózhe de Lǐyóu",
+    zh_content: "Wǒmen huózhe de wéiyī lǐyóu jiùshì zhǎodào Yēsū, shǐ Tā néng chúqù wǒmen de zuì."
 });
 
 MATCH (t:THOUGHT)

@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.LIGHTNING BOLT",
     en_title: "Lightning Bolt",
     en_content: "A single lightning bolt can be 5 miles in length and hotter than the surface of the Sun...God is Great!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Rayo",
+    es_content: "Un solo rayo puede medir 5 millas de largo y ser más caliente que la superficie del Sol... ¡Dios es Grande!",
+    fr_title: "Éclair",
+    fr_content: "Un seul éclair peut mesurer 5 miles de long et être plus chaud que la surface du Soleil... Dieu est Grand !",
+    hi_title: "बिजली की चमक",
+    hi_content: "एक बिजली की चमक 5 मील लंबी हो सकती है और सूर्य की सतह से भी अधिक गर्म हो सकती है... भगवान महान हैं!",
+    zh_title: "Shan Dian",
+    zh_content: "Yi dao shan dian ke yi chang da 5 ying li, wen du bi tai yang biao mian geng re... Shang Di zhen wei da!"
 });
 
 MATCH (t:THOUGHT)

@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.PAYCHECK VS SOUL",
     en_title: "Paycheck Vs Soul",
     en_content: "Stop living like your paycheck is worth more than the dignity of your SOUL! Matthew 16:26",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Sueldo Vs Alma",
+    es_content: "¡Deja de vivir como si tu sueldo valiera más que la dignidad de tu ALMA! Mateo 16:26",
+    fr_title: "Salaire Vs Âme",
+    fr_content: "Arrêtez de vivre comme si votre salaire valait plus que la dignité de votre ÂME ! Matthieu 16:26",
+    hi_title: "वेतन बनाम आत्मा",
+    hi_content: "अपने वेतन को अपनी आत्मा की गरिमा से अधिक मूल्यवान समझकर जीना बंद करो! मत्ती 16:26",
+    zh_title: "Gongzi Dui Linghun",
+    zh_content: "Bie zai xiang ni de gongzi bi ni LINGHUN de zunyan geng zhongyao yiyang shenghuo le! Mataifuyyin 16:26"
 });
 
 MATCH (t:THOUGHT)

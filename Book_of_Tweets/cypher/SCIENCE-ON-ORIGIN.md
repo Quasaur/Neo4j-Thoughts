@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.SCIENCE ON ORIGIN",
     en_title: "Science On Origin",
     en_content: "If I can't trust science to explain origin, why is it so infallible on development??",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "La Ciencia Sobre el Origen",
+    es_content: "Si no puedo confiar en la ciencia para explicar el origen, ¿por qué es tan infalible en el desarrollo?",
+    fr_title: "La Science sur l'Origine",
+    fr_content: "Si je ne peux pas faire confiance à la science pour expliquer l'origine, pourquoi est-elle si infaillible sur le développement ?",
+    hi_title: "उत्पत्ति पर विज्ञान",
+    hi_content: "यदि मैं उत्पत्ति की व्याख्या के लिए विज्ञान पर भरोसा नहीं कर सकता, तो यह विकास पर इतना अचूक क्यों है?",
+    zh_title: "Guānyú Qǐyuán de Kēxué",
+    zh_content: "Rúguǒ wǒ bùnéng xiāngxìn kēxué lái jiěshì qǐyuán, wèishéme tā zài fāzhǎn shàng què rúcǐ wúwù?"
 });
 
 MATCH (t:THOUGHT)

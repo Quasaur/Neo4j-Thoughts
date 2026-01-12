@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.GOD NOT AMERICAN",
     en_title: "God Not American",
     en_content: "God is NOT an American.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Dios No Es Estadounidense",
+    es_content: "Dios NO es estadounidense.",
+    fr_title: "Dieu N'est Pas Américain",
+    fr_content: "Dieu N'EST PAS américain.",
+    hi_title: "भगवान अमेरिकी नहीं हैं",
+    hi_content: "भगवान अमेरिकी नहीं हैं।",
+    zh_title: "Shàng Dì Bú Shì Měi Guó Rén",
+    zh_content: "Shàng Dì BÚ SHÌ Měi guó rén."
 });
 
 MATCH (t:THOUGHT)

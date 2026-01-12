@@ -29,14 +29,14 @@ CREATE (c:CONTENT {
     name: "content.HAPPY IF GOD PLEASED",
     en_title: "Happy If God Pleased",
     en_content: "How can I not be happy if God is pleased with me?",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Feliz Si Dios Está Complacido",
+    es_content: "¿Cómo no puedo estar feliz si Dios está complacido conmigo?",
+    fr_title: "Heureux Si Dieu Est Satisfait",
+    fr_content: "Comment ne puis-je pas être heureux si Dieu est satisfait de moi ?",
+    hi_title: "खुश यदि भगवान प्रसन्न हैं",
+    hi_content: "यदि भगवान मुझसे प्रसन्न हैं तो मैं कैसे खुश नहीं हो सकता?",
+    zh_title: "Ruò Shén Xǐyuè Zé Kuàilè",
+    zh_content: "Rúguǒ Shén duì wǒ mǎnyì, wǒ zěnme néng bù kuàilè ne?"
 });
 
 MATCH (t:THOUGHT)

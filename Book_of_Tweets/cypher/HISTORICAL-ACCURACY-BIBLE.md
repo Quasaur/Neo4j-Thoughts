@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.HISTORICAL ACCURACY BIBLE",
     en_title: "Historical Accuracy Bible",
     en_content: "The God in The Bible is described as Truth; therefore The Bible itself must be HISTORICALLY ACCURATE.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Precisión Histórica de la Biblia",
+    es_content: "El Dios de La Biblia es descrito como Verdad; por lo tanto La Biblia misma debe ser HISTÓRICAMENTE PRECISA.",
+    fr_title: "Exactitude Historique de la Bible",
+    fr_content: "Le Dieu de La Bible est décrit comme Vérité; par conséquent La Bible elle-même doit être HISTORIQUEMENT EXACTE.",
+    hi_title: "बाइबल की ऐतिहासिक सटीकता",
+    hi_content: "बाइबल में परमेश्वर को सत्य के रूप में वर्णित किया गया है; इसलिए बाइबल स्वयं ऐतिहासिक रूप से सटीक होनी चाहिए।",
+    zh_title: "Sheng Jing de Li Shi Zhun Que Xing",
+    zh_content: "Sheng Jing zhong de Shang Di bei miao shu wei Zhen Li; yin ci Sheng Jing ben shen bi xu shi LI SHI ZHUN QUE de."
 });
 
 MATCH (t:THOUGHT)

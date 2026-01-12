@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.PRAYER HAWAIIAN VACATION",
     en_title: "Prayer Hawaiian Vacation",
     en_content: "Prayer is my Hawaiian vacation.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Oración Vacaciones en Hawái",
+    es_content: "La oración es mis vacaciones en Hawái.",
+    fr_title: "Prière Vacances Hawaïennes",
+    fr_content: "La prière est mes vacances hawaïennes.",
+    hi_title: "प्रार्थना हवाई छुट्टी",
+    hi_content: "प्रार्थना मेरी हवाई छुट्टी है।",
+    zh_title: "Qídǎo Xiàwēiyí Jiàqī",
+    zh_content: "Qídǎo shì wǒ de Xiàwēiyí jiàqī."
 });
 
 MATCH (t:THOUGHT)

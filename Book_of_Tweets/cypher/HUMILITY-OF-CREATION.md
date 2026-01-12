@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.HUMILITY OF CREATION",
     en_title: "Humility Of Creation",
     en_content: "It was The Supreme Act of Humility for God, Who doesn't need anything, to create something!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Humildad de la Creación",
+    es_content: "¡Fue El Acto Supremo de Humildad para Dios, Quien no necesita nada, crear algo!",
+    fr_title: "Humilité de la Création",
+    fr_content: "Ce fut L'Acte Suprême d'Humilité pour Dieu, Qui n'a besoin de rien, de créer quelque chose !",
+    hi_title: "सृष्टि की विनम्रता",
+    hi_content: "यह परमेश्वर के लिए परम विनम्रता का कार्य था, जिसे किसी चीज़ की आवश्यकता नहीं है, कुछ सृजित करना!",
+    zh_title: "Chuàngzào de Qiānbēi",
+    zh_content: "Duìyú bù xūyào rènhé dōngxi de Shàngdì lái shuō, chuàngzào mǒuwù shì Zhìgāo de Qiānbēi Xíngwéi!"
 });
 
 MATCH (t:THOUGHT)

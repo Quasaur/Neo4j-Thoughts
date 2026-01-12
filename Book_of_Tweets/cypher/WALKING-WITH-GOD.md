@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.WALKING WITH GOD",
     en_title: "Walking With God",
     en_content: "The Bible doesn't say that God walked with Enoch, but that Enoch walked with God. Enoch was led by the Holy Spirit.",
-    es_title: "TITULO",
-    es_content: "CONTENIDO",
-    fr_title: "TITRE",
-    fr_content: "CONTENU",
-    hi_title: "SHIRSHAK",
-    hi_content: "SAMAGRI",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Caminando con Dios",
+    es_content: "La Biblia no dice que Dios caminó con Enoc, sino que Enoc caminó con Dios.Enoc fue guiado por el Espíritu Santo.",
+    fr_title: "Marcher avec Dieu",
+    fr_content: "La Bible ne dit pas que Dieu marchait avec Enoch, mais qu'Enoch marchait avec Dieu.Hénoc était dirigé par le Saint-Esprit.",
+    hi_title: "भगवान के साथ चलना",
+    hi_content: "बाइबल यह नहीं कहती कि परमेश्वर हनोक के साथ चला, बल्कि यह कि हनोक परमेश्वर के साथ चला।हनोक का नेतृत्व पवित्र आत्मा द्वारा किया गया था।",
+    zh_title: "与神同行",
+    zh_content: "圣经没有说神与以诺同行，而是说以诺与神同行。以诺是被圣灵引导的。"
 });
 
 MATCH (t:THOUGHT)

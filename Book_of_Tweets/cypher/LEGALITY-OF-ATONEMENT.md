@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.LEGALITY OF ATONEMENT",
     en_title: "Legality Of Atonement",
     en_content: "IT'S NOT LEGAL for you AND Jesus to suffer for the same sin!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Legalidad de la Expiación",
+    es_content: "¡NO ES LEGAL que tú Y Jesús sufran por el mismo pecado!",
+    fr_title: "Légalité de l'Expiation",
+    fr_content: "Ce N'EST PAS LÉGAL que toi ET Jésus souffriez pour le même péché !",
+    hi_title: "प्रायश्चित्त की वैधता",
+    hi_content: "तुम्हारे और यीशु दोनों का एक ही पाप के लिए कष्ट उठाना कानूनी नहीं है!",
+    zh_title: "Shú zuì de hé fǎ xìng",
+    zh_content: "Nǐ hé Yēsū dōu wéi tóng yī zuì 'é shòu kǔ shì bù hé fǎ de!"
 });
 
 MATCH (t:THOUGHT)

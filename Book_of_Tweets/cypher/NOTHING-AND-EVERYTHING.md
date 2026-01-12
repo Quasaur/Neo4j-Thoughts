@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.NOTHING AND EVERYTHING",
     en_title: "Nothing And Everything",
     en_content: "I am nothing to God...and yet...I am everything to God.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Nada Y Todo",
+    es_content: "No soy nada para Dios...y sin embargo...soy todo para Dios.",
+    fr_title: "Rien Et Tout",
+    fr_content: "Je ne suis rien pour Dieu...et pourtant...je suis tout pour Dieu.",
+    hi_title: "कुछ नहीं और सब कुछ",
+    hi_content: "मैं परमेश्वर के लिए कुछ नहीं हूँ...और फिर भी...मैं परमेश्वर के लिए सब कुछ हूँ।",
+    zh_title: "Wu You He Yi Qie",
+    zh_content: "Wo dui Shen lai shuo shi wu you...ran er...wo dui Shen lai shuo shi yi qie."
 });
 
 MATCH (t:THOUGHT)

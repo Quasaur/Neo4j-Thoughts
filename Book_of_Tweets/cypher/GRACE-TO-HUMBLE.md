@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.GRACE TO HUMBLE",
     en_title: "Grace To Humble",
     en_content: "Salvation in a Nutshell: God resists the proud, but gives Grace to the humble.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Gracia Para Los Humildes",
+    es_content: "La Salvación en Pocas Palabras: Dios resiste a los soberbios, pero da gracia a los humildes.",
+    fr_title: "Grâce Aux Humbles",
+    fr_content: "Le Salut en Bref: Dieu résiste aux orgueilleux, mais il fait grâce aux humbles.",
+    hi_title: "विनम्रों को अनुग्रह",
+    hi_content: "उद्धार संक्षेप में: परमेश्वर अभिमानियों का विरोध करता है, परन्तु विनम्रों पर अनुग्रह करता है।",
+    zh_title: "Ci En Gui Yu Qian Bei",
+    zh_content: "Jiu En Gai Yao: Shen Di Dang Jiao Ao De Ren, Ci En Gei Qian Bei De Ren."
 });
 
 MATCH (t:THOUGHT)

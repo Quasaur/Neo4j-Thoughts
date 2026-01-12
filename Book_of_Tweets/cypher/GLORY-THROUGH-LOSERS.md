@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.GLORY THROUGH LOSERS",
     en_title: "Glory Through Losers",
     en_content: "God prefers losers so that when we win God gets the glory!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Gloria a Través de los Perdedores",
+    es_content: "¡Dios prefiere a los perdedores para que cuando ganemos Dios reciba la gloria!",
+    fr_title: "Gloire à Travers les Perdants",
+    fr_content: "Dieu préfère les perdants pour que lorsque nous gagnons, Dieu reçoive la gloire !",
+    hi_title: "हारने वालों के द्वारा महिमा",
+    hi_content: "परमेश्वर हारने वालों को पसंद करता है ताकि जब हम जीतें तो परमेश्वर को महिमा मिले!",
+    zh_title: "tōng guò shī bài zhě de róng yào",
+    zh_content: "shàng dì xǐ huān shī bài zhě, zhè yàng dāng wǒ men dé shèng shí shàng dì jiù dé dào róng yào!"
 });
 
 MATCH (t:THOUGHT)

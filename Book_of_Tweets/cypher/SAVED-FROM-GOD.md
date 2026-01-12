@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.SAVED FROM GOD",
     en_title: "Saved From God",
     en_content: "God can save you from anybody...but who can save you from God?",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Salvado de Dios",
+    es_content: "Dios puede salvarte de cualquiera...pero ¿quién puede salvarte de Dios?",
+    fr_title: "Sauvé de Dieu",
+    fr_content: "Dieu peut vous sauver de n'importe qui...mais qui peut vous sauver de Dieu ?",
+    hi_title: "परमेश्वर से छुटकारा",
+    hi_content: "परमेश्वर आपको किसी से भी बचा सकता है...लेकिन कौन आपको परमेश्वर से बचा सकता है?",
+    zh_title: "Cóng Shàngdì Zhōng Déjiù",
+    zh_content: "Shàngdì kěyǐ jiù nǐ tuōlí rènhé rén...dàn shuí néng jiù nǐ tuōlí Shàngdì ne?"
 });
 
 MATCH (t:THOUGHT)

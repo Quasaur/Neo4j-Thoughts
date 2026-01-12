@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.HELL AND HYPOCRISY",
     en_title: "Hell And Hypocrisy",
     en_content: "If I send you to Hell, it's guaranteed that I will be following you shortly.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "El Infierno y la Hipocresía",
+    es_content: "Si te envío al Infierno, es garantizado que te estaré siguiendo en breve.",
+    fr_title: "L'Enfer et l'Hypocrisie",
+    fr_content: "Si je t'envoie en Enfer, il est garanti que je te suivrai sous peu.",
+    hi_title: "नरक और पाखंड",
+    hi_content: "यदि मैं तुम्हें नरक भेजूं, तो यह निश्चित है कि मैं शीघ्र ही तुम्हारे पीछे आऊंगा।",
+    zh_title: "Dìyù yǔ Wěishàn",
+    zh_content: "Rúguǒ wǒ sòng nǐ qù dìyù, kěn dìng de shì wǒ huì hěn kuài gēnzhe nǐ qù."
 });
 
 MATCH (t:THOUGHT)

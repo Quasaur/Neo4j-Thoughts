@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.GODS PERFECT LOVE",
     en_title: "Gods Perfect Love",
     en_content: "God loves us with ALL His Heart, Soul, Mind and Strength!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "El Amor Perfecto de Dios",
+    es_content: "¡Dios nos ama con TODO Su Corazón, Alma, Mente y Fuerza!",
+    fr_title: "L'Amour Parfait de Dieu",
+    fr_content: "Dieu nous aime de tout Son Cœur, Son Âme, Son Esprit et Sa Force !",
+    hi_title: "परमेश्वर का सिद्ध प्रेम",
+    hi_content: "परमेश्वर हमसे अपने सारे हृदय, आत्मा, मन और शक्ति से प्रेम करता है!",
+    zh_title: "Shén de Wánměi Zhī Ài",
+    zh_content: "Shén yòng Tā quánbù de Xīn, Línghún, Yìniàn hé Lìliàng ài wǒmen!"
 });
 
 MATCH (t:THOUGHT)

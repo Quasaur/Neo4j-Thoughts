@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.GOD CONFIDENCE",
     en_title: "God Confidence",
     en_content: "God-confidence is better than self-confidence.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Confianza en Dios",
+    es_content: "La confianza en Dios es mejor que la confianza en uno mismo.",
+    fr_title: "Confiance en Dieu",
+    fr_content: "La confiance en Dieu est meilleure que la confiance en soi.",
+    hi_title: "ईश्वर में विश्वास",
+    hi_content: "ईश्वर में विश्वास आत्मविश्वास से बेहतर है।",
+    zh_title: "Duì Shàngdì de xìnxīn",
+    zh_content: "Duì Shàngdì de xìnxīn bǐ zìxìn gèng hǎo."
 });
 
 MATCH (t:THOUGHT)

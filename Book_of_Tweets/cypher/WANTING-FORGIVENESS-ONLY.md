@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.WANTING FORGIVENESS ONLY",
     en_title: "Wanting Forgiveness Only",
     en_content: "We want to be forgiven, but we don't want to forgive...how disgusting.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Queriendo Solo el Perdón",
+    es_content: "Queremos ser perdonados, pero no queremos perdonar...qué repugnante.",
+    fr_title: "Vouloir Seulement le Pardon",
+    fr_content: "Nous voulons être pardonnés, mais nous ne voulons pas pardonner...comme c'est dégoûtant.",
+    hi_title: "केवल क्षमा चाहना",
+    hi_content: "हम क्षमा पाना चाहते हैं, लेकिन हम क्षमा करना नहीं चाहते...कितना घिनौना।",
+    zh_title: "Zhi Xiang Yao Kuanshu",
+    zh_content: "Women xiang bei kuanshu, dan women bu xiang kuanshu bieren...duo me eling."
 });
 
 MATCH (t:THOUGHT)

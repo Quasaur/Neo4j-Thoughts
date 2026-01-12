@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.LIMITS OF KNOWLEDGE",
     en_title: "Limits Of Knowledge",
     en_content: "\"If any man thinks he knows anything, he does not yet know as he ought.\" -- The Apostle Paul",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Límites del conocimiento",
+    es_content: "\",
+    fr_title: "Limites de la connaissance",
+    fr_content: "\",
+    hi_title: "ज्ञान की सीमा",
+    hi_content: "\",
+    zh_title: "知识的局限性",
+    zh_content: "\"
 });
 
 MATCH (t:THOUGHT)

@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.TRANSFORMING POWER LOVE",
     en_title: "Transforming Power Love",
     en_content: "God's Love is frighteningly powerful: turning dirt into flesh, flesh into spirit, sin into righteousness and death into life.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "El Poder Transformador del Amor",
+    es_content: "El Amor de Dios es tremendamente poderoso: convirtiendo el polvo en carne, la carne en espíritu, el pecado en justicia y la muerte en vida.",
+    fr_title: "Le Pouvoir Transformateur de l'Amour",
+    fr_content: "L'Amour de Dieu est terriblement puissant : transformant la poussière en chair, la chair en esprit, le péché en justice et la mort en vie.",
+    hi_title: "प्रेम की रूपांतरणकारी शक्ति",
+    hi_content: "परमेश्वर का प्रेम भयावह रूप से शक्तिशाली है: मिट्टी को मांस में, मांस को आत्मा में, पाप को धार्मिकता में और मृत्यु को जीवन में बदल देता है।",
+    zh_title: "Ài de Zhuǎnhuà Lìliàng",
+    zh_content: "Shàngdì de ài jùyǒu kěpà de lìliàng: bǎ chéntǔ biànchéng xuèròu, bǎ xuèròu biànchéng línghún, bǎ zuì'è biànchéng gōngyì, bǎ sǐwáng biànchéng shēngmìng."
 });
 
 MATCH (t:THOUGHT)

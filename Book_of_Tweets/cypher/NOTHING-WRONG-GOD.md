@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.NOTHING WRONG GOD",
     en_title: "Nothing Wrong God",
     en_content: "There is nothing wrong with God.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Nada Malo en Dios",
+    es_content: "No hay nada malo en Dios.",
+    fr_title: "Rien de Mal en Dieu",
+    fr_content: "Il n'y a rien de mal en Dieu.",
+    hi_title: "परमेश्वर में कोई दोष नहीं",
+    hi_content: "परमेश्वर में कोई दोष नहीं है।",
+    zh_title: "Shén méiyǒu cuòwù",
+    zh_content: "Shén méiyǒu rènhé cuòwù."
 });
 
 MATCH (t:THOUGHT)

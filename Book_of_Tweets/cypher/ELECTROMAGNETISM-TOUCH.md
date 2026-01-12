@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.ELECTROMAGNETISM TOUCH",
     en_title: "Electromagnetism Touch",
     en_content: "Under normal circumstances, electromagnetism prevents any 2 surfaces from touching...God is great!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Toque Electromagnético",
+    es_content: "En circunstancias normales, el electromagnetismo impide que cualquier 2 superficies se toquen...¡Dios es grande!",
+    fr_title: "Toucher Électromagnétique",
+    fr_content: "Dans des circonstances normales, l'électromagnétisme empêche 2 surfaces de se toucher...Dieu est grand !",
+    hi_title: "विद्युत चुम्बकीय स्पर्श",
+    hi_content: "सामान्य परिस्थितियों में, विद्युत चुम्बकत्व किसी भी 2 सतहों को छूने से रोकता है...परमेश्वर महान है!",
+    zh_title: "Dianci Chumo",
+    zh_content: "Zai zhengchang qingkuang xia, dianci zu zhi renhe liang ge biaomian xiangchu...Shangdi shi weida de!"
 });
 
 MATCH (t:THOUGHT)

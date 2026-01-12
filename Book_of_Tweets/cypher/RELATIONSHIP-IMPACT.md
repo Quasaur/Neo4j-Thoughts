@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.RELATIONSHIP IMPACT",
     en_title: "Relationship Impact",
     en_content: "You are either a beneficiary or a casualty of my relationship with God.",
-    es_title: "TITULO",
-    es_content: "CONTENIDO",
-    fr_title: "TITRE",
-    fr_content: "CONTENU",
-    hi_title: "SHIRSHAK",
-    hi_content: "SAMAGRI",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Impacto de la relación",
+    es_content: "Eres un beneficiario o una víctima de mi relación con Dios.",
+    fr_title: "Impact relationnel",
+    fr_content: "Vous êtes soit un bénéficiaire, soit une victime de ma relation avec Dieu.",
+    hi_title: "रिश्ते पर प्रभाव",
+    hi_content: "आप या तो भगवान के साथ मेरे रिश्ते के लाभार्थी हैं या हताहत हैं।",
+    zh_title: "关系影响",
+    zh_content: "你要么是我与上帝关系的受益者，要么是受害者。"
 });
 
 MATCH (t:THOUGHT)

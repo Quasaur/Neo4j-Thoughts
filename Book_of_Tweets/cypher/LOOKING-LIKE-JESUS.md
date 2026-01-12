@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.LOOKING LIKE JESUS",
     en_title: "Looking Like Jesus",
     en_content: "Jesus is what you look like to God!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Pareciéndose a Jesús",
+    es_content: "¡Jesús es como tú te ves ante Dios!",
+    fr_title: "Ressembler à Jésus",
+    fr_content: "Jésus est ce à quoi tu ressembles aux yeux de Dieu !",
+    hi_title: "यीशु के समान दिखना",
+    hi_content: "यीशु ही वह है जैसा तुम परमेश्वर को दिखते हो!",
+    zh_title: "Kàn Qǐlái Xiàng Yēsū",
+    zh_content: "Yēsū jiù shì nǐ zài Shàngdì miànqián de yàngzi!"
 });
 
 MATCH (t:THOUGHT)

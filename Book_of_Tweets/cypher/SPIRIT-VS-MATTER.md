@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.SPIRIT VS MATTER",
     en_title: "Spirit Vs Matter",
     en_content: "SPIRIT is far older, stronger and eternally more powerful than matter.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Espíritu Vs Materia",
+    es_content: "El ESPÍRITU es mucho más antiguo, más fuerte y eternamente más poderoso que la materia.",
+    fr_title: "Esprit Vs Matière",
+    fr_content: "L'ESPRIT est bien plus ancien, plus fort et éternellement plus puissant que la matière.",
+    hi_title: "आत्मा बनाम पदार्थ",
+    hi_content: "आत्मा पदार्थ से कहीं अधिक पुरानी, मजबूत और अनन्त रूप से अधिक शक्तिशाली है।",
+    zh_title: "Ling Hun Dui Wu Zhi",
+    zh_content: "LING HUN bi wu zhi geng jiu yuan, geng qiang da, bing qie yong heng de geng you li liang."
 });
 
 MATCH (t:THOUGHT)

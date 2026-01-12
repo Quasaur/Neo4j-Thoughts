@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.PURPOSELESS EXISTENCE",
     en_title: "Purposeless Existence",
     en_content: "What is so scientific about saying that Existence has no purpose?",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Existencia Sin Propósito",
+    es_content: "¿Qué tiene de científico decir que la Existencia no tiene propósito?",
+    fr_title: "Existence Sans But",
+    fr_content: "Qu'y a-t-il de si scientifique à dire que l'Existence n'a pas de but ?",
+    hi_title: "उद्देश्यहीन अस्तित्व",
+    hi_content: "यह कहने में क्या वैज्ञानिक बात है कि अस्तित्व का कोई उद्देश्य नहीं है?",
+    zh_title: "Wu mu di de cun zai",
+    zh_content: "Shuo cun zai mei you mu di you shen me ke xue xing ne?"
 });
 
 MATCH (t:THOUGHT)

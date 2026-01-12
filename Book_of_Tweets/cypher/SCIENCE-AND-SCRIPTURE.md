@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.SCIENCE AND SCRIPTURE",
     en_title: "Science And Scripture",
     en_content: "No discrepancy exists between Science and Scripture; the discrepancy is between scientists and God.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Ciencia Y Escritura",
+    es_content: "No existe discrepancia entre la Ciencia y la Escritura; la discrepancia está entre los científicos y Dios.",
+    fr_title: "Science Et Écriture",
+    fr_content: "Aucune discordance n'existe entre la Science et l'Écriture ; la discordance est entre les scientifiques et Dieu.",
+    hi_title: "विज्ञान और धर्मग्रंथ",
+    hi_content: "विज्ञान और धर्मग्रंथ के बीच कोई विसंगति नहीं है; विसंगति वैज्ञानिकों और परमेश्वर के बीच है।",
+    zh_title: "Kē Xué Yǔ Shèng Jīng",
+    zh_content: "Kē xué hé Shèng jīng zhī jiān méi yǒu máo dùn; máo dùn zài yú kē xué jiā hé Shàng dì zhī jiān."
 });
 
 MATCH (t:THOUGHT)

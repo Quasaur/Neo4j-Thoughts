@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.TALKING TO PEOPLE",
     en_title: "Talking To People",
     en_content: "If you don't know how to talk to people, you probably shouldn't talk to people.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Hablando con las Personas",
+    es_content: "Si no sabes cómo hablar con las personas, probablemente no deberías hablar con las personas.",
+    fr_title: "Parler aux Gens",
+    fr_content: "Si vous ne savez pas comment parler aux gens, vous ne devriez probablement pas parler aux gens.",
+    hi_title: "लोगों से बात करना",
+    hi_content: "यदि आप नहीं जानते कि लोगों से कैसे बात करनी है, तो आपको शायद लोगों से बात नहीं करनी चाहिए।",
+    zh_title: "Yu Ren Tan Hua",
+    zh_content: "Ru Guo Ni Bu Zhi Dao Zen Yang Yu Ren Tan Hua, Ni Ke Neng Bu Ying Gai Yu Ren Tan Hua."
 });
 
 MATCH (t:THOUGHT)

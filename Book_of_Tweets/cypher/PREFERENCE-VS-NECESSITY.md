@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.PREFERENCE VS NECESSITY",
     en_title: "Preference Vs Necessity",
     en_content: "Preference must give way to Necessity.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Preferencia Vs Necesidad",
+    es_content: "La preferencia debe ceder ante la necesidad.",
+    fr_title: "Préférence Vs Nécessité",
+    fr_content: "La préférence doit céder le pas à la nécessité.",
+    hi_title: "प्राथमिकता बनाम आवश्यकता",
+    hi_content: "प्राथमिकता को आवश्यकता के आगे झुकना चाहिए।",
+    zh_title: "Xi Hao Yu Bi Xu",
+    zh_content: "Xi hao bi xu rang wei yu bi xu."
 });
 
 MATCH (t:THOUGHT)

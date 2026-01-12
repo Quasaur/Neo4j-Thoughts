@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.PROGRESS AND FAILURE",
     en_title: "Progress And Failure",
     en_content: "There's no progress without failure.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Progreso Y Fracaso",
+    es_content: "No hay progreso sin fracaso.",
+    fr_title: "Progrès Et Échec",
+    fr_content: "Il n'y a pas de progrès sans échec.",
+    hi_title: "प्रगति और असफलता",
+    hi_content: "असफलता के बिना कोई प्रगति नहीं होती।",
+    zh_title: "Jinbu Yu Shibai",
+    zh_content: "Mei you shibai jiu mei you jinbu."
 });
 
 MATCH (t:THOUGHT)

@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.SHOWING MERCY",
     en_title: "Showing Mercy",
     en_content: "Everybody wants Mercy...few show Mercy.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Mostrar Misericordia",
+    es_content: "Todos quieren Misericordia...pocos muestran Misericordia.",
+    fr_title: "Faire Miséricorde",
+    fr_content: "Tout le monde veut la Miséricorde...peu font Miséricorde.",
+    hi_title: "दया दिखाना",
+    hi_content: "सभी दया चाहते हैं...कुछ ही दया दिखाते हैं।",
+    zh_title: "Xian Shi Ci Bei",
+    zh_content: "Ren Ren Dou Xiang Yao Ci Bei...Que Shao You Ren Xian Shi Ci Bei."
 });
 
 MATCH (t:THOUGHT)

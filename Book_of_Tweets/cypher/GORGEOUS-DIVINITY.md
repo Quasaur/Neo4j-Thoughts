@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.GORGEOUS DIVINITY",
     en_title: "Gorgeous Divinity",
     en_content: "God is overwhelmingly gorgeous...both inside and out!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Divinidad Hermosa",
+    es_content: "¡Dios es abrumadoramente hermoso...tanto por dentro como por fuera!",
+    fr_title: "Divinité Magnifique",
+    fr_content: "Dieu est d'une beauté écrasante...à l'intérieur comme à l'extérieur !",
+    hi_title: "भव्य दिव्यता",
+    hi_content: "परमेश्वर अत्यंत सुंदर है...अंदर और बाहर दोनों तरफ से!",
+    zh_title: "huáměi de shénxìng",
+    zh_content: "Shàngdì shì yāo rén de měilì...nèizài hé wàizài dōu shì!"
 });
 
 MATCH (t:THOUGHT)

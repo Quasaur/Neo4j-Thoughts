@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.NOT POLITICALLY CORRECT",
     en_title: "Not Politically Correct",
     en_content: "God is not politically correct.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "No Políticamente Correcto",
+    es_content: "Dios no es políticamente correcto.",
+    fr_title: "Pas Politiquement Correct",
+    fr_content: "Dieu n'est pas politiquement correct.",
+    hi_title: "राजनीतिक रूप से सही नहीं",
+    hi_content: "परमेश्वर राजनीतिक रूप से सही नहीं है।",
+    zh_title: "Bu Zhengzhi Zhengque",
+    zh_content: "Shangdi bu zhengzhi zhengque."
 });
 
 MATCH (t:THOUGHT)

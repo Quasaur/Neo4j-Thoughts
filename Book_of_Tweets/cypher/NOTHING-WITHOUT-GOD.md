@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.NOTHING WITHOUT GOD",
     en_title: "Nothing Without God",
     en_content: "You are NOTHING without God; You are EVERYTHING to God.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Nada Sin Dios",
+    es_content: "No eres NADA sin Dios; Eres TODO para Dios.",
+    fr_title: "Rien Sans Dieu",
+    fr_content: "Tu n'es RIEN sans Dieu ; Tu es TOUT pour Dieu.",
+    hi_title: "परमेश्वर के बिना कुछ नहीं",
+    hi_content: "आप परमेश्वर के बिना कुछ भी नहीं हैं; आप परमेश्वर के लिए सब कुछ हैं।",
+    zh_title: "Méi yǒu Shàngdì jiù shì wú",
+    zh_content: "Méi yǒu Shàngdì, nǐ shénme dōu bù shì; duì Shàngdì lái shuō, nǐ jiùshì yīqiè."
 });
 
 MATCH (t:THOUGHT)

@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.SALVATION FOR ANYBODY",
     en_title: "Salvation For Anybody",
     en_content: "Salvation is not for everybody, yet God can save anybody!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Salvación Para Cualquiera",
+    es_content: "La salvación no es para todos, ¡pero Dios puede salvar a cualquiera!",
+    fr_title: "Salut Pour N'importe Qui",
+    fr_content: "Le salut n'est pas pour tout le monde, mais Dieu peut sauver n'importe qui !",
+    hi_title: "किसी के लिए भी उद्धार",
+    hi_content: "उद्धार सभी के लिए नहीं है, फिर भी परमेश्वर किसी को भी बचा सकता है!",
+    zh_title: "Rènhé Rén De Jiùēn",
+    zh_content: "Jiùēn bùshì wèi suǒyǒu rén, dàn Shàngdì kěyǐ zhěngjiù rènhé rén!"
 });
 
 MATCH (t:THOUGHT)

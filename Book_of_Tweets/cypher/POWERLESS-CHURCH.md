@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.POWERLESS CHURCH",
     en_title: "Powerless Church",
     en_content: "The church that is without power doesn't understand The Gospel (Romans 1:16).",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Iglesia Sin Poder",
+    es_content: "La iglesia que está sin poder no entiende El Evangelio (Romanos 1:16).",
+    fr_title: "Église Sans Pouvoir",
+    fr_content: "L'église qui est sans pouvoir ne comprend pas L'Évangile (Romains 1:16).",
+    hi_title: "शक्तिहीन कलीसिया",
+    hi_content: "जो कलीसिया शक्ति के बिना है वह सुसमाचार को नहीं समझती (रोमियों 1:16)।",
+    zh_title: "Wu Li De Jiao Hui",
+    zh_content: "Mei You Neng Li De Jiao Hui Bu Ming Bai Fu Yin (Luo Ma Shu 1:16)."
 });
 
 MATCH (t:THOUGHT)

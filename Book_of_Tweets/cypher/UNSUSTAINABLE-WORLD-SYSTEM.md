@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.UNSUSTAINABLE WORLD SYSTEM",
     en_title: "Unsustainable World System",
     en_content: "I believe the Hebrew Scriptures...this world system is unsustainable.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Sistema Mundial Insostenible",
+    es_content: "Creo que las Escrituras Hebreas...este sistema mundial es insostenible.",
+    fr_title: "Système Mondial Non Viable",
+    fr_content: "Je crois que les Écritures Hébraïques...ce système mondial n'est pas viable.",
+    hi_title: "अस्थिर विश्व व्यवस्था",
+    hi_content: "मैं मानता हूँ कि हिब्रू धर्मग्रंथ...यह विश्व व्यवस्था अस्थिर है।",
+    zh_title: "Bu Ke Chi Xu De Shi Jie Xi Tong",
+    zh_content: "Wo Xiang Xin Xi Bo Lai Sheng Jing...Zhe Ge Shi Jie Xi Tong Shi Bu Ke Chi Xu De."
 });
 
 MATCH (t:THOUGHT)

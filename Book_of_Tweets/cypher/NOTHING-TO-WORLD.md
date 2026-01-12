@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.NOTHING TO WORLD",
     en_title: "Nothing To World",
     en_content: "You cannot be something in God until you are nothing to the world.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Nada Para el Mundo",
+    es_content: "No puedes ser algo en Dios hasta que no seas nada para el mundo.",
+    fr_title: "Rien Pour le Monde",
+    fr_content: "Tu ne peux être quelque chose en Dieu tant que tu n'es rien pour le monde.",
+    hi_title: "संसार के लिए कुछ नहीं",
+    hi_content: "तुम परमेश्वर में कुछ नहीं हो सकते जब तक तुम संसार के लिए कुछ नहीं नहीं हो।",
+    zh_title: "Dui Shijie Wu Suo Wei",
+    zh_content: "Zhi you dang ni dui shijie wu suo wei shi, ni cai neng zai Shen li cheng wei shen me."
 });
 
 MATCH (t:THOUGHT)

@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.ETERNAL IMMORTALITY",
     en_title: "Eternal Immortality",
     en_content: "If you die eternally, you're already dead; if you live eternally, you were always immortal!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Inmortalidad Eterna",
+    es_content: "¡Si mueres eternamente, ya estás muerto; si vives eternamente, siempre fuiste inmortal!",
+    fr_title: "Immortalité Éternelle",
+    fr_content: "Si tu meurs éternellement, tu es déjà mort ; si tu vis éternellement, tu as toujours été immortel !",
+    hi_title: "शाश्वत अमरता",
+    hi_content: "यदि आप शाश्वत रूप से मरते हैं, तो आप पहले से ही मृत हैं; यदि आप शाश्वत रूप से जीते हैं, तो आप हमेशा अमर थे!",
+    zh_title: "Yǒnghéng Bùsǐ",
+    zh_content: "Rúguǒ nǐ yǒnghéng de sǐqù, nǐ yǐjīng sǐle; rúguǒ nǐ yǒnghéng de huózhe, nǐ yīzhí dōu shì bùsǐ de!"
 });
 
 MATCH (t:THOUGHT)

@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.SECOND COMING STATS",
     en_title: "Second Coming Stats",
     en_content: "One out of every 24 verses in the New Testament refers to the Second Coming of Christ.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Estadísticas de la Segunda Venida",
+    es_content: "Uno de cada 24 versículos en el Nuevo Testamento se refiere a la Segunda Venida de Cristo.",
+    fr_title: "Statistiques du Second Avènement",
+    fr_content: "Un verset sur 24 dans le Nouveau Testament fait référence au Second Avènement du Christ.",
+    hi_title: "द्वितीय आगमन के आंकड़े",
+    hi_content: "नए नियम की हर 24 आयतों में से एक आयत मसीह के द्वितीय आगमन का संदर्भ देती है।",
+    zh_title: "Di Er Ci Jiang Lin Tong Ji",
+    zh_content: "Xin Yue Quan Shu Zhong Mei 24 Jie Jing Wen Jiu You Yi Jie Ti Dao Ji Du De Di Er Ci Jiang Lin."
 });
 
 MATCH (t:THOUGHT)

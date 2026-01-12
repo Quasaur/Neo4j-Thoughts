@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.HATRED AND LOVE",
     en_title: "Hatred And Love",
     en_content: "One who is incapable of hatred is also incapable of love.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Odio Y Amor",
+    es_content: "Quien es incapaz de odiar también es incapaz de amar.",
+    fr_title: "Haine Et Amour",
+    fr_content: "Celui qui est incapable de haine est aussi incapable d'amour.",
+    hi_title: "घृणा और प्रेम",
+    hi_content: "जो व्यक्ति घृणा करने में असमर्थ है, वह प्रेम करने में भी असमर्थ है।",
+    zh_title: "Hen Yu Ai",
+    zh_content: "Bu neng hen de ren ye bu neng ai."
 });
 
 MATCH (t:THOUGHT)

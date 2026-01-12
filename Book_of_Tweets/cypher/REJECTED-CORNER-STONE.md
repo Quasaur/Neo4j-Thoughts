@@ -29,14 +29,14 @@ CREATE (c:CONTENT {
     name: "content.REJECTED CORNER STONE",
     en_title: "Rejected Corner Stone",
     en_content: "The Stone that the builders rejected...(smile)!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "La Piedra Angular Rechazada",
+    es_content: "La Piedra que desecharon los edificadores...(¡sonrisa)!",
+    fr_title: "La Pierre Angulaire Rejetée",
+    fr_content: "La Pierre que les bâtisseurs ont rejetée...(sourire)!",
+    hi_title: "अस्वीकृत आधारशिला",
+    hi_content: "जिस पत्थर को राजमिस्त्रियों ने निकम्मा ठहराया था...(मुस्कान)!",
+    zh_title: "Bei Qi Jue De Fang Jiao Shi",
+    zh_content: "Jiang Gong Ren Suo Qi De Shi Tou...(wei xiao)!"
 });
 
 MATCH (t:THOUGHT)

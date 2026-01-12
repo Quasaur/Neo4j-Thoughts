@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.UNCONDITIONAL LOVE PRAYER",
     en_title: "Unconditional Love Prayer",
     en_content: "Prayer is where I am loved unconditionally.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Oración de Amor Incondicional",
+    es_content: "La oración es donde soy amado incondicionalmente.",
+    fr_title: "Prière d'Amour Inconditionnel",
+    fr_content: "La prière est où je suis aimé inconditionnellement.",
+    hi_title: "निःशर्त प्रेम की प्रार्थना",
+    hi_content: "प्रार्थना वह स्थान है जहाँ मुझे निःशर्त प्रेम मिलता है।",
+    zh_title: "Wú tiáo jiàn ài de qí dǎo",
+    zh_content: "Qí dǎo shì wǒ dé dào wú tiáo jiàn zhī ài de dì fāng."
 });
 
 MATCH (t:THOUGHT)

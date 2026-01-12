@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.SELF DESTRUCTIVE NATURE",
     en_title: "Self Destructive Nature",
     en_content: "We are self-destructive by nature and teach our children to be self-destructive.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Naturaleza Autodestructiva",
+    es_content: "Somos autodestructivos por naturaleza y enseñamos a nuestros hijos a ser autodestructivos.",
+    fr_title: "Nature Autodestructrice",
+    fr_content: "Nous sommes autodestructeurs par nature et nous enseignons à nos enfants à être autodestructeurs.",
+    hi_title: "आत्म-विनाशकारी प्रकृति",
+    hi_content: "हम प्रकृति से आत्म-विनाशकारी हैं और अपने बच्चों को आत्म-विनाशकारी होना सिखाते हैं।",
+    zh_title: "Zi Wo Hui Mie De Ben Xing",
+    zh_content: "Wo Men Ben Xing Shang Shi Zi Wo Hui Mie De, Bing Qie Jiao Dao Wo Men De Hai Zi Ye Bian De Zi Wo Hui Mie."
 });
 
 MATCH (t:THOUGHT)

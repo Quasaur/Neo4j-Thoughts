@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.DEFINING PORNOGRAPHY",
     en_title: "Defining Pornography",
     en_content: "Matthew 5:27-30: Porn is adultery to a married man and fornication to a bachelor.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Definiendo la Pornografía",
+    es_content: "Mateo 5:27-30: La pornografía es adulterio para un hombre casado y fornicación para un soltero.",
+    fr_title: "Définir la Pornographie",
+    fr_content: "Matthieu 5:27-30: La pornographie est un adultère pour un homme marié et une fornication pour un célibataire.",
+    hi_title: "अश्लीलता को परिभाषित करना",
+    hi_content: "मत्ती 5:27-30: अश्लीलता विवाहित पुरुष के लिए व्यभिचार है और अविवाहित के लिए व्यभिचार है।",
+    zh_title: "Ding Yi Se Qing Zuo Pin",
+    zh_content: "Ma Tai Fu Yin 5:27-30: Se qing zuo pin dui yi ge yi hun nan ren lai shuo shi tong jian, dui yi ge dan shen nan ren lai shuo shi xing yin luan."
 });
 
 MATCH (t:THOUGHT)

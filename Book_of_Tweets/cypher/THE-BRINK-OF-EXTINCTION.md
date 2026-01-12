@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.THE BRINK OF EXTINCTION",
     en_title: "The Brink Of Extinction",
     en_content: "Matthew 24:21, 22: It may be that Christ will not return until humanity is on the brink of extinction.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Al Borde de la Extinción",
+    es_content: "Mateo 24:21, 22: Puede ser que Cristo no regrese hasta que la humanidad esté al borde de la extinción.",
+    fr_title: "Au Bord de l'Extinction",
+    fr_content: "Matthieu 24:21, 22: Il se peut que le Christ ne revienne pas avant que l'humanité ne soit au bord de l'extinction.",
+    hi_title: "विलुप्ति के कगार पर",
+    hi_content: "मत्ती 24:21, 22: यह हो सकता है कि मसीह तब तक वापस न आएं जब तक मानवता विलुप्ति के कगार पर न पहुंच जाए।",
+    zh_title: "Miè jué de biān yuán",
+    zh_content: "Mǎ tài fú yīn 24:21, 22: Yě xǔ Jī dū bù huì zài rén lèi miàn lín miè jué zhī qián guī lái."
 });
 
 MATCH (t:THOUGHT)

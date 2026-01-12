@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.NO GOD FOR CAMERAS",
     en_title: "No God For Cameras",
     en_content: "I am convinced that God doesn't perform for cameras.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Ningún Dios Para Cámaras",
+    es_content: "Estoy convencido de que Dios no actúa para las cámaras.",
+    fr_title: "Pas de Dieu Pour les Caméras",
+    fr_content: "Je suis convaincu que Dieu ne joue pas pour les caméras.",
+    hi_title: "कैमरों के लिए कोई भगवान नहीं",
+    hi_content: "मैं आश्वस्त हूं कि भगवान कैमरों के लिए प्रदर्शन नहीं करते।",
+    zh_title: "Méi yǒu wèi shèxiàngtóu biǎoyǎn de Shàngdì",
+    zh_content: "Wǒ xiāngxìn Shàngdì bù wèi shèxiàngtóu biǎoyǎn."
 });
 
 MATCH (t:THOUGHT)

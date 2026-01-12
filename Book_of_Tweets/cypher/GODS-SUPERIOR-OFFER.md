@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.GODS SUPERIOR OFFER",
     en_title: "Gods Superior Offer",
     en_content: "God has FAR MORE to offer me than I have to offer Him.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "La Oferta Superior de Dios",
+    es_content: "Dios tiene MUCHO MÁS que ofrecerme de lo que yo tengo que ofrecerle a Él.",
+    fr_title: "L'Offre Supérieure de Dieu",
+    fr_content: "Dieu a BIEN PLUS à m'offrir que ce que j'ai à Lui offrir.",
+    hi_title: "परमेश्वर का श्रेष्ठ प्रस्ताव",
+    hi_content: "परमेश्वर के पास मुझे देने के लिए उससे कहीं अधिक है जितना मेरे पास उन्हें देने के लिए है।",
+    zh_title: "Shàngdì de Chāoyuè Gòngxiàn",
+    zh_content: "Shàngdì néng gěi wǒ de bǐ wǒ néng gěi Tā de yào duō de duō."
 });
 
 MATCH (t:THOUGHT)

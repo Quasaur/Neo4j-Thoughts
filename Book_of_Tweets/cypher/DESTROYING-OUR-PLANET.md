@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.DESTROYING OUR PLANET",
     en_title: "Destroying Our Planet",
     en_content: "Our technology, industry and greed are destroying our planet.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Destruyendo Nuestro Planeta",
+    es_content: "Nuestra tecnología, industria y codicia están destruyendo nuestro planeta.",
+    fr_title: "Détruire Notre Planète",
+    fr_content: "Notre technologie, notre industrie et notre cupidité détruisent notre planète.",
+    hi_title: "हमारे ग्रह का विनाश",
+    hi_content: "हमारी तकनीक, उद्योग और लालच हमारे ग्रह को नष्ट कर रहे हैं।",
+    zh_title: "Cuīhuǐ Wǒmen de Xīngqiú",
+    zh_content: "Wǒmen de jìshù, gōngyè hé tānlán zhèngzài cuīhuǐ wǒmen de xīngqiú."
 });
 
 MATCH (t:THOUGHT)

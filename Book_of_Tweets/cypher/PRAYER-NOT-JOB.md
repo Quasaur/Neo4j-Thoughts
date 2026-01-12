@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.PRAYER NOT JOB",
     en_title: "Prayer Not Job",
     en_content: "Prayer was never meant to be a job.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "La Oración No Es Trabajo",
+    es_content: "La oración nunca fue pensada para ser un trabajo.",
+    fr_title: "La Prière N'est Pas un Travail",
+    fr_content: "La prière n'a jamais été conçue pour être un travail.",
+    hi_title: "प्रार्थना कोई काम नहीं",
+    hi_content: "प्रार्थना कभी भी एक काम बनने के लिए नहीं थी।",
+    zh_title: "Qí dǎo Bú Shì Gōng Zuò",
+    zh_content: "Qí dǎo cóng lái dōu bú shì wèi le chéng wéi yī fèn gōng zuò."
 });
 
 MATCH (t:THOUGHT)

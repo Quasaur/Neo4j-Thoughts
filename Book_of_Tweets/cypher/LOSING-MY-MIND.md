@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.LOSING MY MIND",
     en_title: "Losing My Mind",
     en_content: "I was insane until I lost my mind!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Perdiendo Mi Mente",
+    es_content: "¡Estaba loco hasta que perdí mi mente!",
+    fr_title: "Perdre Mon Esprit",
+    fr_content: "J'étais fou jusqu'à ce que je perde mon esprit !",
+    hi_title: "अपना मन खोना",
+    hi_content: "मैं तब तक पागल था जब तक मैंने अपना मन नहीं खोया!",
+    zh_title: "Shi Qu Wo De Li Zhi",
+    zh_content: "Zhi dao wo shi qu le li zhi, wo cai fa xian zi ji yi zhi dou shi feng kuang de!"
 });
 
 MATCH (t:THOUGHT)

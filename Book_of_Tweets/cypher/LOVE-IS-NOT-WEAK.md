@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.LOVE IS NOT WEAK",
     en_title: "Love Is Not Weak",
     en_content: "Love is not weak.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "El Amor No Es Débil",
+    es_content: "El amor no es débil.",
+    fr_title: "L'Amour N'Est Pas Faible",
+    fr_content: "L'amour n'est pas faible.",
+    hi_title: "प्रेम दुर्बल नहीं है",
+    hi_content: "प्रेम दुर्बल नहीं है।",
+    zh_title: "Ài Bù Ruòxiǎo",
+    zh_content: "Ài bù ruòxiǎo."
 });
 
 MATCH (t:THOUGHT)

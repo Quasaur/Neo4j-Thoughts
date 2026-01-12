@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.HIDING IN PRAYER",
     en_title: "Hiding In Prayer",
     en_content: "Prayer is where I hide from the world.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Refugiándose en la Oración",
+    es_content: "La oración es donde me refugio del mundo.",
+    fr_title: "Se Cacher dans la Prière",
+    fr_content: "La prière est l'endroit où je me cache du monde.",
+    hi_title: "प्रार्थना में छुपना",
+    hi_content: "प्रार्थना वह स्थान है जहाँ मैं संसार से छुपता हूँ।",
+    zh_title: "Zài Qídǎo Zhōng Yǐncáng",
+    zh_content: "Qídǎo shì wǒ cóng shìjiè zhōng yǐncáng de dìfāng."
 });
 
 MATCH (t:THOUGHT)

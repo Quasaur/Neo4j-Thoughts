@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.UNIVERSE INSIDE GOD",
     en_title: "Universe Inside God",
     en_content: "You do know that all of us--yeah, the entire Universe--is inside of God, right? Jeremiah 23:24",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "El Universo Dentro de Dios",
+    es_content: "¿Sabes que todos nosotros--sí, todo el Universo--está dentro de Dios, verdad? Jeremías 23:24",
+    fr_title: "L'Univers à l'Intérieur de Dieu",
+    fr_content: "Tu sais que nous tous--oui, tout l'Univers--sommes à l'intérieur de Dieu, n'est-ce pas ? Jérémie 23:24",
+    hi_title: "परमेश्वर के भीतर ब्रह्मांड",
+    hi_content: "आप जानते हैं कि हम सभी--हाँ, संपूर्ण ब्रह्मांड--परमेश्वर के भीतर है, सही? यिर्मयाह 23:24",
+    zh_title: "Yuzhouji zai Shen li",
+    zh_content: "Ni zhidao women suoyou ren--dui, zhengge yuzhou--dou zai Shen limian, duiba? Yelimishu 23:24"
 });
 
 MATCH (t:THOUGHT)

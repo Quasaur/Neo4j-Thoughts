@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.FREE WILL ROBOT",
     en_title: "Free Will Robot",
     en_content: "If you WERE a robot...HOW WOULD YOU KNOW your will wasn't free?",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Robot de Libre Albedrío",
+    es_content: "Si FUERAS un robot...¿CÓMO SABRÍAS que tu voluntad no es libre?",
+    fr_title: "Robot du Libre Arbitre",
+    fr_content: "Si tu ÉTAIS un robot...COMMENT SAURAIS-TU que ta volonté n'est pas libre ?",
+    hi_title: "स्वतंत्र इच्छा रोबोट",
+    hi_content: "यदि तुम एक रोबोट होते...तो तुम कैसे जानते कि तुम्हारी इच्छा स्वतंत्र नहीं है?",
+    zh_title: "Zì Yóu Yì Zhì Jī Qì Rén",
+    zh_content: "Rú guǒ nǐ SHÌ yī gè jī qì rén...nǐ RÚHÉ zhī dào nǐ de yì zhì bù shì zì yóu de?"
 });
 
 MATCH (t:THOUGHT)

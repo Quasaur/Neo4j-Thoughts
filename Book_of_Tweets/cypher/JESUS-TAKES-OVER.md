@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.JESUS TAKES OVER",
     en_title: "Jesus Takes Over",
     en_content: "\"I come: not to take sides, but to take over.\" - Jesus Christ",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Jesús toma el control",
+    es_content: "\",
+    fr_title: "Jésus prend le relais",
+    fr_content: "\",
+    hi_title: "यीशु ने कब्ज़ा कर लिया",
+    hi_content: "\",
+    zh_title: "耶稣接管",
+    zh_content: "\"
 });
 
 MATCH (t:THOUGHT)
