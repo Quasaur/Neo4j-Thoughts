@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.INTELLIGENT DESIGN",
     en_title: "Intelligent Design",
     en_content: "INTELLIGENT DESIGN!",
-    es_title: "TITULO",
-    es_content: "CONTENIDO",
-    fr_title: "TITRE",
-    fr_content: "CONTENU",
-    hi_title: "SHIRSHAK",
-    hi_content: "SAMAGRI",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Diseño Inteligente",
+    es_content: "¡DISEÑO INTELIGENTE!",
+    fr_title: "Conception Intelligente",
+    fr_content: "CONCEPTION INTELLIGENTE !",
+    hi_title: "बुद्धिमान डिज़ाइन",
+    hi_content: "बुद्धिमान डिज़ाइन!",
+    zh_title: "Zhìhuì shèjì 智慧设计",
+    zh_content: "Zhìnéng shèjì! 智能设计！"
 });
 
 MATCH (t:THOUGHT)

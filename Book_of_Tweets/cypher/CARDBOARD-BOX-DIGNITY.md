@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.CARDBOARD BOX DIGNITY",
     en_title: "Cardboard Box Dignity",
     en_content: "I'd rather live in a cardboard box than to earn 6 figures and be treated like a pet!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Dignidad en una Caja de Cartón",
+    es_content: "¡Preferiría vivir en una caja de cartón que ganar seis cifras y ser tratado como una mascota!",
+    fr_title: "Dignité dans une Boîte en Carton",
+    fr_content: "Je préférerais vivre dans une boîte en carton plutôt que de gagner six chiffres et d'être traité comme un animal de compagnie !",
+    hi_title: "गत्ते के डिब्बे में गरिमा",
+    hi_content: "मैं छह अंकों की कमाई करने और पालतू जानवर की तरह व्यवहार किए जाने की तुलना में गत्ते के डिब्बे में रहना पसंद करूंगा!",
+    zh_title: "Zhǐbǎn Xiāng Zūnyán",
+    zh_content: "Wǒ nìngyuàn zhù zài zhǐbǎn xiāng lǐ, yě bù yuànyì zhuàn liùwèi shù de gōngzī rán'hòu bèi dàng zuò chǒngwù duìdài!"
 });
 
 MATCH (t:THOUGHT)

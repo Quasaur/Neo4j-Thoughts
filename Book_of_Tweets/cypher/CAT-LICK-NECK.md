@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.CAT LICK NECK",
     en_title: "Cat Lick Neck",
     en_content: "My cat can lick its own neck...God is great!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "El Gato Lame su Cuello",
+    es_content: "Mi gato puede lamerse su propio cuello... ¡Dios es grande!",
+    fr_title: "Le Chat Lèche son Cou",
+    fr_content: "Mon chat peut lécher son propre cou... Dieu est grand !",
+    hi_title: "बिल्ली अपनी गर्दन चाटती है",
+    hi_content: "मेरी बिल्ली अपनी गर्दन चाट सकती है... भगवान महान हैं!",
+    zh_title: "Māo Tiǎn Bózi",
+    zh_content: "Wǒ de māo kěyǐ tiǎn zìjǐ de bózi... Shàngdì shì wěidà de!"
 });
 
 MATCH (t:THOUGHT)

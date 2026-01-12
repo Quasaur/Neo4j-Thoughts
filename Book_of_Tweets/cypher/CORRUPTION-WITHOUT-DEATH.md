@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.CORRUPTION WITHOUT DEATH",
     en_title: "Corruption Without Death",
     en_content: "Watched movie \"In Time\"; without death, humanity would be even more hideously corrupt than it is now.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Corrupción Sin Muerte",
+    es_content: "Vi la película \"In Time\"; sin la muerte, la humanidad sería aún más horriblemente corrupta de lo que es ahora.",
+    fr_title: "Corruption Sans Mort",
+    fr_content: "J'ai regardé le film \"In Time\" ; sans la mort, l'humanité serait encore plus hideusement corrompue qu'elle ne l'est maintenant.",
+    hi_title: "मौत के बिना भ्रष्टाचार",
+    hi_content: "फिल्म \"In Time\" देखी; मौत के बिना, मानवता अब से भी अधिक भयानक रूप से भ्रष्ट होगी।",
+    zh_title: "Méiyǒu Sǐwáng de Fǔbài",
+    zh_content: "Kànle diànyǐng \"In Time\"; Méiyǒu sǐwáng, rénlèi huì bǐ xiànzài gèng kěpà de fǔbài."
 });
 
 MATCH (t:THOUGHT)

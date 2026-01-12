@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.DIGNITY OR DEATH",
     en_title: "Dignity Or Death",
     en_content: "Give me DIGNITY or give me death!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Dignidad o Muerte",
+    es_content: "¡Dame DIGNIDAD o dame muerte!",
+    fr_title: "Dignité ou Mort",
+    fr_content: "Donnez-moi la DIGNITÉ ou donnez-moi la mort !",
+    hi_title: "सम्मान या मृत्यु",
+    hi_content: "मुझे सम्मान दो या मुझे मृत्यु दो!",
+    zh_title: "Zūnyán huò sǐwáng 尊严或死亡",
+    zh_content: "Gěi wǒ zūnyán, fǒuzé jiù gěi wǒ sǐwáng! 给我尊严，否则就给我死亡！"
 });
 
 MATCH (t:THOUGHT)

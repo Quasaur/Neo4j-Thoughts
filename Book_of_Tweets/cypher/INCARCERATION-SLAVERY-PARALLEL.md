@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.INCARCERATION SLAVERY PARALLEL",
     en_title: "Incarceration Slavery Parallel",
     en_content: "Today in the USA there are more black people incarcerated than there were black slaves in 1850. Thank you, America!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Paralelo entre Encarcelamiento y Esclavitud",
+    es_content: "Hoy en los EE.UU. hay más personas negras encarceladas que esclavos negros en 1850. ¡Gracias, América!",
+    fr_title: "Parallèle entre Incarcération et Esclavage",
+    fr_content: "Aujourd'hui aux États-Unis, il y a plus de personnes noires incarcérées qu'il n'y avait d'esclaves noirs en 1850. Merci, Amérique !",
+    hi_title: "कारावास और गुलामी की समानता",
+    hi_content: "आज संयुक्त राज्य अमेरिका में 1850 में काले गुलामों की तुलना में अधिक काले लोग कैद में हैं। धन्यवाद, अमेरिका!",
+    zh_title: "Jiānjìn yǔ núlì de lèibǐ 监秦与奴隶的类比",
+    zh_content: "Jīntiān zài Měiguó, jīnyù de hēirén bǐ 1850 nián de hēirén núlì hái duō. Xièxiè nǐ, Měiguó! 今天在美国，监禦的黑人比1850年的黑人奴隶还多。谢谢你，美国！"
 });
 
 MATCH (t:THOUGHT)

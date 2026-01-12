@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.COOKED FOOD HUMANS",
     en_title: "Cooked Food Humans",
     en_content: "Why are humans the only creatures on planet earth that eat cooked food?",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Comida Cocida Humanos",
+    es_content: "¿Por qué los humanos son las únicas criaturas en el planeta tierra que comen comida cocida?",
+    fr_title: "Nourriture Cuite Humains",
+    fr_content: "Pourquoi les humains sont-ils les seules créatures sur la planète Terre à manger de la nourriture cuite ?",
+    hi_title: "पकाया हुआ भोजन मनुष्य",
+    hi_content: "मनुष्य पृथ्वी ग्रह पर पकाया हुआ भोजन खाने वाले एकमात्र जीव क्यों हैं?",
+    zh_title: "Pēng Rèn Shíwù de Rénlèi",
+    zh_content: "Wèishéme rénlèi shì dìqiú shàng wéiyī chī pēng rèn shíwù de shēngwù?"
 });
 
 MATCH (t:THOUGHT)

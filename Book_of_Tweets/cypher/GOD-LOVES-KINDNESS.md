@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.GOD LOVES KINDNESS",
     en_title: "God Loves Kindness",
     en_content: "God loves Kindness!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Dios Ama la Bondad",
+    es_content: "¡Dios ama la Bondad!",
+    fr_title: "Dieu Aime la Bonté",
+    fr_content: "Dieu aime la Bonté !",
+    hi_title: "परमेश्वर दया से प्रेम करते हैं",
+    hi_content: "परमेश्वर दया से प्रेम करते हैं!",
+    zh_title: "Shàngdì ài shànláng 上帝爱善良",
+    zh_content: "Shàngdì rè'ai shànláng! 上帝热爱善良！"
 });
 
 MATCH (t:THOUGHT)

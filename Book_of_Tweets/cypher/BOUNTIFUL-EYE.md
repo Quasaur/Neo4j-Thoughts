@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.BOUNTIFUL EYE",
     en_title: "Bountiful Eye",
     en_content: "Whoever has a bountiful eye will be blessed, for he shares his bread with the poor. Proverbs 22:9, ESV",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Ojo Generoso",
+    es_content: "Quien tiene un ojo generoso será bendecido, porque comparte su pan con los pobres. Proverbios 22:9, RV",
+    fr_title: "Œil Généreux",
+    fr_content: "Celui qui a un œil généreux sera béni, car il partage son pain avec les pauvres. Proverbes 22:9, LSG",
+    hi_title: "उदार दृष्टि",
+    hi_content: "जो उदार दृष्टि रखता है वह आशीष पाएगा, क्योंकि वह गरीबों के साथ अपनी रोटी बांटता है। नीतिवचन 22:9",
+    zh_title: "Kāngkǎi de yǎnjuāng 慷慨的眼睛",
+    zh_content: "Yǒngyǒu kāngkǎi de yǎnjuāng zhī rén bì yùfú, yīnwèi tā yǔ qióngrén fēnxǎng miànbao. Zhíyán 22:9 有慷慨的眼睛之人必蒙福，因为他与穷人分享面包。箴言 22:9"
 });
 
 MATCH (t:THOUGHT)

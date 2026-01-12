@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.SPIRIT IS LIFE",
     en_title: "Spirit Is Life",
     en_content: "Spirit, not electricity, is Life.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "El Espíritu es Vida",
+    es_content: "El Espíritu, no la electricidad, es la Vida.",
+    fr_title: "L'Esprit est la Vie",
+    fr_content: "L'Esprit, et non l'électricité, est la Vie.",
+    hi_title: "आत्मा ही जीवन है",
+    hi_content: "आत्मा, बिजली नहीं, जीवन है।",
+    zh_title: "Líng shì shēngmìng 灵是生命",
+    zh_content: "Líng, ér bù shì diàn, shì shēngmìng. 灵，而不是电，是生命。"
 });
 
 MATCH (t:THOUGHT)

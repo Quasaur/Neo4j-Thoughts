@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.POWER OF JESUS",
     en_title: "Power Of Jesus",
     en_content: "I have NEVER met anyone more powerful that Jesus...and I never will.",
-    es_title: "TITULO",
-    es_content: "CONTENIDO",
-    fr_title: "TITRE",
-    fr_content: "CONTENU",
-    hi_title: "SHIRSHAK",
-    hi_content: "SAMAGRI",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "El Poder de Jesús",
+    es_content: "NUNCA he conocido a nadie más poderoso que Jesús... y nunca lo haré.",
+    fr_title: "Le Pouvoir de Jésus",
+    fr_content: "Je n'ai JAMAIS rencontré quelqu'un de plus puissant que Jésus... et je ne le ferai jamais.",
+    hi_title: "यीशु की शक्ति",
+    hi_content: "मैंने कभी यीशु से अधिक शक्तिशाली किसी से मुलाकात नहीं की... और न ही कभी करूंगा।",
+    zh_title: "Yēsū de nénglì 耶稣的能力",
+    zh_content: "Wǒ cónglái méiyǒu yùjiàn guò bǐ Yēsū gèng qiángdà de rén... wǒ yě yǒngyuǎn bù huì. 我从来没有遇见过比耶稣更强大的人...我也永远不会。"
 });
 
 MATCH (t:THOUGHT)

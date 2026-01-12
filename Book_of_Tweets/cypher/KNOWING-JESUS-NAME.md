@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.KNOWING JESUS NAME",
     en_title: "Knowing Jesus Name",
     en_content: "Matthew 7:22, 23 -- Using Jesus' Name doesn't mean you know Jesus.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Conocer el Nombre de Jesús",
+    es_content: "Mateo 7:22, 23 -- Usar el Nombre de Jesús no significa que conozcas a Jesús.",
+    fr_title: "Connaître le Nom de Jésus",
+    fr_content: "Matthieu 7:22, 23 -- Utiliser le Nom de Jésus ne signifie pas que vous connaissez Jésus.",
+    hi_title: "यीशु का नाम जानना",
+    hi_content: "मत्ती 7:22, 23 -- यीशु का नाम लेने का मतलब यह नहीं है कि आप यीशु को जानते हैं।",
+    zh_title: "Rènshí Yēsū de míng 认识耶稣的名",
+    zh_content: "Mǎdù fùyīn 7:22, 23 -- Shǐyòng Yēsū de míng bù dàibiǎo nǐ rènshi Yēsū. 马太福音 7:22, 23 --使用耶稣的名不代表你认识耶稣。"
 });
 
 MATCH (t:THOUGHT)

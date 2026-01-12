@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.CRY OF POOR",
     en_title: "Cry Of Poor",
     en_content: "Whoever closes his ear to the cry of the poor will himself call out and not be answered. Proverbs 21:13, ESV",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Grito de los Pobres",
+    es_content: "El que cierra su oído al clamor del pobre, él mismo clamará y no será oído. Proverbios 21:13, NVI",
+    fr_title: "Cri des Pauvres",
+    fr_content: "Celui qui ferme son oreille au cri du pauvre criera lui-même et ne sera pas exaucé. Proverbes 21:13, LSG",
+    hi_title: "गरीबों की पुकार",
+    hi_content: "जो गरीब की पुकार से अपना कान बंद करता है, वह स्वयं पुकारेगा और उत्तर नहीं पाएगा। नीतिवचन 21:13, ESV",
+    zh_title: "Qiángrén de Hǎnjiào",
+    zh_content: "Shéi duì qióngrén de hǎnjiào bīsè ěrduo, tā zìjǐ jiāng hǎnjiào què bùdé yìngdá. Zhēnyán 21:13, ESV"
 });
 
 MATCH (t:THOUGHT)

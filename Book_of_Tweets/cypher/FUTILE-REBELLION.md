@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.FUTILE REBELLION",
     en_title: "Futile Rebellion",
     en_content: "Rebellion against God is futile!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Rebelión Fútil",
+    es_content: "¡La rebelión contra Dios es fútil!",
+    fr_title: "Rébellion Futile",
+    fr_content: "La rébellion contre Dieu est futile !",
+    hi_title: "व्यर्थ विद्रोह",
+    hi_content: "परमेश्वर के विरुद्ध विद्रोह व्यर्थ है!",
+    zh_title: "Túláo de fǎnnù 徒劳的叛逆",
+    zh_content: "Fǎnnù Shàngdì shì túláo de! 叛逆上帝是徒劳的！"
 });
 
 MATCH (t:THOUGHT)

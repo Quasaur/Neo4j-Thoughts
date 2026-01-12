@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.CHOKING THE WORD",
     en_title: "Choking The Word",
     en_content: "Like weeds choke a flower, the cares of this life and the deceitfulness of riches choke the Word of God in my heart, and make it unfruitful.",
-    es_title: "TITULO",
-    es_content: "CONTENIDO",
-    fr_title: "TITRE",
-    fr_content: "CONTENU",
-    hi_title: "SHIRSHAK",
-    hi_content: "SAMAGRI",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Ahogando la Palabra",
+    es_content: "Como las malas hierbas ahogan una flor, los afanes de esta vida y el engaño de las riquezas ahogan la Palabra de Dios en mi corazón, y la hacen infructuosa.",
+    fr_title: "Étouffer la Parole",
+    fr_content: "Comme les mauvaises herbes étouffent une fleur, les soucis de cette vie et la séduction des richesses étouffent la Parole de Dieu dans mon cœur, et la rendent infructueuse.",
+    hi_title: "वचन को दबाना",
+    hi_content: "जैसे खरपतवार एक फूल को दबा देती है, इस जीवन की चिंताएं और धन का धोखा मेरे हृदय में परमेश्वर के वचन को दबा देते हैं, और इसे निष्फल बना देते हैं।",
+    zh_title: "Yānmò Zhēn Dào",
+    zh_content: "Xiàng yěcǎo yānmò huāduǒ yīyàng, Jīnshì de sīlǜ hé cáif\u00f9 de míhuò yānmòle wǒ xīnzhōng de Shén Dào, Shǐ tā bùnéng jiéguǒ."
 });
 
 MATCH (t:THOUGHT)

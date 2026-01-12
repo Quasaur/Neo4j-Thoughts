@@ -35,9 +35,9 @@ CREATE (c:CONTENT {
     fr_title: "BACH ET GÉNIE",
     fr_content: "Johann Sebastian Bach est l'une de ces rares âmes dont les dons transcendent tout génie !",
     hi_title: "बाख और प्रतिभा",
-    hi_content: "जोहान सेबस्टियन बाख उन दुर्लभ आत्माओं में से एक हैं जिनका उपहार सभी प्रतिभाओं से परे है!"
-    zh_title: "Bāhè hé tiāncái",
-    zh_content: "yuē hàn · sāi bā sī dì àn · bā hè shì nà xiē fēi fán de líng hún zhī yī ， tā de tiān fù chāo yuè le suǒ yǒu de tiān cái ！"
+    hi_content: "जोहान सेबस्टियन बाख उन दुर्लभ आत्माओं में से एक हैं जिनका उपहार सभी प्रतिभाओं से परे है!",
+    zh_title: "Bāhè hé tiāncái 巴赫和天才",
+    zh_content: "Yuēhàn · Sāibāsīdì'ān · Bāhè shì nàxiē fēifán de línghún zhī yī, tā de tiānfù chāoyuè le suǒyǒu de tiāncái! 约翰·塞巴斯蒂安·巴赫是那些非凡的灵魂之一，他的天赋超越了所有的天才！"
 });
 
 MATCH (t:THOUGHT)

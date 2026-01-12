@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.NOBODY LOVES LIKE JESUS",
     en_title: "Nobody Loves Like Jesus",
     en_content: "My mother loved me VERY MUCH; but on her finest day she could not take away my sins...nobody loves me like Jesus!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Nadie Ama Como Jesús",
+    es_content: "Mi madre me amaba MUCHO; pero en su mejor día no pudo quitar mis pecados... ¡nadie me ama como Jesús!",
+    fr_title: "Personne n'Aime Comme Jésus",
+    fr_content: "Ma mère m'aimait BEAUCOUP ; mais dans son meilleur jour, elle ne pouvait pas enlever mes péchés... personne ne m'aime comme Jésus !",
+    hi_title: "कोई यीशु जैसा प्यार नहीं करता",
+    hi_content: "मेरी माँ मुझसे बहुत प्यार करती थी; लेकिन अपने सबसे अच्छे दिन में भी वह मेरे पापों को दूर नहीं कर सकती थी... कोई भी मुझसे यीशु जैसा प्यार नहीं करता!",
+    zh_title: "Méiyǒu rén xiàng Yēsū nàyàng ài wǒ 没有人像耶稣那样爱我",
+    zh_content: "Wǒ de mǔqīn fēicháng ài wǒ; dàn zài tā zuì hǎo de rìzi lǐ, tā yě wúfǎ bā wǒ de zuìniè dài zǒu... méiyǒu rén xiàng Yēsū nàyàng ài wǒ! 我的母亲非常爱我；但在她最好的日子里，她也无法把我的罪孽带走...没有人像耶稣那样爱我！"
 });
 
 MATCH (t:THOUGHT)

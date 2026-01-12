@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.DANGER OF TRUTH",
     en_title: "Danger Of Truth",
     en_content: "Truth is a dangerous thing...yet so is a lie.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Peligro de la Verdad",
+    es_content: "La verdad es una cosa peligrosa... pero también lo es una mentira.",
+    fr_title: "Danger de la Vérité",
+    fr_content: "La vérité est une chose dangereuse... pourtant un mensonge l'est aussi.",
+    hi_title: "सच्चाई का खतरा",
+    hi_content: "सच्चाई एक खतरनाक चीज है... फिर भी झूठ भी है।",
+    zh_title: "Zhēnlǐ de Wéixiǎn",
+    zh_content: "Zhēnlǐ shì yīgè wéixiǎn de dōngxī... Dàn huǎngyán yě shì."
 });
 
 MATCH (t:THOUGHT)

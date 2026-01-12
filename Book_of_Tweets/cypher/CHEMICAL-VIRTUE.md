@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.CHEMICAL VIRTUE",
     en_title: "Chemical Virtue",
     en_content: "You yourself are a supernatural being! Explain LOVE, or COURAGE or VIRTUE chemically.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Virtud Química",
+    es_content: "¡Tú mismo eres un ser sobrenatural! Explica el AMOR, o el VALOR o la VIRTUD químicamente.",
+    fr_title: "Vertu Chimique",
+    fr_content: "Vous êtes vous-même un être surnaturel ! Expliquez l'AMOUR, ou le COURAGE ou la VERTU chimiquement.",
+    hi_title: "रासायनिक गुण",
+    hi_content: "आप स्वयं एक अलौकिक प्राणी हैं! प्रेम, या साहस या गुण को रासायनिक रूप से समझाइए।",
+    zh_title: "Huàxué Měidé",
+    zh_content: "Nǐ zìjǐ jiù shì yīgè chāozìrán de shēngwù! Yòng huàxué jiěshì RÀNG, YǑNGQÌ huò MĚIDÉ."
 });
 
 MATCH (t:THOUGHT)

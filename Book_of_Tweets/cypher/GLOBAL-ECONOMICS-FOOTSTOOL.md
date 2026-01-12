@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.GLOBAL ECONOMICS FOOTSTOOL",
     en_title: "Global Economics Footstool",
     en_content: "Global economics: God is making Christ's enemies His Footstool.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Economía Global: El Estrado de Cristo",
+    es_content: "Economía global: Dios está haciendo de los enemigos de Cristo Su estrado.",
+    fr_title: "Économie Mondiale : Le Marchepied du Christ",
+    fr_content: "Économie mondiale : Dieu fait des ennemis du Christ son marchepied.",
+    hi_title: "वैश्विक अर्थव्यवस्था: मसीह की चरणपीठ",
+    hi_content: "वैश्विक अर्थव्यवस्था: परमेश्वर मसीह के शत्रुओं को उनकी चरणपीठ बना रहे हैं।",
+    zh_title: "Quánqiú jīngjì: Jīdū de jiǎodèng 全球经济：基督的脚凳",
+    zh_content: "Quánqiú jīngjì: Shàngdì zhèng shǐ Jīdū de dírén chéngwéi tā de jiǎodèng. 全球经济：上帝正使基督的敌人成为他的脚凳。"
 });
 
 MATCH (t:THOUGHT)

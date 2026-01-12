@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.DEFINE DIVINE JEALOUSY",
     en_title: "Define Divine Jealousy",
     en_content: "Divine Jealousy: Ownership in Love with Responsibility and Accountability.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Definir Celos Divinos",
+    es_content: "Celos Divinos: Propiedad en Amor con Responsabilidad y Rendición de Cuentas.",
+    fr_title: "Définir la Jalousie Divine",
+    fr_content: "Jalousie Divine : Propriété dans l'Amour avec Responsabilité et Responsabilité.",
+    hi_title: "दैवी ईर्ष्या को परिभाषित करें",
+    hi_content: "दैवी ईर्ष्या: जिम्मेदारी और जवाबदेही के साथ प्रेम में स्वामित्व।",
+    zh_title: "Dìngyì shén shèng de jídù",
+    zh_content: "Shén shèng de jídù: Zài ài zhōng de suǒyǒu quán yǔ zérèn hé zérèn."
 });
 
 MATCH (t:THOUGHT)

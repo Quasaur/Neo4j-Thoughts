@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.ARGUING WITH CREATOR",
     en_title: "Arguing With Creator",
     en_content: "Humanity's constant pastime is to argue with its Creator.",
-    es_title: "TITULO",
-    es_content: "CONTENIDO",
-    fr_title: "TITRE",
-    fr_content: "CONTENU",
-    hi_title: "SHIRSHAK",
-    hi_content: "SAMAGRI",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Discutiendo con el Creador",
+    es_content: "El pasatiempo constante de la humanidad es discutir con su Creador.",
+    fr_title: "Disputer avec le Créateur",
+    fr_content: "Le passe-temps constant de l'humanité est de discuter avec son Créateur.",
+    hi_title: "सृष्टिकर्ता से बहस करना",
+    hi_content: "मानवता का निरंतर शगल अपने सृष्टिकर्ता से बहस करना है।",
+    zh_title: "Yǔ Chuàngzàozhǔ zhēnglùn 与造物主争论",
+    zh_content: "Rénlèi de chángjiǔ xiāoqiǎn jiùshì yǔ qí Chuàngzàozhǔ zhēnglùn. 人类的长久消遣就是与其造物主争论。"
 });
 
 MATCH (t:THOUGHT)

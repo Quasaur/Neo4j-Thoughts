@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.BORN TWICE",
     en_title: "Born Twice",
     en_content: "Born once, die twice; born twice, die once--Happy Resurrection Day!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Nacido Dos Veces",
+    es_content: "Nacido una vez, muere dos veces; nacido dos veces, muere una vez--¡Feliz Día de la Resurrección!",
+    fr_title: "Né Deux Fois",
+    fr_content: "Né une fois, meurt deux fois ; né deux fois, meurt une fois--Joyeuse jour de la Résurrection !",
+    hi_title: "दो बार जन्म",
+    hi_content: "एक बार जन्मे, दो बार मरो; दो बार जन्मे, एक बार मरो--पुनरुत्थान दिवस की शुभकामनाएं!",
+    zh_title: "Shēng liǎng cì 生两次",
+    zh_content: "Shēng yī cì, sǐ liǎng cì; shēng liǎng cì, sǐ yī cì--Fùhuójié kuàilè! 生一次，死两次；生两次，死一次--复活节快乐！"
 });
 
 MATCH (t:THOUGHT)

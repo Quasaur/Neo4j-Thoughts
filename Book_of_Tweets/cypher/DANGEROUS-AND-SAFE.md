@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.DANGEROUS AND SAFE",
     en_title: "Dangerous And Safe",
     en_content: "Who is more dangerous than God? Who is more safe than The Almighty?",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Peligroso y Seguro",
+    es_content: "¿Quién es más peligroso que Dios? ¿Quién es más seguro que El Todopoderoso?",
+    fr_title: "Dangereux et Sûr",
+    fr_content: "Qui est plus dangereux que Dieu ? Qui est plus sûr que le Tout-Puissant ?",
+    hi_title: "खतरनाक और सुरक्षित",
+    hi_content: "परमेश्वर से अधिक खतरनाक कौन है? सर्वशक्तिमान से अधिक सुरक्षित कौन है?",
+    zh_title: "Wéixiǎn yǔ Ānquán",
+    zh_content: "Shéi bǐ Shàngdì gèng wéixiǎn? Shéi bǐ Quánnéng Zhě gèng ānquán?"
 });
 
 MATCH (t:THOUGHT)

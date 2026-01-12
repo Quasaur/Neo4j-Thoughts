@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.CAUSE OF THE ORPHAN",
     en_title: "Cause Of The Orphan",
     en_content: "\"They do not plead the cause, (The cause of the orphan), THAT THEY MAY PROSPER; And they do not defend the rights of the poor.\" -- Jeremiah",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "La Causa del Huérfano",
+    es_content: "\"Ellos no defienden la causa, (La causa del huérfano), PARA QUE PROSPEREN; Y no defienden los derechos de los pobres.\" -- Jeremías",
+    fr_title: "La Cause de l'Orphelin",
+    fr_content: "\"Ils ne plaident pas la cause, (La cause de l'orphelin), AFIN QU'ILS PROSPÈRENT ; Et ils ne défendent pas les droits des pauvres.\" -- Jérémie",
+    hi_title: "अनाथ का कारण",
+    hi_content: "\"वे इस कारण की वकालत नहीं करते, (अनाथ का कारण), ताकि वे समृद्ध हों; और वे गरीबों के अधिकारों की रक्षा नहीं करते।\" -- यिर्मयाह",
+    zh_title: "Gūér de Shìyè",
+    zh_content: "\"Tāmen bù wèi cǐ shì biànhù, (Gūér de shìyè), Shǐ tāmen fánróng; Yě bù bǎohù qióngrén de quánlì.\" -- Yēlìmǐshū"
 });
 
 MATCH (t:THOUGHT)

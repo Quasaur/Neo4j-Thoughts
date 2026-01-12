@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.BORED VS BORING",
     en_title: "Bored Vs Boring",
     en_content: "Better to be bored than to be boring.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Aburrido versus Aburridor",
+    es_content: "Mejor estar aburrido que ser aburridor.",
+    fr_title: "Ennuyé contre Ennuyeux",
+    fr_content: "Mieux vaut s'ennuyer que d'être ennuyeux.",
+    hi_title: "ऊबा बनाम उबाऊ",
+    hi_content: "ऊबा होना उबाऊ होने से बेहतर है।",
+    zh_title: "Gǎnjué wúliáo yǔ língrén yànfán 感觉无聊与令人厌烦",
+    zh_content: "Gǎnjué wúliáo yě bǐ chéngwéi língrén yànfán de rén hǎo. 感觉无聊也比成为令人厌烦的人好。"
 });
 
 MATCH (t:THOUGHT)

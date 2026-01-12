@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.BORN FOR SERMON",
     en_title: "Born For Sermon",
     en_content: "Christmas sermon at the Pittsburgh prison was well-received...this is what I was born to do!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Nacido para Predicar",
+    es_content: "El sermón de Navidad en la prisión de Pittsburgh fue bien recibido... ¡esto es para lo que nací!",
+    fr_title: "Né pour Prêcher",
+    fr_content: "Le sermon de Noël à la prison de Pittsburgh a été bien reçu... c'est pour cela que je suis né !",
+    hi_title: "उपदेश के लिए जन्मा",
+    hi_content: "पिट्सबर्ग जेल में क्रिसमस उपदेश को अच्छी तरह से सराहा गया... मैं इसी के लिए पैदा हुआ था!",
+    zh_title: "Wèi bùdào ér shēng 为布道而生",
+    zh_content: "Zài Pǐcíbǎo jiānyù de Shèngdànjié bùdào hěn shòu huānyíng... zhè jiùshì wǒ chūshēng de mùdì! 在匹兹堡监狱的圣诞节布道很受欢迎...这就是我出生的目的！"
 });
 
 MATCH (t:THOUGHT)

@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.CAT ON KNEE",
     en_title: "Cat On Knee",
     en_content: "My cat will jump up on my knee, and from there knock things off the table so he can play with them on the floor...God is great!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Gato en la Rodilla",
+    es_content: "Mi gato saltará sobre mi rodilla, y desde allí tirará cosas de la mesa para poder jugar con ellas en el suelo... ¡Dios es grande!",
+    fr_title: "Chat sur le Genou",
+    fr_content: "Mon chat va sauter sur mon genou, et de là faire tomber des choses de la table pour pouvoir jouer avec elles par terre... Dieu est grand !",
+    hi_title: "घुटने पर बिल्ली",
+    hi_content: "मेरी बिल्ली मेरे घुटने पर कूदेगी, और वहां से मेज से चीज़ें गिरा देगी ताकि वह फर्श पर उनके साथ खेल सके... भगवान महान हैं!",
+    zh_title: "Māo zài Xīgài shàng",
+    zh_content: "Wǒ de māo huì tiào dào wǒ de xīgài shàng, ránhòu cóng nàlǐ bǎ zhuōzi shàng de dōngxī nòng diào, zhèyàng tā jiù kěyǐ zài dìbǎn shàng wán le... Shàngdì shì wěidà de!"
 });
 
 MATCH (t:THOUGHT)

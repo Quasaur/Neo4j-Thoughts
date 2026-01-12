@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.NO ANGER SELFLESSNESS",
     en_title: "No Anger Selflessness",
     en_content: "There is no anger in selflessness.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "No Hay Ira en el Desinterés",
+    es_content: "No hay ira en el desinterés.",
+    fr_title: "Pas de Colère dans le Désintéressement",
+    fr_content: "Il n'y a pas de colère dans le désintéressement.",
+    hi_title: "निःस्वार्थता में कोई क्रोध नहीं",
+    hi_content: "निःस्वार्थता में कोई क्रोध नहीं होता।",
+    zh_title: "Wú sī zhōng méiyǒu fènnù 无私中没有愤怒",
+    zh_content: "Wú sī zhōng méiyǒu fènnù. 无私中没有愤怒。"
 });
 
 MATCH (t:THOUGHT)

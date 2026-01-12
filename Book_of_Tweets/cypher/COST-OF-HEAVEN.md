@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.COST OF HEAVEN",
     en_title: "Cost Of Heaven",
     en_content: "Heaven is free--but it ain't cheap!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Costo del Cielo",
+    es_content: "¡El cielo es gratis--pero no es barato!",
+    fr_title: "Coût du Paradis",
+    fr_content: "Le paradis est gratuit--mais ce n'est pas bon marché !",
+    hi_title: "स्वर्ग की कीमत",
+    hi_content: "स्वर्ग मुफ्त है--लेकिन यह सस्ता नहीं है!",
+    zh_title: "Tiān Táng de Dàijià",
+    zh_content: "Tiān táng shì miǎnfèi de--dàn tā bù piányi!"
 });
 
 MATCH (t:THOUGHT)

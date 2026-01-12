@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.CHRIST UNIVERSAL DESTINY",
     en_title: "Christ Universal Destiny",
     en_content: "Christ is everyone's Destiny...no exceptions!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Cristo es el Destino Universal",
+    es_content: "¡Cristo es el Destino de todos... sin excepciones!",
+    fr_title: "Le Christ est la Destinée Universelle",
+    fr_content: "Le Christ est la Destinée de tous... sans exception !",
+    hi_title: "मसीह सार्वभौमिक नियति है",
+    hi_content: "मसीह सभी की नियति है... कोई अपवाद नहीं!",
+    zh_title: "Jīdū shì pǔshì de mìngyùn 基督是普世的命运",
+    zh_content: "Jīdū shì měi gèrén de mìngyùn... méiyǒu lìwài! 基督是每个人的命运...没有例外！"
 });
 
 MATCH (t:THOUGHT)

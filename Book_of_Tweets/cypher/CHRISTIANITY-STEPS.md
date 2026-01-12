@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.CHRISTIANITY STEPS",
     en_title: "Christianity Steps",
     en_content: "Christianity: READ, HEAR, BELIEVE, CONFESS, OBEY, ASK, RECEIVE.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Pasos del Cristianismo",
+    es_content: "Cristianismo: LEER, OÍR, CREER, CONFESAR, OBEDECER, PEDIR, RECIBIR.",
+    fr_title: "Étapes du Christianisme",
+    fr_content: "Christianisme : LIRE, ENTENDRE, CROIRE, CONFESSER, OBÉIR, DEMANDER, RECEVOIR.",
+    hi_title: "ईसाई धर्म के कदम",
+    hi_content: "ईसाई धर्म: पढ़ें, सुनें, विश्वास करें, कबूल करें, आज्ञा मानें, मांगें, प्राप्त करें।",
+    zh_title: "Jīdūjiào de Bùzhòu",
+    zh_content: "Jīdūjiào: YÈDÚ, TĪNG, XIĀNGXÌN, CHÉNGRÈN, SHÙNCHÓNG, QÐQIÚ, JIĒSHÒU."
 });
 
 MATCH (t:THOUGHT)

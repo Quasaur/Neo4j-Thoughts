@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.CORPORATE MONEY WORSHIP",
     en_title: "Corporate Money Worship",
     en_content: "The corporation as a legal \"person\" worships money.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Adoración Corporativa al Dinero",
+    es_content: "La corporación como \"persona\" legal adora el dinero.",
+    fr_title: "Adoration Corporative de l'Argent",
+    fr_content: "La corporation en tant que \"personne\" légale adore l'argent.",
+    hi_title: "निगम धन पूजा",
+    hi_content: "निगम कानूनी \"व्यक्ति\" के रूप में धन की पूजा करता है।",
+    zh_title: "Gōngsī Duì Jīnqián de Chóngbài",
+    zh_content: "Gōngsī zuòwéi fǎlǜ \"rén\" chóngbài jīnqián."
 });
 
 MATCH (t:THOUGHT)

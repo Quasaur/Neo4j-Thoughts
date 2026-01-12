@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.LUCIFERS WRETCHEDNESS",
     en_title: "Lucifers Wretchedness",
     en_content: "What a wretch Lucifer must be, to despise his most ardent Supporter!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "La Miseria de Lucifer",
+    es_content: "¡Qué miserable debe ser Lucifer, para despreciar a su más ferviente Defensor!",
+    fr_title: "La Misère de Lucifer",
+    fr_content: "Quel misérable Lucifer doit être, pour mépriser son plus ardent Soutien !",
+    hi_title: "लूसिफर की दुर्दशा",
+    hi_content: "लूसिफर कितना दयनीय होगा, अपने सबसे उत्कट समर्थक को तुच्छ समझने के लिए!",
+    zh_title: "Lùxīfèi de bēicǎn 路西弗的卑涅",
+    zh_content: "Lùxīfèi dàgài shì duōme bēibiǐ, jìnrán qī shì tā zuì rèchéng de zhīchí zhě! 路西弗大概是多么卑鄙，竟然欺视他最热诚的支持者！"
 });
 
 MATCH (t:THOUGHT)

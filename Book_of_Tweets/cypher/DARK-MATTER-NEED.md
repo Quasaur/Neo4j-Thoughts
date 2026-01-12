@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.DARK MATTER NEED",
     en_title: "Dark Matter Need",
     en_content: "If the Standard Model was doing its job, there'd be no need for \"dark matter\", \"dark energy\" or \"dark flow\"!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Necesidad de Materia Oscura",
+    es_content: "¡Si el Modelo Estándar estuviera haciendo su trabajo, no habría necesidad de \"materia oscura\", \"energía oscura\" o \"flujo oscuro\"!",
+    fr_title: "Besoin de Matière Sombre",
+    fr_content: "Si le Modèle Standard faisait son travail, il n'y aurait pas besoin de \"matière sombre\", \"énergie sombre\" ou \"flux sombre\" !",
+    hi_title: "गहरी पदार्थ की आवश्यकता",
+    hi_content: "यदि मानक मॉडल अपना काम कर रहा होता, तो \"गहरे पदार्थ\", \"गहरी ऊर्जा\" या \"गहरे प्रवाह\" की कोई आवश्यकता नहीं होती!",
+    zh_title: "Hēi Wùzhí de Xūyào",
+    zh_content: "Rúguǒ Biāozhǔn Móxíng zài zuò tā de gōngzuò, Jiù bù xūyào \"hēi wùzhí\", \"hēi néngliàng\" huò \"hēi liú\"le!"
 });
 
 MATCH (t:THOUGHT)

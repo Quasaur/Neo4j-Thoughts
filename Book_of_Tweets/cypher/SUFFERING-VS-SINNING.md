@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.SUFFERING VS SINNING",
     en_title: "Suffering Vs Sinning",
     en_content: "We are tired of suffering, yet we are not tired of sinning.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Sufrir versus Pecar",
+    es_content: "Estamos cansados de sufrir, pero no estamos cansados de pecar.",
+    fr_title: "Souffrir contre Pécher",
+    fr_content: "Nous sommes fatigués de souffrir, mais nous ne sommes pas fatigués de pécher.",
+    hi_title: "दुःख बनाम पाप",
+    hi_content: "हम दुःख से थक गए हैं, फिर भी हम पाप करने से नहीं थके।",
+    zh_title: "Shòukǔ yǔ fànzuì 受苦与犯罪",
+    zh_content: "Wǒmen yànjàn le shòukǔ, dàn wǒmen què méiyǒu yànjàn fànzuì. 我们厌倦了受苦，但我们却没有厌倦犯罪。"
 });
 
 MATCH (t:THOUGHT)

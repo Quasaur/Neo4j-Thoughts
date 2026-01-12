@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.COMMITTING ADAMS SIN",
     en_title: "Committing Adams Sin",
     en_content: "We continue to commit Adam's sin, and then wonder why we suffer.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Cometiendo el Pecado de Adán",
+    es_content: "Continuamos cometiendo el pecado de Adán, y luego nos preguntamos por qué sufrimos.",
+    fr_title: "Commettre le Péché d'Adam",
+    fr_content: "Nous continuons à commettre le péché d'Adam, puis nous nous demandons pourquoi nous souffrons.",
+    hi_title: "आदम के पाप को करना",
+    hi_content: "हम आदम के पाप को करते रहते हैं, और फिर हैरान होते हैं कि हम क्यों पीड़ित हैं।",
+    zh_title: "Fàn Ādāng de Zuì",
+    zh_content: "Wǒmen jìxù fàn Ādāng de zuì, Ránhòu yòu qíguài wèishénme wǒmen shòukǔ."
 });
 
 MATCH (t:THOUGHT)

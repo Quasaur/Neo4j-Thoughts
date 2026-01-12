@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.CONTRACTOR NOT SLAVE",
     en_title: "Contractor Not Slave",
     en_content: "A contractor is NOT a slave.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Contratista No Esclavo",
+    es_content: "Un contratista NO es un esclavo.",
+    fr_title: "Entrepreneur Pas Esclave",
+    fr_content: "Un entrepreneur n'est PAS un esclave.",
+    hi_title: "ठेकेदार गुलाम नहीं",
+    hi_content: "एक ठेकेदार गुलाम नहीं है।",
+    zh_title: "Chéng Bāo Shāng Bù Shì Núlì",
+    zh_content: "Chéng bāo shāng bù shì núlì."
 });
 
 MATCH (t:THOUGHT)

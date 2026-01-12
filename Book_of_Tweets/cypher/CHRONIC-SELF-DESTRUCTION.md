@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.CHRONIC SELF DESTRUCTION",
     en_title: "Chronic Self Destruction",
     en_content: "As a species the homosapien is chronically self-destructive and IT CANNOT STOP ITSELF...therefore God must judge it.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Autodestrucción Crónica",
+    es_content: "Como especie, el homosapiens es crónicamente autodestructivo y NO PUEDE DETENERSE... por lo tanto, Dios debe juzgarlo.",
+    fr_title: "Auto-Destruction Chronique",
+    fr_content: "En tant qu'espèce, l'homo sapiens est chroniquement autodestructeur et IL NE PEUT S'ARRÊTER... par conséquent, Dieu doit le juger.",
+    hi_title: "दीर्घकालिक आत्म-विनाश",
+    hi_content: "एक प्रजाति के रूप में मानव दीर्घकालिक रूप से आत्म-विनाशकारी है और यह खुद को रोक नहीं सकता... इसलिए परमेश्वर को इसका न्याय करना होगा।",
+    zh_title: "Mànxìng Zìwǒ Huǐmiè",
+    zh_content: "Zuòwéi yī gè wùzhǒng, Zhìrén mànxìng de zìwǒ huǐmiè, Érqiě TĀ WÚFǍ ZÌJǏ TÍNGZHǏ... Yīncǐ Shàngdì bìxū shěnpàn tā."
 });
 
 MATCH (t:THOUGHT)

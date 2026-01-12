@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.WANTING LOVE ONLY",
     en_title: "Wanting Love Only",
     en_content: "We want to be loved, but we don't want to love...how pathetic.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Solo Querer Ser Amado",
+    es_content: "Queremos ser amados, pero no queremos amar... qué patético.",
+    fr_title: "Vouloir Être Aimé Seulement",
+    fr_content: "Nous voulons être aimés, mais nous ne voulons pas aimer... comme c'est pathétique.",
+    hi_title: "केवल प्यार पाना चाहना",
+    hi_content: "हम प्यार पाना चाहते हैं, लेकिन हम प्यार करना नहीं चाहते... कितना दयनीय है।",
+    zh_title: "Zhǐ xiǎng bèi ài 只想被爱",
+    zh_content: "Wǒmen xiǎng bèi ài, dàn wǒmen bù xiǎng ài rén... zhēn kělǐan. 我们想被爱，但我们不想爱人...真可怜。"
 });
 
 MATCH (t:THOUGHT)

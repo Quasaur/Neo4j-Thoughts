@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.CONSPIRACY THEORIES",
     en_title: "Conspiracy Theories",
     en_content: "I LOVE conspiracy theories...they allow me to pass responsibility for my failures to someone else!",
-    es_title: "TITULO",
-    es_content: "CONTENIDO",
-    fr_title: "TITRE",
-    fr_content: "CONTENU",
-    hi_title: "SHIRSHAK",
-    hi_content: "SAMAGRI",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Teorías de Conspiración",
+    es_content: "¡AMO las teorías de conspiración... me permiten pasar la responsabilidad de mis fracasos a alguien más!",
+    fr_title: "Théories du Complot",
+    fr_content: "J'AIME les théories du complot... elles me permettent de passer la responsabilité de mes échecs à quelqu'un d'autre !",
+    hi_title: "षड्यंत्र सिद्धांत",
+    hi_content: "मैं षड्यंत्र सिद्धांतों को प्यार करता हूं... वे मुझे अपनी विफलताओं की जिम्मेदारी किसी और पर डालने की अनुमति देते हैं!",
+    zh_title: "Yīn Móu Lùn",
+    zh_content: "Wǒ ài yīn móu lùn... Tāmen ràng wǒ nénggòu bǎ wǒ shībài de zérèn tuī gěi biérén!"
 });
 
 MATCH (t:THOUGHT)

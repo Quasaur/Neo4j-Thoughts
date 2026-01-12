@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.COMPLEXITY VS SIMPLICITY",
     en_title: "Complexity Vs Simplicity",
     en_content: "There is no \"natural law\" that would bring complexity out of simplicity!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Complejidad Versus Simplicidad",
+    es_content: "¡No existe ninguna \"ley natural\" que pueda traer complejidad de la simplicidad!",
+    fr_title: "Complexité Contre Simplicité",
+    fr_content: "Il n'existe aucune \"loi naturelle\" qui ferait naître la complexité de la simplicité !",
+    hi_title: "जटिलता बनाम सरलता",
+    hi_content: "कोई \"प्राकृतिक नियम\" नहीं है जो सरलता से जटिलता ला सके!",
+    zh_title: "Fùzá Duìbǐ Jiǎndān",
+    zh_content: "Méiyǒu shénme \"zìrán fǎzé\" huì cóng jiǎndān zhōng chǎnshēng fùzá!"
 });
 
 MATCH (t:THOUGHT)
