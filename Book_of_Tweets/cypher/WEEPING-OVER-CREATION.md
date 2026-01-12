@@ -36,7 +36,7 @@ CREATE (c:CONTENT {
     fr_content: "(Pleurant sur la marée noire de BP).",
     hi_title: "srshti par rona",
     hi_content: "(बीपी तेल रिसाव पर रोते हुए)।",
-    zh_title: "wèi chuàng zào kū qì",
+    zh_title: "Wèi chuàngzào kūqì",
     zh_content: "( wèi BP shí yóu xiè lòu kū qì )."
 });
 

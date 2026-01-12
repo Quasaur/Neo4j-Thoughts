@@ -37,7 +37,7 @@ CREATE (c:CONTENT {
     fr_content: "Dieu n'est pas schizophrène.",
     hi_title: "ईश्वरीय निरंतरता",
     hi_content: "ईश्वर सिज़ोफ्रेनिक नहीं है।"
-    zh_title: "shén dì yī zhì xìng",
+    zh_title: "Shén de yīzhìxìng",
     zh_content: "shàng dì bú shì jīng shén fēn liè zhè 。"
 });
 

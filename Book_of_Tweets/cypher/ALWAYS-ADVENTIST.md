@@ -37,8 +37,8 @@ CREATE (c:CONTENT {
     fr_content: "Une partie de moi sera toujours adventiste, je suppose (sourire).",
     hi_title: "हमेशा एडवेंटिस्ट",
     hi_content: "मेरा एक हिस्सा हमेशा एडवेंटिस्ट रहेगा, मुझे लगता है (मुस्कान)।",
-    zh_title: "永远的复临信徒",
-    zh_content: "我想，我的一部分将永远是复临信徒（微笑）。"
+    zh_title: "Yǒngyuǎn de fùlín",
+    zh_content: "Wǒ xiǎng, wǒ de yībùfèn jiāng yǒngyuǎn shì fùlín xìntú (wēixiào)."
 });
 
 MATCH (t:THOUGHT)

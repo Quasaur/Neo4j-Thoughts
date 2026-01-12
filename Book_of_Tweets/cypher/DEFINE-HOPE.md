@@ -1,18 +1,18 @@
 ---
-name: "thought.DEFINE HOPE"
+name: thought.DEFINE HOPE
 alias: "Thought: Define Hope"
 type: THOUGHT
-en_content: "HOPE = DESIRE + EXPECTATION"
-parent: "topic.ATTITUDE"
+en_content: HOPE = DESIRE + EXPECTATION
+parent: topic.ATTITUDE
 tags:
-- hope
-- desire
-- expectation
-- attitude
-- philosophy
+  - hope
+  - desire
+  - expectation
+  - attitude
+  - philosophy
 level: 3
 neo4j: true
-ptopic: 
+ptopic: "[[topic-ATTITUDE]]"
 insert: true
 ---
 

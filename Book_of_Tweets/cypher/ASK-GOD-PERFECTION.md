@@ -37,8 +37,8 @@ CREATE (c:CONTENT {
     fr_content: "La perfection n'est pas si difficile... demandez à Dieu !",
     hi_title: "परमेश्वर से पूर्णता पूछें",
     hi_content: "पूर्णता इतनी कठिन नहीं है... परमेश्वर से पूछें!",
-    zh_title: "问神关于完美",
-    zh_content: "完美并不那么困难...问问神吧！"
+    zh_title: "Wèn shén wánměi",
+    zh_content: "Wánměi bìng bù nàme kùnnán... wèn wèn shén ba!"
 });
 
 MATCH (t:THOUGHT)

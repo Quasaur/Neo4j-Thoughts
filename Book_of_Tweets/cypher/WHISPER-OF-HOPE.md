@@ -1,18 +1,18 @@
 ---
-name: "thought.WHISPER OF HOPE"
+name: thought.WHISPER OF HOPE
 alias: "Thought: Whisper Of Hope"
 type: THOUGHT
-en_content: "When your mind says \"Give up,\" Hope whispers \"One more try!\""
-parent: "topic.ATTITUDE"
+en_content: When your mind says "Give up," Hope whispers "One more try!"
+parent: topic.ATTITUDE
 tags:
-- hope
-- attitude
-- perseverance
-- encouragement
-- resilience
+  - hope
+  - attitude
+  - perseverance
+  - encouragement
+  - resilience
 level: 3
 neo4j: true
-ptopic: 
+ptopic: "[[topic-ATTITUDE]]"
 insert: true
 ---
 

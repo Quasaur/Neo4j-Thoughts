@@ -37,8 +37,8 @@ CREATE (c:CONTENT {
     fr_content: "Le mal lui-même est voué à l'anéantissement... pour toujours.",
     hi_title: "बुराई का विनाश",
     hi_content: "बुराई स्वयं विनाश के लिए अभिशप्त है... हमेशा के लिए।",
-    zh_title: "邪恶的毁灭",
-    zh_content: "邪恶本身注定要被毁灭...永远。"
+    zh_title: "Xié'è de huǐmiè",
+    zh_content: "Xié'è běnshēn zhùdìng yào bèi huǐmiè... yǒngyuǎn."
 });
 
 MATCH (t:THOUGHT)

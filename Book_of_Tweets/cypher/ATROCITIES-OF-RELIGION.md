@@ -37,8 +37,8 @@ CREATE (c:CONTENT {
     fr_content: "C'est étonnant les atrocités que la religion permettra.",
     hi_title: "धर्म के अत्याचार",
     hi_content: "यह आश्चर्यजनक है कि धर्म किन अत्याचारों की अनुमति देगा।",
-    zh_title: "宗教的暴行",
-    zh_content: "令人惊讶的是宗教会允许什么样的暴行。"
+    zh_title: "Zōngjiào de bàoxíng",
+    zh_content: "Lìngrén jīngyà de shì zōngjiào huì yǔnxǔ shénme yàng de bàoxíng."
 });
 
 MATCH (t:THOUGHT)

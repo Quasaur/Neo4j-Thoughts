@@ -36,7 +36,7 @@ CREATE (c:CONTENT {
     fr_content: "Nous sommes de la poussière... qui ressemble à Dieu.",
     hi_title: "dhuool aur divy",
     hi_content: "हम धूल हैं... जो भगवान की तरह दिखते हैं।",
-    zh_title: "chén āi yǔ shén shèng",
+    zh_title: "Chén'āi yǔ shénshèng",
     zh_content: "wǒ men shì chén āi... què xiàng shàng dì."
 });
 

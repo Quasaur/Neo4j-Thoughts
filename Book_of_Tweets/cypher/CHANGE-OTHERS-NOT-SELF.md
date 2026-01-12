@@ -1,18 +1,18 @@
 ---
-name: "thought.CHANGE OTHERS NOT SELF"
+name: thought.CHANGE OTHERS NOT SELF
 alias: "Thought: Change Others Not Self"
 type: THOUGHT
-en_content: "We want God to change everyone but ourselves; for the truth is that change can be a painful process...even when God is performing it."
-parent: "topic.ATTITUDE"
+en_content: We want God to change everyone but ourselves; for the truth is that change can be a painful process...even when God is performing it.
+parent: topic.ATTITUDE
 tags:
-- change
-- growth
-- attitude
-- pain
-- transformation
+  - change
+  - growth
+  - attitude
+  - pain
+  - transformation
 level: 3
 neo4j: true
-ptopic: 
+ptopic: "[[topic-ATTITUDE]]"
 insert: true
 ---
 

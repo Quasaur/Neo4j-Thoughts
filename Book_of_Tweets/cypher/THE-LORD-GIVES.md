@@ -36,7 +36,7 @@ CREATE (c:CONTENT {
     fr_content: "\"El Eterno ha dado, y el Eterno ha quitado; ¡bendito sea el nombre del Eterno!\" -- El Profeta Iyowb (Job)",
     hi_title: "bhagavaan deta hai",
     hi_content: "\"प्रभु ने दिया, प्रभु ने ले लिया। प्रभु का नाम धन्य हो!\" -- भविष्यद्वक्ता इय्याब (अय्यूब)",
-    zh_title: "yē hé huá shǎng cì",
+    zh_title: "Yēhéhuá shǎngcì",
     zh_content: "“shǎng cì de shì yē hé huá, shǒu huí de yě shì yē hé huá ; yē hé huá de míng shì yīng dāng chéng sòng de!” -- xiān zhī yóu bó"
 });
 

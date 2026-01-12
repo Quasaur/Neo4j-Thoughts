@@ -37,8 +37,8 @@ CREATE (c:CONTENT {
     fr_content: "Méfiez-vous de ceux qui paraissent humains, mais ne le sont pas !",
     hi_title: "मानवीय दिखावा",
     hi_content: "उन लोगों से सावधान रहें जो मानव दिखते हैं, लेकिन हैं नहीं!",
-    zh_title: "看似人类",
-    zh_content: "小心那些看起来像人类，但实际上不是的！"
+    zh_title: "Kànsì rénlèi",
+    zh_content: "Xiǎoxīn nàxiē kàn qǐlái xiàng rénlèi, dàn shíjì shang bùshì de!"
 });
 
 MATCH (t:THOUGHT)

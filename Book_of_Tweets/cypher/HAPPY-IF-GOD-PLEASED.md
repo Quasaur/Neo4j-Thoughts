@@ -1,17 +1,17 @@
 ---
-name: "thought.HAPPY IF GOD PLEASED"
+name: thought.HAPPY IF GOD PLEASED
 alias: "Thought: Happy If God Pleased"
 type: THOUGHT
-en_content: "How can I not be happy if God is pleased with me?"
-parent: "topic.ATTITUDE"
+en_content: How can I not be happy if God is pleased with me?
+parent: topic.WORSHIP
 tags:
-- happiness
-- pleasure
-- god
-- attitude
+  - happiness
+  - pleasure
+  - god
+  - attitude
 level: 3
 neo4j: true
-ptopic: 
+ptopic: "[[topic-WORSHIP]]"
 insert: true
 ---
 

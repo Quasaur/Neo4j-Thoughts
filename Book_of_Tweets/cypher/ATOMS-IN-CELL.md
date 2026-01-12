@@ -37,8 +37,8 @@ CREATE (c:CONTENT {
     fr_content: "La cellule humaine moyenne est composée d'environ 200 trillions d'atomes... Dieu est grand !",
     hi_title: "कोशिका में परमाणु",
     hi_content: "औसत मानव कोशिका लगभग 200 ट्रिलियन परमाणुओं से बनी होती है... परमेश्वर महान है!",
-    zh_title: "细胞中的原子",
-    zh_content: "平均每个人类细胞由大约200万亿个原子组成...神是伟大的！"
+    zh_title: "Xìbāo zhōng yuánzǐ",
+    zh_content: "Píngjūn měi gè rénlèi xìbāo yóu dàyuē èrbǎi wànyì gè yuánzǐ zǔchéng... shén shì wěidà de!"
 });
 
 MATCH (t:THOUGHT)

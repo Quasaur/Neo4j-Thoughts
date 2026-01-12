@@ -37,8 +37,8 @@ CREATE (c:CONTENT {
     fr_content: "Plus notre théologie est précise, plus la vie chrétienne devient facile.",
     hi_title: "सटीक धर्मशास्त्र",
     hi_content: "हमारा धर्मशास्त्र जितना सटीक होगा, ईसाई जीवन उतना ही आसान होगा।",
-    zh_title: "准确的神学",
-    zh_content: "我们的神学越准确，基督徒的生活就越容易。"
+    zh_title: "Zhǔnquè de shénxué",
+    zh_content: "Wǒmen de shénxué yuè zhǔnquè, jīdūtú de shēnghuó jiù yuè róngyì."
 });
 
 MATCH (t:THOUGHT)

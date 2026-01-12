@@ -37,8 +37,8 @@ CREATE (c:CONTENT {
     fr_content: "46 millions d'Américains sont au niveau ou en dessous du seuil de pauvreté.",
     hi_title: "विट्गेन्स्टाइन की खोज",
     hi_content: "4 करोड़ 60 लाख अमेरिकी गरीबी रेखा पर या उससे नीचे हैं।",
-    zh_title: "美国贫困线",
-    zh_content: "4600万美国人处于或低于贫困线。"
+    zh_title: "Měiguó pínkùn xiàn",
+    zh_content: "Sì qiān liù bǎi wàn Měiguó rén chǔyú huò dīyú pínkùn xiàn."
 });
 
 MATCH (t:THOUGHT)

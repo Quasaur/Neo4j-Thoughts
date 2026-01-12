@@ -1,17 +1,17 @@
 ---
-name: "thought.NOT LOOKING IDIOT"
+name: thought.NOT LOOKING IDIOT
 alias: "Thought: Not Looking Idiot"
 type: THOUGHT
-en_content: "I don't mind being an idiot, just looking like one."
-parent: "topic.ATTITUDE"
+en_content: I don't mind being an idiot, just looking like one.
+parent: topic.WISDOM
 tags:
-- idiot
-- appearance
-- attitude
-- character
+  - idiot
+  - appearance
+  - attitude
+  - character
 level: 3
 neo4j: true
-ptopic: 
+ptopic: "[[topic-WISDOM]]"
 insert: true
 ---
 

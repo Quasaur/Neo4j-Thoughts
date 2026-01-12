@@ -1,18 +1,18 @@
 ---
-name: "thought.HONESTY THROUGH LOVE"
+name: thought.HONESTY THROUGH LOVE
 alias: "Thought: Honesty Through Love"
 type: THOUGHT
-en_content: "When you know God loves you, it's easier to be honest about your faults."
-parent: "topic.ATTITUDE"
+en_content: When you know God loves you, it's easier to be honest about your faults.
+parent: topic.LOVE
 tags:
-- honesty
-- love
-- faults
-- attitude
-- character
+  - honesty
+  - love
+  - faults
+  - attitude
+  - character
 level: 3
 neo4j: true
-ptopic: 
+ptopic: "[[topic-LOVE]]"
 insert: true
 ---
 

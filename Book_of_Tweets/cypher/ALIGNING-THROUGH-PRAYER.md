@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "Le but de la prière n'est pas seulement d'obtenir que Dieu fasse des choses, mais de m'aligner sur ce que Dieu fait !",
     hi_title: "प्रार्थना के माध्यम से संरेखण",
     hi_content: "प्रार्थना का उद्देश्य केवल भगवान से चीजें करवाना नहीं है, बल्कि स्वयं को उस काम के साथ संरेखित करना है जो भगवान कर रहे हैं!",
-    zh_title: "通过祷告对齐",
-    zh_content: "祷告的目的不仅仅是让上帝做事，而是让自己与上帝正在做的事对齐！"
+    zh_title: "Tōngguò dǎogào duìqí",
+    zh_content: "Dǎogào de mùdì bùjǐn jǐn shì ràng shàngdì zuòshì, ér shì ràng zìjǐ yǔ shàngdì zhèngzài zuò de shì duìqí!"
 });
 
 MATCH (t:THOUGHT)

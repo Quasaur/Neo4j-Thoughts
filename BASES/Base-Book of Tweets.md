@@ -12,6 +12,7 @@ views:
       property: parent
       direction: ASC
     order:
+      - file.name
       - file.path
       - name
       - parent
@@ -27,10 +28,11 @@ views:
       - property: name
         direction: ASC
     columnSize:
-      file.path: 300
+      file.name: 178
+      file.path: 334
       note.name: 287
       note.parent: 175
-      note.insert: 150
-      note.level: 171
-      note.ptopic: 153
+      note.insert: 104
+      note.level: 101
+      note.ptopic: 190
     rowHeight: medium

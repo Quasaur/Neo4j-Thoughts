@@ -1,18 +1,18 @@
 ---
-name: "thought.ESSENCE OF JOY"
+name: thought.ESSENCE OF JOY
 alias: "Thought: Essence Of Joy"
 type: THOUGHT
-en_content: "The essence of Joy is to discover that God is more wonderful, more great and more important than I."
-parent: "topic.ATTITUDE"
+en_content: The essence of Joy is to discover that God is more wonderful, more great and more important than I.
+parent: topic.ATTITUDE
 tags:
-- joy
-- god
-- majesty
-- discovery
-- attitude
+  - joy
+  - god
+  - majesty
+  - discovery
+  - attitude
 level: 3
 neo4j: true
-ptopic: 
+ptopic: "[[topic-ATTITUDE]]"
 insert: true
 ---
 

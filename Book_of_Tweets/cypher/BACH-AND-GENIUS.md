@@ -37,7 +37,7 @@ CREATE (c:CONTENT {
     fr_content: "Johann Sebastian Bach est l'une de ces rares âmes dont les dons transcendent tout génie !",
     hi_title: "बाख और प्रतिभा",
     hi_content: "जोहान सेबस्टियन बाख उन दुर्लभ आत्माओं में से एक हैं जिनका उपहार सभी प्रतिभाओं से परे है!"
-    zh_title: "bā hè hé tiān cái",
+    zh_title: "Bāhè hé tiāncái",
     zh_content: "yuē hàn · sāi bā sī dì àn · bā hè shì nà xiē fēi fán de líng hún zhī yī ， tā de tiān fù chāo yuè le suǒ yǒu de tiān cái ！"
 });
 

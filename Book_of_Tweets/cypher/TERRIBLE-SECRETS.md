@@ -1,18 +1,18 @@
 ---
-name: "thought.TERRIBLE SECRETS"
+name: thought.TERRIBLE SECRETS
 alias: "Thought: Terrible Secrets"
 type: THOUGHT
-en_content: "Secrets can be terrible things."
-parent: "topic.ATTITUDE"
+en_content: Secrets can be terrible things.
+parent: topic.PSYCHOLOGY
 tags:
-- secrets
-- fear
-- character
-- attitude
-- truth
+  - secrets
+  - fear
+  - character
+  - attitude
+  - truth
 level: 3
 neo4j: true
-ptopic: 
+ptopic: "[[topic-PSYCHOLOGY]]"
 insert: true
 ---
 

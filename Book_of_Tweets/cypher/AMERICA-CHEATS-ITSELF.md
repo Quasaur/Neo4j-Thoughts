@@ -37,8 +37,8 @@ CREATE (c:CONTENT {
     fr_content: "L'Amérique est une nation qui SE TROMPE ELLE-MÊME en se privant de son propre argent.",
     hi_title: "अमेरिका स्वयं को धोखा देता है",
     hi_content: "अमेरिका एक ऐसा राष्ट्र है जो अपने ही पैसे से खुद को धोखा देता है।",
-    zh_title: "美国欺骗自己",
-    zh_content: "美国是一个欺骗自己，剥夺自己金钱的国家。"
+    zh_title: "Měiguó qīpiàn zìjǐ",
+    zh_content: "Měiguó shì yīgè qīpiàn zìjǐ, bōduó zìjǐ jīnqián de guójiā."
 });
 
 MATCH (t:THOUGHT)
