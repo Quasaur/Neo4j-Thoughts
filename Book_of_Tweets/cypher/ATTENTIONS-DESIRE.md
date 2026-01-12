@@ -1,8 +1,8 @@
 ---
-name: thought.ATTENTION DESIRE
+name: "thought.ATTENTION DESIRE"
 alias: "Thought: Attention Desire"
 type: THOUGHT
-en_content: "I only want your attention when you don't want to give it to me."
+en_content: I only want your attention when you don't want to give it to me.
 parent: topic.ATTITUDE
 tags:
   - attitude
@@ -11,7 +11,7 @@ tags:
   - desire
   - pride
 level: 3
-neo4j: true
+neo4j: false
 ptopic: "[[topic-ATTITUDE]]"
 ---
 

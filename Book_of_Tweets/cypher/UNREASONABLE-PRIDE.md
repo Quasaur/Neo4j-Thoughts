@@ -1,5 +1,5 @@
 ---
-name: thought.UNREASONABLE PRIDE
+name: "thought.UNREASONABLE PRIDE"
 alias: "Thought: Unreasonable Pride"
 type: THOUGHT
 en_content: Self Pride is always unreasonable.
@@ -13,7 +13,6 @@ tags:
 level: 3
 neo4j: true
 ptopic: "[[topic-EVIL]]"
-insert: true
 ---
 
 ```Cypher

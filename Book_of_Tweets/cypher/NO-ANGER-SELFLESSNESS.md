@@ -1,5 +1,5 @@
 ---
-name: thought.NO ANGER SELFLESSNESS
+name: "thought.NO ANGER SELFLESSNESS"
 alias: "Thought: No Anger Selflessness"
 type: THOUGHT
 en_content: There is no anger in selflessness.
@@ -11,9 +11,8 @@ tags:
   - peace
   - character
 level: 3
-neo4j: true
+neo4j: false
 ptopic: "[[topic-ATTITUDE]]"
-insert: true
 ---
 
 ```Cypher

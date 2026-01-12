@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "15cb592e385f6502",
+        "id": "30830071b4cc3242",
         "type": "tabs",
         "children": [
           {
-            "id": "a59c06b062dc5bf7",
+            "id": "552cb087bbba641d",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -173,12 +173,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a59c06b062dc5bf7",
+  "active": "552cb087bbba641d",
   "lastOpenFiles": [
-    "python/find_chinese_simplified.py",
+    "Book_of_Tweets/cypher/WHISPER-OF-HOPE.md",
     "BASES/Base-Book of Tweets.md",
-    "Book_of_Tweets/cypher/ANGER-AS-CONTAGION.md",
     "Book_of_Tweets/cypher/ATTENTIONS-DESIRE.md",
+    "remove_insert_property.py",
+    "Book_of_Tweets/cypher/BORED-VS-BORING.md",
+    "Book_of_Tweets/cypher/ANGER-AS-CONTAGION.md",
+    "python/find_chinese_simplified.py",
     "claude.md",
     "python/fix_book_of_tweets_levels.py",
     "content/TOPICS/topic-ATTITUDE.md",
@@ -190,8 +193,6 @@
     "python/generate_complete_translations.py",
     "python/apply_translations.py",
     "python/translation_workbook.json",
-    "python/generate_translation_workbook.py",
-    "python/direct_translate.py",
     "content/THOUGHTS/COWARDS.md",
     "CYPHER/CORRECTIONS/THOUGHT/THOUGHT-alias-Thought.md",
     "BASES/Base-THOUGHTS.md",
@@ -210,7 +211,6 @@
     "content/THOUGHTS/GOD-IN-CHARGE.md",
     "content/THOUGHTS/HUMAN-MERCY.md",
     "content/THOUGHTS/ACTS-OF-THE-APOSTLES.md",
-    "content/THOUGHTS/THINKING-TIME.md",
     "Untitled.canvas",
     "public/attachments/og-image.png",
     "public/static/og-image.png",

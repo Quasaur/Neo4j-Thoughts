@@ -1,8 +1,8 @@
 ---
-name: '"thought.ACCURATE THEOLOGY"'
-alias: '"Thought: Accurate Theology, Easier Life"'
+name: "thought.ACCURATE THEOLOGY"
+alias: "Thought: Accurate Theology, Easier Life"
 type: THOUGHT
-en_content: '"The more accurate our theology, the easier the Christian life gets."'
+en_content: "The more accurate our theology, the easier the Christian life gets."
 parent: topic.TRUTH
 tags:
   - theology
@@ -13,7 +13,6 @@ tags:
 level: 2
 neo4j: true
 ptopic: 
-insert: true
 ---
 
 ```Cypher

@@ -1,5 +1,5 @@
 ---
-name: thought.WHISPER OF HOPE
+name: "thought.WHISPER OF HOPE"
 alias: "Thought: Whisper Of Hope"
 type: THOUGHT
 en_content: When your mind says "Give up," Hope whispers "One more try!"
@@ -11,9 +11,8 @@ tags:
   - encouragement
   - resilience
 level: 3
-neo4j: true
+neo4j: false
 ptopic: "[[topic-ATTITUDE]]"
-insert: true
 ---
 
 ```Cypher

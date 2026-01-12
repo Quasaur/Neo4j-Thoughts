@@ -1,5 +1,5 @@
 ---
-name: thought.GETTING VS BEING
+name: "thought.GETTING VS BEING"
 alias: "Thought: Getting Vs Being"
 type: THOUGHT
 en_content: We are more concerned with GETTING more than we are BEING more.
@@ -13,7 +13,6 @@ tags:
 level: 3
 neo4j: true
 ptopic: "[[topic-WISDOM]]"
-insert: true
 ---
 
 ```Cypher

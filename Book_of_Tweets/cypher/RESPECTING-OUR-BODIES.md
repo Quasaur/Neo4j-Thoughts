@@ -1,5 +1,5 @@
 ---
-name: thought.RESPECTING OUR BODIES
+name: "thought.RESPECTING OUR BODIES"
 alias: "Thought: Respecting Our Bodies"
 type: THOUGHT
 en_content: We don't respect our own bodies yet we want others to respect us!
@@ -11,9 +11,8 @@ tags:
   - character
   - integrity
 level: 3
-neo4j: true
+neo4j: false
 ptopic: "[[topic-ATTITUDE]]"
-insert: true
 ---
 
 ```Cypher

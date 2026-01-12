@@ -1,5 +1,5 @@
 ---
-name: thought.HONESTY THROUGH LOVE
+name: "thought.HONESTY THROUGH LOVE"
 alias: "Thought: Honesty Through Love"
 type: THOUGHT
 en_content: When you know God loves you, it's easier to be honest about your faults.
@@ -13,7 +13,6 @@ tags:
 level: 3
 neo4j: true
 ptopic: "[[topic-LOVE]]"
-insert: true
 ---
 
 ```Cypher

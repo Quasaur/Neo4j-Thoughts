@@ -13,7 +13,6 @@ tags:
 level: 5
 neo4j: true
 ptopic: 
-insert: true
 ---
 
 ```Cypher

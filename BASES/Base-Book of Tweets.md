@@ -13,10 +13,9 @@ views:
       direction: ASC
     order:
       - file.name
-      - file.path
       - name
       - parent
-      - insert
+      - neo4j
       - level
       - ptopic
       - en_content

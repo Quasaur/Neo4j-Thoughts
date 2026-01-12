@@ -1,5 +1,5 @@
 ---
-name: thought.ESSENCE OF JOY
+name: "thought.ESSENCE OF JOY"
 alias: "Thought: Essence Of Joy"
 type: THOUGHT
 en_content: The essence of Joy is to discover that God is more wonderful, more great and more important than I.
@@ -11,9 +11,8 @@ tags:
   - discovery
   - attitude
 level: 3
-neo4j: true
+neo4j: false
 ptopic: "[[topic-ATTITUDE]]"
-insert: true
 ---
 
 ```Cypher
