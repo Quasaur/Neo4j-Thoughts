@@ -11,7 +11,7 @@ tags:
 - redemption
 - jesus
 level: 1
-neo4j: true
+neo4j: false
 ptopic: 
 ---
 

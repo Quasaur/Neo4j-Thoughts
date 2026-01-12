@@ -11,7 +11,7 @@ tags:
 - christ
 - judgment
 level: 1
-neo4j: true
+neo4j: false
 ptopic: 
 ---
 

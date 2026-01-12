@@ -11,7 +11,7 @@ tags:
 - spirituality
 - god
 level: 2
-neo4j: true
+neo4j: false
 ptopic: 
 ---
 
