@@ -24,7 +24,7 @@ CREATE (t:THOUGHT {
     parent: "topic.MUSIC",
     tags: ["bach", "genius", "music", "gift", "transcendence"],
     notes: "",
-    level: 6
+    level: 5
 });
 
 CREATE (c:CONTENT {

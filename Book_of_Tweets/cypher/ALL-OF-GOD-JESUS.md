@@ -24,7 +24,7 @@ CREATE (t:THOUGHT {
     parent: "topic.THE GODHEAD",
     tags: ['jesus', 'christ', 'fullness', 'divinity', 'god'],
     notes: "",
-    level: 1
+    level: 2
 });
 
 CREATE (c:CONTENT {

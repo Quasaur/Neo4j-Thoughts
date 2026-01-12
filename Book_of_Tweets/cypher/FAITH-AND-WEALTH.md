@@ -10,7 +10,7 @@ tags:
 - spiritual_riches
 - provision
 - belief
-level: 3
+level: 4
 neo4j: true
 ptopic: 
 insert: true
@@ -24,7 +24,7 @@ CREATE (t:THOUGHT {
     parent: "topic.FAITH",
     tags: ["faith", "wealth", "spiritual_riches", "provision", "belief"],
     notes: "",
-    level: 3
+    level: 4
 });
 
 CREATE (c:CONTENT {

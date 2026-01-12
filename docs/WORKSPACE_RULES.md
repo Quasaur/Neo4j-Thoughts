@@ -6,6 +6,15 @@ This document contains critical rules and conventions that must be followed at a
 
 ---
 
+## AI Assistant Tools
+
+### Git Operations
+- **USE**: VSCode native Source Control & GitLens extension
+- **METHOD**: Run git commands via `run_in_terminal` tool
+- **DO NOT USE**: GitKraken MCP tools
+
+---
+
 ## Neo4j Hierarchy & Level Rules
 
 ### Level Assignment

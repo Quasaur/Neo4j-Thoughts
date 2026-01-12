@@ -10,7 +10,7 @@ tags:
 - humor
 - contagious
 - aesthetics
-level: 6
+level: 5
 neo4j: true
 ptopic: 
 insert: true
@@ -24,7 +24,7 @@ CREATE (t:THOUGHT {
     parent: "topic.BEAUTY",
     tags: ['beauty', 'language', 'humor', 'contagious', 'aesthetics'],
     notes: "",
-    level: 6
+    level: 5
 });
 
 CREATE (c:CONTENT {

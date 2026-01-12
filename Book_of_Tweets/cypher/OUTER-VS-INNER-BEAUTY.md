@@ -10,7 +10,7 @@ tags:
 - appearance
 - aesthetics
 - holiness
-level: 6
+level: 5
 neo4j: true
 ptopic: 
 insert: true
@@ -24,7 +24,7 @@ CREATE (t:THOUGHT {
     parent: "topic.BEAUTY",
     tags: ['beauty', 'character', 'appearance', 'aesthetics', 'holiness'],
     notes: "",
-    level: 6
+    level: 5
 });
 
 CREATE (c:CONTENT {

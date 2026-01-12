@@ -10,7 +10,7 @@ tags:
 - media
 - attitude
 - failure
-level: 2
+level: 3
 neo4j: true
 ptopic: 
 insert: true
@@ -24,7 +24,7 @@ CREATE (t:THOUGHT {
     parent: "topic.ATTITUDE",
     tags: ['violence', 'society', 'media', 'attitude', 'failure'],
     notes: "",
-    level: 2
+    level: 3
 });
 
 CREATE (c:CONTENT {

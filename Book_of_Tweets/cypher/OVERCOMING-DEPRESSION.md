@@ -10,7 +10,7 @@ tags:
 - persistence
 - psychology
 - hope
-level: 3
+level: 4
 neo4j: true
 ptopic: 
 insert: true
@@ -24,7 +24,7 @@ CREATE (t:THOUGHT {
     parent: "topic.PSYCHOLOGY",
     tags: ['depression', 'healing', 'persistence', 'psychology', 'hope'],
     notes: "",
-    level: 3
+    level: 4
 });
 
 CREATE (c:CONTENT {

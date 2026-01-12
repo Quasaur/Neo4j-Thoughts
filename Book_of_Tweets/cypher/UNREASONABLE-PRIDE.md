@@ -10,7 +10,7 @@ tags:
 - reason
 - character
 - arrogance
-level: 2
+level: 3
 neo4j: true
 ptopic: 
 insert: true
@@ -24,7 +24,7 @@ CREATE (t:THOUGHT {
     parent: "topic.ATTITUDE",
     tags: ['pride', 'attitude', 'reason', 'character', 'arrogance'],
     notes: "",
-    level: 2
+    level: 3
 });
 
 CREATE (c:CONTENT {

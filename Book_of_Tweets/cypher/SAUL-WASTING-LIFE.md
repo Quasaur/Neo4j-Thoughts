@@ -10,7 +10,7 @@ tags:
 - relationship
 - god
 - waste
-level: 3
+level: 4
 neo4j: true
 ptopic: 
 insert: true
@@ -24,7 +24,7 @@ CREATE (t:THOUGHT {
     parent: "topic.RELIGION",
     tags: ['saul', 'david', 'relationship', 'god', 'waste'],
     notes: "",
-    level: 3
+    level: 4
 });
 
 CREATE (c:CONTENT {
