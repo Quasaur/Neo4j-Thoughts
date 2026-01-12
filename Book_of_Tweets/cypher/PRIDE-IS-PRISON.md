@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.PRIDE IS PRISON",
     en_title: "Pride Is Prison",
     en_content: "Pride is a prison, and Unconditional Love the only Liberator.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "El Orgullo Es Prisión",
+    es_content: "El orgullo es una prisión, y el Amor Incondicional el único Libertador.",
+    fr_title: "L'Orgueil Est Prison",
+    fr_content: "L'orgueil est une prison, et l'Amour Inconditionnel le seul Libérateur.",
+    hi_title: "अहंकार कारागार है",
+    hi_content: "अहंकार एक कारागार है, और निःशर्त प्रेम ही एकमात्र मुक्तिदाता है।",
+    zh_title: "Jiāo'ào Shì Jiānyù",
+    zh_content: "Jiāo'ào shì yīzuò jiānyù, ér Wútiáojiàn de Ài shì wéiyī de Jiětuō zhě."
 });
 
 MATCH (t:THOUGHT)

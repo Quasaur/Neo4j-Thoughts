@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.FAILURE TO SUCCESS",
     en_title: "Failure To Success",
     en_content: "God can love any failure into a success.",
-    es_title: "TITULO",
-    es_content: "CONTENIDO",
-    fr_title: "TITRE",
-    fr_content: "CONTENU",
-    hi_title: "SHIRSHAK",
-    hi_content: "SAMAGRI",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Fracaso al éxito",
+    es_content: "Dios puede convertir cualquier fracaso en un éxito.",
+    fr_title: "Échec du succès",
+    fr_content: "Dieu peut transformer n’importe quel échec en succès.",
+    hi_title: "असफलता से सफलता",
+    hi_content: "ईश्वर किसी भी असफलता को सफलता में बदल सकता है।",
+    zh_title: "失败到成功",
+    zh_content: "神可以爱任何失败，使之成功。"
 });
 
 MATCH (t:THOUGHT)

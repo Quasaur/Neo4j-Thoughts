@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.UNREASONABLE PRIDE",
     en_title: "Unreasonable Pride",
     en_content: "Self Pride is always unreasonable.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Orgullo Irrazonable",
+    es_content: "El orgullo propio siempre es irrazonable.",
+    fr_title: "Orgueil Déraisonnable",
+    fr_content: "L'orgueil de soi est toujours déraisonnable.",
+    hi_title: "अनुचित गर्व",
+    hi_content: "स्वयं का गर्व हमेशा अनुचित होता है।",
+    zh_title: "Bu He Li De Jiao Ao",
+    zh_content: "Zi Wo Jiao Ao Zong Shi Bu He Li De."
 });
 
 MATCH (t:THOUGHT)

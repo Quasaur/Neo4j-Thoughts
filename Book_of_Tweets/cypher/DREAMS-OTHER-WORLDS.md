@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.DREAMS OTHER WORLDS",
     en_title: "Dreams Other Worlds",
     en_content: "What if dreams were peeks into another life...on another planet ...in another galaxy very similar to ours?",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Sueños de Otros Mundos",
+    es_content: "¿Qué pasaría si los sueños fueran vistazos a otra vida... en otro planeta... en otra galaxia muy similar a la nuestra?",
+    fr_title: "Rêves d'Autres Mondes",
+    fr_content: "Et si les rêves étaient des aperçus d'une autre vie... sur une autre planète... dans une autre galaxie très similaire à la nôtre ?",
+    hi_title: "स्वप्न अन्य संसार",
+    hi_content: "क्या होगा अगर स्वप्न किसी अन्य जीवन की झलकियां होते... किसी अन्य ग्रह पर... किसी अन्य आकाशगंगा में जो हमारी आकाशगंगा के समान होती?",
+    zh_title: "Meng Jing Qi Ta Shi Jie",
+    zh_content: "Ru guo meng jing shi dui ling yi zhong sheng huo de kui shi... zai ling yi ge xing qiu shang... zai ling yi ge yu wo men hen xiang si de yin he xi zhong, na hui zen me yang?"
 });
 
 MATCH (t:THOUGHT)

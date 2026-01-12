@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.TRUTH EXPOSES LIES",
     en_title: "Truth Exposes Lies",
     en_content: "Truth is dangerous because it exposes lies that people believe to be true; and many would rather kill Truth than abandon their lies.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "La Verdad Expone las Mentiras",
+    es_content: "La Verdad es peligrosa porque expone las mentiras que las personas creen que son verdaderas; y muchos preferirían matar a la Verdad antes que abandonar sus mentiras.",
+    fr_title: "La Vérité Expose les Mensonges",
+    fr_content: "La Vérité est dangereuse parce qu'elle expose les mensonges que les gens croient être vrais ; et beaucoup préféreraient tuer la Vérité plutôt que d'abandonner leurs mensonges.",
+    hi_title: "सत्य झूठ को उजागर करता है",
+    hi_content: "सत्य खतरनाक है क्योंकि यह उन झूठों को उजागर करता है जिन्हें लोग सच मानते हैं; और कई लोग अपने झूठ छोड़ने के बजाय सत्य को मार देना पसंद करेंगे।",
+    zh_title: "Zhēnlǐ Jiēlù Huǎngyán",
+    zh_content: "Zhēnlǐ shì wēixiǎn de, yīnwèi tā jiēlù le rénmen xiāngxìn shì zhēnshí de huǎngyán; érqiě xǔduō rén nìngyuàn shāsǐ Zhēnlǐ yě bùyuàn fàngqì tāmen de huǎngyán."
 });
 
 MATCH (t:THOUGHT)

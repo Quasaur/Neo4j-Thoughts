@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.PERFECT PEOPLE CRITICISM",
     en_title: "Perfect People Criticism",
     en_content: "Have you ever noticed that perfect people don't respond well to criticism?",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Crítica a las Personas Perfectas",
+    es_content: "¿Alguna vez has notado que las personas perfectas no responden bien a las críticas?",
+    fr_title: "Critique des Personnes Parfaites",
+    fr_content: "Avez-vous déjà remarqué que les personnes parfaites ne répondent pas bien aux critiques ?",
+    hi_title: "पूर्ण लोगों की आलोचना",
+    hi_content: "क्या आपने कभी देखा है कि पूर्ण लोग आलोचना का अच्छा जवाब नहीं देते?",
+    zh_title: "Wanmei de Ren de Piping",
+    zh_content: "Ni you mei you zhuyi dao wanmei de ren dui piping fan ying bu hao?"
 });
 
 MATCH (t:THOUGHT)

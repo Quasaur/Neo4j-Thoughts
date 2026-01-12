@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.I NEED GOD",
     en_title: "I Need God",
     en_content: "Revelation 20:11, 12: I don't need a universe to exist; I just need God.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Necesito a Dios",
+    es_content: "Apocalipsis 20:11, 12: No necesito que exista un universo; solo necesito a Dios.",
+    fr_title: "J'ai Besoin de Dieu",
+    fr_content: "Apocalypse 20:11, 12: Je n'ai pas besoin qu'un univers existe; j'ai juste besoin de Dieu.",
+    hi_title: "मुझे परमेश्वर की आवश्यकता है",
+    hi_content: "प्रकाशितवाक्य 20:11, 12: मुझे ब्रह्मांड के अस्तित्व की आवश्यकता नहीं है; मुझे केवल परमेश्वर की आवश्यकता है।",
+    zh_title: "Wo Xuyao Shen",
+    zh_content: "Qishi Lu 20:11, 12: Wo bu xuyao yizou yuchou cai cunzai; wo zhi xuyao Shen."
 });
 
 MATCH (t:THOUGHT)

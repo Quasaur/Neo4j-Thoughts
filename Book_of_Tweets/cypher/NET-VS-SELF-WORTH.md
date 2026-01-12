@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.NET VS SELF WORTH",
     en_title: "Net Vs Self Worth",
     en_content: "Don't confuse net worth with self-worth.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Patrimonio Neto Vs Valor Personal",
+    es_content: "No confundas el patrimonio neto con el valor personal.",
+    fr_title: "Valeur Nette Vs Estime de Soi",
+    fr_content: "Ne confondez pas la valeur nette avec l'estime de soi.",
+    hi_title: "संपत्ति बनाम आत्म-मूल्य",
+    hi_content: "शुद्ध संपत्ति को आत्म-मूल्य के साथ भ्रमित न करें।",
+    zh_title: "Jingzichan Yu Ziwo Jiazhi",
+    zh_content: "Bu yao ba jingzichan yu ziwo jiazhi hunxiao."
 });
 
 MATCH (t:THOUGHT)

@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.UNITY IN CHRIST",
     en_title: "Unity In Christ",
     en_content: "True unity of spirit, soul, body, family, community and nation lies only in Jesus Christ.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Unidad En Cristo",
+    es_content: "La verdadera unidad del espíritu, alma, cuerpo, familia, comunidad y nación reside únicamente en Jesucristo.",
+    fr_title: "Unité En Christ",
+    fr_content: "La véritable unité de l'esprit, de l'âme, du corps, de la famille, de la communauté et de la nation ne se trouve qu'en Jésus-Christ.",
+    hi_title: "मसीह में एकता",
+    hi_content: "आत्मा, प्राण, शरीर, परिवार, समुदाय और राष्ट्र की सच्ची एकता केवल यीशु मसीह में ही निहित है।",
+    zh_title: "Zai Jidu Li De He Yi",
+    zh_content: "Ling hun, shen ti, jia ting, she qu he guo jia de zhen zheng he yi zhi cun zai yu Ye Su Ji Du zhong."
 });
 
 MATCH (t:THOUGHT)

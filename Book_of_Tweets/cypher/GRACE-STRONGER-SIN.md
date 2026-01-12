@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.GRACE STRONGER SIN",
     en_title: "Grace Stronger Sin",
     en_content: "Grace is stronger than sin, else no one could be saved. Ephesians 2:8, 9",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "La Gracia es Más Fuerte que el Pecado",
+    es_content: "La gracia es más fuerte que el pecado, de lo contrario nadie podría ser salvado. Efesios 2:8, 9",
+    fr_title: "La Grâce Plus Forte que le Péché",
+    fr_content: "La grâce est plus forte que le péché, sinon personne ne pourrait être sauvé. Éphésiens 2:8, 9",
+    hi_title: "अनुग्रह पाप से अधिक शक्तिशाली है",
+    hi_content: "अनुग्रह पाप से अधिक शक्तिशाली है, अन्यथा कोई भी उद्धार नहीं पा सकता। इफिसियों 2:8, 9",
+    zh_title: "En Dian Sheng Guo Zui E",
+    zh_content: "En dian sheng guo zui e, fou ze mei you ren neng de jiu. Yi fu suo shu 2:8, 9"
 });
 
 MATCH (t:THOUGHT)

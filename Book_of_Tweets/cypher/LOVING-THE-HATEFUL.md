@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.LOVING THE HATEFUL",
     en_title: "Loving The Hateful",
     en_content: "Loving the hateful... how does God do it? How can I do it?",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Amar a los Aborrecibles",
+    es_content: "Amar a los aborrecibles... ¿cómo lo hace Dios? ¿Cómo puedo hacerlo yo?",
+    fr_title: "Aimer Ceux Qui Haïssent",
+    fr_content: "Aimer ceux qui haïssent... comment Dieu fait-il cela ? Comment puis-je le faire ?",
+    hi_title: "घृणा करने वालों से प्रेम करना",
+    hi_content: "घृणा करने वालों से प्रेम करना... परमेश्वर यह कैसे करता है? मैं यह कैसे कर सकता हूँ?",
+    zh_title: "Ai Na Xie Ke Wu De Ren",
+    zh_content: "Ai na xie ke wu de ren... Shen shi zenme zuo dao de? Wo zenme neng zuo dao?"
 });
 
 MATCH (t:THOUGHT)

@@ -29,14 +29,14 @@ CREATE (c:CONTENT {
     name: "content.OBEDIENCE GATEWAY GROWTH",
     en_title: "Obedience Gateway Growth",
     en_content: "Obedience is the ONLY gateway to spiritual growth.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Crecimiento Puerta Obediencia",
+    es_content: "La obediencia es la ÚNICA puerta de entrada al crecimiento espiritual.",
+    fr_title: "Croissance Porte Obéissance",
+    fr_content: "L'obéissance est la SEULE porte d'entrée à la croissance spirituelle.",
+    hi_title: "आज्ञाकारिता द्वार विकास",
+    hi_content: "आज्ञाकारिता आध्यात्मिक विकास का एकमात्र द्वार है।",
+    zh_title: "Shuncong Menhu Chengzhang",
+    zh_content: "Shuncong shi lingxing chengzhang de WEIYI menhu."
 });
 
 MATCH (t:THOUGHT)

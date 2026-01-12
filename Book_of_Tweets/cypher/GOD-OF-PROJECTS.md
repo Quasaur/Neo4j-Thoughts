@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.GOD OF PROJECTS",
     en_title: "God Of Projects",
     en_content: "Jesus Christ is The God of Project Management.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Dios de Proyectos",
+    es_content: "Jesucristo es El Dios de la Gestión de Proyectos.",
+    fr_title: "Dieu des Projets",
+    fr_content: "Jésus-Christ est Le Dieu de la Gestion de Projets.",
+    hi_title: "परियोजनाओं के परमेश्वर",
+    hi_content: "यीशु मसीह परियोजना प्रबंधन के परमेश्वर हैं।",
+    zh_title: "Xiangmu de Shen",
+    zh_content: "Yesu Jidu shi Xiangmu Guanli de Shen."
 });
 
 MATCH (t:THOUGHT)

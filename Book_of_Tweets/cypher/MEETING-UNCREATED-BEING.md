@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.MEETING UNCREATED BEING",
     en_title: "Meeting Uncreated Being",
     en_content: "You haven't lived till you've met An Uncreated Being!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Encuentro con el Ser Increado",
+    es_content: "¡No has vivido hasta que has conocido a un Ser Increado!",
+    fr_title: "Rencontrer l'Être Incréé",
+    fr_content: "Tu n'as pas vécu tant que tu n'as pas rencontré un Être Incréé !",
+    hi_title: "अनुत्पन्न सत्ता से मिलना",
+    hi_content: "जब तक आपने अनुत्पन्न सत्ता से भेंट नहीं की है, तब तक आपने जीवन जिया ही नहीं है!",
+    zh_title: "Yù jiàn wú chuàng zào zhě",
+    zh_content: "Zhǐ yǒu yù jiàn le wú chuàng zào zhě, nǐ cái zhēn zhèng dì huó guò!"
 });
 
 MATCH (t:THOUGHT)

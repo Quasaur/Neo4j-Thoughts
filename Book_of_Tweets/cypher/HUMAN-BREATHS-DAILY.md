@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.HUMAN BREATHS DAILY",
     en_title: "Human Breaths Daily",
     en_content: "The average human takes 17,280-23,040 breaths per day; God is great!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Respiraciones Humanas Diarias",
+    es_content: "El ser humano promedio toma 17,280-23,040 respiraciones por día; ¡Dios es grande!",
+    fr_title: "Respirations Humaines Quotidiennes",
+    fr_content: "L'être humain moyen prend 17,280-23,040 respirations par jour ; Dieu est grand !",
+    hi_title: "मानव की दैनिक सांसें",
+    hi_content: "औसत मानव प्रतिदिन 17,280-23,040 सांसें लेता है; परमेश्वर महान है!",
+    zh_title: "Ren Lei Mei Ri De Hu Xi",
+    zh_content: "Ping Jun Mei Ge Ren Yi Tian Yao Hu Xi 17,280-23,040 Ci; Shang Di Shi Wei Da De!"
 });
 
 MATCH (t:THOUGHT)

@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.ETERNAL GRACE MERCY",
     en_title: "Eternal Grace Mercy",
     en_content: "Psalm 136: Grace, Mercy and Kindness will never be obsolete; they endure forever.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Gracia Eterna y Misericordia",
+    es_content: "Salmo 136: La Gracia, la Misericordia y la Bondad nunca quedarán obsoletas; perduran para siempre.",
+    fr_title: "Grâce Éternelle et Miséricorde",
+    fr_content: "Psaume 136: La Grâce, la Miséricorde et la Bonté ne seront jamais obsolètes; elles durent éternellement.",
+    hi_title: "शाश्वत अनुग्रह दया",
+    hi_content: "भजन संहिता 136: अनुग्रह, दया और कृपा कभी भी अप्रचलित नहीं होंगे; वे सदा के लिए बने रहते हैं।",
+    zh_title: "Yong heng en dian ci bei",
+    zh_content: "Shi pian 136: En dian, ci bei he shan liang yong yuan bu hui guo shi; ta men cun dao yong yuan."
 });
 
 MATCH (t:THOUGHT)

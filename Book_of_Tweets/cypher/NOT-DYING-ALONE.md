@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.NOT DYING ALONE",
     en_title: "Not Dying Alone",
     en_content: "God will let you die...but He will not let you die alone.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "No Morir Solo",
+    es_content: "Dios te dejará morir...pero no te dejará morir solo.",
+    fr_title: "Ne Pas Mourir Seul",
+    fr_content: "Dieu te laissera mourir...mais Il ne te laissera pas mourir seul.",
+    hi_title: "अकेले नहीं मरना",
+    hi_content: "परमेश्वर तुम्हें मरने देगा...लेकिन वह तुम्हें अकेले नहीं मरने देगा।",
+    zh_title: "Bu Gu Du Si Qu",
+    zh_content: "Shang Di hui rang ni si qu...dan Ta bu hui rang ni gu du de si qu."
 });
 
 MATCH (t:THOUGHT)

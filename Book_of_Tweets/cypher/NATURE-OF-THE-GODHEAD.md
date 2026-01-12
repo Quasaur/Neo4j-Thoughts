@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.NATURE OF THE GODHEAD",
     en_title: "Nature Of The Godhead",
     en_content: "Anyone who thinks they understand the Nature of the Godhead is a liar.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Naturaleza de la Divinidad",
+    es_content: "Cualquiera que piense que entiende la Naturaleza de la Divinidad es un mentiroso.",
+    fr_title: "Nature de la Divinité",
+    fr_content: "Quiconque pense comprendre la Nature de la Divinité est un menteur.",
+    hi_title: "ईश्वरत्व की प्रकृति",
+    hi_content: "जो कोई भी सोचता है कि वे ईश्वरत्व की प्रकृति को समझते हैं, वह झूठा है।",
+    zh_title: "Shén xìng de běn zhì",
+    zh_content: "Rèn hé rén rú guǒ rèn wéi tā men lǐ jiě Shén xìng de běn zhì, nà me tā men jiù shì shuō huǎng zhě."
 });
 
 MATCH (t:THOUGHT)

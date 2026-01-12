@@ -29,14 +29,14 @@ CREATE (c:CONTENT {
     name: "content.MAJORITY OF THREE",
     en_title: "Majority Of Three",
     en_content: "The Godhead is a Majority of Three: Their LIFE far outweighs all Death in the Cosmos...and their GOODNESS overwhelms all Evil!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Mayoría de tres",
+    es_content: "La Divinidad es una Mayoría de Tres: Su VIDA supera con creces toda Muerte en el Cosmos... ¡y su BONDAD supera todo Mal!",
+    fr_title: "Majorité de trois",
+    fr_content: "La Divinité est une majorité de trois : leur VIE dépasse de loin toute mort dans le cosmos... et leur BONTÉ submerge tout le mal !",
+    hi_title: "तीन का बहुमत",
+    hi_content: "ईश्वरत्व तीन का बहुमत है: उनका जीवन ब्रह्मांड में सभी मृत्यु से कहीं अधिक है... और उनकी अच्छाई सभी बुराईयों पर हावी हो जाती है!",
+    zh_title: "三人多数",
+    zh_content: "神性是三位多数：他们的生命远远超过宇宙中所有的死亡……他们的善良压倒了所有邪恶！"
 });
 
 MATCH (t:THOUGHT)

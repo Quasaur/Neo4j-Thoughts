@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.PURSUIT OF HAPPINESS",
     en_title: "Pursuit Of Happiness",
     en_content: "The pursuit of God is the pursuit of happiness. The pursuit of happiness is the pursuit of God.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Búsqueda de la Felicidad",
+    es_content: "La búsqueda de Dios es la búsqueda de la felicidad. La búsqueda de la felicidad es la búsqueda de Dios.",
+    fr_title: "Poursuite du Bonheur",
+    fr_content: "La poursuite de Dieu est la poursuite du bonheur. La poursuite du bonheur est la poursuite de Dieu.",
+    hi_title: "खुशी की खोज",
+    hi_content: "भगवान की खोज खुशी की खोज है। खुशी की खोज भगवान की खोज है।",
+    zh_title: "Zhuiqiu Xingfu",
+    zh_content: "Zhuiqiu Shangdi jiu shi zhuiqiu xingfu. Zhuiqiu xingfu jiu shi zhuiqiu Shangdi."
 });
 
 MATCH (t:THOUGHT)

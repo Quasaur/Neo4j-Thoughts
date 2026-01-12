@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.PRIDE OF SATAN",
     en_title: "Pride Of Satan",
     en_content: "\"I'm the center of my universe...why can't I be the center of everyone else's?\" -- The Devil",
-    es_title: "TITULO",
-    es_content: "CONTENIDO",
-    fr_title: "TITRE",
-    fr_content: "CONTENU",
-    hi_title: "SHIRSHAK",
-    hi_content: "SAMAGRI",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Orgullo de satanás",
+    es_content: "\",
+    fr_title: "Fierté de Satan",
+    fr_content: "\",
+    hi_title: "शैतान का गौरव",
+    hi_content: "\",
+    zh_title: "撒旦的骄傲",
+    zh_content: "\"
 });
 
 MATCH (t:THOUGHT)

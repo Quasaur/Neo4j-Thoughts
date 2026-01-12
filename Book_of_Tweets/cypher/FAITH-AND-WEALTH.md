@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.FAITH AND WEALTH",
     en_title: "Faith And Wealth",
     en_content: "Faith is the closest we can get to free wealth.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Fe Y Riqueza",
+    es_content: "La fe es lo más cerca que podemos llegar de la riqueza gratuita.",
+    fr_title: "Foi Et Richesse",
+    fr_content: "La foi est ce qui nous rapproche le plus de la richesse gratuite.",
+    hi_title: "विश्वास और धन",
+    hi_content: "विश्वास निःशुल्क धन के सबसे करीब हम पहुँच सकते हैं।",
+    zh_title: "Xinyang Yu Caifu",
+    zh_content: "Xinyang shi women zui jiejin mianfei caifu de fangshi."
 });
 
 MATCH (t:THOUGHT)

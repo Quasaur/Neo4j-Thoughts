@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.READY FOR ETERNITY",
     en_title: "Ready For Eternity",
     en_content: "We are all going to die; are you ready for Eternity?",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Preparados Para la Eternidad",
+    es_content: "Todos vamos a morir; ¿estás preparado para la Eternidad?",
+    fr_title: "Prêt Pour l'Éternité",
+    fr_content: "Nous allons tous mourir ; êtes-vous prêt pour l'Éternité ?",
+    hi_title: "अनंत काल के लिए तैयार",
+    hi_content: "हम सब मरने वाले हैं; क्या आप अनंत काल के लिए तैयार हैं?",
+    zh_title: "Wei Yongsheng Zuohao Zhunbei",
+    zh_content: "Women dou jiang yao siwang; ni wei yongsheng zhunbei hao le ma?"
 });
 
 MATCH (t:THOUGHT)

@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.HEAVEN WITHIN",
     en_title: "Heaven Within",
     en_content: "If Heaven isn't in us, then we can't go to Heaven.",
-    es_title: "TITULO",
-    es_content: "CONTENIDO",
-    fr_title: "TITRE",
-    fr_content: "CONTENU",
-    hi_title: "SHIRSHAK",
-    hi_content: "SAMAGRI",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "El cielo interior",
+    es_content: "Si el Cielo no está en nosotros, entonces no podemos ir al Cielo.",
+    fr_title: "Le paradis intérieur",
+    fr_content: "Si le Ciel n’est pas en nous, alors nous ne pouvons pas aller au Ciel.",
+    hi_title: "भीतर स्वर्ग",
+    hi_content: "यदि स्वर्ग हमारे अंदर नहीं है तो हम स्वर्ग में नहीं जा सकते।",
+    zh_title: "天堂之内",
+    zh_content: "如果天堂不在我们里面，那么我们就不能去天堂。"
 });
 
 MATCH (t:THOUGHT)

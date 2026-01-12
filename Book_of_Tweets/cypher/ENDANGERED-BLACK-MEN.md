@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.ENDANGERED BLACK MEN",
     en_title: "Endangered Black Men",
     en_content: "African American men have ALWAYS been the targets of genocide...we are an ENDANGERED SPECIES.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Hombres Negros en Peligro de Extinción",
+    es_content: "Los hombres afroamericanos SIEMPRE han sido objetivos de genocidio...somos una ESPECIE EN PELIGRO DE EXTINCIÓN.",
+    fr_title: "Hommes Noirs en Danger",
+    fr_content: "Les hommes afro-américains ont TOUJOURS été les cibles de génocide...nous sommes une ESPÈCE EN VOIE DE DISPARITION.",
+    hi_title: "संकटग्रस्त अश्वेत पुरुष",
+    hi_content: "अफ्रीकी अमेरिकी पुरुष हमेशा से नरसंहार के निशाने पर रहे हैं...हम एक संकटग्रस्त प्रजाति हैं।",
+    zh_title: "Binwei Heiren Nanxing",
+    zh_content: "Feizhou Yixi Meiguoren nanxing YIZHI dou shi zhongzu miesha de mubiao...women shi BINWEI WUZHONG."
 });
 
 MATCH (t:THOUGHT)

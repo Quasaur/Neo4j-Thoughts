@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.GOD HIGHER THAN TRUTH",
     en_title: "God Higher Than Truth",
     en_content: "\"There is no god higher than Truth.\" - Gandhi. \"There is no truth higher than God.\" - Mitchell",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Dios más alto que la verdad",
+    es_content: "\",
+    fr_title: "Dieu plus haut que la vérité",
+    fr_content: "\",
+    hi_title: "ईश्वर सत्य से भी ऊंचा है",
+    hi_content: "\",
+    zh_title: "神高于真理",
+    zh_content: "\"
 });
 
 MATCH (t:THOUGHT)

@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.LOVE CHANGES SINNER",
     en_title: "Love Changes Sinner",
     en_content: "It is the LOVE OF GOD that changes a sinner to a saint.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "El Amor Transforma al Pecador",
+    es_content: "Es el AMOR DE DIOS el que transforma a un pecador en un santo.",
+    fr_title: "L'Amour Transforme le Pécheur",
+    fr_content: "C'est l'AMOUR DE DIEU qui transforme un pécheur en saint.",
+    hi_title: "प्रेम पापी को बदलता है",
+    hi_content: "यह परमेश्वर का प्रेम है जो एक पापी को संत में बदलता है।",
+    zh_title: "Ài Gǎibiàn Zuìrén",
+    zh_content: "Shì Shàngdì de ài shǐ zuìrén biànchéng shèngdú."
 });
 
 MATCH (t:THOUGHT)

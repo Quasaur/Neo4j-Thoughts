@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.FULFILLING DESTINY TOGETHER",
     en_title: "Fulfilling Destiny Together",
     en_content: "I can only fulfill my destiny by assisting you in fulfilling yours.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Cumpliendo el Destino Juntos",
+    es_content: "Solo puedo cumplir mi destino ayudándote a cumplir el tuyo.",
+    fr_title: "Accomplir Notre Destinée Ensemble",
+    fr_content: "Je ne peux accomplir ma destinée qu'en t'aidant à accomplir la tienne.",
+    hi_title: "एक साथ भाग्य की पूर्ति",
+    hi_content: "मैं अपनी नियति को केवल तभी पूरा कर सकता हूँ जब मैं तुम्हारी नियति पूरी करने में तुम्हारी सहायता करूँ।",
+    zh_title: "Yìqǐ Shíxiàn Mìngyùn",
+    zh_content: "Wǒ zhǐyǒu bāngzhù nǐ shíxiàn nǐ de mìngyùn, cáinéng shíxiàn wǒ de mìngyùn."
 });
 
 MATCH (t:THOUGHT)

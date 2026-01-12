@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.SALARY VS VALUE",
     en_title: "Salary Vs Value",
     en_content: "What's more valuable: my salary or me?",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Salario Vs Valor",
+    es_content: "¿Qué es más valioso: mi salario o yo?",
+    fr_title: "Salaire Vs Valeur",
+    fr_content: "Qu'est-ce qui est plus précieux : mon salaire ou moi ?",
+    hi_title: "वेतन बनाम मूल्य",
+    hi_content: "क्या अधिक मूल्यवान है: मेरा वेतन या मैं?",
+    zh_title: "Xin Shui Yu Jia Zhi",
+    zh_content: "Shen Me Geng You Jia Zhi: Wo De Xin Shui Hai Shi Wo?"
 });
 
 MATCH (t:THOUGHT)

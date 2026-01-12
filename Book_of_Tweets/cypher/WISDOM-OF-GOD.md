@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.WISDOM OF GOD",
     en_title: "Wisdom Of God",
     en_content: "God is older, wiser, smarter, more intelligent and more powerful than you.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Sabiduría de Dios",
+    es_content: "Dios es más antiguo, más sabio, más inteligente y más poderoso que tú.",
+    fr_title: "Sagesse de Dieu",
+    fr_content: "Dieu est plus âgé, plus sage, plus intelligent et plus puissant que vous.",
+    hi_title: "ईश्वर की बुद्धि",
+    hi_content: "ईश्वर आपसे अधिक प्राचीन, अधिक बुद्धिमान, अधिक चतुर और अधिक शक्तिशाली है।",
+    zh_title: "Shàngdì de Zhìhuì",
+    zh_content: "Shàngdì bǐ nǐ gèng gǔlǎo, gèng míngzhì, gèng cōngmíng, gèng yǒu zhìhuì, gèng qiángdà."
 });
 
 MATCH (t:THOUGHT)

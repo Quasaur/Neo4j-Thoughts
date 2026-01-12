@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.UNDERSTANDING SIN HELL",
     en_title: "Understanding Sin Hell",
     en_content: "You will never understand how God feels about sin until you look into Hell.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Entendiendo el Pecado y el Infierno",
+    es_content: "Nunca entenderás cómo se siente Dios acerca del pecado hasta que mires hacia el Infierno.",
+    fr_title: "Comprendre le Péché et l'Enfer",
+    fr_content: "Tu ne comprendras jamais ce que Dieu ressent à propos du péché jusqu'à ce que tu regardes dans l'Enfer.",
+    hi_title: "पाप और नरक को समझना",
+    hi_content: "जब तक आप नरक में नहीं देखते, तब तक आप कभी नहीं समझ पाएंगे कि परमेश्वर पाप के बारे में कैसा महसूस करता है।",
+    zh_title: "Li Jie Zui Yu Di Yu",
+    zh_content: "Zhi you dang ni kan xiang di yu shi, ni cai neng li jie Shang Di dui zui de gan shou."
 });
 
 MATCH (t:THOUGHT)

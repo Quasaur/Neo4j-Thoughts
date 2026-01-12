@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.GOD SIRED CHRIST",
     en_title: "God Sired Christ",
     en_content: "God did not create Christ, He SIRED Him! That's why Jesus is called THE ONLY BEGOTTEN of the Father.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Dios Engendró a Cristo",
+    es_content: "¡Dios no creó a Cristo, Él lo ENGENDRÓ! Por eso Jesús es llamado EL UNIGÉNITO del Padre.",
+    fr_title: "Dieu a Engendré le Christ",
+    fr_content: "Dieu n'a pas créé le Christ, Il l'a ENGENDRÉ ! C'est pourquoi Jésus est appelé LE FILS UNIQUE du Père.",
+    hi_title: "परमेश्वर ने मसीह को जन्म दिया",
+    hi_content: "परमेश्वर ने मसीह को सृजित नहीं किया, उसने उसे जन्म दिया! इसीलिए यीशु को पिता का एकलौता पुत्र कहा जाता है।",
+    zh_title: "Shén shēng le Jīdū",
+    zh_content: "Shén méiyǒu chuàngzào Jīdū, Tā shēng le Tā! Zhè jiùshì wèishénme Yēsū bèi chēngwéi Fùqīn de dúshēng ér."
 });
 
 MATCH (t:THOUGHT)

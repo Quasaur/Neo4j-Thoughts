@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.RESPECT AND AFFECTION",
     en_title: "Respect And Affection",
     en_content: "Respect breeds affection.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Respeto Y Afecto",
+    es_content: "El respeto engendra afecto.",
+    fr_title: "Respect Et Affection",
+    fr_content: "Le respect engendre l'affection.",
+    hi_title: "सम्मान और स्नेह",
+    hi_content: "सम्मान स्नेह को जन्म देता है।",
+    zh_title: "Zun Zhong Yu Ai Qing",
+    zh_content: "Zun zhong zi yang ai qing."
 });
 
 MATCH (t:THOUGHT)

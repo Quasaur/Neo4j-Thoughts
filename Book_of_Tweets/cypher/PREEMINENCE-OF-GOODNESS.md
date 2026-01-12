@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.PREEMINENCE OF GOODNESS",
     en_title: "Preeminence Of Goodness",
     en_content: "That which comes first has the preeminence; righteousness came before sin and goodness came before evil.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Preeminencia de la Bondad",
+    es_content: "Lo que viene primero tiene la preeminencia; la justicia vino antes que el pecado y la bondad vino antes que el mal.",
+    fr_title: "Prééminence de la Bonté",
+    fr_content: "Ce qui vient en premier a la prééminence ; la justice est venue avant le péché et la bonté est venue avant le mal.",
+    hi_title: "भलाई की श्रेष्ठता",
+    hi_content: "जो पहले आता है उसकी श्रेष्ठता होती है; धार्मिकता पाप से पहले आई और भलाई बुराई से पहले आई।",
+    zh_title: "shan liang de shou wei",
+    zh_content: "xian lai de you shou wei; gong yi zai zui qian, shan liang zai e qian."
 });
 
 MATCH (t:THOUGHT)

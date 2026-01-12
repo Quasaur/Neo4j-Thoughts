@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.FAITH AND ACCEPTANCE",
     en_title: "Faith And Acceptance",
     en_content: "Acceptance and faith are irrevocably linked.",
-    es_title: "TITULO",
-    es_content: "CONTENIDO",
-    fr_title: "TITRE",
-    fr_content: "CONTENU",
-    hi_title: "SHIRSHAK",
-    hi_content: "SAMAGRI",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Fe y aceptación",
+    es_content: "La aceptación y la fe están irrevocablemente vinculadas.",
+    fr_title: "Foi et acceptation",
+    fr_content: "L'acceptation et la foi sont irrévocablement liées.",
+    hi_title: "आस्था और स्वीकृति",
+    hi_content: "स्वीकृति और विश्वास अपरिवर्तनीय रूप से जुड़े हुए हैं।",
+    zh_title: "信心与接受",
+    zh_content: "接受和信仰是不可撤销地联系在一起的。"
 });
 
 MATCH (t:THOUGHT)

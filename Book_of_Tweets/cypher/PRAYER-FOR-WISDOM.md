@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.PRAYER FOR WISDOM",
     en_title: "Prayer For Wisdom",
     en_content: "Lord Jesus, fill my mind with Your Wisdom; fill my heart with Your Love; fill my bowels with Your Mercy!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Oración Por Sabiduría",
+    es_content: "¡Señor Jesús, llena mi mente con Tu Sabiduría; llena mi corazón con Tu Amor; llena mis entrañas con Tu Misericordia!",
+    fr_title: "Prière Pour La Sagesse",
+    fr_content: "Seigneur Jésus, remplis mon esprit de Ta Sagesse; remplis mon cœur de Ton Amour; remplis mes entrailles de Ta Miséricorde!",
+    hi_title: "बुद्धि के लिए प्रार्थना",
+    hi_content: "प्रभु यीशु, मेरे मन को अपनी बुद्धि से भर दें; मेरे हृदय को अपने प्रेम से भर दें; मेरी अंतड़ियों को अपनी दया से भर दें!",
+    zh_title: "Qiú Zhìhuì De Qídǎo",
+    zh_content: "Zhǔ Yēsū, qǐng yòng Nǐ de Zhìhuì chōngmǎn wǒ de xīnlíng; yòng Nǐ de Ài chōngmǎn wǒ de xīn; yòng Nǐ de Císhàn chōngmǎn wǒ de féicháng!"
 });
 
 MATCH (t:THOUGHT)

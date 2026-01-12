@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.MALCOLM X TRUTH",
     en_title: "Malcolm X Truth",
     en_content: "Malcolm X loved his people enough to tell them the Truth about themselves.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "La Verdad de Malcolm X",
+    es_content: "Malcolm X amaba tanto a su gente que les dijo la Verdad acerca de sí mismos.",
+    fr_title: "La Vérité de Malcolm X",
+    fr_content: "Malcolm X aimait assez son peuple pour leur dire la Vérité sur eux-mêmes.",
+    hi_title: "मैल्कम एक्स सत्य",
+    hi_content: "मैल्कम एक्स अपने लोगों से इतना प्रेम करते थे कि उन्होंने उन्हें स्वयं के बारे में सत्य बताया।",
+    zh_title: "Mǎi'ěrkēmǔ Ài Kèsī Zhēnlǐ",
+    zh_content: "Mǎi'ěrkēmǔ Ài Kèsī ài tā de rénmín, zú yǐ gàosù tāmen guānyú zìjǐ de Zhēnlǐ."
 });
 
 MATCH (t:THOUGHT)

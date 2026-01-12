@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.LEAVING GOD OUT",
     en_title: "Leaving God Out",
     en_content: "We've left God out.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Dejando a Dios Fuera",
+    es_content: "Hemos dejado a Dios fuera.",
+    fr_title: "Laisser Dieu de Côté",
+    fr_content: "Nous avons laissé Dieu de côté.",
+    hi_title: "परमेश्वर को छोड़ना",
+    hi_content: "हमने परमेश्वर को छोड़ दिया है।",
+    zh_title: "Ba Shen Paichu Zaiwei",
+    zh_content: "Women ba Shen paichu zaiwai le."
 });
 
 MATCH (t:THOUGHT)

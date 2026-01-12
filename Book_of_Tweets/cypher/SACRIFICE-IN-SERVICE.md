@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.SACRIFICE IN SERVICE",
     en_title: "Sacrifice In Service",
     en_content: "You cannot serve God without sacrificing something of great personal value.",
-    es_title: "TITULO",
-    es_content: "CONTENIDO",
-    fr_title: "TITRE",
-    fr_content: "CONTENU",
-    hi_title: "SHIRSHAK",
-    hi_content: "SAMAGRI",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Sacrificio en servicio",
+    es_content: "No se puede servir a Dios sin sacrificar algo de gran valor personal.",
+    fr_title: "Sacrifice en service",
+    fr_content: "Vous ne pouvez pas servir Dieu sans sacrifier quelque chose de grande valeur personnelle.",
+    hi_title: "सेवा में बलिदान",
+    hi_content: "आप महान व्यक्तिगत मूल्य की किसी चीज़ का त्याग किए बिना भगवान की सेवा नहीं कर सकते।",
+    zh_title: "服务牺牲",
+    zh_content: "如果不牺牲一些具有重大个人价值的东西，你就无法事奉上帝。"
 });
 
 MATCH (t:THOUGHT)

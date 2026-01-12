@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.NUTRITION MUSCLE ACHES",
     en_title: "Nutrition Muscle Aches",
     en_content: "Nutrition: Muscle aches may benefit from the following: Astaxanthin, Calcium, Magnesium, Bromelain, Creatine.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Dolores musculares",
+    es_content: "Nutrición: Los dolores musculares pueden beneficiarse de lo siguiente: astaxantina, calcio, magnesio, bromelina y creatina.",
+    fr_title: "Douleurs musculaires",
+    fr_content: "Nutrition : Les douleurs musculaires peuvent bénéficier des éléments suivants : Astaxanthine, Calcium, Magnésium, Bromélaïne, Créatine.",
+    hi_title: "पोषण मांसपेशियों में दर्द",
+    hi_content: "पोषण: मांसपेशियों के दर्द में निम्नलिखित से लाभ हो सकता है: एस्टैक्सैन्थिन, कैल्शियम, मैग्नीशियम, ब्रोमेलैन, क्रिएटिन।",
+    zh_title: "营养肌肉酸痛",
+    zh_content: "营养：肌肉疼痛可能受益于以下物质：虾青素、钙、镁、菠萝蛋白酶、肌酸。"
 });
 
 MATCH (t:THOUGHT)

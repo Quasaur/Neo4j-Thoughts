@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.UNFORGIVABLE SIN",
     en_title: "Unforgivable Sin",
     en_content: "What is the Unforgiveable Sin? Unforgiveness.",
-    es_title: "TITULO",
-    es_content: "CONTENIDO",
-    fr_title: "TITRE",
-    fr_content: "CONTENU",
-    hi_title: "SHIRSHAK",
-    hi_content: "SAMAGRI",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Pecado imperdonable",
+    es_content: "¿Cuál es el pecado imperdonable?Falta de perdón.",
+    fr_title: "Péché impardonnable",
+    fr_content: "Quel est le péché impardonnable ?Le manque de pardon.",
+    hi_title: "अक्षम्य पाप",
+    hi_content: "अक्षम्य पाप क्या है?क्षमा न करना।",
+    zh_title: "不可饶恕的罪孽",
+    zh_content: "什么是不可饶恕的罪？不宽恕。"
 });
 
 MATCH (t:THOUGHT)

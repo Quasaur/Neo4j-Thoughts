@@ -29,14 +29,14 @@ CREATE (c:CONTENT {
     name: "content.SEAT OF POWER",
     en_title: "Seat Of Power",
     en_content: "The Seat of True Power is in Heaven, where the Christ patiently waits for His Daddy to turn His Enemies into His footrest.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Sede del Poder",
+    es_content: "La Sede del Verdadero Poder está en el Cielo, donde Cristo espera pacientemente a que Su Padre convierta a Sus Enemigos en Su estrado.",
+    fr_title: "Siège du Pouvoir",
+    fr_content: "Le Siège du Vrai Pouvoir est au Ciel, où le Christ attend patiemment que Son Père transforme Ses Ennemis en Son marchepied.",
+    hi_title: "शक्ति का सिंहासन",
+    hi_content: "सच्ची शक्ति का सिंहासन स्वर्ग में है, जहाँ मसीह धैर्य से प्रतीक्षा करता है कि उसके पिता उसके शत्रुओं को उसकी चरण-पीठिका बना दें।",
+    zh_title: "Quánlì zhī Zuò",
+    zh_content: "Zhēnzhèng Quánlì zhī Zuò zài Tiāntáng, Jīdū zài nàlǐ nàixīn děngdài Tā de Tiānfù bǎ Tā de Dírén biànchéng Tā de jiǎodèng."
 });
 
 MATCH (t:THOUGHT)

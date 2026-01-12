@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.SUPPRESSING THE BIBLE",
     en_title: "Suppressing The Bible",
     en_content: "Where Satan cannot suppress the distribution of the Bible he has convinced the population to stay away from it.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Suprimiendo La Biblia",
+    es_content: "Donde Satanás no puede suprimir la distribución de la Biblia, ha convencido a la población para que se mantenga alejada de ella.",
+    fr_title: "Supprimer La Bible",
+    fr_content: "Là où Satan ne peut pas supprimer la distribution de la Bible, il a convaincu la population de s'en tenir à l'écart.",
+    hi_title: "बाइबल का दमन",
+    hi_content: "जहाँ शैतान बाइबल के वितरण को दबा नहीं सकता, वहाँ उसने जनसंख्या को इससे दूर रहने के लिए राजी कर लिया है।",
+    zh_title: "Yayi Shengjing",
+    zh_content: "Zai Sadan wufa yayi Shengjing faxing de difang, ta shuofu renmin yuan li Shengjing."
 });
 
 MATCH (t:THOUGHT)

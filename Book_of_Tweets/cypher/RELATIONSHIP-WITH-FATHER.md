@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.RELATIONSHIP WITH FATHER",
     en_title: "Relationship With Father",
     en_content: "The Gospel: Jesus Christ has given us His Relationship with The Father!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Relación con el Padre",
+    es_content: "El Evangelio: ¡Jesucristo nos ha dado Su Relación con el Padre!",
+    fr_title: "Relation avec le Père",
+    fr_content: "L'Évangile : Jésus-Christ nous a donné Sa Relation avec le Père !",
+    hi_title: "पिता के साथ रिश्ता",
+    hi_content: "सुसमाचार: यीशु मसीह ने हमें पिता के साथ अपना रिश्ता दिया है!",
+    zh_title: "Yu Tianfu De Guanxi",
+    zh_content: "Fuyin: Yesu Jidu yi jiang Ta yu Tianfu de guanxi ci gei le women!"
 });
 
 MATCH (t:THOUGHT)

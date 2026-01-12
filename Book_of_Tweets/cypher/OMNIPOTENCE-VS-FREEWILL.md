@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.OMNIPOTENCE VS FREEWILL",
     en_title: "Omnipotence Vs Freewill",
     en_content: "Free Will exists only due to human ignorance of The Divine Omnipotence.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Omnipotencia Vs Libre Albedrío",
+    es_content: "El Libre Albedrío existe únicamente debido a la ignorancia humana de La Omnipotencia Divina.",
+    fr_title: "Omnipotence Vs Libre Arbitre",
+    fr_content: "Le Libre Arbitre n'existe qu'en raison de l'ignorance humaine de L'Omnipotence Divine.",
+    hi_title: "सर्वशक्तिमत्ता बनाम स्वतंत्र इच्छा",
+    hi_content: "स्वतंत्र इच्छा केवल दिव्य सर्वशक्तिमत्ता के मानवीय अज्ञान के कारण ही अस्तित्व में है।",
+    zh_title: "Quánnéng Vs Zìyóu Yìzhì",
+    zh_content: "Zìyóu Yìzhì jǐnjǐn yīnwèi rénlèi duì Shénshèng Quánnéng de wúzhī ér cúnzài."
 });
 
 MATCH (t:THOUGHT)

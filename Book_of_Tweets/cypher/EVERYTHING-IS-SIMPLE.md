@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.EVERYTHING IS SIMPLE",
     en_title: "Everything Is Simple",
     en_content: "To God complexity itself does not exists...everything is simple to God.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Todo Es Simple",
+    es_content: "Para Dios la complejidad en sí misma no existe...todo es simple para Dios.",
+    fr_title: "Tout Est Simple",
+    fr_content: "Pour Dieu la complexité elle-même n'existe pas...tout est simple pour Dieu.",
+    hi_title: "सब कुछ सरल है",
+    hi_content: "परमेश्वर के लिए जटिलता स्वयं अस्तित्व में नहीं है...परमेश्वर के लिए सब कुछ सरल है।",
+    zh_title: "Yiqie Dou Shi Jiandan De",
+    zh_content: "Dui yu Shangdi lai shuo, fuza xing benshen bing bu cunzai...dui yu Shangdi lai shuo yiqie dou shi jiandan de."
 });
 
 MATCH (t:THOUGHT)

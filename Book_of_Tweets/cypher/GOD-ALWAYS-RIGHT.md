@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.GOD ALWAYS RIGHT",
     en_title: "God Always Right",
     en_content: "Only God is right about everything.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Dios Siempre Tiene Razón",
+    es_content: "Solo Dios tiene razón en todo.",
+    fr_title: "Dieu a Toujours Raison",
+    fr_content: "Seul Dieu a raison en tout.",
+    hi_title: "ईश्वर हमेशा सही है",
+    hi_content: "केवल ईश्वर ही हर बात में सही है।",
+    zh_title: "Shàngdì Yǒngyuǎn Zhèngquè",
+    zh_content: "Zhǐyǒu Shàngdì duì yīqiè dōu shì zhèngquè de."
 });
 
 MATCH (t:THOUGHT)

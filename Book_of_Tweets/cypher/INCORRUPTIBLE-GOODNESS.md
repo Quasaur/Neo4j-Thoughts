@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.INCORRUPTIBLE GOODNESS",
     en_title: "Incorruptible Goodness",
     en_content: "Good is greater than evil; for the Fountain of All Good (God) has never been nor can ever be corrupted by evil.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Bondad Incorruptible",
+    es_content: "El bien es mayor que el mal; pues la Fuente de Todo Bien (Dios) nunca ha sido ni puede jamás ser corrompida por el mal.",
+    fr_title: "Bonté Incorruptible",
+    fr_content: "Le bien est plus grand que le mal ; car la Source de Tout Bien (Dieu) n'a jamais été et ne peut jamais être corrompue par le mal.",
+    hi_title: "अविनाशी भलाई",
+    hi_content: "भलाई बुराई से बड़ी है; क्योंकि समस्त भलाई का स्रोत (परमेश्वर) न कभी भ्रष्ट हुआ है और न कभी बुराई से भ्रष्ट हो सकता है।",
+    zh_title: "Bu Xiu De Shan Liang",
+    zh_content: "Shan da yu e; yin wei yi qie shan de quan yuan (Shen) cong wei ye bu neng bei e suo fu bai."
 });
 
 MATCH (t:THOUGHT)

@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.UNGRATEFUL HUMAN RACE",
     en_title: "Ungrateful Human Race",
     en_content: "What single word best describes the human race? UNGRATEFUL.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Raza Humana Ingrata",
+    es_content: "¿Qué palabra describe mejor a la raza humana? INGRATA.",
+    fr_title: "Race Humaine Ingrate",
+    fr_content: "Quel mot unique décrit le mieux la race humaine ? INGRATE.",
+    hi_title: "कृतघ्न मानव जाति",
+    hi_content: "मानव जाति का सबसे अच्छा वर्णन कौन सा एक शब्द करता है? कृतघ्न।",
+    zh_title: "Bu Gan En De Ren Lei",
+    zh_content: "Shen Me Dan Ge Ci Zui Neng Miao Shu Ren Lei? Bu Gan En."
 });
 
 MATCH (t:THOUGHT)

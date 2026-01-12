@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.NO COMPLEXITY FOR GOD",
     en_title: "No Complexity For God",
     en_content: "Ideas like \"complexity\" and \"difficulty\" don't exist for God; so He is able to make my life EASIER!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Sin Complejidad Para Dios",
+    es_content: "Ideas como \"complejidad irreducible\" fallan al no reconocer la naturaleza infinita de Dios. Lo que parece imposiblemente complejo para las mentes finitas no presenta desafío alguno para un Dios omnipotente que habló todo a la existencia.",
+    fr_title: "Aucune Complexité Pour Dieu",
+    fr_content: "Des idées comme la \"complexité irréductible\" échouent à reconnaître la nature infinie de Dieu. Ce qui semble impossiblement complexe pour les esprits finis ne présente aucun défi pour un Dieu omnipotent qui a parlé toute chose à l'existence.",
+    hi_title: "ईश्वर के लिए कोई जटिलता नहीं",
+    hi_content: "\"अपरिहार्य जटिलता\" जैसे विचार परमेश्वर की अनंत प्रकृति को पहचानने में असफल होते हैं। जो सीमित मनों के लिए असंभव रूप से जटिल लगता है, वह एक सर्वशक्तिमान परमेश्वर के लिए कोई चुनौती नहीं है जिसने सब कुछ को अस्तित्व में बोला था।",
+    zh_title: "Dui Yu Shen Mei You Fu Za Xing",
+    zh_content: "Xiang \"Bu Ke Jian Hua De Fu Za Xing\" Zhe Yang De Gai Nian Wei Neng Ren Shi Dao Shen De Wu Xian Ben Zhi. Dui Yu You Xian De Tou Nao Lai Shuo Kan Si Bu Ke Neng De Fu Za, Dui Yu Yi Ge Quan Neng De Shen Lai Shuo Que Bu Shi Tiao Zhan, Ta Shuo Hua Jiu Chuang Zao Le Wan Wu."
 });
 
 MATCH (t:THOUGHT)

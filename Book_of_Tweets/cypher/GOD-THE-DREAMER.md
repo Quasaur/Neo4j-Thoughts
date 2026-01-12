@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.GOD THE DREAMER",
     en_title: "God The Dreamer",
     en_content: "Existence is a Dream--but we're not the dreamers...God is!",
-    es_title: "TITULO",
-    es_content: "CONTENIDO",
-    fr_title: "TITRE",
-    fr_content: "CONTENU",
-    hi_title: "SHIRSHAK",
-    hi_content: "SAMAGRI",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "dios el soñador",
+    es_content: "La existencia es un sueño, pero nosotros no somos los soñadores... ¡Dios sí lo es!",
+    fr_title: "Dieu le rêveur",
+    fr_content: "L'existence est un rêve, mais nous ne sommes pas des rêveurs... Dieu l'est !",
+    hi_title: "सपने देखने वाला भगवान",
+    hi_content: "अस्तित्व एक सपना है--लेकिन हम सपने देखने वाले नहीं हैं...ईश्वर है!",
+    zh_title: "梦想家上帝",
+    zh_content: "存在是一个梦想——但我们不是梦想家……上帝才是！"
 });
 
 MATCH (t:THOUGHT)

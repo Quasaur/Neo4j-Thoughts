@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.KNOWLEDGE PROPERTY GOD",
     en_title: "Knowledge Property God",
     en_content: "Genesis 2:15, 16: Knowledge is not a right; knowledge is the property of God.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "El Conocimiento Propiedad de Dios",
+    es_content: "Génesis 2:15, 16: El conocimiento no es un derecho; el conocimiento es propiedad de Dios.",
+    fr_title: "La Connaissance Propriété de Dieu",
+    fr_content: "Genèse 2:15, 16: La connaissance n'est pas un droit; la connaissance est la propriété de Dieu.",
+    hi_title: "ज्ञान परमेश्वर की संपत्ति",
+    hi_content: "उत्पत्ति 2:15, 16: ज्ञान कोई अधिकार नहीं है; ज्ञान परमेश्वर की संपत्ति है।",
+    zh_title: "Zhishi Shu Shen De Caichan",
+    zh_content: "Chuangshiji 2:15, 16: Zhishi bushi yizhong quanli; zhishi shi Shen de caichan."
 });
 
 MATCH (t:THOUGHT)

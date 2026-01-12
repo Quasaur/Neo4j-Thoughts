@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.EVERYTHING FROM NOTHING",
     en_title: "Everything From Nothing",
     en_content: "Saying that everything came from nothing makes no sense.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Todo De La Nada",
+    es_content: "Decir que todo vino de la nada no tiene sentido.",
+    fr_title: "Tout À Partir De Rien",
+    fr_content: "Dire que tout est venu de rien n'a aucun sens.",
+    hi_title: "शून्य से सब कुछ",
+    hi_content: "यह कहना कि सब कुछ शून्य से आया है, इसका कोई अर्थ नहीं है।",
+    zh_title: "Cong Wu Zhong Lai De Yiqie",
+    zh_content: "Shuo yiqie dou cong wu zhong lai shi meiyou yiyi de."
 });
 
 MATCH (t:THOUGHT)

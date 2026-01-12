@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.UNEMPLOYMENT STATS",
     en_title: "Unemployment Stats",
     en_content: "White Unemployment : 9%...Black Unemployment : 16%.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Estadísticas de desempleo",
+    es_content: "Desempleo de blancos: 9%... Desempleo de negros: 16%.",
+    fr_title: "Statistiques du chômage",
+    fr_content: "Chômage des Blancs : 9%...Chômage des Noirs : 16%.",
+    hi_title: "बेरोज़गारी आँकड़े",
+    hi_content: "श्वेत बेरोज़गारी: 9%...काली बेरोज़गारी: 16%।",
+    zh_title: "失业统计",
+    zh_content: "白人失业率：9%...黑人失业率：16%。"
 });
 
 MATCH (t:THOUGHT)

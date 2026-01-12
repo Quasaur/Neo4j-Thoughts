@@ -29,14 +29,14 @@ CREATE (c:CONTENT {
     name: "content.PEOPLE MORE UNFORGIVING",
     en_title: "People More Unforgiving",
     en_content: "People are FAR MORE unforgiving than God.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Las Personas Más Implacables",
+    es_content: "Las personas son MUCHO MÁS implacables que Dios.",
+    fr_title: "Les Gens Plus Impitoyables",
+    fr_content: "Les gens sont BEAUCOUP PLUS impitoyables que Dieu.",
+    hi_title: "लोग अधिक निर्दयी",
+    hi_content: "लोग परमेश्वर से कहीं अधिक निर्दयी हैं।",
+    zh_title: "Rén Gèng Jiā Bù Kuān Shù",
+    zh_content: "Rén bǐ Shàng Dì yuǎn yuǎn gèng jiā bù kuān shù."
 });
 
 MATCH (t:THOUGHT)

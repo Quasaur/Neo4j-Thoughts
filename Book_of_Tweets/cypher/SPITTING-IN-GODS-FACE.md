@@ -29,14 +29,14 @@ CREATE (c:CONTENT {
     name: "content.SPITTING IN GODS FACE",
     en_title: "Spitting In Gods Face",
     en_content: "America can spit in God's Face over this gay thing if it wants to, but this is NOT going to end well for any of us.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Escupir En La Cara De Dios",
+    es_content: "Estados Unidos puede escupir en la Cara de Dios por este asunto gay si quiere, pero esto NO va a terminar bien para ninguno de nosotros.",
+    fr_title: "Cracher Au Visage De Dieu",
+    fr_content: "L'Amérique peut cracher au Visage de Dieu à cause de cette affaire gay si elle le veut, mais cela ne va PAS bien finir pour aucun d'entre nous.",
+    hi_title: "भगवान के चेहरे पर थूकना",
+    hi_content: "अमेरिका चाहे तो इस समलैंगिक मामले को लेकर भगवान के चेहरे पर थूक सकता है, लेकिन यह हम में से किसी के लिए भी अच्छा अंत नहीं होगा।",
+    zh_title: "Xiang Shangdi Lian Shang Tu Tuomo",
+    zh_content: "Meiguo ruguo xiang yinwei tongxinglian de shi xiang Shangdi lian shang tu tuomo, ta keyi zheme zuo, dan zhe dui women renhe ren lai shuo dou BU hui you hao jieguo."
 });
 
 MATCH (t:THOUGHT)

@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.GOD LOVES HOMOSEXUALS",
     en_title: "God Loves Homosexuals",
     en_content: "God loves homosexuals.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Dios Ama a los Homosexuales",
+    es_content: "Dios ama a los homosexuales.",
+    fr_title: "Dieu Aime les Homosexuels",
+    fr_content: "Dieu aime les homosexuels.",
+    hi_title: "ईश्वर समलैंगिकों से प्रेम करता है",
+    hi_content: "ईश्वर समलैंगिकों से प्रेम करता है।",
+    zh_title: "Shàngdì ài tóngxìngliàn zhě",
+    zh_content: "Shàngdì ài tóngxìngliàn zhě."
 });
 
 MATCH (t:THOUGHT)

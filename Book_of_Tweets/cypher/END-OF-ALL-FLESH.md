@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.END OF ALL FLESH",
     en_title: "End Of All Flesh",
     en_content: "\"The end of all flesh is come before Me...\" -- God",
-    es_title: "TITULO",
-    es_content: "CONTENIDO",
-    fr_title: "TITRE",
-    fr_content: "CONTENU",
-    hi_title: "SHIRSHAK",
-    hi_content: "SAMAGRI",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Fin de toda carne",
+    es_content: "\",
+    fr_title: "Fin de toute chair",
+    fr_content: "\",
+    hi_title: "सभी मांस का अंत",
+    hi_content: "\",
+    zh_title: "所有肉体的终结",
+    zh_content: "\"
 });
 
 MATCH (t:THOUGHT)

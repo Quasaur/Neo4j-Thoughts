@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.SIN TASTES GOOD",
     en_title: "Sin Tastes Good",
     en_content: "Sin is killing us; but at least it tastes good!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "El Pecado Sabe Bien",
+    es_content: "El pecado nos está matando; ¡pero al menos sabe bien!",
+    fr_title: "Le Péché a Bon Goût",
+    fr_content: "Le péché nous tue ; mais au moins il a bon goût !",
+    hi_title: "पाप का स्वाद अच्छा होता है",
+    hi_content: "पाप हमें मार रहा है; लेकिन कम से कम इसका स्वाद तो अच्छा है!",
+    zh_title: "Zuì'è De Wèidào Hěn Hǎo",
+    zh_content: "Zuì'è zhèngzài shāsǐ wǒmen; dàn zhìshǎo tā de wèidào hěn hǎo!"
 });
 
 MATCH (t:THOUGHT)

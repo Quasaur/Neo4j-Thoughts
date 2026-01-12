@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.EARTH STORMS",
     en_title: "Earth Storms",
     en_content: "Earth has about 16 million storms per year...God is Great!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Tormentas Terrestres",
+    es_content: "La Tierra tiene aproximadamente 16 millones de tormentas por año...¡Dios es Grande!",
+    fr_title: "Tempêtes Terrestres",
+    fr_content: "La Terre a environ 16 millions de tempêtes par an...Dieu est Grand !",
+    hi_title: "पृथ्वी के तूफान",
+    hi_content: "पृथ्वी पर प्रतिवर्ष लगभग 1.6 करोड़ तूफान आते हैं...परमेश्वर महान है!",
+    zh_title: "Dìqiú Fēngbào",
+    zh_content: "Dìqiú měinián dàyuē yǒu 1600 wàn cì fēngbào...Shàngdì shì wěidà de!"
 });
 
 MATCH (t:THOUGHT)

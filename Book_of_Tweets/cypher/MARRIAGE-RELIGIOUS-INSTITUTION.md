@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.MARRIAGE RELIGIOUS INSTITUTION",
     en_title: "Marriage Religious Institution",
     en_content: "Congress shall make no law regarding the practice of religion...marriage is a RELIGIOUS institution!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Matrimonio Institución Religiosa",
+    es_content: "El Congreso no hará ley alguna respecto a la práctica de la religión...¡el matrimonio es una institución RELIGIOSA!",
+    fr_title: "Mariage Institution Religieuse",
+    fr_content: "Le Congrès ne fera aucune loi concernant la pratique de la religion...le mariage est une institution RELIGIEUSE !",
+    hi_title: "विवाह धार्मिक संस्था",
+    hi_content: "कांग्रेस धर्म के अभ्यास के संबंध में कोई कानून नहीं बनाएगी...विवाह एक धार्मिक संस्था है!",
+    zh_title: "Hunyin Zongjiao Jigou",
+    zh_content: "Guohui bu de zhiding ren he guanyu zongjiao shijian de falü...hunyin shi yi ge ZONGJIAO jigou!"
 });
 
 MATCH (t:THOUGHT)

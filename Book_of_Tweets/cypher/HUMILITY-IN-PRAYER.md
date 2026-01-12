@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.HUMILITY IN PRAYER",
     en_title: "Humility In Prayer",
     en_content: "Prayer needs no Humility to be spoken, but no prayer is heard without it.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Humildad en la Oración",
+    es_content: "La oración no necesita humildad para ser pronunciada, pero ninguna oración es escuchada sin ella.",
+    fr_title: "Humilité dans la Prière",
+    fr_content: "La prière n'a pas besoin d'humilité pour être prononcée, mais aucune prière n'est entendue sans elle.",
+    hi_title: "प्रार्थना में विनम्रता",
+    hi_content: "प्रार्थना को बोलने के लिए विनम्रता की आवश्यकता नहीं है, परंतु इसके बिना कोई प्रार्थना सुनी नहीं जाती।",
+    zh_title: "Qídǎo Zhōng de Qiānbēi",
+    zh_content: "Qídǎo bù xūyào qiānbēi jiù néng shuōchū, dàn méiyǒu qiānbēi jiù méiyǒu qídǎo bèi tīngjiàn."
 });
 
 MATCH (t:THOUGHT)

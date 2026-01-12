@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.FAITH REQUIRES LOVE",
     en_title: "Faith Requires Love",
     en_content: "True Faith is impossible to achieve without LOVE.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "La Fe Requiere Amor",
+    es_content: "La Fe Verdadera es imposible de alcanzar sin AMOR.",
+    fr_title: "La Foi Exige l'Amour",
+    fr_content: "La vraie Foi est impossible à atteindre sans AMOUR.",
+    hi_title: "विश्वास के लिए प्रेम आवश्यक है",
+    hi_content: "सच्चा विश्वास प्रेम के बिना प्राप्त करना असंभव है।",
+    zh_title: "Xinyang Xuyao Ai",
+    zh_content: "Meiyou AI, zhenzheng de Xinyang shi buneng shixian de."
 });
 
 MATCH (t:THOUGHT)

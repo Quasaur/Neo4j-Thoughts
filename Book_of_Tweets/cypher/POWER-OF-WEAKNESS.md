@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.POWER OF WEAKNESS",
     en_title: "Power Of Weakness",
     en_content: "True Strength understands the Power of Weakness.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "El Poder de la Debilidad",
+    es_content: "La Verdadera Fortaleza entiende el Poder de la Debilidad.",
+    fr_title: "La Puissance de la Faiblesse",
+    fr_content: "La Vraie Force comprend la Puissance de la Faiblesse.",
+    hi_title: "दुर्बलता की शक्ति",
+    hi_content: "सच्ची शक्ति दुर्बलता की शक्ति को समझती है।",
+    zh_title: "Ruòruò zhī Lì",
+    zh_content: "Zhēn zhèng de Lìliàng míngbái Ruòruò zhī Lì."
 });
 
 MATCH (t:THOUGHT)

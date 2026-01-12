@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.EVIL NO CHANCE",
     en_title: "Evil No Chance",
     en_content: "Look at God. Evil never had a chance!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "El Mal Sin Oportunidad",
+    es_content: "¡Mira a Dios. El mal nunca tuvo oportunidad!",
+    fr_title: "Le Mal Sans Chance",
+    fr_content: "Regardez Dieu. Le mal n'a jamais eu une chance !",
+    hi_title: "बुराई का कोई अवसर नहीं",
+    hi_content: "परमेश्वर को देखिए। बुराई का कभी कोई अवसर ही नहीं था!",
+    zh_title: "È Méi Yǒu Jī Huì",
+    zh_content: "Kàn Shàng Dì. È cóng lái méi yǒu jī huì!"
 });
 
 MATCH (t:THOUGHT)

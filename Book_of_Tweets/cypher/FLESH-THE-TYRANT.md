@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.FLESH THE TYRANT",
     en_title: "Flesh The Tyrant",
     en_content: "The Flesh is a tyrant.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "La Carne El Tirano",
+    es_content: "La Carne es un tirano.",
+    fr_title: "La Chair Le Tyran",
+    fr_content: "La Chair est un tyran.",
+    hi_title: "शरीर अत्याचारी",
+    hi_content: "शरीर एक अत्याचारी है।",
+    zh_title: "Ròutǐ Bàozhǔ",
+    zh_content: "Ròutǐ shì yīgè bàozhǔ."
 });
 
 MATCH (t:THOUGHT)

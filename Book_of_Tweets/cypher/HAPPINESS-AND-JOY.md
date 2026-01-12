@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.HAPPINESS AND JOY",
     en_title: "Happiness And Joy",
     en_content: "Happiness: pleasing God. Joy: being pleased by God.",
-    es_title: "TITULO",
-    es_content: "CONTENIDO",
-    fr_title: "TITRE",
-    fr_content: "CONTENU",
-    hi_title: "SHIRSHAK",
-    hi_content: "SAMAGRI",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Felicidad y alegría",
+    es_content: "Felicidad: agradar a Dios.Alegría: agradarse a Dios.",
+    fr_title: "Bonheur et joie",
+    fr_content: "Bonheur : plaire à Dieu.Joie : être satisfait de Dieu.",
+    hi_title: "खुशी और मस्ती",
+    hi_content: "ख़ुशी: भगवान को प्रसन्न करना.ख़ुशी: भगवान से प्रसन्न होना।",
+    zh_title: "幸福与快乐",
+    zh_content: "幸福：讨神喜悦。喜乐：蒙神喜悦。"
 });
 
 MATCH (t:THOUGHT)

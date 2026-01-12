@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.PRAYER MAKES HUMAN",
     en_title: "Prayer Makes Human",
     en_content: "Prayer, above all else, is what makes me Human; without it, I'm just an animal.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "La Oración Nos Hace Humanos",
+    es_content: "La oración, por encima de todo, es lo que me hace Humano; sin ella, soy solo un animal.",
+    fr_title: "La Prière Rend Humain",
+    fr_content: "La prière, avant tout, est ce qui me rend Humain; sans elle, je ne suis qu'un animal.",
+    hi_title: "प्रार्थना मनुष्य बनाती है",
+    hi_content: "प्रार्थना, सब से बढ़कर, वह है जो मुझे मनुष्य बनाती है; इसके बिना, मैं केवल एक पशु हूँ।",
+    zh_title: "Qí dǎo shǐ rén chéng wéi rén",
+    zh_content: "Qí dǎo, gāo yú yī qiē, shì shǐ wǒ chéng wéi rén de dōng xī; méi yǒu tā, wǒ zhǐ shì yī zhī dòng wù."
 });
 
 MATCH (t:THOUGHT)

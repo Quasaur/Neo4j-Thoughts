@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.EQUALITY AT RETURN",
     en_title: "Equality At Return",
     en_content: "True economic political and social equality will never exist on Earth until Christ returns.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Igualdad en el Regreso",
+    es_content: "La verdadera igualdad económica, política y social nunca existirá en la Tierra hasta que Cristo regrese.",
+    fr_title: "Égalité au Retour",
+    fr_content: "La véritable égalité économique, politique et sociale n'existera jamais sur Terre jusqu'au retour du Christ.",
+    hi_title: "वापसी पर समानता",
+    hi_content: "जब तक मसीह वापस नहीं आएगा तब तक पृथ्वी पर सच्ची आर्थिक, राजनीतिक और सामाजिक समानता कभी अस्तित्व में नहीं आएगी।",
+    zh_title: "Gui Lai Shi De Ping Deng",
+    zh_content: "Zhen Zheng De Jing Ji Zheng Zhi He She Hui Ping Deng Yong Yuan Bu Hui Zai Di Qiu Shang Cun Zai, Zhi Dao Ji Du Fu Gui."
 });
 
 MATCH (t:THOUGHT)

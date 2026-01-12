@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.PRICE OF PRIDE",
     en_title: "Price Of Pride",
     en_content: "At what point in history did African American men decide that pride was worth the price of killing each other??",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Precio del orgullo",
+    es_content: "¿En qué momento de la historia los hombres afroamericanos decidieron que el orgullo valía el precio de matarse unos a otros?",
+    fr_title: "Le prix de la fierté",
+    fr_content: "À quel moment de l’histoire les hommes afro-américains ont-ils décidé que la fierté valait le prix à payer pour s’entre-tuer ?",
+    hi_title: "गौरव की कीमत",
+    hi_content: "इतिहास में किस मोड़ पर अफ़्रीकी-अमेरिकी पुरुषों ने निर्णय लिया कि गर्व के लिए एक-दूसरे को मारने की कीमत चुकानी होगी??",
+    zh_title: "骄傲的代价",
+    zh_content: "历史上的哪个时刻，非裔美国男人决定为了骄傲而付出互相残杀的代价？"
 });
 
 MATCH (t:THOUGHT)

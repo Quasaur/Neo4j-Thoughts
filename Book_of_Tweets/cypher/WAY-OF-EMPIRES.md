@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.WAY OF EMPIRES",
     en_title: "Way Of Empires",
     en_content: "We are going the way of the Roman Empire and the Soviet Union.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Camino de los Imperios",
+    es_content: "Vamos por el camino del Imperio Romano y la Unión Soviética.",
+    fr_title: "Voie des Empires",
+    fr_content: "Nous suivons la voie de l'Empire romain et de l'Union soviétique.",
+    hi_title: "साम्राज्यों का मार्ग",
+    hi_content: "हम रोमन साम्राज्य और सोवियत संघ के मार्ग पर चल रहे हैं।",
+    zh_title: "Diguo zhi Lu",
+    zh_content: "Women zhengzai zou Luoma Diguo he Sulian de daolu."
 });
 
 MATCH (t:THOUGHT)

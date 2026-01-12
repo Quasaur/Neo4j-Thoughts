@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.TREASURE UNDER GARBAGE",
     en_title: "Treasure Under Garbage",
     en_content: "Treasure is often hidden under garbage...be a treasure hunter!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Tesoro Bajo la Basura",
+    es_content: "El tesoro a menudo se esconde bajo la basura...¡sé un cazador de tesoros!",
+    fr_title: "Trésor Sous les Déchets",
+    fr_content: "Le trésor est souvent caché sous les déchets...soyez un chasseur de trésors !",
+    hi_title: "कचरे के नीचे खजाना",
+    hi_content: "खजाना अक्सर कचरे के नीचे छुपा होता है...खजाने का शिकारी बनो!",
+    zh_title: "La Ji Xia De Bao Zang",
+    zh_content: "Bao zang chang chang yin cang zai la ji xia...zuo yi ge bao zang lie ren!"
 });
 
 MATCH (t:THOUGHT)

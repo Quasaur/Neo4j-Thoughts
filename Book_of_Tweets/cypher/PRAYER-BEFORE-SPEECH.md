@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.PRAYER BEFORE SPEECH",
     en_title: "Prayer Before Speech",
     en_content: "It is inappropriate to speak out on what we don't pray out.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Oración Antes de Hablar",
+    es_content: "Es inapropiado hablar sobre lo que no oramos.",
+    fr_title: "Prière Avant la Parole",
+    fr_content: "Il est inapproprié de s'exprimer sur ce pour quoi nous ne prions pas.",
+    hi_title: "वाणी से पूर्व प्रार्थना",
+    hi_content: "जिस विषय पर हम प्रार्थना नहीं करते, उस पर बोलना अनुचित है।",
+    zh_title: "Yán Qián Qí Dǎo",
+    zh_content: "Duì yú wǒmen méiyǒu qídǎo guò de shìqíng, bùyí gōngkāi fāyán."
 });
 
 MATCH (t:THOUGHT)

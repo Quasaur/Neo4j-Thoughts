@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.TREATED AS FAMILY",
     en_title: "Treated As Family",
     en_content: "God has always treated me as family, whether I deserved it or not.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Tratado Como Familia",
+    es_content: "Dios siempre me ha tratado como familia, ya sea que lo mereciera o no.",
+    fr_title: "Traité Comme un Membre de la Famille",
+    fr_content: "Dieu m'a toujours traité comme un membre de la famille, que je le mérite ou non.",
+    hi_title: "परिवार की तरह व्यवहार",
+    hi_content: "परमेश्वर ने हमेशा मेरे साथ परिवार की तरह व्यवहार किया है, चाहे मैं इसके योग्य था या नहीं।",
+    zh_title: "Bèi dàng zuò jiā rén",
+    zh_content: "Wú lùn wǒ shì fǒu zhí dé, Shàng dì zǒng shì bǎ wǒ dàng zuò jiā rén duì dài."
 });
 
 MATCH (t:THOUGHT)

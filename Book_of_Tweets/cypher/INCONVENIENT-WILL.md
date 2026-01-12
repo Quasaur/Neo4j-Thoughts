@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.INCONVENIENT WILL",
     en_title: "Inconvenient Will",
     en_content: "Accomplishing God's Will is rarely convenient.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Voluntad Inconveniente",
+    es_content: "Cumplir la Voluntad de Dios rara vez es conveniente.",
+    fr_title: "Volonté Incommode",
+    fr_content: "Accomplir la Volonté de Dieu est rarement pratique.",
+    hi_title: "असुविधाजनक इच्छा",
+    hi_content: "परमेश्वर की इच्छा को पूरा करना शायद ही कभी सुविधाजनक होता है।",
+    zh_title: "Bù Biàn de Yìzhì",
+    zh_content: "Chéngjiù Shàngdì de Yìzhì hěn shǎo shì fāngbiàn de."
 });
 
 MATCH (t:THOUGHT)

@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.QUESTIONING GODS EXISTENCE",
     en_title: "Questioning Gods Existence",
     en_content: "In a perverse generation they question God's Existence, when it's their existence and survival that has a question mark behind them.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Cuestionando la Existencia de Dios",
+    es_content: "En una generación perversa cuestionan la Existencia de Dios, cuando es su existencia y supervivencia la que tiene un signo de interrogación detrás de ellas.",
+    fr_title: "Questionner l'Existence de Dieu",
+    fr_content: "Dans une génération perverse, ils questionnent l'Existence de Dieu, alors que c'est leur existence et leur survie qui ont un point d'interrogation derrière elles.",
+    hi_title: "ईश्वर के अस्तित्व पर प्रश्न उठाना",
+    hi_content: "एक भ्रष्ट पीढ़ी में वे ईश्वर के अस्तित्व पर प्रश्न उठाते हैं, जबकि उनके अस्तित्व और जीवित रहने के पीछे ही प्रश्नचिह्न लगा है।",
+    zh_title: "Zhiyi Shangdi de Cunzai",
+    zh_content: "Zai yige duoluo de shidai li, tamen zhiyi Shangdi de cunzai, dan shishi shang tamen ziji de cunzai he shengcun cai shi you wenhao de."
 });
 
 MATCH (t:THOUGHT)

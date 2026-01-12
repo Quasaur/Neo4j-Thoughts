@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.DYING FOR OWN SIN",
     en_title: "Dying For Own Sin",
     en_content: "I die--not for Adam's sin but for my own; for I was in Adam when he sinned and therefore sinned with him!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Morir Por Mi Propio Pecado",
+    es_content: "Yo muero--no por el pecado de Adán sino por el mío propio; ¡porque yo estaba en Adán cuando él pecó y por lo tanto pequé con él!",
+    fr_title: "Mourir Pour Mon Propre Péché",
+    fr_content: "Je meurs--non pour le péché d'Adam mais pour le mien; car j'étais en Adam quand il a péché et donc j'ai péché avec lui!",
+    hi_title: "अपने पाप के लिए मरना",
+    hi_content: "मैं मरता हूँ--आदम के पाप के लिए नहीं बल्कि अपने पाप के लिए; क्योंकि जब आदम ने पाप किया था तब मैं आदम में था और इसलिए मैंने उसके साथ पाप किया था!",
+    zh_title: "Wei Zi Ji De Zui Er Si",
+    zh_content: "Wo si--bu shi wei le Ya Dang de zui er shi wei le wo zi ji de zui; yin wei dang Ya Dang fan zui shi wo zai Ya Dang li mian, suo yi wo he ta yi qi fan zui le!"
 });
 
 MATCH (t:THOUGHT)

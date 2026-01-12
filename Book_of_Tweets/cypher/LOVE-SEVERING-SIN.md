@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.LOVE SEVERING SIN",
     en_title: "Love Severing Sin",
     en_content: "Only Love can separate sinners from their sins.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "El Amor Separando el Pecado",
+    es_content: "Sólo el Amor puede separar a los pecadores de sus pecados.",
+    fr_title: "L'Amour Séparant le Péché",
+    fr_content: "Seul l'Amour peut séparer les pécheurs de leurs péchés.",
+    hi_title: "प्रेम पाप को अलग करता है",
+    hi_content: "केवल प्रेम ही पापियों को उनके पापों से अलग कर सकता है।",
+    zh_title: "Ài Gēduàn Zuì'è",
+    zh_content: "Wéiyǒu Ài néng jiāng zuìrén cóng tāmen de zuì'è zhōng fēnlí."
 });
 
 MATCH (t:THOUGHT)

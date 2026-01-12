@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.WAY TO MANS EGO",
     en_title: "Way To Mans Ego",
     en_content: "The fastest way to a man's heart is not through his stomach, but his ego.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Camino Al Ego Del Hombre",
+    es_content: "El camino más rápido al corazón de un hombre no es a través de su estómago, sino de su ego.",
+    fr_title: "Chemin Vers L'Ego De L'Homme",
+    fr_content: "Le chemin le plus rapide vers le cœur d'un homme ne passe pas par son estomac, mais par son ego.",
+    hi_title: "मनुष्य के अहंकार का मार्ग",
+    hi_content: "किसी पुरुष के हृदय तक पहुँचने का सबसे तेज़ रास्ता उसके पेट से नहीं, बल्कि उसके अहंकार से होकर जाता है।",
+    zh_title: "tong xiang nan ren zi wo de dao lu",
+    zh_content: "tong wang nan ren xin ling de zui kuai tu jing bu shi tong guo ta de wei, er shi ta de zi wo."
 });
 
 MATCH (t:THOUGHT)

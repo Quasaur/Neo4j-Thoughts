@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.REMEMBERING VS LIVING PAST",
     en_title: "Remembering Vs Living Past",
     en_content: "There's no sin in remembering the past...only in trying to live in it.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Recordar Vs Vivir en el Pasado",
+    es_content: "No hay pecado en recordar el pasado...solo en tratar de vivir en él.",
+    fr_title: "Se Souvenir Vs Vivre dans le Passé",
+    fr_content: "Il n'y a pas de péché à se souvenir du passé...seulement à essayer d'y vivre.",
+    hi_title: "स्मरण बनाम अतीत में जीना",
+    hi_content: "अतीत को याद रखने में कोई पाप नहीं है...केवल उसमें जीने की कोशिश करने में है।",
+    zh_title: "Jì Yì Yǔ Huó Zài Guò Qù",
+    zh_content: "Jì zhù guò qù bìng bù shì zuì...zhǐ yǒu shì tú huó zài guò qù cái shì zuì."
 });
 
 MATCH (t:THOUGHT)

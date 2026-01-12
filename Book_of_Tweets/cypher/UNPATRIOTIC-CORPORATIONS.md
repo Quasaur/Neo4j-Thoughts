@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.UNPATRIOTIC CORPORATIONS",
     en_title: "Unpatriotic Corporations",
     en_content: "The corporation as a legal \"person\" is unpatriotic.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Corporaciones antipatrióticas",
+    es_content: "La corporación como entidad legal.",
+    fr_title: "Entreprises antipatriotiques",
+    fr_content: "La société en tant que personne morale",
+    hi_title: "देशद्रोही निगम",
+    hi_content: "एक कानूनी के रूप में निगम \",
+    zh_title: "不爱国的公司",
+    zh_content: "该公司作为一个合法的\"
 });
 
 MATCH (t:THOUGHT)

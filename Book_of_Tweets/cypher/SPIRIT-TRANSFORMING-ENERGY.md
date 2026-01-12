@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.SPIRIT TRANSFORMING ENERGY",
     en_title: "Spirit Transforming Energy",
     en_content: "SPIRIT is so powerful; He can take frozen energy and transform it into Living Energy!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Energía Transformadora del Espíritu",
+    es_content: "¡El ESPÍRITU es tan poderoso; Él puede tomar energía congelada y transformarla en Energía Viviente!",
+    fr_title: "Énergie Transformatrice de l'Esprit",
+    fr_content: "L'ESPRIT est si puissant ; Il peut prendre l'énergie figée et la transformer en Énergie Vivante !",
+    hi_title: "आत्मा की परिवर्तनकारी शक्ति",
+    hi_content: "आत्मा इतनी शक्तिशाली है; वह जमी हुई ऊर्जा को लेकर उसे जीवित ऊर्जा में बदल सकती है!",
+    zh_title: "Shèng Líng Biàn Huà Néng Liàng",
+    zh_content: "SHÈNG LÍNG rú cǐ qiáng dà; Tā kě yǐ jiāng dòng jié de néng liàng zhuǎn huà wéi Shēng Mìng Néng Liàng!"
 });
 
 MATCH (t:THOUGHT)

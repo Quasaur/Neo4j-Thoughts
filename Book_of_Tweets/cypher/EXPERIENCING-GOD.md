@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.EXPERIENCING GOD",
     en_title: "Experiencing God",
     en_content: "You don't want to live your entire life and die without experiencing God.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Experimentando a Dios",
+    es_content: "No quieres vivir toda tu vida y morir sin experimentar a Dios.",
+    fr_title: "Faire l'expérience de Dieu",
+    fr_content: "Tu ne veux pas vivre toute ta vie et mourir sans faire l'expérience de Dieu.",
+    hi_title: "ईश्वर का अनुभव",
+    hi_content: "आप अपना पूरा जीवन जीकर ईश्वर का अनुभव किए बिना मरना नहीं चाहते।",
+    zh_title: "Jīnglì Shàngdì",
+    zh_content: "Nǐ bù xiǎng zhěng gè rénshēng dōu méiyǒu jīnglì Shàngdì jiù sǐqù."
 });
 
 MATCH (t:THOUGHT)

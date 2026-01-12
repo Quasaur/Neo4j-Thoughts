@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.TRAGEDY IN CHURCH",
     en_title: "Tragedy In Church",
     en_content: "To be in church all one's life, and still go to Hell...what a tragedy!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Tragedia En La Iglesia",
+    es_content: "Estar en la iglesia toda la vida, y aún así ir al Infierno...¡qué tragedia!",
+    fr_title: "Tragédie Dans L'Église",
+    fr_content: "Être à l'église toute sa vie, et aller quand même en Enfer...quelle tragédie !",
+    hi_title: "चर्च में त्रासदी",
+    hi_content: "जीवन भर चर्च में रहना, और फिर भी नरक में जाना...कितनी त्रासदी है!",
+    zh_title: "Jiaohui Li De Beiju",
+    zh_content: "Yisheng dou zai jiaohui li, que reng ran qu diyu...zhe shi duome da de beiju!"
 });
 
 MATCH (t:THOUGHT)

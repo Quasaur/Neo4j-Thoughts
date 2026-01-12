@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.NEED FOR FAITH",
     en_title: "Need For Faith",
     en_content: "As long as there is ignorance, there will be a need for faith.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Necesidad de Fe",
+    es_content: "Mientras exista la ignorancia, habrá necesidad de fe.",
+    fr_title: "Besoin de Foi",
+    fr_content: "Tant qu'il y aura de l'ignorance, il y aura un besoin de foi.",
+    hi_title: "विश्वास की आवश्यकता",
+    hi_content: "जब तक अज्ञानता है, तब तक विश्वास की आवश्यकता रहेगी।",
+    zh_title: "Xìnyǎng de Xūyào",
+    zh_content: "Zhǐyào cúnzài wúzhī, jiù xūyào xìnyǎng."
 });
 
 MATCH (t:THOUGHT)

@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.ORDERS GIVING TAKING",
     en_title: "Orders Giving Taking",
     en_content: "I'm highly suspicious of people who can give orders but not take orders.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Dar y Recibir Órdenes",
+    es_content: "Desconfío mucho de las personas que pueden dar órdenes pero no pueden recibirlas.",
+    fr_title: "Donner et Recevoir des Ordres",
+    fr_content: "Je me méfie beaucoup des gens qui peuvent donner des ordres mais ne peuvent pas en recevoir.",
+    hi_title: "आदेश देना और लेना",
+    hi_content: "मुझे उन लोगों पर बहुत संदेह है जो आदेश दे सकते हैं लेकिन आदेश नहीं ले सकते।",
+    zh_title: "Ming Ling De Gei Yu He Jie Shou",
+    zh_content: "Wo dui nei xie neng gou xia ming ling que bu neng jie shou ming ling de ren hen you huai yi."
 });
 
 MATCH (t:THOUGHT)

@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.NATIONAL DEBT STATS",
     en_title: "National Debt Stats",
     en_content: "The National Debt: $16 TRILLION...that's $30 million every second for a year!!!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Estadísticas de deuda nacional",
+    es_content: "La Deuda Nacional: $16 TRILLONES... ¡¡¡Eso es $30 millones cada segundo durante un año!!!",
+    fr_title: "Statistiques de la dette nationale",
+    fr_content: "La dette nationale : 16 000 milliards de dollars... soit 30 millions de dollars par seconde pendant un an !!!",
+    hi_title: "राष्ट्रीय ऋण आँकड़े",
+    hi_content: "राष्ट्रीय ऋण: $16 ट्रिलियन...अर्थात् एक वर्ष के लिए प्रति सेकंड $30 मिलियन!!!",
+    zh_title: "国债统计",
+    zh_content: "国债：16万亿美元……相当于一年每秒3000万美元！！！"
 });
 
 MATCH (t:THOUGHT)

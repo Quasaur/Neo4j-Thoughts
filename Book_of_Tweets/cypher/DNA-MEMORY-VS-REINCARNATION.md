@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.DNA MEMORY VS REINCARNATION",
     en_title: "Dna Memory Vs Reincarnation",
     en_content: "Reincarnation: what if these memories are not of previous lives, but of the lives of our ancestors engraved on our spirits/DNA?",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Memoria del ADN Vs Reencarnación",
+    es_content: "Reencarnación: ¿qué tal si estos recuerdos no son de vidas anteriores, sino de las vidas de nuestros ancestros grabadas en nuestros espíritus/ADN?",
+    fr_title: "Mémoire de l'ADN Vs Réincarnation",
+    fr_content: "Réincarnation : et si ces souvenirs n'étaient pas de vies antérieures, mais des vies de nos ancêtres gravées sur nos esprits/ADN ?",
+    hi_title: "डीएनए स्मृति बनाम पुनर्जन्म",
+    hi_content: "पुनर्जन्म: क्या होगा अगर ये यादें पूर्व जन्मों की नहीं, बल्कि हमारे पूर्वजों के जीवन की हैं जो हमारी आत्मा/डीएनए पर अंकित हैं?",
+    zh_title: "DNA Ji Yi Dui Bi Lun Hui",
+    zh_content: "Lun hui: ru guo zhei xie ji yi bu shi qian shi de, er shi wo men zu xian de sheng huo ke zai wo men ling hun/DNA shang de ne?"
 });
 
 MATCH (t:THOUGHT)

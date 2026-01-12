@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.MLK MURDERED GOOD DEEDS",
     en_title: "Mlk Murdered Good Deeds",
     en_content: "Remember: Martin Luther King Jr. was murdered -- not for his crimes, but for his good deeds.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "MLK Asesinado Por Buenas Obras",
+    es_content: "Recuerda: Martin Luther King Jr. fue asesinado -- no por sus crímenes, sino por sus buenas obras.",
+    fr_title: "MLK Assassiné Pour Ses Bonnes Œuvres",
+    fr_content: "Souviens-toi : Martin Luther King Jr. a été assassiné -- non pas pour ses crimes, mais pour ses bonnes œuvres.",
+    hi_title: "एमएलके की अच्छे कर्मों के लिए हत्या",
+    hi_content: "याद रखें: मार्टिन लूथर किंग जूनियर की हत्या की गई थी -- उनके अपराधों के लिए नहीं, बल्कि उनके अच्छे कर्मों के लिए।",
+    zh_title: "MLK Bei Sha Yin Wei Shan Xing",
+    zh_content: "Ji Zhu: Ma Ding Lu De Jin Bo Shi Bei Sha Hai De -- Bu Shi Yin Wei Ta De Zui Xing, Er Shi Yin Wei Ta De Shan Xing."
 });
 
 MATCH (t:THOUGHT)

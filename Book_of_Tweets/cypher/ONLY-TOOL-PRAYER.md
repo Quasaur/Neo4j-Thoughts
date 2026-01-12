@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.ONLY TOOL PRAYER",
     en_title: "Only Tool Prayer",
     en_content: "Prayer is not our best tool; it's our ONLY tool.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "La Oración Como Única Herramienta",
+    es_content: "La oración no es nuestra mejor herramienta; es nuestra ÚNICA herramienta.",
+    fr_title: "La Prière Seul Outil",
+    fr_content: "La prière n'est pas notre meilleur outil ; c'est notre SEUL outil.",
+    hi_title: "केवल साधन प्रार्थना",
+    hi_content: "प्रार्थना हमारा सबसे अच्छा साधन नहीं है; यह हमारा एकमात्र साधन है।",
+    zh_title: "Wei Yi Gong Ju Qi Dao",
+    zh_content: "Qi dao bu shi wo men zui hao de gong ju; ta shi wo men WEI YI de gong ju."
 });
 
 MATCH (t:THOUGHT)

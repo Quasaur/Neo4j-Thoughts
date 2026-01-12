@@ -29,14 +29,14 @@ CREATE (c:CONTENT {
     name: "content.LIFE IN PRAYER",
     en_title: "Life In Prayer",
     en_content: "There is no life outside of Prayer.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Vida en Oración",
+    es_content: "No hay vida fuera de la Oración.",
+    fr_title: "Vie dans la Prière",
+    fr_content: "Il n'y a pas de vie en dehors de la Prière.",
+    hi_title: "प्रार्थना में जीवन",
+    hi_content: "प्रार्थना के बाहर कोई जीवन नहीं है।",
+    zh_title: "Qídǎo zhōng de Shēngmìng",
+    zh_content: "Méiyǒu qídǎo jiù méiyǒu shēngmìng."
 });
 
 MATCH (t:THOUGHT)

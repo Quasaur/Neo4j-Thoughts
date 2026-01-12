@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.FORGIVING OTHERS PROBLEM",
     en_title: "Forgiving Others Problem",
     en_content: "If a person has received forgiveness from God for EVERY sin, why would they have a problem forgiving anyone else?",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Problema de Perdonar a Otros",
+    es_content: "Si una persona ha recibido el perdón de Dios por CADA pecado, ¿por qué tendría problemas para perdonar a cualquier otra persona?",
+    fr_title: "Problème de Pardonner aux Autres",
+    fr_content: "Si une personne a reçu le pardon de Dieu pour CHAQUE péché, pourquoi aurait-elle un problème à pardonner à quelqu'un d'autre?",
+    hi_title: "दूसरों को क्षमा करने की समस्या",
+    hi_content: "यदि किसी व्यक्ति को परमेश्वर से हर पाप के लिए क्षमा मिली है, तो वह किसी और को क्षमा करने में समस्या क्यों करेगा?",
+    zh_title: "Kuangshu Taren Wenti",
+    zh_content: "Ruguo yi ge ren yijing cong Shangdi dedao le dui mei yi ge zuie de kuangshu, weishenme ta hai hui zai kuangshu bieren shang you wenti ne?"
 });
 
 MATCH (t:THOUGHT)

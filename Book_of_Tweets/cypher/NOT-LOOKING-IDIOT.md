@@ -29,14 +29,14 @@ CREATE (c:CONTENT {
     name: "content.NOT LOOKING IDIOT",
     en_title: "Not Looking Idiot",
     en_content: "I don't mind being an idiot, just looking like one.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "No Parecer Idiota",
+    es_content: "No me importa ser un idiota, solo parecerlo.",
+    fr_title: "Ne Pas Avoir l'Air Idiot",
+    fr_content: "Cela ne me dérange pas d'être un idiot, juste d'en avoir l'air.",
+    hi_title: "मूर्ख न दिखना",
+    hi_content: "मुझे मूर्ख होने से कोई परेशानी नहीं है, बस मूर्ख दिखने से है।",
+    zh_title: "Bu Xiang Kan Qi Lai Xiang Sha Gua",
+    zh_content: "Wo Bu Jie Yi Dang Sha Gua, Zhi Shi Bu Xiang Kan Qi Lai Xiang Sha Gua."
 });
 
 MATCH (t:THOUGHT)

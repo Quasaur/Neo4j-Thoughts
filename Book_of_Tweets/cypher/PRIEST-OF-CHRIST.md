@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.PRIEST OF CHRIST",
     en_title: "Priest Of Christ",
     en_content: "As a priest of Christ, it's my job to speak God's Word (The Holy Bible) into the planetary atmosphere.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Sacerdote de Cristo",
+    es_content: "Como sacerdote de Cristo, mi trabajo es proclamar la Palabra de Dios (La Santa Biblia) en la atmósfera planetaria.",
+    fr_title: "Prêtre du Christ",
+    fr_content: "En tant que prêtre du Christ, mon travail est de proclamer la Parole de Dieu (La Sainte Bible) dans l'atmosphère planétaire.",
+    hi_title: "मसीह के याजक",
+    hi_content: "मसीह के एक याजक के रूप में, मेरा काम परमेश्वर के वचन (पवित्र बाइबिल) को पृथ्वी के वायुमंडल में घोषित करना है।",
+    zh_title: "Jīdū de Jìsī",
+    zh_content: "Zuòwéi Jīdū de jìsī, wǒ de gōngzuò shì jiāng Shàngdì de Huà (Shèngjīng) shuō dào xíngxīng dàqìcéng zhōng."
 });
 
 MATCH (t:THOUGHT)

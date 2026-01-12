@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.GOOD STRONGER EVIL",
     en_title: "Good Stronger Evil",
     en_content: "Jesus PROVED that Good is stronger than Evil...that Righteousness is MORE POWERFUL than Sin!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "El Bien es Más Fuerte que el Mal",
+    es_content: "Jesús DEMOSTRÓ que el Bien es más fuerte que el Mal...¡que la Justicia es MÁS PODEROSA que el Pecado!",
+    fr_title: "Le Bien Plus Fort que le Mal",
+    fr_content: "Jésus a PROUVÉ que le Bien est plus fort que le Mal...que la Droiture est PLUS PUISSANTE que le Péché !",
+    hi_title: "अच्छाई बुराई से श्रेष्ठ",
+    hi_content: "यीशु ने सिद्ध किया कि अच्छाई बुराई से श्रेष्ठ है...कि धार्मिकता पाप से अधिक शक्तिशाली है!",
+    zh_title: "Shan E Sheng E",
+    zh_content: "Yesu ZHENGMING le Shan bi E geng qiangda...Gongyi bi Zuie geng you LILIANG!"
 });
 
 MATCH (t:THOUGHT)

@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.PLANETARY STARVATION",
     en_title: "Planetary Starvation",
     en_content: "There's enough resources on Planet Earth for EVERYONE...so why are people starving?!?",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Hambruna Planetaria",
+    es_content: "Hay suficientes recursos en el Planeta Tierra para TODOS...¡¿entonces por qué la gente está muriendo de hambre?!?",
+    fr_title: "Famine Planétaire",
+    fr_content: "Il y a assez de ressources sur la Planète Terre pour TOUT LE MONDE...alors pourquoi les gens meurent-ils de faim ?!?",
+    hi_title: "ग्रहीय भुखमरी",
+    hi_content: "पृथ्वी ग्रह पर सभी के लिए पर्याप्त संसाधन हैं...तो फिर लोग भूखे क्यों मर रहे हैं?!?",
+    zh_title: "Xing Qiu Ji E",
+    zh_content: "Di Qiu Shang You Zu Gou De Zi Yuan Gong Suo You Ren Shi Yong...Na Me Wei Shen Me Hai You Ren Ai E Ne?!?"
 });
 
 MATCH (t:THOUGHT)

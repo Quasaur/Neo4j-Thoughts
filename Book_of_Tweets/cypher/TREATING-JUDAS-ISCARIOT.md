@@ -29,14 +29,14 @@ CREATE (c:CONTENT {
     name: "content.TREATING JUDAS ISCARIOT",
     en_title: "Treating Judas Iscariot",
     en_content: "Do you think Jesus treated Judas Iscariot differently from the rest of the disciples?",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "El Trato a Judas Iscariote",
+    es_content: "¿Crees que Jesús trató a Judas Iscariote de manera diferente al resto de los discípulos?",
+    fr_title: "Le Traitement de Judas Iscariote",
+    fr_content: "Pensez-vous que Jésus a traité Judas Iscariote différemment du reste des disciples ?",
+    hi_title: "यहूदा इस्करियोती के साथ व्यवहार",
+    hi_content: "क्या आपको लगता है कि यीशु ने यहूदा इस्करियोती के साथ बाकी चेलों से अलग व्यवहार किया था?",
+    zh_title: "Duì Yóudà Jiālüèrén de Duìdài",
+    zh_content: "Nǐ rènwéi Yēsū duì Yóudà Jiālüèrén de duìdài yǔ qítā méntú yǒu suǒ bùtóng ma?"
 });
 
 MATCH (t:THOUGHT)

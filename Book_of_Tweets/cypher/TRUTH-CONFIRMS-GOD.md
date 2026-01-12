@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.TRUTH CONFIRMS GOD",
     en_title: "Truth Confirms God",
     en_content: "There is no truth that denies God's Existence.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "La Verdad Confirma a Dios",
+    es_content: "No hay verdad que niegue la Existencia de Dios.",
+    fr_title: "La Vérité Confirme Dieu",
+    fr_content: "Il n'y a aucune vérité qui nie l'Existence de Dieu.",
+    hi_title: "सत्य परमेश्वर की पुष्टि करता है",
+    hi_content: "कोई भी सत्य परमेश्वर के अस्तित्व से इनकार नहीं करता।",
+    zh_title: "Zhen Li Zheng Shi Shang Di",
+    zh_content: "Mei You Ren He Zhen Li Fou Ren Shang Di De Cun Zai."
 });
 
 MATCH (t:THOUGHT)

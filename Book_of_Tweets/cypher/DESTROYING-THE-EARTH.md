@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.DESTROYING THE EARTH",
     en_title: "Destroying The Earth",
     en_content: "God will destroy us for destroying the Earth (Revelation 11:18).",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Destruyendo la Tierra",
+    es_content: "Dios nos destruirá por destruir la Tierra (Apocalipsis 11:18).",
+    fr_title: "Détruire la Terre",
+    fr_content: "Dieu nous détruira pour avoir détruit la Terre (Apocalypse 11:18).",
+    hi_title: "पृथ्वी का नाश",
+    hi_content: "पृथ्वी को नष्ट करने के लिए परमेश्वर हमें नष्ट करेगा (प्रकाशितवाक्य 11:18)।",
+    zh_title: "Huimie Diqiu",
+    zh_content: "Shangdi hui yinwei women huimie diqiu er huimie women (Qishilu 11:18)."
 });
 
 MATCH (t:THOUGHT)

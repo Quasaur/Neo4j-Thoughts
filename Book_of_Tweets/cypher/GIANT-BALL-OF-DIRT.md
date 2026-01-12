@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.GIANT BALL OF DIRT",
     en_title: "Giant Ball Of Dirt",
     en_content: "We are living on a GIANT BALL OF DIRT...God is great!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Bola Gigante de Tierra",
+    es_content: "Estamos viviendo en una BOLA GIGANTE DE TIERRA...¡Dios es grande!",
+    fr_title: "Boule Géante de Terre",
+    fr_content: "Nous vivons sur une BOULE GÉANTE DE TERRE...Dieu est grand!",
+    hi_title: "मिट्टी का विशाल गोला",
+    hi_content: "हम मिट्टी के एक विशाल गोले पर रह रहे हैं...भगवान महान हैं!",
+    zh_title: "Ju Da De Tu Qiu",
+    zh_content: "Wo men sheng huo zai yi ge JU DA DE TU QIU shang...Shang Di shi wei da de!"
 });
 
 MATCH (t:THOUGHT)

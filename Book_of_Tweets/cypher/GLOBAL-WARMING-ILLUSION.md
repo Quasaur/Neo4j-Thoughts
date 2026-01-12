@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.GLOBAL WARMING ILLUSION",
     en_title: "Global Warming Illusion",
     en_content: "Do you still believe global warming is an illusion?",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Ilusión del calentamiento global",
+    es_content: "¿Sigues creyendo que el calentamiento global es una ilusión?",
+    fr_title: "Illusion du réchauffement climatique",
+    fr_content: "Pensez-vous toujours que le réchauffement climatique est une illusion ?",
+    hi_title: "ग्लोबल वार्मिंग भ्रम",
+    hi_content: "क्या आप अब भी मानते हैं कि ग्लोबल वार्मिंग एक भ्रम है?",
+    zh_title: "全球变暖错觉",
+    zh_content: "您仍然相信全球变暖只是一种幻觉吗？"
 });
 
 MATCH (t:THOUGHT)

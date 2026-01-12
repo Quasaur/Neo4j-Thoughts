@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.SEED DESIGN",
     en_title: "Seed Design",
     en_content: "Seeds are designed to know when their environment is appropriate for germination...God is Great!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Diseño de las Semillas",
+    es_content: "Las semillas están diseñadas para saber cuándo su ambiente es apropiado para la germinación...¡Dios es Grande!",
+    fr_title: "Conception des Graines",
+    fr_content: "Les graines sont conçues pour savoir quand leur environnement est approprié pour la germination...Dieu est Grand !",
+    hi_title: "बीज की रचना",
+    hi_content: "बीज इस प्रकार रचे गए हैं कि वे जान सकें कि उनका वातावरण अंकुरण के लिए उपयुक्त है...परमेश्वर महान है!",
+    zh_title: "Zhǒngzi Shèjì",
+    zh_content: "Zhǒngzi bèi shèjì dé zhīdào tāmen de huánjìng héshí shìhé fāyá...Shén shì wěidà de!"
 });
 
 MATCH (t:THOUGHT)

@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.GOD OF SCIENCE",
     en_title: "God Of Science",
     en_content: "Jesus Christ is The God of Wisdom, Knowledge, Science and Technology.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Dios de la Ciencia",
+    es_content: "Jesucristo es el Dios de la Sabiduría, el Conocimiento, la Ciencia y la Tecnología.",
+    fr_title: "Dieu de la Science",
+    fr_content: "Jésus-Christ est le Dieu de la Sagesse, de la Connaissance, de la Science et de la Technologie.",
+    hi_title: "विज्ञान के परमेश्वर",
+    hi_content: "यीशु मसीह बुद्धि, ज्ञान, विज्ञान और प्रौद्योगिकी के परमेश्वर हैं।",
+    zh_title: "Kē Xué de Shàng Dì",
+    zh_content: "Yē Sū Jī Dū shì Zhì Huì, Zhī Shi, Kē Xué hé Jì Shù de Shàng Dì."
 });
 
 MATCH (t:THOUGHT)

@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.SAYING NO TO SELF",
     en_title: "Saying No To Self",
     en_content: "Only a person who can say no to themselves can say no to the world and to the devil.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Decir No a Uno Mismo",
+    es_content: "Solo una persona que puede decirse no a sí misma puede decir no al mundo y al diablo.",
+    fr_title: "Dire Non à Soi-Même",
+    fr_content: "Seule une personne qui peut se dire non à elle-même peut dire non au monde et au diable.",
+    hi_title: "स्वयं को ना कहना",
+    hi_content: "केवल वह व्यक्ति जो स्वयं को ना कह सकता है, वही संसार और शैतान को ना कह सकता है।",
+    zh_title: "Dui Ziji Shuo Bu",
+    zh_content: "Zhiyou neng dui ziji shuo bu de ren, cai neng dui shijie he mogui shuo bu."
 });
 
 MATCH (t:THOUGHT)

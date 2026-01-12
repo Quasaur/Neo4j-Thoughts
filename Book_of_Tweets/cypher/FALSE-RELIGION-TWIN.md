@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.FALSE RELIGION TWIN",
     en_title: "False Religion Twin",
     en_content: "The Twin of Wickedness is False Religion.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Gemelo de la Religión Falsa",
+    es_content: "El Gemelo de la Maldad es la Religión Falsa.",
+    fr_title: "Jumeau de la Fausse Religion",
+    fr_content: "Le Jumeau de la Méchanceté est la Fausse Religion.",
+    hi_title: "मिथ्या धर्म का जुड़वा",
+    hi_content: "दुष्टता का जुड़वा मिथ्या धर्म है।",
+    zh_title: "Jiǎ Zōngjiào Shuāngbāotāi",
+    zh_content: "Xiéè de Shuāngbāotāi shì Jiǎ Zōngjiào."
 });
 
 MATCH (t:THOUGHT)

@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.SHERBERT AND BLOWTORCH",
     en_title: "Sherbert And Blowtorch",
     en_content: "You can't make sherbert with a blowtorch.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Sorbete y Soplete",
+    es_content: "No puedes hacer sorbete con un soplete.",
+    fr_title: "Sorbet et Chalumeau",
+    fr_content: "On ne peut pas faire du sorbet avec un chalumeau.",
+    hi_title: "शर्बत और गैस टॉर्च",
+    hi_content: "आप गैस टॉर्च से शर्बत नहीं बना सकते।",
+    zh_title: "Bing Sha He Pen Deng",
+    zh_content: "Ni bu neng yong pen deng zuo bing sha."
 });
 
 MATCH (t:THOUGHT)

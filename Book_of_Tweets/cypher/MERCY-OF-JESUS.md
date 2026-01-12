@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.MERCY OF JESUS",
     en_title: "Mercy Of Jesus",
     en_content: "Jesus is FAR MORE merciful and compassionate than you are!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Misericordia de Jesús",
+    es_content: "¡Jesús es MUCHO MÁS misericordioso y compasivo de lo que tú eres!",
+    fr_title: "Miséricorde de Jésus",
+    fr_content: "Jésus est BIEN PLUS miséricordieux et compatissant que vous ne l'êtes !",
+    hi_title: "यीशु की दया",
+    hi_content: "यीशु आपसे कहीं अधिक दयालु और करुणामय हैं!",
+    zh_title: "Yesu de Cibei",
+    zh_content: "Yesu bi ni geng jia cibei he fuyou tongqingxin!"
 });
 
 MATCH (t:THOUGHT)

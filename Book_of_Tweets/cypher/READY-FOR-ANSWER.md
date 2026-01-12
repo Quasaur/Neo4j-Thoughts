@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.READY FOR ANSWER",
     en_title: "Ready For Answer",
     en_content: "Asking a question does not mean you are ready for the answer.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Listo Para La Respuesta",
+    es_content: "Hacer una pregunta no significa que estés listo para la respuesta.",
+    fr_title: "Prêt Pour La Réponse",
+    fr_content: "Poser une question ne signifie pas que vous êtes prêt pour la réponse.",
+    hi_title: "उत्तर के लिए तैयार",
+    hi_content: "प्रश्न पूछने का मतलब यह नहीं है कि आप उत्तर के लिए तैयार हैं।",
+    zh_title: "Zhǔnbèi Hǎo Jiēshòu Dá'àn",
+    zh_content: "Tíchū wèntí bìng bù yìwèizhe nǐ yǐjīng zhǔnbèi hǎo jiēshòu dá'àn."
 });
 
 MATCH (t:THOUGHT)

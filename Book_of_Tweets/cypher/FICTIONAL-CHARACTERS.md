@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.FICTIONAL CHARACTERS",
     en_title: "Fictional Characters",
     en_content: "Compared to GOD we are all fictional characters.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Personajes Ficticios",
+    es_content: "Comparados con DIOS todos somos personajes ficticios.",
+    fr_title: "Personnages Fictifs",
+    fr_content: "Comparés à DIEU nous sommes tous des personnages fictifs.",
+    hi_title: "काल्पनिक पात्र",
+    hi_content: "परमेश्वर की तुलना में हम सभी काल्पनिक पात्र हैं।",
+    zh_title: "Xūgòu Rénwù",
+    zh_content: "Yǔ SHÀNGDÌ xiāngbǐ, wǒmen dōu shì xūgòu rénwù."
 });
 
 MATCH (t:THOUGHT)

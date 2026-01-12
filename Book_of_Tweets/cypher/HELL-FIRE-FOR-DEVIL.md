@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.HELL FIRE FOR DEVIL",
     en_title: "Hell Fire For Devil",
     en_content: "Hell Fire wasn't made by the Devil...it was made for the Devil by God.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Fuego del Infierno Para el Diablo",
+    es_content: "El Fuego del Infierno no fue hecho por el Diablo...fue hecho para el Diablo por Dios.",
+    fr_title: "Le Feu de l'Enfer Pour le Diable",
+    fr_content: "Le Feu de l'Enfer n'a pas été créé par le Diable...il a été créé pour le Diable par Dieu.",
+    hi_title: "शैतान के लिए नरक की आग",
+    hi_content: "नरक की आग शैतान द्वारा नहीं बनाई गई थी...यह परमेश्वर द्वारा शैतान के लिए बनाई गई थी।",
+    zh_title: "Wei Mo Gui De Di Yu Zhi Huo",
+    zh_content: "Di Yu Zhi Huo Bu Shi Mo Gui Zao De...Shi Shang Di Wei Mo Gui Zao De."
 });
 
 MATCH (t:THOUGHT)

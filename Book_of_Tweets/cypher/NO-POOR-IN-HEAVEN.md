@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.NO POOR IN HEAVEN",
     en_title: "No Poor In Heaven",
     en_content: "There are no poor in Heaven.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "No Hay Pobres en el Cielo",
+    es_content: "No hay pobres en el Cielo.",
+    fr_title: "Pas de Pauvres au Paradis",
+    fr_content: "Il n'y a pas de pauvres au Paradis.",
+    hi_title: "स्वर्ग में कोई गरीब नहीं",
+    hi_content: "स्वर्ग में कोई गरीब नहीं हैं।",
+    zh_title: "Tiān táng lǐ méi yǒu qióng rén",
+    zh_content: "Tiān táng lǐ méi yǒu qióng rén."
 });
 
 MATCH (t:THOUGHT)

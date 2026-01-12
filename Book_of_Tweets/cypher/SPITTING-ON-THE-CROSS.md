@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.SPITTING ON THE CROSS",
     en_title: "Spitting On The Cross",
     en_content: "Jesus has been punished for the sin you have committed against me; if I don't forgive you I have spit on The Cross of Christ.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Escupiendo En La Cruz",
+    es_content: "Jesús ha sido castigado por el pecado que has cometido contra mí; si no te perdono he escupido en La Cruz de Cristo.",
+    fr_title: "Cracher Sur La Croix",
+    fr_content: "Jésus a été puni pour le péché que tu as commis contre moi ; si je ne te pardonne pas j'ai craché sur La Croix du Christ.",
+    hi_title: "क्रूस पर थूकना",
+    hi_content: "यीशु को उस पाप के लिए दंडित किया गया है जो तुमने मेरे विरुद्ध किया है; यदि मैं तुम्हें क्षमा नहीं करता तो मैंने मसीह के क्रूस पर थूका है।",
+    zh_title: "Xiang Shizi Jia Tu Tuo",
+    zh_content: "Yesu yi wei ni dui wo fan de zui er shou dao le chengfa; ruguo wo bu yuanliang ni, wo jiu shi xiang Jidu de shizi jia tu tuo."
 });
 
 MATCH (t:THOUGHT)

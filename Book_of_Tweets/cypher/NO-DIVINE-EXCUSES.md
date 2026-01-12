@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.NO DIVINE EXCUSES",
     en_title: "No Divine Excuses",
     en_content: "God can and will forgive anything...but He will not excuse anything.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Sin Excusas Divinas",
+    es_content: "Dios puede y perdonará cualquier cosa...pero Él no excusará nada.",
+    fr_title: "Aucune Excuse Divine",
+    fr_content: "Dieu peut et pardonnera tout...mais Il n'excusera rien.",
+    hi_title: "कोई दिव्य बहाने नहीं",
+    hi_content: "परमेश्वर कुछ भी क्षमा कर सकता है और करेगा...लेकिन वह किसी चीज़ को बहाना नहीं बनाएगा।",
+    zh_title: "méi yǒu shén shèng jiè kǒu",
+    zh_content: "shàng dì néng gòu bìng qiě huì kuān shù yī qiè...dàn shì tā bù huì wèi rèn hé shì qíng zhǎo jiè kǒu."
 });
 
 MATCH (t:THOUGHT)

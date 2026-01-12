@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.SCENT OF GOD",
     en_title: "Scent Of God",
     en_content: "It is Prayer, and Prayer alone, that places the Scent of God on us.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Aroma de Dios",
+    es_content: "Es la Oración, y sólo la Oración, la que pone el Aroma de Dios sobre nosotros.",
+    fr_title: "Parfum de Dieu",
+    fr_content: "C'est la Prière, et la Prière seule, qui dépose le Parfum de Dieu sur nous.",
+    hi_title: "परमेश्वर की सुगंध",
+    hi_content: "यह प्रार्थना है, और केवल प्रार्थना ही है, जो हम पर परमेश्वर की सुगंध रखती है।",
+    zh_title: "Shén de Xiāngqì",
+    zh_content: "Zhǐ yǒu qídǎo, jǐnjǐn shì qídǎo, cáinéng shǐ wǒmen shēnshàng dàiyǒu Shén de xiāngqì."
 });
 
 MATCH (t:THOUGHT)

@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.FEAR AS BAD MOTIVE",
     en_title: "Fear As Bad Motive",
     en_content: "Fear is rarely a good motive for any action.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "El Miedo Como Mal Motivo",
+    es_content: "El miedo rara vez es un buen motivo para cualquier acción.",
+    fr_title: "La Peur Comme Mauvaise Motivation",
+    fr_content: "La peur est rarement une bonne motivation pour toute action.",
+    hi_title: "बुरी प्रेरणा के रूप में भय",
+    hi_content: "भय शायद ही कभी किसी भी कार्य के लिए एक अच्छी प्रेरणा होता है।",
+    zh_title: "Kǒngjù Zuòwéi Bùliáng Dòngjī",
+    zh_content: "Kǒngjù hěn shǎo shì rènhé xíngdòng de hǎo dòngjī."
 });
 
 MATCH (t:THOUGHT)

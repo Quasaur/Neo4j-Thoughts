@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.GODS GENIUS LOVE HATE",
     en_title: "Gods Genius Love Hate",
     en_content: "What identifies God's Genius is the ability to hate evil while simultaneously loving evil people.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "El Genio del Amor y Odio de Dios",
+    es_content: "Lo que identifica el Genio de Dios es la capacidad de odiar el mal mientras simultáneamente ama a las personas malvadas.",
+    fr_title: "Le Génie Divin d'Amour et de Haine",
+    fr_content: "Ce qui identifie le Génie de Dieu est la capacité de haïr le mal tout en aimant simultanément les personnes mauvaises.",
+    hi_title: "परमेश्वर की प्रतिभा प्रेम घृणा",
+    hi_content: "परमेश्वर की प्रतिभा की पहचान यह है कि वह बुराई से घृणा करने की क्षमता रखता है और साथ ही साथ बुरे लोगों से प्रेम भी करता है।",
+    zh_title: "Shén de Tiāncái Ài Hèn",
+    zh_content: "Shénmíng tiāncái de tèzhēng shì nénggòu hènwù è'è, tóngshí yòu ài zhe zuò'è de rén."
 });
 
 MATCH (t:THOUGHT)

@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.WEALTH DISPARITY GAP",
     en_title: "Wealth Disparity Gap",
     en_content: "Median White household wealth: $US113,000. Median Black household wealth: $US5,700. Oh yeah...life's fair!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Brecha de Disparidad de Riqueza",
+    es_content: "Riqueza mediana de hogares blancos: $US113,000. Riqueza mediana de hogares negros: $US5,700. ¡Ah sí... la vida es justa!",
+    fr_title: "Écart de Disparité de Richesse",
+    fr_content: "Richesse médiane des ménages blancs : 113 000 $US. Richesse médiane des ménages noirs : 5 700 $US. Ah oui... la vie est juste !",
+    hi_title: "धन असमानता का अंतर",
+    hi_content: "श्वेत परिवारों की औसत संपत्ति: $US113,000। अश्वेत परिवारों की औसत संपत्ति: $US5,700। अरे हाँ... जीवन न्यायसंगत है!",
+    zh_title: "Caifu Chaju Quekou",
+    zh_content: "Bairenjiating zhongwei caifu: Meiyuan 113,000 yuan. Heirenjiating zhongwei caifu: Meiyuan 5,700 yuan. Ai, shi de... shenghuo zhen gongping!"
 });
 
 MATCH (t:THOUGHT)

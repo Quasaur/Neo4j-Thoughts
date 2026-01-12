@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.MEN SHAVING CHILDREN",
     en_title: "Men Shaving Children",
     en_content: "It may be that women like us men to shave that they may treat us like children.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Hombres Afeitándose Niños",
+    es_content: "Puede ser que a las mujeres les guste que los hombres nos afeitemos para que nos traten como a niños.",
+    fr_title: "Hommes rasant des enfants",
+    fr_content: "Il se peut que les femmes aiment que nous, les hommes, nous rasions et qu'elles nous traitent comme des enfants.",
+    hi_title: "बच्चों का मुंडन करते पुरुष",
+    hi_content: "हो सकता है कि महिलाएं हम पुरुषों की तरह शेविंग करती हों ताकि वे हमारे साथ बच्चों जैसा व्यवहार करें।",
+    zh_title: "男士剃须 儿童",
+    zh_content: "也许女人喜欢我们男人刮胡子，所以她们可能会像对待孩子一样对待我们。"
 });
 
 MATCH (t:THOUGHT)

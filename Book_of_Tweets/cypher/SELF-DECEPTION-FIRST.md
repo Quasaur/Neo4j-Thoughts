@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.SELF DECEPTION FIRST",
     en_title: "Self Deception First",
     en_content: "To deceive another, you must first deceive yourself.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Primero el Autoengaño",
+    es_content: "Para engañar a otro, primero debes engañarte a ti mismo.",
+    fr_title: "L'Auto-Tromperie d'Abord",
+    fr_content: "Pour tromper autrui, il faut d'abord se tromper soi-même.",
+    hi_title: "पहले आत्म-प्रवंचना",
+    hi_content: "दूसरे को धोखा देने के लिए, पहले आपको अपने आप को धोखा देना होगा।",
+    zh_title: "Zi Qi Qian Xian",
+    zh_content: "Yao qi pian ta ren, ni bi xu xian qi pian zi ji."
 });
 
 MATCH (t:THOUGHT)

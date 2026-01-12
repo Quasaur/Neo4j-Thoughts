@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.MODERN PROPAGANDA",
     en_title: "Modern Propaganda",
     en_content: "Modern Propaganda (good vampires, pious werewolves, virtuous mediums) has perpetuated humanity's slide into Satan's occult domain.",
-    es_title: "TITULO",
-    es_content: "CONTENIDO",
-    fr_title: "TITRE",
-    fr_content: "CONTENU",
-    hi_title: "SHIRSHAK",
-    hi_content: "SAMAGRI",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Publicidad moderna",
+    es_content: "La propaganda moderna (buenos vampiros, hombres lobo piadosos, médiums virtuosos) ha perpetuado el deslizamiento de la humanidad hacia el dominio oculto de Satanás.",
+    fr_title: "Publicité moderne",
+    fr_content: "La propagande moderne (bons vampires, loups-garous pieux, médiums vertueux) a perpétué le glissement de l'humanité vers le domaine occulte de Satan.",
+    hi_title: "आधुनिक विज्ञापन",
+    hi_content: "आधुनिक प्रचार (अच्छे पिशाच, पवित्र वेयरवोल्स, अच्छे माध्यम) ने मानवता को शैतान के गुप्त क्षेत्र में धकेल दिया है।",
+    zh_title: "现代广告",
+    zh_content: "现代宣传（善良的吸血鬼、虔诚的狼人、善良的媒介）使人类永远滑入撒旦的神秘领域。"
 });
 
 MATCH (t:THOUGHT)

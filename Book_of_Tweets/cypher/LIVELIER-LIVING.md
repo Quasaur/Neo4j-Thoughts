@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.LIVELIER LIVING",
     en_title: "Livelier Living",
     en_content: "Soap makes water wetter; Jesus Christ makes living livelier!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Vivir Más Vivo",
+    es_content: "El jabón hace el agua más húmeda; ¡Jesucristo hace el vivir más vivo!",
+    fr_title: "Vivre Plus Vivant",
+    fr_content: "Le savon rend l'eau plus mouillante ; Jésus-Christ rend la vie plus vivante !",
+    hi_title: "जीवंत जीवन",
+    hi_content: "साबुन पानी को और गीला बनाता है; यीशु मसीह जीवन को और जीवंत बनाते हैं!",
+    zh_title: "Geng Huo Yue De Sheng Huo",
+    zh_content: "Fei Zao Shi Shui Geng Shi Run; Ye Su Ji Du Shi Sheng Huo Geng Huo Yue!"
 });
 
 MATCH (t:THOUGHT)

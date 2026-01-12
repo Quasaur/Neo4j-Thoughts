@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.PERISHING DEMOCRACY",
     en_title: "Perishing Democracy",
     en_content: "Government of, by and for the People is perishing from the Earth!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Democracia que Perece",
+    es_content: "¡El gobierno del pueblo, por el pueblo y para el pueblo está pereciendo de la Tierra!",
+    fr_title: "Démocratie qui Périt",
+    fr_content: "Le gouvernement du peuple, par le peuple et pour le peuple disparaît de la Terre !",
+    hi_title: "नष्ट होती लोकतंत्र",
+    hi_content: "जनता की, जनता के द्वारा और जनता के लिए सरकार पृथ्वी से नष्ट हो रही है!",
+    zh_title: "Xiaoshi de Minzhu",
+    zh_content: "Min you, min zhi, min xiang de zhengfu zheng zai cong diqiu shang xiaoshi!"
 });
 
 MATCH (t:THOUGHT)

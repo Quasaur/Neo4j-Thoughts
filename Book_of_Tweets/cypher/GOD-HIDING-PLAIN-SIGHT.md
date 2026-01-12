@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.GOD HIDING PLAIN SIGHT",
     en_title: "God Hiding Plain Sight",
     en_content: "Sure, God is hiding...in plain sight.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Dios Escondido a Plena Vista",
+    es_content: "Claro, Dios se está escondiendo...a plena vista.",
+    fr_title: "Dieu Se Cache au Grand Jour",
+    fr_content: "Bien sûr, Dieu se cache...au grand jour.",
+    hi_title: "परमेश्वर सामने छुपा हुआ है",
+    hi_content: "हाँ, परमेश्वर छुप रहा है...बिल्कुल सामने।",
+    zh_title: "Shàngdì cáng zài míngxiǎn chù",
+    zh_content: "dānggrán, Shàngdì zài duǒcáng...jiù zài míngxiǎn chù."
 });
 
 MATCH (t:THOUGHT)

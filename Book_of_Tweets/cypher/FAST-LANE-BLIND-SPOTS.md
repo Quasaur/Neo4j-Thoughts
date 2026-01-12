@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.FAST LANE BLIND SPOTS",
     en_title: "Fast Lane Blind Spots",
     en_content: "If you're living in the fast lane, watch your blind spots.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Puntos Ciegos del Carril Rápido",
+    es_content: "Si estás viviendo en el carril rápido, vigila tus puntos ciegos.",
+    fr_title: "Angles Morts de la Voie Rapide",
+    fr_content: "Si vous vivez dans la voie rapide, surveillez vos angles morts.",
+    hi_title: "तेज़ गति की अंधी जगहें",
+    hi_content: "यदि आप तेज़ गति से जीवन जी रहे हैं, तो अपनी अंधी जगहों पर ध्यान दें।",
+    zh_title: "Kuai Su Dao Shang De Si Jiao",
+    zh_content: "Ru Guo Ni Sheng Huo Zai Kuai Su Dao Shang, Yao Zhu Yi Ni De Si Jiao."
 });
 
 MATCH (t:THOUGHT)

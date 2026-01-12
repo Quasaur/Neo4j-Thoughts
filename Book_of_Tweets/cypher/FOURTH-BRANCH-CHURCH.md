@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.FOURTH BRANCH CHURCH",
     en_title: "Fourth Branch Church",
     en_content: "The true power of the Church is demonstrated by its tax-free status AND that no one's willing to ADMIT it's the 4th Branch of the U.S. Gov.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Iglesia Cuarta Rama",
+    es_content: "El verdadero poder de la Iglesia se demuestra por su estatus libre de impuestos Y que nadie está dispuesto a ADMITIR que es la 4ta Rama del Gobierno de EE.UU.",
+    fr_title: "Église Quatrième Branche",
+    fr_content: "Le vrai pouvoir de l'Église se démontre par son statut d'exemption fiscale ET que personne n'est disposé à ADMETTRE que c'est la 4ème Branche du Gouvernement américain.",
+    hi_title: "चौथी शाखा चर्च",
+    hi_content: "चर्च की वास्तविक शक्ति इसकी कर-मुक्त स्थिति से प्रदर्शित होती है और यह कि कोई भी यह स्वीकार करने को तैयार नहीं है कि यह अमेरिकी सरकार की चौथी शाखा है।",
+    zh_title: "Di Si Bu Men Jiao Hui",
+    zh_content: "Jiao Hui de zhen zheng li liang tong guo qi mian shui di wei lai zheng ming, ER QIE mei you ren yuan yi CHENG REN ta shi Mei Guo Zheng Fu de di si ge bu men."
 });
 
 MATCH (t:THOUGHT)

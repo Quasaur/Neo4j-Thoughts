@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.GOD THE RECYCLER",
     en_title: "God The Recycler",
     en_content: "God recycles.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Dios El Reciclador",
+    es_content: "Dios recicla.",
+    fr_title: "Dieu Le Recycleur",
+    fr_content: "Dieu recycle.",
+    hi_title: "परमेश्वर पुनर्चक्रणकर्ता",
+    hi_content: "परमेश्वर पुनर्चक्रण करता है।",
+    zh_title: "Shàngdì Shì Huíshōu Zhě",
+    zh_content: "Shàngdì huíshōu lìyòng."
 });
 
 MATCH (t:THOUGHT)

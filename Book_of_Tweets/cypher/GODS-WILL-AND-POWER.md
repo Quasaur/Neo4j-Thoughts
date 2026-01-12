@@ -29,14 +29,14 @@ CREATE (c:CONTENT {
     name: "content.GODS WILL AND POWER",
     en_title: "Gods Will And Power",
     en_content: "God has His Own Will and Desire and more than enough Power to execute Them.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "La Voluntad y el Poder de Dios",
+    es_content: "Dios tiene Su propia Voluntad y Deseo y más que suficiente Poder para ejecutarlos.",
+    fr_title: "La Volonté et la Puissance de Dieu",
+    fr_content: "Dieu a Sa propre Volonté et Son Désir et plus qu'assez de Puissance pour les exécuter.",
+    hi_title: "परमेश्वर की इच्छा और शक्ति",
+    hi_content: "परमेश्वर की अपनी इच्छा और चाह है और उन्हें पूरा करने के लिए पर्याप्त से भी अधिक शक्ति है।",
+    zh_title: "Shàngdì de Yìzhì hé Nénglì",
+    zh_content: "Shàngdì yǒu Tā zìjǐ de Yìzhì hé Yuànwàng, bìngqiě yǒu zúgòu de Nénglì qù zhíxíng Tāmen."
 });
 
 MATCH (t:THOUGHT)

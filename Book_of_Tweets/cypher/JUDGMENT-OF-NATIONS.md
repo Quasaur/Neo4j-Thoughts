@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.JUDGMENT OF NATIONS",
     en_title: "Judgment Of Nations",
     en_content: "God will not only judge individuals, but nations (ethnic and political). May God grant repentance to the USA.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Juicio de las Naciones",
+    es_content: "Dios no solo juzgará a los individuos, sino a las naciones (étnicas y políticas). Que Dios conceda arrepentimiento a los Estados Unidos.",
+    fr_title: "Jugement des Nations",
+    fr_content: "Dieu ne jugera pas seulement les individus, mais les nations (ethniques et politiques). Que Dieu accorde la repentance aux États-Unis.",
+    hi_title: "राष्ट्रों का न्याय",
+    hi_content: "परमेश्वर न केवल व्यक्तियों का न्याय करेगा, बल्कि राष्ट्रों का भी (जातीय और राजनीतिक)। परमेश्वर संयुक्त राज्य अमेरिका को पश्चाताप प्रदान करे।",
+    zh_title: "Wàn Guó Shěn Pàn",
+    zh_content: "Shàng Dì bù jǐn yào shěn pàn gè rén, ér qiě yào shěn pàn wàn guó (zú qún hé zhèng zhì). Yuàn Shàng Dì cì gěi Měi Guó huǐ gǎi."
 });
 
 MATCH (t:THOUGHT)

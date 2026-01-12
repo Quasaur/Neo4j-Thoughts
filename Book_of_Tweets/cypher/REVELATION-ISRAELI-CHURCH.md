@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.REVELATION ISRAELI CHURCH",
     en_title: "Revelation Israeli Church",
     en_content: "Revelation is not about the gentile church as much as the Israeli church. In this context, everything starts to make sense.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Apocalipsis Iglesia Israelí",
+    es_content: "El Apocalipsis no trata tanto sobre la iglesia gentil como sobre la iglesia israelí. En este contexto, todo comienza a tener sentido.",
+    fr_title: "Apocalypse Église Israélienne",
+    fr_content: "L'Apocalypse ne concerne pas tant l'église des gentils que l'église israélienne. Dans ce contexte, tout commence à avoir du sens.",
+    hi_title: "प्रकाशितवाक्य इस्राएली कलीसिया",
+    hi_content: "प्रकाशितवाक्य अन्यजाति कलीसिया के बारे में उतना नहीं है जितना कि इस्राएली कलीसिया के बारे में है। इस संदर्भ में, सब कुछ समझ में आने लगता है।",
+    zh_title: "Qǐshìlù Yǐsèliè Jiàohuì",
+    zh_content: "Qǐshìlù bùshì guānyú wàibāngrén jiàohuì, ér gèng duō de shì guānyú Yǐsèliè jiàohuì. Zài zhège bèijǐng xià, yīqiè dōu kāishǐ biàn de yǒu yìyì le."
 });
 
 MATCH (t:THOUGHT)

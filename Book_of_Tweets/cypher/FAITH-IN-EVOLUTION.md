@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.FAITH IN EVOLUTION",
     en_title: "Faith In Evolution",
     en_content: "Evolution requires FAR MORE FAITH than Intelligent Design.",
-    es_title: "TITULO",
-    es_content: "CONTENIDO",
-    fr_title: "TITRE",
-    fr_content: "CONTENU",
-    hi_title: "SHIRSHAK",
-    hi_content: "SAMAGRI",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Fe en la evolución",
+    es_content: "La evolución requiere MUCHA MÁS FE que el Diseño Inteligente.",
+    fr_title: "Foi en l'évolution",
+    fr_content: "L’évolution nécessite BEAUCOUP PLUS DE FOI que la conception intelligente.",
+    hi_title: "विकास में विश्वास",
+    hi_content: "विकास के लिए बुद्धिमान डिज़ाइन की तुलना में कहीं अधिक विश्वास की आवश्यकता होती है।",
+    zh_title: "相信进化论",
+    zh_content: "进化比智能设计需要更多的信念。"
 });
 
 MATCH (t:THOUGHT)

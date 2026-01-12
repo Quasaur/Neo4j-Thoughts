@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.INTELLIGENT DESIGN PROOF",
     en_title: "Intelligent Design Proof",
     en_content: "There is TONS of evidence for Intelligent Design evolutionists don't want you to know.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Prueba del Diseño Inteligente",
+    es_content: "Hay TONELADAS de evidencia para el Diseño Inteligente que los evolucionistas no quieren que sepas.",
+    fr_title: "Preuve du Dessein Intelligent",
+    fr_content: "Il y a ÉNORMÉMENT de preuves pour le Dessein Intelligent que les évolutionnistes ne veulent pas que vous sachiez.",
+    hi_title: "बुद्धिमान डिज़ाइन का प्रमाण",
+    hi_content: "बुद्धिमान डिज़ाइन के लिए बहुत सारे सबूत हैं जिन्हें विकासवादी नहीं चाहते कि आप जानें।",
+    zh_title: "Zhi Neng She Ji Zheng Ming",
+    zh_content: "You DA LIANG de zheng ju zheng ming Zhi Neng She Ji, jin hua lun zhe bu xi wang ni zhi dao."
 });
 
 MATCH (t:THOUGHT)

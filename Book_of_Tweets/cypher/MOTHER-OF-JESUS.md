@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.MOTHER OF JESUS",
     en_title: "Mother Of Jesus",
     en_content: "Mary is the BIOLOGICAL mother of Jesus, not the SPIRITUAL mother of God.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Madre de Jesús",
+    es_content: "María es la madre BIOLÓGICA de Jesús, no la madre ESPIRITUAL de Dios.",
+    fr_title: "Mère de Jésus",
+    fr_content: "Marie est la mère BIOLOGIQUE de Jésus, non la mère SPIRITUELLE de Dieu.",
+    hi_title: "यीशु की माता",
+    hi_content: "मरियम यीशु की जैविक माता है, परमेश्वर की आध्यात्मिक माता नहीं।",
+    zh_title: "Yesu de muqin",
+    zh_content: "Maliya shi Yesu de shengwu muqin, bushi Shen de shengling muqin."
 });
 
 MATCH (t:THOUGHT)

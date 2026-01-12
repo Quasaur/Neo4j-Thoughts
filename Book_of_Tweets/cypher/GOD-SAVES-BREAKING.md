@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.GOD SAVES BREAKING",
     en_title: "God Saves Breaking",
     en_content: "God will save you...after He breaks you. Matthew 21:44",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Dios Salva Quebrantando",
+    es_content: "Dios te salvará...después de quebrantarte. Mateo 21:44",
+    fr_title: "Dieu Sauve en Brisant",
+    fr_content: "Dieu te sauvera...après t'avoir brisé. Matthieu 21:44",
+    hi_title: "परमेश्वर तोड़कर बचाता है",
+    hi_content: "परमेश्वर तुम्हें बचाएगा...तुम्हें तोड़ने के बाद। मत्ती 21:44",
+    zh_title: "Shén Pòsuì Ér Zhěngjiù",
+    zh_content: "Shén huì zhěngjiù nǐ...zài Tā pòsuì nǐ zhīhòu. Mǎtàifúyīn 21:44"
 });
 
 MATCH (t:THOUGHT)

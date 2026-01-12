@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.IDENTITY IN GOD",
     en_title: "Identity In God",
     en_content: "The only reason anyone would want to be \"normal\" or \"like everyone else\" is that they do not know who they are in God!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Identidad En Dios",
+    es_content: "La única razón por la que alguien querría ser",
+    fr_title: "Identité En Dieu",
+    fr_content: "La seule raison pour laquelle quelqu'un voudrait être",
+    hi_title: "परमेश्वर में पहचान",
+    hi_content: "कोई भी व्यक्ति होना चाहेगा इसका एकमात्र कारण",
+    zh_title: "Zai Shen Li De Shen Fen",
+    zh_content: "Ren Men Xiang Yao Cheng Wei De Wei Yi Yuan Yin"
 });
 
 MATCH (t:THOUGHT)

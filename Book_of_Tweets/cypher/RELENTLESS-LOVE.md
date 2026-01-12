@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.RELENTLESS LOVE",
     en_title: "Relentless Love",
     en_content: "Love is ruthless...relentless...persistent and unflagging...thank God!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Amor Implacable",
+    es_content: "El amor es despiadado...implacable...persistente e incansable...¡gracias a Dios!",
+    fr_title: "Amour Implacable",
+    fr_content: "L'amour est impitoyable...implacable...persistant et infatigable...Dieu merci !",
+    hi_title: "अटल प्रेम",
+    hi_content: "प्रेम निर्दयी है...अटल है...दृढ़ और अथक है...भगवान का धन्यवाद!",
+    zh_title: "Wú Qíng De Ài",
+    zh_content: "Ài shì wú qíng de...jiān chí bù xiè de...chí jiǔ ér bù juàn dài de...gǎn xiè Shàng Dì!"
 });
 
 MATCH (t:THOUGHT)

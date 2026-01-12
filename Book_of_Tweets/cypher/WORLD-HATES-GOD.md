@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.WORLD HATES GOD",
     en_title: "World Hates God",
     en_content: "God loves the world. The world hates God. This is not going to end well for the world.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "El Mundo Odia a Dios",
+    es_content: "Dios ama al mundo. El mundo odia a Dios. Esto no va a terminar bien para el mundo.",
+    fr_title: "Le Monde Déteste Dieu",
+    fr_content: "Dieu aime le monde. Le monde déteste Dieu. Cela ne va pas bien finir pour le monde.",
+    hi_title: "संसार परमेश्वर से घृणा करता है",
+    hi_content: "परमेश्वर संसार से प्रेम करता है। संसार परमेश्वर से घृणा करता है। यह संसार के लिए अच्छा अंत नहीं होगा।",
+    zh_title: "Shìjiè Hèn Shàngdì",
+    zh_content: "Shàngdì ài shìjiè. Shìjiè hèn Shàngdì. Zhè duì shìjiè lái shuō bù huì yǒu hǎo jiéguǒ."
 });
 
 MATCH (t:THOUGHT)

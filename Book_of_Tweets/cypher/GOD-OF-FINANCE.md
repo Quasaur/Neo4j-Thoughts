@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.GOD OF FINANCE",
     en_title: "God Of Finance",
     en_content: "Jesus Christ is The God of Finance and Economics.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Dios de las Finanzas",
+    es_content: "Jesucristo es El Dios de las Finanzas y la Economía.",
+    fr_title: "Dieu des Finances",
+    fr_content: "Jésus-Christ est Le Dieu des Finances et de l'Économie.",
+    hi_title: "वित्त के देव",
+    hi_content: "यीशु मसीह वित्त और अर्थशास्त्र के देव हैं।",
+    zh_title: "Cái zhèng zhī Shén",
+    zh_content: "Yē sū Jī dū shì Cái zhèng hé Jīng jì xué zhī Shén."
 });
 
 MATCH (t:THOUGHT)

@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.PRAYER AND CHOCOLATE",
     en_title: "Prayer And Chocolate",
     en_content: "Is there a better way to start a day than with prayer and chocolate? I think not!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Oración Y Chocolate",
+    es_content: "¿Hay una mejor manera de comenzar el día que con oración y chocolate? ¡Creo que no!",
+    fr_title: "Prière Et Chocolat",
+    fr_content: "Y a-t-il une meilleure façon de commencer une journée qu'avec la prière et le chocolat ? Je ne le pense pas !",
+    hi_title: "प्रार्थना और चॉकलेट",
+    hi_content: "क्या दिन की शुरुआत प्रार्थना और चॉकलेट के साथ करने से बेहतर कोई तरीका है? मुझे नहीं लगता!",
+    zh_title: "Qídǎo Hé Qiǎokèlì",
+    zh_content: "Yǒu shénme bǐ yòng qídǎo hé qiǎokèlì kāishǐ yītiān gèng hǎo de fāngfǎ ma? Wǒ rènwéi méiyǒu!"
 });
 
 MATCH (t:THOUGHT)

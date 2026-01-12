@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.OVERCOMING DEPRESSION",
     en_title: "Overcoming Depression",
     en_content: "Long after the point when Depression ceases to be a memory...I will still be here.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Venciendo la Depresión",
+    es_content: "Mucho después del momento cuando la Depresión deje de ser un recuerdo...yo todavía estaré aquí.",
+    fr_title: "Surmonter la Dépression",
+    fr_content: "Bien après le moment où la Dépression cessera d'être un souvenir...je serai encore là.",
+    hi_title: "अवसाद पर विजय",
+    hi_content: "जब अवसाद एक स्मृति भी नहीं रह जाएगा, उसके बहुत समय बाद भी...मैं अभी भी यहाँ होऊंगा।",
+    zh_title: "Kèfú Yìyùzhèng",
+    zh_content: "Dāng Yìyùzhèng bù zài shì huíyì hěn jiǔ zhīhòu...wǒ réng jiāng zài zhèlǐ."
 });
 
 MATCH (t:THOUGHT)

@@ -29,14 +29,14 @@ CREATE (c:CONTENT {
     name: "content.GOD IS REAL",
     en_title: "God Is Real",
     en_content: "In these uncertain times GOD IS REAL...but not much else.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Dios Es Real",
+    es_content: "En estos tiempos inciertos DIOS ES REAL...pero no mucho más.",
+    fr_title: "Dieu Est Réel",
+    fr_content: "En ces temps incertains DIEU EST RÉEL...mais pas grand-chose d'autre.",
+    hi_title: "ईश्वर सत्य है",
+    hi_content: "इन अनिश्चित समयों में ईश्वर सत्य है...लेकिन और बहुत कुछ नहीं।",
+    zh_title: "Shàngdì shì zhēnshí de",
+    zh_content: "Zài zhèxiē bù quèdìng de shíguāng lǐ, Shàngdì shì zhēnshí de...dàn qítā de dōngxī què bùduō."
 });
 
 MATCH (t:THOUGHT)

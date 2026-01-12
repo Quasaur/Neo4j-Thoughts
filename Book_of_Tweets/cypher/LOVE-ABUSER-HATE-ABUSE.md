@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.LOVE ABUSER HATE ABUSE",
     en_title: "Love Abuser Hate Abuse",
     en_content: "God loves abusers (it's the act of abuse He has a problem with).",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Ama al Abusador Odia el Abuso",
+    es_content: "Dios ama a los abusadores (es el acto del abuso con lo que Él tiene un problema).",
+    fr_title: "Aime l'Abuseur Déteste l'Abus",
+    fr_content: "Dieu aime les abuseurs (c'est l'acte d'abus qu'Il condamne).",
+    hi_title: "दुर्व्यवहारी से प्रेम करो दुर्व्यवहार से घृणा करो",
+    hi_content: "परमेश्वर दुर्व्यवहारियों से प्रेम करता है (यह दुर्व्यवहार का कार्य है जिससे उसे समस्या है)।",
+    zh_title: "Ai Shi Nue Zhe Hen E Nue Dai",
+    zh_content: "Shang Di ai shi nue zhe (Ta dui shi nue xing wei you yi jian)."
 });
 
 MATCH (t:THOUGHT)

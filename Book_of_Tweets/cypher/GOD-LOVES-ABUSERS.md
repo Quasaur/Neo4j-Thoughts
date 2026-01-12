@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.GOD LOVES ABUSERS",
     en_title: "God Loves Abusers",
     en_content: "God loves abusers.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Dios Ama a los Abusadores",
+    es_content: "Dios ama a los abusadores.",
+    fr_title: "Dieu Aime les Abuseurs",
+    fr_content: "Dieu aime les abuseurs.",
+    hi_title: "ईश्वर दुर्व्यवहार करने वालों से प्रेम करता है",
+    hi_content: "ईश्वर दुर्व्यवहार करने वालों से प्रेम करता है।",
+    zh_title: "Shàngdì ài shīnüè zhě",
+    zh_content: "Shàngdì ài shīnüè zhě."
 });
 
 MATCH (t:THOUGHT)

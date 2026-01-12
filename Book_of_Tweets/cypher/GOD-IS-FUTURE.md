@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.GOD IS FUTURE",
     en_title: "God Is Future",
     en_content: "God is your Future.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Dios Es el Futuro",
+    es_content: "Dios es tu Futuro.",
+    fr_title: "Dieu Est l'Avenir",
+    fr_content: "Dieu est votre Avenir.",
+    hi_title: "परमेश्वर भविष्य है",
+    hi_content: "परमेश्वर आपका भविष्य है।",
+    zh_title: "Shàngdì Shì Wèilái",
+    zh_content: "Shàngdì shì nǐ de Wèilái."
 });
 
 MATCH (t:THOUGHT)

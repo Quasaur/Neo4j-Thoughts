@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.TWITTER TO HEAVEN",
     en_title: "Twitter To Heaven",
     en_content: "If I could, I'd take my Twitter followers to Heaven with me.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Twitter al Cielo",
+    es_content: "Si pudiera, llevaría a mis seguidores de Twitter al Cielo conmigo.",
+    fr_title: "Twitter vers le Paradis",
+    fr_content: "Si je le pouvais, j'emmènerais mes abonnés Twitter au Paradis avec moi.",
+    hi_title: "ट्विटर से स्वर्ग तक",
+    hi_content: "यदि मैं कर सकूं, तो अपने ट्विटर अनुयायियों को अपने साथ स्वर्ग ले जाऊं।",
+    zh_title: "Tuī tè dào tiāntáng",
+    zh_content: "Rúguǒ kěyǐ de huà, wǒ xiǎng dài zhe wǒ de Tuī tè fěnsī yīqǐ qù tiāntáng."
 });
 
 MATCH (t:THOUGHT)

@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.TERRIBLE SECRETS",
     en_title: "Terrible Secrets",
     en_content: "Secrets can be terrible things.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Secretos Terribles",
+    es_content: "Los secretos pueden ser cosas terribles.",
+    fr_title: "Secrets Terribles",
+    fr_content: "Les secrets peuvent être des choses terribles.",
+    hi_title: "भयानक रहस्य",
+    hi_content: "रहस्य भयानक चीज़ें हो सकते हैं।",
+    zh_title: "kě pà de mì mì",
+    zh_content: "mì mì kě néng shì kě pà de shì qíng."
 });
 
 MATCH (t:THOUGHT)

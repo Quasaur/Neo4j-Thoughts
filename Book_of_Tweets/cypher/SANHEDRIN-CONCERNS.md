@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.SANHEDRIN CONCERNS",
     en_title: "Sanhedrin Concerns",
     en_content: "The Sanhedrin was more concerned about their authority and money than about serving God or God's people.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Preocupaciones del Sanedrín",
+    es_content: "El Sanedrín estaba más preocupado por su autoridad y dinero que por servir a Dios o al pueblo de Dios.",
+    fr_title: "Préoccupations du Sanhédrin",
+    fr_content: "Le Sanhédrin était plus préoccupé par son autorité et son argent que par servir Dieu ou le peuple de Dieu.",
+    hi_title: "सैन्हेड्रिन की चिंताएं",
+    hi_content: "सैन्हेड्रिन परमेश्वर या परमेश्वर के लोगों की सेवा करने की अपेक्षा अपने अधिकार और धन के बारे में अधिक चिंतित था।",
+    zh_title: "Gonghui de Danxin",
+    zh_content: "Gonghui geng guanxin tamen de quanwei he jinqian, er bu shi fuwu Shangdi huo Shangdi de renmin."
 });
 
 MATCH (t:THOUGHT)

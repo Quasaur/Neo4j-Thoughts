@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.SEEKING VS HEARING GOD",
     en_title: "Seeking Vs Hearing God",
     en_content: "You would think that a person desperate to hear from God would be desperate to seek God...",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Buscar Vs Escuchar a Dios",
+    es_content: "Uno pensaría que una persona desesperada por escuchar de Dios estaría desesperada por buscar a Dios...",
+    fr_title: "Chercher Vs Entendre Dieu",
+    fr_content: "On pourrait penser qu'une personne désespérée d'entendre Dieu serait désespérée de chercher Dieu...",
+    hi_title: "परमेश्वर को खोजना बनाम परमेश्वर को सुनना",
+    hi_content: "आप सोचेंगे कि जो व्यक्ति परमेश्वर से सुनने के लिए बेताब है, वह परमेश्वर को खोजने के लिए भी बेताब होगा...",
+    zh_title: "Xun Qiu Vs Ting Jian Shen",
+    zh_content: "Ni hui ren wei yi ge po qie xi wang ting dao Shen sheng yin de ren ye hui po qie de xun qiu Shen..."
 });
 
 MATCH (t:THOUGHT)
