@@ -31,12 +31,14 @@ This document contains critical rules and conventions that must be followed at a
 - `THOUGHT`: Individual thoughts
 - `QUOTE`: Quotations
 - `PASSAGE`: Biblical or other passages
-- `CONTENT`: Content node containing multilingual text
+- `DESCRIPTION`: Description node containing multilingual text for TOPIC nodes.
+- `CONTENT`: Content node containing multilingual text for THOUGHT, QUOTE & PASSAGE nodes.
 
 ### Relationships
 - `HAS_THOUGHT`: TOPIC → THOUGHT
 - `HAS_QUOTE`: TOPIC → QUOTE
 - `HAS_PASSAGE`: TOPIC → PASSAGE
+- `HAS_DESCRIPTION`: TOPIC → DESCRIPTION
 - `HAS_CONTENT`: THOUGHT/QUOTE/PASSAGE → CONTENT
 - `HAS_TOPIC`: TOPIC → TOPIC (parent to subtopic)
 
@@ -51,15 +53,18 @@ This document contains critical rules and conventions that must be followed at a
 
 ### Required YAML Frontmatter Properties
 ```yaml
-name: thought.NAME_WITH_UNDERSCORES
-alias: "Display Name"
+name: "thought.NAME WITH SPACES"
+alias: "<NODE>: Display Name"
 type: THOUGHT|QUOTE|PASSAGE|TOPIC
-parent: topic.PARENT_NAME
+parent: "topic.PARENT NAME" o topic.PARENTNAME [has a single-word parent]
 tags:
   - tag1
   - tag2
+  - tag3
+  - tag4
+  - tag5
 neo4j: true
-ptopic: "[[topic-PARENT_NAME]]"
+ptopic: "[[topic-PARENT NAME]]"
 level: N
 inserted: true
 ```
@@ -68,16 +73,16 @@ inserted: true
 - `draft` - Delete this
 - `mling` - Delete this
 - `aliases` - Use `alias` (singular) instead
-- `title` - Use `name` and `alias` instead
+- `title` - Use `alias` instead
 
 ### Cypher Block Structure
 
 All Obsidian-Cypher files must have an embedded Cypher block with:
 
-1. **CREATE THOUGHT/QUOTE/PASSAGE node**
-2. **CREATE CONTENT node**
-3. **MERGE HAS_CONTENT relationship**
-4. **MERGE HAS_THOUGHT/QUOTE/PASSAGE relationship** (parent → child)
+1. **CREATE TOPIC/THOUGHT/QUOTE/PASSAGE node**
+2. **CREATE DESCRIPTION node for TOPIC | CONTENT node for THOUGHT/QUOTE/PASSAGE nodes**
+3. **MERGE HAS_DESCRIPTION relationship for TOPIC | HAS_CONTENT relationship for THOUGHT/QUOTE/PASSAGE**
+4. **MERGE HAS_THOUGHT/QUOTE/PASSAGE relationship** (parent TOPIC→ child)
 
 **Example:**
 ```cypher
