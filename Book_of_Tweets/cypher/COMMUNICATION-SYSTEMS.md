@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.COMMUNICATION SYSTEMS",
     en_title: "Communication Systems",
     en_content: "Every communication system must have a language, a medium, a device that reads, and an intelligence that writes/interprets...God is Great!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Sistemas de Comunicación",
+    es_content: "Todo sistema de comunicación debe tener un lenguaje, un medio, un dispositivo que lee, y una inteligencia que escribe/interpreta... ¡Dios es Grande!",
+    fr_title: "Systèmes de Communication",
+    fr_content: "Chaque système de communication doit avoir un langage, un médium, un dispositif qui lit, et une intelligence qui écrit/interprète... Dieu est Grand !",
+    hi_title: "संचार प्रणाली",
+    hi_content: "हर संचार प्रणाली में एक भाषा, एक माध्यम, एक उपकरण जो पढ़ता है, और एक बुद्धि होनी चाहिए जो लिखती/व्याख्या करती है... भगवान महान हैं!",
+    zh_title: "Tōngxìn Xìtǒng",
+    zh_content: "Měi gè tōngxìn xìtǒng dōu bìxū yǒu yī zhǒng yǔyán, yī zhǒng méijì, yī zhǒng yuèdú shèbèi, yǐjí yī zhǒng biānxiě/jiěshì de zhìhuì... Shàngdì shì wěidà de!"
 });
 
 MATCH (t:THOUGHT)

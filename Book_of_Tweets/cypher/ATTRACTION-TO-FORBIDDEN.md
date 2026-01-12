@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.ATTRACTION TO FORBIDDEN",
     en_title: "Attraction To Forbidden",
     en_content: "What attracts us to the forbidden? Sin.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Atracción a lo Prohibido",
+    es_content: "¿Qué nos atrae a lo prohibido? El pecado.",
+    fr_title: "Attraction pour l'Interdit",
+    fr_content: "Qu'est-ce qui nous attire vers l'interdit ? Le péché.",
+    hi_title: "वर्जित की ओर आकर्षण",
+    hi_content: "वर्जित की ओर हमें क्या आकर्षित करता है? पाप।",
+    zh_title: "Duì jìnjì de xīyǐn lì 对禁忌的吸引力",
+    zh_content: "Shì shénme xīyǐn wǒmen bèi jìnjì zhī wù? Zuìzhèng. 是什么吸引我们被禁忌之物？罪政。"
 });
 
 MATCH (t:THOUGHT)

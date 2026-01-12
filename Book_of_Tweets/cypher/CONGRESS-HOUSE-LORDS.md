@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.CONGRESS HOUSE LORDS",
     en_title: "Congress House Lords",
     en_content: "Both houses of this American Congress have become a House of Lords.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Congreso Cámara de Lores",
+    es_content: "Ambas cámaras de este Congreso Americano se han convertido en una Cámara de Lores.",
+    fr_title: "Congrès Chambre des Lords",
+    fr_content: "Les deux chambres de ce Congrès américain sont devenues une Chambre des Lords.",
+    hi_title: "कांग्रेस लॉर्ड्स सभा",
+    hi_content: "इस अमेरिकी कांग्रेस के दोनों सदन लॉर्ड्स सभा बन गए हैं।",
+    zh_title: "Guóhuì Guìzú Yuàn",
+    zh_content: "Zhè gè Měiguó Guóhuì de liǎng yuàn dōu biànchéngle Guìzú Yuàn."
 });
 
 MATCH (t:THOUGHT)

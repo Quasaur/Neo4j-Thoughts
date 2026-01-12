@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.COURAGE THROUGH PRAYER",
     en_title: "Courage Through Prayer",
     en_content: "Prayer is where I find Courage and Perseverance.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Valor a Través de la Oración",
+    es_content: "La oración es donde encuentro valor y perseverancia.",
+    fr_title: "Courage par la Prière",
+    fr_content: "La prière est où je trouve le courage et la persévérance.",
+    hi_title: "प्रार्थना के माध्यम से साहस",
+    hi_content: "प्रार्थना वहीं है जहां मुझे साहस और दृढ़ता मिलती है।",
+    zh_title: "Tōngguò Dǎogào Zhǎodào Yǒngqì",
+    zh_content: "Dǎogào shì wǒ zhǎodào yǒngqì hé jiānchí de dìfāng."
 });
 
 MATCH (t:THOUGHT)

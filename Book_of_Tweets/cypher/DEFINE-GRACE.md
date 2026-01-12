@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.DEFINE GRACE",
     en_title: "Define Grace",
     en_content: "GRACE is God saying \"I like you! I'm gonna cut you a break!\"",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Definir Gracia",
+    es_content: "La GRACIA es Dios diciendo \"¡Me gustas! ¡Voy a darte un respiro!\"",
+    fr_title: "Définir la Grâce",
+    fr_content: "La GRÂCE est Dieu disant \"Je t'aime bien ! Je vais te donner une chance !\"",
+    hi_title: "अनुग्रह को परिभाषित करें",
+    hi_content: "अनुग्रह भगवान का कहना है \"मुझे तुम पसंद हो! मैं तुम्हें एक मौका दूंगा!\"",
+    zh_title: "Dìngyì ēnhuì",
+    zh_content: "Ēnhuì shì shàngdì shuō \"Wǒ xǐhuān nǐ! Wǒ yào gěi nǐ yīgè jīhuì!\""
 });
 
 MATCH (t:THOUGHT)

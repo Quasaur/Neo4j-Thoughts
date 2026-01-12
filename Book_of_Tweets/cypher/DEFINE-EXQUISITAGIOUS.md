@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.DEFINE EXQUISITAGIOUS",
     en_title: "Define Exquisitagious",
     en_content: "New Word: exquisitagious Meaning: something so exquisite that the feeling's contagious!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Definir Exquisitagioso",
+    es_content: "Nueva Palabra: exquisitagioso Significado: ¡algo tan exquisito que el sentimiento es contagioso!",
+    fr_title: "Définir Exquisitagieux",
+    fr_content: "Nouveau Mot : exquisitagieux Signification : quelque chose de si exquis que le sentiment est contagieux !",
+    hi_title: "एक्सक्विसिटागियस को परिभाषित करें",
+    hi_content: "नया शब्द: एक्सक्विसिटागियस अर्थ: कुछ इतना उत्कृष्ट कि भावना संक्रामक है!",
+    zh_title: "Dìngyì jīngzhì de",
+    zh_content: "Xīn cí: Jīngzhì de Yìsi: Mǒu wù rúcǐ jīngzhì, gǎnqíng jiù chuánrǎn!"
 });
 
 MATCH (t:THOUGHT)

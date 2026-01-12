@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.EDUCATION AND SCRIPTURE",
     en_title: "Education And Scripture",
     en_content: "How can anyone be considered educated without having surveyed the Holy Scriptures?",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Educación y Escritura",
+    es_content: "¿Cómo puede alguien ser considerado educado sin haber estudiado las Sagradas Escrituras?",
+    fr_title: "Éducation et Écriture",
+    fr_content: "Comment peut-on être considéré comme éduqué sans avoir étudié les Saintes Écritures ?",
+    hi_title: "शिक्षा और धर्मग्रंथ",
+    hi_content: "पवित्र शास्त्रों का अध्ययन किए बिना किसी को शिक्षित कैसे माना जा सकता है?",
+    zh_title: "Jiàoyù yǔ shèngjīng 教育与圣经",
+    zh_content: "Rúguǒ méiyǒu dàochá shèngjīng, zěnme néng bèi shì wéi shòu jiàoyù ne? 如果没有导察圣经，怎么能被视为受教育呢？"
 });
 
 MATCH (t:THOUGHT)

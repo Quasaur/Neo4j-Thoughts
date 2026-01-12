@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.MYSTERY OF WOMAN",
     en_title: "Mystery Of Woman",
     en_content: "Adam did not see Eve being created; therefore Woman will always be a Mystery to Man.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "El Misterio de la Mujer",
+    es_content: "Adán no vio a Eva ser creada; por lo tanto, la Mujer siempre será un Misterio para el Hombre.",
+    fr_title: "Le Mystère de la Femme",
+    fr_content: "Adam n'a pas vu Ève être créée ; par conséquent, la Femme sera toujours un Mystère pour l'Homme.",
+    hi_title: "स्त्री का रहस्य",
+    hi_content: "आदम ने हव्वा को बनाए जाते नहीं देखा; इसलिए स्त्री हमेशा पुरुष के लिए एक रहस्य रहेगी।",
+    zh_title: "Nǚrén de àomì 女人的奥秘",
+    zh_content: "Yàdāng méiyǒu kànjiàn Xiàwá de chuàngzào; yīncǐ nǚrén jiāng yǒngyuǎn shì nánrén de àomì. 亚当没有看见夏娃的创造；因此女人将永远是男人的奥秘。"
 });
 
 MATCH (t:THOUGHT)

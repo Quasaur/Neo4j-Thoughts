@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.CHURCH PILLAR OF TRUTH",
     en_title: "Church Pillar Of Truth",
     en_content: "1 Tim. 3:15: The Church of God is the Pillar and Ground of the Truth on Earth, and to attack and criticize her is perilous.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "La Iglesia: Columna de la Verdad",
+    es_content: "1 Tim. 3:15: La Iglesia de Dios es la Columna y Fundamento de la Verdad en la Tierra, y atacarla y criticarla es peligroso.",
+    fr_title: "L'Église : Pilier de la Vérité",
+    fr_content: "1 Tim. 3:15 : L'Église de Dieu est le Pilier et le Fondement de la Vérité sur Terre, et l'attaquer et la critiquer est périlleux.",
+    hi_title: "चर्च: सत्य का स्तंभ",
+    hi_content: "1 तीमुथियुस 3:15: परमेश्वर का चर्च पृथ्वी पर सत्य का स्तंभ और आधार है, और उस पर हमला करना और उसकी आलोचना करना खतरनाक है।",
+    zh_title: "Jiàohuì: Zhēnlǐ de zhùzi 教会：真理的柱子",
+    zh_content: "Tí mó tài qián shū 3:15: Shàngdì de jiàohuì shì dìshàng zhēnlǐ de zhùzi hé gēnjī, gōngjí hé pīpíng tā shì wéixiǎn de. 提摩太前书3:15：上帝的教会是地上真理的柱子和根基，攻击和批评她是危险的。"
 });
 
 MATCH (t:THOUGHT)

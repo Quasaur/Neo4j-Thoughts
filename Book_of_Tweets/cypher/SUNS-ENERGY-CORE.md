@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.SUNS ENERGY CORE",
     en_title: "Suns Energy Core",
     en_content: "Energy generated in the Sun's core takes a million years to reach its surface: God is great!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "El Núcleo Energético del Sol",
+    es_content: "La energía generada en el núcleo del Sol tarda un millón de años en llegar a su superficie: ¡Dios es grande!",
+    fr_title: "Le Noyau Énergétique du Soleil",
+    fr_content: "L'énergie générée dans le noyau du Soleil met un million d'années à atteindre sa surface : Dieu est grand !",
+    hi_title: "सूर्य की ऊर्जा केंद्र",
+    hi_content: "सूर्य के केंद्र में उत्पन्न ऊर्जा को उसकी सतह तक पहुंचने में एक मिलियन वर्ष लगते हैं: परमेश्वर महान है!",
+    zh_title: "Tàiyáng néngliàng héxīn 太阳能量核心",
+    zh_content: "Tàiyáng héxīn zhōng chǎnshēng de néngliàng xūyào yī bǎi wàn nián cái néng dàodá qi biǎomiàn: Shàngdì zhēn wěidà! 太阳核心中产生的能量需要一百万年才能到达其表面：上帝真伟大！"
 });
 
 MATCH (t:THOUGHT)

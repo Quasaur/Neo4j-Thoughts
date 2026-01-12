@@ -1,0 +1,1595 @@
+================================================================================
+TRANSLATION COMPLETENESS SUMMARY
+================================================================================
+Total files checked: 545
+Files with COMPLETE translations: 27
+Files MISSING translations: 518
+================================================================================
+
+FILES MISSING TRANSLATIONS (518 files):
+--------------------------------------------------------------------------------
+
+ABORTION-AND-GOLDEN-RULE.md
+  Missing fields: es_content
+
+ACCURATE-THEOLOGY.md
+  Missing fields: es_content
+
+ALL-OF-GOD-JESUS.md
+  Missing fields: es_title, es_content
+
+ALL-THINGS-FOR-HIM.md
+  Missing fields: fr_content
+
+ALWAYS-ADVENTIST.md
+  Missing fields: es_content
+
+AMERICA-CHEATS-ITSELF.md
+  Missing fields: es_content
+
+ANNIHILATION-OF-EVIL.md
+  Missing fields: es_content
+
+APPEARING-HUMAN.md
+  Missing fields: es_title
+
+ARGUING-WITH-CREATOR.md
+  Missing fields: zh_title, zh_content
+
+ATHEISM-SUCKS.md
+  Missing fields: es_content
+
+ATOMS-IN-CELL.md
+  Missing fields: es_title, es_content
+
+ATTRACTION-TO-FORBIDDEN.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+AVOIDING-GOD-AND-CHURCH.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+AWARENESS-OF-PRESENCE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+BACH-AND-GENIUS.md
+  Missing fields: es_content
+
+BAG-OF-CHEMICALS-DUPED.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+BAILOUT-AND-HATE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+BEGINNING-OF-MISERY.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+BELONGING-TO-GOD.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+BETTER-NOT-EASIER.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+BETTER-TREATMENT-JESUS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+BIBLE-AS-HISTORY.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+BIBLE-HOW-TO-EAT.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+BORED-VS-BORING.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+BORN-FOR-SERMON.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+BORN-TWICE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+BOUNTIFUL-EYE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+BOX-JELLYFISH-EYES.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+BREAD-OF-LIFE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+BROKEN-RELATIONSHIP.md
+  Missing fields: es_content
+
+BUILD-ON-THE-ROCK.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+BUNYANS-MASTERPIECE.md
+  Missing fields: es_content
+
+CARDBOARD-BOX-DIGNITY.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+CARNALITY-AND-STRIFE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+CAT-LICK-NECK.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+CAT-ON-KNEE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+CAUSE-OF-THE-ORPHAN.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+CHANGE-OTHERS-NOT-SELF.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+CHANGING-EVIL-TO-RIGHTEOUS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+CHANGING-THE-HEART.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+CHEATING-THE-ECONOMY.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+CHEMICAL-VIRTUE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+CHOKING-THE-WORD.md
+  Missing fields: zh_title, zh_content
+
+CHRIST-COMING-CLOUDS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+CHRIST-MY-TREASURE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+CHRIST-UNIVERSAL-DESTINY.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+CHRISTIANITY-STEPS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+CHRISTIANS-ON-CROSSES.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+CHRISTS-AMNESTY.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+CHRISTS-FINAL-VIRTUE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+CHRONIC-SELF-DESTRUCTION.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+CHURCH-AS-LOVE-GROUP.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+CHURCH-IS-BIG-BUSINESS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+CHURCH-PILLAR-OF-TRUTH.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+COHERENCE-OF-TRUTH.md
+  Missing fields: es_content, fr_content
+
+COMMITTING-ADAMS-SIN.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+COMMUNICATION-SYSTEMS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+COMPLEXITY-VS-SIMPLICITY.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+COMPREHENDING-VS-KNOWING.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+CONGRESS-HOUSE-LORDS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+CONGRESS-NO-PAY-SHUTDOWN.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+CONGRESS-NOT-OURS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+CONSPIRACY-THEORIES.md
+  Missing fields: zh_title, zh_content
+
+CONTRACTOR-NOT-SLAVE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+COOKED-FOOD-HUMANS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+CORPORATE-MONEY-WORSHIP.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+CORPORATE-RACISM.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+CORRUPTION-WITHOUT-DEATH.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+COST-OF-HEAVEN.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+COURAGE-THROUGH-PRAYER.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+CREATING-SELFLESS-HEART.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+CREATORS-SUFFERING.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+CRY-OF-POOR.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+DAILY-DIVINE-LOVE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+DAMNING-THE-ARROGANT.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+DANGER-OF-BLINDNESS.md
+  Missing fields: zh_title, zh_content
+
+DANGER-OF-TRUTH.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+DANGEROUS-AND-SAFE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+DARK-MATTER-NEED.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+DEATH-SELF-INFLICTED-WOUND.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+DEFINE-APATHY.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+DEFINE-BEING-ALONE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+DEFINE-DIVINE-JEALOUSY.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+DEFINE-EVIL-JEALOUSY.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+DEFINE-EXQUISITAGIOUS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+DEFINE-FAITH-PERSUASION.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+DEFINE-FAITH-WILL.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+DEFINE-GRACE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+DEFINE-HOPE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+DEFINE-PERFECT-LOVE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+DEFINE-TRUST.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+DEFINING-EVIL-PRIDE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+DEFINING-PORNOGRAPHY.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+DEHUMANIZING-LABOR-WATCHING.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+DESTROYING-OUR-PLANET.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+DESTROYING-THE-EARTH.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+DEVIL-THE-ACCUSER.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+DIGNITY-OR-DEATH.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+DISABILITY-OF-SPIRIT.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+DISENFRANCHISING-POOR-WATCHING.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+DIVINE-CONSISTENCY.md
+  Missing fields: es_title
+
+DIVINE-GOODNESS.md
+  Missing fields: es_content
+
+DIVINE-MERCY-HOPE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+DIVINE-VISITATION-EFFECT.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+DIVINE-WILL.md
+  Missing fields: es_title, es_content
+
+DNA-MEMORY-VS-REINCARNATION.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+DONT-KNOW-DOING.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+DREAMS-OTHER-WORLDS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+DYING-FOR-OWN-SIN.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+EARTH-SPEED-SPACE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+EARTH-STORMS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+EATING-BREATHING-DEATH.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+ECONOMIC-INJUSTICE.md
+  Missing fields: zh_title, zh_content
+
+EDUCATION-AND-SCRIPTURE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+EDUCATION-AS-SELLING-OUT.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+ELECTROMAGNETISM-TOUCH.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+EMULATING-GODS-CHARACTER.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+END-OF-ALL-FLESH.md
+  Missing fields: zh_title, zh_content
+
+ENDANGERED-BLACK-MEN.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+EQUALITY-AT-RETURN.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+ESSENCE-OF-JOY.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+ETERNAL-GRACE-MERCY.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+ETERNAL-IMMORTALITY.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+EVERYTHING-FROM-NOTHING.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+EVERYTHING-IS-SIMPLE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+EVIL-NO-CHANCE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+EVOLUTION-AS-RELIGION.md
+  Missing fields: zh_title, zh_content
+
+EVOLUTION-COMPASSION-MERCY.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+EXISTENCE-TAX.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+EXPERIENCING-GOD.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+EXPLOITING-BLACK-WOMEN.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+EYES-OF-CHRIST.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+FACE-TO-FACE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+FACING-TRUTH-LOVE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+FAILURE-TO-SUCCESS.md
+  Missing fields: zh_title, zh_content
+
+FAITH-AND-ACCEPTANCE.md
+  Missing fields: zh_title, zh_content
+
+FAITH-AND-SCIENCE.md
+  Missing fields: zh_title, zh_content
+
+FAITH-AND-WEALTH.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+FAITH-IN-EVOLUTION.md
+  Missing fields: zh_title, zh_content
+
+FAITH-IN-SELF-VS-CREATOR.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+FAITH-REQUIRES-LOVE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+FALSE-RELIGION-TWIN.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+FALSE-SPIRITUALITY.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+FAMILIAR-SPIRITS-WARNING.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+FAN-VS-FOLLOWER.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+FAST-LANE-BLIND-SPOTS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+FEAR-AND-SELFISHNESS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+FEAR-AS-BAD-MOTIVE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+FICTIONAL-CHARACTERS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+FIRST-LOVE-WAITING.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+FLESH-THE-TYRANT.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+FLESH-VS-SPIRIT.md
+  Missing fields: zh_title, zh_content
+
+FOR-OR-AGAINST.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+FORGIVE-AND-SANCTIFY.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+FORGIVING-OTHERS-PROBLEM.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+FORGIVING-THE-FUTURE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+FOSSIL-AMINO-ACIDS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+FOURTH-BRANCH-CHURCH.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+FREE-WILL-ROBOT.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+FREEDOM-TO-RUIN.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+FULFILLING-DESTINY-TOGETHER.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+FUTILE-REBELLION.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+FUTURE-FOR-ATHEISTS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+GALATIANS-LAW-DEBATE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+GETTING-VS-BEING.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+GIANT-BALL-OF-DIRT.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+GIFT-OR-GIVER.md
+  Missing fields: es_title, es_content, fr_title
+
+GLOBAL-DICTATORSHIPS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+GLOBAL-ECONOMICS-FOOTSTOOL.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+GLOBAL-WARMING-ILLUSION.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+GLORIFIED-IN-HUMANITY.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+GLORY-THROUGH-LOSERS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+GOD-ACTUALLY-EXISTS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+GOD-ALWAYS-RIGHT.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+GOD-CARES-LITTLE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+GOD-CONFIDENCE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+GOD-HAS-SENSE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+GOD-HIDING-PLAIN-SIGHT.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+GOD-HIGHER-THAN-TRUTH.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+GOD-HONORS-HONOR.md
+  Missing fields: zh_title, zh_content
+
+GOD-IS-BEAUTY.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+GOD-IS-FUTURE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+GOD-IS-REAL.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+GOD-IS-RICH.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+GOD-LOVES-ABUSERS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+GOD-LOVES-HOMOSEXUALS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+GOD-LOVES-KINDNESS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+GOD-LOVING-EVERY-SOUL.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+GOD-NOT-AMERICAN.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+GOD-NOT-DEADBEAT.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+GOD-OF-FINANCE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+GOD-OF-PROJECTS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+GOD-OF-SCIENCE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+GOD-REALITY.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+GOD-SAVES-BREAKING.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+GOD-SIRED-CHRIST.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+GOD-TALKING-BACK.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+GOD-THE-ANSWER.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+GOD-THE-DREAMER.md
+  Missing fields: zh_title, zh_content
+
+GOD-THE-RECYCLER.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+GOD-WANTS-ME.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+GODS-FORGETFULNESS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+GODS-GENIUS-LOVE-HATE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+GODS-PERFECT-LOVE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+GODS-PRIORITIES-VS-OURS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+GODS-SELF-PORTRAIT.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+GODS-STRENGTH-NEED.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+GODS-SUPERIOR-OFFER.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+GODS-SUPERIOR-VALUE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+GODS-WILL-AND-POWER.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+GODS-WILL-IN-ME.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+GOOD-STRONGER-EVIL.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+GORGEOUS-DIVINITY.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+GRACE-STRONGER-SIN.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+GRACE-TO-HUMBLE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+GRACE-VS-MERIT.md
+  Missing fields: zh_title, zh_content
+
+GRACE-VS-SATAN.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+GREATER-THAN-BEING-LOVED.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+GREED-ECONOMIC-WOES.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+GROWTH-THROUGH-WORD.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+HAPPINESS-AND-JOY.md
+  Missing fields: zh_title, zh_content
+
+HAPPINESS-OF-GIVING.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+HAPPY-IF-GOD-PLEASED.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+HATRED-AND-LOVE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+HEARING-AND-OBEYING.md
+  Missing fields: zh_title, zh_content
+
+HEARING-GOD-NOISE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+HEAVEN-AS-SUN.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+HEAVEN-BY-GRACE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+HEAVEN-HEALS-SORROW.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+HEAVEN-HOME-WITHIN.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+HEAVEN-WITHIN-SALVATION.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+HEAVEN-WITHIN.md
+  Missing fields: zh_title, zh_content
+
+HEAVY-DIVINE-WILL.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+HELL-AND-HYPOCRISY.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+HELL-FIRE-FOR-DEVIL.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+HIDING-IN-PRAYER.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+HISTORICAL-ACCURACY-BIBLE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+HOLLYWOOD-VIOLENCE-PREMISE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+HONESTY-THROUGH-LOVE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+HORDES-OF-THE-ABYSS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+HUMAN-BREATHS-DAILY.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+HUMAN-DESTRUCTIVENESS.md
+  Missing fields: fr_content, hi_title
+
+HUMANITY-TOO-FAR-GONE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+HUMILITY-IN-PRAYER.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+HUMILITY-OF-CREATION.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+I-NEED-GOD.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+IDENTITY-IN-GOD.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+IMAGE-OF-GOD.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+IMMORTAL-SINLESS-LIFE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+IMPORTANCE-OF-DEUTERONOMY.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+INCARCERATION-SLAVERY-PARALLEL.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+INCONVENIENT-WILL.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+INCORRUPTIBLE-GOODNESS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+INFINITE-GOD.md
+  Missing fields: hi_title
+
+INTELLIGENT-DESIGN-PROOF.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+INTELLIGENT-DESIGN.md
+  Missing fields: zh_title, zh_content
+
+INTELLIGENT-LIFE-SEARCH.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+INTERIOR-MISSISSIPPI.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+INVESTMENT-IN-CHURCH.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+INVISIBLE-IN-IMPOSSIBLE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+IRREDUCIBLE-COMPLEXITY.md
+  Missing fields: zh_title, zh_content
+
+JESUS-AND-SCRIPTURE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+JESUS-NON-NEGOTIABLE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+JESUS-TAKES-OVER.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+JESUS-THE-MONARCH.md
+  Missing fields: zh_title, zh_content
+
+JUDGING-MOTIVES-DEEDS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+JUDGMENT-OF-NATIONS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+KINDNESS-OF-JESUS.md
+  Missing fields: zh_title, zh_content
+
+KNOWING-JESUS-NAME.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+KNOWLEDGE-PROPERTY-GOD.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+LAWS-AND-THE-RICH.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+LEAVING-GOD-OUT.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+LEGALITY-OF-ATONEMENT.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+LETTING-GO.md
+  Missing fields: es_content, hi_title
+
+LIFE-FROM-INORGANIC.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+LIFE-IN-PRAYER.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+LIFE-SHOULD-BE-PAIN.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+LIGHTNING-BOLT.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+LIMITLESS-DIVINE-POWER.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+LIMITS-OF-FORGIVENESS.md
+  Missing fields: zh_title, zh_content
+
+LIMITS-OF-KNOWLEDGE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+LIVELIER-LIVING.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+LIVING-FAITH.md
+  Missing fields: es_content
+
+LIVING-IN-CHRISTS-RIGHTEOUSNESS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+LOOKING-LIKE-JESUS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+LOSING-MY-MIND.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+LOVE-ABUSER-HATE-ABUSE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+LOVE-CHANGES-SINNER.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+LOVE-HATER-GRACE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+LOVE-IS-NOT-WEAK.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+LOVE-SEVERING-SIN.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+LOVING-THE-HATEFUL.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+LOYALTY-TO-GOD.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+LUCIFERS-DECEPTION.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+LUCIFERS-WRETCHEDNESS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+MAJORITY-OF-THREE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+MALCOLM-X-TRUTH.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+MAN-OF-SORROWS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+MARRIAGE-RELIGIOUS-INSTITUTION.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+MASTERING-SIN.md
+  Missing fields: zh_title, zh_content
+
+MEANINGLESS-LIFE-LIE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+MEETING-LORD-JESUS.md
+  Missing fields: zh_title, zh_content
+
+MEETING-UNCREATED-BEING.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+MEN-SHAVING-CHILDREN.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+MERCY-OF-JESUS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+MIRACLE-OF-SALVATION.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+MLK-MURDERED-GOOD-DEEDS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+MODERN-PROPAGANDA.md
+  Missing fields: zh_title, zh_content
+
+MOST-BEAUTIFUL-GOD.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+MOTHER-OF-JESUS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+MOVIE-ALREADY-OVER.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+MYSTERY-OF-WOMAN.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+NATION-FORGETTING-GOD.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+NATIONAL-DEBT-STATS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+NATURE-OF-REALITY.md
+  Missing fields: zh_title, zh_content
+
+NATURE-OF-THE-GODHEAD.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+NEAR-COLLISION.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+NEED-FOR-FAITH.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+NET-VS-SELF-WORTH.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+NO-ANGER-SELFLESSNESS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+NO-COMPLEXITY-FOR-GOD.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+NO-DIVINE-EXCUSES.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+NO-GOD-FOR-CAMERAS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+NO-POOR-IN-HEAVEN.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+NOBODY-LOVES-LIKE-JESUS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+NOT-BEING-GOD.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+NOT-DYING-ALONE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+NOT-LOOKING-IDIOT.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+NOT-POLITICALLY-CORRECT.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+NOTHING-AND-EVERYTHING.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+NOTHING-NEW-TRUTH.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+NOTHING-TO-OFFER.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+NOTHING-TO-WORLD.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+NOTHING-WITHOUT-GOD.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+NOTHING-WRONG-GOD.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+NUTRITION-MUSCLE-ACHES.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+OBEDIENCE-AS-HIGHWAY.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+OBEDIENCE-GATEWAY-GROWTH.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+OBEYING-GODS-CHARACTER-LAWS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+OBSOLETE-HUMAN-RACE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+OMNIPOTENCE-VS-FREEWILL.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+ONE-TRUE-GOD-YHWH.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+ONLY-TOOL-PRAYER.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+OPPORTUNITY-FOR-ANGER.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+OPPRESSING-THE-POOR.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+OPPRESSIVE-WEALTH.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+ORDERS-GIVING-TAKING.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+OUTER-VS-INNER-BEAUTY.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+OVERCOMING-DEPRESSION.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+OVERCOMING-FEAR-BLAME.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+OWNING-ALL-THINGS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+PAYCHECK-VS-SOUL.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+PENALTY-VS-SIN.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+PEOPLE-MORE-UNFORGIVING.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+PERFECT-PEOPLE-CRITICISM.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+PERISHING-DEMOCRACY.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+PLANETARY-STARVATION.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+POWER-AND-WILL.md
+  Missing fields: zh_title, zh_content
+
+POWER-OF-CREATIVE-LOVE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+POWER-OF-JESUS.md
+  Missing fields: zh_title, zh_content
+
+POWER-OF-WEAKNESS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+POWERLESS-CHURCH.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+PRAYER-AND-CHOCOLATE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+PRAYER-AS-RELIEF.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+PRAYER-BEFORE-SPEECH.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+PRAYER-FOR-REVELATION.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+PRAYER-FOR-WISDOM.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+PRAYER-HAWAIIAN-VACATION.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+PRAYER-MAKES-HUMAN.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+PRAYER-MY-SHELTER.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+PRAYER-NOT-JOB.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+PREEMINENCE-OF-GOODNESS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+PREFERENCE-VS-NECESSITY.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+PRICE-OF-PRIDE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+PRIDE-IS-PRISON.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+PRIDE-OF-SATAN.md
+  Missing fields: zh_title, zh_content
+
+PRIDE-VS-DIGNITY-RACE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+PRIEST-OF-CHRIST.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+PRIVATE-INTERPRETATION.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+PROBLEM-AND-SOLUTION.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+PROGRESS-AND-FAILURE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+PROVING-CREATION.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+PSEUDOSCIENCE-FAILURE.md
+  Missing fields: zh_title, zh_content
+
+PSYCHOPATHIC-CORPORATIONS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+PURPOSELESS-EXISTENCE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+PURSUIT-OF-HAPPINESS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+QUALIFIED-TO-BREAK.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+QUESTIONING-GODS-EXISTENCE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+READY-FOR-ANSWER.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+READY-FOR-ETERNITY.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+REASON-TO-BE-ALIVE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+RECOGNIZE-OPPORTUNITY.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+RECONCILING-ALL-THINGS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+RECONCILING-IN-CHRIST.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+RECREATING-INTENT.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+REJECTED-CORNER-STONE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+REJECTED-TRUTH-WEIGHT.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+REJOICING-IN-OTHERS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+RELATIONSHIP-IMPACT.md
+  Missing fields: zh_title, zh_content
+
+RELATIONSHIP-WITH-FATHER.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+RELENTLESS-LOVE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+REMEMBERING-VS-LIVING-PAST.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+REMOVING-ALL-THINGS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+RESCUE-BY-JOB.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+RESPECT-AND-AFFECTION.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+RESPECTING-OUR-BODIES.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+RESPONSIBILITY-NO-AUTHORITY.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+RESURRECTION-BIRTH.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title
+
+REVELATION-ISRAELI-CHURCH.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+RICH-AND-WELFARE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+SACRIFICE-IN-SERVICE.md
+  Missing fields: zh_title, zh_content
+
+SALARY-VS-VALUE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+SALVATION-AS-GIFT.md
+  Missing fields: es_content
+
+SALVATION-FOR-ANYBODY.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+SANHEDRIN-CONCERNS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+SAUL-WASTING-LIFE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+SAVED-FROM-GOD.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+SAYING-NO-TO-SELF.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+SCENT-OF-GOD.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+SCIENCE-AND-SCRIPTURE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+SCIENCE-ON-ORIGIN.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+SEAT-OF-POWER.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+SECOND-COMING-STATS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+SEED-DESIGN.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+SEEKING-VS-HEARING-GOD.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+SELF-DECEPTION-FIRST.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+SELF-DESTRUCTIVE-NATURE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+SELF-TORTURE-OWNERSHIP.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+SHADOWS-OF-CHRIST.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+SHERBERT-AND-BLOWTORCH.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+SHOULD-BE-VS-WILL-BE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+SHOVING-SUGAR-BODY.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+SHOWING-MERCY.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+SIMPLE-AND-DEEP.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+SIMPLE-RELATIONSHIP-CHRIST.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+SIN-IS-EXPENSIVE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+SIN-MAKES-IDIOTS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+SIN-TASTES-GOOD.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+SPARED-ON-FREEWAY.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+SPECIFIED-COMPLEXITY.md
+  Missing fields: zh_title, zh_content
+
+SPIRIT-IS-LIFE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+SPIRIT-OF-CHRIST-ENCOUNTER.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+SPIRIT-TRANSFORMING-ENERGY.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+SPIRIT-VS-MATTER.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+SPITTING-IN-GODS-FACE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+SPITTING-ON-THE-CROSS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+STANDARD-MODEL-HOLES.md
+  Missing fields: zh_title, zh_content
+
+STANDARD-MODEL-OBSERVATION.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+SUFFERING-VS-SINNING.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+SUN-ENERGY.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+SUNS-ENERGY-CORE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+SUPPRESSING-THE-BIBLE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+SURVIVING-JUDGMENT.md
+  Missing fields: es_content
+
+TALKING-TO-PEOPLE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+TEACHER-AND-IDENTITY.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+TEN-TRILLION-CELLS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+TERRIBLE-SECRETS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+THE-BRINK-OF-EXTINCTION.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+THE-CROSS.md
+  Missing fields: es_content
+
+THE-FIRST-SIN.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+THE-NEXT-LIFE-IMPORTANCE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+THE-PRICE-OF-PROMISCUITY.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+THE-SUFFERING-GOD.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+THREE-TYPES-OF-HUMANITY.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+TRAGEDY-IN-CHURCH.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+TRANSFORMING-POWER-LOVE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+TRANSGENDER-RESTROOM-DEBATE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+TREASURE-UNDER-GARBAGE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+TREATED-AS-FAMILY.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+TREATING-JUDAS-ISCARIOT.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+TRUE-THEOLOGIAN.md
+  Missing fields: es_content
+
+TRUE-WEALTH-NEED.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+TRULY-HUMAN-ENGAGEMENT.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+TRUTH-AS-WEAPON.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+TRUTH-CONFIRMS-GOD.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+TRUTH-EXPOSES-LIES.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+TWITTER-TO-HEAVEN.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+TWO-GARDENS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+TWO-TYPES-CHURCHES.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+ULTIMATE-REALITY-GOD.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+UNCONDITIONAL-LOVE-HATRED.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+UNCONDITIONAL-LOVE-PRAYER.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+UNDERSTANDING-SIN-HELL.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+UNEMPLOYMENT-STATS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+UNEQUALLY-YOKED-MARRIAGE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+UNFORGIVABLE-SIN.md
+  Missing fields: zh_title, zh_content
+
+UNGRATEFUL-HUMAN-RACE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+UNITY-IN-CHRIST.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+UNIVERSAL-MERCY-REQUIREMENT.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+UNIVERSE-INSIDE-GOD.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+UNPATRIOTIC-CORPORATIONS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+UNREASONABLE-PEOPLE-PROBLEM.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+UNREASONABLE-PRIDE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+UNSUSTAINABLE-WORLD-SYSTEM.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+VALUE-OF-ETERNITY.md
+  Missing fields: es_content, hi_title
+
+VISIBLE-UNIVERSE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+VOICE-OF-THE-DEVIL.md
+  Missing fields: zh_title, zh_content
+
+WALKING-WITH-GOD.md
+  Missing fields: zh_title, zh_content
+
+WANTING-DECEPTION.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+WANTING-FORGIVENESS-ONLY.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+WANTING-LOVE-ONLY.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+WAY-OF-EMPIRES.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+WAY-TO-MANS-EGO.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+WEALTH-DISPARITY-GAP.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+WEATHER-AS-COMMUNICATION.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+WEEPING-OVER-CREATION.md
+  Missing fields: hi_title
+
+WEIGHT-OF-GREED.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+WEIGHT-OF-SIN.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+WELFARE-JOB-CHURCH.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+WHISPER-OF-HOPE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+WHOLE-BIBLE-ACCEPTANCE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+WICKEDNESS-AND-GUN-LAWS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+WISDOM-OF-GOD.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+WITHHOLDING-POWERS.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+WITNESSING-GODS-PRESENCE.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_content, zh_title, zh_content
+
+WORK-TO-BE-SAVED.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+WORLD-HATES-GOD.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+WRATH-OF-GOD.md
+  Missing fields: es_title, es_content, fr_title, fr_content, hi_title, hi_content, zh_title, zh_content
+
+
+FILES WITH COMPLETE TRANSLATIONS (27 files):
+--------------------------------------------------------------------------------
+ACCOUNTABILITY.md
+AGREEING-WITH-OPPRESSOR.md
+ALIGNING-THROUGH-PRAYER.md
+ALL-TRUTH-GODS.md
+ALONZO-CHURCH-FAITH.md
+AMERICA-ACCOUNTABLE-FREEDOMS.md
+AMERICAN-POVERTY-LINE.md
+ANGER-AND-PAIN.md
+ANGER-AS-CONTAGION.md
+APOCALYPSE-BETTER-WORLD.md
+APOSTLES-AS-VISION.md
+ARROGANCE-VS-DIGNITY.md
+ASK-GOD-PERFECTION.md
+ATROCITIES-OF-RELIGION.md
+ATTENTIONS-DESIRE.md
+AWESOME-GOD.md
+DEFINITION-OF-SIN.md
+DUST-AND-DIVINE.md
+FRIENDS-AND-ENEMIES.md
+GOD-AND-EVIL.md
+JESUS-IN-DISGUISE.md
+LIFE-AS-DREAM.md
+SUBMITTING-OUR-PLANS.md
+TERROR-TO-ENEMIES.md
+THE-LORD-GIVES.md
+THE-SPEAKING-GOD.md
+WITTGENSTEIN-DISCOVERY.md

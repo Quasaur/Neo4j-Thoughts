@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.CHURCH IS BIG BUSINESS",
     en_title: "Church Is Big Business",
     en_content: "In America church is big business...that's a problem.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "La Iglesia es un Gran Negocio",
+    es_content: "En América la iglesia es un gran negocio... eso es un problema.",
+    fr_title: "L'Église est une Grande Affaire",
+    fr_content: "En Amérique, l'église est une grande affaire... c'est un problème.",
+    hi_title: "चर्च एक बड़ा व्यवसाय है",
+    hi_content: "अमेरिका में चर्च एक बड़ा व्यवसाय है... यह एक समस्या है।",
+    zh_title: "Jiàotáng Shì Dà Shēngyì",
+    zh_content: "Zài Měiguó, Jiàotáng shì dà shēngyì... Zhè shì yīgè wèntí."
 });
 
 MATCH (t:THOUGHT)

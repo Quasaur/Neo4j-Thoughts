@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.CHURCH AS LOVE GROUP",
     en_title: "Church As Love Group",
     en_content: "The number of hate groups has doubled the last 10 years. Where's the love groups? Oh yeah: that's what the CHURCH's supposed to be!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "La Iglesia como Grupo de Amor",
+    es_content: "El número de grupos de odio se ha duplicado en los últimos 10 años. ¿Dónde están los grupos de amor? Ah sí: ¡eso es lo que se supone que debe ser la IGLESIA!",
+    fr_title: "L'Église comme Groupe d'Amour",
+    fr_content: "Le nombre de groupes haineux a doublé ces 10 dernières années. Où sont les groupes d'amour ? Ah oui : c'est ce que l'ÉGLISE est censée être !",
+    hi_title: "प्रेम समूह के रूप में चर्च",
+    hi_content: "घृणा समूहों की संख्या पिछले 10 वर्षों में दोगुनी हो गई है। प्रेम समूह कहाँ हैं? ओह हाँ: चर्च को यही होना चाहिए था!",
+    zh_title: "Jiàotáng Zuòwéi Ài de Qúntǐ",
+    zh_content: "Chóuhèn qúntǐ de shùliàng zài guòqù 10 nián zhōng fānle yī bèi. Ài de qúntǐ nǎ? Ō duì: Nà jiù shì JIÀOTÁNG yīnggāi chéngwéi de!"
 });
 
 MATCH (t:THOUGHT)

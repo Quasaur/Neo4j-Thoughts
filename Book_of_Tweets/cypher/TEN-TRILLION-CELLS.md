@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.TEN TRILLION CELLS",
     en_title: "Ten Trillion Cells",
     en_content: "The human body is made up of at least 10 trillion cells...God is great!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Diez Billones de Células",
+    es_content: "El cuerpo humano está compuesto de al menos 10 billones de células... ¡Dios es grande!",
+    fr_title: "Dix Billions de Cellules",
+    fr_content: "Le corps humain est composé d'au moins 10 billions de cellules... Dieu est grand !",
+    hi_title: "दस ट्रिलियन कोशिकाएं",
+    hi_content: "मानव शरीर कम से कम 10 ट्रिलियन कोशिकाओं से बना है... परमेश्वर महान है!",
+    zh_title: "Shí wàn yì xìbāo 十万亿细胞",
+    zh_content: "Réntǐ yóu zhìshǎo 10 wàn yì gè xìbāo... Shàngdì zhēn wěidà! 人体由至少 10 万亿个细胞...上帝真伟大！"
 });
 
 MATCH (t:THOUGHT)

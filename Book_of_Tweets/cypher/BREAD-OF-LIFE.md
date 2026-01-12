@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.BREAD OF LIFE",
     en_title: "Bread Of Life",
     en_content: "We overeat in our attempt to feed our starving spirit with natural food instead of The BREAD of LIFE which is Christ.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Pan de Vida",
+    es_content: "Comemos en exceso en nuestro intento de alimentar nuestro espíritu hambriento con comida natural en lugar del PAN de VIDA que es Cristo.",
+    fr_title: "Pain de Vie",
+    fr_content: "Nous mangeons trop dans notre tentative de nourrir notre esprit affamé avec de la nourriture naturelle au lieu du PAIN de VIE qui est le Christ.",
+    hi_title: "जीवन की रोटी",
+    hi_content: "हम अपनी भूखी आत्मा को प्राकृतिक भोजन से खिलाने के प्रयास में अत्यधिक खाते हैं, जीवन की रोटी जो मसीह है, के बजाय।",
+    zh_title: "Shēngmìng zhī liáng 生命之粮",
+    zh_content: "Wǒmen bàoshí shì shì wèi le yòng zìrán shíwù wèiyǎng wǒmen jīè de línghún, ér bù shì yòng shēngmìng zhī liáng--Jīdū. 我们暴食是为了用自然食物喂养我们饥饿的灵魂，而不是用生命之粮--基督。"
 });
 
 MATCH (t:THOUGHT)

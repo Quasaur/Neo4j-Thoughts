@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.CREATORS SUFFERING",
     en_title: "Creators Suffering",
     en_content: "Better for all of us to have gone to Hell than for Our Precious Creator to have suffered the way He did.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Sufrimiento del Creador",
+    es_content: "Mejor que todos nosotros hubiéramos ido al infierno que nuestro Precioso Creador hubiera sufrido como lo hizo.",
+    fr_title: "Souffrance du Créateur",
+    fr_content: "Mieux vaut que nous allions tous en enfer plutôt que notre Précieux Créateur ait souffert comme Il l'a fait.",
+    hi_title: "स्रष्टा का दुख",
+    hi_content: "हम सभी के लिए नरक जाना बेहतर था कि हमारे कीमती स्रष्टा ने जैसा दुख उठाया।",
+    zh_title: "Chuàngzào Zhě de Tòngkǔ",
+    zh_content: "Wǒmen suǒyǒu rén dōu qù dìyù bǐ wǒmen bǎoguì de Chuàngzào Zhě shòu nàme duō tòngkǔ gèng hǎo."
 });
 
 MATCH (t:THOUGHT)

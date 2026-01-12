@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.BAILOUT AND HATE",
     en_title: "Bailout And Hate",
     en_content: "Obama bailed out the Republicans...which made them hate him all the more.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Rescate y Odio",
+    es_content: "Obama rescató a los republicanos... lo cual los hizo odiarlo aún más.",
+    fr_title: "Renflouement et Haine",
+    fr_content: "Obama a renflouer les républicains... ce qui les a fait le haïr encore plus.",
+    hi_title: "सहायता और नफरत",
+    hi_content: "ओबामा ने रिपब्लिकनों को बचाया... जिससे वे उनसे और अधिक नफरत करने लगे।",
+    zh_title: "Jiùzhù hé chóuhèn 救助和仇恨",
+    zh_content: "Àobāmǎ jiùzhù le Gònghédǎng rén... zhè shǐ tāmen gèng jiā chóuhèn tā. 奥巴马救助了共和党人...这使他们更加仇恨他。"
 });
 
 MATCH (t:THOUGHT)

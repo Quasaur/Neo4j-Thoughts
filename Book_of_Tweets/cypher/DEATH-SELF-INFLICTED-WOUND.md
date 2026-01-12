@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.DEATH SELF INFLICTED WOUND",
     en_title: "Death Self Inflicted Wound",
     en_content: "Death is not natural; it's a self-inflicted wound we incurred when we separated ourselves from God through disobedience.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Muerte Herida Auto Infligida",
+    es_content: "La muerte no es natural; es una herida auto infligida que sufrimos cuando nos separamos de Dios a través de la desobediencia.",
+    fr_title: "Mort Blessure Auto-Infligée",
+    fr_content: "La mort n'est pas naturelle ; c'est une blessure auto-infligée que nous avons subie lorsque nous nous sommes séparés de Dieu par la désobéissance.",
+    hi_title: "मौत आत्म-प्रेरित घाव",
+    hi_content: "मौत प्राकृतिक नहीं है; यह एक आत्म-प्रेरित घाव है जो हमें तब लगा जब हमने अवज्ञा के माध्यम से परमेश्वर से खुद को अलग कर लिया।",
+    zh_title: "Sǐwáng Zìshāng Zhī Shāng",
+    zh_content: "Sǐwáng bù shì zìrán de; Tā shì wǒmen tōngguò wéifǎn ér líkāi Shàngdì shí zìshāng de shāngkǒu."
 });
 
 MATCH (t:THOUGHT)

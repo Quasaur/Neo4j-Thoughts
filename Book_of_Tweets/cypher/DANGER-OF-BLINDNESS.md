@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.DANGER OF BLINDNESS",
     en_title: "Danger Of Blindness",
     en_content: "Blindness is great...until you fall off a cliff.",
-    es_title: "TITULO",
-    es_content: "CONTENIDO",
-    fr_title: "TITRE",
-    fr_content: "CONTENU",
-    hi_title: "SHIRSHAK",
-    hi_content: "SAMAGRI",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Peligro de la Ceguera",
+    es_content: "La ceguera es genial... hasta que caes de un acantilado.",
+    fr_title: "Danger de la Cécité",
+    fr_content: "La cécité est formidable... jusqu'à ce que vous tombiez d'une falaise.",
+    hi_title: "अंधेपन का खतरा",
+    hi_content: "अंधापन बहुत अच्छा है... जब तक आप एक चट्टान से नहीं गिर जाते।",
+    zh_title: "Xiāyǎn de Wéixiǎn",
+    zh_content: "Xiāyǎn hěn bàng... Zhídào nǐ cóng xuányá shàng diào xiàlái."
 });
 
 MATCH (t:THOUGHT)

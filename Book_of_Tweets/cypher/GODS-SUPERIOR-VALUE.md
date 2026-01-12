@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.GODS SUPERIOR VALUE",
     en_title: "Gods Superior Value",
     en_content: "In the REAL WORLD, God is more valuable than all of us put together.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "El Valor Superior de Dios",
+    es_content: "En el MUNDO REAL, Dios es más valioso que todos nosotros juntos.",
+    fr_title: "La Valeur Supérieure de Dieu",
+    fr_content: "Dans le MONDE RÉEL, Dieu a plus de valeur que nous tous réunis.",
+    hi_title: "परमेश्वर का उच्च मूल्य",
+    hi_content: "वास्तविक दुनिया में, परमेश्वर हम सभी को एक साथ रखने से कहीं अधिक मूल्यवान हैं।",
+    zh_title: "Shàngdì de chāoyujiàzhí 上帝的超越价值",
+    zh_content: "Zài zhēnshí shìjiè zhōng, Shàngdì bǐ wǒmen suǒyǒu rén jiā qǐlái gèng yǒu jiàzhí. 在真实世界中，上帝比我们所有人加起来更有价值。"
 });
 
 MATCH (t:THOUGHT)

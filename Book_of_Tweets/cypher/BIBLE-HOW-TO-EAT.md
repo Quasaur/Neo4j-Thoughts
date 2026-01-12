@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.BIBLE HOW TO EAT",
     en_title: "Bible How To Eat",
     en_content: "The Bible not only tells us how to live, but also HOW TO EAT!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "La Biblia y Cómo Comer",
+    es_content: "¡La Biblia no solo nos dice cómo vivir, sino también CÓMO COMER!",
+    fr_title: "La Bible et Comment Manger",
+    fr_content: "La Bible ne nous dit pas seulement comment vivre, mais aussi COMMENT MANGER !",
+    hi_title: "बाइबिल कैसे खाएं",
+    hi_content: "बाइबिल हमें न केवल यह बताती है कि कैसे जीना है, बल्कि यह भी कि कैसे खाना है!",
+    zh_title: "Shèngjīng jiàodǎo rúhé chī 圣经教导如何吃",
+    zh_content: "Shèngjīng bùjǐn gàosu wǒmen rúhé shēnghuó, yě gàosu wǒmen rúhé yǐnshí! 圣经不仅告诉我们如何生活，也告诉我们如何饮食！"
 });
 
 MATCH (t:THOUGHT)

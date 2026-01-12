@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.RECONCILING IN CHRIST",
     en_title: "Reconciling In Christ",
     en_content: "1st Corinthians 15:24-28: God is reconciling and consolidating all things into Christ.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Reconciliando en Cristo",
+    es_content: "1 Corintios 15:24-28: Dios está reconciliando y consolidando todas las cosas en Cristo.",
+    fr_title: "Réconcilier en Christ",
+    fr_content: "1 Corinthiens 15:24-28 : Dieu réconcilie et consolide toutes choses en Christ.",
+    hi_title: "मसीह में सुलह करना",
+    hi_content: "1 कुरिन्थियों 15:24-28: परमेश्वर सभी चीज़ों को मसीह में सुलह और संघटित कर रहे हैं।",
+    zh_title: "Zài Jīdū lǐ héxé 在基督里和合",
+    zh_content: "Gēlínduō qián shū 15:24-28: Shàngdì zhèng zài Jīdū lǐ héxé bìng zhěnghé wànwù. 哥林多前书 15:24-28：上帝正在基督里和合并整合万物。"
 });
 
 MATCH (t:THOUGHT)

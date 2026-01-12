@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.CHANGING EVIL TO RIGHTEOUS",
     en_title: "Changing Evil To Righteous",
     en_content: "God's Other Genius is changing evil people into righteous people!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Transformar al Malvado en Justo",
+    es_content: "¡Otro Genio de Dios es transformar a las personas malvadas en personas justas!",
+    fr_title: "Transformer le Méchant en Juste",
+    fr_content: "L'autre génie de Dieu est de transformer les méchants en justes !",
+    hi_title: "बुरे को धर्मी में बदलना",
+    hi_content: "परमेश्वर की दूसरी प्रतिभा बुरे लोगों को धर्मी लोगों में बदलना है!",
+    zh_title: "Jiāng Xié'è Biàn Wéi Zhèngyì",
+    zh_content: "Shàngdì de lìng yī tiāncái shì jiāng xié'è de rén biàn wéi zhèngyì de rén!"
 });
 
 MATCH (t:THOUGHT)

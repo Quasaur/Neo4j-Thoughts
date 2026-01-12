@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.DEFINE BEING ALONE",
     en_title: "Define Being Alone",
     en_content: "The true definition of being alone is being unaware of God's Loving Presence.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Definir Estar Solo",
+    es_content: "La verdadera definición de estar solo es estar inconsciente de la Presencia Amorosa de Dios.",
+    fr_title: "Définir Être Seul",
+    fr_content: "La vraie définition d'être seul est d'être inconscient de la Présence Aimante de Dieu.",
+    hi_title: "अकेले होने को परिभाषित करें",
+    hi_content: "अकेले होने की सच्ची परिभाषा परमेश्वर की प्रेमपूर्ण उपस्थिति से अनजान होना है।",
+    zh_title: "Dìngyì Gūdān",
+    zh_content: "Gūdān de zhēnzhèng dìngyì shì bù zhī Shàngdì de ài xīn chūzài."
 });
 
 MATCH (t:THOUGHT)

@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.CHRISTIANS ON CROSSES",
     en_title: "Christians On Crosses",
     en_content: "True Christians are easy to identify: they're the ones hanging on crosses.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Cristianos en Cruces",
+    es_content: "Los verdaderos cristianos son fáciles de identificar: son los que están colgados en cruces.",
+    fr_title: "Chrétiens sur des Croix",
+    fr_content: "Les vrais chrétiens sont faciles à identifier : ce sont ceux qui sont suspendus à des croix.",
+    hi_title: "क्रूस पर ईसाई",
+    hi_content: "सच्चे ईसाई पहचानने में आसान हैं: वे वे हैं जो क्रूस पर लटके हुए हैं।",
+    zh_title: "Guà Zài Shízi Jià Shàng de Jīdūtú",
+    zh_content: "Zhēnzhèng de Jīdūtú hěn róngyì shi bié: Tāmen shì guà zài shízi jià shàng de rén."
 });
 
 MATCH (t:THOUGHT)

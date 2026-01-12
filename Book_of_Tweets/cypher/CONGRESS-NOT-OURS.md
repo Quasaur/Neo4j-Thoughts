@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.CONGRESS NOT OURS",
     en_title: "Congress Not Ours",
     en_content: "The United States Congress no longer belongs to the American People.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Congreso No Es Nuestro",
+    es_content: "El Congreso de los Estados Unidos ya no pertenece al Pueblo Americano.",
+    fr_title: "Congrès Pas Le Nôtre",
+    fr_content: "Le Congrès des États-Unis n'appartient plus au peuple américain.",
+    hi_title: "कांग्रेस हमारी नहीं",
+    hi_content: "संयुक्त राज्य कांग्रेस अब अमेरिकी लोगों की नहीं है।",
+    zh_title: "Guóhuì Bù Shǔyú Wǒmen",
+    zh_content: "Měiguó Guóhuì yǐjīng bù zài shǔyú Měiguó Rénmín."
 });
 
 MATCH (t:THOUGHT)

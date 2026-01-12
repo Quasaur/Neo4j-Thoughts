@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.DEFINE EVIL JEALOUSY",
     en_title: "Define Evil Jealousy",
     en_content: "Evil Jealousy: fear of loss.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Definir Celos Malvados",
+    es_content: "Celos Malvados: miedo a la pérdida.",
+    fr_title: "Définir la Jalousie Maléfique",
+    fr_content: "Jalousie Maléfique : peur de la perte.",
+    hi_title: "बुराई ईर्ष्या को परिभाषित करें",
+    hi_content: "बुराई ईर्ष्या: हानि का डर।",
+    zh_title: "Dìngyì è'è de jídù",
+    zh_content: "È'è de jídù: Pà shīqù."
 });
 
 MATCH (t:THOUGHT)

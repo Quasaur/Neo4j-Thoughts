@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.DAILY DIVINE LOVE",
     en_title: "Daily Divine Love",
     en_content: "Though I may deserve Wrath I still need Love...and God gives me His Love every morning!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Amor Divino Diario",
+    es_content: "Aunque pueda merecer ira, aún necesito amor... ¡y Dios me da Su amor cada mañana!",
+    fr_title: "Amour Divin Quotidien",
+    fr_content: "Bien que je mérite la colère, j'ai encore besoin d'amour... et Dieu me donne Son amour chaque matin !",
+    hi_title: "दैनिक दिव्य प्रेम",
+    hi_content: "हालांकि मुझे क्रोध मिलना चाहिए, मुझे अभी भी प्रेम की आवश्यकता है... और परमेश्वर मुझे हर सुबह अपना प्रेम देते हैं!",
+    zh_title: "Měirì Shénshèng de Ài",
+    zh_content: "Suīrán wǒ kěnéng zhīdé fèn nù, wǒ háishì xūyào ài... Shàngdì měi tiān zǎoshang dōu gěi wǒ Tā de ài!"
 });
 
 MATCH (t:THOUGHT)

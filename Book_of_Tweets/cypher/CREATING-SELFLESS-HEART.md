@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.CREATING SELFLESS HEART",
     en_title: "Creating Selfless Heart",
     en_content: "Only God can create a selfless heart from a pile of dust.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Creando un Corazón Desinteresado",
+    es_content: "Solo Dios puede crear un corazón desinteresado a partir de un montón de polvo.",
+    fr_title: "Créer un Cœur Désintéressé",
+    fr_content: "Seul Dieu peut créer un cœur désintéressé à partir d'un tas de poussière.",
+    hi_title: "निःस्वार्थ हृदय बनाना",
+    hi_content: "केवल परमेश्वर ही धूल के ढेर से एक निःस्वार्थ हृदय बना सकते हैं।",
+    zh_title: "Chuàngzào wú sī zhī xīn 创造无私之心",
+    zh_content: "Zhǐyǒu Shàngdì néng cóng chéntǔ zhōng chuàngzào chū yī kē wú sī de xīn. 只有上帝能从尘土中创造出一颗无私的心。"
 });
 
 MATCH (t:THOUGHT)

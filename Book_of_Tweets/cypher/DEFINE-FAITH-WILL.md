@@ -29,14 +29,14 @@ CREATE (c:CONTENT {
     name: "content.DEFINE FAITH WILL",
     en_title: "Define Faith Will",
     en_content: "New Definition of Faith: KNOWING God's Will for me in every situation.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Definir Fe Voluntad",
+    es_content: "Nueva Definición de Fe: CONOCER la Voluntad de Dios para mí en toda situación.",
+    fr_title: "Définir la Foi Volonté",
+    fr_content: "Nouvelle Définition de la Foi : CONNAÎTRE la Volonté de Dieu pour moi dans chaque situation.",
+    hi_title: "विश्वास इच्छा को परिभाषित करें",
+    hi_content: "विश्वास की नई परिभाषा: हर स्थिति में मेरे लिए भगवान की इच्छा जानना।",
+    zh_title: "Dìngyì xìnxīn yìzhì",
+    zh_content: "Xìnxīn de xīn dìngyì: Zài měi gè qíngkuàng xià dōuzhī shàngdì duì wǒ de yìzhì."
 });
 
 MATCH (t:THOUGHT)

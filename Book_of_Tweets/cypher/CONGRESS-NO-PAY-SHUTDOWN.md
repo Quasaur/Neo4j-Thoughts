@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.CONGRESS NO PAY SHUTDOWN",
     en_title: "Congress No Pay Shutdown",
     en_content: "Congress should not get paid as long as the Federal Government is shut down!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Congreso Sin Pago Cierre",
+    es_content: "¡El Congreso no debería recibir pago mientras el Gobierno Federal esté cerrado!",
+    fr_title: "Congrès Sans Paie Fermeture",
+    fr_content: "Le Congrès ne devrait pas être payé tant que le gouvernement fédéral est fermé !",
+    hi_title: "कांग्रेस बिना वेतन बंद",
+    hi_content: "जब तक संघीय सरकार बंद है, कांग्रेस को वेतन नहीं मिलना चाहिए!",
+    zh_title: "Guóhuì Wú Zhīfù Guānbì",
+    zh_content: "Zhǐyào Liánbāng Zhèngfǔ guānbì, Guóhuì jiù bù yīnggāi dédào zhīfù!"
 });
 
 MATCH (t:THOUGHT)

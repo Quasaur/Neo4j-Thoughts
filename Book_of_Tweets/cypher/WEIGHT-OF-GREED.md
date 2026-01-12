@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.WEIGHT OF GREED",
     en_title: "Weight Of Greed",
     en_content: "America is finally buckling under the weight of its own greed.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "El Peso de la Codicia",
+    es_content: "Estados Unidos finalmente se está derrumbando bajo el peso de su propia codicia.",
+    fr_title: "Le Poids de la Cupidité",
+    fr_content: "L'Amérique finit par succomber sous le poids de sa propre cupidité.",
+    hi_title: "लालच का भार",
+    hi_content: "अमेरिका आखिरकार अपने ही लालच के भार तले झुक रहा है।",
+    zh_title: "Tānlán de fùdān 贪婪的负担",
+    zh_content: "Měiguó zhōngyú zài zìjǐ tānlán de fùdān xià bēngkuì. 美国终于在自己贪婪的负担下崩溃。"
 });
 
 MATCH (t:THOUGHT)

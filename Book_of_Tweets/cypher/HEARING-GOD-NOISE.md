@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.HEARING GOD NOISE",
     en_title: "Hearing God Noise",
     en_content: "We cannot hear God through the noise of our own desire.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "विट्गेन्स्टाइन की खोज",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Escuchar a Dios a Través del Ruido",
+    es_content: "No podemos escuchar a Dios a través del ruido de nuestro propio deseo.",
+    fr_title: "Entendre Dieu à Travers le Bruit",
+    fr_content: "Nous ne pouvons pas entendre Dieu à travers le bruit de notre propre désir.",
+    hi_title: "शोर के बीच परमेश्वर को सुनना",
+    hi_content: "हम अपनी स्वयं की इच्छाओं के शोर के बीच परमेश्वर को नहीं सुन सकते।",
+    zh_title: "Zàoyīn zhōng tīng shàngdì 噪音中听上帝",
+    zh_content: "Wǒmen wúfǎ tòuguò zìjǐ yùwàng de zàoyīn tīngdào shàngdì de shēngyīn. 我们无法透过自己欲望的噪音听到上帝的声音。"
 });
 
 MATCH (t:THOUGHT)

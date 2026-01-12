@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.CORPORATE RACISM",
     en_title: "Corporate Racism",
     en_content: "Racism, Discrimination and Prejudice are alive and well in Corporate America.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Racismo Corporativo",
+    es_content: "El racismo, la discriminación y los prejuicios están vivos y bien en la América Corporativa.",
+    fr_title: "Racisme Corporatif",
+    fr_content: "Le racisme, la discrimination et les préjugés sont bien vivants dans l'Amérique corporative.",
+    hi_title: "निगम नस्लवाद",
+    hi_content: "नस्लवाद, भेदभाव और पूर्वाग्रह कॉर्पोरेट अमेरिका में जीवित और स्वस्थ हैं।",
+    zh_title: "Gōngsī Zhǒngzú Zhǔyì",
+    zh_content: "Zhǒngzú zhǔyì, qíshì hé piānjiàn zài gōngsī Měiguó zhōng shēngcún de hěn hǎo."
 });
 
 MATCH (t:THOUGHT)

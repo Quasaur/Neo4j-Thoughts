@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.GOD NOT DEADBEAT",
     en_title: "God Not Deadbeat",
     en_content: "God is not a deadbeat... He takes care of His own.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Dios No es un Irresponsable",
+    es_content: "Dios no es un irresponsable... Él cuida de los Suyos.",
+    fr_title: "Dieu n'est Pas un Irresponsable",
+    fr_content: "Dieu n'est pas un irresponsable... Il prend soin des Siens.",
+    hi_title: "परमेश्वर लापरवाह नहीं",
+    hi_content: "परमेश्वर लापरवाह नहीं हैं... वे अपनों की देखभाल करते हैं।",
+    zh_title: "Shàngdì bù shì làndàng 上帝不是滥当",
+    zh_content: "Shàngdì bù shì làndàng... tā huì zhàogù zìjǐ de rén. 上帝不是滥当...他会照顾自己的人。"
 });
 
 MATCH (t:THOUGHT)

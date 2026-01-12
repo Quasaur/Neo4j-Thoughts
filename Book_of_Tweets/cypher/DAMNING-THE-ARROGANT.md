@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.DAMNING THE ARROGANT",
     en_title: "Damning The Arrogant",
     en_content: "How does God damn a sinner? By letting them prosper in their arrogance.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Condenando al Arrogante",
+    es_content: "¿Cómo condena Dios a un pecador? Dejándolos prosperar en su arrogancia.",
+    fr_title: "Condamner l'Arrogant",
+    fr_content: "Comment Dieu damne-t-Il un pécheur ? En le laissant prospérer dans son arrogance.",
+    hi_title: "अहंकारी को दंडित करना",
+    hi_content: "परमेश्वर एक पापी को कैसे दंडित करता है? उन्हें उनकी अहंकार में समृद्ध होने देता है।",
+    zh_title: "Zhìzuì Jiāo'ào Zhě",
+    zh_content: "Shàngdì zěnme zhìzuì yīgè zuìrén? Ràng tāmen zài tāmen de jiāo'ào zhōng fánróng."
 });
 
 MATCH (t:THOUGHT)

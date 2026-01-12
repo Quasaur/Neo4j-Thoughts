@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.DEFINE HOPE",
     en_title: "Define Hope",
     en_content: "HOPE = DESIRE + EXPECTATION",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Definir Esperanza",
+    es_content: "ESPERANZA = DESEO + EXPECTATIVA",
+    fr_title: "Définir l'Espoir",
+    fr_content: "ESPOIR = DÉSIR + ATTENTE",
+    hi_title: "आशा को परिभाषित करें",
+    hi_content: "आशा = इच्छा + अपेक्षा",
+    zh_title: "Dìngyì xīwàng",
+    zh_content: "Xīwàng = Kěwàng + Qīwàng"
 });
 
 MATCH (t:THOUGHT)

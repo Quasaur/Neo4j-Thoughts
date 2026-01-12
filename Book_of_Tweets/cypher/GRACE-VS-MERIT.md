@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.GRACE VS MERIT",
     en_title: "Grace Vs Merit",
     en_content: "The merit system and Grace are incompatible...we have to choose one or the other.",
-    es_title: "TITULO",
-    es_content: "CONTENIDO",
-    fr_title: "TITRE",
-    fr_content: "CONTENU",
-    hi_title: "SHIRSHAK",
-    hi_content: "SAMAGRI",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Gracia versus Mérito",
+    es_content: "El sistema de méritos y la Gracia son incompatibles... tenemos que elegir uno u otro.",
+    fr_title: "Grâce contre Mérite",
+    fr_content: "Le système de mérite et la Grâce sont incompatibles... nous devons choisir l'un ou l'autre.",
+    hi_title: "कृपा बनाम योग्यता",
+    hi_content: "योग्यता प्रणाली और कृपा असंगत हैं... हमें एक या दूसरा चुनना होगा।",
+    zh_title: "Ēndiǎn yǔ gōngjixué 恩典与功绩说",
+    zh_content: "Gōngjixué zhìduù hé ēndiǎn shì bù xiāng róng de... wǒmen bìxū xuǎnzé qí yī. 功绩说制度和恩典是不相容的...我们必须选择其一。"
 });
 
 MATCH (t:THOUGHT)

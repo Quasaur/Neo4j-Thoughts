@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.COMPREHENDING VS KNOWING",
     en_title: "Comprehending Vs Knowing",
     en_content: "If I could comprehend Him, He wouldn't be God; but I can know Him.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Comprender Versus Conocer",
+    es_content: "Si pudiera comprenderlo, Él no sería Dios; pero puedo conocerlo.",
+    fr_title: "Comprendre Contre Connaître",
+    fr_content: "Si je pouvais Le comprendre, Il ne serait pas Dieu ; mais je peux Le connaître.",
+    hi_title: "समझना बनाम जानना",
+    hi_content: "अगर मैं उन्हें समझ सकता, तो वे परमेश्वर नहीं होते; लेकिन मैं उन्हें जान सकता हूं।",
+    zh_title: "Lǐjiě Duìbǐ Rènshí",
+    zh_content: "Rúguǒ wǒ néng lǐjiě Tā, Tā jiù bùshì Shàngdì; Dàn wǒ kěyǐ rènshí Tā."
 });
 
 MATCH (t:THOUGHT)

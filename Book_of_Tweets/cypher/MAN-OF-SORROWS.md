@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.MAN OF SORROWS",
     en_title: "Man Of Sorrows",
     en_content: "Jesus was a Man of sorrows...acquainted with grief--not because of what they did to Him, but what they did to each other!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Varón de Dolores",
+    es_content: "Jesús era un Varón de dolores... familiarizado con el sufrimiento--no por lo que le hicieron a Él, sino por lo que se hicieron unos a otros!",
+    fr_title: "Homme de Douleurs",
+    fr_content: "Jésus était un Homme de douleurs... familier avec le chagrin--non pas à cause de ce qu'ils Lui ont fait, mais de ce qu'ils se sont fait les uns aux autres !",
+    hi_title: "दुःख का पुरुष",
+    hi_content: "यीशु दुःख का पुरुष था... शोक से परिचित--इसलिए नहीं कि उन्होंने उनके साथ क्या किया, बल्कि इसलिए कि उन्होंने एक दूसरे के साथ क्या किया!",
+    zh_title: "Bēiāi zhī rén 悲哀之人",
+    zh_content: "Yēsū shì bēiāi zhī rén... shì xī tòngkǔ de--bù shì yīnwèi tāmen duì tā zuò le shénme, ér shì yīnwèi tāmen bǐcǐ zuò le shénme! 耶穣是悲哀之人...熟悉痛苦的--不是因为他们对他做了什么，而是因为他们彼此做了什么！"
 });
 
 MATCH (t:THOUGHT)

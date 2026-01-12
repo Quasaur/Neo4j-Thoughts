@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.IMAGE OF GOD",
     en_title: "Image Of God",
     en_content: "I'm NOT the child of monkeys; I was created in God's Image and after His Likeness; I should be treated as such--and so should you!",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Imagen de Dios",
+    es_content: "NO soy hijo de monos; fui creado a Imagen de Dios y a Su Semejanza; debo ser tratado como tal--¡y tú también!",
+    fr_title: "Image de Dieu",
+    fr_content: "Je ne suis PAS l'enfant de singes ; j'ai été créé à l'Image de Dieu et à Sa Ressemblance ; je devrais être traité comme tel--et vous aussi !",
+    hi_title: "परमेश्वर की छवि",
+    hi_content: "मैं बंदरों की संतान नहीं हूँ; मैं परमेश्वर की छवि में और उनकी समानता में बनाया गया; मेरे साथ वैसा ही व्यवहार होना चाहिए--और आपके साथ भी!",
+    zh_title: "Shàngdì de xínxiàng 上帝的形象",
+    zh_content: "Wǒ bù shì hóuzi de háizi; wǒ shì àn Shàngdì de xínxiàng hé tā de yàngshì zhàozào de; yīnggāi zhèyàng duìzhì wǒ--nǐ yě shì! 我不是猴子的孩子；我是按上帝的形象和他的样式造的；应该这样对待我--你也是！"
 });
 
 MATCH (t:THOUGHT)

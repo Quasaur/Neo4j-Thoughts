@@ -30,14 +30,14 @@ CREATE (c:CONTENT {
     name: "content.RECOGNIZE OPPORTUNITY",
     en_title: "Recognize Opportunity",
     en_content: "The tragedy is that African American men do not recognize opportunity when they see it.",
-    es_title: "TITULO DEL PENSAMIENTO",
-    es_content: "CONTENIDO DEL PENSAMIENTO",
-    fr_title: "TITRE DE LA PENSÉE",
-    fr_content: "CONTENU DE LA PENSÉE",
-    hi_title: "शिखा",
-    hi_content: "सामग्री",
-    zh_title: "biāo tí",
-    zh_content: "nèi róng"
+    es_title: "Reconocer la Oportunidad",
+    es_content: "La tragedia es que los hombres afroamericanos no reconocen la oportunidad cuando la ven.",
+    fr_title: "Reconnaître l'Opportunité",
+    fr_content: "La tragédie est que les hommes afro-américains ne reconnaissent pas l'opportunité quand ils la voient.",
+    hi_title: "अवसर को पहचानना",
+    hi_content: "दुर्भाग्य यह है कि अफ्रीकी अमेरिकी पुरुष अवसर को देखते समय पहचान नहीं पाते।",
+    zh_title: "Rènshí jīhuì 认识机会",
+    zh_content: "Bēijù shì Fēizhōu měiguó nánxìng zài kàndào jīhuì shí wúfǎ rènshí tā. 悲剧是非洲美国男性在看到机会时无法认识它。"
 });
 
 MATCH (t:THOUGHT)
