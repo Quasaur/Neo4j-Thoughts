@@ -10,7 +10,7 @@ tags:
 - temptation
 - evil
 - sovereignty
-level: 2
+level: 4
 neo4j: true
 ptopic: 
 insert: true
@@ -24,7 +24,7 @@ CREATE (t:THOUGHT {
     parent: "topic.EVIL",
     tags: ['lucifer', 'deception', 'temptation', 'evil', 'sovereignty'],
     notes: "",
-    level: 2
+    level: 4
 });
 
 CREATE (c:CONTENT {

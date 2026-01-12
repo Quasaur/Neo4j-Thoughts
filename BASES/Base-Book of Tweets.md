@@ -14,6 +14,7 @@ views:
     order:
       - file.path
       - name
+      - parent
       - insert
       - level
       - ptopic
@@ -28,6 +29,7 @@ views:
     columnSize:
       file.path: 300
       note.name: 287
+      note.parent: 175
       note.insert: 150
       note.level: 171
       note.ptopic: 153

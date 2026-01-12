@@ -10,7 +10,7 @@ tags:
 - evil
 - character
 - philosophy
-level: 2
+level: 4
 neo4j: true
 ptopic: 
 insert: true
@@ -24,7 +24,7 @@ CREATE (t:THOUGHT {
     parent: "topic.EVIL",
     tags: ['jealousy', 'fear', 'evil', 'character', 'philosophy'],
     notes: "",
-    level: 2
+    level: 4
 });
 
 CREATE (c:CONTENT {

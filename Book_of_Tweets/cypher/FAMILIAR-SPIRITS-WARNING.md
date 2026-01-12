@@ -10,7 +10,7 @@ tags:
 - evil
 - law
 - bible
-level: 2
+level: 4
 neo4j: true
 ptopic: 
 insert: true
@@ -24,7 +24,7 @@ CREATE (t:THOUGHT {
     parent: "topic.EVIL",
     tags: ['occult', 'spirits', 'evil', 'law', 'bible'],
     notes: "",
-    level: 2
+    level: 4
 });
 
 CREATE (c:CONTENT {

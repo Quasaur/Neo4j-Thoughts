@@ -10,7 +10,7 @@ tags:
 - attitude
 - character
 - disgusting
-level: 2
+level: 3
 neo4j: true
 ptopic: 
 insert: true
@@ -24,7 +24,7 @@ CREATE (t:THOUGHT {
     parent: "topic.ATTITUDE",
     tags: ['forgiveness', 'hypocrisy', 'attitude', 'character', 'disgusting'],
     notes: "",
-    level: 2
+    level: 3
 });
 
 CREATE (c:CONTENT {

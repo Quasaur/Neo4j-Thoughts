@@ -10,7 +10,7 @@ tags:
 - human_nature
 - humility
 - comparison
-level: 2
+level: 3
 neo4j: true
 ptopic: 
 insert: true
@@ -24,7 +24,7 @@ CREATE (t:THOUGHT {
     parent: "topic.GRACE",
     tags: ["grace", "satan", "human_nature", "humility", "comparison"],
     notes: "",
-    level: 2
+    level: 3
 });
 
 CREATE (c:CONTENT {
