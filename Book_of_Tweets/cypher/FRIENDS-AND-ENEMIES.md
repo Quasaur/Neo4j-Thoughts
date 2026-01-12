@@ -10,7 +10,7 @@ tags:
   - relations
   - divine_will
 level: 2
-neo4j: true
+neo4j: false
 ptopic: 
 type: THOUGHT
 ---

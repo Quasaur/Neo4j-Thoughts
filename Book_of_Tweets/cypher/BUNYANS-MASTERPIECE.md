@@ -11,7 +11,7 @@ tags:
 en_content: "Reading Bunyan's masterpiece: The Doctrine of Law and Grace Unfolded...Wow!!!"
 parent: topic.GRACE
 level: 3
-neo4j: true
+neo4j: false
 ptopic: 
 ---
 

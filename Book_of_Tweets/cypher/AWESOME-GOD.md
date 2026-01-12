@@ -10,7 +10,7 @@ tags:
   - worship
   - gods_children
 level: 1
-neo4j: true
+neo4j: false
 ptopic: 
 type: THOUGHT
 ---

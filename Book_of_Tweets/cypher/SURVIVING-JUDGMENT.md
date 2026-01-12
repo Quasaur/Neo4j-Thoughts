@@ -11,7 +11,7 @@ tags:
 en_content: "Salvation: the means by which a wicked, rebellious sinner can survive the Judgment coming upon the whole world."
 parent: topic.THE-GOSPEL
 level: 2
-neo4j: true
+neo4j: false
 ptopic: 
 ---
 

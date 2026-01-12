@@ -11,7 +11,7 @@ tags:
   - desire
   - pride
 level: 3
-neo4j: false
+neo4j: true
 ptopic: "[[topic-ATTITUDE]]"
 ---
 

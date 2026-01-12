@@ -11,7 +11,7 @@ tags:
 - poverty
 - character
 level: 3
-neo4j: true
+neo4j: false
 ptopic: 
 ---
 
