@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Wo Xiang Xin Xi Bo Lai Sheng Jing...Zhe Ge Shi Jie Xi Tong Shi Bu Ke Chi Xu De."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.UNSUSTAINABLE WORLD SYSTEM" AND c.name = "content.UNSUSTAINABLE WORLD SYSTEM"
+MATCH (t:THOUGHT {name: "thought.UNSUSTAINABLE WORLD SYSTEM"})
+MATCH (c:CONTENT {name: "content.UNSUSTAINABLE WORLD SYSTEM"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.UNSUSTAINABLE WORLD SYSTEM" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.HUMANITY" AND child.name = "thought.UNSUSTAINABLE WORLD SYSTEM"
+MATCH (parent:TOPIC {name: "topic.HUMANITY"})
+MATCH (child:THOUGHT {name: "thought.UNSUSTAINABLE WORLD SYSTEM"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >UNSUSTAINABLE WORLD SYSTEM" }]->(child);
 ```

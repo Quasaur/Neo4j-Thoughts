@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Zhen Zheng De Jing Ji Zheng Zhi He She Hui Ping Deng Yong Yuan Bu Hui Zai Di Qiu Shang Cun Zai, Zhi Dao Ji Du Fu Gui."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.EQUALITY AT RETURN" AND c.name = "content.EQUALITY AT RETURN"
+MATCH (t:THOUGHT {name: "thought.EQUALITY AT RETURN"})
+MATCH (c:CONTENT {name: "content.EQUALITY AT RETURN"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.EQUALITY AT RETURN" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.DIVINE SOVEREIGNTY" AND child.name = "thought.EQUALITY AT RETURN"
+MATCH (parent:TOPIC {name: "topic.DIVINE SOVEREIGNTY"})
+MATCH (child:THOUGHT {name: "thought.EQUALITY AT RETURN"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "DIVINE SOVEREIGNTY >EQUALITY AT RETURN" }]->(child);
 ```

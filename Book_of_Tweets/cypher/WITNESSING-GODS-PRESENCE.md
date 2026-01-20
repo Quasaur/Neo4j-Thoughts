@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Wǒmen jùjí qǐlái jiànzhèng Shàngdì Tóngzài de xiǎnxiàn; zhèng shì zài nàlǐ, zuì'è dédào kuànshù, èzhòu bèi dǎpò, shēntǐ dédào yīzhì."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.WITNESSING GODS PRESENCE" AND c.name = "content.WITNESSING GODS PRESENCE"
+MATCH (t:THOUGHT {name: "thought.WITNESSING GODS PRESENCE"})
+MATCH (c:CONTENT {name: "content.WITNESSING GODS PRESENCE"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.WITNESSING GODS PRESENCE" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.WORSHIP" AND child.name = "thought.WITNESSING GODS PRESENCE"
+MATCH (parent:TOPIC {name: "topic.WORSHIP"})
+MATCH (child:THOUGHT {name: "thought.WITNESSING GODS PRESENCE"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "WORSHIP >WITNESSING GODS PRESENCE" }]->(child);
 ```

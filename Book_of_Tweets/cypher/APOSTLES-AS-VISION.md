@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Shǐtúmen rè'ài yēsū de yìxiàng, yīnwèi shǐtúmen jiùshì yēsū de yìxiàng!"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.APOSTLES AS VISION" AND c.name = "content.APOSTLES AS VISION"
+MATCH (t:THOUGHT {name: "thought.APOSTLES AS VISION"})
+MATCH (c:CONTENT {name: "content.APOSTLES AS VISION"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.APOSTLES AS VISION" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.RELIGION" AND child.name = "thought.APOSTLES AS VISION"
+MATCH (parent:TOPIC {name: "topic.RELIGION"})
+MATCH (child:THOUGHT {name: "thought.APOSTLES AS VISION"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION >APOSTLES AS VISION" }]->(child);
 ```

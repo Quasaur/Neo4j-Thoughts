@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "进化论无法解释特定的复杂性。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.SPECIFIED COMPLEXITY" AND c.name = "content.SPECIFIED COMPLEXITY"
+MATCH (t:THOUGHT {name: "thought.SPECIFIED COMPLEXITY"})
+MATCH (c:CONTENT {name: "content.SPECIFIED COMPLEXITY"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.SPECIFIED COMPLEXITY" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.CREATION" AND child.name = "thought.SPECIFIED COMPLEXITY"
+MATCH (parent:TOPIC {name: "topic.CREATION"})
+MATCH (child:THOUGHT {name: "thought.SPECIFIED COMPLEXITY"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "CREATION >SPECIFIED COMPLEXITY" }]->(child);
 ```

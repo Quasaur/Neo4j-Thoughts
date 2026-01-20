@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Rú guǒ nǐ SHÌ yī gè jī qì rén...nǐ RÚHÉ zhī dào nǐ de yì zhì bù shì zì yóu de?"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.FREE WILL ROBOT" AND c.name = "content.FREE WILL ROBOT"
+MATCH (t:THOUGHT {name: "thought.FREE WILL ROBOT"})
+MATCH (c:CONTENT {name: "content.FREE WILL ROBOT"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.FREE WILL ROBOT" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.PHILOSOPHY" AND child.name = "thought.FREE WILL ROBOT"
+MATCH (parent:TOPIC {name: "topic.PHILOSOPHY"})
+MATCH (child:THOUGHT {name: "thought.FREE WILL ROBOT"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY >FREE WILL ROBOT" }]->(child);
 ```

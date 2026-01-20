@@ -40,15 +40,13 @@ CREATE (c:CONTENT {
 	zh_title: "Zhìzhě zhī dào", 
 	zh_content: "zhìzhě shànyú qīngtīng, zēngzhǎng xuéshì; tōngdá rén néng huòdé míngzhì de jiànyì."});
 // link content to node
-MATCH (p:PASSAGE)
-MATCH (c:CONTENT)
-WHERE p.name = 'passage.WHAT THE WISE DO' AND c.name = 'content.WHAT THE WISE DO'
+MATCH (p:PASSAGE {name: 'passage.WHAT THE WISE DO'})
+MATCH (c:CONTENT {name: 'content.WHAT THE WISE DO'})
 MERGE (p)-[:HAS_CONTENT {name: "p.edge.WHAT THE WISE DO"}]->(c)
 RETURN *;
 // link node to parent node
-MATCH (parent:TOPIC)
-MATCH (child:PASSAGE)
-WHERE parent.name = 'topic.UNDERSTANDING' AND child.name = 'passage.WHAT THE WISE DO'
+MATCH (parent:TOPIC {name: 'topic.UNDERSTANDING'})
+MATCH (child:PASSAGE {name: 'passage.WHAT THE WISE DO'})
 MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.UNDERSTANDING->WHAT THE WISE DO"}]->(child)
 RETURN *;
 

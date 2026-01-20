@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Měiguó, shàngdì huì ràng nǐ wèi nǐ shǐyòng zìyóu de fāngshì fùzé."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.AMERICA ACCOUNTABLE FREEDOMS" AND c.name = "content.AMERICA ACCOUNTABLE FREEDOMS"
+MATCH (t:THOUGHT {name: "thought.AMERICA ACCOUNTABLE FREEDOMS"})
+MATCH (c:CONTENT {name: "content.AMERICA ACCOUNTABLE FREEDOMS"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.AMERICA ACCOUNTABLE FREEDOMS" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.MORALITY" AND child.name = "thought.AMERICA ACCOUNTABLE FREEDOMS"
+MATCH (parent:TOPIC {name: "topic.MORALITY"})
+MATCH (child:THOUGHT {name: "thought.AMERICA ACCOUNTABLE FREEDOMS"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >AMERICA ACCOUNTABLE FREEDOMS" }]->(child);
 ```

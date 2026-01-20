@@ -40,15 +40,13 @@ CREATE (c:CONTENT {
 	zh_title: "Èrén zhī jiā",
 	zh_content: "yēhéhuá zhòu zǔ èrén zhī jiā, cì fú yǔ yì rén de jūsuǒ."});
 // link content to node
-MATCH (p:PASSAGE)
-MATCH (c:CONTENT)
-WHERE p.name = 'passage.HOUSE OF THE WICKED' AND c.name = 'content.HOUSE OF THE WICKED'
+MATCH (p:PASSAGE {name: 'passage.HOUSE OF THE WICKED'})
+MATCH (c:CONTENT {name: 'content.HOUSE OF THE WICKED'})
 MERGE (p)-[:HAS_CONTENT {name: "p.edge.HOUSE OF THE WICKED"}]->(c)
 RETURN *;
 // link node to parent node
-MATCH (parent:TOPIC)
-MATCH (child:PASSAGE)
-WHERE parent.name = 'topic.EVIL' AND child.name = 'passage.HOUSE OF THE WICKED'
+MATCH (parent:TOPIC {name: 'topic.EVIL'})
+MATCH (child:PASSAGE {name: 'passage.HOUSE OF THE WICKED'})
 MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.EVIL->HOUSE OF THE WICKED"}]->(child)
 RETURN *;
 

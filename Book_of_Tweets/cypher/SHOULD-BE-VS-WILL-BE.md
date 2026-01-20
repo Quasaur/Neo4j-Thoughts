@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Yi qie dou ru qi suo ying, dan fei ru qi suo jiang."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.SHOULD BE VS WILL BE" AND c.name = "content.SHOULD BE VS WILL BE"
+MATCH (t:THOUGHT {name: "thought.SHOULD BE VS WILL BE"})
+MATCH (c:CONTENT {name: "content.SHOULD BE VS WILL BE"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.SHOULD BE VS WILL BE" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.DIVINE SOVEREIGNTY" AND child.name = "thought.SHOULD BE VS WILL BE"
+MATCH (parent:TOPIC {name: "topic.DIVINE SOVEREIGNTY"})
+MATCH (child:THOUGHT {name: "thought.SHOULD BE VS WILL BE"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "DIVINE SOVEREIGNTY >SHOULD BE VS WILL BE" }]->(child);
 ```

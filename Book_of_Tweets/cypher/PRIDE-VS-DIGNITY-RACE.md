@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "为什么非裔美国男性会将骄傲与尊严混为一谈？"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.PRIDE VS DIGNITY RACE" AND c.name = "content.PRIDE VS DIGNITY RACE"
+MATCH (t:THOUGHT {name: "thought.PRIDE VS DIGNITY RACE"})
+MATCH (c:CONTENT {name: "content.PRIDE VS DIGNITY RACE"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.PRIDE VS DIGNITY RACE" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.HUMANITY" AND child.name = "thought.PRIDE VS DIGNITY RACE"
+MATCH (parent:TOPIC {name: "topic.HUMANITY"})
+MATCH (child:THOUGHT {name: "thought.PRIDE VS DIGNITY RACE"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >PRIDE VS DIGNITY RACE" }]->(child);
 ```

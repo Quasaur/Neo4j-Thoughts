@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Ròutǐ tài yúchǔn, wúfǎ língxìng; tā bìxū yǔ Jīdū tóng dìng shízi jià, bìng tòngguò Shàngdì de ài bèi Shàngdì de Líng suǒ zhìfú. 肉体太愚蠢，无法灵性；它必须与基督同钉十字架，并通过上帝的爱被上帝的灵所制服。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.FLESH VS SPIRIT" AND c.name = "content.FLESH VS SPIRIT"
+MATCH (t:THOUGHT {name: "thought.FLESH VS SPIRIT"})
+MATCH (c:CONTENT {name: "content.FLESH VS SPIRIT"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.FLESH VS SPIRIT" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.SPIRITUALITY" AND child.name = "thought.FLESH VS SPIRIT"
+MATCH (parent:TOPIC {name: "topic.SPIRITUALITY"})
+MATCH (child:THOUGHT {name: "thought.FLESH VS SPIRIT"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >FLESH VS SPIRIT" }]->(child);
 ```

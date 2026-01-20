@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Yēsū duì wǒ de dàiyù yuǎn bǐ wǒ duì Tā de dàiyù hǎo de duō. Wǒ jiāng Tā dīng zài shízìjià shàng; Tā què gěi le wǒ shēngmìng! 耶稣对我的待遇远比我对祂的待遇好得多。我将祂钉在十字架上；祂却给了我生命！"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.BETTER TREATMENT JESUS" AND c.name = "content.BETTER TREATMENT JESUS"
+MATCH (t:THOUGHT {name: "thought.BETTER TREATMENT JESUS"})
+MATCH (c:CONTENT {name: "content.BETTER TREATMENT JESUS"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.BETTER TREATMENT JESUS" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.THE GODHEAD" AND child.name = "thought.BETTER TREATMENT JESUS"
+MATCH (parent:TOPIC {name: "topic.THE GODHEAD"})
+MATCH (child:THOUGHT {name: "thought.BETTER TREATMENT JESUS"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >BETTER TREATMENT JESUS" }]->(child);
 ```

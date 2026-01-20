@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Fei Zao Shi Shui Geng Shi Run; Ye Su Ji Du Shi Sheng Huo Geng Huo Yue!"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.LIVELIER LIVING" AND c.name = "content.LIVELIER LIVING"
+MATCH (t:THOUGHT {name: "thought.LIVELIER LIVING"})
+MATCH (c:CONTENT {name: "content.LIVELIER LIVING"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.LIVELIER LIVING" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.SPIRITUALITY" AND child.name = "thought.LIVELIER LIVING"
+MATCH (parent:TOPIC {name: "topic.SPIRITUALITY"})
+MATCH (child:THOUGHT {name: "thought.LIVELIER LIVING"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >LIVELIER LIVING" }]->(child);
 ```

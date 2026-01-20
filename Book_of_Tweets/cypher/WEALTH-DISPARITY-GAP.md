@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Bairenjiating zhongwei caifu: Meiyuan 113,000 yuan. Heirenjiating zhongwei caifu: Meiyuan 5,700 yuan. Ai, shi de... shenghuo zhen gongping!"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.WEALTH DISPARITY GAP" AND c.name = "content.WEALTH DISPARITY GAP"
+MATCH (t:THOUGHT {name: "thought.WEALTH DISPARITY GAP"})
+MATCH (c:CONTENT {name: "content.WEALTH DISPARITY GAP"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.WEALTH DISPARITY GAP" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.MORALITY" AND child.name = "thought.WEALTH DISPARITY GAP"
+MATCH (parent:TOPIC {name: "topic.MORALITY"})
+MATCH (child:THOUGHT {name: "thought.WEALTH DISPARITY GAP"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >WEALTH DISPARITY GAP" }]->(child);
 ```

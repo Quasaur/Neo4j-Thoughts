@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Zhǒngzú zhǔyì, qíshì hé piānjiàn zài gōngsī Měiguó zhōng shēngcún de hěn hǎo."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.CORPORATE RACISM" AND c.name = "content.CORPORATE RACISM"
+MATCH (t:THOUGHT {name: "thought.CORPORATE RACISM"})
+MATCH (c:CONTENT {name: "content.CORPORATE RACISM"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.CORPORATE RACISM" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.MORALITY" AND child.name = "thought.CORPORATE RACISM"
+MATCH (parent:TOPIC {name: "topic.MORALITY"})
+MATCH (child:THOUGHT {name: "thought.CORPORATE RACISM"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >CORPORATE RACISM" }]->(child);
 ```

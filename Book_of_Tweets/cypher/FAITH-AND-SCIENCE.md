@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "标准模型（暴胀、暗物质/能量/流动）需要更多的信心，而不是相信上帝通过他的话语将宇宙结合在一起。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.FAITH AND SCIENCE" AND c.name = "content.FAITH AND SCIENCE"
+MATCH (t:THOUGHT {name: "thought.FAITH AND SCIENCE"})
+MATCH (c:CONTENT {name: "content.FAITH AND SCIENCE"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.FAITH AND SCIENCE" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.FAITH" AND child.name = "thought.FAITH AND SCIENCE"
+MATCH (parent:TOPIC {name: "topic.FAITH"})
+MATCH (child:THOUGHT {name: "thought.FAITH AND SCIENCE"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "FAITH >FAITH AND SCIENCE" }]->(child);
 ```

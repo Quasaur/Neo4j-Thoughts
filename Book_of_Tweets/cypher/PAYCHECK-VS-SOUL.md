@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Bie zai xiang ni de gongzi bi ni LINGHUN de zunyan geng zhongyao yiyang shenghuo le! Mataifuyyin 16:26"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.PAYCHECK VS SOUL" AND c.name = "content.PAYCHECK VS SOUL"
+MATCH (t:THOUGHT {name: "thought.PAYCHECK VS SOUL"})
+MATCH (c:CONTENT {name: "content.PAYCHECK VS SOUL"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.PAYCHECK VS SOUL" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.MORALITY" AND child.name = "thought.PAYCHECK VS SOUL"
+MATCH (parent:TOPIC {name: "topic.MORALITY"})
+MATCH (child:THOUGHT {name: "thought.PAYCHECK VS SOUL"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >PAYCHECK VS SOUL" }]->(child);
 ```

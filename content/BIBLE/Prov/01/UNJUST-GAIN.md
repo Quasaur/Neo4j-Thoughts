@@ -40,15 +40,13 @@ CREATE (c:CONTENT {
 	zh_title: "Bù yì zhī cái", 
 	zh_content: "fán móuqǔ bù yì zhī cái de rén, dōu shì rúcǐ xíngjìng; bù yì zhī cái duó qùle yǒngyǒu zhě de shēngmìng."});
 // link content to node
-MATCH (p:PASSAGE)
-MATCH (c:CONTENT)
-WHERE p.name = 'passage.UNJUST GAIN' AND c.name = 'content.UNJUST GAIN'
+MATCH (p:PASSAGE {name: 'passage.UNJUST GAIN'})
+MATCH (c:CONTENT {name: 'content.UNJUST GAIN'})
 MERGE (p)-[:HAS_CONTENT {name: "p.edge.UNJUST GAIN"}]->(c)
 RETURN *;
 // link node to parent node
-MATCH (parent:TOPIC)
-MATCH (child:PASSAGE)
-WHERE parent.name = 'topic.WEALTH' AND child.name = 'passage.UNJUST GAIN'
+MATCH (parent:TOPIC {name: 'topic.WEALTH'})
+MATCH (child:PASSAGE {name: 'passage.UNJUST GAIN'})
 MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.WEALTH->UNJUST GAIN"}]->(child)
 RETURN *;
 

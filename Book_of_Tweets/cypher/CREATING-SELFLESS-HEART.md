@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Zhǐyǒu Shàngdì néng cóng chéntǔ zhōng chuàngzào chū yī kē wú sī de xīn. 只有上帝能从尘土中创造出一颗无私的心。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.CREATING SELFLESS HEART" AND c.name = "content.CREATING SELFLESS HEART"
+MATCH (t:THOUGHT {name: "thought.CREATING SELFLESS HEART"})
+MATCH (c:CONTENT {name: "content.CREATING SELFLESS HEART"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.CREATING SELFLESS HEART" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.THE GODHEAD" AND child.name = "thought.CREATING SELFLESS HEART"
+MATCH (parent:TOPIC {name: "topic.THE GODHEAD"})
+MATCH (child:THOUGHT {name: "thought.CREATING SELFLESS HEART"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >CREATING SELFLESS HEART" }]->(child);
 ```

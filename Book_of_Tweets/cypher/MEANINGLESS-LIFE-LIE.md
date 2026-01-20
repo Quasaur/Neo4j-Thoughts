@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Zong Jiao: ru guo mei you ren shi dui de, er mei ge ren dou shi cuo de, na me sheng ming ji shi wu yi yi de YOU shi huang yan."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.MEANINGLESS LIFE LIE" AND c.name = "content.MEANINGLESS LIFE LIE"
+MATCH (t:THOUGHT {name: "thought.MEANINGLESS LIFE LIE"})
+MATCH (c:CONTENT {name: "content.MEANINGLESS LIFE LIE"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.MEANINGLESS LIFE LIE" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.PHILOSOPHY" AND child.name = "thought.MEANINGLESS LIFE LIE"
+MATCH (parent:TOPIC {name: "topic.PHILOSOPHY"})
+MATCH (child:THOUGHT {name: "thought.MEANINGLESS LIFE LIE"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY >MEANINGLESS LIFE LIE" }]->(child);
 ```

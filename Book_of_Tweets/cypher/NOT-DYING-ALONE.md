@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Shang Di hui rang ni si qu...dan Ta bu hui rang ni gu du de si qu."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.NOT DYING ALONE" AND c.name = "content.NOT DYING ALONE"
+MATCH (t:THOUGHT {name: "thought.NOT DYING ALONE"})
+MATCH (c:CONTENT {name: "content.NOT DYING ALONE"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.NOT DYING ALONE" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.SPIRITUALITY" AND child.name = "thought.NOT DYING ALONE"
+MATCH (parent:TOPIC {name: "topic.SPIRITUALITY"})
+MATCH (child:THOUGHT {name: "thought.NOT DYING ALONE"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >NOT DYING ALONE" }]->(child);
 ```

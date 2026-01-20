@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Měitiān wǒmen dōu zài zuò yīxiē shìqíng, ràng yāpòzhě zhīdào wǒmen tóngyì tā de jīnqián bǐ zhèngyì, zūnyán, gōngpíng hé róngyù gèng yǒu jiàzhí."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.AGREEING WITH OPPRESSOR" AND c.name = "content.AGREEING WITH OPPRESSOR"
+MATCH (t:THOUGHT {name: "thought.AGREEING WITH OPPRESSOR"})
+MATCH (c:CONTENT {name: "content.AGREEING WITH OPPRESSOR"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.AGREEING WITH OPPRESSOR" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.MORALITY" AND child.name = "thought.AGREEING WITH OPPRESSOR"
+MATCH (parent:TOPIC {name: "topic.MORALITY"})
+MATCH (child:THOUGHT {name: "thought.AGREEING WITH OPPRESSOR"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >AGREEING WITH OPPRESSOR" }]->(child);
 ```

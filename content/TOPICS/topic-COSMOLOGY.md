@@ -4,7 +4,7 @@ alias: "Topic: This History of Humanity's World Views"
 type: TOPIC
 parent: topic.HUMANITY
 tags:
-- metaphysiucs
+- metaphysics
 - astronomy
 - unioverse
 - social
@@ -20,7 +20,7 @@ CREATE (t:TOPIC {
     name: "topic.COSMOLOGY",
     alias: "Topic: This History of Humanity's World Views",
     parent: "topic.HUMANITY",
-    tags: ["metaphysiucs", "astronomy", "unioverse", "social", "scientific"],
+    tags: ["metaphysics", "astronomy", "unioverse", "social", "scientific"],
     level: 4
 });
 
@@ -40,13 +40,15 @@ CREATE (d:DESCRIPTION {
 });
 
 // LINK DESCRIPTION
-MATCH (t:TOPIC), (d:DESCRIPTION)
-WHERE t.name = "topic.COSMOLOGY" AND d.name = "desc.COSMOLOGY"
+MATCH (t:TOPIC {name: "topic.COSMOLOGY"})
+MATCH (d:DESCRIPTION {name: "desc.COSMOLOGY"})
 MERGE (t)-[:HAS_DESCRIPTION {name: "edge.COSMOLOGY"}]->(d);
 
 // LINK PARENT
-MATCH (p:TOPIC), (c:TOPIC)
-WHERE p.name = "topic.HUMANITY" AND c.name = "topic.COSMOLOGY"
+MATCH (p:TOPIC)
+WHERE p.name = "topic.HUMANITY"
+MATCH (c:TOPIC)
+WHERE c.name = "topic.COSMOLOGY"
 MERGE (p)-[:HAS_CHILD {name: "edge.HUMANITY->COSMOLOGY"}]->(c);
 
 ```

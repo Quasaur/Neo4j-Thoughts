@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "你要么是我与上帝关系的受益者，要么是受害者。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.RELATIONSHIP IMPACT" AND c.name = "content.RELATIONSHIP IMPACT"
+MATCH (t:THOUGHT {name: "thought.RELATIONSHIP IMPACT"})
+MATCH (c:CONTENT {name: "content.RELATIONSHIP IMPACT"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.RELATIONSHIP IMPACT" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.SPIRITUALITY" AND child.name = "thought.RELATIONSHIP IMPACT"
+MATCH (parent:TOPIC {name: "topic.SPIRITUALITY"})
+MATCH (child:THOUGHT {name: "thought.RELATIONSHIP IMPACT"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >RELATIONSHIP IMPACT" }]->(child);
 ```

@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Shùncóng jiù xiàng gāosù gōnglù shàng de xiàn: suīrán yǒu xiànzhì, dàn tāmen huì dài nǐ dào nǐ xūyào qù de dìfāng."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.OBEDIENCE AS HIGHWAY" AND c.name = "content.OBEDIENCE AS HIGHWAY"
+MATCH (t:THOUGHT {name: "thought.OBEDIENCE AS HIGHWAY"})
+MATCH (c:CONTENT {name: "content.OBEDIENCE AS HIGHWAY"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.OBEDIENCE AS HIGHWAY" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.SPIRITUALITY" AND child.name = "thought.OBEDIENCE AS HIGHWAY"
+MATCH (parent:TOPIC {name: "topic.SPIRITUALITY"})
+MATCH (child:THOUGHT {name: "thought.OBEDIENCE AS HIGHWAY"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >OBEDIENCE AS HIGHWAY" }]->(child);
 ```

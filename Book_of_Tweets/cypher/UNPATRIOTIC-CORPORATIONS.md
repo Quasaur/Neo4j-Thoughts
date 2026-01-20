@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "该公司作为一个合法的\"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.UNPATRIOTIC CORPORATIONS" AND c.name = "content.UNPATRIOTIC CORPORATIONS"
+MATCH (t:THOUGHT {name: "thought.UNPATRIOTIC CORPORATIONS"})
+MATCH (c:CONTENT {name: "content.UNPATRIOTIC CORPORATIONS"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.UNPATRIOTIC CORPORATIONS" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.MORALITY" AND child.name = "thought.UNPATRIOTIC CORPORATIONS"
+MATCH (parent:TOPIC {name: "topic.MORALITY"})
+MATCH (child:THOUGHT {name: "thought.UNPATRIOTIC CORPORATIONS"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >UNPATRIOTIC CORPORATIONS" }]->(child);
 ```

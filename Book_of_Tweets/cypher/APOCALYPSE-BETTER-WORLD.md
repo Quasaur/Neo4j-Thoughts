@@ -39,13 +39,11 @@ CREATE (c:CONTENT {
     zh_content: "Gèng měihǎo de shìjiè jíjiāng láilín! Qǐshìlù!"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.APOCALYPSE BETTER WORLD" AND c.name = "content.APOCALYPSE BETTER WORLD"
+MATCH (t:THOUGHT {name: "thought.APOCALYPSE BETTER WORLD"})
+MATCH (c:CONTENT {name: "content.APOCALYPSE BETTER WORLD"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.APOCALYPSE BETTER WORLD" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.DIVINE SOVEREIGNTY" AND child.name = "thought.APOCALYPSE BETTER WORLD"
+MATCH (parent:TOPIC {name: "topic.DIVINE SOVEREIGNTY"})
+MATCH (child:THOUGHT {name: "thought.APOCALYPSE BETTER WORLD"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "DIVINE SOVEREIGNTY >APOCALYPSE BETTER WORLD" }]->(child);
 ```

@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "国债：16万亿美元……相当于一年每秒3000万美元！！！"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.NATIONAL DEBT STATS" AND c.name = "content.NATIONAL DEBT STATS"
+MATCH (t:THOUGHT {name: "thought.NATIONAL DEBT STATS"})
+MATCH (c:CONTENT {name: "content.NATIONAL DEBT STATS"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.NATIONAL DEBT STATS" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.MORALITY" AND child.name = "thought.NATIONAL DEBT STATS"
+MATCH (parent:TOPIC {name: "topic.MORALITY"})
+MATCH (child:THOUGHT {name: "thought.NATIONAL DEBT STATS"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >NATIONAL DEBT STATS" }]->(child);
 ```

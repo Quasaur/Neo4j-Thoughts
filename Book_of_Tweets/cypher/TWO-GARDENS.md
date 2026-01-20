@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Zài Shèngjīng zhōng yǒu 2 gè yuánzi. Zài dì 1 gè yuánzi lǐ yǒu 2 kē shù; zài dì 2 gè yuánzi lǐ zhǐyǒu 1 kē shù. Dì 2 kē shù fāshēng le shénme?"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.TWO GARDENS" AND c.name = "content.TWO GARDENS"
+MATCH (t:THOUGHT {name: "thought.TWO GARDENS"})
+MATCH (c:CONTENT {name: "content.TWO GARDENS"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.TWO GARDENS" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.CREATION" AND child.name = "thought.TWO GARDENS"
+MATCH (parent:TOPIC {name: "topic.CREATION"})
+MATCH (child:THOUGHT {name: "thought.TWO GARDENS"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "CREATION >TWO GARDENS" }]->(child);
 ```

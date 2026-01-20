@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Women ba Shen paichu zaiwai le."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.LEAVING GOD OUT" AND c.name = "content.LEAVING GOD OUT"
+MATCH (t:THOUGHT {name: "thought.LEAVING GOD OUT"})
+MATCH (c:CONTENT {name: "content.LEAVING GOD OUT"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.LEAVING GOD OUT" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.RELIGION" AND child.name = "thought.LEAVING GOD OUT"
+MATCH (parent:TOPIC {name: "topic.RELIGION"})
+MATCH (child:THOUGHT {name: "thought.LEAVING GOD OUT"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION >LEAVING GOD OUT" }]->(child);
 ```

@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Shēnghuó Chéngběn: Nánrén bùnéng CHUÀNGZÀO Shēngmìng...suǒyǐ tāmen yào duì tā shōu cúnzài shuì...nǐ zài kāi wánxiào ma?!"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.EXISTENCE TAX" AND c.name = "content.EXISTENCE TAX"
+MATCH (t:THOUGHT {name: "thought.EXISTENCE TAX"})
+MATCH (c:CONTENT {name: "content.EXISTENCE TAX"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.EXISTENCE TAX" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.MORALITY" AND child.name = "thought.EXISTENCE TAX"
+MATCH (parent:TOPIC {name: "topic.MORALITY"})
+MATCH (child:THOUGHT {name: "thought.EXISTENCE TAX"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >EXISTENCE TAX" }]->(child);
 ```

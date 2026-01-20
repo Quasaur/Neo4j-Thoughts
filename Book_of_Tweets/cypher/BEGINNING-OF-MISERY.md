@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Dāng mǒu gè báichī juédìng tā bǐ Shàngdì gèng zhòngyào shí, kǔnàn jiù kāishǐ le. 当某个白痴决定他比上帝更重要时，苦难就开始了。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.BEGINNING OF MISERY" AND c.name = "content.BEGINNING OF MISERY"
+MATCH (t:THOUGHT {name: "thought.BEGINNING OF MISERY"})
+MATCH (c:CONTENT {name: "content.BEGINNING OF MISERY"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.BEGINNING OF MISERY" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.HUMANITY" AND child.name = "thought.BEGINNING OF MISERY"
+MATCH (parent:TOPIC {name: "topic.HUMANITY"})
+MATCH (child:THOUGHT {name: "thought.BEGINNING OF MISERY"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >BEGINNING OF MISERY" }]->(child);
 ```

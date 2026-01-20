@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "dang ni yu shen mian dui mian xiang yu shi, ni bu hui ti ren he wen ti; ta de rong yao shi mei ge wen ti de da an, ye shi mei chang zheng lun de zhong jie."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.FACE TO FACE" AND c.name = "content.FACE TO FACE"
+MATCH (t:THOUGHT {name: "thought.FACE TO FACE"})
+MATCH (c:CONTENT {name: "content.FACE TO FACE"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.FACE TO FACE" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.THE GODHEAD" AND child.name = "thought.FACE TO FACE"
+MATCH (parent:TOPIC {name: "topic.THE GODHEAD"})
+MATCH (child:THOUGHT {name: "thought.FACE TO FACE"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >FACE TO FACE" }]->(child);
 ```

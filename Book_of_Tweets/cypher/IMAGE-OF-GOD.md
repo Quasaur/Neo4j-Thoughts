@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Wǒ bù shì hóuzi de háizi; wǒ shì àn Shàngdì de xínxiàng hé tā de yàngshì zhàozào de; yīnggāi zhèyàng duìzhì wǒ--nǐ yě shì! 我不是猴子的孩子；我是按上帝的形象和他的样式造的；应该这样对待我--你也是！"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.IMAGE OF GOD" AND c.name = "content.IMAGE OF GOD"
+MATCH (t:THOUGHT {name: "thought.IMAGE OF GOD"})
+MATCH (c:CONTENT {name: "content.IMAGE OF GOD"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.IMAGE OF GOD" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.CREATION" AND child.name = "thought.IMAGE OF GOD"
+MATCH (parent:TOPIC {name: "topic.CREATION"})
+MATCH (child:THOUGHT {name: "thought.IMAGE OF GOD"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "CREATION >IMAGE OF GOD" }]->(child);
 ```

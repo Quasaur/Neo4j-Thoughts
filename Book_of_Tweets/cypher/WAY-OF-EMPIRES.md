@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Women zhengzai zou Luoma Diguo he Sulian de daolu."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.WAY OF EMPIRES" AND c.name = "content.WAY OF EMPIRES"
+MATCH (t:THOUGHT {name: "thought.WAY OF EMPIRES"})
+MATCH (c:CONTENT {name: "content.WAY OF EMPIRES"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.WAY OF EMPIRES" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.HUMANITY" AND child.name = "thought.WAY OF EMPIRES"
+MATCH (parent:TOPIC {name: "topic.HUMANITY"})
+MATCH (child:THOUGHT {name: "thought.WAY OF EMPIRES"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >WAY OF EMPIRES" }]->(child);
 ```

@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Rénlèi: (1) nàxiē bǎ Shàngdì fàng zài dì yī wèi de rén; (2) nàxiē gěi Shàngdì dì yī wèi yǐwài qítā yōuxiān quán de rén; (3) nàxiē gēnběn bù gěi Shàngdì rènhé yōuxiān quán de rén."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.THREE TYPES OF HUMANITY" AND c.name = "content.THREE TYPES OF HUMANITY"
+MATCH (t:THOUGHT {name: "thought.THREE TYPES OF HUMANITY"})
+MATCH (c:CONTENT {name: "content.THREE TYPES OF HUMANITY"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.THREE TYPES OF HUMANITY" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.HUMANITY" AND child.name = "thought.THREE TYPES OF HUMANITY"
+MATCH (parent:TOPIC {name: "topic.HUMANITY"})
+MATCH (child:THOUGHT {name: "thought.THREE TYPES OF HUMANITY"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >THREE TYPES OF HUMANITY" }]->(child);
 ```

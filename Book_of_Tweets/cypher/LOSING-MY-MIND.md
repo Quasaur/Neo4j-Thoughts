@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Zhi dao wo shi qu le li zhi, wo cai fa xian zi ji yi zhi dou shi feng kuang de!"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.LOSING MY MIND" AND c.name = "content.LOSING MY MIND"
+MATCH (t:THOUGHT {name: "thought.LOSING MY MIND"})
+MATCH (c:CONTENT {name: "content.LOSING MY MIND"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.LOSING MY MIND" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.PSYCHOLOGY" AND child.name = "thought.LOSING MY MIND"
+MATCH (parent:TOPIC {name: "topic.PSYCHOLOGY"})
+MATCH (child:THOUGHT {name: "thought.LOSING MY MIND"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "PSYCHOLOGY >LOSING MY MIND" }]->(child);
 ```

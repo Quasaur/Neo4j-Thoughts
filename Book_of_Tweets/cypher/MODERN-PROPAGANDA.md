@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "现代宣传（善良的吸血鬼、虔诚的狼人、善良的媒介）使人类永远滑入撒旦的神秘领域。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.MODERN PROPAGANDA" AND c.name = "content.MODERN PROPAGANDA"
+MATCH (t:THOUGHT {name: "thought.MODERN PROPAGANDA"})
+MATCH (c:CONTENT {name: "content.MODERN PROPAGANDA"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.MODERN PROPAGANDA" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.EVIL" AND child.name = "thought.MODERN PROPAGANDA"
+MATCH (parent:TOPIC {name: "topic.EVIL"})
+MATCH (child:THOUGHT {name: "thought.MODERN PROPAGANDA"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "EVIL >MODERN PROPAGANDA" }]->(child);
 ```

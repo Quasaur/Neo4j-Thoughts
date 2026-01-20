@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "接受和信仰是不可撤销地联系在一起的。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.FAITH AND ACCEPTANCE" AND c.name = "content.FAITH AND ACCEPTANCE"
+MATCH (t:THOUGHT {name: "thought.FAITH AND ACCEPTANCE"})
+MATCH (c:CONTENT {name: "content.FAITH AND ACCEPTANCE"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.FAITH AND ACCEPTANCE" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.FAITH" AND child.name = "thought.FAITH AND ACCEPTANCE"
+MATCH (parent:TOPIC {name: "topic.FAITH"})
+MATCH (child:THOUGHT {name: "thought.FAITH AND ACCEPTANCE"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "FAITH >FAITH AND ACCEPTANCE" }]->(child);
 ```

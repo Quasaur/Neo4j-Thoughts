@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Wǒ nìngyuàn zhù zài zhǐbǎn xiāng lǐ, yě bù yuànyì zhuàn liùwèi shù de gōngzī rán'hòu bèi dàng zuò chǒngwù duìdài!"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.CARDBOARD BOX DIGNITY" AND c.name = "content.CARDBOARD BOX DIGNITY"
+MATCH (t:THOUGHT {name: "thought.CARDBOARD BOX DIGNITY"})
+MATCH (c:CONTENT {name: "content.CARDBOARD BOX DIGNITY"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.CARDBOARD BOX DIGNITY" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.HUMANITY" AND child.name = "thought.CARDBOARD BOX DIGNITY"
+MATCH (parent:TOPIC {name: "topic.HUMANITY"})
+MATCH (child:THOUGHT {name: "thought.CARDBOARD BOX DIGNITY"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >CARDBOARD BOX DIGNITY" }]->(child);
 ```

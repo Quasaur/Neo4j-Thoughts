@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Hěn nán xiǎngxiàng rénmen huì bèi piàn qù rènwéi tāmen zhǐshì yīgè zhuāng mǎn huàxué wùzhì hé diànlì de dàizi. 很难想象人们会被骗去认为他们只是一个装满化学物质和电力的袋子。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.BAG OF CHEMICALS DUPED" AND c.name = "content.BAG OF CHEMICALS DUPED"
+MATCH (t:THOUGHT {name: "thought.BAG OF CHEMICALS DUPED"})
+MATCH (c:CONTENT {name: "content.BAG OF CHEMICALS DUPED"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.BAG OF CHEMICALS DUPED" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.HUMANITY" AND child.name = "thought.BAG OF CHEMICALS DUPED"
+MATCH (parent:TOPIC {name: "topic.HUMANITY"})
+MATCH (child:THOUGHT {name: "thought.BAG OF CHEMICALS DUPED"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >BAG OF CHEMICALS DUPED" }]->(child);
 ```

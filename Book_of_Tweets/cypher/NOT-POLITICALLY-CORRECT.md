@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Shangdi bu zhengzhi zhengque."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.NOT POLITICALLY CORRECT" AND c.name = "content.NOT POLITICALLY CORRECT"
+MATCH (t:THOUGHT {name: "thought.NOT POLITICALLY CORRECT"})
+MATCH (c:CONTENT {name: "content.NOT POLITICALLY CORRECT"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.NOT POLITICALLY CORRECT" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.THE GODHEAD" AND child.name = "thought.NOT POLITICALLY CORRECT"
+MATCH (parent:TOPIC {name: "topic.THE GODHEAD"})
+MATCH (child:THOUGHT {name: "thought.NOT POLITICALLY CORRECT"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >NOT POLITICALLY CORRECT" }]->(child);
 ```

@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Shèngjīng bìng bù shìtú zhèngmíng Shàngdì de cúnzài huò wèihù chuàngzào de jìlù. Tā zhǐshì xuānbù: \"Tàichū Shàngdì chuàngzào tiāndì\" (Chuàngshì jì 1:1). Zhè ge dǎnpò de xuānbù jiǎshè Shàngdì zuòwéi Chuàngzàozhǔ de xiànshí, ér méiyǒu jīngxīn de lùnzhèng huò kēxué zhèngjù. Shèngjīng jiāng chuàngzào chéngxiàn wéi yīge xìnyǎng de xíngwéi, bìxū tōngguò xìnyǎng lái jiēshòu, ér bùshì zuòwéi yīge xūyào rénlèi yànzhèng de lǐlùn."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.PROVING CREATION" AND c.name = "content.PROVING CREATION"
+MATCH (t:THOUGHT {name: "thought.PROVING CREATION"})
+MATCH (c:CONTENT {name: "content.PROVING CREATION"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.PROVING CREATION" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.CREATION" AND child.name = "thought.PROVING CREATION"
+MATCH (parent:TOPIC {name: "topic.CREATION"})
+MATCH (child:THOUGHT {name: "thought.PROVING CREATION"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "CREATION >PROVING CREATION" }]->(child);
 ```

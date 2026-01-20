@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Rúguǒ wǒ néng lǐjiě Tā, Tā jiù bùshì Shàngdì; Dàn wǒ kěyǐ rènshí Tā."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.COMPREHENDING VS KNOWING" AND c.name = "content.COMPREHENDING VS KNOWING"
+MATCH (t:THOUGHT {name: "thought.COMPREHENDING VS KNOWING"})
+MATCH (c:CONTENT {name: "content.COMPREHENDING VS KNOWING"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.COMPREHENDING VS KNOWING" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.THE GODHEAD" AND child.name = "thought.COMPREHENDING VS KNOWING"
+MATCH (parent:TOPIC {name: "topic.THE GODHEAD"})
+MATCH (child:THOUGHT {name: "thought.COMPREHENDING VS KNOWING"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >COMPREHENDING VS KNOWING" }]->(child);
 ```

@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "历史上的哪个时刻，非裔美国男人决定为了骄傲而付出互相残杀的代价？"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.PRICE OF PRIDE" AND c.name = "content.PRICE OF PRIDE"
+MATCH (t:THOUGHT {name: "thought.PRICE OF PRIDE"})
+MATCH (c:CONTENT {name: "content.PRICE OF PRIDE"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.PRICE OF PRIDE" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.MORALITY" AND child.name = "thought.PRICE OF PRIDE"
+MATCH (parent:TOPIC {name: "topic.MORALITY"})
+MATCH (child:THOUGHT {name: "thought.PRICE OF PRIDE"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >PRICE OF PRIDE" }]->(child);
 ```

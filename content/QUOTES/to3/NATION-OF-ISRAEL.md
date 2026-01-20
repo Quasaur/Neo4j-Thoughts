@@ -34,13 +34,13 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (q:QUOTE), (c:CONTENT)
-WHERE q.name = "quote.NATION_OF_ISRAEL" AND c.name = "content.NATION_OF_ISRAEL"
+MATCH (q:QUOTE {name: "quote.NATION_OF_ISRAEL"})
+MATCH (c:CONTENT {name: "content.NATION_OF_ISRAEL"})
 MERGE (q)-[:HAS_CONTENT {name: "q.edge.NATION_OF_ISRAEL"}]->(c);
 
 // LINK PARENT
-MATCH (parent:TOPIC), (child:QUOTE)
-WHERE parent.name = "topic.POLITICAL-SCIENCE" AND child.name = "quote.NATION_OF_ISRAEL"
+MATCH (parent:TOPIC {name: "topic.POLITICAL-SCIENCE"})
+MATCH (child:QUOTE {name: "quote.NATION_OF_ISRAEL"})
 MERGE (parent)-[:HAS_QUOTE {name: "q.edge.POLITICAL-SCIENCE->NATION_OF_ISRAEL"}]->(child);
 
 ```

@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Rúguǒ méiyǒu dàochá shèngjīng, zěnme néng bèi shì wéi shòu jiàoyù ne? 如果没有导察圣经，怎么能被视为受教育呢？"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.EDUCATION AND SCRIPTURE" AND c.name = "content.EDUCATION AND SCRIPTURE"
+MATCH (t:THOUGHT {name: "thought.EDUCATION AND SCRIPTURE"})
+MATCH (c:CONTENT {name: "content.EDUCATION AND SCRIPTURE"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.EDUCATION AND SCRIPTURE" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.TRUTH" AND child.name = "thought.EDUCATION AND SCRIPTURE"
+MATCH (parent:TOPIC {name: "topic.TRUTH"})
+MATCH (child:THOUGHT {name: "thought.EDUCATION AND SCRIPTURE"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH >EDUCATION AND SCRIPTURE" }]->(child);
 ```

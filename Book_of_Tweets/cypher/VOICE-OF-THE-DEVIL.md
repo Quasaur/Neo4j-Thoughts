@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "屈服于仇恨、痛苦和暴力就是向魔鬼发出声音；这些已成为他最珍惜的品质。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.VOICE OF THE DEVIL" AND c.name = "content.VOICE OF THE DEVIL"
+MATCH (t:THOUGHT {name: "thought.VOICE OF THE DEVIL"})
+MATCH (c:CONTENT {name: "content.VOICE OF THE DEVIL"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.VOICE OF THE DEVIL" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.EVIL" AND child.name = "thought.VOICE OF THE DEVIL"
+MATCH (parent:TOPIC {name: "topic.EVIL"})
+MATCH (child:THOUGHT {name: "thought.VOICE OF THE DEVIL"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "EVIL >VOICE OF THE DEVIL" }]->(child);
 ```

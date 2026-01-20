@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "\"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.REMOVING ALL THINGS" AND c.name = "content.REMOVING ALL THINGS"
+MATCH (t:THOUGHT {name: "thought.REMOVING ALL THINGS"})
+MATCH (c:CONTENT {name: "content.REMOVING ALL THINGS"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.REMOVING ALL THINGS" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.DIVINE SOVEREIGNTY" AND child.name = "thought.REMOVING ALL THINGS"
+MATCH (parent:TOPIC {name: "topic.DIVINE SOVEREIGNTY"})
+MATCH (child:THOUGHT {name: "thought.REMOVING ALL THINGS"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "DIVINE SOVEREIGNTY >REMOVING ALL THINGS" }]->(child);
 ```

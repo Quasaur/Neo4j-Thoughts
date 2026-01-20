@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Shuo cun zai mei you mu di you shen me ke xue xing ne?"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.PURPOSELESS EXISTENCE" AND c.name = "content.PURPOSELESS EXISTENCE"
+MATCH (t:THOUGHT {name: "thought.PURPOSELESS EXISTENCE"})
+MATCH (c:CONTENT {name: "content.PURPOSELESS EXISTENCE"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.PURPOSELESS EXISTENCE" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.PHILOSOPHY" AND child.name = "thought.PURPOSELESS EXISTENCE"
+MATCH (parent:TOPIC {name: "topic.PHILOSOPHY"})
+MATCH (child:THOUGHT {name: "thought.PURPOSELESS EXISTENCE"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY >PURPOSELESS EXISTENCE" }]->(child);
 ```

@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Wǒ cónglái méiyǒu yùjiàn guò bǐ Yēsū gèng qiángdà de rén... wǒ yě yǒngyuǎn bù huì. 我从来没有遇见过比耶稣更强大的人...我也永远不会。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.POWER OF JESUS" AND c.name = "content.POWER OF JESUS"
+MATCH (t:THOUGHT {name: "thought.POWER OF JESUS"})
+MATCH (c:CONTENT {name: "content.POWER OF JESUS"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.POWER OF JESUS" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.THE GODHEAD" AND child.name = "thought.POWER OF JESUS"
+MATCH (parent:TOPIC {name: "topic.THE GODHEAD"})
+MATCH (child:THOUGHT {name: "thought.POWER OF JESUS"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >POWER OF JESUS" }]->(child);
 ```

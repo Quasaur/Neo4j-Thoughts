@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Mǎdù fùyīn 7:22, 23 -- Shǐyòng Yēsū de míng bù dàibiǎo nǐ rènshi Yēsū. 马太福音 7:22, 23 --使用耶稣的名不代表你认识耶稣。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.KNOWING JESUS NAME" AND c.name = "content.KNOWING JESUS NAME"
+MATCH (t:THOUGHT {name: "thought.KNOWING JESUS NAME"})
+MATCH (c:CONTENT {name: "content.KNOWING JESUS NAME"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.KNOWING JESUS NAME" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.THE GODHEAD" AND child.name = "thought.KNOWING JESUS NAME"
+MATCH (parent:TOPIC {name: "topic.THE GODHEAD"})
+MATCH (child:THOUGHT {name: "thought.KNOWING JESUS NAME"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >KNOWING JESUS NAME" }]->(child);
 ```

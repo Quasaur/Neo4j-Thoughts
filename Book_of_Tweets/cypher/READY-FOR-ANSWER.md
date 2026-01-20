@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Tíchū wèntí bìng bù yìwèizhe nǐ yǐjīng zhǔnbèi hǎo jiēshòu dá'àn."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.READY FOR ANSWER" AND c.name = "content.READY FOR ANSWER"
+MATCH (t:THOUGHT {name: "thought.READY FOR ANSWER"})
+MATCH (c:CONTENT {name: "content.READY FOR ANSWER"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.READY FOR ANSWER" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.WISDOM" AND child.name = "thought.READY FOR ANSWER"
+MATCH (parent:TOPIC {name: "topic.WISDOM"})
+MATCH (child:THOUGHT {name: "thought.READY FOR ANSWER"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "WISDOM >READY FOR ANSWER" }]->(child);
 ```

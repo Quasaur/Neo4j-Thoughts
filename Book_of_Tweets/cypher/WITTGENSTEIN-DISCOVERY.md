@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "wǒ fā xiàn le wéi tè gēn sī tǎn."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.WITTGENSTEIN DISCOVERY" AND c.name = "content.WITTGENSTEIN DISCOVERY"
+MATCH (t:THOUGHT {name: "thought.WITTGENSTEIN DISCOVERY"})
+MATCH (c:CONTENT {name: "content.WITTGENSTEIN DISCOVERY"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.WITTGENSTEIN DISCOVERY" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.PHILOSOPHY" AND child.name = "thought.WITTGENSTEIN DISCOVERY"
+MATCH (parent:TOPIC {name: "topic.PHILOSOPHY"})
+MATCH (child:THOUGHT {name: "thought.WITTGENSTEIN DISCOVERY"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY >WITTGENSTEIN DISCOVERY" }]->(child);
 ```

@@ -39,13 +39,11 @@ CREATE (c:CONTENT {
     zh_content: "神性是三位多数：他们的生命远远超过宇宙中所有的死亡……他们的善良压倒了所有邪恶！"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.MAJORITY OF THREE" AND c.name = "content.MAJORITY OF THREE"
+MATCH (t:THOUGHT {name: "thought.MAJORITY OF THREE"})
+MATCH (c:CONTENT {name: "content.MAJORITY OF THREE"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.MAJORITY OF THREE" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.THE GODHEAD" AND child.name = "thought.MAJORITY OF THREE"
+MATCH (parent:TOPIC {name: "topic.THE GODHEAD"})
+MATCH (child:THOUGHT {name: "thought.MAJORITY OF THREE"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >MAJORITY OF THREE" }]->(child);
 ```

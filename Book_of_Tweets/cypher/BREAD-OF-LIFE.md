@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Wǒmen bàoshí shì shì wèi le yòng zìrán shíwù wèiyǎng wǒmen jīè de línghún, ér bù shì yòng shēngmìng zhī liáng--Jīdū. 我们暴食是为了用自然食物喂养我们饥饿的灵魂，而不是用生命之粮--基督。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.BREAD OF LIFE" AND c.name = "content.BREAD OF LIFE"
+MATCH (t:THOUGHT {name: "thought.BREAD OF LIFE"})
+MATCH (c:CONTENT {name: "content.BREAD OF LIFE"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.BREAD OF LIFE" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.THE GODHEAD" AND child.name = "thought.BREAD OF LIFE"
+MATCH (parent:TOPIC {name: "topic.THE GODHEAD"})
+MATCH (child:THOUGHT {name: "thought.BREAD OF LIFE"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >BREAD OF LIFE" }]->(child);
 ```

@@ -38,13 +38,15 @@ CREATE (d:DESCRIPTION {
 });
 
 // LINK DESCRIPTION
-MATCH (t:TOPIC), (d:DESCRIPTION)
-WHERE t.name = "topic.HEALTH" AND d.name = "desc.HEALTH"
+MATCH (t:TOPIC {name: "topic.HEALTH"})
+MATCH (d:DESCRIPTION {name: "desc.HEALTH"})
 MERGE (t)-[:HAS_DESCRIPTION {name: "edge.HEALTH"}]->(d);
 
 // LINK PARENT
-MATCH (p:TOPIC), (c:TOPIC)
-WHERE p.name = "topic.HUMANITY" AND c.name = "topic.HEALTH"
+MATCH (p:TOPIC)
+WHERE p.name = "topic.HUMANITY"
+MATCH (c:TOPIC)
+WHERE c.name = "topic.HEALTH"
 MERGE (p)-[:HAS_CHILD {name: "edge.HUMANITY->HEALTH"}]->(c);
 
 ```

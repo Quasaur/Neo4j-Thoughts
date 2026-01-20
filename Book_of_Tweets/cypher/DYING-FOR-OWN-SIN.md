@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Wo si--bu shi wei le Ya Dang de zui er shi wei le wo zi ji de zui; yin wei dang Ya Dang fan zui shi wo zai Ya Dang li mian, suo yi wo he ta yi qi fan zui le!"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.DYING FOR OWN SIN" AND c.name = "content.DYING FOR OWN SIN"
+MATCH (t:THOUGHT {name: "thought.DYING FOR OWN SIN"})
+MATCH (c:CONTENT {name: "content.DYING FOR OWN SIN"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.DYING FOR OWN SIN" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.HUMANITY" AND child.name = "thought.DYING FOR OWN SIN"
+MATCH (parent:TOPIC {name: "topic.HUMANITY"})
+MATCH (child:THOUGHT {name: "thought.DYING FOR OWN SIN"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >DYING FOR OWN SIN" }]->(child);
 ```

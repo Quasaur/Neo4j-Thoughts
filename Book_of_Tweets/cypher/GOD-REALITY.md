@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Dāng wǒ kàn diànshì shí wǒ yìshí dào: Shàngdì shì zhēnshí de... yǔ tā xiāngbǐ, wǒmen zhǐ shì dònghuà rénwù! 当我看电视时我意识到：上帝是真实的...与他相比，我们只是动画人物！"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.GOD REALITY" AND c.name = "content.GOD REALITY"
+MATCH (t:THOUGHT {name: "thought.GOD REALITY"})
+MATCH (c:CONTENT {name: "content.GOD REALITY"})
 MERGE (t)-[:HAS_CONTENT {name: "edge.GOD REALITY"}]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.THE GODHEAD" AND child.name = "thought.GOD REALITY"
+MATCH (parent:TOPIC {name: "topic.THE GODHEAD"})
+MATCH (child:THOUGHT {name: "thought.GOD REALITY"})
 MERGE (parent)-[:HAS_THOUGHT {name: "THE GODHEAD >GOD REALITY"}]->(child);
 ```

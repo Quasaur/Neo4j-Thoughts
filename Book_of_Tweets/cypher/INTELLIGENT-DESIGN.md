@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Zhìnéng shèjì! 智能设计！"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.INTELLIGENT DESIGN" AND c.name = "content.INTELLIGENT DESIGN"
+MATCH (t:THOUGHT {name: "thought.INTELLIGENT DESIGN"})
+MATCH (c:CONTENT {name: "content.INTELLIGENT DESIGN"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.INTELLIGENT DESIGN" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.CREATION" AND child.name = "thought.INTELLIGENT DESIGN"
+MATCH (parent:TOPIC {name: "topic.CREATION"})
+MATCH (child:THOUGHT {name: "thought.INTELLIGENT DESIGN"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "CREATION >INTELLIGENT DESIGN" }]->(child);
 ```

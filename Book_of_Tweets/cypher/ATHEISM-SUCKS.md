@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Xiāngxìn zìjǐ shì yīgè wùtǐ de wèntí zàiyú, nǐ huì kāishǐ bǎ qítā rén dàngzuò wùtǐ. Wúshénlùn zāogāo tòule!"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.ATHEISM SUCKS" AND c.name = "content.ATHEISM SUCKS"
+MATCH (t:THOUGHT {name: "thought.ATHEISM SUCKS"})
+MATCH (c:CONTENT {name: "content.ATHEISM SUCKS"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.ATHEISM SUCKS" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.PHILOSOPHY" AND child.name = "thought.ATHEISM SUCKS"
+MATCH (parent:TOPIC {name: "topic.PHILOSOPHY"})
+MATCH (child:THOUGHT {name: "thought.ATHEISM SUCKS"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY >ATHEISM SUCKS" }]->(child);
 ```

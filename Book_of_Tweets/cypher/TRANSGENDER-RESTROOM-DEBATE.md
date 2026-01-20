@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Yi xiang yunxu kuaxingbie nanxing jinru nü'er cesuo de faan shi yi hui shi; rang na ge nanxing tongguo nü'er fuqin shi ling yi hui shi."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.TRANSGENDER RESTROOM DEBATE" AND c.name = "content.TRANSGENDER RESTROOM DEBATE"
+MATCH (t:THOUGHT {name: "thought.TRANSGENDER RESTROOM DEBATE"})
+MATCH (c:CONTENT {name: "content.TRANSGENDER RESTROOM DEBATE"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.TRANSGENDER RESTROOM DEBATE" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.MORALITY" AND child.name = "thought.TRANSGENDER RESTROOM DEBATE"
+MATCH (parent:TOPIC {name: "topic.MORALITY"})
+MATCH (child:THOUGHT {name: "thought.TRANSGENDER RESTROOM DEBATE"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >TRANSGENDER RESTROOM DEBATE" }]->(child);
 ```

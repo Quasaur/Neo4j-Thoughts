@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Yàdāng méiyǒu kànjiàn Xiàwá de chuàngzào; yīncǐ nǚrén jiāng yǒngyuǎn shì nánrén de àomì. 亚当没有看见夏娃的创造；因此女人将永远是男人的奥秘。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.MYSTERY OF WOMAN" AND c.name = "content.MYSTERY OF WOMAN"
+MATCH (t:THOUGHT {name: "thought.MYSTERY OF WOMAN"})
+MATCH (c:CONTENT {name: "content.MYSTERY OF WOMAN"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.MYSTERY OF WOMAN" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.HUMANITY" AND child.name = "thought.MYSTERY OF WOMAN"
+MATCH (parent:TOPIC {name: "topic.HUMANITY"})
+MATCH (child:THOUGHT {name: "thought.MYSTERY OF WOMAN"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >MYSTERY OF WOMAN" }]->(child);
 ```

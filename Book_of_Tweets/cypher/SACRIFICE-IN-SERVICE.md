@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "如果不牺牲一些具有重大个人价值的东西，你就无法事奉上帝。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.SACRIFICE IN SERVICE" AND c.name = "content.SACRIFICE IN SERVICE"
+MATCH (t:THOUGHT {name: "thought.SACRIFICE IN SERVICE"})
+MATCH (c:CONTENT {name: "content.SACRIFICE IN SERVICE"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.SACRIFICE IN SERVICE" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.WORSHIP" AND child.name = "thought.SACRIFICE IN SERVICE"
+MATCH (parent:TOPIC {name: "topic.WORSHIP"})
+MATCH (child:THOUGHT {name: "thought.SACRIFICE IN SERVICE"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "WORSHIP >SACRIFICE IN SERVICE" }]->(child);
 ```

@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Wǒ ài yīn móu lùn... Tāmen ràng wǒ nénggòu bǎ wǒ shībài de zérèn tuī gěi biérén!"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.CONSPIRACY THEORIES" AND c.name = "content.CONSPIRACY THEORIES"
+MATCH (t:THOUGHT {name: "thought.CONSPIRACY THEORIES"})
+MATCH (c:CONTENT {name: "content.CONSPIRACY THEORIES"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.CONSPIRACY THEORIES" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.UNDERSTANDING" AND child.name = "thought.CONSPIRACY THEORIES"
+MATCH (parent:TOPIC {name: "topic.UNDERSTANDING"})
+MATCH (child:THOUGHT {name: "thought.CONSPIRACY THEORIES"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "UNDERSTANDING >CONSPIRACY THEORIES" }]->(child);
 ```

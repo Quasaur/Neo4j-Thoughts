@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Jiǎ língxìng: wèile yǎnshì xìngé shàng de quēxiàn, ér bǎ móguǐ fàng zài měi gè jiǎo luò, měi kuài shítóu xià, hé měi gè guàn mù hòu. 假灵性：为了隐藏性格上的缺陷，而把魔鬼放在每个角落，每块石头下，和每个灌木后。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.FALSE SPIRITUALITY" AND c.name = "content.FALSE SPIRITUALITY"
+MATCH (t:THOUGHT {name: "thought.FALSE SPIRITUALITY"})
+MATCH (c:CONTENT {name: "content.FALSE SPIRITUALITY"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.FALSE SPIRITUALITY" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.SPIRITUALITY" AND child.name = "thought.FALSE SPIRITUALITY"
+MATCH (parent:TOPIC {name: "topic.SPIRITUALITY"})
+MATCH (child:THOUGHT {name: "thought.FALSE SPIRITUALITY"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >FALSE SPIRITUALITY" }]->(child);
 ```

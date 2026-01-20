@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "标准模型：伪科学未能让世界相信宇宙是无神的。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.PSEUDOSCIENCE FAILURE" AND c.name = "content.PSEUDOSCIENCE FAILURE"
+MATCH (t:THOUGHT {name: "thought.PSEUDOSCIENCE FAILURE"})
+MATCH (c:CONTENT {name: "content.PSEUDOSCIENCE FAILURE"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.PSEUDOSCIENCE FAILURE" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.PHILOSOPHY" AND child.name = "thought.PSEUDOSCIENCE FAILURE"
+MATCH (parent:TOPIC {name: "topic.PHILOSOPHY"})
+MATCH (child:THOUGHT {name: "thought.PSEUDOSCIENCE FAILURE"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY >PSEUDOSCIENCE FAILURE" }]->(child);
 ```

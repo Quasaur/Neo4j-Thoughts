@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Shìjiān méiyǒu tiāntáng bùnéng zhìyù de bēishāng. -- Shèngshī"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.HEAVEN HEALS SORROW" AND c.name = "content.HEAVEN HEALS SORROW"
+MATCH (t:THOUGHT {name: "thought.HEAVEN HEALS SORROW"})
+MATCH (c:CONTENT {name: "content.HEAVEN HEALS SORROW"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.HEAVEN HEALS SORROW" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.SPIRITUALITY" AND child.name = "thought.HEAVEN HEALS SORROW"
+MATCH (parent:TOPIC {name: "topic.SPIRITUALITY"})
+MATCH (child:THOUGHT {name: "thought.HEAVEN HEALS SORROW"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >HEAVEN HEALS SORROW" }]->(child);
 ```

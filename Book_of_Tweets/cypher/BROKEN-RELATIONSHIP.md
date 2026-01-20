@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "yī gè yǔ jī dū de guān xì ， rú guǒ bù néng zài fú cóng 、 qìng bài hé fú cóng zhōng jié chū guǒ shí ， nà tā bù shì pò suì de jiù shì bù cún zài de 。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.BROKEN RELATIONSHIP" AND c.name = "content.BROKEN RELATIONSHIP"
+MATCH (t:THOUGHT {name: "thought.BROKEN RELATIONSHIP"})
+MATCH (c:CONTENT {name: "content.BROKEN RELATIONSHIP"})
 MERGE (t)-[:HAS_CONTENT {name: "edge.BROKEN RELATIONSHIP"}]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.WORSHIP" AND child.name = "thought.BROKEN RELATIONSHIP"
+MATCH (parent:TOPIC {name: "topic.WORSHIP"})
+MATCH (child:THOUGHT {name: "thought.BROKEN RELATIONSHIP"})
 MERGE (parent)-[:HAS_THOUGHT {name: "edge.WORSHIP->BROKEN RELATIONSHIP"}]->(child);
 ```

@@ -3,16 +3,16 @@ name: "thought.BOX JELLYFISH EYES"
 alias: "Thought: Box Jellyfish Eyes"
 type: THOUGHT
 en_content: "The box jellyfish--nature's most poisonous creature--has 24 eyes and 360-degree vision...God is great!"
-parent: "topic.CREATION"
+parent: topic.BIOLOGY
 tags:
-- creation
-- nature
-- jellyfish
-- design
-- power
-level: 2
+  - creation
+  - nature
+  - jellyfish
+  - design
+  - power
+level: 6
 neo4j: false
-ptopic: 
+ptopic: "[[topic-BIOLOGY]]"
 ---
 
 ```Cypher
@@ -20,7 +20,7 @@ ptopic:
 CREATE (t:THOUGHT {
     name: "thought.BOX JELLYFISH EYES",
     alias: "Thought: Box Jellyfish Eyes",
-    parent: "topic.CREATION",
+    parent: "topic.BIOLOGY",
     tags: ['creation', 'nature', 'jellyfish', 'design', 'power'],
     notes: "",
     level: 2
@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Xiāngxíng shāyú--dàzìrán zuì yǒudú de shēngwù--yǒu 24 zhī yǎnjuāng hé 360 dù shìjào... Shàngdì zhēn wěidà! 箱形水母--大自然最有毒的生物--有24只眼睛和360度视角...上帝真伟大！"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.BOX JELLYFISH EYES" AND c.name = "content.BOX JELLYFISH EYES"
+MATCH (t:THOUGHT {name: "thought.BOX JELLYFISH EYES"})
+MATCH (c:CONTENT {name: "content.BOX JELLYFISH EYES"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.BOX JELLYFISH EYES" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.CREATION" AND child.name = "thought.BOX JELLYFISH EYES"
-MERGE (parent)-[:HAS_THOUGHT { "name": "CREATION >BOX JELLYFISH EYES" }]->(child);
+MATCH (parent:TOPIC {name: "topic.BIOLOGY"})
+MATCH (child:THOUGHT {name: "thought.BOX JELLYFISH EYES"})
+MERGE (parent)-[:HAS_THOUGHT { "name": "BIOLOGY->BOX JELLYFISH EYES" }]->(child);
 ```

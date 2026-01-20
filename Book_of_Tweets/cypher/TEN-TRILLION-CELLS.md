@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Réntǐ yóu zhìshǎo 10 wàn yì gè xìbāo... Shàngdì zhēn wěidà! 人体由至少 10 万亿个细胞...上帝真伟大！"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.TEN TRILLION CELLS" AND c.name = "content.TEN TRILLION CELLS"
+MATCH (t:THOUGHT {name: "thought.TEN TRILLION CELLS"})
+MATCH (c:CONTENT {name: "content.TEN TRILLION CELLS"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.TEN TRILLION CELLS" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.CREATION" AND child.name = "thought.TEN TRILLION CELLS"
+MATCH (parent:TOPIC {name: "topic.CREATION"})
+MATCH (child:THOUGHT {name: "thought.TEN TRILLION CELLS"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "CREATION >TEN TRILLION CELLS" }]->(child);
 ```

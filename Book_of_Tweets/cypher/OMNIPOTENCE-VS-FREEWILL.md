@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Zìyóu Yìzhì jǐnjǐn yīnwèi rénlèi duì Shénshèng Quánnéng de wúzhī ér cúnzài."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.OMNIPOTENCE VS FREEWILL" AND c.name = "content.OMNIPOTENCE VS FREEWILL"
+MATCH (t:THOUGHT {name: "thought.OMNIPOTENCE VS FREEWILL"})
+MATCH (c:CONTENT {name: "content.OMNIPOTENCE VS FREEWILL"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.OMNIPOTENCE VS FREEWILL" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.PHILOSOPHY" AND child.name = "thought.OMNIPOTENCE VS FREEWILL"
+MATCH (parent:TOPIC {name: "topic.PHILOSOPHY"})
+MATCH (child:THOUGHT {name: "thought.OMNIPOTENCE VS FREEWILL"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY >OMNIPOTENCE VS FREEWILL" }]->(child);
 ```

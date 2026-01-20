@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Rénlèi de chángjiǔ xiāoqiǎn jiùshì yǔ qí Chuàngzàozhǔ zhēnglùn. 人类的长久消遣就是与其造物主争论。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.ARGUING WITH CREATOR" AND c.name = "content.ARGUING WITH CREATOR"
+MATCH (t:THOUGHT {name: "thought.ARGUING WITH CREATOR"})
+MATCH (c:CONTENT {name: "content.ARGUING WITH CREATOR"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.ARGUING WITH CREATOR" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.HUMANITY" AND child.name = "thought.ARGUING WITH CREATOR"
+MATCH (parent:TOPIC {name: "topic.HUMANITY"})
+MATCH (child:THOUGHT {name: "thought.ARGUING WITH CREATOR"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >ARGUING WITH CREATOR" }]->(child);
 ```

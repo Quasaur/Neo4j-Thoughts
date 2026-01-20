@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "\"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.LIMITS OF KNOWLEDGE" AND c.name = "content.LIMITS OF KNOWLEDGE"
+MATCH (t:THOUGHT {name: "thought.LIMITS OF KNOWLEDGE"})
+MATCH (c:CONTENT {name: "content.LIMITS OF KNOWLEDGE"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.LIMITS OF KNOWLEDGE" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.WISDOM" AND child.name = "thought.LIMITS OF KNOWLEDGE"
+MATCH (parent:TOPIC {name: "topic.WISDOM"})
+MATCH (child:THOUGHT {name: "thought.LIMITS OF KNOWLEDGE"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "WISDOM >LIMITS OF KNOWLEDGE" }]->(child);
 ```

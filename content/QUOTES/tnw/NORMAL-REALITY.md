@@ -34,13 +34,13 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (q:QUOTE), (c:CONTENT)
-WHERE q.name = "quote.NORMAL-REALITY" AND c.name = "content.NORMAL-REALITY"
+MATCH (q:QUOTE {name: "quote.NORMAL-REALITY"})
+MATCH (c:CONTENT {name: "content.NORMAL-REALITY"})
 MERGE (q)-[:HAS_CONTENT {name: "q.edge.NORMAL-REALITY"}]->(c);
 
 // LINK PARENT
-MATCH (parent:TOPIC), (child:QUOTE)
-WHERE parent.name = "topic.TRUTH" AND child.name = "quote.NORMAL-REALITY"
+MATCH (parent:TOPIC {name: "topic.TRUTH"})
+MATCH (child:QUOTE {name: "quote.NORMAL-REALITY"})
 MERGE (parent)-[:HAS_QUOTE {name: "q.edge.TRUTH->NORMAL-REALITY"}]->(child);
 
 ```

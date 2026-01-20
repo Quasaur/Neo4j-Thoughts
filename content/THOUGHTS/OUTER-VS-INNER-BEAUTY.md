@@ -3,16 +3,16 @@ name: "thought.OUTER VS INNER BEAUTY"
 alias: "Thought: Outer Vs Inner Beauty"
 type: THOUGHT
 en_content: "Outer beauty doesn't make up for inner ugly."
-parent: "topic.BEAUTY"
+parent: topic.ATTITUDE
 tags:
-- beauty
-- character
-- appearance
-- aesthetics
-- holiness
-level: 5
+  - beauty
+  - character
+  - appearance
+  - aesthetics
+  - holiness
+level: 3
 neo4j: false
-ptopic: 
+ptopic: "[[topic-ATTITUDE]]"
 ---
 
 ```Cypher
@@ -20,10 +20,10 @@ ptopic:
 CREATE (t:THOUGHT {
     name: "thought.OUTER VS INNER BEAUTY",
     alias: "Thought: Outer Vs Inner Beauty",
-    parent: "topic.BEAUTY",
+    parent: "topic.ATTITUDE",
     tags: ['beauty', 'character', 'appearance', 'aesthetics', 'holiness'],
     notes: "",
-    level: 5
+    level: 3
 });
 
 CREATE (c:CONTENT {
@@ -36,7 +36,7 @@ CREATE (c:CONTENT {
     fr_content: "La beauté extérieure ne compense pas la laideur intérieure.",
     hi_title: "बाहरी बनाम भीतरी सुंदरता",
     hi_content: "बाहरी सुंदरता भीतरी कुरूपता की भरपाई नहीं करती।",
-    zh_title: "Wai Zai Mei Yu Nei Zai Mei",
+    zh_title: "Wàibù yǔ nèibù",
     zh_content: "Wai zai de mei li bu neng mi bu nei zai de chou lou."
 });
 
@@ -47,6 +47,6 @@ MERGE (t)-[:HAS_CONTENT { "name": "edge.OUTER VS INNER BEAUTY" }]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "topic.BEAUTY" AND child.name = "thought.OUTER VS INNER BEAUTY"
-MERGE (parent)-[:HAS_THOUGHT { "name": "BEAUTY >OUTER VS INNER BEAUTY" }]->(child);
+WHERE parent.name = "topic.ATTITUDE" AND child.name = "thought.OUTER VS INNER BEAUTY"
+MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE->OUTER VS INNER BEAUTY" }]->(child);
 ```

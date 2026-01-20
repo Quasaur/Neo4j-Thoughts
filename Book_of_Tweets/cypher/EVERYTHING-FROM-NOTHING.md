@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Shuo yiqie dou cong wu zhong lai shi meiyou yiyi de."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.EVERYTHING FROM NOTHING" AND c.name = "content.EVERYTHING FROM NOTHING"
+MATCH (t:THOUGHT {name: "thought.EVERYTHING FROM NOTHING"})
+MATCH (c:CONTENT {name: "content.EVERYTHING FROM NOTHING"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.EVERYTHING FROM NOTHING" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.TRUTH" AND child.name = "thought.EVERYTHING FROM NOTHING"
+MATCH (parent:TOPIC {name: "topic.TRUTH"})
+MATCH (child:THOUGHT {name: "thought.EVERYTHING FROM NOTHING"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH >EVERYTHING FROM NOTHING" }]->(child);
 ```

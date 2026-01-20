@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Feizhou Yixi Meiguoren nanxing YIZHI dou shi zhongzu miesha de mubiao...women shi BINWEI WUZHONG."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.ENDANGERED BLACK MEN" AND c.name = "content.ENDANGERED BLACK MEN"
+MATCH (t:THOUGHT {name: "thought.ENDANGERED BLACK MEN"})
+MATCH (c:CONTENT {name: "content.ENDANGERED BLACK MEN"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.ENDANGERED BLACK MEN" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.HUMANITY" AND child.name = "thought.ENDANGERED BLACK MEN"
+MATCH (parent:TOPIC {name: "topic.HUMANITY"})
+MATCH (child:THOUGHT {name: "thought.ENDANGERED BLACK MEN"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >ENDANGERED BLACK MEN" }]->(child);
 ```

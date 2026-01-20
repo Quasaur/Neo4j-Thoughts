@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Shèng jīng jiào dǎo shuō rén lèi guò yú duò luò, wú fǎ duì dú yī zhēn shén chǎn shēng rèn hé kě wàng; Shàng dì bì xū jiāng cǐ fàng rù wǒ men xīn zhōng cái néng zhěng jiù wǒ men."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.HUMANITY TOO FAR GONE" AND c.name = "content.HUMANITY TOO FAR GONE"
+MATCH (t:THOUGHT {name: "thought.HUMANITY TOO FAR GONE"})
+MATCH (c:CONTENT {name: "content.HUMANITY TOO FAR GONE"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.HUMANITY TOO FAR GONE" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.GRACE" AND child.name = "thought.HUMANITY TOO FAR GONE"
+MATCH (parent:TOPIC {name: "topic.GRACE"})
+MATCH (child:THOUGHT {name: "thought.HUMANITY TOO FAR GONE"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE >HUMANITY TOO FAR GONE" }]->(child);
 ```

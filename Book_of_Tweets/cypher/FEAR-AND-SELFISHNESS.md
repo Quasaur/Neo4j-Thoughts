@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Rúguǒ wǒ bù shì zhème zìsī de huà, kǒngju jiù bù huì rúcǐ lìng rén shuāiruò le."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.FEAR AND SELFISHNESS" AND c.name = "content.FEAR AND SELFISHNESS"
+MATCH (t:THOUGHT {name: "thought.FEAR AND SELFISHNESS"})
+MATCH (c:CONTENT {name: "content.FEAR AND SELFISHNESS"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.FEAR AND SELFISHNESS" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.PSYCHOLOGY" AND child.name = "thought.FEAR AND SELFISHNESS"
+MATCH (parent:TOPIC {name: "topic.PSYCHOLOGY"})
+MATCH (child:THOUGHT {name: "thought.FEAR AND SELFISHNESS"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "PSYCHOLOGY >FEAR AND SELFISHNESS" }]->(child);
 ```

@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "历史上的哪个时刻，非裔美国男性决定接受教育就是出卖自己？"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.EDUCATION AS SELLING OUT" AND c.name = "content.EDUCATION AS SELLING OUT"
+MATCH (t:THOUGHT {name: "thought.EDUCATION AS SELLING OUT"})
+MATCH (c:CONTENT {name: "content.EDUCATION AS SELLING OUT"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.EDUCATION AS SELLING OUT" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.TRUTH" AND child.name = "thought.EDUCATION AS SELLING OUT"
+MATCH (parent:TOPIC {name: "topic.TRUTH"})
+MATCH (child:THOUGHT {name: "thought.EDUCATION AS SELLING OUT"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH >EDUCATION AS SELLING OUT" }]->(child);
 ```

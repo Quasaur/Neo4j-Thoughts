@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Měiguó shì yīgè qīpiàn zìjǐ, bōduó zìjǐ jīnqián de guójiā."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.AMERICA CHEATS ITSELF" AND c.name = "content.AMERICA CHEATS ITSELF"
+MATCH (t:THOUGHT {name: "thought.AMERICA CHEATS ITSELF"})
+MATCH (c:CONTENT {name: "content.AMERICA CHEATS ITSELF"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.AMERICA CHEATS ITSELF" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.MORALITY" AND child.name = "thought.AMERICA CHEATS ITSELF"
+MATCH (parent:TOPIC {name: "topic.MORALITY"})
+MATCH (child:THOUGHT {name: "thought.AMERICA CHEATS ITSELF"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >AMERICA CHEATS ITSELF" }]->(child);
 ```

@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Ài bùshì ruòxiǎo de. Ài tōngguò jiǎndān de SHUŌHUÀ chuàngzàole zhège jídù pángdà de yǔzhòu!"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.POWER OF CREATIVE LOVE" AND c.name = "content.POWER OF CREATIVE LOVE"
+MATCH (t:THOUGHT {name: "thought.POWER OF CREATIVE LOVE"})
+MATCH (c:CONTENT {name: "content.POWER OF CREATIVE LOVE"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.POWER OF CREATIVE LOVE" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.THE GODHEAD" AND child.name = "thought.POWER OF CREATIVE LOVE"
+MATCH (parent:TOPIC {name: "topic.THE GODHEAD"})
+MATCH (child:THOUGHT {name: "thought.POWER OF CREATIVE LOVE"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >POWER OF CREATIVE LOVE" }]->(child);
 ```

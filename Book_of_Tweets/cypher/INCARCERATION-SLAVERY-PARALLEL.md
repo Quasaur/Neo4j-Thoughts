@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Jīntiān zài Měiguó, jīnyù de hēirén bǐ 1850 nián de hēirén núlì hái duō. Xièxiè nǐ, Měiguó! 今天在美国，监禦的黑人比1850年的黑人奴隶还多。谢谢你，美国！"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.INCARCERATION SLAVERY PARALLEL" AND c.name = "content.INCARCERATION SLAVERY PARALLEL"
+MATCH (t:THOUGHT {name: "thought.INCARCERATION SLAVERY PARALLEL"})
+MATCH (c:CONTENT {name: "content.INCARCERATION SLAVERY PARALLEL"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.INCARCERATION SLAVERY PARALLEL" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.MORALITY" AND child.name = "thought.INCARCERATION SLAVERY PARALLEL"
+MATCH (parent:TOPIC {name: "topic.MORALITY"})
+MATCH (child:THOUGHT {name: "thought.INCARCERATION SLAVERY PARALLEL"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >INCARCERATION SLAVERY PARALLEL" }]->(child);
 ```

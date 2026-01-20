@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Lishi zhi 7:12-14; Liweiji 18:25: Shi de, Shen QUESHI tongguo tianqi he ziran lai goutong he chengfa."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.WEATHER AS COMMUNICATION" AND c.name = "content.WEATHER AS COMMUNICATION"
+MATCH (t:THOUGHT {name: "thought.WEATHER AS COMMUNICATION"})
+MATCH (c:CONTENT {name: "content.WEATHER AS COMMUNICATION"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.WEATHER AS COMMUNICATION" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.DIVINE SOVEREIGNTY" AND child.name = "thought.WEATHER AS COMMUNICATION"
+MATCH (parent:TOPIC {name: "topic.DIVINE SOVEREIGNTY"})
+MATCH (child:THOUGHT {name: "thought.WEATHER AS COMMUNICATION"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "DIVINE SOVEREIGNTY >WEATHER AS COMMUNICATION" }]->(child);
 ```

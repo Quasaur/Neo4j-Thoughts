@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Mǎ tài fú yīn 24:21, 22: Yě xǔ Jī dū bù huì zài rén lèi miàn lín miè jué zhī qián guī lái."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.THE BRINK OF EXTINCTION" AND c.name = "content.THE BRINK OF EXTINCTION"
+MATCH (t:THOUGHT {name: "thought.THE BRINK OF EXTINCTION"})
+MATCH (c:CONTENT {name: "content.THE BRINK OF EXTINCTION"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.THE BRINK OF EXTINCTION" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.THE GODHEAD" AND child.name = "thought.THE BRINK OF EXTINCTION"
+MATCH (parent:TOPIC {name: "topic.THE GODHEAD"})
+MATCH (child:THOUGHT {name: "thought.THE BRINK OF EXTINCTION"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >THE BRINK OF EXTINCTION" }]->(child);
 ```

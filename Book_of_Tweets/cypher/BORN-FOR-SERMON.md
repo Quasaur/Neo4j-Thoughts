@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Zài Pǐcíbǎo jiānyù de Shèngdànjié bùdào hěn shòu huānyíng... zhè jiùshì wǒ chūshēng de mùdì! 在匹兹堡监狱的圣诞节布道很受欢迎...这就是我出生的目的！"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.BORN FOR SERMON" AND c.name = "content.BORN FOR SERMON"
+MATCH (t:THOUGHT {name: "thought.BORN FOR SERMON"})
+MATCH (c:CONTENT {name: "content.BORN FOR SERMON"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.BORN FOR SERMON" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.SPIRITUALITY" AND child.name = "thought.BORN FOR SERMON"
+MATCH (parent:TOPIC {name: "topic.SPIRITUALITY"})
+MATCH (child:THOUGHT {name: "thought.BORN FOR SERMON"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >BORN FOR SERMON" }]->(child);
 ```

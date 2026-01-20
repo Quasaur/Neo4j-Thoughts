@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Wǒmen wúfǎ tòuguò zìjǐ yùwàng de zàoyīn tīngdào shàngdì de shēngyīn. 我们无法透过自己欲望的噪音听到上帝的声音。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.HEARING GOD NOISE" AND c.name = "content.HEARING GOD NOISE"
+MATCH (t:THOUGHT {name: "thought.HEARING GOD NOISE"})
+MATCH (c:CONTENT {name: "content.HEARING GOD NOISE"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.HEARING GOD NOISE" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.SPIRITUALITY" AND child.name = "thought.HEARING GOD NOISE"
+MATCH (parent:TOPIC {name: "topic.SPIRITUALITY"})
+MATCH (child:THOUGHT {name: "thought.HEARING GOD NOISE"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >HEARING GOD NOISE" }]->(child);
 ```

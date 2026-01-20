@@ -39,13 +39,11 @@ CREATE (c:CONTENT {
     zh_content: "bú lùn nǐ huó le duō jiǔ, zuì zhōng shēng mìng zhǐ yǒu jǐ miǎo zhōng dài. yǒng héng cái shì zuì zhòng yào de!"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.VALUE OF ETERNITY" AND c.name = "content.VALUE OF ETERNITY"
+MATCH (t:THOUGHT {name: "thought.VALUE OF ETERNITY"})
+MATCH (c:CONTENT {name: "content.VALUE OF ETERNITY"})
 MERGE (t)-[:HAS_CONTENT {name: "edge.VALUE OF ETERNITY"}]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.SPIRITUALITY" AND child.name = "thought.VALUE OF ETERNITY"
+MATCH (parent:TOPIC {name: "topic.SPIRITUALITY"})
+MATCH (child:THOUGHT {name: "thought.VALUE OF ETERNITY"})
 MERGE (parent)-[:HAS_THOUGHT {name: "edge.SPIRITUALITY >VALUE OF ETERNITY"}]->(child);
 ```

@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "存在是一个梦想——但我们不是梦想家……上帝才是！"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.GOD THE DREAMER" AND c.name = "content.GOD THE DREAMER"
+MATCH (t:THOUGHT {name: "thought.GOD THE DREAMER"})
+MATCH (c:CONTENT {name: "content.GOD THE DREAMER"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.GOD THE DREAMER" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.PHILOSOPHY" AND child.name = "thought.GOD THE DREAMER"
+MATCH (parent:TOPIC {name: "topic.PHILOSOPHY"})
+MATCH (child:THOUGHT {name: "thought.GOD THE DREAMER"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY >GOD THE DREAMER" }]->(child);
 ```

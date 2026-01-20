@@ -39,13 +39,11 @@ CREATE (c:CONTENT {
     zh_content: "Jiang Gong Ren Suo Qi De Shi Tou...(wei xiao)!"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.REJECTED CORNER STONE" AND c.name = "content.REJECTED CORNER STONE"
+MATCH (t:THOUGHT {name: "thought.REJECTED CORNER STONE"})
+MATCH (c:CONTENT {name: "content.REJECTED CORNER STONE"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.REJECTED CORNER STONE" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.RELIGION" AND child.name = "thought.REJECTED CORNER STONE"
+MATCH (parent:TOPIC {name: "topic.RELIGION"})
+MATCH (child:THOUGHT {name: "thought.REJECTED CORNER STONE"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION >REJECTED CORNER STONE" }]->(child);
 ```

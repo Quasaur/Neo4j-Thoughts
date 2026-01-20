@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Xǔduō rén xiāngxìn tāmen yìshí dào Shàngdì de fènnù, dàn hěn shǎo rén yìshí dào Shàngdì chōngmǎn ài de cúnzài. 许多人相信他们意识到上帝的愤怒，但很少人意识到上帝充满爱的存在。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.AWARENESS OF PRESENCE" AND c.name = "content.AWARENESS OF PRESENCE"
+MATCH (t:THOUGHT {name: "thought.AWARENESS OF PRESENCE"})
+MATCH (c:CONTENT {name: "content.AWARENESS OF PRESENCE"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.AWARENESS OF PRESENCE" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.THE GODHEAD" AND child.name = "thought.AWARENESS OF PRESENCE"
+MATCH (parent:TOPIC {name: "topic.THE GODHEAD"})
+MATCH (child:THOUGHT {name: "thought.AWARENESS OF PRESENCE"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >AWARENESS OF PRESENCE" }]->(child);
 ```

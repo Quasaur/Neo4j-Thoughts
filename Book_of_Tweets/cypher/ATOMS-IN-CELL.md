@@ -1,18 +1,18 @@
 ---
-name: "thought.ATOMS IN CELL"
+name: thought.ATOMS IN CELL
 alias: "Thought: Atoms In Cell"
 type: THOUGHT
-en_content: "The average human cell is made of approx. 200 trillion atoms...God is great!"
-parent: "topic.CREATION"
+en_content: The average human cell is made of approx. 100 trillion atoms...God is great!
+parent: topic.BIOLOGY
 tags:
-- creation
-- atoms
-- biology
-- science
-- majesty
-level: 2
+  - creation
+  - atoms
+  - biology
+  - cell
+  - majesty
+level: 6
 neo4j: false
-ptopic: 
+ptopic: "[[topic-BIOLOGY]]"
 ---
 
 ```Cypher
@@ -20,10 +20,10 @@ ptopic:
 CREATE (t:THOUGHT {
     name: "thought.ATOMS IN CELL",
     alias: "Thought: Atoms In Cell",
-    parent: "topic.CREATION",
-    tags: ['creation', 'atoms', 'biology', 'science', 'majesty'],
+    parent: "topic.BIOLOGY",
+    tags: ['creation', 'atoms', 'biology', 'cell', 'majesty'],
     notes: "",
-    level: 2
+    level: 6
 });
 
 CREATE (c:CONTENT {
@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Píngjūn měi gè rénlèi xìbāo yóu dàyuē èrbǎi wànyì gè yuánzǐ zǔchéng... shén shì wěidà de!"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.ATOMS IN CELL" AND c.name = "content.ATOMS IN CELL"
+MATCH (t:THOUGHT {name: "thought.ATOMS IN CELL"})
+MATCH (c:CONTENT {name: "content.ATOMS IN CELL"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.ATOMS IN CELL" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.CREATION" AND child.name = "thought.ATOMS IN CELL"
-MERGE (parent)-[:HAS_THOUGHT { "name": "CREATION >ATOMS IN CELL" }]->(child);
+MATCH (parent:TOPIC {name: "topic.CREATION"})
+MATCH (child:THOUGHT {name: "thought.ATOMS IN CELL"})
+MERGE (parent)-[:HAS_THOUGHT { "name": "CREATION->ATOMS IN CELL" }]->(child);
 ```

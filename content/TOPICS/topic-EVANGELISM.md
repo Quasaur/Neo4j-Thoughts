@@ -39,13 +39,15 @@ CREATE (d:DESCRIPTION {
 });
 
 // LINK DESCRIPTION
-MATCH (t:TOPIC), (d:DESCRIPTION)
-WHERE t.name = "topic.EVANGELISM" AND d.name = "desc.EVANGELISM"
+MATCH (t:TOPIC {name: "topic.EVANGELISM"})
+MATCH (d:DESCRIPTION {name: "desc.EVANGELISM"})
 MERGE (t)-[:HAS_DESCRIPTION {name: "edge.EVANGELISM"}]->(d);
 
 // LINK PARENT
-MATCH (p:TOPIC), (c:TOPIC)
-WHERE p.name = "topic.THE-GOSPEL" AND c.name = "topic.EVANGELISM"
+MATCH (p:TOPIC)
+WHERE p.name = "topic.THE-GOSPEL"
+MATCH (c:TOPIC)
+WHERE c.name = "topic.EVANGELISM"
 MERGE (p)-[:HAS_CHILD {name: "edge.THE-GOSPEL->EVANGELISM"}]->(c);
 
 ```

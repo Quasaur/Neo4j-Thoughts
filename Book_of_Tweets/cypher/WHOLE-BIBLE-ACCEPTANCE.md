@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Wǒmen yīnggāi jiēshòu zhěngběn shèngjīng, huò yīdiǎn yě bù jiēshòu; fǒuzé wǒmen jiù wāiqū le tā de xìnxī. 我们应该接受整本圣经，或一点也不接受；否则我们就歪曲了它的信息。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.WHOLE BIBLE ACCEPTANCE" AND c.name = "content.WHOLE BIBLE ACCEPTANCE"
+MATCH (t:THOUGHT {name: "thought.WHOLE BIBLE ACCEPTANCE"})
+MATCH (c:CONTENT {name: "content.WHOLE BIBLE ACCEPTANCE"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.WHOLE BIBLE ACCEPTANCE" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.TRUTH" AND child.name = "thought.WHOLE BIBLE ACCEPTANCE"
+MATCH (parent:TOPIC {name: "topic.TRUTH"})
+MATCH (child:THOUGHT {name: "thought.WHOLE BIBLE ACCEPTANCE"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH >WHOLE BIBLE ACCEPTANCE" }]->(child);
 ```

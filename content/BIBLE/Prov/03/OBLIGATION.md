@@ -34,13 +34,13 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (b:PASSAGE), (c:CONTENT)
-WHERE b.name = "passage.OBLIGATION" AND c.name = "content.OBLIGATION"
+MATCH (b:PASSAGE {name: "passage.OBLIGATION"})
+MATCH (c:CONTENT {name: "content.OBLIGATION"})
 MERGE (b)-[:HAS_CONTENT {name: "b.edge.OBLIGATION"}]->(c);
 
 // LINK PARENT
-MATCH (parent:TOPIC), (child:PASSAGE)
-WHERE parent.name = "topic.MORALITY" AND child.name = "passage.OBLIGATION"
+MATCH (parent:TOPIC {name: "topic.MORALITY"})
+MATCH (child:PASSAGE {name: "passage.OBLIGATION"})
 MERGE (parent)-[:HAS_PASSAGE {name: "b.edge.MORALITY->OBLIGATION"}]->(child);
 
 ```

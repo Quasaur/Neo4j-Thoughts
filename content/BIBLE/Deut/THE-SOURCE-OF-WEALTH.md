@@ -46,9 +46,8 @@ WHERE b.name = "passage.THE SOURCE OF WEALTH" AND c.name = "content.THE SOURCE O
 MERGE (b)-[:HAS_CONTENT {name: "b.edge.THE SOURCE OF WEALTH"}]->(c)
 RETURN *;
 // link node to parent node
-MATCH (parent:TOPIC)
-MATCH (child:PASSAGE)
-WHERE parent.name = "topic.WEALTH" AND child.name = "passage.THE SOURCE OF WEALTH"
+MATCH (parent:TOPIC {name: "topic.WEALTH"})
+MATCH (child:PASSAGE {name: "passage.THE SOURCE OF WEALTH"})
 MERGE (parent)-[:HAS_PASSAGE {name: "b.edge.WEALTH->THE SOURCE OF WEALTH"}]->(child)
 RETURN *;
 

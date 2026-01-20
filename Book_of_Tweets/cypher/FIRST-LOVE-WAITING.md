@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Dǎo gào shì wǒ de Chū Ài yǒng yuǎn zài děng dài wǒ de dì fāng!"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.FIRST LOVE WAITING" AND c.name = "content.FIRST LOVE WAITING"
+MATCH (t:THOUGHT {name: "thought.FIRST LOVE WAITING"})
+MATCH (c:CONTENT {name: "content.FIRST LOVE WAITING"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.FIRST LOVE WAITING" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.SPIRITUALITY" AND child.name = "thought.FIRST LOVE WAITING"
+MATCH (parent:TOPIC {name: "topic.SPIRITUALITY"})
+MATCH (child:THOUGHT {name: "thought.FIRST LOVE WAITING"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >FIRST LOVE WAITING" }]->(child);
 ```

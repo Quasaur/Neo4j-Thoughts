@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Sheng Jing zhong de Shang Di bei miao shu wei Zhen Li; yin ci Sheng Jing ben shen bi xu shi LI SHI ZHUN QUE de."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.HISTORICAL ACCURACY BIBLE" AND c.name = "content.HISTORICAL ACCURACY BIBLE"
+MATCH (t:THOUGHT {name: "thought.HISTORICAL ACCURACY BIBLE"})
+MATCH (c:CONTENT {name: "content.HISTORICAL ACCURACY BIBLE"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.HISTORICAL ACCURACY BIBLE" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.TRUTH" AND child.name = "thought.HISTORICAL ACCURACY BIBLE"
+MATCH (parent:TOPIC {name: "topic.TRUTH"})
+MATCH (child:THOUGHT {name: "thought.HISTORICAL ACCURACY BIBLE"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH >HISTORICAL ACCURACY BIBLE" }]->(child);
 ```

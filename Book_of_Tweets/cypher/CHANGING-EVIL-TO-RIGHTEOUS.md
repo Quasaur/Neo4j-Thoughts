@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Shàngdì de lìng yī tiāncái shì jiāng xié'è de rén biàn wéi zhèngyì de rén!"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.CHANGING EVIL TO RIGHTEOUS" AND c.name = "content.CHANGING EVIL TO RIGHTEOUS"
+MATCH (t:THOUGHT {name: "thought.CHANGING EVIL TO RIGHTEOUS"})
+MATCH (c:CONTENT {name: "content.CHANGING EVIL TO RIGHTEOUS"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.CHANGING EVIL TO RIGHTEOUS" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.THE GODHEAD" AND child.name = "thought.CHANGING EVIL TO RIGHTEOUS"
+MATCH (parent:TOPIC {name: "topic.THE GODHEAD"})
+MATCH (child:THOUGHT {name: "thought.CHANGING EVIL TO RIGHTEOUS"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >CHANGING EVIL TO RIGHTEOUS" }]->(child);
 ```

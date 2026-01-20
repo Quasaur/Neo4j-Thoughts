@@ -39,13 +39,11 @@ CREATE (c:CONTENT {
     zh_content: "E mo bei cheng wei kong gao zhe (jian cha guan) shi you yuan yin de: ta jiang wo men de zhu yi li zhuan xiang wo men suo zuo de shi, er bu shi Ji du wei wo men suo zuo de shi."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.DEVIL THE ACCUSER" AND c.name = "content.DEVIL THE ACCUSER"
+MATCH (t:THOUGHT {name: "thought.DEVIL THE ACCUSER"})
+MATCH (c:CONTENT {name: "content.DEVIL THE ACCUSER"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.DEVIL THE ACCUSER" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.GRACE" AND child.name = "thought.DEVIL THE ACCUSER"
+MATCH (parent:TOPIC {name: "topic.GRACE"})
+MATCH (child:THOUGHT {name: "thought.DEVIL THE ACCUSER"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE >DEVIL THE ACCUSER" }]->(child);
 ```

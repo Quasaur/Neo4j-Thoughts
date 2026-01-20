@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "进化论是一种宗教，随着科学观察变得更加复杂，其证据却在不断减少。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.EVOLUTION AS RELIGION" AND c.name = "content.EVOLUTION AS RELIGION"
+MATCH (t:THOUGHT {name: "thought.EVOLUTION AS RELIGION"})
+MATCH (c:CONTENT {name: "content.EVOLUTION AS RELIGION"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.EVOLUTION AS RELIGION" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.PHILOSOPHY" AND child.name = "thought.EVOLUTION AS RELIGION"
+MATCH (parent:TOPIC {name: "topic.PHILOSOPHY"})
+MATCH (child:THOUGHT {name: "thought.EVOLUTION AS RELIGION"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY >EVOLUTION AS RELIGION" }]->(child);
 ```

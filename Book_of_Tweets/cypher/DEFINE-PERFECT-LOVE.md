@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Ài: liǎng gè huò gèng duō rén zhī jiān shēn fèn de mó hu. Shén tǐ chéng yuán zhī jiān de ài jiù shì zhè yàng: kàn jiàn yī gè jiù shì kàn jiàn quán bù."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.DEFINE PERFECT LOVE" AND c.name = "content.DEFINE PERFECT LOVE"
+MATCH (t:THOUGHT {name: "thought.DEFINE PERFECT LOVE"})
+MATCH (c:CONTENT {name: "content.DEFINE PERFECT LOVE"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.DEFINE PERFECT LOVE" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.PHILOSOPHY" AND child.name = "thought.DEFINE PERFECT LOVE"
+MATCH (parent:TOPIC {name: "topic.PHILOSOPHY"})
+MATCH (child:THOUGHT {name: "thought.DEFINE PERFECT LOVE"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY >DEFINE PERFECT LOVE" }]->(child);
 ```

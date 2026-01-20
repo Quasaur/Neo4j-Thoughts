@@ -2,15 +2,15 @@
 name: topic.TRUTH
 alias: "Topic: The Divine Being"
 type: TOPIC
-parent: "topic.THE GODHEAD"
+parent: topic.THE GODHEAD
 tags:
-- actuality
-- reality
-- fact
-- verity
-- authentic
+  - actuality
+  - reality
+  - fact
+  - verity
+  - authentic
 neo4j: true
-ptopic: "[[topic-THE]]"
+ptopic: "[[topic-THE-GODHEAD]]"
 level: 2
 ---
 

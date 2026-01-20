@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Di Yu Zhi Huo Bu Shi Mo Gui Zao De...Shi Shang Di Wei Mo Gui Zao De."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.HELL FIRE FOR DEVIL" AND c.name = "content.HELL FIRE FOR DEVIL"
+MATCH (t:THOUGHT {name: "thought.HELL FIRE FOR DEVIL"})
+MATCH (c:CONTENT {name: "content.HELL FIRE FOR DEVIL"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.HELL FIRE FOR DEVIL" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.THE GODHEAD" AND child.name = "thought.HELL FIRE FOR DEVIL"
+MATCH (parent:TOPIC {name: "topic.THE GODHEAD"})
+MATCH (child:THOUGHT {name: "thought.HELL FIRE FOR DEVIL"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >HELL FIRE FOR DEVIL" }]->(child);
 ```

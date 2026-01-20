@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Rénlèi yǐjīng guòshí le...Shàngdì zhèngzài chuàngzào yī gè xīn zhǒngzú, yǐ Jīdū wéi nà Yàdāng; jiātíng guānxì tōngguò ēndiǎn jiè zhe xìnxīn ér cìyǔ."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.OBSOLETE HUMAN RACE" AND c.name = "content.OBSOLETE HUMAN RACE"
+MATCH (t:THOUGHT {name: "thought.OBSOLETE HUMAN RACE"})
+MATCH (c:CONTENT {name: "content.OBSOLETE HUMAN RACE"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.OBSOLETE HUMAN RACE" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.HUMANITY" AND child.name = "thought.OBSOLETE HUMAN RACE"
+MATCH (parent:TOPIC {name: "topic.HUMANITY"})
+MATCH (child:THOUGHT {name: "thought.OBSOLETE HUMAN RACE"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >OBSOLETE HUMAN RACE" }]->(child);
 ```

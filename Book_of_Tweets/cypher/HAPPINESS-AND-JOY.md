@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "幸福：讨神喜悦。喜乐：蒙神喜悦。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.HAPPINESS AND JOY" AND c.name = "content.HAPPINESS AND JOY"
+MATCH (t:THOUGHT {name: "thought.HAPPINESS AND JOY"})
+MATCH (c:CONTENT {name: "content.HAPPINESS AND JOY"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.HAPPINESS AND JOY" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.SPIRITUALITY" AND child.name = "thought.HAPPINESS AND JOY"
+MATCH (parent:TOPIC {name: "topic.SPIRITUALITY"})
+MATCH (child:THOUGHT {name: "thought.HAPPINESS AND JOY"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >HAPPINESS AND JOY" }]->(child);
 ```

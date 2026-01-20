@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Wo men sheng huo zai yi ge JU DA DE TU QIU shang...Shang Di shi wei da de!"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.GIANT BALL OF DIRT" AND c.name = "content.GIANT BALL OF DIRT"
+MATCH (t:THOUGHT {name: "thought.GIANT BALL OF DIRT"})
+MATCH (c:CONTENT {name: "content.GIANT BALL OF DIRT"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.GIANT BALL OF DIRT" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.CREATION" AND child.name = "thought.GIANT BALL OF DIRT"
+MATCH (parent:TOPIC {name: "topic.CREATION"})
+MATCH (child:THOUGHT {name: "thought.GIANT BALL OF DIRT"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "CREATION >GIANT BALL OF DIRT" }]->(child);
 ```

@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Bēijù shì Fēizhōu měiguó nánxìng zài kàndào jīhuì shí wúfǎ rènshí tā. 悲剧是非洲美国男性在看到机会时无法认识它。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.RECOGNIZE OPPORTUNITY" AND c.name = "content.RECOGNIZE OPPORTUNITY"
+MATCH (t:THOUGHT {name: "thought.RECOGNIZE OPPORTUNITY"})
+MATCH (c:CONTENT {name: "content.RECOGNIZE OPPORTUNITY"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.RECOGNIZE OPPORTUNITY" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.WISDOM" AND child.name = "thought.RECOGNIZE OPPORTUNITY"
+MATCH (parent:TOPIC {name: "topic.WISDOM"})
+MATCH (child:THOUGHT {name: "thought.RECOGNIZE OPPORTUNITY"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "WISDOM >RECOGNIZE OPPORTUNITY" }]->(child);
 ```

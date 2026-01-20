@@ -40,13 +40,15 @@ CREATE (d:DESCRIPTION {
 });
 
 // LINK DESCRIPTION
-MATCH (t:TOPIC), (d:DESCRIPTION)
-WHERE t.name = "topic.FINANCE" AND d.name = "desc.FINANCE"
+MATCH (t:TOPIC {name: "topic.FINANCE"})
+MATCH (d:DESCRIPTION {name: "desc.FINANCE"})
 MERGE (t)-[:HAS_DESCRIPTION {name: "edge.FINANCE"}]->(d);
 
 // LINK PARENT
-MATCH (p:TOPIC), (c:TOPIC)
-WHERE p.name = "topic.WEALTH" AND c.name = "topic.FINANCE"
+MATCH (p:TOPIC)
+WHERE p.name = "topic.WEALTH"
+MATCH (c:TOPIC)
+WHERE c.name = "topic.FINANCE"
 MERGE (p)-[:HAS_CHILD {name: "edge.WEALTH->FINANCE"}]->(c);
 
 ```

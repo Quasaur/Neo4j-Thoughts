@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "神唯一不饶恕的人是那些不想被饶恕的人。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.LIMITS OF FORGIVENESS" AND c.name = "content.LIMITS OF FORGIVENESS"
+MATCH (t:THOUGHT {name: "thought.LIMITS OF FORGIVENESS"})
+MATCH (c:CONTENT {name: "content.LIMITS OF FORGIVENESS"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.LIMITS OF FORGIVENESS" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.GRACE" AND child.name = "thought.LIMITS OF FORGIVENESS"
+MATCH (parent:TOPIC {name: "topic.GRACE"})
+MATCH (child:THOUGHT {name: "thought.LIMITS OF FORGIVENESS"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE >LIMITS OF FORGIVENESS" }]->(child);
 ```

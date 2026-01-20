@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Yi dao shan dian ke yi chang da 5 ying li, wen du bi tai yang biao mian geng re... Shang Di zhen wei da!"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.LIGHTNING BOLT" AND c.name = "content.LIGHTNING BOLT"
+MATCH (t:THOUGHT {name: "thought.LIGHTNING BOLT"})
+MATCH (c:CONTENT {name: "content.LIGHTNING BOLT"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.LIGHTNING BOLT" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.CREATION" AND child.name = "thought.LIGHTNING BOLT"
+MATCH (parent:TOPIC {name: "topic.CREATION"})
+MATCH (child:THOUGHT {name: "thought.LIGHTNING BOLT"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "CREATION >LIGHTNING BOLT" }]->(child);
 ```

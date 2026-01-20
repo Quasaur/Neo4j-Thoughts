@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Zhè cì jīngjì dīmi ào duì Fēizhōu Měiguó rén yóuqián kùnnán; wǒmen shì zuíhòu bèi gùyòng de, yě shì di yī gè bèi jiěgù de. 这次经济低迷对非洲美国人尤其困难；我们是最后被雇用的，也是第一个被解雇的。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.ECONOMIC INJUSTICE" AND c.name = "content.ECONOMIC INJUSTICE"
+MATCH (t:THOUGHT {name: "thought.ECONOMIC INJUSTICE"})
+MATCH (c:CONTENT {name: "content.ECONOMIC INJUSTICE"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.ECONOMIC INJUSTICE" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.MORALITY" AND child.name = "thought.ECONOMIC INJUSTICE"
+MATCH (parent:TOPIC {name: "topic.MORALITY"})
+MATCH (child:THOUGHT {name: "thought.ECONOMIC INJUSTICE"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >ECONOMIC INJUSTICE" }]->(child);
 ```

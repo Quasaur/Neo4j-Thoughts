@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Yēsū shì bēiāi zhī rén... shì xī tòngkǔ de--bù shì yīnwèi tāmen duì tā zuò le shénme, ér shì yīnwèi tāmen bǐcǐ zuò le shénme! 耶穣是悲哀之人...熟悉痛苦的--不是因为他们对他做了什么，而是因为他们彼此做了什么！"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.MAN OF SORROWS" AND c.name = "content.MAN OF SORROWS"
+MATCH (t:THOUGHT {name: "thought.MAN OF SORROWS"})
+MATCH (c:CONTENT {name: "content.MAN OF SORROWS"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.MAN OF SORROWS" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.THE GODHEAD" AND child.name = "thought.MAN OF SORROWS"
+MATCH (parent:TOPIC {name: "topic.THE GODHEAD"})
+MATCH (child:THOUGHT {name: "thought.MAN OF SORROWS"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >MAN OF SORROWS" }]->(child);
 ```

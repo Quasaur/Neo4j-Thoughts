@@ -40,13 +40,15 @@ CREATE (d:DESCRIPTION {
 });
 
 // LINK DESCRIPTION
-MATCH (t:TOPIC), (d:DESCRIPTION)
-WHERE t.name = "topic.THE-BIBLE" AND d.name = "desc.THE-BIBLE"
+MATCH (t:TOPIC {name: "topic.THE-BIBLE"})
+MATCH (d:DESCRIPTION {name: "desc.THE-BIBLE"})
 MERGE (t)-[:HAS_DESCRIPTION {name: "edge.THE-BIBLE"}]->(d);
 
 // LINK PARENT
-MATCH (p:TOPIC), (c:TOPIC)
-WHERE p.name = "topic.ANTHROPOLOGY" AND c.name = "topic.THE-BIBLE"
+MATCH (p:TOPIC)
+WHERE p.name = "topic.ANTHROPOLOGY"
+MATCH (c:TOPIC)
+WHERE c.name = "topic.THE-BIBLE"
 MERGE (p)-[:HAS_CHILD {name: "edge.ANTHROPOLOGY->THE-BIBLE"}]->(c);
 
 ```

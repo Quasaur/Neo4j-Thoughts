@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Women dui ziji de xinxin chaoguo le dui Zaowuzhu de xinxin; zhe shi zainan de peifang."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.FAITH IN SELF VS CREATOR" AND c.name = "content.FAITH IN SELF VS CREATOR"
+MATCH (t:THOUGHT {name: "thought.FAITH IN SELF VS CREATOR"})
+MATCH (c:CONTENT {name: "content.FAITH IN SELF VS CREATOR"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.FAITH IN SELF VS CREATOR" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.FAITH" AND child.name = "thought.FAITH IN SELF VS CREATOR"
+MATCH (parent:TOPIC {name: "topic.FAITH"})
+MATCH (child:THOUGHT {name: "thought.FAITH IN SELF VS CREATOR"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "FAITH >FAITH IN SELF VS CREATOR" }]->(child);
 ```

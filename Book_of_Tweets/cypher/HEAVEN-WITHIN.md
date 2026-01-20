@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "如果天堂不在我们里面，那么我们就不能去天堂。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.HEAVEN WITHIN" AND c.name = "content.HEAVEN WITHIN"
+MATCH (t:THOUGHT {name: "thought.HEAVEN WITHIN"})
+MATCH (c:CONTENT {name: "content.HEAVEN WITHIN"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.HEAVEN WITHIN" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.SPIRITUALITY" AND child.name = "thought.HEAVEN WITHIN"
+MATCH (parent:TOPIC {name: "topic.SPIRITUALITY"})
+MATCH (child:THOUGHT {name: "thought.HEAVEN WITHIN"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >HEAVEN WITHIN" }]->(child);
 ```

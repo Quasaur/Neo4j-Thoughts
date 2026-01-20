@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Gonghui geng guanxin tamen de quanwei he jinqian, er bu shi fuwu Shangdi huo Shangdi de renmin."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.SANHEDRIN CONCERNS" AND c.name = "content.SANHEDRIN CONCERNS"
+MATCH (t:THOUGHT {name: "thought.SANHEDRIN CONCERNS"})
+MATCH (c:CONTENT {name: "content.SANHEDRIN CONCERNS"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.SANHEDRIN CONCERNS" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.MORALITY" AND child.name = "thought.SANHEDRIN CONCERNS"
+MATCH (parent:TOPIC {name: "topic.MORALITY"})
+MATCH (child:THOUGHT {name: "thought.SANHEDRIN CONCERNS"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >SANHEDRIN CONCERNS" }]->(child);
 ```

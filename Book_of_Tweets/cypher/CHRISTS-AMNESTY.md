@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Rénlèi de shěnpàn yǐ jiéshù, Wǒmen yǐ bèi shěnpàn. Xíngfá de zhíxíng bǐ wǒmen yìdào de gèng jìn. Jīdū shì Shàngdì Wéiyī de Tèshè."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.CHRISTS AMNESTY" AND c.name = "content.CHRISTS AMNESTY"
+MATCH (t:THOUGHT {name: "thought.CHRISTS AMNESTY"})
+MATCH (c:CONTENT {name: "content.CHRISTS AMNESTY"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.CHRISTS AMNESTY" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.GRACE" AND child.name = "thought.CHRISTS AMNESTY"
+MATCH (parent:TOPIC {name: "topic.GRACE"})
+MATCH (child:THOUGHT {name: "thought.CHRISTS AMNESTY"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE >CHRISTS AMNESTY" }]->(child);
 ```

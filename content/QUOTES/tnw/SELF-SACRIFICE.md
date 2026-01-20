@@ -34,13 +34,13 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (q:QUOTE), (c:CONTENT)
-WHERE q.name = "quote.SELF-SACRIFICE" AND c.name = "content.SELF-SACRIFICE"
+MATCH (q:QUOTE {name: "quote.SELF-SACRIFICE"})
+MATCH (c:CONTENT {name: "content.SELF-SACRIFICE"})
 MERGE (q)-[:HAS_CONTENT {name: "q.edge.SELF-SACRIFICE"}]->(c);
 
 // LINK PARENT
-MATCH (parent:TOPIC), (child:QUOTE)
-WHERE parent.name = "topic.HUMILITY" AND child.name = "quote.SELF-SACRIFICE"
+MATCH (parent:TOPIC {name: "topic.HUMILITY"})
+MATCH (child:QUOTE {name: "quote.SELF-SACRIFICE"})
 MERGE (parent)-[:HAS_QUOTE {name: "q.edge.HUMILITY->SELF-SACRIFICE"}]->(child);
 
 ```

@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "营养：肌肉疼痛可能受益于以下物质：虾青素、钙、镁、菠萝蛋白酶、肌酸。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.NUTRITION MUSCLE ACHES" AND c.name = "content.NUTRITION MUSCLE ACHES"
+MATCH (t:THOUGHT {name: "thought.NUTRITION MUSCLE ACHES"})
+MATCH (c:CONTENT {name: "content.NUTRITION MUSCLE ACHES"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.NUTRITION MUSCLE ACHES" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.CREATION" AND child.name = "thought.NUTRITION MUSCLE ACHES"
+MATCH (parent:TOPIC {name: "topic.CREATION"})
+MATCH (child:THOUGHT {name: "thought.NUTRITION MUSCLE ACHES"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "CREATION >NUTRITION MUSCLE ACHES" }]->(child);
 ```

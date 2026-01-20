@@ -58,15 +58,13 @@ yào xì zài nǐ de jǐngxiàng shàng,
 kè zài nǐ de xīn bǎn shàng.
 Zhèyàng, nǐ bì zài shén hé shìrén miànqián méng ēnhuì, dé měihǎo de míngshēng."});
 // link content to node
-MATCH (p:PASSAGE)
-MATCH (c:CONTENT)
-WHERE p.name = "passage.KINDESS AND TRUTH" AND c.name = "content.KINDESS AND TRUTH"
+MATCH (p:PASSAGE {name: "passage.KINDESS AND TRUTH"})
+MATCH (c:CONTENT {name: "content.KINDESS AND TRUTH"})
 MERGE (p)-[:HAS_CONTENT {name: "p.edge.KINDESS AND TRUTH"}]->(c)
 RETURN *;
 // link node to parent node
-MATCH (parent:TOPIC)
-MATCH (child:PASSAGE)
-WHERE parent.name = "topic.ATTITUDE" AND child.name = "passage.KINDESS AND TRUTH"
+MATCH (parent:TOPIC {name: "topic.ATTITUDE"})
+MATCH (child:PASSAGE {name: "passage.KINDESS AND TRUTH"})
 MERGE (parent)-[:HAS_PASSAGE {name: "edge.ATTITUDE->KINDESS AND TRUTH"}]->(child)
 RETURN *;
 

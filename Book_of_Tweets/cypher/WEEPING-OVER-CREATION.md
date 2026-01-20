@@ -39,13 +39,11 @@ CREATE (c:CONTENT {
     zh_content: "( wèi BP shí yóu xiè lòu kū qì )."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.WEEPING OVER CREATION" AND c.name = "content.WEEPING OVER CREATION"
+MATCH (t:THOUGHT {name: "thought.WEEPING OVER CREATION"})
+MATCH (c:CONTENT {name: "content.WEEPING OVER CREATION"})
 MERGE (t)-[:HAS_CONTENT {name: "edge.WEEPING OVER CREATION"}]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.CREATION" AND child.name = "thought.WEEPING OVER CREATION"
+MATCH (parent:TOPIC {name: "topic.CREATION"})
+MATCH (child:THOUGHT {name: "thought.WEEPING OVER CREATION"})
 MERGE (parent)-[:HAS_THOUGHT {name: "edge.CREATION >WEEPING OVER CREATION"}]->(child);
 ```

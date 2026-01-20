@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Fǎnnù Shàngdì shì túláo de! 叛逆上帝是徒劳的！"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.FUTILE REBELLION" AND c.name = "content.FUTILE REBELLION"
+MATCH (t:THOUGHT {name: "thought.FUTILE REBELLION"})
+MATCH (c:CONTENT {name: "content.FUTILE REBELLION"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.FUTILE REBELLION" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.HUMANITY" AND child.name = "thought.FUTILE REBELLION"
+MATCH (parent:TOPIC {name: "topic.HUMANITY"})
+MATCH (child:THOUGHT {name: "thought.FUTILE REBELLION"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >FUTILE REBELLION" }]->(child);
 ```

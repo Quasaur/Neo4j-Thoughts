@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "成功一半：聆听上帝的声音；另一半：服从它。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.HEARING AND OBEYING" AND c.name = "content.HEARING AND OBEYING"
+MATCH (t:THOUGHT {name: "thought.HEARING AND OBEYING"})
+MATCH (c:CONTENT {name: "content.HEARING AND OBEYING"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.HEARING AND OBEYING" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.SPIRITUALITY" AND child.name = "thought.HEARING AND OBEYING"
+MATCH (parent:TOPIC {name: "topic.SPIRITUALITY"})
+MATCH (child:THOUGHT {name: "thought.HEARING AND OBEYING"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >HEARING AND OBEYING" }]->(child);
 ```

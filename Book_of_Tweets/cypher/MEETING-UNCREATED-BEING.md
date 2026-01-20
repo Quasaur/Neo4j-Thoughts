@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Zhǐ yǒu yù jiàn le wú chuàng zào zhě, nǐ cái zhēn zhèng dì huó guò!"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.MEETING UNCREATED BEING" AND c.name = "content.MEETING UNCREATED BEING"
+MATCH (t:THOUGHT {name: "thought.MEETING UNCREATED BEING"})
+MATCH (c:CONTENT {name: "content.MEETING UNCREATED BEING"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.MEETING UNCREATED BEING" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.THE GODHEAD" AND child.name = "thought.MEETING UNCREATED BEING"
+MATCH (parent:TOPIC {name: "topic.THE GODHEAD"})
+MATCH (child:THOUGHT {name: "thought.MEETING UNCREATED BEING"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >MEETING UNCREATED BEING" }]->(child);
 ```

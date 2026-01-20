@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "也许女人喜欢我们男人刮胡子，所以她们可能会像对待孩子一样对待我们。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.MEN SHAVING CHILDREN" AND c.name = "content.MEN SHAVING CHILDREN"
+MATCH (t:THOUGHT {name: "thought.MEN SHAVING CHILDREN"})
+MATCH (c:CONTENT {name: "content.MEN SHAVING CHILDREN"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.MEN SHAVING CHILDREN" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.HUMANITY" AND child.name = "thought.MEN SHAVING CHILDREN"
+MATCH (parent:TOPIC {name: "topic.HUMANITY"})
+MATCH (child:THOUGHT {name: "thought.MEN SHAVING CHILDREN"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >MEN SHAVING CHILDREN" }]->(child);
 ```

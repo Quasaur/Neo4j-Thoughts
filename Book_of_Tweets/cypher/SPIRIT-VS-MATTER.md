@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "LING HUN bi wu zhi geng jiu yuan, geng qiang da, bing qie yong heng de geng you li liang."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.SPIRIT VS MATTER" AND c.name = "content.SPIRIT VS MATTER"
+MATCH (t:THOUGHT {name: "thought.SPIRIT VS MATTER"})
+MATCH (c:CONTENT {name: "content.SPIRIT VS MATTER"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.SPIRIT VS MATTER" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.PHILOSOPHY" AND child.name = "thought.SPIRIT VS MATTER"
+MATCH (parent:TOPIC {name: "topic.PHILOSOPHY"})
+MATCH (child:THOUGHT {name: "thought.SPIRIT VS MATTER"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY >SPIRIT VS MATTER" }]->(child);
 ```

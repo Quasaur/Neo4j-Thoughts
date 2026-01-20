@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Ma Tai Fu Yin 5:27-30: Se qing zuo pin dui yi ge yi hun nan ren lai shuo shi tong jian, dui yi ge dan shen nan ren lai shuo shi xing yin luan."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.DEFINING PORNOGRAPHY" AND c.name = "content.DEFINING PORNOGRAPHY"
+MATCH (t:THOUGHT {name: "thought.DEFINING PORNOGRAPHY"})
+MATCH (c:CONTENT {name: "content.DEFINING PORNOGRAPHY"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.DEFINING PORNOGRAPHY" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.MORALITY" AND child.name = "thought.DEFINING PORNOGRAPHY"
+MATCH (parent:TOPIC {name: "topic.MORALITY"})
+MATCH (child:THOUGHT {name: "thought.DEFINING PORNOGRAPHY"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >DEFINING PORNOGRAPHY" }]->(child);
 ```

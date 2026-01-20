@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Yǒu shénme néng bǐ bèi ài gèng wěidà ne? Nénggòu qù ài!"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.GREATER THAN BEING LOVED" AND c.name = "content.GREATER THAN BEING LOVED"
+MATCH (t:THOUGHT {name: "thought.GREATER THAN BEING LOVED"})
+MATCH (c:CONTENT {name: "content.GREATER THAN BEING LOVED"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.GREATER THAN BEING LOVED" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.LOVE" AND child.name = "thought.GREATER THAN BEING LOVED"
+MATCH (parent:TOPIC {name: "topic.LOVE"})
+MATCH (child:THOUGHT {name: "thought.GREATER THAN BEING LOVED"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "LOVE >GREATER THAN BEING LOVED" }]->(child);
 ```

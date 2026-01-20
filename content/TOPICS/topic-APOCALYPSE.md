@@ -38,13 +38,15 @@ CREATE (d:DESCRIPTION {
 });
 
 // LINK DESCRIPTION
-MATCH (t:TOPIC), (d:DESCRIPTION)
-WHERE t.name = "topic.APOCALYPSE" AND d.name = "desc.APOCALYPSE"
+MATCH (t:TOPIC {name: "topic.APOCALYPSE"})
+MATCH (d:DESCRIPTION {name: "desc.APOCALYPSE"})
 MERGE (t)-[:HAS_DESCRIPTION {name: "edge.APOCALYPSE"}]->(d);
 
 // LINK PARENT
-MATCH (p:TOPIC), (c:TOPIC)
-WHERE p.name = "topic.HISTORY" AND c.name = "topic.APOCALYPSE"
+MATCH (p:TOPIC)
+WHERE p.name = "topic.HISTORY"
+MATCH (c:TOPIC)
+WHERE c.name = "topic.APOCALYPSE"
 MERGE (p)-[:HAS_CHILD {name: "edge.HISTORY->APOCALYPSE"}]->(c);
 
 ```

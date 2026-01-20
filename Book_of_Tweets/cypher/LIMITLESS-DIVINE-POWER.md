@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "JUÉ DUÌ QUÁN LÌ: Chú le Tā Zì Jǐ de Wú Xiàn Quán Lì zhī wài, qí tā suǒ yǒu rén de quán lì yě dōu zài Shàng Dì de Zhī Pèi xià...shèn zhì Sā Dàn de yě shì。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.LIMITLESS DIVINE POWER" AND c.name = "content.LIMITLESS DIVINE POWER"
+MATCH (t:THOUGHT {name: "thought.LIMITLESS DIVINE POWER"})
+MATCH (c:CONTENT {name: "content.LIMITLESS DIVINE POWER"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.LIMITLESS DIVINE POWER" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.DIVINE SOVEREIGNTY" AND child.name = "thought.LIMITLESS DIVINE POWER"
+MATCH (parent:TOPIC {name: "topic.DIVINE SOVEREIGNTY"})
+MATCH (child:THOUGHT {name: "thought.LIMITLESS DIVINE POWER"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "DIVINE SOVEREIGNTY >LIMITLESS DIVINE POWER" }]->(child);
 ```

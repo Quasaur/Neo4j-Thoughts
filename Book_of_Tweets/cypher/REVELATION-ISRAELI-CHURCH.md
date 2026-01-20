@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Qǐshìlù bùshì guānyú wàibāngrén jiàohuì, ér gèng duō de shì guānyú Yǐsèliè jiàohuì. Zài zhège bèijǐng xià, yīqiè dōu kāishǐ biàn de yǒu yìyì le."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.REVELATION ISRAELI CHURCH" AND c.name = "content.REVELATION ISRAELI CHURCH"
+MATCH (t:THOUGHT {name: "thought.REVELATION ISRAELI CHURCH"})
+MATCH (c:CONTENT {name: "content.REVELATION ISRAELI CHURCH"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.REVELATION ISRAELI CHURCH" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.RELIGION" AND child.name = "thought.REVELATION ISRAELI CHURCH"
+MATCH (parent:TOPIC {name: "topic.RELIGION"})
+MATCH (child:THOUGHT {name: "thought.REVELATION ISRAELI CHURCH"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION >REVELATION ISRAELI CHURCH" }]->(child);
 ```

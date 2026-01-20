@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "进化比智能设计需要更多的信念。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.FAITH IN EVOLUTION" AND c.name = "content.FAITH IN EVOLUTION"
+MATCH (t:THOUGHT {name: "thought.FAITH IN EVOLUTION"})
+MATCH (c:CONTENT {name: "content.FAITH IN EVOLUTION"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.FAITH IN EVOLUTION" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.FAITH" AND child.name = "thought.FAITH IN EVOLUTION"
+MATCH (parent:TOPIC {name: "topic.FAITH"})
+MATCH (child:THOUGHT {name: "thought.FAITH IN EVOLUTION"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "FAITH >FAITH IN EVOLUTION" }]->(child);
 ```

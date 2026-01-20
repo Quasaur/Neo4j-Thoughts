@@ -4,22 +4,58 @@
     "type": "split",
     "children": [
       {
-        "id": "3fccf98c7292803e",
+        "id": "5c878900a350a4d2",
         "type": "tabs",
         "children": [
           {
-            "id": "a7a46ef62315efdf",
+            "id": "12cb308d81e91caa",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "localgraph",
               "state": {
-                "file": "BASES/Base-Book of Tweets.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": false,
+                  "colorGroups": [
+                    {
+                      "query": "path:content/TOPICS",
+                      "color": {
+                        "a": 1,
+                        "rgb": 14701138
+                      }
+                    },
+                    {
+                      "query": "path:content/THOUGHTS  ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 1634569
+                      }
+                    }
+                  ],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1,
+                  "close": true
+                }
               },
-              "icon": "lucide-file",
-              "title": "Base-Book of Tweets"
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -54,7 +90,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "692",
+                "query": "Every communication system",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +125,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313.5086555480957,
+    "width": 463.5086555480957,
     "collapsed": true
   },
   "right": {
@@ -178,44 +214,44 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a7a46ef62315efdf",
+  "active": "12cb308d81e91caa",
   "lastOpenFiles": [
-    "Book_of_Tweets/cypher/OVERCOMING-FEAR-BLAME.md",
     "BASES/Base-Book of Tweets.md",
-    "Book_of_Tweets/cypher/PERFECT-PEOPLE-CRITICISM.md",
-    "Book_of_Tweets/cypher/RESPECTING-OUR-BODIES.md",
-    "Book_of_Tweets/cypher/WHISPER-OF-HOPE.md",
-    "Book_of_Tweets/cypher/ATTENTIONS-DESIRE.md",
+    "content/TOPICS/topic-COSMOLOGY.md",
+    "content/TOPICS/topic-ASTROPHYSICS.md",
+    "CYPHER/EXAMPLES/Return all Tags arrays in Labeled Topic.md",
+    "CYPHER/CORRECTIONS/TOPICS/TOPIC-tags-HUMANITY.md",
+    "Book_of_Tweets/cypher/COMMUNICATION-SYSTEMS.md",
+    "content/TOPICS/topic-COMMUNICATION-THEORY.md",
+    "content/TOPICS/topic-HUMANITY.md",
+    "content/TOPICS/topic-LINGUISTICS.md",
+    "Book_of_Tweets/cypher/CAT-ON-KNEE.md",
+    "Book_of_Tweets/cypher/CAT-LICK-NECK.md",
+    "Book_of_Tweets/cypher/BOX-JELLYFISH-EYES.md",
+    "Book_of_Tweets/cypher/ATOMS-IN-CELL.md",
+    "content/TOPICS/topic-BIOLOGY.md",
+    "content/TOPICS/topic-NATURAL-SCIENCES.md",
+    "update_natural_sciences_desc.py",
+    "content/THOUGHTS/REALITY.md",
+    "content/TOPICS/topic-TRUTH.md",
+    "python/delete_duplicate_cosmology.py",
+    "content/THOUGHTS/DARK-MATTER.md",
+    "content/THOUGHTS/ACCOUNTABILITY.md",
+    "content/BIBLE/Prov/01/FAITHLESSNESS.md",
+    "content/THOUGHTS/LOST-SCIENTISTS.md",
+    "content/BIBLE/Prov/01/KNOWLEDGE.md",
+    "content/THOUGHTS/INTELLIGENT-DESIGN.md",
+    "Book_of_Tweets/cypher/GOD-OF-SCIENCE.md",
+    "Book_of_Tweets/cypher/FAITH-AND-SCIENCE.md",
+    "content/THOUGHTS/EVOLUTION-IS-SCIENCE?.md",
     "remove_insert_property.py",
-    "Book_of_Tweets/cypher/BORED-VS-BORING.md",
-    "Book_of_Tweets/cypher/ANGER-AS-CONTAGION.md",
     "python/find_chinese_simplified.py",
-    "claude.md",
     "python/fix_book_of_tweets_levels.py",
-    "content/TOPICS/topic-ATTITUDE.md",
-    "CYPHER/CORRECTIONS/THOUGHT/THOUGHT-level-Thought.md",
     "python/find_auradb_placeholders.py",
     "python/query_auradb_status.py",
     "python/update_auradb_translations.py",
     "python/batch_1_translations.json",
     "python/generate_complete_translations.py",
-    "python/apply_translations.py",
-    "python/translation_workbook.json",
-    "content/THOUGHTS/COWARDS.md",
-    "CYPHER/CORRECTIONS/THOUGHT/THOUGHT-alias-Thought.md",
-    "BASES/Base-THOUGHTS.md",
-    "Book_of_Tweets/cypher/ALL-THINGS-FOR-HIM.md",
-    "BASES/Base-QUOTES.md",
-    "Book_of_Tweets/cypher/SCENT-OF-GOD.md",
-    "content/THOUGHTS/UnInserted/692-189.md",
-    "content/THOUGHTS/UnInserted/A-GREAT-DAY.md",
-    "content/THOUGHTS/THE-ULTIMATE.md",
-    "content/THOUGHTS/HAPPY-SABBATH.md",
-    "content/THOUGHTS/EVIL-WAS-NECESSARY.md",
-    "content/THOUGHTS/THE-TRUE-VINE.md",
-    "content/THOUGHTS/NOT-LIKE-ME.md",
-    "content/THOUGHTS/THE-QUICK-AND-THE-DEAD.md",
-    "content/THOUGHTS/MODIFIED-GOSPEL.md",
     "Untitled.canvas",
     "public/attachments/og-image.png",
     "public/static/og-image.png",

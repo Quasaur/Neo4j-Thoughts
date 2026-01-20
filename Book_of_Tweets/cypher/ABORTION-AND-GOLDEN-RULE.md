@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Duòtāi wéifǎnle huángjīn fǎzé."己所不欲，勿施于人。\""
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.ABORTION AND GOLDEN RULE" AND c.name = "content.ABORTION AND GOLDEN RULE"
+MATCH (t:THOUGHT {name: "thought.ABORTION AND GOLDEN RULE"})
+MATCH (c:CONTENT {name: "content.ABORTION AND GOLDEN RULE"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.ABORTION AND GOLDEN RULE" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.MORALITY" AND child.name = "thought.ABORTION AND GOLDEN RULE"
+MATCH (parent:TOPIC {name: "topic.MORALITY"})
+MATCH (child:THOUGHT {name: "thought.ABORTION AND GOLDEN RULE"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >ABORTION AND GOLDEN RULE" }]->(child);
 ```
