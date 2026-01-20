@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Ji Zhu: Ma Ding Lu De Jin Bo Shi Bei Sha Hai De -- Bu Shi Yin Wei Ta De Zui Xing, Er Shi Yin Wei Ta De Shan Xing."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.MLK MURDERED GOOD DEEDS" AND c.name = "content.MLK MURDERED GOOD DEEDS"
+MATCH (t:THOUGHT {name: "thought.MLK MURDERED GOOD DEEDS"})
+MATCH (c:CONTENT {name: "content.MLK MURDERED GOOD DEEDS"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.MLK MURDERED GOOD DEEDS" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.MORALITY" AND child.name = "thought.MLK MURDERED GOOD DEEDS"
+MATCH (parent:TOPIC {name: "topic.MORALITY"})
+MATCH (child:THOUGHT {name: "thought.MLK MURDERED GOOD DEEDS"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >MLK MURDERED GOOD DEEDS" }]->(child);
 ```

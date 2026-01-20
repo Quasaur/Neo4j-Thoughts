@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Gēlínduō qián shū 15:24-28: Shàngdì zhèng zài Jīdū lǐ héxé bìng zhěnghé wànwù. 哥林多前书 15:24-28：上帝正在基督里和合并整合万物。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.RECONCILING IN CHRIST" AND c.name = "content.RECONCILING IN CHRIST"
+MATCH (t:THOUGHT {name: "thought.RECONCILING IN CHRIST"})
+MATCH (c:CONTENT {name: "content.RECONCILING IN CHRIST"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.RECONCILING IN CHRIST" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.THE GODHEAD" AND child.name = "thought.RECONCILING IN CHRIST"
+MATCH (parent:TOPIC {name: "topic.THE GODHEAD"})
+MATCH (child:THOUGHT {name: "thought.RECONCILING IN CHRIST"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >RECONCILING IN CHRIST" }]->(child);
 ```

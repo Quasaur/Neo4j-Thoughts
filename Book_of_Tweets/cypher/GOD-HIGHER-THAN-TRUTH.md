@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "\"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.GOD HIGHER THAN TRUTH" AND c.name = "content.GOD HIGHER THAN TRUTH"
+MATCH (t:THOUGHT {name: "thought.GOD HIGHER THAN TRUTH"})
+MATCH (c:CONTENT {name: "content.GOD HIGHER THAN TRUTH"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.GOD HIGHER THAN TRUTH" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.THE GODHEAD" AND child.name = "thought.GOD HIGHER THAN TRUTH"
+MATCH (parent:TOPIC {name: "topic.THE GODHEAD"})
+MATCH (child:THOUGHT {name: "thought.GOD HIGHER THAN TRUTH"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >GOD HIGHER THAN TRUTH" }]->(child);
 ```

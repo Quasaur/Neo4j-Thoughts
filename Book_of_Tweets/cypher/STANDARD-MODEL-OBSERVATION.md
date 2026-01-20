@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Ni shenzhì zhidao Biaozhun Moxing bù fǎnyìng yǔzhòu zhong shíjì guānchá dào de qíngkuàng ma??"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.STANDARD MODEL OBSERVATION" AND c.name = "content.STANDARD MODEL OBSERVATION"
+MATCH (t:THOUGHT {name: "thought.STANDARD MODEL OBSERVATION"})
+MATCH (c:CONTENT {name: "content.STANDARD MODEL OBSERVATION"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.STANDARD MODEL OBSERVATION" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.PHILOSOPHY" AND child.name = "thought.STANDARD MODEL OBSERVATION"
+MATCH (parent:TOPIC {name: "topic.PHILOSOPHY"})
+MATCH (child:THOUGHT {name: "thought.STANDARD MODEL OBSERVATION"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY >STANDARD MODEL OBSERVATION" }]->(child);
 ```

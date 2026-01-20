@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Ru Guo Ni Sheng Huo Zai Kuai Su Dao Shang, Yao Zhu Yi Ni De Si Jiao."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.FAST LANE BLIND SPOTS" AND c.name = "content.FAST LANE BLIND SPOTS"
+MATCH (t:THOUGHT {name: "thought.FAST LANE BLIND SPOTS"})
+MATCH (c:CONTENT {name: "content.FAST LANE BLIND SPOTS"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.FAST LANE BLIND SPOTS" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.WISDOM" AND child.name = "thought.FAST LANE BLIND SPOTS"
+MATCH (parent:TOPIC {name: "topic.WISDOM"})
+MATCH (child:THOUGHT {name: "thought.FAST LANE BLIND SPOTS"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "WISDOM >FAST LANE BLIND SPOTS" }]->(child);
 ```

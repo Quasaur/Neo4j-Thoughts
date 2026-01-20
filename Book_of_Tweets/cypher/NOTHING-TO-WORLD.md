@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Zhi you dang ni dui shijie wu suo wei shi, ni cai neng zai Shen li cheng wei shen me."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.NOTHING TO WORLD" AND c.name = "content.NOTHING TO WORLD"
+MATCH (t:THOUGHT {name: "thought.NOTHING TO WORLD"})
+MATCH (c:CONTENT {name: "content.NOTHING TO WORLD"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.NOTHING TO WORLD" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.SPIRITUALITY" AND child.name = "thought.NOTHING TO WORLD"
+MATCH (parent:TOPIC {name: "topic.SPIRITUALITY"})
+MATCH (child:THOUGHT {name: "thought.NOTHING TO WORLD"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >NOTHING TO WORLD" }]->(child);
 ```

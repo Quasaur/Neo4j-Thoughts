@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "标准模型中的漏洞、不可简化的特定复杂性、化石记录中缺乏过渡链接......任你选择。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.STANDARD MODEL HOLES" AND c.name = "content.STANDARD MODEL HOLES"
+MATCH (t:THOUGHT {name: "thought.STANDARD MODEL HOLES"})
+MATCH (c:CONTENT {name: "content.STANDARD MODEL HOLES"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.STANDARD MODEL HOLES" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.PHILOSOPHY" AND child.name = "thought.STANDARD MODEL HOLES"
+MATCH (parent:TOPIC {name: "topic.PHILOSOPHY"})
+MATCH (child:THOUGHT {name: "thought.STANDARD MODEL HOLES"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY >STANDARD MODEL HOLES" }]->(child);
 ```

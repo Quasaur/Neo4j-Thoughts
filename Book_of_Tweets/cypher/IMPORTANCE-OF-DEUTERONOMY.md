@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Wǒ xiāngxìn Jiùyuē zhōng zuì zhòngyào de shū shì Shēnmìngjì, tā bāohánle Shèngjīng lìshǐ de ZHĚNGGÈ QUÁNJǏNG."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.IMPORTANCE OF DEUTERONOMY" AND c.name = "content.IMPORTANCE OF DEUTERONOMY"
+MATCH (t:THOUGHT {name: "thought.IMPORTANCE OF DEUTERONOMY"})
+MATCH (c:CONTENT {name: "content.IMPORTANCE OF DEUTERONOMY"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.IMPORTANCE OF DEUTERONOMY" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.TRUTH" AND child.name = "thought.IMPORTANCE OF DEUTERONOMY"
+MATCH (parent:TOPIC {name: "topic.TRUTH"})
+MATCH (child:THOUGHT {name: "thought.IMPORTANCE OF DEUTERONOMY"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH >IMPORTANCE OF DEUTERONOMY" }]->(child);
 ```

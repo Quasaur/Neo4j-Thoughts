@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Bao zang chang chang yin cang zai la ji xia...zuo yi ge bao zang lie ren!"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.TREASURE UNDER GARBAGE" AND c.name = "content.TREASURE UNDER GARBAGE"
+MATCH (t:THOUGHT {name: "thought.TREASURE UNDER GARBAGE"})
+MATCH (c:CONTENT {name: "content.TREASURE UNDER GARBAGE"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.TREASURE UNDER GARBAGE" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.WISDOM" AND child.name = "thought.TREASURE UNDER GARBAGE"
+MATCH (parent:TOPIC {name: "topic.WISDOM"})
+MATCH (child:THOUGHT {name: "thought.TREASURE UNDER GARBAGE"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "WISDOM >TREASURE UNDER GARBAGE" }]->(child);
 ```

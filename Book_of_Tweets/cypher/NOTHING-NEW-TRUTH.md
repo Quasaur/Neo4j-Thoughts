@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Zhenli mei you shenme xin de dongxi."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.NOTHING NEW TRUTH" AND c.name = "content.NOTHING NEW TRUTH"
+MATCH (t:THOUGHT {name: "thought.NOTHING NEW TRUTH"})
+MATCH (c:CONTENT {name: "content.NOTHING NEW TRUTH"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.NOTHING NEW TRUTH" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.TRUTH" AND child.name = "thought.NOTHING NEW TRUTH"
+MATCH (parent:TOPIC {name: "topic.TRUTH"})
+MATCH (child:THOUGHT {name: "thought.NOTHING NEW TRUTH"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH >NOTHING NEW TRUTH" }]->(child);
 ```

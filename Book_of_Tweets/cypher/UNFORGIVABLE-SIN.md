@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "什么是不可饶恕的罪？不宽恕。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.UNFORGIVABLE SIN" AND c.name = "content.UNFORGIVABLE SIN"
+MATCH (t:THOUGHT {name: "thought.UNFORGIVABLE SIN"})
+MATCH (c:CONTENT {name: "content.UNFORGIVABLE SIN"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.UNFORGIVABLE SIN" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.GRACE" AND child.name = "thought.UNFORGIVABLE SIN"
+MATCH (parent:TOPIC {name: "topic.GRACE"})
+MATCH (child:THOUGHT {name: "thought.UNFORGIVABLE SIN"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE >UNFORGIVABLE SIN" }]->(child);
 ```

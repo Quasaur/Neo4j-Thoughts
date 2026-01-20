@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Zuì'è zhèngzài shāsǐ wǒmen; dàn zhìshǎo tā de wèidào hěn hǎo!"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.SIN TASTES GOOD" AND c.name = "content.SIN TASTES GOOD"
+MATCH (t:THOUGHT {name: "thought.SIN TASTES GOOD"})
+MATCH (c:CONTENT {name: "content.SIN TASTES GOOD"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.SIN TASTES GOOD" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.MORALITY" AND child.name = "thought.SIN TASTES GOOD"
+MATCH (parent:TOPIC {name: "topic.MORALITY"})
+MATCH (child:THOUGHT {name: "thought.SIN TASTES GOOD"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >SIN TASTES GOOD" }]->(child);
 ```

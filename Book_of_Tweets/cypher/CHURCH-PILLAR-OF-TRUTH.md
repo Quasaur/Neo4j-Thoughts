@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Tí mó tài qián shū 3:15: Shàngdì de jiàohuì shì dìshàng zhēnlǐ de zhùzi hé gēnjī, gōngjí hé pīpíng tā shì wéixiǎn de. 提摩太前书3:15：上帝的教会是地上真理的柱子和根基，攻击和批评她是危险的。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.CHURCH PILLAR OF TRUTH" AND c.name = "content.CHURCH PILLAR OF TRUTH"
+MATCH (t:THOUGHT {name: "thought.CHURCH PILLAR OF TRUTH"})
+MATCH (c:CONTENT {name: "content.CHURCH PILLAR OF TRUTH"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.CHURCH PILLAR OF TRUTH" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.RELIGION" AND child.name = "thought.CHURCH PILLAR OF TRUTH"
+MATCH (parent:TOPIC {name: "topic.RELIGION"})
+MATCH (child:THOUGHT {name: "thought.CHURCH PILLAR OF TRUTH"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION >CHURCH PILLAR OF TRUTH" }]->(child);
 ```

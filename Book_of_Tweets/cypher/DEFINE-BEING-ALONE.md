@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Gūdān de zhēnzhèng dìngyì shì bù zhī Shàngdì de ài xīn chūzài."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.DEFINE BEING ALONE" AND c.name = "content.DEFINE BEING ALONE"
+MATCH (t:THOUGHT {name: "thought.DEFINE BEING ALONE"})
+MATCH (c:CONTENT {name: "content.DEFINE BEING ALONE"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.DEFINE BEING ALONE" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.SPIRITUALITY" AND child.name = "thought.DEFINE BEING ALONE"
+MATCH (parent:TOPIC {name: "topic.SPIRITUALITY"})
+MATCH (child:THOUGHT {name: "thought.DEFINE BEING ALONE"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >DEFINE BEING ALONE" }]->(child);
 ```

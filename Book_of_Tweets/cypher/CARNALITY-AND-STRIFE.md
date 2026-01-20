@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Gēlínduō qiánshū 3:3: \"...nǐmen réng shì shǔ ròutǐ de, yīnwèi zài nǐmen zhōngjiān yǒu jí dù, fēnzhēng, zhè qǐbùshì shǔ hūròutǐ, zhào zhe shìrén de yàngzi xíng ma?\""
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.CARNALITY AND STRIFE" AND c.name = "content.CARNALITY AND STRIFE"
+MATCH (t:THOUGHT {name: "thought.CARNALITY AND STRIFE"})
+MATCH (c:CONTENT {name: "content.CARNALITY AND STRIFE"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.CARNALITY AND STRIFE" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.MORALITY" AND child.name = "thought.CARNALITY AND STRIFE"
+MATCH (parent:TOPIC {name: "topic.MORALITY"})
+MATCH (child:THOUGHT {name: "thought.CARNALITY AND STRIFE"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >CARNALITY AND STRIFE" }]->(child);
 ```

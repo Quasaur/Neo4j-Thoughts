@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Ru guo meng jing shi dui ling yi zhong sheng huo de kui shi... zai ling yi ge xing qiu shang... zai ling yi ge yu wo men hen xiang si de yin he xi zhong, na hui zen me yang?"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.DREAMS OTHER WORLDS" AND c.name = "content.DREAMS OTHER WORLDS"
+MATCH (t:THOUGHT {name: "thought.DREAMS OTHER WORLDS"})
+MATCH (c:CONTENT {name: "content.DREAMS OTHER WORLDS"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.DREAMS OTHER WORLDS" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.PHILOSOPHY" AND child.name = "thought.DREAMS OTHER WORLDS"
+MATCH (parent:TOPIC {name: "topic.PHILOSOPHY"})
+MATCH (child:THOUGHT {name: "thought.DREAMS OTHER WORLDS"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY >DREAMS OTHER WORLDS" }]->(child);
 ```

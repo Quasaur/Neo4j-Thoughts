@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Mǎi'ěrkēmǔ Ài Kèsī ài tā de rénmín, zú yǐ gàosù tāmen guānyú zìjǐ de Zhēnlǐ."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.MALCOLM X TRUTH" AND c.name = "content.MALCOLM X TRUTH"
+MATCH (t:THOUGHT {name: "thought.MALCOLM X TRUTH"})
+MATCH (c:CONTENT {name: "content.MALCOLM X TRUTH"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.MALCOLM X TRUTH" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.HUMANITY" AND child.name = "thought.MALCOLM X TRUTH"
+MATCH (parent:TOPIC {name: "topic.HUMANITY"})
+MATCH (child:THOUGHT {name: "thought.MALCOLM X TRUTH"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >MALCOLM X TRUTH" }]->(child);
 ```

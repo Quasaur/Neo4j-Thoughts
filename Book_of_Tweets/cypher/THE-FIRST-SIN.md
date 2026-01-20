@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Dì Yī Gè Zuìrén fànxià le Dì Yī Zuì, tā bǎ tā méiyǒu chuàngzào de dōngxi guīgōng yú zìjǐ: tā zìjǐ."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.THE FIRST SIN" AND c.name = "content.THE FIRST SIN"
+MATCH (t:THOUGHT {name: "thought.THE FIRST SIN"})
+MATCH (c:CONTENT {name: "content.THE FIRST SIN"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.THE FIRST SIN" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.HUMANITY" AND child.name = "thought.THE FIRST SIN"
+MATCH (parent:TOPIC {name: "topic.HUMANITY"})
+MATCH (child:THOUGHT {name: "thought.THE FIRST SIN"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >THE FIRST SIN" }]->(child);
 ```

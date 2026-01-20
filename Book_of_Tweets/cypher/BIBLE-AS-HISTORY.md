@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Shèngjīng shuō Shàngdì bùnéng sāhuǎng. Yīncǐ, rúguǒ Shèngjīng bùshì yīgè zhǔnquè de lìshǐ wénjiàn, nàme tā jiù bùnéng shì Shàngdì suǒ qǐfā de. 圣经说上帝不能撒谎。因此，如果圣经不是一个准确的历史文件，那么它就不能是上帝所启发的。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.BIBLE AS HISTORY" AND c.name = "content.BIBLE AS HISTORY"
+MATCH (t:THOUGHT {name: "thought.BIBLE AS HISTORY"})
+MATCH (c:CONTENT {name: "content.BIBLE AS HISTORY"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.BIBLE AS HISTORY" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.TRUTH" AND child.name = "thought.BIBLE AS HISTORY"
+MATCH (parent:TOPIC {name: "topic.TRUTH"})
+MATCH (child:THOUGHT {name: "thought.BIBLE AS HISTORY"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH >BIBLE AS HISTORY" }]->(child);
 ```

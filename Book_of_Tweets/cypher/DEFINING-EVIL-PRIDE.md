@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Xie e jiu shi ba zhe ge Shang Di ci yu de bao zang (Zi Wo) kan de bi ci yu ta de Shang Di geng jia zhen gui."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.DEFINING EVIL PRIDE" AND c.name = "content.DEFINING EVIL PRIDE"
+MATCH (t:THOUGHT {name: "thought.DEFINING EVIL PRIDE"})
+MATCH (c:CONTENT {name: "content.DEFINING EVIL PRIDE"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.DEFINING EVIL PRIDE" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.EVIL" AND child.name = "thought.DEFINING EVIL PRIDE"
+MATCH (parent:TOPIC {name: "topic.EVIL"})
+MATCH (child:THOUGHT {name: "thought.DEFINING EVIL PRIDE"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "EVIL >DEFINING EVIL PRIDE" }]->(child);
 ```

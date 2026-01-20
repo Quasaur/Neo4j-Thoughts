@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Měiguó zhōngyú zài zìjǐ tānlán de fùdān xià bēngkuì. 美国终于在自己贪婪的负担下崩溃。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.WEIGHT OF GREED" AND c.name = "content.WEIGHT OF GREED"
+MATCH (t:THOUGHT {name: "thought.WEIGHT OF GREED"})
+MATCH (c:CONTENT {name: "content.WEIGHT OF GREED"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.WEIGHT OF GREED" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.MORALITY" AND child.name = "thought.WEIGHT OF GREED"
+MATCH (parent:TOPIC {name: "topic.MORALITY"})
+MATCH (child:THOUGHT {name: "thought.WEIGHT OF GREED"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >WEIGHT OF GREED" }]->(child);
 ```

@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Qǐshìlù 21:7: Chúfēi nǐ bù zài xūyào tāmen, fǒuzé nǐ wúfǎ yōngyǒu YĪQIÈ SHÌWÙ."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.OWNING ALL THINGS" AND c.name = "content.OWNING ALL THINGS"
+MATCH (t:THOUGHT {name: "thought.OWNING ALL THINGS"})
+MATCH (c:CONTENT {name: "content.OWNING ALL THINGS"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.OWNING ALL THINGS" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.PHILOSOPHY" AND child.name = "thought.OWNING ALL THINGS"
+MATCH (parent:TOPIC {name: "topic.PHILOSOPHY"})
+MATCH (child:THOUGHT {name: "thought.OWNING ALL THINGS"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY >OWNING ALL THINGS" }]->(child);
 ```

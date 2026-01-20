@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "我们没有利用神的力量，因为我们没有致力于执行神的旨意。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.POWER AND WILL" AND c.name = "content.POWER AND WILL"
+MATCH (t:THOUGHT {name: "thought.POWER AND WILL"})
+MATCH (c:CONTENT {name: "content.POWER AND WILL"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.POWER AND WILL" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.SPIRITUALITY" AND child.name = "thought.POWER AND WILL"
+MATCH (parent:TOPIC {name: "topic.SPIRITUALITY"})
+MATCH (child:THOUGHT {name: "thought.POWER AND WILL"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >POWER AND WILL" }]->(child);
 ```

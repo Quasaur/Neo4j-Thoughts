@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Shēng yī cì, sǐ liǎng cì; shēng liǎng cì, sǐ yī cì--Fùhuójié kuàilè! 生一次，死两次；生两次，死一次--复活节快乐！"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.BORN TWICE" AND c.name = "content.BORN TWICE"
+MATCH (t:THOUGHT {name: "thought.BORN TWICE"})
+MATCH (c:CONTENT {name: "content.BORN TWICE"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.BORN TWICE" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.RELIGION" AND child.name = "thought.BORN TWICE"
+MATCH (parent:TOPIC {name: "topic.RELIGION"})
+MATCH (child:THOUGHT {name: "thought.BORN TWICE"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION >BORN TWICE" }]->(child);
 ```

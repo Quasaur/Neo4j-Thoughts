@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Rúguǒ kěyǐ de huà, wǒ xiǎng dài zhe wǒ de Tuī tè fěnsī yīqǐ qù tiāntáng."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.TWITTER TO HEAVEN" AND c.name = "content.TWITTER TO HEAVEN"
+MATCH (t:THOUGHT {name: "thought.TWITTER TO HEAVEN"})
+MATCH (c:CONTENT {name: "content.TWITTER TO HEAVEN"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.TWITTER TO HEAVEN" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.SPIRITUALITY" AND child.name = "thought.TWITTER TO HEAVEN"
+MATCH (parent:TOPIC {name: "topic.SPIRITUALITY"})
+MATCH (child:THOUGHT {name: "thought.TWITTER TO HEAVEN"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >TWITTER TO HEAVEN" }]->(child);
 ```

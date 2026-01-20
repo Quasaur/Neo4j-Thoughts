@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Zhēnyán 21:1; Mǎtài 19:25, 26. Shàngdì yǒu--bìngqiě shǐyòng--gǎibiàn xīn yì de nénglì... Fǒuzé méiyǒu rén huì dédào zhěngjiù."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.CHANGING THE HEART" AND c.name = "content.CHANGING THE HEART"
+MATCH (t:THOUGHT {name: "thought.CHANGING THE HEART"})
+MATCH (c:CONTENT {name: "content.CHANGING THE HEART"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.CHANGING THE HEART" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.DIVINE SOVEREIGNTY" AND child.name = "thought.CHANGING THE HEART"
+MATCH (parent:TOPIC {name: "topic.DIVINE SOVEREIGNTY"})
+MATCH (child:THOUGHT {name: "thought.CHANGING THE HEART"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "DIVINE SOVEREIGNTY >CHANGING THE HEART" }]->(child);
 ```

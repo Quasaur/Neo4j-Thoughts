@@ -39,13 +39,11 @@ CREATE (c:CONTENT {
     zh_content: "zhēn lǐ / xiàn shí zài luó jí hé lǐ xìng shàng shì lián guàn de ; rèn hé bú lián guàn de guān diǎn dōu shì huàn xiǎng, zuì zhōng huì bèi pàn tā de xìn tú."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.COHERENCE OF TRUTH" AND c.name = "content.COHERENCE OF TRUTH"
+MATCH (t:THOUGHT {name: "thought.COHERENCE OF TRUTH"})
+MATCH (c:CONTENT {name: "content.COHERENCE OF TRUTH"})
 MERGE (t)-[:HAS_CONTENT {name: "edge.COHERENCE OF TRUTH"}]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.TRUTH" AND child.name = "thought.COHERENCE OF TRUTH"
+MATCH (parent:TOPIC {name: "topic.TRUTH"})
+MATCH (child:THOUGHT {name: "thought.COHERENCE OF TRUTH"})
 MERGE (parent)-[:HAS_THOUGHT {name: "edge.TRUTH >COHERENCE OF TRUTH"}]->(child);
 ```

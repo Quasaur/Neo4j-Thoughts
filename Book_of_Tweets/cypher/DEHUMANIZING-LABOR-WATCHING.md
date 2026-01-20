@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Duì nàxiē jìxù shǐ lánlǐng hé báilǐng láodòngzhě qùrénxìnghuà de rén: SHÀNGDÌ ZÀI KÀNZHE."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.DEHUMANIZING LABOR WATCHING" AND c.name = "content.DEHUMANIZING LABOR WATCHING"
+MATCH (t:THOUGHT {name: "thought.DEHUMANIZING LABOR WATCHING"})
+MATCH (c:CONTENT {name: "content.DEHUMANIZING LABOR WATCHING"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.DEHUMANIZING LABOR WATCHING" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.MORALITY" AND child.name = "thought.DEHUMANIZING LABOR WATCHING"
+MATCH (parent:TOPIC {name: "topic.MORALITY"})
+MATCH (child:THOUGHT {name: "thought.DEHUMANIZING LABOR WATCHING"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >DEHUMANIZING LABOR WATCHING" }]->(child);
 ```

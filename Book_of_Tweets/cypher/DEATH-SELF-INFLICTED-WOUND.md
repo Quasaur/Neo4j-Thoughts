@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Sǐwáng bù shì zìrán de; Tā shì wǒmen tōngguò wéifǎn ér líkāi Shàngdì shí zìshāng de shāngkǒu."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.DEATH SELF INFLICTED WOUND" AND c.name = "content.DEATH SELF INFLICTED WOUND"
+MATCH (t:THOUGHT {name: "thought.DEATH SELF INFLICTED WOUND"})
+MATCH (c:CONTENT {name: "content.DEATH SELF INFLICTED WOUND"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.DEATH SELF INFLICTED WOUND" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.HUMANITY" AND child.name = "thought.DEATH SELF INFLICTED WOUND"
+MATCH (parent:TOPIC {name: "topic.HUMANITY"})
+MATCH (child:THOUGHT {name: "thought.DEATH SELF INFLICTED WOUND"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >DEATH SELF INFLICTED WOUND" }]->(child);
 ```

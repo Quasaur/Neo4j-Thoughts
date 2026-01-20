@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "yuè dú bān nián de jié zuò ： lǜ fǎ hé ēn diǎn de jiào yì zhǎn kāi le …… wà o ！"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.BUNYANS MASTERPIECE" AND c.name = "content.BUNYANS MASTERPIECE"
+MATCH (t:THOUGHT {name: "thought.BUNYANS MASTERPIECE"})
+MATCH (c:CONTENT {name: "content.BUNYANS MASTERPIECE"})
 MERGE (t)-[:HAS_CONTENT {name: "edge.BUNYANS MASTERPIECE"}]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.GRACE" AND child.name = "thought.BUNYANS MASTERPIECE"
+MATCH (parent:TOPIC {name: "topic.GRACE"})
+MATCH (child:THOUGHT {name: "thought.BUNYANS MASTERPIECE"})
 MERGE (parent)-[:HAS_THOUGHT {name: "edge.GRACE >BUNYANS MASTERPIECE"}]->(child);
 ```

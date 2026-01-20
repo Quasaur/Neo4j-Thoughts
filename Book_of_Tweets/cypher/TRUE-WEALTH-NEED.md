@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Ma Tai Fu Yin 10:34-39: Yi ge ren zhi you dang ta shi qu le dui yi qie de xu yao shi, cai zhen zheng fu you!"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.TRUE WEALTH NEED" AND c.name = "content.TRUE WEALTH NEED"
+MATCH (t:THOUGHT {name: "thought.TRUE WEALTH NEED"})
+MATCH (c:CONTENT {name: "content.TRUE WEALTH NEED"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.TRUE WEALTH NEED" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.PHILOSOPHY" AND child.name = "thought.TRUE WEALTH NEED"
+MATCH (parent:TOPIC {name: "topic.PHILOSOPHY"})
+MATCH (child:THOUGHT {name: "thought.TRUE WEALTH NEED"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY >TRUE WEALTH NEED" }]->(child);
 ```

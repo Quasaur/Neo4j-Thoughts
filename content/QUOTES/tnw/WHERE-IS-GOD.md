@@ -33,13 +33,13 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (q:QUOTE), (c:CONTENT)
-WHERE q.name = "quote.WHERE_IS_GOD?" AND c.name = "content.WHERE_IS_GOD?"
+MATCH (q:QUOTE {name: "quote.WHERE_IS_GOD?"})
+MATCH (c:CONTENT {name: "content.WHERE_IS_GOD?"})
 MERGE (q)-[:HAS_CONTENT {name: "q.edge.WHERE_IS_GOD?"}]->(c);
 
 // LINK PARENT
-MATCH (parent:TOPIC), (child:QUOTE)
-WHERE parent.name = "topic.DIVINE-SOVEREIGNTY" AND child.name = "quote.WHERE_IS_GOD?"
+MATCH (parent:TOPIC {name: "topic.DIVINE-SOVEREIGNTY"})
+MATCH (child:QUOTE {name: "quote.WHERE_IS_GOD?"})
 MERGE (parent)-[:HAS_QUOTE {name: "q.edge.DIVINE-SOVEREIGNTY->WHERE_IS_GOD?"}]->(child);
 
 ```

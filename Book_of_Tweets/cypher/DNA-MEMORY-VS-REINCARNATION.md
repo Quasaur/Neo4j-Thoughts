@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Lun hui: ru guo zhei xie ji yi bu shi qian shi de, er shi wo men zu xian de sheng huo ke zai wo men ling hun/DNA shang de ne?"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.DNA MEMORY VS REINCARNATION" AND c.name = "content.DNA MEMORY VS REINCARNATION"
+MATCH (t:THOUGHT {name: "thought.DNA MEMORY VS REINCARNATION"})
+MATCH (c:CONTENT {name: "content.DNA MEMORY VS REINCARNATION"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.DNA MEMORY VS REINCARNATION" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.PHILOSOPHY" AND child.name = "thought.DNA MEMORY VS REINCARNATION"
+MATCH (parent:TOPIC {name: "topic.PHILOSOPHY"})
+MATCH (child:THOUGHT {name: "thought.DNA MEMORY VS REINCARNATION"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY >DNA MEMORY VS REINCARNATION" }]->(child);
 ```

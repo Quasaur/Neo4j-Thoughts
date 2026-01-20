@@ -40,13 +40,15 @@ CREATE (d:DESCRIPTION {
 });
 
 // LINK DESCRIPTION
-MATCH (t:TOPIC), (d:DESCRIPTION)
-WHERE t.name = "topic.LINGUISTICS" AND d.name = "desc.LINGUISTICS"
+MATCH (t:TOPIC {name: "topic.LINGUISTICS"})
+MATCH (d:DESCRIPTION {name: "desc.LINGUISTICS"})
 MERGE (t)-[:HAS_DESCRIPTION {name: "edge.LINGUISTICS"}]->(d);
 
 // LINK PARENT
-MATCH (p:TOPIC), (c:TOPIC)
-WHERE p.name = "topic.ANTHROPOLOGY" AND c.name = "topic.LINGUISTICS"
+MATCH (p:TOPIC)
+WHERE p.name = "topic.ANTHROPOLOGY"
+MATCH (c:TOPIC)
+WHERE c.name = "topic.LINGUISTICS"
 MERGE (p)-[:HAS_CHILD {name: "edge.ANTHROPOLOGY->LINGUISTICS"}]->(c);
 
 ```

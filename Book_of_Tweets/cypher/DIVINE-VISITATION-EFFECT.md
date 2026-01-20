@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Shén de Lái Lín huì ràng nǐ duì zhè shēng huó shī qù xìng qù. Nǐ kě néng kàn qǐ lái hé xíng wéi dōu xiàng qí tā rén, dàn nǐ bù xiàng tā men...nǐ shǔ yú lìng yī gè Shì Jiè."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.DIVINE VISITATION EFFECT" AND c.name = "content.DIVINE VISITATION EFFECT"
+MATCH (t:THOUGHT {name: "thought.DIVINE VISITATION EFFECT"})
+MATCH (c:CONTENT {name: "content.DIVINE VISITATION EFFECT"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.DIVINE VISITATION EFFECT" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.SPIRITUALITY" AND child.name = "thought.DIVINE VISITATION EFFECT"
+MATCH (parent:TOPIC {name: "topic.SPIRITUALITY"})
+MATCH (child:THOUGHT {name: "thought.DIVINE VISITATION EFFECT"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >DIVINE VISITATION EFFECT" }]->(child);
 ```

@@ -40,13 +40,15 @@ CREATE (d:DESCRIPTION {
 });
 
 // LINK DESCRIPTION
-MATCH (t:TOPIC), (d:DESCRIPTION)
-WHERE t.name = "topic.GRACE" AND d.name = "desc.GRACE"
+MATCH (t:TOPIC {name: "topic.GRACE"})
+MATCH (d:DESCRIPTION {name: "desc.GRACE"})
 MERGE (t)-[:HAS_DESCRIPTION {name: "edge.GRACE"}]->(d);
 
 // LINK PARENT
-MATCH (p:TOPIC), (c:TOPIC)
-WHERE p.name = "topic.CREATION" AND c.name = "topic.GRACE"
+MATCH (p:TOPIC)
+WHERE p.name = "topic.CREATION"
+MATCH (c:TOPIC)
+WHERE c.name = "topic.GRACE"
 MERGE (p)-[:HAS_CHILD {name: "edge.CREATION->GRACE"}]->(c);
 
 ```

@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "神可以爱任何失败，使之成功。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.FAILURE TO SUCCESS" AND c.name = "content.FAILURE TO SUCCESS"
+MATCH (t:THOUGHT {name: "thought.FAILURE TO SUCCESS"})
+MATCH (c:CONTENT {name: "content.FAILURE TO SUCCESS"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.FAILURE TO SUCCESS" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.GRACE" AND child.name = "thought.FAILURE TO SUCCESS"
+MATCH (parent:TOPIC {name: "topic.GRACE"})
+MATCH (child:THOUGHT {name: "thought.FAILURE TO SUCCESS"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE >FAILURE TO SUCCESS" }]->(child);
 ```

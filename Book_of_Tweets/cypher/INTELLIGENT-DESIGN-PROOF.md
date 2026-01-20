@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "You DA LIANG de zheng ju zheng ming Zhi Neng She Ji, jin hua lun zhe bu xi wang ni zhi dao."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.INTELLIGENT DESIGN PROOF" AND c.name = "content.INTELLIGENT DESIGN PROOF"
+MATCH (t:THOUGHT {name: "thought.INTELLIGENT DESIGN PROOF"})
+MATCH (c:CONTENT {name: "content.INTELLIGENT DESIGN PROOF"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.INTELLIGENT DESIGN PROOF" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.CREATION" AND child.name = "thought.INTELLIGENT DESIGN PROOF"
+MATCH (parent:TOPIC {name: "topic.CREATION"})
+MATCH (child:THOUGHT {name: "thought.INTELLIGENT DESIGN PROOF"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "CREATION >INTELLIGENT DESIGN PROOF" }]->(child);
 ```

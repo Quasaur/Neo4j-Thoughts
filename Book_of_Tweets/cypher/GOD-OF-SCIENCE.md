@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Yē Sū Jī Dū shì Zhì Huì, Zhī Shi, Kē Xué hé Jì Shù de Shàng Dì."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.GOD OF SCIENCE" AND c.name = "content.GOD OF SCIENCE"
+MATCH (t:THOUGHT {name: "thought.GOD OF SCIENCE"})
+MATCH (c:CONTENT {name: "content.GOD OF SCIENCE"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.GOD OF SCIENCE" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.THE GODHEAD" AND child.name = "thought.GOD OF SCIENCE"
+MATCH (parent:TOPIC {name: "topic.THE GODHEAD"})
+MATCH (child:THOUGHT {name: "thought.GOD OF SCIENCE"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >GOD OF SCIENCE" }]->(child);
 ```

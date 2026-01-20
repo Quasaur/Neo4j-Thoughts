@@ -39,13 +39,11 @@ CREATE (c:CONTENT {
     zh_content: "Meiguo ruguo xiang yinwei tongxinglian de shi xiang Shangdi lian shang tu tuomo, ta keyi zheme zuo, dan zhe dui women renhe ren lai shuo dou BU hui you hao jieguo."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.SPITTING IN GODS FACE" AND c.name = "content.SPITTING IN GODS FACE"
+MATCH (t:THOUGHT {name: "thought.SPITTING IN GODS FACE"})
+MATCH (c:CONTENT {name: "content.SPITTING IN GODS FACE"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.SPITTING IN GODS FACE" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.MORALITY" AND child.name = "thought.SPITTING IN GODS FACE"
+MATCH (parent:TOPIC {name: "topic.MORALITY"})
+MATCH (child:THOUGHT {name: "thought.SPITTING IN GODS FACE"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >SPITTING IN GODS FACE" }]->(child);
 ```

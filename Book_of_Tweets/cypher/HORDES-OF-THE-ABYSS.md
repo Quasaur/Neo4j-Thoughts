@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Renlei jiang bei shenyuan zhong jun suofang, yinwei zhengshi renlei yi qi suowei suoyaoqiu de."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.HORDES OF THE ABYSS" AND c.name = "content.HORDES OF THE ABYSS"
+MATCH (t:THOUGHT {name: "thought.HORDES OF THE ABYSS"})
+MATCH (c:CONTENT {name: "content.HORDES OF THE ABYSS"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.HORDES OF THE ABYSS" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.EVIL" AND child.name = "thought.HORDES OF THE ABYSS"
+MATCH (parent:TOPIC {name: "topic.EVIL"})
+MATCH (child:THOUGHT {name: "thought.HORDES OF THE ABYSS"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "EVIL >HORDES OF THE ABYSS" }]->(child);
 ```

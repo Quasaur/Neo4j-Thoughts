@@ -39,13 +39,11 @@ CREATE (c:CONTENT {
     zh_content: "zuì shì shén me? zuì shì huàn xiǎng zhe zài zhè gè shēng mìng zhōng wǒ shì dù lì de yán."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.DEFINITION OF SIN" AND c.name = "content.DEFINITION OF SIN"
+MATCH (t:THOUGHT {name: "thought.DEFINITION OF SIN"})
+MATCH (c:CONTENT {name: "content.DEFINITION OF SIN"})
 MERGE (t)-[:HAS_CONTENT {name: "edge.DEFINITION OF SIN"}]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.MORALITY" AND child.name = "thought.DEFINITION OF SIN"
+MATCH (parent:TOPIC {name: "topic.MORALITY"})
+MATCH (child:THOUGHT {name: "thought.DEFINITION OF SIN"})
 MERGE (parent)-[:HAS_THOUGHT {name: "edge.MORALITY >DEFINITION OF SIN"}]->(child);
 ```

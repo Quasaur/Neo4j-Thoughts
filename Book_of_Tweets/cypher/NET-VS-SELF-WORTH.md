@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Bu yao ba jingzichan yu ziwo jiazhi hunxiao."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.NET VS SELF WORTH" AND c.name = "content.NET VS SELF WORTH"
+MATCH (t:THOUGHT {name: "thought.NET VS SELF WORTH"})
+MATCH (c:CONTENT {name: "content.NET VS SELF WORTH"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.NET VS SELF WORTH" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.HUMANITY" AND child.name = "thought.NET VS SELF WORTH"
+MATCH (parent:TOPIC {name: "topic.HUMANITY"})
+MATCH (child:THOUGHT {name: "thought.NET VS SELF WORTH"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >NET VS SELF WORTH" }]->(child);
 ```

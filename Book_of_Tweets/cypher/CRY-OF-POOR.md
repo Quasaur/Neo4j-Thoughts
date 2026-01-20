@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Shéi duì qióngrén de hǎnjiào bīsè ěrduo, tā zìjǐ jiāng hǎnjiào què bùdé yìngdá. Zhēnyán 21:13, ESV"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.CRY OF POOR" AND c.name = "content.CRY OF POOR"
+MATCH (t:THOUGHT {name: "thought.CRY OF POOR"})
+MATCH (c:CONTENT {name: "content.CRY OF POOR"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.CRY OF POOR" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.MORALITY" AND child.name = "thought.CRY OF POOR"
+MATCH (parent:TOPIC {name: "topic.MORALITY"})
+MATCH (child:THOUGHT {name: "thought.CRY OF POOR"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >CRY OF POOR" }]->(child);
 ```

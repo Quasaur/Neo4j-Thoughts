@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "白人失业率：9%...黑人失业率：16%。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.UNEMPLOYMENT STATS" AND c.name = "content.UNEMPLOYMENT STATS"
+MATCH (t:THOUGHT {name: "thought.UNEMPLOYMENT STATS"})
+MATCH (c:CONTENT {name: "content.UNEMPLOYMENT STATS"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.UNEMPLOYMENT STATS" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.MORALITY" AND child.name = "thought.UNEMPLOYMENT STATS"
+MATCH (parent:TOPIC {name: "topic.MORALITY"})
+MATCH (child:THOUGHT {name: "thought.UNEMPLOYMENT STATS"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >UNEMPLOYMENT STATS" }]->(child);
 ```

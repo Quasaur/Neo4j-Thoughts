@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Di qiu zheng yi chao guo 667,000 MPH de su du chuan yue tai kong, er wo men mei you si... Shang di shi wei da de!"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.EARTH SPEED SPACE" AND c.name = "content.EARTH SPEED SPACE"
+MATCH (t:THOUGHT {name: "thought.EARTH SPEED SPACE"})
+MATCH (c:CONTENT {name: "content.EARTH SPEED SPACE"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.EARTH SPEED SPACE" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.CREATION" AND child.name = "thought.EARTH SPEED SPACE"
+MATCH (parent:TOPIC {name: "topic.CREATION"})
+MATCH (child:THOUGHT {name: "thought.EARTH SPEED SPACE"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "CREATION >EARTH SPEED SPACE" }]->(child);
 ```

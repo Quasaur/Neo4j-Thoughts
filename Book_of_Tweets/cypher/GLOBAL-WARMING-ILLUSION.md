@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "您仍然相信全球变暖只是一种幻觉吗？"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.GLOBAL WARMING ILLUSION" AND c.name = "content.GLOBAL WARMING ILLUSION"
+MATCH (t:THOUGHT {name: "thought.GLOBAL WARMING ILLUSION"})
+MATCH (c:CONTENT {name: "content.GLOBAL WARMING ILLUSION"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.GLOBAL WARMING ILLUSION" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.CREATION" AND child.name = "thought.GLOBAL WARMING ILLUSION"
+MATCH (parent:TOPIC {name: "topic.CREATION"})
+MATCH (child:THOUGHT {name: "thought.GLOBAL WARMING ILLUSION"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "CREATION >GLOBAL WARMING ILLUSION" }]->(child);
 ```

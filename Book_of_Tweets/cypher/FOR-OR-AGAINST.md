@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "\"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.FOR OR AGAINST" AND c.name = "content.FOR OR AGAINST"
+MATCH (t:THOUGHT {name: "thought.FOR OR AGAINST"})
+MATCH (c:CONTENT {name: "content.FOR OR AGAINST"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.FOR OR AGAINST" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.THE GODHEAD" AND child.name = "thought.FOR OR AGAINST"
+MATCH (parent:TOPIC {name: "topic.THE GODHEAD"})
+MATCH (child:THOUGHT {name: "thought.FOR OR AGAINST"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >FOR OR AGAINST" }]->(child);
 ```

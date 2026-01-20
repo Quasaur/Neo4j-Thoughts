@@ -1,18 +1,18 @@
 ---
-name: "thought.DEFINE EXQUISITAGIOUS"
+name: thought.DEFINE EXQUISITAGIOUS
 alias: "Thought: Define Exquisitagious"
 type: THOUGHT
 en_content: "New Word: exquisitagious Meaning: something so exquisite that the feeling's contagious!"
-parent: "topic.BEAUTY"
+parent: topic.LINGUISTICS
 tags:
-- beauty
-- language
-- humor
-- contagious
-- aesthetics
+  - beauty
+  - language
+  - humor
+  - contagious
+  - aesthetics
 level: 5
 neo4j: false
-ptopic: 
+ptopic: "[[topic-LINGUISTICS]]"
 ---
 
 ```Cypher
@@ -20,7 +20,7 @@ ptopic:
 CREATE (t:THOUGHT {
     name: "thought.DEFINE EXQUISITAGIOUS",
     alias: "Thought: Define Exquisitagious",
-    parent: "topic.BEAUTY",
+    parent: "topic.LINGUISTICS",
     tags: ['beauty', 'language', 'humor', 'contagious', 'aesthetics'],
     notes: "",
     level: 5
@@ -47,6 +47,6 @@ MERGE (t)-[:HAS_CONTENT { "name": "edge.DEFINE EXQUISITAGIOUS" }]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "topic.BEAUTY" AND child.name = "thought.DEFINE EXQUISITAGIOUS"
-MERGE (parent)-[:HAS_THOUGHT { "name": "BEAUTY >DEFINE EXQUISITAGIOUS" }]->(child);
+WHERE parent.name = "topic.LINGUISTICS" AND child.name = "thought.DEFINE EXQUISITAGIOUS"
+MERGE (parent)-[:HAS_THOUGHT { "name": "LINGUISTICS->DEFINE EXQUISITAGIOUS" }]->(child);
 ```

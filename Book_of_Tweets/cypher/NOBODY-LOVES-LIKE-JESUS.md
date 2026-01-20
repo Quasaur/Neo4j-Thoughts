@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Wǒ de mǔqīn fēicháng ài wǒ; dàn zài tā zuì hǎo de rìzi lǐ, tā yě wúfǎ bā wǒ de zuìniè dài zǒu... méiyǒu rén xiàng Yēsū nàyàng ài wǒ! 我的母亲非常爱我；但在她最好的日子里，她也无法把我的罪孽带走...没有人像耶稣那样爱我！"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.NOBODY LOVES LIKE JESUS" AND c.name = "content.NOBODY LOVES LIKE JESUS"
+MATCH (t:THOUGHT {name: "thought.NOBODY LOVES LIKE JESUS"})
+MATCH (c:CONTENT {name: "content.NOBODY LOVES LIKE JESUS"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.NOBODY LOVES LIKE JESUS" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.THE GODHEAD" AND child.name = "thought.NOBODY LOVES LIKE JESUS"
+MATCH (parent:TOPIC {name: "topic.THE GODHEAD"})
+MATCH (child:THOUGHT {name: "thought.NOBODY LOVES LIKE JESUS"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >NOBODY LOVES LIKE JESUS" }]->(child);
 ```

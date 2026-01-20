@@ -39,13 +39,11 @@ CREATE (c:CONTENT {
     zh_content: "Yi ge wu shi qi zao wu zhu zhi shen zhi xuan bu ta bu cun zai de wu zhong, hai you shen me wei lai ma?"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.FUTURE FOR ATHEISTS" AND c.name = "content.FUTURE FOR ATHEISTS"
+MATCH (t:THOUGHT {name: "thought.FUTURE FOR ATHEISTS"})
+MATCH (c:CONTENT {name: "content.FUTURE FOR ATHEISTS"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.FUTURE FOR ATHEISTS" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.PHILOSOPHY" AND child.name = "thought.FUTURE FOR ATHEISTS"
+MATCH (parent:TOPIC {name: "topic.PHILOSOPHY"})
+MATCH (child:THOUGHT {name: "thought.FUTURE FOR ATHEISTS"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY >FUTURE FOR ATHEISTS" }]->(child);
 ```

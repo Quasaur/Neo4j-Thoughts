@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Kàn Shàng Dì. È cóng lái méi yǒu jī huì!"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.EVIL NO CHANCE" AND c.name = "content.EVIL NO CHANCE"
+MATCH (t:THOUGHT {name: "thought.EVIL NO CHANCE"})
+MATCH (c:CONTENT {name: "content.EVIL NO CHANCE"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.EVIL NO CHANCE" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.THE GODHEAD" AND child.name = "thought.EVIL NO CHANCE"
+MATCH (parent:TOPIC {name: "topic.THE GODHEAD"})
+MATCH (child:THOUGHT {name: "thought.EVIL NO CHANCE"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >EVIL NO CHANCE" }]->(child);
 ```

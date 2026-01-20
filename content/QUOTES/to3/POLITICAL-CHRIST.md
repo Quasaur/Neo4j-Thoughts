@@ -34,13 +34,13 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (q:QUOTE), (c:CONTENT)
-WHERE q.name = "quote.POLITICAL_CHRIST" AND c.name = "content.POLITICAL_CHRIST"
+MATCH (q:QUOTE {name: "quote.POLITICAL_CHRIST"})
+MATCH (c:CONTENT {name: "content.POLITICAL_CHRIST"})
 MERGE (q)-[:HAS_CONTENT {name: "q.edge.POLITICAL_CHRIST"}]->(c);
 
 // LINK PARENT
-MATCH (parent:TOPIC), (child:QUOTE)
-WHERE parent.name = "topic.POLITICAL-SCIENCE" AND child.name = "quote.POLITICAL_CHRIST"
+MATCH (parent:TOPIC {name: "topic.POLITICAL-SCIENCE"})
+MATCH (child:QUOTE {name: "quote.POLITICAL_CHRIST"})
 MERGE (parent)-[:HAS_QUOTE {name: "q.edge.POLITICAL-SCIENCE->POLITICAL_CHRIST"}]->(child);
 
 ```

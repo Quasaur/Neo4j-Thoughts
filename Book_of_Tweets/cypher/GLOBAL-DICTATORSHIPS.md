@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Zai zhe ge xingqiu shang qi shi yi ren zhong you er shi yi ren shenghuo zai ducai zhengquan xia."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.GLOBAL DICTATORSHIPS" AND c.name = "content.GLOBAL DICTATORSHIPS"
+MATCH (t:THOUGHT {name: "thought.GLOBAL DICTATORSHIPS"})
+MATCH (c:CONTENT {name: "content.GLOBAL DICTATORSHIPS"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.GLOBAL DICTATORSHIPS" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.MORALITY" AND child.name = "thought.GLOBAL DICTATORSHIPS"
+MATCH (parent:TOPIC {name: "topic.MORALITY"})
+MATCH (child:THOUGHT {name: "thought.GLOBAL DICTATORSHIPS"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >GLOBAL DICTATORSHIPS" }]->(child);
 ```

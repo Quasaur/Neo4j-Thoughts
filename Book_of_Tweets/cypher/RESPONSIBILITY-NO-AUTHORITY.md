@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Mei you quan wei de ze ren jiu xiang mei you fa dong ji de chuan."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.RESPONSIBILITY NO AUTHORITY" AND c.name = "content.RESPONSIBILITY NO AUTHORITY"
+MATCH (t:THOUGHT {name: "thought.RESPONSIBILITY NO AUTHORITY"})
+MATCH (c:CONTENT {name: "content.RESPONSIBILITY NO AUTHORITY"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.RESPONSIBILITY NO AUTHORITY" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.WISDOM" AND child.name = "thought.RESPONSIBILITY NO AUTHORITY"
+MATCH (parent:TOPIC {name: "topic.WISDOM"})
+MATCH (child:THOUGHT {name: "thought.RESPONSIBILITY NO AUTHORITY"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "WISDOM >RESPONSIBILITY NO AUTHORITY" }]->(child);
 ```

@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Nǐ kěyǐ shì Jīdū de fēnsī, dàn què bù shì mén tú; dàn nǐ bù néng chéngwéi mén tú què bù shì fēnsī! 你可以是基督的粉丝，但却不是门徒；但你不能成为门徒却不是粉丝！"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.FAN VS FOLLOWER" AND c.name = "content.FAN VS FOLLOWER"
+MATCH (t:THOUGHT {name: "thought.FAN VS FOLLOWER"})
+MATCH (c:CONTENT {name: "content.FAN VS FOLLOWER"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.FAN VS FOLLOWER" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.SPIRITUALITY" AND child.name = "thought.FAN VS FOLLOWER"
+MATCH (parent:TOPIC {name: "topic.SPIRITUALITY"})
+MATCH (child:THOUGHT {name: "thought.FAN VS FOLLOWER"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >FAN VS FOLLOWER" }]->(child);
 ```

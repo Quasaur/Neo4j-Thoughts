@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Shu xi ling hun shi e mo shi ti, ta men wei zhuang cheng yi shi de qin ren huo shan liang de shen ling dao shi. Sheng jing ming que jing gao fan dui xun qiu yu si zhe gou tong (Shen ming ji 18:10-12). Zhe xie qi pian xing de ling hun li yong wo men de tong ku he hao qi xin, yin dao wo men yuan li Ji du de zhen li. Zuo wei xin tu, wo men bi xu you shu ling fen bian li, ju jue ren he wei zhe xie qi pian da kai men hu de zuo fa, er shi yi kao Sheng Ling de yin dao he Shen de Hua Yu."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.FAMILIAR SPIRITS WARNING" AND c.name = "content.FAMILIAR SPIRITS WARNING"
+MATCH (t:THOUGHT {name: "thought.FAMILIAR SPIRITS WARNING"})
+MATCH (c:CONTENT {name: "content.FAMILIAR SPIRITS WARNING"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.FAMILIAR SPIRITS WARNING" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.EVIL" AND child.name = "thought.FAMILIAR SPIRITS WARNING"
+MATCH (parent:TOPIC {name: "topic.EVIL"})
+MATCH (child:THOUGHT {name: "thought.FAMILIAR SPIRITS WARNING"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "EVIL >FAMILIAR SPIRITS WARNING" }]->(child);
 ```

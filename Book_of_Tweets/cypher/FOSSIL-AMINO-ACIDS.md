@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Weishenme anjisuan rengran zai huashi zhong beizhao dao, zai ji yi nian hou ye mei you fenjie?"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.FOSSIL AMINO ACIDS" AND c.name = "content.FOSSIL AMINO ACIDS"
+MATCH (t:THOUGHT {name: "thought.FOSSIL AMINO ACIDS"})
+MATCH (c:CONTENT {name: "content.FOSSIL AMINO ACIDS"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.FOSSIL AMINO ACIDS" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.CREATION" AND child.name = "thought.FOSSIL AMINO ACIDS"
+MATCH (parent:TOPIC {name: "topic.CREATION"})
+MATCH (child:THOUGHT {name: "thought.FOSSIL AMINO ACIDS"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "CREATION >FOSSIL AMINO ACIDS" }]->(child);
 ```

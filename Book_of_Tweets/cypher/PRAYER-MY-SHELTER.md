@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Qí dǎo shì wǒ de bì hù suǒ... wǒ de bǎolěi... wǒ de wú yālì qū... wǒ de tiándiǎn. 祈祷是我的庇护所...我的堡垒...我的无压力区...我的甜点。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.PRAYER MY SHELTER" AND c.name = "content.PRAYER MY SHELTER"
+MATCH (t:THOUGHT {name: "thought.PRAYER MY SHELTER"})
+MATCH (c:CONTENT {name: "content.PRAYER MY SHELTER"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.PRAYER MY SHELTER" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.SPIRITUALITY" AND child.name = "thought.PRAYER MY SHELTER"
+MATCH (parent:TOPIC {name: "topic.SPIRITUALITY"})
+MATCH (child:THOUGHT {name: "thought.PRAYER MY SHELTER"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >PRAYER MY SHELTER" }]->(child);
 ```

@@ -34,13 +34,13 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (q:QUOTE), (c:CONTENT)
-WHERE q.name = "quote.HUMILITY" AND c.name = "content.HUMILITY"
+MATCH (q:QUOTE {name: "quote.HUMILITY"})
+MATCH (c:CONTENT {name: "content.HUMILITY"})
 MERGE (q)-[:HAS_CONTENT {name: "q.edge.HUMILITY"}]->(c);
 
 // LINK PARENT
-MATCH (parent:TOPIC), (child:QUOTE)
-WHERE parent.name = "topic.HUMILITY" AND child.name = "quote.HUMILITY"
+MATCH (parent:TOPIC {name: "topic.HUMILITY"})
+MATCH (child:QUOTE {name: "quote.HUMILITY"})
 MERGE (parent)-[:HAS_QUOTE {name: "q.edge.HUMILITY->HUMILITY"}]->(child);
 
 ```

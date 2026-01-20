@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Wǒmen yànjàn le shòukǔ, dàn wǒmen què méiyǒu yànjàn fànzuì. 我们厌倦了受苦，但我们却没有厌倦犯罪。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.SUFFERING VS SINNING" AND c.name = "content.SUFFERING VS SINNING"
+MATCH (t:THOUGHT {name: "thought.SUFFERING VS SINNING"})
+MATCH (c:CONTENT {name: "content.SUFFERING VS SINNING"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.SUFFERING VS SINNING" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.HUMANITY" AND child.name = "thought.SUFFERING VS SINNING"
+MATCH (parent:TOPIC {name: "topic.HUMANITY"})
+MATCH (child:THOUGHT {name: "thought.SUFFERING VS SINNING"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >SUFFERING VS SINNING" }]->(child);
 ```

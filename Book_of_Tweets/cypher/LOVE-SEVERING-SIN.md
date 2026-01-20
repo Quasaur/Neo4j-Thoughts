@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Wéiyǒu Ài néng jiāng zuìrén cóng tāmen de zuì'è zhōng fēnlí."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.LOVE SEVERING SIN" AND c.name = "content.LOVE SEVERING SIN"
+MATCH (t:THOUGHT {name: "thought.LOVE SEVERING SIN"})
+MATCH (c:CONTENT {name: "content.LOVE SEVERING SIN"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.LOVE SEVERING SIN" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.GRACE" AND child.name = "thought.LOVE SEVERING SIN"
+MATCH (parent:TOPIC {name: "topic.GRACE"})
+MATCH (child:THOUGHT {name: "thought.LOVE SEVERING SIN"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE >LOVE SEVERING SIN" }]->(child);
 ```

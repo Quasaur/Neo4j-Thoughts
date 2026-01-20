@@ -3,16 +3,16 @@ name: "thought.CAT LICK NECK"
 alias: "Thought: Cat Lick Neck"
 type: THOUGHT
 en_content: "My cat can lick its own neck...God is great!"
-parent: "topic.CREATION"
+parent: topic.BIOLOGY
 tags:
-- creation
-- nature
-- design
-- cat
-- humor
-level: 2
+  - creation
+  - nature
+  - design
+  - cat
+  - humor
+level: 6
 neo4j: false
-ptopic: 
+ptopic: "[[topic-BIOLOGY]]"
 ---
 
 ```Cypher
@@ -20,7 +20,7 @@ ptopic:
 CREATE (t:THOUGHT {
     name: "thought.CAT LICK NECK",
     alias: "Thought: Cat Lick Neck",
-    parent: "topic.CREATION",
+    parent: "topic.BIOLOGY",
     tags: ['creation', 'nature', 'design', 'cat', 'humor'],
     notes: "",
     level: 2
@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Wǒ de māo kěyǐ tiǎn zìjǐ de bózi... Shàngdì shì wěidà de!"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.CAT LICK NECK" AND c.name = "content.CAT LICK NECK"
+MATCH (t:THOUGHT {name: "thought.CAT LICK NECK"})
+MATCH (c:CONTENT {name: "content.CAT LICK NECK"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.CAT LICK NECK" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.CREATION" AND child.name = "thought.CAT LICK NECK"
-MERGE (parent)-[:HAS_THOUGHT { "name": "CREATION >CAT LICK NECK" }]->(child);
+MATCH (parent:TOPIC {name: "topic.BIOLOGY"})
+MATCH (child:THOUGHT {name: "thought.CAT LICK NECK"})
+MERGE (parent)-[:HAS_THOUGHT { "name": "BIOLOGY->CAT LICK NECK" }]->(child);
 ```

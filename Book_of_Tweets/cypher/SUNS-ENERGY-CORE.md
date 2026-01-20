@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Tàiyáng héxīn zhōng chǎnshēng de néngliàng xūyào yī bǎi wàn nián cái néng dàodá qi biǎomiàn: Shàngdì zhēn wěidà! 太阳核心中产生的能量需要一百万年才能到达其表面：上帝真伟大！"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.SUNS ENERGY CORE" AND c.name = "content.SUNS ENERGY CORE"
+MATCH (t:THOUGHT {name: "thought.SUNS ENERGY CORE"})
+MATCH (c:CONTENT {name: "content.SUNS ENERGY CORE"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.SUNS ENERGY CORE" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.CREATION" AND child.name = "thought.SUNS ENERGY CORE"
+MATCH (parent:TOPIC {name: "topic.CREATION"})
+MATCH (child:THOUGHT {name: "thought.SUNS ENERGY CORE"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "CREATION >SUNS ENERGY CORE" }]->(child);
 ```

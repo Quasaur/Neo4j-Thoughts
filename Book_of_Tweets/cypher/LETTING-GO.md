@@ -39,13 +39,11 @@ CREATE (c:CONTENT {
     zh_content: "shēng huó zhōng zuì nán zuò dì shì zhī yī jiù shì fàng xià nǐ yǐ wéi nǐ zhī dào de dōng xī."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.LETTING GO" AND c.name = "content.LETTING GO"
+MATCH (t:THOUGHT {name: "thought.LETTING GO"})
+MATCH (c:CONTENT {name: "content.LETTING GO"})
 MERGE (t)-[:HAS_CONTENT {name: "edge.LETTING GO"}]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.UNDERSTANDING" AND child.name = "thought.LETTING GO"
+MATCH (parent:TOPIC {name: "topic.UNDERSTANDING"})
+MATCH (child:THOUGHT {name: "thought.LETTING GO"})
 MERGE (parent)-[:HAS_THOUGHT {name: "edge.UNDERSTANDING >LETTING GO"}]->(child);
 ```

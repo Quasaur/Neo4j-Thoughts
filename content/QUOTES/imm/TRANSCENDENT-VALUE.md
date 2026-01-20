@@ -34,13 +34,13 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (q:QUOTE), (c:CONTENT)
-WHERE q.name = "quote.TRANSCENDENT_VALUE" AND c.name = "content.TRANSCENDENT_VALUE"
+MATCH (q:QUOTE {name: "quote.TRANSCENDENT_VALUE"})
+MATCH (c:CONTENT {name: "content.TRANSCENDENT_VALUE"})
 MERGE (q)-[:HAS_CONTENT {name: "q.edge.TRANSCENDENT_VALUE"}]->(c);
 
 // LINK PARENT
-MATCH (parent:TOPIC), (child:QUOTE)
-WHERE parent.name = "topic.THE-GOSPEL" AND child.name = "quote.TRANSCENDENT_VALUE"
+MATCH (parent:TOPIC {name: "topic.THE-GOSPEL"})
+MATCH (child:QUOTE {name: "quote.TRANSCENDENT_VALUE"})
 MERGE (parent)-[:HAS_QUOTE {name: "q.edge.THE-GOSPEL->TRANSCENDENT_VALUE"}]->(child);
 
 ```

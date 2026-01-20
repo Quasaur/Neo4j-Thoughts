@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Ping Jun Mei Ge Ren Yi Tian Yao Hu Xi 17,280-23,040 Ci; Shang Di Shi Wei Da De!"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.HUMAN BREATHS DAILY" AND c.name = "content.HUMAN BREATHS DAILY"
+MATCH (t:THOUGHT {name: "thought.HUMAN BREATHS DAILY"})
+MATCH (c:CONTENT {name: "content.HUMAN BREATHS DAILY"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.HUMAN BREATHS DAILY" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.CREATION" AND child.name = "thought.HUMAN BREATHS DAILY"
+MATCH (parent:TOPIC {name: "topic.CREATION"})
+MATCH (child:THOUGHT {name: "thought.HUMAN BREATHS DAILY"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "CREATION >HUMAN BREATHS DAILY" }]->(child);
 ```

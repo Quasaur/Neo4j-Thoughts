@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "shàng dì zhī dào nǐ zhōu wéi rén men de shì qíng, ér nǐ duì cǐ háo wú tóu xù; rú guǒ qí zhōng yī jiàn shì qíng bào lù chū lái, nà shi wèi le ràng nǐ néng gòu qí dǎo."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.PRAYER FOR REVELATION" AND c.name = "content.PRAYER FOR REVELATION"
+MATCH (t:THOUGHT {name: "thought.PRAYER FOR REVELATION"})
+MATCH (c:CONTENT {name: "content.PRAYER FOR REVELATION"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.PRAYER FOR REVELATION" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.SPIRITUALITY" AND child.name = "thought.PRAYER FOR REVELATION"
+MATCH (parent:TOPIC {name: "topic.SPIRITUALITY"})
+MATCH (child:THOUGHT {name: "thought.PRAYER FOR REVELATION"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >PRAYER FOR REVELATION" }]->(child);
 ```

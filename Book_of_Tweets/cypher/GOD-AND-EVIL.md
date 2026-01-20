@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "shàng dì kě yǐ shǐ yòng è ér bù shì è de."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.GOD AND EVIL" AND c.name = "content.GOD AND EVIL"
+MATCH (t:THOUGHT {name: "thought.GOD AND EVIL"})
+MATCH (c:CONTENT {name: "content.GOD AND EVIL"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.GOD AND EVIL" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.DIVINE SOVEREIGNTY" AND child.name = "thought.GOD AND EVIL"
+MATCH (parent:TOPIC {name: "topic.DIVINE SOVEREIGNTY"})
+MATCH (child:THOUGHT {name: "thought.GOD AND EVIL"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "DIVINE SOVEREIGNTY >GOD AND EVIL" }]->(child);
 ```

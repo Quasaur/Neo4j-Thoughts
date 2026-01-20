@@ -86,15 +86,13 @@ Bùyào hàipà tū lái de jīngkǒng,
 yě bùyào hàipà èrén de huǐmiè líndào. Yīnwèi yēhéhuá shì nǐ suǒ yǐkào de,
 tā bì bǎoshǒu nǐ de jiǎo bù bèi bàn dào."});
 // link content to node
-MATCH (p:PASSAGE)
-MATCH (c:CONTENT)
-WHERE p.name = 'passage.SECURITY (2)' AND c.name = 'content.SECURITY (2)'
+MATCH (p:PASSAGE {name: 'passage.SECURITY (2)'})
+MATCH (c:CONTENT {name: 'content.SECURITY (2)'})
 MERGE (p)-[:HAS_CONTENT {name: "p.edge.SECURITY (2)"}]->(c)
 RETURN *;
 // link node to parent node
-MATCH (parent:TOPIC)
-MATCH (child:PASSAGE)
-WHERE parent.name = 'topic.WISDOM' AND child.name = 'passage.SECURITY (2)'
+MATCH (parent:TOPIC {name: 'topic.WISDOM'})
+MATCH (child:PASSAGE {name: 'passage.SECURITY (2)'})
 MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.WISDOM->SECURITY (2)"}]->(child)
 RETURN *;
 

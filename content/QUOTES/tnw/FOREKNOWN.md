@@ -34,13 +34,13 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (q:QUOTE), (c:CONTENT)
-WHERE q.name = "quote.FOREKNOWN" AND c.name = "content.FOREKNOWN"
+MATCH (q:QUOTE {name: "quote.FOREKNOWN"})
+MATCH (c:CONTENT {name: "content.FOREKNOWN"})
 MERGE (q)-[:HAS_CONTENT {name: "q.edge.FOREKNOWN"}]->(c);
 
 // LINK PARENT
-MATCH (parent:TOPIC), (child:QUOTE)
-WHERE parent.name = "topic.DIVINE-SOVEREIGNTY" AND child.name = "quote.FOREKNOWN"
+MATCH (parent:TOPIC {name: "topic.DIVINE-SOVEREIGNTY"})
+MATCH (child:QUOTE {name: "quote.FOREKNOWN"})
 MERGE (parent)-[:HAS_QUOTE {name: "q.edge.DIVINE-SOVEREIGNTY->FOREKNOWN"}]->(child);
 
 ```

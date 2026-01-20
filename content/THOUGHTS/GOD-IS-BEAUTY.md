@@ -3,16 +3,16 @@ name: "thought.GOD IS BEAUTY"
 alias: "Thought: God Is Beauty"
 type: THOUGHT
 en_content: "God is Beauty. Apart from Him we are ugly."
-parent: "topic.BEAUTY"
+parent: topic.BEAUTY
 tags:
-- beauty
-- aesthetics
-- divinity
-- holiness
-- character
+  - beauty
+  - aesthetics
+  - divinity
+  - holiness
+  - character
 level: 5
 neo4j: false
-ptopic: 
+ptopic: "[[topic-BEAUTY]]"
 ---
 
 ```Cypher
@@ -22,7 +22,6 @@ CREATE (t:THOUGHT {
     alias: "Thought: God Is Beauty",
     parent: "topic.BEAUTY",
     tags: ['beauty', 'aesthetics', 'divinity', 'holiness', 'character'],
-    notes: "",
     level: 5
 });
 
@@ -48,5 +47,5 @@ MERGE (t)-[:HAS_CONTENT { "name": "edge.GOD IS BEAUTY" }]->(c);
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
 WHERE parent.name = "topic.BEAUTY" AND child.name = "thought.GOD IS BEAUTY"
-MERGE (parent)-[:HAS_THOUGHT { "name": "BEAUTY >GOD IS BEAUTY" }]->(child);
+MERGE (parent)-[:HAS_THOUGHT { "name": "BEAUTY->GOD IS BEAUTY" }]->(child);
 ```

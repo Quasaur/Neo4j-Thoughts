@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Jìnhuà lùn néng jiěshì bēimǐn ma? Cíbēi ne? 进化论能解释悲悂吗？慈悲呢？"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.EVOLUTION COMPASSION MERCY" AND c.name = "content.EVOLUTION COMPASSION MERCY"
+MATCH (t:THOUGHT {name: "thought.EVOLUTION COMPASSION MERCY"})
+MATCH (c:CONTENT {name: "content.EVOLUTION COMPASSION MERCY"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.EVOLUTION COMPASSION MERCY" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.PHILOSOPHY" AND child.name = "thought.EVOLUTION COMPASSION MERCY"
+MATCH (parent:TOPIC {name: "topic.PHILOSOPHY"})
+MATCH (child:THOUGHT {name: "thought.EVOLUTION COMPASSION MERCY"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY >EVOLUTION COMPASSION MERCY" }]->(child);
 ```

@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Chéng bāo shāng bù shì núlì."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.CONTRACTOR NOT SLAVE" AND c.name = "content.CONTRACTOR NOT SLAVE"
+MATCH (t:THOUGHT {name: "thought.CONTRACTOR NOT SLAVE"})
+MATCH (c:CONTENT {name: "content.CONTRACTOR NOT SLAVE"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.CONTRACTOR NOT SLAVE" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.MORALITY" AND child.name = "thought.CONTRACTOR NOT SLAVE"
+MATCH (parent:TOPIC {name: "topic.MORALITY"})
+MATCH (child:THOUGHT {name: "thought.CONTRACTOR NOT SLAVE"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >CONTRACTOR NOT SLAVE" }]->(child);
 ```

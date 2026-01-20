@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Zhiyou neng dui ziji shuo bu de ren, cai neng dui shijie he mogui shuo bu."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.SAYING NO TO SELF" AND c.name = "content.SAYING NO TO SELF"
+MATCH (t:THOUGHT {name: "thought.SAYING NO TO SELF"})
+MATCH (c:CONTENT {name: "content.SAYING NO TO SELF"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.SAYING NO TO SELF" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.SPIRITUALITY" AND child.name = "thought.SAYING NO TO SELF"
+MATCH (parent:TOPIC {name: "topic.SPIRITUALITY"})
+MATCH (child:THOUGHT {name: "thought.SAYING NO TO SELF"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >SAYING NO TO SELF" }]->(child);
 ```

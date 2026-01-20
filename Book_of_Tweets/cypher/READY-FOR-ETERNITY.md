@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Women dou jiang yao siwang; ni wei yongsheng zhunbei hao le ma?"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.READY FOR ETERNITY" AND c.name = "content.READY FOR ETERNITY"
+MATCH (t:THOUGHT {name: "thought.READY FOR ETERNITY"})
+MATCH (c:CONTENT {name: "content.READY FOR ETERNITY"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.READY FOR ETERNITY" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.SPIRITUALITY" AND child.name = "thought.READY FOR ETERNITY"
+MATCH (parent:TOPIC {name: "topic.SPIRITUALITY"})
+MATCH (child:THOUGHT {name: "thought.READY FOR ETERNITY"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >READY FOR ETERNITY" }]->(child);
 ```

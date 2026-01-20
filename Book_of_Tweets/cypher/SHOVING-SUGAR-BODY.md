@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Women bu duan wang yi ge ben shen jiu neng zhi zao tang de shenti li sai tang, ran hou you qi guai wei shenme women de le tang niao bing!"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.SHOVING SUGAR BODY" AND c.name = "content.SHOVING SUGAR BODY"
+MATCH (t:THOUGHT {name: "thought.SHOVING SUGAR BODY"})
+MATCH (c:CONTENT {name: "content.SHOVING SUGAR BODY"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.SHOVING SUGAR BODY" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.MORALITY" AND child.name = "thought.SHOVING SUGAR BODY"
+MATCH (parent:TOPIC {name: "topic.MORALITY"})
+MATCH (child:THOUGHT {name: "thought.SHOVING SUGAR BODY"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >SHOVING SUGAR BODY" }]->(child);
 ```

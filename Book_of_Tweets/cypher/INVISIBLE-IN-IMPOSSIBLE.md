@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Chu Le Zai Bu Ke Neng De Shi Qing Shang, Shang Di Shi Bu Ke Jian De."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.INVISIBLE IN IMPOSSIBLE" AND c.name = "content.INVISIBLE IN IMPOSSIBLE"
+MATCH (t:THOUGHT {name: "thought.INVISIBLE IN IMPOSSIBLE"})
+MATCH (c:CONTENT {name: "content.INVISIBLE IN IMPOSSIBLE"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.INVISIBLE IN IMPOSSIBLE" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.THE GODHEAD" AND child.name = "thought.INVISIBLE IN IMPOSSIBLE"
+MATCH (parent:TOPIC {name: "topic.THE GODHEAD"})
+MATCH (child:THOUGHT {name: "thought.INVISIBLE IN IMPOSSIBLE"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >INVISIBLE IN IMPOSSIBLE" }]->(child);
 ```

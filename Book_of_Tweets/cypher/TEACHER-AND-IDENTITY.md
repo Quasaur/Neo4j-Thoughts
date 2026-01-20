@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Lǎoshī tiǎozhàn nǐ de shēnfèn hé nǐ de zhīshi, ránhòu bāngzhù nǐ fāxiàn zhè liǎng zhě, shǐ nǐ néng zài yālì xià jiānqiáng dìzhù."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.TEACHER AND IDENTITY" AND c.name = "content.TEACHER AND IDENTITY"
+MATCH (t:THOUGHT {name: "thought.TEACHER AND IDENTITY"})
+MATCH (c:CONTENT {name: "content.TEACHER AND IDENTITY"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.TEACHER AND IDENTITY" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.WISDOM" AND child.name = "thought.TEACHER AND IDENTITY"
+MATCH (parent:TOPIC {name: "topic.WISDOM"})
+MATCH (child:THOUGHT {name: "thought.TEACHER AND IDENTITY"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "WISDOM >TEACHER AND IDENTITY" }]->(child);
 ```

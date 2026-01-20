@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Zai Sadan wufa yayi Shengjing faxing de difang, ta shuofu renmin yuan li Shengjing."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.SUPPRESSING THE BIBLE" AND c.name = "content.SUPPRESSING THE BIBLE"
+MATCH (t:THOUGHT {name: "thought.SUPPRESSING THE BIBLE"})
+MATCH (c:CONTENT {name: "content.SUPPRESSING THE BIBLE"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.SUPPRESSING THE BIBLE" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.TRUTH" AND child.name = "thought.SUPPRESSING THE BIBLE"
+MATCH (parent:TOPIC {name: "topic.TRUTH"})
+MATCH (child:THOUGHT {name: "thought.SUPPRESSING THE BIBLE"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH >SUPPRESSING THE BIBLE" }]->(child);
 ```

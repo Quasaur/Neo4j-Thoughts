@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Zuowan wo zai gaosu gonglu shang shashe shiling le; dan Shangdi baohu wo mianyu shigu he shoushan, wo ba chezi kaihui le jia."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.SPARED ON FREEWAY" AND c.name = "content.SPARED ON FREEWAY"
+MATCH (t:THOUGHT {name: "thought.SPARED ON FREEWAY"})
+MATCH (c:CONTENT {name: "content.SPARED ON FREEWAY"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.SPARED ON FREEWAY" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.SPIRITUALITY" AND child.name = "thought.SPARED ON FREEWAY"
+MATCH (parent:TOPIC {name: "topic.SPIRITUALITY"})
+MATCH (child:THOUGHT {name: "thought.SPARED ON FREEWAY"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >SPARED ON FREEWAY" }]->(child);
 ```

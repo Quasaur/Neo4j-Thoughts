@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Chuangshiji 2:15, 16: Zhishi bushi yizhong quanli; zhishi shi Shen de caichan."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.KNOWLEDGE PROPERTY GOD" AND c.name = "content.KNOWLEDGE PROPERTY GOD"
+MATCH (t:THOUGHT {name: "thought.KNOWLEDGE PROPERTY GOD"})
+MATCH (c:CONTENT {name: "content.KNOWLEDGE PROPERTY GOD"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.KNOWLEDGE PROPERTY GOD" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.TRUTH" AND child.name = "thought.KNOWLEDGE PROPERTY GOD"
+MATCH (parent:TOPIC {name: "topic.TRUTH"})
+MATCH (child:THOUGHT {name: "thought.KNOWLEDGE PROPERTY GOD"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH >KNOWLEDGE PROPERTY GOD" }]->(child);
 ```

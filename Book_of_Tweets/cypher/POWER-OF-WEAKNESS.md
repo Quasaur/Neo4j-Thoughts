@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Zhēn zhèng de Lìliàng míngbái Ruòruò zhī Lì."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.POWER OF WEAKNESS" AND c.name = "content.POWER OF WEAKNESS"
+MATCH (t:THOUGHT {name: "thought.POWER OF WEAKNESS"})
+MATCH (c:CONTENT {name: "content.POWER OF WEAKNESS"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.POWER OF WEAKNESS" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.WISDOM" AND child.name = "thought.POWER OF WEAKNESS"
+MATCH (parent:TOPIC {name: "topic.WISDOM"})
+MATCH (child:THOUGHT {name: "thought.POWER OF WEAKNESS"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "WISDOM >POWER OF WEAKNESS" }]->(child);
 ```

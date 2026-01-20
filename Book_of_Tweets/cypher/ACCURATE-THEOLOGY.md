@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Wǒmen de shénxué yuè zhǔnquè, jīdūtú de shēnghuó jiù yuè róngyì."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.ACCURATE THEOLOGY" AND c.name = "content.ACCURATE THEOLOGY"
+MATCH (t:THOUGHT {name: "thought.ACCURATE THEOLOGY"})
+MATCH (c:CONTENT {name: "content.ACCURATE THEOLOGY"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.ACCURATE THEOLOGY" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.TRUTH" AND child.name = "thought.ACCURATE THEOLOGY"
+MATCH (parent:TOPIC {name: "topic.TRUTH"})
+MATCH (child:THOUGHT {name: "thought.ACCURATE THEOLOGY"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH >ACCURATE THEOLOGY" }]->(child);
 ```

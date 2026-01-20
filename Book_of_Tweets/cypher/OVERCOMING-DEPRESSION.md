@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Dāng Yìyùzhèng bù zài shì huíyì hěn jiǔ zhīhòu...wǒ réng jiāng zài zhèlǐ."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.OVERCOMING DEPRESSION" AND c.name = "content.OVERCOMING DEPRESSION"
+MATCH (t:THOUGHT {name: "thought.OVERCOMING DEPRESSION"})
+MATCH (c:CONTENT {name: "content.OVERCOMING DEPRESSION"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.OVERCOMING DEPRESSION" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.PSYCHOLOGY" AND child.name = "thought.OVERCOMING DEPRESSION"
+MATCH (parent:TOPIC {name: "topic.PSYCHOLOGY"})
+MATCH (child:THOUGHT {name: "thought.OVERCOMING DEPRESSION"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "PSYCHOLOGY >OVERCOMING DEPRESSION" }]->(child);
 ```

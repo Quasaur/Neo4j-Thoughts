@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Yuēhàn · Sāibāsīdì'ān · Bāhè shì nàxiē fēifán de línghún zhī yī, tā de tiānfù chāoyuè le suǒyǒu de tiāncái! 约翰·塞巴斯蒂安·巴赫是那些非凡的灵魂之一，他的天赋超越了所有的天才！"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.BACH AND GENIUS" AND c.name = "content.BACH AND GENIUS"
+MATCH (t:THOUGHT {name: "thought.BACH AND GENIUS"})
+MATCH (c:CONTENT {name: "content.BACH AND GENIUS"})
 MERGE (t)-[:HAS_CONTENT {name: "edge.BACH AND GENIUS"}]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.MUSIC" AND child.name = "thought.BACH AND GENIUS"
+MATCH (parent:TOPIC {name: "topic.MUSIC"})
+MATCH (child:THOUGHT {name: "thought.BACH AND GENIUS"})
 MERGE (parent)-[:HAS_THOUGHT {name: "edge.MUSIC >BACH AND GENIUS"}]->(child);
 ```

@@ -95,15 +95,13 @@ tā de yīqiè lùtú dōu shì píng'ān.
 Tā duì nàxiē zhuā zhù tā de rén, jiùshì shēngmìng shù;
 nàxiē jǐn jǐn zhuā zhù tā de rén yǒufúle."});
 // link content to node
-MATCH (p:PASSAGE)
-MATCH (c:CONTENT)
-WHERE p.name = 'passage.PRICELESS WISDOM' AND c.name = 'content.PRICELESS WISDOM'
+MATCH (p:PASSAGE {name: 'passage.PRICELESS WISDOM'})
+MATCH (c:CONTENT {name: 'content.PRICELESS WISDOM'})
 MERGE (p)-[:HAS_CONTENT {name: "p.edge.PRICELESS WISDOM"}]->(c)
 RETURN *;
 // link node to parent node
-MATCH (parent:TOPIC)
-MATCH (child:PASSAGE)
-WHERE parent.name = 'topic.HUMILITY' AND child.name = 'passage.PRICELESS WISDOM'
+MATCH (parent:TOPIC {name: 'topic.HUMILITY'})
+MATCH (child:PASSAGE {name: 'passage.PRICELESS WISDOM'})
 MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.HUMILITY->PRICELESS WISDOM"}]->(child)
 RETURN *;
 

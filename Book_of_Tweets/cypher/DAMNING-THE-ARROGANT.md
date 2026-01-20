@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Shàngdì zěnme zhìzuì yīgè zuìrén? Ràng tāmen zài tāmen de jiāo'ào zhōng fánróng."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.DAMNING THE ARROGANT" AND c.name = "content.DAMNING THE ARROGANT"
+MATCH (t:THOUGHT {name: "thought.DAMNING THE ARROGANT"})
+MATCH (c:CONTENT {name: "content.DAMNING THE ARROGANT"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.DAMNING THE ARROGANT" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.DIVINE SOVEREIGNTY" AND child.name = "thought.DAMNING THE ARROGANT"
+MATCH (parent:TOPIC {name: "topic.DIVINE SOVEREIGNTY"})
+MATCH (child:THOUGHT {name: "thought.DAMNING THE ARROGANT"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "DIVINE SOVEREIGNTY >DAMNING THE ARROGANT" }]->(child);
 ```

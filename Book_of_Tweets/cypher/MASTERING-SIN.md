@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Chuàngshì jì 4:6,7 Shàngdì bù qīwàng wǒmen gēnchú zuìzhèng (nà shì tā de gōngzuò)... dàn tā quèshí qīwàng wǒmen zhàngwò zuìzhèng. 创世记4:6,7 上帝不期望我们根除罪政（那是他的工作）...但他确实期望我们掌握罪政。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.MASTERING SIN" AND c.name = "content.MASTERING SIN"
+MATCH (t:THOUGHT {name: "thought.MASTERING SIN"})
+MATCH (c:CONTENT {name: "content.MASTERING SIN"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.MASTERING SIN" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.MORALITY" AND child.name = "thought.MASTERING SIN"
+MATCH (parent:TOPIC {name: "topic.MORALITY"})
+MATCH (child:THOUGHT {name: "thought.MASTERING SIN"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >MASTERING SIN" }]->(child);
 ```

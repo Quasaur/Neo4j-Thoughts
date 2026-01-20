@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Wo Men Ben Xing Shang Shi Zi Wo Hui Mie De, Bing Qie Jiao Dao Wo Men De Hai Zi Ye Bian De Zi Wo Hui Mie."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.SELF DESTRUCTIVE NATURE" AND c.name = "content.SELF DESTRUCTIVE NATURE"
+MATCH (t:THOUGHT {name: "thought.SELF DESTRUCTIVE NATURE"})
+MATCH (c:CONTENT {name: "content.SELF DESTRUCTIVE NATURE"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.SELF DESTRUCTIVE NATURE" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.HUMANITY" AND child.name = "thought.SELF DESTRUCTIVE NATURE"
+MATCH (parent:TOPIC {name: "topic.HUMANITY"})
+MATCH (child:THOUGHT {name: "thought.SELF DESTRUCTIVE NATURE"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >SELF DESTRUCTIVE NATURE" }]->(child);
 ```

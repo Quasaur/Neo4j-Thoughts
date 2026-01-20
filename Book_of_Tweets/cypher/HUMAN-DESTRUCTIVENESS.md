@@ -39,13 +39,11 @@ CREATE (c:CONTENT {
     zh_content: "BP shí yóu xiè lòu : wǒ men rén lèi jīng rén de zì wǒ huǐ miè."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.HUMAN DESTRUCTIVENESS" AND c.name = "content.HUMAN DESTRUCTIVENESS"
+MATCH (t:THOUGHT {name: "thought.HUMAN DESTRUCTIVENESS"})
+MATCH (c:CONTENT {name: "content.HUMAN DESTRUCTIVENESS"})
 MERGE (t)-[:HAS_CONTENT {name: "edge.HUMAN DESTRUCTIVENESS"}]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.HUMANITY" AND child.name = "thought.HUMAN DESTRUCTIVENESS"
+MATCH (parent:TOPIC {name: "topic.HUMANITY"})
+MATCH (child:THOUGHT {name: "thought.HUMAN DESTRUCTIVENESS"})
 MERGE (parent)-[:HAS_THOUGHT {name: "edge.HUMANITY >HUMAN DESTRUCTIVENESS"}]->(child);
 ```

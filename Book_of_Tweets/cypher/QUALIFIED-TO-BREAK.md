@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Wei yi you zi ge da po wo de Na Wei, shi yi jing xiang wo zheng ming le Ta de AI de Na Yi Wei."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.QUALIFIED TO BREAK" AND c.name = "content.QUALIFIED TO BREAK"
+MATCH (t:THOUGHT {name: "thought.QUALIFIED TO BREAK"})
+MATCH (c:CONTENT {name: "content.QUALIFIED TO BREAK"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.QUALIFIED TO BREAK" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.THE GODHEAD" AND child.name = "thought.QUALIFIED TO BREAK"
+MATCH (parent:TOPIC {name: "topic.THE GODHEAD"})
+MATCH (child:THOUGHT {name: "thought.QUALIFIED TO BREAK"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >QUALIFIED TO BREAK" }]->(child);
 ```

@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Shì shénme xīyǐn wǒmen bèi jìnjì zhī wù? Zuìzhèng. 是什么吸引我们被禁忌之物？罪政。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.ATTRACTION TO FORBIDDEN" AND c.name = "content.ATTRACTION TO FORBIDDEN"
+MATCH (t:THOUGHT {name: "thought.ATTRACTION TO FORBIDDEN"})
+MATCH (c:CONTENT {name: "content.ATTRACTION TO FORBIDDEN"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.ATTRACTION TO FORBIDDEN" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.MORALITY" AND child.name = "thought.ATTRACTION TO FORBIDDEN"
+MATCH (parent:TOPIC {name: "topic.MORALITY"})
+MATCH (child:THOUGHT {name: "thought.ATTRACTION TO FORBIDDEN"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >ATTRACTION TO FORBIDDEN" }]->(child);
 ```

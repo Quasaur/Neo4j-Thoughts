@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Wo bixu yongyou Yesu...qita yiqie dou keyi tanpan."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.JESUS NON NEGOTIABLE" AND c.name = "content.JESUS NON NEGOTIABLE"
+MATCH (t:THOUGHT {name: "thought.JESUS NON NEGOTIABLE"})
+MATCH (c:CONTENT {name: "content.JESUS NON NEGOTIABLE"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.JESUS NON NEGOTIABLE" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.SPIRITUALITY" AND child.name = "thought.JESUS NON NEGOTIABLE"
+MATCH (parent:TOPIC {name: "topic.SPIRITUALITY"})
+MATCH (child:THOUGHT {name: "thought.JESUS NON NEGOTIABLE"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >JESUS NON NEGOTIABLE" }]->(child);
 ```

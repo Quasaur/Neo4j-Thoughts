@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Rúguǒ wǒmen bù shǔyú Shàngdì, wǒmen jiù shǔyú zìjǐ... bìngqiě wǒmen jiāng zài zìjǐ zhōng huǐmiè, yīnwèi wǒmen xuǎnzé bù zài Shàngdì lǐ shēnghuó. 如果我们不属于上帝，我们就属于自己...并且我们将在自己中毁灭，因为我们选择不在上帝里生活。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.BELONGING TO GOD" AND c.name = "content.BELONGING TO GOD"
+MATCH (t:THOUGHT {name: "thought.BELONGING TO GOD"})
+MATCH (c:CONTENT {name: "content.BELONGING TO GOD"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.BELONGING TO GOD" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.HUMANITY" AND child.name = "thought.BELONGING TO GOD"
+MATCH (parent:TOPIC {name: "topic.HUMANITY"})
+MATCH (child:THOUGHT {name: "thought.BELONGING TO GOD"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >BELONGING TO GOD" }]->(child);
 ```

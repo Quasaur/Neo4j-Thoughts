@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "\"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.PRIDE OF SATAN" AND c.name = "content.PRIDE OF SATAN"
+MATCH (t:THOUGHT {name: "thought.PRIDE OF SATAN"})
+MATCH (c:CONTENT {name: "content.PRIDE OF SATAN"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.PRIDE OF SATAN" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.EVIL" AND child.name = "thought.PRIDE OF SATAN"
+MATCH (parent:TOPIC {name: "topic.EVIL"})
+MATCH (child:THOUGHT {name: "thought.PRIDE OF SATAN"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "EVIL >PRIDE OF SATAN" }]->(child);
 ```

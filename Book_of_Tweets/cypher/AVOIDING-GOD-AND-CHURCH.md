@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Wèishénme Fēizhōu Měiguó nánxìng yào bìmiǎn Shàngdì hé tā de jiàohuì??? 为什么非洲美国男性要避免上帝和他的教会???"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.AVOIDING GOD AND CHURCH" AND c.name = "content.AVOIDING GOD AND CHURCH"
+MATCH (t:THOUGHT {name: "thought.AVOIDING GOD AND CHURCH"})
+MATCH (c:CONTENT {name: "content.AVOIDING GOD AND CHURCH"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.AVOIDING GOD AND CHURCH" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.RELIGION" AND child.name = "thought.AVOIDING GOD AND CHURCH"
+MATCH (parent:TOPIC {name: "topic.RELIGION"})
+MATCH (child:THOUGHT {name: "thought.AVOIDING GOD AND CHURCH"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION >AVOIDING GOD AND CHURCH" }]->(child);
 ```

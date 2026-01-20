@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "现实：也许物质只对其他物质才是真实的……？"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.NATURE OF REALITY" AND c.name = "content.NATURE OF REALITY"
+MATCH (t:THOUGHT {name: "thought.NATURE OF REALITY"})
+MATCH (c:CONTENT {name: "content.NATURE OF REALITY"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.NATURE OF REALITY" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.PHILOSOPHY" AND child.name = "thought.NATURE OF REALITY"
+MATCH (parent:TOPIC {name: "topic.PHILOSOPHY"})
+MATCH (child:THOUGHT {name: "thought.NATURE OF REALITY"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY >NATURE OF REALITY" }]->(child);
 ```

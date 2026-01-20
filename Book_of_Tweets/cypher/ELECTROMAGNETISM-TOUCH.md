@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Zai zhengchang qingkuang xia, dianci zu zhi renhe liang ge biaomian xiangchu...Shangdi shi weida de!"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.ELECTROMAGNETISM TOUCH" AND c.name = "content.ELECTROMAGNETISM TOUCH"
+MATCH (t:THOUGHT {name: "thought.ELECTROMAGNETISM TOUCH"})
+MATCH (c:CONTENT {name: "content.ELECTROMAGNETISM TOUCH"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.ELECTROMAGNETISM TOUCH" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.CREATION" AND child.name = "thought.ELECTROMAGNETISM TOUCH"
+MATCH (parent:TOPIC {name: "topic.CREATION"})
+MATCH (child:THOUGHT {name: "thought.ELECTROMAGNETISM TOUCH"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "CREATION >ELECTROMAGNETISM TOUCH" }]->(child);
 ```

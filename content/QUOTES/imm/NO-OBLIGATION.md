@@ -34,13 +34,13 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (q:QUOTE), (c:CONTENT)
-WHERE q.name = "quote.NO_OBLIGATION" AND c.name = "content.NO_OBLIGATION"
+MATCH (q:QUOTE {name: "quote.NO_OBLIGATION"})
+MATCH (c:CONTENT {name: "content.NO_OBLIGATION"})
 MERGE (q)-[:HAS_CONTENT {name: "q.edge.NO_OBLIGATION"}]->(c);
 
 // LINK PARENT
-MATCH (parent:TOPIC), (child:QUOTE)
-WHERE parent.name = "topic.MERCY" AND child.name = "quote.NO_OBLIGATION"
+MATCH (parent:TOPIC {name: "topic.MERCY"})
+MATCH (child:QUOTE {name: "quote.NO_OBLIGATION"})
 MERGE (parent)-[:HAS_QUOTE {name: "q.edge.MERCY->NO_OBLIGATION"}]->(child);
 
 ```

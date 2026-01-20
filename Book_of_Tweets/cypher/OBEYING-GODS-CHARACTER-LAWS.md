@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Jǐnjǐn yīnwèi mǒushì shì hélǐ de, bù yìwèizhe tā shì dàodé de huò gōngzhèng de huò gōngpíng de. Shàngdì bù qīwàng wǒmen zūnshǒu wéibèi Tā Pǐngé de fǎlǜ."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.OBEYING GODS CHARACTER LAWS" AND c.name = "content.OBEYING GODS CHARACTER LAWS"
+MATCH (t:THOUGHT {name: "thought.OBEYING GODS CHARACTER LAWS"})
+MATCH (c:CONTENT {name: "content.OBEYING GODS CHARACTER LAWS"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.OBEYING GODS CHARACTER LAWS" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.MORALITY" AND child.name = "thought.OBEYING GODS CHARACTER LAWS"
+MATCH (parent:TOPIC {name: "topic.MORALITY"})
+MATCH (child:THOUGHT {name: "thought.OBEYING GODS CHARACTER LAWS"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >OBEYING GODS CHARACTER LAWS" }]->(child);
 ```

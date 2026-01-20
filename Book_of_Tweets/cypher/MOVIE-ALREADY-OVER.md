@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Shengjing shuo dianying yijing jieshu le... gunchu zimu ba!"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.MOVIE ALREADY OVER" AND c.name = "content.MOVIE ALREADY OVER"
+MATCH (t:THOUGHT {name: "thought.MOVIE ALREADY OVER"})
+MATCH (c:CONTENT {name: "content.MOVIE ALREADY OVER"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.MOVIE ALREADY OVER" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.RELIGION" AND child.name = "thought.MOVIE ALREADY OVER"
+MATCH (parent:TOPIC {name: "topic.RELIGION"})
+MATCH (child:THOUGHT {name: "thought.MOVIE ALREADY OVER"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION >MOVIE ALREADY OVER" }]->(child);
 ```

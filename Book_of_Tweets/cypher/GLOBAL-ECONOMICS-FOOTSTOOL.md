@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Quánqiú jīngjì: Shàngdì zhèng shǐ Jīdū de dírén chéngwéi tā de jiǎodèng. 全球经济：上帝正使基督的敌人成为他的脚凳。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.GLOBAL ECONOMICS FOOTSTOOL" AND c.name = "content.GLOBAL ECONOMICS FOOTSTOOL"
+MATCH (t:THOUGHT {name: "thought.GLOBAL ECONOMICS FOOTSTOOL"})
+MATCH (c:CONTENT {name: "content.GLOBAL ECONOMICS FOOTSTOOL"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.GLOBAL ECONOMICS FOOTSTOOL" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.DIVINE SOVEREIGNTY" AND child.name = "thought.GLOBAL ECONOMICS FOOTSTOOL"
+MATCH (parent:TOPIC {name: "topic.DIVINE SOVEREIGNTY"})
+MATCH (child:THOUGHT {name: "thought.GLOBAL ECONOMICS FOOTSTOOL"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "DIVINE SOVEREIGNTY >GLOBAL ECONOMICS FOOTSTOOL" }]->(child);
 ```

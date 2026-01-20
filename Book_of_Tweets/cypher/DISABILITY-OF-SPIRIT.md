@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Wúfǎ gǎnshòu Shàngdì jítǐ línzài shì bǐ bù néng zǒulù huò kànjiàn gèng dà de cánjí. 无法感受上帝即时临在是比不能走路或看见更大的残疾。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.DISABILITY OF SPIRIT" AND c.name = "content.DISABILITY OF SPIRIT"
+MATCH (t:THOUGHT {name: "thought.DISABILITY OF SPIRIT"})
+MATCH (c:CONTENT {name: "content.DISABILITY OF SPIRIT"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.DISABILITY OF SPIRIT" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.SPIRITUALITY" AND child.name = "thought.DISABILITY OF SPIRIT"
+MATCH (parent:TOPIC {name: "topic.SPIRITUALITY"})
+MATCH (child:THOUGHT {name: "thought.DISABILITY OF SPIRIT"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >DISABILITY OF SPIRIT" }]->(child);
 ```

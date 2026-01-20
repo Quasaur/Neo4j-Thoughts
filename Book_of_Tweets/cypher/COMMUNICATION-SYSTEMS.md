@@ -2,17 +2,17 @@
 name: "thought.COMMUNICATION SYSTEMS"
 alias: "Thought: Communication Systems"
 type: THOUGHT
-en_content: "Every communication system must have a language, a medium, a device that reads, and an intelligence that writes/interprets...God is Great!"
-parent: "topic.CREATION"
+en_content: "Every communication system must have a language, a medium, an organ that reads, and an intelligence that writes/interprets...God is Great!"
+parent: "topic.COMMUNICATION THEORY"
 tags:
-- design
-- language
-- intelligence
-- communication
-- creation
-level: 2
+  - design
+  - language
+  - intelligence
+  - communication
+  - creation
+level: 4
 neo4j: false
-ptopic: 
+ptopic: "[[topic-COMMUNICATION-THEORY]]"
 ---
 
 ```Cypher
@@ -20,10 +20,9 @@ ptopic:
 CREATE (t:THOUGHT {
     name: "thought.COMMUNICATION SYSTEMS",
     alias: "Thought: Communication Systems",
-    parent: "topic.CREATION",
+    parent: "topic.COMMUNICATION THEORY",
     tags: ['design', 'language', 'intelligence', 'communication', 'creation'],
-    notes: "",
-    level: 2
+    level: 4
 });
 
 CREATE (c:CONTENT {
@@ -40,13 +39,11 @@ CREATE (c:CONTENT {
     zh_content: "Měi gè tōngxìn xìtǒng dōu bìxū yǒu yī zhǒng yǔyán, yī zhǒng méijì, yī zhǒng yuèdú shèbèi, yǐjí yī zhǒng biānxiě/jiěshì de zhìhuì... Shàngdì shì wěidà de!"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.COMMUNICATION SYSTEMS" AND c.name = "content.COMMUNICATION SYSTEMS"
+MATCH (t:THOUGHT {name: "thought.COMMUNICATION SYSTEMS"})
+MATCH (c:CONTENT {name: "content.COMMUNICATION SYSTEMS"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.COMMUNICATION SYSTEMS" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.CREATION" AND child.name = "thought.COMMUNICATION SYSTEMS"
-MERGE (parent)-[:HAS_THOUGHT { "name": "CREATION >COMMUNICATION SYSTEMS" }]->(child);
+MATCH (parent:TOPIC {name: "topic.COMMUNICATION THEORY"})
+MATCH (child:THOUGHT {name: "thought.COMMUNICATION SYSTEMS"})
+MERGE (parent)-[:HAS_THOUGHT { "name": "COMMUNICATION THEORY->COMMUNICATION SYSTEMS" }]->(child);
 ```

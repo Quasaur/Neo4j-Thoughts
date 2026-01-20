@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Shen bu zai yi ni neng gei Ta shen me; yin wei shi shi shi, zhi you Shen xian gei le ni, ni cai you dong xi ke yi gei Shen!"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.NOTHING TO OFFER" AND c.name = "content.NOTHING TO OFFER"
+MATCH (t:THOUGHT {name: "thought.NOTHING TO OFFER"})
+MATCH (c:CONTENT {name: "content.NOTHING TO OFFER"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.NOTHING TO OFFER" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.THE GODHEAD" AND child.name = "thought.NOTHING TO OFFER"
+MATCH (parent:TOPIC {name: "topic.THE GODHEAD"})
+MATCH (child:THOUGHT {name: "thought.NOTHING TO OFFER"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >NOTHING TO OFFER" }]->(child);
 ```

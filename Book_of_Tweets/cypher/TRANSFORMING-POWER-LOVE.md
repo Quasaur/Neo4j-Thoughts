@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Shàngdì de ài jùyǒu kěpà de lìliàng: bǎ chéntǔ biànchéng xuèròu, bǎ xuèròu biànchéng línghún, bǎ zuì'è biànchéng gōngyì, bǎ sǐwáng biànchéng shēngmìng."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.TRANSFORMING POWER LOVE" AND c.name = "content.TRANSFORMING POWER LOVE"
+MATCH (t:THOUGHT {name: "thought.TRANSFORMING POWER LOVE"})
+MATCH (c:CONTENT {name: "content.TRANSFORMING POWER LOVE"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.TRANSFORMING POWER LOVE" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.THE GODHEAD" AND child.name = "thought.TRANSFORMING POWER LOVE"
+MATCH (parent:TOPIC {name: "topic.THE GODHEAD"})
+MATCH (child:THOUGHT {name: "thought.TRANSFORMING POWER LOVE"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >TRANSFORMING POWER LOVE" }]->(child);
 ```

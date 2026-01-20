@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Ni zhidao women suoyou ren--dui, zhengge yuzhou--dou zai Shen limian, duiba? Yelimishu 23:24"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.UNIVERSE INSIDE GOD" AND c.name = "content.UNIVERSE INSIDE GOD"
+MATCH (t:THOUGHT {name: "thought.UNIVERSE INSIDE GOD"})
+MATCH (c:CONTENT {name: "content.UNIVERSE INSIDE GOD"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.UNIVERSE INSIDE GOD" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.THE GODHEAD" AND child.name = "thought.UNIVERSE INSIDE GOD"
+MATCH (parent:TOPIC {name: "topic.THE GODHEAD"})
+MATCH (child:THOUGHT {name: "thought.UNIVERSE INSIDE GOD"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >UNIVERSE INSIDE GOD" }]->(child);
 ```

@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "xian lai de you shou wei; gong yi zai zui qian, shan liang zai e qian."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.PREEMINENCE OF GOODNESS" AND c.name = "content.PREEMINENCE OF GOODNESS"
+MATCH (t:THOUGHT {name: "thought.PREEMINENCE OF GOODNESS"})
+MATCH (c:CONTENT {name: "content.PREEMINENCE OF GOODNESS"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.PREEMINENCE OF GOODNESS" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.THE GODHEAD" AND child.name = "thought.PREEMINENCE OF GOODNESS"
+MATCH (parent:TOPIC {name: "topic.THE GODHEAD"})
+MATCH (child:THOUGHT {name: "thought.PREEMINENCE OF GOODNESS"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >PREEMINENCE OF GOODNESS" }]->(child);
 ```

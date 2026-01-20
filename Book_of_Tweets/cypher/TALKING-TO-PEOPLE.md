@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Ru Guo Ni Bu Zhi Dao Zen Yang Yu Ren Tan Hua, Ni Ke Neng Bu Ying Gai Yu Ren Tan Hua."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.TALKING TO PEOPLE" AND c.name = "content.TALKING TO PEOPLE"
+MATCH (t:THOUGHT {name: "thought.TALKING TO PEOPLE"})
+MATCH (c:CONTENT {name: "content.TALKING TO PEOPLE"})
 MERGE (t)-[:HAS_CONTENT {name: "edge.TALKING TO PEOPLE"}]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.WISDOM" AND child.name = "thought.TALKING TO PEOPLE"
+MATCH (parent:TOPIC {name: "topic.WISDOM"})
+MATCH (child:THOUGHT {name: "thought.TALKING TO PEOPLE"})
 MERGE (parent)-[:HAS_THOUGHT {name: "WISDOM >TALKING TO PEOPLE"}]->(child);
 ```

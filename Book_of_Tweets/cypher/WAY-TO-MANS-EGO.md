@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "tong wang nan ren xin ling de zui kuai tu jing bu shi tong guo ta de wei, er shi ta de zi wo."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.WAY TO MANS EGO" AND c.name = "content.WAY TO MANS EGO"
+MATCH (t:THOUGHT {name: "thought.WAY TO MANS EGO"})
+MATCH (c:CONTENT {name: "content.WAY TO MANS EGO"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.WAY TO MANS EGO" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.HUMANITY" AND child.name = "thought.WAY TO MANS EGO"
+MATCH (parent:TOPIC {name: "topic.HUMANITY"})
+MATCH (child:THOUGHT {name: "thought.WAY TO MANS EGO"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >WAY TO MANS EGO" }]->(child);
 ```

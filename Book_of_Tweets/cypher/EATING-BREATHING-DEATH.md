@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Women jianchi chi si he xi si (rou lei he xiangyan), ranhou qiguai weishenme women shengbing he siwang de name kuai, weishenme yiliao feiyong name gao!"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.EATING BREATHING DEATH" AND c.name = "content.EATING BREATHING DEATH"
+MATCH (t:THOUGHT {name: "thought.EATING BREATHING DEATH"})
+MATCH (c:CONTENT {name: "content.EATING BREATHING DEATH"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.EATING BREATHING DEATH" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.MORALITY" AND child.name = "thought.EATING BREATHING DEATH"
+MATCH (parent:TOPIC {name: "topic.MORALITY"})
+MATCH (child:THOUGHT {name: "thought.EATING BREATHING DEATH"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >EATING BREATHING DEATH" }]->(child);
 ```

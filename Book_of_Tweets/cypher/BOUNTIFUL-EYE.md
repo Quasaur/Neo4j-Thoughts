@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Yǒngyǒu kāngkǎi de yǎnjuāng zhī rén bì yùfú, yīnwèi tā yǔ qióngrén fēnxǎng miànbao. Zhíyán 22:9 有慷慨的眼睛之人必蒙福，因为他与穷人分享面包。箴言 22:9"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.BOUNTIFUL EYE" AND c.name = "content.BOUNTIFUL EYE"
+MATCH (t:THOUGHT {name: "thought.BOUNTIFUL EYE"})
+MATCH (c:CONTENT {name: "content.BOUNTIFUL EYE"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.BOUNTIFUL EYE" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.MORALITY" AND child.name = "thought.BOUNTIFUL EYE"
+MATCH (parent:TOPIC {name: "topic.MORALITY"})
+MATCH (child:THOUGHT {name: "thought.BOUNTIFUL EYE"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >BOUNTIFUL EYE" }]->(child);
 ```

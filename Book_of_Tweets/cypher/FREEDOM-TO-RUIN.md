@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Kànqǐlái Shàngdì gěi le wǒmen àn zìjǐ yìyuàn huǐmiè shēnghuó de zìyuóu... zhè jiùshì zìyuóu de jiéguǒ. 看起来上帝给了我们按自己意愿毁灭生活的自由...这就是自由的结果。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.FREEDOM TO RUIN" AND c.name = "content.FREEDOM TO RUIN"
+MATCH (t:THOUGHT {name: "thought.FREEDOM TO RUIN"})
+MATCH (c:CONTENT {name: "content.FREEDOM TO RUIN"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.FREEDOM TO RUIN" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.HUMANITY" AND child.name = "thought.FREEDOM TO RUIN"
+MATCH (parent:TOPIC {name: "topic.HUMANITY"})
+MATCH (child:THOUGHT {name: "thought.FREEDOM TO RUIN"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >FREEDOM TO RUIN" }]->(child);
 ```

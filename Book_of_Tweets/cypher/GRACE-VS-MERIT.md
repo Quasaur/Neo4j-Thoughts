@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Gōngjixué zhìduù hé ēndiǎn shì bù xiāng róng de... wǒmen bìxū xuǎnzé qí yī. 功绩说制度和恩典是不相容的...我们必须选择其一。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.GRACE VS MERIT" AND c.name = "content.GRACE VS MERIT"
+MATCH (t:THOUGHT {name: "thought.GRACE VS MERIT"})
+MATCH (c:CONTENT {name: "content.GRACE VS MERIT"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.GRACE VS MERIT" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.GRACE" AND child.name = "thought.GRACE VS MERIT"
+MATCH (parent:TOPIC {name: "topic.GRACE"})
+MATCH (child:THOUGHT {name: "thought.GRACE VS MERIT"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE >GRACE VS MERIT" }]->(child);
 ```

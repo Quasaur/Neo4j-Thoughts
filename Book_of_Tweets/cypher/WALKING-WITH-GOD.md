@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "圣经没有说神与以诺同行，而是说以诺与神同行。以诺是被圣灵引导的。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.WALKING WITH GOD" AND c.name = "content.WALKING WITH GOD"
+MATCH (t:THOUGHT {name: "thought.WALKING WITH GOD"})
+MATCH (c:CONTENT {name: "content.WALKING WITH GOD"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.WALKING WITH GOD" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.SPIRITUALITY" AND child.name = "thought.WALKING WITH GOD"
+MATCH (parent:TOPIC {name: "topic.SPIRITUALITY"})
+MATCH (child:THOUGHT {name: "thought.WALKING WITH GOD"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >WALKING WITH GOD" }]->(child);
 ```

@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Kànle diànyǐng \"In Time\"; Méiyǒu sǐwáng, rénlèi huì bǐ xiànzài gèng kěpà de fǔbài."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.CORRUPTION WITHOUT DEATH" AND c.name = "content.CORRUPTION WITHOUT DEATH"
+MATCH (t:THOUGHT {name: "thought.CORRUPTION WITHOUT DEATH"})
+MATCH (c:CONTENT {name: "content.CORRUPTION WITHOUT DEATH"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.CORRUPTION WITHOUT DEATH" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.HUMANITY" AND child.name = "thought.CORRUPTION WITHOUT DEATH"
+MATCH (parent:TOPIC {name: "topic.HUMANITY"})
+MATCH (child:THOUGHT {name: "thought.CORRUPTION WITHOUT DEATH"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >CORRUPTION WITHOUT DEATH" }]->(child);
 ```

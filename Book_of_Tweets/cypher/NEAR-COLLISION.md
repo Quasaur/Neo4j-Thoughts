@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "一架 AA 喷气式飞机在 AL 上与一架联合航空差点相撞……我姐姐在 AA 飞机上，可以阅读另一架飞机上的文字。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.NEAR COLLISION" AND c.name = "content.NEAR COLLISION"
+MATCH (t:THOUGHT {name: "thought.NEAR COLLISION"})
+MATCH (c:CONTENT {name: "content.NEAR COLLISION"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.NEAR COLLISION" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.SPIRITUALITY" AND child.name = "thought.NEAR COLLISION"
+MATCH (parent:TOPIC {name: "topic.SPIRITUALITY"})
+MATCH (child:THOUGHT {name: "thought.NEAR COLLISION"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >NEAR COLLISION" }]->(child);
 ```

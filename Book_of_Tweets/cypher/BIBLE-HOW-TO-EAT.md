@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Shèngjīng bùjǐn gàosu wǒmen rúhé shēnghuó, yě gàosu wǒmen rúhé yǐnshí! 圣经不仅告诉我们如何生活，也告诉我们如何饮食！"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.BIBLE HOW TO EAT" AND c.name = "content.BIBLE HOW TO EAT"
+MATCH (t:THOUGHT {name: "thought.BIBLE HOW TO EAT"})
+MATCH (c:CONTENT {name: "content.BIBLE HOW TO EAT"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.BIBLE HOW TO EAT" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.TRUTH" AND child.name = "thought.BIBLE HOW TO EAT"
+MATCH (parent:TOPIC {name: "topic.TRUTH"})
+MATCH (child:THOUGHT {name: "thought.BIBLE HOW TO EAT"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH >BIBLE HOW TO EAT" }]->(child);
 ```

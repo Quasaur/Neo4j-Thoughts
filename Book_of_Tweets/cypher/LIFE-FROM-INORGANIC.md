@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Zai yi bai san shi yi nian li yi bai zhi hou zi yong yuan xie bu chu xiao shuo, er sheng ming ye yong yuan bu hui cong wu ji wu zhi zhong chan sheng, chu fei you Shang Di de shen ji."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.LIFE FROM INORGANIC" AND c.name = "content.LIFE FROM INORGANIC"
+MATCH (t:THOUGHT {name: "thought.LIFE FROM INORGANIC"})
+MATCH (c:CONTENT {name: "content.LIFE FROM INORGANIC"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.LIFE FROM INORGANIC" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.TRUTH" AND child.name = "thought.LIFE FROM INORGANIC"
+MATCH (parent:TOPIC {name: "topic.TRUTH"})
+MATCH (child:THOUGHT {name: "thought.LIFE FROM INORGANIC"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH >LIFE FROM INORGANIC" }]->(child);
 ```

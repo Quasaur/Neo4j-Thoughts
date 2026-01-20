@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Rénlèi jiāng jìxù biàn dé gèng jiā xié'è. Zuòwéi yīgè guójiā, wǒmen rúguǒ ràng qiāngzhī fǎlǜ bǎochí xiànzhuàng jiù shì BÁICHĪ."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.WICKEDNESS AND GUN LAWS" AND c.name = "content.WICKEDNESS AND GUN LAWS"
+MATCH (t:THOUGHT {name: "thought.WICKEDNESS AND GUN LAWS"})
+MATCH (c:CONTENT {name: "content.WICKEDNESS AND GUN LAWS"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.WICKEDNESS AND GUN LAWS" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.MORALITY" AND child.name = "thought.WICKEDNESS AND GUN LAWS"
+MATCH (parent:TOPIC {name: "topic.MORALITY"})
+MATCH (child:THOUGHT {name: "thought.WICKEDNESS AND GUN LAWS"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >WICKEDNESS AND GUN LAWS" }]->(child);
 ```

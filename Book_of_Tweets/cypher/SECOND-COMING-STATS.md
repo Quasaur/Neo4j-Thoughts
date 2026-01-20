@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Xin Yue Quan Shu Zhong Mei 24 Jie Jing Wen Jiu You Yi Jie Ti Dao Ji Du De Di Er Ci Jiang Lin."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.SECOND COMING STATS" AND c.name = "content.SECOND COMING STATS"
+MATCH (t:THOUGHT {name: "thought.SECOND COMING STATS"})
+MATCH (c:CONTENT {name: "content.SECOND COMING STATS"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.SECOND COMING STATS" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.RELIGION" AND child.name = "thought.SECOND COMING STATS"
+MATCH (parent:TOPIC {name: "topic.RELIGION"})
+MATCH (child:THOUGHT {name: "thought.SECOND COMING STATS"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION >SECOND COMING STATS" }]->(child);
 ```

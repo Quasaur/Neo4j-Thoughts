@@ -1,18 +1,18 @@
 ---
-name: "thought.COOKED FOOD HUMANS"
+name: thought.COOKED FOOD HUMANS
 alias: "Thought: Cooked Food Humans"
 type: THOUGHT
-en_content: "Why are humans the only creatures on planet earth that eat cooked food?"
-parent: "topic.CREATION"
+en_content: Why are humans the only creatures on planet earth that eat cooked food?
+parent:
 tags:
-- creation
-- humanity
-- nature
-- food
-- mystery
+  - creation
+  - humanity
+  - nature
+  - food
+  - mystery
 level: 2
 neo4j: false
-ptopic: 
+ptopic:
 ---
 
 ```Cypher
@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Wèishéme rénlèi shì dìqiú shàng wéiyī chī pēng rèn shíwù de shēngwù?"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.COOKED FOOD HUMANS" AND c.name = "content.COOKED FOOD HUMANS"
+MATCH (t:THOUGHT {name: "thought.COOKED FOOD HUMANS"})
+MATCH (c:CONTENT {name: "content.COOKED FOOD HUMANS"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.COOKED FOOD HUMANS" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.CREATION" AND child.name = "thought.COOKED FOOD HUMANS"
+MATCH (parent:TOPIC {name: "topic.CREATION"})
+MATCH (child:THOUGHT {name: "thought.COOKED FOOD HUMANS"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "CREATION >COOKED FOOD HUMANS" }]->(child);
 ```

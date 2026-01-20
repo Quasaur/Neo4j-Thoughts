@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Jialataishu de zhengbian bushi guanyu lüfa, er shi guanyu zunxing lüfa shifou neng zhengjiù yige YI JING WEIFAN LE LÜFA de ren."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.GALATIANS LAW DEBATE" AND c.name = "content.GALATIANS LAW DEBATE"
+MATCH (t:THOUGHT {name: "thought.GALATIANS LAW DEBATE"})
+MATCH (c:CONTENT {name: "content.GALATIANS LAW DEBATE"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.GALATIANS LAW DEBATE" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.RELIGION" AND child.name = "thought.GALATIANS LAW DEBATE"
+MATCH (parent:TOPIC {name: "topic.RELIGION"})
+MATCH (child:THOUGHT {name: "thought.GALATIANS LAW DEBATE"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION >GALATIANS LAW DEBATE" }]->(child);
 ```

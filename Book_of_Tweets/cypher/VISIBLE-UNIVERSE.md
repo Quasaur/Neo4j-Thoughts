@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Kě Jiàn Yǔ Zhòu: Shàng Dì Shì Wěi Dà De"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.VISIBLE UNIVERSE" AND c.name = "content.VISIBLE UNIVERSE"
+MATCH (t:THOUGHT {name: "thought.VISIBLE UNIVERSE"})
+MATCH (c:CONTENT {name: "content.VISIBLE UNIVERSE"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.VISIBLE UNIVERSE" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.CREATION" AND child.name = "thought.VISIBLE UNIVERSE"
+MATCH (parent:TOPIC {name: "topic.CREATION"})
+MATCH (child:THOUGHT {name: "thought.VISIBLE UNIVERSE"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "CREATION >VISIBLE UNIVERSE" }]->(child);
 ```

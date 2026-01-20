@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Jīdū shì měi gèrén de mìngyùn... méiyǒu lìwài! 基督是每个人的命运...没有例外！"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.CHRIST UNIVERSAL DESTINY" AND c.name = "content.CHRIST UNIVERSAL DESTINY"
+MATCH (t:THOUGHT {name: "thought.CHRIST UNIVERSAL DESTINY"})
+MATCH (c:CONTENT {name: "content.CHRIST UNIVERSAL DESTINY"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.CHRIST UNIVERSAL DESTINY" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.THE GODHEAD" AND child.name = "thought.CHRIST UNIVERSAL DESTINY"
+MATCH (parent:TOPIC {name: "topic.THE GODHEAD"})
+MATCH (child:THOUGHT {name: "thought.CHRIST UNIVERSAL DESTINY"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >CHRIST UNIVERSAL DESTINY" }]->(child);
 ```

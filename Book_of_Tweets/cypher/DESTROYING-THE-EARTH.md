@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "Shangdi hui yinwei women huimie diqiu er huimie women (Qishilu 11:18)."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.DESTROYING THE EARTH" AND c.name = "content.DESTROYING THE EARTH"
+MATCH (t:THOUGHT {name: "thought.DESTROYING THE EARTH"})
+MATCH (c:CONTENT {name: "content.DESTROYING THE EARTH"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.DESTROYING THE EARTH" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.DIVINE SOVEREIGNTY" AND child.name = "thought.DESTROYING THE EARTH"
+MATCH (parent:TOPIC {name: "topic.DIVINE SOVEREIGNTY"})
+MATCH (child:THOUGHT {name: "thought.DESTROYING THE EARTH"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "DIVINE SOVEREIGNTY >DESTROYING THE EARTH" }]->(child);
 ```

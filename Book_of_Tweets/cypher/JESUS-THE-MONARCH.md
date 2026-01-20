@@ -40,13 +40,11 @@ CREATE (c:CONTENT {
     zh_content: "耶稣既不是共和党人，也不是民主党人。耶稣是神……绝对的君主。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.JESUS THE MONARCH" AND c.name = "content.JESUS THE MONARCH"
+MATCH (t:THOUGHT {name: "thought.JESUS THE MONARCH"})
+MATCH (c:CONTENT {name: "content.JESUS THE MONARCH"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.JESUS THE MONARCH" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.DIVINE SOVEREIGNTY" AND child.name = "thought.JESUS THE MONARCH"
+MATCH (parent:TOPIC {name: "topic.DIVINE SOVEREIGNTY"})
+MATCH (child:THOUGHT {name: "thought.JESUS THE MONARCH"})
 MERGE (parent)-[:HAS_THOUGHT { "name": "DIVINE SOVEREIGNTY >JESUS THE MONARCH" }]->(child);
 ```

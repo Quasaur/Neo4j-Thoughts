@@ -43,15 +43,13 @@ pero los necios recibirán deshonra.",
 	zh_title: "Shì shìdài dài de zūn róng", 
 	zh_content: "zhìzhě dé zūn róng, yúzhě shòurǔ."});
 // link content to node
-MATCH (p:PASSAGE)
-MATCH (c:CONTENT)
-WHERE p.name = 'passage.INHERITED HONOR' AND c.name = 'content.INHERITED HONOR'
+MATCH (p:PASSAGE {name: 'passage.INHERITED HONOR'})
+MATCH (c:CONTENT {name: 'content.INHERITED HONOR'})
 MERGE (p)-[:HAS_CONTENT {name: "p.edge.INERITED HONOR"}]->(c)
 RETURN *;
 // link node to parent node
-MATCH (parent:TOPIC)
-MATCH (child:PASSAGE)
-WHERE parent.name = 'topic.WISDOM' AND child.name = 'passage.INHERITED HONOR'
+MATCH (parent:TOPIC {name: 'topic.WISDOM'})
+MATCH (child:PASSAGE {name: 'passage.INHERITED HONOR'})
 MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.WISDOM->INHERITED HONOR"}]->(child)
 RETURN *;
 
