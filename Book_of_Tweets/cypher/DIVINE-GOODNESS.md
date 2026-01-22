@@ -2,7 +2,7 @@
 name: "thought.DIVINE GOODNESS"
 alias: "Thought: Divine Goodness"
 en_content: "It blows my mind how good God is to a person as wicked as I am."
-parent: topic.THE GODHEAD
+parent: "topic.THE GODHEAD"
 tags:
   - divine_goodness
   - divine_nature

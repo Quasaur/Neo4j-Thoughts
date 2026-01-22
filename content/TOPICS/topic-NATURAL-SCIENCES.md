@@ -29,7 +29,7 @@ CREATE (t:TOPIC
 CREATE (d:DESCRIPTION {
 	name: "desc.NATURAL SCIENCES", 
 	en_title: "Natural Sciences", 
-	en_content: "Any of the sciences (such as physics, chemistry, or biology) that deal with matter, energy, and their interrelations and transformations or with objectively measurable phenomena", 
+	en_content: "Any of the sciences (such as physics, chemistry, or biology) that deal with matter, energy, and their interrelations and transformations or with objectively measurable phenomena.", 
 	es_title: "Las ciencias naturales",
 	es_content: "Cualquiera de las ciencias (como la física, la química o la biología) que se ocupan de la materia, la energía y sus interrelaciones y transformaciones, o de fenómenos objetivamente medibles.", 
 	fr_title: "Les sciences naturelles", 

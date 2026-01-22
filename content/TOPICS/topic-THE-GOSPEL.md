@@ -10,7 +10,7 @@ tags:
 - salvation
 - redemption
 neo4j: true
-ptopic: "[[topic-THE]]"
+ptopic: "[[topic-THE GODHEAD]]"
 level: 2
 ---
 
