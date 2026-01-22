@@ -3,6 +3,7 @@ name: topic.APOCALYPSE
 alias: "Topic: ESCHATOLOGY"
 type: TOPIC
 parent: topic.HISTORY
+en_content: "Eschatology; the End of all things."
 tags:
 - eschatology
 - last_day

@@ -1,50 +1,50 @@
 ---
-name: "thought.INTELLIGENT_DESIGN"
-alias: "Thought: INTELLIGENT DESIGN"
+name: "thought.INTELLIGENT DESIGN"
+alias: "Thought: Intelligent Design"
 type: THOUGHT
-parent: topic.COSMOLOGY
+en_content: "INTELLIGENT DESIGN!"
+parent: "topic.CREATION"
 tags:
-- monalisa
-- leonardo
-- evolutionists
-- pseudoscience
-- creationism
+- creation
+- design
+- intelligence
+- truth
+- science
+level: 2
 neo4j: true
-ptopic: "[[topic-COSMOLOGY]]"
-level: 4
-inserted: true
+ptopic: "[[topic-CREATION]]"
 ---
 
 ```Cypher
+// Generated from Book6E-FINAL.md (ID: 08-Sep-2010)
 CREATE (t:THOUGHT {
-    name: "thought.INTELLIGENT_DESIGN",
-    alias: "Thought: INTELLIGENT DESIGN",
-    parent: "topic.COSMOLOGY",
-    tags: ["monalisa", "leonardo", "evolutionists", "pseudoscience", "creationism"],
-    level: 4
+    name: "thought.INTELLIGENT DESIGN",
+    alias: "Thought: Intelligent Design",
+    parent: "topic.CREATION",
+    tags: ['creation', 'design', 'intelligence', 'truth', 'science'],
+    notes: "",
+    level: 2
 });
 
 CREATE (c:CONTENT {
-    name: "content.INTELLIGENT_DESIGN",
-    en_title: "INTELLIGENT DESIGN",
-    en_content: "Could you look at the Mona Lisa and then say that Leonardo did not exist? Such are the men who speak under the cloak of science.",
-    es_title: "DISEÑO INTELIGENTE",
-    es_content: "¿Podrías mirar la Mona Lisa y luego decir que Leonardo no existió? Así son los hombres que hablan bajo el manto de la ciencia.",
-    fr_title: "CONCEPTION INTELLIGENTE",
-    fr_content: "Pourriez-vous regarder la Joconde et dire ensuite que Léonard n’existait pas ? Tels sont les hommes qui parlent sous le couvert de la science.",
-    hi_title: "बुद्धिमान डिजाइन",
-    hi_content: "क्या आप मोना लिसा को देख सकते हैं और फिर कह सकते हैं कि लियोनार्डो का अस्तित्व ही नहीं था? ऐसे ही लोग हैं जो विज्ञान की आड़ में बातें करते हैं।",
-    zh_title: "zhì néng shè jì",
-    zh_content: "nǐ néng kàn zhe 《 méng nà lì shā 》 rán hòu shuō dá fēn qí bù cún zài ma ？ zhè xiē rén jiù shì pī zhe kē xué wài yī shuō huà de rén 。"
+    name: "content.INTELLIGENT DESIGN",
+    en_title: "Intelligent Design",
+    en_content: "INTELLIGENT DESIGN!",
+    es_title: "Diseño Inteligente",
+    es_content: "¡DISEÑO INTELIGENTE!",
+    fr_title: "Conception Intelligente",
+    fr_content: "CONCEPTION INTELLIGENTE !",
+    hi_title: "बुद्धिमान डिज़ाइन",
+    hi_content: "बुद्धिमान डिज़ाइन!",
+    zh_title: "Zhìhuì shèjì 智慧设计",
+    zh_content: "Zhìnéng shèjì! 智能设计！"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.INTELLIGENT_DESIGN" AND c.name = "content.INTELLIGENT_DESIGN"
-MERGE (t)-[:HAS_CONTENT {name: "edge.INTELLIGENT_DESIGN"}]->(c);
+MATCH (t:THOUGHT {name: "thought.INTELLIGENT DESIGN"})
+MATCH (c:CONTENT {name: "content.INTELLIGENT DESIGN"})
+MERGE (t)-[:HAS_CONTENT { "name": "edge.INTELLIGENT DESIGN" }]->(c);
 
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.COSMOLOGY" AND child.name = "thought.INTELLIGENT_DESIGN"
-MERGE (parent)-[:HAS_THOUGHT {name: "edge.COSMOLOGY->INTELLIGENT_DESIGN"}]->(child);
+MATCH (parent:TOPIC {name: "topic.CREATION"})
+MATCH (child:THOUGHT {name: "thought.INTELLIGENT DESIGN"})
+MERGE (parent)-[:HAS_THOUGHT { "name": "CREATION->INTELLIGENT DESIGN" }]->(child);
 ```
