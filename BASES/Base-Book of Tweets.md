@@ -28,10 +28,8 @@ views:
         direction: ASC
     columnSize:
       file.name: 178
-      file.path: 334
-      note.name: 287
+      note.name: 199
       note.parent: 175
-      note.insert: 104
-      note.level: 101
-      note.ptopic: 190
+      note.level: 78
+      note.ptopic: 271
     rowHeight: medium

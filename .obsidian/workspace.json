@@ -8,54 +8,33 @@
         "type": "tabs",
         "children": [
           {
-            "id": "12cb308d81e91caa",
+            "id": "e01061430d063ccc",
             "type": "leaf",
             "state": {
-              "type": "localgraph",
+              "type": "markdown",
               "state": {
-                "options": {
-                  "collapse-filter": false,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": false,
-                  "colorGroups": [
-                    {
-                      "query": "path:content/TOPICS",
-                      "color": {
-                        "a": 1,
-                        "rgb": 14701138
-                      }
-                    },
-                    {
-                      "query": "path:content/THOUGHTS  ",
-                      "color": {
-                        "a": 1,
-                        "rgb": 1634569
-                      }
-                    }
-                  ],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 1,
-                  "close": true
-                }
+                "file": "BASES/Base-Book of Tweets.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": false
               },
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "lucide-file",
+              "title": "Base-Book of Tweets"
+            }
+          },
+          {
+            "id": "3795de846161efdc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/TOPICS/topic-ENVIRONMENTAL-SCIENCE.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "topic-ENVIRONMENTAL-SCIENCE"
             }
           }
         ]
@@ -90,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Every communication system",
+                "query": "ESCHATOLOGY",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -125,8 +104,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 463.5086555480957,
-    "collapsed": true
+    "width": 463.5086555480957
   },
   "right": {
     "id": "23b5a9898015fd07",
@@ -214,36 +192,37 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "12cb308d81e91caa",
+  "active": "e01061430d063ccc",
   "lastOpenFiles": [
+    "Book_of_Tweets/cypher/WEEPING-OVER-CREATION.md",
+    "content/TOPICS/topic-ENVIRONMENTAL-SCIENCE.md",
     "BASES/Base-Book of Tweets.md",
-    "content/TOPICS/topic-COSMOLOGY.md",
-    "content/TOPICS/topic-ASTROPHYSICS.md",
-    "CYPHER/EXAMPLES/Return all Tags arrays in Labeled Topic.md",
-    "CYPHER/CORRECTIONS/TOPICS/TOPIC-tags-HUMANITY.md",
-    "Book_of_Tweets/cypher/COMMUNICATION-SYSTEMS.md",
-    "content/TOPICS/topic-COMMUNICATION-THEORY.md",
-    "content/TOPICS/topic-HUMANITY.md",
-    "content/TOPICS/topic-LINGUISTICS.md",
-    "Book_of_Tweets/cypher/CAT-ON-KNEE.md",
-    "Book_of_Tweets/cypher/CAT-LICK-NECK.md",
-    "Book_of_Tweets/cypher/BOX-JELLYFISH-EYES.md",
-    "Book_of_Tweets/cypher/ATOMS-IN-CELL.md",
+    "Book_of_Tweets/cypher/VISIBLE-UNIVERSE.md",
+    "Book_of_Tweets/cypher/TWO-GARDENS.md",
+    "content/TOPICS/topic-SOTERIOLOGY.md",
+    "content/TOPICS/topic-THE-GOSPEL.md",
+    "CYPHER/EXAMPLES/Display TOPIC Humanity and everything connected to it..md",
+    "content/TOPICS/topic-APOCALYPSE.md",
     "content/TOPICS/topic-BIOLOGY.md",
+    "Book_of_Tweets/cypher/TEN-TRILLION-CELLS.md",
+    "content/TOPICS/topic-ASTROPHYSICS.md",
+    "Book_of_Tweets/cypher/SUNS-ENERGY-CORE.md",
+    "Book_of_Tweets/cypher/SUN-ENERGY.md",
+    "content/TOPICS/topic-BOTANY.md",
+    "Book_of_Tweets/cypher/SPECIFIED-COMPLEXITY.md",
+    "Book_of_Tweets/cypher/SEED-DESIGN.md",
+    "content/TOPICS/topic-HEALTH-SCIENCES.md",
+    "Book_of_Tweets/cypher/PROVING-CREATION.md",
+    "Book_of_Tweets/cypher/NUTRITION-MUSCLE-ACHES.md",
     "content/TOPICS/topic-NATURAL-SCIENCES.md",
+    "Book_of_Tweets/cypher/LIGHTNING-BOLT.md",
+    "Book_of_Tweets/cypher/IRREDUCIBLE-COMPLEXITY.md",
+    "Book_of_Tweets/cypher/INTELLIGENT-DESIGN-PROOF.md",
+    "Book_of_Tweets/cypher/INTELLIGENT-DESIGN.md",
+    "Neo4j-AI/docs/APPLE DEV/Apple Developer Info.md",
+    "CYPHER/docs",
     "update_natural_sciences_desc.py",
-    "content/THOUGHTS/REALITY.md",
-    "content/TOPICS/topic-TRUTH.md",
     "python/delete_duplicate_cosmology.py",
-    "content/THOUGHTS/DARK-MATTER.md",
-    "content/THOUGHTS/ACCOUNTABILITY.md",
-    "content/BIBLE/Prov/01/FAITHLESSNESS.md",
-    "content/THOUGHTS/LOST-SCIENTISTS.md",
-    "content/BIBLE/Prov/01/KNOWLEDGE.md",
-    "content/THOUGHTS/INTELLIGENT-DESIGN.md",
-    "Book_of_Tweets/cypher/GOD-OF-SCIENCE.md",
-    "Book_of_Tweets/cypher/FAITH-AND-SCIENCE.md",
-    "content/THOUGHTS/EVOLUTION-IS-SCIENCE?.md",
     "remove_insert_property.py",
     "python/find_chinese_simplified.py",
     "python/fix_book_of_tweets_levels.py",
@@ -251,7 +230,6 @@
     "python/query_auradb_status.py",
     "python/update_auradb_translations.py",
     "python/batch_1_translations.json",
-    "python/generate_complete_translations.py",
     "Untitled.canvas",
     "public/attachments/og-image.png",
     "public/static/og-image.png",
