@@ -1,0 +1,27 @@
+filters:
+  and:
+    - file.folder.startsWith("Book_of_Tweets")
+    - or:
+        - type == "THOUGHT"
+        - type == "PASSAGE"
+views:
+  - type: table
+    name: Table
+    groupBy:
+      property: parent
+      direction: ASC
+    order:
+      - file.name
+      - name
+      - level
+      - ptopic
+      - en_content
+    sort:
+      - property: level
+        direction: DESC
+      - property: name
+        direction: ASC
+    rowHeight: tall
+    columnSize:
+      file.name: 271
+      note.en_content: 1036
