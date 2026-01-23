@@ -2,7 +2,7 @@
 name: topic.SOCIOLOGY
 alias: "Topic: Social Structures Built by the Masses"
 type: TOPIC
-parent: topic.HUMANITY
+parent: "topic.SOCIAL SCIENCES"
 tags:
 - humanity
 - relations
@@ -10,8 +10,8 @@ tags:
 - groups
 - organization
 neo4j: true
-ptopic: "[[topic-HUMANITY]]"
-level: 4
+ptopic: "[[topic-SOCIAL-SCIENCES]]"
+level: 5
 ---
 
 ```Cypher
@@ -19,9 +19,9 @@ level: 4
 CREATE (t:TOPIC {
     name: "topic.SOCIOLOGY",
     alias: "Topic: Social Structures Built by the Masses",
-    parent: "topic.HUMANITY",
+    parent: "topic.SOCIAL SCIENCES",
     tags: ["humanity", "relations", "interactions", "groups", "organization"],
-    level: 4
+    level: 5
 });
 
 // CREATE DESCRIPTION
@@ -46,9 +46,9 @@ MERGE (t)-[:HAS_DESCRIPTION {name: "edge.SOCIOLOGY"}]->(d);
 
 // LINK PARENT
 MATCH (p:TOPIC)
-WHERE p.name = "topic.HUMANITY"
+WHERE p.name = "topic.SOCIAL SCIENCES"
 MATCH (c:TOPIC)
 WHERE c.name = "topic.SOCIOLOGY"
-MERGE (p)-[:HAS_CHILD {name: "edge.HUMANITY->SOCIOLOGY"}]->(c);
+MERGE (p)-[:HAS_CHILD {name: "edge.SOCIAL SCIENCES->SOCIOLOGY"}]->(c);
 
 ```
