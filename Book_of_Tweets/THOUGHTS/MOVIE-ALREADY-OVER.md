@@ -46,5 +46,5 @@ MERGE (t)-[:HAS_CONTENT { "name": "edge.MOVIE ALREADY OVER" }]->(c);
 
 MATCH (parent:TOPIC {name: "topic.RELIGION"})
 MATCH (child:THOUGHT {name: "thought.MOVIE ALREADY OVER"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION >MOVIE ALREADY OVER" }]->(child);
+MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION->MOVIE ALREADY OVER" }]->(child);
 ```

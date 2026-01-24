@@ -46,5 +46,5 @@ MERGE (t)-[:HAS_CONTENT { "name": "edge.FAST LANE BLIND SPOTS" }]->(c);
 
 MATCH (parent:TOPIC {name: "topic.WISDOM"})
 MATCH (child:THOUGHT {name: "thought.FAST LANE BLIND SPOTS"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "WISDOM >FAST LANE BLIND SPOTS" }]->(child);
+MERGE (parent)-[:HAS_THOUGHT { "name": "WISDOM->FAST LANE BLIND SPOTS" }]->(child);
 ```

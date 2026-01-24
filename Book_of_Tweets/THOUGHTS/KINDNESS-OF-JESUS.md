@@ -46,5 +46,5 @@ MERGE (t)-[:HAS_CONTENT { "name": "edge.KINDNESS OF JESUS" }]->(c);
 
 MATCH (parent:TOPIC {name: "topic.THE GODHEAD"})
 MATCH (child:THOUGHT {name: "thought.KINDNESS OF JESUS"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >KINDNESS OF JESUS" }]->(child);
+MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->KINDNESS OF JESUS" }]->(child);
 ```

@@ -46,5 +46,5 @@ MERGE (t)-[:HAS_CONTENT { "name": "edge.NOT POLITICALLY CORRECT" }]->(c);
 
 MATCH (parent:TOPIC {name: "topic.THE GODHEAD"})
 MATCH (child:THOUGHT {name: "thought.NOT POLITICALLY CORRECT"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >NOT POLITICALLY CORRECT" }]->(child);
+MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->NOT POLITICALLY CORRECT" }]->(child);
 ```

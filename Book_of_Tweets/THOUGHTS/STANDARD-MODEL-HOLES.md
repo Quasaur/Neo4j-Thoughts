@@ -46,5 +46,5 @@ MERGE (t)-[:HAS_CONTENT { "name": "edge.STANDARD MODEL HOLES" }]->(c);
 
 MATCH (parent:TOPIC {name: "topic.PHILOSOPHY"})
 MATCH (child:THOUGHT {name: "thought.STANDARD MODEL HOLES"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY >STANDARD MODEL HOLES" }]->(child);
+MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY->STANDARD MODEL HOLES" }]->(child);
 ```

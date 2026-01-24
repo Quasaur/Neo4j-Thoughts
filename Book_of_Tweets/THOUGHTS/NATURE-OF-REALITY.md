@@ -46,5 +46,5 @@ MERGE (t)-[:HAS_CONTENT { "name": "edge.NATURE OF REALITY" }]->(c);
 
 MATCH (parent:TOPIC {name: "topic.PHILOSOPHY"})
 MATCH (child:THOUGHT {name: "thought.NATURE OF REALITY"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY >NATURE OF REALITY" }]->(child);
+MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY->NATURE OF REALITY" }]->(child);
 ```

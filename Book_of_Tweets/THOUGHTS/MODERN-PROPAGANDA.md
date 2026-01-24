@@ -46,5 +46,5 @@ MERGE (t)-[:HAS_CONTENT { "name": "edge.MODERN PROPAGANDA" }]->(c);
 
 MATCH (parent:TOPIC {name: "topic.EVIL"})
 MATCH (child:THOUGHT {name: "thought.MODERN PROPAGANDA"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "EVIL >MODERN PROPAGANDA" }]->(child);
+MERGE (parent)-[:HAS_THOUGHT { "name": "EVIL->MODERN PROPAGANDA" }]->(child);
 ```

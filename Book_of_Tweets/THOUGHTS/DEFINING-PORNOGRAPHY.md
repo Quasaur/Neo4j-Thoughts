@@ -46,5 +46,5 @@ MERGE (t)-[:HAS_CONTENT { "name": "edge.DEFINING PORNOGRAPHY" }]->(c);
 
 MATCH (parent:TOPIC {name: "topic.MORALITY"})
 MATCH (child:THOUGHT {name: "thought.DEFINING PORNOGRAPHY"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >DEFINING PORNOGRAPHY" }]->(child);
+MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->DEFINING PORNOGRAPHY" }]->(child);
 ```

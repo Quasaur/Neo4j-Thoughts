@@ -45,5 +45,5 @@ MERGE (t)-[:HAS_CONTENT {name: "edge.DEFINITION OF SIN"}]->(c);
 
 MATCH (parent:TOPIC {name: "topic.MORALITY"})
 MATCH (child:THOUGHT {name: "thought.DEFINITION OF SIN"})
-MERGE (parent)-[:HAS_THOUGHT {name: "edge.MORALITY >DEFINITION OF SIN"}]->(child);
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.MORALITY->DEFINITION OF SIN"}]->(child);
 ```

@@ -46,5 +46,5 @@ MERGE (t)-[:HAS_CONTENT { "name": "edge.OMNIPOTENCE VS FREEWILL" }]->(c);
 
 MATCH (parent:TOPIC {name: "topic.PHILOSOPHY"})
 MATCH (child:THOUGHT {name: "thought.OMNIPOTENCE VS FREEWILL"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY >OMNIPOTENCE VS FREEWILL" }]->(child);
+MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY->OMNIPOTENCE VS FREEWILL" }]->(child);
 ```

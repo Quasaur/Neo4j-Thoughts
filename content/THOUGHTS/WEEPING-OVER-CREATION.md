@@ -45,5 +45,5 @@ MERGE (t)-[:HAS_CONTENT {name: "edge.WEEPING OVER CREATION"}]->(c);
 
 MATCH (parent:TOPIC {name: "topic.ENVIRONMENTAL SCIENCE"})
 MATCH (child:THOUGHT {name: "thought.WEEPING OVER CREATION"})
-MERGE (parent)-[:HAS_THOUGHT {name: "edge.ENVIRONMENTAL SCIENCE>WEEPING OVER CREATION"}]->(child);
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.ENVIRONMENTAL SCIENCE>WEEPING OVER CREATION"}]->(child);
 ```

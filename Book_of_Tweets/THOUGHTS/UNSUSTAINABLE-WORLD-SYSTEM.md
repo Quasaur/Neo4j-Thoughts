@@ -46,5 +46,5 @@ MERGE (t)-[:HAS_CONTENT { "name": "edge.UNSUSTAINABLE WORLD SYSTEM" }]->(c);
 
 MATCH (parent:TOPIC {name: "topic.HUMANITY"})
 MATCH (child:THOUGHT {name: "thought.UNSUSTAINABLE WORLD SYSTEM"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >UNSUSTAINABLE WORLD SYSTEM" }]->(child);
+MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY->UNSUSTAINABLE WORLD SYSTEM" }]->(child);
 ```

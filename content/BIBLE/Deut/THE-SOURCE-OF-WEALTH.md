@@ -48,7 +48,7 @@ RETURN *;
 // link node to parent node
 MATCH (parent:TOPIC {name: "topic.WEALTH"})
 MATCH (child:PASSAGE {name: "passage.THE SOURCE OF WEALTH"})
-MERGE (parent)-[:HAS_PASSAGE {name: "b.edge.WEALTH->THE SOURCE OF WEALTH"}]->(child)
+MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.b.WEALTH->THE SOURCE OF WEALTH"}]->(child)
 RETURN *;
 
 ```

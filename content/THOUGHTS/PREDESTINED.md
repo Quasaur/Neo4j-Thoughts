@@ -37,5 +37,5 @@ MERGE (t)-[:HAS_CONTENT {name: "edge.PREDESTINED"}]->(c);
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
 WHERE parent.name = "topic.DIVINE-SOVEREIGNTY" AND child.name = "thought.PREDESTINED"
-MERGE (parent)-[:HAS_THOUGHT {name: "edge.DIVINE-SOVEREIGNTY->PREDESTINED"}]->(child);
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.DIVINE-SOVEREIGNTY->PREDESTINED"}]->(child);
 ```

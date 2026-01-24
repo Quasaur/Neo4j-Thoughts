@@ -48,7 +48,7 @@ RETURN *;
 // link node to parent node
 MATCH (parent:TOPIC {name: "topic.HUMANITY"})
 MATCH (child:PASSAGE {name: "passage.KNOWLEDGE"})
-MERGE (parent)-[:HAS_PASSAGE {name: "b.edge.THE GODHEAD->KNOWLEDGE"}]->(child)
+MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.b.THE GODHEAD->KNOWLEDGE"}]->(child)
 RETURN *;
 
 ```

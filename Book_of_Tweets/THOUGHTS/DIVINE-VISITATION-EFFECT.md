@@ -46,5 +46,5 @@ MERGE (t)-[:HAS_CONTENT { "name": "edge.DIVINE VISITATION EFFECT" }]->(c);
 
 MATCH (parent:TOPIC {name: "topic.SPIRITUALITY"})
 MATCH (child:THOUGHT {name: "thought.DIVINE VISITATION EFFECT"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >DIVINE VISITATION EFFECT" }]->(child);
+MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->DIVINE VISITATION EFFECT" }]->(child);
 ```

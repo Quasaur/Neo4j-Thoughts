@@ -1,0 +1,4197 @@
+EDGE NAME PROPERTY CORRECTIONS LOG
+================================================================================
+
+
+DIRECTORY: Book_of_Tweets/
+--------------------------------------------------------------------------------
+
+FILE: Book_of_Tweets/THOUGHTS/ABORTION-AND-GOLDEN-RULE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >ABORTION AND GOLDEN RULE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->ABORTION AND GOLDEN RULE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/ACCOUNTABILITY.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >ACCOUNTABILITY" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->ACCOUNTABILITY" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/ACCURATE-THEOLOGY.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH >ACCURATE THEOLOGY" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH->ACCURATE THEOLOGY" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/AGREEING-WITH-OPPRESSOR.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >AGREEING WITH OPPRESSOR" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->AGREEING WITH OPPRESSOR" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/ALIGNING-THROUGH-PRAYER.md
+  Line 48 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >ALIGNING THROUGH PRAYER" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->ALIGNING THROUGH PRAYER" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/ALL-OF-GOD-JESUS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >ALL OF GOD JESUS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->ALL OF GOD JESUS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/ALL-THINGS-FOR-HIM.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >ALL THINGS FOR HIM" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->ALL THINGS FOR HIM" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/ALL-TRUTH-GODS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH >ALL TRUTH GODS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH->ALL TRUTH GODS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/ALONZO-CHURCH-FAITH.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION >ALONZO CHURCH FAITH" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION->ALONZO CHURCH FAITH" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/ALWAYS-ADVENTIST.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION >ALWAYS ADVENTIST" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION->ALWAYS ADVENTIST" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/AMERICA-ACCOUNTABLE-FREEDOMS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >AMERICA ACCOUNTABLE FREEDOMS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->AMERICA ACCOUNTABLE FREEDOMS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/AMERICA-CHEATS-ITSELF.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >AMERICA CHEATS ITSELF" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->AMERICA CHEATS ITSELF" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/AMERICAN-POVERTY-LINE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >AMERICAN POVERTY LINE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->AMERICAN POVERTY LINE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/ANGER-AND-PAIN.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "PSYCHOLOGY >ANGER AND PAIN" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "PSYCHOLOGY->ANGER AND PAIN" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/APOSTLES-AS-VISION.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION >APOSTLES AS VISION" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION->APOSTLES AS VISION" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/APPEARING-HUMAN.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "EVIL >APPEARING HUMAN" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "EVIL->APPEARING HUMAN" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/ARGUING-WITH-CREATOR.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >ARGUING WITH CREATOR" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY->ARGUING WITH CREATOR" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/ARROGANCE-VS-DIGNITY.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >ARROGANCE VS DIGNITY" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY->ARROGANCE VS DIGNITY" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/ASK-GOD-PERFECTION.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >ASK GOD PERFECTION" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->ASK GOD PERFECTION" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/ATHEISM-SUCKS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY >ATHEISM SUCKS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY->ATHEISM SUCKS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/ATROCITIES-OF-RELIGION.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION >ATROCITIES OF RELIGION" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION->ATROCITIES OF RELIGION" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/ATTRACTION-TO-FORBIDDEN.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >ATTRACTION TO FORBIDDEN" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->ATTRACTION TO FORBIDDEN" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/AVOIDING-GOD-AND-CHURCH.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION >AVOIDING GOD AND CHURCH" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION->AVOIDING GOD AND CHURCH" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/AWARENESS-OF-PRESENCE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >AWARENESS OF PRESENCE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->AWARENESS OF PRESENCE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/AWESOME-GOD.md
+  Line 48 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.THE GODHEAD >AWESOME GOD"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "edge.THE GODHEAD->AWESOME GOD"}]->(child);
+  Line 48 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.THE GODHEAD >AWESOME GOD"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.THE GODHEAD->AWESOME GOD"}]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/BAG-OF-CHEMICALS-DUPED.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >BAG OF CHEMICALS DUPED" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY->BAG OF CHEMICALS DUPED" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/BAILOUT-AND-HATE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >BAILOUT AND HATE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->BAILOUT AND HATE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/BEGINNING-OF-MISERY.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >BEGINNING OF MISERY" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY->BEGINNING OF MISERY" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/BELONGING-TO-GOD.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >BELONGING TO GOD" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY->BELONGING TO GOD" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/BETTER-NOT-EASIER.md
+  Line 48 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >BETTER NOT EASIER" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->BETTER NOT EASIER" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/BETTER-TREATMENT-JESUS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >BETTER TREATMENT JESUS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->BETTER TREATMENT JESUS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/BIBLE-AS-HISTORY.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH >BIBLE AS HISTORY" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH->BIBLE AS HISTORY" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/BIBLE-HOW-TO-EAT.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH >BIBLE HOW TO EAT" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH->BIBLE HOW TO EAT" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/BORN-FOR-SERMON.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >BORN FOR SERMON" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->BORN FOR SERMON" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/BORN-TWICE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION >BORN TWICE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION->BORN TWICE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/BOUNTIFUL-EYE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >BOUNTIFUL EYE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->BOUNTIFUL EYE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/BREAD-OF-LIFE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >BREAD OF LIFE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->BREAD OF LIFE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/BROKEN-RELATIONSHIP.md
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.WORSHIP->BROKEN RELATIONSHIP"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.WORSHIP->BROKEN RELATIONSHIP"}]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/BUILD-ON-THE-ROCK.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >BUILD ON THE ROCK" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->BUILD ON THE ROCK" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/BUNYANS-MASTERPIECE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.GRACE >BUNYANS MASTERPIECE"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "edge.GRACE->BUNYANS MASTERPIECE"}]->(child);
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.GRACE >BUNYANS MASTERPIECE"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.GRACE->BUNYANS MASTERPIECE"}]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/CARDBOARD-BOX-DIGNITY.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >CARDBOARD BOX DIGNITY" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY->CARDBOARD BOX DIGNITY" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/CARNALITY-AND-STRIFE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >CARNALITY AND STRIFE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->CARNALITY AND STRIFE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/CAUSE-OF-THE-ORPHAN.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >CAUSE OF THE ORPHAN" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->CAUSE OF THE ORPHAN" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/CHANGING-EVIL-TO-RIGHTEOUS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >CHANGING EVIL TO RIGHTEOUS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->CHANGING EVIL TO RIGHTEOUS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/CHEATING-THE-ECONOMY.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >CHEATING THE ECONOMY" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->CHEATING THE ECONOMY" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/CHEMICAL-VIRTUE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY >CHEMICAL VIRTUE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY->CHEMICAL VIRTUE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/CHOKING-THE-WORD.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "FAITH >CHOKING THE WORD" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "FAITH->CHOKING THE WORD" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/CHRIST-COMING-CLOUDS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION >CHRIST COMING CLOUDS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION->CHRIST COMING CLOUDS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/CHRIST-MY-TREASURE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >CHRIST MY TREASURE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->CHRIST MY TREASURE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/CHRIST-UNIVERSAL-DESTINY.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >CHRIST UNIVERSAL DESTINY" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->CHRIST UNIVERSAL DESTINY" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/CHRISTIANITY-STEPS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION >CHRISTIANITY STEPS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION->CHRISTIANITY STEPS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/CHRISTIANS-ON-CROSSES.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION >CHRISTIANS ON CROSSES" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION->CHRISTIANS ON CROSSES" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/CHRISTS-AMNESTY.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE >CHRISTS AMNESTY" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE->CHRISTS AMNESTY" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/CHRISTS-FINAL-VIRTUE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE >CHRISTS FINAL VIRTUE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE->CHRISTS FINAL VIRTUE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/CHRONIC-SELF-DESTRUCTION.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >CHRONIC SELF DESTRUCTION" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY->CHRONIC SELF DESTRUCTION" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/CHURCH-AS-LOVE-GROUP.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION >CHURCH AS LOVE GROUP" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION->CHURCH AS LOVE GROUP" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/CHURCH-IS-BIG-BUSINESS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION >CHURCH IS BIG BUSINESS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION->CHURCH IS BIG BUSINESS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/CHURCH-PILLAR-OF-TRUTH.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION >CHURCH PILLAR OF TRUTH" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION->CHURCH PILLAR OF TRUTH" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/COHERENCE-OF-TRUTH.md
+  Line 48 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.TRUTH >COHERENCE OF TRUTH"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "edge.TRUTH->COHERENCE OF TRUTH"}]->(child);
+  Line 48 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.TRUTH >COHERENCE OF TRUTH"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.TRUTH->COHERENCE OF TRUTH"}]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/COMMITTING-ADAMS-SIN.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >COMMITTING ADAMS SIN" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY->COMMITTING ADAMS SIN" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/COMPLEXITY-VS-SIMPLICITY.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH >COMPLEXITY VS SIMPLICITY" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH->COMPLEXITY VS SIMPLICITY" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/COMPREHENDING-VS-KNOWING.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >COMPREHENDING VS KNOWING" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->COMPREHENDING VS KNOWING" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/CONGRESS-HOUSE-LORDS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >CONGRESS HOUSE LORDS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->CONGRESS HOUSE LORDS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/CONGRESS-NO-PAY-SHUTDOWN.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >CONGRESS NO PAY SHUTDOWN" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->CONGRESS NO PAY SHUTDOWN" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/CONGRESS-NOT-OURS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >CONGRESS NOT OURS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->CONGRESS NOT OURS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/CONSPIRACY-THEORIES.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "UNDERSTANDING >CONSPIRACY THEORIES" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "UNDERSTANDING->CONSPIRACY THEORIES" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/CONTRACTOR-NOT-SLAVE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >CONTRACTOR NOT SLAVE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->CONTRACTOR NOT SLAVE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/COOKED-FOOD-HUMANS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "CREATION >COOKED FOOD HUMANS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "CREATION->COOKED FOOD HUMANS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/CORPORATE-MONEY-WORSHIP.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >CORPORATE MONEY WORSHIP" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->CORPORATE MONEY WORSHIP" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/CORPORATE-RACISM.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >CORPORATE RACISM" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->CORPORATE RACISM" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/CORRUPTION-WITHOUT-DEATH.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >CORRUPTION WITHOUT DEATH" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY->CORRUPTION WITHOUT DEATH" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/COST-OF-HEAVEN.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE >COST OF HEAVEN" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE->COST OF HEAVEN" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/COURAGE-THROUGH-PRAYER.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >COURAGE THROUGH PRAYER" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->COURAGE THROUGH PRAYER" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/CREATING-SELFLESS-HEART.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >CREATING SELFLESS HEART" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->CREATING SELFLESS HEART" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/CREATORS-SUFFERING.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >CREATORS SUFFERING" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->CREATORS SUFFERING" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/CRY-OF-POOR.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >CRY OF POOR" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->CRY OF POOR" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/DAILY-DIVINE-LOVE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE >DAILY DIVINE LOVE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE->DAILY DIVINE LOVE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/DANGER-OF-BLINDNESS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "UNDERSTANDING >DANGER OF BLINDNESS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "UNDERSTANDING->DANGER OF BLINDNESS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/DANGER-OF-TRUTH.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH >DANGER OF TRUTH" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH->DANGER OF TRUTH" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/DANGEROUS-AND-SAFE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >DANGEROUS AND SAFE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->DANGEROUS AND SAFE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/DARK-MATTER-NEED.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY >DARK MATTER NEED" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY->DARK MATTER NEED" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/DEATH-SELF-INFLICTED-WOUND.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >DEATH SELF INFLICTED WOUND" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY->DEATH SELF INFLICTED WOUND" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/DEFINE-BEING-ALONE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >DEFINE BEING ALONE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->DEFINE BEING ALONE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/DEFINE-DIVINE-JEALOUSY.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >DEFINE DIVINE JEALOUSY" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->DEFINE DIVINE JEALOUSY" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/DEFINE-EVIL-JEALOUSY.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "EVIL >DEFINE EVIL JEALOUSY" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "EVIL->DEFINE EVIL JEALOUSY" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/DEFINE-FAITH-PERSUASION.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "FAITH >DEFINE FAITH PERSUASION" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "FAITH->DEFINE FAITH PERSUASION" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/DEFINE-FAITH-WILL.md
+  Line 48 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "FAITH >DEFINE FAITH WILL" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "FAITH->DEFINE FAITH WILL" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/DEFINE-GRACE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE >DEFINE GRACE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE->DEFINE GRACE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/DEFINE-PERFECT-LOVE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY >DEFINE PERFECT LOVE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY->DEFINE PERFECT LOVE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/DEFINE-TRUST.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "FAITH >DEFINE TRUST" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "FAITH->DEFINE TRUST" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/DEFINING-EVIL-PRIDE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "EVIL >DEFINING EVIL PRIDE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "EVIL->DEFINING EVIL PRIDE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/DEFINING-PORNOGRAPHY.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >DEFINING PORNOGRAPHY" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->DEFINING PORNOGRAPHY" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/DEFINITION-OF-SIN.md
+  Line 48 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.MORALITY >DEFINITION OF SIN"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "edge.MORALITY->DEFINITION OF SIN"}]->(child);
+  Line 48 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.MORALITY >DEFINITION OF SIN"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.MORALITY->DEFINITION OF SIN"}]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/DEHUMANIZING-LABOR-WATCHING.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >DEHUMANIZING LABOR WATCHING" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->DEHUMANIZING LABOR WATCHING" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/DESTROYING-OUR-PLANET.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >DESTROYING OUR PLANET" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->DESTROYING OUR PLANET" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/DEVIL-THE-ACCUSER.md
+  Line 48 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE >DEVIL THE ACCUSER" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE->DEVIL THE ACCUSER" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/DIGNITY-OR-DEATH.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >DIGNITY OR DEATH" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY->DIGNITY OR DEATH" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/DISABILITY-OF-SPIRIT.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >DISABILITY OF SPIRIT" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->DISABILITY OF SPIRIT" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/DISENFRANCHISING-POOR-WATCHING.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >DISENFRANCHISING POOR WATCHING" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->DISENFRANCHISING POOR WATCHING" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/DIVINE-CONSISTENCY.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.THE GODHEAD >DIVINE CONSISTENCY"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "edge.THE GODHEAD->DIVINE CONSISTENCY"}]->(child);
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.THE GODHEAD >DIVINE CONSISTENCY"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.THE GODHEAD->DIVINE CONSISTENCY"}]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/DIVINE-GOODNESS.md
+  Line 48 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.THE GODHEAD >DIVINE GOODNESS"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "edge.THE GODHEAD->DIVINE GOODNESS"}]->(child);
+  Line 48 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.THE GODHEAD >DIVINE GOODNESS"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.THE GODHEAD->DIVINE GOODNESS"}]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/DIVINE-MERCY-HOPE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE >DIVINE MERCY HOPE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE->DIVINE MERCY HOPE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/DIVINE-VISITATION-EFFECT.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >DIVINE VISITATION EFFECT" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->DIVINE VISITATION EFFECT" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/DNA-MEMORY-VS-REINCARNATION.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY >DNA MEMORY VS REINCARNATION" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY->DNA MEMORY VS REINCARNATION" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/DONT-KNOW-DOING.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE >DONT KNOW DOING" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE->DONT KNOW DOING" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/DREAMS-OTHER-WORLDS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY >DREAMS OTHER WORLDS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY->DREAMS OTHER WORLDS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/DUST-AND-DIVINE.md
+  Line 48 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.HUMANITY >DUST AND DIVINE"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "edge.HUMANITY->DUST AND DIVINE"}]->(child);
+  Line 48 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.HUMANITY >DUST AND DIVINE"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.HUMANITY->DUST AND DIVINE"}]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/DYING-FOR-OWN-SIN.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >DYING FOR OWN SIN" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY->DYING FOR OWN SIN" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/EATING-BREATHING-DEATH.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >EATING BREATHING DEATH" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->EATING BREATHING DEATH" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/ECONOMIC-INJUSTICE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >ECONOMIC INJUSTICE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->ECONOMIC INJUSTICE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/EDUCATION-AND-SCRIPTURE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH >EDUCATION AND SCRIPTURE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH->EDUCATION AND SCRIPTURE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/EDUCATION-AS-SELLING-OUT.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH >EDUCATION AS SELLING OUT" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH->EDUCATION AS SELLING OUT" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/EMULATING-GODS-CHARACTER.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >EMULATING GODS CHARACTER" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->EMULATING GODS CHARACTER" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/ENDANGERED-BLACK-MEN.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >ENDANGERED BLACK MEN" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY->ENDANGERED BLACK MEN" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/ETERNAL-GRACE-MERCY.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >ETERNAL GRACE MERCY" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->ETERNAL GRACE MERCY" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/ETERNAL-IMMORTALITY.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >ETERNAL IMMORTALITY" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->ETERNAL IMMORTALITY" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/EVERYTHING-FROM-NOTHING.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH >EVERYTHING FROM NOTHING" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH->EVERYTHING FROM NOTHING" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/EVERYTHING-IS-SIMPLE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >EVERYTHING IS SIMPLE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->EVERYTHING IS SIMPLE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/EVIL-NO-CHANCE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >EVIL NO CHANCE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->EVIL NO CHANCE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/EVOLUTION-AS-RELIGION.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY >EVOLUTION AS RELIGION" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY->EVOLUTION AS RELIGION" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/EVOLUTION-COMPASSION-MERCY.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY >EVOLUTION COMPASSION MERCY" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY->EVOLUTION COMPASSION MERCY" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/EXISTENCE-TAX.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >EXISTENCE TAX" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->EXISTENCE TAX" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/EXPERIENCING-GOD.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >EXPERIENCING GOD" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->EXPERIENCING GOD" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/EXPLOITING-BLACK-WOMEN.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >EXPLOITING BLACK WOMEN" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->EXPLOITING BLACK WOMEN" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/EYES-OF-CHRIST.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >EYES OF CHRIST" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->EYES OF CHRIST" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/FACE-TO-FACE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >FACE TO FACE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->FACE TO FACE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/FACING-TRUTH-LOVE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE >FACING TRUTH LOVE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE->FACING TRUTH LOVE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/FAILURE-TO-SUCCESS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE >FAILURE TO SUCCESS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE->FAILURE TO SUCCESS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/FAITH-AND-ACCEPTANCE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "FAITH >FAITH AND ACCEPTANCE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "FAITH->FAITH AND ACCEPTANCE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/FAITH-AND-SCIENCE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "FAITH >FAITH AND SCIENCE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "FAITH->FAITH AND SCIENCE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/FAITH-AND-WEALTH.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "FAITH >FAITH AND WEALTH"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "FAITH->FAITH AND WEALTH"}]->(child);
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "FAITH >FAITH AND WEALTH"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.FAITH->FAITH AND WEALTH"}]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/FAITH-IN-EVOLUTION.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "FAITH >FAITH IN EVOLUTION" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "FAITH->FAITH IN EVOLUTION" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/FAITH-IN-SELF-VS-CREATOR.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "FAITH >FAITH IN SELF VS CREATOR" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "FAITH->FAITH IN SELF VS CREATOR" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/FAITH-REQUIRES-LOVE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "FAITH >FAITH REQUIRES LOVE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "FAITH->FAITH REQUIRES LOVE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/FALSE-RELIGION-TWIN.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION >FALSE RELIGION TWIN" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION->FALSE RELIGION TWIN" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/FALSE-SPIRITUALITY.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >FALSE SPIRITUALITY" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->FALSE SPIRITUALITY" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/FAMILIAR-SPIRITS-WARNING.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "EVIL >FAMILIAR SPIRITS WARNING" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "EVIL->FAMILIAR SPIRITS WARNING" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/FAN-VS-FOLLOWER.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >FAN VS FOLLOWER" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->FAN VS FOLLOWER" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/FAST-LANE-BLIND-SPOTS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "WISDOM >FAST LANE BLIND SPOTS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "WISDOM->FAST LANE BLIND SPOTS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/FEAR-AND-SELFISHNESS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "PSYCHOLOGY >FEAR AND SELFISHNESS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "PSYCHOLOGY->FEAR AND SELFISHNESS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/FICTIONAL-CHARACTERS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >FICTIONAL CHARACTERS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->FICTIONAL CHARACTERS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/FIRST-LOVE-WAITING.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >FIRST LOVE WAITING" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->FIRST LOVE WAITING" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/FLESH-THE-TYRANT.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >FLESH THE TYRANT" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY->FLESH THE TYRANT" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/FLESH-VS-SPIRIT.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >FLESH VS SPIRIT" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->FLESH VS SPIRIT" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/FOR-OR-AGAINST.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >FOR OR AGAINST" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->FOR OR AGAINST" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/FORGIVE-AND-SANCTIFY.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE >FORGIVE AND SANCTIFY" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE->FORGIVE AND SANCTIFY" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/FORGIVING-OTHERS-PROBLEM.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE >FORGIVING OTHERS PROBLEM" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE->FORGIVING OTHERS PROBLEM" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/FORGIVING-THE-FUTURE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE >FORGIVING THE FUTURE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE->FORGIVING THE FUTURE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/FOURTH-BRANCH-CHURCH.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION >FOURTH BRANCH CHURCH" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION->FOURTH BRANCH CHURCH" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/FREE-WILL-ROBOT.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY >FREE WILL ROBOT" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY->FREE WILL ROBOT" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/FREEDOM-TO-RUIN.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >FREEDOM TO RUIN" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY->FREEDOM TO RUIN" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/FULFILLING-DESTINY-TOGETHER.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >FULFILLING DESTINY TOGETHER" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY->FULFILLING DESTINY TOGETHER" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/FUTILE-REBELLION.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >FUTILE REBELLION" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY->FUTILE REBELLION" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/FUTURE-FOR-ATHEISTS.md
+  Line 48 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY >FUTURE FOR ATHEISTS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY->FUTURE FOR ATHEISTS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/GALATIANS-LAW-DEBATE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION >GALATIANS LAW DEBATE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION->GALATIANS LAW DEBATE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/GIFT-OR-GIVER.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.WORSHIP >GIFT OR GIVER"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "edge.WORSHIP->GIFT OR GIVER"}]->(child);
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.WORSHIP >GIFT OR GIVER"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.WORSHIP->GIFT OR GIVER"}]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/GLOBAL-DICTATORSHIPS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >GLOBAL DICTATORSHIPS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->GLOBAL DICTATORSHIPS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/GLORY-THROUGH-LOSERS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE >GLORY THROUGH LOSERS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE->GLORY THROUGH LOSERS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/GOD-ACTUALLY-EXISTS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >GOD ACTUALLY EXISTS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->GOD ACTUALLY EXISTS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/GOD-ALWAYS-RIGHT.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >GOD ALWAYS RIGHT" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->GOD ALWAYS RIGHT" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/GOD-CARES-LITTLE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >GOD CARES LITTLE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->GOD CARES LITTLE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/GOD-CONFIDENCE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "FAITH >GOD CONFIDENCE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "FAITH->GOD CONFIDENCE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/GOD-HAS-SENSE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >GOD HAS SENSE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->GOD HAS SENSE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/GOD-HIDING-PLAIN-SIGHT.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >GOD HIDING PLAIN SIGHT" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->GOD HIDING PLAIN SIGHT" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/GOD-HIGHER-THAN-TRUTH.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >GOD HIGHER THAN TRUTH" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->GOD HIGHER THAN TRUTH" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/GOD-HONORS-HONOR.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >GOD HONORS HONOR" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->GOD HONORS HONOR" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/GOD-IS-FUTURE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >GOD IS FUTURE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->GOD IS FUTURE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/GOD-IS-REAL.md
+  Line 48 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >GOD IS REAL" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->GOD IS REAL" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/GOD-IS-RICH.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >GOD IS RICH" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->GOD IS RICH" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/GOD-LOVES-ABUSERS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >GOD LOVES ABUSERS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->GOD LOVES ABUSERS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/GOD-LOVES-HOMOSEXUALS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >GOD LOVES HOMOSEXUALS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->GOD LOVES HOMOSEXUALS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/GOD-LOVES-KINDNESS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >GOD LOVES KINDNESS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->GOD LOVES KINDNESS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/GOD-LOVING-EVERY-SOUL.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >GOD LOVING EVERY SOUL" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->GOD LOVING EVERY SOUL" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/GOD-NOT-AMERICAN.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >GOD NOT AMERICAN" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->GOD NOT AMERICAN" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/GOD-NOT-DEADBEAT.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >GOD NOT DEADBEAT" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->GOD NOT DEADBEAT" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/GOD-OF-FINANCE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >GOD OF FINANCE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->GOD OF FINANCE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/GOD-OF-PROJECTS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >GOD OF PROJECTS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->GOD OF PROJECTS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/GOD-OF-SCIENCE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >GOD OF SCIENCE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->GOD OF SCIENCE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/GOD-REALITY.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "THE GODHEAD >GOD REALITY"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "THE GODHEAD->GOD REALITY"}]->(child);
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "THE GODHEAD >GOD REALITY"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.THE GODHEAD->GOD REALITY"}]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/GOD-SAVES-BREAKING.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE >GOD SAVES BREAKING" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE->GOD SAVES BREAKING" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/GOD-SIRED-CHRIST.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >GOD SIRED CHRIST" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->GOD SIRED CHRIST" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/GOD-TALKING-BACK.md
+  Line 48 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >GOD TALKING BACK" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->GOD TALKING BACK" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/GOD-THE-ANSWER.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >GOD THE ANSWER" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->GOD THE ANSWER" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/GOD-THE-DREAMER.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY >GOD THE DREAMER" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY->GOD THE DREAMER" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/GOD-WANTS-ME.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >GOD WANTS ME" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->GOD WANTS ME" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/GODS-FORGETFULNESS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE >GODS FORGETFULNESS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE->GODS FORGETFULNESS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/GODS-GENIUS-LOVE-HATE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >GODS GENIUS LOVE HATE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->GODS GENIUS LOVE HATE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/GODS-PERFECT-LOVE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >GODS PERFECT LOVE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->GODS PERFECT LOVE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/GODS-PRIORITIES-VS-OURS.md
+  Line 48 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >GODS PRIORITIES VS OURS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->GODS PRIORITIES VS OURS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/GODS-SELF-PORTRAIT.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >GODS SELF PORTRAIT" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->GODS SELF PORTRAIT" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/GODS-STRENGTH-NEED.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >GODS STRENGTH NEED" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->GODS STRENGTH NEED" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/GODS-SUPERIOR-OFFER.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >GODS SUPERIOR OFFER" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->GODS SUPERIOR OFFER" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/GODS-SUPERIOR-VALUE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >GODS SUPERIOR VALUE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->GODS SUPERIOR VALUE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/GODS-WILL-AND-POWER.md
+  Line 48 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >GODS WILL AND POWER" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->GODS WILL AND POWER" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/GOOD-STRONGER-EVIL.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >GOOD STRONGER EVIL" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->GOOD STRONGER EVIL" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/GRACE-STRONGER-SIN.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE >GRACE STRONGER SIN" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE->GRACE STRONGER SIN" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/GRACE-TO-HUMBLE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE >GRACE TO HUMBLE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE->GRACE TO HUMBLE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/GRACE-VS-MERIT.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE >GRACE VS MERIT" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE->GRACE VS MERIT" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/GRACE-VS-SATAN.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "GRACE >GRACE VS SATAN"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "GRACE->GRACE VS SATAN"}]->(child);
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "GRACE >GRACE VS SATAN"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.GRACE->GRACE VS SATAN"}]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/GREATER-THAN-BEING-LOVED.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "LOVE >GREATER THAN BEING LOVED" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "LOVE->GREATER THAN BEING LOVED" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/GREED-ECONOMIC-WOES.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >GREED ECONOMIC WOES" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->GREED ECONOMIC WOES" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/GROWTH-THROUGH-WORD.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >GROWTH THROUGH WORD" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->GROWTH THROUGH WORD" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/HAPPINESS-AND-JOY.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >HAPPINESS AND JOY" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->HAPPINESS AND JOY" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/HAPPINESS-OF-GIVING.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >HAPPINESS OF GIVING" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->HAPPINESS OF GIVING" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/HATRED-AND-LOVE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY >HATRED AND LOVE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY->HATRED AND LOVE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/HEARING-AND-OBEYING.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >HEARING AND OBEYING" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->HEARING AND OBEYING" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/HEARING-GOD-NOISE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >HEARING GOD NOISE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->HEARING GOD NOISE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/HEAVEN-AS-SUN.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >HEAVEN AS SUN" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->HEAVEN AS SUN" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/HEAVEN-BY-GRACE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE >HEAVEN BY GRACE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE->HEAVEN BY GRACE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/HEAVEN-HEALS-SORROW.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >HEAVEN HEALS SORROW" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->HEAVEN HEALS SORROW" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/HEAVEN-HOME-WITHIN.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >HEAVEN HOME WITHIN" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->HEAVEN HOME WITHIN" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/HEAVEN-WITHIN-SALVATION.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE >HEAVEN WITHIN SALVATION" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE->HEAVEN WITHIN SALVATION" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/HEAVEN-WITHIN.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >HEAVEN WITHIN" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->HEAVEN WITHIN" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/HELL-AND-HYPOCRISY.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >HELL AND HYPOCRISY" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->HELL AND HYPOCRISY" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/HELL-FIRE-FOR-DEVIL.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >HELL FIRE FOR DEVIL" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->HELL FIRE FOR DEVIL" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/HIDING-IN-PRAYER.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >HIDING IN PRAYER" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->HIDING IN PRAYER" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/HISTORICAL-ACCURACY-BIBLE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH >HISTORICAL ACCURACY BIBLE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH->HISTORICAL ACCURACY BIBLE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/HORDES-OF-THE-ABYSS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "EVIL >HORDES OF THE ABYSS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "EVIL->HORDES OF THE ABYSS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/HUMAN-DESTRUCTIVENESS.md
+  Line 48 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.HUMANITY >HUMAN DESTRUCTIVENESS"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "edge.HUMANITY->HUMAN DESTRUCTIVENESS"}]->(child);
+  Line 48 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.HUMANITY >HUMAN DESTRUCTIVENESS"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.HUMANITY->HUMAN DESTRUCTIVENESS"}]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/HUMANITY-TOO-FAR-GONE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE >HUMANITY TOO FAR GONE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE->HUMANITY TOO FAR GONE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/HUMILITY-IN-PRAYER.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >HUMILITY IN PRAYER" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->HUMILITY IN PRAYER" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/HUMILITY-OF-CREATION.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >HUMILITY OF CREATION" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->HUMILITY OF CREATION" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/I-NEED-GOD.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >I NEED GOD" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->I NEED GOD" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/IDENTITY-IN-GOD.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >IDENTITY IN GOD" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->IDENTITY IN GOD" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/IMMORTAL-SINLESS-LIFE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >IMMORTAL SINLESS LIFE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->IMMORTAL SINLESS LIFE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/IMPORTANCE-OF-DEUTERONOMY.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH >IMPORTANCE OF DEUTERONOMY" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH->IMPORTANCE OF DEUTERONOMY" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/INCARCERATION-SLAVERY-PARALLEL.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >INCARCERATION SLAVERY PARALLEL" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->INCARCERATION SLAVERY PARALLEL" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/INCONVENIENT-WILL.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >INCONVENIENT WILL" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->INCONVENIENT WILL" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/INCORRUPTIBLE-GOODNESS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >INCORRUPTIBLE GOODNESS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->INCORRUPTIBLE GOODNESS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/INFINITE-GOD.md
+  Line 48 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.THE GODHEAD >INFINITE GOD"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "edge.THE GODHEAD->INFINITE GOD"}]->(child);
+  Line 48 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.THE GODHEAD >INFINITE GOD"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.THE GODHEAD->INFINITE GOD"}]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/INTELLIGENT-LIFE-SEARCH.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY >INTELLIGENT LIFE SEARCH" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY->INTELLIGENT LIFE SEARCH" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/INTERIOR-MISSISSIPPI.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >INTERIOR MISSISSIPPI" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->INTERIOR MISSISSIPPI" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/INVESTMENT-IN-CHURCH.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION >INVESTMENT IN CHURCH" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION->INVESTMENT IN CHURCH" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/INVISIBLE-IN-IMPOSSIBLE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >INVISIBLE IN IMPOSSIBLE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->INVISIBLE IN IMPOSSIBLE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/JESUS-AND-SCRIPTURE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH >JESUS AND SCRIPTURE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH->JESUS AND SCRIPTURE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/JESUS-IN-DISGUISE.md
+  Line 48 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.HUMANITY >JESUS IN DISGUISE"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "edge.HUMANITY->JESUS IN DISGUISE"}]->(child);
+  Line 48 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.HUMANITY >JESUS IN DISGUISE"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.HUMANITY->JESUS IN DISGUISE"}]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/JESUS-NON-NEGOTIABLE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >JESUS NON NEGOTIABLE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->JESUS NON NEGOTIABLE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/JESUS-TAKES-OVER.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >JESUS TAKES OVER" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->JESUS TAKES OVER" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/JUDGING-MOTIVES-DEEDS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >JUDGING MOTIVES DEEDS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->JUDGING MOTIVES DEEDS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/KINDNESS-OF-JESUS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >KINDNESS OF JESUS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->KINDNESS OF JESUS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/KNOWING-JESUS-NAME.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >KNOWING JESUS NAME" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->KNOWING JESUS NAME" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/KNOWLEDGE-PROPERTY-GOD.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH >KNOWLEDGE PROPERTY GOD" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH->KNOWLEDGE PROPERTY GOD" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/LAWS-AND-THE-RICH.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >LAWS AND THE RICH" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->LAWS AND THE RICH" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/LEAVING-GOD-OUT.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION >LEAVING GOD OUT" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION->LEAVING GOD OUT" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/LEGALITY-OF-ATONEMENT.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE >LEGALITY OF ATONEMENT" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE->LEGALITY OF ATONEMENT" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/LETTING-GO.md
+  Line 48 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.UNDERSTANDING >LETTING GO"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "edge.UNDERSTANDING->LETTING GO"}]->(child);
+  Line 48 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.UNDERSTANDING >LETTING GO"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.UNDERSTANDING->LETTING GO"}]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/LIFE-AS-DREAM.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.PHILOSOPHY >LIFE AS DREAM"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "edge.PHILOSOPHY->LIFE AS DREAM"}]->(child);
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.PHILOSOPHY >LIFE AS DREAM"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.PHILOSOPHY->LIFE AS DREAM"}]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/LIFE-FROM-INORGANIC.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH >LIFE FROM INORGANIC" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH->LIFE FROM INORGANIC" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/LIFE-IN-PRAYER.md
+  Line 48 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >LIFE IN PRAYER" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->LIFE IN PRAYER" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/LIFE-SHOULD-BE-PAIN.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY >LIFE SHOULD BE PAIN" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY->LIFE SHOULD BE PAIN" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/LIMITS-OF-FORGIVENESS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE >LIMITS OF FORGIVENESS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE->LIMITS OF FORGIVENESS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/LIMITS-OF-KNOWLEDGE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "WISDOM >LIMITS OF KNOWLEDGE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "WISDOM->LIMITS OF KNOWLEDGE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/LIVELIER-LIVING.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >LIVELIER LIVING" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->LIVELIER LIVING" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/LIVING-FAITH.md
+  Line 48 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.FAITH >LIVING FAITH"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "edge.FAITH->LIVING FAITH"}]->(child);
+  Line 48 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.FAITH >LIVING FAITH"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.FAITH->LIVING FAITH"}]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/LIVING-IN-CHRISTS-RIGHTEOUSNESS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE >LIVING IN CHRISTS RIGHTEOUSNESS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE->LIVING IN CHRISTS RIGHTEOUSNESS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/LOOKING-LIKE-JESUS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >LOOKING LIKE JESUS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->LOOKING LIKE JESUS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/LOSING-MY-MIND.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "PSYCHOLOGY >LOSING MY MIND" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "PSYCHOLOGY->LOSING MY MIND" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/LOVE-ABUSER-HATE-ABUSE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >LOVE ABUSER HATE ABUSE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->LOVE ABUSER HATE ABUSE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/LOVE-CHANGES-SINNER.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE >LOVE CHANGES SINNER" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE->LOVE CHANGES SINNER" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/LOVE-HATER-GRACE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE >LOVE HATER GRACE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE->LOVE HATER GRACE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/LOVE-IS-NOT-WEAK.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "LOVE >LOVE IS NOT WEAK" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "LOVE->LOVE IS NOT WEAK" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/LOVE-SEVERING-SIN.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE >LOVE SEVERING SIN" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE->LOVE SEVERING SIN" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/LOVING-THE-HATEFUL.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >LOVING THE HATEFUL" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->LOVING THE HATEFUL" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/LOYALTY-TO-GOD.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >LOYALTY TO GOD" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->LOYALTY TO GOD" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/LUCIFERS-DECEPTION.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "EVIL >LUCIFERS DECEPTION" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "EVIL->LUCIFERS DECEPTION" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/LUCIFERS-WRETCHEDNESS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "EVIL >LUCIFERS WRETCHEDNESS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "EVIL->LUCIFERS WRETCHEDNESS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/MAJORITY-OF-THREE.md
+  Line 48 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >MAJORITY OF THREE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->MAJORITY OF THREE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/MALCOLM-X-TRUTH.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >MALCOLM X TRUTH" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY->MALCOLM X TRUTH" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/MAN-OF-SORROWS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >MAN OF SORROWS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->MAN OF SORROWS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/MARRIAGE-RELIGIOUS-INSTITUTION.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION >MARRIAGE RELIGIOUS INSTITUTION" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION->MARRIAGE RELIGIOUS INSTITUTION" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/MASTERING-SIN.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >MASTERING SIN" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->MASTERING SIN" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/MEANINGLESS-LIFE-LIE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY >MEANINGLESS LIFE LIE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY->MEANINGLESS LIFE LIE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/MEETING-LORD-JESUS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >MEETING LORD JESUS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->MEETING LORD JESUS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/MEETING-UNCREATED-BEING.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >MEETING UNCREATED BEING" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->MEETING UNCREATED BEING" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/MEN-SHAVING-CHILDREN.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >MEN SHAVING CHILDREN" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY->MEN SHAVING CHILDREN" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/MERCY-OF-JESUS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >MERCY OF JESUS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->MERCY OF JESUS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/MIRACLE-OF-SALVATION.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE >MIRACLE OF SALVATION" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE->MIRACLE OF SALVATION" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/MLK-MURDERED-GOOD-DEEDS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >MLK MURDERED GOOD DEEDS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->MLK MURDERED GOOD DEEDS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/MODERN-PROPAGANDA.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "EVIL >MODERN PROPAGANDA" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "EVIL->MODERN PROPAGANDA" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/MOTHER-OF-JESUS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >MOTHER OF JESUS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->MOTHER OF JESUS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/MOVIE-ALREADY-OVER.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION >MOVIE ALREADY OVER" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION->MOVIE ALREADY OVER" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/MYSTERY-OF-WOMAN.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >MYSTERY OF WOMAN" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY->MYSTERY OF WOMAN" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/NATION-FORGETTING-GOD.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >NATION FORGETTING GOD" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->NATION FORGETTING GOD" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/NATIONAL-DEBT-STATS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >NATIONAL DEBT STATS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->NATIONAL DEBT STATS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/NATURE-OF-REALITY.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY >NATURE OF REALITY" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY->NATURE OF REALITY" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/NATURE-OF-THE-GODHEAD.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >NATURE OF THE GODHEAD" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->NATURE OF THE GODHEAD" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/NEAR-COLLISION.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >NEAR COLLISION" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->NEAR COLLISION" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/NEED-FOR-FAITH.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "FAITH >NEED FOR FAITH" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "FAITH->NEED FOR FAITH" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/NET-VS-SELF-WORTH.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >NET VS SELF WORTH" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY->NET VS SELF WORTH" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/NO-COMPLEXITY-FOR-GOD.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >NO COMPLEXITY FOR GOD" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->NO COMPLEXITY FOR GOD" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/NO-DIVINE-EXCUSES.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >NO DIVINE EXCUSES" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->NO DIVINE EXCUSES" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/NO-GOD-FOR-CAMERAS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >NO GOD FOR CAMERAS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->NO GOD FOR CAMERAS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/NO-POOR-IN-HEAVEN.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >NO POOR IN HEAVEN" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->NO POOR IN HEAVEN" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/NOBODY-LOVES-LIKE-JESUS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >NOBODY LOVES LIKE JESUS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->NOBODY LOVES LIKE JESUS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/NOT-BEING-GOD.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >NOT BEING GOD" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY->NOT BEING GOD" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/NOT-DYING-ALONE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >NOT DYING ALONE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->NOT DYING ALONE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/NOT-POLITICALLY-CORRECT.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >NOT POLITICALLY CORRECT" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->NOT POLITICALLY CORRECT" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/NOTHING-AND-EVERYTHING.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >NOTHING AND EVERYTHING" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY->NOTHING AND EVERYTHING" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/NOTHING-NEW-TRUTH.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH >NOTHING NEW TRUTH" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH->NOTHING NEW TRUTH" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/NOTHING-TO-OFFER.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >NOTHING TO OFFER" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->NOTHING TO OFFER" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/NOTHING-TO-WORLD.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >NOTHING TO WORLD" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->NOTHING TO WORLD" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/NOTHING-WITHOUT-GOD.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >NOTHING WITHOUT GOD" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY->NOTHING WITHOUT GOD" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/NOTHING-WRONG-GOD.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >NOTHING WRONG GOD" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->NOTHING WRONG GOD" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/OBEDIENCE-AS-HIGHWAY.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >OBEDIENCE AS HIGHWAY" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->OBEDIENCE AS HIGHWAY" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/OBEDIENCE-GATEWAY-GROWTH.md
+  Line 48 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >OBEDIENCE GATEWAY GROWTH" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->OBEDIENCE GATEWAY GROWTH" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/OBEYING-GODS-CHARACTER-LAWS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >OBEYING GODS CHARACTER LAWS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->OBEYING GODS CHARACTER LAWS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/OBSOLETE-HUMAN-RACE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >OBSOLETE HUMAN RACE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY->OBSOLETE HUMAN RACE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/OMNIPOTENCE-VS-FREEWILL.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY >OMNIPOTENCE VS FREEWILL" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY->OMNIPOTENCE VS FREEWILL" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/ONE-TRUE-GOD-YHWH.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >ONE TRUE GOD YHWH" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->ONE TRUE GOD YHWH" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/ONLY-TOOL-PRAYER.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >ONLY TOOL PRAYER" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->ONLY TOOL PRAYER" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/OPPRESSING-THE-POOR.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >OPPRESSING THE POOR" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->OPPRESSING THE POOR" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/OPPRESSIVE-WEALTH.md
+  Line 50 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >OPPRESSIVE WEALTH" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->OPPRESSIVE WEALTH" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/OVERCOMING-DEPRESSION.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "PSYCHOLOGY >OVERCOMING DEPRESSION" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "PSYCHOLOGY->OVERCOMING DEPRESSION" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/OWNING-ALL-THINGS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY >OWNING ALL THINGS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY->OWNING ALL THINGS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/PAYCHECK-VS-SOUL.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >PAYCHECK VS SOUL" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->PAYCHECK VS SOUL" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/PENALTY-VS-SIN.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE >PENALTY VS SIN" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE->PENALTY VS SIN" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/PEOPLE-MORE-UNFORGIVING.md
+  Line 48 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >PEOPLE MORE UNFORGIVING" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->PEOPLE MORE UNFORGIVING" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/PERISHING-DEMOCRACY.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >PERISHING DEMOCRACY" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->PERISHING DEMOCRACY" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/PLANETARY-STARVATION.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >PLANETARY STARVATION" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->PLANETARY STARVATION" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/POWER-AND-WILL.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >POWER AND WILL" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->POWER AND WILL" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/POWER-OF-CREATIVE-LOVE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >POWER OF CREATIVE LOVE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->POWER OF CREATIVE LOVE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/POWER-OF-JESUS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >POWER OF JESUS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->POWER OF JESUS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/POWER-OF-WEAKNESS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "WISDOM >POWER OF WEAKNESS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "WISDOM->POWER OF WEAKNESS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/POWERLESS-CHURCH.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION >POWERLESS CHURCH" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION->POWERLESS CHURCH" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/PRAYER-AND-CHOCOLATE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >PRAYER AND CHOCOLATE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->PRAYER AND CHOCOLATE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/PRAYER-AS-RELIEF.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >PRAYER AS RELIEF" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->PRAYER AS RELIEF" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/PRAYER-BEFORE-SPEECH.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >PRAYER BEFORE SPEECH" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->PRAYER BEFORE SPEECH" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/PRAYER-FOR-REVELATION.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >PRAYER FOR REVELATION" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->PRAYER FOR REVELATION" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/PRAYER-FOR-WISDOM.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >PRAYER FOR WISDOM" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->PRAYER FOR WISDOM" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/PRAYER-HAWAIIAN-VACATION.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >PRAYER HAWAIIAN VACATION" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->PRAYER HAWAIIAN VACATION" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/PRAYER-MAKES-HUMAN.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >PRAYER MAKES HUMAN" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->PRAYER MAKES HUMAN" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/PRAYER-MY-SHELTER.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >PRAYER MY SHELTER" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->PRAYER MY SHELTER" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/PRAYER-NOT-JOB.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >PRAYER NOT JOB" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->PRAYER NOT JOB" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/PREEMINENCE-OF-GOODNESS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >PREEMINENCE OF GOODNESS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->PREEMINENCE OF GOODNESS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/PREFERENCE-VS-NECESSITY.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "WISDOM >PREFERENCE VS NECESSITY" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "WISDOM->PREFERENCE VS NECESSITY" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/PRICE-OF-PRIDE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >PRICE OF PRIDE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->PRICE OF PRIDE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/PRIDE-OF-SATAN.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "EVIL >PRIDE OF SATAN" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "EVIL->PRIDE OF SATAN" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/PRIDE-VS-DIGNITY-RACE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >PRIDE VS DIGNITY RACE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY->PRIDE VS DIGNITY RACE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/PRIEST-OF-CHRIST.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >PRIEST OF CHRIST" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->PRIEST OF CHRIST" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/PRIVATE-INTERPRETATION.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH >PRIVATE INTERPRETATION" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH->PRIVATE INTERPRETATION" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/PROBLEM-AND-SOLUTION.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "WISDOM >PROBLEM AND SOLUTION" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "WISDOM->PROBLEM AND SOLUTION" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/PROGRESS-AND-FAILURE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "WISDOM >PROGRESS AND FAILURE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "WISDOM->PROGRESS AND FAILURE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/PSEUDOSCIENCE-FAILURE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY >PSEUDOSCIENCE FAILURE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY->PSEUDOSCIENCE FAILURE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/PSYCHOPATHIC-CORPORATIONS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >PSYCHOPATHIC CORPORATIONS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->PSYCHOPATHIC CORPORATIONS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/PURPOSELESS-EXISTENCE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY >PURPOSELESS EXISTENCE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY->PURPOSELESS EXISTENCE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/PURSUIT-OF-HAPPINESS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >PURSUIT OF HAPPINESS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->PURSUIT OF HAPPINESS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/QUALIFIED-TO-BREAK.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >QUALIFIED TO BREAK" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->QUALIFIED TO BREAK" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/QUESTIONING-GODS-EXISTENCE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY >QUESTIONING GODS EXISTENCE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY->QUESTIONING GODS EXISTENCE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/READY-FOR-ANSWER.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "WISDOM >READY FOR ANSWER" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "WISDOM->READY FOR ANSWER" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/READY-FOR-ETERNITY.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >READY FOR ETERNITY" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->READY FOR ETERNITY" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/REASON-TO-BE-ALIVE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >REASON TO BE ALIVE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->REASON TO BE ALIVE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/RECOGNIZE-OPPORTUNITY.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "WISDOM >RECOGNIZE OPPORTUNITY" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "WISDOM->RECOGNIZE OPPORTUNITY" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/RECONCILING-ALL-THINGS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "THE GODHEAD >RECONCILING ALL THINGS"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "THE GODHEAD->RECONCILING ALL THINGS"}]->(child);
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "THE GODHEAD >RECONCILING ALL THINGS"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.THE GODHEAD->RECONCILING ALL THINGS"}]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/RECONCILING-IN-CHRIST.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >RECONCILING IN CHRIST" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->RECONCILING IN CHRIST" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/RECREATING-INTENT.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE >RECREATING INTENT" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE->RECREATING INTENT" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/REJECTED-CORNER-STONE.md
+  Line 48 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION >REJECTED CORNER STONE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION->REJECTED CORNER STONE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/REJECTED-TRUTH-WEIGHT.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH >REJECTED TRUTH WEIGHT" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH->REJECTED TRUTH WEIGHT" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/RELATIONSHIP-IMPACT.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >RELATIONSHIP IMPACT" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->RELATIONSHIP IMPACT" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/RELATIONSHIP-WITH-FATHER.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >RELATIONSHIP WITH FATHER" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->RELATIONSHIP WITH FATHER" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/RELENTLESS-LOVE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >RELENTLESS LOVE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->RELENTLESS LOVE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/RESCUE-BY-JOB.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >RESCUE BY JOB" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->RESCUE BY JOB" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/RESPECT-AND-AFFECTION.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >RESPECT AND AFFECTION" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->RESPECT AND AFFECTION" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/RESPONSIBILITY-NO-AUTHORITY.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "WISDOM >RESPONSIBILITY NO AUTHORITY" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "WISDOM->RESPONSIBILITY NO AUTHORITY" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/RESURRECTION-BIRTH.md
+  Line 48 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.THE GOSPEL >RESURRECTION BIRTH"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "edge.THE GOSPEL->RESURRECTION BIRTH"}]->(child);
+  Line 48 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.THE GOSPEL >RESURRECTION BIRTH"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.THE GOSPEL->RESURRECTION BIRTH"}]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/REVELATION-ISRAELI-CHURCH.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION >REVELATION ISRAELI CHURCH" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION->REVELATION ISRAELI CHURCH" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/RICH-AND-WELFARE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >RICH AND WELFARE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->RICH AND WELFARE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/SACRIFICE-IN-SERVICE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "WORSHIP >SACRIFICE IN SERVICE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "WORSHIP->SACRIFICE IN SERVICE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/SALARY-VS-VALUE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >SALARY VS VALUE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY->SALARY VS VALUE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/SALVATION-AS-GIFT.md
+  Line 48 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.THE GOSPEL >SALVATION AS GIFT"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "edge.THE GOSPEL->SALVATION AS GIFT"}]->(child);
+  Line 48 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.THE GOSPEL >SALVATION AS GIFT"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.THE GOSPEL->SALVATION AS GIFT"}]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/SALVATION-FOR-ANYBODY.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE >SALVATION FOR ANYBODY" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE->SALVATION FOR ANYBODY" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/SANHEDRIN-CONCERNS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >SANHEDRIN CONCERNS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->SANHEDRIN CONCERNS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/SAUL-WASTING-LIFE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION >SAUL WASTING LIFE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION->SAUL WASTING LIFE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/SAYING-NO-TO-SELF.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >SAYING NO TO SELF" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->SAYING NO TO SELF" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/SCENT-OF-GOD.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >SCENT OF GOD" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->SCENT OF GOD" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/SCIENCE-AND-SCRIPTURE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH >SCIENCE AND SCRIPTURE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH->SCIENCE AND SCRIPTURE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/SCIENCE-ON-ORIGIN.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH >SCIENCE ON ORIGIN" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH->SCIENCE ON ORIGIN" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/SEAT-OF-POWER.md
+  Line 48 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >SEAT OF POWER" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->SEAT OF POWER" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/SECOND-COMING-STATS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION >SECOND COMING STATS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION->SECOND COMING STATS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/SEEKING-VS-HEARING-GOD.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >SEEKING VS HEARING GOD" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->SEEKING VS HEARING GOD" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/SELF-DECEPTION-FIRST.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "PSYCHOLOGY >SELF DECEPTION FIRST" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "PSYCHOLOGY->SELF DECEPTION FIRST" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/SELF-DESTRUCTIVE-NATURE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >SELF DESTRUCTIVE NATURE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY->SELF DESTRUCTIVE NATURE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/SELF-TORTURE-OWNERSHIP.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >SELF TORTURE OWNERSHIP" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY->SELF TORTURE OWNERSHIP" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/SHADOWS-OF-CHRIST.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >SHADOWS OF CHRIST" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->SHADOWS OF CHRIST" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/SHERBERT-AND-BLOWTORCH.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "WISDOM >SHERBERT AND BLOWTORCH" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "WISDOM->SHERBERT AND BLOWTORCH" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/SHOVING-SUGAR-BODY.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >SHOVING SUGAR BODY" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->SHOVING SUGAR BODY" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/SHOWING-MERCY.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >SHOWING MERCY" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->SHOWING MERCY" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/SIMPLE-AND-DEEP.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "WISDOM >SIMPLE AND DEEP" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "WISDOM->SIMPLE AND DEEP" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/SIMPLE-RELATIONSHIP-CHRIST.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >SIMPLE RELATIONSHIP CHRIST" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->SIMPLE RELATIONSHIP CHRIST" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/SIN-IS-EXPENSIVE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >SIN IS EXPENSIVE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->SIN IS EXPENSIVE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/SIN-MAKES-IDIOTS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE >SIN MAKES IDIOTS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE->SIN MAKES IDIOTS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/SIN-TASTES-GOOD.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >SIN TASTES GOOD" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->SIN TASTES GOOD" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/SPARED-ON-FREEWAY.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >SPARED ON FREEWAY" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->SPARED ON FREEWAY" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/SPIRIT-IS-LIFE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >SPIRIT IS LIFE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->SPIRIT IS LIFE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/SPIRIT-OF-CHRIST-ENCOUNTER.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >SPIRIT OF CHRIST ENCOUNTER" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->SPIRIT OF CHRIST ENCOUNTER" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/SPIRIT-TRANSFORMING-ENERGY.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >SPIRIT TRANSFORMING ENERGY" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->SPIRIT TRANSFORMING ENERGY" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/SPIRIT-VS-MATTER.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY >SPIRIT VS MATTER" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY->SPIRIT VS MATTER" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/SPITTING-IN-GODS-FACE.md
+  Line 48 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >SPITTING IN GODS FACE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->SPITTING IN GODS FACE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/SPITTING-ON-THE-CROSS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE >SPITTING ON THE CROSS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE->SPITTING ON THE CROSS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/STANDARD-MODEL-HOLES.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY >STANDARD MODEL HOLES" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY->STANDARD MODEL HOLES" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/STANDARD-MODEL-OBSERVATION.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY >STANDARD MODEL OBSERVATION" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY->STANDARD MODEL OBSERVATION" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/SUBMITTING-OUR-PLANS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.HUMILITY >SUBMITTING OUR PLANS"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "edge.HUMILITY->SUBMITTING OUR PLANS"}]->(child);
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.HUMILITY >SUBMITTING OUR PLANS"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.HUMILITY->SUBMITTING OUR PLANS"}]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/SUFFERING-VS-SINNING.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >SUFFERING VS SINNING" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY->SUFFERING VS SINNING" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/SUPPRESSING-THE-BIBLE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH >SUPPRESSING THE BIBLE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH->SUPPRESSING THE BIBLE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/SURVIVING-JUDGMENT.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.THE GOSPEL >SURVIVING JUDGMENT"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "edge.THE GOSPEL->SURVIVING JUDGMENT"}]->(child);
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.THE GOSPEL >SURVIVING JUDGMENT"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.THE GOSPEL->SURVIVING JUDGMENT"}]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/TALKING-TO-PEOPLE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "WISDOM >TALKING TO PEOPLE"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "WISDOM->TALKING TO PEOPLE"}]->(child);
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "WISDOM >TALKING TO PEOPLE"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.WISDOM->TALKING TO PEOPLE"}]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/TEACHER-AND-IDENTITY.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "WISDOM >TEACHER AND IDENTITY" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "WISDOM->TEACHER AND IDENTITY" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/TERROR-TO-ENEMIES.md
+  Line 48 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.THE GODHEAD >TERROR TO ENEMIES"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "edge.THE GODHEAD->TERROR TO ENEMIES"}]->(child);
+  Line 48 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.THE GODHEAD >TERROR TO ENEMIES"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.THE GODHEAD->TERROR TO ENEMIES"}]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/THE-BRINK-OF-EXTINCTION.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >THE BRINK OF EXTINCTION" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->THE BRINK OF EXTINCTION" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/THE-CROSS.md
+  Line 48 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.THE GOSPEL >THE CROSS"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "edge.THE GOSPEL->THE CROSS"}]->(child);
+  Line 48 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.THE GOSPEL >THE CROSS"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.THE GOSPEL->THE CROSS"}]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/THE-FIRST-SIN.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >THE FIRST SIN" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY->THE FIRST SIN" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/THE-NEXT-LIFE-IMPORTANCE.md
+  Line 48 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >THE NEXT LIFE IMPORTANCE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->THE NEXT LIFE IMPORTANCE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/THE-PRICE-OF-PROMISCUITY.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >THE PRICE OF PROMISCUITY" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->THE PRICE OF PROMISCUITY" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/THE-SPEAKING-GOD.md
+  Line 48 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.THE GODHEAD >THE SPEAKING GOD"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "edge.THE GODHEAD->THE SPEAKING GOD"}]->(child);
+  Line 48 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.THE GODHEAD >THE SPEAKING GOD"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.THE GODHEAD->THE SPEAKING GOD"}]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/THE-SUFFERING-GOD.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >THE SUFFERING GOD" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->THE SUFFERING GOD" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/THREE-TYPES-OF-HUMANITY.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >THREE TYPES OF HUMANITY" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY->THREE TYPES OF HUMANITY" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/TRAGEDY-IN-CHURCH.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION >TRAGEDY IN CHURCH" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION->TRAGEDY IN CHURCH" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/TRANSFORMING-POWER-LOVE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >TRANSFORMING POWER LOVE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->TRANSFORMING POWER LOVE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/TRANSGENDER-RESTROOM-DEBATE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >TRANSGENDER RESTROOM DEBATE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->TRANSGENDER RESTROOM DEBATE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/TREASURE-UNDER-GARBAGE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "WISDOM >TREASURE UNDER GARBAGE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "WISDOM->TREASURE UNDER GARBAGE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/TREATED-AS-FAMILY.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE >TREATED AS FAMILY" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE->TREATED AS FAMILY" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/TREATING-JUDAS-ISCARIOT.md
+  Line 48 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >TREATING JUDAS ISCARIOT" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->TREATING JUDAS ISCARIOT" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/TRUE-THEOLOGIAN.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.SPIRITUALITY >TRUE THEOLOGIAN"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "edge.SPIRITUALITY->TRUE THEOLOGIAN"}]->(child);
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.SPIRITUALITY >TRUE THEOLOGIAN"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.SPIRITUALITY->TRUE THEOLOGIAN"}]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/TRUE-WEALTH-NEED.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY >TRUE WEALTH NEED" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY->TRUE WEALTH NEED" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/TRULY-HUMAN-ENGAGEMENT.md
+  Line 48 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >TRULY HUMAN ENGAGEMENT" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY->TRULY HUMAN ENGAGEMENT" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/TRUTH-AS-WEAPON.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH >TRUTH AS WEAPON" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH->TRUTH AS WEAPON" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/TRUTH-CONFIRMS-GOD.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH >TRUTH CONFIRMS GOD" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH->TRUTH CONFIRMS GOD" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/TRUTH-EXPOSES-LIES.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH >TRUTH EXPOSES LIES" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH->TRUTH EXPOSES LIES" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/TWITTER-TO-HEAVEN.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >TWITTER TO HEAVEN" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->TWITTER TO HEAVEN" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/TWO-TYPES-CHURCHES.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION >TWO TYPES CHURCHES" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION->TWO TYPES CHURCHES" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/ULTIMATE-REALITY-GOD.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >ULTIMATE REALITY GOD" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->ULTIMATE REALITY GOD" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/UNCONDITIONAL-LOVE-HATRED.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >UNCONDITIONAL LOVE HATRED" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->UNCONDITIONAL LOVE HATRED" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/UNCONDITIONAL-LOVE-PRAYER.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >UNCONDITIONAL LOVE PRAYER" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->UNCONDITIONAL LOVE PRAYER" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/UNDERSTANDING-SIN-HELL.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "EVIL >UNDERSTANDING SIN HELL" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "EVIL->UNDERSTANDING SIN HELL" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/UNEMPLOYMENT-STATS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >UNEMPLOYMENT STATS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->UNEMPLOYMENT STATS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/UNEQUALLY-YOKED-MARRIAGE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >UNEQUALLY YOKED MARRIAGE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->UNEQUALLY YOKED MARRIAGE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/UNFORGIVABLE-SIN.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE >UNFORGIVABLE SIN" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE->UNFORGIVABLE SIN" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/UNGRATEFUL-HUMAN-RACE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >UNGRATEFUL HUMAN RACE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY->UNGRATEFUL HUMAN RACE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/UNITY-IN-CHRIST.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >UNITY IN CHRIST" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->UNITY IN CHRIST" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/UNIVERSAL-MERCY-REQUIREMENT.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE >UNIVERSAL MERCY REQUIREMENT" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE->UNIVERSAL MERCY REQUIREMENT" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/UNIVERSE-INSIDE-GOD.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >UNIVERSE INSIDE GOD" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->UNIVERSE INSIDE GOD" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/UNPATRIOTIC-CORPORATIONS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >UNPATRIOTIC CORPORATIONS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->UNPATRIOTIC CORPORATIONS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/UNSUSTAINABLE-WORLD-SYSTEM.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >UNSUSTAINABLE WORLD SYSTEM" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY->UNSUSTAINABLE WORLD SYSTEM" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/VALUE-OF-ETERNITY.md
+  Line 48 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.SPIRITUALITY >VALUE OF ETERNITY"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "edge.SPIRITUALITY->VALUE OF ETERNITY"}]->(child);
+  Line 48 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.SPIRITUALITY >VALUE OF ETERNITY"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.SPIRITUALITY->VALUE OF ETERNITY"}]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/VOICE-OF-THE-DEVIL.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "EVIL >VOICE OF THE DEVIL" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "EVIL->VOICE OF THE DEVIL" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/WALKING-WITH-GOD.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY >WALKING WITH GOD" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->WALKING WITH GOD" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/WANTING-DECEPTION.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH >WANTING DECEPTION" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH->WANTING DECEPTION" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/WAY-OF-EMPIRES.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >WAY OF EMPIRES" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY->WAY OF EMPIRES" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/WAY-TO-MANS-EGO.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >WAY TO MANS EGO" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY->WAY TO MANS EGO" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/WEALTH-DISPARITY-GAP.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >WEALTH DISPARITY GAP" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->WEALTH DISPARITY GAP" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/WEIGHT-OF-GREED.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >WEIGHT OF GREED" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->WEIGHT OF GREED" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/WEIGHT-OF-SIN.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >WEIGHT OF SIN" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->WEIGHT OF SIN" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/WELFARE-JOB-CHURCH.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION >WELFARE JOB CHURCH" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION->WELFARE JOB CHURCH" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/WHOLE-BIBLE-ACCEPTANCE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH >WHOLE BIBLE ACCEPTANCE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH->WHOLE BIBLE ACCEPTANCE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/WICKEDNESS-AND-GUN-LAWS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >WICKEDNESS AND GUN LAWS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->WICKEDNESS AND GUN LAWS" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/WISDOM-OF-GOD.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >WISDOM OF GOD" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->WISDOM OF GOD" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/WITNESSING-GODS-PRESENCE.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "WORSHIP >WITNESSING GODS PRESENCE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "WORSHIP->WITNESSING GODS PRESENCE" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/WITTGENSTEIN-DISCOVERY.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY >WITTGENSTEIN DISCOVERY" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY->WITTGENSTEIN DISCOVERY" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/WORK-TO-BE-SAVED.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE >WORK TO BE SAVED" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "GRACE->WORK TO BE SAVED" }]->(child);
+
+
+FILE: Book_of_Tweets/THOUGHTS/WORLD-HATES-GOD.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >WORLD HATES GOD" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY->WORLD HATES GOD" }]->(child);
+
+
+FILE: Book_of_Tweets/batch_1_review.md
+  Line 73 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.HUMILITY >SUBMITTING OUR PLANS"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "edge.HUMILITY->SUBMITTING OUR PLANS"}]->(child);
+  Line 73 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.HUMILITY >SUBMITTING OUR PLANS"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.HUMILITY->SUBMITTING OUR PLANS"}]->(child);
+
+
+DIRECTORY: content/
+--------------------------------------------------------------------------------
+
+FILE: content/BIBLE/Deut/THE-SOURCE-OF-WEALTH.md
+  Line 51 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_PASSAGE {name: "b.edge.WEALTH->THE SOURCE OF WEALTH"}]->(child)
+    AFTER:  MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.b.WEALTH->THE SOURCE OF WEALTH"}]->(child)
+
+
+FILE: content/BIBLE/Prov/01/FAITHLESSNESS.md
+  Line 44 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_PASSAGE {name: "b.edge.EVIL->FAITHLESSNESS"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.b.EVIL->FAITHLESSNESS"}]->(child);
+
+
+FILE: content/BIBLE/Prov/01/KNOWLEDGE.md
+  Line 51 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_PASSAGE {name: "b.edge.THE GODHEAD->KNOWLEDGE"}]->(child)
+    AFTER:  MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.b.THE GODHEAD->KNOWLEDGE"}]->(child)
+
+
+FILE: content/BIBLE/Prov/02/FATE-OF-THE-WICKED.md
+  Line 44 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_PASSAGE {name: "b.edge.EVIL->FATE_OF_THE_WICKED"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.b.EVIL->FATE_OF_THE_WICKED"}]->(child);
+
+
+FILE: content/BIBLE/Prov/02/PROTECTIION-FROM-EVIL.md
+  Line 44 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_PASSAGE {name: "b.edge.EVIL->PROTECTION_FROM_EVIL"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.b.EVIL->PROTECTION_FROM_EVIL"}]->(child);
+
+
+FILE: content/BIBLE/Prov/03/DISCIPLINE-REBUKE.md
+  Line 44 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_PASSAGE {name: "b.edge.HUMILITY->DISCIPLINE_AND_REBUKE"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.b.HUMILITY->DISCIPLINE_AND_REBUKE"}]->(child);
+
+
+FILE: content/BIBLE/Prov/03/HONOR-GOD.md
+  Line 66 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_PASSAGE {name: "b.edge.THE GODHEAD->HONOR GOD"}]->(child)
+    AFTER:  MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.b.THE GODHEAD->HONOR GOD"}]->(child)
+
+
+FILE: content/BIBLE/Prov/03/KINDNESS-AND-TRUTH.md
+  Line 68 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_PASSAGE {name: "edge.ATTITUDE->KINDESS AND TRUTH"}]->(child)
+    AFTER:  MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.ATTITUDE->KINDESS AND TRUTH"}]->(child)
+
+
+FILE: content/BIBLE/Prov/03/MAN-OF-VIOLENCE.md
+  Line 44 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_PASSAGE {name: "b.edge.EVIL->MAN_OF_VIOLENCE"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.b.EVIL->MAN_OF_VIOLENCE"}]->(child);
+
+
+FILE: content/BIBLE/Prov/03/NEIGHBORS.md
+  Line 44 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_PASSAGE {name: "b.edge.SOCIOLOGY->NEIGHBORS"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.b.SOCIOLOGY->NEIGHBORS"}]->(child);
+
+
+FILE: content/BIBLE/Prov/03/OBLIGATION.md
+  Line 44 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_PASSAGE {name: "b.edge.MORALITY->OBLIGATION"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.b.MORALITY->OBLIGATION"}]->(child);
+
+
+FILE: content/BIBLE/Prov/03/PRIDE-AS-EVIL.md
+  Line 44 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_PASSAGE {name: "b.edge.HUMILITY->PRIDE-AS-EVIL"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.b.HUMILITY->PRIDE-AS-EVIL"}]->(child);
+
+
+FILE: content/BIBLE/Prov/03/SCORNERS.md
+  Line 44 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_PASSAGE {name: "b.edge.EVIL->SCORNERS"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.b.EVIL->SCORNERS"}]->(child);
+
+
+FILE: content/BIBLE/Prov/03/TRUST-THE-LORD.md
+  Line 44 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_PASSAGE {name: "b.edge.FAITH->TRUST_THE_LORD"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.b.FAITH->TRUST_THE_LORD"}]->(child);
+
+
+FILE: content/BIBLE/Prov/21/HEART-OF-THE-KING.md
+  Line 51 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_PASSAGE {name: "b.edge.THE GODHEAD->HEART OF THE KING"}]->(child)
+    AFTER:  MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.b.THE GODHEAD->HEART OF THE KING"}]->(child)
+
+
+FILE: content/BIBLE/Roma/FREEDOM-OF-DEATH.md
+  Line 44 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_PASSAGE {name: "b.edge.FREEDOM->FREEDOM_OF_DEATH"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.b.FREEDOM->FREEDOM_OF_DEATH"}]->(child);
+
+
+FILE: content/BIBLE/Roma/NOT-OF-FAITH.md
+  Line 44 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_PASSAGE {name: "b.edge.FAITH->NOT-OF-FAITH"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.b.FAITH->NOT-OF-FAITH"}]->(child);
+
+
+FILE: content/PASSAGES/THE-LORD-GIVES.md
+  Line 50 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "b.edge.DIVINE SOVEREIGNTY->THE LORD GIVES"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.b.DIVINE SOVEREIGNTY->THE LORD GIVES"}]->(child);
+
+
+FILE: content/THOUGHTS/692-189.md
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.PSYCHOLOGY->692_189"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.PSYCHOLOGY->692_189"}]->(child);
+
+
+FILE: content/THOUGHTS/A-GREAT-DAY.md
+  Line 48 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.HUMOR->A GREAT DAY"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.HUMOR->A GREAT DAY"}]->(child);
+
+
+FILE: content/THOUGHTS/ACCOUNTABILITY.md
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.HUMANITY->ACCOUNTABILITY"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.HUMANITY->ACCOUNTABILITY"}]->(child);
+
+
+FILE: content/THOUGHTS/ACT-OF-GOD.md
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.PSYCHOLOGY->ACT_OF_GOD"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.PSYCHOLOGY->ACT_OF_GOD"}]->(child);
+
+
+FILE: content/THOUGHTS/ACTS-OF-THE-APOSTLES.md
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.THE-BIBLE->ACTS_OF_THE_APOSTLES"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.THE-BIBLE->ACTS_OF_THE_APOSTLES"}]->(child);
+
+
+FILE: content/THOUGHTS/ADDICTION.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.PSYCHOLOGY->ADDICTION"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.PSYCHOLOGY->ADDICTION"}]->(child);
+
+
+FILE: content/THOUGHTS/ADOPTION.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.THE-GOSPEL->ADOPTION"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.THE-GOSPEL->ADOPTION"}]->(child);
+
+
+FILE: content/THOUGHTS/AMBITION.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.THE-GOSPEL->AMBITION"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.THE-GOSPEL->AMBITION"}]->(child);
+
+
+FILE: content/THOUGHTS/AMERICAN.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.POLITICAL-SCIENCE->AMERICAN"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.POLITICAL-SCIENCE->AMERICAN"}]->(child);
+
+
+FILE: content/THOUGHTS/ANGER-AS-CONTAGION.md
+  Line 51 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE >ANGER AS CONTAGION" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE->ANGER AS CONTAGION" }]->(child);
+
+
+FILE: content/THOUGHTS/ANOTHER-SINNER.md
+  Line 119 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.EVIL->ANOTHER_SINNER"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.EVIL->ANOTHER_SINNER"}]->(child);
+
+
+FILE: content/THOUGHTS/ANTI-SEMITISM.md
+  Line 54 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.PSYCHOLOGY->ANTI_SEMITISM"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.PSYCHOLOGY->ANTI_SEMITISM"}]->(child);
+
+
+FILE: content/THOUGHTS/ANXIETY.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.FAITH->ANXIETY"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.FAITH->ANXIETY"}]->(child);
+
+
+FILE: content/THOUGHTS/ATTENTIONS-DESIRE.md
+  Line 51 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE >ATTENTION'S DESIRE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE->ATTENTION'S DESIRE" }]->(child);
+
+
+FILE: content/THOUGHTS/AUTOMATIC-MERCY.md
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.ATTITUDE->AUTOMATIC_MERCY"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.ATTITUDE->AUTOMATIC_MERCY"}]->(child);
+
+
+FILE: content/THOUGHTS/BACH-AND-GENIUS.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.MUSIC >BACH AND GENIUS"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "edge.MUSIC->BACH AND GENIUS"}]->(child);
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.MUSIC >BACH AND GENIUS"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.MUSIC->BACH AND GENIUS"}]->(child);
+
+
+FILE: content/THOUGHTS/BEHIND.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.DIVINE-SOVEREIGNTY->BEHIND"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.DIVINE-SOVEREIGNTY->BEHIND"}]->(child);
+
+
+FILE: content/THOUGHTS/BENEFICIARIES.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.EVANGELISM->BENEFICIARIES"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.EVANGELISM->BENEFICIARIES"}]->(child);
+
+
+FILE: content/THOUGHTS/BORED-VS-BORING.md
+  Line 51 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE >BORED VS BORING" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE->BORED VS BORING" }]->(child);
+
+
+FILE: content/THOUGHTS/BRIBERY.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.EVIL->BRIBERY"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.EVIL->BRIBERY"}]->(child);
+
+
+FILE: content/THOUGHTS/CHANGE-OTHERS-NOT-SELF.md
+  Line 51 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE >CHANGE OTHERS NOT SELF" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE->CHANGE OTHERS NOT SELF" }]->(child);
+
+
+FILE: content/THOUGHTS/CITIZENSHIP.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.ECONOMICS->CITIZENSHIP"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.ECONOMICS->CITIZENSHIP"}]->(child);
+
+
+FILE: content/THOUGHTS/COMPANY-TRAINING.md
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.PSYCHOLOGY->COMPANY_TRAINING"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.PSYCHOLOGY->COMPANY_TRAINING"}]->(child);
+
+
+FILE: content/THOUGHTS/CONSEQUENCES.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.MERCY->CONSEQUENCES"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.MERCY->CONSEQUENCES"}]->(child);
+
+
+FILE: content/THOUGHTS/CONTENTMENT.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.ATTITUDE->CONTENTMENT"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.ATTITUDE->CONTENTMENT"}]->(child);
+
+
+FILE: content/THOUGHTS/COWARDS.md
+  Line 48 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.EVIL->COWARDS"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.EVIL->COWARDS"}]->(child);
+
+
+FILE: content/THOUGHTS/DARK-MATTER.md
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.COSMOLOGY->DARK_MATTER"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.COSMOLOGY->DARK_MATTER"}]->(child);
+
+
+FILE: content/THOUGHTS/DEATH-ROW.md
+  Line 119 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.THE-GOSPEL->DEATH_ROW"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.THE-GOSPEL->DEATH_ROW"}]->(child);
+
+
+FILE: content/THOUGHTS/DEATH-VS-DEATH.md
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.THE-GOSPEL->DEATH_VS_DEATH"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.THE-GOSPEL->DEATH_VS_DEATH"}]->(child);
+
+
+FILE: content/THOUGHTS/DEBT.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.ENTITLEMENT->DEBT"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.ENTITLEMENT->DEBT"}]->(child);
+
+
+FILE: content/THOUGHTS/DEBTORS.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.ECONOMICS->DEBTORS"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.ECONOMICS->DEBTORS"}]->(child);
+
+
+FILE: content/THOUGHTS/DEFINE-APATHY.md
+  Line 51 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE >DEFINE APATHY" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE->DEFINE APATHY" }]->(child);
+
+
+FILE: content/THOUGHTS/DEFINE-HOPE.md
+  Line 51 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE >DEFINE HOPE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE->DEFINE HOPE" }]->(child);
+
+
+FILE: content/THOUGHTS/DEMONS.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.SPIRITS->DEMONS"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.SPIRITS->DEMONS"}]->(child);
+
+
+FILE: content/THOUGHTS/DESPISING-THE-CROSS.md
+  Line 54 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.EVIL->DESPISING_THE_CROSS"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.EVIL->DESPISING_THE_CROSS"}]->(child);
+
+
+FILE: content/THOUGHTS/DIALOGUE.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.EVIL->DIALOGUE"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.EVIL->DIALOGUE"}]->(child);
+
+
+FILE: content/THOUGHTS/DIFFICULTY.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.ATTITUDE->DIFFICULTY"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.ATTITUDE->DIFFICULTY"}]->(child);
+
+
+FILE: content/THOUGHTS/DISAGREEMENT.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.FAITH->DISAGREEMENT"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.FAITH->DISAGREEMENT"}]->(child);
+
+
+FILE: content/THOUGHTS/DISCRETION.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.PSYCHOLOGY->DISCRETION"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.PSYCHOLOGY->DISCRETION"}]->(child);
+
+
+FILE: content/THOUGHTS/DIVINE-SEED.md
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.GRACE->DIVINE_SEED"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.GRACE->DIVINE_SEED"}]->(child);
+
+
+FILE: content/THOUGHTS/DIVINE-WILL.md
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.DIVINE SOVEREIGNTY->DIVINE WILL"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.DIVINE SOVEREIGNTY->DIVINE WILL"}]->(child);
+
+
+FILE: content/THOUGHTS/DIVINE-WORTH.md
+  Line 119 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.HOLINESS->DIVINE_WORTH"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.HOLINESS->DIVINE_WORTH"}]->(child);
+
+
+FILE: content/THOUGHTS/DUST.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.ATTITUDE->DUST"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.ATTITUDE->DUST"}]->(child);
+
+
+FILE: content/THOUGHTS/EGO.md
+  Line 64 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.THE GODHEAD->EGO"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.THE GODHEAD->EGO"}]->(child);
+
+
+FILE: content/THOUGHTS/ELECTROMAGNETISM-TOUCH.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "PHYSICS >ELECTROMAGNETISM TOUCH" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "PHYSICS->ELECTROMAGNETISM TOUCH" }]->(child);
+
+
+FILE: content/THOUGHTS/EMPATHY.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.LOVE->EMPATHY"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.LOVE->EMPATHY"}]->(child);
+
+
+FILE: content/THOUGHTS/EMPTINESS.md
+  Line 64 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.THE GODHEAD->EMPTINESS"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.THE GODHEAD->EMPTINESS"}]->(child);
+
+
+FILE: content/THOUGHTS/ENDING.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.APOCALYPSE->ENDING"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.APOCALYPSE->ENDING"}]->(child);
+
+
+FILE: content/THOUGHTS/ESSENCE-OF-JOY.md
+  Line 51 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE >ESSENCE OF JOY" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE->ESSENCE OF JOY" }]->(child);
+
+
+FILE: content/THOUGHTS/ETERNAL-LIFE.md
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.FAITHFULNESS->ETERNAL_LIFE"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.FAITHFULNESS->ETERNAL_LIFE"}]->(child);
+
+
+FILE: content/THOUGHTS/EVERYTHING.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.CREATION->EVERYTHING"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.CREATION->EVERYTHING"}]->(child);
+
+
+FILE: content/THOUGHTS/EVIL-WAS-NECESSARY.md
+  Line 54 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.EVIL->EVIL_WAS_NECESSARY"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.EVIL->EVIL_WAS_NECESSARY"}]->(child);
+
+
+FILE: content/THOUGHTS/EVOLUTION-IS-SCIENCE?.md
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.RELIGION->EVOLUTION_IS_SCIENCE?"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.RELIGION->EVOLUTION_IS_SCIENCE?"}]->(child);
+
+
+FILE: content/THOUGHTS/EVOLUTIONARY-THEORY.md
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.COSMOLOGY->EVOLUTIONARY_THEORY"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.COSMOLOGY->EVOLUTIONARY_THEORY"}]->(child);
+
+
+FILE: content/THOUGHTS/FAIRNESS.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.JUSTICE->FAIRNESS"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.JUSTICE->FAIRNESS"}]->(child);
+
+
+FILE: content/THOUGHTS/FATHER.md
+  Line 39 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.GRACE->FATHER"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.GRACE->FATHER"}]->(child);
+
+
+FILE: content/THOUGHTS/FEAR-AS-BAD-MOTIVE.md
+  Line 51 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE >FEAR AS BAD MOTIVE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE->FEAR AS BAD MOTIVE" }]->(child);
+
+
+FILE: content/THOUGHTS/FIGMENTS.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.CREATION->FIGMENTS"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.CREATION->FIGMENTS"}]->(child);
+
+
+FILE: content/THOUGHTS/FIRST-RULE.md
+  Line 119 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.HUMOR->FIRST_RULE"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.HUMOR->FIRST_RULE"}]->(child);
+
+
+FILE: content/THOUGHTS/FOCUS.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.PSYCHOLOGY->FOCUS"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.PSYCHOLOGY->FOCUS"}]->(child);
+
+
+FILE: content/THOUGHTS/FORBIDDEN.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.EVIL->FORBIDDEN"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.EVIL->FORBIDDEN"}]->(child);
+
+
+FILE: content/THOUGHTS/FORGIVENESS.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.MERCY->FORGIVENESS"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.MERCY->FORGIVENESS"}]->(child);
+
+
+FILE: content/THOUGHTS/FOSSILS.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.GEOLOGY->FOSSILS"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.GEOLOGY->FOSSILS"}]->(child);
+
+
+FILE: content/THOUGHTS/FRIENDS-AND-ENEMIES.md
+  Line 48 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.CREATION->FRIENDS AND ENEMIES"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.CREATION->FRIENDS AND ENEMIES"}]->(child);
+
+
+FILE: content/THOUGHTS/FRUSTRATION.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.FAITHFULNESS->FRUSTRATION"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.FAITHFULNESS->FRUSTRATION"}]->(child);
+
+
+FILE: content/THOUGHTS/FULLNESS.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.GRACE->FULLNESS"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.GRACE->FULLNESS"}]->(child);
+
+
+FILE: content/THOUGHTS/GETTING-VS-BEING.md
+  Line 51 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE >GETTING VS BEING" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE->GETTING VS BEING" }]->(child);
+
+
+FILE: content/THOUGHTS/GLORY-TO-GOD.md
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.DIVINE-SOVEREIGNTY->GLORY_TO_GOD"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.DIVINE-SOVEREIGNTY->GLORY_TO_GOD"}]->(child);
+
+
+FILE: content/THOUGHTS/GLOVES.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.EVANGELISM->GLOVES"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.EVANGELISM->GLOVES"}]->(child);
+
+
+FILE: content/THOUGHTS/GNOSIS.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.FAITH->GNOSIS"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.FAITH->GNOSIS"}]->(child);
+
+
+FILE: content/THOUGHTS/GOD-AWARENESS.md
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.THE-GODHEAD->GOD_AWARENESS"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.THE-GODHEAD->GOD_AWARENESS"}]->(child);
+
+
+FILE: content/THOUGHTS/GOD-IN-CHARGE.md
+  Line 54 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.DIVINE-SOVEREIGNTY->GOD_IN_CHARGE"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.DIVINE-SOVEREIGNTY->GOD_IN_CHARGE"}]->(child);
+
+
+FILE: content/THOUGHTS/GODS.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.PSYCHOLOGY->GODS"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.PSYCHOLOGY->GODS"}]->(child);
+
+
+FILE: content/THOUGHTS/GRATITUDE.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.ATTITUDE->GRATITUDE"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.ATTITUDE->GRATITUDE"}]->(child);
+
+
+FILE: content/THOUGHTS/GUILT.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.PSYCHOLOGY->GUILT"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.PSYCHOLOGY->GUILT"}]->(child);
+
+
+FILE: content/THOUGHTS/HAPPINESS.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.ATTITUDE->HAPPINESS"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.ATTITUDE->HAPPINESS"}]->(child);
+
+
+FILE: content/THOUGHTS/HAPPY-IF-GOD-PLEASED.md
+  Line 50 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE >HAPPY IF GOD PLEASED" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE->HAPPY IF GOD PLEASED" }]->(child);
+
+
+FILE: content/THOUGHTS/HAPPY-SABBATH.md
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.CREATION->HAPPY_SABBATH"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.CREATION->HAPPY_SABBATH"}]->(child);
+
+
+FILE: content/THOUGHTS/HOLLYWOOD-VIOLENCE-PREMISE.md
+  Line 51 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE >HOLLYWOOD VIOLENCE PREMISE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE->HOLLYWOOD VIOLENCE PREMISE" }]->(child);
+
+
+FILE: content/THOUGHTS/HOME-SWEET-HOME.md
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.THE-GOSPEL->HOME_SWEET_HOME"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.THE-GOSPEL->HOME_SWEET_HOME"}]->(child);
+
+
+FILE: content/THOUGHTS/HONESTY-THROUGH-LOVE.md
+  Line 51 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE >HONESTY THROUGH LOVE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE->HONESTY THROUGH LOVE" }]->(child);
+
+
+FILE: content/THOUGHTS/HUMAN-BREATHS-DAILY.md
+  Line 49 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "CREATION >HUMAN BREATHS DAILY" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "CREATION->HUMAN BREATHS DAILY" }]->(child);
+
+
+FILE: content/THOUGHTS/HUMAN-LAW.md
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.LAW->HUMAN_LAW"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.LAW->HUMAN_LAW"}]->(child);
+
+
+FILE: content/THOUGHTS/HUMAN-LIFE.md
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.WORSHIP->HUMAN_LIFE"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.WORSHIP->HUMAN_LIFE"}]->(child);
+
+
+FILE: content/THOUGHTS/HUMAN-MERCY.md
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.ATTITUDE->HUMAN_MERCY"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.ATTITUDE->HUMAN_MERCY"}]->(child);
+
+
+FILE: content/THOUGHTS/HUMANITARIANISM.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.RELIGION->HUMANITARIANISM"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.RELIGION->HUMANITARIANISM"}]->(child);
+
+
+FILE: content/THOUGHTS/IDIOTS-ALL.md
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.PSYCHOLOGY->IDIOTS_ALL"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.PSYCHOLOGY->IDIOTS_ALL"}]->(child);
+
+
+FILE: content/THOUGHTS/IMAGINATION.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.UNDERSTANDING->IMAGINATION"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.UNDERSTANDING->IMAGINATION"}]->(child);
+
+
+FILE: content/THOUGHTS/IMMORTALITY.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.FAITHFULNESS->IMMORTALITY"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.FAITHFULNESS->IMMORTALITY"}]->(child);
+
+
+FILE: content/THOUGHTS/IMPERSONAL-GOD.md
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.THE-GODHEAD->IMPERSONAL_GOD"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.THE-GODHEAD->IMPERSONAL_GOD"}]->(child);
+
+
+FILE: content/THOUGHTS/IN-HIM-WE-LIVE.md
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.CREATION->IN_HIM_WE_LIVE"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.CREATION->IN_HIM_WE_LIVE"}]->(child);
+
+
+FILE: content/THOUGHTS/INNER-REALITY.md
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.ATTITUDE->INNER_REALITY"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.ATTITUDE->INNER_REALITY"}]->(child);
+
+
+FILE: content/THOUGHTS/INSANITY.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.PSYCHOLOGY->INSANITY"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.PSYCHOLOGY->INSANITY"}]->(child);
+
+
+FILE: content/THOUGHTS/INSATIABLE.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.EVIL->INSATIABLE"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.EVIL->INSATIABLE"}]->(child);
+
+
+FILE: content/THOUGHTS/INTEGRITY.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.MORALITY->INTEGRITY"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.MORALITY->INTEGRITY"}]->(child);
+
+
+FILE: content/THOUGHTS/INVITE-OR-COMMAND?.md
+  Line 59 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.THE-GOSPEL->INVITE_OR_COMMAND?"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.THE-GOSPEL->INVITE_OR_COMMAND?"}]->(child);
+
+
+FILE: content/THOUGHTS/ISLAM.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.RELIGION->ISLAM"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.RELIGION->ISLAM"}]->(child);
+
+
+FILE: content/THOUGHTS/JUSTICE.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.JUSTICE->JUSTICE"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.JUSTICE->JUSTICE"}]->(child);
+
+
+FILE: content/THOUGHTS/LIVING-RELATIONSHIPS.md
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.PSYCHOLOGY->LIVING_RELATIONSHIPS"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.PSYCHOLOGY->LIVING_RELATIONSHIPS"}]->(child);
+
+
+FILE: content/THOUGHTS/LOST-SCIENTISTS.md
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.COSMOLOGY->LOST_SCIENTISTS"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.COSMOLOGY->LOST_SCIENTISTS"}]->(child);
+
+
+FILE: content/THOUGHTS/LOVE.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.LOVE->LOVE"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.LOVE->LOVE"}]->(child);
+
+
+FILE: content/THOUGHTS/LOVE2.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.LOVE->LOVE2"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.LOVE->LOVE2"}]->(child);
+
+
+FILE: content/THOUGHTS/LOVING-OR-LOVED?.md
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.PSYCHOLOGY->LOVING_OR_LOVED?"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.PSYCHOLOGY->LOVING_OR_LOVED?"}]->(child);
+
+
+FILE: content/THOUGHTS/MARK-OF-THE-BEAST.md
+  Line 59 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.THE-GOSPEL->MARK_OF_THE_BEAST"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.THE-GOSPEL->MARK_OF_THE_BEAST"}]->(child);
+
+
+FILE: content/THOUGHTS/MAYBE.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.MERCY->MAYBE"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.MERCY->MAYBE"}]->(child);
+
+
+FILE: content/THOUGHTS/MEEK.md
+  Line 85 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.THE GODHEAD->MEEK"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.THE GODHEAD->MEEK"}]->(child);
+
+
+FILE: content/THOUGHTS/MIRACLES.md
+  Line 64 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.THE GODHEAD->MIRACLES"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.THE GODHEAD->MIRACLES"}]->(child);
+
+
+FILE: content/THOUGHTS/MISUNDERSTOOD.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.UNDERSTANDING->MISUNDERSTOOD"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.UNDERSTANDING->MISUNDERSTOOD"}]->(child);
+
+
+FILE: content/THOUGHTS/MODIFIED-GOSPEL.md
+  Line 46 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.THE-GOSPEL->MODIFIED_GOSPEL"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.THE-GOSPEL->MODIFIED_GOSPEL"}]->(child);
+
+
+FILE: content/THOUGHTS/MOTION.md
+  Line 59 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.THE GODHEAD->MOTION"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.THE GODHEAD->MOTION"}]->(child);
+
+
+FILE: content/THOUGHTS/MURDER.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.PSYCHOLOGY->MURDER"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.PSYCHOLOGY->MURDER"}]->(child);
+
+
+FILE: content/THOUGHTS/MYSTERY.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.PSYCHOLOGY->MYSTERY"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.PSYCHOLOGY->MYSTERY"}]->(child);
+
+
+FILE: content/THOUGHTS/NEAR-TO-GOD.md
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.EVIL->NEAR_TO_GOD"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.EVIL->NEAR_TO_GOD"}]->(child);
+
+
+FILE: content/THOUGHTS/NO-ANGER-SELFLESSNESS.md
+  Line 51 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE >NO ANGER SELFLESSNESS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE->NO ANGER SELFLESSNESS" }]->(child);
+
+
+FILE: content/THOUGHTS/NO-MATCH.md
+  Line 119 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.BEAUTY->NO_MATCH"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.BEAUTY->NO_MATCH"}]->(child);
+
+
+FILE: content/THOUGHTS/NO-WATER.md
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.PHILOSOPHY->NO_WATER"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.PHILOSOPHY->NO_WATER"}]->(child);
+
+
+FILE: content/THOUGHTS/NOBODY.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.EVIL->NOBODY"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.EVIL->NOBODY"}]->(child);
+
+
+FILE: content/THOUGHTS/NOISE.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.GRACE->NOISE"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.GRACE->NOISE"}]->(child);
+
+
+FILE: content/THOUGHTS/NOT-LIKE-ME.md
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.MERCY->NOT_LIKE_ME"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.MERCY->NOT_LIKE_ME"}]->(child);
+
+
+FILE: content/THOUGHTS/NOT-LOOKING-IDIOT.md
+  Line 50 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE >NOT LOOKING IDIOT" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE->NOT LOOKING IDIOT" }]->(child);
+
+
+FILE: content/THOUGHTS/OBLIVION.md
+  Line 41 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.HISTORY->OBLIVION"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.HISTORY->OBLIVION"}]->(child);
+
+
+FILE: content/THOUGHTS/ONE-REASON.md
+  Line 54 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.ATTITUDE->ONE_REASON"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.ATTITUDE->ONE_REASON"}]->(child);
+
+
+FILE: content/THOUGHTS/OPPORTUNITY-FOR-ANGER.md
+  Line 51 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE >OPPORTUNITY FOR ANGER" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE->OPPORTUNITY FOR ANGER" }]->(child);
+
+
+FILE: content/THOUGHTS/ORDERS-GIVING-TAKING.md
+  Line 51 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE >ORDERS GIVING TAKING" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE->ORDERS GIVING TAKING" }]->(child);
+
+
+FILE: content/THOUGHTS/OUR-MASTER.md
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.TRUTH->OUR_MASTER"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.TRUTH->OUR_MASTER"}]->(child);
+
+
+FILE: content/THOUGHTS/OVERCOMING-FEAR-BLAME.md
+  Line 51 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE >OVERCOMING FEAR BLAME" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE->OVERCOMING FEAR BLAME" }]->(child);
+
+
+FILE: content/THOUGHTS/PAINFUL-TRUTH.md
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.PSYCHOLOGY->PAINFUL_TRUTH"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.PSYCHOLOGY->PAINFUL_TRUTH"}]->(child);
+
+
+FILE: content/THOUGHTS/PERCEPTION.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.ATTITUDE->PERCEPTION"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.ATTITUDE->PERCEPTION"}]->(child);
+
+
+FILE: content/THOUGHTS/PERFECT-PEOPLE-CRITICISM.md
+  Line 51 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE >PERFECT PEOPLE CRITICISM" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE->PERFECT PEOPLE CRITICISM" }]->(child);
+
+
+FILE: content/THOUGHTS/PERSECUTION.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.RELIGION->PERSECUTION"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.RELIGION->PERSECUTION"}]->(child);
+
+
+FILE: content/THOUGHTS/PERSEVERANCE.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.ATTITUDE->PERSEVERANCE"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.ATTITUDE->PERSEVERANCE"}]->(child);
+
+
+FILE: content/THOUGHTS/POINTLESS.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.DIVINE-SOVEREIGNTY->POINTLESS"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.DIVINE-SOVEREIGNTY->POINTLESS"}]->(child);
+
+
+FILE: content/THOUGHTS/PREDESTINED.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.DIVINE-SOVEREIGNTY->PREDESTINED"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.DIVINE-SOVEREIGNTY->PREDESTINED"}]->(child);
+
+
+FILE: content/THOUGHTS/PRIDE-IS-PRISON.md
+  Line 51 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE >PRIDE IS PRISON" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE->PRIDE IS PRISON" }]->(child);
+
+
+FILE: content/THOUGHTS/PRIMAL-SCREAM.md
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.HUMOR->PRIMAL_SCREAM"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.HUMOR->PRIMAL_SCREAM"}]->(child);
+
+
+FILE: content/THOUGHTS/PRIORITIES.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.WISDOM->PRIORITIES"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.WISDOM->PRIORITIES"}]->(child);
+
+
+FILE: content/THOUGHTS/PROSPERITY-NOW.md
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.RELIGION->PROSPERITY_NOW"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.RELIGION->PROSPERITY_NOW"}]->(child);
+
+
+FILE: content/THOUGHTS/PROTECTION.md
+  Line 54 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.THE GODHEAD->PROTECTION"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.THE GODHEAD->PROTECTION"}]->(child);
+
+
+FILE: content/THOUGHTS/PSEUDO-SCIENCE.md
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.COSMOLOGY->PSEUDO_SCIENCE"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.COSMOLOGY->PSEUDO_SCIENCE"}]->(child);
+
+
+FILE: content/THOUGHTS/QUIET-THE-FLESH.md
+  Line 119 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.GRACE->QUIET_THE_FLESH"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.GRACE->QUIET_THE_FLESH"}]->(child);
+
+
+FILE: content/THOUGHTS/REACTION.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.PSYCHOLOGY->REACTION"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.PSYCHOLOGY->REACTION"}]->(child);
+
+
+FILE: content/THOUGHTS/REALITY.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.TRUTH->REALITY"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.TRUTH->REALITY"}]->(child);
+
+
+FILE: content/THOUGHTS/REJOICING-IN-OTHERS.md
+  Line 51 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE >REJOICING IN OTHERS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE->REJOICING IN OTHERS" }]->(child);
+
+
+FILE: content/THOUGHTS/REMEMBERING-VS-LIVING-PAST.md
+  Line 51 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE >REMEMBERING VS LIVING PAST" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE->REMEMBERING VS LIVING PAST" }]->(child);
+
+
+FILE: content/THOUGHTS/REPARATIONS.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.JUSTICE->REPARATIONS"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.JUSTICE->REPARATIONS"}]->(child);
+
+
+FILE: content/THOUGHTS/RESPECTING-OUR-BODIES.md
+  Line 51 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE >RESPECTING OUR BODIES" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE->RESPECTING OUR BODIES" }]->(child);
+
+
+FILE: content/THOUGHTS/RESULTS.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.PSYCHOLOGY->RESULTS"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.PSYCHOLOGY->RESULTS"}]->(child);
+
+
+FILE: content/THOUGHTS/ROYAL-DIET.md
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.HEALTH->ROYAL_DIET"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.HEALTH->ROYAL_DIET"}]->(child);
+
+
+FILE: content/THOUGHTS/SCIENCE-CONSPIRACY.md
+  Line 59 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.COSMOLOGY->SCIENCE_CONSPIRACY"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.COSMOLOGY->SCIENCE_CONSPIRACY"}]->(child);
+
+
+FILE: content/THOUGHTS/SECRETS.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.PSYCHOLOGY->SECRETS"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.PSYCHOLOGY->SECRETS"}]->(child);
+
+
+FILE: content/THOUGHTS/SELF-DENIAL.md
+  Line 119 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.ATTITUDE->SELF_DENIAL"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.ATTITUDE->SELF_DENIAL"}]->(child);
+
+
+FILE: content/THOUGHTS/SELF-WORSHIP.md
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.RELIGION->SELF_WORSHIP"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.RELIGION->SELF_WORSHIP"}]->(child);
+
+
+FILE: content/THOUGHTS/SENTIENCE.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.SPIRITS->SENTIENCE"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.SPIRITS->SENTIENCE"}]->(child);
+
+
+FILE: content/THOUGHTS/SHOCKED.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.EVIL->SHOCKED"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.EVIL->SHOCKED"}]->(child);
+
+
+FILE: content/THOUGHTS/SHOULD.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.MORALITY->SHOULD"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.MORALITY->SHOULD"}]->(child);
+
+
+FILE: content/THOUGHTS/SHUT-DOWN.md
+  Line 59 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.FREEDOM->SHUT_DOWN"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.FREEDOM->SHUT_DOWN"}]->(child);
+
+
+FILE: content/THOUGHTS/SIN.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.GRACE->SIN"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.GRACE->SIN"}]->(child);
+
+
+FILE: content/THOUGHTS/SKEWERED-TIMELINES.md
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.HISTORY->SKEWERED_TIMELINES"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.HISTORY->SKEWERED_TIMELINES"}]->(child);
+
+
+FILE: content/THOUGHTS/SOL-ROTATION.md
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.CREATION->SOL_ROTATION"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.CREATION->SOL_ROTATION"}]->(child);
+
+
+FILE: content/THOUGHTS/SOL-VELOCITY.md
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.CREATION->SOL_VELOCITY"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.CREATION->SOL_VELOCITY"}]->(child);
+
+
+FILE: content/THOUGHTS/SPIRIT.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.SPIRITS->SPIRIT"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.SPIRITS->SPIRIT"}]->(child);
+
+
+FILE: content/THOUGHTS/SPIRITUAL-HEALTH.md
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.SPIRITUALITY->SPIRITUAL_HEALTH"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.SPIRITUALITY->SPIRITUAL_HEALTH"}]->(child);
+
+
+FILE: content/THOUGHTS/STRENGTH.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.ATTITUDE->STRENGTH"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.ATTITUDE->STRENGTH"}]->(child);
+
+
+FILE: content/THOUGHTS/TERRIBLE-SECRETS.md
+  Line 51 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE >TERRIBLE SECRETS" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE->TERRIBLE SECRETS" }]->(child);
+
+
+FILE: content/THOUGHTS/THE-BIBLE.md
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.HISTORY->THE_BIBLE"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.HISTORY->THE_BIBLE"}]->(child);
+
+
+FILE: content/THOUGHTS/THE-END-OF-EVIL.md
+  Line 119 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.EVIL->THE_END_OF_EVIL"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.EVIL->THE_END_OF_EVIL"}]->(child);
+
+
+FILE: content/THOUGHTS/THE-HOLY-SPIRIT.md
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.THE-GODHEAD->THE_HOLY_SPIRIT"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.THE-GODHEAD->THE_HOLY_SPIRIT"}]->(child);
+
+
+FILE: content/THOUGHTS/THE-IRC.md
+  Line 119 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.FIN-GOV->THE_IRC"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.FIN-GOV->THE_IRC"}]->(child);
+
+
+FILE: content/THOUGHTS/THE-LAKE-OF-FIRE-AND-SULFUR.md
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.JUSTICE->THE_LAKE_OF_FIRE_AND_SULFUR"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.JUSTICE->THE_LAKE_OF_FIRE_AND_SULFUR"}]->(child);
+
+
+FILE: content/THOUGHTS/THE-LAST-WORD.md
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.THE-GOSPEL->THE_LAST_WORD"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.THE-GOSPEL->THE_LAST_WORD"}]->(child);
+
+
+FILE: content/THOUGHTS/THE-QUICK-AND-THE-DEAD.md
+  Line 54 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.SPIRITUALITY->THE_QUICK_AND_THE_DEAD"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.SPIRITUALITY->THE_QUICK_AND_THE_DEAD"}]->(child);
+
+
+FILE: content/THOUGHTS/THE-REAL-YOU.md
+  Line 59 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.GRACE->THE_REAL_YOU"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.GRACE->THE_REAL_YOU"}]->(child);
+
+
+FILE: content/THOUGHTS/THE-TRUE-VINE.md
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.SPIRITUALITY->THE_TRUE_VINE"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.SPIRITUALITY->THE_TRUE_VINE"}]->(child);
+
+
+FILE: content/THOUGHTS/THE-ULTIMATE.md
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.THE-GODHEAD->THE_ULTIMATE"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.THE-GODHEAD->THE_ULTIMATE"}]->(child);
+
+
+FILE: content/THOUGHTS/THE-ULTIMATE2.md
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.THE-GODHEAD->THE_ULTIMATE2"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.THE-GODHEAD->THE_ULTIMATE2"}]->(child);
+
+
+FILE: content/THOUGHTS/THINK.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.PSYCHOLOGY->THINK"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.PSYCHOLOGY->THINK"}]->(child);
+
+
+FILE: content/THOUGHTS/THINKING-TIME.md
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.PSYCHOLOGY->THINKING_TIME"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.PSYCHOLOGY->THINKING_TIME"}]->(child);
+
+
+FILE: content/THOUGHTS/TIME.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.JUSTICE->TIME"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.JUSTICE->TIME"}]->(child);
+
+
+FILE: content/THOUGHTS/TO_BE_LED.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.GRACE->TO_BE_LED"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.GRACE->TO_BE_LED"}]->(child);
+
+
+FILE: content/THOUGHTS/TRANSCENDENT.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.GRACE->TRANSCENDENT"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.GRACE->TRANSCENDENT"}]->(child);
+
+
+FILE: content/THOUGHTS/TREASURE.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.RELIGION->TREASURE"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.RELIGION->TREASURE"}]->(child);
+
+
+FILE: content/THOUGHTS/TRUE-FAITH.md
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.FAITH->TRUE_FAITH"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.FAITH->TRUE_FAITH"}]->(child);
+
+
+FILE: content/THOUGHTS/UNFAIR.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.DIVINE-SOVEREIGNTY->UNFAIR"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.DIVINE-SOVEREIGNTY->UNFAIR"}]->(child);
+
+
+FILE: content/THOUGHTS/UNFORGIVENESS.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.ATTITUDE->UNFORGIVENESS"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.ATTITUDE->UNFORGIVENESS"}]->(child);
+
+
+FILE: content/THOUGHTS/UNREASONABLE-PEOPLE-PROBLEM.md
+  Line 51 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE >UNREASONABLE PEOPLE PROBLEM" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE->UNREASONABLE PEOPLE PROBLEM" }]->(child);
+
+
+FILE: content/THOUGHTS/UNREASONABLE-PRIDE.md
+  Line 51 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE >UNREASONABLE PRIDE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE->UNREASONABLE PRIDE" }]->(child);
+
+
+FILE: content/THOUGHTS/UNSUBMISSIVE.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.DIVINE-SOVEREIGNTY->UNSUBMISSIVE"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.DIVINE-SOVEREIGNTY->UNSUBMISSIVE"}]->(child);
+
+
+FILE: content/THOUGHTS/US-FOREIGN-POLICY.md
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.POLITICAL-SCIENCE->US_FOREIGN_POLICY"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.POLITICAL-SCIENCE->US_FOREIGN_POLICY"}]->(child);
+
+
+FILE: content/THOUGHTS/VALENTINE.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.PSYCHOLOGY->VALENTINE"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.PSYCHOLOGY->VALENTINE"}]->(child);
+
+
+FILE: content/THOUGHTS/VOLITION.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.DIVINE-SOVEREIGNTY->VOLITION"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.DIVINE-SOVEREIGNTY->VOLITION"}]->(child);
+
+
+FILE: content/THOUGHTS/VOLITION2.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.DIVINE-SOVEREIGNTY->VOLITION2"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.DIVINE-SOVEREIGNTY->VOLITION2"}]->(child);
+
+
+FILE: content/THOUGHTS/VOLITION3.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.DIVINE-SOVEREIGNTY->VOLITION3"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.DIVINE-SOVEREIGNTY->VOLITION3"}]->(child);
+
+
+FILE: content/THOUGHTS/VOLITION4.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.DIVINE-SOVEREIGNTY->VOLITION4"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.DIVINE-SOVEREIGNTY->VOLITION4"}]->(child);
+
+
+FILE: content/THOUGHTS/VOLITION5.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.DIVINE-SOVEREIGNTY->VOLITION5"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.DIVINE-SOVEREIGNTY->VOLITION5"}]->(child);
+
+
+FILE: content/THOUGHTS/WANTING-FORGIVENESS-ONLY.md
+  Line 51 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE >WANTING FORGIVENESS ONLY" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE->WANTING FORGIVENESS ONLY" }]->(child);
+
+
+FILE: content/THOUGHTS/WANTING-LOVE-ONLY.md
+  Line 51 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE >WANTING LOVE ONLY" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE->WANTING LOVE ONLY" }]->(child);
+
+
+FILE: content/THOUGHTS/WEEPING-OVER-CREATION.md
+  Line 48 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.ENVIRONMENTAL SCIENCE>WEEPING OVER CREATION"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.ENVIRONMENTAL SCIENCE>WEEPING OVER CREATION"}]->(child);
+
+
+FILE: content/THOUGHTS/WHEN-JESUS-RETURNS.md
+  Line 59 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.HISTORY->WHEN_JESUS_RETURNS"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.HISTORY->WHEN_JESUS_RETURNS"}]->(child);
+
+
+FILE: content/THOUGHTS/WHISPER-OF-HOPE.md
+  Line 51 (spacing fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE >WHISPER OF HOPE" }]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE->WHISPER OF HOPE" }]->(child);
+
+
+FILE: content/THOUGHTS/WHY.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.PSYCHOLOGY->WHY"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.PSYCHOLOGY->WHY"}]->(child);
+
+
+FILE: content/THOUGHTS/WILL-VS-WILL.md
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.FAITHFULNESS->WILL_VS_WILL"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.FAITHFULNESS->WILL_VS_WILL"}]->(child);
+
+
+FILE: content/THOUGHTS/WORSHIP.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.SPIRITUALITY->WORSHIP"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.SPIRITUALITY->WORSHIP"}]->(child);
+
+
+FILE: content/THOUGHTS/YISRAEL.md
+  Line 40 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.HISTORY->YISRAEL"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.HISTORY->YISRAEL"}]->(child);
+
+
+FILE: content/THOUGHTS/YOUR-KINGDOM.md
+  Line 49 (prefix fix):
+    BEFORE: MERGE (parent)-[:HAS_THOUGHT {name: "edge.DIVINE-SOVEREIGNTY->YOUR_KINGDOM"}]->(child);
+    AFTER:  MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.DIVINE-SOVEREIGNTY->YOUR_KINGDOM"}]->(child);
+
+
+================================================================================
+Total files modified: 682
+Total spacing fixes: 490
+Total prefix fixes: 222
+GRAND TOTAL: 712

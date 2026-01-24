@@ -46,5 +46,5 @@ MERGE (t)-[:HAS_CONTENT { "name": "edge.EVERYTHING FROM NOTHING" }]->(c);
 
 MATCH (parent:TOPIC {name: "topic.TRUTH"})
 MATCH (child:THOUGHT {name: "thought.EVERYTHING FROM NOTHING"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH >EVERYTHING FROM NOTHING" }]->(child);
+MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH->EVERYTHING FROM NOTHING" }]->(child);
 ```

@@ -11,8 +11,8 @@ tags:
 - character
 - responsibility
 level: 2
-neo4j: false
-ptopic: 
+neo4j: true
+ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
 ---
 
 ```Cypher
@@ -46,5 +46,5 @@ MERGE (t)-[:HAS_CONTENT { "name": "edge.WITHHOLDING POWERS" }]->(c);
 
 MATCH (parent:TOPIC {name: "topic.DIVINE SOVEREIGNTY"})
 MATCH (child:THOUGHT {name: "thought.WITHHOLDING POWERS"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "DIVINE SOVEREIGNTY >WITHHOLDING POWERS" }]->(child);
+MERGE (parent)-[:HAS_THOUGHT { "name": "DIVINE SOVEREIGNTY->WITHHOLDING POWERS" }]->(child);
 ```

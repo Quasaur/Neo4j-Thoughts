@@ -45,5 +45,5 @@ MERGE (t)-[:HAS_CONTENT { "name": "edge.TRULY HUMAN ENGAGEMENT" }]->(c);
 
 MATCH (parent:TOPIC {name: "topic.HUMANITY"})
 MATCH (child:THOUGHT {name: "thought.TRULY HUMAN ENGAGEMENT"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY >TRULY HUMAN ENGAGEMENT" }]->(child);
+MERGE (parent)-[:HAS_THOUGHT { "name": "HUMANITY->TRULY HUMAN ENGAGEMENT" }]->(child);
 ```

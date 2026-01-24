@@ -46,5 +46,5 @@ MERGE (t)-[:HAS_CONTENT { "name": "edge.DNA MEMORY VS REINCARNATION" }]->(c);
 
 MATCH (parent:TOPIC {name: "topic.PHILOSOPHY"})
 MATCH (child:THOUGHT {name: "thought.DNA MEMORY VS REINCARNATION"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY >DNA MEMORY VS REINCARNATION" }]->(child);
+MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY->DNA MEMORY VS REINCARNATION" }]->(child);
 ```

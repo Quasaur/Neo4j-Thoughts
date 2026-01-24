@@ -46,5 +46,5 @@ MERGE (t)-[:HAS_CONTENT { "name": "edge.CONSPIRACY THEORIES" }]->(c);
 
 MATCH (parent:TOPIC {name: "topic.UNDERSTANDING"})
 MATCH (child:THOUGHT {name: "thought.CONSPIRACY THEORIES"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "UNDERSTANDING >CONSPIRACY THEORIES" }]->(child);
+MERGE (parent)-[:HAS_THOUGHT { "name": "UNDERSTANDING->CONSPIRACY THEORIES" }]->(child);
 ```

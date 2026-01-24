@@ -46,5 +46,5 @@ MERGE (t)-[:HAS_CONTENT { "name": "edge.SELF DECEPTION FIRST" }]->(c);
 
 MATCH (parent:TOPIC {name: "topic.PSYCHOLOGY"})
 MATCH (child:THOUGHT {name: "thought.SELF DECEPTION FIRST"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "PSYCHOLOGY >SELF DECEPTION FIRST" }]->(child);
+MERGE (parent)-[:HAS_THOUGHT { "name": "PSYCHOLOGY->SELF DECEPTION FIRST" }]->(child);
 ```

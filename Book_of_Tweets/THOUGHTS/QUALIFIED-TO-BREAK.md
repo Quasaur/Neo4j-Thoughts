@@ -46,5 +46,5 @@ MERGE (t)-[:HAS_CONTENT { "name": "edge.QUALIFIED TO BREAK" }]->(c);
 
 MATCH (parent:TOPIC {name: "topic.THE GODHEAD"})
 MATCH (child:THOUGHT {name: "thought.QUALIFIED TO BREAK"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >QUALIFIED TO BREAK" }]->(child);
+MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->QUALIFIED TO BREAK" }]->(child);
 ```

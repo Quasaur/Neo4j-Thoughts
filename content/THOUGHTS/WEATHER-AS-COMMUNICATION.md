@@ -11,8 +11,8 @@ tags:
 - nature
 - communication
 level: 2
-neo4j: false
-ptopic: 
+neo4j: true
+ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
 ---
 
 ```Cypher
@@ -46,5 +46,5 @@ MERGE (t)-[:HAS_CONTENT { "name": "edge.WEATHER AS COMMUNICATION" }]->(c);
 
 MATCH (parent:TOPIC {name: "topic.DIVINE SOVEREIGNTY"})
 MATCH (child:THOUGHT {name: "thought.WEATHER AS COMMUNICATION"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "DIVINE SOVEREIGNTY >WEATHER AS COMMUNICATION" }]->(child);
+MERGE (parent)-[:HAS_THOUGHT { "name": "DIVINE SOVEREIGNTY->WEATHER AS COMMUNICATION" }]->(child);
 ```

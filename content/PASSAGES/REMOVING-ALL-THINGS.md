@@ -11,7 +11,7 @@ tags:
 - earth
 - prophecy
 level: 2
-neo4j: false
+neo4j: true
 ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
 ---
 
@@ -37,7 +37,7 @@ CREATE (c:CONTENT {
     fr_title: "Suppression de toutes choses",
     fr_content: "« Je supprimerai complètement toutes choses de la surface de la terre », — Dieu",
     hi_title: "सभी चीज़ों को हटाना",
-    hi_content: ""\मैं धरती की सतह से सभी चीज़ों को पूरी तरह हटा दूँगा,"\ -- ईश्वर",
+    hi_content: "\"मैं धरती की सतह से सभी चीज़ों को पूरी तरह हटा दूँगा,\" -- ईश्वर",
     zh_title: "Qīngchú wànwù",
     zh_content: "“\wǒ bì jiāng dìshàng de yīqiè chèdǐ qīngchú.”\——Shàngdì"
 });

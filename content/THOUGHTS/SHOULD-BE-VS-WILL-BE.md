@@ -11,7 +11,7 @@ tags:
 - destiny
 - future
 level: 2
-neo4j: false
+neo4j: true
 ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
 ---
 

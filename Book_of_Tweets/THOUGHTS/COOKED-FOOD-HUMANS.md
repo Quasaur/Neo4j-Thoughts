@@ -46,5 +46,5 @@ MERGE (t)-[:HAS_CONTENT { "name": "edge.COOKED FOOD HUMANS" }]->(c);
 
 MATCH (parent:TOPIC {name: "topic.CREATION"})
 MATCH (child:THOUGHT {name: "thought.COOKED FOOD HUMANS"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "CREATION >COOKED FOOD HUMANS" }]->(child);
+MERGE (parent)-[:HAS_THOUGHT { "name": "CREATION->COOKED FOOD HUMANS" }]->(child);
 ```
