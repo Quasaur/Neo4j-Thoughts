@@ -46,5 +46,5 @@ MERGE (t)-[:HAS_CONTENT { "name": "edge.INVISIBLE IN IMPOSSIBLE" }]->(c);
 
 MATCH (parent:TOPIC {name: "topic.THE GODHEAD"})
 MATCH (child:THOUGHT {name: "thought.INVISIBLE IN IMPOSSIBLE"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >INVISIBLE IN IMPOSSIBLE" }]->(child);
+MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->INVISIBLE IN IMPOSSIBLE" }]->(child);
 ```

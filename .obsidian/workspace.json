@@ -11,34 +11,15 @@
             "id": "e01061430d063ccc",
             "type": "leaf",
             "state": {
-              "type": "bases",
-              "state": {
-                "file": "BASES/Untitled.base",
-                "viewName": "Table"
-              },
-              "icon": "lucide-table",
-              "title": "Untitled"
-            }
-          }
-        ]
-      },
-      {
-        "id": "641701b9ef6ec4da",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "d86545b8e15203c8",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "Book_of_Tweets/BIBLE/zeph/REMOVING-ALL-THINGS.md",
+                "file": "content/BIBLE/Roma/FREEDOM-OF-DEATH.md",
                 "mode": "source",
-                "source": true,
+                "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "REMOVING-ALL-THINGS"
+              "title": "FREEDOM-OF-DEATH"
             }
           }
         ]
@@ -108,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 463.5086555480957,
-    "collapsed": true
+    "width": 463.5086555480957
   },
   "right": {
     "id": "23b5a9898015fd07",
@@ -199,42 +179,42 @@
   },
   "active": "e01061430d063ccc",
   "lastOpenFiles": [
-    "Book_of_Tweets/BIBLE/job/THE-LORD-GIVES.md",
-    "Book_of_Tweets/BIBLE/zeph/REMOVING-ALL-THINGS.md",
-    "Book_of_Tweets/BIBLE/job",
-    "BASES/Untitled.base",
-    "Book_of_Tweets/THOUGHTS/SHOULD-BE-VS-WILL-BE.md",
-    "Book_of_Tweets/THOUGHTS/SAVED-FROM-GOD.md",
-    "BASES/Base-Book of Tweets.md",
-    "Book_of_Tweets/BILBLE/zeph",
-    "Book_of_Tweets/BILBLE",
-    "Book_of_Tweets/BIBLE/zeph",
-    "Book_of_Tweets/BIBLE",
-    "content/BIBLE/Roma/NOT-OF-FAITH.md",
-    "content/BIBLE/zeph",
-    "Book_of_Tweets/THOUGHTS/LIMITLESS-DIVINE-POWER.md",
-    "Book_of_Tweets/THOUGHTS/JUDGMENT-OF-NATIONS.md",
+    "CYPHER/CORRECTIONS/execution_results.txt",
+    "python/execute_neo4j_corrections.py",
+    "CYPHER/CORRECTIONS/passage_prefix_corrections.md",
+    "CYPHER/CORRECTIONS/neo4j_edge_corrections.cypher",
+    "python/generate_neo4j_corrections.py",
+    "CYPHER/CORRECTIONS/edge_corrections_log.txt",
+    "python/fix_edge_errors.py",
+    "python/scan_edge_errors.py",
+    "CYPHER/CORRECTIONS/topic_child_corrections.md",
+    "content/QUOTES/bom/BEGOTTEN.md",
+    "content/THOUGHTS/692-189.md",
+    "BASES/Base-Book_of_Tweets.base",
     "content/TOPICS/topic-APOCALYPSE.md",
-    "content/TOPICS/topic-POLITICAL-SCIENCE.md",
-    "Book_of_Tweets/THOUGHTS/JESUS-THE-MONARCH.md",
-    "content/TOPICS/topic-SOCIAL-SCIENCES.md",
-    "content/TOPICS/topic-SOCIAL-SCIENCE.md",
-    "python/check_social_science_topics.py",
-    "content/TOPICS/topic-SOCIOLOGY.md",
-    "python/verify_sociology_description.py",
-    "python/move_sociology_parent.py",
-    "content/TOPICS/topic-SOTERIOLOGY.md",
-    "Book_of_Tweets/THOUGHTS/HEAVY-DIVINE-WILL.md",
-    "Book_of_Tweets/THOUGHTS/GODS-WILL-IN-ME.md",
-    "Book_of_Tweets/THOUGHTS/GOD-AND-EVIL.md",
-    "Book_of_Tweets/THOUGHTS/GLORIFIED-IN-HUMANITY.md",
-    "Book_of_Tweets/THOUGHTS/GLOBAL-ECONOMICS-FOOTSTOOL.md",
-    "Book_of_Tweets/THOUGHTS/EQUALITY-AT-RETURN.md",
-    "content/TOPICS/topic-ENVIRONMENTAL-SCIENCE.md",
-    "Book_of_Tweets/THOUGHTS/END-OF-ALL-FLESH.md",
-    "Book_of_Tweets/THOUGHTS/DESTROYING-THE-EARTH.md",
-    "Book_of_Tweets/THOUGHTS/DIVINE-WILL.md",
-    "Book_of_Tweets/THOUGHTS/DAMNING-THE-ARROGANT.md",
+    "content/PASSAGES/REMOVING-ALL-THINGS.md",
+    "content/PASSAGES/THE-LORD-GIVES.md",
+    "content/PASSAGES",
+    "content/THOUGHTS/END-OF-ALL-FLESH.md",
+    "content/THOUGHTS/DIVINE-WILL.md",
+    "content/THOUGHTS/WRATH-OF-GOD.md",
+    "content/THOUGHTS/WITHHOLDING-POWERS.md",
+    "content/THOUGHTS/WEATHER-AS-COMMUNICATION.md",
+    "content/THOUGHTS/SHOULD-BE-VS-WILL-BE.md",
+    "content/THOUGHTS/SAVED-FROM-GOD.md",
+    "content/THOUGHTS/LIMITLESS-DIVINE-POWER.md",
+    "content/THOUGHTS/JUDGMENT-OF-NATIONS.md",
+    "content/THOUGHTS/JESUS-THE-MONARCH.md",
+    "content/THOUGHTS/HEAVY-DIVINE-WILL.md",
+    "content/THOUGHTS/GODS-WILL-IN-ME.md",
+    "content/THOUGHTS/GOD-AND-EVIL.md",
+    "content/THOUGHTS/GLORIFIED-IN-HUMANITY.md",
+    "content/THOUGHTS/GLOBAL-ECONOMICS-FOOTSTOOL.md",
+    "content/THOUGHTS/EQUALITY-AT-RETURN.md",
+    "content/THOUGHTS/DESTROYING-THE-EARTH.md",
+    "content/THOUGHTS/DAMNING-THE-ARROGANT.md",
+    "python/Book_of_Tweets/bulk_insert_all.py",
+    "python/Book_of_Tweets/scan_insertion_ready.py",
     "Untitled.canvas",
     "public/attachments/og-image.png",
     "public/static/og-image.png",

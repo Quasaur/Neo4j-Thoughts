@@ -11,7 +11,7 @@ tags:
 - repentance
 - sovereignty
 level: 5
-neo4j: false
+neo4j: true
 ptopic: "[[topic-APOCALYPSE]]"
 ---
 

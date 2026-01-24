@@ -51,5 +51,5 @@ MERGE (t)-[:HAS_CONTENT {name: "edge.ANTI_SEMITISM"}]->(c);
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
 WHERE parent.name = "topic.PSYCHOLOGY" AND child.name = "thought.ANTI_SEMITISM"
-MERGE (parent)-[:HAS_THOUGHT {name: "edge.PSYCHOLOGY->ANTI_SEMITISM"}]->(child);
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.PSYCHOLOGY->ANTI_SEMITISM"}]->(child);
 ```

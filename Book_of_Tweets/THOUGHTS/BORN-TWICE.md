@@ -46,5 +46,5 @@ MERGE (t)-[:HAS_CONTENT { "name": "edge.BORN TWICE" }]->(c);
 
 MATCH (parent:TOPIC {name: "topic.RELIGION"})
 MATCH (child:THOUGHT {name: "thought.BORN TWICE"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION >BORN TWICE" }]->(child);
+MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION->BORN TWICE" }]->(child);
 ```

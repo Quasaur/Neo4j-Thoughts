@@ -46,5 +46,5 @@ MERGE (t)-[:HAS_CONTENT { "name": "edge.AMERICA ACCOUNTABLE FREEDOMS" }]->(c);
 
 MATCH (parent:TOPIC {name: "topic.MORALITY"})
 MATCH (child:THOUGHT {name: "thought.AMERICA ACCOUNTABLE FREEDOMS"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >AMERICA ACCOUNTABLE FREEDOMS" }]->(child);
+MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->AMERICA ACCOUNTABLE FREEDOMS" }]->(child);
 ```

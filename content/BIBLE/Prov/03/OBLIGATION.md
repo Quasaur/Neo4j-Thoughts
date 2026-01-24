@@ -41,6 +41,6 @@ MERGE (b)-[:HAS_CONTENT {name: "b.edge.OBLIGATION"}]->(c);
 // LINK PARENT
 MATCH (parent:TOPIC {name: "topic.MORALITY"})
 MATCH (child:PASSAGE {name: "passage.OBLIGATION"})
-MERGE (parent)-[:HAS_PASSAGE {name: "b.edge.MORALITY->OBLIGATION"}]->(child);
+MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.b.MORALITY->OBLIGATION"}]->(child);
 
 ```

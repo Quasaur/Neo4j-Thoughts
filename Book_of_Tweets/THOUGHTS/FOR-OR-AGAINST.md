@@ -46,5 +46,5 @@ MERGE (t)-[:HAS_CONTENT { "name": "edge.FOR OR AGAINST" }]->(c);
 
 MATCH (parent:TOPIC {name: "topic.THE GODHEAD"})
 MATCH (child:THOUGHT {name: "thought.FOR OR AGAINST"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD >FOR OR AGAINST" }]->(child);
+MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->FOR OR AGAINST" }]->(child);
 ```

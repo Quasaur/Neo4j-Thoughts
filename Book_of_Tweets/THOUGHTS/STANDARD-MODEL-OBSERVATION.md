@@ -46,5 +46,5 @@ MERGE (t)-[:HAS_CONTENT { "name": "edge.STANDARD MODEL OBSERVATION" }]->(c);
 
 MATCH (parent:TOPIC {name: "topic.PHILOSOPHY"})
 MATCH (child:THOUGHT {name: "thought.STANDARD MODEL OBSERVATION"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY >STANDARD MODEL OBSERVATION" }]->(child);
+MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY->STANDARD MODEL OBSERVATION" }]->(child);
 ```

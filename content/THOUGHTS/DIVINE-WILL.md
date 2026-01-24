@@ -11,7 +11,7 @@ tags:
 en_content: "Do you really believe that God has EVER done something He didn't want to do?"
 parent: "topic.DIVINE SOVEREIGNTY"
 level: 2
-neo4j: false
+neo4j: true
 ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
 ---
 
@@ -35,7 +35,7 @@ CREATE (c:CONTENT {
     fr_title: "VOLONTÉ DIVINE",
     fr_content: "Croyez-vous vraiment que Dieu a JAMAIS fait quelque chose qu'il ne voulait pas faire ?",
     hi_title: "ईश्वरीय इच्छा",
-    hi_content: "क्या आप वास्तव में मानते हैं कि ईश्वर ने कभी भी ऐसा कुछ किया है जो वह नहीं करना चाहता था?"
+    hi_content: "क्या आप वास्तव में मानते हैं कि ईश्वर ने कभी भी ऐसा कुछ किया है जो वह नहीं करना चाहता था?",
     zh_title: "shén dì yì zhì",
     zh_content: "nǐ zhēn de xiāng xìn shàng dì céng jīng zhuò guò tā bù xiǎng zhuò de shì ma ？"
 });
@@ -46,5 +46,5 @@ MERGE (t)-[:HAS_CONTENT {name: "edge.DIVINE WILL"}]->(c);
 
 MATCH (parent:TOPIC {name: "topic.DIVINE SOVEREIGNTY"})
 MATCH (child:THOUGHT {name: "thought.DIVINE WILL"})
-MERGE (parent)-[:HAS_THOUGHT {name: "edge.DIVINE SOVEREIGNTY->DIVINE WILL"}]->(child);
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.DIVINE SOVEREIGNTY->DIVINE WILL"}]->(child);
 ```

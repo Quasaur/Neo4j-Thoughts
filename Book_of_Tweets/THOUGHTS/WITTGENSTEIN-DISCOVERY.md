@@ -46,5 +46,5 @@ MERGE (t)-[:HAS_CONTENT { "name": "edge.WITTGENSTEIN DISCOVERY" }]->(c);
 
 MATCH (parent:TOPIC {name: "topic.PHILOSOPHY"})
 MATCH (child:THOUGHT {name: "thought.WITTGENSTEIN DISCOVERY"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY >WITTGENSTEIN DISCOVERY" }]->(child);
+MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY->WITTGENSTEIN DISCOVERY" }]->(child);
 ```

@@ -11,7 +11,7 @@ tags:
 - justice
 - divinity
 level: 2
-neo4j: false
+neo4j: true
 ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
 ---
 
@@ -31,13 +31,13 @@ CREATE (c:CONTENT {
     en_title: "End Of All Flesh",
     en_content: "\"The end of all flesh is come before Me...\" -- God",
     es_title: "Fin de toda carne",
-    es_content: "\",
+    es_content: "",
     fr_title: "Fin de toute chair",
-    fr_content: "\",
+    fr_content: "",
     hi_title: "सभी मांस का अंत",
-    hi_content: "\",
+    hi_content: "",
     zh_title: "所有肉体的终结",
-    zh_content: "\"
+    zh_content: ""
 });
 
 MATCH (t:THOUGHT {name: "thought.END OF ALL FLESH"})

@@ -11,7 +11,7 @@ tags:
 - sovereignty
 - bible
 level: 6
-neo4j: false
+neo4j: true
 ptopic: "[[topic-ENVIRONMENTAL-SCIENCE]]"
 ---
 

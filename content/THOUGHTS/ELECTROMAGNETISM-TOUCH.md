@@ -46,5 +46,5 @@ MERGE (t)-[:HAS_CONTENT { "name": "edge.ELECTROMAGNETISM TOUCH" }]->(c);
 
 MATCH (parent:TOPIC {name: "topic.PHYSICS"})
 MATCH (child:THOUGHT {name: "thought.ELECTROMAGNETISM TOUCH"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "PHYSICS >ELECTROMAGNETISM TOUCH" }]->(child);
+MERGE (parent)-[:HAS_THOUGHT { "name": "PHYSICS->ELECTROMAGNETISM TOUCH" }]->(child);
 ```

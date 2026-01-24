@@ -10,7 +10,7 @@ tags:
 - future
 - hope
 level: 5
-neo4j: false
+neo4j: true
 ptopic: "[[topic-APOCALYPSE]]"
 ---
 

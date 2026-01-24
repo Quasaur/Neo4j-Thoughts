@@ -46,5 +46,5 @@ MERGE (t)-[:HAS_CONTENT { "name": "edge.POWER OF WEAKNESS" }]->(c);
 
 MATCH (parent:TOPIC {name: "topic.WISDOM"})
 MATCH (child:THOUGHT {name: "thought.POWER OF WEAKNESS"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "WISDOM >POWER OF WEAKNESS" }]->(child);
+MERGE (parent)-[:HAS_THOUGHT { "name": "WISDOM->POWER OF WEAKNESS" }]->(child);
 ```

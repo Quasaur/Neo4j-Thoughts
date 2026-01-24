@@ -1,0 +1,8 @@
+NEO4J AURADB EDGE CORRECTIONS - EXECUTION RESULTS
+================================================================================
+
+Total statements: 245
+Successful: 245
+Failed: 0
+Total relationships updated: 180
+

@@ -46,5 +46,5 @@ MERGE (t)-[:HAS_CONTENT {name: "edge.LIVING_RELATIONSHIPS"}]->(c);
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
 WHERE parent.name = "topic.PSYCHOLOGY" AND child.name = "thought.LIVING_RELATIONSHIPS"
-MERGE (parent)-[:HAS_THOUGHT {name: "edge.PSYCHOLOGY->LIVING_RELATIONSHIPS"}]->(child);
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.PSYCHOLOGY->LIVING_RELATIONSHIPS"}]->(child);
 ```

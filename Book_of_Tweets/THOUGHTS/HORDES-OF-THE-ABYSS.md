@@ -46,5 +46,5 @@ MERGE (t)-[:HAS_CONTENT { "name": "edge.HORDES OF THE ABYSS" }]->(c);
 
 MATCH (parent:TOPIC {name: "topic.EVIL"})
 MATCH (child:THOUGHT {name: "thought.HORDES OF THE ABYSS"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "EVIL >HORDES OF THE ABYSS" }]->(child);
+MERGE (parent)-[:HAS_THOUGHT { "name": "EVIL->HORDES OF THE ABYSS" }]->(child);
 ```

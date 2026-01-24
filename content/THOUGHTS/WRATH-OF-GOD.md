@@ -10,9 +10,9 @@ tags:
 - judgment
 - earth
 - sovereignty
-level: 2
-neo4j: false
-ptopic: 
+level: 5
+neo4j: true
+ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
 ---
 
 ```Cypher
@@ -22,8 +22,7 @@ CREATE (t:THOUGHT {
     alias: "Thought: Wrath Of God",
     parent: "topic.DIVINE SOVEREIGNTY",
     tags: ['wrath', 'god', 'judgment', 'earth', 'sovereignty'],
-    notes: "",
-    level: 2
+    level: 5
 });
 
 CREATE (c:CONTENT {
@@ -46,5 +45,5 @@ MERGE (t)-[:HAS_CONTENT { "name": "edge.WRATH OF GOD" }]->(c);
 
 MATCH (parent:TOPIC {name: "topic.DIVINE SOVEREIGNTY"})
 MATCH (child:THOUGHT {name: "thought.WRATH OF GOD"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "DIVINE SOVEREIGNTY >WRATH OF GOD" }]->(child);
+MERGE (parent)-[:HAS_THOUGHT { "name": "DIVINE SOVEREIGNTY->WRATH OF GOD" }]->(child);
 ```

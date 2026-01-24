@@ -46,5 +46,5 @@ MERGE (t)-[:HAS_CONTENT { "name": "edge.EATING BREATHING DEATH" }]->(c);
 
 MATCH (parent:TOPIC {name: "topic.MORALITY"})
 MATCH (child:THOUGHT {name: "thought.EATING BREATHING DEATH"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY >EATING BREATHING DEATH" }]->(child);
+MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->EATING BREATHING DEATH" }]->(child);
 ```
