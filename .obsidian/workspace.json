@@ -4,22 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "5c878900a350a4d2",
+        "id": "9c6124a4a7f55652",
         "type": "tabs",
         "children": [
           {
-            "id": "e01061430d063ccc",
+            "id": "27df93ce3f2f86c1",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "BASES/Base-Book_of_Tweets.base",
+                "viewName": "Table"
+              },
+              "icon": "lucide-table",
+              "title": "Base-Book_of_Tweets"
+            }
+          }
+        ]
+      },
+      {
+        "id": "62fdb4d15d2601d9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8246b1d7cff37bb0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/BIBLE/Roma/FREEDOM-OF-DEATH.md",
+                "file": "content/PASSAGES/Roma/NOT-OF-FAITH.md",
                 "mode": "source",
-                "source": false,
+                "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "FREEDOM-OF-DEATH"
+              "title": "NOT-OF-FAITH"
             }
           }
         ]
@@ -54,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "SOCIAL SCIENCE",
+                "query": "Stripe",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -177,8 +196,27 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e01061430d063ccc",
+  "active": "27df93ce3f2f86c1",
   "lastOpenFiles": [
+    "Book_of_Tweets/THOUGHTS/FAMILIAR-SPIRITS-WARNING.md",
+    "content/PASSAGES/Roma/NOT-OF-FAITH.md",
+    "content/PASSAGES/zeph/REMOVING-ALL-THINGS.md",
+    "content/PASSAGES 1",
+    "content/PASSAGES/job/THE-LORD-GIVES.md",
+    "content/PASSAGES/job",
+    "content/PASSAGES/Roma/FREEDOM-OF-DEATH.md",
+    "BASES/Base-Book_of_Tweets.base",
+    "Book_of_Tweets/THOUGHTS/DEFINING-EVIL-PRIDE.md",
+    "Book_of_Tweets/THOUGHTS/DEFINE-EVIL-JEALOUSY.md",
+    "Book_of_Tweets/THOUGHTS/APPEARING-HUMAN.md",
+    "Neo4j-AI/docs/DJANGO/Stripe/Stripe Test Credit Card.md",
+    "Neo4j-AI/docs/DJANGO/Stripe/Stripe Keys - Wisdom (sandbox).md",
+    "Neo4j-AI/docs/DJANGO/Stripe/Stripe Keys - Calvin's Journal (Live?).md",
+    "Neo4j-AI/docs/DJANGO/Stripe/Stripe Subscriptions.md",
+    "Neo4j-AI/docs/DJANGO/Stripe",
+    "Neo4j-AI/docs/APPLE DEV/Apple Developer Info.md",
+    "content/THOUGHTS/692-189.md",
+    "content/QUOTES/bom/BEGOTTEN.md",
     "CYPHER/CORRECTIONS/execution_results.txt",
     "python/execute_neo4j_corrections.py",
     "CYPHER/CORRECTIONS/passage_prefix_corrections.md",
@@ -186,15 +224,8 @@
     "python/generate_neo4j_corrections.py",
     "CYPHER/CORRECTIONS/edge_corrections_log.txt",
     "python/fix_edge_errors.py",
-    "python/scan_edge_errors.py",
     "CYPHER/CORRECTIONS/topic_child_corrections.md",
-    "content/QUOTES/bom/BEGOTTEN.md",
-    "content/THOUGHTS/692-189.md",
-    "BASES/Base-Book_of_Tweets.base",
     "content/TOPICS/topic-APOCALYPSE.md",
-    "content/PASSAGES/REMOVING-ALL-THINGS.md",
-    "content/PASSAGES/THE-LORD-GIVES.md",
-    "content/PASSAGES",
     "content/THOUGHTS/END-OF-ALL-FLESH.md",
     "content/THOUGHTS/DIVINE-WILL.md",
     "content/THOUGHTS/WRATH-OF-GOD.md",
@@ -202,19 +233,6 @@
     "content/THOUGHTS/WEATHER-AS-COMMUNICATION.md",
     "content/THOUGHTS/SHOULD-BE-VS-WILL-BE.md",
     "content/THOUGHTS/SAVED-FROM-GOD.md",
-    "content/THOUGHTS/LIMITLESS-DIVINE-POWER.md",
-    "content/THOUGHTS/JUDGMENT-OF-NATIONS.md",
-    "content/THOUGHTS/JESUS-THE-MONARCH.md",
-    "content/THOUGHTS/HEAVY-DIVINE-WILL.md",
-    "content/THOUGHTS/GODS-WILL-IN-ME.md",
-    "content/THOUGHTS/GOD-AND-EVIL.md",
-    "content/THOUGHTS/GLORIFIED-IN-HUMANITY.md",
-    "content/THOUGHTS/GLOBAL-ECONOMICS-FOOTSTOOL.md",
-    "content/THOUGHTS/EQUALITY-AT-RETURN.md",
-    "content/THOUGHTS/DESTROYING-THE-EARTH.md",
-    "content/THOUGHTS/DAMNING-THE-ARROGANT.md",
-    "python/Book_of_Tweets/bulk_insert_all.py",
-    "python/Book_of_Tweets/scan_insertion_ready.py",
     "Untitled.canvas",
     "public/attachments/og-image.png",
     "public/static/og-image.png",
