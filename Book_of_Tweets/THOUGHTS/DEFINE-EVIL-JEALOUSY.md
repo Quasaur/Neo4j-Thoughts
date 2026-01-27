@@ -12,7 +12,7 @@ tags:
 - philosophy
 level: 4
 neo4j: false
-ptopic: 
+ptopic: "[[topic-EVIL]]"
 ---
 
 ```Cypher
@@ -46,5 +46,5 @@ MERGE (t)-[:HAS_CONTENT { "name": "edge.DEFINE EVIL JEALOUSY" }]->(c);
 
 MATCH (parent:TOPIC {name: "topic.EVIL"})
 MATCH (child:THOUGHT {name: "thought.DEFINE EVIL JEALOUSY"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "EVIL->DEFINE EVIL JEALOUSY" }]->(child);
+MERGE (parent)-[:HAS_THOUGHT { "name": "t.edge.EVIL->DEFINE EVIL JEALOUSY" }]->(child);
 ```
