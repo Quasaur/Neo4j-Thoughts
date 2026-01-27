@@ -41,11 +41,11 @@ CREATE (c:CONTENT {
     zh_content: "“\shǎng cì de shì yē hé huá, shǒu huí de yě shì yē hé huá ; yē hé huá de míng shì yīng dāng chéng sòng de!”\ -- xiān zhī yóu bó"
 });
 
-MATCH (t:THOUGHT {name: "thought.THE LORD GIVES"})
+MATCH (t:PASSAGE {name: "passage.THE LORD GIVES"})
 MATCH (c:CONTENT {name: "content.THE LORD GIVES"})
 MERGE (t)-[:HAS_CONTENT {name: "b.edge.THE LORD GIVES"}]->(c);
 
 MATCH (parent:TOPIC {name: "topic.DIVINE SOVEREIGNTY"})
-MATCH (child:THOUGHT {name: "thought.THE LORD GIVES"})
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.b.DIVINE SOVEREIGNTY->THE LORD GIVES"}]->(child);
+MATCH (child:PASSAGE {name: "passage.THE LORD GIVES"})
+MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.DIVINE SOVEREIGNTY->THE LORD GIVES"}]->(child);
 ```

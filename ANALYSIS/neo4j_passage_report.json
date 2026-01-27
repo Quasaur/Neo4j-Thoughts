@@ -1,0 +1,344 @@
+{
+  "total_passages": 24,
+  "complete": 24,
+  "incomplete": 0,
+  "passages": [
+    {
+      "passage_name": "passage.DISCIPLINE_AND_REBUKE",
+      "passage_alias": "Passage: DISCIPLINE AND REBUKE",
+      "content_name": "content.DISCIPLINE_AND_REBUKE",
+      "is_complete": true,
+      "missing_languages": [],
+      "translations": {
+        "en": true,
+        "es": true,
+        "fr": true,
+        "hi": true,
+        "zh": true
+      }
+    },
+    {
+      "passage_name": "passage.FAITHLESSNESS",
+      "passage_alias": "Passage: FAITHLESSNESS",
+      "content_name": "content.FAITHLESSNESS",
+      "is_complete": true,
+      "missing_languages": [],
+      "translations": {
+        "en": true,
+        "es": true,
+        "fr": true,
+        "hi": true,
+        "zh": true
+      }
+    },
+    {
+      "passage_name": "passage.FATE_OF_THE_WICKED",
+      "passage_alias": "Passage: FATE OF THE WICKED",
+      "content_name": "content.FATE_OF_THE_WICKED",
+      "is_complete": true,
+      "missing_languages": [],
+      "translations": {
+        "en": true,
+        "es": true,
+        "fr": true,
+        "hi": true,
+        "zh": true
+      }
+    },
+    {
+      "passage_name": "passage.FREEDOM_OF_DEATH",
+      "passage_alias": "Passage: FREEDOM OF DEATH",
+      "content_name": "content.FREEDOM_OF_DEATH",
+      "is_complete": true,
+      "missing_languages": [],
+      "translations": {
+        "en": true,
+        "es": true,
+        "fr": true,
+        "hi": true,
+        "zh": true
+      }
+    },
+    {
+      "passage_name": "passage.HEART OF THE KING",
+      "passage_alias": "Passage: The Son of Heaven",
+      "content_name": "content.HEART OF THE KING",
+      "is_complete": true,
+      "missing_languages": [],
+      "translations": {
+        "en": true,
+        "es": true,
+        "fr": true,
+        "hi": true,
+        "zh": true
+      }
+    },
+    {
+      "passage_name": "passage.HONOR GOD",
+      "passage_alias": "Passage: Add Offerings and Charity to your Budget",
+      "content_name": "content.HONOR GOD",
+      "is_complete": true,
+      "missing_languages": [],
+      "translations": {
+        "en": true,
+        "es": true,
+        "fr": true,
+        "hi": true,
+        "zh": true
+      }
+    },
+    {
+      "passage_name": "passage.HOUSE OF THE WICKED",
+      "passage_alias": "Passage: The Two Houses",
+      "content_name": "content.HOUSE OF THE WICKED",
+      "is_complete": true,
+      "missing_languages": [],
+      "translations": {
+        "en": true,
+        "es": true,
+        "fr": true,
+        "hi": true,
+        "zh": true
+      }
+    },
+    {
+      "passage_name": "passage.INHERITED HONOR",
+      "passage_alias": "Passage: Honor and Disgrace",
+      "content_name": "content.INHERITED HONOR",
+      "is_complete": true,
+      "missing_languages": [],
+      "translations": {
+        "en": true,
+        "es": true,
+        "fr": true,
+        "hi": true,
+        "zh": true
+      }
+    },
+    {
+      "passage_name": "passage.KINDNESS AND TRUTH",
+      "passage_alias": "Passage: The Keys to Favor and a Good Reputation",
+      "content_name": "content.KINDNESS AND TRUTH",
+      "is_complete": true,
+      "missing_languages": [],
+      "translations": {
+        "en": true,
+        "es": true,
+        "fr": true,
+        "hi": true,
+        "zh": true
+      }
+    },
+    {
+      "passage_name": "passage.KNOWLEDGE",
+      "passage_alias": "Passage: God's Existence as the Foundation of Education",
+      "content_name": "content.KNOWLEDGE",
+      "is_complete": true,
+      "missing_languages": [],
+      "translations": {
+        "en": true,
+        "es": true,
+        "fr": true,
+        "hi": true,
+        "zh": true
+      }
+    },
+    {
+      "passage_name": "passage.MAN_OF_VIOLENCE",
+      "passage_alias": "Passage: MAN OF VIOLENCE",
+      "content_name": "content.MAN_OF_VIOLENCE",
+      "is_complete": true,
+      "missing_languages": [],
+      "translations": {
+        "en": true,
+        "es": true,
+        "fr": true,
+        "hi": true,
+        "zh": true
+      }
+    },
+    {
+      "passage_name": "passage.NEIGHBORS",
+      "passage_alias": "Passage: NEIGHBORS",
+      "content_name": "content.NEIGHBORS",
+      "is_complete": true,
+      "missing_languages": [],
+      "translations": {
+        "en": true,
+        "es": true,
+        "fr": true,
+        "hi": true,
+        "zh": true
+      }
+    },
+    {
+      "passage_name": "passage.NOT-OF-FAITH",
+      "passage_alias": "Passage: NOT-OF-FAITH",
+      "content_name": "content.NOT-OF-FAITH",
+      "is_complete": true,
+      "missing_languages": [],
+      "translations": {
+        "en": true,
+        "es": true,
+        "fr": true,
+        "hi": true,
+        "zh": true
+      }
+    },
+    {
+      "passage_name": "passage.OBLIGATION",
+      "passage_alias": "Passage: OBLIGATION",
+      "content_name": "content.OBLIGATION",
+      "is_complete": true,
+      "missing_languages": [],
+      "translations": {
+        "en": true,
+        "es": true,
+        "fr": true,
+        "hi": true,
+        "zh": true
+      }
+    },
+    {
+      "passage_name": "passage.PRICELESS WISDOM",
+      "passage_alias": "Passage: The Greatest Treasure",
+      "content_name": "content.PRICELESS WISDOM",
+      "is_complete": true,
+      "missing_languages": [],
+      "translations": {
+        "en": true,
+        "es": true,
+        "fr": true,
+        "hi": true,
+        "zh": true
+      }
+    },
+    {
+      "passage_name": "passage.PRIDE-AS-EVIL",
+      "passage_alias": "Passage: PRIDE-AS-EVIL",
+      "content_name": "content.PRIDE-AS-EVIL",
+      "is_complete": true,
+      "missing_languages": [],
+      "translations": {
+        "en": true,
+        "es": true,
+        "fr": true,
+        "hi": true,
+        "zh": true
+      }
+    },
+    {
+      "passage_name": "passage.PROTECTION_FROM_EVIL",
+      "passage_alias": "Passage: PROTECTION FROM EVIL",
+      "content_name": "content.PROTECTION_FROM_EVIL",
+      "is_complete": true,
+      "missing_languages": [],
+      "translations": {
+        "en": true,
+        "es": true,
+        "fr": true,
+        "hi": true,
+        "zh": true
+      }
+    },
+    {
+      "passage_name": "passage.SCORNERS",
+      "passage_alias": "Passage: SCORNERS",
+      "content_name": "content.SCORNERS",
+      "is_complete": true,
+      "missing_languages": [],
+      "translations": {
+        "en": true,
+        "es": true,
+        "fr": true,
+        "hi": true,
+        "zh": true
+      }
+    },
+    {
+      "passage_name": "passage.SECURITY",
+      "passage_alias": "Passage: Wisdom brings Security",
+      "content_name": "content.SECURITY",
+      "is_complete": true,
+      "missing_languages": [],
+      "translations": {
+        "en": true,
+        "es": true,
+        "fr": true,
+        "hi": true,
+        "zh": true
+      }
+    },
+    {
+      "passage_name": "passage.SECURITY (2)",
+      "passage_alias": "Passage: Wisdom and Discretion",
+      "content_name": "content.SECURITY (2)",
+      "is_complete": true,
+      "missing_languages": [],
+      "translations": {
+        "en": true,
+        "es": true,
+        "fr": true,
+        "hi": true,
+        "zh": true
+      }
+    },
+    {
+      "passage_name": "passage.THE SOURCE OF WEALTH",
+      "passage_alias": "Passage: God--the Source of Abundance!",
+      "content_name": "content.THE SOURCE OF WEALTH",
+      "is_complete": true,
+      "missing_languages": [],
+      "translations": {
+        "en": true,
+        "es": true,
+        "fr": true,
+        "hi": true,
+        "zh": true
+      }
+    },
+    {
+      "passage_name": "passage.TRUST_THE_LORD",
+      "passage_alias": "Passage: 'Passage: TRUST THE LORD'",
+      "content_name": "content.TRUST_THE_LORD",
+      "is_complete": true,
+      "missing_languages": [],
+      "translations": {
+        "en": true,
+        "es": true,
+        "fr": true,
+        "hi": true,
+        "zh": true
+      }
+    },
+    {
+      "passage_name": "passage.UNJUST GAIN",
+      "passage_alias": "Passage: Cheating is Deadly",
+      "content_name": "content.UNJUST GAIN",
+      "is_complete": true,
+      "missing_languages": [],
+      "translations": {
+        "en": true,
+        "es": true,
+        "fr": true,
+        "hi": true,
+        "zh": true
+      }
+    },
+    {
+      "passage_name": "passage.WHAT THE WISE DO",
+      "passage_alias": "Passage: Wisdom Brings Growth",
+      "content_name": "content.WHAT THE WISE DO",
+      "is_complete": true,
+      "missing_languages": [],
+      "translations": {
+        "en": true,
+        "es": true,
+        "fr": true,
+        "hi": true,
+        "zh": true
+      }
+    }
+  ],
+  "orphan_passages": []
+}
