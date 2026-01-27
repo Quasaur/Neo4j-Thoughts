@@ -1,0 +1,170 @@
+PASSAGE Translation Completeness Report
+================================================================================
+
+File: content/PASSAGES/Deut/THE-SOURCE-OF-WEALTH.md
+Name: passage.THE SOURCE OF WEALTH
+Complete: Yes
+
+--------------------------------------------------------------------------------
+
+File: content/PASSAGES/Prov/01/FAITHLESSNESS.md
+Name: passage.FAITHLESSNESS
+Complete: Yes
+
+--------------------------------------------------------------------------------
+
+File: content/PASSAGES/Prov/01/KNOWLEDGE.md
+Name: passage.KNOWLEDGE
+Complete: Yes
+
+--------------------------------------------------------------------------------
+
+File: content/PASSAGES/Prov/01/SECURITY.md
+Name: passage.SECURITY
+Complete: Yes
+
+--------------------------------------------------------------------------------
+
+File: content/PASSAGES/Prov/01/UNJUST-GAIN.md
+Name: passage.UNJUST GAIN
+Complete: Yes
+
+--------------------------------------------------------------------------------
+
+File: content/PASSAGES/Prov/01/WHAT-THE-WISE-DO.md
+Name: passage.WHAT THE WISE DO
+Complete: Yes
+
+--------------------------------------------------------------------------------
+
+File: content/PASSAGES/Prov/02/FATE-OF-THE-WICKED.md
+Name: passage.FATE_OF_THE_WICKED
+Complete: Yes
+
+--------------------------------------------------------------------------------
+
+File: content/PASSAGES/Prov/02/PROTECTIION-FROM-EVIL.md
+Name: passage.PROTECTION_FROM_EVIL
+Complete: Yes
+
+--------------------------------------------------------------------------------
+
+File: content/PASSAGES/Prov/02/THE-SOURCE-OF-WISDOM.md
+Name: passage.THE SOURCE OF WISDOM
+Complete: Yes
+
+--------------------------------------------------------------------------------
+
+File: content/PASSAGES/Prov/03/DISCIPLINE-REBUKE.md
+Name: passage.DISCIPLINE_AND_REBUKE
+Complete: Yes
+
+--------------------------------------------------------------------------------
+
+File: content/PASSAGES/Prov/03/HONOR-GOD.md
+Name: passage.HONOR GOD
+Complete: Yes
+
+--------------------------------------------------------------------------------
+
+File: content/PASSAGES/Prov/03/HOUSE-OF-THE-WICKED.md
+Name: passage.HOUSE OF THE WICKED
+Complete: Yes
+
+--------------------------------------------------------------------------------
+
+File: content/PASSAGES/Prov/03/INHERITED-HONOR.md
+Name: passage.INHERITED HONOR
+Complete: Yes
+
+--------------------------------------------------------------------------------
+
+File: content/PASSAGES/Prov/03/KINDNESS-AND-TRUTH.md
+Name: passage.KINDNESS AND TRUTH
+Complete: Yes
+
+--------------------------------------------------------------------------------
+
+File: content/PASSAGES/Prov/03/MAN-OF-VIOLENCE.md
+Name: passage.MAN_OF_VIOLENCE
+Complete: Yes
+
+--------------------------------------------------------------------------------
+
+File: content/PASSAGES/Prov/03/NEIGHBORS.md
+Name: passage.NEIGHBORS
+Complete: Yes
+
+--------------------------------------------------------------------------------
+
+File: content/PASSAGES/Prov/03/OBLIGATION.md
+Name: passage.OBLIGATION
+Complete: Yes
+
+--------------------------------------------------------------------------------
+
+File: content/PASSAGES/Prov/03/PRICELESS-WISDOM.md
+Name: passage.PRICELESS WISDOM
+Complete: Yes
+
+--------------------------------------------------------------------------------
+
+File: content/PASSAGES/Prov/03/PRIDE-AS-EVIL.md
+Name: passage.PRIDE-AS-EVIL
+Complete: Yes
+
+--------------------------------------------------------------------------------
+
+File: content/PASSAGES/Prov/03/SCORNERS.md
+Name: passage.SCORNERS
+Complete: Yes
+
+--------------------------------------------------------------------------------
+
+File: content/PASSAGES/Prov/03/SECURITY2.md
+Name: passage.SECURITY (2)
+Complete: Yes
+
+--------------------------------------------------------------------------------
+
+File: content/PASSAGES/Prov/03/TRUST-THE-LORD.md
+Name: passage.TRUST_THE_LORD
+Complete: Yes
+
+--------------------------------------------------------------------------------
+
+File: content/PASSAGES/Prov/21/HEART-OF-THE-KING.md
+Name: passage.HEART OF THE KING
+Complete: Yes
+
+--------------------------------------------------------------------------------
+
+File: content/PASSAGES/Roma/FREEDOM-OF-DEATH.md
+Name: passage.FREEDOM_OF_DEATH
+Complete: Yes
+
+--------------------------------------------------------------------------------
+
+File: content/PASSAGES/Roma/NOT-OF-FAITH.md
+Name: passage.NOT-OF-FAITH
+Complete: Yes
+
+--------------------------------------------------------------------------------
+
+File: content/PASSAGES/job/THE-LORD-GIVES.md
+Name: passage.THE LORD GIVES
+Complete: Yes
+
+--------------------------------------------------------------------------------
+
+File: content/PASSAGES/zeph/REMOVING-ALL-THINGS.md
+Name: passage.REMOVING ALL THINGS
+Complete: Yes
+
+--------------------------------------------------------------------------------
+
+
+SUMMARY:
+Total: 27
+Complete: 27
+Incomplete: 0
