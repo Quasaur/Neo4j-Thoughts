@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "Il est difficile de comprendre que les gens puissent être dupés en pensant qu'ils ne sont rien de plus qu'un sac de produits chimiques et d'électricité.",
     hi_title: "रसायनों के थैले के रूप में धोखा",
     hi_content: "यह समझना मुश्किल है कि लोगों को यह सोचने के लिए धोखा दिया जा सकता है कि वे रसायनों और बिजली के एक थैले से अधिक कुछ नहीं हैं।",
-    zh_title: "Bèi piàn wéi huàxué dàizi 被骗为化学袋子",
-    zh_content: "Hěn nán xiǎngxiàng rénmen huì bèi piàn qù rènwéi tāmen zhǐshì yīgè zhuāng mǎn huàxué wùzhì hé diànlì de dàizi. 很难想象人们会被骗去认为他们只是一个装满化学物质和电力的袋子。"
+    zh_title: "Bèi piàn wéi huàxué dàizi  bèi piàn wèi huà xué dài zi",
+    zh_content: "Hěn nán xiǎngxiàng rénmen huì bèi piàn qù rènwéi tāmen zhǐshì yīgè zhuāng mǎn huàxué wùzhì hé diànlì de dàizi.  hěn nán xiǎng xiàng rén men huì bèi piàn qù rèn wéi tā men zhǐ shì yí gè zhuāng mǎn huà xué wù zhì hé diàn lì de dài zi 。"
 });
 
 MATCH (t:THOUGHT {name: "thought.BAG OF CHEMICALS DUPED"})

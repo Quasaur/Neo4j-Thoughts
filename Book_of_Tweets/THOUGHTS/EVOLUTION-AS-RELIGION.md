@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "L’évolution est une RELIGION dont les preuves diminuent à mesure que l’observation scientifique devient plus sophistiquée.",
     hi_title: "धर्म के रूप में विकास",
     hi_content: "विकास एक धर्म है, जिसके प्रमाण कम होते जा रहे हैं क्योंकि वैज्ञानिक अवलोकन अधिक परिष्कृत हो गया है।",
-    zh_title: "作为宗教的进化论",
-    zh_content: "进化论是一种宗教，随着科学观察变得更加复杂，其证据却在不断减少。"
+    zh_title: "zuò wéi zōng jiào de jìn huà lùn",
+    zh_content: "jìn huà lùn shì yī zhǒng zōng jiào ， suí zhe kē xué guān chá biàn dé gèng jiā fù zá ， qí zhèng jù què zài bù duàn jiǎn shǎo 。"
 });
 
 MATCH (t:THOUGHT {name: "thought.EVOLUTION AS RELIGION"})

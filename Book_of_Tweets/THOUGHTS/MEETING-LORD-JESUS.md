@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "J'ai rencontré le Seigneur Jésus : il faut vivre et mourir !",
     hi_title: "प्रभु यीशु से मुलाकात",
     hi_content: "मैं प्रभु यीशु से मिल चुका हूँ: उसके लिए जीना है, और उसके लिए मरना है!",
-    zh_title: "遇见主耶稣",
-    zh_content: "我遇见了主耶稣：为他而生，为他而死！"
+    zh_title: "yù jiàn zhǔ yē sū",
+    zh_content: "wǒ yù jiàn le zhǔ yē sū ： wèi tā ér shēng ， wèi tā ér sǐ ！"
 });
 
 MATCH (t:THOUGHT {name: "thought.MEETING LORD JESUS"})

@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "Si le Ciel n’est pas en nous, alors nous ne pouvons pas aller au Ciel.",
     hi_title: "भीतर स्वर्ग",
     hi_content: "यदि स्वर्ग हमारे अंदर नहीं है तो हम स्वर्ग में नहीं जा सकते।",
-    zh_title: "天堂之内",
-    zh_content: "如果天堂不在我们里面，那么我们就不能去天堂。"
+    zh_title: "tiān táng zhī nèi",
+    zh_content: "rú guǒ tiān táng bù zài wǒ men lǐ miàn ， nà me wǒ men jiù bù néng qù tiān táng 。"
 });
 
 MATCH (t:THOUGHT {name: "thought.HEAVEN WITHIN"})

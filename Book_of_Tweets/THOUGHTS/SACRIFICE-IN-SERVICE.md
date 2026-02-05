@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "Vous ne pouvez pas servir Dieu sans sacrifier quelque chose de grande valeur personnelle.",
     hi_title: "सेवा में बलिदान",
     hi_content: "आप महान व्यक्तिगत मूल्य की किसी चीज़ का त्याग किए बिना भगवान की सेवा नहीं कर सकते।",
-    zh_title: "服务牺牲",
-    zh_content: "如果不牺牲一些具有重大个人价值的东西，你就无法事奉上帝。"
+    zh_title: "fú wù xī shēng",
+    zh_content: "rú guǒ bù xī shēng yī xiē jù yǒu zhòng dà gè rén jià zhí de dōng xī ， nǐ jiù wú fǎ shì fèng shàng dì 。"
 });
 
 MATCH (t:THOUGHT {name: "thought.SACRIFICE IN SERVICE"})

@@ -35,8 +35,8 @@ CREATE (c:CONTENT {
     fr_content: "Jésus n'est pas venu pour rendre nos vies plus faciles ; Christ est venu pour rendre nos vies meilleures !",
     hi_title: "बेहतर, आसान नहीं",
     hi_content: "यीशु हमारे जीवन को आसान बनाने के लिए नहीं आए; मसीह हमारे जीवन को बेहतर बनाने के लिए आए!",
-    zh_title: "Gèng hǎo, bù shì gèng róngyì 更好，不是更容易",
-    zh_content: "Yēsū lái bùshì wèile ràng wǒmen de shēnghuó gèng róngyì; Jīdū lái shì wèile ràng wǒmen de shēnghuó gèng hǎo! 耶稣来不是为了让我们的生活更容易；基督来是为了让我们的生活更好！"
+    zh_title: "Gèng hǎo, bù shì gèng róngyì  gèng hǎo ， bú shì gèng róng yì",
+    zh_content: "Yēsū lái bùshì wèile ràng wǒmen de shēnghuó gèng róngyì; Jīdū lái shì wèile ràng wǒmen de shēnghuó gèng hǎo!  yē sū lái bú shì wèi le ràng wǒ men de shēng huó gèng róng yì ； jī dū lái shì wèi le ràng wǒ men de shēng huó gèng hǎo ！"
 });
 
 MATCH (t:THOUGHT {name: "thought.BETTER NOT EASIER"})

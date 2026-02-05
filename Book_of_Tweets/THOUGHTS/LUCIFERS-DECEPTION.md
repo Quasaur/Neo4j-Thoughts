@@ -3,16 +3,16 @@ name: "thought.LUCIFERS DECEPTION"
 alias: "Thought: Lucifers Deception"
 type: THOUGHT
 en_content: "God knew what Lucifer was doing...and allowed him to tempt, deceive and lead astray one third of Heaven."
-parent: "topic.EVIL"
+parent: "topic.DIVINE SOVEREIGNTY"
 tags:
 - lucifer
 - deception
 - temptation
 - evil
 - sovereignty
-level: 4
+level: 2
 neo4j: false
-ptopic: 
+ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
 ---
 
 ```Cypher
@@ -20,10 +20,9 @@ ptopic:
 CREATE (t:THOUGHT {
     name: "thought.LUCIFERS DECEPTION",
     alias: "Thought: Lucifers Deception",
-    parent: "topic.EVIL",
+    parent: "topic.DIVINE SOVEREIGNTY",
     tags: ['lucifer', 'deception', 'temptation', 'evil', 'sovereignty'],
-    notes: "",
-    level: 4
+    level: 2
 });
 
 CREATE (c:CONTENT {
@@ -44,7 +43,7 @@ MATCH (t:THOUGHT {name: "thought.LUCIFERS DECEPTION"})
 MATCH (c:CONTENT {name: "content.LUCIFERS DECEPTION"})
 MERGE (t)-[:HAS_CONTENT { "name": "edge.LUCIFERS DECEPTION" }]->(c);
 
-MATCH (parent:TOPIC {name: "topic.EVIL"})
+MATCH (parent:TOPIC {name: "topic.DIVINE SOVEREIGNTY"})
 MATCH (child:THOUGHT {name: "thought.LUCIFERS DECEPTION"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "EVIL->LUCIFERS DECEPTION" }]->(child);
+MERGE (parent)-[:HAS_THOUGHT { "name": "t.edge.DIVINE SOVEREIGNTY->LUCIFERS DECEPTION" }]->(child);
 ```

@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "Seul Dieu peut créer un cœur désintéressé à partir d'un tas de poussière.",
     hi_title: "निःस्वार्थ हृदय बनाना",
     hi_content: "केवल परमेश्वर ही धूल के ढेर से एक निःस्वार्थ हृदय बना सकते हैं।",
-    zh_title: "Chuàngzào wú sī zhī xīn 创造无私之心",
-    zh_content: "Zhǐyǒu Shàngdì néng cóng chéntǔ zhōng chuàngzào chū yī kē wú sī de xīn. 只有上帝能从尘土中创造出一颗无私的心。"
+    zh_title: "Chuàngzào wú sī zhī xīn  chuàng zào wú sī zhī xīn",
+    zh_content: "Zhǐyǒu Shàngdì néng cóng chéntǔ zhōng chuàngzào chū yī kē wú sī de xīn.  zhǐ yǒu shàng dì néng cóng chén tǔ zhōng chuàng zào chū yī kē wú sī de xīn 。"
 });
 
 MATCH (t:THOUGHT {name: "thought.CREATING SELFLESS HEART"})

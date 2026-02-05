@@ -12,7 +12,7 @@ tags:
 - character
 level: 4
 neo4j: false
-ptopic: 
+ptopic: "[[topic-EVIL]]"
 ---
 
 ```Cypher
@@ -42,9 +42,9 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT {name: "thought.UNDERSTANDING SIN HELL"})
 MATCH (c:CONTENT {name: "content.UNDERSTANDING SIN HELL"})
-MERGE (t)-[:HAS_CONTENT { "name": "edge.UNDERSTANDING SIN HELL" }]->(c);
+MERGE (t)-[:HAS_CONTENT { "name": "t.edge.UNDERSTANDING SIN HELL" }]->(c);
 
 MATCH (parent:TOPIC {name: "topic.EVIL"})
 MATCH (child:THOUGHT {name: "thought.UNDERSTANDING SIN HELL"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "EVIL->UNDERSTANDING SIN HELL" }]->(child);
+MERGE (parent)-[:HAS_THOUGHT { "name": "t.edge.EVIL->UNDERSTANDING SIN HELL" }]->(child);
 ```

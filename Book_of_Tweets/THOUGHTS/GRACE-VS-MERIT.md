@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "Le système de mérite et la Grâce sont incompatibles... nous devons choisir l'un ou l'autre.",
     hi_title: "कृपा बनाम योग्यता",
     hi_content: "योग्यता प्रणाली और कृपा असंगत हैं... हमें एक या दूसरा चुनना होगा।",
-    zh_title: "Ēndiǎn yǔ gōngjixué 恩典与功绩说",
-    zh_content: "Gōngjixué zhìduù hé ēndiǎn shì bù xiāng róng de... wǒmen bìxū xuǎnzé qí yī. 功绩说制度和恩典是不相容的...我们必须选择其一。"
+    zh_title: "Ēndiǎn yǔ gōngjixué  ēn diǎn yǔ gōng jì shuō",
+    zh_content: "Gōngjixué zhìduù hé ēndiǎn shì bù xiāng róng de... wǒmen bìxū xuǎnzé qí yī.  gōng jì shuō zhì dù hé ēn diǎn shì bù xiāng róng de ... wǒ men bì xū xuǎn zé qí yī 。"
 });
 
 MATCH (t:THOUGHT {name: "thought.GRACE VS MERIT"})

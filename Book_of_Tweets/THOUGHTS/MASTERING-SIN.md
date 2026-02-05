@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "Genèse 4:6,7 Dieu ne s'attend pas à ce que nous éradiquions le péché (c'est Son travail)... mais Il s'attend à ce que nous maîtris ions le péché.",
     hi_title: "पाप पर विजय पाना",
     hi_content: "उत्पत्ति 4:6,7 परमेश्वर हमसे यह उम्मीद नहीं करते कि हम पाप को मिटा दें (यह उनका काम है)... लेकिन वे उम्मीद करते हैं कि हम पाप पर विजय पाएं।",
-    zh_title: "Zhàngwò zuìzhèng 掌握罪政",
-    zh_content: "Chuàngshì jì 4:6,7 Shàngdì bù qīwàng wǒmen gēnchú zuìzhèng (nà shì tā de gōngzuò)... dàn tā quèshí qīwàng wǒmen zhàngwò zuìzhèng. 创世记4:6,7 上帝不期望我们根除罪政（那是他的工作）...但他确实期望我们掌握罪政。"
+    zh_title: "Zhàngwò zuìzhèng  zhǎng wò zuì zhèng",
+    zh_content: "Chuàngshì jì 4:6,7 Shàngdì bù qīwàng wǒmen gēnchú zuìzhèng (nà shì tā de gōngzuò)... dàn tā quèshí qīwàng wǒmen zhàngwò zuìzhèng.  chuàng shì jì 4:6,7  shàng dì bù qī wàng wǒ men gēn chú zuì zhèng （ nà shì tā de gōng zuò ）... dàn tā què shí qī wàng wǒ men zhǎng wò zuì zhèng 。"
 });
 
 MATCH (t:THOUGHT {name: "thought.MASTERING SIN"})

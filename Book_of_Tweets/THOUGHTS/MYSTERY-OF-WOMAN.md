@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "Adam n'a pas vu Ève être créée ; par conséquent, la Femme sera toujours un Mystère pour l'Homme.",
     hi_title: "स्त्री का रहस्य",
     hi_content: "आदम ने हव्वा को बनाए जाते नहीं देखा; इसलिए स्त्री हमेशा पुरुष के लिए एक रहस्य रहेगी।",
-    zh_title: "Nǚrén de àomì 女人的奥秘",
-    zh_content: "Yàdāng méiyǒu kànjiàn Xiàwá de chuàngzào; yīncǐ nǚrén jiāng yǒngyuǎn shì nánrén de àomì. 亚当没有看见夏娃的创造；因此女人将永远是男人的奥秘。"
+    zh_title: "Nǚrén de àomì  nǚ rén de ào mì",
+    zh_content: "Yàdāng méiyǒu kànjiàn Xiàwá de chuàngzào; yīncǐ nǚrén jiāng yǒngyuǎn shì nánrén de àomì.  yà dāng méi yǒu kàn jiàn xià wá de chuàng zào ； yīn cǐ nǚ rén jiāng yǒng yuǎn shì nán rén de ào mì 。"
 });
 
 MATCH (t:THOUGHT {name: "thought.MYSTERY OF WOMAN"})

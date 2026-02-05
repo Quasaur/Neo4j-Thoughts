@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "Vous êtes soit un bénéficiaire, soit une victime de ma relation avec Dieu.",
     hi_title: "रिश्ते पर प्रभाव",
     hi_content: "आप या तो भगवान के साथ मेरे रिश्ते के लाभार्थी हैं या हताहत हैं।",
-    zh_title: "关系影响",
-    zh_content: "你要么是我与上帝关系的受益者，要么是受害者。"
+    zh_title: "guān xì yǐng xiǎng",
+    zh_content: "nǐ yào me shì wǒ yǔ shàng dì guān xì de shòu yì zhě ， yào me shì shòu hài zhě 。"
 });
 
 MATCH (t:THOUGHT {name: "thought.RELATIONSHIP IMPACT"})

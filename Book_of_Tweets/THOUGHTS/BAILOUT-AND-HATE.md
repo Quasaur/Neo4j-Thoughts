@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "Obama a renflouer les républicains... ce qui les a fait le haïr encore plus.",
     hi_title: "सहायता और नफरत",
     hi_content: "ओबामा ने रिपब्लिकनों को बचाया... जिससे वे उनसे और अधिक नफरत करने लगे।",
-    zh_title: "Jiùzhù hé chóuhèn 救助和仇恨",
-    zh_content: "Àobāmǎ jiùzhù le Gònghédǎng rén... zhè shǐ tāmen gèng jiā chóuhèn tā. 奥巴马救助了共和党人...这使他们更加仇恨他。"
+    zh_title: "Jiùzhù hé chóuhèn  jiù zhù hé chóu hèn",
+    zh_content: "Àobāmǎ jiùzhù le Gònghédǎng rén... zhè shǐ tāmen gèng jiā chóuhèn tā.  ào bā mǎ jiù zhù le gòng hé dǎng rén ... zhè shǐ tā men gèng jiā chóu hèn tā 。"
 });
 
 MATCH (t:THOUGHT {name: "thought.BAILOUT AND HATE"})

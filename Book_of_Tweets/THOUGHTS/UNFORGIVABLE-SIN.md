@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "Quel est le péché impardonnable ?Le manque de pardon.",
     hi_title: "अक्षम्य पाप",
     hi_content: "अक्षम्य पाप क्या है?क्षमा न करना।",
-    zh_title: "不可饶恕的罪孽",
-    zh_content: "什么是不可饶恕的罪？不宽恕。"
+    zh_title: "bù kě ráo shù de zuì niè",
+    zh_content: "shén me shì bù kě ráo shù de zuì ？ bù kuān shù 。"
 });
 
 MATCH (t:THOUGHT {name: "thought.UNFORGIVABLE SIN"})

@@ -36,7 +36,7 @@ CREATE (c:CONTENT {
     fr_content: "\",
     hi_title: "पक्ष या विपक्ष में",
     hi_content: "\",
-    zh_title: "支持或反对",
+    zh_title: "zhī chí huò fǎn duì",
     zh_content: "\"
 });
 

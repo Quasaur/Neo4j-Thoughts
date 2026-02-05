@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "La dette nationale : 16 000 milliards de dollars... soit 30 millions de dollars par seconde pendant un an !!!",
     hi_title: "राष्ट्रीय ऋण आँकड़े",
     hi_content: "राष्ट्रीय ऋण: $16 ट्रिलियन...अर्थात् एक वर्ष के लिए प्रति सेकंड $30 मिलियन!!!",
-    zh_title: "国债统计",
-    zh_content: "国债：16万亿美元……相当于一年每秒3000万美元！！！"
+    zh_title: "guó zhài tǒng jì",
+    zh_content: "guó zhài ：16 wàn yì měi yuán …… xiāng dāng yú yī nián měi miǎo 3000 wàn měi yuán ！！！"
 });
 
 MATCH (t:THOUGHT {name: "thought.NATIONAL DEBT STATS"})

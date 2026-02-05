@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "Ce ralentissement économique est particulièrement difficile pour les Afro-Américains ; nous sommes les derniers à être embauchés et les premiers à être licenciés.",
     hi_title: "आर्थिक अन्याय",
     hi_content: "यह आर्थिक मंदी अफ्रीकी अमेरिकियों के लिए विशेष रूप से कठिन है; हम नौकरी पाने वालों में आखिरी और निकाले जाने वालों में पहले हैं।",
-    zh_title: "Jīngjì bùgōngzhèng 经济不公正",
-    zh_content: "Zhè cì jīngjì dīmi ào duì Fēizhōu Měiguó rén yóuqián kùnnán; wǒmen shì zuíhòu bèi gùyòng de, yě shì di yī gè bèi jiěgù de. 这次经济低迷对非洲美国人尤其困难；我们是最后被雇用的，也是第一个被解雇的。"
+    zh_title: "Jīngjì bùgōngzhèng  jīng jì bù gōng zhèng",
+    zh_content: "Zhè cì jīngjì dīmi ào duì Fēizhōu Měiguó rén yóuqián kùnnán; wǒmen shì zuíhòu bèi gùyòng de, yě shì di yī gè bèi jiěgù de.  zhè cì jīng jì dī mí duì fēi zhōu měi guó rén yóu qí kùn nán ； wǒ men shì zuì hòu bèi gù yòng de ， yě shì dì yí gè bèi jiě gù de 。"
 });
 
 MATCH (t:THOUGHT {name: "thought.ECONOMIC INJUSTICE"})

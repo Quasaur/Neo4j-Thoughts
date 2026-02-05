@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "La Bible ne dit pas que Dieu marchait avec Enoch, mais qu'Enoch marchait avec Dieu.Hénoc était dirigé par le Saint-Esprit.",
     hi_title: "भगवान के साथ चलना",
     hi_content: "बाइबल यह नहीं कहती कि परमेश्वर हनोक के साथ चला, बल्कि यह कि हनोक परमेश्वर के साथ चला।हनोक का नेतृत्व पवित्र आत्मा द्वारा किया गया था।",
-    zh_title: "与神同行",
-    zh_content: "圣经没有说神与以诺同行，而是说以诺与神同行。以诺是被圣灵引导的。"
+    zh_title: "yǔ shén tóng háng",
+    zh_content: "shèng jīng méi yǒu shuō shén yǔ yǐ nuò tóng háng ， ér shì shuō yǐ nuò yǔ shén tóng háng 。 yǐ nuò shì bèi shèng líng yǐn dǎo de 。"
 });
 
 MATCH (t:THOUGHT {name: "thought.WALKING WITH GOD"})

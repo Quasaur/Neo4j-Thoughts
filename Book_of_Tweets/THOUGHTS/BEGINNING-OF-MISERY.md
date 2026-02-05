@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "La misère a commencé quand un idiot a décidé qu'il était plus important que Dieu.",
     hi_title: "दुख की शुरुआत",
     hi_content: "दुख तब शुरू हुआ जब किसी मूर्ख ने यह तय किया कि वह परमेश्वर से अधिक महत्वपूर्ण था।",
-    zh_title: "Kǔnàn de kāishǐ 苦难的开始",
-    zh_content: "Dāng mǒu gè báichī juédìng tā bǐ Shàngdì gèng zhòngyào shí, kǔnàn jiù kāishǐ le. 当某个白痴决定他比上帝更重要时，苦难就开始了。"
+    zh_title: "Kǔnàn de kāishǐ  kǔ nàn de kāi shǐ",
+    zh_content: "Dāng mǒu gè báichī juédìng tā bǐ Shàngdì gèng zhòngyào shí, kǔnàn jiù kāishǐ le.  dāng mǒu gè bái chī jué dìng tā bǐ shàng dì gèng zhòng yào shí ， kǔ nàn jiù kāi shǐ le 。"
 });
 
 MATCH (t:THOUGHT {name: "thought.BEGINNING OF MISERY"})

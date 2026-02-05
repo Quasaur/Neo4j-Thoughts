@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "Si nous n'appartenons pas à Dieu, nous nous appartenons à nous-mêmes... et nous périrons en nous-mêmes parce que nous choisissons de ne pas vivre en Dieu.",
     hi_title: "परमेश्वर से संबंधित होना",
     hi_content: "यदि हम परमेश्वर के नहीं हैं, तो हम अपने ही हैं... और हम अपने आप में नष्ट हो जाएंगे क्योंकि हम परमेश्वर में जीने का चयन नहीं करते।",
-    zh_title: "Shǔyú Shàngdì 属于上帝",
-    zh_content: "Rúguǒ wǒmen bù shǔyú Shàngdì, wǒmen jiù shǔyú zìjǐ... bìngqiě wǒmen jiāng zài zìjǐ zhōng huǐmiè, yīnwèi wǒmen xuǎnzé bù zài Shàngdì lǐ shēnghuó. 如果我们不属于上帝，我们就属于自己...并且我们将在自己中毁灭，因为我们选择不在上帝里生活。"
+    zh_title: "Shǔyú Shàngdì  shǔ yú shàng dì",
+    zh_content: "Rúguǒ wǒmen bù shǔyú Shàngdì, wǒmen jiù shǔyú zìjǐ... bìngqiě wǒmen jiāng zài zìjǐ zhōng huǐmiè, yīnwèi wǒmen xuǎnzé bù zài Shàngdì lǐ shēnghuó.  rú guǒ wǒ men bù shǔ yú shàng dì ， wǒ men jiù shǔ yú zì jǐ ... bìng qiě wǒ men jiāng zài zì jǐ zhōng huǐ miè ， yīn wèi wǒ men xuǎn zé bù zài shàng dì lǐ shēng huó 。"
 });
 
 MATCH (t:THOUGHT {name: "thought.BELONGING TO GOD"})

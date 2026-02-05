@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "1 Corinthiens 15:24-28 : Dieu réconcilie et consolide toutes choses en Christ.",
     hi_title: "मसीह में सुलह करना",
     hi_content: "1 कुरिन्थियों 15:24-28: परमेश्वर सभी चीज़ों को मसीह में सुलह और संघटित कर रहे हैं।",
-    zh_title: "Zài Jīdū lǐ héxé 在基督里和合",
-    zh_content: "Gēlínduō qián shū 15:24-28: Shàngdì zhèng zài Jīdū lǐ héxé bìng zhěnghé wànwù. 哥林多前书 15:24-28：上帝正在基督里和合并整合万物。"
+    zh_title: "Zài Jīdū lǐ héxé  zài jī dū lǐ hé hé",
+    zh_content: "Gēlínduō qián shū 15:24-28: Shàngdì zhèng zài Jīdū lǐ héxé bìng zhěnghé wànwù.  gē lín duō qián shū  15:24-28： shàng dì zhèng zài jī dū lǐ hé hé bìng zhěng hé wàn wù 。"
 });
 
 MATCH (t:THOUGHT {name: "thought.RECONCILING IN CHRIST"})

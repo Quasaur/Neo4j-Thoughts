@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "1 Tim. 3:15 : L'Église de Dieu est le Pilier et le Fondement de la Vérité sur Terre, et l'attaquer et la critiquer est périlleux.",
     hi_title: "चर्च: सत्य का स्तंभ",
     hi_content: "1 तीमुथियुस 3:15: परमेश्वर का चर्च पृथ्वी पर सत्य का स्तंभ और आधार है, और उस पर हमला करना और उसकी आलोचना करना खतरनाक है।",
-    zh_title: "Jiàohuì: Zhēnlǐ de zhùzi 教会：真理的柱子",
-    zh_content: "Tí mó tài qián shū 3:15: Shàngdì de jiàohuì shì dìshàng zhēnlǐ de zhùzi hé gēnjī, gōngjí hé pīpíng tā shì wéixiǎn de. 提摩太前书3:15：上帝的教会是地上真理的柱子和根基，攻击和批评她是危险的。"
+    zh_title: "Jiàohuì: Zhēnlǐ de zhùzi  jiào huì ： zhēn lǐ de zhù zi",
+    zh_content: "Tí mó tài qián shū 3:15: Shàngdì de jiàohuì shì dìshàng zhēnlǐ de zhùzi hé gēnjī, gōngjí hé pīpíng tā shì wéixiǎn de.  tí mó tài qián shū 3:15： shàng dì de jiào huì shì dì shàng zhēn lǐ de zhù zi hé gēn jī ， gōng jī hé pī píng tā shì wēi xiǎn de 。"
 });
 
 MATCH (t:THOUGHT {name: "thought.CHURCH PILLAR OF TRUTH"})

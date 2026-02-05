@@ -8,11 +8,11 @@ tags:
 - faith
 - word
 - riches
-- temptation
+- distraction
 - growth
 level: 4
 neo4j: false
-ptopic: 
+ptopic: "[[topic-FAITH]]"
 ---
 
 ```Cypher
@@ -22,7 +22,6 @@ CREATE (t:THOUGHT {
     alias: "Thought: Choking The Word",
     parent: "topic.FAITH",
     tags: ['faith', 'word', 'riches', 'temptation', 'growth'],
-    notes: "",
     level: 4
 });
 
@@ -42,9 +41,9 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT {name: "thought.CHOKING THE WORD"})
 MATCH (c:CONTENT {name: "content.CHOKING THE WORD"})
-MERGE (t)-[:HAS_CONTENT { "name": "edge.CHOKING THE WORD" }]->(c);
+MERGE (t)-[:HAS_CONTENT { "name": "t.edge.CHOKING THE WORD" }]->(c);
 
 MATCH (parent:TOPIC {name: "topic.FAITH"})
 MATCH (child:THOUGHT {name: "thought.CHOKING THE WORD"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "FAITH->CHOKING THE WORD" }]->(child);
+MERGE (parent)-[:HAS_THOUGHT { "name": "t.edge.FAITH->CHOKING THE WORD" }]->(child);
 ```

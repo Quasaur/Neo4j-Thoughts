@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "La prière est mon abri... ma forteresse... ma zone sans stress... mon dessert.",
     hi_title: "प्रार्थना मेरी शरण",
     hi_content: "प्रार्थना मेरी शरण है... मेरा किला... मेरा तनाव-मुक्त क्षेत्र... मेरी मिठाई।",
-    zh_title: "Qí dǎo shì wǒ de bì hù suǒ 祈祷是我的庇护所",
-    zh_content: "Qí dǎo shì wǒ de bì hù suǒ... wǒ de bǎolěi... wǒ de wú yālì qū... wǒ de tiándiǎn. 祈祷是我的庇护所...我的堡垒...我的无压力区...我的甜点。"
+    zh_title: "Qí dǎo shì wǒ de bì hù suǒ  qí dǎo shì wǒ de bì hù suǒ",
+    zh_content: "Qí dǎo shì wǒ de bì hù suǒ... wǒ de bǎolěi... wǒ de wú yālì qū... wǒ de tiándiǎn.  qí dǎo shì wǒ de bì hù suǒ ... wǒ de bǎo lěi ... wǒ de wú yā lì qū ... wǒ de tián diǎn 。"
 });
 
 MATCH (t:THOUGHT {name: "thought.PRAYER MY SHELTER"})

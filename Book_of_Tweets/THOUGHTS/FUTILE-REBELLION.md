@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "La rébellion contre Dieu est futile !",
     hi_title: "व्यर्थ विद्रोह",
     hi_content: "परमेश्वर के विरुद्ध विद्रोह व्यर्थ है!",
-    zh_title: "Túláo de fǎnnù 徒劳的叛逆",
-    zh_content: "Fǎnnù Shàngdì shì túláo de! 叛逆上帝是徒劳的！"
+    zh_title: "Túláo de fǎnnù  tú láo de pàn nì",
+    zh_content: "Fǎnnù Shàngdì shì túláo de!  pàn nì shàng dì shì tú láo de ！"
 });
 
 MATCH (t:THOUGHT {name: "thought.FUTILE REBELLION"})

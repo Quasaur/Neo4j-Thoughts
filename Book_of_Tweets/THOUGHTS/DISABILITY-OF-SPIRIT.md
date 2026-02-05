@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "L'incapacité de percevoir la Présence Immédiate de Dieu est un handicap plus grand que de ne pas pouvoir marcher ou voir.",
     hi_title: "आत्मा की अशक्तता",
     hi_content: "परमेश्वर की तत्काल उपस्थिति को महसूस न कर पाना चलने या देखने में असमर्थ होने से बड़ी अशक्तता है।",
-    zh_title: "Líng de cánjí 灵的残疾",
-    zh_content: "Wúfǎ gǎnshòu Shàngdì jítǐ línzài shì bǐ bù néng zǒulù huò kànjiàn gèng dà de cánjí. 无法感受上帝即时临在是比不能走路或看见更大的残疾。"
+    zh_title: "Líng de cánjí  líng de cán jí",
+    zh_content: "Wúfǎ gǎnshòu Shàngdì jítǐ línzài shì bǐ bù néng zǒulù huò kànjiàn gèng dà de cánjí.  wú fǎ gǎn shòu shàng dì jí shí lín zài shì bǐ bù néng zǒu lù huò kàn jiàn gèng dà de cán jí 。"
 });
 
 MATCH (t:THOUGHT {name: "thought.DISABILITY OF SPIRIT"})

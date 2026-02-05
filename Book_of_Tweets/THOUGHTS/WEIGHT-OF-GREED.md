@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "L'Amérique finit par succomber sous le poids de sa propre cupidité.",
     hi_title: "लालच का भार",
     hi_content: "अमेरिका आखिरकार अपने ही लालच के भार तले झुक रहा है।",
-    zh_title: "Tānlán de fùdān 贪婪的负担",
-    zh_content: "Měiguó zhōngyú zài zìjǐ tānlán de fùdān xià bēngkuì. 美国终于在自己贪婪的负担下崩溃。"
+    zh_title: "Tānlán de fùdān  tān lán de fù dān",
+    zh_content: "Měiguó zhōngyú zài zìjǐ tānlán de fùdān xià bēngkuì.  měi guó zhōng yú zài zì jǐ tān lán de fù dān xià bēng kuì 。"
 });
 
 MATCH (t:THOUGHT {name: "thought.WEIGHT OF GREED"})

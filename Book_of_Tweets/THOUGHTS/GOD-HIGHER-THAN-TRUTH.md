@@ -36,7 +36,7 @@ CREATE (c:CONTENT {
     fr_content: "\",
     hi_title: "ईश्वर सत्य से भी ऊंचा है",
     hi_content: "\",
-    zh_title: "神高于真理",
+    zh_title: "shén gāo yú zhēn lǐ",
     zh_content: "\"
 });
 

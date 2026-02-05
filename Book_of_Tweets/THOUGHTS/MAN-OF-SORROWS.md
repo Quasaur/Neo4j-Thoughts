@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "Jésus était un Homme de douleurs... familier avec le chagrin--non pas à cause de ce qu'ils Lui ont fait, mais de ce qu'ils se sont fait les uns aux autres !",
     hi_title: "दुःख का पुरुष",
     hi_content: "यीशु दुःख का पुरुष था... शोक से परिचित--इसलिए नहीं कि उन्होंने उनके साथ क्या किया, बल्कि इसलिए कि उन्होंने एक दूसरे के साथ क्या किया!",
-    zh_title: "Bēiāi zhī rén 悲哀之人",
-    zh_content: "Yēsū shì bēiāi zhī rén... shì xī tòngkǔ de--bù shì yīnwèi tāmen duì tā zuò le shénme, ér shì yīnwèi tāmen bǐcǐ zuò le shénme! 耶穣是悲哀之人...熟悉痛苦的--不是因为他们对他做了什么，而是因为他们彼此做了什么！"
+    zh_title: "Bēiāi zhī rén  bēi āi zhī rén",
+    zh_content: "Yēsū shì bēiāi zhī rén... shì xī tòngkǔ de--bù shì yīnwèi tāmen duì tā zuò le shénme, ér shì yīnwèi tāmen bǐcǐ zuò le shénme!  yé ráng shì bēi āi zhī rén ... shú xī tòng kǔ de -- bú shì yīn wèi tā men duì tā zuò le shén me ， ér shì yīn wèi tā men bǐ cǐ zuò le shén me ！"
 });
 
 MATCH (t:THOUGHT {name: "thought.MAN OF SORROWS"})

@@ -12,7 +12,7 @@ tags:
 - character
 level: 4
 neo4j: false
-ptopic: 
+ptopic: "[[topic-EVIL]]"
 ---
 
 ```Cypher
@@ -22,7 +22,6 @@ CREATE (t:THOUGHT {
     alias: "Thought: Lucifers Wretchedness",
     parent: "topic.EVIL",
     tags: ['lucifer', 'pride', 'evil', 'supporter', 'character'],
-    notes: "",
     level: 4
 });
 
@@ -36,15 +35,15 @@ CREATE (c:CONTENT {
     fr_content: "Quel misérable Lucifer doit être, pour mépriser son plus ardent Soutien !",
     hi_title: "लूसिफर की दुर्दशा",
     hi_content: "लूसिफर कितना दयनीय होगा, अपने सबसे उत्कट समर्थक को तुच्छ समझने के लिए!",
-    zh_title: "Lùxīfèi de bēicǎn 路西弗的卑涅",
-    zh_content: "Lùxīfèi dàgài shì duōme bēibiǐ, jìnrán qī shì tā zuì rèchéng de zhīchí zhě! 路西弗大概是多么卑鄙，竟然欺视他最热诚的支持者！"
+    zh_title: "Lùxīfèi de bēicǎn  lù xī fú de bēi niè",
+    zh_content: "Lùxīfèi dàgài shì duōme bēibiǐ, jìnrán qī shì tā zuì rèchéng de zhīchí zhě!  lù xī fú dà gài shì duō me bēi bǐ ， jìng rán qī shì tā zuì rè chéng de zhī chí zhě ！"
 });
 
 MATCH (t:THOUGHT {name: "thought.LUCIFERS WRETCHEDNESS"})
 MATCH (c:CONTENT {name: "content.LUCIFERS WRETCHEDNESS"})
-MERGE (t)-[:HAS_CONTENT { "name": "edge.LUCIFERS WRETCHEDNESS" }]->(c);
+MERGE (t)-[:HAS_CONTENT { "name": "t.edge.LUCIFERS WRETCHEDNESS" }]->(c);
 
 MATCH (parent:TOPIC {name: "topic.EVIL"})
 MATCH (child:THOUGHT {name: "thought.LUCIFERS WRETCHEDNESS"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "EVIL->LUCIFERS WRETCHEDNESS" }]->(child);
+MERGE (parent)-[:HAS_THOUGHT { "name": "t.edge.EVIL->LUCIFERS WRETCHEDNESS" }]->(child);
 ```

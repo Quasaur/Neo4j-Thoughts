@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "Le Christ est la Destinée de tous... sans exception !",
     hi_title: "मसीह सार्वभौमिक नियति है",
     hi_content: "मसीह सभी की नियति है... कोई अपवाद नहीं!",
-    zh_title: "Jīdū shì pǔshì de mìngyùn 基督是普世的命运",
-    zh_content: "Jīdū shì měi gèrén de mìngyùn... méiyǒu lìwài! 基督是每个人的命运...没有例外！"
+    zh_title: "Jīdū shì pǔshì de mìngyùn  jī dū shì pǔ shì de mìng yùn",
+    zh_content: "Jīdū shì měi gèrén de mìngyùn... méiyǒu lìwài!  jī dū shì měi gè rén de mìng yùn ... méi yǒu lì wài ！"
 });
 
 MATCH (t:THOUGHT {name: "thought.CHRIST UNIVERSAL DESTINY"})

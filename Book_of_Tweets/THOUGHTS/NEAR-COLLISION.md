@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "Un avion à réaction AA a failli entrer en collision avec un United au-dessus d'AL... ma sœur était dans l'avion AA et pouvait lire les écrits sur l'autre avion.",
     hi_title: "टक्कर के निकट",
     hi_content: "एक एए जेट की एएल के ऊपर युनाइटेड से सीधी टक्कर हो गई...मेरी बहन एए विमान में थी और दूसरे विमान में लिखा पढ़ सकती थी।",
-    zh_title: "险些发生碰撞",
-    zh_content: "一架 AA 喷气式飞机在 AL 上与一架联合航空差点相撞……我姐姐在 AA 飞机上，可以阅读另一架飞机上的文字。"
+    zh_title: "xiǎn xiē fā shēng pèng zhuàng",
+    zh_content: "yī jià  AA  pēn qì shì fēi jī zài  AL  shàng yǔ yī jià lián hé háng kōng chà diǎn xiāng zhuàng …… wǒ jiě jiě zài  AA  fēi jī shàng ， kě yǐ yuè dú lìng yī jià fēi jī shàng de wén zì 。"
 });
 
 MATCH (t:THOUGHT {name: "thought.NEAR COLLISION"})

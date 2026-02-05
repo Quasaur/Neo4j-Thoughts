@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "Qu'est-ce qui nous attire vers l'interdit ? Le péché.",
     hi_title: "वर्जित की ओर आकर्षण",
     hi_content: "वर्जित की ओर हमें क्या आकर्षित करता है? पाप।",
-    zh_title: "Duì jìnjì de xīyǐn lì 对禁忌的吸引力",
-    zh_content: "Shì shénme xīyǐn wǒmen bèi jìnjì zhī wù? Zuìzhèng. 是什么吸引我们被禁忌之物？罪政。"
+    zh_title: "Duì jìnjì de xīyǐn lì  duì jìn jì de xī yǐn lì",
+    zh_content: "Shì shénme xīyǐn wǒmen bèi jìnjì zhī wù? Zuìzhèng.  shì shén me xī yǐn wǒ men bèi jìn jì zhī wù ？ zuì zhèng 。"
 });
 
 MATCH (t:THOUGHT {name: "thought.ATTRACTION TO FORBIDDEN"})

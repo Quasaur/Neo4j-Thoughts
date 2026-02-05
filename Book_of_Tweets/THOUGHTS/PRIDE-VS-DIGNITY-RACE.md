@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "Pourquoi les hommes afro-américains confondent-ils fierté et dignité ?",
     hi_title: "गौरव बनाम गरिमा की दौड़",
     hi_content: "अफ़्रीकी अमेरिकी पुरुष गर्व को गरिमा के साथ भ्रमित क्यों करते हैं?",
-    zh_title: "骄傲与尊严竞赛",
-    zh_content: "为什么非裔美国男性会将骄傲与尊严混为一谈？"
+    zh_title: "jiāo ào yǔ zūn yán jìng sài",
+    zh_content: "wèi shén me fēi yì měi guó nán xìng huì jiāng jiāo ào yǔ zūn yán hùn wéi yī tán ？"
 });
 
 MATCH (t:THOUGHT {name: "thought.PRIDE VS DIGNITY RACE"})

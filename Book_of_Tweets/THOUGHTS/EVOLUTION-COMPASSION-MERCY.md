@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "L'évolution peut-elle expliquer la Compassion ? La Miséricorde ?",
     hi_title: "विकास, करुणा और दया",
     hi_content: "क्या विकासवाद करुणा की व्याख्या कर सकता है? दया की?",
-    zh_title: "Jìnhuà, bēimǐn, cíbēi 进化，悲悂，慈悲",
-    zh_content: "Jìnhuà lùn néng jiěshì bēimǐn ma? Cíbēi ne? 进化论能解释悲悂吗？慈悲呢？"
+    zh_title: "Jìnhuà, bēimǐn, cíbēi  jìn huà ， bēi pī ， cí bēi",
+    zh_content: "Jìnhuà lùn néng jiěshì bēimǐn ma? Cíbēi ne?  jìn huà lùn néng jiě shì bēi pī ma ？ cí bēi ne ？"
 });
 
 MATCH (t:THOUGHT {name: "thought.EVOLUTION COMPASSION MERCY"})

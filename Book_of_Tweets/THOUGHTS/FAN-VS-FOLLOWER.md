@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "Vous pouvez être un fan du Christ sans être un disciple ; mais vous ne pouvez pas être un disciple sans être un fan !",
     hi_title: "प्रशंसक बनाम अनुयायी",
     hi_content: "आप मसीह के प्रशंसक हो सकते हैं लेकिन अनुयायी नहीं; लेकिन आप अनुयायी होकर प्रशंसक न होना असंभव है!",
-    zh_title: "Fēnsī yǔ mén tú 粉丝与门徒",
-    zh_content: "Nǐ kěyǐ shì Jīdū de fēnsī, dàn què bù shì mén tú; dàn nǐ bù néng chéngwéi mén tú què bù shì fēnsī! 你可以是基督的粉丝，但却不是门徒；但你不能成为门徒却不是粉丝！"
+    zh_title: "Fēnsī yǔ mén tú  fěn sī yǔ mén tú",
+    zh_content: "Nǐ kěyǐ shì Jīdū de fēnsī, dàn què bù shì mén tú; dàn nǐ bù néng chéngwéi mén tú què bù shì fēnsī!  nǐ kě yǐ shì jī dū de fěn sī ， dàn què bú shì mén tú ； dàn nǐ bù néng chéng wéi mén tú què bú shì fěn sī ！"
 });
 
 MATCH (t:THOUGHT {name: "thought.FAN VS FOLLOWER"})

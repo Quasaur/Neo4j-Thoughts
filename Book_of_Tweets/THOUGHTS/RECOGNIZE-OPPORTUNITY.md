@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "La tragédie est que les hommes afro-américains ne reconnaissent pas l'opportunité quand ils la voient.",
     hi_title: "अवसर को पहचानना",
     hi_content: "दुर्भाग्य यह है कि अफ्रीकी अमेरिकी पुरुष अवसर को देखते समय पहचान नहीं पाते।",
-    zh_title: "Rènshí jīhuì 认识机会",
-    zh_content: "Bēijù shì Fēizhōu měiguó nánxìng zài kàndào jīhuì shí wúfǎ rènshí tā. 悲剧是非洲美国男性在看到机会时无法认识它。"
+    zh_title: "Rènshí jīhuì  rèn shí jī huì",
+    zh_content: "Bēijù shì Fēizhōu měiguó nánxìng zài kàndào jīhuì shí wúfǎ rènshí tā.  bēi jù shì fēi zhōu měi guó nán xìng zài kàn dào jī huì shí wú fǎ rèn shí tā 。"
 });
 
 MATCH (t:THOUGHT {name: "thought.RECOGNIZE OPPORTUNITY"})

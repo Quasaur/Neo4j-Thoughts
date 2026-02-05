@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "La société en tant que personne morale",
     hi_title: "मनोरोगी निगम",
     hi_content: "एक कानूनी के रूप में निगम \",
-    zh_title: "精神病态的公司",
-    zh_content: "该公司作为一个合法的\"
+    zh_title: "jīng shén bìng tài de gōng sī",
+    zh_content: "gāi gōng sī zuò wéi yí gè hé fǎ de \"
 });
 
 MATCH (t:THOUGHT {name: "thought.PSYCHOPATHIC CORPORATIONS"})

@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "Nous ne puisons pas dans la Force de Dieu parce que nous ne sommes pas déterminés à exécuter la Volonté de Dieu.",
     hi_title: "शक्ति और इच्छा",
     hi_content: "हम ईश्वर की शक्ति का लाभ नहीं उठाते क्योंकि हम ईश्वर की इच्छा को क्रियान्वित करने के लिए प्रतिबद्ध नहीं हैं।",
-    zh_title: "力量与意志",
-    zh_content: "我们没有利用神的力量，因为我们没有致力于执行神的旨意。"
+    zh_title: "lì liàng yǔ yì zhì",
+    zh_content: "wǒ men méi yǒu lì yòng shén de lì liàng ， yīn wèi wǒ men méi yǒu zhì lì yú zhí xíng shén de zhǐ yì 。"
 });
 
 MATCH (t:THOUGHT {name: "thought.POWER AND WILL"})

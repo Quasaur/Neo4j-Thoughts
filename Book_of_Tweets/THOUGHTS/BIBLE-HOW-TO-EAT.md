@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "La Bible ne nous dit pas seulement comment vivre, mais aussi COMMENT MANGER !",
     hi_title: "बाइबिल कैसे खाएं",
     hi_content: "बाइबिल हमें न केवल यह बताती है कि कैसे जीना है, बल्कि यह भी कि कैसे खाना है!",
-    zh_title: "Shèngjīng jiàodǎo rúhé chī 圣经教导如何吃",
-    zh_content: "Shèngjīng bùjǐn gàosu wǒmen rúhé shēnghuó, yě gàosu wǒmen rúhé yǐnshí! 圣经不仅告诉我们如何生活，也告诉我们如何饮食！"
+    zh_title: "Shèngjīng jiàodǎo rúhé chī  shèng jīng jiào dǎo rú hé chī",
+    zh_content: "Shèngjīng bùjǐn gàosu wǒmen rúhé shēnghuó, yě gàosu wǒmen rúhé yǐnshí!  shèng jīng bù jǐn gào sù wǒ men rú hé shēng huó ， yě gào sù wǒ men rú hé yǐn shí ！"
 });
 
 MATCH (t:THOUGHT {name: "thought.BIBLE HOW TO EAT"})

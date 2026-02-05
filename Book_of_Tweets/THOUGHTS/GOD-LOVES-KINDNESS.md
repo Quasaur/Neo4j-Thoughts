@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "Dieu aime la Bonté !",
     hi_title: "परमेश्वर दया से प्रेम करते हैं",
     hi_content: "परमेश्वर दया से प्रेम करते हैं!",
-    zh_title: "Shàngdì ài shànláng 上帝爱善良",
-    zh_content: "Shàngdì rè'ai shànláng! 上帝热爱善良！"
+    zh_title: "Shàngdì ài shànláng  shàng dì ài shàn liáng",
+    zh_content: "Shàngdì rè'ai shànláng!  shàng dì rè ài shàn liáng ！"
 });
 
 MATCH (t:THOUGHT {name: "thought.GOD LOVES KINDNESS"})

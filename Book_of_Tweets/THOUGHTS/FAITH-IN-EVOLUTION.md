@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "L’évolution nécessite BEAUCOUP PLUS DE FOI que la conception intelligente.",
     hi_title: "विकास में विश्वास",
     hi_content: "विकास के लिए बुद्धिमान डिज़ाइन की तुलना में कहीं अधिक विश्वास की आवश्यकता होती है।",
-    zh_title: "相信进化论",
-    zh_content: "进化比智能设计需要更多的信念。"
+    zh_title: "xiāng xìn jìn huà lùn",
+    zh_content: "jìn huà bǐ zhì néng shè jì xū yào gèng duō de xìn niàn 。"
 });
 
 MATCH (t:THOUGHT {name: "thought.FAITH IN EVOLUTION"})

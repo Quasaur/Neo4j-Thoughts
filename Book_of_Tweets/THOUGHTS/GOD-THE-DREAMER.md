@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "L'existence est un rêve, mais nous ne sommes pas des rêveurs... Dieu l'est !",
     hi_title: "सपने देखने वाला भगवान",
     hi_content: "अस्तित्व एक सपना है--लेकिन हम सपने देखने वाले नहीं हैं...ईश्वर है!",
-    zh_title: "梦想家上帝",
-    zh_content: "存在是一个梦想——但我们不是梦想家……上帝才是！"
+    zh_title: "mèng xiǎng jiā shàng dì",
+    zh_content: "cún zài shì yí gè mèng xiǎng —— dàn wǒ men bú shì mèng xiǎng jiā …… shàng dì cái shì ！"
 });
 
 MATCH (t:THOUGHT {name: "thought.GOD THE DREAMER"})
