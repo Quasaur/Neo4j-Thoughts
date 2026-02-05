@@ -12,7 +12,7 @@ tags:
 - spiritual_warfare
 level: 4
 neo4j: false
-ptopic: 
+ptopic: "[[topic-EVIL]]"
 ---
 
 ```Cypher
@@ -22,7 +22,6 @@ CREATE (t:THOUGHT {
     alias: "Thought: Voice Of The Devil",
     parent: "topic.EVIL",
     tags: ['hate', 'bitterness', 'violence', 'devil', 'spiritual_warfare'],
-    notes: "",
     level: 4
 });
 
@@ -36,15 +35,15 @@ CREATE (c:CONTENT {
     fr_content: "Se soumettre à la haine, à l’amertume et à la violence, c’est donner la parole au Diable ;ceux-ci sont devenus ses attributs les plus précieux.",
     hi_title: "शैतान की आवाज",
     hi_content: "नफरत, कड़वाहट और हिंसा के आगे झुकना शैतान को आवाज़ देना है;ये उनके सबसे प्रिय गुण बन गए हैं।",
-    zh_title: "恶魔之声",
-    zh_content: "屈服于仇恨、痛苦和暴力就是向魔鬼发出声音；这些已成为他最珍惜的品质。"
+    zh_title: "è mó zhī shēng",
+    zh_content: "qū fú yú chóu hèn 、 tòng kǔ hé bào lì jiù shì xiàng mó guǐ fā chū shēng yīn ； zhè xiē yǐ chéng wéi tā zuì zhēn xī de pǐn zhì 。"
 });
 
 MATCH (t:THOUGHT {name: "thought.VOICE OF THE DEVIL"})
 MATCH (c:CONTENT {name: "content.VOICE OF THE DEVIL"})
-MERGE (t)-[:HAS_CONTENT { "name": "edge.VOICE OF THE DEVIL" }]->(c);
+MERGE (t)-[:HAS_CONTENT { "name": "t.edge.VOICE OF THE DEVIL" }]->(c);
 
 MATCH (parent:TOPIC {name: "topic.EVIL"})
 MATCH (child:THOUGHT {name: "thought.VOICE OF THE DEVIL"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "EVIL->VOICE OF THE DEVIL" }]->(child);
+MERGE (parent)-[:HAS_THOUGHT { "name": "t.edge.EVIL->VOICE OF THE DEVIL" }]->(child);
 ```

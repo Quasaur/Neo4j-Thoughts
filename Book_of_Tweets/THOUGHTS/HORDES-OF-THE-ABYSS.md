@@ -3,16 +3,16 @@ name: "thought.HORDES OF THE ABYSS"
 alias: "Thought: Hordes Of The Abyss"
 type: THOUGHT
 en_content: "Humanity will be visited by the hordes of the Abyss because that is what it, by its deeds, asked for."
-parent: "topic.EVIL"
+parent: "topic.APOCALYPSE"
 tags:
 - abyss
 - hordes
 - deeds
 - judgment
 - evil
-level: 4
+level: 5
 neo4j: false
-ptopic: 
+ptopic: "[[topic-APOCALYPSE]]"
 ---
 
 ```Cypher
@@ -20,10 +20,9 @@ ptopic:
 CREATE (t:THOUGHT {
     name: "thought.HORDES OF THE ABYSS",
     alias: "Thought: Hordes Of The Abyss",
-    parent: "topic.EVIL",
+    parent: "topic.APOCALYPSE",
     tags: ['abyss', 'hordes', 'deeds', 'judgment', 'evil'],
-    notes: "",
-    level: 4
+    level: 5
 });
 
 CREATE (c:CONTENT {
@@ -42,9 +41,9 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT {name: "thought.HORDES OF THE ABYSS"})
 MATCH (c:CONTENT {name: "content.HORDES OF THE ABYSS"})
-MERGE (t)-[:HAS_CONTENT { "name": "edge.HORDES OF THE ABYSS" }]->(c);
+MERGE (t)-[:HAS_CONTENT { "name": "t.edge.HORDES OF THE ABYSS" }]->(c);
 
-MATCH (parent:TOPIC {name: "topic.EVIL"})
+MATCH (parent:TOPIC {name: "topic.APOCALYPSE"})
 MATCH (child:THOUGHT {name: "thought.HORDES OF THE ABYSS"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "EVIL->HORDES OF THE ABYSS" }]->(child);
+MERGE (parent)-[:HAS_THOUGHT { "name": "t.edge.APOCALYPSE->HORDES OF THE ABYSS" }]->(child);
 ```

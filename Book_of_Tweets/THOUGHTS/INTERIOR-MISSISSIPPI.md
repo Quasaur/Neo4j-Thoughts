@@ -36,7 +36,7 @@ CREATE (c:CONTENT {
     fr_content: "\",
     hi_title: "मिसिसिपी का आंतरिक भाग",
     hi_content: "\",
-    zh_title: "密西西比河的内部",
+    zh_title: "mì xī xī bǐ hé de nèi bù",
     zh_content: "\"
 });
 

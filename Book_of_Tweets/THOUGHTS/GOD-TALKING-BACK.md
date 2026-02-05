@@ -35,7 +35,7 @@ CREATE (c:CONTENT {
     fr_content: "\",
     hi_title: "भगवान वापस बात कर रहे हैं",
     hi_content: "\",
-    zh_title: "神回话",
+    zh_title: "shén huí huà",
     zh_content: "\"
 });
 

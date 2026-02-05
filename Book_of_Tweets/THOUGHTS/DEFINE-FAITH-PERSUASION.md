@@ -12,7 +12,7 @@ tags:
 - truth
 level: 4
 neo4j: false
-ptopic: 
+ptopic: "[[topic-FAITH]]"
 ---
 
 ```Cypher
@@ -22,7 +22,6 @@ CREATE (t:THOUGHT {
     alias: "Thought: Define Faith Persuasion",
     parent: "topic.FAITH",
     tags: ['faith', 'persuasion', 'promises', 'god', 'truth'],
-    notes: "",
     level: 4
 });
 
@@ -42,9 +41,9 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT {name: "thought.DEFINE FAITH PERSUASION"})
 MATCH (c:CONTENT {name: "content.DEFINE FAITH PERSUASION"})
-MERGE (t)-[:HAS_CONTENT { "name": "edge.DEFINE FAITH PERSUASION" }]->(c);
+MERGE (t)-[:HAS_CONTENT { "name": "t.edge.DEFINE FAITH PERSUASION" }]->(c);
 
 MATCH (parent:TOPIC {name: "topic.FAITH"})
 MATCH (child:THOUGHT {name: "thought.DEFINE FAITH PERSUASION"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "FAITH->DEFINE FAITH PERSUASION" }]->(child);
+MERGE (parent)-[:HAS_THOUGHT { "name": "t.edge.FAITH->DEFINE FAITH PERSUASION" }]->(child);
 ```

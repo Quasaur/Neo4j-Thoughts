@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "La Bible dit que Dieu ne peut pas mentir. Si donc la Bible n'est pas un DOCUMENT HISTORIQUE PRÉCIS, alors elle ne peut pas être inspirée par Dieu.",
     hi_title: "इतिहास के रूप में बाइबिल",
     hi_content: "बाइबिल कहती है कि परमेश्वर झूठ नहीं बोल सकता। इसलिए यदि बाइबिल एक सटीक ऐतिहासिक दस्तावेज़ नहीं है, तो यह परमेश्वर द्वारा प्रेरित नहीं हो सकती।",
-    zh_title: "Shèngjīng zuòwéi lìshǐ 圣经作为历史",
-    zh_content: "Shèngjīng shuō Shàngdì bùnéng sāhuǎng. Yīncǐ, rúguǒ Shèngjīng bùshì yīgè zhǔnquè de lìshǐ wénjiàn, nàme tā jiù bùnéng shì Shàngdì suǒ qǐfā de. 圣经说上帝不能撒谎。因此，如果圣经不是一个准确的历史文件，那么它就不能是上帝所启发的。"
+    zh_title: "Shèngjīng zuòwéi lìshǐ  shèng jīng zuò wéi lì shǐ",
+    zh_content: "Shèngjīng shuō Shàngdì bùnéng sāhuǎng. Yīncǐ, rúguǒ Shèngjīng bùshì yīgè zhǔnquè de lìshǐ wénjiàn, nàme tā jiù bùnéng shì Shàngdì suǒ qǐfā de.  shèng jīng shuō shàng dì bù néng sā huǎng 。 yīn cǐ ， rú guǒ shèng jīng bú shì yí gè zhǔn què de lì shǐ wén jiàn ， nà me tā jiù bù néng shì shàng dì suǒ qǐ fā de 。"
 });
 
 MATCH (t:THOUGHT {name: "thought.BIBLE AS HISTORY"})

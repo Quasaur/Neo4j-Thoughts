@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "Nous mangeons trop dans notre tentative de nourrir notre esprit affamé avec de la nourriture naturelle au lieu du PAIN de VIE qui est le Christ.",
     hi_title: "जीवन की रोटी",
     hi_content: "हम अपनी भूखी आत्मा को प्राकृतिक भोजन से खिलाने के प्रयास में अत्यधिक खाते हैं, जीवन की रोटी जो मसीह है, के बजाय।",
-    zh_title: "Shēngmìng zhī liáng 生命之粮",
-    zh_content: "Wǒmen bàoshí shì shì wèi le yòng zìrán shíwù wèiyǎng wǒmen jīè de línghún, ér bù shì yòng shēngmìng zhī liáng--Jīdū. 我们暴食是为了用自然食物喂养我们饥饿的灵魂，而不是用生命之粮--基督。"
+    zh_title: "Shēngmìng zhī liáng  shēng mìng zhī liáng",
+    zh_content: "Wǒmen bàoshí shì shì wèi le yòng zìrán shíwù wèiyǎng wǒmen jīè de línghún, ér bù shì yòng shēngmìng zhī liáng--Jīdū.  wǒ men bào shí shì wèi le yòng zì rán shí wù wèi yǎng wǒ men jī è de líng hún ， ér bú shì yòng shēng mìng zhī liáng -- jī dū 。"
 });
 
 MATCH (t:THOUGHT {name: "thought.BREAD OF LIFE"})

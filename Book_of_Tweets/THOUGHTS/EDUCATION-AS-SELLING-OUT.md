@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "À quel moment de l’histoire les hommes afro-américains ont-ils décidé qu’être instruit revenait à se vendre ?",
     hi_title: "शिक्षा बिक रही है",
     hi_content: "इतिहास के किस मोड़ पर अफ्रीकी अमेरिकी पुरुषों ने निर्णय लिया कि शिक्षित होना बिकाऊ है??",
-    zh_title: "教育出卖",
-    zh_content: "历史上的哪个时刻，非裔美国男性决定接受教育就是出卖自己？"
+    zh_title: "jiào yù chū mài",
+    zh_content: "lì shǐ shàng de nǎ ge shí kè ， fēi yì měi guó nán xìng jué dìng jiē shòu jiào yù jiù shì chū mài zì jǐ ？"
 });
 
 MATCH (t:THOUGHT {name: "thought.EDUCATION AS SELLING OUT"})

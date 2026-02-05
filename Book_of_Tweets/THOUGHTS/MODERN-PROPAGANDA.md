@@ -12,7 +12,7 @@ tags:
 - discernment
 level: 4
 neo4j: false
-ptopic: 
+ptopic: "[[topic-EVIL]]"
 ---
 
 ```Cypher
@@ -22,7 +22,6 @@ CREATE (t:THOUGHT {
     alias: "Thought: Modern Propaganda",
     parent: "topic.EVIL",
     tags: ['evil', 'propaganda', 'occult', 'deception', 'discernment'],
-    notes: "",
     level: 4
 });
 
@@ -36,15 +35,15 @@ CREATE (c:CONTENT {
     fr_content: "La propagande moderne (bons vampires, loups-garous pieux, médiums vertueux) a perpétué le glissement de l'humanité vers le domaine occulte de Satan.",
     hi_title: "आधुनिक विज्ञापन",
     hi_content: "आधुनिक प्रचार (अच्छे पिशाच, पवित्र वेयरवोल्स, अच्छे माध्यम) ने मानवता को शैतान के गुप्त क्षेत्र में धकेल दिया है।",
-    zh_title: "现代广告",
-    zh_content: "现代宣传（善良的吸血鬼、虔诚的狼人、善良的媒介）使人类永远滑入撒旦的神秘领域。"
+    zh_title: "xiàn dài guǎng gào",
+    zh_content: "xiàn dài xuān chuán （ shàn liáng de xī xuè guǐ 、 qián chéng de láng rén 、 shàn liáng de méi jiè ） shǐ rén lèi yǒng yuǎn huá rù sā dàn de shén mì lǐng yù 。"
 });
 
 MATCH (t:THOUGHT {name: "thought.MODERN PROPAGANDA"})
 MATCH (c:CONTENT {name: "content.MODERN PROPAGANDA"})
-MERGE (t)-[:HAS_CONTENT { "name": "edge.MODERN PROPAGANDA" }]->(c);
+MERGE (t)-[:HAS_CONTENT { "name": "t.edge.MODERN PROPAGANDA" }]->(c);
 
 MATCH (parent:TOPIC {name: "topic.EVIL"})
 MATCH (child:THOUGHT {name: "thought.MODERN PROPAGANDA"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "EVIL->MODERN PROPAGANDA" }]->(child);
+MERGE (parent)-[:HAS_THOUGHT { "name": "t.edge.EVIL->MODERN PROPAGANDA" }]->(child);
 ```

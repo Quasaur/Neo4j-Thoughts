@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "Dieu peut transformer n’importe quel échec en succès.",
     hi_title: "असफलता से सफलता",
     hi_content: "ईश्वर किसी भी असफलता को सफलता में बदल सकता है।",
-    zh_title: "失败到成功",
-    zh_content: "神可以爱任何失败，使之成功。"
+    zh_title: "shī bài dào chéng gōng",
+    zh_content: "shén kě yǐ ài rèn hé shī bài ， shǐ zhī chéng gōng 。"
 });
 
 MATCH (t:THOUGHT {name: "thought.FAILURE TO SUCCESS"})

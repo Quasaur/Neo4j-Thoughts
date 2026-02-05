@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "Nous ne pouvons pas entendre Dieu à travers le bruit de notre propre désir.",
     hi_title: "शोर के बीच परमेश्वर को सुनना",
     hi_content: "हम अपनी स्वयं की इच्छाओं के शोर के बीच परमेश्वर को नहीं सुन सकते।",
-    zh_title: "Zàoyīn zhōng tīng shàngdì 噪音中听上帝",
-    zh_content: "Wǒmen wúfǎ tòuguò zìjǐ yùwàng de zàoyīn tīngdào shàngdì de shēngyīn. 我们无法透过自己欲望的噪音听到上帝的声音。"
+    zh_title: "Zàoyīn zhōng tīng shàngdì  zào yīn zhōng tīng shàng dì",
+    zh_content: "Wǒmen wúfǎ tòuguò zìjǐ yùwàng de zàoyīn tīngdào shàngdì de shēngyīn.  wǒ men wú fǎ tòu guò zì jǐ yù wàng de zào yīn tīng dào shàng dì de shēng yīn 。"
 });
 
 MATCH (t:THOUGHT {name: "thought.HEARING GOD NOISE"})

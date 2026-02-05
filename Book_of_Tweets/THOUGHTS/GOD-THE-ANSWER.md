@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "Le fait que Dieu soit Cette Réponse Unique ne diminue en rien l'émerveillement de Sa Création.",
     hi_title: "परमेश्वर उत्तर है",
     hi_content: "यह तथ्य कि परमेश्वर वह एकमात्र उत्तर हैं, उनकी सृष्टि के विस्मय को किसी भी तरह से कम नहीं करता।",
-    zh_title: "Shàngdì shì dá'àn 上帝是答案",
-    zh_content: "Shàngdì shì nà wéiyī dá'àn zhè yī shìshí, jué bù huì ǒnshǐ tā chuàngzào de qí migu. 上帝是那唯一答案这一事实，绝不会減弱他创造的奇迹。"
+    zh_title: "Shàngdì shì dá'àn  shàng dì shì dá àn",
+    zh_content: "Shàngdì shì nà wéiyī dá'àn zhè yī shìshí, jué bù huì ǒnshǐ tā chuàngzào de qí migu.  shàng dì shì nà wéi yī dá àn zhè yī shì shí ， jué bú huì jiǎn ruò tā chuàng zào de qí jì 。"
 });
 
 MATCH (t:THOUGHT {name: "thought.GOD THE ANSWER"})

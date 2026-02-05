@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "Matthieu 7:22, 23 -- Utiliser le Nom de Jésus ne signifie pas que vous connaissez Jésus.",
     hi_title: "यीशु का नाम जानना",
     hi_content: "मत्ती 7:22, 23 -- यीशु का नाम लेने का मतलब यह नहीं है कि आप यीशु को जानते हैं।",
-    zh_title: "Rènshí Yēsū de míng 认识耶稣的名",
-    zh_content: "Mǎdù fùyīn 7:22, 23 -- Shǐyòng Yēsū de míng bù dàibiǎo nǐ rènshi Yēsū. 马太福音 7:22, 23 --使用耶稣的名不代表你认识耶稣。"
+    zh_title: "Rènshí Yēsū de míng  rèn shí yē sū de míng",
+    zh_content: "Mǎdù fùyīn 7:22, 23 -- Shǐyòng Yēsū de míng bù dàibiǎo nǐ rènshi Yēsū.  mǎ tài fú yīn  7:22, 23 -- shǐ yòng yē sū de míng bù dài biǎo nǐ rèn shí yē sū 。"
 });
 
 MATCH (t:THOUGHT {name: "thought.KNOWING JESUS NAME"})

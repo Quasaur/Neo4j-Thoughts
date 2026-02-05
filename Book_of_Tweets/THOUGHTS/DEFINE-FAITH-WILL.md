@@ -2,7 +2,7 @@
 name: "thought.DEFINE FAITH WILL"
 alias: "Thought: Define Faith Will"
 type: THOUGHT
-en_content: "New Definition of Faith: KNOWING God's Will for me in every situation."
+en_content: "New Definition of Faith: KNOWING God's General Will for me in every situation."
 parent: "topic.FAITH"
 tags:
 - faith
@@ -11,7 +11,7 @@ tags:
 - knowledge
 level: 4
 neo4j: false
-ptopic: 
+ptopic: "[[topic-FAITH]]"
 ---
 
 ```Cypher
@@ -21,7 +21,6 @@ CREATE (t:THOUGHT {
     alias: "Thought: Define Faith Will",
     parent: "topic.FAITH",
     tags: ['faith', 'will', 'god', 'knowledge'],
-    notes: "",
     level: 4
 });
 
@@ -41,9 +40,9 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT {name: "thought.DEFINE FAITH WILL"})
 MATCH (c:CONTENT {name: "content.DEFINE FAITH WILL"})
-MERGE (t)-[:HAS_CONTENT { "name": "edge.DEFINE FAITH WILL" }]->(c);
+MERGE (t)-[:HAS_CONTENT { "name": "t.edge.DEFINE FAITH WILL" }]->(c);
 
 MATCH (parent:TOPIC {name: "topic.FAITH"})
 MATCH (child:THOUGHT {name: "thought.DEFINE FAITH WILL"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "FAITH->DEFINE FAITH WILL" }]->(child);
+MERGE (parent)-[:HAS_THOUGHT { "name": "t.edge.FAITH->DEFINE FAITH WILL" }]->(child);
 ```

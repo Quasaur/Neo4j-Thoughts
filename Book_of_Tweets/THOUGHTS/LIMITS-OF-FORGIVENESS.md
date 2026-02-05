@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "Les seules personnes que Dieu ne pardonne pas sont celles qui ne veulent pas être pardonnées.",
     hi_title: "क्षमा की सीमा",
     hi_content: "केवल उन्हीं लोगों को ईश्वर क्षमा नहीं करता है जो क्षमा नहीं चाहते हैं।",
-    zh_title: "宽恕的限度",
-    zh_content: "神唯一不饶恕的人是那些不想被饶恕的人。"
+    zh_title: "kuān shù de xiàn dù",
+    zh_content: "shén wéi yī bù ráo shù de rén shì nà xiē bù xiǎng bèi ráo shù de rén 。"
 });
 
 MATCH (t:THOUGHT {name: "thought.LIMITS OF FORGIVENESS"})

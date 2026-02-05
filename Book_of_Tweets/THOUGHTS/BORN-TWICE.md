@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "Né une fois, meurt deux fois ; né deux fois, meurt une fois--Joyeuse jour de la Résurrection !",
     hi_title: "दो बार जन्म",
     hi_content: "एक बार जन्मे, दो बार मरो; दो बार जन्मे, एक बार मरो--पुनरुत्थान दिवस की शुभकामनाएं!",
-    zh_title: "Shēng liǎng cì 生两次",
-    zh_content: "Shēng yī cì, sǐ liǎng cì; shēng liǎng cì, sǐ yī cì--Fùhuójié kuàilè! 生一次，死两次；生两次，死一次--复活节快乐！"
+    zh_title: "Shēng liǎng cì  shēng liǎng cì",
+    zh_content: "Shēng yī cì, sǐ liǎng cì; shēng liǎng cì, sǐ yī cì--Fùhuójié kuàilè!  shēng yī cì ， sǐ liǎng cì ； shēng liǎng cì ， sǐ yī cì -- fù huó jié kuài lè ！"
 });
 
 MATCH (t:THOUGHT {name: "thought.BORN TWICE"})

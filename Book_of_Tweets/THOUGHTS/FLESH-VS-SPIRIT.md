@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "La chair est trop stupide pour être spirituelle ; elle doit être crucifiée avec Christ et soumise par l'Amour de Dieu à l'Esprit de Dieu.",
     hi_title: "शरीर बनाम आत्मा",
     hi_content: "शरीर आध्यात्मिक होने के लिए बहुत मूर्ख है; इसे मसीह के साथ क्रूस पर चढ़ाया जाना चाहिए और परमेश्वर के प्रेम द्वारा परमेश्वर के आत्मा के अधीन लाया जाना चाहिए।",
-    zh_title: "Ròutǐ yǔ Líng 肉体与灵",
-    zh_content: "Ròutǐ tài yúchǔn, wúfǎ língxìng; tā bìxū yǔ Jīdū tóng dìng shízi jià, bìng tòngguò Shàngdì de ài bèi Shàngdì de Líng suǒ zhìfú. 肉体太愚蠢，无法灵性；它必须与基督同钉十字架，并通过上帝的爱被上帝的灵所制服。"
+    zh_title: "Ròutǐ yǔ Líng  ròu tǐ yǔ líng",
+    zh_content: "Ròutǐ tài yúchǔn, wúfǎ língxìng; tā bìxū yǔ Jīdū tóng dìng shízi jià, bìng tòngguò Shàngdì de ài bèi Shàngdì de Líng suǒ zhìfú.  ròu tǐ tài yú chǔn ， wú fǎ líng xìng ； tā bì xū yǔ jī dū tóng dīng shí zì jià ， bìng tōng guò shàng dì de ài bèi shàng dì de líng suǒ zhì fú 。"
 });
 
 MATCH (t:THOUGHT {name: "thought.FLESH VS SPIRIT"})

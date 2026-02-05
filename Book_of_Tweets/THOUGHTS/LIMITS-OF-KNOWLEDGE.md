@@ -36,7 +36,7 @@ CREATE (c:CONTENT {
     fr_content: "\",
     hi_title: "ज्ञान की सीमा",
     hi_content: "\",
-    zh_title: "知识的局限性",
+    zh_title: "zhī shí de jú xiàn xìng",
     zh_content: "\"
 });
 

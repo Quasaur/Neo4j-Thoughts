@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "Je n'ai JAMAIS rencontré quelqu'un de plus puissant que Jésus... et je ne le ferai jamais.",
     hi_title: "यीशु की शक्ति",
     hi_content: "मैंने कभी यीशु से अधिक शक्तिशाली किसी से मुलाकात नहीं की... और न ही कभी करूंगा।",
-    zh_title: "Yēsū de nénglì 耶稣的能力",
-    zh_content: "Wǒ cónglái méiyǒu yùjiàn guò bǐ Yēsū gèng qiángdà de rén... wǒ yě yǒngyuǎn bù huì. 我从来没有遇见过比耶稣更强大的人...我也永远不会。"
+    zh_title: "Yēsū de nénglì  yē sū de néng lì",
+    zh_content: "Wǒ cónglái méiyǒu yùjiàn guò bǐ Yēsū gèng qiángdà de rén... wǒ yě yǒngyuǎn bù huì.  wǒ cóng lái méi yǒu yù jiàn guò bǐ yē sū gèng qiáng dà de rén ... wǒ yě yǒng yuǎn bú huì 。"
 });
 
 MATCH (t:THOUGHT {name: "thought.POWER OF JESUS"})

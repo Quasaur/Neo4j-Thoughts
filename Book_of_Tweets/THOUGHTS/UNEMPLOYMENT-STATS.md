@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "Chômage des Blancs : 9%...Chômage des Noirs : 16%.",
     hi_title: "बेरोज़गारी आँकड़े",
     hi_content: "श्वेत बेरोज़गारी: 9%...काली बेरोज़गारी: 16%।",
-    zh_title: "失业统计",
-    zh_content: "白人失业率：9%...黑人失业率：16%。"
+    zh_title: "shī yè tǒng jì",
+    zh_content: "bái rén shī yè lǜ ：9%... hēi rén shī yè lǜ ：16%。"
 });
 
 MATCH (t:THOUGHT {name: "thought.UNEMPLOYMENT STATS"})

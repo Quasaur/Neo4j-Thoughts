@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "Jésus me traite BIEN MIEUX que je ne l'ai traité. Je l'ai crucifié ; Il m'a donné la VIE !",
     hi_title: "यीशु का बेहतर व्यवहार",
     hi_content: "यीशु मेरे साथ उससे कहीं बेहतर व्यवहार करते हैं जितना मैंने उनके साथ किया है। मैंने उन्हें सूली पर चढ़ाया; उन्होंने मुझे जीवन दिया!",
-    zh_title: "Yēsū de gèng hǎo dàiyù 耶稣的更好待遇",
-    zh_content: "Yēsū duì wǒ de dàiyù yuǎn bǐ wǒ duì Tā de dàiyù hǎo de duō. Wǒ jiāng Tā dīng zài shízìjià shàng; Tā què gěi le wǒ shēngmìng! 耶稣对我的待遇远比我对祂的待遇好得多。我将祂钉在十字架上；祂却给了我生命！"
+    zh_title: "Yēsū de gèng hǎo dàiyù  yē sū de gèng hǎo dài yù",
+    zh_content: "Yēsū duì wǒ de dàiyù yuǎn bǐ wǒ duì Tā de dàiyù hǎo de duō. Wǒ jiāng Tā dīng zài shízìjià shàng; Tā què gěi le wǒ shēngmìng!  yē sū duì wǒ de dài yù yuǎn bǐ wǒ duì tā de dài yù hǎo dé duō 。 wǒ jiāng tā dīng zài shí zì jià shàng ； tā què gěi le wǒ shēng mìng ！"
 });
 
 MATCH (t:THOUGHT {name: "thought.BETTER TREATMENT JESUS"})

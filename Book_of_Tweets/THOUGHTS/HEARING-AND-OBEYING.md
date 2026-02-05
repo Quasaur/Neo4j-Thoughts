@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "La moitié de la bataille : entendre la voix de Dieu ;l'autre moitié : lui obéir.",
     hi_title: "सुनना और पालन करना",
     hi_content: "आधी लड़ाई: भगवान की आवाज सुनना;दूसरा भाग: इसका पालन करना।",
-    zh_title: "聆听与服从",
-    zh_content: "成功一半：聆听上帝的声音；另一半：服从它。"
+    zh_title: "líng tīng yǔ fú cóng",
+    zh_content: "chéng gōng yí bàn ： líng tīng shàng dì de shēng yīn ； lìng yí bàn ： fú cóng tā 。"
 });
 
 MATCH (t:THOUGHT {name: "thought.HEARING AND OBEYING"})

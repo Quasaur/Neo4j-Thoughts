@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "Il se peut que les femmes aiment que nous, les hommes, nous rasions et qu'elles nous traitent comme des enfants.",
     hi_title: "बच्चों का मुंडन करते पुरुष",
     hi_content: "हो सकता है कि महिलाएं हम पुरुषों की तरह शेविंग करती हों ताकि वे हमारे साथ बच्चों जैसा व्यवहार करें।",
-    zh_title: "男士剃须 儿童",
-    zh_content: "也许女人喜欢我们男人刮胡子，所以她们可能会像对待孩子一样对待我们。"
+    zh_title: "nán shì tì xū   ér tóng",
+    zh_content: "yě xǔ nǚ rén xǐ huān wǒ men nán rén guā hú zi ， suǒ yǐ tā men kě néng huì xiàng duì dài hái zi yī yàng duì dài wǒ men 。"
 });
 
 MATCH (t:THOUGHT {name: "thought.MEN SHAVING CHILDREN"})

@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "Le passe-temps constant de l'humanité est de discuter avec son Créateur.",
     hi_title: "सृष्टिकर्ता से बहस करना",
     hi_content: "मानवता का निरंतर शगल अपने सृष्टिकर्ता से बहस करना है।",
-    zh_title: "Yǔ Chuàngzàozhǔ zhēnglùn 与造物主争论",
-    zh_content: "Rénlèi de chángjiǔ xiāoqiǎn jiùshì yǔ qí Chuàngzàozhǔ zhēnglùn. 人类的长久消遣就是与其造物主争论。"
+    zh_title: "Yǔ Chuàngzàozhǔ zhēnglùn  yǔ zào wù zhǔ zhēng lùn",
+    zh_content: "Rénlèi de chángjiǔ xiāoqiǎn jiùshì yǔ qí Chuàngzàozhǔ zhēnglùn.  rén lèi de cháng jiǔ xiāo qiǎn jiù shì yǔ qí zào wù zhǔ zhēng lùn 。"
 });
 
 MATCH (t:THOUGHT {name: "thought.ARGUING WITH CREATOR"})

@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "Beaucoup croient être conscients de la Colère de Dieu, mais peu sont conscients de la Présence Aimante de Dieu.",
     hi_title: "उपस्थिति की जागरूकता",
     hi_content: "बहुत से लोग मानते हैं कि वे परमेश्वर के क्रोध के बारे में जानते हैं, लेकिन कुछ ही लोग परमेश्वर की प्रेमपूर्ण उपस्थिति के बारे में जानते हैं।",
-    zh_title: "Duì cúnzài de yìshí 对存在的意识",
-    zh_content: "Xǔduō rén xiāngxìn tāmen yìshí dào Shàngdì de fènnù, dàn hěn shǎo rén yìshí dào Shàngdì chōngmǎn ài de cúnzài. 许多人相信他们意识到上帝的愤怒，但很少人意识到上帝充满爱的存在。"
+    zh_title: "Duì cúnzài de yìshí  duì cún zài de yì shí",
+    zh_content: "Xǔduō rén xiāngxìn tāmen yìshí dào Shàngdì de fènnù, dàn hěn shǎo rén yìshí dào Shàngdì chōngmǎn ài de cúnzài.  xǔ duō rén xiāng xìn tā men yì shí dào shàng dì de fèn nù ， dàn hěn shǎo rén yì shí dào shàng dì chōng mǎn ài de cún zài 。"
 });
 
 MATCH (t:THOUGHT {name: "thought.AWARENESS OF PRESENCE"})

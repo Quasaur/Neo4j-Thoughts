@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "Nous sommes fatigués de souffrir, mais nous ne sommes pas fatigués de pécher.",
     hi_title: "दुःख बनाम पाप",
     hi_content: "हम दुःख से थक गए हैं, फिर भी हम पाप करने से नहीं थके।",
-    zh_title: "Shòukǔ yǔ fànzuì 受苦与犯罪",
-    zh_content: "Wǒmen yànjàn le shòukǔ, dàn wǒmen què méiyǒu yànjàn fànzuì. 我们厌倦了受苦，但我们却没有厌倦犯罪。"
+    zh_title: "Shòukǔ yǔ fànzuì  shòu kǔ yǔ fàn zuì",
+    zh_content: "Wǒmen yànjàn le shòukǔ, dàn wǒmen què méiyǒu yànjàn fànzuì.  wǒ men yàn juàn le shòu kǔ ， dàn wǒ men què méi yǒu yàn juàn fàn zuì 。"
 });
 
 MATCH (t:THOUGHT {name: "thought.SUFFERING VS SINNING"})

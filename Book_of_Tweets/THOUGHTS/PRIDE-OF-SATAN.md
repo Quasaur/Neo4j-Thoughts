@@ -12,7 +12,7 @@ tags:
 - deception
 level: 4
 neo4j: false
-ptopic: 
+ptopic: "[[topic-EVIL]]"
 ---
 
 ```Cypher
@@ -22,7 +22,6 @@ CREATE (t:THOUGHT {
     alias: "Thought: Pride Of Satan",
     parent: "topic.EVIL",
     tags: ['pride', 'devil', 'evil', 'selfishness', 'deception'],
-    notes: "",
     level: 4
 });
 
@@ -31,20 +30,20 @@ CREATE (c:CONTENT {
     en_title: "Pride Of Satan",
     en_content: "\"I'm the center of my universe...why can't I be the center of everyone else's?\" -- The Devil",
     es_title: "Orgullo de satanás",
-    es_content: "\",
+    es_content: "«Soy el centro de mi universo... ¿por qué no puedo ser el centro del universo de los demás?» — El Diablo",
     fr_title: "Fierté de Satan",
-    fr_content: "\",
+    fr_content: "« Je suis le centre de mon univers... pourquoi ne serais-je pas le centre de l'univers de tous les autres ? » — Le Diable",
     hi_title: "शैतान का गौरव",
-    hi_content: "\",
-    zh_title: "撒旦的骄傲",
-    zh_content: "\"
+    hi_content: "\"मैं अपने ब्रह्मांड का केंद्र हूँ...मैं बाकी सबके ब्रह्मांड का केंद्र क्यों नहीं हो सकता?\" -- शैतान",
+    zh_title: "Sādàn de àomàn",
+    zh_content: "\“wǒ shì wǒ yǔzhòu de zhōngxīn……wèishéme wǒ bùnéng chéngwéi qítā suǒyǒu rén de zhōngxīn?”\——Móguǐ"
 });
 
 MATCH (t:THOUGHT {name: "thought.PRIDE OF SATAN"})
 MATCH (c:CONTENT {name: "content.PRIDE OF SATAN"})
-MERGE (t)-[:HAS_CONTENT { "name": "edge.PRIDE OF SATAN" }]->(c);
+MERGE (t)-[:HAS_CONTENT { "name": "t.edge.PRIDE OF SATAN" }]->(c);
 
 MATCH (parent:TOPIC {name: "topic.EVIL"})
 MATCH (child:THOUGHT {name: "thought.PRIDE OF SATAN"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "EVIL->PRIDE OF SATAN" }]->(child);
+MERGE (parent)-[:HAS_THOUGHT { "name": "t.edge.EVIL->PRIDE OF SATAN" }]->(child);
 ```

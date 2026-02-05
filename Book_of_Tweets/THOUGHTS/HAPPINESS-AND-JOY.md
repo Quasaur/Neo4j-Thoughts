@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "Bonheur : plaire à Dieu.Joie : être satisfait de Dieu.",
     hi_title: "खुशी और मस्ती",
     hi_content: "ख़ुशी: भगवान को प्रसन्न करना.ख़ुशी: भगवान से प्रसन्न होना।",
-    zh_title: "幸福与快乐",
-    zh_content: "幸福：讨神喜悦。喜乐：蒙神喜悦。"
+    zh_title: "xìng fú yǔ kuài lè",
+    zh_content: "xìng fú ： tǎo shén xǐ yuè 。 xǐ lè ： méng shén xǐ yuè 。"
 });
 
 MATCH (t:THOUGHT {name: "thought.HAPPINESS AND JOY"})

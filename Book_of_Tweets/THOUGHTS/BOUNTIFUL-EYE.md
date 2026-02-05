@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "Celui qui a un œil généreux sera béni, car il partage son pain avec les pauvres. Proverbes 22:9, LSG",
     hi_title: "उदार दृष्टि",
     hi_content: "जो उदार दृष्टि रखता है वह आशीष पाएगा, क्योंकि वह गरीबों के साथ अपनी रोटी बांटता है। नीतिवचन 22:9",
-    zh_title: "Kāngkǎi de yǎnjuāng 慷慨的眼睛",
-    zh_content: "Yǒngyǒu kāngkǎi de yǎnjuāng zhī rén bì yùfú, yīnwèi tā yǔ qióngrén fēnxǎng miànbao. Zhíyán 22:9 有慷慨的眼睛之人必蒙福，因为他与穷人分享面包。箴言 22:9"
+    zh_title: "Kāngkǎi de yǎnjuāng  kāng kǎi de yǎn jīng",
+    zh_content: "Yǒngyǒu kāngkǎi de yǎnjuāng zhī rén bì yùfú, yīnwèi tā yǔ qióngrén fēnxǎng miànbao. Zhíyán 22:9  yǒu kāng kǎi de yǎn jīng zhī rén bì méng fú ， yīn wèi tā yǔ qióng rén fēn xiǎng miàn bāo 。 zhēn yán  22:9"
 });
 
 MATCH (t:THOUGHT {name: "thought.BOUNTIFUL EYE"})

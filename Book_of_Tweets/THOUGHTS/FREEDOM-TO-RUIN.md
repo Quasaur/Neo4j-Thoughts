@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "Il semble que Dieu nous ait donné la liberté de ruiner nos vies comme bon nous semble... voilà pour la Liberté.",
     hi_title: "बर्बादी की स्वतंत्रता",
     hi_content: "ऐसा लगता है कि परमेश्वर ने हमें अपने जीवन को बर्बाद करने की स्वतंत्रता दी है जैसा हम उचित समझें... तो यह रही स्वतंत्रता।",
-    zh_title: "Huǐmiè de zìyuóu 毁灭的自由",
-    zh_content: "Kànqǐlái Shàngdì gěi le wǒmen àn zìjǐ yìyuàn huǐmiè shēnghuó de zìyuóu... zhè jiùshì zìyuóu de jiéguǒ. 看起来上帝给了我们按自己意愿毁灭生活的自由...这就是自由的结果。"
+    zh_title: "Huǐmiè de zìyuóu  huǐ miè de zì yóu",
+    zh_content: "Kànqǐlái Shàngdì gěi le wǒmen àn zìjǐ yìyuàn huǐmiè shēnghuó de zìyuóu... zhè jiùshì zìyuóu de jiéguǒ.  kàn qǐ lái shàng dì gěi le wǒ men àn zì jǐ yì yuàn huǐ miè shēng huó de zì yóu ... zhè jiù shì zì yóu de jié guǒ 。"
 });
 
 MATCH (t:THOUGHT {name: "thought.FREEDOM TO RUIN"})

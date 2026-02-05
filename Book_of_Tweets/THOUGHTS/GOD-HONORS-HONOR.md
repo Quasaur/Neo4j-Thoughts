@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "Dieu n'est pas stupide ;Il honore ceux qui l'honorent... ceux qui l'ignorent sont peu estimés.",
     hi_title: "भगवान सम्मान सम्मान",
     hi_content: "भगवान मूर्ख नहीं है;वह उन लोगों का सम्मान करता है जो उसका सम्मान करते हैं...जो लोग उसकी उपेक्षा करते हैं उन्हें कम महत्व दिया जाता है।",
-    zh_title: "神尊重荣耀",
-    zh_content: "神并不愚蠢；他尊重那些尊敬他的人……那些忽视他的人受到轻视。"
+    zh_title: "shén zūn zhòng róng yào",
+    zh_content: "shén bìng bù yú chǔn ； tā zūn zhòng nà xiē zūn jìng tā de rén …… nà xiē hū shì tā de rén shòu dào qīng shì 。"
 });
 
 MATCH (t:THOUGHT {name: "thought.GOD HONORS HONOR"})

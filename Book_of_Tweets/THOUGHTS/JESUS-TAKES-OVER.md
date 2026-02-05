@@ -36,7 +36,7 @@ CREATE (c:CONTENT {
     fr_content: "\",
     hi_title: "यीशु ने कब्ज़ा कर लिया",
     hi_content: "\",
-    zh_title: "耶稣接管",
+    zh_title: "yē sū jiē guǎn",
     zh_content: "\"
 });
 

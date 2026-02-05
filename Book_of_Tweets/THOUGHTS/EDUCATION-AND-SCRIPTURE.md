@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "Comment peut-on être considéré comme éduqué sans avoir étudié les Saintes Écritures ?",
     hi_title: "शिक्षा और धर्मग्रंथ",
     hi_content: "पवित्र शास्त्रों का अध्ययन किए बिना किसी को शिक्षित कैसे माना जा सकता है?",
-    zh_title: "Jiàoyù yǔ shèngjīng 教育与圣经",
-    zh_content: "Rúguǒ méiyǒu dàochá shèngjīng, zěnme néng bèi shì wéi shòu jiàoyù ne? 如果没有导察圣经，怎么能被视为受教育呢？"
+    zh_title: "Jiàoyù yǔ shèngjīng  jiào yù yǔ shèng jīng",
+    zh_content: "Rúguǒ méiyǒu dàochá shèngjīng, zěnme néng bèi shì wéi shòu jiàoyù ne?  rú guǒ méi yǒu dǎo chá shèng jīng ， zěn me néng bèi shì wéi shòu jiào yù ne ？"
 });
 
 MATCH (t:THOUGHT {name: "thought.EDUCATION AND SCRIPTURE"})

@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "Pourquoi les hommes afro-américains évitent-ils Dieu et Son Église ???",
     hi_title: "परमेश्वर और चर्च से बचना",
     hi_content: "अफ्रीकी अमेरिकी पुरुष परमेश्वर और उनके चर्च से क्यों बचते हैं???",
-    zh_title: "Bìmiǎn Shàngdì hé jiàohuì 避免上帝和教会",
-    zh_content: "Wèishénme Fēizhōu Měiguó nánxìng yào bìmiǎn Shàngdì hé tā de jiàohuì??? 为什么非洲美国男性要避免上帝和他的教会???"
+    zh_title: "Bìmiǎn Shàngdì hé jiàohuì  bì miǎn shàng dì hé jiào huì",
+    zh_content: "Wèishénme Fēizhōu Měiguó nánxìng yào bìmiǎn Shàngdì hé tā de jiàohuì???  wèi shén me fēi zhōu měi guó nán xìng yào bì miǎn shàng dì hé tā de jiào huì ???"
 });
 
 MATCH (t:THOUGHT {name: "thought.AVOIDING GOD AND CHURCH"})

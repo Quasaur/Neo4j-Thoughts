@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "Dieu n'est pas un irresponsable... Il prend soin des Siens.",
     hi_title: "परमेश्वर लापरवाह नहीं",
     hi_content: "परमेश्वर लापरवाह नहीं हैं... वे अपनों की देखभाल करते हैं।",
-    zh_title: "Shàngdì bù shì làndàng 上帝不是滥当",
-    zh_content: "Shàngdì bù shì làndàng... tā huì zhàogù zìjǐ de rén. 上帝不是滥当...他会照顾自己的人。"
+    zh_title: "Shàngdì bù shì làndàng  shàng dì bú shì làn dāng",
+    zh_content: "Shàngdì bù shì làndàng... tā huì zhàogù zìjǐ de rén.  shàng dì bú shì làn dāng ... tā huì zhào gù zì jǐ de rén 。"
 });
 
 MATCH (t:THOUGHT {name: "thought.GOD NOT DEADBEAT"})

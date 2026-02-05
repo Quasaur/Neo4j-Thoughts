@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "Réalité : peut-être que la matière n'est réelle que pour une autre matière... ?",
     hi_title: "वास्तविकता की प्रकृति",
     hi_content: "वास्तविकता: शायद पदार्थ केवल दूसरे पदार्थ के लिए ही वास्तविक है...?",
-    zh_title: "现实的本质",
-    zh_content: "现实：也许物质只对其他物质才是真实的……？"
+    zh_title: "xiàn shí de běn zhì",
+    zh_content: "xiàn shí ： yě xǔ wù zhì zhǐ duì qí tā wù zhì cái shì zhēn shí de ……？"
 });
 
 MATCH (t:THOUGHT {name: "thought.NATURE OF REALITY"})

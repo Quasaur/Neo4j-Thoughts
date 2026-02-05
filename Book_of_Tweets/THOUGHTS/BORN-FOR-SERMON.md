@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "Le sermon de Noël à la prison de Pittsburgh a été bien reçu... c'est pour cela que je suis né !",
     hi_title: "उपदेश के लिए जन्मा",
     hi_content: "पिट्सबर्ग जेल में क्रिसमस उपदेश को अच्छी तरह से सराहा गया... मैं इसी के लिए पैदा हुआ था!",
-    zh_title: "Wèi bùdào ér shēng 为布道而生",
-    zh_content: "Zài Pǐcíbǎo jiānyù de Shèngdànjié bùdào hěn shòu huānyíng... zhè jiùshì wǒ chūshēng de mùdì! 在匹兹堡监狱的圣诞节布道很受欢迎...这就是我出生的目的！"
+    zh_title: "Wèi bùdào ér shēng  wèi bù dào ér shēng",
+    zh_content: "Zài Pǐcíbǎo jiānyù de Shèngdànjié bùdào hěn shòu huānyíng... zhè jiùshì wǒ chūshēng de mùdì!  zài pǐ zī bǎo jiān yù de shèng dàn jié bù dào hěn shòu huān yíng ... zhè jiù shì wǒ chū shēng de mù dì ！"
 });
 
 MATCH (t:THOUGHT {name: "thought.BORN FOR SERMON"})

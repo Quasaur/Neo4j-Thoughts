@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "L'Esprit, et non l'électricité, est la Vie.",
     hi_title: "आत्मा ही जीवन है",
     hi_content: "आत्मा, बिजली नहीं, जीवन है।",
-    zh_title: "Líng shì shēngmìng 灵是生命",
-    zh_content: "Líng, ér bù shì diàn, shì shēngmìng. 灵，而不是电，是生命。"
+    zh_title: "Líng shì shēngmìng  líng shì shēng mìng",
+    zh_content: "Líng, ér bù shì diàn, shì shēngmìng.  líng ， ér bú shì diàn ， shì shēng mìng 。"
 });
 
 MATCH (t:THOUGHT {name: "thought.SPIRIT IS LIFE"})

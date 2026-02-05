@@ -35,8 +35,8 @@ CREATE (c:CONTENT {
     fr_content: "La Divinité est une majorité de trois : leur VIE dépasse de loin toute mort dans le cosmos... et leur BONTÉ submerge tout le mal !",
     hi_title: "तीन का बहुमत",
     hi_content: "ईश्वरत्व तीन का बहुमत है: उनका जीवन ब्रह्मांड में सभी मृत्यु से कहीं अधिक है... और उनकी अच्छाई सभी बुराईयों पर हावी हो जाती है!",
-    zh_title: "三人多数",
-    zh_content: "神性是三位多数：他们的生命远远超过宇宙中所有的死亡……他们的善良压倒了所有邪恶！"
+    zh_title: "sān rén duō shù",
+    zh_content: "shén xìng shì sān wèi duō shù ： tā men de shēng mìng yuǎn yuǎn chāo guò yǔ zhòu zhōng suǒ yǒu de sǐ wáng …… tā men de shàn liáng yā dǎo le suǒ yǒu xié è ！"
 });
 
 MATCH (t:THOUGHT {name: "thought.MAJORITY OF THREE"})

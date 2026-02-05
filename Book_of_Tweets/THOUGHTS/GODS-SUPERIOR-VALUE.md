@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "Dans le MONDE RÉEL, Dieu a plus de valeur que nous tous réunis.",
     hi_title: "परमेश्वर का उच्च मूल्य",
     hi_content: "वास्तविक दुनिया में, परमेश्वर हम सभी को एक साथ रखने से कहीं अधिक मूल्यवान हैं।",
-    zh_title: "Shàngdì de chāoyujiàzhí 上帝的超越价值",
-    zh_content: "Zài zhēnshí shìjiè zhōng, Shàngdì bǐ wǒmen suǒyǒu rén jiā qǐlái gèng yǒu jiàzhí. 在真实世界中，上帝比我们所有人加起来更有价值。"
+    zh_title: "Shàngdì de chāoyujiàzhí  shàng dì de chāo yuè jià zhí",
+    zh_content: "Zài zhēnshí shìjiè zhōng, Shàngdì bǐ wǒmen suǒyǒu rén jiā qǐlái gèng yǒu jiàzhí.  zài zhēn shí shì jiè zhōng ， shàng dì bǐ wǒ men suǒ yǒu rén jiā qǐ lái gèng yǒu jià zhí 。"
 });
 
 MATCH (t:THOUGHT {name: "thought.GODS SUPERIOR VALUE"})

@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "Donnez-moi la DIGNITÉ ou donnez-moi la mort !",
     hi_title: "सम्मान या मृत्यु",
     hi_content: "मुझे सम्मान दो या मुझे मृत्यु दो!",
-    zh_title: "Zūnyán huò sǐwáng 尊严或死亡",
-    zh_content: "Gěi wǒ zūnyán, fǒuzé jiù gěi wǒ sǐwáng! 给我尊严，否则就给我死亡！"
+    zh_title: "Zūnyán huò sǐwáng  zūn yán huò sǐ wáng",
+    zh_content: "Gěi wǒ zūnyán, fǒuzé jiù gěi wǒ sǐwáng!  gěi wǒ zūn yán ， fǒu zé jiù gěi wǒ sǐ wáng ！"
 });
 
 MATCH (t:THOUGHT {name: "thought.DIGNITY OR DEATH"})

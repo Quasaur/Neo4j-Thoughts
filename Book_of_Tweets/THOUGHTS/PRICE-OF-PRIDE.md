@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "À quel moment de l’histoire les hommes afro-américains ont-ils décidé que la fierté valait le prix à payer pour s’entre-tuer ?",
     hi_title: "गौरव की कीमत",
     hi_content: "इतिहास में किस मोड़ पर अफ़्रीकी-अमेरिकी पुरुषों ने निर्णय लिया कि गर्व के लिए एक-दूसरे को मारने की कीमत चुकानी होगी??",
-    zh_title: "骄傲的代价",
-    zh_content: "历史上的哪个时刻，非裔美国男人决定为了骄傲而付出互相残杀的代价？"
+    zh_title: "jiāo ào de dài jià",
+    zh_content: "lì shǐ shàng de nǎ ge shí kè ， fēi yì měi guó nán rén jué dìng wèi le jiāo ào ér fù chū hù xiāng cán shā de dài jià ？"
 });
 
 MATCH (t:THOUGHT {name: "thought.PRICE OF PRIDE"})

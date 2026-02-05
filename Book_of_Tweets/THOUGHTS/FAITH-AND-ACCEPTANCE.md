@@ -2,7 +2,7 @@
 name: "thought.FAITH AND ACCEPTANCE"
 alias: "Thought: Faith And Acceptance"
 type: THOUGHT
-en_content: "Acceptance and faith are irrevocably linked."
+en_content: "The concepts of Acceptance and Faith are irrevocably linked."
 parent: "topic.FAITH"
 tags:
 - faith
@@ -12,7 +12,7 @@ tags:
 - spirituality
 level: 4
 neo4j: false
-ptopic: 
+ptopic: "[[topic-FAITH]]"
 ---
 
 ```Cypher
@@ -29,22 +29,22 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.FAITH AND ACCEPTANCE",
     en_title: "Faith And Acceptance",
-    en_content: "Acceptance and faith are irrevocably linked.",
+    en_content: "The concepts of Acceptance and Faith are irrevocably linked.",
     es_title: "Fe y aceptación",
-    es_content: "La aceptación y la fe están irrevocablemente vinculadas.",
+    es_content: "Los conceptos de aceptación y fe están indisolublemente unidos.",
     fr_title: "Foi et acceptation",
-    fr_content: "L'acceptation et la foi sont irrévocablement liées.",
+    fr_content: "Les concepts d'acceptation et de foi sont indissociablement liés.",
     hi_title: "आस्था और स्वीकृति",
-    hi_content: "स्वीकृति और विश्वास अपरिवर्तनीय रूप से जुड़े हुए हैं।",
-    zh_title: "信心与接受",
-    zh_content: "接受和信仰是不可撤销地联系在一起的。"
+    hi_content: "स्वीकृति और विश्वास की अवधारणाएँ अटूट रूप से जुड़ी हुई हैं।",
+    zh_title: "Xìnyǎng yǔ jiēnà",
+    zh_content: "jiēnà hé xìnyǎng zhè liǎng gè gàiniàn mì bùkěfēn."
 });
 
 MATCH (t:THOUGHT {name: "thought.FAITH AND ACCEPTANCE"})
 MATCH (c:CONTENT {name: "content.FAITH AND ACCEPTANCE"})
-MERGE (t)-[:HAS_CONTENT { "name": "edge.FAITH AND ACCEPTANCE" }]->(c);
+MERGE (t)-[:HAS_CONTENT { "name": "t.edge.FAITH AND ACCEPTANCE" }]->(c);
 
 MATCH (parent:TOPIC {name: "topic.FAITH"})
 MATCH (child:THOUGHT {name: "thought.FAITH AND ACCEPTANCE"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "FAITH->FAITH AND ACCEPTANCE" }]->(child);
+MERGE (parent)-[:HAS_THOUGHT { "name": "t.edge.FAITH->FAITH AND ACCEPTANCE" }]->(child);
 ```

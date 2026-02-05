@@ -36,8 +36,8 @@ CREATE (c:CONTENT {
     fr_content: "Je n'ai JAMAIS rencontré quelqu'un de plus gentil que Jésus... et je ne le ferai jamais !",
     hi_title: "यीशु की दयालुता",
     hi_content: "मैं यीशु से अधिक दयालु किसी व्यक्ति से कभी नहीं मिला...और मैं कभी नहीं मिलूंगा!",
-    zh_title: "耶稣的仁慈",
-    zh_content: "我从来没有遇到过比耶稣更仁慈的人……我永远也不会！"
+    zh_title: "yē sū de rén cí",
+    zh_content: "wǒ cóng lái méi yǒu yù dào guò bǐ yē sū gèng rén cí de rén …… wǒ yǒng yuǎn yě bú huì ！"
 });
 
 MATCH (t:THOUGHT {name: "thought.KINDNESS OF JESUS"})
