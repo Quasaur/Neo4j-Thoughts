@@ -2,7 +2,8 @@
 title: "Thought: THE HOLY SPIRIT"
 draft: false
 type: THOUGHT
-mling: false
+parent; "topic.THE GODHEAD"
+en_content: "The Holy Spirit is God, and all men must be filled with Him."
 tags:
   - holy_spirit
   - deity
@@ -12,7 +13,7 @@ tags:
 neo4j: true
 ptopic: "[[topic-THE-GODHEAD]]"
 level: 1
-inserted: true
+ptopic: "[[topic-THE-GODHEAD]]"
 ---
 
 ```Cypher
@@ -41,7 +42,7 @@ CREATE (c:CONTENT {
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
 WHERE t.name = "thought.THE_HOLY_SPIRIT" AND c.name = "content.THE_HOLY_SPIRIT"
-MERGE (t)-[:HAS_CONTENT {name: "edge.THE_HOLY_SPIRIT"}]->(c);
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.THE_HOLY_SPIRIT"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
