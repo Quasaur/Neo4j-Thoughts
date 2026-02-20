@@ -2,7 +2,8 @@
 title: "Thought: THE ULTIMATE"
 draft: false
 type: THOUGHT
-mling: false
+parent: "topic.THE GODHEAD"
+en_content: "That which is Ultimate cannot be Ultimate unless \"it\" (He) is also PERSONAL."
 tags:
   - humanity
   - self_worship

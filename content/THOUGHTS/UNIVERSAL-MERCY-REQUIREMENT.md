@@ -1,0 +1,49 @@
+---
+name: "thought.UNIVERSAL MERCY REQUIREMENT"
+alias: "Thought: Universal Mercy Requirement"
+type: THOUGHT
+parent: "topic.MERCY"
+en_content: "God has to have mercy on everybody in order to save anybody."
+tags:
+- mercy
+- grace
+- salvation
+- humanity
+- god
+level: 5
+neo4j: true
+ptopic: "[[topic-MERCY]]"
+---
+
+```Cypher
+// Generated from Book6E-FINAL.md (ID: 17-Nov-2011)
+CREATE (t:THOUGHT {
+    name: "thought.UNIVERSAL MERCY REQUIREMENT",
+    alias: "Thought: Universal Mercy Requirement",
+    parent: "topic.MERCY",
+    tags: ['mercy', 'grace', 'salvation', 'humanity', 'god'],
+    level: 5
+});
+
+CREATE (c:CONTENT {
+    name: "content.UNIVERSAL MERCY REQUIREMENT",
+    en_title: "Universal Mercy Requirement",
+    en_content: "God has to have mercy on everybody in order to save anybody.",
+    es_title: "Requisito de Misericordia Universal",
+    es_content: "Dios tiene que tener misericordia de todos para poder salvar a cualquiera.",
+    fr_title: "Exigence de Miséricorde Universelle",
+    fr_content: "Dieu doit avoir pitié de tout le monde pour pouvoir sauver qui que ce soit.",
+    hi_title: "सार्वभौमिक कृपा की आवश्यकता",
+    hi_content: "परमेश्वर को किसी को भी बचाने के लिए सभी पर दया करनी होगी।",
+    zh_title: "Pǔshì Cíbēi Yāoqiú",
+    zh_content: "Shàngdì bìxū duì měi gè rén dōu yǒu cíbēi, cáinéng zhěngjiù rènhé rén."
+});
+
+MATCH (t:THOUGHT {name: "thought.UNIVERSAL MERCY REQUIREMENT"})
+MATCH (c:CONTENT {name: "content.UNIVERSAL MERCY REQUIREMENT"})
+MERGE (t)-[:HAS_CONTENT { "name": "t.edge.UNIVERSAL MERCY REQUIREMENT" }]->(c);
+
+MATCH (parent:TOPIC {name: "topic.MERCY"})
+MATCH (child:THOUGHT {name: "thought.UNIVERSAL MERCY REQUIREMENT"})
+MERGE (parent)-[:HAS_THOUGHT { "name": "t.edge.MERCY->UNIVERSAL MERCY REQUIREMENT" }]->(child);
+```

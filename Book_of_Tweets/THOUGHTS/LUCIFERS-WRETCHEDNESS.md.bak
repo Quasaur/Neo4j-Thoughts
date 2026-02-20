@@ -1,0 +1,49 @@
+---
+name: "thought.LUCIFERS WRETCHEDNESS"
+alias: "Thought: Lucifers Wretchedness"
+type: THOUGHT
+en_content: "What a wretch Lucifer must be, to despise his most ardent Supporter!"
+parent: "topic.EVIL"
+tags:
+- lucifer
+- pride
+- evil
+- supporter
+- character
+level: 4
+neo4j: false
+ptopic: "[[topic-EVIL]]"
+---
+
+```Cypher
+// Generated from Book6E-FINAL.md (ID: 17-Feb-2012b)
+CREATE (t:THOUGHT {
+    name: "thought.LUCIFERS WRETCHEDNESS",
+    alias: "Thought: Lucifers Wretchedness",
+    parent: "topic.EVIL",
+    tags: ['lucifer', 'pride', 'evil', 'supporter', 'character'],
+    level: 4
+});
+
+CREATE (c:CONTENT {
+    name: "content.LUCIFERS WRETCHEDNESS",
+    en_title: "Lucifers Wretchedness",
+    en_content: "What a wretch Lucifer must be, to despise his most ardent Supporter!",
+    es_title: "La Miseria de Lucifer",
+    es_content: "¡Qué miserable debe ser Lucifer, para despreciar a su más ferviente Defensor!",
+    fr_title: "La Misère de Lucifer",
+    fr_content: "Quel misérable Lucifer doit être, pour mépriser son plus ardent Soutien !",
+    hi_title: "लूसिफर की दुर्दशा",
+    hi_content: "लूसिफर कितना दयनीय होगा, अपने सबसे उत्कट समर्थक को तुच्छ समझने के लिए!",
+    zh_title: "Lùxīfèi de bēicǎn 路西弗的卑涅",
+    zh_content: "Lùxīfèi dàgài shì duōme bēibiǐ, jìnrán qī shì tā zuì rèchéng de zhīchí zhě! 路西弗大概是多么卑鄙，竟然欺视他最热诚的支持者！"
+});
+
+MATCH (t:THOUGHT {name: "thought.LUCIFERS WRETCHEDNESS"})
+MATCH (c:CONTENT {name: "content.LUCIFERS WRETCHEDNESS"})
+MERGE (t)-[:HAS_CONTENT { "name": "t.edge.LUCIFERS WRETCHEDNESS" }]->(c);
+
+MATCH (parent:TOPIC {name: "topic.EVIL"})
+MATCH (child:THOUGHT {name: "thought.LUCIFERS WRETCHEDNESS"})
+MERGE (parent)-[:HAS_THOUGHT { "name": "t.edge.EVIL->LUCIFERS WRETCHEDNESS" }]->(child);
+```

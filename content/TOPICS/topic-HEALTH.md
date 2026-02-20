@@ -3,6 +3,7 @@ name: topic.HEALTH
 alias: "Topic: Health and Nutrition"
 type: TOPIC
 parent: topic.HUMANITY
+en_content: "The condition of being sound in body, mind, or spirit; freedom from physical disease or pain; the general condition of the body."
 tags:
 - nutrition
 - exercise

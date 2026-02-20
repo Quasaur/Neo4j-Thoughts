@@ -4,6 +4,8 @@ filters:
     - or:
         - type == "THOUGHT"
         - type == "PASSAGE"
+formulas:
+  Row Number: length(all())
 views:
   - type: table
     name: Table
@@ -23,5 +25,24 @@ views:
         direction: ASC
     rowHeight: tall
     columnSize:
-      file.name: 271
-      note.en_content: 1036
+      file.name: 199
+      note.name: 182
+      note.ptopic: 124
+      note.en_content: 879
+  - type: list
+    name: View
+    groupBy:
+      property: parent
+      direction: ASC
+    order:
+      - file.name
+      - name
+      - parent
+      - type
+      - ptopic
+      - level
+    sort:
+      - property: level
+        direction: ASC
+    markers: number
+    separator: "          |.         "

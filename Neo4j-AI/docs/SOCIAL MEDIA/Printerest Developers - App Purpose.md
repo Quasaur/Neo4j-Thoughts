@@ -1,0 +1,1 @@
+**Social Marketer** is a desktop application that publishes wisdom-themed quote graphics and content to Pinterest boards. The app creates Pins with images, descriptions, and links back to wisdombook.life, a curated collection of proverbs and biblical wisdom. It uses the Pinterest API to automatically post scheduled content to a designated board.
