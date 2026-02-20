@@ -9,6 +9,7 @@ views:
       - file.name
       - ptopic
       - neo4j
+      - level
       - file.folder
     columnSize:
       file.name: 174

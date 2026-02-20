@@ -4,41 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "9c6124a4a7f55652",
+        "id": "c9ece1b51bc5157f",
         "type": "tabs",
         "children": [
           {
-            "id": "27df93ce3f2f86c1",
-            "type": "leaf",
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "BASES/Base-Book_of_Tweets.base",
-                "viewName": "Table"
-              },
-              "icon": "lucide-table",
-              "title": "Base-Book_of_Tweets"
-            }
-          }
-        ]
-      },
-      {
-        "id": "62fdb4d15d2601d9",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "8246b1d7cff37bb0",
+            "id": "1888034726ebcfcf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/PASSAGES/Roma/NOT-OF-FAITH.md",
+                "file": "Neo4j-AI/docs/GOOGLE/GCC - Social Markter.md",
                 "mode": "source",
-                "source": true,
+                "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "NOT-OF-FAITH"
+              "title": "GCC - Social Markter"
             }
           }
         ]
@@ -73,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Stripe",
+                "query": "ULTIMATE",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -108,7 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 463.5086555480957
+    "width": 200
   },
   "right": {
     "id": "23b5a9898015fd07",
@@ -196,43 +177,44 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "27df93ce3f2f86c1",
+  "active": "1888034726ebcfcf",
   "lastOpenFiles": [
-    "Book_of_Tweets/THOUGHTS/FAMILIAR-SPIRITS-WARNING.md",
-    "content/PASSAGES/Roma/NOT-OF-FAITH.md",
-    "content/PASSAGES/zeph/REMOVING-ALL-THINGS.md",
-    "content/PASSAGES 1",
-    "content/PASSAGES/job/THE-LORD-GIVES.md",
-    "content/PASSAGES/job",
-    "content/PASSAGES/Roma/FREEDOM-OF-DEATH.md",
+    "Neo4j-AI/docs/GOOGLE/GCC - Social Markter.md",
+    "content/TOPICS/topic-ATTITUDE.md",
     "BASES/Base-Book_of_Tweets.base",
-    "Book_of_Tweets/THOUGHTS/DEFINING-EVIL-PRIDE.md",
-    "Book_of_Tweets/THOUGHTS/DEFINE-EVIL-JEALOUSY.md",
-    "Book_of_Tweets/THOUGHTS/APPEARING-HUMAN.md",
-    "Neo4j-AI/docs/DJANGO/Stripe/Stripe Test Credit Card.md",
-    "Neo4j-AI/docs/DJANGO/Stripe/Stripe Keys - Wisdom (sandbox).md",
-    "Neo4j-AI/docs/DJANGO/Stripe/Stripe Keys - Calvin's Journal (Live?).md",
-    "Neo4j-AI/docs/DJANGO/Stripe/Stripe Subscriptions.md",
-    "Neo4j-AI/docs/DJANGO/Stripe",
-    "Neo4j-AI/docs/APPLE DEV/Apple Developer Info.md",
-    "content/THOUGHTS/692-189.md",
-    "content/QUOTES/bom/BEGOTTEN.md",
-    "CYPHER/CORRECTIONS/execution_results.txt",
-    "python/execute_neo4j_corrections.py",
-    "CYPHER/CORRECTIONS/passage_prefix_corrections.md",
-    "CYPHER/CORRECTIONS/neo4j_edge_corrections.cypher",
-    "python/generate_neo4j_corrections.py",
-    "CYPHER/CORRECTIONS/edge_corrections_log.txt",
-    "python/fix_edge_errors.py",
-    "CYPHER/CORRECTIONS/topic_child_corrections.md",
-    "content/TOPICS/topic-APOCALYPSE.md",
-    "content/THOUGHTS/END-OF-ALL-FLESH.md",
-    "content/THOUGHTS/DIVINE-WILL.md",
-    "content/THOUGHTS/WRATH-OF-GOD.md",
-    "content/THOUGHTS/WITHHOLDING-POWERS.md",
-    "content/THOUGHTS/WEATHER-AS-COMMUNICATION.md",
-    "content/THOUGHTS/SHOULD-BE-VS-WILL-BE.md",
-    "content/THOUGHTS/SAVED-FROM-GOD.md",
+    "Book_of_Tweets/THOUGHTS/BAG-OF-CHEMICALS-DUPED.md",
+    "Book_of_Tweets/THOUGHTS/ARROGANCE-VS-DIGNITY.md",
+    "Book_of_Tweets/THOUGHTS/ARGUING-WITH-CREATOR.md",
+    "Book_of_Tweets/THOUGHTS/WORK-TO-BE-SAVED.md",
+    "content/THOUGHTS/THE-ULTIMATE.md",
+    "CYPHER/CORRECTIONS/CONTENT/Add Content Types/Thoughts/content-thought-THE-ULTIMATE.md",
+    "content/TOPICS/topic-MERCY.md",
+    "Book_of_Tweets/THOUGHTS/UNIVERSAL-MERCY-REQUIREMENT.md",
+    "Book_of_Tweets/THOUGHTS/UNFORGIVABLE-SIN.md",
+    "Neo4j-AI/docs/PROMPTS/Kimi-K2/Kimi-K2-5 Param.md",
+    "Neo4j-AI/docs/PROMPTS/Kimi-K2/OpenRouter Kimi-K2-5 Param.md",
+    "Neo4j-AI/docs/PROMPTS/Kimi-K2/Gemini Gem.md",
+    "Neo4j-AI/docs/GOOGLE/Google Cloud TTS Voices.md",
+    "Neo4j-AI/docs/GOOGLE/Google Cloud Text-to-Speech.md",
+    "Neo4j-AI/docs/GOOGLE/Untitled",
+    "Book_of_Tweets/THOUGHTS/TREATED-AS-FAMILY.md",
+    "Book_of_Tweets/THOUGHTS/SPITTING-ON-THE-CROSS.md",
+    "content/TOPICS/topic-HEALTH.md",
+    "Book_of_Tweets/THOUGHTS/SIN-MAKES-IDIOTS.md",
+    "content/TOPICS/topic-DIVINE-SOVEREIGNTY.md",
+    "Book_of_Tweets/THOUGHTS/SALVATION-FOR-ANYBODY.md",
+    "Book_of_Tweets/THOUGHTS/RECREATING-INTENT.md",
+    "Book_of_Tweets/THOUGHTS/PENALTY-VS-SIN.md",
+    "Book_of_Tweets/THOUGHTS/MIRACLE-OF-SALVATION.md",
+    "Book_of_Tweets/THOUGHTS/LOVE-SEVERING-SIN.md",
+    "Neo4j-AI/docs/SOCIAL MEDIA/Social Effects",
+    "Neo4j-AI/docs/reports",
+    "Neo4j-AI/docs/untitled folder",
+    "Neo4j-AI/docs/SOCIAL MEDIA/Social Marketer/Discovery",
+    "Neo4j-AI/docs/SOCIAL MEDIA/Social Marketer",
+    "python/delete_notes_property.py",
+    "Book_of_Tweets/THOUGHTS/WHOLE-BIBLE-ACCEPTANCE.md.bak",
+    "Book_of_Tweets/THOUGHTS/WEIGHT-OF-GREED.md.bak",
     "Untitled.canvas",
     "public/attachments/og-image.png",
     "public/static/og-image.png",

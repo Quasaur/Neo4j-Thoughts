@@ -1,0 +1,49 @@
+---
+name: "thought.FACING TRUTH LOVE"
+alias: "Thought: Facing Truth Love"
+type: THOUGHT
+en_content: "It's God's Love for us that enables us to face the truth about ourselves."
+parent: "topic.LOVE"
+tags:
+- love
+- truth
+- grace
+- self_examination
+- transformation
+level: 2
+neo4j: true
+ptopic: "[[topic-LOVE]]"
+---
+
+```Cypher
+// Generated from Book6E-FINAL.md (ID: 29-Sep-2012)
+CREATE (t:THOUGHT {
+    name: "thought.FACING TRUTH LOVE",
+    alias: "Thought: Facing Truth Love",
+    parent: "topic.LOVE",
+    tags: ['love', 'truth', 'grace', 'self_examination', 'transformation'],
+    level: 2
+});
+
+CREATE (c:CONTENT {
+    name: "content.FACING TRUTH LOVE",
+    en_title: "Facing Truth Love",
+    en_content: "It's God's Love for us that enables us to face the truth about ourselves.",
+    es_title: "Amor que Enfrenta la Verdad",
+    es_content: "Es el Amor de Dios por nosotros lo que nos permite enfrentar la verdad sobre nosotros mismos.",
+    fr_title: "L'Amour qui Affronte la Vérité",
+    fr_content: "C'est l'Amour de Dieu pour nous qui nous permet de faire face à la vérité sur nous-mêmes.",
+    hi_title: "सत्य का सामना करने वाला प्रेम",
+    hi_content: "यह परमेश्वर का हमारे लिए प्रेम है जो हमें अपने बारे में सत्य का सामना करने में सक्षम बनाता है।",
+    zh_title: "Mian Dui Zhen Li De Ai",
+    zh_content: "Zheng Shi Shang Di Dui Wo Men De Ai Shi Wo Men Neng Gou Mian Dui Guan Yu Zi Ji De Zhen Li."
+});
+
+MATCH (t:THOUGHT {name: "thought.FACING TRUTH LOVE"})
+MATCH (c:CONTENT {name: "content.FACING TRUTH LOVE"})
+MERGE (t)-[:HAS_CONTENT { "name": "t.edge.FACING TRUTH LOVE" }]->(c);
+
+MATCH (parent:TOPIC {name: "topic.LOVE"})
+MATCH (child:THOUGHT {name: "thought.FACING TRUTH LOVE"})
+MERGE (parent)-[:HAS_THOUGHT { "name": "t.edge.LOVE->FACING TRUTH LOVE" }]->(child);
+```
