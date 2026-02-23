@@ -10,3 +10,15 @@ tsconfig.tsbuildinfo
 private/
 .replit
 replit.nix
+
+# Secrets and environment variables
+.secrets/
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+config.json
+secrets.json
+**/Gemini API (3D Backgrounds).md
+**/OpenRouter Kimi-K2-5 Param.md

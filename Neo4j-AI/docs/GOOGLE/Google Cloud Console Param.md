@@ -14,3 +14,17 @@ Authroized RedirectURIs:
    Client Secrets: 
    Client secret: ****zfH6 Creation date: January 1, 2026, 2:58:05 PM GMT-5 
    Status: Enabled
+
+# Social Marketer Web Client
+Client ID: $GOOGLE_OAUTH_CLIENT_ID_2 (set in .secrets/.env)
+
+Client Secret; $GOOGLE_OAUTH_CLIENT_SECRET_2 (set in .secrets/.env)
+
+Creation Date: February 22, 2026, 7:46:30 PM GMT-5
+
+Status: Enabled
+
+Authorized Javascript Origins: http://localhost:9094
+Local Path: client_secret_$GOOGLE_OAUTH_CLIENT_ID_2 (set in .secrets/.env)
+
+Aurhorized Redirect URIs: http://localhost:9094/oauth/callback
