@@ -12,13 +12,13 @@ Authroized RedirectURIs:
 3. "https://www.wisdombook.life/accounts/google/login/callback/" 
    
    Client Secrets: 
-   Client secret: ****zfH6 Creation date: January 1, 2026, 2:58:05 PM GMT-5 
+   Client secret: $GOOGLE_OAUTH_CLIENT_SECRET_1 (set in .secrets/.env) Creation date: January 1, 2026, 2:58:05 PM GMT-5 
    Status: Enabled
 
 # Social Marketer Web Client
 Client ID: $GOOGLE_OAUTH_CLIENT_ID_2 (set in .secrets/.env)
 
-Client Secret; $GOOGLE_OAUTH_CLIENT_SECRET_2 (set in .secrets/.env)
+Client Secret: $GOOGLE_OAUTH_CLIENT_SECRET_2 (set in .secrets/.env)
 
 Creation Date: February 22, 2026, 7:46:30 PM GMT-5
 
