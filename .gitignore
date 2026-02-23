@@ -20,6 +20,6 @@ replit.nix
 *.key
 config.json
 secrets.json
-**/Gemini API (3D Backgrounds).md
-**/OpenRouter Kimi-K2-5 Param.md
-**/Google Cloud Console Param.md
+
+# Secret documentation files (moved to Neo4j-AI/SECRETS/)
+Neo4j-AI/SECRETS/
