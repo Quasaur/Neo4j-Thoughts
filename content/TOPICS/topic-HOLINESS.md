@@ -1,18 +1,18 @@
 ---
-name: topic.HOLINESS
-alias: "Topic: God's Worth"
 type: TOPIC
+name: "topic.HOLINESS"
+alias: "Topic: God's Worth"
 parent: "topic.THE GODHEAD"
-tags:
-- sacred
-- sacrosanct
-- godliness
-- piety
-- virtue
-neo4j: true
+en_content: "The quality or state of being holy; a Being (God) Who is exalted and worthy of complete devotion as One perfect in goodness and righteousness; a human devoted entirely to the Deity or the Work of the Deity; having a Divine quality; that object which is venerated as sacred."
+tags: ["sacred", "sacrosanct", "godliness", "piety", "virtue"]
 ptopic: "[[topic-THE]]"
 level: 2
+neo4j: true
 ---
+
+
+
+
 
 ```Cypher
 //create the TOPIC with the same fields as a normal topic

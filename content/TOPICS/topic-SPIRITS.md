@@ -1,24 +1,24 @@
 ---
-name: topic.SPIRITS
-alias: "Topic Children of the Holy Spirit"
 type: TOPIC
-parent: topic.CREATION
-tags:
-- life
-- attitude
-- supernatural
-- being
-- incorporeals
-neo4j: true
+name: "topic.SPIRITS"
+alias: "Topic: Children of the Holy Spirit"
+parent: "topic.CREATION"
+en_content: "The animating or vital Principle held to give life to physical organisms; supernatural being or essence."
+tags: ["life", "attitude", "supernatural", "being", "incorporeals"]
 ptopic: "[[topic-CREATION]]"
 level: 3
+neo4j: true
 ---
+
+
+
+
 
 ```Cypher
 // CREATE TOPIC
 CREATE (t:TOPIC {
     name: "topic.SPIRITS",
-    alias: "Topic Children of the Holy Spirit",
+    alias: "Topic: Children of the Holy Spirit",
     parent: "topic.CREATION",
     tags: ["life", "attitude", "supernatural", "being", "incorporeals"],
     level: 3

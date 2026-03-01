@@ -1,0 +1,49 @@
+---
+type: THOUGHT
+name: "thought.UNEMPLOYMENT STATS"
+alias: "Thought: Unemployment Stats"
+parent: "topic.MORALITY"
+en_content: "White Unemployment : 9%...Black Unemployment : 16%."
+tags: ["justice", "economy", "race", "society", "morality"]
+ptopic:
+level: 3
+neo4j: false
+---
+
+
+
+
+
+```Cypher
+// Generated from Book6E-FINAL.md (ID: 31-Aug-2011c)
+CREATE (t:THOUGHT {
+    name: "thought.UNEMPLOYMENT STATS",
+    alias: "Thought: Unemployment Stats",
+    parent: "topic.MORALITY",
+    tags: ['justice', 'economy', 'race', 'society', 'morality'],
+    notes: "",
+    level: 3
+});
+
+CREATE (c:CONTENT {
+    name: "content.UNEMPLOYMENT STATS",
+    en_title: "Unemployment Stats",
+    en_content: "White Unemployment : 9%...Black Unemployment : 16%.",
+    es_title: "Estadísticas de desempleo",
+    es_content: "Desempleo de blancos: 9%... Desempleo de negros: 16%.",
+    fr_title: "Statistiques du chômage",
+    fr_content: "Chômage des Blancs : 9%...Chômage des Noirs : 16%.",
+    hi_title: "बेरोज़गारी आँकड़े",
+    hi_content: "श्वेत बेरोज़गारी: 9%...काली बेरोज़गारी: 16%।",
+    zh_title: "shī yè tǒng jì",
+    zh_content: "bái rén shī yè lǜ ：9%... hēi rén shī yè lǜ ：16%。"
+});
+
+MATCH (t:THOUGHT {name: "thought.UNEMPLOYMENT STATS"})
+MATCH (c:CONTENT {name: "content.UNEMPLOYMENT STATS"})
+MERGE (t)-[:HAS_CONTENT { "name": "edge.UNEMPLOYMENT STATS" }]->(c);
+
+MATCH (parent:TOPIC {name: "topic.MORALITY"})
+MATCH (child:THOUGHT {name: "thought.UNEMPLOYMENT STATS"})
+MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->UNEMPLOYMENT STATS" }]->(child);
+```

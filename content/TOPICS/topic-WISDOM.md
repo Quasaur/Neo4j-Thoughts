@@ -1,18 +1,18 @@
 ---
-name: topic.WISDOM
-alias: "Topic: The Application of Knowledge"
 type: TOPIC
-parent: topic.SPIRITUALITY
-tags:
-- insight
-- discernment
-- perception
-- understanding
-- brilliance
-neo4j: true
+name: "topic.WISDOM"
+alias: "Topic: The Application of Knowledge"
+parent: "topic.SPIRITUALITY"
+en_content: "A wise attitude, belief, or course of action."
+tags: ["insight", "discernment", "perception", "understanding", "brilliance"]
 ptopic: "[[topic-SPIRITUALITY]]"
 level: 3
+neo4j: true
 ---
+
+
+
+
 
 ```Cypher
 //create the TOPIC with the same fields as a normal topic

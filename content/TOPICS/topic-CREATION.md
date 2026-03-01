@@ -1,18 +1,18 @@
 ---
-name: topic.CREATION
-alias: "Topic: The Universe / Multiverse"
 type: TOPIC
+name: "topic.CREATION"
+alias: "Topic: The Universe / Multiverse"
 parent: "topic.THE GODHEAD"
-tags:
-- creation
-- cosmos
-- universe
-- dominion
-- kingdom
+en_content: "All beings, places and things that exist apart from The GODHEAD as a result of Divine Creation."
+tags: ["creation", "cosmos", "universe", "dominion", "kingdom"]
+ptopic: "\"[[topic-THE-GODHEAD]]\""
+level: 1
 neo4j: true
-ptopic: '"[[topic-THE-GODHEAD]]"'
-level: 2
 ---
+
+
+
+
 
 ```Cypher
 //create the TOPIC with the same fields as a normal topic
@@ -21,9 +21,9 @@ CREATE (t:TOPIC
 	    name: "topic.CREATION",
 		alias: "Topic: The Universe / Multiverse", 
 		parent: "topic.THE GODHEAD", 
-		tags: ["creatiion", "cosmos", "universe", "dominion", "kingdom"], 
+		tags: ["creation", "cosmos", "universe", "dominion", "kingdom"], 
 		notes: "",
-		level: 2});
+		level: 1});
 // create multi-lingual description		
 CREATE (d:DESCRIPTION {
 	name: "desc.CREATION", 

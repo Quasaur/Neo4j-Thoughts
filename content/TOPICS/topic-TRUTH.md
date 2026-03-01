@@ -1,18 +1,18 @@
 ---
-name: topic.TRUTH
-alias: "Topic: The Divine Being"
 type: TOPIC
-parent: topic.THE GODHEAD
-tags:
-  - actuality
-  - reality
-  - fact
-  - verity
-  - authentic
-neo4j: true
+name: "topic.TRUTH"
+alias: "Topic: The Divine Being"
+parent: "topic.THE GODHEAD"
+en_content: "A transcendent fundamental or spiritual reality."
+tags: ["actuality", "reality", "fact", "verity", "authentic"]
 ptopic: "[[topic-THE-GODHEAD]]"
 level: 2
+neo4j: true
 ---
+
+
+
+
 
 ```Cypher
 //create the TOPIC with the same fields as a normal topic
@@ -21,7 +21,7 @@ CREATE (t:TOPIC
 	    name: "topic.TRUTH",
 		alias: "Topic: The Divine Being", 
 		parent: "topic.THE GODHEAD", 
-		tags: ["actuality", "reality", "fact", "authentic", "verity"], 
+		tags: ["actuality", "reality", "fact", "verity", "authentic"], 
 		notes: "",
 		level: 2});
 // create multi-lingual description		

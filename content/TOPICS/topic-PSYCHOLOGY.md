@@ -1,18 +1,18 @@
 ---
-name: topic.PSYCHOLOGY
-alias: "Topic: The Science of Mind and Behavior"
 type: TOPIC
-parent: topic.HUMANITY
-tags:
-- soul
-- psyche
-- mind
-- awareness
-- consciousness
-neo4j: true
-ptopic: '"[[topic-HUMANITY]]"'
+name: "topic.PSYCHOLOGY"
+alias: "Topic: The Science of Mind and Behavior"
+parent: "topic.HUMANITY"
+en_content: "The study of mind and behavior in relation to a particular field of knowledge or activity."
+tags: ["soul", "psyche", "mind", "awareness", "consciousness"]
+ptopic: "\"[[topic-HUMANITY]]\""
 level: 4
+neo4j: true
 ---
+
+
+
+
 
 ```Cypher
 //create the TOPIC with the same fields as a normal topic

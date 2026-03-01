@@ -1,0 +1,46 @@
+---
+type: QUOTE
+name: "quote.UNCONDITIONAL_GRACE"
+alias: "Quote: Quote: UNCONDITIONAL GRACE"
+parent: "topic.GRACE"
+en_content: "The Purpose of the Gospel is to bring fallen numanity into The Fellowship of The Godhead. And since the Fellowship of The Godhead is Itself unconditional, The Gospel of Grace must also be unconditional."
+tags: ["saved", "understanding", "darkness", "past", "forgotten"]
+ptopic: "[[topic-GRACE]]"
+level: 3
+neo4j: true
+---
+
+
+
+
+
+```Cypher
+// CREATE QUOTE
+CREATE (q:QUOTE {
+    name: "quote.UNCONDITIONAL_GRACE",
+    alias: "Quote: Quote: UNCONDITIONAL GRACE",
+    parent: "topic.GRACE",
+    tags: ["saved", "understanding", "darkness", "past", "forgotten"],
+    source: "'Once Saved, Always Saved: The Assurance of Our Father's LOVE'",
+    booklink: "(https://www.amazon.com/Once-Saved-Always-Assurance-Fathers-ebook/dp/B0132UEB68)",
+    level: 3
+});
+
+// CREATE CONTENT
+CREATE (c:CONTENT {
+    name: "content.UNCONDITIONAL_GRACE",
+    en_title: "Quote: UNCONDITIONAL GRACE",
+    en_content: "The Purpose of the Gospel is to bring fallen numanity into The Fellowship of The Godhead. And since the Fellowship of The Godhead is Itself unconditional, The Gospel of Grace must also be unconditional."
+});
+
+// LINK CONTENT
+MATCH (q:QUOTE {name: "quote.UNCONDITIONAL_GRACE"})
+MATCH (c:CONTENT {name: "content.UNCONDITIONAL_GRACE"})
+MERGE (q)-[:HAS_CONTENT {name: "q.edge.UNCONDITIONAL_GRACE"}]->(c);
+
+// LINK PARENT
+MATCH (parent:TOPIC {name: "topic.GRACE"})
+MATCH (child:QUOTE {name: "quote.UNCONDITIONAL_GRACE"})
+MERGE (parent)-[:HAS_QUOTE {name: "q.edge.GRACE->UNCONDITIONAL_GRACE"}]->(child);
+
+```

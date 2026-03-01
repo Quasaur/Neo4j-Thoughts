@@ -1,18 +1,18 @@
 ---
-name: topic.PHILOSOPHY
-alias: "Topic: The Science of Ideology"
 type: TOPIC
-parent: topic.HUMANITY
-tags:
-- fundamentals
-- humanities
-- existence
-- reason
-- knowledge
-neo4j: true
+name: "topic.PHILOSOPHY"
+alias: "Topic: The Science of Ideology"
+parent: "topic.HUMANITY"
+en_content: "A foundational discipline within the Humanities. It explores fundamental questions about existence, knowledge, values, reason, mind, and language. As such, it provides a framework for understanding other humanities fields like literature, history, art, and religion. While philosophy can be considered a standalone discipline, it also intersects and informs many other areas of study within the humanities."
+tags: ["fundamentals", "humanities", "existence", "reason", "knowledge"]
 ptopic: "[[topic-HUMANITY]]"
 level: 4
+neo4j: true
 ---
+
+
+
+
 
 ```Cypher
 // CREATE TOPIC

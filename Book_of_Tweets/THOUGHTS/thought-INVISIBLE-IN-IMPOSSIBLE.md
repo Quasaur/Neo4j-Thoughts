@@ -1,0 +1,49 @@
+---
+type: THOUGHT
+name: "thought.INVISIBLE IN IMPOSSIBLE"
+alias: "Thought: Invisible In Impossible"
+parent: "topic.THE GODHEAD"
+en_content: "God is invisible except in the impossible."
+tags: ["god", "miracle", "invisible", "impossible", "divinity"]
+ptopic:
+level: 1
+neo4j: false
+---
+
+
+
+
+
+```Cypher
+// Generated from Book6E-FINAL.md (ID: 10-Apr-2013)
+CREATE (t:THOUGHT {
+    name: "thought.INVISIBLE IN IMPOSSIBLE",
+    alias: "Thought: Invisible In Impossible",
+    parent: "topic.THE GODHEAD",
+    tags: ['god', 'miracle', 'invisible', 'impossible', 'divinity'],
+    notes: "",
+    level: 1
+});
+
+CREATE (c:CONTENT {
+    name: "content.INVISIBLE IN IMPOSSIBLE",
+    en_title: "Invisible In Impossible",
+    en_content: "God is invisible except in the impossible.",
+    es_title: "Invisible En Lo Imposible",
+    es_content: "Dios es invisible excepto en lo imposible.",
+    fr_title: "Invisible Dans L'Impossible",
+    fr_content: "Dieu est invisible sauf dans l'impossible.",
+    hi_title: "असंभव में अदृश्य",
+    hi_content: "परमेश्वर असंभव के अलावा अदृश्य है।",
+    zh_title: "Zai Bu Ke Neng Zhong De Bu Ke Jian",
+    zh_content: "Chu Le Zai Bu Ke Neng De Shi Qing Shang, Shang Di Shi Bu Ke Jian De."
+});
+
+MATCH (t:THOUGHT {name: "thought.INVISIBLE IN IMPOSSIBLE"})
+MATCH (c:CONTENT {name: "content.INVISIBLE IN IMPOSSIBLE"})
+MERGE (t)-[:HAS_CONTENT { "name": "edge.INVISIBLE IN IMPOSSIBLE" }]->(c);
+
+MATCH (parent:TOPIC {name: "topic.THE GODHEAD"})
+MATCH (child:THOUGHT {name: "thought.INVISIBLE IN IMPOSSIBLE"})
+MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->INVISIBLE IN IMPOSSIBLE" }]->(child);
+```

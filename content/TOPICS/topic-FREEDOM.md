@@ -1,18 +1,18 @@
 ---
-name: topic.FREEDOM
-alias: "Topic: Free to be Moral"
 type: TOPIC
-parent: topic.LAW
-tags:
-- free
-- choice
-- options
-- unrestrained
-- decisions
-neo4j: true
+name: "topic.FREEDOM"
+alias: "Topic: Free to be Moral"
+parent: "topic.LAW"
+en_content: "The absence of necessity, coercion, or constraint in choice or action with the framework of morality and law."
+tags: ["free", "choice", "options", "unrestrained", "decisions"]
 ptopic: "[[topic-LAW]]"
 level: 5
+neo4j: true
 ---
+
+
+
+
 
 ```Cypher
 // CREATE TOPIC

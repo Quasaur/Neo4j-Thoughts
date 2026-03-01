@@ -1,18 +1,18 @@
 ---
-name: topic.EVIL
-alias: "Topic: Malevolence"
 type: TOPIC
-parent: topic.MORALITY
-tags:
-- entitled
-- privilege
-- flesh
-- pride
-- right
-neo4j: true
+name: "topic.EVIL"
+alias: "Topic: Malevolence"
+parent: "topic.MORALITY"
+en_content: "The fact of suffering, misfortune, and wrongdoing; a cosmic wicked force; something or someone that brings sorrow, distress, or calamity; one that steals, kills and destroys; that angelic being which is the fountain of pride (Lucifer, Satan, the Devil)"
+tags: ["entitled", "privilege", "flesh", "pride", "right"]
 ptopic: "[[topic-MORALITY]]"
 level: 4
+neo4j: true
 ---
+
+
+
+
 
 ```Cypher
 //create the TOPIC with the same fields as a normal topic

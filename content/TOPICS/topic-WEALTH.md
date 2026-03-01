@@ -1,18 +1,18 @@
 ---
-name: topic.WEALTH
-alias: "Topic: Abundance"
 type: TOPIC
-parent: topic.CREATION
-tags:
-- assets
-- capital
-- fortune
-- resources
-- riches
-neo4j: true
+name: "topic.WEALTH"
+alias: "Topic: Abundance"
+parent: "topic.CREATION"
+en_content: "The abundance of valuable material, possessions or resources."
+tags: ["assets", "capital", "fortune", "resources", "riches"]
 ptopic: "[[topic-CREATION]]"
 level: 3
+neo4j: true
 ---
+
+
+
+
 
 ```Cypher
 //create the TOPIC with the same fields as a normal topic

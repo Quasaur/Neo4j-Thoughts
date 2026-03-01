@@ -1,18 +1,18 @@
 ---
-name: topic.SPIRITUALITY
-alias: "Topic: Godliness"
 type: TOPIC
+name: "topic.SPIRITUALITY"
+alias: "Topic: Godliness"
 parent: "topic.THE GODHEAD"
-tags:
-- attitude
-- transcendence
-- metaphysical
-- supernatural
-- breathless
-neo4j: true
+en_content: "Sensitivity or attachment to the values of the Holy Spirit of God."
+tags: ["attitude", "transcendence", "metaphysical", "supernatural", "breathless"]
 ptopic: "[[topic-THE]]"
-level: 2
+level: 3
+neo4j: true
 ---
+
+
+
+
 
 ```Cypher
 //create the TOPIC with the same fields as a normal topic
@@ -21,9 +21,9 @@ CREATE (t:TOPIC
 	    name: "topic.SPIRITUALITY",
 		alias: "Topic: Godliness", 
 		parent: "topic.THE GODHEAD", 
-		tags: ["breath", "atitude", "transcendence", "metaphysical", "supernatural"], 
+		tags: ["attitude", "transcendence", "metaphysical", "supernatural", "breathless"], 
 		notes: "",
-		level: 2});
+		level: 3});
 // create multi-lingual description		
 CREATE (d:DESCRIPTION {
 	name: "desc.SPIRITUALITY", 

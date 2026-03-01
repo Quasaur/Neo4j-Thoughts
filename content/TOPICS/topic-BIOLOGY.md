@@ -1,19 +1,18 @@
 ---
+type: TOPIC
 name: "topic.BIOLOGY"
 alias: "Topic: Living Matter"
-type: TOPIC
 parent: "topic.NATURAL SCIENCES"
 en_content: "A branch of knowledge that deals with living organisms and vital processes."
-tags:
-- matter
-- energy
-- life
-- spirit
-- knowledge
-neo4j: true
+tags: ["matter", "energy", "life", "spirit", "knowledge"]
 ptopic: "[[topic-NATURAL-SCIENCES]]"
 level: 6
+neo4j: true
 ---
+
+
+
+
 
 ```Cypher
 //create the TOPIC with the same fields as a normal topic

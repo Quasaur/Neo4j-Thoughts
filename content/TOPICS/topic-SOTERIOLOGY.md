@@ -1,19 +1,18 @@
 ---
+type: TOPIC
 name: "topic.SOTERIOLOGY"
 alias: "Topic: God's Entire Redemptive Plan"
-type: TOPIC
 parent: "topic.THE GOSPEL"
 en_content: "The branch of theology that studies the nature, purpose, and process of salvation—how it is achieved, how it is applied to humanity, and how it ultimately transforms both people and creation."
-tags:
-- salvation
-- redemption
-- atonement
-- grace
-- restoration
-neo4j: true
+tags: ["salvation", "redemption", "atonement", "grace", "restoration"]
 ptopic: "[[topic-THE GOSPEL]]"
 level: 3
+neo4j: true
 ---
+
+
+
+
 
 ```Cypher
 //create the TOPIC with the same fields as a normal topic

@@ -1,20 +1,19 @@
 ---
+type: TOPIC
 name: "topic.MUSICOLOGY"
 alias: "Topic: Musicology"
-type: TOPIC
 parent: "topic.HUMANITY"
-tags:
-- musicology
-- music
-- study
-- research
-- history
-- theory
-neo4j: true
+en_content: "The scholarly study of music, encompassing the historical, cultural, theoretical, and scientific aspects of music and its role in human society."
+tags: ["musicology", "music", "study", "research", "history", "theory"]
 ptopic: "[[topic-HUMANITY]]"
 level: 4
-insert: true
+neo4j: true
+insert: "True"
 ---
+
+
+
+
 # Topic: Musicology
 
 ```Cypher

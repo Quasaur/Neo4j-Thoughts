@@ -1,25 +1,24 @@
 ---
+type: TOPIC
 name: "topic.POLITICAL SCIENCE"
 alias: "Topic: Politics"
-type: TOPIC
 parent: "topic.SOCIAL SCIENCES"
 en_content: "The systematic study of power, governance, public institutions, political behavior, and the processes through which societies make collective decisions. It analyzes how authority is organized, exercised, contested, and justified within and between communities."
-tags:
-- power
-- governance
-- institutions
-- policy
-- behavior
-neo4j: true
+tags: ["power", "governance", "institutions", "policy", "behavior"]
 ptopic: "[[topic-SOCIAL-SCIENCES]]"
 level: 5
+neo4j: true
 ---
+
+
+
+
 
 ```Cypher
 // CREATE TOPIC
 CREATE (t:TOPIC {
-    name: "topic.POLITICAL-SCIENCE",
-    alias: "Topic Politics",
+    name: "topic.POLITICAL SCIENCE",
+    alias: "Topic: Politics",
     parent: "topic.SOCIAL SCIENCES",
     tags: ["power", "governance", "institutions", "policy", "behavior"],
     level: 5
@@ -42,7 +41,7 @@ CREATE (d:DESCRIPTION {
 });
 
 // LINK DESCRIPTION
-MATCH (t:TOPIC {name: "topic.POLITICAL-SCIENCE"})
+MATCH (t:TOPIC {name: "topic.POLITICAL SCIENCE"})
 MATCH (d:DESCRIPTION {name: "desc.POLITICAL-SCIENCE"})
 MERGE (t)-[:HAS_DESCRIPTION {name: "edge.POLITICAL-SCIENCE"}]->(d);
 
@@ -50,7 +49,7 @@ MERGE (t)-[:HAS_DESCRIPTION {name: "edge.POLITICAL-SCIENCE"}]->(d);
 MATCH (p:TOPIC)
 WHERE p.name = "topic.SOCIAL SCIENCES"
 MATCH (c:TOPIC)
-WHERE c.name = "topic.POLITICAL-SCIENCE"
+WHERE c.name = "topic.POLITICAL SCIENCE"
 MERGE (p)-[:HAS_CHILD {name: "edge.SOCIAL SCIENCE->POLITICAL-SCIENCE"}]->(c);
 
 ```

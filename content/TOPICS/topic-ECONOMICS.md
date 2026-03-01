@@ -1,16 +1,18 @@
 ---
-name: topic.ECONOMICS
-alias: "Topic: Commerce"
 type: TOPIC
-parent: topic.HUMANITY
-tags:
-- consumption
-- production
-- distribution
-neo4j: true
+name: "topic.ECONOMICS"
+alias: "Topic: Commerce"
+parent: "topic.HUMANITY"
+en_content: "Social science concerned chiefly with description and analysis of the production, distribution, and consumption of goods and services."
+tags: ["consumption", "production", "distribution"]
 ptopic: "[[topic-HUMANITY]]"
 level: 4
+neo4j: true
 ---
+
+
+
+
 
 ```Cypher
 // CREATE TOPIC

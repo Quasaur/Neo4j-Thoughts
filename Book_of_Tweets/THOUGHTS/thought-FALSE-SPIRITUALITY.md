@@ -1,0 +1,49 @@
+---
+type: THOUGHT
+name: "thought.FALSE SPIRITUALITY"
+alias: "Thought: False Spirituality"
+parent: "topic.SPIRITUALITY"
+en_content: "False Spirituality: placing the Devil around every corner, under every rock and behind every bush to cover defects of character."
+tags: ["spirituality", "deception", "devil", "character", "excuse"]
+ptopic:
+level: 2
+neo4j: false
+---
+
+
+
+
+
+```Cypher
+// Generated from Book6E-FINAL.md (ID: 28-Dec-2011)
+CREATE (t:THOUGHT {
+    name: "thought.FALSE SPIRITUALITY",
+    alias: "Thought: False Spirituality",
+    parent: "topic.SPIRITUALITY",
+    tags: ['spirituality', 'deception', 'devil', 'character', 'excuse'],
+    notes: "",
+    level: 2
+});
+
+CREATE (c:CONTENT {
+    name: "content.FALSE SPIRITUALITY",
+    en_title: "False Spirituality",
+    en_content: "False Spirituality: placing the Devil around every corner, under every rock and behind every bush to cover defects of character.",
+    es_title: "Falsa Espiritualidad",
+    es_content: "Falsa espiritualidad: poner al Diablo en cada esquina, bajo cada piedra y detrás de cada arbusto para cubrir defectos de carácter.",
+    fr_title: "Fausse Spiritualité",
+    fr_content: "Fausse spiritualité : placer le Diable à chaque coin, sous chaque pierre et derrière chaque buisson pour couvrir les défauts de caractère.",
+    hi_title: "झूठी आध्यात्मिकता",
+    hi_content: "झूठी आध्यात्मिकता: चरित्र की कमियों को छिपाने के लिए हर कोने, हर पत्थर के नीचे और हर झाड़ी के पीछे शैतान को रखना।",
+    zh_title: "Jiǎ língxìng  jiǎ líng xìng",
+    zh_content: "Jiǎ língxìng: wèile yǎnshì xìngé shàng de quēxiàn, ér bǎ móguǐ fàng zài měi gè jiǎo luò, měi kuài shítóu xià, hé měi gè guàn mù hòu.  jiǎ líng xìng ： wèi le yǐn cáng xìng gé shàng de quē xiàn ， ér bǎ mó guǐ fàng zài měi gè jiǎo luò ， měi kuài shí tou xià ， hé měi gè guàn mù hòu 。"
+});
+
+MATCH (t:THOUGHT {name: "thought.FALSE SPIRITUALITY"})
+MATCH (c:CONTENT {name: "content.FALSE SPIRITUALITY"})
+MERGE (t)-[:HAS_CONTENT { "name": "edge.FALSE SPIRITUALITY" }]->(c);
+
+MATCH (parent:TOPIC {name: "topic.SPIRITUALITY"})
+MATCH (child:THOUGHT {name: "thought.FALSE SPIRITUALITY"})
+MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->FALSE SPIRITUALITY" }]->(child);
+```

@@ -1,17 +1,18 @@
 ---
-name: topic.HEALTH
-alias: "Topic: Health and Nutrition"
 type: TOPIC
-parent: topic.HUMANITY
+name: "topic.HEALTH"
+alias: "Topic: Health and Nutrition"
+parent: "topic.HUMANITY"
 en_content: "The condition of being sound in body, mind, or spirit; freedom from physical disease or pain; the general condition of the body."
-tags:
-- nutrition
-- exercise
-- lifestyle
-neo4j: true
+tags: ["nutrition", "exercise", "lifestyle"]
 ptopic: "[[topic-HUMANITY]]"
 level: 4
+neo4j: true
 ---
+
+
+
+
 
 ```Cypher
 // CREATE TOPIC

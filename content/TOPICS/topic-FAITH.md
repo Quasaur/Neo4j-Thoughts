@@ -1,17 +1,18 @@
 ---
-name: topic.FAITH
-alias: "Topic: That Faith by which One is Aligned with the Spirit and Will of God"
 type: TOPIC
-parent: topic.ATTITUDE
-tags:
-- truth
-- doctrine
-- belief
-- confidence
-neo4j: true
+name: "topic.FAITH"
+alias: "Topic: That Faith by which One is Aligned with the Spirit and Will of God"
+parent: "topic.ATTITUDE"
+en_content: "Confidence in the Words of God that inspires intent, speech and action."
+tags: ["truth", "doctrine", "belief", "confidence"]
 ptopic: "[[topic-ATTITUDE]]"
 level: 4
+neo4j: true
 ---
+
+
+
+
 
 ```Cypher
 // CREATE TOPIC

@@ -1,18 +1,18 @@
 ---
-name: topic.FIN-GOV
-alias: "Topic: How Government is Financed"
 type: TOPIC
-parent: topic.FINANCE
-tags:
-- currency
-- subsidize
-- funding
-- bankroll
-- liquidate
-neo4j: true
+name: "topic.FIN-GOV"
+alias: "Topic: How Government is Financed"
+parent: "topic.FINANCE"
+en_content: "Government finances include revenues, expenditures (spending), debt, and assets (cash and security holdings)."
+tags: ["currency", "subsidize", "funding", "bankroll", "liquidate"]
 ptopic: "[[topic-FINANCE]]"
 level: 5
+neo4j: true
 ---
+
+
+
+
 
 ```Cypher
 // CREATE TOPIC

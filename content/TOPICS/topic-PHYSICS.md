@@ -1,19 +1,18 @@
 ---
+type: TOPIC
 name: "topic.PHYSICS"
 alias: "Topic: Physical Properties of Matter"
-type: TOPIC
 parent: "topic.NATURAL SCIENCES"
 en_content: "The physical properties and composition of matter."
-tags:
-- matter
-- energy
-- force
-- motion
-- law
-neo4j: true
+tags: ["matter", "energy", "force", "motion", "law"]
 ptopic: "[[topic-NATURAL-SCIENCES]]"
 level: 6
+neo4j: true
 ---
+
+
+
+
 
 ```Cypher
 //create the TOPIC with the same fields as a normal topic

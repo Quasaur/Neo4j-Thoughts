@@ -1,18 +1,18 @@
 ---
-name: topic.JUSTICE
-alias: "Topic: Equity Between All Peoples"
 type: TOPIC
-parent: topic.LAW
-tags:
-- equity
-- fairness
-- impartiality
-- equitability
-- honor
-neo4j: true
+name: "topic.JUSTICE"
+alias: "Topic: Equity Between All Peoples"
+parent: "topic.LAW"
+en_content: "The practice or instance of giving to others what is their due."
+tags: ["equity", "fairness", "impartiality", "equitability", "honor"]
 ptopic: "[[topic-LAW]]"
 level: 5
+neo4j: true
 ---
+
+
+
+
 
 ```Cypher
 // CREATE TOPIC

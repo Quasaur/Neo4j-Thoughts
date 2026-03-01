@@ -1,18 +1,18 @@
 ---
-name: topic.RELIGION
-alias: "Topic: Humanity's Attempt to Grasp and Manipulate The Transcendent One"
 type: TOPIC
-parent: topic.MORALITY
-tags:
-- cult
-- paganism
-- sect
-- ritual
-- superstition
-neo4j: true
+name: "topic.RELIGION"
+alias: "Topic: Humanity's Attempt to Grasp and Manipulate The Transcendent One"
+parent: "topic.MORALITY"
+en_content: "A personal or institutionalized system of religious attitudes, beliefs, and practices."
+tags: ["cult", "paganism", "sect", "ritual", "superstition"]
 ptopic: "[[topic-MORALITY]]"
 level: 4
+neo4j: true
 ---
+
+
+
+
 
 ```Cypher
 //create the TOPIC with the same fields as a normal topic

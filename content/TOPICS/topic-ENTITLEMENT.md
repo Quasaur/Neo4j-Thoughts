@@ -1,16 +1,18 @@
 ---
-name: topic.ENTITLEMENT
-alias: "Topic: Arrogance"
 type: TOPIC
-parent: topic.ATTITUDE
-tags:
-- entitled
-- privilege
-- right
-neo4j: true
+name: "topic.ENTITLEMENT"
+alias: "Topic: Arrogance"
+parent: "topic.ATTITUDE"
+en_content: "Law, contract or belief that one is deserving of or entitled to certain rights, benefits and privileges."
+tags: ["entitled", "privilege", "right"]
 ptopic: "[[topic-ATTITUDE]]"
 level: 4
+neo4j: true
 ---
+
+
+
+
 
 ```Cypher
 // CREATE TOPIC

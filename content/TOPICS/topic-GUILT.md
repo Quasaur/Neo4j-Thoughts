@@ -1,18 +1,18 @@
 ---
-name: topic.GUILT
-alias: "Topic: Guilt - The Instrument of Law & Religion"
 type: TOPIC
-parent: topic.RELIGION
-tags:
-- responsibility
-- transgression
-- condemnation
-- repentance
-- atonement
-neo4j: false
+name: "topic.GUILT"
+alias: "Topic: Guilt - The Instrument of Law & Religion"
+parent: "topic.RELIGION"
+en_content: "A feeling of responsibility for wrongdoing; a courtroom conviction."
+tags: ["responsibility", "transgression", "condemnation", "repentance", "atonement"]
 ptopic: "[[topic-RELIGION]]"
 level: 5
+neo4j: false
 ---
+
+
+
+
 
 ```Cypher
 //create the TOPIC with the same fields as a normal topic

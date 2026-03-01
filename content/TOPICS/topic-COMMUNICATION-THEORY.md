@@ -1,19 +1,18 @@
 ---
-name: "topic.COMMUNICATION THEORY"
-alias: "Topic: Mankind"
 type: TOPIC
+name: "topic.COMMUNICATION THEORY"
+alias: "Topic: Information Sharing"
+parent: "topic.HUMANITY"
 en_content: "A systematic, interdisciplinary study of how information is created, encoded, transmitted, received, and interpreted across human, technological, and symbolic systems."
-parent: topic.HUMANITY
-tags:
-  - information
-  - context
-  - encoding
-  - transmission
-  - interpretation
-neo4j: true
+tags: ["information", "context", "encoding", "transmission", "interpretation"]
 ptopic: "[[topic-HUMANITY]]"
 level: 4
+neo4j: true
 ---
+
+
+
+
 
 ```Cypher
 //create the TOPIC with the same fields as a normal topic
@@ -22,7 +21,7 @@ CREATE (t:TOPIC
 	    name: "topic.COMMUNICATION THEORY",
 		alias: "Topic: Information Sharing", 
 		parent: "topic.HUMANITY", 
-		tags: ["iknformation", "context", "encoding", "transmission", "interpretation"], 
+		tags: ["information", "context", "encoding", "transmission", "interpretation"], 
 		level: 4});
 // create multi-lingual description		
 CREATE (d:DESCRIPTION {

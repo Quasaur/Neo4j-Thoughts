@@ -1,18 +1,18 @@
 ---
-name: topic.WORSHIP
-alias: "Topic: Obeisance"
 type: TOPIC
-parent: topic.CREATION
-tags:
-- worship
-- devotion
-- humility
-- adoration
-- reverence
-neo4j: true
+name: "topic.WORSHIP"
+alias: "Topic: Obeisance"
+parent: "topic.CREATION"
+en_content: "To honor or show reverence for as The Divine Being; to regard with great or extravagant respect, honor, or devotion; to perform or take part in worship or an act of worship (i.e., falling on one's knees or face in humility and obeisance)."
+tags: ["worship", "devotion", "humility", "adoration", "reverence"]
 ptopic: "[[topic-CREATION]]"
 level: 3
+neo4j: true
 ---
+
+
+
+
 
 ```Cypher
 //create the TOPIC with the same fields as a normal topic

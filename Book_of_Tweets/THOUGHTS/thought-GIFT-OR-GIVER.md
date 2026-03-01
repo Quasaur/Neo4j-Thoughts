@@ -1,0 +1,49 @@
+---
+type: THOUGHT
+name: "thought.GIFT OR GIVER"
+alias: "Thought: Gratitude and Priorities"
+parent: "topic.WORSHIP"
+en_content: "Which is greater: the gift, or the Giver?"
+tags: ["gift", "giver", "priorities", "gratitude", "worship"]
+ptopic:
+level: 3
+neo4j: false
+---
+
+
+
+
+
+```Cypher
+// Generated from Book6E-FINAL.md
+CREATE (t:THOUGHT {
+    name: "thought.GIFT OR GIVER",
+    alias: "Thought: GIFT OR GIVER",
+    parent: "topic.WORSHIP",
+    tags: ["gift", "giver", "priorities", "gratitude", "worship"],
+    notes: "",
+    level: 3
+});
+
+CREATE (c:CONTENT {
+    name: "content.GIFT OR GIVER",
+    en_title: "GIFT OR GIVER",
+    en_content: "Which is greater: the gift, or the Giver?",
+    es_title: "¿REGALO O DONANTE?",
+    es_content: "¿Cuál es mayor: el don o el Donante?",
+    fr_title: "CADEAU OU DONATEUR",
+    fr_content: "Qu'est-ce qui est le plus grand : le cadeau ou le Donateur ?",
+    hi_title: "उपहार या दाता",
+    hi_content: "कौन बड़ा है: उपहार, या दाता?"
+    zh_title: "Lǐwù huò shīzhě",
+    zh_content: "ná gè gèng dài ： lǐ wù ， huò shì dào tǐ ？"
+});
+
+MATCH (t:THOUGHT {name: "thought.GIFT OR GIVER"})
+MATCH (c:CONTENT {name: "content.GIFT OR GIVER"})
+MERGE (t)-[:HAS_CONTENT {name: "edge.GIFT OR GIVER"}]->(c);
+
+MATCH (parent:TOPIC {name: "topic.WORSHIP"})
+MATCH (child:THOUGHT {name: "thought.GIFT OR GIVER"})
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.WORSHIP->GIFT OR GIVER"}]->(child);
+```

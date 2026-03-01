@@ -1,19 +1,18 @@
 ---
+type: TOPIC
 name: "topic.SOCIAL SCIENCES"
 alias: "Topic: Human Interaction in Social Systems"
-type: TOPIC
-parent: topic.HUMANITY
+parent: "topic.HUMANITY"
 en_content: "The group of academic disciplines that systematically study human behavior, social relationships, institutions, and societies using empirical, analytical, and interpretive methods to explain how people interact and how social systems function."
-tags:
-- society
-- behavior
-- institutions
-- culture
-- analysis
-neo4j: true
+tags: ["society", "behavior", "institutions", "culture", "analysis"]
 ptopic: "[[topic-HUMANITY]]"
 level: 4
+neo4j: true
 ---
+
+
+
+
 
 ```Cypher
 // CREATE TOPIC
@@ -21,7 +20,7 @@ CREATE (t:TOPIC {
     name: "topic.SOCIAL SCIENCES",
     alias: "Topic: Human Interaction in Social Systems",
     parent: "topic.HUMANITY",
-    tags: ["society", "behavior", "interactions", "culture", "analysis"],
+    tags: ["society", "behavior", "institutions", "culture", "analysis"],
     level: 4
 });
 

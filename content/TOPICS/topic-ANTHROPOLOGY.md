@@ -1,17 +1,18 @@
 ---
-name: topic.ANTHROPOLOGY
-alias: "Topic: The Study of Humanity Throughout its History"
 type: TOPIC
-parent: topic.HUMANITY
-tags:
-- cultural
-- physical
-- archaeology
-- linquistic
-neo4j: true
+name: "topic.ANTHROPOLOGY"
+alias: "Topic: The Study of Humanity Throughout its History"
+parent: "topic.HUMANITY"
+en_content: "The study of human beings and their ancestors through time and space and in relation to physical character, environmental and social relations, and culture."
+tags: ["cultural", "physical", "archaeology", "linquistic"]
 ptopic: "[[topic-HUMANITY]]"
 level: 4
+neo4j: true
 ---
+
+
+
+
 
 ```Cypher
 // CREATE TOPIC
@@ -19,7 +20,7 @@ CREATE (t:TOPIC {
     name: "topic.ANTHROPOLOGY",
     alias: "Topic: The Study of Humanity Throughout its History",
     parent: "topic.HUMANITY",
-    tags: ["cultural", "physical", "archaeology", "linquistic", "study"],
+    tags: ["cultural", "physical", "archaeology", "linquistic"],
     level: 4
 });
 

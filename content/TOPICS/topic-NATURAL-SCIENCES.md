@@ -1,19 +1,18 @@
 ---
+type: TOPIC
 name: "topic.NATURAL SCIENCES"
 alias: "Topic: Matter & Energy"
-type: TOPIC
-parent: topic.COSMOLOGY
+parent: "topic.COSMOLOGY"
 en_content: "Any of the sciences (such as physics, chemistry, or biology) that deal with matter, energy, and their interrelations and transformations or with objectively-measurable phenomena."
-tags:
-- matter
-- astrophysics
-- physics
-- chemistry
-- biology
-neo4j: true
+tags: ["matter", "astrophysics", "physics", "chemistry", "biology"]
 ptopic: "[[topic-COSMOLOGY]]"
 level: 5
+neo4j: true
 ---
+
+
+
+
 
 ```Cypher
 //create the TOPIC with the same fields as a normal topic
@@ -22,8 +21,7 @@ CREATE (t:TOPIC
 	    name: "topic.NATURAL SCIENCES",
 		alias: "Topic: Matter & Energy", 
 		parent: "topic.COSMOLOGY", 
-		tags: ["matter", "astrophysics", "physics", "chemistry", "biology
-		"], 
+		tags: ["matter", "astrophysics", "physics", "chemistry", "biology"], 
 		level: 5});
 // create multi-lingual description		
 CREATE (d:DESCRIPTION {

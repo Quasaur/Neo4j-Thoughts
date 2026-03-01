@@ -1,0 +1,46 @@
+---
+type: QUOTE
+name: "quote.FOREKNOWN"
+alias: "Quote: Quote: FOREKNOWN"
+parent: "topic.DIVINE-SOVEREIGNTY"
+en_content: "To save you from the coming Wrath GOD must KNOW you."
+tags: ["foreknowledge", "god", "intimacy", "jesuschrist", "eternity"]
+ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
+level: 2
+neo4j: true
+---
+
+
+
+
+
+```Cypher
+// CREATE QUOTE
+CREATE (q:QUOTE {
+    name: "quote.FOREKNOWN",
+    alias: "Quote: Quote: FOREKNOWN",
+    parent: "topic.DIVINE-SOVEREIGNTY",
+    tags: ["foreknowledge", "god", "intimacy", "jesuschrist", "eternity"],
+    source: "'The Narrow Way'",
+    booklink: "(https://www.amazon.com/Narrow-Way-Calvin-Mitchell-ebook/dp/B0CRYC8WY7)",
+    level: 2
+});
+
+// CREATE CONTENT
+CREATE (c:CONTENT {
+    name: "content.FOREKNOWN",
+    en_title: "Quote: FOREKNOWN",
+    en_content: "To save you from the coming Wrath GOD must KNOW you."
+});
+
+// LINK CONTENT
+MATCH (q:QUOTE {name: "quote.FOREKNOWN"})
+MATCH (c:CONTENT {name: "content.FOREKNOWN"})
+MERGE (q)-[:HAS_CONTENT {name: "q.edge.FOREKNOWN"}]->(c);
+
+// LINK PARENT
+MATCH (parent:TOPIC {name: "topic.DIVINE-SOVEREIGNTY"})
+MATCH (child:QUOTE {name: "quote.FOREKNOWN"})
+MERGE (parent)-[:HAS_QUOTE {name: "q.edge.DIVINE-SOVEREIGNTY->FOREKNOWN"}]->(child);
+
+```

@@ -1,18 +1,18 @@
 ---
-name: topic.ATTITUDE
-alias: "Topic: Spiritual Disposition"
 type: TOPIC
-parent: topic.SPIRITUALITY
-tags:
-- mentality
-- disposition
-- feeling
-- spirit
-- fruit
-neo4j: true
+name: "topic.ATTITUDE"
+alias: "Topic: Spiritual Disposition"
+parent: "topic.SPIRITUALITY"
+en_content: "A feeling, emotion or mental position to a fact or state."
+tags: ["mentality", "disposition", "feeling", "spirit", "fruit"]
 ptopic: "[[topic-SPIRITUALITY]]"
 level: 3
+neo4j: true
 ---
+
+
+
+
 
 ```Cypher
 //create the TOPIC with the same fields as a normal topic

@@ -1,17 +1,18 @@
 ---
-name: topic.APOCALYPSE
-alias: "Topic: ESCHATOLOGY"
 type: TOPIC
-parent: topic.HISTORY
+name: "topic.APOCALYPSE"
+alias: "Topic: ESCHATOLOGY"
+parent: "topic.HISTORY"
 en_content: "Eschatology; the End of all things."
-tags:
-- eschatology
-- last_day
-- end_of_the_world
-neo4j: true
+tags: ["eschatology", "last_day", "end_of_the_world"]
 ptopic: "[[topic-HISTORY]]"
 level: 5
+neo4j: true
 ---
+
+
+
+
 
 ```Cypher
 // CREATE TOPIC

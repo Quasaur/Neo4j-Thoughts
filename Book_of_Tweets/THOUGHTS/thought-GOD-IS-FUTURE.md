@@ -1,0 +1,49 @@
+---
+type: THOUGHT
+name: "thought.GOD IS FUTURE"
+alias: "Thought: God Is Future"
+parent: "topic.SPIRITUALITY"
+en_content: "God is your Future."
+tags: ["future", "god", "spirituality", "eternity", "presence"]
+ptopic:
+level: 2
+neo4j: false
+---
+
+
+
+
+
+```Cypher
+// Generated from Book6E-FINAL.md (ID: 29-Jun-2012)
+CREATE (t:THOUGHT {
+    name: "thought.GOD IS FUTURE",
+    alias: "Thought: God Is Future",
+    parent: "topic.SPIRITUALITY",
+    tags: ['future', 'god', 'spirituality', 'eternity', 'presence'],
+    notes: "",
+    level: 2
+});
+
+CREATE (c:CONTENT {
+    name: "content.GOD IS FUTURE",
+    en_title: "God Is Future",
+    en_content: "God is your Future.",
+    es_title: "Dios Es el Futuro",
+    es_content: "Dios es tu Futuro.",
+    fr_title: "Dieu Est l'Avenir",
+    fr_content: "Dieu est votre Avenir.",
+    hi_title: "परमेश्वर भविष्य है",
+    hi_content: "परमेश्वर आपका भविष्य है।",
+    zh_title: "Shàngdì Shì Wèilái",
+    zh_content: "Shàngdì shì nǐ de Wèilái."
+});
+
+MATCH (t:THOUGHT {name: "thought.GOD IS FUTURE"})
+MATCH (c:CONTENT {name: "content.GOD IS FUTURE"})
+MERGE (t)-[:HAS_CONTENT { "name": "edge.GOD IS FUTURE" }]->(c);
+
+MATCH (parent:TOPIC {name: "topic.SPIRITUALITY"})
+MATCH (child:THOUGHT {name: "thought.GOD IS FUTURE"})
+MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->GOD IS FUTURE" }]->(child);
+```

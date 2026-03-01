@@ -1,17 +1,18 @@
 ---
-name: topic.EVANGELISM
-alias: "Topic: Fishers of Men"
 type: TOPIC
-parent: topic.THE-GOSPEL
-tags:
-- faithsharing
-- persuasion
-- discipling
-- goodnews
-neo4j: true
+name: "topic.EVANGELISM"
+alias: "Topic: Fishers of Men"
+parent: "topic.THE-GOSPEL"
+en_content: "The winning or revival of personal commitments to Christ; making disciples of all nations; militant or crusading zeal."
+tags: ["faithsharing", "persuasion", "discipling", "goodnews"]
 ptopic: "[[topic-THE-GOSPEL]]"
 level: 3
+neo4j: true
 ---
+
+
+
+
 
 ```Cypher
 // CREATE TOPIC

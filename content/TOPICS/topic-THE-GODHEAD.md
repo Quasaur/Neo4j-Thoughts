@@ -1,18 +1,18 @@
 ---
+type: TOPIC
 name: "topic.THE GODHEAD"
 alias: "Topic: The GODHEAD"
-type: TOPIC
 parent: "topic.NULL TOPIC"
-tags:
-- starting_point
-- level_one
-- alpha
-- omega
-- the_one
-neo4j: true
+en_content: "The Being of God as existing in Three Persons."
+tags: ["starting_point", "level_one", "alpha", "omega", "the_one"]
 ptopic: "[[topic-NULL]]"
 level: 1
+neo4j: true
 ---
+
+
+
+
 
 ```Cypher
 //create the TOPIC with the same fields as a normal topic
@@ -21,7 +21,7 @@ CREATE (t:TOPIC
 	    name: "topic.THE GODHEAD",
 		alias: "Topic: The GODHEAD", 
 		parent: "topic.NULL TOPIC", 
-		tags: ["starting point", "level_one", "alpha", "omega", "the_one"], 
+		tags: ["starting_point", "level_one", "alpha", "omega", "the_one"], 
 		notes: "NOTE: Implement multi-level topics; THE-GODHEAD being the only topic level 1.",
 		level: 1});
 // create multi-lingual description		
@@ -46,7 +46,7 @@ RETURN *;
 // link node to parent node
 MATCH (parent:TOPIC)
 MATCH (child:TOPIC)
-WHERE parent.name = "NULL TOPIC" AND child.name = "topic.THE GODHEAD"
+WHERE parent.name = "topic.NULL TOPIC" AND child.name = "topic.THE GODHEAD"
 MERGE (parent)-[:HAS_CHILD {name: "edge.NULL->THE GODHEAD"}]->(child)
 RETURN *;
 

@@ -1,19 +1,18 @@
 ---
-name: topic.LOVE
-alias: "Topic: God is Love"
 type: TOPIC
+name: "topic.LOVE"
+alias: "Topic: God is Love"
 parent: "topic.THE GODHEAD"
 en_content: "A strong affection for another arising out of kinship or personal ties; attraction based on affection and tenderness; affection based on admiration, benevolence, or common interests; an assurance of affection; warm attachment, enthusiasm, or devotion; the object of attachment, devotion, or admiration."
-tags:
-- divine
-- love
-- spirit
-- affection
-- cherish
-neo4j: true
+tags: ["divine", "love", "spirit", "affection", "cherish"]
 ptopic: "[[topic-THE-GODHEAD]]"
 level: 2
+neo4j: true
 ---
+
+
+
+
 
 ```Cypher
 //create the TOPIC with the same fields as a normal topic

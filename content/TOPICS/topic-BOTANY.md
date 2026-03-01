@@ -1,19 +1,18 @@
 ---
+type: TOPIC
 name: "topic.BOTANY"
 alias: "Topic: Plant Life"
-type: TOPIC
 parent: "topic.BIOLOGY"
 en_content: "The scientific study of plants—their structure, function, reproduction, evolution, classification, and interactions with the environment."
-tags:
-- plants
-- reproduction
-- physiology
-- taxonomy
-- ecology
-neo4j: true
+tags: ["plants", "reproduction", "physiology", "taxonomy", "ecology"]
 ptopic: "[[topic-BIOLOGY]]"
-level: 7
+level: 5
+neo4j: true
 ---
+
+
+
+
 
 ```Cypher
 //create the TOPIC with the same fields as a normal topic
@@ -22,8 +21,8 @@ CREATE (t:TOPIC
 	    name: "topic.BOTANY",
 		alias: "Topic: Plant Life", 
 		parent: "topic.BIOLOGY", 
-		tags: ["plants", "reproduction", "physiology", "taxonomy", "cology"], 
-		level: 7});
+		tags: ["plants", "reproduction", "physiology", "taxonomy", "ecology"], 
+		level: 5});
 // create multi-lingual description		
 CREATE (d:DESCRIPTION {
 	name: "desc.BOTANY", 

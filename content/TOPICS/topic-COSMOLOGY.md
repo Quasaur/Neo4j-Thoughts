@@ -1,18 +1,18 @@
 ---
-name: topic.COSMOLOGY
-alias: "Topic: This History of Humanity's World Views"
 type: TOPIC
-parent: topic.HUMANITY
-tags:
-- metaphysics
-- astronomy
-- unioverse
-- social
-- scientific
-neo4j: true
+name: "topic.COSMOLOGY"
+alias: "Topic: This History of Humanity's World Views"
+parent: "topic.HUMANITY"
+en_content: "The study of the social belief systems humans have held across different times and places. Scientific cosmology involves studying the universe through astronomy and physics."
+tags: ["metaphysics", "astronomy", "universe", "social", "scientific"]
 ptopic: "[[topic-HUMANITY]]"
-level: 4
+level: 3
+neo4j: true
 ---
+
+
+
+
 
 ```Cypher
 // CREATE TOPIC
@@ -20,8 +20,8 @@ CREATE (t:TOPIC {
     name: "topic.COSMOLOGY",
     alias: "Topic: This History of Humanity's World Views",
     parent: "topic.HUMANITY",
-    tags: ["metaphysics", "astronomy", "unioverse", "social", "scientific"],
-    level: 4
+    tags: ["metaphysics", "astronomy", "universe", "social", "scientific"],
+    level: 3
 });
 
 // CREATE DESCRIPTION

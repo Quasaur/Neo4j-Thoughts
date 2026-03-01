@@ -1,18 +1,18 @@
 ---
+type: TOPIC
 name: "topic.DIVINE SOVEREIGNTY"
 alias: "Topic: Predestination"
-type: TOPIC
 parent: "topic.THE GODHEAD"
-tags:
-- sovereignty
-- lordship
-- determinism
-- absolute
-- volition
-neo4j: true
+en_content: "The theological concept that God has absolute control over all things, meaning everything that happens in the universe occurs according to His plan and will, signifying His supreme authority and power over creation; essentially, God is the ultimate ruler with complete dominion over all aspects of existence."
+tags: ["sovereignty", "lordship", "determinism", "absolute", "volition"]
 ptopic: "[[topic-THE]]"
 level: 2
+neo4j: true
 ---
+
+
+
+
 
 ```Cypher
 //create the NULL with the same fields as a normal topic

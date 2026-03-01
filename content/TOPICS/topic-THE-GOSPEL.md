@@ -1,18 +1,18 @@
 ---
+type: TOPIC
 name: "topic.THE GOSPEL"
 alias: "Topic: The Good News"
-type: TOPIC
 parent: "topic.THE GODHEAD"
-tags:
-- evangel
-- good_news
-- jesus
-- salvation
-- redemption
-neo4j: true
+en_content: "The Life, Death, Burial, Resurrection, Ascension and Return of Jesus Christ."
+tags: ["evangel", "good_news", "jesus", "salvation", "redemption"]
 ptopic: "[[topic-THE GODHEAD]]"
 level: 2
+neo4j: true
 ---
+
+
+
+
 
 ```Cypher
 //create the TOPIC with the same fields as a normal topic

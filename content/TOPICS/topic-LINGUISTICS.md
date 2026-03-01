@@ -1,18 +1,18 @@
 ---
-name: topic.LINGUISTICS
-alias: "Topic: Linguistic Anthropology"
 type: TOPIC
-parent: topic.ANTHROPOLOGY
-tags:
-- human
-- speech
-- anthropology
-- language
-- lexical
-neo4j: true
+name: "topic.LINGUISTICS"
+alias: "Topic: Linguistic Anthropology"
+parent: "topic.ANTHROPOLOGY"
+en_content: "The study of human speech including the units, nature, structure, and modification of language."
+tags: ["human", "speech", "anthropology", "language", "lexical"]
 ptopic: "[[topic-ANTHROPOLOGY]]"
 level: 5
+neo4j: true
 ---
+
+
+
+
 
 ```Cypher
 // CREATE TOPIC

@@ -1,24 +1,24 @@
 ---
-name: topic.GEOLOGY
-alias: "Topic Rock Strata"
 type: TOPIC
-parent: topic.HUMANITY
-tags:
-- rocks
-- strata
-- layers
-- earth
-- land
-neo4j: true
+name: "topic.GEOLOGY"
+alias: "Topic: Rock Strata"
+parent: "topic.HUMANITY"
+en_content: "Study of the solid matter of a celestial body."
+tags: ["rocks", "strata", "layers", "earth", "land"]
 ptopic: "[[topic-HUMANITY]]"
 level: 4
+neo4j: true
 ---
+
+
+
+
 
 ```Cypher
 // CREATE TOPIC
 CREATE (t:TOPIC {
     name: "topic.GEOLOGY",
-    alias: "Topic Rock Strata",
+    alias: "Topic: Rock Strata",
     parent: "topic.HUMANITY",
     tags: ["rocks", "strata", "layers", "earth", "land"],
     level: 4

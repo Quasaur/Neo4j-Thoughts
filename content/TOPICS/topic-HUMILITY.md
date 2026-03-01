@@ -1,18 +1,18 @@
 ---
-name: topic.HUMILITY
-alias: "Topic: Lowliness of Heart"
 type: TOPIC
-parent: topic.ATTITUDE
-tags:
-- humble
-- lowly
-- service
-- lowliness
-- meekness
-neo4j: true
+name: "topic.HUMILITY"
+alias: "Topic: Lowliness of Heart"
+parent: "topic.ATTITUDE"
+en_content: "Not having or showing any feelings of superiority, self-assertiveness, or showiness."
+tags: ["humble", "lowly", "service", "lowliness", "meekness"]
 ptopic: "[[topic-ATTITUDE]]"
 level: 4
+neo4j: true
 ---
+
+
+
+
 
 ```Cypher
 //create the TOPIC with the same fields as a normal topic

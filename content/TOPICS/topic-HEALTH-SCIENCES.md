@@ -1,19 +1,18 @@
 ---
+type: TOPIC
 name: "topic.HEALTH SCIENCES"
 alias: "Topic: The Science of Human Health"
-type: TOPIC
-parent: topic.COSMOLOGY
+parent: "topic.COSMOLOGY"
 en_content: "The interdisciplinary field that studies the human body, health, disease, and healthcare systems in order to prevent illness, improve well‑being, and deliver effective clinical and public‑health interventions."
-tags:
-- wellness
-- disease
-- care
-- public_health
-- interdisciplinary
-neo4j: true
+tags: ["wellness", "disease", "care", "public_health", "interdisciplinary"]
 ptopic: "[[topic-COSMOLOGY]]"
 level: 5
+neo4j: true
 ---
+
+
+
+
 
 ```Cypher
 //create the TOPIC with the same fields as a normal topic

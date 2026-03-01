@@ -1,16 +1,18 @@
 ---
-name: topic.BEAUTY
-alias: "Topic: Beauty of Body or Character"
 type: TOPIC
-parent: topic.HEALTH
-tags:
-- attractiveness
-- loveliness
-- comeliness
-neo4j: true
+name: "topic.BEAUTY"
+alias: "Topic: Beauty of Body or Character"
+parent: "topic.HEALTH"
+en_content: "The quality or group of qualities in a person or thing that gives pleasure to the senses or the mind; a person (especially a woman) who is beautiful; an excellent or appealing quality."
+tags: ["attractiveness", "loveliness", "comeliness"]
 ptopic: "[[topic-HEALTH]]"
 level: 5
+neo4j: true
 ---
+
+
+
+
 
 ```Cypher
 // CREATE TOPIC

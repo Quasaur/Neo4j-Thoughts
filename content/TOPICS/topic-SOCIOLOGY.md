@@ -1,18 +1,18 @@
 ---
-name: topic.SOCIOLOGY
-alias: "Topic: Social Structures Built by the Masses"
 type: TOPIC
+name: "topic.SOCIOLOGY"
+alias: "Topic: Social Structures Built by the Masses"
 parent: "topic.SOCIAL SCIENCES"
-tags:
-- humanity
-- relations
-- interactions
-- groups
-- organization
-neo4j: true
+en_content: "The science of society, social institutions, and social relationships."
+tags: ["humanity", "relations", "interactions", "groups", "organization"]
 ptopic: "[[topic-SOCIAL-SCIENCES]]"
 level: 5
+neo4j: true
 ---
+
+
+
+
 
 ```Cypher
 // CREATE TOPIC

@@ -1,18 +1,18 @@
 ---
-name: topic.FAITHFULNESS
-alias: "Topic: Steadfastness"
 type: TOPIC
+name: "topic.FAITHFULNESS"
+alias: "Topic: Steadfastness"
 parent: "topic.THE GODHEAD"
-tags:
-- commitment
-- fidelity
-- steadfastness
-- reliability
-- dependability
-neo4j: true
+en_content: "Adherence to something to which one is bound by a pledge or duty."
+tags: ["commitment", "fidelity", "steadfastness", "reliability", "dependability"]
 ptopic: "[[topic-THE]]"
-level: 2
+level: 3
+neo4j: true
 ---
+
+
+
+
 
 ```Cypher
 //create the TOPIC with the same fields as a normal topic
@@ -21,9 +21,9 @@ CREATE (t:TOPIC
 	    name: "topic.FAITHFULNESS",
 		alias: "Topic: Steadfastness", 
 		parent: "topic.THE GODHEAD", 
-		tags: ["commentment", "fidelity", "steadfastness", "reliability", "dependability"], 
+		tags: ["commitment", "fidelity", "steadfastness", "reliability", "dependability"], 
 		notes: "",
-		level: 2});
+		level: 3});
 // create multi-lingual description		
 CREATE (d:DESCRIPTION {
 	name: "desc.FAITHFULNESS", 

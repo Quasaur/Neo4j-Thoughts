@@ -1,18 +1,18 @@
 ---
-name: topic.MERCY
-alias: "Topic: Compassion"
 type: TOPIC
-parent: topic.LAW
-tags:
-- compassion
-- leniency
-- clemency
-- empathy
-- sympathy
-neo4j: true
+name: "topic.MERCY"
+alias: "Topic: Compassion"
+parent: "topic.LAW"
+en_content: "Compassion or forbearance shown to an offender or to one subject to another’s power."
+tags: ["compassion", "leniency", "clemency", "empathy", "sympathy"]
 ptopic: "[[topic-LAW]]"
 level: 5
+neo4j: true
 ---
+
+
+
+
 
 ```Cypher
 // CREATE TOPIC

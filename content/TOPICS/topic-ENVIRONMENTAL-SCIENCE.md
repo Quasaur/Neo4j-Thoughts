@@ -1,19 +1,18 @@
 ---
+type: TOPIC
 name: "topic.ENVIRONMENTAL SCIENCE"
 alias: "Topic: Earth's Natural Processes"
-type: TOPIC
 parent: "topic.NATURAL SCIENCES"
 en_content: "The branch of the Natural Sciences that studies how the solid Earth, its water, its air, and its living organisms interact, and how these interconnected systems change over time."
-tags:
-- ecosystem
-- resources
-- climate
-- cycle
-- change
-neo4j: true
+tags: ["ecosystem", "resources", "climate", "cycle", "change"]
 ptopic: "[[topic-NATURAL-SCIENCES]]"
 level: 6
+neo4j: true
 ---
+
+
+
+
 
 ```Cypher
 //create the TOPIC with the same fields as a normal topic

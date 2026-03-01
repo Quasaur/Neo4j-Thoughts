@@ -1,18 +1,18 @@
 ---
-name: topic.LAW
-alias: "Topic: Jurisprudence"
 type: TOPIC
-parent: topic.MORALITY
-tags:
-- ordiance
-- legislation
-- regulation
-- statute
-- act
-neo4j: true
+name: "topic.LAW"
+alias: "Topic: Jurisprudence"
+parent: "topic.MORALITY"
+en_content: "A binding custom or practice of a community formally recognized as binding or enforced by a controlling authority."
+tags: ["ordiance", "legislation", "regulation", "statute", "act"]
 ptopic: "[[topic-MORALITY]]"
 level: 4
+neo4j: true
 ---
+
+
+
+
 
 ```Cypher
 // CREATE TOPIC

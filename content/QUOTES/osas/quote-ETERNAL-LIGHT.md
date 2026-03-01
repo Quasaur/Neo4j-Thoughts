@@ -1,0 +1,46 @@
+---
+type: QUOTE
+name: "quote.ETERNAL_LIGHT"
+alias: "Quote: Quote: ETERNAL LIGHT"
+parent: "topic.UNDERSTANDING"
+en_content: "Eventually, as saved beings, our understanding of God will reach the point where darkness will recede into the past as a faint memory."
+tags: ["saved", "understanding", "darkness", "past", "forgotten"]
+ptopic: "[[topic-UNDERSTANDING]]"
+level: 3
+neo4j: true
+---
+
+
+
+
+
+```Cypher
+// CREATE QUOTE
+CREATE (q:QUOTE {
+    name: "quote.ETERNAL_LIGHT",
+    alias: "Quote: Quote: ETERNAL LIGHT",
+    parent: "topic.UNDERSTANDING",
+    tags: ["saved", "understanding", "darkness", "past", "forgotten"],
+    source: "'Once Saved, Always Saved: The Assurance of Our Father's LOVE'",
+    booklink: "(https://www.amazon.com/Once-Saved-Always-Assurance-Fathers-ebook/dp/B0132UEB68)",
+    level: 3
+});
+
+// CREATE CONTENT
+CREATE (c:CONTENT {
+    name: "content.ETERNAL_LIGHT",
+    en_title: "Quote: ETERNAL LIGHT",
+    en_content: "Eventually, as saved beings, our understanding of God will reach the point where darkness will recede into the past as a faint memory."
+});
+
+// LINK CONTENT
+MATCH (q:QUOTE {name: "quote.ETERNAL_LIGHT"})
+MATCH (c:CONTENT {name: "content.ETERNAL_LIGHT"})
+MERGE (q)-[:HAS_CONTENT {name: "q.edge.ETERNAL_LIGHT"}]->(c);
+
+// LINK PARENT
+MATCH (parent:TOPIC {name: "topic.UNDERSTANDING"})
+MATCH (child:QUOTE {name: "quote.ETERNAL_LIGHT"})
+MERGE (parent)-[:HAS_QUOTE {name: "q.edge.UNDERSTANDING->ETERNAL_LIGHT"}]->(child);
+
+```

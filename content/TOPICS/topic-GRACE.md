@@ -1,24 +1,24 @@
 ---
-name: topic.GRACE
-alias: "Topic Gospel of Grace"
 type: TOPIC
-parent: topic.CREATION
-tags:
-- kindness
-- blessing
-- benevolence
-- empower
-- anointing
-neo4j: true
+name: "topic.GRACE"
+alias: "Topic: Gospel of Grace"
+parent: "topic.CREATION"
+en_content: "Unmerited Divine Favor given to humans for their sanctification and regeneration; the same Favor God the Father bestows on His Only-Begotten Son Jesus Christ."
+tags: ["kindness", "blessing", "benevolence", "empower", "anointing"]
 ptopic: "[[topic-CREATION]]"
 level: 3
+neo4j: true
 ---
+
+
+
+
 
 ```Cypher
 // CREATE TOPIC
 CREATE (t:TOPIC {
     name: "topic.GRACE",
-    alias: "Topic Gospel of Grace",
+    alias: "Topic: Gospel of Grace",
     parent: "topic.CREATION",
     tags: ["kindness", "blessing", "benevolence", "empower", "anointing"],
     level: 3

@@ -1,18 +1,18 @@
 ---
-name: topic.MORALITY
-alias: "Topic: Matters of the Conscience"
 type: TOPIC
-parent: topic.SPIRITUALITY
-tags:
-- morals
-- righteousness
-- decency
-- virtue
-- integrity
-neo4j: true
+name: "topic.MORALITY"
+alias: "Topic: Matters of the Conscience"
+parent: "topic.SPIRITUALITY"
+en_content: "A doctrine or system of moral conduct."
+tags: ["morals", "righteousness", "decency", "virtue", "integrity"]
 ptopic: "[[topic-SPIRITUALITY]]"
 level: 3
+neo4j: true
 ---
+
+
+
+
 
 ```Cypher
 //create the TOPIC with the same fields as a normal topic

@@ -1,18 +1,18 @@
 ---
-name: topic.HISTORY
-alias: "Topic: Chronology"
 type: TOPIC
-parent: topic.HUMANITY
-tags:
-- annals
-- chronicles
-- biography
-- records
-- journal
-neo4j: true
+name: "topic.HISTORY"
+alias: "Topic: Chronology"
+parent: "topic.HUMANITY"
+en_content: "An account of important events in the order in which they happened"
+tags: ["annals", "chronicles", "biography", "records", "journal"]
 ptopic: "[[topic-HUMANITY]]"
 level: 4
+neo4j: true
 ---
+
+
+
+
 
 ```Cypher
 // CREATE TOPIC

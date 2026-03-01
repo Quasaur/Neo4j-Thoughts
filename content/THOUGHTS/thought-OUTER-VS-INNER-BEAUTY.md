@@ -1,0 +1,51 @@
+---
+type: THOUGHT
+name: "thought.OUTER VS INNER BEAUTY"
+alias: "Thought: Outer Vs Inner Beauty"
+parent: "topic.ATTITUDE"
+en_content: "Outer beauty doesn't make up for inner ugly."
+tags: ["beauty", "character", "appearance", "aesthetics", "holiness"]
+ptopic: "[[topic-ATTITUDE]]"
+level: 3
+neo4j: false
+---
+
+
+
+
+
+```Cypher
+// Generated from Book6E-FINAL.md (ID: 24-Aug-2011b)
+CREATE (t:THOUGHT {
+    name: "thought.OUTER VS INNER BEAUTY",
+    alias: "Thought: Outer Vs Inner Beauty",
+    parent: "topic.ATTITUDE",
+    tags: ['beauty', 'character', 'appearance', 'aesthetics', 'holiness'],
+    notes: "",
+    level: 3
+});
+
+CREATE (c:CONTENT {
+    name: "content.OUTER VS INNER BEAUTY",
+    en_title: "Outer Vs Inner Beauty",
+    en_content: "Outer beauty doesn't make up for inner ugly.",
+    es_title: "Belleza Exterior Vs Interior",
+    es_content: "La belleza exterior no compensa la fealdad interior.",
+    fr_title: "Beauté Extérieure Vs Intérieure",
+    fr_content: "La beauté extérieure ne compense pas la laideur intérieure.",
+    hi_title: "बाहरी बनाम भीतरी सुंदरता",
+    hi_content: "बाहरी सुंदरता भीतरी कुरूपता की भरपाई नहीं करती।",
+    zh_title: "Wàibù yǔ nèibù",
+    zh_content: "Wai zai de mei li bu neng mi bu nei zai de chou lou."
+});
+
+MATCH (t:THOUGHT)
+MATCH (c:CONTENT)
+WHERE t.name = "thought.OUTER VS INNER BEAUTY" AND c.name = "content.OUTER VS INNER BEAUTY"
+MERGE (t)-[:HAS_CONTENT { "name": "edge.OUTER VS INNER BEAUTY" }]->(c);
+
+MATCH (parent:TOPIC)
+MATCH (child:THOUGHT)
+WHERE parent.name = "topic.ATTITUDE" AND child.name = "thought.OUTER VS INNER BEAUTY"
+MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE->OUTER VS INNER BEAUTY" }]->(child);
+```

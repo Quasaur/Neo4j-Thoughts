@@ -1,0 +1,49 @@
+---
+type: THOUGHT
+name: "thought.GODS SUPERIOR VALUE"
+alias: "Thought: Gods Superior Value"
+parent: "topic.THE GODHEAD"
+en_content: "In the REAL WORLD, God is more valuable than all of us put together."
+tags: ["value", "reality", "god", "majesty", "divinity"]
+ptopic:
+level: 1
+neo4j: false
+---
+
+
+
+
+
+```Cypher
+// Generated from Book6E-FINAL.md (ID: 15-Dec-2012)
+CREATE (t:THOUGHT {
+    name: "thought.GODS SUPERIOR VALUE",
+    alias: "Thought: Gods Superior Value",
+    parent: "topic.THE GODHEAD",
+    tags: ['value', 'reality', 'god', 'majesty', 'divinity'],
+    notes: "",
+    level: 1
+});
+
+CREATE (c:CONTENT {
+    name: "content.GODS SUPERIOR VALUE",
+    en_title: "Gods Superior Value",
+    en_content: "In the REAL WORLD, God is more valuable than all of us put together.",
+    es_title: "El Valor Superior de Dios",
+    es_content: "En el MUNDO REAL, Dios es más valioso que todos nosotros juntos.",
+    fr_title: "La Valeur Supérieure de Dieu",
+    fr_content: "Dans le MONDE RÉEL, Dieu a plus de valeur que nous tous réunis.",
+    hi_title: "परमेश्वर का उच्च मूल्य",
+    hi_content: "वास्तविक दुनिया में, परमेश्वर हम सभी को एक साथ रखने से कहीं अधिक मूल्यवान हैं।",
+    zh_title: "Shàngdì de chāoyujiàzhí  shàng dì de chāo yuè jià zhí",
+    zh_content: "Zài zhēnshí shìjiè zhōng, Shàngdì bǐ wǒmen suǒyǒu rén jiā qǐlái gèng yǒu jiàzhí.  zài zhēn shí shì jiè zhōng ， shàng dì bǐ wǒ men suǒ yǒu rén jiā qǐ lái gèng yǒu jià zhí 。"
+});
+
+MATCH (t:THOUGHT {name: "thought.GODS SUPERIOR VALUE"})
+MATCH (c:CONTENT {name: "content.GODS SUPERIOR VALUE"})
+MERGE (t)-[:HAS_CONTENT { "name": "edge.GODS SUPERIOR VALUE" }]->(c);
+
+MATCH (parent:TOPIC {name: "topic.THE GODHEAD"})
+MATCH (child:THOUGHT {name: "thought.GODS SUPERIOR VALUE"})
+MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->GODS SUPERIOR VALUE" }]->(child);
+```

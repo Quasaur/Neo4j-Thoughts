@@ -1,0 +1,49 @@
+---
+type: THOUGHT
+name: "thought.LOVE IS NOT WEAK"
+alias: "Thought: Love Is Not Weak"
+parent: "topic.LOVE"
+en_content: "Love is not weak."
+tags: ["love", "power", "strength", "character", "truth"]
+ptopic:
+level: 2
+neo4j: false
+---
+
+
+
+
+
+```Cypher
+// Generated from Book6E-FINAL.md (ID: 22-Aug-2012b)
+CREATE (t:THOUGHT {
+    name: "thought.LOVE IS NOT WEAK",
+    alias: "Thought: Love Is Not Weak",
+    parent: "topic.LOVE",
+    tags: ['love', 'power', 'strength', 'character', 'truth'],
+    notes: "",
+    level: 2
+});
+
+CREATE (c:CONTENT {
+    name: "content.LOVE IS NOT WEAK",
+    en_title: "Love Is Not Weak",
+    en_content: "Love is not weak.",
+    es_title: "El Amor No Es Débil",
+    es_content: "El amor no es débil.",
+    fr_title: "L'Amour N'Est Pas Faible",
+    fr_content: "L'amour n'est pas faible.",
+    hi_title: "प्रेम दुर्बल नहीं है",
+    hi_content: "प्रेम दुर्बल नहीं है।",
+    zh_title: "Ài Bù Ruòxiǎo",
+    zh_content: "Ài bù ruòxiǎo."
+});
+
+MATCH (t:THOUGHT {name: "thought.LOVE IS NOT WEAK"})
+MATCH (c:CONTENT {name: "content.LOVE IS NOT WEAK"})
+MERGE (t)-[:HAS_CONTENT { "name": "edge.LOVE IS NOT WEAK" }]->(c);
+
+MATCH (parent:TOPIC {name: "topic.LOVE"})
+MATCH (child:THOUGHT {name: "thought.LOVE IS NOT WEAK"})
+MERGE (parent)-[:HAS_THOUGHT { "name": "LOVE->LOVE IS NOT WEAK" }]->(child);
+```

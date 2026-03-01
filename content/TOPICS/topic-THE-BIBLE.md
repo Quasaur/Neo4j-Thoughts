@@ -1,18 +1,18 @@
 ---
-name: topic.THE-BIBLE
-alias: "Topic: The Story of Redemption"
 type: TOPIC
-parent: topic.ANTHROPOLOGY
-tags:
-- literature
-- scriptures
-- hebrew
-- greek
-- linquistic
-neo4j: true
+name: "topic.THE-BIBLE"
+alias: "Topic: The Story of Redemption"
+parent: "topic.ANTHROPOLOGY"
+en_content: "The Sacred Scriptures of Christians comprising the Old Testament and the New Testament."
+tags: ["literature", "scriptures", "hebrew", "greek", "linquistic"]
 ptopic: "[[topic-ANTHROPOLOGY]]"
 level: 5
+neo4j: true
 ---
+
+
+
+
 
 ```Cypher
 // CREATE TOPIC

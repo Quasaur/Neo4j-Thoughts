@@ -1,0 +1,49 @@
+---
+type: THOUGHT
+name: "thought.FLESH VS SPIRIT"
+alias: "Thought: Flesh Vs Spirit"
+parent: "topic.SPIRITUALITY"
+en_content: "The flesh is too stupid to be spiritual; it must be crucified with Christ and brought in subjection by the Love of God to the Spirit of God."
+tags: ["flesh", "spirit", "crucifixion", "subjection", "sanctification"]
+ptopic:
+level: 2
+neo4j: false
+---
+
+
+
+
+
+```Cypher
+// Generated from Book6E-FINAL.md (ID: 22-Sep-2010)
+CREATE (t:THOUGHT {
+    name: "thought.FLESH VS SPIRIT",
+    alias: "Thought: Flesh Vs Spirit",
+    parent: "topic.SPIRITUALITY",
+    tags: ['flesh', 'spirit', 'crucifixion', 'subjection', 'sanctification'],
+    notes: "",
+    level: 2
+});
+
+CREATE (c:CONTENT {
+    name: "content.FLESH VS SPIRIT",
+    en_title: "Flesh Vs Spirit",
+    en_content: "The flesh is too stupid to be spiritual; it must be crucified with Christ and brought in subjection by the Love of God to the Spirit of God.",
+    es_title: "Carne versus Espíritu",
+    es_content: "La carne es demasiado tonta para ser espiritual; debe ser crucificada con Cristo y sometida por el Amor de Dios al Espíritu de Dios.",
+    fr_title: "Chair contre Esprit",
+    fr_content: "La chair est trop stupide pour être spirituelle ; elle doit être crucifiée avec Christ et soumise par l'Amour de Dieu à l'Esprit de Dieu.",
+    hi_title: "शरीर बनाम आत्मा",
+    hi_content: "शरीर आध्यात्मिक होने के लिए बहुत मूर्ख है; इसे मसीह के साथ क्रूस पर चढ़ाया जाना चाहिए और परमेश्वर के प्रेम द्वारा परमेश्वर के आत्मा के अधीन लाया जाना चाहिए।",
+    zh_title: "Ròutǐ yǔ Líng  ròu tǐ yǔ líng",
+    zh_content: "Ròutǐ tài yúchǔn, wúfǎ língxìng; tā bìxū yǔ Jīdū tóng dìng shízi jià, bìng tòngguò Shàngdì de ài bèi Shàngdì de Líng suǒ zhìfú.  ròu tǐ tài yú chǔn ， wú fǎ líng xìng ； tā bì xū yǔ jī dū tóng dīng shí zì jià ， bìng tōng guò shàng dì de ài bèi shàng dì de líng suǒ zhì fú 。"
+});
+
+MATCH (t:THOUGHT {name: "thought.FLESH VS SPIRIT"})
+MATCH (c:CONTENT {name: "content.FLESH VS SPIRIT"})
+MERGE (t)-[:HAS_CONTENT { "name": "edge.FLESH VS SPIRIT" }]->(c);
+
+MATCH (parent:TOPIC {name: "topic.SPIRITUALITY"})
+MATCH (child:THOUGHT {name: "thought.FLESH VS SPIRIT"})
+MERGE (parent)-[:HAS_THOUGHT { "name": "SPIRITUALITY->FLESH VS SPIRIT" }]->(child);
+```

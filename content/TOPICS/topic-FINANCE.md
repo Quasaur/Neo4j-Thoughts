@@ -1,18 +1,18 @@
 ---
-name: topic.FINANCE
-alias: "Topic: Sources of Funding"
 type: TOPIC
-parent: topic.WEALTH
-tags:
-- currency
-- subsidize
-- funding
-- bankroll
-- liquidate
-neo4j: true
+name: "topic.FINANCE"
+alias: "Topic: Sources of Funding"
+parent: "topic.WEALTH"
+en_content: "Money or other liquid resources of a government, business, group, or individual; the system that includes the circulation of money, the granting of credit, the making of investments, and the provision of banking facilities; the science or study of the management of funds; the obtaining of funds or capital."
+tags: ["currency", "subsidize", "funding", "bankroll", "liquidate"]
 ptopic: "[[topic-WEALTH]]"
 level: 4
+neo4j: true
 ---
+
+
+
+
 
 ```Cypher
 // CREATE TOPIC

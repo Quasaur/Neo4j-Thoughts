@@ -1,18 +1,18 @@
 ---
-name: topic.HUMANITY
-alias: "Topic: Mankind"
 type: TOPIC
-parent: topic.CREATION
-tags:
-- adam
-- humans
-- mankind
-- homosapiens
-- likeness_of_god
+name: "topic.HUMANITY"
+alias: "Topic: Mankind"
+parent: "topic.CREATION"
+en_content: "Mankind, male and female, created in the Image and Likeness of The GODHEAD."
+tags: ["adam", "humans", "mankind", "homosapiens", "likeness_of_god"]
+ptopic: "\"[[topic-CREATION]]\""
+level: 2
 neo4j: true
-ptopic: '"[[topic-CREATION]]"'
-level: 3
 ---
+
+
+
+
 
 ```Cypher
 //create the TOPIC with the same fields as a normal topic
@@ -21,10 +21,9 @@ CREATE (t:TOPIC
 	    name: "topic.HUMANITY",
 		alias: "Topic: Mankind", 
 		parent: "topic.CREATION", 
-		tags: ["adam", "huans", "mankind", "homosapiens", "likeness_of_god
-		"], 
+		tags: ["adam", "humans", "mankind", "homosapiens", "likeness_of_god"], 
 		notes: "",
-		level: 3});
+		level: 2});
 // create multi-lingual description		
 CREATE (d:DESCRIPTION {
 	name: "desc.HUMANITY", 

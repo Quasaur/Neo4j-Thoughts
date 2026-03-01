@@ -1,18 +1,18 @@
 ---
-name: topic.UNDERSTANDING
-alias: "Topic: Comprehension"
 type: TOPIC
-parent: topic.SPIRITUALITY
-tags:
-- comprehension
-- mental
-- grasp
-- agreement
-- ascertain
-neo4j: true
+name: "topic.UNDERSTANDING"
+alias: "Topic: Comprehension"
+parent: "topic.SPIRITUALITY"
+en_content: "A mental grasp of truth or an agreement between individuals or groups."
+tags: ["comprehension", "mental", "grasp", "agreement", "ascertain"]
 ptopic: "[[topic-SPIRITUALITY]]"
 level: 3
+neo4j: true
 ---
+
+
+
+
 
 ```Cypher
 //create the TOPIC with the same fields as a normal topic
@@ -21,7 +21,7 @@ CREATE (t:TOPIC
 	    name: "topic.UNDERSTANDING",
 		alias: "Topic: Comprehension", 
 		parent: "topic.SPIRITUALITY", 
-		tags: ["comprehension", "mental", "grasp", "ascertain", "agreement"], 
+		tags: ["comprehension", "mental", "grasp", "agreement", "ascertain"], 
 		notes: "",
 		level: 3});
 // create multi-lingual description		

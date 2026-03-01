@@ -1,25 +1,24 @@
 ---
-name: topic.ASTROPHYSICS
-alias: "Topic: The Physics of Astronomy"
 type: TOPIC
-parent: topic.COSMOLOGY
+name: "topic.ASTROPHYSICS"
+alias: "Topic: The Physics of Astronomy"
+parent: "topic.COSMOLOGY"
 en_content: "A branch of astronomy dealing especially with the behavior, physical properties, and dynamic processes of celestial objects and phenomena."
-tags:
-- space_time
-- radiation
-- nucleosynthesis
-- high_energy
-- cosmic_plasma
-neo4j: true
+tags: ["space_time", "radiation", "nucleosynthesis", "high_energy", "cosmic_plasma"]
 ptopic: "[[topic-COSMOLOGY]]"
 level: 5
+neo4j: true
 ---
+
+
+
+
 
 ```Cypher
 // CREATE TOPIC
 CREATE (t:TOPIC {
     name: "topic.ASTROPHYSICS",
-    alias: "Topic: This History of Humanity's World Views",
+    alias: "Topic: The Physics of Astronomy",
     parent: "topic.COSMOLOGY",
     tags: ["space_time", "radiation", "nucleosynthesis", "high_energy", "cosmic_plasma"],
     level: 5
