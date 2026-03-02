@@ -25,6 +25,7 @@ CREATE (q:QUOTE {
 // CREATE CONTENT
 CREATE (c:CONTENT {
     name: "content.THE_NARROW_WAY",
+    ctype: "QUOTE",
     en_title: "Quote: THE NARROW WAY",
     en_content: "As the only means to peace with our Creator, the Narrow Way (the Gospel) must be communicated with clarity and simplicity. Declared properly, the Narrow Way will always push me into a corner and compel me to decide against my self and for GOD. The Objective of Salvation is not to get GOD on my side, but to get me to take the side of GOD against my self!"
 });

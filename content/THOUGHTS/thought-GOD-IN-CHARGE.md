@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.GOD_IN_CHARGE",
+    ctype: "THOUGHT",
     en_title: "GOD IN CHARGE",
     en_content: "I've been told my tweets are a bit ambiguous, so here's a moment of clarity:
  God is running your life...whether you believe He exists or not..",

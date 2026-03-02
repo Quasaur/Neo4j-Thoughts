@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.UNCONDITIONAL LOVE HATRED",
 
 CREATE (c:CONTENT {
     name: "content.UNCONDITIONAL LOVE HATRED",
+    ctype: "THOUGHT",
     en_title: "Unconditional Love Hatred",
     en_content: "God's Love is unconditional...as is His Hatred of evil.",
     es_title: "Amor Incondicional Odio",

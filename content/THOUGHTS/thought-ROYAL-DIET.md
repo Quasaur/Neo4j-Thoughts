@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.ROYAL_DIET",
+    ctype: "THOUGHT",
     en_title: "DIET01",
     en_content: "Eat breakfast like a king | queen; eat lunch like a prince | princess; eat dinner like a pauper. - Brian Tracy",
     es_title: "DIETA01",

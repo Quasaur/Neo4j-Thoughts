@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.THE_END_OF_EVIL",
+    ctype: "THOUGHT",
     en_title: "The End of Evil",
     en_content: "The Day is coming when evil will no longer exist.",
 	es_title: "EL FIN DEL MAL",

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.CONGRESS NO PAY SHUTDOWN",
 
 CREATE (c:CONTENT {
     name: "content.CONGRESS NO PAY SHUTDOWN",
+    ctype: "THOUGHT",
     en_title: "Congress No Pay Shutdown",
     en_content: "Congress should not get paid as long as the Federal Government is shut down!",
     es_title: "Congreso Sin Pago Cierre",

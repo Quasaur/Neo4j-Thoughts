@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.SHOULD BE VS WILL BE",
 
 CREATE (c:CONTENT {
     name: "content.SHOULD BE VS WILL BE",
+    ctype: "THOUGHT",
     en_title: "Should Be Vs Will Be",
     en_content: "Everything is as it should be, but not as it will be.",
     es_title: "Debería Ser Vs Será",

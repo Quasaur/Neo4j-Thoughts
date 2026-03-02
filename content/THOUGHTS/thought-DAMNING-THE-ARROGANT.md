@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.DAMNING THE ARROGANT",
 
 CREATE (c:CONTENT {
     name: "content.DAMNING THE ARROGANT",
+    ctype: "THOUGHT",
     en_title: "Damning The Arrogant",
     en_content: "How does God damn a sinner? By letting them prosper in their arrogance.",
     es_title: "Condenando al Arrogante",

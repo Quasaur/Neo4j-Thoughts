@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.THE_TRUE_VINE",
+    ctype: "THOUGHT",
     en_title: "THE TRUE VINE",
     en_content: "In the annals of spirituality EVERYTHING points to Jesus Christ.",
     es_title: "LA VERDADERA VID",

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.POWER OF CREATIVE LOVE",
 
 CREATE (c:CONTENT {
     name: "content.POWER OF CREATIVE LOVE",
+    ctype: "THOUGHT",
     en_title: "Power Of Creative Love",
     en_content: "Love is not weak. Love created this insanely huge universe by simply SPEAKING!",
     es_title: "El Poder del Amor Creativo",

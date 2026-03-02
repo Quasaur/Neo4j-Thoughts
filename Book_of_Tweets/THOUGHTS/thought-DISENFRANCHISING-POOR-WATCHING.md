@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.DISENFRANCHISING POOR WATCHING",
 
 CREATE (c:CONTENT {
     name: "content.DISENFRANCHISING POOR WATCHING",
+    ctype: "THOUGHT",
     en_title: "Disenfranchising Poor Watching",
     en_content: "To those that continue to disenfranchise the poor and minorities: GOD IS WATCHING.",
     es_title: "Dios Observa la Privación de Derechos de los Pobres",

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.VOLITION2",
+    ctype: "THOUGHT",
     en_title: "SECOND VOLITION",
     en_content: ""
 });

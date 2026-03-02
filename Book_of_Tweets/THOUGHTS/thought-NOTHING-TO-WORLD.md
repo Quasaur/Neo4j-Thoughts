@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.NOTHING TO WORLD",
 
 CREATE (c:CONTENT {
     name: "content.NOTHING TO WORLD",
+    ctype: "THOUGHT",
     en_title: "Nothing To World",
     en_content: "You cannot be something in God until you are nothing to the world.",
     es_title: "Nada Para el Mundo",

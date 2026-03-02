@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.NOTHING AND EVERYTHING",
 
 CREATE (c:CONTENT {
     name: "content.NOTHING AND EVERYTHING",
+    ctype: "THOUGHT",
     en_title: "Nothing And Everything",
     en_content: "I am nothing to God...and yet...I am everything to God.",
     es_title: "Nada Y Todo",

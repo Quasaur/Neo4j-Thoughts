@@ -23,7 +23,7 @@ CREATE (p:PASSAGE {	    name: "passage.HOUSE OF THE WICKED",
 // create multi-lingual content		
 CREATE (c:CONTENT {
 	name: "content.HOUSE OF THE WICKED",
-	ctype: 3, // 1=thought; 2=quote; 3=passage
+	ctype: "PASSAGE",
 	en_title: "HOUSE OF THE WICKED", 
 	en_content: "The Lord's curse is on the house of the wicked, but He blesses the dwelling of the righteous.", 
 	es_title: "La casa de los malvados", 

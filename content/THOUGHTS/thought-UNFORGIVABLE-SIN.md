@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.UNFORGIVABLE SIN",
+    ctype: "THOUGHT",
     en_title: "Unforgivable Sin",
     en_content: "What is the Unforgiveable Sin? Unforgiveness.",
     es_title: "Pecado imperdonable",

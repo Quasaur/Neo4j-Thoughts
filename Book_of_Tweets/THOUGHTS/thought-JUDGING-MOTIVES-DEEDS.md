@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.JUDGING MOTIVES DEEDS",
 
 CREATE (c:CONTENT {
     name: "content.JUDGING MOTIVES DEEDS",
+    ctype: "THOUGHT",
     en_title: "Judging Motives Deeds",
     en_content: "While your neighbor is looking at your deeds to judge your motives, God is looking at your motives to judge your deeds!",
     es_title: "Juzgando Motivos y Obras",

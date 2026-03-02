@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.EDUCATION AS SELLING OUT",
 
 CREATE (c:CONTENT {
     name: "content.EDUCATION AS SELLING OUT",
+    ctype: "THOUGHT",
     en_title: "Education As Selling Out",
     en_content: "At what point in history did African American men decide that being educated was selling out??",
     es_title: "La educación como venta",

@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.INSATIABLE",
+    ctype: "THOUGHT",
     en_title: "Insatiable",
     en_content: "The human flesh nature is never satisfied. Thus humanity is plunged into every kind of addiction to satiate the unforgiving beast.",
     es_title: "Insaciable",

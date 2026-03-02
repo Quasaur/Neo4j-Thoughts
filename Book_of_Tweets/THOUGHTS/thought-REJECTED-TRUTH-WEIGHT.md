@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.REJECTED TRUTH WEIGHT",
 
 CREATE (c:CONTENT {
     name: "content.REJECTED TRUTH WEIGHT",
+    ctype: "THOUGHT",
     en_title: "Rejected Truth Weight",
     en_content: "The World will perish...crushed under the weight of the Truth it has rejected.",
     es_title: "Peso de la Verdad Rechazada",

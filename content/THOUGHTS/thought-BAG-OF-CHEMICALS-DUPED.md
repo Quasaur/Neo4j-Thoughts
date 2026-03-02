@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.BAG OF CHEMICALS DUPED",
+    ctype: "THOUGHT",
     en_title: "Bag Of Chemicals Duped",
     en_content: "It's hard to fathom that people can be duped into thinking they're nothing more than a bag of chemicals and electricity.",
     es_title: "Engañados como Bolsa de Químicos",

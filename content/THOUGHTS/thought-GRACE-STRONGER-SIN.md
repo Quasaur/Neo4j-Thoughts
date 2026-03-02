@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.GRACE STRONGER SIN",
+    ctype: "THOUGHT",
     en_title: "Grace Stronger Sin",
     en_content: "Grace is stronger than sin, else no one could be saved. Ephesians 2:8, 9",
     es_title: "La Gracia es Más Fuerte que el Pecado",

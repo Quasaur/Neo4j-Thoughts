@@ -80,18 +80,46 @@ The second Cypher CREATE query in the Cypher block creates the node that contain
 ### DESCRIPTION Node Type
 Rule 14: Every Cypher CREATE query for the DESCRIPTION node type must have the following properties and their values:
 	- name
-	- alias
-	- parent
-	- tags
-	- source
-	- sortedsource
-	- biblelink
-	- level
+	- en_title
+	- en_content
+	- es_title
+	- es_content
+	- fr_title
+	- fr_content
+	- hi_title
+	- hi_content
+	- zh_title
+	- zh_content
+
+Rule 15: the name content matches the name of the TOPIC node in the same Cypher block with one crucial difference: the first part of the name field is always "desc." instead of "topic.".
+
 ### CONTENT Node Type
-  
+Rule 16: Every Cypher CREATE query for the CONTENT node type must have the following properties and their values:
+	- name
+	- ctype
+	- en_title
+	- en_content
+	- es_title
+	- es_content
+	- fr_title
+	- fr_content
+	- hi_title
+	- hi_content
+	- zh_title
+	- zh_content
+
+Rule 17: the name content matches the name of the THOUGHT, QUOTE or PASSAGE node in the same Cypher block with one crucial difference: the first part of the name field is always "content." instead of "thought." or "quote." or "passage.".
+
+Rule 18: Because the CONTENT node type is the child of three node types (THOUGHT, QUOTE and PASSAGE) respectively, the property "ctype" was added to the CONTENT node to identify which of the three primary node types the CONTENT node was a child to. Originally the value of the ctype was an integer. The Developer has now decided that the value of the "ctype" will match the value of the YAML property "type". Unfortunately, not every CONTENT node has this field; therefore the agentic model must perform these operations:
+	1. In those CONTENT nodes that have the "ctype" property, its value must be changed to match the value of the YAML property "type".
+	2. For those CONTENT nodes missing the property "ctype", the property must be added to the CONTENT node on a new line between the "name" and "es_title" properties with a comma added to the end of the line containing the new "ctype" property entry.
+RULE 18a: Following is an example of how the new entry should look:
+```cypher
+ctype: "THOUGHT",
+```
 
 ## First Relationship 
-
+Rule 19: The fourth Cypher query makes the DESCRIPTION or CONTENT node the child of the Cypher blocks
   
 
 ## Second Relationship

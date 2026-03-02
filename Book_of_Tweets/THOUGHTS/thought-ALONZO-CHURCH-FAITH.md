@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.ALONZO CHURCH FAITH",
 
 CREATE (c:CONTENT {
     name: "content.ALONZO CHURCH FAITH",
+    ctype: "THOUGHT",
     en_title: "Alonzo Church Faith",
     en_content: "Alonzo Church Ph.D, Inventor of the lambda calculus, was a devout Christian...who says science and faith don't mix?",
     es_title: "La Fe de Alonzo Church",

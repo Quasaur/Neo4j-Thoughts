@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.DEFINE FAITH WILL",
+    ctype: "THOUGHT",
     en_title: "Define Faith Will",
     en_content: "New Definition of Faith: KNOWING God's Will for me in every situation.",
     es_title: "Definir Fe Voluntad",

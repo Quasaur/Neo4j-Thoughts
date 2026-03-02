@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.PRAYER BEFORE SPEECH",
 
 CREATE (c:CONTENT {
     name: "content.PRAYER BEFORE SPEECH",
+    ctype: "THOUGHT",
     en_title: "Prayer Before Speech",
     en_content: "It is inappropriate to speak out on what we don't pray out.",
     es_title: "Oración Antes de Hablar",

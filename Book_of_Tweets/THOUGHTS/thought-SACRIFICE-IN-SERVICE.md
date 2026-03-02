@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.SACRIFICE IN SERVICE",
 
 CREATE (c:CONTENT {
     name: "content.SACRIFICE IN SERVICE",
+    ctype: "THOUGHT",
     en_title: "Sacrifice In Service",
     en_content: "You cannot serve God without sacrificing something of great personal value.",
     es_title: "Sacrificio en servicio",

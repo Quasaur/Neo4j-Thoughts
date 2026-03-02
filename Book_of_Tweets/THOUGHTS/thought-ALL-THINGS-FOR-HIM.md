@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.ALL THINGS FOR HIM",
 
 CREATE (c:CONTENT {
     name: "content.ALL THINGS FOR HIM",
+    ctype: "THOUGHT",
     en_title: "All Things For Him",
     en_content: "All things are from, to and for Him; this is fitting, for He is worthy.",
     es_title: "Todas las Cosas Para Él",

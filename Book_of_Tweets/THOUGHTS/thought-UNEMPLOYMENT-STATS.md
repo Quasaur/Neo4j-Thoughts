@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.UNEMPLOYMENT STATS",
 
 CREATE (c:CONTENT {
     name: "content.UNEMPLOYMENT STATS",
+    ctype: "THOUGHT",
     en_title: "Unemployment Stats",
     en_content: "White Unemployment : 9%...Black Unemployment : 16%.",
     es_title: "Estadísticas de desempleo",

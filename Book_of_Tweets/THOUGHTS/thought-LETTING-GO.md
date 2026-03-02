@@ -19,6 +19,7 @@ CREATE (t:THOUGHT {    name: "thought.LETTING GO",
 
 CREATE (c:CONTENT {
     name: "content.LETTING GO",
+    ctype: "THOUGHT",
     en_title: "Letting Go",
     en_content: "One of the hardest things in life to do is to let go of what you Think you know.",
     es_title: "Soltando ideas",

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.CHANGING THE HEART",
 
 CREATE (c:CONTENT {
     name: "content.CHANGING THE HEART",
+    ctype: "THOUGHT",
     en_title: "Changing The Heart",
     en_content: "Proverbs 21:1; Matthew 19:25, 26. God has--and uses--the ability to change the heart's intent...otherwise no one would be saved.",
     es_title: "Cambiar el Corazón",

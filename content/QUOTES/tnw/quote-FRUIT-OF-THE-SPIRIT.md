@@ -25,6 +25,7 @@ CREATE (q:QUOTE {
 // CREATE CONTENT
 CREATE (c:CONTENT {
     name: "content.FRUIT_OF_THE_SPIRIT",
+    ctype: "QUOTE",
     en_title: "Quote: FRUIT OF THE SPIRIT",
     en_content: "Notice they're not called the Works of the Spirit but the Fruit of the Spirit. The Apostle is drawing a contrast between the WORKS of the flesh and the FRUIT of the Holy Spirit of GOD...subtle yet critical. 'Works...fruit...what does it matter?' Ahhhh...it does matter, and the difference determines the destiny of billions for Heaven or Hell!"
 });

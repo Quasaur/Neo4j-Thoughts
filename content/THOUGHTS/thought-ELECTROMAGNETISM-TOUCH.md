@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.ELECTROMAGNETISM TOUCH",
 
 CREATE (c:CONTENT {
     name: "content.ELECTROMAGNETISM TOUCH",
+    ctype: "THOUGHT",
     en_title: "Electromagnetism Touch",
     en_content: "Under normal circumstances, electromagnetism prevents any 2 surfaces from touching...God is great!",
     es_title: "Toque Electromagnético",

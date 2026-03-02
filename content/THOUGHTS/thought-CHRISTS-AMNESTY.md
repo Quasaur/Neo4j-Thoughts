@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.CHRISTS AMNESTY",
+    ctype: "THOUGHT",
     en_title: "Christs Amnesty",
     en_content: "Humanity's trial is over, and we have been judged. Execution of sentence is nearer than we realize. Christ is God's Only Amnesty.",
     es_title: "La Amnistía de Cristo",

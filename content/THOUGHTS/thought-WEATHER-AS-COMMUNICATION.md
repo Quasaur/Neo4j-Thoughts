@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.WEATHER AS COMMUNICATION",
 
 CREATE (c:CONTENT {
     name: "content.WEATHER AS COMMUNICATION",
+    ctype: "THOUGHT",
     en_title: "Weather As Communication",
     en_content: "2 Chronicles 7:12-14; Leviticus 18:25: Yes, God DOES communicate and punish through weather and nature.",
     es_title: "El Clima Como Comunicación",

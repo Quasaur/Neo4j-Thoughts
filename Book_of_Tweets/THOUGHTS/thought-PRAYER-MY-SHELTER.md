@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.PRAYER MY SHELTER",
 
 CREATE (c:CONTENT {
     name: "content.PRAYER MY SHELTER",
+    ctype: "THOUGHT",
     en_title: "Prayer My Shelter",
     en_content: "Prayer is my shelter...my fortress...my stress-free zone...my dessert.",
     es_title: "La Oración: Mi Refugio",

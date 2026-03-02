@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.BIBLE AS HISTORY",
 
 CREATE (c:CONTENT {
     name: "content.BIBLE AS HISTORY",
+    ctype: "THOUGHT",
     en_title: "Bible As History",
     en_content: "The Bible says that God cannot lie. If therefore the Bible is not an ACCURATE HISTORICAL DOCUMENT, then it cannot be inspired by God.",
     es_title: "La Biblia como Historia",

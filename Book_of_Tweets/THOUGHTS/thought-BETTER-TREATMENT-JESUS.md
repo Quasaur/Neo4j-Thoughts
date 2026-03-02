@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.BETTER TREATMENT JESUS",
 
 CREATE (c:CONTENT {
     name: "content.BETTER TREATMENT JESUS",
+    ctype: "THOUGHT",
     en_title: "Better Treatment Jesus",
     en_content: "Jesus treats me FAR BETTER than I've treated Him. I crucified Him; He gave me LIFE!",
     es_title: "Mejor Trato de Jesús",

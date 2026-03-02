@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.NO GOD FOR CAMERAS",
 
 CREATE (c:CONTENT {
     name: "content.NO GOD FOR CAMERAS",
+    ctype: "THOUGHT",
     en_title: "No God For Cameras",
     en_content: "I am convinced that God doesn't perform for cameras.",
     es_title: "Ningún Dios Para Cámaras",

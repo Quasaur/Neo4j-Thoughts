@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.SIN TASTES GOOD",
 
 CREATE (c:CONTENT {
     name: "content.SIN TASTES GOOD",
+    ctype: "THOUGHT",
     en_title: "Sin Tastes Good",
     en_content: "Sin is killing us; but at least it tastes good!",
     es_title: "El Pecado Sabe Bien",

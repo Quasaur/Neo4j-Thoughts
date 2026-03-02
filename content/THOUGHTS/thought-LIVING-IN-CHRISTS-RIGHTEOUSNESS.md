@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.LIVING IN CHRISTS RIGHTEOUSNESS",
+    ctype: "THOUGHT",
     en_title: "Living In Christs Righteousness",
     en_content: "I live--not with my own righteousness but with Christ's; for God placed me in Christ when He obeyed...now He obeys in me!",
     es_title: "Viviendo En La Justicia De Cristo",

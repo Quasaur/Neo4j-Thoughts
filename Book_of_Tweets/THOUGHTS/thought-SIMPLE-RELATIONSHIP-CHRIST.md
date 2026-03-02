@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.SIMPLE RELATIONSHIP CHRIST",
 
 CREATE (c:CONTENT {
     name: "content.SIMPLE RELATIONSHIP CHRIST",
+    ctype: "THOUGHT",
     en_title: "Simple Relationship Christ",
     en_content: "A relationship with Christ is simple...I make it complicated.",
     es_title: "Relación Simple con Cristo",

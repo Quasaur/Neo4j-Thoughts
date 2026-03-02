@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.ALWAYS ADVENTIST",
 
 CREATE (c:CONTENT {
     name: "content.ALWAYS ADVENTIST",
+    ctype: "THOUGHT",
     en_title: "Always Adventist",
     en_content: "A part of me will always be Adventist, I guess (smile).",
     es_title: "Siempre Adventista",

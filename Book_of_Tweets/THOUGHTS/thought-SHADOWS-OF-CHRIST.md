@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.SHADOWS OF CHRIST",
 
 CREATE (c:CONTENT {
     name: "content.SHADOWS OF CHRIST",
+    ctype: "THOUGHT",
     en_title: "Shadows Of Christ",
     en_content: "That which is most precious to us...and those whom we love more than life are but shadows of the Figure of Christ!",
     es_title: "Sombras de Cristo",

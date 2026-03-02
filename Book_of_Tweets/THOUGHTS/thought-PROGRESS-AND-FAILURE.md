@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.PROGRESS AND FAILURE",
 
 CREATE (c:CONTENT {
     name: "content.PROGRESS AND FAILURE",
+    ctype: "THOUGHT",
     en_title: "Progress And Failure",
     en_content: "There's no progress without failure.",
     es_title: "Progreso Y Fracaso",

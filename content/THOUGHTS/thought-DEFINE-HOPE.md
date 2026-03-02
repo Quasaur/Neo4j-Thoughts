@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.DEFINE HOPE",
 
 CREATE (c:CONTENT {
     name: "content.DEFINE HOPE",
+    ctype: "THOUGHT",
     en_title: "Define Hope",
     en_content: "HOPE = DESIRE + EXPECTATION",
     es_title: "Definir Esperanza",

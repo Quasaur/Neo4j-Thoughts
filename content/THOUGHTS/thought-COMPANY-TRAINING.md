@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.COMPANY_TRAINING",
+    ctype: "THOUGHT",
     en_title: "COMPANY TRAINING",
     en_content: "Why is it that companies don't give their employees time to complete Web- and Computer-based training courses?",
     es_title: "FORMACIÓN EN EMPRESA",

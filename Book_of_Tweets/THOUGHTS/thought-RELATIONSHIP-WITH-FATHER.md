@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.RELATIONSHIP WITH FATHER",
 
 CREATE (c:CONTENT {
     name: "content.RELATIONSHIP WITH FATHER",
+    ctype: "THOUGHT",
     en_title: "Relationship With Father",
     en_content: "The Gospel: Jesus Christ has given us His Relationship with The Father!",
     es_title: "Relación con el Padre",

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.TWO GARDENS",
 
 CREATE (c:CONTENT {
     name: "content.TWO GARDENS",
+    ctype: "THOUGHT",
     en_title: "Two Gardens",
     en_content: "In the Bible there are 2 gardens. In the 1st garden are 2 trees; in the 2nd garden is only 1 tree. What happened to the 2nd tree?",
     es_title: "Dos Jardines",

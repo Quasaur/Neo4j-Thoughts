@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.CHRISTIANS ON CROSSES",
 
 CREATE (c:CONTENT {
     name: "content.CHRISTIANS ON CROSSES",
+    ctype: "THOUGHT",
     en_title: "Christians On Crosses",
     en_content: "True Christians are easy to identify: they're the ones hanging on crosses.",
     es_title: "Cristianos en Cruces",

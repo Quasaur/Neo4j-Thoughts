@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.HORDES OF THE ABYSS",
+    ctype: "THOUGHT",
     en_title: "Hordes Of The Abyss",
     en_content: "Humanity will be visited by the hordes of the Abyss because that is what it, by its deeds, asked for.",
     es_title: "Hordas del Abismo",

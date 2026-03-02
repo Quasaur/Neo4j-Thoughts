@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.CARDBOARD BOX DIGNITY",
 
 CREATE (c:CONTENT {
     name: "content.CARDBOARD BOX DIGNITY",
+    ctype: "THOUGHT",
     en_title: "Cardboard Box Dignity",
     en_content: "I'd rather live in a cardboard box than to earn 6 figures and be treated like a pet!",
     es_title: "Dignidad en una Caja de Cartón",

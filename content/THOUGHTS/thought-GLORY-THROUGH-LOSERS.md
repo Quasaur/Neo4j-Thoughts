@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.GLORY THROUGH LOSERS",
+    ctype: "THOUGHT",
     en_title: "Glory Through Losers",
     en_content: "God prefers losers so that when we win God gets the glory!",
     es_title: "Gloria a Través de los Perdedores",

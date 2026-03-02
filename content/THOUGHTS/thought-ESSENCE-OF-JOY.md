@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.ESSENCE OF JOY",
 
 CREATE (c:CONTENT {
     name: "content.ESSENCE OF JOY",
+    ctype: "THOUGHT",
     en_title: "Essence Of Joy",
     en_content: "The essence of Joy is to discover that God is more wonderful, more great and more important than I.",
     es_title: "Esencia del Gozo",

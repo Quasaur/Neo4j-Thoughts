@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.CONGRESS HOUSE LORDS",
 
 CREATE (c:CONTENT {
     name: "content.CONGRESS HOUSE LORDS",
+    ctype: "THOUGHT",
     en_title: "Congress House Lords",
     en_content: "Both houses of this American Congress have become a House of Lords.",
     es_title: "Congreso Cámara de Lores",

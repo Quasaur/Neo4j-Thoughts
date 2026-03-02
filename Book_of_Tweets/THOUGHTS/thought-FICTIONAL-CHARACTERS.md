@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.FICTIONAL CHARACTERS",
 
 CREATE (c:CONTENT {
     name: "content.FICTIONAL CHARACTERS",
+    ctype: "THOUGHT",
     en_title: "Fictional Characters",
     en_content: "Compared to GOD we are all fictional characters.",
     es_title: "Personajes Ficticios",

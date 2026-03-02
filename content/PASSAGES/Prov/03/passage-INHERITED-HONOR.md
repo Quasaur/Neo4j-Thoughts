@@ -24,7 +24,7 @@ CREATE (p:PASSAGE {	    name: "\"passage.INHERITED HONOR\"",
 // create multi-lingual content		
 CREATE (c:CONTENT {
 	name: "content.INHERITED HONOR",
-	ctype: 3, // 1=thought; 2=quote; 3=passage
+	ctype: "PASSAGE",
 	en_title: "INHERITED HONOR", 
 	en_content: "The wise will inherit honor,  
     but fools get disgrace.", 

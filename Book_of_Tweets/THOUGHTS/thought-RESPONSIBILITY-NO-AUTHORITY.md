@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.RESPONSIBILITY NO AUTHORITY",
 
 CREATE (c:CONTENT {
     name: "content.RESPONSIBILITY NO AUTHORITY",
+    ctype: "THOUGHT",
     en_title: "Responsibility No Authority",
     en_content: "Responsibility without authority is like a boat without a motor.",
     es_title: "Responsabilidad Sin Autoridad",

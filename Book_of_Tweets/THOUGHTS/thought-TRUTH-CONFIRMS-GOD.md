@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.TRUTH CONFIRMS GOD",
 
 CREATE (c:CONTENT {
     name: "content.TRUTH CONFIRMS GOD",
+    ctype: "THOUGHT",
     en_title: "Truth Confirms God",
     en_content: "There is no truth that denies God's Existence.",
     es_title: "La Verdad Confirma a Dios",

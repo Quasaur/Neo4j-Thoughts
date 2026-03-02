@@ -25,6 +25,7 @@ CREATE (q:QUOTE {
 // CREATE CONTENT
 CREATE (c:CONTENT {
     name: "content.THE_SALVATION",
+    ctype: "QUOTE",
     en_title: "Quote: THE SALVATION",
     en_content: "THERE IS NO SALVATION APART FROM JESUS. Let me put this another way: JESUS **IS** THE SALVATION GOD THE FATHER IS OFFERING YOU, as opposed to a set of deeds you must accomplish or words you must say to 'receive' Salvation from Jesus."
 });

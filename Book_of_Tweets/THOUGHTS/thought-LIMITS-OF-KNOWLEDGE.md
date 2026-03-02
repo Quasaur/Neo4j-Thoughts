@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.LIMITS OF KNOWLEDGE",
 
 CREATE (c:CONTENT {
     name: "content.LIMITS OF KNOWLEDGE",
+    ctype: "THOUGHT",
     en_title: "Limits Of Knowledge",
     en_content: "\"If any man thinks he knows anything, he does not yet know as he ought.\" -- The Apostle Paul",
     es_title: "Límites del conocimiento",

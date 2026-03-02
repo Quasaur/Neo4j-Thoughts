@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.FOR OR AGAINST",
 
 CREATE (c:CONTENT {
     name: "content.FOR OR AGAINST",
+    ctype: "THOUGHT",
     en_title: "For Or Against",
     en_content: "\"Whoever is not for Me is against Me.\" -- Jesus Christ",
     es_title: "A favor o en contra",

@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.MOTION",
+    ctype: "THOUGHT",
     en_title: "MOTION",
     en_content: "Everything that exists is MOVING…
 …except God. Even when He MOVES, God is at REST

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.FACE TO FACE",
 
 CREATE (c:CONTENT {
     name: "content.FACE TO FACE",
+    ctype: "THOUGHT",
     en_title: "Face To Face",
     en_content: "When you meet God face to Face you will not ask any questions; His Glory is the answer to every question and the end of every dispute.",
     es_title: "Cara a Cara",

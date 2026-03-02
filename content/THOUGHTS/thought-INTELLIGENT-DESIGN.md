@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.INTELLIGENT DESIGN",
 
 CREATE (c:CONTENT {
     name: "content.INTELLIGENT DESIGN",
+    ctype: "THOUGHT",
     en_title: "Intelligent Design",
     en_content: "INTELLIGENT DESIGN!",
     es_title: "Diseño Inteligente",

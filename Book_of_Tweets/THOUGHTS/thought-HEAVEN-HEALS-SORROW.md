@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.HEAVEN HEALS SORROW",
 
 CREATE (c:CONTENT {
     name: "content.HEAVEN HEALS SORROW",
+    ctype: "THOUGHT",
     en_title: "Heaven Heals Sorrow",
     en_content: "Earth has no sorrow that Heaven cannot heal. -- Hymn",
     es_title: "El Cielo Sana la Tristeza",

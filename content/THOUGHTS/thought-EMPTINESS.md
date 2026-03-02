@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.EMPTINESS",
+    ctype: "THOUGHT",
     en_title: "EMPTINESS",
     en_content: "It’s why we eat when we’re not hungry.
 It’s why we watch hours of mindless television and play with ouija boards and horoscopes.

@@ -25,6 +25,7 @@ CREATE (q:QUOTE {
 // CREATE CONTENT
 CREATE (c:CONTENT {
     name: "content.LIMITED_BIBLE",
+    ctype: "QUOTE",
     en_title: "Quote: LIMITED BIBLE",
     en_content: "The Holy Bible does NOT tell us all there is to know about GOD! The Bible was inspired by GOD for a very specific purpose: to give the saint everything needful to be saved from the Lake of Fire—and therefore from the power of sin."
 });

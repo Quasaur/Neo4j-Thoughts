@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.UNREASONABLE PRIDE",
 
 CREATE (c:CONTENT {
     name: "content.UNREASONABLE PRIDE",
+    ctype: "THOUGHT",
     en_title: "Unreasonable Pride",
     en_content: "Self Pride is always unreasonable.",
     es_title: "Orgullo Irrazonable",

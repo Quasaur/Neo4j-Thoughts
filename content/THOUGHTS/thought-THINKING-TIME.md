@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.THINKING_TIME",
+    ctype: "THOUGHT",
     en_title: "THINKING TIME",
     en_content: "God spends 100% of His Time thinking about us...how much time do we spend thinking about Him?",
     es_title: "TIEMPO PARA PENSAR",

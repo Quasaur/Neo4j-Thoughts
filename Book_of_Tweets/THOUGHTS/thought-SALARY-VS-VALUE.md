@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.SALARY VS VALUE",
 
 CREATE (c:CONTENT {
     name: "content.SALARY VS VALUE",
+    ctype: "THOUGHT",
     en_title: "Salary Vs Value",
     en_content: "What's more valuable: my salary or me?",
     es_title: "Salario Vs Valor",

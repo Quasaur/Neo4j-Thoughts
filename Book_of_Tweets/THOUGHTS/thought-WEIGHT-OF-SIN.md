@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.WEIGHT OF SIN",
 
 CREATE (c:CONTENT {
     name: "content.WEIGHT OF SIN",
+    ctype: "THOUGHT",
     en_title: "Weight Of Sin",
     en_content: "Christ bore in His Body the sins of the 12 billion sinners who have lived since Adam.",
     es_title: "El Peso del Pecado",

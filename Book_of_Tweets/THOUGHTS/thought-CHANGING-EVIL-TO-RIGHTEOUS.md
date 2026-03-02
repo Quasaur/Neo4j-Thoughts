@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.CHANGING EVIL TO RIGHTEOUS",
 
 CREATE (c:CONTENT {
     name: "content.CHANGING EVIL TO RIGHTEOUS",
+    ctype: "THOUGHT",
     en_title: "Changing Evil To Righteous",
     en_content: "God's Other Genius is changing evil people into righteous people!",
     es_title: "Transformar al Malvado en Justo",

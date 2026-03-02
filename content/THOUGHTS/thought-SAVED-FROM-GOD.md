@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.SAVED FROM GOD",
 
 CREATE (c:CONTENT {
     name: "content.SAVED FROM GOD",
+    ctype: "THOUGHT",
     en_title: "Saved From God",
     en_content: "God can save you from anybody...but who can save you from God?",
     es_title: "Salvado de Dios",

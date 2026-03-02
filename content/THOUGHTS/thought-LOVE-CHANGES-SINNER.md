@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.LOVE CHANGES SINNER",
+    ctype: "THOUGHT",
     en_title: "Love Changes Sinner",
     en_content: "It is the LOVE OF GOD that changes a sinner to a saint.",
     es_title: "El Amor Transforma al Pecador",

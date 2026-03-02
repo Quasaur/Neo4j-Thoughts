@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.HUMILITY IN PRAYER",
 
 CREATE (c:CONTENT {
     name: "content.HUMILITY IN PRAYER",
+    ctype: "THOUGHT",
     en_title: "Humility In Prayer",
     en_content: "Prayer needs no Humility to be spoken, but no prayer is heard without it.",
     es_title: "Humildad en la Oración",

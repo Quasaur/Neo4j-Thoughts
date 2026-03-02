@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.MEETING UNCREATED BEING",
 
 CREATE (c:CONTENT {
     name: "content.MEETING UNCREATED BEING",
+    ctype: "THOUGHT",
     en_title: "Meeting Uncreated Being",
     en_content: "You haven't lived till you've met An Uncreated Being!",
     es_title: "Encuentro con el Ser Increado",

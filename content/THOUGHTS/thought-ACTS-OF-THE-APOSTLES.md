@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.ACTS_OF_THE_APOSTLES",
+    ctype: "THOUGHT",
     en_title: "Acts of the Apostles",
     en_content: "The Acts of the Apostles mentions thirty-two countries, fifty-four cities and nine islands without a factual or historical error.",
     es_title: "Hechos de los Apóstoles",

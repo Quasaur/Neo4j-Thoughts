@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.DEFINE PERFECT LOVE",
 
 CREATE (c:CONTENT {
     name: "content.DEFINE PERFECT LOVE",
+    ctype: "THOUGHT",
     en_title: "Define Perfect Love",
     en_content: "Love: the blurring of identity between two or more persons. The Love among the Members of The Godhead is such: to see One is to see All.",
     es_title: "Define el Amor Perfecto",

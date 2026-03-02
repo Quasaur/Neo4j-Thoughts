@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.DREAMS OTHER WORLDS",
 
 CREATE (c:CONTENT {
     name: "content.DREAMS OTHER WORLDS",
+    ctype: "THOUGHT",
     en_title: "Dreams Other Worlds",
     en_content: "What if dreams were peeks into another life...on another planet ...in another galaxy very similar to ours?",
     es_title: "Sueños de Otros Mundos",

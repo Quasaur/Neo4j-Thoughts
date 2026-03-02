@@ -23,6 +23,7 @@ CREATE (q:QUOTE
 // create multi-lingual content		
 CREATE (c:CONTENT {
 	name: "content.GOD IS GOOD", 
+	ctype: "QUOTE",
 	en_title: "GOD IS GOOD", 
 	en_content: "All of the gravest injustices committed by humanity against its own would not even be remembered in the Presence of the Divine Goodness.", 
 	es_title: "Dios es bueno.", 

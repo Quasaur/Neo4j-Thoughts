@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.THE_IRC",
+    ctype: "THOUGHT",
     en_title: "THE IRC",
     en_content: "The United States tax code, otherwise know as the Internal Revenue Code (IRC), was written by The Devil; his paw prints are all over it.",
 	es_title: "EL IRC",

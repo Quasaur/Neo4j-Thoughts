@@ -25,6 +25,7 @@ CREATE (q:QUOTE {
 // CREATE CONTENT
 CREATE (c:CONTENT {
     name: "content.ETERNAL_LIGHT",
+    ctype: "QUOTE",
     en_title: "Quote: ETERNAL LIGHT",
     en_content: "Eventually, as saved beings, our understanding of God will reach the point where darkness will recede into the past as a faint memory."
 });

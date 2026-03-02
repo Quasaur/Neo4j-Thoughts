@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.HAPPINESS OF GIVING",
 
 CREATE (c:CONTENT {
     name: "content.HAPPINESS OF GIVING",
+    ctype: "THOUGHT",
     en_title: "Happiness Of Giving",
     en_content: "God is happier than everyone else because He gives more than anyone else.",
     es_title: "La Felicidad de Dar",

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.OBEYING GODS CHARACTER LAWS",
 
 CREATE (c:CONTENT {
     name: "content.OBEYING GODS CHARACTER LAWS",
+    ctype: "THOUGHT",
     en_title: "Obeying Gods Character Laws",
     en_content: "Just because it's legal, doesn't mean it's ethical or just or fair. God doesn't expect us to obey laws that violate His Character.",
     es_title: "Obedeciendo las Leyes del Carácter de Dios",

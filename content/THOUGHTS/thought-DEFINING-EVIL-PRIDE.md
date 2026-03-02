@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.DEFINING EVIL PRIDE",
 
 CREATE (c:CONTENT {
     name: "content.DEFINING EVIL PRIDE",
+    ctype: "THOUGHT",
     en_title: "Defining Evil Pride",
     en_content: "Evil is considering this God-given treasure (Self) more precious than The God Who gave it.",
     es_title: "Definiendo el Orgullo Maligno",

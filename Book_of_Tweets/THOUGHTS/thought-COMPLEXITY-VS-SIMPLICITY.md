@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.COMPLEXITY VS SIMPLICITY",
 
 CREATE (c:CONTENT {
     name: "content.COMPLEXITY VS SIMPLICITY",
+    ctype: "THOUGHT",
     en_title: "Complexity Vs Simplicity",
     en_content: "There is no \"natural law\" that would bring complexity out of simplicity!",
     es_title: "Complejidad Versus Simplicidad",

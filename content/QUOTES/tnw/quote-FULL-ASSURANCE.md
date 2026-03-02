@@ -25,6 +25,7 @@ CREATE (q:QUOTE {
 // CREATE CONTENT
 CREATE (c:CONTENT {
     name: "content.FULL_ASSURANCE",
+    ctype: "QUOTE",
     en_title: "Quote: FULL ASSURANCE",
     en_content: "i know that KNOWING that you're going to be Saved from the Wrath of GOD is declared heresy by the Roman Catholic Church; if you STUDY A RELIABLE TRANSLATION OF THE BIBLE, however, you will see that GOD wants you to be assured and confident of your eternal destiny ([1 John 5:13-15](https://www.biblegateway.com/passage/?search=1+John+5%3A13-15&version=KJV))"
 });

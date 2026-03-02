@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.COMMITTING ADAMS SIN",
 
 CREATE (c:CONTENT {
     name: "content.COMMITTING ADAMS SIN",
+    ctype: "THOUGHT",
     en_title: "Committing Adams Sin",
     en_content: "We continue to commit Adam's sin, and then wonder why we suffer.",
     es_title: "Cometiendo el Pecado de Adán",

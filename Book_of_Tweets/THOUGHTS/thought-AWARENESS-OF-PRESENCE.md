@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.AWARENESS OF PRESENCE",
 
 CREATE (c:CONTENT {
     name: "content.AWARENESS OF PRESENCE",
+    ctype: "THOUGHT",
     en_title: "Awareness Of Presence",
     en_content: "Many believe they are aware of God's Wrath but few are aware of God's Loving Presence.",
     es_title: "Conciencia de la Presencia",

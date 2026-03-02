@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.CHURCH IS BIG BUSINESS",
 
 CREATE (c:CONTENT {
     name: "content.CHURCH IS BIG BUSINESS",
+    ctype: "THOUGHT",
     en_title: "Church Is Big Business",
     en_content: "In America church is big business...that's a problem.",
     es_title: "La Iglesia es un Gran Negocio",

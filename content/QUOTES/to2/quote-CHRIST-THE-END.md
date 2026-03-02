@@ -25,6 +25,7 @@ CREATE (q:QUOTE {
 // CREATE CONTENT
 CREATE (c:CONTENT {
     name: "content.CHRIST_THE_END",
+    ctype: "QUOTE",
     en_title: "Quote: CHRIST THE END",
     en_content: "Just as Christ is the 'end' (the COMPLETION of or FULFILLMENT of) the ceremonial law of sacrifices and atonement, He is the 'end' of the Old Covenant (the Ten Commandments) itself."
 });

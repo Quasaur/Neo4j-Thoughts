@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.SUNS ENERGY CORE",
 
 CREATE (c:CONTENT {
     name: "content.SUNS ENERGY CORE",
+    ctype: "THOUGHT",
     en_title: "Suns Energy Core",
     en_content: "Energy generated in the Sun's core takes a million years to reach its surface: God is great!",
     es_title: "El Núcleo Energético del Sol",

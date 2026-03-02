@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.LOSING MY MIND",
 
 CREATE (c:CONTENT {
     name: "content.LOSING MY MIND",
+    ctype: "THOUGHT",
     en_title: "Losing My Mind",
     en_content: "I was insane until I lost my mind!",
     es_title: "Perdiendo Mi Mente",

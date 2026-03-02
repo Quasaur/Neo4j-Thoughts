@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.TRANSGENDER RESTROOM DEBATE",
 
 CREATE (c:CONTENT {
     name: "content.TRANSGENDER RESTROOM DEBATE",
+    ctype: "THOUGHT",
     en_title: "Transgender Restroom Debate",
     en_content: "A bill that lets a transgendered male into a girls' restroom is one thing; getting that male past the girl's father is another.",
     es_title: "Debate sobre Baños para Transgénero",

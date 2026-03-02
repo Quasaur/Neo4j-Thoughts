@@ -25,6 +25,7 @@ CREATE (q:QUOTE {
 // CREATE CONTENT
 CREATE (c:CONTENT {
     name: "content.POLITICAL_CHRIST",
+    ctype: "QUOTE",
     en_title: "Quote: POLITICAL CHRIST",
     en_content: "I state that not only is Jesus' Authority spiritual, but political and economic as well."
 });

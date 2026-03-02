@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.WHOLE BIBLE ACCEPTANCE",
 
 CREATE (c:CONTENT {
     name: "content.WHOLE BIBLE ACCEPTANCE",
+    ctype: "THOUGHT",
     en_title: "Whole Bible Acceptance",
     en_content: "We should accept the whole Bible, or none of it; otherwise we distort its message.",
     es_title: "Aceptación Completa de la Biblia",

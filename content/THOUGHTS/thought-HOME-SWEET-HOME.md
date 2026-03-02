@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.HOME_SWEET_HOME",
+    ctype: "THOUGHT",
     en_title: "HOME, SWEET HOME",
     en_content: "GOD is my Home...and I am His!",
     es_title: "HOGAR DULCE HOGAR",

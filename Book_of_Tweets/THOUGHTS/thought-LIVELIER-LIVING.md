@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.LIVELIER LIVING",
 
 CREATE (c:CONTENT {
     name: "content.LIVELIER LIVING",
+    ctype: "THOUGHT",
     en_title: "Livelier Living",
     en_content: "Soap makes water wetter; Jesus Christ makes living livelier!",
     es_title: "Vivir Más Vivo",

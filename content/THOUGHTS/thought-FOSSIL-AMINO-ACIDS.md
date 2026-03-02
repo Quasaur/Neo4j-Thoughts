@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.FOSSIL AMINO ACIDS",
+    ctype: "THOUGHT",
     en_title: "Fossil Amino Acids",
     en_content: "Why is it that amino acids are still found in fossils and are not broken down after hundreds of millions of years?",
     es_title: "Aminoácidos Fósiles",

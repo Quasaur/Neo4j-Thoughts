@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.ULTIMATE",
+    ctype: "THOUGHT",
     en_title: "ULTIMATE",
     en_content: "That which is Ultimate cannot be Ultimate unless \"it\" (He) is also PERSONAL.",
     es_title: "LO ÚLTIMO",

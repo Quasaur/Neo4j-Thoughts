@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.PRAYER AS RELIEF",
 
 CREATE (c:CONTENT {
     name: "content.PRAYER AS RELIEF",
+    ctype: "THOUGHT",
     en_title: "Prayer As Relief",
     en_content: "Prayer is my relief.",
     es_title: "La Oración Como Alivio",

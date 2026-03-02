@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.UNSUBMISSIVE",
+    ctype: "THOUGHT",
     en_title: "UNSUBMISSIVE",
     en_content: ""
 });

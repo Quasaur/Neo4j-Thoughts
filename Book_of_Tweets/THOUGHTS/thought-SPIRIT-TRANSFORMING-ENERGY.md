@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.SPIRIT TRANSFORMING ENERGY",
 
 CREATE (c:CONTENT {
     name: "content.SPIRIT TRANSFORMING ENERGY",
+    ctype: "THOUGHT",
     en_title: "Spirit Transforming Energy",
     en_content: "SPIRIT is so powerful; He can take frozen energy and transform it into Living Energy!",
     es_title: "Energía Transformadora del Espíritu",

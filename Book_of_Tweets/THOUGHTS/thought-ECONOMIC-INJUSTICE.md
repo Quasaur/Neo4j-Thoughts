@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.ECONOMIC INJUSTICE",
 
 CREATE (c:CONTENT {
     name: "content.ECONOMIC INJUSTICE",
+    ctype: "THOUGHT",
     en_title: "Economic Injustice",
     en_content: "This economic downturn is especially difficult for African Americans; we're the last to get hired and the 1st to get fired.",
     es_title: "Injusticia Económica",

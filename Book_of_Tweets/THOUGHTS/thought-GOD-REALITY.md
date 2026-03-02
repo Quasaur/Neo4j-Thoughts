@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.GOD REALITY",
 
 CREATE (c:CONTENT {
     name: "content.GOD REALITY",
+    ctype: "THOUGHT",
     en_title: "God Reality",
     en_content: "As I was watching TV I realized: God is real...we're just cartoon characters compared to Him!",
     es_title: "La Realidad de Dios",

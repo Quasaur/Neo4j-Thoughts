@@ -19,6 +19,7 @@ CREATE (t:THOUGHT {    name: "thought.THE CROSS",
 
 CREATE (c:CONTENT {
     name: "content.THE CROSS",
+    ctype: "THOUGHT",
     en_title: "Nexus of Science",
     en_content: "The Cross is the Nexus of a Divine Science that never ceases to inform, renew and inspire awe, wonder, reverence and understanding.",
     es_title: "Nexus de ciencia",

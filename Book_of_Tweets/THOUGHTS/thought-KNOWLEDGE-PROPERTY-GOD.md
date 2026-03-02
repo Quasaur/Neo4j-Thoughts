@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.KNOWLEDGE PROPERTY GOD",
 
 CREATE (c:CONTENT {
     name: "content.KNOWLEDGE PROPERTY GOD",
+    ctype: "THOUGHT",
     en_title: "Knowledge Property God",
     en_content: "Genesis 2:15, 16: Knowledge is not a right; knowledge is the property of God.",
     es_title: "El Conocimiento Propiedad de Dios",

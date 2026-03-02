@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.SHOCKED",
+    ctype: "THOUGHT",
     en_title: "Shocked",
     en_content: "It's a strange thing: we are all sinners, but we are \"shocked\" and \"appalled\" when one of us sins!",
     es_title: "Conmocionado",

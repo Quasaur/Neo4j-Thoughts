@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.WITTGENSTEIN DISCOVERY",
 
 CREATE (c:CONTENT {
     name: "content.WITTGENSTEIN DISCOVERY",
+    ctype: "THOUGHT",
     en_title: "Wittgenstein Discovery",
     en_content: "I have discovered Ludwig Josef Johann Wittgenstein.",
     es_title: "Descubrimiento de Wittgenstein",

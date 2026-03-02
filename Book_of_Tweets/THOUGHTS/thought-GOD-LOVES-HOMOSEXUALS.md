@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.GOD LOVES HOMOSEXUALS",
 
 CREATE (c:CONTENT {
     name: "content.GOD LOVES HOMOSEXUALS",
+    ctype: "THOUGHT",
     en_title: "God Loves Homosexuals",
     en_content: "God loves homosexuals.",
     es_title: "Dios Ama a los Homosexuales",

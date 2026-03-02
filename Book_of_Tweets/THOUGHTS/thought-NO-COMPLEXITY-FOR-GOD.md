@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.NO COMPLEXITY FOR GOD",
 
 CREATE (c:CONTENT {
     name: "content.NO COMPLEXITY FOR GOD",
+    ctype: "THOUGHT",
     en_title: "No Complexity For God",
     en_content: "Ideas like \"complexity\" and \"difficulty\" don't exist for God; so He is able to make my life EASIER!",
     es_title: "Sin Complejidad Para Dios",

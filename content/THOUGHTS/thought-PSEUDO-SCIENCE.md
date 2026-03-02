@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.PSEUDO_SCIENCE",
+    ctype: "THOUGHT",
     en_title: "PSEUDO-SCIENCE",
     en_content: "There is no science without God.",
     es_title: "PSEUDO-CIENCIA",

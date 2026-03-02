@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.POWERLESS CHURCH",
 
 CREATE (c:CONTENT {
     name: "content.POWERLESS CHURCH",
+    ctype: "THOUGHT",
     en_title: "Powerless Church",
     en_content: "The church that is without power doesn't understand The Gospel (Romans 1:16).",
     es_title: "Iglesia Sin Poder",

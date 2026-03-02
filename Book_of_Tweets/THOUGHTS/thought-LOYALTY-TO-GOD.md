@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.LOYALTY TO GOD",
 
 CREATE (c:CONTENT {
     name: "content.LOYALTY TO GOD",
+    ctype: "THOUGHT",
     en_title: "Loyalty To God",
     en_content: "What pleases God? Loyalty...at whatever cost to yourself, your family or your friends.",
     es_title: "Lealtad a Dios",

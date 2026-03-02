@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.FORGIVING THE FUTURE",
+    ctype: "THOUGHT",
     en_title: "Forgiving The Future",
     en_content: "We're so busy struggling to forgive the past we never consider the necessity of forgiving the future.",
     es_title: "Perdonando el Futuro",

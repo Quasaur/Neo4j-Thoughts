@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.END OF ALL FLESH",
 
 CREATE (c:CONTENT {
     name: "content.END OF ALL FLESH",
+    ctype: "THOUGHT",
     en_title: "End Of All Flesh",
     en_content: "\"The end of all flesh is come before Me...\" -- God",
     es_title: "Fin de toda carne",

@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.692_189",
+    ctype: "THOUGHT",
     en_title: "692, 189",
     en_content: "There have been 692 mass shootings in the U.S. in 2021…</br>…and 189 mass shootings in the U.S.A. this year already…</br>…and it’s just May…</br>…and it’s the Church’s fault.</br>2nd Chronicles 7:14",
     es_title: "692, 189",

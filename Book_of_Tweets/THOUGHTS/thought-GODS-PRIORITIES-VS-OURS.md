@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.GODS PRIORITIES VS OURS",
 
 CREATE (c:CONTENT {
     name: "content.GODS PRIORITIES VS OURS",
+    ctype: "THOUGHT",
     en_title: "Gods Priorities Vs Ours",
     en_content: "The things that are important to God are rarely important to us.",
     es_title: "Las Prioridades de Dios Vs las Nuestras",

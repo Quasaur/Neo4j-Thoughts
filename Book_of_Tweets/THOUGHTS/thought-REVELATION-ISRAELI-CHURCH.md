@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.REVELATION ISRAELI CHURCH",
 
 CREATE (c:CONTENT {
     name: "content.REVELATION ISRAELI CHURCH",
+    ctype: "THOUGHT",
     en_title: "Revelation Israeli Church",
     en_content: "Revelation is not about the gentile church as much as the Israeli church. In this context, everything starts to make sense.",
     es_title: "Apocalipsis Iglesia Israelí",

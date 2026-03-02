@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.ACCOUNTABILITY",
 
 CREATE (c:CONTENT {
     name: "content.ACCOUNTABILITY",
+    ctype: "THOUGHT",
     en_title: "Accountability",
     en_content: "God doesn't spare you the consequences of my actions.",
     es_title: "Responsabilidad",

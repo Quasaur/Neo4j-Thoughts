@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.GODS WILL AND POWER",
 
 CREATE (c:CONTENT {
     name: "content.GODS WILL AND POWER",
+    ctype: "THOUGHT",
     en_title: "Gods Will And Power",
     en_content: "God has His Own Will and Desire and more than enough Power to execute Them.",
     es_title: "La Voluntad y el Poder de Dios",

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.UNITY IN CHRIST",
 
 CREATE (c:CONTENT {
     name: "content.UNITY IN CHRIST",
+    ctype: "THOUGHT",
     en_title: "Unity In Christ",
     en_content: "True unity of spirit, soul, body, family, community and nation lies only in Jesus Christ.",
     es_title: "Unidad En Cristo",

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.DIALOGUE",
+    ctype: "THOUGHT",
     en_title: "DIALOGUE",
     en_content: ""
 });

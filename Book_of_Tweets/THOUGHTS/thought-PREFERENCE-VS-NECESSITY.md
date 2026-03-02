@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.PREFERENCE VS NECESSITY",
 
 CREATE (c:CONTENT {
     name: "content.PREFERENCE VS NECESSITY",
+    ctype: "THOUGHT",
     en_title: "Preference Vs Necessity",
     en_content: "Preference must give way to Necessity.",
     es_title: "Preferencia Vs Necesidad",

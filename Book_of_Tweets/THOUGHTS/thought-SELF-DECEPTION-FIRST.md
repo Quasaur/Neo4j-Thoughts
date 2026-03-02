@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.SELF DECEPTION FIRST",
 
 CREATE (c:CONTENT {
     name: "content.SELF DECEPTION FIRST",
+    ctype: "THOUGHT",
     en_title: "Self Deception First",
     en_content: "To deceive another, you must first deceive yourself.",
     es_title: "Primero el Autoengaño",

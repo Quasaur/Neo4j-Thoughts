@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.CONTRACTOR NOT SLAVE",
 
 CREATE (c:CONTENT {
     name: "content.CONTRACTOR NOT SLAVE",
+    ctype: "THOUGHT",
     en_title: "Contractor Not Slave",
     en_content: "A contractor is NOT a slave.",
     es_title: "Contratista No Esclavo",

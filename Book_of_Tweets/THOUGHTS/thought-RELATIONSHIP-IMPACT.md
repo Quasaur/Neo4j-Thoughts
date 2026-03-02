@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.RELATIONSHIP IMPACT",
 
 CREATE (c:CONTENT {
     name: "content.RELATIONSHIP IMPACT",
+    ctype: "THOUGHT",
     en_title: "Relationship Impact",
     en_content: "You are either a beneficiary or a casualty of my relationship with God.",
     es_title: "Impacto de la relación",

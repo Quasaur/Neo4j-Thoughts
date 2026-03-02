@@ -23,6 +23,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.WHEN_JESUS_RETURNS",
+    ctype: "THOUGHT",
     en_title: "WHEN JESUS RETURNS",
     en_content: "…and with Him choirs of angels that outnumber demons and humans combined, it’s over (the deception, delusion and lies).
 NOW is the time to turn off the TV, radio and phone.

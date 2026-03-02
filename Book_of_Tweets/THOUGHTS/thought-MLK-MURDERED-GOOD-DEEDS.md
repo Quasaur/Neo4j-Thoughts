@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.MLK MURDERED GOOD DEEDS",
 
 CREATE (c:CONTENT {
     name: "content.MLK MURDERED GOOD DEEDS",
+    ctype: "THOUGHT",
     en_title: "Mlk Murdered Good Deeds",
     en_content: "Remember: Martin Luther King Jr. was murdered -- not for his crimes, but for his good deeds.",
     es_title: "MLK Asesinado Por Buenas Obras",

@@ -19,6 +19,7 @@ CREATE (t:THOUGHT {    name: "thought.HUMAN DESTRUCTIVENESS",
 
 CREATE (c:CONTENT {
     name: "content.HUMAN DESTRUCTIVENESS",
+    ctype: "THOUGHT",
     en_title: "Self Destructive Humans",
     en_content: "BP Oil Spill: we humans are amazingly self-destructive.",
     es_title: "Humanos autodestructivos",

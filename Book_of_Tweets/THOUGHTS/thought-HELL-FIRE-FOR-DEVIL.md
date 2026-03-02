@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.HELL FIRE FOR DEVIL",
 
 CREATE (c:CONTENT {
     name: "content.HELL FIRE FOR DEVIL",
+    ctype: "THOUGHT",
     en_title: "Hell Fire For Devil",
     en_content: "Hell Fire wasn't made by the Devil...it was made for the Devil by God.",
     es_title: "Fuego del Infierno Para el Diablo",

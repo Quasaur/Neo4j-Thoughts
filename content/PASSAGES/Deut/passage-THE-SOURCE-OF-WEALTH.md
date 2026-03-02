@@ -25,6 +25,7 @@ CREATE (b:PASSAGE
 // create multi-lingual content  
 CREATE (c:CONTENT {
  name: "content.THE SOURCE OF WEALTH", 
+ ctype: "PASSAGE",
  en_title: "THE SOURCE OF WEALTH", 
  en_content: "But you are to remember the LORD your God, for it is He Who is giving you power to make wealth, in order to confirm His Covenant which He swore to your fathers, as it is this day.", 
  es_title: "La Fuente de la Riqueza", 

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.OPPRESSIVE WEALTH",
 
 CREATE (c:CONTENT {
     name: "content.OPPRESSIVE WEALTH",
+    ctype: "THOUGHT",
     en_title: "Oppressive Wealth",
     en_content: "The Bible says some nasty things about rich people who oppress the masses.",
     es_title: "Riqueza Opresiva",

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.SPECIFIED COMPLEXITY",
 
 CREATE (c:CONTENT {
     name: "content.SPECIFIED COMPLEXITY",
+    ctype: "THOUGHT",
     en_title: "Specified Complexity",
     en_content: "Evolution can't explain Specified Complexity.",
     es_title: "Complejidad especificada",

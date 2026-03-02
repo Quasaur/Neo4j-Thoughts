@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.DEHUMANIZING LABOR WATCHING",
 
 CREATE (c:CONTENT {
     name: "content.DEHUMANIZING LABOR WATCHING",
+    ctype: "THOUGHT",
     en_title: "Dehumanizing Labor Watching",
     en_content: "To those that continue to dehumanize blue and white collar laborers: GOD IS WATCHING.",
     es_title: "Dios Observa la Deshumanización Laboral",

@@ -23,7 +23,7 @@ CREATE (p:PASSAGE {	    name: "passage.UNJUST GAIN",
 // create multi-lingual content		
 CREATE (c:CONTENT {
 	name: "content.UNJUST GAIN",
-	ctype: 3, // 1=thought; 2=quote; 3=passage
+	ctype: "PASSAGE",
 	en_title: "UNJUST GAIN", 
 	en_content: "Such are the ways of everyone who makes unjust gain; it takes away the life of its possessors.", 
 	es_title: "Ganancia injusta", 

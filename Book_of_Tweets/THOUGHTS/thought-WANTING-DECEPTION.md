@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.WANTING DECEPTION",
 
 CREATE (c:CONTENT {
     name: "content.WANTING DECEPTION",
+    ctype: "THOUGHT",
     en_title: "Wanting Deception",
     en_content: "The Bible says that Satan has deceived us all...and we want to be deceived!",
     es_title: "Deseando el Engaño",

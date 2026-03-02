@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.HAPPY IF GOD PLEASED",
 
 CREATE (c:CONTENT {
     name: "content.HAPPY IF GOD PLEASED",
+    ctype: "THOUGHT",
     en_title: "Happy If God Pleased",
     en_content: "How can I not be happy if God is pleased with me?",
     es_title: "Feliz Si Dios Está Complacido",

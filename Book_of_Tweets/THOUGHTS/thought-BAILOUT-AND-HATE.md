@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.BAILOUT AND HATE",
 
 CREATE (c:CONTENT {
     name: "content.BAILOUT AND HATE",
+    ctype: "THOUGHT",
     en_title: "Bailout And Hate",
     en_content: "Obama bailed out the Republicans...which made them hate him all the more.",
     es_title: "Rescate y Odio",

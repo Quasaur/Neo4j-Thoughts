@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.ENDANGERED BLACK MEN",
 
 CREATE (c:CONTENT {
     name: "content.ENDANGERED BLACK MEN",
+    ctype: "THOUGHT",
     en_title: "Endangered Black Men",
     en_content: "African American men have ALWAYS been the targets of genocide...we are an ENDANGERED SPECIES.",
     es_title: "Hombres Negros en Peligro de Extinción",

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.LIMITLESS DIVINE POWER",
 
 CREATE (c:CONTENT {
     name: "content.LIMITLESS DIVINE POWER",
+    ctype: "THOUGHT",
     en_title: "Limitless Divine Power",
     en_content: "ABSOLUTE POWER: Besides His Own Limitless Power, everyone else's power is also at God's Disposal...even Satan's.",
     es_title: "Poder Divino Ilimitado",

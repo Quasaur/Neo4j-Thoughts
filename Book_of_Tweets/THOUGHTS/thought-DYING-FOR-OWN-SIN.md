@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.DYING FOR OWN SIN",
 
 CREATE (c:CONTENT {
     name: "content.DYING FOR OWN SIN",
+    ctype: "THOUGHT",
     en_title: "Dying For Own Sin",
     en_content: "I die--not for Adam's sin but for my own; for I was in Adam when he sinned and therefore sinned with him!",
     es_title: "Morir Por Mi Propio Pecado",

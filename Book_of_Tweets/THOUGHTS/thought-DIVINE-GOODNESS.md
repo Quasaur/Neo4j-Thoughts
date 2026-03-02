@@ -19,6 +19,7 @@ CREATE (t:THOUGHT {    name: "thought.DIVINE GOODNESS",
 
 CREATE (c:CONTENT {
     name: "content.DIVINE GOODNESS",
+    ctype: "THOUGHT",
     en_title: "God is Good",
     en_content: "It blows my mind how good God is to a person as wicked as I am.",
     es_title: "Dios es bueno",

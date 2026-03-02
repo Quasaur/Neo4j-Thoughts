@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.CHRISTIANITY STEPS",
 
 CREATE (c:CONTENT {
     name: "content.CHRISTIANITY STEPS",
+    ctype: "THOUGHT",
     en_title: "Christianity Steps",
     en_content: "Christianity: READ, HEAR, BELIEVE, CONFESS, OBEY, ASK, RECEIVE.",
     es_title: "Pasos del Cristianismo",

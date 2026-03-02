@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.IN_HIM_WE_LIVE",
+    ctype: "THOUGHT",
     en_title: "IN HIM WE LIVE",
     en_content: "We are all inside of God...is God inside of us?",
     es_title: "EN ÉL VIVIMOS",

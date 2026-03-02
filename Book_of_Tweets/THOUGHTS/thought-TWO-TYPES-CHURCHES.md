@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.TWO TYPES CHURCHES",
 
 CREATE (c:CONTENT {
     name: "content.TWO TYPES CHURCHES",
+    ctype: "THOUGHT",
     en_title: "Two Types Churches",
     en_content: "There are two churches: (1) the institutionalized church, and (2) the REAL church elected by God; one is temporary, one is eternal.",
     es_title: "Dos Tipos de Iglesias",

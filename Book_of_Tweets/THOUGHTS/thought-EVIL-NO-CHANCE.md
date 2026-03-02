@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.EVIL NO CHANCE",
 
 CREATE (c:CONTENT {
     name: "content.EVIL NO CHANCE",
+    ctype: "THOUGHT",
     en_title: "Evil No Chance",
     en_content: "Look at God. Evil never had a chance!",
     es_title: "El Mal Sin Oportunidad",

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.GLOBAL DICTATORSHIPS",
 
 CREATE (c:CONTENT {
     name: "content.GLOBAL DICTATORSHIPS",
+    ctype: "THOUGHT",
     en_title: "Global Dictatorships",
     en_content: "2 billion of the 7 billion people on this planet live under dictatorships.",
     es_title: "Dictaduras Globales",

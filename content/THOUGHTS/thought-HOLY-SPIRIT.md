@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.THE_HOLY_SPIRIT",
+    ctype: "THOUGHT",
     en_title: "THE HOLY SPIRIT",
     en_content: "The Holy Spirit is God, and all men must be filled with Him.",
     es_title: "EL ESPÍRITU SANTO",

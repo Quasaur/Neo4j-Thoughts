@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.HAPPY_SABBATH",
+    ctype: "THOUGHT",
     en_title: "HAPPY SABBATH",
     en_content: "Happy Sabbath, Earth!",
     es_title: "FELIZ SÁBADO",

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.THE BRINK OF EXTINCTION",
 
 CREATE (c:CONTENT {
     name: "content.THE BRINK OF EXTINCTION",
+    ctype: "THOUGHT",
     en_title: "The Brink Of Extinction",
     en_content: "Matthew 24:21, 22: It may be that Christ will not return until humanity is on the brink of extinction.",
     es_title: "Al Borde de la Extinción",

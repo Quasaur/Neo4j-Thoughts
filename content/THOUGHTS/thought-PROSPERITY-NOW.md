@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.PROSPERITY_NOW",
+    ctype: "THOUGHT",
     en_title: "PROSPERITY NOW",
     en_content: "If the itinerary of our lives is in our hands instead of God’s, then prayer is no longer supplication, but sorcery.",
     es_title: "PROSPERIDAD AHORA",

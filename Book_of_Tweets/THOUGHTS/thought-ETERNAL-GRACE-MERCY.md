@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.ETERNAL GRACE MERCY",
 
 CREATE (c:CONTENT {
     name: "content.ETERNAL GRACE MERCY",
+    ctype: "THOUGHT",
     en_title: "Eternal Grace Mercy",
     en_content: "Psalm 136: Grace, Mercy and Kindness will never be obsolete; they endure forever.",
     es_title: "Gracia Eterna y Misericordia",

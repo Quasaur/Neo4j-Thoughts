@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.DEFINE DIVINE JEALOUSY",
 
 CREATE (c:CONTENT {
     name: "content.DEFINE DIVINE JEALOUSY",
+    ctype: "THOUGHT",
     en_title: "Define Divine Jealousy",
     en_content: "Divine Jealousy: Ownership in Love with Responsibility and Accountability.",
     es_title: "Definir Celos Divinos",

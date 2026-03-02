@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.ETERNAL IMMORTALITY",
 
 CREATE (c:CONTENT {
     name: "content.ETERNAL IMMORTALITY",
+    ctype: "THOUGHT",
     en_title: "Eternal Immortality",
     en_content: "If you die eternally, you're already dead; if you live eternally, you were always immortal!",
     es_title: "Inmortalidad Eterna",

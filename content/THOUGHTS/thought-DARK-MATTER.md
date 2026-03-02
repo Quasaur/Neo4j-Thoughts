@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.DARK_MATTER",
+    ctype: "THOUGHT",
     en_title: "DARK MATTER",
     en_content: "What if dark matter is a type of WATER?",
     es_title: "MATERIA OSCURA",

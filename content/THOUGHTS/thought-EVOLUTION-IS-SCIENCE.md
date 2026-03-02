@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.EVOLUTION_IS_SCIENCE?",
+    ctype: "THOUGHT",
     en_title: "EVOLUTION IS SCIENCE?",
     en_content: "To equate science and evolution (considering the MOUNTAIN of evidence against evolution) would be premature, I think!",
     es_title: "¿LA EVOLUCIÓN ES CIENCIA?",

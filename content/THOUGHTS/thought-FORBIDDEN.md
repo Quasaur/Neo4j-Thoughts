@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.FORBIDDEN",
+    ctype: "THOUGHT",
     en_title: "Forbidden",
     en_content: "What attracts us to the forbidden? It's forbidden!",
     es_title: "Prohibido",

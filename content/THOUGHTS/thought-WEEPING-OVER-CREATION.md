@@ -19,6 +19,7 @@ CREATE (t:THOUGHT {    name: "thought.WEEPING OVER CREATION",
 
 CREATE (c:CONTENT {
     name: "content.WEEPING OVER CREATION",
+    ctype: "THOUGHT",
     en_title: "Weeping over Creation",
     en_content: "(Weeping over BP Oil Spill).",
     es_title: "Llorando por creación",

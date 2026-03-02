@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.READY FOR ETERNITY",
 
 CREATE (c:CONTENT {
     name: "content.READY FOR ETERNITY",
+    ctype: "THOUGHT",
     en_title: "Ready For Eternity",
     en_content: "We are all going to die; are you ready for Eternity?",
     es_title: "Preparados Para la Eternidad",

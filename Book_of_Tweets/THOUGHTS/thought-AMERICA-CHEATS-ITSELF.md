@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.AMERICA CHEATS ITSELF",
 
 CREATE (c:CONTENT {
     name: "content.AMERICA CHEATS ITSELF",
+    ctype: "THOUGHT",
     en_title: "America Cheats Itself",
     en_content: "America is a nation that CHEATS ITSELF out of its own money.",
     es_title: "América se Engaña a Sí Misma",

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.PSEUDOSCIENCE FAILURE",
 
 CREATE (c:CONTENT {
     name: "content.PSEUDOSCIENCE FAILURE",
+    ctype: "THOUGHT",
     en_title: "Pseudoscience Failure",
     en_content: "The Standard Model: pseudo-science's failure to convince the world of a God-less universe.",
     es_title: "Fracaso de la pseudociencia",

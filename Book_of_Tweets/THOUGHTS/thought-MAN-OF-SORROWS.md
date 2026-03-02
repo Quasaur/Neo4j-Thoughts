@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.MAN OF SORROWS",
 
 CREATE (c:CONTENT {
     name: "content.MAN OF SORROWS",
+    ctype: "THOUGHT",
     en_title: "Man Of Sorrows",
     en_content: "Jesus was a Man of sorrows...acquainted with grief--not because of what they did to Him, but what they did to each other!",
     es_title: "Varón de Dolores",

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.MEN SHAVING CHILDREN",
 
 CREATE (c:CONTENT {
     name: "content.MEN SHAVING CHILDREN",
+    ctype: "THOUGHT",
     en_title: "Men Shaving Children",
     en_content: "It may be that women like us men to shave that they may treat us like children.",
     es_title: "Hombres Afeitándose Niños",

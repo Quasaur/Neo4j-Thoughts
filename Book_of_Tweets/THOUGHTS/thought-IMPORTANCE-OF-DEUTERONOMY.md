@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.IMPORTANCE OF DEUTERONOMY",
 
 CREATE (c:CONTENT {
     name: "content.IMPORTANCE OF DEUTERONOMY",
+    ctype: "THOUGHT",
     en_title: "Importance Of Deuteronomy",
     en_content: "I'm convinced that the most important book of the Old Testament is Deuteronomy, which contains the ENTIRE PANORAMA of Biblical history.",
     es_title: "Importancia del Deuteronomio",

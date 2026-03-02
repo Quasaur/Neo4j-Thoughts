@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.ANNIHILATION OF EVIL",
 
 CREATE (c:CONTENT {
     name: "content.ANNIHILATION OF EVIL",
+    ctype: "THOUGHT",
     en_title: "Annihilation Of Evil",
     en_content: "Evil itself is doomed to annihilation...forever.",
     es_title: "Aniquilación del Mal",

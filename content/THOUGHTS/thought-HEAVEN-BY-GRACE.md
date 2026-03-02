@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.HEAVEN BY GRACE",
+    ctype: "THOUGHT",
     en_title: "Heaven By Grace",
     en_content: "I know I have no business being in Heaven--but I'm going...such is the Power of Divine Grace!",
     es_title: "El Cielo por Gracia",

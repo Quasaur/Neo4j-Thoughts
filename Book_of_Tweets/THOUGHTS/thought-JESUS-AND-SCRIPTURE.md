@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.JESUS AND SCRIPTURE",
 
 CREATE (c:CONTENT {
     name: "content.JESUS AND SCRIPTURE",
+    ctype: "THOUGHT",
     en_title: "Jesus And Scripture",
     en_content: "Jesus treated the Scriptures as the Testimony of God...I would be foolish to do otherwise.",
     es_title: "Jesús Y Las Escrituras",

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.OVERCOMING FEAR BLAME",
 
 CREATE (c:CONTENT {
     name: "content.OVERCOMING FEAR BLAME",
+    ctype: "THOUGHT",
     en_title: "Overcoming Fear Blame",
     en_content: "If you keep blaming others for your fears, you'll never overcome them.",
     es_title: "Superando la Culpa del Miedo",

@@ -25,6 +25,7 @@ CREATE (q:QUOTE {
 // CREATE CONTENT
 CREATE (c:CONTENT {
     name: "content.CHAOS",
+    ctype: "QUOTE",
     en_title: "Quote: CHAOS",
     en_content: "We fear Chaos above little else and, consciously or subconsciously, are constantly trying to create order where there may actually be none."
 });

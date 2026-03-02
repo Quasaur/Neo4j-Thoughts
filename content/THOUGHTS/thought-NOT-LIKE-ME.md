@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.NOT_LIKE_ME",
+    ctype: "THOUGHT",
     en_title: "NOT-LIKE-ME",
     en_content: "I was wrong about God; He's not in any way near as vindictive, judgmental or self-righteous as I am.",
     es_title: "NO COMO YO",

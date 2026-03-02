@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.GODS GENIUS LOVE HATE",
 
 CREATE (c:CONTENT {
     name: "content.GODS GENIUS LOVE HATE",
+    ctype: "THOUGHT",
     en_title: "Gods Genius Love Hate",
     en_content: "What identifies God's Genius is the ability to hate evil while simultaneously loving evil people.",
     es_title: "El Genio del Amor y Odio de Dios",

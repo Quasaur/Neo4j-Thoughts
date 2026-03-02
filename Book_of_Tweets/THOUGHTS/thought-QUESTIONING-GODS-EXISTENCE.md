@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.QUESTIONING GODS EXISTENCE",
 
 CREATE (c:CONTENT {
     name: "content.QUESTIONING GODS EXISTENCE",
+    ctype: "THOUGHT",
     en_title: "Questioning Gods Existence",
     en_content: "In a perverse generation they question God's Existence, when it's their existence and survival that has a question mark behind them.",
     es_title: "Cuestionando la Existencia de Dios",

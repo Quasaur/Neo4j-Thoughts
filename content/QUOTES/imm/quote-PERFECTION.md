@@ -23,6 +23,7 @@ CREATE (q:QUOTE
 // create multi-lingual content		
 CREATE (c:CONTENT {
 	name: "content.PERFECTION", 
+	ctype: "QUOTE",
 	en_title: "PERFECTION", 
 	en_content: "Be it ever so ubiquitous, the existence of imperfection does not prove that Perfection does not exist! Rather, the recognition of imperfection, by the very name with which we label it, is proof that, deep in the human spirit, the truth of Perfection is both extant and, at a very deep level, assumed even by those who dishonestly claim that It doesn’t exist. IF PERFECTION DOES NOT EXIST, NEITHER DOES IMPERFECTION; you can’t logically have one without the other!", 
 	es_title: "Perfección", 

@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.DESPISING_THE_CROSS",
+    ctype: "THOUGHT",
     en_title: "DESPISING THE CROSS",
     en_content: "A myriad excuses are offered for the most heinous of crimes…yet beyond any reasonable doubt, the one who despises The Cross of Jesus Christ deserves to burn in the Lake of Fire FOREVER.
 John 16:7-9",

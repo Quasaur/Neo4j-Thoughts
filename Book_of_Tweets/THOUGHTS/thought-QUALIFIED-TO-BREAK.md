@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.QUALIFIED TO BREAK",
 
 CREATE (c:CONTENT {
     name: "content.QUALIFIED TO BREAK",
+    ctype: "THOUGHT",
     en_title: "Qualified To Break",
     en_content: "The only Person qualified to break me is The One Who has demonstrated Their LOVE for me.",
     es_title: "Calificado Para Quebrantar",

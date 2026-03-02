@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.WITNESSING GODS PRESENCE",
 
 CREATE (c:CONTENT {
     name: "content.WITNESSING GODS PRESENCE",
+    ctype: "THOUGHT",
     en_title: "Witnessing Gods Presence",
     en_content: "We assemble to witness the manifestation of God's Presence; it is there that sins are forgiven, yokes are broken and bodies are healed.",
     es_title: "Siendo Testigos de la Presencia de Dios",

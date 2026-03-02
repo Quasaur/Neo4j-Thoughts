@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.CHANGE OTHERS NOT SELF",
 
 CREATE (c:CONTENT {
     name: "content.CHANGE OTHERS NOT SELF",
+    ctype: "THOUGHT",
     en_title: "Change Others Not Self",
     en_content: "We want God to change everyone but ourselves; for the truth is that change can be a painful process...even when God is performing it.",
     es_title: "Cambiar a Otros No a Uno Mismo",

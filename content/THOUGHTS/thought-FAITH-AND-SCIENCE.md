@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.FAITH AND SCIENCE",
+    ctype: "THOUGHT",
     en_title: "Faith And Science",
     en_content: "The Standard Model (Inflation, Dark Matter/Energy/Flow) takes more FAITH than to believe God holds the universe together by His Word.",
     es_title: "Fe y ciencia",

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.DEFINE EXQUISITAGIOUS",
 
 CREATE (c:CONTENT {
     name: "content.DEFINE EXQUISITAGIOUS",
+    ctype: "THOUGHT",
     en_title: "Define Exquisitagious",
     en_content: "New Word: exquisitagious Meaning: something so exquisite that the feeling's contagious!",
     es_title: "Definir Exquisitagioso",

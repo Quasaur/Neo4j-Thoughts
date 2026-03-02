@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.GALATIANS LAW DEBATE",
 
 CREATE (c:CONTENT {
     name: "content.GALATIANS LAW DEBATE",
+    ctype: "THOUGHT",
     en_title: "Galatians Law Debate",
     en_content: "The debate of Galatians is not over the law, but whether or not keeping the law will save one WHO HAS ALREADY BROKEN IT.",
     es_title: "Debate de la Ley en Gálatas",

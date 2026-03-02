@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.GOD NOT AMERICAN",
 
 CREATE (c:CONTENT {
     name: "content.GOD NOT AMERICAN",
+    ctype: "THOUGHT",
     en_title: "God Not American",
     en_content: "God is NOT an American.",
     es_title: "Dios No Es Estadounidense",

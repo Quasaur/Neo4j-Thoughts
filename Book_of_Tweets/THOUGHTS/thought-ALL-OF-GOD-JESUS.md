@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.ALL OF GOD JESUS",
 
 CREATE (c:CONTENT {
     name: "content.ALL OF GOD JESUS",
+    ctype: "THOUGHT",
     en_title: "All Of God Jesus",
     en_content: "Jesus Christ is the only Man Who could fit ALL OF GOD in Himself, because HE IS GOD!",
     es_title: "Todo Dios en Jesús",

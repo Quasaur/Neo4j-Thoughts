@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.STANDARD MODEL HOLES",
 
 CREATE (c:CONTENT {
     name: "content.STANDARD MODEL HOLES",
+    ctype: "THOUGHT",
     en_title: "Standard Model Holes",
     en_content: "The holes in the Standard Model, irreducible and specific complexity, the lack of transitional links in the fossil record...take your pick.",
     es_title: "Agujeros modelo estándar",

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.GNOSIS",
+    ctype: "THOUGHT",
     en_title: "GNOSIS",
     en_content: ""
 });

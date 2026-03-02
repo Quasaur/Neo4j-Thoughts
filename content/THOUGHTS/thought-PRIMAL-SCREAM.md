@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.PRIMAL_SCREAM",
+    ctype: "THOUGHT",
     en_title: "PRIMAL SCREAM",
     en_content: "I believe in the Primal Scream.",
     es_title: "GRITO PRIMARIO",

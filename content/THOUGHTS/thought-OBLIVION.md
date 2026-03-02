@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.OBLIVION",
+    ctype: "THOUGHT",
     en_title: "OBLIVION",
     en_content: "# OBLIVION
 The Lord Jesus said that humanity would be driven to the edge of extinction before He returns…and Jesus never lies."

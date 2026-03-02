@@ -24,6 +24,7 @@ CREATE (q:QUOTE {
 // CREATE CONTENT
 CREATE (c:CONTENT {
     name: "content.THE_VALUE_OF_FAITH",
+    ctype: "QUOTE",
     en_title: "Quote: THE VALUE OF FAITH",
     en_content: "Faith is only as potent and valuable (or, only as REAL) as the idea, object or person in/upon which that faith is placed."
 });

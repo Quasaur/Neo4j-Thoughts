@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.MOTHER OF JESUS",
 
 CREATE (c:CONTENT {
     name: "content.MOTHER OF JESUS",
+    ctype: "THOUGHT",
     en_title: "Mother Of Jesus",
     en_content: "Mary is the BIOLOGICAL mother of Jesus, not the SPIRITUAL mother of God.",
     es_title: "Madre de Jesús",

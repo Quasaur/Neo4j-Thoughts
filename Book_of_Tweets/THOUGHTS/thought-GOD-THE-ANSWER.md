@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.GOD THE ANSWER",
 
 CREATE (c:CONTENT {
     name: "content.GOD THE ANSWER",
+    ctype: "THOUGHT",
     en_title: "God The Answer",
     en_content: "The fact that God is That Single Answer does not in any way diminish the wonder of His Creation.",
     es_title: "Dios es la Respuesta",

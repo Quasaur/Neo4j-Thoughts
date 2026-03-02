@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.CHRIST UNIVERSAL DESTINY",
 
 CREATE (c:CONTENT {
     name: "content.CHRIST UNIVERSAL DESTINY",
+    ctype: "THOUGHT",
     en_title: "Christ Universal Destiny",
     en_content: "Christ is everyone's Destiny...no exceptions!",
     es_title: "Cristo es el Destino Universal",

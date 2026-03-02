@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.HEAVEN WITHIN SALVATION",
+    ctype: "THOUGHT",
     en_title: "Heaven Within Salvation",
     en_content: "The objective of Salvation is not to get you into Heaven, but to get Heaven into you.",
     es_title: "El Cielo Dentro de la Salvación",

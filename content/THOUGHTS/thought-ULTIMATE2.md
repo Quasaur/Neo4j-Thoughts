@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.ULTIMATE2",
+    ctype: "THOUGHT",
     en_title: "ULTIMATE2",
     en_content: "Every human that has ever lived will soon face either the Greatest Terror (God's Wrath) or the Greatest Pleasure (God's Grace).",
     es_title: "LO ÚLTIMO (2)",

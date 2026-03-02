@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.HUMILITY OF CREATION",
 
 CREATE (c:CONTENT {
     name: "content.HUMILITY OF CREATION",
+    ctype: "THOUGHT",
     en_title: "Humility Of Creation",
     en_content: "It was The Supreme Act of Humility for God, Who doesn't need anything, to create something!",
     es_title: "Humildad de la Creación",

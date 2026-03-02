@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.MYSTERY OF WOMAN",
 
 CREATE (c:CONTENT {
     name: "content.MYSTERY OF WOMAN",
+    ctype: "THOUGHT",
     en_title: "Mystery Of Woman",
     en_content: "Adam did not see Eve being created; therefore Woman will always be a Mystery to Man.",
     es_title: "El Misterio de la Mujer",

@@ -23,6 +23,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.MIRACLES",
+    ctype: "THOUGHT",
     en_title: "MIRACLES",
     en_content: "Miracles are...
 ...the only Acts God has ever done,

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.GOD WANTS ME",
 
 CREATE (c:CONTENT {
     name: "content.GOD WANTS ME",
+    ctype: "THOUGHT",
     en_title: "God Wants Me",
     en_content: "Everybody demands something from me, but only God wants me.",
     es_title: "Dios Me Quiere",

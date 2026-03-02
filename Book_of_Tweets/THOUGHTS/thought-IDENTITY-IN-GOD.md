@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.IDENTITY IN GOD",
 
 CREATE (c:CONTENT {
     name: "content.IDENTITY IN GOD",
+    ctype: "THOUGHT",
     en_title: "Identity In God",
     en_content: "The only reason anyone would want to be \"normal\" or \"like everyone else\" is that they do not know who they are in God!",
     es_title: "Identidad En Dios",

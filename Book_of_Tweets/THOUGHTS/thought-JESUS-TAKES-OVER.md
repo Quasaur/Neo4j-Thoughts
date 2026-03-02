@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.JESUS TAKES OVER",
 
 CREATE (c:CONTENT {
     name: "content.JESUS TAKES OVER",
+    ctype: "THOUGHT",
     en_title: "Jesus Takes Over",
     en_content: "\"I come: not to take sides, but to take over.\" - Jesus Christ",
     es_title: "Jesús toma el control",

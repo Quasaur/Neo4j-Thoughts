@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.WILL_VS_WILL",
+    ctype: "THOUGHT",
     en_title: "WILL VS WILL",
     en_content: "The Challenge of life is not to do God's Will, it is to do God's Will when your will is headed in another direction.",
     es_title: "VOLUNTAD CONTRA VOLUNTAD",

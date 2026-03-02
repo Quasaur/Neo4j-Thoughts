@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.APPEARING HUMAN",
 
 CREATE (c:CONTENT {
     name: "content.APPEARING HUMAN",
+    ctype: "THOUGHT",
     en_title: "Appearing Human",
     en_content: "Beware of those who appear human, but ain't!",
     es_title: "Apariencia Humana",

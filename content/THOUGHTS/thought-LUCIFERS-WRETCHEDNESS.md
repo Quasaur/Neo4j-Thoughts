@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.LUCIFERS WRETCHEDNESS",
+    ctype: "THOUGHT",
     en_title: "Lucifers Wretchedness",
     en_content: "What a wretch Lucifer must be, to despise his most ardent Supporter!",
     es_title: "La Miseria de Lucifer",

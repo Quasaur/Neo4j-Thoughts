@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.DIVINE WILL",
 
 CREATE (c:CONTENT {
     name: "content.DIVINE WILL",
+    ctype: "THOUGHT",
     en_title: "DIVINE WILL",
     en_content: "Do you really believe that God has EVER done something He didn't want to do?",
     es_title: "VOLUNTAD DIVINA",

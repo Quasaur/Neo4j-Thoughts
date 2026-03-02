@@ -19,6 +19,7 @@ CREATE (t:THOUGHT {    name: "thought.RESURRECTION BIRTH",
 
 CREATE (c:CONTENT {
     name: "content.RESURRECTION BIRTH",
+    ctype: "THOUGHT",
     en_title: "Resurrection Birth",
     en_content: "This life is my womb...The Resurrection is my birth.",
     es_title: "Nacimiento resurrección",

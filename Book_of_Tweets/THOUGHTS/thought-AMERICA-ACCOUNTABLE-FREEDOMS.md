@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.AMERICA ACCOUNTABLE FREEDOMS",
 
 CREATE (c:CONTENT {
     name: "content.AMERICA ACCOUNTABLE FREEDOMS",
+    ctype: "THOUGHT",
     en_title: "America Accountable Freedoms",
     en_content: "America, God will hold you accountable for the way you spent your freedoms.",
     es_title: "América Responsable de sus Libertades",

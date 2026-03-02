@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.CHEATING THE ECONOMY",
 
 CREATE (c:CONTENT {
     name: "content.CHEATING THE ECONOMY",
+    ctype: "THOUGHT",
     en_title: "Cheating The Economy",
     en_content: "As long as we feel it necessary to cheat, lie and steal to survive, our economy will never truly prosper.",
     es_title: "Engañar a la Economía",

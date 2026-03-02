@@ -23,7 +23,7 @@ CREATE (p:PASSAGE {	    name: "passage.SECURITY",
 // create multi-lingual content		
 CREATE (c:CONTENT {
 	name: "content.SECURITY",
-	ctype: 3, // 1=thought; 2=quote; 3=passage
+	ctype: "PASSAGE",
 	en_title: "SECURITY", 
 	en_content: "But whoever listens to Me (Wisdom) will live securely and will be at ease from the dread of evil.", 
 	es_title: "Seguridad", 

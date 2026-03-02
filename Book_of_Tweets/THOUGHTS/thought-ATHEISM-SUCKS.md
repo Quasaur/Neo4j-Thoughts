@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.ATHEISM SUCKS",
 
 CREATE (c:CONTENT {
     name: "content.ATHEISM SUCKS",
+    ctype: "THOUGHT",
     en_title: "Atheism Sucks",
     en_content: "The problem with believing you're a thing is that you'll start treating other people as things. Atheism sucks!",
     es_title: "El Ateísmo Apesta",

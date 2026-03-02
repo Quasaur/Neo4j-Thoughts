@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.BORN TWICE",
 
 CREATE (c:CONTENT {
     name: "content.BORN TWICE",
+    ctype: "THOUGHT",
     en_title: "Born Twice",
     en_content: "Born once, die twice; born twice, die once--Happy Resurrection Day!",
     es_title: "Nacido Dos Veces",

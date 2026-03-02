@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.GOD ALWAYS RIGHT",
 
 CREATE (c:CONTENT {
     name: "content.GOD ALWAYS RIGHT",
+    ctype: "THOUGHT",
     en_title: "God Always Right",
     en_content: "Only God is right about everything.",
     es_title: "Dios Siempre Tiene Razón",

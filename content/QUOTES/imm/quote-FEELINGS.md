@@ -25,6 +25,7 @@ CREATE (q:QUOTE {
 // CREATE CONTENT
 CREATE (c:CONTENT {
     name: "content.FEELINGS",
+    ctype: "QUOTE",
     en_title: "Quote: FEELINGS",
     en_content: "Your personal neuroses (guilt, shame, depression, bipolar disorder, etc.) notwithstanding, when you pray GOD STOPS WHAT HE’S DOING AND LISTENS! Your perception of His Presence (or lack thereof) is irrelevant; what matters is the truth and your faith in the truth…not your feelings."
 });

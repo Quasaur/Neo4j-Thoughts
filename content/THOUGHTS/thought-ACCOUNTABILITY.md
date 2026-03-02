@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.ACCOUNTABILITY",
+    ctype: "THOUGHT",
     en_title: "ACCOUNTABILITY",
     en_content: "The idea of God introduces the concept of accountability.",
     es_title: "RESPONSABILIDAD",

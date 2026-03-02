@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.CORRUPTION WITHOUT DEATH",
 
 CREATE (c:CONTENT {
     name: "content.CORRUPTION WITHOUT DEATH",
+    ctype: "THOUGHT",
     en_title: "Corruption Without Death",
     en_content: "Watched movie \"In Time\"; without death, humanity would be even more hideously corrupt than it is now.",
     es_title: "Corrupción Sin Muerte",

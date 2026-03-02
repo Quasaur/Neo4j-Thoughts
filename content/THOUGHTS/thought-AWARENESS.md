@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.AWARENESS",
+    ctype: "THOUGHT",
     en_title: "AWARENESS",
     en_content: "Self-awareness is the second most precious gift God has given us; the first is God-awareness!",
     es_title: "CONCIENCIA DE DIOS",

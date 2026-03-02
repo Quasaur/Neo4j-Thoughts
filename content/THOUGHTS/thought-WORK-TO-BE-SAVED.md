@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.WORK TO BE SAVED",
+    ctype: "THOUGHT",
     en_title: "Work To Be Saved",
     en_content: "Getting saved is hard work; but hard work alone won't get you saved.",
     es_title: "Trabajar Para Ser Salvado",

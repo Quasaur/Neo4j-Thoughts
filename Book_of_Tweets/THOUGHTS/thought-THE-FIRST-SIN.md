@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.THE FIRST SIN",
 
 CREATE (c:CONTENT {
     name: "content.THE FIRST SIN",
+    ctype: "THOUGHT",
     en_title: "The First Sin",
     en_content: "The First Sinner committed the First Sin by taking the credit for that which he did not create: himself.",
     es_title: "El Primer Pecado",

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.REMEMBERING VS LIVING PAST",
 
 CREATE (c:CONTENT {
     name: "content.REMEMBERING VS LIVING PAST",
+    ctype: "THOUGHT",
     en_title: "Remembering Vs Living Past",
     en_content: "There's no sin in remembering the past...only in trying to live in it.",
     es_title: "Recordar Vs Vivir en el Pasado",

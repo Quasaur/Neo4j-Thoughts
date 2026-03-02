@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.CHURCH PILLAR OF TRUTH",
 
 CREATE (c:CONTENT {
     name: "content.CHURCH PILLAR OF TRUTH",
+    ctype: "THOUGHT",
     en_title: "Church Pillar Of Truth",
     en_content: "1 Tim. 3:15: The Church of God is the Pillar and Ground of the Truth on Earth, and to attack and criticize her is perilous.",
     es_title: "La Iglesia: Columna de la Verdad",

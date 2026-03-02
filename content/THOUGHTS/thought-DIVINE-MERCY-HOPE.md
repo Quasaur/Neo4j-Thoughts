@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.DIVINE MERCY HOPE",
+    ctype: "THOUGHT",
     en_title: "Divine Mercy Hope",
     en_content: "Apart from Divine Mercy there is no hope for the human race.",
     es_title: "Esperanza de la Misericordia Divina",

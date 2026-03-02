@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.INCONVENIENT WILL",
 
 CREATE (c:CONTENT {
     name: "content.INCONVENIENT WILL",
+    ctype: "THOUGHT",
     en_title: "Inconvenient Will",
     en_content: "Accomplishing God's Will is rarely convenient.",
     es_title: "Voluntad Inconveniente",

@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.LIMITS OF FORGIVENESS",
+    ctype: "THOUGHT",
     en_title: "Limits Of Forgiveness",
     en_content: "The only people God doesn't forgive are those who don't want to be forgiven.",
     es_title: "Límites del perdón",

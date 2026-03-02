@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.GODS PERFECT LOVE",
 
 CREATE (c:CONTENT {
     name: "content.GODS PERFECT LOVE",
+    ctype: "THOUGHT",
     en_title: "Gods Perfect Love",
     en_content: "God loves us with ALL His Heart, Soul, Mind and Strength!",
     es_title: "El Amor Perfecto de Dios",

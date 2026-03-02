@@ -24,6 +24,7 @@ CREATE (q:QUOTE {
 // CREATE CONTENT
 CREATE (c:CONTENT {
     name: "content.HEIR_OF_GOD!",
+    ctype: "QUOTE",
     en_title: "Quote: HEIR OF GOD!",
     en_content: "Thankfully, GOD has looked upon your situation with compassion and is not only offering you an escape from His Wrath, but a priceless opportunity TO BECOME HIS HEIR!!! All the 'heavy lifting' has been done for you, yet you must set your heart to follow Your Creator (GOD The Word, incarnated as Jesus the Messiah) back to the Father of all spirits and NOT LOOK BACK on the familiar life you were born into."
 });

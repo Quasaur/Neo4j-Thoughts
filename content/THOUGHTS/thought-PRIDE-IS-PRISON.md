@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.PRIDE IS PRISON",
 
 CREATE (c:CONTENT {
     name: "content.PRIDE IS PRISON",
+    ctype: "THOUGHT",
     en_title: "Pride Is Prison",
     en_content: "Pride is a prison, and Unconditional Love the only Liberator.",
     es_title: "El Orgullo Es Prisión",

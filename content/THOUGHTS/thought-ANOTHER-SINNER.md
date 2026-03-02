@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.ANOTHER_SINNER",
+    ctype: "THOUGHT",
     en_title: "Another Sinner",
     en_content: "Satan is just another sinner.",
 	es_title: "OTRO PECADOR",

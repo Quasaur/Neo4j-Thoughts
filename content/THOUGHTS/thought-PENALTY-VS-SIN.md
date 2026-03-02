@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.PENALTY VS SIN",
+    ctype: "THOUGHT",
     en_title: "Penalty Vs Sin",
     en_content: "We want to be saved from the PENALTY of sin but not sin itself.",
     es_title: "Castigo Vs Pecado",

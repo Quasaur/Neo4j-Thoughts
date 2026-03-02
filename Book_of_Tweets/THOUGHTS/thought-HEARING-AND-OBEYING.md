@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.HEARING AND OBEYING",
 
 CREATE (c:CONTENT {
     name: "content.HEARING AND OBEYING",
+    ctype: "THOUGHT",
     en_title: "Hearing And Obeying",
     en_content: "Half the battle: Hearing God's Voice; the Other Half: obeying it.",
     es_title: "Escuchar y obedecer",

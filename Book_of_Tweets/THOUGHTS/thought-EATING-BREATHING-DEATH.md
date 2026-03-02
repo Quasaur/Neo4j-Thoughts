@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.EATING BREATHING DEATH",
 
 CREATE (c:CONTENT {
     name: "content.EATING BREATHING DEATH",
+    ctype: "THOUGHT",
     en_title: "Eating Breathing Death",
     en_content: "We insist on eating and breathing death (meat and cigarettes) and then wonder why we get sick and die so fast and why healthcare costs are so high!",
     es_title: "Comiendo y Respirando Muerte",

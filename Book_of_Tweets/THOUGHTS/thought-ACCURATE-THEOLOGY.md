@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.ACCURATE THEOLOGY",
 
 CREATE (c:CONTENT {
     name: "content.ACCURATE THEOLOGY",
+    ctype: "THOUGHT",
     en_title: "Accurate Theology",
     en_content: "The more accurate our theology, the easier the Christian life gets.",
     es_title: "Teología Precisa",

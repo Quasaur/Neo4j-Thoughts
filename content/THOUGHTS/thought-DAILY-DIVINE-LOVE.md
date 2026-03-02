@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.DAILY DIVINE LOVE",
+    ctype: "THOUGHT",
     en_title: "Daily Divine Love",
     en_content: "Though I may deserve Wrath I still need Love...and God gives me His Love every morning!",
     es_title: "Amor Divino Diario",

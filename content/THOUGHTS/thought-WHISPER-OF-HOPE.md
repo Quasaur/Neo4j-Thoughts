@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.WHISPER OF HOPE",
 
 CREATE (c:CONTENT {
     name: "content.WHISPER OF HOPE",
+    ctype: "THOUGHT",
     en_title: "Whisper Of Hope",
     en_content: "When your mind says \"Give up,\" Hope whispers \"One more try!\"",
     es_title: "Susurro de Esperanza",

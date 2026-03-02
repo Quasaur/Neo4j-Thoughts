@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.SECOND COMING STATS",
 
 CREATE (c:CONTENT {
     name: "content.SECOND COMING STATS",
+    ctype: "THOUGHT",
     en_title: "Second Coming Stats",
     en_content: "One out of every 24 verses in the New Testament refers to the Second Coming of Christ.",
     es_title: "Estadísticas de la Segunda Venida",

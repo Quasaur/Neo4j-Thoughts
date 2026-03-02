@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.SPITTING ON THE CROSS",
+    ctype: "THOUGHT",
     en_title: "Spitting On The Cross",
     en_content: "Jesus has been punished for the sin you have committed against me; if I don't forgive you I have spit on The Cross of Christ.",
     es_title: "Escupiendo En La Cruz",

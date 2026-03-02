@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.DEATH_ROW",
+    ctype: "THOUGHT",
     en_title: "Death Row",
     en_content: "The whole world is on Death Row. A FULL PARDON is being offered by Jesus...take it!",
 	es_title: "corredor de la muerte",

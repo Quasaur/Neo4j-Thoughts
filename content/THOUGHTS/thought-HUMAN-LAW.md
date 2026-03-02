@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.HUMAN_LAW",
+    ctype: "THOUGHT",
     en_title: "HUMAN LAW",
     en_content: "Without accountability, there is no foundation for human law or human hope.",
     es_title: "LEY HUMANA",

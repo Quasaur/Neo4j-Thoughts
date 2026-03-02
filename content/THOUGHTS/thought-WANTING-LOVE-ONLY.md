@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.WANTING LOVE ONLY",
 
 CREATE (c:CONTENT {
     name: "content.WANTING LOVE ONLY",
+    ctype: "THOUGHT",
     en_title: "Wanting Love Only",
     en_content: "We want to be loved, but we don't want to love...how pathetic.",
     es_title: "Solo Querer Ser Amado",

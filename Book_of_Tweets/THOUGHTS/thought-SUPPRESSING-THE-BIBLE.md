@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.SUPPRESSING THE BIBLE",
 
 CREATE (c:CONTENT {
     name: "content.SUPPRESSING THE BIBLE",
+    ctype: "THOUGHT",
     en_title: "Suppressing The Bible",
     en_content: "Where Satan cannot suppress the distribution of the Bible he has convinced the population to stay away from it.",
     es_title: "Suprimiendo La Biblia",

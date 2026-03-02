@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.MIRACLE OF SALVATION",
+    ctype: "THOUGHT",
     en_title: "Miracle Of Salvation",
     en_content: "Salvation (separating a sinner from their sin) is a miracle performed by God, not man.",
     es_title: "Milagro de la Salvación",

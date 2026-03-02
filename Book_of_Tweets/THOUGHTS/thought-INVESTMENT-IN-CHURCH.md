@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.INVESTMENT IN CHURCH",
 
 CREATE (c:CONTENT {
     name: "content.INVESTMENT IN CHURCH",
+    ctype: "THOUGHT",
     en_title: "Investment In Church",
     en_content: "If you put something into your church, you'll ALWAYS get something out!",
     es_title: "Inversión en la Iglesia",

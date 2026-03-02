@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.HISTORICAL ACCURACY BIBLE",
 
 CREATE (c:CONTENT {
     name: "content.HISTORICAL ACCURACY BIBLE",
+    ctype: "THOUGHT",
     en_title: "Historical Accuracy Bible",
     en_content: "The God in The Bible is described as Truth; therefore The Bible itself must be HISTORICALLY ACCURATE.",
     es_title: "Precisión Histórica de la Biblia",

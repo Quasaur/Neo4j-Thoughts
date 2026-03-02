@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.SIMPLE AND DEEP",
 
 CREATE (c:CONTENT {
     name: "content.SIMPLE AND DEEP",
+    ctype: "THOUGHT",
     en_title: "Simple And Deep",
     en_content: "The simplest things are the most deep; the deepest things are the most simple.",
     es_title: "Simple y Profundo",

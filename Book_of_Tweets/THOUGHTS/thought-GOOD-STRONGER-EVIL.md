@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.GOOD STRONGER EVIL",
 
 CREATE (c:CONTENT {
     name: "content.GOOD STRONGER EVIL",
+    ctype: "THOUGHT",
     en_title: "Good Stronger Evil",
     en_content: "Jesus PROVED that Good is stronger than Evil...that Righteousness is MORE POWERFUL than Sin!",
     es_title: "El Bien es Más Fuerte que el Mal",

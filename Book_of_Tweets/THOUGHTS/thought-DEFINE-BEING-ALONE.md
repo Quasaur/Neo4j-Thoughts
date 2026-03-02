@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.DEFINE BEING ALONE",
 
 CREATE (c:CONTENT {
     name: "content.DEFINE BEING ALONE",
+    ctype: "THOUGHT",
     en_title: "Define Being Alone",
     en_content: "The true definition of being alone is being unaware of God's Loving Presence.",
     es_title: "Definir Estar Solo",

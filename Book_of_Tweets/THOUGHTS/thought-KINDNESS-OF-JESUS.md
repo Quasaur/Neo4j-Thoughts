@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.KINDNESS OF JESUS",
 
 CREATE (c:CONTENT {
     name: "content.KINDNESS OF JESUS",
+    ctype: "THOUGHT",
     en_title: "Kindness Of Jesus",
     en_content: "I have NEVER met anyone more kind that Jesus...and I never will!",
     es_title: "Bondad de Jesús",

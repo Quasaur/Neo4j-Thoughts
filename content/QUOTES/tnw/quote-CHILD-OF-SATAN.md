@@ -25,6 +25,7 @@ CREATE (q:QUOTE {
 // CREATE CONTENT
 CREATE (c:CONTENT {
     name: "content.CHILD_OF_SATAN",
+    ctype: "QUOTE",
     en_title: "Quote: CHILD OF SATAN",
     en_content: "It is impossible to be a sinner and not harbor in your heart some lie that you cling to as truth. Do you even now yet see yourself as a 'good person' who could 'benefit' from having an 'advisor' such as Jesus at your side? Or are you willing to admit that you're a child of the Devil, by your very nature damned for Wrath and in DESPERATE NEED of the Only-Begotten Son of GOD's Mercy, Forgiveness and Saving Grace?"
 });

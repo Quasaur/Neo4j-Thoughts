@@ -25,6 +25,7 @@ CREATE (q:QUOTE {
 // CREATE CONTENT
 CREATE (c:CONTENT {
     name: "content.THE_SERVANT_KING",
+    ctype: "QUOTE",
     en_title: "Quote: THE SERVANT KING",
     en_content: "OH MY GOD!!! Here the Lord Jesus Christ distinguishes Himself from all the great men (and great thinkers) of history who have either preceded Him or came after Him! If the Claims Jesus made about Himself are true, He had at His disposal enough absolute power to bend all human society to His Will... Yet, in His First Advent, He refuses to exert a single iota of His Divine Sovereignty to shape human will or human hearts! Rather, by the Spirit of Humility, He calls, teaches and persuades us by means of deeds the lowliest of slaves would be hesitant to perform!"
 });

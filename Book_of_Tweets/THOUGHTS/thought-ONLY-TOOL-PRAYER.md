@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.ONLY TOOL PRAYER",
 
 CREATE (c:CONTENT {
     name: "content.ONLY TOOL PRAYER",
+    ctype: "THOUGHT",
     en_title: "Only Tool Prayer",
     en_content: "Prayer is not our best tool; it's our ONLY tool.",
     es_title: "La Oración Como Única Herramienta",

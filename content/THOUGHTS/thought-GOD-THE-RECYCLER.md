@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.GOD THE RECYCLER",
 
 CREATE (c:CONTENT {
     name: "content.GOD THE RECYCLER",
+    ctype: "THOUGHT",
     en_title: "God The Recycler",
     en_content: "God recycles.",
     es_title: "Dios El Reciclador",

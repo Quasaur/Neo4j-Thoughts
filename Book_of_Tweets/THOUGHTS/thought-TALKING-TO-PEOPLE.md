@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.TALKING TO PEOPLE",
 
 CREATE (c:CONTENT {
     name: "content.TALKING TO PEOPLE",
+    ctype: "THOUGHT",
     en_title: "Talking To People",
     en_content: "If you don't know how to talk to people, you probably shouldn't talk to people.",
     es_title: "Hablando con las Personas",

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.NO DIVINE EXCUSES",
 
 CREATE (c:CONTENT {
     name: "content.NO DIVINE EXCUSES",
+    ctype: "THOUGHT",
     en_title: "No Divine Excuses",
     en_content: "God can and will forgive anything...but He will not excuse anything.",
     es_title: "Sin Excusas Divinas",

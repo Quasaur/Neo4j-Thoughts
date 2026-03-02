@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.TREATED AS FAMILY",
+    ctype: "THOUGHT",
     en_title: "Treated As Family",
     en_content: "God has always treated me as family, whether I deserved it or not.",
     es_title: "Tratado Como Familia",

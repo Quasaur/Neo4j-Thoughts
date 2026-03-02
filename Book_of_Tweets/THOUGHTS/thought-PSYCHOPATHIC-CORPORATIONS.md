@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.PSYCHOPATHIC CORPORATIONS",
 
 CREATE (c:CONTENT {
     name: "content.PSYCHOPATHIC CORPORATIONS",
+    ctype: "THOUGHT",
     en_title: "Psychopathic Corporations",
     en_content: "The corporation as a legal \"person\" is demonstrably psychopathic.",
     es_title: "Corporaciones psicopáticas",

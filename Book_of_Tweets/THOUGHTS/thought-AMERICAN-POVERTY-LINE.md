@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.AMERICAN POVERTY LINE",
 
 CREATE (c:CONTENT {
     name: "content.AMERICAN POVERTY LINE",
+    ctype: "THOUGHT",
     en_title: "American Poverty Line",
     en_content: "46 million Americans are at or below the poverty line.",
     es_title: "Línea de Pobreza Estadounidense",

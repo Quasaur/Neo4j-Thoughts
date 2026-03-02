@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.FLESH THE TYRANT",
 
 CREATE (c:CONTENT {
     name: "content.FLESH THE TYRANT",
+    ctype: "THOUGHT",
     en_title: "Flesh The Tyrant",
     en_content: "The Flesh is a tyrant.",
     es_title: "La Carne El Tirano",

@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.DIVINE_WORTH",
+    ctype: "THOUGHT",
     en_title: "Divine Worth",
     en_content: "God is holy. Which means that God is worth more than you or I...more than all the life in the cosmos put together.",
 	es_title: "VALOR DIVINO",

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.IMMORTAL SINLESS LIFE",
 
 CREATE (c:CONTENT {
     name: "content.IMMORTAL SINLESS LIFE",
+    ctype: "THOUGHT",
     en_title: "Immortal Sinless Life",
     en_content: "An immortal life is a sinless life.",
     es_title: "Vida Inmortal Sin Pecado",

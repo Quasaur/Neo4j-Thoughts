@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.REACTION",
+    ctype: "THOUGHT",
     en_title: "Reaction",
     en_content: "Feeling is the reaction of the flesh to circumstance. Feeling is not Truth. Just because you feel angry it doesn't mean you should be.",
     es_title: "Reacción",

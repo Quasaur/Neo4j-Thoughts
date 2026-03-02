@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.WICKEDNESS AND GUN LAWS",
 
 CREATE (c:CONTENT {
     name: "content.WICKEDNESS AND GUN LAWS",
+    ctype: "THOUGHT",
     en_title: "Wickedness And Gun Laws",
     en_content: "Humanity will continue to grow more wicked. As a nation we would be IDIOTS to leave our gun laws in their current state.",
     es_title: "La Maldad Y Las Leyes De Armas",

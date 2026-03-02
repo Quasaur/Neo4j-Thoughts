@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.FAITH AND ACCEPTANCE",
 
 CREATE (c:CONTENT {
     name: "content.FAITH AND ACCEPTANCE",
+    ctype: "THOUGHT",
     en_title: "Faith And Acceptance",
     en_content: "The concepts of Acceptance and Faith are irrevocably linked.",
     es_title: "Fe y aceptación",

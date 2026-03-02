@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.OBSOLETE HUMAN RACE",
 
 CREATE (c:CONTENT {
     name: "content.OBSOLETE HUMAN RACE",
+    ctype: "THOUGHT",
     en_title: "Obsolete Human Race",
     en_content: "The human race is obsolete...God is creating a new race with Christ as The Adam; familyship is granted by Grace through Faith.",
     es_title: "Raza Humana Obsoleta",

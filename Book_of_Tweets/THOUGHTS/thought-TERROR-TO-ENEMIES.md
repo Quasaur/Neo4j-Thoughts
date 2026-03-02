@@ -19,6 +19,7 @@ CREATE (t:THOUGHT {    name: "thought.TERROR TO ENEMIES",
 
 CREATE (c:CONTENT {
     name: "content.TERROR TO ENEMIES",
+    ctype: "THOUGHT",
     en_title: "Terror to Enemies",
     en_content: "God is only a Terror to His enemies.",
     es_title: "Terror para enemigos",

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.BOX JELLYFISH EYES",
 
 CREATE (c:CONTENT {
     name: "content.BOX JELLYFISH EYES",
+    ctype: "THOUGHT",
     en_title: "Box Jellyfish Eyes",
     en_content: "The box jellyfish--nature's most poisonous creature--has 24 eyes and 360-degree vision...God is great!",
     es_title: "Ojos de la Medusa de Caja",

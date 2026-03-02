@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.GOD HAS SENSE",
 
 CREATE (c:CONTENT {
     name: "content.GOD HAS SENSE",
+    ctype: "THOUGHT",
     en_title: "God Has Sense",
     en_content: "God has sense: if you talk to Him He'll talk to you; if you listen to Him He'll listen to you; if you'll honor Him He'll honor you.",
     es_title: "Dios Tiene Sentido",

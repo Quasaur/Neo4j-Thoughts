@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.KNOWING JESUS NAME",
 
 CREATE (c:CONTENT {
     name: "content.KNOWING JESUS NAME",
+    ctype: "THOUGHT",
     en_title: "Knowing Jesus Name",
     en_content: "Matthew 7:22, 23 -- Using Jesus' Name doesn't mean you know Jesus.",
     es_title: "Conocer el Nombre de Jesús",

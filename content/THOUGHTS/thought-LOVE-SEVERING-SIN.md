@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.LOVE SEVERING SIN",
 
 CREATE (c:CONTENT {
     name: "content.LOVE SEVERING SIN",
+    ctype: "THOUGHT",
     en_title: "Love Severing Sin",
     en_content: "Only Love can separate sinners from their sins.",
     es_title: "El Amor Separando el Pecado",

@@ -25,6 +25,7 @@ CREATE (q:QUOTE {
 // CREATE CONTENT
 CREATE (c:CONTENT {
     name: "content.REINVENT",
+    ctype: "QUOTE",
     en_title: "Quote: REINVENT",
     en_content: "It would be completely unnecessary (and a waste of time) for me to try to accomplish what God has already done for me"
 });

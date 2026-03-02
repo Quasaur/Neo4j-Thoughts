@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.EVERYTHING FROM NOTHING",
 
 CREATE (c:CONTENT {
     name: "content.EVERYTHING FROM NOTHING",
+    ctype: "THOUGHT",
     en_title: "Everything From Nothing",
     en_content: "Saying that everything came from nothing makes no sense.",
     es_title: "Todo De La Nada",

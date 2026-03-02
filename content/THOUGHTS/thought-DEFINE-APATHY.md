@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.DEFINE APATHY",
 
 CREATE (c:CONTENT {
     name: "content.DEFINE APATHY",
+    ctype: "THOUGHT",
     en_title: "Define Apathy",
     en_content: "Love & hate are not opposites...they are 2 halves of the same coin; the opposite of love / hate is Apathy.",
     es_title: "Definir Apatía",

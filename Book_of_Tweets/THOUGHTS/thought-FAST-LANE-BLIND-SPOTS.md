@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.FAST LANE BLIND SPOTS",
 
 CREATE (c:CONTENT {
     name: "content.FAST LANE BLIND SPOTS",
+    ctype: "THOUGHT",
     en_title: "Fast Lane Blind Spots",
     en_content: "If you're living in the fast lane, watch your blind spots.",
     es_title: "Puntos Ciegos del Carril Rápido",

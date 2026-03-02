@@ -33,7 +33,7 @@ CREATE (p:PASSAGE {	    name: "\"passage.SECURITY (2)\"",
 // create multi-lingual content		
 CREATE (c:CONTENT {
 	name: "content.SECURITY (2)",
-	ctype: 3, // 1=thought; 2=quote; 3=passage
+	ctype: "PASSAGE",
 	en_title: "SECURITY (2)", 
 	en_content: "My son, do not lose sight of these—  
 keep sound wisdom and discretion,  

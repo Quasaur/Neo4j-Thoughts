@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.SKEWERED_TIMELINES",
+    ctype: "THOUGHT",
     en_title: "SKEWERED TIMELINES",
     en_content: "To prove evolution, so-called science has completely skewered the chronological, geological and human timelines.",
     es_title: "CRONOGRAMAS ENCHUFADOS",

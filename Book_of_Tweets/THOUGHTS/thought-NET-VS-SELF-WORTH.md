@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.NET VS SELF WORTH",
 
 CREATE (c:CONTENT {
     name: "content.NET VS SELF WORTH",
+    ctype: "THOUGHT",
     en_title: "Net Vs Self Worth",
     en_content: "Don't confuse net worth with self-worth.",
     es_title: "Patrimonio Neto Vs Valor Personal",

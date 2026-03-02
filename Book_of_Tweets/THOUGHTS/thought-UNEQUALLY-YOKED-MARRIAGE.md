@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.UNEQUALLY YOKED MARRIAGE",
 
 CREATE (c:CONTENT {
     name: "content.UNEQUALLY YOKED MARRIAGE",
+    ctype: "THOUGHT",
     en_title: "Unequally Yoked Marriage",
     en_content: "The Christian who marries a unbeliever has the Devil for a father-in-law!",
     es_title: "Matrimonio en Yugo Desigual",

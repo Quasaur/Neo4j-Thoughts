@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.OUR_MASTER",
+    ctype: "THOUGHT",
     en_title: "OUR MASTER",
     en_content: "Truth belongs to no one; It is It's own Master...and ours.",
     es_title: "NUESTRO MAESTRO",

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.TRAGEDY IN CHURCH",
 
 CREATE (c:CONTENT {
     name: "content.TRAGEDY IN CHURCH",
+    ctype: "THOUGHT",
     en_title: "Tragedy In Church",
     en_content: "To be in church all one's life, and still go to Hell...what a tragedy!",
     es_title: "Tragedia En La Iglesia",

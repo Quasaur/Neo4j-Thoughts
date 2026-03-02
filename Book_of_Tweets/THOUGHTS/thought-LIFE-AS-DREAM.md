@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.LIFE AS DREAM",
 
 CREATE (c:CONTENT {
     name: "content.LIFE AS DREAM",
+    ctype: "THOUGHT",
     en_title: "LIFE AS DREAM",
     en_content: "This life is a dream...and only in the Presence of God are we truly awake.",
     es_title: "VIDA COMO SUEÑO",

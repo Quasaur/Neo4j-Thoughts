@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.GIANT BALL OF ROCK",
 
 CREATE (c:CONTENT {
     name: "content.GIANT BALL OF ROCK",
+    ctype: "THOUGHT",
     en_title: "Giant Ball Of Dirt",
     en_content: "We are living on a GIANT BALL OF ROCK...God is great!",
     es_title: "Bola Gigante de Tierra",

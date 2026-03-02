@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.FALSE RELIGION TWIN",
 
 CREATE (c:CONTENT {
     name: "content.FALSE RELIGION TWIN",
+    ctype: "THOUGHT",
     en_title: "False Religion Twin",
     en_content: "The Twin of Wickedness is False Religion.",
     es_title: "Gemelo de la Religión Falsa",

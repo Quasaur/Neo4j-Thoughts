@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.ULTIMATE REALITY GOD",
 
 CREATE (c:CONTENT {
     name: "content.ULTIMATE REALITY GOD",
+    ctype: "THOUGHT",
     en_title: "Ultimate Reality God",
     en_content: "God is the Ultimate Reality. So if you're not interested in God, how real are you?",
     es_title: "Dios la Realidad Última",

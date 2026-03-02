@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.ANGER AS CONTAGION",
 
 CREATE (c:CONTENT {
     name: "content.ANGER AS CONTAGION",
+    ctype: "THOUGHT",
     en_title: "Anger As Contagion",
     en_content: "Anger is a contagion that easily leaps from soul to soul where there is an absence of reason.",
     es_title: "La Ira como Contagio",

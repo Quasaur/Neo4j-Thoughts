@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.DISABILITY OF SPIRIT",
 
 CREATE (c:CONTENT {
     name: "content.DISABILITY OF SPIRIT",
+    ctype: "THOUGHT",
     en_title: "Disability Of Spirit",
     en_content: "The inability to perceive God's Immediate Presence is a greater disability than not being able to walk or see.",
     es_title: "Discapacidad del Espíritu",

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.LOVE IS NOT WEAK",
 
 CREATE (c:CONTENT {
     name: "content.LOVE IS NOT WEAK",
+    ctype: "THOUGHT",
     en_title: "Love Is Not Weak",
     en_content: "Love is not weak.",
     es_title: "El Amor No Es Débil",

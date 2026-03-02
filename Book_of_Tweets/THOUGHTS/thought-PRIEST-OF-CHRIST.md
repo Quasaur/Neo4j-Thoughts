@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.PRIEST OF CHRIST",
 
 CREATE (c:CONTENT {
     name: "content.PRIEST OF CHRIST",
+    ctype: "THOUGHT",
     en_title: "Priest Of Christ",
     en_content: "As a priest of Christ, it's my job to speak God's Word (The Holy Bible) into the planetary atmosphere.",
     es_title: "Sacerdote de Cristo",

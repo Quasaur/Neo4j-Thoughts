@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.HELL AND HYPOCRISY",
 
 CREATE (c:CONTENT {
     name: "content.HELL AND HYPOCRISY",
+    ctype: "THOUGHT",
     en_title: "Hell And Hypocrisy",
     en_content: "If I send you to Hell, it's guaranteed that I will be following you shortly.",
     es_title: "El Infierno y la Hipocresía",

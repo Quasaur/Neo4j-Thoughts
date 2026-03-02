@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.EYES OF CHRIST",
 
 CREATE (c:CONTENT {
     name: "content.EYES OF CHRIST",
+    ctype: "THOUGHT",
     en_title: "Eyes Of Christ",
     en_content: "From the smallest subatomic particle to the deepest intent of the human heart, the Eyes of Christ miss nothing.",
     es_title: "Los Ojos de Cristo",

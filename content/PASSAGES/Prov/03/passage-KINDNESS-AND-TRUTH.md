@@ -28,6 +28,7 @@ CREATE (p:PASSAGE
 // create multi-lingual content		
 CREATE (c:CONTENT {
 	name: "content.KINDNESS AND TRUTH", 
+	ctype: "PASSAGE",
 	en_title: "KINDNESS AND TRUTH", 
 	en_content: "Do not let kindness and truth leave you;
 Bind them around your neck,

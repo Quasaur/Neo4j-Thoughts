@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.TREATING JUDAS ISCARIOT",
 
 CREATE (c:CONTENT {
     name: "content.TREATING JUDAS ISCARIOT",
+    ctype: "THOUGHT",
     en_title: "Treating Judas Iscariot",
     en_content: "Do you think Jesus treated Judas Iscariot differently from the rest of the disciples?",
     es_title: "El Trato a Judas Iscariote",

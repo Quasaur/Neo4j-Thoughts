@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.MALCOLM X TRUTH",
 
 CREATE (c:CONTENT {
     name: "content.MALCOLM X TRUTH",
+    ctype: "THOUGHT",
     en_title: "Malcolm X Truth",
     en_content: "Malcolm X loved his people enough to tell them the Truth about themselves.",
     es_title: "La Verdad de Malcolm X",

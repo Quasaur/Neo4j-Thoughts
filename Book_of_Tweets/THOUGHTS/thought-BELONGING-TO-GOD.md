@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.BELONGING TO GOD",
 
 CREATE (c:CONTENT {
     name: "content.BELONGING TO GOD",
+    ctype: "THOUGHT",
     en_title: "Belonging To God",
     en_content: "If we don't belong to God, we belong to ourselves...and shall perish in ourselves because we choose not to live in God.",
     es_title: "Perteneciendo a Dios",

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.CHRIST MY TREASURE",
 
 CREATE (c:CONTENT {
     name: "content.CHRIST MY TREASURE",
+    ctype: "THOUGHT",
     en_title: "Christ My Treasure",
     en_content: "Christ is my Treasure, my Fortune, my Wealth, my NestEgg and my Riches!",
     es_title: "Cristo Mi Tesoro",

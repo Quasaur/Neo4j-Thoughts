@@ -25,6 +25,7 @@ CREATE (q:QUOTE {
 // CREATE CONTENT
 CREATE (c:CONTENT {
     name: "content.LOGICAL_COURSE",
+    ctype: "QUOTE",
     en_title: "Quote: LOGICAL COURSE",
     en_content: "The logical course of action for an ignorant creature (and all creatures are ignorant to varying degrees) is to place its total faith in its Creator Who knows and understands all."
 });

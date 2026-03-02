@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.CHOKING THE WORD",
+    ctype: "THOUGHT",
     en_title: "Choking The Word",
     en_content: "Like weeds choke a flower, the cares of this life and the deceitfulness of riches choke the Word of God in my heart, and make it unfruitful.",
     es_title: "Ahogando la Palabra",

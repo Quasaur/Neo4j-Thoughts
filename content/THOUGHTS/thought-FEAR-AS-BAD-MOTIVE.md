@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.FEAR AS BAD MOTIVE",
 
 CREATE (c:CONTENT {
     name: "content.FEAR AS BAD MOTIVE",
+    ctype: "THOUGHT",
     en_title: "Fear As Bad Motive",
     en_content: "Fear is rarely a good motive for any action.",
     es_title: "El Miedo Como Mal Motivo",

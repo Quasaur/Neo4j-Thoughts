@@ -23,6 +23,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.THE_REAL_YOU",
+    ctype: "THOUGHT",
     en_title: "THE REAL YOU",
     en_content: "Dear Christian: your earthly self is just an avatar.
 Your Real Self is hid with Christ in GOD; that’s why Jesus MUST return: so that you (and everyone else) can behold who you really are! 

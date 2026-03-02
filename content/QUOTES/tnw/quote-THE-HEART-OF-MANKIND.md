@@ -24,6 +24,7 @@ CREATE (q:QUOTE {
 // CREATE CONTENT
 CREATE (c:CONTENT {
     name: "content.THE_HEART_OF_MANKIND",
+    ctype: "QUOTE",
     en_title: "Quote: The HEART OF MANKIND",
     en_content: "None of our achievements, advances, contributions, virtuous deeds or good intentions make up for our evil hearts (hearts that believe GOD is not necessary to live a fulfilling life) ...else Christ would not have had to present Himself as a Sacrifice in our stead."
 });

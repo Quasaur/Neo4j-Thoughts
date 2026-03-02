@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.SCIENCE AND SCRIPTURE",
 
 CREATE (c:CONTENT {
     name: "content.SCIENCE AND SCRIPTURE",
+    ctype: "THOUGHT",
     en_title: "Science And Scripture",
     en_content: "No discrepancy exists between Science and Scripture; the discrepancy is between scientists and God.",
     es_title: "Ciencia Y Escritura",

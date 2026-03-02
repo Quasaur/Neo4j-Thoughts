@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.PRAYER NOT JOB",
 
 CREATE (c:CONTENT {
     name: "content.PRAYER NOT JOB",
+    ctype: "THOUGHT",
     en_title: "Prayer Not Job",
     en_content: "Prayer was never meant to be a job.",
     es_title: "La Oración No Es Trabajo",

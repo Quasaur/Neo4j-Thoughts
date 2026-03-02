@@ -22,7 +22,7 @@ CREATE (q:QUOTE {	    name: "quote.THE DESIRE OF NATIONS",
 // create multi-lingual content		
 CREATE (c:CONTENT {
 	name: "content.THE DESIRE OF NATIONS",
-	ctype: 2, // 1=thought; 2=quote; 3=passage
+	ctype: "QUOTE",
 	en_title: "THE DESIRE OF NATIONS", 
 	en_content: "The rich young ruler believed that Jesus had what he wanted, but he didn't know that Jesus was what he wanted.", 
 	es_title: "El Deseado de las Naciones", 

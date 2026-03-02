@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.HIDING IN PRAYER",
 
 CREATE (c:CONTENT {
     name: "content.HIDING IN PRAYER",
+    ctype: "THOUGHT",
     en_title: "Hiding In Prayer",
     en_content: "Prayer is where I hide from the world.",
     es_title: "Refugiándose en la Oración",

@@ -25,6 +25,7 @@ CREATE (b:PASSAGE
 // create multi-lingual content  
 CREATE (c:CONTENT {
  name: "content.THE SOURCE OF WISDOM", 
+ ctype: "PASSAGE",
  en_title: "The Source of Wisdom", 
  en_content: "For the Lord gives wisdom;
 From His mouth come knowledge and understanding.

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.PURPOSELESS EXISTENCE",
 
 CREATE (c:CONTENT {
     name: "content.PURPOSELESS EXISTENCE",
+    ctype: "THOUGHT",
     en_title: "Purposeless Existence",
     en_content: "What is so scientific about saying that Existence has no purpose?",
     es_title: "Existencia Sin Propósito",

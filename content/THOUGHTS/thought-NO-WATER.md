@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.NO_WATER",
+    ctype: "THOUGHT",
     en_title: "NO WATER",
     en_content: "How can a fish say there is no water? Yet men say there is no God!",
     es_title: "SIN AGUA",

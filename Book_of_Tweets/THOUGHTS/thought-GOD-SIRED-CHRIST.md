@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.GOD SIRED CHRIST",
 
 CREATE (c:CONTENT {
     name: "content.GOD SIRED CHRIST",
+    ctype: "THOUGHT",
     en_title: "God Sired Christ",
     en_content: "God did not create Christ, He SIRED Him! That's why Jesus is called THE ONLY BEGOTTEN of the Father.",
     es_title: "Dios Engendró a Cristo",

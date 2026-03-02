@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.GOD HIDING PLAIN SIGHT",
 
 CREATE (c:CONTENT {
     name: "content.GOD HIDING PLAIN SIGHT",
+    ctype: "THOUGHT",
     en_title: "God Hiding Plain Sight",
     en_content: "Sure, God is hiding...in plain sight.",
     es_title: "Dios Escondido a Plena Vista",

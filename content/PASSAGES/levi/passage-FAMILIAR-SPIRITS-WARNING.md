@@ -22,6 +22,7 @@ CREATE (t:PASSAGE {
 
 CREATE (c:CONTENT {
     name: "content.FAMILIAR SPIRITS WARNING",
+    ctype: "PASSAGE",
     en_title: "Familiar Spirits Warning",
     en_content: "Do not turn to mediums or spiritists; do not seek them out to be defiled by them. I am the Lord your God.",
     es_title: "Advertencia sobre los espíritus familiares",

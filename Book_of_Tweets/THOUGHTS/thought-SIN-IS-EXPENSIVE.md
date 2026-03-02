@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.SIN IS EXPENSIVE",
 
 CREATE (c:CONTENT {
     name: "content.SIN IS EXPENSIVE",
+    ctype: "THOUGHT",
     en_title: "Sin Is Expensive",
     en_content: "Law enforcement, court costs incarceration, healthcare, security, protection, insurance premiums, funeral costs...Sin is expensive!",
     es_title: "El Pecado Es Costoso",

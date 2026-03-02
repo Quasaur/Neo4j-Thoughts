@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.EDUCATION AND SCRIPTURE",
 
 CREATE (c:CONTENT {
     name: "content.EDUCATION AND SCRIPTURE",
+    ctype: "THOUGHT",
     en_title: "Education And Scripture",
     en_content: "How can anyone be considered educated without having surveyed the Holy Scriptures?",
     es_title: "Educación y Escritura",

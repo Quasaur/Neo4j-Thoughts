@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.TEN TRILLION CELLS",
 
 CREATE (c:CONTENT {
     name: "content.TEN TRILLION CELLS",
+    ctype: "THOUGHT",
     en_title: "Ten Trillion Cells",
     en_content: "The human body is made up of at least 10 trillion cells...God is great!",
     es_title: "Diez Billones de Células",

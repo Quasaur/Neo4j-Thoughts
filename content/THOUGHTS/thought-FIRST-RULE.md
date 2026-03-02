@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.FIRST_RULE",
+    ctype: "THOUGHT",
     en_title: "FIRST RULE",
     en_content: "First rule of Twitter: you do not talk about FaceBook. (dying of laughter).",
 	es_title: "PRIMERA REGLA",

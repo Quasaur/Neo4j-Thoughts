@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.FACING TRUTH LOVE",
+    ctype: "THOUGHT",
     en_title: "Facing Truth Love",
     en_content: "It's God's Love for us that enables us to face the truth about ourselves.",
     es_title: "Amor que Enfrenta la Verdad",

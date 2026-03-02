@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.FEAR AND SELFISHNESS",
 
 CREATE (c:CONTENT {
     name: "content.FEAR AND SELFISHNESS",
+    ctype: "THOUGHT",
     en_title: "Fear And Selfishness",
     en_content: "Fear wouldn't be so debilitating if I were not so selfish.",
     es_title: "Miedo Y Egoísmo",

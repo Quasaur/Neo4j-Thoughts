@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.BACH AND GENIUS",
 
 CREATE (c:CONTENT {
     name: "content.BACH AND GENIUS",
+    ctype: "THOUGHT",
     en_title: "BACH AND GENIUS",
     en_content: "Johann Sebastian Bach is one of those rare souls whose gifts transcend all genius!",
     es_title: "BACH Y GENIO",

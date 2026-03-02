@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.DEVIL THE ACCUSER",
+    ctype: "THOUGHT",
     en_title: "Devil The Accuser",
     en_content: "The Devil is called the Accuser (Prosecutor) for a reason: he directs our focus to what we have done than what Christ has done for us.",
     es_title: "El Diablo El Acusador",

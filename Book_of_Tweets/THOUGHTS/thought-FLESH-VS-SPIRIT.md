@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.FLESH VS SPIRIT",
 
 CREATE (c:CONTENT {
     name: "content.FLESH VS SPIRIT",
+    ctype: "THOUGHT",
     en_title: "Flesh Vs Spirit",
     en_content: "The flesh is too stupid to be spiritual; it must be crucified with Christ and brought in subjection by the Love of God to the Spirit of God.",
     es_title: "Carne versus Espíritu",

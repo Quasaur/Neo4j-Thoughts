@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.HOLLYWOOD VIOLENCE PREMISE",
 
 CREATE (c:CONTENT {
     name: "content.HOLLYWOOD VIOLENCE PREMISE",
+    ctype: "THOUGHT",
     en_title: "Hollywood Violence Premise",
     en_content: "The original premise of Hollywood violence was \"If they're watching violence they're not committing it.\"...Oops!",
     es_title: "Premisa de la Violencia de Hollywood",

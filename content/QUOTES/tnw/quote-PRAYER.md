@@ -25,6 +25,7 @@ CREATE (q:QUOTE {
 // CREATE CONTENT
 CREATE (c:CONTENT {
     name: "content.PRAYER",
+    ctype: "QUOTE",
     en_title: "Quote: PRAYER",
     en_content: "To your soul GOD BECOMES MORE REAL AND YOU (and your circumstances and situations) BECOME LESS REAL."
 });

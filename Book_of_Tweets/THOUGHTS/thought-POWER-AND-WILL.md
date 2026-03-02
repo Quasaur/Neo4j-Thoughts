@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.POWER AND WILL",
 
 CREATE (c:CONTENT {
     name: "content.POWER AND WILL",
+    ctype: "THOUGHT",
     en_title: "Power And Will",
     en_content: "We don't tap into God's Strength because we are not committed to executing God's Will.",
     es_title: "Poder y voluntad",

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.MAJORITY OF THREE",
 
 CREATE (c:CONTENT {
     name: "content.MAJORITY OF THREE",
+    ctype: "THOUGHT",
     en_title: "Majority Of Three",
     en_content: "The Godhead is a Majority of Three: Their LIFE far outweighs all Death in the Cosmos...and their GOODNESS overwhelms all Evil!",
     es_title: "Mayoría de tres",

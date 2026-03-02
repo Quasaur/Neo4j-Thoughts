@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.PURSUIT OF HAPPINESS",
 
 CREATE (c:CONTENT {
     name: "content.PURSUIT OF HAPPINESS",
+    ctype: "THOUGHT",
     en_title: "Pursuit Of Happiness",
     en_content: "The pursuit of God is the pursuit of happiness. The pursuit of happiness is the pursuit of God.",
     es_title: "Búsqueda de la Felicidad",

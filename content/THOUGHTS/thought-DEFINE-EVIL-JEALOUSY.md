@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.DEFINE EVIL JEALOUSY",
 
 CREATE (c:CONTENT {
     name: "content.DEFINE EVIL JEALOUSY",
+    ctype: "THOUGHT",
     en_title: "Define Evil Jealousy",
     en_content: "Evil Jealousy: fear of loss.",
     es_title: "Definir Celos Malvados",

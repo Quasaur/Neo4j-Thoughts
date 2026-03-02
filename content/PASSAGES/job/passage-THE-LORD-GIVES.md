@@ -22,6 +22,7 @@ CREATE (t:PASSAGE {
 
 CREATE (c:CONTENT {
     name: "content.THE LORD GIVES",
+    ctype: "PASSAGE",
     en_title: "The Lord Gives",
     en_content: "\"The Lord gives. The Lord takes away. Blessed be The Name of the Lord!\" -- The Prophet 'Iyowb (Job)",
     es_title: "El Señor da",

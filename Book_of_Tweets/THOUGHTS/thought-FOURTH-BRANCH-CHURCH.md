@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.FOURTH BRANCH CHURCH",
 
 CREATE (c:CONTENT {
     name: "content.FOURTH BRANCH CHURCH",
+    ctype: "THOUGHT",
     en_title: "Fourth Branch Church",
     en_content: "The true power of the Church is demonstrated by its tax-free status AND that no one's willing to ADMIT it's the 4th Branch of the U.S. Gov.",
     es_title: "Iglesia Cuarta Rama",

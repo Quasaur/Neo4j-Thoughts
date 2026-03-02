@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.CONGRESS NOT OURS",
 
 CREATE (c:CONTENT {
     name: "content.CONGRESS NOT OURS",
+    ctype: "THOUGHT",
     en_title: "Congress Not Ours",
     en_content: "The United States Congress no longer belongs to the American People.",
     es_title: "Congreso No Es Nuestro",

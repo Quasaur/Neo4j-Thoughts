@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.DANGEROUS AND SAFE",
 
 CREATE (c:CONTENT {
     name: "content.DANGEROUS AND SAFE",
+    ctype: "THOUGHT",
     en_title: "Dangerous And Safe",
     en_content: "Who is more dangerous than God? Who is more safe than The Almighty?",
     es_title: "Peligroso y Seguro",

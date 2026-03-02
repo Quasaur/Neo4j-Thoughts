@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.DIVINE CONSISTENCY",
 
 CREATE (c:CONTENT {
     name: "content.DIVINE CONSISTENCY",
+    ctype: "THOUGHT",
     en_title: "DIVINE CONSISTENCY",
     en_content: "God is not schizophrenic.",
     es_title: "CONSISTENCIA DIVINA",

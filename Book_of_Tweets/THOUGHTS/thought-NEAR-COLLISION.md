@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.NEAR COLLISION",
 
 CREATE (c:CONTENT {
     name: "content.NEAR COLLISION",
+    ctype: "THOUGHT",
     en_title: "Near Collision",
     en_content: "An AA jet had a near collision with a United over AL...my sister was on the AA plane and could read the writing on the other plane.",
     es_title: "Casi colisión",

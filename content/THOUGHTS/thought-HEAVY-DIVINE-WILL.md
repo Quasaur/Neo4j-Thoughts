@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.HEAVY DIVINE WILL",
 
 CREATE (c:CONTENT {
     name: "content.HEAVY DIVINE WILL",
+    ctype: "THOUGHT",
     en_title: "Heavy Divine Will",
     en_content: "The Will of God is far too heavy for frail human hands to budge it in any direction; answered prayer is ALWAYS an Act of Divine Mercy.",
     es_title: "Voluntad Divina Pesada",

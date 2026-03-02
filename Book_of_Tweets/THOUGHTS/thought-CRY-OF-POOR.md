@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.CRY OF POOR",
 
 CREATE (c:CONTENT {
     name: "content.CRY OF POOR",
+    ctype: "THOUGHT",
     en_title: "Cry Of Poor",
     en_content: "Whoever closes his ear to the cry of the poor will himself call out and not be answered. Proverbs 21:13, ESV",
     es_title: "Grito de los Pobres",

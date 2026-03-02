@@ -19,6 +19,7 @@ CREATE (t:THOUGHT {    name: "thought.INFINITE GOD",
 
 CREATE (c:CONTENT {
     name: "content.INFINITE GOD",
+    ctype: "THOUGHT",
     en_title: "Infinite God",
     en_content: "God is ALWAYS more than we think He is.",
     es_title: "Dios infinito",

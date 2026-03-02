@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.ATOMS IN CELL",
 
 CREATE (c:CONTENT {
     name: "content.ATOMS IN CELL",
+    ctype: "THOUGHT",
     en_title: "Atoms In Cell",
     en_content: "The average human cell is made of approx. 200 trillion atoms...God is great!",
     es_title: "Átomos en una Célula",

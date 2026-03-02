@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.GLORIFIED IN HUMANITY",
 
 CREATE (c:CONTENT {
     name: "content.GLORIFIED IN HUMANITY",
+    ctype: "THOUGHT",
     en_title: "Glorified In Humanity",
     en_content: "God WILL be glorified in Humanity: either by rewarding obedience, faith and courage...or by punishing rebellion, unbelief and cowardice.",
     es_title: "Glorificado en la Humanidad",

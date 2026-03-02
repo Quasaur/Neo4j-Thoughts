@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.PRAYER FOR REVELATION",
 
 CREATE (c:CONTENT {
     name: "content.PRAYER FOR REVELATION",
+    ctype: "THOUGHT",
     en_title: "Prayer For Revelation",
     en_content: "God knows things about the people around you that you have no idea of; if one of those things comes to light, it is so you can pray.",
     es_title: "Oración Por Revelación",

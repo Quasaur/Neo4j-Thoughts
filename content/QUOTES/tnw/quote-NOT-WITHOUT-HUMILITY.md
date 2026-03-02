@@ -25,6 +25,7 @@ CREATE (q:QUOTE {
 // CREATE CONTENT
 CREATE (c:CONTENT {
     name: "content.NOT_WITHOUT_HUMILITY",
+    ctype: "QUOTE",
     en_title: "Quote: NOT WITHOUT HUMILITY",
     en_content: "What i wish to remind us all is that THERE'S NO SALVATION WITHOUT REPENTANCE AND THERE'S NO REPENTANCE WITHOUT HUMILITY."
 });

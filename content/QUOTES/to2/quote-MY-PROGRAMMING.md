@@ -25,6 +25,7 @@ CREATE (q:QUOTE {
 // CREATE CONTENT
 CREATE (c:CONTENT {
     name: "content.MY_PROGRAMMING",
+    ctype: "QUOTE",
     en_title: "Quote: MY PROGRAMMING",
     en_content: "In contrast, my programming was virtually complete. When my controller raised his firearm to his son's face, the well-honed logic that had so faithfully enabled me to survive numerous assignments kicked into gear with machine-like precision."
 });

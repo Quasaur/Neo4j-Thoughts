@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.OBEDIENCE GATEWAY GROWTH",
 
 CREATE (c:CONTENT {
     name: "content.OBEDIENCE GATEWAY GROWTH",
+    ctype: "THOUGHT",
     en_title: "Obedience Gateway Growth",
     en_content: "Obedience is the ONLY gateway to spiritual growth.",
     es_title: "Crecimiento Puerta Obediencia",

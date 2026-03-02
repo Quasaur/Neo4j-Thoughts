@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.BREAD OF LIFE",
 
 CREATE (c:CONTENT {
     name: "content.BREAD OF LIFE",
+    ctype: "THOUGHT",
     en_title: "Bread Of Life",
     en_content: "We overeat in our attempt to feed our starving spirit with natural food instead of The BREAD of LIFE which is Christ.",
     es_title: "Pan de Vida",

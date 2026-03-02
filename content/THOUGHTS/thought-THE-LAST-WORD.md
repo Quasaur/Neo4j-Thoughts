@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.THE_LAST_WORD",
+    ctype: "THOUGHT",
     en_title: "THE LAST WORD",
     en_content: "Yehoshua Ha Meshiach: Jesus The Christ: The Living Word...The Last Word!",
     es_title: "LA ÚLTIMA PALABRA",

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.CREATORS SUFFERING",
 
 CREATE (c:CONTENT {
     name: "content.CREATORS SUFFERING",
+    ctype: "THOUGHT",
     en_title: "Creators Suffering",
     en_content: "Better for all of us to have gone to Hell than for Our Precious Creator to have suffered the way He did.",
     es_title: "Sufrimiento del Creador",

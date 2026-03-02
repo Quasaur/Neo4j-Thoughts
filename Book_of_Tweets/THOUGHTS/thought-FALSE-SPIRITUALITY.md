@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.FALSE SPIRITUALITY",
 
 CREATE (c:CONTENT {
     name: "content.FALSE SPIRITUALITY",
+    ctype: "THOUGHT",
     en_title: "False Spirituality",
     en_content: "False Spirituality: placing the Devil around every corner, under every rock and behind every bush to cover defects of character.",
     es_title: "Falsa Espiritualidad",

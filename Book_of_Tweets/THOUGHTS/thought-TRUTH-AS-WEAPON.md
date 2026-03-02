@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.TRUTH AS WEAPON",
 
 CREATE (c:CONTENT {
     name: "content.TRUTH AS WEAPON",
+    ctype: "THOUGHT",
     en_title: "Truth As Weapon",
     en_content: "Truth is a weapon far more dangerous than the hydrogen bomb.",
     es_title: "La Verdad Como Arma",

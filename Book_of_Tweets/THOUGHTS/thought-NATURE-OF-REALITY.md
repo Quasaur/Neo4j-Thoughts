@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.NATURE OF REALITY",
 
 CREATE (c:CONTENT {
     name: "content.NATURE OF REALITY",
+    ctype: "THOUGHT",
     en_title: "Nature Of Reality",
     en_content: "Reality: perhaps matter is only real to other matter...?",
     es_title: "Naturaleza de la realidad",

@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.THE_QUICK_AND_THE_DEAD",
+    ctype: "THOUGHT",
     en_title: "THE QUICK AND THE DEAD",
     en_content: "You are either alive to God and dead to self…or you are alive to self and dead to God.
 Luke 14:26",

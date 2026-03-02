@@ -23,6 +23,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.EGO",
+    ctype: "THOUGHT",
     en_title: "EGO",
     en_content: "The Earth is 3.5 million times bigger than me...
 ..the Sun is a million times bigger than the Earth...

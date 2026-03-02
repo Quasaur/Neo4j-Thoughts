@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.SHOWING MERCY",
 
 CREATE (c:CONTENT {
     name: "content.SHOWING MERCY",
+    ctype: "THOUGHT",
     en_title: "Showing Mercy",
     en_content: "Everybody wants Mercy...few show Mercy.",
     es_title: "Mostrar Misericordia",

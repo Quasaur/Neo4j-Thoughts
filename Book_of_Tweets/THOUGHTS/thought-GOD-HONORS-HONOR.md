@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.GOD HONORS HONOR",
 
 CREATE (c:CONTENT {
     name: "content.GOD HONORS HONOR",
+    ctype: "THOUGHT",
     en_title: "God Honors Honor",
     en_content: "God is not stupid; He honors those who honor Him...those who ignore Him are lightly esteemed.",
     es_title: "Dios honra el honor",

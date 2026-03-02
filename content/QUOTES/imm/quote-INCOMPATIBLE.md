@@ -25,6 +25,7 @@ CREATE (q:QUOTE {
 // CREATE CONTENT
 CREATE (c:CONTENT {
     name: "content.INCOMPATIBLE",
+    ctype: "QUOTE",
     en_title: "Quote: INCOMPATIBLE",
     en_content: "The life you were born into as a human is ABSOLUTELY INCOMPATIBLE with the Life you were born-again into as a Child of GOD."
 });

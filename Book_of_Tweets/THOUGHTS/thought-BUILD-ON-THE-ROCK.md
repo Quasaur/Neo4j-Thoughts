@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.BUILD ON THE ROCK",
 
 CREATE (c:CONTENT {
     name: "content.BUILD ON THE ROCK",
+    ctype: "THOUGHT",
     en_title: "Build On The Rock",
     en_content: "You can build WITH Gold, but you can't build ON Gold; you must build on The ROCK...it's not as shiny, but it's a lot stronger!",
     es_title: "Construir Sobre La Roca",

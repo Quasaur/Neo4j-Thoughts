@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.SCENT OF GOD",
 
 CREATE (c:CONTENT {
     name: "content.SCENT OF GOD",
+    ctype: "THOUGHT",
     en_title: "Scent Of God",
     en_content: "It is Prayer, and Prayer alone, that places the Scent of God on us.",
     es_title: "Aroma de Dios",

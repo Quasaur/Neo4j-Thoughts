@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.ACT_OF_GOD",
+    ctype: "THOUGHT",
     en_title: "Act of God",
     en_content: "If every person is an Act of God, what can my wife teach me about God?",
     es_title: "Caso de fuerza mayor",

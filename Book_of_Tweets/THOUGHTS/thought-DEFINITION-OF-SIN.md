@@ -19,6 +19,7 @@ CREATE (t:THOUGHT {    name: "thought.DEFINITION OF SIN",
 
 CREATE (c:CONTENT {
     name: "content.DEFINITION OF SIN",
+    ctype: "THOUGHT",
     en_title: "Definition of Sin",
     en_content: "What is sin? Suffering under the delusion that I'm on my own in this life.",
     es_title: "Definición de pecado",

@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.HUMAN_LIFE",
+    ctype: "THOUGHT",
     en_title: "HUMAN LIFE",
     en_content: "The purpose of intelligent human life is to Worship, Obey and Serve The Godhead.",
     es_title: "VIDA HUMANA",

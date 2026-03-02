@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.UNREASONABLE PEOPLE PROBLEM",
 
 CREATE (c:CONTENT {
     name: "content.UNREASONABLE PEOPLE PROBLEM",
+    ctype: "THOUGHT",
     en_title: "Unreasonable People Problem",
     en_content: "Life would be perfect but for the presence of unreasonable people.",
     es_title: "El Problema de la Gente Irrazonable",

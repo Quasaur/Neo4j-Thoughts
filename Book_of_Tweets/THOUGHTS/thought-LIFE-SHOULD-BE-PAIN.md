@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.LIFE SHOULD BE PAIN",
 
 CREATE (c:CONTENT {
     name: "content.LIFE SHOULD BE PAIN",
+    ctype: "THOUGHT",
     en_title: "Life Should Be Pain",
     en_content: "Many will tell you life is pain; not many will say it should be. It should be.",
     es_title: "La Vida Debe Ser Dolor",

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.CHRIST COMING CLOUDS",
 
 CREATE (c:CONTENT {
     name: "content.CHRIST COMING CLOUDS",
+    ctype: "THOUGHT",
     en_title: "Christ Coming Clouds",
     en_content: "History is going to play out just as the Bible says; what are you going to do when you see Christ coming in the clouds of Heaven?",
     es_title: "Cristo Viniendo en las Nubes",

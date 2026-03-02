@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.SAYING NO TO SELF",
 
 CREATE (c:CONTENT {
     name: "content.SAYING NO TO SELF",
+    ctype: "THOUGHT",
     en_title: "Saying No To Self",
     en_content: "Only a person who can say no to themselves can say no to the world and to the devil.",
     es_title: "Decir No a Uno Mismo",

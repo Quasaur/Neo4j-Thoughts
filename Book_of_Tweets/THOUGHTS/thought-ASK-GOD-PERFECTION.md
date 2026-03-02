@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.ASK GOD PERFECTION",
 
 CREATE (c:CONTENT {
     name: "content.ASK GOD PERFECTION",
+    ctype: "THOUGHT",
     en_title: "Ask God Perfection",
     en_content: "Perfection isn't that difficult...ask God!",
     es_title: "Pregúntale a Dios sobre la Perfección",

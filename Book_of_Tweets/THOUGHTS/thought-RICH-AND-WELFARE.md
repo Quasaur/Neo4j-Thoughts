@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.RICH AND WELFARE",
 
 CREATE (c:CONTENT {
     name: "content.RICH AND WELFARE",
+    ctype: "THOUGHT",
     en_title: "Rich And Welfare",
     en_content: "The rich don't want to pay for welfare ...nor do they wish to hire welfare recipients.",
     es_title: "Los Ricos y el Bienestar Social",

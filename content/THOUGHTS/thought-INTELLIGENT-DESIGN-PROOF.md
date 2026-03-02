@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.INTELLIGENT DESIGN PROOF",
 
 CREATE (c:CONTENT {
     name: "content.INTELLIGENT DESIGN PROOF",
+    ctype: "THOUGHT",
     en_title: "Intelligent Design Proof",
     en_content: "There are TONS of evidence for Intelligent Design evolutionists don't want you to know.",
     es_title: "Prueba del Diseño Inteligente",

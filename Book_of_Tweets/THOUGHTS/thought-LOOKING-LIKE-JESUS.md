@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.LOOKING LIKE JESUS",
 
 CREATE (c:CONTENT {
     name: "content.LOOKING LIKE JESUS",
+    ctype: "THOUGHT",
     en_title: "Looking Like Jesus",
     en_content: "Jesus is what you look like to God!",
     es_title: "Pareciéndose a Jesús",

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.RESPECTING OUR BODIES",
 
 CREATE (c:CONTENT {
     name: "content.RESPECTING OUR BODIES",
+    ctype: "THOUGHT",
     en_title: "Respecting Our Bodies",
     en_content: "We don't respect our own bodies yet we want others to respect us!",
     es_title: "Respetando Nuestros Cuerpos",

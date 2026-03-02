@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.PEOPLE MORE UNFORGIVING",
 
 CREATE (c:CONTENT {
     name: "content.PEOPLE MORE UNFORGIVING",
+    ctype: "THOUGHT",
     en_title: "People More Unforgiving",
     en_content: "People are FAR MORE unforgiving than God.",
     es_title: "Las Personas Más Implacables",

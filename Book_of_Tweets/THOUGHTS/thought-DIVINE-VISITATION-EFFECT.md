@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.DIVINE VISITATION EFFECT",
 
 CREATE (c:CONTENT {
     name: "content.DIVINE VISITATION EFFECT",
+    ctype: "THOUGHT",
     en_title: "Divine Visitation Effect",
     en_content: "A Divine Visitation will ruin you for this life. You may look and act like everyone, but you're not like them...you're of another World.",
     es_title: "Efecto de la Visitación Divina",

@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.NEED FOR FAITH",
+    ctype: "THOUGHT",
     en_title: "Need For Faith",
     en_content: "As long as there is ignorance, there will be a need for faith.",
     es_title: "Necesidad de Fe",

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.FREEDOM TO RUIN",
 
 CREATE (c:CONTENT {
     name: "content.FREEDOM TO RUIN",
+    ctype: "THOUGHT",
     en_title: "Freedom To Ruin",
     en_content: "It appears that God has given us the freedom to ruin our lives as we see fit...so much for Freedom.",
     es_title: "Libertad para Arruinarse",

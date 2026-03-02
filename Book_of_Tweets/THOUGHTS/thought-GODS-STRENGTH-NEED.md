@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.GODS STRENGTH NEED",
 
 CREATE (c:CONTENT {
     name: "content.GODS STRENGTH NEED",
+    ctype: "THOUGHT",
     en_title: "Gods Strength Need",
     en_content: "\"I don't need your strength...you need Mine.\" -- God",
     es_title: "La Necesidad de la Fuerza de Dios",

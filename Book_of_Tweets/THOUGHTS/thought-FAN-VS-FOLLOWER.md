@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.FAN VS FOLLOWER",
 
 CREATE (c:CONTENT {
     name: "content.FAN VS FOLLOWER",
+    ctype: "THOUGHT",
     en_title: "Fan Vs Follower",
     en_content: "You can be a fan of Christ yet not a follower; but you cannot be a follower and not be a fan!",
     es_title: "Admirador versus Seguidor",

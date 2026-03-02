@@ -25,6 +25,7 @@ CREATE (q:QUOTE {
 // CREATE CONTENT
 CREATE (c:CONTENT {
     name: "content.NO_OBLIGATION",
+    ctype: "QUOTE",
     en_title: "Quote: NO OBLIGATION",
     en_content: "GOD is under no obligation to be merciful to evil. Sinners are evil, and every human is a sinner. By the definitions of the terms “mercy” and “forgiveness,” these virtues can never be owed to the sinner. GOD would’ve been perfectly righteous and just to annihilate Adam and Eve before their offspring could permeate the surface of the Earth with the wretchedness and horror you see today. Even more so: GOD would’ve been just to shut Lucifer down before anyone else was affected."
 });

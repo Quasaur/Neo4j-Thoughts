@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.TEACHER AND IDENTITY",
 
 CREATE (c:CONTENT {
     name: "content.TEACHER AND IDENTITY",
+    ctype: "THOUGHT",
     en_title: "Teacher And Identity",
     en_content: "A teacher challenges your identity and your knowledge, then helps you discover both so that you can stand strong under pressure.",
     es_title: "Maestro E Identidad",

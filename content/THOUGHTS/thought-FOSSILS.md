@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.FOSSILS",
+    ctype: "THOUGHT",
     en_title: "FOSSILS",
     en_content: ""
 });

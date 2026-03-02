@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.THE NEXT LIFE IMPORTANCE",
 
 CREATE (c:CONTENT {
     name: "content.THE NEXT LIFE IMPORTANCE",
+    ctype: "THOUGHT",
     en_title: "The Next Life Importance",
     en_content: "There's NOTHING in this life that's more important than The Next Life!",
     es_title: "La Importancia de la Próxima Vida",

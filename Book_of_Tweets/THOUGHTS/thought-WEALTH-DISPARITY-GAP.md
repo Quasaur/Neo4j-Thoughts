@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.WEALTH DISPARITY GAP",
 
 CREATE (c:CONTENT {
     name: "content.WEALTH DISPARITY GAP",
+    ctype: "THOUGHT",
     en_title: "Wealth Disparity Gap",
     en_content: "Median White household wealth: $US113,000. Median Black household wealth: $US5,700. Oh yeah...life's fair!",
     es_title: "Brecha de Disparidad de Riqueza",

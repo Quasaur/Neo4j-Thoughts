@@ -26,6 +26,7 @@ CREATE (b:PASSAGE {
 // CREATE CONTENT
 CREATE (c:CONTENT {
     name: "content.FREEDOM_OF_DEATH",
+    ctype: "PASSAGE",
     en_title: "FREEDOM OF DEATH",
     en_content: "For he that is dead is freed from sin.",
  es_title: "LIBERTAD DE MUERTE",

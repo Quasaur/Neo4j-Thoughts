@@ -19,6 +19,7 @@ CREATE (t:THOUGHT {    name: "thought.FRIENDS AND ENEMIES",
 
 CREATE (c:CONTENT {
     name: "content.FRIENDS AND ENEMIES",
+    ctype: "THOUGHT",
     en_title: "Friends and Enemies",
     en_content: "Something to think about: God created His friends AND His enemies!",
     es_title: "Amigos y enemigos",

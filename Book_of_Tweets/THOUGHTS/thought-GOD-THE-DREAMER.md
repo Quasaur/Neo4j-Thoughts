@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.GOD THE DREAMER",
 
 CREATE (c:CONTENT {
     name: "content.GOD THE DREAMER",
+    ctype: "THOUGHT",
     en_title: "God The Dreamer",
     en_content: "Existence is a Dream--but we're not the dreamers...God is!",
     es_title: "dios el soñador",

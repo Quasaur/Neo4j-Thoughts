@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.SURVIVING JUDGMENT",
 
 CREATE (c:CONTENT {
     name: "content.SURVIVING JUDGMENT",
+    ctype: "THOUGHT",
     en_title: "SURVIVING JUDGMENT",
     en_content: "Salvation: the means by which a wicked, rebellious sinner can survive the Judgment coming upon the whole world.",
     es_title: "SOBREVIVIR AL JUICIO",

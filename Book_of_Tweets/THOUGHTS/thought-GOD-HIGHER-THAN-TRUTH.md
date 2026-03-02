@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.GOD HIGHER THAN TRUTH",
 
 CREATE (c:CONTENT {
     name: "content.GOD HIGHER THAN TRUTH",
+    ctype: "THOUGHT",
     en_title: "God Higher Than Truth",
     en_content: "\"There is no god higher than Truth.\" - Gandhi. \"There is no truth higher than God.\" - Mitchell",
     es_title: "Dios más alto que la verdad",

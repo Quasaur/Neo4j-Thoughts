@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.I NEED GOD",
 
 CREATE (c:CONTENT {
     name: "content.I NEED GOD",
+    ctype: "THOUGHT",
     en_title: "I Need God",
     en_content: "Revelation 20:11, 12: I don't need a universe to exist; I just need God.",
     es_title: "Necesito a Dios",

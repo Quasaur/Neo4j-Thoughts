@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.THE_LAKE_OF_FIRE_AND_SULFUR",
+    ctype: "THOUGHT",
     en_title: "THE LAKE OF FIRE AND SULFUR",
     en_content: "Finding yourself foundering alone and helpless in the Ocean of GOD's Wrath for all Eternity...it is now TOO LATE to finally start taking the direction of your lifestyle seriously.",
     es_title: "EL LAGO DE FUEGO Y AZUFRE",

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.SUFFERING VS SINNING",
 
 CREATE (c:CONTENT {
     name: "content.SUFFERING VS SINNING",
+    ctype: "THOUGHT",
     en_title: "Suffering Vs Sinning",
     en_content: "We are tired of suffering, yet we are not tired of sinning.",
     es_title: "Sufrir versus Pecar",

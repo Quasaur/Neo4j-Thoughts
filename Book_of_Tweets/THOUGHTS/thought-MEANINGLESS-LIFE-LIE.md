@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.MEANINGLESS LIFE LIE",
 
 CREATE (c:CONTENT {
     name: "content.MEANINGLESS LIFE LIE",
+    ctype: "THOUGHT",
     en_title: "Meaningless Life Lie",
     en_content: "Religion: if no one's right, and everyone's wrong, then life is both meaningless AND a lie.",
     es_title: "Mentira de Vida Sin Sentido",

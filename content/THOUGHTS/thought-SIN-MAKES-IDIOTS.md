@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.SIN MAKES IDIOTS",
+    ctype: "THOUGHT",
     en_title: "Sin Makes Idiots",
     en_content: "Sin makes idiots of us all; Christ came to take away the sins of the body (disease) as well as the sins of the soul!",
     es_title: "El Pecado Nos Hace Idiotas",

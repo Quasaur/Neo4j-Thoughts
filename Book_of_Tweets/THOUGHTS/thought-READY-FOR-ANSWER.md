@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.READY FOR ANSWER",
 
 CREATE (c:CONTENT {
     name: "content.READY FOR ANSWER",
+    ctype: "THOUGHT",
     en_title: "Ready For Answer",
     en_content: "Asking a question does not mean you are ready for the answer.",
     es_title: "Listo Para La Respuesta",

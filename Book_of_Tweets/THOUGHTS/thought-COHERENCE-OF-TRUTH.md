@@ -19,6 +19,7 @@ CREATE (t:THOUGHT {    name: "thought.COHERENCE OF TRUTH",
 
 CREATE (c:CONTENT {
     name: "content.COHERENCE OF TRUTH",
+    ctype: "THOUGHT",
     en_title: "Coherence of Truth",
     en_content: "Truth/Reality is logically and reasonably coherent; any point of view that isn't is a fantasy that will eventually betray its subscriber.",
     es_title: "Coherencia de verdad",

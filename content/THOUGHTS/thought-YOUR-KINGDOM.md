@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.YOUR_KINGDOM",
+    ctype: "THOUGHT",
     en_title: "YOUR KINGDOM",
     en_content: "To establish the Kingdom of the Heavens on this Earth, Christ must destroy your kingdom.",
     es_title: "TU REINO",

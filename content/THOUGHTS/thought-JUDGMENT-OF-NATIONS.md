@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.JUDGMENT OF NATIONS",
 
 CREATE (c:CONTENT {
     name: "content.JUDGMENT OF NATIONS",
+    ctype: "THOUGHT",
     en_title: "Judgment Of Nations",
     en_content: "God will not only judge individuals, but nations (ethnic and political). May God grant repentance to the USA.",
     es_title: "Juicio de las Naciones",

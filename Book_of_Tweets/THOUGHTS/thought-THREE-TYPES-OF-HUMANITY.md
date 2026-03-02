@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.THREE TYPES OF HUMANITY",
 
 CREATE (c:CONTENT {
     name: "content.THREE TYPES OF HUMANITY",
+    ctype: "THOUGHT",
     en_title: "Three Types Of Humanity",
     en_content: "Humanity: (1) those who place God 1st; (2) those who give God a priority other than 1st; (3) those who give God no priority at all.",
     es_title: "Tres Tipos de Humanidad",

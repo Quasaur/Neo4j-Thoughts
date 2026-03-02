@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.DESTROYING THE EARTH",
 
 CREATE (c:CONTENT {
     name: "content.DESTROYING THE EARTH",
+    ctype: "THOUGHT",
     en_title: "Destroying The Earth",
     en_content: "God will destroy us for destroying the Earth (Revelation 11:18).",
     es_title: "Destruyendo la Tierra",

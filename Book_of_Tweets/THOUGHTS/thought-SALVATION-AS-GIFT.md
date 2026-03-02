@@ -19,6 +19,7 @@ CREATE (t:THOUGHT {    name: "thought.SALVATION AS GIFT",
 
 CREATE (c:CONTENT {
     name: "content.SALVATION AS GIFT",
+    ctype: "THOUGHT",
     en_title: "Salvation is Gift",
     en_content: "Salvation is neither a formula, methodology nor incantation...it's a Gift!",
     es_title: "Salvación es regalo",

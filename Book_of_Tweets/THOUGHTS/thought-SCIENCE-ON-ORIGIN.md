@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.SCIENCE ON ORIGIN",
 
 CREATE (c:CONTENT {
     name: "content.SCIENCE ON ORIGIN",
+    ctype: "THOUGHT",
     en_title: "Science On Origin",
     en_content: "If I can't trust science to explain origin, why is it so infallible on development??",
     es_title: "La Ciencia Sobre el Origen",

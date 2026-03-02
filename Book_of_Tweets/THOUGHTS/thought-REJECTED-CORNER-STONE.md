@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.REJECTED CORNER STONE",
 
 CREATE (c:CONTENT {
     name: "content.REJECTED CORNER STONE",
+    ctype: "THOUGHT",
     en_title: "Rejected Corner Stone",
     en_content: "The Stone that the builders rejected...(smile)!",
     es_title: "La Piedra Angular Rechazada",

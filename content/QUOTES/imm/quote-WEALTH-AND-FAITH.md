@@ -25,6 +25,7 @@ CREATE (q:QUOTE {
 // CREATE CONTENT
 CREATE (c:CONTENT {
     name: "content.WEALTH_AND_FAITH",
+    ctype: "QUOTE",
     en_title: "Quote: WEALTH AND FAITH",
     en_content: "Wealth and Faith are mutually exclusive: having one, it does not necessarily follow that you will have the other in this life. When it comes to His Own, GOD determines the economic station of His Children. In perspective, however, there are no poor people in Heaven: you may have to wait till Eternity to receive your wealth (Matthew 6:19,20)."
 });

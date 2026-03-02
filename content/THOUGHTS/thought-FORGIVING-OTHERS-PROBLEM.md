@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.FORGIVING OTHERS PROBLEM",
+    ctype: "THOUGHT",
     en_title: "Forgiving Others Problem",
     en_content: "If a person has received forgiveness from God for EVERY sin, why would they have a problem forgiving anyone else?",
     es_title: "Problema de Perdonar a Otros",

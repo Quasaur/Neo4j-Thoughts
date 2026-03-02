@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.RESPECT AND AFFECTION",
 
 CREATE (c:CONTENT {
     name: "content.RESPECT AND AFFECTION",
+    ctype: "THOUGHT",
     en_title: "Respect And Affection",
     en_content: "Respect breeds affection.",
     es_title: "Respeto Y Afecto",

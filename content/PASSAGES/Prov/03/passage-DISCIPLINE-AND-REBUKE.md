@@ -26,6 +26,7 @@ CREATE (b:PASSAGE {
 // CREATE CONTENT
 CREATE (c:CONTENT {
     name: "content.DISCIPLINE_AND_REBUKE",
+    ctype: "PASSAGE",
     en_title: "DISCIPLINE AND REBUKE",
     en_content: "My son, do not reject the discipline of the LORD Or loathe His rebuke, For whom the LORD loves He disciplines,",
  es_title: "DISCIPLINA Y REPRODUCCIÓN",

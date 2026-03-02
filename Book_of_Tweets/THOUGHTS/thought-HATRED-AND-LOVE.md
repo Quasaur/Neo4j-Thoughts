@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.HATRED AND LOVE",
 
 CREATE (c:CONTENT {
     name: "content.HATRED AND LOVE",
+    ctype: "THOUGHT",
     en_title: "Hatred And Love",
     en_content: "One who is incapable of hatred is also incapable of love.",
     es_title: "Odio Y Amor",

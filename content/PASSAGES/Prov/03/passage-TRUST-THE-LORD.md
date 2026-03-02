@@ -26,6 +26,7 @@ CREATE (b:PASSAGE {
 // CREATE CONTENT
 CREATE (c:CONTENT {
     name: "content.TRUST_THE_LORD",
+    ctype: "PASSAGE",
     en_title: "'Passage: TRUST THE LORD'",
     en_content: "Trust in the LORD with all your heart And do not lean on your own understanding. In all your ways acknowledge Him, And He will make your paths straight.",
  es_title: "'Pasaje: CONFÍA EN EL SEÑOR'",

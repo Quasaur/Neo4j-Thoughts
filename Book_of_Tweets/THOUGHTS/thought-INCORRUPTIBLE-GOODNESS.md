@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.INCORRUPTIBLE GOODNESS",
 
 CREATE (c:CONTENT {
     name: "content.INCORRUPTIBLE GOODNESS",
+    ctype: "THOUGHT",
     en_title: "Incorruptible Goodness",
     en_content: "Good is greater than evil; for the Fountain of All Good (God) has never been nor can ever be corrupted by evil.",
     es_title: "Bondad Incorruptible",

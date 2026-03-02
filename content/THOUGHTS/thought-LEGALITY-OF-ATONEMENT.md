@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.LEGALITY OF ATONEMENT",
+    ctype: "THOUGHT",
     en_title: "Legality Of Atonement",
     en_content: "IT'S NOT LEGAL for you AND Jesus to suffer for the same sin!",
     es_title: "Legalidad de la Expiación",

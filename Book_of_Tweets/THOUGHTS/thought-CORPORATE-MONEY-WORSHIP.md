@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.CORPORATE MONEY WORSHIP",
 
 CREATE (c:CONTENT {
     name: "content.CORPORATE MONEY WORSHIP",
+    ctype: "THOUGHT",
     en_title: "Corporate Money Worship",
     en_content: "The corporation as a legal \"person\" worships money.",
     es_title: "Adoración Corporativa al Dinero",

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.SAUL WASTING LIFE",
 
 CREATE (c:CONTENT {
     name: "content.SAUL WASTING LIFE",
+    ctype: "THOUGHT",
     en_title: "Saul Wasting Life",
     en_content: "Saul wasted a large portion of his life trying to kill David while neglecting weightier matters...like his relationship with God.",
     es_title: "Saúl Desperdiciando la Vida",

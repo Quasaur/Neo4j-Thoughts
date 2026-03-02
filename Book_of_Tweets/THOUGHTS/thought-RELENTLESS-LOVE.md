@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.RELENTLESS LOVE",
 
 CREATE (c:CONTENT {
     name: "content.RELENTLESS LOVE",
+    ctype: "THOUGHT",
     en_title: "Relentless Love",
     en_content: "Love is ruthless...relentless...persistent and unflagging...thank God!",
     es_title: "Amor Implacable",

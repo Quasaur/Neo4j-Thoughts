@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.GOD TALKING BACK",
 
 CREATE (c:CONTENT {
     name: "content.GOD TALKING BACK",
+    ctype: "THOUGHT",
     en_title: "God Talking Back",
     en_content: "\"YOU DO NOT TALK TO ME.\" - God",
     es_title: "Dios respondiendo",

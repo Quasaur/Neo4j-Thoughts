@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.SOL_VELOCITY",
+    ctype: "THOUGHT",
     en_title: "SOL VELOCITY",
     en_content: "Creation Wonder: Our Sun is moving at 600,000 miles per hour around the center of the Milky Way galaxy, or 100,000 m.p.h. faster than past calculations!",
     es_title: "VELOCIDAD SOLAR",

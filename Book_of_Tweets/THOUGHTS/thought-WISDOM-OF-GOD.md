@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.WISDOM OF GOD",
 
 CREATE (c:CONTENT {
     name: "content.WISDOM OF GOD",
+    ctype: "THOUGHT",
     en_title: "Wisdom Of God",
     en_content: "God is older, wiser, smarter, more intelligent and more powerful than you.",
     es_title: "Sabiduría de Dios",

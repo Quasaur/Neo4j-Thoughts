@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.HUMANITYS FINAL VIRTUE",
 
 CREATE (c:CONTENT {
     name: "content.HUMANITYS FINAL VIRTUE",
+    ctype: "THOUGHT",
     en_title: "Humanity's Final Virtue",
     en_content: "Humanity's Last and only remaining Virtue is Jesus Christ; rejecting Him is turning our backs on the only Good left to us.",
     es_title: "La virtud final de la humanidad",

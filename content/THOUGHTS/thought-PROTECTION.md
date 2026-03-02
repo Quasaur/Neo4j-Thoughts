@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.PROTECTION",
+    ctype: "THOUGHT",
     en_title: "PROTECTION",
     en_content: "# PROTECTION
 Without the Holy Spirit of Christ humanity has no defense against the Devil, those who rule the world or even our own lower natures.",

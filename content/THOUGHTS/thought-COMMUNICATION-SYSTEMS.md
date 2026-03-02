@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.COMMUNICATION SYSTEMS",
+    ctype: "THOUGHT",
     en_title: "Communication Systems",
     en_content: "Every communication system must have a language, a medium, a device that reads, and an intelligence that writes/interprets...God is Great!",
     es_title: "Sistemas de Comunicación",

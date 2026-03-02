@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.TWITTER TO HEAVEN",
 
 CREATE (c:CONTENT {
     name: "content.TWITTER TO HEAVEN",
+    ctype: "THOUGHT",
     en_title: "Twitter To Heaven",
     en_content: "If I could, I'd take my Twitter followers to Heaven with me.",
     es_title: "Twitter al Cielo",

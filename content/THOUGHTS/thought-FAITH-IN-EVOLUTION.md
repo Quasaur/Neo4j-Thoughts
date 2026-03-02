@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.FAITH IN EVOLUTION",
+    ctype: "THOUGHT",
     en_title: "Faith In Evolution",
     en_content: "Evolution requires FAR MORE FAITH than Intelligent Design.",
     es_title: "Fe en la evolución",

@@ -19,6 +19,7 @@ CREATE (t:THOUGHT {    name: "thought.DUST AND DIVINE",
 
 CREATE (c:CONTENT {
     name: "content.DUST AND DIVINE",
+    ctype: "THOUGHT",
     en_title: "Dust and Divine",
     en_content: "We are dust...that look like God.",
     es_title: "Polvo y divino",

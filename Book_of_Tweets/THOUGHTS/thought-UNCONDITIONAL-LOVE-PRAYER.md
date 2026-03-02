@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.UNCONDITIONAL LOVE PRAYER",
 
 CREATE (c:CONTENT {
     name: "content.UNCONDITIONAL LOVE PRAYER",
+    ctype: "THOUGHT",
     en_title: "Unconditional Love Prayer",
     en_content: "Prayer is where I am loved unconditionally.",
     es_title: "Oración de Amor Incondicional",

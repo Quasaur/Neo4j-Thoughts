@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.RESCUE BY JOB",
 
 CREATE (c:CONTENT {
     name: "content.RESCUE BY JOB",
+    ctype: "THOUGHT",
     en_title: "Rescue By Job",
     en_content: "I wish to publicly thank God for rescuing us with a job that kept a roof over our heads and the lights on...Jesus is HOT STUFF!!!",
     es_title: "Rescate Por Trabajo",

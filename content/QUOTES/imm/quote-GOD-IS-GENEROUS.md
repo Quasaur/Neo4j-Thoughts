@@ -25,6 +25,7 @@ CREATE (q:QUOTE {
 // CREATE CONTENT
 CREATE (c:CONTENT {
     name: "content.GOD_IS_GENEROUS",
+    ctype: "QUOTE",
     en_title: "Quote: GOD IS GENEROUS",
     en_content: "GOD IS GENEROUS! He is generous to angel and demon…saint and sinner. He is not only more generous than anyone else, He was generous before anyone else! Look at the size of your planet, your solar system, your galaxy, your local group of galaxies—your universe! Look at the size of your family, your clan, your tribe, your nation! For the Love of GOD…YOU EXIST!!! Forever dismiss from your mind the idea that GOD is stingy…YOU are stingy; GOD is immeasurably magnanimous!"
 });

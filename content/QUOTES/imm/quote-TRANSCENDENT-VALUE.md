@@ -25,6 +25,7 @@ CREATE (q:QUOTE {
 // CREATE CONTENT
 CREATE (c:CONTENT {
     name: "content.TRANSCENDENT_VALUE",
+    ctype: "QUOTE",
     en_title: "Quote: TRANSCENDENT VALUE",
     en_content: "The promise of the Gospel is that GOD The Father gives us Christ, Who is of TRANSCENDENT VALUE to Him; and in so doing we become as valuable to GOD as Christ is!"
 });

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.JESUS NON NEGOTIABLE",
 
 CREATE (c:CONTENT {
     name: "content.JESUS NON NEGOTIABLE",
+    ctype: "THOUGHT",
     en_title: "Jesus Non Negotiable",
     en_content: "I must have Jesus...everything else is negotiable.",
     es_title: "Jesús No Negociable",

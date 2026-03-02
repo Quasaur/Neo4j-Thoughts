@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.MARRIAGE RELIGIOUS INSTITUTION",
 
 CREATE (c:CONTENT {
     name: "content.MARRIAGE RELIGIOUS INSTITUTION",
+    ctype: "THOUGHT",
     en_title: "Marriage Religious Institution",
     en_content: "Congress shall make no law regarding the practice of religion...marriage is a RELIGIOUS institution!",
     es_title: "Matrimonio Institución Religiosa",

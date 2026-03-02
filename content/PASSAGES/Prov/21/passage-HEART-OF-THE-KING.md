@@ -24,6 +24,7 @@ CREATE (b:PASSAGE
 // create multi-lingual content		
 CREATE (c:CONTENT {
 	name: "content.HEART OF THE KING", 
+	ctype: "PASSAGE",
 	en_title: "HEART OF THE KING", 
 	en_content: "The king’s heart is like channels of water in the Hand of the LORD; He turns it wherever He pleases.", 
 	es_title: "CORAZÓN DEL REY", 

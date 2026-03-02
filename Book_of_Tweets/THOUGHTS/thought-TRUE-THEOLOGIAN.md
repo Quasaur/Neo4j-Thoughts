@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.TRUE THEOLOGIAN",
 
 CREATE (c:CONTENT {
     name: "content.TRUE THEOLOGIAN",
+    ctype: "THOUGHT",
     en_title: "TRUE THEOLOGIAN",
     en_content: "Can a theologian who has not had a personal encounter with God be truly called a theologian?",
     es_title: "VERDADERO TEÓLOGO",

@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.DEFINE GRACE",
+    ctype: "THOUGHT",
     en_title: "Define Grace",
     en_content: "GRACE is God saying \"I like you! I'm gonna cut you a break!\"",
     es_title: "Definir Gracia",

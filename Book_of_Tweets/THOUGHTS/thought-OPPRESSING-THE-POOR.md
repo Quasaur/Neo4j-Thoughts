@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.OPPRESSING THE POOR",
 
 CREATE (c:CONTENT {
     name: "content.OPPRESSING THE POOR",
+    ctype: "THOUGHT",
     en_title: "Oppressing The Poor",
     en_content: "Whoever oppresses the poor to increase his own wealth, or gives to the rich, will only come to poverty. Proverbs 22:16, ESV",
     es_title: "Oprimiendo a los Pobres",

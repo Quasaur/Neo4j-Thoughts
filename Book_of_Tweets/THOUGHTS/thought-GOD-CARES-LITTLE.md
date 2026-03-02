@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.GOD CARES LITTLE",
 
 CREATE (c:CONTENT {
     name: "content.GOD CARES LITTLE",
+    ctype: "THOUGHT",
     en_title: "God Cares Little",
     en_content: "God cares about the little people. He made the big people to care for the little people.",
     es_title: "Dios Se Preocupa por los Pequeños",

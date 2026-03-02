@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.TRUTH EXPOSES LIES",
 
 CREATE (c:CONTENT {
     name: "content.TRUTH EXPOSES LIES",
+    ctype: "THOUGHT",
     en_title: "Truth Exposes Lies",
     en_content: "Truth is dangerous because it exposes lies that people believe to be true; and many would rather kill Truth than abandon their lies.",
     es_title: "La Verdad Expone las Mentiras",

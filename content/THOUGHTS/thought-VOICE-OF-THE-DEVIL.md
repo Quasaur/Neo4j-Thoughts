@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.VOICE OF THE DEVIL",
+    ctype: "THOUGHT",
     en_title: "Voice Of The Devil",
     en_content: "Submitting to hate, bitterness and violence is giving a voice to The Devil; these have become his most cherished attributes.",
     es_title: "Voz del diablo",

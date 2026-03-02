@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.FUTILE REBELLION",
 
 CREATE (c:CONTENT {
     name: "content.FUTILE REBELLION",
+    ctype: "THOUGHT",
     en_title: "Futile Rebellion",
     en_content: "Rebellion against God is futile!",
     es_title: "Rebelión Fútil",

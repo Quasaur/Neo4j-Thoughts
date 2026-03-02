@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.NOT POLITICALLY CORRECT",
 
 CREATE (c:CONTENT {
     name: "content.NOT POLITICALLY CORRECT",
+    ctype: "THOUGHT",
     en_title: "Not Politically Correct",
     en_content: "God is not politically correct.",
     es_title: "No Políticamente Correcto",

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.SELF DESTRUCTIVE NATURE",
 
 CREATE (c:CONTENT {
     name: "content.SELF DESTRUCTIVE NATURE",
+    ctype: "THOUGHT",
     en_title: "Self Destructive Nature",
     en_content: "We are self-destructive by nature and teach our children to be self-destructive.",
     es_title: "Naturaleza Autodestructiva",

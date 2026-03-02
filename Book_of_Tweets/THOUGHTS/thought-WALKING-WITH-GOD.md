@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.WALKING WITH GOD",
 
 CREATE (c:CONTENT {
     name: "content.WALKING WITH GOD",
+    ctype: "THOUGHT",
     en_title: "Walking With God",
     en_content: "The Bible doesn't say that God walked with Enoch, but that Enoch walked with God. Enoch was led by the Holy Spirit.",
     es_title: "Caminando con Dios",

@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.IDIOTS_ALL",
+    ctype: "THOUGHT",
     en_title: "IDIOTS ALL",
     en_content: "Everyone's an idiot about something!",
     es_title: "IDIOTAS TODOS",

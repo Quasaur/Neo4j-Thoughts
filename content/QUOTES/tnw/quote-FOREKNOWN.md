@@ -25,6 +25,7 @@ CREATE (q:QUOTE {
 // CREATE CONTENT
 CREATE (c:CONTENT {
     name: "content.FOREKNOWN",
+    ctype: "QUOTE",
     en_title: "Quote: FOREKNOWN",
     en_content: "To save you from the coming Wrath GOD must KNOW you."
 });

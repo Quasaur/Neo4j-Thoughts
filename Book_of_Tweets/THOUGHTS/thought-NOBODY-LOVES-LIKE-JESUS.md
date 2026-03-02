@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.NOBODY LOVES LIKE JESUS",
 
 CREATE (c:CONTENT {
     name: "content.NOBODY LOVES LIKE JESUS",
+    ctype: "THOUGHT",
     en_title: "Nobody Loves Like Jesus",
     en_content: "My mother loved me VERY MUCH; but on her finest day she could not take away my sins...nobody loves me like Jesus!",
     es_title: "Nadie Ama Como Jesús",

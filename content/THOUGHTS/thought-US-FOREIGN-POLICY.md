@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.US_FOREIGN_POLICY",
+    ctype: "THOUGHT",
     en_title: "DARK US FOREIGN POLICY",
     en_content: "USA foreign policy is imperial, dictatorial, ruthless, dirty, immoral...inevitably invoking the WRATH OF GOD against us all.",
     es_title: "OSCURA POLÍTICA EXTERIOR DE EE.UU.",

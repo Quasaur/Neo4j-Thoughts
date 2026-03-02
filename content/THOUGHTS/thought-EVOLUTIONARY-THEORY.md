@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.EVOLUTIONARY_THEORY",
+    ctype: "THOUGHT",
     en_title: "EVOLUTIONARY THEORY",
     en_content: "Evolution is considered a theory (not a law) for a reason.",
     es_title: "TEORÍA EVOLUTIVA",

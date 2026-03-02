@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.CHRONIC SELF DESTRUCTION",
 
 CREATE (c:CONTENT {
     name: "content.CHRONIC SELF DESTRUCTION",
+    ctype: "THOUGHT",
     en_title: "Chronic Self Destruction",
     en_content: "As a species the homosapien is chronically self-destructive and IT CANNOT STOP ITSELF...therefore God must judge it.",
     es_title: "Autodestrucción Crónica",

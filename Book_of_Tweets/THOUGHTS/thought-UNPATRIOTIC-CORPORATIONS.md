@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.UNPATRIOTIC CORPORATIONS",
 
 CREATE (c:CONTENT {
     name: "content.UNPATRIOTIC CORPORATIONS",
+    ctype: "THOUGHT",
     en_title: "Unpatriotic Corporations",
     en_content: "The corporation as a legal \"person\" is unpatriotic.",
     es_title: "Corporaciones antipatrióticas",

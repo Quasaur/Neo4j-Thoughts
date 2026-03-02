@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.POWER OF WEAKNESS",
 
 CREATE (c:CONTENT {
     name: "content.POWER OF WEAKNESS",
+    ctype: "THOUGHT",
     en_title: "Power Of Weakness",
     en_content: "True Strength understands the Power of Weakness.",
     es_title: "El Poder de la Debilidad",

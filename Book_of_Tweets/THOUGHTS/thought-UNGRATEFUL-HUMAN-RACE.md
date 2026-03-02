@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.UNGRATEFUL HUMAN RACE",
 
 CREATE (c:CONTENT {
     name: "content.UNGRATEFUL HUMAN RACE",
+    ctype: "THOUGHT",
     en_title: "Ungrateful Human Race",
     en_content: "What single word best describes the human race? UNGRATEFUL.",
     es_title: "Raza Humana Ingrata",

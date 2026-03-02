@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.EVIL_WAS_NECESSARY",
+    ctype: "THOUGHT",
     en_title: "EVIL WAS NECESSARY",
     en_content: "…for there was no other way…
 …to sacrifice The Lamb of GOD.",

@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.LUCIFERS DECEPTION",
+    ctype: "THOUGHT",
     en_title: "Lucifers Deception",
     en_content: "God knew what Lucifer was doing...and allowed him to tempt, deceive and lead astray one third of Heaven.",
     es_title: "El Engaño de Lucifer",

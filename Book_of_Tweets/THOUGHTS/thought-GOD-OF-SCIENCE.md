@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.GOD OF SCIENCE",
 
 CREATE (c:CONTENT {
     name: "content.GOD OF SCIENCE",
+    ctype: "THOUGHT",
     en_title: "God Of Science",
     en_content: "Jesus Christ is The God of Wisdom, Knowledge, Science and Technology.",
     es_title: "Dios de la Ciencia",

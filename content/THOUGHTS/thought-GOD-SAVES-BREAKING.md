@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.GOD SAVES BREAKING",
+    ctype: "THOUGHT",
     en_title: "God Saves Breaking",
     en_content: "God will save you...after He breaks you. Matthew 21:44",
     es_title: "Dios Salva Quebrantando",

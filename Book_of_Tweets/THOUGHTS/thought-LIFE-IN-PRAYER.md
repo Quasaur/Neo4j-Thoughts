@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.LIFE IN PRAYER",
 
 CREATE (c:CONTENT {
     name: "content.LIFE IN PRAYER",
+    ctype: "THOUGHT",
     en_title: "Life In Prayer",
     en_content: "There is no life outside of Prayer.",
     es_title: "Vida en Oración",

@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.MODERN PROPAGANDA",
+    ctype: "THOUGHT",
     en_title: "Modern Propaganda",
     en_content: "Modern Propaganda (good vampires, pious werewolves, virtuous mediums) has perpetuated humanity's slide into Satan's occult domain.",
     es_title: "Publicidad moderna",

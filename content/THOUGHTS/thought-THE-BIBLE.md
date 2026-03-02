@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.THE_BIBLE",
+    ctype: "THOUGHT",
     en_title: "THE BIBLE",
     en_content: "As time draws closer to the Return of Jesus and The Great Delusion begins to tighten its grip on the minds of the unsaved, the Role of the Bible as the Divinely-appointed Rule of Faith and Practice will suffer an increasingly vicious assault not only from outside the Assembly of Believers, but also increasingly from within!",
     es_title: "LA BIBLIA",

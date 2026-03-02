@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.SPIRIT VS MATTER",
 
 CREATE (c:CONTENT {
     name: "content.SPIRIT VS MATTER",
+    ctype: "THOUGHT",
     en_title: "Spirit Vs Matter",
     en_content: "SPIRIT is far older, stronger and eternally more powerful than matter.",
     es_title: "Espíritu Vs Materia",

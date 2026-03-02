@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.SPARED ON FREEWAY",
 
 CREATE (c:CONTENT {
     name: "content.SPARED ON FREEWAY",
+    ctype: "THOUGHT",
     en_title: "Spared On Freeway",
     en_content: "I lost my brakes on the freeway last nite; but God spared me from accident and injury and I got the car home.",
     es_title: "Protegido en la Autopista",

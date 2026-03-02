@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.MOVIE ALREADY OVER",
 
 CREATE (c:CONTENT {
     name: "content.MOVIE ALREADY OVER",
+    ctype: "THOUGHT",
     en_title: "Movie Already Over",
     en_content: "The Bible says the movie is already over...roll the credits!",
     es_title: "La Película Ya Terminó",

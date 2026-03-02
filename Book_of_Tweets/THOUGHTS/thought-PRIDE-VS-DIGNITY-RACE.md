@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.PRIDE VS DIGNITY RACE",
 
 CREATE (c:CONTENT {
     name: "content.PRIDE VS DIGNITY RACE",
+    ctype: "THOUGHT",
     en_title: "Pride Vs Dignity Race",
     en_content: "Why do African American men confuse pride with dignity?",
     es_title: "Carrera Orgullo Vs Dignidad",

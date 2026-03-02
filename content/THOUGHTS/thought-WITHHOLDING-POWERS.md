@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.WITHHOLDING POWERS",
 
 CREATE (c:CONTENT {
     name: "content.WITHHOLDING POWERS",
+    ctype: "THOUGHT",
     en_title: "Withholding Powers",
     en_content: "God withholds powers from us because we do not give Him glory for powers already bestowed.",
     es_title: "Retención de Poderes",

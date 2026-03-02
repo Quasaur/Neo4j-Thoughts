@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.INCARCERATION SLAVERY PARALLEL",
 
 CREATE (c:CONTENT {
     name: "content.INCARCERATION SLAVERY PARALLEL",
+    ctype: "THOUGHT",
     en_title: "Incarceration Slavery Parallel",
     en_content: "Today in the USA there are more black people incarcerated than there were black slaves in 1850. Thank you, America!",
     es_title: "Paralelo entre Encarcelamiento y Esclavitud",

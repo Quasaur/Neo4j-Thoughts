@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.VISIBLE UNIVERSE",
 
 CREATE (c:CONTENT {
     name: "content.VISIBLE UNIVERSE",
+    ctype: "THOUGHT",
     en_title: "Visible Universe",
     en_content: "The Visible Universe: God Is Great",
     es_title: "Universo Visible",

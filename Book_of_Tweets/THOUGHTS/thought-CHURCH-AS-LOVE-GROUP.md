@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.CHURCH AS LOVE GROUP",
 
 CREATE (c:CONTENT {
     name: "content.CHURCH AS LOVE GROUP",
+    ctype: "THOUGHT",
     en_title: "Church As Love Group",
     en_content: "The number of hate groups has doubled the last 10 years. Where's the love groups? Oh yeah: that's what the CHURCH's supposed to be!",
     es_title: "La Iglesia como Grupo de Amor",

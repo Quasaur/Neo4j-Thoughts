@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.SHOVING SUGAR BODY",
 
 CREATE (c:CONTENT {
     name: "content.SHOVING SUGAR BODY",
+    ctype: "THOUGHT",
     en_title: "Shoving Sugar Body",
     en_content: "We keep shoving sugar into a body that itself manufactures sugar and then wonder why we get diabetes!",
     es_title: "Empujando Azúcar al Cuerpo",

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.DEFINING PORNOGRAPHY",
 
 CREATE (c:CONTENT {
     name: "content.DEFINING PORNOGRAPHY",
+    ctype: "THOUGHT",
     en_title: "Defining Pornography",
     en_content: "Matthew 5:27-30: Porn is adultery to a married man and fornication to a bachelor.",
     es_title: "Definiendo la Pornografía",

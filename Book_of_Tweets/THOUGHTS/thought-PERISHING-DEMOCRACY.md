@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.PERISHING DEMOCRACY",
 
 CREATE (c:CONTENT {
     name: "content.PERISHING DEMOCRACY",
+    ctype: "THOUGHT",
     en_title: "Perishing Democracy",
     en_content: "Government of, by and for the People is perishing from the Earth!",
     es_title: "Democracia que Perece",

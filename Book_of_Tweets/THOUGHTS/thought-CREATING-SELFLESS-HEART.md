@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.CREATING SELFLESS HEART",
 
 CREATE (c:CONTENT {
     name: "content.CREATING SELFLESS HEART",
+    ctype: "THOUGHT",
     en_title: "Creating Selfless Heart",
     en_content: "Only God can create a selfless heart from a pile of dust.",
     es_title: "Creando un Corazón Desinteresado",

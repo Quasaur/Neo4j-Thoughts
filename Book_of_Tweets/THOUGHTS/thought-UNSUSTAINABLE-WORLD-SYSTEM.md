@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.UNSUSTAINABLE WORLD SYSTEM",
 
 CREATE (c:CONTENT {
     name: "content.UNSUSTAINABLE WORLD SYSTEM",
+    ctype: "THOUGHT",
     en_title: "Unsustainable World System",
     en_content: "I believe the Hebrew Scriptures...this world system is unsustainable.",
     es_title: "Sistema Mundial Insostenible",

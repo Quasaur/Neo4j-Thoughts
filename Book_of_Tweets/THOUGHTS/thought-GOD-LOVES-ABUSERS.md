@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.GOD LOVES ABUSERS",
 
 CREATE (c:CONTENT {
     name: "content.GOD LOVES ABUSERS",
+    ctype: "THOUGHT",
     en_title: "God Loves Abusers",
     en_content: "God loves abusers.",
     es_title: "Dios Ama a los Abusadores",

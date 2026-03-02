@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.IRREDUCIBLE COMPLEXITY",
+    ctype: "THOUGHT",
     en_title: "Irreducible Complexity",
     en_content: "It's going to take more than a judge's ruling to disprove the TRUTH of Irreducible Complexity.",
     es_title: "Complejidad irreductible",

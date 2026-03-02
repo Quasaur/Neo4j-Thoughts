@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.SELF_WORSHIP",
+    ctype: "THOUGHT",
     en_title: "SELF WORSHIP",
     en_content: "Self-awareness without God-awareness is just self-worship, from which comes humanitarianism and evolutionary theory.",
     es_title: "AUTOADORACIÓN",

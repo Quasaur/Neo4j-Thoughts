@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.HUMANITY TOO FAR GONE",
+    ctype: "THOUGHT",
     en_title: "Humanity Too Far Gone",
     en_content: "The Bible teaches that humanity is too far gone to have any desire for the One True God; God has to put it in us to save us.",
     es_title: "La Humanidad Demasiado Perdida",

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.EXPERIENCING GOD",
 
 CREATE (c:CONTENT {
     name: "content.EXPERIENCING GOD",
+    ctype: "THOUGHT",
     en_title: "Experiencing God",
     en_content: "You don't want to live your entire life and die without experiencing God.",
     es_title: "Experimentando a Dios",

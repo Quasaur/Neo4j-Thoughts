@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.AUTOMATIC_MERCY",
+    ctype: "THOUGHT",
     en_title: "AUTHOMATIC MERCY",
     en_content: "God’s love for sinners doesn’t negate His utter hatred of sin. Mercy is neither owed nor deserved and should NEVER be presumed.",
     es_title: "MISERICORDIA AUTOMATICA",

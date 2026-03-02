@@ -25,6 +25,7 @@ CREATE (q:QUOTE {
 // CREATE CONTENT
 CREATE (c:CONTENT {
     name: "content.ONE_FAMILY",
+    ctype: "QUOTE",
     en_title: "Quote: ONE FAMILY",
     en_content: "GOD created the human family with the intent of filling its members with the SAME FULLNESS His Divine Family enjoys; since the advent of sin, however, humans have conspired with demons to so darken that which was designed to be glorious that the Presence of Divinity would be temporarily forced out."
 });

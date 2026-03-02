@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.PRICE OF PRIDE",
 
 CREATE (c:CONTENT {
     name: "content.PRICE OF PRIDE",
+    ctype: "THOUGHT",
     en_title: "Price Of Pride",
     en_content: "At what point in history did African American men decide that pride was worth the price of killing each other??",
     es_title: "Precio del orgullo",

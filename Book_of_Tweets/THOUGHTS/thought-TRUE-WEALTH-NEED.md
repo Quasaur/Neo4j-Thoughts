@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.TRUE WEALTH NEED",
 
 CREATE (c:CONTENT {
     name: "content.TRUE WEALTH NEED",
+    ctype: "THOUGHT",
     en_title: "True Wealth Need",
     en_content: "Matthew 10:34-39: One is not truly wealthy until they've lost their need for everything!",
     es_title: "Necesidad de Verdadera Riqueza",

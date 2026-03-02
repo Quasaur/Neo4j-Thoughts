@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.PROVING CREATION",
 
 CREATE (c:CONTENT {
     name: "content.PROVING CREATION",
+    ctype: "THOUGHT",
     en_title: "Proving Creation",
     en_content: "\"In The Beginning God created the heavens and the Earth.\" -- Genesis 1:1 There's not a soul on the planet that can prove otherwise.",
     es_title: "Probando la Creación",

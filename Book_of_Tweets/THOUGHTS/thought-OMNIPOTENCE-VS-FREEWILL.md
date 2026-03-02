@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.OMNIPOTENCE VS FREEWILL",
 
 CREATE (c:CONTENT {
     name: "content.OMNIPOTENCE VS FREEWILL",
+    ctype: "THOUGHT",
     en_title: "Omnipotence Vs Freewill",
     en_content: "Free Will exists only due to human ignorance of The Divine Omnipotence.",
     es_title: "Omnipotencia Vs Libre Albedrío",

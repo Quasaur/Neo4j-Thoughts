@@ -26,6 +26,7 @@ CREATE (b:PASSAGE {
 // CREATE CONTENT
 CREATE (c:CONTENT {
     name: "content.OBLIGATION",
+    ctype: "PASSAGE",
     en_title: "OBLIGATION",
     en_content: "Do not withhold good from those to whom it is due,",
  es_title: "OBLIGACIÓN",

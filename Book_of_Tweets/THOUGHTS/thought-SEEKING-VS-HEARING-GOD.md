@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.SEEKING VS HEARING GOD",
 
 CREATE (c:CONTENT {
     name: "content.SEEKING VS HEARING GOD",
+    ctype: "THOUGHT",
     en_title: "Seeking Vs Hearing God",
     en_content: "You would think that a person desperate to hear from God would be desperate to seek God...",
     es_title: "Buscar Vs Escuchar a Dios",

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.SUN ENERGY",
 
 CREATE (c:CONTENT {
     name: "content.SUN ENERGY",
+    ctype: "THOUGHT",
     en_title: "Sun Energy",
     en_content: "The Sun releases 5 million tons of matter per second...God is Great!",
     es_title: "Energía Solar",

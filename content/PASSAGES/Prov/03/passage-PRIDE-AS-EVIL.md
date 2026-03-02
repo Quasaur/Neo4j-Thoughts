@@ -26,6 +26,7 @@ CREATE (b:PASSAGE {
 // CREATE CONTENT
 CREATE (c:CONTENT {
     name: "content.PRIDE-AS-EVIL",
+    ctype: "PASSAGE",
     en_title: "PRIDE-AS-EVIL",
     en_content: "Do not be wise in your own eyes; Fear the LORD and turn away from evil. It will be healing to your body And refreshment to your bones.",
  es_title: "ORGULLO COMO MAL",

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.ISLAM",
+    ctype: "THOUGHT",
     en_title: "ISLAM",
     en_content: ""
 });

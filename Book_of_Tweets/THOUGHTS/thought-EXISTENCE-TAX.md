@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.EXISTENCE TAX",
 
 CREATE (c:CONTENT {
     name: "content.EXISTENCE TAX",
+    ctype: "THOUGHT",
     en_title: "Existence Tax",
     en_content: "Cost of Living: Men can't CREATE Life...so they're gonna charge it an existence tax...are you kidding me?!?",
     es_title: "Impuesto de Existencia",

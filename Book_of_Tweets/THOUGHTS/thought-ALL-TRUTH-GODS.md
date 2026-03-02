@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.ALL TRUTH GODS",
 
 CREATE (c:CONTENT {
     name: "content.ALL TRUTH GODS",
+    ctype: "THOUGHT",
     en_title: "All Truth Gods",
     en_content: "All truth belongs to God.",
     es_title: "Toda Verdad es de Dios",

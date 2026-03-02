@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.GLORY_TO_GOD",
+    ctype: "THOUGHT",
     en_title: "GLORY TO GOD",
     en_content: "Whether by Righteousness or Wickedness, we all exist to glorify God!",
     es_title: "GLORIA A DIOS",

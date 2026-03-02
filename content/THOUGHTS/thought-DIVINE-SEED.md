@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.DIVINE_SEED",
+    ctype: "THOUGHT",
     en_title: "DIVINE SEED",
     en_content: "A woman cannot give her husband a child without first receiving his seed; likewise we cannot give God worship, glory or obedience without first receiving the Seed of His Word fertilized by the Holy Spirit.",
     es_title: "SEMILLA DIVINA",

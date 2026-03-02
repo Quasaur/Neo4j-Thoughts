@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.DANGER OF TRUTH",
 
 CREATE (c:CONTENT {
     name: "content.DANGER OF TRUTH",
+    ctype: "THOUGHT",
     en_title: "Danger Of Truth",
     en_content: "Truth is a dangerous thing...yet so is a lie.",
     es_title: "Peligro de la Verdad",

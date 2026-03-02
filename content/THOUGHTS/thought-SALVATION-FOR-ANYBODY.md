@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.SALVATION FOR ANYBODY",
+    ctype: "THOUGHT",
     en_title: "Salvation For Anybody",
     en_content: "Salvation is not for everybody, yet God can save anybody!",
     es_title: "Salvación Para Cualquiera",

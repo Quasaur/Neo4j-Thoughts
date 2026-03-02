@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.GRACE VS SATAN",
+    ctype: "THOUGHT",
     en_title: "Grace Vs Satan",
     en_content: "Apart from Grace, what difference is there between me and Satan? He's older and smarter...other than that we're both petty little monsters.",
     es_title: "Gracia Vs Satanás",

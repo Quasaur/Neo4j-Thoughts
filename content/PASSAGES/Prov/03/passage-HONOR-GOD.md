@@ -27,6 +27,7 @@ CREATE (b:PASSAGE
 // create multi-lingual content		
 CREATE (c:CONTENT {
 	name: "content.HONOR GOD", 
+	ctype: "PASSAGE",
 	en_title: "HONOR GOD", 
 	en_content: "Honor the LORD from your wealth,  
 And from the first of all your produce;  

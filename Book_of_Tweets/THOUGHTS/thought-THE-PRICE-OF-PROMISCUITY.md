@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.THE PRICE OF PROMISCUITY",
 
 CREATE (c:CONTENT {
     name: "content.THE PRICE OF PROMISCUITY",
+    ctype: "THOUGHT",
     en_title: "The Price Of Promiscuity",
     en_content: "People who are promiscuous wind up paying a terrible price.",
     es_title: "El Precio de la Promiscuidad",

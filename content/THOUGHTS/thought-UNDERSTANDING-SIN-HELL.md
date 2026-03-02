@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.UNDERSTANDING SIN HELL",
 
 CREATE (c:CONTENT {
     name: "content.UNDERSTANDING SIN HELL",
+    ctype: "THOUGHT",
     en_title: "Understanding Sin Hell",
     en_content: "You will never understand how God feels about sin until you look into Hell.",
     es_title: "Entendiendo el Pecado y el Infierno",

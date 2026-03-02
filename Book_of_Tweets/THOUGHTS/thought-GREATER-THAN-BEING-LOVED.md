@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.GREATER THAN BEING LOVED",
 
 CREATE (c:CONTENT {
     name: "content.GREATER THAN BEING LOVED",
+    ctype: "THOUGHT",
     en_title: "Greater Than Being Loved",
     en_content: "What could be greater than being loved? Being able to love!",
     es_title: "Más Grande Que Ser Amado",

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.THE SUFFERING GOD",
 
 CREATE (c:CONTENT {
     name: "content.THE SUFFERING GOD",
+    ctype: "THOUGHT",
     en_title: "The Suffering God",
     en_content: "In Christ God has suffered more than any human.",
     es_title: "El Dios que Sufre",

@@ -25,6 +25,7 @@ CREATE (q:QUOTE {
 // CREATE CONTENT
 CREATE (c:CONTENT {
     name: "content.NORMAL-REALITY",
+    ctype: "QUOTE",
     en_title: "Quote: NORMAL-REALITY",
     en_content: "Other things happened, but what i most strongly desire to convey to you is that the lives we experience in this world are NOT as real as Eternity. We live in a temporary sub-reality that is the result of humanity being disconnected from our Great and Precious Heavenly Father. The experience i was granted is NORMAL REALITY...the environment we were MEANT to be born into and live our lives in!!!"
 });

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.AVOIDING GOD AND CHURCH",
 
 CREATE (c:CONTENT {
     name: "content.AVOIDING GOD AND CHURCH",
+    ctype: "THOUGHT",
     en_title: "Avoiding God And Church",
     en_content: "Why do African American men avoid God and His Church???",
     es_title: "Evitando a Dios y la Iglesia",

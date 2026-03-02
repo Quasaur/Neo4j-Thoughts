@@ -28,6 +28,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.MEEK",
+    ctype: "THOUGHT",
     en_title: "MEEK",
     en_content: "While others worship the gods of Might, Power, Speed, Mammon and Spirituality...
 ...we Christians worship the Meek and Lowly GOD...

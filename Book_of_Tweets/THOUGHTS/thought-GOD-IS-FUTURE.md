@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.GOD IS FUTURE",
 
 CREATE (c:CONTENT {
     name: "content.GOD IS FUTURE",
+    ctype: "THOUGHT",
     en_title: "God Is Future",
     en_content: "God is your Future.",
     es_title: "Dios Es el Futuro",

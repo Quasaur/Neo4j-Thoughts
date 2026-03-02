@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.NO POOR IN HEAVEN",
 
 CREATE (c:CONTENT {
     name: "content.NO POOR IN HEAVEN",
+    ctype: "THOUGHT",
     en_title: "No Poor In Heaven",
     en_content: "There are no poor in Heaven.",
     es_title: "No Hay Pobres en el Cielo",

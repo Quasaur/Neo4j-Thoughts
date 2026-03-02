@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.COMPREHENDING VS KNOWING",
 
 CREATE (c:CONTENT {
     name: "content.COMPREHENDING VS KNOWING",
+    ctype: "THOUGHT",
     en_title: "Comprehending Vs Knowing",
     en_content: "If I could comprehend Him, He wouldn't be God; but I can know Him.",
     es_title: "Comprender Versus Conocer",

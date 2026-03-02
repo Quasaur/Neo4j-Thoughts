@@ -25,6 +25,7 @@ CREATE (q:QUOTE {
 // CREATE CONTENT
 CREATE (c:CONTENT {
     name: "content.BANKRUPT",
+    ctype: "QUOTE",
     en_title: "Quote: BANKRUPT",
     en_content: "We can never be allowed to experience the Power of GOD’s Holy Spirit until we fully understand that we are absolutely bankrupt (both morally and spiritually), with nothing to offer GOD except our sin, our shame and our failure."
 });

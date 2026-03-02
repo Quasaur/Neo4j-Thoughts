@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.PROBLEM AND SOLUTION",
 
 CREATE (c:CONTENT {
     name: "content.PROBLEM AND SOLUTION",
+    ctype: "THOUGHT",
     en_title: "Problem And Solution",
     en_content: "Identifying the problem is only half the solution.",
     es_title: "Problema Y Solución",

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.GREED ECONOMIC WOES",
 
 CREATE (c:CONTENT {
     name: "content.GREED ECONOMIC WOES",
+    ctype: "THOUGHT",
     en_title: "Greed Economic Woes",
     en_content: "The true source of our economic woes is GREED; therefore no recovery will ever be permanent until Christ returns.",
     es_title: "Problemas Económicos por Codicia",

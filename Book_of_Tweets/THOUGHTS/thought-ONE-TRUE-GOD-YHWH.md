@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.ONE TRUE GOD YHWH",
 
 CREATE (c:CONTENT {
     name: "content.ONE TRUE GOD YHWH",
+    ctype: "THOUGHT",
     en_title: "One True God Yhwh",
     en_content: "I believe there is One True God -- YHWH; and Jesus Christ is His Living Word! Hebrews 1:1-4",
     es_title: "Un Dios Verdadero Yhwh",

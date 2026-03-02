@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.FORGIVE AND SANCTIFY",
+    ctype: "THOUGHT",
     en_title: "Forgive And Sanctify",
     en_content: "God can forgive any sin and sanctify any sinner.",
     es_title: "Perdona y Santifica",

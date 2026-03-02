@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.PERFECT PEOPLE CRITICISM",
 
 CREATE (c:CONTENT {
     name: "content.PERFECT PEOPLE CRITICISM",
+    ctype: "THOUGHT",
     en_title: "Perfect People Criticism",
     en_content: "Have you ever noticed that perfect people don't respond well to criticism?",
     es_title: "Crítica a las Personas Perfectas",

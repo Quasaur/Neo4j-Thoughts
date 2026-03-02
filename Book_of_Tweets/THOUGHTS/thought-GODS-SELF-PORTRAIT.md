@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.GODS SELF PORTRAIT",
 
 CREATE (c:CONTENT {
     name: "content.GODS SELF PORTRAIT",
+    ctype: "THOUGHT",
     en_title: "Gods Self Portrait",
     en_content: "Jesus Christ is God's Self Portrait, etched on the canvas of humanity by the Holy Spirit.",
     es_title: "El Autorretrato de Dios",

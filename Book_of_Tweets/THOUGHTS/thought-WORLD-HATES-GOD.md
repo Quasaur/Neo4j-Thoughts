@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.WORLD HATES GOD",
 
 CREATE (c:CONTENT {
     name: "content.WORLD HATES GOD",
+    ctype: "THOUGHT",
     en_title: "World Hates God",
     en_content: "God loves the world. The world hates God. This is not going to end well for the world.",
     es_title: "El Mundo Odia a Dios",

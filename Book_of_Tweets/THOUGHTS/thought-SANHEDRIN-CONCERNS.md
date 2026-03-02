@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.SANHEDRIN CONCERNS",
 
 CREATE (c:CONTENT {
     name: "content.SANHEDRIN CONCERNS",
+    ctype: "THOUGHT",
     en_title: "Sanhedrin Concerns",
     en_content: "The Sanhedrin was more concerned about their authority and money than about serving God or God's people.",
     es_title: "Preocupaciones del Sanedrín",

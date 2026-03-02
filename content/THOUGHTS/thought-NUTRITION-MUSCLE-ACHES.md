@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.NUTRITION MUSCLE ACHES",
+    ctype: "THOUGHT",
     en_title: "Nutrition Muscle Aches",
     en_content: "Nutrition: Muscle aches may benefit from the following: Astaxanthin, Calcium, Magnesium, Bromelain, Creatine.",
     es_title: "Dolores musculares",

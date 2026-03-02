@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.EQUALITY AT RETURN",
+    ctype: "THOUGHT",
     en_title: "Equality At Return",
     en_content: "True economic political and social equality will never exist on Earth until Christ returns.",
     es_title: "Igualdad en el Regreso",

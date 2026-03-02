@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.FAILURE TO SUCCESS",
+    ctype: "THOUGHT",
     en_title: "Failure To Success",
     en_content: "God can love any failure into a success.",
     es_title: "Fracaso al éxito",

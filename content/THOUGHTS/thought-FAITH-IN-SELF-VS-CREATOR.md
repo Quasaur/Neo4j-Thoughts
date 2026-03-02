@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.FAITH IN SELF VS CREATOR",
+    ctype: "THOUGHT",
     en_title: "Faith In Self Vs Creator",
     en_content: "We have more faith in ourselves than we have in our Creator; this is a recipe for disaster.",
     es_title: "Fe en Uno Mismo Vs el Creador",

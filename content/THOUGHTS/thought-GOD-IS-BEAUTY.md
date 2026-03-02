@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.GOD IS BEAUTY",
+    ctype: "THOUGHT",
     en_title: "God Is Beauty",
     en_content: "God is Beauty. Apart from Him we are ugly.",
     es_title: "Dios Es Belleza",

@@ -24,6 +24,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.COWARDS",
+    ctype: "THOUGHT",
     en_title: "Cowards",
     en_content: "Terrorists and freedom fighters are children of the Devil...COWARDS...just like their daddy.",
     es_title: "Cobardes",

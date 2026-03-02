@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.PRIVATE INTERPRETATION",
 
 CREATE (c:CONTENT {
     name: "content.PRIVATE INTERPRETATION",
+    ctype: "THOUGHT",
     en_title: "Private Interpretation",
     en_content: "Where Satan can't stop Bible reading he distracts with private interpretation.",
     es_title: "Interpretación Privada",

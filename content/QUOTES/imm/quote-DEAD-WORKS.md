@@ -25,6 +25,7 @@ CREATE (q:QUOTE {
 // CREATE CONTENT
 CREATE (c:CONTENT {
     name: "content.DEAD_WORKS",
+    ctype: "QUOTE",
     en_title: "Quote: DEAD WORKS",
     en_content: "The obedience of the sinner CANNOT BE ACCEPTED by GOD because since the sinner is spiritually dead THEIR OBEDIENCE IS DEAD AS WELL."
 });

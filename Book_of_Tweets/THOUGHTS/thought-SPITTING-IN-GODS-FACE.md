@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.SPITTING IN GODS FACE",
 
 CREATE (c:CONTENT {
     name: "content.SPITTING IN GODS FACE",
+    ctype: "THOUGHT",
     en_title: "Spitting In Gods Face",
     en_content: "America can spit in God's Face over this gay thing if it wants to, but this is NOT going to end well for any of us.",
     es_title: "Escupir En La Cara De Dios",

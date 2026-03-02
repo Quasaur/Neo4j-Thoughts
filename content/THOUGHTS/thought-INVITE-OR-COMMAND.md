@@ -23,6 +23,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.INVITE_OR_COMMAND?",
+    ctype: "THOUGHT",
     en_title: "INVITE OR COMMAND",
     en_content: "In American churches people are INVITED to receive the Gospel; this is a un-Biblical heresy.
 God COMMANDS all people to repent and believe the Gospel.

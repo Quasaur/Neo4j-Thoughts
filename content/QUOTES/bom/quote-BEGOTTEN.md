@@ -25,7 +25,7 @@ CREATE (q:QUOTE {
 // create multi-lingual content		
 CREATE (c:CONTENT {
 	name: "content.BEGOTTEN",
-	ctype: 2, // 1=thought; 2=quote; 3=passage
+	ctype: "QUOTE",
 	en_title: "BEGOTTEN", 
 	en_content: "PLEASE UNDERSTAND: the First Adam was CREATED; the Last Adam is BEGOTTEN!!!  
 That's why Jesus is called God's 'Only-Begotten' Son.", 

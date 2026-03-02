@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.EVERYTHING IS SIMPLE",
 
 CREATE (c:CONTENT {
     name: "content.EVERYTHING IS SIMPLE",
+    ctype: "THOUGHT",
     en_title: "Everything Is Simple",
     en_content: "To God complexity itself does not exists...everything is simple to God.",
     es_title: "Todo Es Simple",

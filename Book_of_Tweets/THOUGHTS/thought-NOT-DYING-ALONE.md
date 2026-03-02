@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.NOT DYING ALONE",
 
 CREATE (c:CONTENT {
     name: "content.NOT DYING ALONE",
+    ctype: "THOUGHT",
     en_title: "Not Dying Alone",
     en_content: "God will let you die...but He will not let you die alone.",
     es_title: "No Morir Solo",

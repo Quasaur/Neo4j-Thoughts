@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.ALIGNING THROUGH PRAYER",
 
 CREATE (c:CONTENT {
     name: "content.ALIGNING THROUGH PRAYER",
+    ctype: "THOUGHT",
     en_title: "Aligning Through Prayer",
     en_content: "The purpose of prayer is not just to get God to do stuff, but to align myself with what God is doing!",
     es_title: "Alinearse Mediante la Oración",

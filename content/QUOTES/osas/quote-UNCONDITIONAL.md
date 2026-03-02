@@ -25,6 +25,7 @@ CREATE (q:QUOTE {
 // CREATE CONTENT
 CREATE (c:CONTENT {
     name: "content.UNCONDITIONAL",
+    ctype: "QUOTE",
     en_title: "Quote: UNCONDITIONAL",
     en_content: "The Purpose of the Gospel is to bring fallen humanity into The Fellowship of The GODHEAD. And since the Fellowship of The GODHEAD is Itself unconditional, The Gospel of Grace must also be unconditional."
 });

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.REASON TO BE ALIVE",
 
 CREATE (c:CONTENT {
     name: "content.REASON TO BE ALIVE",
+    ctype: "THOUGHT",
     en_title: "Reason To Be Alive",
     en_content: "The only reason we are alive is to find Jesus that He may take away our sin.",
     es_title: "Razón Para Estar Vivos",

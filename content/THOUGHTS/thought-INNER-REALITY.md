@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.INNER_REALITY",
+    ctype: "THOUGHT",
     en_title: "INNER REALITY",
     en_content: "What's going on INSIDE of you is far more potent, effectual and real—to you--than what's going on outside of you.",
     es_title: "REALIDAD INTERIOR",

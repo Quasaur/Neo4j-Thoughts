@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.COURAGE THROUGH PRAYER",
 
 CREATE (c:CONTENT {
     name: "content.COURAGE THROUGH PRAYER",
+    ctype: "THOUGHT",
     en_title: "Courage Through Prayer",
     en_content: "Prayer is where I find Courage and Perseverance.",
     es_title: "Valor a Través de la Oración",

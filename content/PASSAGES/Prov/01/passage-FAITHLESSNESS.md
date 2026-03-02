@@ -26,6 +26,7 @@ CREATE (b:PASSAGE {
 // CREATE CONTENT
 CREATE (c:CONTENT {
     name: "content.FAITHLESSNESS",
+    ctype: "PASSAGE",
     en_title: "FAITHLESSNESS",
     en_content: "For the faithlessness of the naive will kill them, and the complacency of fools will destroy them.",
  es_title: "FIDELIDAD",

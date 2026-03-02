@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.QUIET_THE_FLESH",
+    ctype: "THOUGHT",
     en_title: "QUIET THE FLESH",
     en_content: "Only the Holy Spirit of Christ can truly quiet the flesh, providing fertile ground for discipline, self-control, and love towards others.",
     es_title: "CALLAR LA CARNE",

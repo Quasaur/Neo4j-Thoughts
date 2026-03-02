@@ -22,6 +22,7 @@ CREATE (t:PASSAGE {
 
 CREATE (c:CONTENT {
     name: "content.REMOVING ALL THINGS",
+    ctype: "PASSAGE",
     en_title: "Removing All Things",
     en_content: "\"I will completely remove all things from the face of the earth.\"",
     es_title: "Eliminando todas las cosas",

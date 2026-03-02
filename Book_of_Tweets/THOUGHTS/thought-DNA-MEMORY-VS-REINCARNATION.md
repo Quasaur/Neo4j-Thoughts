@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.DNA MEMORY VS REINCARNATION",
 
 CREATE (c:CONTENT {
     name: "content.DNA MEMORY VS REINCARNATION",
+    ctype: "THOUGHT",
     en_title: "Dna Memory Vs Reincarnation",
     en_content: "Reincarnation: what if these memories are not of previous lives, but of the lives of our ancestors engraved on our spirits/DNA?",
     es_title: "Memoria del ADN Vs Reencarnación",

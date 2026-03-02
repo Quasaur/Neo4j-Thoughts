@@ -23,6 +23,7 @@ CREATE (q:QUOTE
 // create multi-lingual content		
 CREATE (c:CONTENT {
 	name: "content.GOODNESS OF GOD", 
+	ctype: "QUOTE",
 	en_title: "GOODNESS OF GOD", 
 	en_content: "None of the darkest horrors concocted by the most evil demonic force can ever have a chance against the Goodness of God.", 
 	es_title: "Bondad de Dios", 

@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.LOST_SCIENTISTS",
+    ctype: "THOUGHT",
     en_title: "LOST SCIENTISTS",
     en_content: "The truth is that scientists have had to admit that they're lost beyond the Big Bang.",
     es_title: "CIENTÍFICOS PERDIDOS",

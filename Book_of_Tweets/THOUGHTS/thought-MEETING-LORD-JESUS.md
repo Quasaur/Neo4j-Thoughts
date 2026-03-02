@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.MEETING LORD JESUS",
 
 CREATE (c:CONTENT {
     name: "content.MEETING LORD JESUS",
+    ctype: "THOUGHT",
     en_title: "Meeting Lord Jesus",
     en_content: "I have met the Lord Jesus: He is to live for, and to die for!",
     es_title: "Conociendo al Señor Jesús",

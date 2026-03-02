@@ -26,6 +26,7 @@ CREATE (b:PASSAGE {
 // CREATE CONTENT
 CREATE (c:CONTENT {
     name: "content.PROTECTION_FROM_EVIL",
+    ctype: "PASSAGE",
     en_title: "PROTECTION FROM EVIL",
     en_content: "For wisdom will enter your heart, And knowledge will be delightful to your soul; Discretion will watch over you, Understanding will guard you, To rescue you from the way of evil, From a person who speaks perverse things;",
  es_title: "PROTECCIÓN CONTRA EL MAL",

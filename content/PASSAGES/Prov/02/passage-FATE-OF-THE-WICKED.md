@@ -26,6 +26,7 @@ CREATE (b:PASSAGE {
 // CREATE CONTENT
 CREATE (c:CONTENT {
     name: "content.FATE_OF_THE_WICKED",
+    ctype: "PASSAGE",
     en_title: "FATE OF THE WICKED",
     en_content: "But the wicked will be eliminated from the land, And the treacherous will be torn away from it.",
  es_title: "DESTINO DE LOS MALVADOS",

@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.GRACE TO HUMBLE",
+    ctype: "THOUGHT",
     en_title: "Grace To Humble",
     en_content: "Salvation in a Nutshell: God resists the proud, but gives Grace to the humble.",
     es_title: "Gracia Para Los Humildes",

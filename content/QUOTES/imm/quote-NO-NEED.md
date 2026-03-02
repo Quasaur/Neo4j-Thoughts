@@ -25,6 +25,7 @@ CREATE (q:QUOTE {
 // CREATE CONTENT
 CREATE (c:CONTENT {
     name: "content.NO_NEED",
+    ctype: "QUOTE",
     en_title: "Quote: NO NEED",
     en_content: "You do not need money to either survive or thrive in this life or the next."
 });

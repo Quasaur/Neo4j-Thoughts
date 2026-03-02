@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.WAY TO MANS EGO",
 
 CREATE (c:CONTENT {
     name: "content.WAY TO MANS EGO",
+    ctype: "THOUGHT",
     en_title: "Way To Mans Ego",
     en_content: "The fastest way to a man's heart is not through his stomach, but his ego.",
     es_title: "Camino Al Ego Del Hombre",

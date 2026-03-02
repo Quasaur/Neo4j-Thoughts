@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.CORPORATE RACISM",
 
 CREATE (c:CONTENT {
     name: "content.CORPORATE RACISM",
+    ctype: "THOUGHT",
     en_title: "Corporate Racism",
     en_content: "Racism, Discrimination and Prejudice are alive and well in Corporate America.",
     es_title: "Racismo Corporativo",

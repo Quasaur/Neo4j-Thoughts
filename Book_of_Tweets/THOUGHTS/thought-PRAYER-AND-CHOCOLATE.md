@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.PRAYER AND CHOCOLATE",
 
 CREATE (c:CONTENT {
     name: "content.PRAYER AND CHOCOLATE",
+    ctype: "THOUGHT",
     en_title: "Prayer And Chocolate",
     en_content: "Is there a better way to start a day than with prayer and chocolate? I think not!",
     es_title: "Oración Y Chocolate",

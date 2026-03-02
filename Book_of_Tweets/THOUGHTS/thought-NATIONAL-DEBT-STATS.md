@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.NATIONAL DEBT STATS",
 
 CREATE (c:CONTENT {
     name: "content.NATIONAL DEBT STATS",
+    ctype: "THOUGHT",
     en_title: "National Debt Stats",
     en_content: "The National Debt: $16 TRILLION...that's $30 million every second for a year!!!",
     es_title: "Estadísticas de deuda nacional",

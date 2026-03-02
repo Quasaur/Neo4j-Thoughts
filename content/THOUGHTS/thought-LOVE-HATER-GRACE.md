@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.LOVE HATER GRACE",
+    ctype: "THOUGHT",
     en_title: "Love Hater Grace",
     en_content: "To love the one who loves you is pleasure. To love the one who ignores you is compassion. To love the one who hates you is Grace.",
     es_title: "Amor Aborrecedor Gracia",

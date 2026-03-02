@@ -26,6 +26,7 @@ CREATE (b:PASSAGE {
 // CREATE CONTENT
 CREATE (c:CONTENT {
     name: "content.MAN_OF_VIOLENCE",
+    ctype: "PASSAGE",
     en_title: "MAN OF VIOLENCE",
     en_content: "Do not envy a man of violence",
  es_title: "HOMBRE DE VIOLENCIA",

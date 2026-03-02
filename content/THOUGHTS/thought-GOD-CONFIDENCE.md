@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.GOD CONFIDENCE",
+    ctype: "THOUGHT",
     en_title: "God Confidence",
     en_content: "God-confidence is better than self-confidence.",
     es_title: "Confianza en Dios",

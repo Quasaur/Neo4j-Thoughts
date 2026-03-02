@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.PRAYER FOR WISDOM",
 
 CREATE (c:CONTENT {
     name: "content.PRAYER FOR WISDOM",
+    ctype: "THOUGHT",
     en_title: "Prayer For Wisdom",
     en_content: "Lord Jesus, fill my mind with Your Wisdom; fill my heart with Your Love; fill my bowels with Your Mercy!",
     es_title: "Oración Por Sabiduría",

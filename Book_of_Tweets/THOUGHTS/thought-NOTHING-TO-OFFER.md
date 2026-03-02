@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.NOTHING TO OFFER",
 
 CREATE (c:CONTENT {
     name: "content.NOTHING TO OFFER",
+    ctype: "THOUGHT",
     en_title: "Nothing To Offer",
     en_content: "God is not interested in what you can offer Him; because the truth is that you have nothing to give God until He gives it to you first!",
     es_title: "Nada Que Ofrecer",

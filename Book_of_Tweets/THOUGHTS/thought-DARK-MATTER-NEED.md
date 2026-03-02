@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.DARK MATTER NEED",
 
 CREATE (c:CONTENT {
     name: "content.DARK MATTER NEED",
+    ctype: "THOUGHT",
     en_title: "Dark Matter Need",
     en_content: "If the Standard Model was doing its job, there'd be no need for \"dark matter\", \"dark energy\" or \"dark flow\"!",
     es_title: "Necesidad de Materia Oscura",

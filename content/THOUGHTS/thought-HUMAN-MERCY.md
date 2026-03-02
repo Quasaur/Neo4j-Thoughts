@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.HUMAN_MERCY",
+    ctype: "THOUGHT",
     en_title: "HUMAN MERCY",
     en_content: "Oh Most Holy Father of spirits, please grant me the Grace to be merciful to Your Feelings through my submission and faithful obedience to Your Only-Begotten Son The Messiah!",
     es_title: "MISERICORDIA HUMANA",

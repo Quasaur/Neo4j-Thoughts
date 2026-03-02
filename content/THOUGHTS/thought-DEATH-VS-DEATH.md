@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.DEATH_VS_DEATH",
+    ctype: "THOUGHT",
     en_title: "DEATH VS DEATH",
     en_content: "Only GOD could come up with the idea of using death to destroy death!!!",
     es_title: "MUERTE CONTRA MUERTE",

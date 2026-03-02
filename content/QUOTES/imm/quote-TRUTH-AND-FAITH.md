@@ -25,6 +25,7 @@ CREATE (q:QUOTE {
 // CREATE CONTENT
 CREATE (c:CONTENT {
     name: "content.TRUTH_AND_FAITH",
+    ctype: "QUOTE",
     en_title: "Quote: TRUTH AND FAITH",
     en_content: "GOD lovingly provides both the Truth that saves us from the Lake of Fire as well as the Saving Faith necessary to believe on (from the heart) and live by that Saving Truth."
 });

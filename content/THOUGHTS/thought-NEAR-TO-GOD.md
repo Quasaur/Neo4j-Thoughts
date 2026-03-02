@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.NEAR_TO_GOD",
+    ctype: "THOUGHT",
     en_title: "NEAR TO GOD",
     en_content: "No one comes near to God who is not called by God to do so (John 6:44).",
     es_title: "CERCA DE DIOS",

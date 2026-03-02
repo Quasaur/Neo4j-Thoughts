@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.GETTING VS BEING",
 
 CREATE (c:CONTENT {
     name: "content.GETTING VS BEING",
+    ctype: "THOUGHT",
     en_title: "Getting Vs Being",
     en_content: "We are more concerned with GETTING more than we are BEING more.",
     es_title: "Obtener Vs Ser",

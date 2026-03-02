@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.LOVING_OR_LOVED?",
+    ctype: "THOUGHT",
     en_title: "LOVING OR LOVED?",
     en_content: "So...which is better: loving God or being loved by God?",
     es_title: "¿AMAR O AMAR?",

@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.MODIFIED_GOSPEL",
+    ctype: "THOUGHT",
     en_title: "MODIFIED GOSPEL",
     en_content: "Christians LOVE to inject their \"wisdom\" into the Gospel; nowhere does this happen more than in the American church.",
     es_title: "EVANGELIO MODIFICADO",

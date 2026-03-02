@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.RECOGNIZE OPPORTUNITY",
 
 CREATE (c:CONTENT {
     name: "content.RECOGNIZE OPPORTUNITY",
+    ctype: "THOUGHT",
     en_title: "Recognize Opportunity",
     en_content: "The tragedy is that African American men do not recognize opportunity when they see it.",
     es_title: "Reconocer la Oportunidad",

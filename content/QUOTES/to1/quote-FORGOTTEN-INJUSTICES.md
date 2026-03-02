@@ -23,6 +23,7 @@ CREATE (q:QUOTE
 // create multi-lingual content		
 CREATE (c:CONTENT {
 	name: "content.FORGOTTEN INJUSTICES", 
+	ctype: "QUOTE",
 	en_title: "FORGOTTEN INJUSTICES", 
 	en_content: "All of the gravest injustices committed by humanity against its own would not even be remembered in the Presence of the Divine Goodness.", 
 	es_title: "INJUSTICIAS OLVIDADAS", 

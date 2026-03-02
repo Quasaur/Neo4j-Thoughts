@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.HUMANITARIANISM",
+    ctype: "THOUGHT",
     en_title: "HUMANITARIANISM",
     en_content: ""
 });

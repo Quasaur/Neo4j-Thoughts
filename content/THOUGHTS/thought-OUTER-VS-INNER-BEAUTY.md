@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.OUTER VS INNER BEAUTY",
 
 CREATE (c:CONTENT {
     name: "content.OUTER VS INNER BEAUTY",
+    ctype: "THOUGHT",
     en_title: "Outer Vs Inner Beauty",
     en_content: "Outer beauty doesn't make up for inner ugly.",
     es_title: "Belleza Exterior Vs Interior",

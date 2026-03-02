@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.AGREEING WITH OPPRESSOR",
 
 CREATE (c:CONTENT {
     name: "content.AGREEING WITH OPPRESSOR",
+    ctype: "THOUGHT",
     en_title: "Agreeing With Oppressor",
     en_content: "Every day we do things to let the Opressor know that we AGREE that his money is worth more than justice, dignity, equity and honor.",
     es_title: "De Acuerdo con el Opresor",

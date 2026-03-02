@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.SUBMITTING OUR PLANS",
 
 CREATE (c:CONTENT {
     name: "content.SUBMITTING OUR PLANS",
+    ctype: "THOUGHT",
     en_title: "SUBMITTING OUR PLANS",
     en_content: "Our egos are so massive...we're always trying to fit God into our plans rather than submitting ourselves to His Plan.",
     es_title: "SOMETIENDO NUESTROS PLANES",

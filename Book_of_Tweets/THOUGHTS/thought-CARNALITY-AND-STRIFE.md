@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.CARNALITY AND STRIFE",
 
 CREATE (c:CONTENT {
     name: "content.CARNALITY AND STRIFE",
+    ctype: "THOUGHT",
     en_title: "Carnality And Strife",
     en_content: "1 Corinthians 3:3: \"...for whereas there is among you envying, and strife, and divisions, are ye not carnal, and walk as men?\"",
     es_title: "Carnalidad y Contienda",

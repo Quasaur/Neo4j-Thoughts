@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.SEED DESIGN",
 
 CREATE (c:CONTENT {
     name: "content.SEED DESIGN",
+    ctype: "THOUGHT",
     en_title: "Seed Design",
     en_content: "Seeds are designed to know when their environment is appropriate for germination...God is Great!",
     es_title: "Diseño de las Semillas",

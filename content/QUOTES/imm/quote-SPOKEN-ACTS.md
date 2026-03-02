@@ -25,6 +25,7 @@ CREATE (q:QUOTE {
 // CREATE CONTENT
 CREATE (c:CONTENT {
     name: "content.SPOKEN_ACTS",
+    ctype: "QUOTE",
     en_title: "Quote: SPOKEN ACTS",
     en_content: "Spoken words are human acts which are recorded in Heaven meticulously."
 });

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.LEAVING GOD OUT",
 
 CREATE (c:CONTENT {
     name: "content.LEAVING GOD OUT",
+    ctype: "THOUGHT",
     en_title: "Leaving God Out",
     en_content: "We've left God out.",
     es_title: "Dejando a Dios Fuera",

@@ -19,6 +19,7 @@ CREATE (t:THOUGHT {    name: "thought.THE SPEAKING GOD",
 
 CREATE (c:CONTENT {
     name: "content.THE SPEAKING GOD",
+    ctype: "THOUGHT",
     en_title: "The Speaking God",
     en_content: "It's been said that the only thing God has ever done is talk...what do you think?",
     es_title: "El Dios habla",

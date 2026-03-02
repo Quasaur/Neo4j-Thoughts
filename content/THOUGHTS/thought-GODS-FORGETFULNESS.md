@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.GODS FORGETFULNESS",
+    ctype: "THOUGHT",
     en_title: "Gods Forgetfulness",
     en_content: "Don't bring to mind what God has decided to forget.",
     es_title: "El Olvido de Dios",

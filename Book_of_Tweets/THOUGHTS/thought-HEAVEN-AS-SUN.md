@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.HEAVEN AS SUN",
 
 CREATE (c:CONTENT {
     name: "content.HEAVEN AS SUN",
+    ctype: "THOUGHT",
     en_title: "Heaven As Sun",
     en_content: "What is Heaven like? The center of the Sun!",
     es_title: "El Cielo Como Sol",

@@ -23,6 +23,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.UNFAIR",
+    ctype: "THOUGHT",
     en_title: "Unfair",
     en_content: "You may call God unfair, yet your life is still in His Hand; perhaps it would be wiser to bow and worship than to provoke.",
     es_title: "Injusto",

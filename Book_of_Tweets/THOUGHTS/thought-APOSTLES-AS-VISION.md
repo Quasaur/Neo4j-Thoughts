@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.APOSTLES AS VISION",
 
 CREATE (c:CONTENT {
     name: "content.APOSTLES AS VISION",
+    ctype: "THOUGHT",
     en_title: "Apostles As Vision",
     en_content: "The Apostles loved Jesus' Vision because the Apostles WERE Jesus' Vision!",
     es_title: "Los Apóstoles como Visión",

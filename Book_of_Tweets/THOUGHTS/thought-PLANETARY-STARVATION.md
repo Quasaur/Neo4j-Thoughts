@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.PLANETARY STARVATION",
 
 CREATE (c:CONTENT {
     name: "content.PLANETARY STARVATION",
+    ctype: "THOUGHT",
     en_title: "Planetary Starvation",
     en_content: "There's enough resources on Planet Earth for EVERYONE...so why are people starving?!?",
     es_title: "Hambruna Planetaria",

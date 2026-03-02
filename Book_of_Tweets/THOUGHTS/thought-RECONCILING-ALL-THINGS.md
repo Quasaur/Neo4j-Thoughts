@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.RECONCILING ALL THINGS",
 
 CREATE (c:CONTENT {
     name: "content.RECONCILING ALL THINGS",
+    ctype: "THOUGHT",
     en_title: "Reconciling All Things",
     en_content: "1st Corinthians 15:24-28: God is #reconciling and consolidating all things into Christ.",
     es_title: "Reconciliando Todas las Cosas",

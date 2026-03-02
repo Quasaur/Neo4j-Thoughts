@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.EVOLUTION AS RELIGION",
 
 CREATE (c:CONTENT {
     name: "content.EVOLUTION AS RELIGION",
+    ctype: "THOUGHT",
     en_title: "Evolution As Religion",
     en_content: "Evolution is a RELIGION, evidence for which has been dwindling as scientific observation has grown more sophisticated.",
     es_title: "La evolución como religión",

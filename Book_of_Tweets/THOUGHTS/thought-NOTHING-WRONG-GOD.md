@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.NOTHING WRONG GOD",
 
 CREATE (c:CONTENT {
     name: "content.NOTHING WRONG GOD",
+    ctype: "THOUGHT",
     en_title: "Nothing Wrong God",
     en_content: "There is nothing wrong with God.",
     es_title: "Nada Malo en Dios",

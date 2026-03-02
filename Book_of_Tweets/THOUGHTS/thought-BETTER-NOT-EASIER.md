@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.BETTER NOT EASIER",
 
 CREATE (c:CONTENT {
     name: "content.BETTER NOT EASIER",
+    ctype: "THOUGHT",
     en_title: "Better Not Easier",
     en_content: "Jesus did not come to make our lives easier; Christ came to make our lives better!",
     es_title: "Mejor, No Más Fácil",

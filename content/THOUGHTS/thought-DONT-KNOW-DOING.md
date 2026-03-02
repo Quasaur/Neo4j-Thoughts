@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.DONT KNOW DOING",
+    ctype: "THOUGHT",
     en_title: "We're Lost!",
     en_content: "God! Forgive us! WE DON'T KNOW WHAT WE'RE DOING!! Luke 23:34",
     es_title: "Nosotras estamos perdidas",

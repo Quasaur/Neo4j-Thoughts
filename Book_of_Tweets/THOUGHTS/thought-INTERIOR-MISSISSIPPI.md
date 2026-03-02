@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.INTERIOR MISSISSIPPI",
 
 CREATE (c:CONTENT {
     name: "content.INTERIOR MISSISSIPPI",
+    ctype: "THOUGHT",
     en_title: "Interior Mississippi",
     en_content: "\"You know what they say: 'Between Pittsburgh and Philadelphia is Mississippi!'\" -- Anonymous",
     es_title: "El interior del Misisipi",

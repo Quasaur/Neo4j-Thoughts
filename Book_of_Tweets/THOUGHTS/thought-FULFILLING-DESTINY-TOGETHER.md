@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.FULFILLING DESTINY TOGETHER",
 
 CREATE (c:CONTENT {
     name: "content.FULFILLING DESTINY TOGETHER",
+    ctype: "THOUGHT",
     en_title: "Fulfilling Destiny Together",
     en_content: "I can only fulfill my destiny by assisting you in fulfilling yours.",
     es_title: "Cumpliendo el Destino Juntos",

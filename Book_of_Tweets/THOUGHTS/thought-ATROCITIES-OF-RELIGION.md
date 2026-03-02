@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.ATROCITIES OF RELIGION",
 
 CREATE (c:CONTENT {
     name: "content.ATROCITIES OF RELIGION",
+    ctype: "THOUGHT",
     en_title: "Atrocities Of Religion",
     en_content: "It's amazing what atrocities religion will allow.",
     es_title: "Atrocidades de la Religión",

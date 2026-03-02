@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.GOD",
+    ctype: "THOUGHT",
     en_title: "GOD",
     en_content: "An impersonal god is not God at all; that is why the God of the Hebrews named Himself 'I AM'\".",
     es_title: "DIOS IMPERSONAL",

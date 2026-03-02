@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.PAINFUL_TRUTH",
+    ctype: "THOUGHT",
     en_title: "PAINFUL TRUTH",
     en_content: "Perhaps the Truth only hurts when we refuse to submit to It.",
     es_title: "VERDAD DOLOROSA",

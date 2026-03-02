@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.LIVING_RELATIONSHIPS",
+    ctype: "THOUGHT",
     en_title: "LIVING RELATIONSHIP",
     en_content: "Life is all about relationships.",
     es_title: "RELACIÓN DE VIDA",

@@ -23,6 +23,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.MARK_OF_THE_BEAST",
+    ctype: "THOUGHT",
     en_title: "MARK OF THE BEAST",
     en_content: "Do you not see...
 ...that by making the observance of Sunday the \"Mark of the Beast\" you are perverting the True Gospel and condemning all of Christendom to Eternal Damnation?!?!?

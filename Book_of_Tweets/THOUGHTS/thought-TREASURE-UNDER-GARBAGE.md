@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.TREASURE UNDER GARBAGE",
 
 CREATE (c:CONTENT {
     name: "content.TREASURE UNDER GARBAGE",
+    ctype: "THOUGHT",
     en_title: "Treasure Under Garbage",
     en_content: "Treasure is often hidden under garbage...be a treasure hunter!",
     es_title: "Tesoro Bajo la Basura",

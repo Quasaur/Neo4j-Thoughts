@@ -25,6 +25,7 @@ CREATE (q:QUOTE {
 // CREATE CONTENT
 CREATE (c:CONTENT {
     name: "content.CHOSEN",
+    ctype: "QUOTE",
     en_title: "Quote: CHOSEN",
     en_content: "Contrary to popular American religious legend that passes for sound Christian doctrine, the choice that COUNTS towards your ultimate eternal fate and mine is not our decisions but GOD's (John 15:16)."
 });

@@ -25,6 +25,7 @@ CREATE (q:QUOTE {
 // CREATE CONTENT
 CREATE (c:CONTENT {
     name: "content.SOMETHING_BETTER",
+    ctype: "QUOTE",
     en_title: "Quote: SOMETHING BETTER",
     en_content: "The Gospel (the REAL Gospel of Jesus Christ) offers Something exponentially better and more exciting than religion...Something so simple, so pure and so wonderful that even those who claim to believe the Gospel still wrestle with the thought that It might be too good to be true!"
 });

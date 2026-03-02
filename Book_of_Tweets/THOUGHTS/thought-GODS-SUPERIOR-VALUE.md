@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.GODS SUPERIOR VALUE",
 
 CREATE (c:CONTENT {
     name: "content.GODS SUPERIOR VALUE",
+    ctype: "THOUGHT",
     en_title: "Gods Superior Value",
     en_content: "In the REAL WORLD, God is more valuable than all of us put together.",
     es_title: "El Valor Superior de Dios",

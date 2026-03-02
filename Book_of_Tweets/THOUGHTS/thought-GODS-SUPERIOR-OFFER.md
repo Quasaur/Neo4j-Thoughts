@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.GODS SUPERIOR OFFER",
 
 CREATE (c:CONTENT {
     name: "content.GODS SUPERIOR OFFER",
+    ctype: "THOUGHT",
     en_title: "Gods Superior Offer",
     en_content: "God has FAR MORE to offer me than I have to offer Him.",
     es_title: "La Oferta Superior de Dios",

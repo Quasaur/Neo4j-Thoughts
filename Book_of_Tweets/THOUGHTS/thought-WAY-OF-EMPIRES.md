@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.WAY OF EMPIRES",
 
 CREATE (c:CONTENT {
     name: "content.WAY OF EMPIRES",
+    ctype: "THOUGHT",
     en_title: "Way Of Empires",
     en_content: "We are going the way of the Roman Empire and the Soviet Union.",
     es_title: "Camino de los Imperios",

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.TRULY HUMAN ENGAGEMENT",
 
 CREATE (c:CONTENT {
     name: "content.TRULY HUMAN ENGAGEMENT",
+    ctype: "THOUGHT",
     en_title: "Truly Human Engagement",
     en_content: "One is not truly human until they have engaged their Creator.",
     es_title: "Compromiso Verdaderamente Humano",

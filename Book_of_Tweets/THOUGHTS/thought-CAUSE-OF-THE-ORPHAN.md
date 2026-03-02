@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.CAUSE OF THE ORPHAN",
 
 CREATE (c:CONTENT {
     name: "content.CAUSE OF THE ORPHAN",
+    ctype: "THOUGHT",
     en_title: "Cause Of The Orphan",
     en_content: "\"They do not plead the cause, (The cause of the orphan), THAT THEY MAY PROSPER; And they do not defend the rights of the poor.\" -- Jeremiah",
     es_title: "La Causa del Huérfano",

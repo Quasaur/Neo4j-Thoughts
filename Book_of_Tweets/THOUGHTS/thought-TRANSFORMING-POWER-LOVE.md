@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.TRANSFORMING POWER LOVE",
 
 CREATE (c:CONTENT {
     name: "content.TRANSFORMING POWER LOVE",
+    ctype: "THOUGHT",
     en_title: "Transforming Power Love",
     en_content: "God's Love is frighteningly powerful: turning dirt into flesh, flesh into spirit, sin into righteousness and death into life.",
     es_title: "El Poder Transformador del Amor",

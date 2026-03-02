@@ -34,7 +34,7 @@ CREATE (p:PASSAGE {	    name: "\"passage.PRICELESS WISDOM\"",
 // create multi-lingual content		
 CREATE (c:CONTENT {
 	name: "content.PRICELESS WISDOM",
-	ctype: 3, // 1=thought; 2=quote; 3=passage
+	ctype: "PASSAGE",
 	en_title: "PRICELESS WISDOM", 
 	en_content: "Blessed is a person who finds wisdom,
 And one who obtains understanding.

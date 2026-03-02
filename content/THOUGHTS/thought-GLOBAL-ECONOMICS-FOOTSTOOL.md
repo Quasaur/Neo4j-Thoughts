@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.GLOBAL ECONOMICS FOOTSTOOL",
 
 CREATE (c:CONTENT {
     name: "content.GLOBAL ECONOMICS FOOTSTOOL",
+    ctype: "THOUGHT",
     en_title: "Global Economics Footstool",
     en_content: "Global economics: God is making Christ's enemies His Footstool.",
     es_title: "Economía Global: El Estrado de Cristo",

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.NOTHING NEW TRUTH",
 
 CREATE (c:CONTENT {
     name: "content.NOTHING NEW TRUTH",
+    ctype: "THOUGHT",
     en_title: "Nothing New Truth",
     en_content: "There is nothing new about Truth.",
     es_title: "Nada Nuevo en la Verdad",

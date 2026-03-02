@@ -26,6 +26,7 @@ CREATE (b:PASSAGE {
 // CREATE CONTENT
 CREATE (c:CONTENT {
     name: "content.NEIGHBORS",
+    ctype: "PASSAGE",
     en_title: "NEIGHBORS",
     en_content: "Do not plan evil against your neighbor,",
  es_title: "VECINOS",

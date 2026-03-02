@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.UNIVERSE INSIDE GOD",
 
 CREATE (c:CONTENT {
     name: "content.UNIVERSE INSIDE GOD",
+    ctype: "THOUGHT",
     en_title: "Universe Inside God",
     en_content: "You do know that all of us--yeah, the entire Universe--is inside of God, right? Jeremiah 23:24",
     es_title: "El Universo Dentro de Dios",

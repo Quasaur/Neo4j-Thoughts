@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.POWER OF JESUS",
 
 CREATE (c:CONTENT {
     name: "content.POWER OF JESUS",
+    ctype: "THOUGHT",
     en_title: "Power Of Jesus",
     en_content: "I have NEVER met anyone more powerful that Jesus...and I never will.",
     es_title: "El Poder de Jesús",

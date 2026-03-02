@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.OWNING ALL THINGS",
 
 CREATE (c:CONTENT {
     name: "content.OWNING ALL THINGS",
+    ctype: "THOUGHT",
     en_title: "Owning All Things",
     en_content: "Revelation 21:7: You cannot own ALL THINGS unless you no longer need them.",
     es_title: "Poseer Todas las Cosas",

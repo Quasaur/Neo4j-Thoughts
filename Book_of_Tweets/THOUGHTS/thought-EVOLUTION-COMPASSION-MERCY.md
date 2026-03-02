@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.EVOLUTION COMPASSION MERCY",
 
 CREATE (c:CONTENT {
     name: "content.EVOLUTION COMPASSION MERCY",
+    ctype: "THOUGHT",
     en_title: "Evolution Compassion Mercy",
     en_content: "Can evolution explain Compassion? Mercy?",
     es_title: "Evolución, Compasión y Misericordia",

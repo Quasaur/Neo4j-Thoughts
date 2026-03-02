@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.GIFT OR GIVER",
 
 CREATE (c:CONTENT {
     name: "content.GIFT OR GIVER",
+    ctype: "THOUGHT",
     en_title: "GIFT OR GIVER",
     en_content: "Which is greater: the gift, or the Giver?",
     es_title: "¿REGALO O DONANTE?",

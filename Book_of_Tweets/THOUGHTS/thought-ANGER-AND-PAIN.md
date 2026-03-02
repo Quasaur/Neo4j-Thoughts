@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.ANGER AND PAIN",
 
 CREATE (c:CONTENT {
     name: "content.ANGER AND PAIN",
+    ctype: "THOUGHT",
     en_title: "Anger And Pain",
     en_content: "Anger as a first response is often indicative of an underlying issue...that issue usually being pain.",
     es_title: "Ira y Dolor",

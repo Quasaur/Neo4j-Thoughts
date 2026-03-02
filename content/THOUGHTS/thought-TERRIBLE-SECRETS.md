@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.TERRIBLE SECRETS",
 
 CREATE (c:CONTENT {
     name: "content.TERRIBLE SECRETS",
+    ctype: "THOUGHT",
     en_title: "Terrible Secrets",
     en_content: "Secrets can be terrible things.",
     es_title: "Secretos Terribles",

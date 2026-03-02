@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.INTELLIGENT LIFE SEARCH",
 
 CREATE (c:CONTENT {
     name: "content.INTELLIGENT LIFE SEARCH",
+    ctype: "THOUGHT",
     en_title: "Intelligent Life Search",
     en_content: "Why is it that all of the instruments seeking intelligent life in the universe are pointed away from Earth?",
     es_title: "Búsqueda de Vida Inteligente",

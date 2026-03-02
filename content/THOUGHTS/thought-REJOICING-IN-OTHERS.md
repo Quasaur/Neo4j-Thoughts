@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.REJOICING IN OTHERS",
 
 CREATE (c:CONTENT {
     name: "content.REJOICING IN OTHERS",
+    ctype: "THOUGHT",
     en_title: "Rejoicing In Others",
     en_content: "I rejoice in the achievements God accomplished in you as though He had accomplished them in me.",
     es_title: "Regocijándose en Otros",

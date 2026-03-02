@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.ATTENTION DESIRE",
+    ctype: "THOUGHT",
     en_title: "Attention Desire",
     en_content: "I only want your attention when you don't want to give it to me.",
     es_title: "Deseo de Atención",

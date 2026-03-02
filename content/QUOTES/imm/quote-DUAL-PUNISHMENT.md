@@ -25,6 +25,7 @@ CREATE (q:QUOTE {
 // CREATE CONTENT
 CREATE (c:CONTENT {
     name: "content.DUAL_PUNISHMENT",
+    ctype: "QUOTE",
     en_title: "Quote: DUAL PUNISHMENT",
     en_content: "It is ILLEGAL for GOD The Father to punish both you and Jesus for the same sin(s)!"
 });

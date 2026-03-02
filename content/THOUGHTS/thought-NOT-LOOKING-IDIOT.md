@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.NOT LOOKING IDIOT",
 
 CREATE (c:CONTENT {
     name: "content.NOT LOOKING IDIOT",
+    ctype: "THOUGHT",
     en_title: "Not Looking Idiot",
     en_content: "I don't mind being an idiot, just looking like one.",
     es_title: "No Parecer Idiota",

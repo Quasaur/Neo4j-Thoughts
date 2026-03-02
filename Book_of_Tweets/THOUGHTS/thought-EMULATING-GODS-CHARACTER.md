@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.EMULATING GODS CHARACTER",
 
 CREATE (c:CONTENT {
     name: "content.EMULATING GODS CHARACTER",
+    ctype: "THOUGHT",
     en_title: "Emulating Gods Character",
     en_content: "What kind of person is God? The kind I've always admired and desired to emulate.",
     es_title: "Emulando el Carácter de Dios",

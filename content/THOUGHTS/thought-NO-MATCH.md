@@ -35,6 +35,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.NO_MATCH",
+    ctype: "THOUGHT",
     en_title: "NO MATCH",
     en_content: "# Thought: NO MATCH
 [!Thought-en]

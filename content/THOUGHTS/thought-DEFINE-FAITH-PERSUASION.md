@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.DEFINE FAITH PERSUASION",
+    ctype: "THOUGHT",
     en_title: "Define Faith Persuasion",
     en_content: "Faith is not me persuading God to keep His Promises, but God persuading me that He is watching over His Word to perform It.",
     es_title: "Definir Fe Persuasión",

@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.ARGUING WITH CREATOR",
+    ctype: "THOUGHT",
     en_title: "Arguing With Creator",
     en_content: "Humanity's constant pastime is to argue with its Creator.",
     es_title: "Discutiendo con el Creador",

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.BOUNTIFUL EYE",
 
 CREATE (c:CONTENT {
     name: "content.BOUNTIFUL EYE",
+    ctype: "THOUGHT",
     en_title: "Bountiful Eye",
     en_content: "Whoever has a bountiful eye will be blessed, for he shares his bread with the poor. Proverbs 22:9, ESV",
     es_title: "Ojo Generoso",

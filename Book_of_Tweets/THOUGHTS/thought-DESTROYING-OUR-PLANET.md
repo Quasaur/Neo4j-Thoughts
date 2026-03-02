@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.DESTROYING OUR PLANET",
 
 CREATE (c:CONTENT {
     name: "content.DESTROYING OUR PLANET",
+    ctype: "THOUGHT",
     en_title: "Destroying Our Planet",
     en_content: "Our technology, industry and greed are destroying our planet.",
     es_title: "Destruyendo Nuestro Planeta",

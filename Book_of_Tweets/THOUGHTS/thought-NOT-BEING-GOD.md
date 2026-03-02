@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.NOT BEING GOD",
 
 CREATE (c:CONTENT {
     name: "content.NOT BEING GOD",
+    ctype: "THOUGHT",
     en_title: "Not Being God",
     en_content: "I am not God; and I'm so glad that I don't have to be!",
     es_title: "No Ser Dios",

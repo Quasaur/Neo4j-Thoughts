@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.STANDARD MODEL OBSERVATION",
 
 CREATE (c:CONTENT {
     name: "content.STANDARD MODEL OBSERVATION",
+    ctype: "THOUGHT",
     en_title: "Standard Model Observation",
     en_content: "Are you even aware that the Standard Model DOESN'T reflect what's actually being observed in the Cosmos??",
     es_title: "Observación del Modelo Estándar",

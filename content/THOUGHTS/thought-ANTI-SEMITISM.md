@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.ANTI_SEMITISM",
+    ctype: "THOUGHT",
     en_title: "ANTI-SEMITISM",
     en_content: "# Thought: ANTI-SEMITISM
 It is IMPOSSIBLE to truly love The Lord Jesus Christ and simultaneously hate the Jew. GOD NEVER told any Christian to persecute or punish the Jew; nor would GOD condone any white Christian oppressing, marginalizing or murdering the black man.",

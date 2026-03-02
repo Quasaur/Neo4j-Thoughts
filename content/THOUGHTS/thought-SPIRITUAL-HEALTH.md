@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.SPIRITUAL_HEALTH",
+    ctype: "THOUGHT",
     en_title: "SPIRITUAL HEALTH",
     en_content: "Spiritual Health: Doing what I know pleases God all of the time.",
     es_title: "SALUD ESPIRITUAL",

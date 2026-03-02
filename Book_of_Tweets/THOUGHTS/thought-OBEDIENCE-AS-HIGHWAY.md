@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.OBEDIENCE AS HIGHWAY",
 
 CREATE (c:CONTENT {
     name: "content.OBEDIENCE AS HIGHWAY",
+    ctype: "THOUGHT",
     en_title: "Obedience As Highway",
     en_content: "Obedience is like the lines on a highway: though restrictive, they will take you where you need to go.",
     es_title: "La Obediencia Como Autopista",

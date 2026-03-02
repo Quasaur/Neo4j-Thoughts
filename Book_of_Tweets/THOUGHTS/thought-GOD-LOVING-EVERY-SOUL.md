@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.GOD LOVING EVERY SOUL",
 
 CREATE (c:CONTENT {
     name: "content.GOD LOVING EVERY SOUL",
+    ctype: "THOUGHT",
     en_title: "God Loving Every Soul",
     en_content: "There is no soul created by God that He did not love.",
     es_title: "Dios Amando Cada Alma",

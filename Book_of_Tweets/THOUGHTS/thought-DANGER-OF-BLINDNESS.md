@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.DANGER OF BLINDNESS",
 
 CREATE (c:CONTENT {
     name: "content.DANGER OF BLINDNESS",
+    ctype: "THOUGHT",
     en_title: "Danger Of Blindness",
     en_content: "Blindness is great...until you fall off a cliff.",
     es_title: "Peligro de la Ceguera",

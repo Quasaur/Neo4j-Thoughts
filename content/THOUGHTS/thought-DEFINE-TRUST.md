@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.DEFINE TRUST",
+    ctype: "THOUGHT",
     en_title: "Define Trust",
     en_content: "TRUST is born of confidence in the midst of ignorance.",
     es_title: "Definición de confianza",

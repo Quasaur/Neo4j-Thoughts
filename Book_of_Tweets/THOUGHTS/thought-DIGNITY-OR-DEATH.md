@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.DIGNITY OR DEATH",
 
 CREATE (c:CONTENT {
     name: "content.DIGNITY OR DEATH",
+    ctype: "THOUGHT",
     en_title: "Dignity Or Death",
     en_content: "Give me DIGNITY or give me death!",
     es_title: "Dignidad o Muerte",

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.LIGHTNING BOLT",
 
 CREATE (c:CONTENT {
     name: "content.LIGHTNING BOLT",
+    ctype: "THOUGHT",
     en_title: "Lightning Bolt",
     en_content: "A single lightning bolt can be 5 miles in length and hotter than the surface of the Sun...God is Great!",
     es_title: "Rayo",

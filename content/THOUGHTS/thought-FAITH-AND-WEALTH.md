@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.FAITH AND WEALTH",
+    ctype: "THOUGHT",
     en_title: "Faith And Wealth",
     en_content: "Faith is the closest we can get to free wealth.",
     es_title: "Fe Y Riqueza",

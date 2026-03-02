@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.HEARING GOD NOISE",
 
 CREATE (c:CONTENT {
     name: "content.HEARING GOD NOISE",
+    ctype: "THOUGHT",
     en_title: "Hearing God Noise",
     en_content: "We cannot hear God through the noise of our own desire.",
     es_title: "Escuchar a Dios a Través del Ruido",

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.HEAVEN WITHIN",
 
 CREATE (c:CONTENT {
     name: "content.HEAVEN WITHIN",
+    ctype: "THOUGHT",
     en_title: "Heaven Within",
     en_content: "If Heaven isn't in us, then we can't go to Heaven.",
     es_title: "El cielo interior",

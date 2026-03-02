@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.BROKEN RELATIONSHIP",
 
 CREATE (c:CONTENT {
     name: "content.BROKEN RELATIONSHIP",
+    ctype: "THOUGHT",
     en_title: "BROKEN RELATIONSHIP",
     en_content: "A relationship with Christ that does not bear fruit in submission, worship and obedience is either broken or non-existent.",
     es_title: "RELACIÓN ROTA",

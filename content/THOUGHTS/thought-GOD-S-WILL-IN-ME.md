@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.GOD'S WILL IN ME",
 
 CREATE (c:CONTENT {
     name: "content.GOD'S WILL IN ME",
+    ctype: "THOUGHT",
     en_title: "God's Will In Me",
     en_content: "I can't make God do anything; yet He effortlessly executes His Will in me without my awareness of the act.",
     es_title: "La Voluntad de Dios en Mí",

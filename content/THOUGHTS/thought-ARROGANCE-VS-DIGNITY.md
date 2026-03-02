@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.ARROGANCE VS DIGNITY",
+    ctype: "THOUGHT",
     en_title: "Arrogance Vs Dignity",
     en_content: "Far too many black men have mistaken arrogance for dignity.",
     es_title: "Arrogancia vs Dignidad",

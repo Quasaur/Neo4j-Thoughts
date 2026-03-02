@@ -23,6 +23,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.SCIENCE_CONSPIRACY",
+    ctype: "THOUGHT",
     en_title: "SCIENCE CONSPIRACY",
     en_content: "The gods of the scientific community have deceived us: Einstein’s special and general theories of relativity CONTRADICT each other: either the speed of light is unchangeable or the Earth is, in fact, the center of the known universe!
 Michelson’s two experiments verify the existence of the ETHER…nullifying special relativity entirely!

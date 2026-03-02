@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.OVERCOMING DEPRESSION",
 
 CREATE (c:CONTENT {
     name: "content.OVERCOMING DEPRESSION",
+    ctype: "THOUGHT",
     en_title: "Overcoming Depression",
     en_content: "Long after the point when Depression ceases to be a memory...I will still be here.",
     es_title: "Venciendo la Depresión",

@@ -19,6 +19,7 @@ CREATE (t:THOUGHT {    name: "thought.JESUS IN DISGUISE",
 
 CREATE (c:CONTENT {
     name: "content.JESUS IN DISGUISE",
+    ctype: "THOUGHT",
     en_title: "Jesus in Disguise",
     en_content: "\"Each person you meet is Jesus in disguise.\" -- Mother Teresa",
     es_title: "Jesús disfrazado",

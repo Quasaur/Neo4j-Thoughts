@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.SEAT OF POWER",
 
 CREATE (c:CONTENT {
     name: "content.SEAT OF POWER",
+    ctype: "THOUGHT",
     en_title: "Seat Of Power",
     en_content: "The Seat of True Power is in Heaven, where the Christ patiently waits for His Daddy to turn His Enemies into His footrest.",
     es_title: "Sede del Poder",

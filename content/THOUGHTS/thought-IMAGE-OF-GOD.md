@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.IMAGE OF GOD",
 
 CREATE (c:CONTENT {
     name: "content.IMAGE OF GOD",
+    ctype: "THOUGHT",
     en_title: "Image Of God",
     en_content: "I'm NOT the child of monkeys; I was created in God's Image and after His Likeness; I should be treated as such--and so should you!",
     es_title: "Imagen de Dios",

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.GOD NOT DEADBEAT",
 
 CREATE (c:CONTENT {
     name: "content.GOD NOT DEADBEAT",
+    ctype: "THOUGHT",
     en_title: "God Not Deadbeat",
     en_content: "God is not a deadbeat... He takes care of His own.",
     es_title: "Dios No es un Irresponsable",

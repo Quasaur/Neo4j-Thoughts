@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.FREE WILL ROBOT",
 
 CREATE (c:CONTENT {
     name: "content.FREE WILL ROBOT",
+    ctype: "THOUGHT",
     en_title: "Free Will Robot",
     en_content: "If you WERE a robot...HOW WOULD YOU KNOW your will wasn't free?",
     es_title: "Robot de Libre Albedrío",

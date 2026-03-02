@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.OPPORTUNITY FOR ANGER",
 
 CREATE (c:CONTENT {
     name: "content.OPPORTUNITY FOR ANGER",
+    ctype: "THOUGHT",
     en_title: "Opportunity For Anger",
     en_content: "People don't need a reason to be angry...just an opportunity.",
     es_title: "Oportunidad Para La Ira",

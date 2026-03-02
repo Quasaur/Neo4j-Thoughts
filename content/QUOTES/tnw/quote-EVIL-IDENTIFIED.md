@@ -25,6 +25,7 @@ CREATE (q:QUOTE {
 // CREATE CONTENT
 CREATE (c:CONTENT {
     name: "content.EVIL_IDENTIFIED",
+    ctype: "QUOTE",
     en_title: "Quote: EVIL IDENTIFIED",
     en_content: "Evil is not identified by works alone but by the absence of GOD in the human heart. The most altruistic soul walking the Earth today without Christ Jesus is just as damned as the most prolific serial killer."
 });

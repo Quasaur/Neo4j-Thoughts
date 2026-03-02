@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.ETERNAL_LIFE",
+    ctype: "THOUGHT",
     en_title: "ETERNAL LIFE",
     en_content: "ETERNAL LIFE: God's promise (covenant) to NEVER stop dreaming about you!",
     es_title: "VIDA ETERNA",

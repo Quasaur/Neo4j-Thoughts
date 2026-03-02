@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.GOD OF PROJECTS",
 
 CREATE (c:CONTENT {
     name: "content.GOD OF PROJECTS",
+    ctype: "THOUGHT",
     en_title: "God Of Projects",
     en_content: "Jesus Christ is The God of Project Management.",
     es_title: "Dios de Proyectos",

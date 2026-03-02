@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.ONE_REASON",
+    ctype: "THOUGHT",
     en_title: "ONE REASON",
     en_content: "There’s one reason why many will find themselves in the Lake of Fire when they could’ve been saved: Pride.
 Lay down your weapons and surrender your body and soul to The Lord Jesus Christ…you will NOT regret it!",

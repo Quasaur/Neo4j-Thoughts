@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.NOTHING WITHOUT GOD",
 
 CREATE (c:CONTENT {
     name: "content.NOTHING WITHOUT GOD",
+    ctype: "THOUGHT",
     en_title: "Nothing Without God",
     en_content: "You are NOTHING without God; You are EVERYTHING to God.",
     es_title: "Nada Sin Dios",

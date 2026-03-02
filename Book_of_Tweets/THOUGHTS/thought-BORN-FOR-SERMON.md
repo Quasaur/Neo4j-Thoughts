@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.BORN FOR SERMON",
 
 CREATE (c:CONTENT {
     name: "content.BORN FOR SERMON",
+    ctype: "THOUGHT",
     en_title: "Born For Sermon",
     en_content: "Christmas sermon at the Pittsburgh prison was well-received...this is what I was born to do!",
     es_title: "Nacido para Predicar",

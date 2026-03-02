@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.NATION FORGETTING GOD",
 
 CREATE (c:CONTENT {
     name: "content.NATION FORGETTING GOD",
+    ctype: "THOUGHT",
     en_title: "Nation Forgetting God",
     en_content: "I'm watching a nation that has forgotten God turn into Hell.",
     es_title: "Nación Olvidando a Dios",

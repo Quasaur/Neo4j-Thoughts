@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.SHERBERT AND BLOWTORCH",
 
 CREATE (c:CONTENT {
     name: "content.SHERBERT AND BLOWTORCH",
+    ctype: "THOUGHT",
     en_title: "Sherbert And Blowtorch",
     en_content: "You can't make sherbert with a blowtorch.",
     es_title: "Sorbete y Soplete",

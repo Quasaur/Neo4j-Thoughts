@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.FUTURE FOR ATHEISTS",
 
 CREATE (c:CONTENT {
     name: "content.FUTURE FOR ATHEISTS",
+    ctype: "THOUGHT",
     en_title: "Future For Atheists",
     en_content: "Is there any future for a species that so despises its Creator as to announce that He doesn't exist?",
     es_title: "Futuro Para Los Ateos",

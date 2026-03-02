@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.FIRST LOVE WAITING",
 
 CREATE (c:CONTENT {
     name: "content.FIRST LOVE WAITING",
+    ctype: "THOUGHT",
     en_title: "First Love Waiting",
     en_content: "Prayer is where my First Love is always waiting for me!",
     es_title: "Primer Amor Esperando",

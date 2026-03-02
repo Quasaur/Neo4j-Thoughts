@@ -22,7 +22,7 @@ CREATE (q:QUOTE {	    name: "quote.WORKS",
 // create multi-lingual content		
 CREATE (c:CONTENT {
 	name: "content.WORKS",
-	ctype: 2, // 1=thought; 2=quote; 3=passage
+	ctype: "QUOTE",
 	en_title: "WORKS", 
 	en_content: "This is one of the most conveincing proofs of the Truth of Christianity: every other religion on the planet Earth is a religion of righteousness by works. That is why the Cross of Christ is considered foolish by the world.",
 	es_title: "Obras", 

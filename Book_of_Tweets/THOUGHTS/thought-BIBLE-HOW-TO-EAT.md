@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.BIBLE HOW TO EAT",
 
 CREATE (c:CONTENT {
     name: "content.BIBLE HOW TO EAT",
+    ctype: "THOUGHT",
     en_title: "Bible How To Eat",
     en_content: "The Bible not only tells us how to live, but also HOW TO EAT!",
     es_title: "La Biblia y Cómo Comer",

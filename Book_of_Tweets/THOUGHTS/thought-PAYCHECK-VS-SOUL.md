@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.PAYCHECK VS SOUL",
 
 CREATE (c:CONTENT {
     name: "content.PAYCHECK VS SOUL",
+    ctype: "THOUGHT",
     en_title: "Paycheck Vs Soul",
     en_content: "Stop living like your paycheck is worth more than the dignity of your SOUL! Matthew 16:26",
     es_title: "Sueldo Vs Alma",

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.WEIGHT OF GREED",
 
 CREATE (c:CONTENT {
     name: "content.WEIGHT OF GREED",
+    ctype: "THOUGHT",
     en_title: "Weight Of Greed",
     en_content: "America is finally buckling under the weight of its own greed.",
     es_title: "El Peso de la Codicia",

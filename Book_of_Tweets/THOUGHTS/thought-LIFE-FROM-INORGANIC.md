@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.LIFE FROM INORGANIC",
 
 CREATE (c:CONTENT {
     name: "content.LIFE FROM INORGANIC",
+    ctype: "THOUGHT",
     en_title: "Life From Inorganic",
     en_content: "In 13 billion years 100 monkeys will never write a novel and life will never rise from inorganic matter without an Act of God.",
     es_title: "Vida de lo Inorgánico",

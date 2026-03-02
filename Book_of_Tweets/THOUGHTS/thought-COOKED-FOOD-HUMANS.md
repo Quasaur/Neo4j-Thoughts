@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.COOKED FOOD HUMANS",
 
 CREATE (c:CONTENT {
     name: "content.COOKED FOOD HUMANS",
+    ctype: "THOUGHT",
     en_title: "Cooked Food Humans",
     en_content: "Why are humans the only creatures on planet earth that eat cooked food?",
     es_title: "Comida Cocida Humanos",

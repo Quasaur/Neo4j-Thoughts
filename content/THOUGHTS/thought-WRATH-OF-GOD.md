@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.WRATH OF GOD",
+    ctype: "THOUGHT",
     en_title: "Wrath Of God",
     en_content: "The worst thing Earth must face is not Antichrist, but The Wrath of God.",
     es_title: "La Ira de Dios",

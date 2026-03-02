@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.NO ANGER SELFLESSNESS",
 
 CREATE (c:CONTENT {
     name: "content.NO ANGER SELFLESSNESS",
+    ctype: "THOUGHT",
     en_title: "No Anger Selflessness",
     en_content: "There is no anger in selflessness.",
     es_title: "No Hay Ira en el Desinterés",

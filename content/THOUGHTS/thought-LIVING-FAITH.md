@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.LIVING FAITH",
+    ctype: "THOUGHT",
     en_title: "Living Faith",
     en_content: "Faith is when Divine Truth is caught by your imagination and you begin to live it.",
     es_title: "Fe viva",

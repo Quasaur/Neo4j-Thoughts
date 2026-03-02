@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.MASTERING SIN",
 
 CREATE (c:CONTENT {
     name: "content.MASTERING SIN",
+    ctype: "THOUGHT",
     en_title: "Mastering Sin",
     en_content: "Genesis 4:6,7 God doesn't expect us to eradicate sin (that's His Job)...but He does expect us to master sin.",
     es_title: "Dominando el Pecado",

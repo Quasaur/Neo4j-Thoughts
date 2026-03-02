@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.SPIRIT OF CHRIST ENCOUNTER",
 
 CREATE (c:CONTENT {
     name: "content.SPIRIT OF CHRIST ENCOUNTER",
+    ctype: "THOUGHT",
     en_title: "Spirit Of Christ Encounter",
     en_content: "The greatest moment of my existence was being swallowed up by the Spirit of Christ...all I want is to go back (or forward) to that moment.",
     es_title: "Encuentro con el Espíritu de Cristo",

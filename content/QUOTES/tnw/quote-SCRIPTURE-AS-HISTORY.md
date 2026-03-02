@@ -25,6 +25,7 @@ CREATE (q:QUOTE {
 // CREATE CONTENT
 CREATE (c:CONTENT {
     name: "content.SCRIPTURE_AS_HISTORY",
+    ctype: "QUOTE",
     en_title: "Quote: SCRIPTURE AS HISTORY",
     en_content: "The Bible is the most accurate ancient library of its kind, and 1,500 years of so-called 'higher criticism' has not proven otherwise. Rather, the reliability and reputation of the Holy Scriptures has only increased with the continuous examination of Their contents."
 });

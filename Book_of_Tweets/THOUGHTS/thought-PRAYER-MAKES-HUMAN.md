@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.PRAYER MAKES HUMAN",
 
 CREATE (c:CONTENT {
     name: "content.PRAYER MAKES HUMAN",
+    ctype: "THOUGHT",
     en_title: "Prayer Makes Human",
     en_content: "Prayer, above all else, is what makes me Human; without it, I'm just an animal.",
     es_title: "La Oración Nos Hace Humanos",

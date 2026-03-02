@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.WELFARE JOB CHURCH",
 
 CREATE (c:CONTENT {
     name: "content.WELFARE JOB CHURCH",
+    ctype: "THOUGHT",
     en_title: "Welfare Job Church",
     en_content: "Welfare is not the job of government; it's the job of the Church (Matthew 25:31-46).",
     es_title: "Iglesia Trabajo Bienestar",

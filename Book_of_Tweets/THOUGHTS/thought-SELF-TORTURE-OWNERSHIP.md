@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.SELF TORTURE OWNERSHIP",
 
 CREATE (c:CONTENT {
     name: "content.SELF TORTURE OWNERSHIP",
+    ctype: "THOUGHT",
     en_title: "Self Torture Ownership",
     en_content: "Self-torture implies self-ownership.",
     es_title: "Propiedad de la Auto-Tortura",

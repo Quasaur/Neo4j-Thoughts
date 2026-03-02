@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.UNIVERSAL MERCY REQUIREMENT",
+    ctype: "THOUGHT",
     en_title: "Universal Mercy Requirement",
     en_content: "God has to have mercy on everybody in order to save anybody.",
     es_title: "Requisito de Misericordia Universal",

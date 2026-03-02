@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.TRUE_FAITH",
+    ctype: "THOUGHT",
     en_title: "TRUE FAITH",
     en_content: "True Faith is believing in God enough to place His Revealed Will above my own.",
     es_title: "FE VERDADERA",

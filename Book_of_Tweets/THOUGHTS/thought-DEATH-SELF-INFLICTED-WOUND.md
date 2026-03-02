@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.DEATH SELF INFLICTED WOUND",
 
 CREATE (c:CONTENT {
     name: "content.DEATH SELF INFLICTED WOUND",
+    ctype: "THOUGHT",
     en_title: "Death Self Inflicted Wound",
     en_content: "Death is not natural; it's a self-inflicted wound we incurred when we separated ourselves from God through disobedience.",
     es_title: "Muerte Herida Auto Infligida",

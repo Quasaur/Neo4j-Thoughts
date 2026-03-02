@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.HUMAN BREATHS DAILY",
 
 CREATE (c:CONTENT {
     name: "content.HUMAN BREATHS DAILY",
+    ctype: "THOUGHT",
     en_title: "Human Breaths Daily",
     en_content: "The average human takes 17,280-23,040 breaths per day; God is great!",
     es_title: "Respiraciones Humanas Diarias",

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.CAT LICK NECK",
 
 CREATE (c:CONTENT {
     name: "content.CAT LICK NECK",
+    ctype: "THOUGHT",
     en_title: "Cat Lick Neck",
     en_content: "My cat can lick its own neck...God is great!",
     es_title: "El Gato Lame su Cuello",

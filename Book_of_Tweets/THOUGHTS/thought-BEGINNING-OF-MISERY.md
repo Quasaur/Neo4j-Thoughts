@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.BEGINNING OF MISERY",
 
 CREATE (c:CONTENT {
     name: "content.BEGINNING OF MISERY",
+    ctype: "THOUGHT",
     en_title: "Beginning Of Misery",
     en_content: "Misery began when some idiot decided he was more important than God.",
     es_title: "El Comienzo de la Miseria",

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.CONSPIRACY THEORIES",
 
 CREATE (c:CONTENT {
     name: "content.CONSPIRACY THEORIES",
+    ctype: "THOUGHT",
     en_title: "Conspiracy Theories",
     en_content: "I LOVE conspiracy theories...they allow me to pass responsibility for my failures to someone else!",
     es_title: "Teorías de Conspiración",

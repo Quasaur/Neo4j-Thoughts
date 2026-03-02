@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.INVISIBLE IN IMPOSSIBLE",
 
 CREATE (c:CONTENT {
     name: "content.INVISIBLE IN IMPOSSIBLE",
+    ctype: "THOUGHT",
     en_title: "Invisible In Impossible",
     en_content: "God is invisible except in the impossible.",
     es_title: "Invisible En Lo Imposible",

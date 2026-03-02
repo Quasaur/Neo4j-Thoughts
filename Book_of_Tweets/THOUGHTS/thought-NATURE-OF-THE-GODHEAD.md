@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.NATURE OF THE GODHEAD",
 
 CREATE (c:CONTENT {
     name: "content.NATURE OF THE GODHEAD",
+    ctype: "THOUGHT",
     en_title: "Nature Of The Godhead",
     en_content: "Anyone who thinks they understand the Nature of the Godhead is a liar.",
     es_title: "Naturaleza de la Divinidad",

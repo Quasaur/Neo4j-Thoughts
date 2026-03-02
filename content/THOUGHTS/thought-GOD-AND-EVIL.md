@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.GOD AND EVIL",
 
 CREATE (c:CONTENT {
     name: "content.GOD AND EVIL",
+    ctype: "THOUGHT",
     en_title: "God And Evil",
     en_content: "God can use evil without being evil.",
     es_title: "Dios y el Mal",

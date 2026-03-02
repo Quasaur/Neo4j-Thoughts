@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.PREEMINENCE OF GOODNESS",
 
 CREATE (c:CONTENT {
     name: "content.PREEMINENCE OF GOODNESS",
+    ctype: "THOUGHT",
     en_title: "Preeminence Of Goodness",
     en_content: "That which comes first has the preeminence; righteousness came before sin and goodness came before evil.",
     es_title: "Preeminencia de la Bondad",

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.EARTH STORMS",
 
 CREATE (c:CONTENT {
     name: "content.EARTH STORMS",
+    ctype: "THOUGHT",
     en_title: "Earth Storms",
     en_content: "Earth has about 16 million storms per year...God is Great!",
     es_title: "Tormentas Terrestres",

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.GOD ACTUALLY EXISTS",
 
 CREATE (c:CONTENT {
     name: "content.GOD ACTUALLY EXISTS",
+    ctype: "THOUGHT",
     en_title: "God Actually Exists",
     en_content: "The idea that a Being such as That described in the Bible (God) actually exists should frighten us all...and it will.",
     es_title: "Dios Realmente Existe",

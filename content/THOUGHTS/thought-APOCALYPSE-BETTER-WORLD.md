@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.APOCALYPSE BETTER WORLD",
 
 CREATE (c:CONTENT {
     name: "content.APOCALYPSE BETTER WORLD",
+    ctype: "THOUGHT",
     en_title: "Apocalypse Better World",
     en_content: "The Better World is coming! Apocalypse!",
     es_title: "Apocalipsis Mundo Mejor",

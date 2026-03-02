@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.SPIRIT IS LIFE",
 
 CREATE (c:CONTENT {
     name: "content.SPIRIT IS LIFE",
+    ctype: "THOUGHT",
     en_title: "Spirit Is Life",
     en_content: "Spirit, not electricity, is Life.",
     es_title: "El Espíritu es Vida",

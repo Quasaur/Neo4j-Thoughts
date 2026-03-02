@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.PRIDE OF SATAN",
+    ctype: "THOUGHT",
     en_title: "Pride Of Satan",
     en_content: "\"I'm the center of my universe...why can't I be the center of everyone else's?\" -- The Devil",
     es_title: "Orgullo de satanás",

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.BORED VS BORING",
 
 CREATE (c:CONTENT {
     name: "content.BORED VS BORING",
+    ctype: "THOUGHT",
     en_title: "Bored Vs Boring",
     en_content: "Better to be bored than to be boring.",
     es_title: "Aburrido versus Aburridor",

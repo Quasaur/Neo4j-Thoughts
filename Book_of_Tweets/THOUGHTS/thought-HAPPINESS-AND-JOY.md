@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.HAPPINESS AND JOY",
 
 CREATE (c:CONTENT {
     name: "content.HAPPINESS AND JOY",
+    ctype: "THOUGHT",
     en_title: "Happiness And Joy",
     en_content: "Happiness: pleasing God. Joy: being pleased by God.",
     es_title: "Felicidad y alegría",

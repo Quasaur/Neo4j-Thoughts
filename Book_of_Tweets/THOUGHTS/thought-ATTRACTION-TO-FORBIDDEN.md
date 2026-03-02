@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.ATTRACTION TO FORBIDDEN",
 
 CREATE (c:CONTENT {
     name: "content.ATTRACTION TO FORBIDDEN",
+    ctype: "THOUGHT",
     en_title: "Attraction To Forbidden",
     en_content: "What attracts us to the forbidden? Sin.",
     es_title: "Atracción a lo Prohibido",

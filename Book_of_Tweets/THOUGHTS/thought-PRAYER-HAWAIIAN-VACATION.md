@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.PRAYER HAWAIIAN VACATION",
 
 CREATE (c:CONTENT {
     name: "content.PRAYER HAWAIIAN VACATION",
+    ctype: "THOUGHT",
     en_title: "Prayer Hawaiian Vacation",
     en_content: "Prayer is my Hawaiian vacation.",
     es_title: "Oración Vacaciones en Hawái",

@@ -24,6 +24,7 @@ CREATE (b:PASSAGE
 // create multi-lingual content		
 CREATE (c:CONTENT {
 	name: "content.KNOWLEDGE", 
+	ctype: "PASSAGE",
 	en_title: "KNOWLEDGE", 
 	en_content: "The fear of the LORD is the beginning of knowledge; fools despise wisdom and instruction.", 
 	es_title: "CONOCIMIENTO", 

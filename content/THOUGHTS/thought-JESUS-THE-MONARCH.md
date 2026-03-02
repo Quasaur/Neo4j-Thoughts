@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.JESUS THE MONARCH",
+    ctype: "THOUGHT",
     en_title: "Jesus The Monarch",
     en_content: "Jesus is neither a Republican nor a Democrat; Jesus is God...an Absolute Monarch.",
     es_title: "Jesús el monarca",

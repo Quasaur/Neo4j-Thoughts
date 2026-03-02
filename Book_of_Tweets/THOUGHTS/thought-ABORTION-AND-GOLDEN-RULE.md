@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.ABORTION AND GOLDEN RULE",
 
 CREATE (c:CONTENT {
     name: "content.ABORTION AND GOLDEN RULE",
+    ctype: "THOUGHT",
     en_title: "Abortion And Golden Rule",
     en_content: "Abortion is a violation of the Golden Rule: \"Do unto others as you would have them do into you.\"",
     es_title: "El Aborto y la Regla de Oro",

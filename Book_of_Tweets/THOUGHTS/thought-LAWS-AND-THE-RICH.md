@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.LAWS AND THE RICH",
 
 CREATE (c:CONTENT {
     name: "content.LAWS AND THE RICH",
+    ctype: "THOUGHT",
     en_title: "Laws And The Rich",
     en_content: "As long as the laws favor the rich, the poor will always exist.",
     es_title: "Las Leyes y Los Ricos",

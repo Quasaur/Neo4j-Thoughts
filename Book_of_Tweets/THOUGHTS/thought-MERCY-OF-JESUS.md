@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.MERCY OF JESUS",
 
 CREATE (c:CONTENT {
     name: "content.MERCY OF JESUS",
+    ctype: "THOUGHT",
     en_title: "Mercy Of Jesus",
     en_content: "Jesus is FAR MORE merciful and compassionate than you are!",
     es_title: "Misericordia de Jesús",

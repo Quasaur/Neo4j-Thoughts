@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.GRACE VS MERIT",
+    ctype: "THOUGHT",
     en_title: "Grace Vs Merit",
     en_content: "The merit system and Grace are incompatible...we have to choose one or the other.",
     es_title: "Gracia versus Mérito",

@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.COST OF HEAVEN",
+    ctype: "THOUGHT",
     en_title: "Cost Of Heaven",
     en_content: "Heaven is free--but it ain't cheap!",
     es_title: "Costo del Cielo",

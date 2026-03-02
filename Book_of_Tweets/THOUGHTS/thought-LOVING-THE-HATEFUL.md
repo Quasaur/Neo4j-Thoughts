@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.LOVING THE HATEFUL",
 
 CREATE (c:CONTENT {
     name: "content.LOVING THE HATEFUL",
+    ctype: "THOUGHT",
     en_title: "Loving The Hateful",
     en_content: "Loving the hateful... how does God do it? How can I do it?",
     es_title: "Amar a los Aborrecibles",

@@ -23,6 +23,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.SHUT DOWN",
+    ctype: "THOUGHT",
     en_title: "SHUT DOWN",
     en_content: "To the United States Congress:
 You can't shut down the porn industry, yet you can shut down my constitutional right to free expression on TikTok...

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.ORDERS GIVING TAKING",
 
 CREATE (c:CONTENT {
     name: "content.ORDERS GIVING TAKING",
+    ctype: "THOUGHT",
     en_title: "Orders Giving Taking",
     en_content: "I'm highly suspicious of people who can give orders but not take orders.",
     es_title: "Dar y Recibir Órdenes",

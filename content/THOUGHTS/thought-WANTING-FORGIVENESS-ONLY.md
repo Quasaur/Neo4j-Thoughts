@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.WANTING FORGIVENESS ONLY",
 
 CREATE (c:CONTENT {
     name: "content.WANTING FORGIVENESS ONLY",
+    ctype: "THOUGHT",
     en_title: "Wanting Forgiveness Only",
     en_content: "We want to be forgiven, but we don't want to forgive...how disgusting.",
     es_title: "Queriendo Solo el Perdón",

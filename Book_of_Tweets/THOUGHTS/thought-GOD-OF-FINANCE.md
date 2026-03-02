@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.GOD OF FINANCE",
 
 CREATE (c:CONTENT {
     name: "content.GOD OF FINANCE",
+    ctype: "THOUGHT",
     en_title: "God Of Finance",
     en_content: "Jesus Christ is The God of Finance and Economics.",
     es_title: "Dios de las Finanzas",

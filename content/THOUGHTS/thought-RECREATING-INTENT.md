@@ -22,6 +22,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.RECREATING INTENT",
+    ctype: "THOUGHT",
     en_title: "Recreating Intent",
     en_content: "Fear of judgment will change our behavior...but not our hearts. Only the Love of Christ can recreate my intent.",
     es_title: "Recreando la Intención",

@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.EARTH SPEED SPACE",
 
 CREATE (c:CONTENT {
     name: "content.EARTH SPEED SPACE",
+    ctype: "THOUGHT",
     en_title: "Earth Speed Space",
     en_content: "The Earth is tearing thru space at over 667,000 MPH, and we're not dead ...God is great!",
     es_title: "Velocidad Terrestre Espacial",

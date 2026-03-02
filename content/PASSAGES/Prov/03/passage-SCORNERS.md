@@ -26,6 +26,7 @@ CREATE (b:PASSAGE {
 // CREATE CONTENT
 CREATE (c:CONTENT {
     name: "content.SCORNERS",
+    ctype: "PASSAGE",
     en_title: "SCORNERS",
     en_content: "Toward the scorners He [The LORD] is scornful,",
  es_title: "SCORNERADORES",

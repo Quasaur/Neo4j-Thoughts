@@ -25,6 +25,7 @@ CREATE (q:QUOTE {
 // CREATE CONTENT
 CREATE (c:CONTENT {
     name: "content.GENIUS",
+    ctype: "QUOTE",
     en_title: "Quote: GENIUS",
     en_content: "Genius, like patience or temperance, is a SPIRITUAL attribute that can be acquired at any point in the life by either the Sovereignty of God or by simply asking God for it."
 });

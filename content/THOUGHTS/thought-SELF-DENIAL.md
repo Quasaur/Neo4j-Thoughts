@@ -21,6 +21,7 @@ CREATE (t:THOUGHT {
 
 CREATE (c:CONTENT {
     name: "content.SELF_DENIAL",
+    ctype: "THOUGHT",
     en_title: "SELF-DENIAL",
     en_content: "If you can't say \"No\" to Self, you can't say \"Yes\" to God.",
 	es_title: "ABNEGACIÓN",

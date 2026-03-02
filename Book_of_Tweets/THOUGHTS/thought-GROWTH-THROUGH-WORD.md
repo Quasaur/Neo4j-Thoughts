@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.GROWTH THROUGH WORD",
 
 CREATE (c:CONTENT {
     name: "content.GROWTH THROUGH WORD",
+    ctype: "THOUGHT",
     en_title: "Growth Through Word",
     en_content: "I cannot grow as a Christian without consistently hearing and speaking God's Word.",
     es_title: "Crecimiento a Través de la Palabra",

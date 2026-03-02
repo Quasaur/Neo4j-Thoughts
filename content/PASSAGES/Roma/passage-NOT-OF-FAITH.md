@@ -26,6 +26,7 @@ CREATE (b:PASSAGE {
 // CREATE CONTENT
 CREATE (c:CONTENT {
     name: "content.NOT-OF-FAITH",
+    ctype: "PASSAGE",
     en_title: "NOT-OF-FAITH",
     en_content: "But the one who doubts is condemned if he eats, because his eating is not from faith; and whatever is not from faith is sin.",
  es_title: "NO-DE-FE",

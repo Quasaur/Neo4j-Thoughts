@@ -25,6 +25,7 @@ CREATE (q:QUOTE {
 // CREATE CONTENT
 CREATE (c:CONTENT {
     name: "content.WRONG_REASON",
+    ctype: "QUOTE",
     en_title: "Quote: WRONG REASON",
     en_content: "IT IS POSSIBLE TO PERFORM A GOOD DEED FOR THE WRONG REASON (Luke 18:9-14). Is there anything wrong with fasting or tithing? No; BUT the Pharisee's bad ATTITUDE turned his good deeds into iniquity!"
 });

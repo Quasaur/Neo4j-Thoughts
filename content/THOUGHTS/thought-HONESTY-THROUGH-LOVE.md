@@ -20,6 +20,7 @@ CREATE (t:THOUGHT {    name: "thought.HONESTY THROUGH LOVE",
 
 CREATE (c:CONTENT {
     name: "content.HONESTY THROUGH LOVE",
+    ctype: "THOUGHT",
     en_title: "Honesty Through Love",
     en_content: "When you know God loves you, it's easier to be honest about your faults.",
     es_title: "Honestidad a Través del Amor",
