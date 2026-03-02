@@ -35,7 +35,7 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT {name: "thought.BROKEN RELATIONSHIP"})
 MATCH (c:CONTENT {name: "content.BROKEN RELATIONSHIP"})
-MERGE (t)-[:HAS_CONTENT {name: "edge.BROKEN RELATIONSHIP"}]->(c);
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.BROKEN RELATIONSHIP"}]->(c);
 
 MATCH (parent:TOPIC {name: "topic.WORSHIP"})
 MATCH (child:THOUGHT {name: "thought.BROKEN RELATIONSHIP"})

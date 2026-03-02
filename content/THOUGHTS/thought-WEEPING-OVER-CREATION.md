@@ -34,7 +34,7 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT {name: "thought.WEEPING OVER CREATION"})
 MATCH (c:CONTENT {name: "content.WEEPING OVER CREATION"})
-MERGE (t)-[:HAS_CONTENT {name: "edge.WEEPING OVER CREATION"}]->(c);
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.WEEPING OVER CREATION"}]->(c);
 
 MATCH (parent:TOPIC {name: "topic.ENVIRONMENTAL SCIENCE"})
 MATCH (child:THOUGHT {name: "thought.WEEPING OVER CREATION"})

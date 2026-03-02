@@ -35,7 +35,7 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT {name: "thought.DIVINE WILL"})
 MATCH (c:CONTENT {name: "content.DIVINE WILL"})
-MERGE (t)-[:HAS_CONTENT {name: "edge.DIVINE WILL"}]->(c);
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.DIVINE WILL"}]->(c);
 
 MATCH (parent:TOPIC {name: "topic.DIVINE SOVEREIGNTY"})
 MATCH (child:THOUGHT {name: "thought.DIVINE WILL"})

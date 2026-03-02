@@ -54,7 +54,7 @@ et les seuls actes que Dieu fera jamais !",
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
 WHERE t.name = "thought.MIRACLES" AND c.name = "content.MIRACLES"
-MERGE (t)-[:HAS_CONTENT {name: "edge.MIRACLES"}]->(c);
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.MIRACLES"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)

@@ -28,7 +28,7 @@ CREATE (c:CONTENT {
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
 WHERE t.name = "thought.UNSUBMISSIVE" AND c.name = "content.UNSUBMISSIVE"
-MERGE (t)-[:HAS_CONTENT {name: "edge.UNSUBMISSIVE"}]->(c);
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.UNSUBMISSIVE"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)

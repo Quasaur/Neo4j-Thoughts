@@ -42,7 +42,7 @@ CREATE (c:CONTENT {
 // LINK CONTENT
 MATCH (b:PASSAGE {name: "passage.NOT-OF-FAITH"})
 MATCH (c:CONTENT {name: "content.NOT-OF-FAITH"})
-MERGE (b)-[:HAS_CONTENT {name: "b.edge.NOT-OF-FAITH"}]->(c);
+MERGE (b)-[:HAS_CONTENT {name: "p.edge.NOT-OF-FAITH"}]->(c);
 
 // LINK PARENT
 MATCH (parent:TOPIC {name: "topic.FAITH"})

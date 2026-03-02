@@ -28,7 +28,7 @@ CREATE (c:CONTENT {
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
 WHERE t.name = "thought.FOCUS" AND c.name = "content.FOCUS"
-MERGE (t)-[:HAS_CONTENT {name: "edge.FOCUS"}]->(c);
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.FOCUS"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)

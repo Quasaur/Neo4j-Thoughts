@@ -37,7 +37,7 @@ CREATE (c:CONTENT {
 
 MATCH (t:PASSAGE {name: "passage.THE LORD GIVES"})
 MATCH (c:CONTENT {name: "content.THE LORD GIVES"})
-MERGE (t)-[:HAS_CONTENT {name: "b.edge.THE LORD GIVES"}]->(c);
+MERGE (t)-[:HAS_CONTENT {name: "p.edge.THE LORD GIVES"}]->(c);
 
 MATCH (parent:TOPIC {name: "topic.DIVINE SOVEREIGNTY"})
 MATCH (child:PASSAGE {name: "passage.THE LORD GIVES"})

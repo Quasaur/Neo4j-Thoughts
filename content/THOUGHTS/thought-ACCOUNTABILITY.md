@@ -37,7 +37,7 @@ CREATE (c:CONTENT {
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
 WHERE t.name = "thought.ACCOUNTABILITY" AND c.name = "content.ACCOUNTABILITY"
-MERGE (t)-[:HAS_CONTENT {name: "edge.ACCOUNTABILITY"}]->(c);
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.ACCOUNTABILITY"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)

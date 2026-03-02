@@ -52,7 +52,7 @@ Comme il est donc insensé d'aller à l'église pendant des années et de ne JAM
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
 WHERE t.name = "thought.EMPTINESS" AND c.name = "content.EMPTINESS"
-MERGE (t)-[:HAS_CONTENT {name: "edge.EMPTINESS"}]->(c);
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.EMPTINESS"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)

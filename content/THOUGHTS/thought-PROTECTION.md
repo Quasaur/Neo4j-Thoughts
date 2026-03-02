@@ -42,7 +42,7 @@ Sans le Saint-Esprit du Christ, l’humanité n’a aucune défense contre le Di
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
 WHERE t.name = "thought.PROTECTION" AND c.name = "content.PROTECTION"
-MERGE (t)-[:HAS_CONTENT {name: "edge.PROTECTION"}]->(c);
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.PROTECTION"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)

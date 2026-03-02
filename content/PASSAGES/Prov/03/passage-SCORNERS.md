@@ -42,7 +42,7 @@ CREATE (c:CONTENT {
 // LINK CONTENT
 MATCH (b:PASSAGE {name: "passage.SCORNERS"})
 MATCH (c:CONTENT {name: "content.SCORNERS"})
-MERGE (b)-[:HAS_CONTENT {name: "b.edge.SCORNERS"}]->(c);
+MERGE (b)-[:HAS_CONTENT {name: "p.edge.SCORNERS"}]->(c);
 
 // LINK PARENT
 MATCH (parent:TOPIC {name: "topic.EVIL"})

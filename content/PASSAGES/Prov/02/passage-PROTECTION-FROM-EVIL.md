@@ -42,7 +42,7 @@ CREATE (c:CONTENT {
 // LINK CONTENT
 MATCH (b:PASSAGE {name: "passage.PROTECTION_FROM_EVIL"})
 MATCH (c:CONTENT {name: "content.PROTECTION_FROM_EVIL"})
-MERGE (b)-[:HAS_CONTENT {name: "b.edge.PROTECTION_FROM_EVIL"}]->(c);
+MERGE (b)-[:HAS_CONTENT {name: "p.edge.PROTECTION_FROM_EVIL"}]->(c);
 
 // LINK PARENT
 MATCH (parent:TOPIC {name: "topic.EVIL"})

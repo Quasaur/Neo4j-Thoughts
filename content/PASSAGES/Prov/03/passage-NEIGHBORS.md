@@ -42,7 +42,7 @@ CREATE (c:CONTENT {
 // LINK CONTENT
 MATCH (b:PASSAGE {name: "passage.NEIGHBORS"})
 MATCH (c:CONTENT {name: "content.NEIGHBORS"})
-MERGE (b)-[:HAS_CONTENT {name: "b.edge.NEIGHBORS"}]->(c);
+MERGE (b)-[:HAS_CONTENT {name: "p.edge.NEIGHBORS"}]->(c);
 
 // LINK PARENT
 MATCH (parent:TOPIC {name: "topic.SOCIOLOGY"})

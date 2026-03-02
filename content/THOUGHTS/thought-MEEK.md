@@ -79,7 +79,7 @@ DÉTRUIT LE POUVOIR DE LA MORT !!!!!!!!",
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
 WHERE t.name = "thought.MEEK" AND c.name = "content.MEEK"
-MERGE (t)-[:HAS_CONTENT {name: "edge.MEEK"}]->(c);
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.MEEK"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)

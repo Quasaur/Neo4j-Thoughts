@@ -3,7 +3,7 @@ type: THOUGHT
 name: "thought.ADDICTION"
 alias: "Thought: ADDICTION"
 parent: "topic.PSYCHOLOGY"
-tags: ["sanctification", "addiction", "flesh", "thecross", "jesus_christ"]
+tags: ["sanctification", "addiction", "flesh", "the_cross", "jesus_christ"]
 ptopic: "[[topic-PSYCHOLOGY]]"
 level: 4
 neo4j: true
@@ -14,7 +14,7 @@ CREATE (t:THOUGHT {
     name: "thought.ADDICTION",
     alias: "Thought: ADDICTION",
     parent: "topic.PSYCHOLOGY",
-    tags: ["sanctification", "addiction", "flesh", "thecross", "jesus_christ"],
+    tags: ["sanctification", "addiction", "flesh", "the_cross", "jesus_christ"],
     level: 4
 });
 
@@ -28,7 +28,7 @@ CREATE (c:CONTENT {
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
 WHERE t.name = "thought.ADDICTION" AND c.name = "content.ADDICTION"
-MERGE (t)-[:HAS_CONTENT {name: "edge.ADDICTION"}]->(c);
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.ADDICTION"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)

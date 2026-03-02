@@ -28,7 +28,7 @@ CREATE (c:CONTENT {
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
 WHERE t.name = "thought.HUMANITARIANISM" AND c.name = "content.HUMANITARIANISM"
-MERGE (t)-[:HAS_CONTENT {name: "edge.HUMANITARIANISM"}]->(c);
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.HUMANITARIANISM"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)

@@ -13,9 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Naming/naming_03_cypherBlock.md",
+                "file": "Neo4j-AI/docs/PROMPTS/Kimi-K2/Third Query in Cypher Block (CONTENT).md",
                 "mode": "source",
                 "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Third Query in Cypher Block (CONTENT)"
+            }
+          },
+          {
+            "id": "96a247d754fd84b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Naming/naming_03_cypherBlock.md",
+                "mode": "source",
+                "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
@@ -179,8 +194,9 @@
   },
   "active": "723932ef65bf0bbe",
   "lastOpenFiles": [
-    "docs/Naming/naming_02_yaml.md.md",
     "docs/Naming/naming_03_cypherBlock.md",
+    "Neo4j-AI/docs/PROMPTS/Kimi-K2/Third Query in Cypher Block (CONTENT).md",
+    "docs/Naming/naming_02_yaml.md.md",
     "docs/Naming/naming_05_relationships.md",
     "content/TOPICS/topic-ANTHROPOLOGY.md",
     "Neo4j-AI/docs/PROMPTS/Kimi-K2/Neo4j-Thoughts - content folder.md",
@@ -212,7 +228,6 @@
     "content/PASSAGES/levi/passage-FAMILIAR-SPIRITS-WARNING.md",
     "content/PASSAGES/levi",
     "content/THOUGHTS/EMPTINESS.md",
-    "content/QUOTES/bom/quote-THE-DESIRE-OF-NATIONS.md",
     "python/check_filenames.py",
     "Neo4j-AI/Kimi K2/Discrepancies/Prompts",
     "Untitled.canvas",

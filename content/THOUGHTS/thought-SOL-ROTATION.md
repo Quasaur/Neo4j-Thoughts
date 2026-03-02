@@ -37,7 +37,7 @@ CREATE (c:CONTENT {
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
 WHERE t.name = "thought.SOL_ROTATION" AND c.name = "content.SOL_ROTATION"
-MERGE (t)-[:HAS_CONTENT {name: "edge.SOL_ROTATION"}]->(c);
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.SOL_ROTATION"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)

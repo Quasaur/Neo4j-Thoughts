@@ -37,7 +37,7 @@ CREATE (c:CONTENT {
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
 WHERE t.name = "thought.ULTIMATE" AND c.name = "content.ULTIMATE"
-MERGE (t)-[:HAS_CONTENT {name: "edge.ULTIMATE"}]->(c);
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.ULTIMATE"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
