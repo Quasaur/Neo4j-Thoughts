@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 17-Sep-2013d)
-CREATE (t:THOUGHT {
-    name: "thought.RESPECTING OUR BODIES",
+CREATE (t:THOUGHT {    name: "thought.RESPECTING OUR BODIES",
     alias: "Thought: Respecting Our Bodies",
     parent: "topic.ATTITUDE",
     tags: ['respect', 'body', 'attitude', 'character', 'integrity'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.RESPECTING OUR BODIES",

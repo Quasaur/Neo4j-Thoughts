@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 15-Oct-2011a)
-CREATE (t:THOUGHT {
-    name: "thought.PURPOSELESS EXISTENCE",
+CREATE (t:THOUGHT {    name: "thought.PURPOSELESS EXISTENCE",
     alias: "Thought: Purposeless Existence",
     parent: "topic.PHILOSOPHY",
     tags: ['purpose', 'science', 'existence', 'philosophy', 'meaning'],
-    notes: "",
-    level: 4
-});
+    level: 4});
 
 CREATE (c:CONTENT {
     name: "content.PURPOSELESS EXISTENCE",

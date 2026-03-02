@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 04-Sep-2011)
-CREATE (t:THOUGHT {
-    name: "thought.CARNALITY AND STRIFE",
+CREATE (t:THOUGHT {    name: "thought.CARNALITY AND STRIFE",
     alias: "Thought: Carnality And Strife",
     parent: "topic.MORALITY",
     tags: ['morality', 'carnality', 'strife', 'church', 'bible'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.CARNALITY AND STRIFE",

@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 27-Jan-2012)
-CREATE (t:THOUGHT {
-    name: "thought.GOD LOVES HOMOSEXUALS",
+CREATE (t:THOUGHT {    name: "thought.GOD LOVES HOMOSEXUALS",
     alias: "Thought: God Loves Homosexuals",
     parent: "topic.THE GODHEAD",
     tags: ['love', 'character', 'god', 'humanity', 'inclusion'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.GOD LOVES HOMOSEXUALS",

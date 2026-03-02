@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 16-Sep-2012)
-CREATE (t:THOUGHT {
-    name: "thought.EYES OF CHRIST",
+CREATE (t:THOUGHT {    name: "thought.EYES OF CHRIST",
     alias: "Thought: Eyes Of Christ",
     parent: "topic.THE GODHEAD",
     tags: ['omniscience', 'christ', 'science', 'heart', 'divinity'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.EYES OF CHRIST",

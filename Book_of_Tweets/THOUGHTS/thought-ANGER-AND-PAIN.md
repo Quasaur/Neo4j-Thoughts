@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 31-Aug-2012b)
-CREATE (t:THOUGHT {
-    name: "thought.ANGER AND PAIN",
+CREATE (t:THOUGHT {    name: "thought.ANGER AND PAIN",
     alias: "Thought: Anger And Pain",
     parent: "topic.PSYCHOLOGY",
     tags: ['anger', 'pain', 'psychology', 'response', 'character'],
-    notes: "",
-    level: 4
-});
+    level: 4});
 
 CREATE (c:CONTENT {
     name: "content.ANGER AND PAIN",

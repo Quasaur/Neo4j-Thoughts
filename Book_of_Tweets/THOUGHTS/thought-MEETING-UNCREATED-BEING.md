@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 29-Nov-2012)
-CREATE (t:THOUGHT {
-    name: "thought.MEETING UNCREATED BEING",
+CREATE (t:THOUGHT {    name: "thought.MEETING UNCREATED BEING",
     alias: "Thought: Meeting Uncreated Being",
     parent: "topic.THE GODHEAD",
     tags: ['encounter', 'uncreated', 'life', 'god', 'divinity'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.MEETING UNCREATED BEING",

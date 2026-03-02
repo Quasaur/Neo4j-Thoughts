@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 18-Sep-2013b)
-CREATE (t:THOUGHT {
-    name: "thought.WICKEDNESS AND GUN LAWS",
+CREATE (t:THOUGHT {    name: "thought.WICKEDNESS AND GUN LAWS",
     alias: "Thought: Wickedness And Gun Laws",
     parent: "topic.MORALITY",
     tags: ['guns', 'law', 'wickedness', 'morality', 'society'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.WICKEDNESS AND GUN LAWS",

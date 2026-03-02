@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 16-Sep-2011)
-CREATE (t:THOUGHT {
-    name: "thought.WEALTH DISPARITY GAP",
+CREATE (t:THOUGHT {    name: "thought.WEALTH DISPARITY GAP",
     alias: "Thought: Wealth Disparity Gap",
     parent: "topic.MORALITY",
     tags: ['wealth', 'race', 'inequality', 'society', 'justice'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.WEALTH DISPARITY GAP",

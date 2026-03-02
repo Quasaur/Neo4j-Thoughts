@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 05-Nov-2011)
-CREATE (t:THOUGHT {
-    name: "thought.PREEMINENCE OF GOODNESS",
+CREATE (t:THOUGHT {    name: "thought.PREEMINENCE OF GOODNESS",
     alias: "Thought: Preeminence Of Goodness",
     parent: "topic.THE GODHEAD",
     tags: ['goodness', 'righteousness', 'eternity', 'character', 'preeminence'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.PREEMINENCE OF GOODNESS",

@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 01-Jan-2013)
-CREATE (t:THOUGHT {
-    name: "thought.HOLLYWOOD VIOLENCE PREMISE",
+CREATE (t:THOUGHT {    name: "thought.HOLLYWOOD VIOLENCE PREMISE",
     alias: "Thought: Hollywood Violence Premise",
     parent: "topic.WISDOM",
     tags: ['violence', 'society', 'media', 'attitude', 'failure'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.HOLLYWOOD VIOLENCE PREMISE",

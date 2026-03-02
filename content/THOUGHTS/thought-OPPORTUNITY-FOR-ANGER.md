@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 18-Dec-2011)
-CREATE (t:THOUGHT {
-    name: "thought.OPPORTUNITY FOR ANGER",
+CREATE (t:THOUGHT {    name: "thought.OPPORTUNITY FOR ANGER",
     alias: "Thought: Opportunity For Anger",
     parent: "topic.ATTITUDE",
     tags: ['anger', 'attitude', 'character', 'human_nature', 'emotion'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.OPPORTUNITY FOR ANGER",

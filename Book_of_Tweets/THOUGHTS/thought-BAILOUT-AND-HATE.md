@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 06-Oct-2011c)
-CREATE (t:THOUGHT {
-    name: "thought.BAILOUT AND HATE",
+CREATE (t:THOUGHT {    name: "thought.BAILOUT AND HATE",
     alias: "Thought: Bailout And Hate",
     parent: "topic.MORALITY",
     tags: ['politics', 'gratitude', 'hate', 'morality', 'society'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.BAILOUT AND HATE",

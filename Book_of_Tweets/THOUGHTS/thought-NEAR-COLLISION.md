@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 30-Apr-2011)
-CREATE (t:THOUGHT {
-    name: "thought.NEAR COLLISION",
+CREATE (t:THOUGHT {    name: "thought.NEAR COLLISION",
     alias: "Thought: Near Collision",
     parent: "topic.SPIRITUALITY",
     tags: ['providence', 'protection', 'safety', 'miracle', 'spirituality'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.NEAR COLLISION",

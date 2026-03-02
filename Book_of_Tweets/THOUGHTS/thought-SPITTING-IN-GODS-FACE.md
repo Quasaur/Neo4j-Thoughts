@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 07-Mar-2014)
-CREATE (t:THOUGHT {
-    name: "thought.SPITTING IN GODS FACE",
+CREATE (t:THOUGHT {    name: "thought.SPITTING IN GODS FACE",
     alias: "Thought: Spitting In Gods Face",
     parent: "topic.MORALITY",
     tags: ['america', 'morality', 'judgment', 'truth'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.SPITTING IN GODS FACE",

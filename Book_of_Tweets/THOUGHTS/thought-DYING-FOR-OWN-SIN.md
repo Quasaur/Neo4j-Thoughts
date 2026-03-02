@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 10-Sep-2011)
-CREATE (t:THOUGHT {
-    name: "thought.DYING FOR OWN SIN",
+CREATE (t:THOUGHT {    name: "thought.DYING FOR OWN SIN",
     alias: "Thought: Dying For Own Sin",
     parent: "topic.HUMANITY",
     tags: ['sin', 'death', 'responsibility', 'adam', 'humanity'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.DYING FOR OWN SIN",

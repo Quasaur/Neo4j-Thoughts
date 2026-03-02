@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 12-Oct-2012d_2)
-CREATE (t:THOUGHT {
-    name: "thought.PAYCHECK VS SOUL",
+CREATE (t:THOUGHT {    name: "thought.PAYCHECK VS SOUL",
     alias: "Thought: Paycheck Vs Soul",
     parent: "topic.MORALITY",
     tags: ['soul', 'dignity', 'wealth', 'morality', 'character'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.PAYCHECK VS SOUL",

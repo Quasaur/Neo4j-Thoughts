@@ -39,14 +39,11 @@ ptopic:
 
 ```Cypher
 // Generated from Book6E-FINAL.md
-CREATE (t:THOUGHT {
-    name: "thought.SUBMITTING OUR PLANS",
+CREATE (t:THOUGHT {    name: "thought.SUBMITTING OUR PLANS",
     alias: "Thought: SUBMITTING OUR PLANS",
     parent: "topic.HUMILITY",
     tags: ["ego", "submission", "plans", "gods_plan", "humility"],
-    notes: "",
-    level: 4
-});
+    level: 4});
 
 CREATE (c:CONTENT {
     name: "content.SUBMITTING OUR PLANS",

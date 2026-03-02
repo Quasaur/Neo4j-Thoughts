@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 05-Jan-2012b)
-CREATE (t:THOUGHT {
-    name: "thought.MEANINGLESS LIFE LIE",
+CREATE (t:THOUGHT {    name: "thought.MEANINGLESS LIFE LIE",
     alias: "Thought: Meaningless Life Lie",
     parent: "topic.PHILOSOPHY",
     tags: ['philosophy', 'meaning', 'religion', 'truth', 'skepticism'],
-    notes: "",
-    level: 4
-});
+    level: 4});
 
 CREATE (c:CONTENT {
     name: "content.MEANINGLESS LIFE LIE",

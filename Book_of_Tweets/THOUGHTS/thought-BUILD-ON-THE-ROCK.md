@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 12-Sep-2013b)
-CREATE (t:THOUGHT {
-    name: "thought.BUILD ON THE ROCK",
+CREATE (t:THOUGHT {    name: "thought.BUILD ON THE ROCK",
     alias: "Thought: Build On The Rock",
     parent: "topic.SPIRITUALITY",
     tags: ['rock', 'gold', 'foundation', 'spirituality', 'strength'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.BUILD ON THE ROCK",

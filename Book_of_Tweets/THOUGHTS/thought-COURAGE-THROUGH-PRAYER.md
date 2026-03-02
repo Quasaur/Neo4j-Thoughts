@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 20-Jul-2013g)
-CREATE (t:THOUGHT {
-    name: "thought.COURAGE THROUGH PRAYER",
+CREATE (t:THOUGHT {    name: "thought.COURAGE THROUGH PRAYER",
     alias: "Thought: Courage Through Prayer",
     parent: "topic.SPIRITUALITY",
     tags: ['prayer', 'courage', 'perseverance', 'spirituality', 'strength'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.COURAGE THROUGH PRAYER",

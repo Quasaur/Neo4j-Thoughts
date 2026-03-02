@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 27-Feb-2012b)
-CREATE (t:THOUGHT {
-    name: "thought.HEAVEN HOME WITHIN",
+CREATE (t:THOUGHT {    name: "thought.HEAVEN HOME WITHIN",
     alias: "Thought: Heaven Home Within",
     parent: "topic.SPIRITUALITY",
     tags: ['heaven', 'home', 'spirituality', 'transformation', 'presence'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.HEAVEN HOME WITHIN",

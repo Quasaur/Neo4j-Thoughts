@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 11-Sep-2013)
-CREATE (t:THOUGHT {
-    name: "thought.NO COMPLEXITY FOR GOD",
+CREATE (t:THOUGHT {    name: "thought.NO COMPLEXITY FOR GOD",
     alias: "Thought: No Complexity For God",
     parent: "topic.THE GODHEAD",
     tags: ['god', 'complexity', 'difficulty', 'power', 'divinity'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.NO COMPLEXITY FOR GOD",

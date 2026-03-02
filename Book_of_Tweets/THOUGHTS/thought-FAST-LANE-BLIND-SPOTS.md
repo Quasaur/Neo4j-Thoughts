@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 20-Dec-2011)
-CREATE (t:THOUGHT {
-    name: "thought.FAST LANE BLIND SPOTS",
+CREATE (t:THOUGHT {    name: "thought.FAST LANE BLIND SPOTS",
     alias: "Thought: Fast Lane Blind Spots",
     parent: "topic.WISDOM",
     tags: ['wisdom', 'life', 'danger', 'awareness', 'caution'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.FAST LANE BLIND SPOTS",

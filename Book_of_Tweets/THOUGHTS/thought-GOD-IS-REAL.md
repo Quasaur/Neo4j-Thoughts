@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 23-Jun-2014)
-CREATE (t:THOUGHT {
-    name: "thought.GOD IS REAL",
+CREATE (t:THOUGHT {    name: "thought.GOD IS REAL",
     alias: "Thought: God Is Real",
     parent: "topic.THE GODHEAD",
     tags: ['real', 'truth', 'uncertainty', 'god'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.GOD IS REAL",

@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 30-Aug-2013)
-CREATE (t:THOUGHT {
-    name: "thought.HELL FIRE FOR DEVIL",
+CREATE (t:THOUGHT {    name: "thought.HELL FIRE FOR DEVIL",
     alias: "Thought: Hell Fire For Devil",
     parent: "topic.THE GODHEAD",
     tags: ['hell', 'devil', 'god', 'judgment', 'divinity'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.HELL FIRE FOR DEVIL",

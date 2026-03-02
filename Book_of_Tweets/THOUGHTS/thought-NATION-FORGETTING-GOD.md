@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 14-Aug-2013a)
-CREATE (t:THOUGHT {
-    name: "thought.NATION FORGETTING GOD",
+CREATE (t:THOUGHT {    name: "thought.NATION FORGETTING GOD",
     alias: "Thought: Nation Forgetting God",
     parent: "topic.MORALITY",
     tags: ['nation', 'hell', 'god', 'morality', 'judgment'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.NATION FORGETTING GOD",

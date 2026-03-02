@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 24-Mar-2012a)
-CREATE (t:THOUGHT {
-    name: "thought.RECOGNIZE OPPORTUNITY",
+CREATE (t:THOUGHT {    name: "thought.RECOGNIZE OPPORTUNITY",
     alias: "Thought: Recognize Opportunity",
     parent: "topic.WISDOM",
     tags: ['opportunity', 'wisdom', 'tragedy', 'recognition', 'race'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.RECOGNIZE OPPORTUNITY",

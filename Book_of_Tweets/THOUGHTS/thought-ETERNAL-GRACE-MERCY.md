@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 08-Feb-2012a)
-CREATE (t:THOUGHT {
-    name: "thought.ETERNAL GRACE MERCY",
+CREATE (t:THOUGHT {    name: "thought.ETERNAL GRACE MERCY",
     alias: "Thought: Eternal Grace Mercy",
     parent: "topic.THE GODHEAD",
     tags: ['grace', 'mercy', 'kindness', 'eternity', 'divinity'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.ETERNAL GRACE MERCY",

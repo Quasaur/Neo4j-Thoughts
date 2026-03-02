@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 21-Aug-2012b)
-CREATE (t:THOUGHT {
-    name: "thought.QUESTIONING GODS EXISTENCE",
+CREATE (t:THOUGHT {    name: "thought.QUESTIONING GODS EXISTENCE",
     alias: "Thought: Questioning Gods Existence",
     parent: "topic.PHILOSOPHY",
     tags: ['existence', 'god', 'survival', 'skepticism', 'philosophy'],
-    notes: "",
-    level: 4
-});
+    level: 4});
 
 CREATE (c:CONTENT {
     name: "content.QUESTIONING GODS EXISTENCE",

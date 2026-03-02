@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 12-Sep-2012a)
-CREATE (t:THOUGHT {
-    name: "thought.FULFILLING DESTINY TOGETHER",
+CREATE (t:THOUGHT {    name: "thought.FULFILLING DESTINY TOGETHER",
     alias: "Thought: Fulfilling Destiny Together",
     parent: "topic.HUMANITY",
     tags: ['destiny', 'help', 'humanity', 'purpose', 'service'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.FULFILLING DESTINY TOGETHER",

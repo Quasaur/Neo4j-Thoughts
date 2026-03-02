@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 22-Aug-2012a)
-CREATE (t:THOUGHT {
-    name: "thought.PRAYER BEFORE SPEECH",
+CREATE (t:THOUGHT {    name: "thought.PRAYER BEFORE SPEECH",
     alias: "Thought: Prayer Before Speech",
     parent: "topic.SPIRITUALITY",
     tags: ['prayer', 'speech', 'spirituality', 'integrity', 'character'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.PRAYER BEFORE SPEECH",

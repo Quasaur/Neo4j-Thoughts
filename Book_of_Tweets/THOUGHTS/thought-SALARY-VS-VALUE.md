@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 12-Oct-2012c)
-CREATE (t:THOUGHT {
-    name: "thought.SALARY VS VALUE",
+CREATE (t:THOUGHT {    name: "thought.SALARY VS VALUE",
     alias: "Thought: Salary Vs Value",
     parent: "topic.HUMANITY",
     tags: ['value', 'identity', 'humanity', 'wealth', 'morality'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.SALARY VS VALUE",

@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 24-Sep-2011a)
-CREATE (t:THOUGHT {
-    name: "thought.ELECTROMAGNETISM TOUCH",
+CREATE (t:THOUGHT {    name: "thought.ELECTROMAGNETISM TOUCH",
     alias: "Thought: Electromagnetism Touch",
     parent: "topic.PHYSICS",
     tags: ['science', 'physics', 'creation', 'design', 'power'],
-    notes: "",
-    level: 6
-});
+    level: 6});
 
 CREATE (c:CONTENT {
     name: "content.ELECTROMAGNETISM TOUCH",

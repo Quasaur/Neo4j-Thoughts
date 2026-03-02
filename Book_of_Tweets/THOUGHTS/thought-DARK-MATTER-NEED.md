@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 16-Oct-2011d)
-CREATE (t:THOUGHT {
-    name: "thought.DARK MATTER NEED",
+CREATE (t:THOUGHT {    name: "thought.DARK MATTER NEED",
     alias: "Thought: Dark Matter Need",
     parent: "topic.PHILOSOPHY",
     tags: ['science', 'dark_matter', 'philosophy', 'energy', 'truth'],
-    notes: "",
-    level: 4
-});
+    level: 4});
 
 CREATE (c:CONTENT {
     name: "content.DARK MATTER NEED",

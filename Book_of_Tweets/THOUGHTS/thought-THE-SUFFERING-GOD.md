@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 23-Jul-2011e)
-CREATE (t:THOUGHT {
-    name: "thought.THE SUFFERING GOD",
+CREATE (t:THOUGHT {    name: "thought.THE SUFFERING GOD",
     alias: "Thought: The Suffering God",
     parent: "topic.THE GODHEAD",
     tags: ['suffering', 'empathy', 'christ', 'incarnation', 'divinity'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.THE SUFFERING GOD",

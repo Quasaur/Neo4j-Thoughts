@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 22-Jul-2013)
-CREATE (t:THOUGHT {
-    name: "thought.PURSUIT OF HAPPINESS",
+CREATE (t:THOUGHT {    name: "thought.PURSUIT OF HAPPINESS",
     alias: "Thought: Pursuit Of Happiness",
     parent: "topic.THE GODHEAD",
     tags: ['god', 'happiness', 'pursuit', 'divinity', 'truth'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.PURSUIT OF HAPPINESS",

@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 04-Oct-2011c)
-CREATE (t:THOUGHT {
-    name: "thought.ALWAYS ADVENTIST",
+CREATE (t:THOUGHT {    name: "thought.ALWAYS ADVENTIST",
     alias: "Thought: Always Adventist",
     parent: "topic.RELIGION",
     tags: ['identity', 'religion', 'adventism', 'reflection', 'faith'],
-    notes: "",
-    level: 4
-});
+    level: 4});
 
 CREATE (c:CONTENT {
     name: "content.ALWAYS ADVENTIST",

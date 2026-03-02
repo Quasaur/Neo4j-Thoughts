@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 15-Oct-2011c)
-CREATE (t:THOUGHT {
-    name: "thought.HEAVEN HEALS SORROW",
+CREATE (t:THOUGHT {    name: "thought.HEAVEN HEALS SORROW",
     alias: "Thought: Heaven Heals Sorrow",
     parent: "topic.SPIRITUALITY",
     tags: ['healing', 'heaven', 'sorrow', 'comfort', 'grace'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.HEAVEN HEALS SORROW",

@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 24-Aug-2011b)
-CREATE (t:THOUGHT {
-    name: "thought.OUTER VS INNER BEAUTY",
+CREATE (t:THOUGHT {    name: "thought.OUTER VS INNER BEAUTY",
     alias: "Thought: Outer Vs Inner Beauty",
     parent: "topic.ATTITUDE",
     tags: ['beauty', 'character', 'appearance', 'aesthetics', 'holiness'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.OUTER VS INNER BEAUTY",

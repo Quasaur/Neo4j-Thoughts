@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 05-Jul-2011a)
-CREATE (t:THOUGHT {
-    name: "thought.OVERCOMING DEPRESSION",
+CREATE (t:THOUGHT {    name: "thought.OVERCOMING DEPRESSION",
     alias: "Thought: Overcoming Depression",
     parent: "topic.PSYCHOLOGY",
     tags: ['depression', 'healing', 'persistence', 'psychology', 'hope'],
-    notes: "",
-    level: 4
-});
+    level: 4});
 
 CREATE (c:CONTENT {
     name: "content.OVERCOMING DEPRESSION",

@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 18-Sep-2013c)
-CREATE (t:THOUGHT {
-    name: "thought.REASON TO BE ALIVE",
+CREATE (t:THOUGHT {    name: "thought.REASON TO BE ALIVE",
     alias: "Thought: Reason To Be Alive",
     parent: "topic.SPIRITUALITY",
     tags: ['jesus', 'life', 'purpose', 'sin', 'spirituality'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.REASON TO BE ALIVE",

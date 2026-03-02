@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 25-Jul-2013)
-CREATE (t:THOUGHT {
-    name: "thought.WAY TO MANS EGO",
+CREATE (t:THOUGHT {    name: "thought.WAY TO MANS EGO",
     alias: "Thought: Way To Mans Ego",
     parent: "topic.HUMANITY",
     tags: ['man', 'heart', 'ego', 'humanity', 'irony'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.WAY TO MANS EGO",

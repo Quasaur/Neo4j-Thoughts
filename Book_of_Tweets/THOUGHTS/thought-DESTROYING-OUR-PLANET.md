@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 27-Jul-2013b)
-CREATE (t:THOUGHT {
-    name: "thought.DESTROYING OUR PLANET",
+CREATE (t:THOUGHT {    name: "thought.DESTROYING OUR PLANET",
     alias: "Thought: Destroying Our Planet",
     parent: "topic.MORALITY",
     tags: ['technology', 'greed', 'environment', 'planet', 'destruction'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.DESTROYING OUR PLANET",

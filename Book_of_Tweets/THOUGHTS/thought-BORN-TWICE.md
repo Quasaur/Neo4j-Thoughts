@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 24-Apr-2011)
-CREATE (t:THOUGHT {
-    name: "thought.BORN TWICE",
+CREATE (t:THOUGHT {    name: "thought.BORN TWICE",
     alias: "Thought: Born Twice",
     parent: "topic.RELIGION",
     tags: ['resurrection', 'life', 'death', 'rebirth', 'salvation'],
-    notes: "",
-    level: 4
-});
+    level: 4});
 
 CREATE (c:CONTENT {
     name: "content.BORN TWICE",

@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 19-Mar-2014)
-CREATE (t:THOUGHT {
-    name: "thought.GLORIFIED IN HUMANITY",
+CREATE (t:THOUGHT {    name: "thought.GLORIFIED IN HUMANITY",
     alias: "Thought: Glorified In Humanity",
     parent: "topic.DIVINE SOVEREIGNTY",
     tags: ['glory', 'humanity', 'obedience', 'rebellion'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.GLORIFIED IN HUMANITY",

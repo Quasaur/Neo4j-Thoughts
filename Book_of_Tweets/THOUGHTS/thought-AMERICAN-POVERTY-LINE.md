@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 13-Sep-2011)
-CREATE (t:THOUGHT {
-    name: "thought.AMERICAN POVERTY LINE",
+CREATE (t:THOUGHT {    name: "thought.AMERICAN POVERTY LINE",
     alias: "Thought: American Poverty Line",
     parent: "topic.MORALITY",
     tags: ['poverty', 'economy', 'society', 'justice', 'morality'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.AMERICAN POVERTY LINE",

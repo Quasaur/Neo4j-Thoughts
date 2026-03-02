@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 20-Jul-2013b)
-CREATE (t:THOUGHT {
-    name: "thought.PRAYER HAWAIIAN VACATION",
+CREATE (t:THOUGHT {    name: "thought.PRAYER HAWAIIAN VACATION",
     alias: "Thought: Prayer Hawaiian Vacation",
     parent: "topic.SPIRITUALITY",
     tags: ['prayer', 'rest', 'vacation', 'spirituality', 'joy'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.PRAYER HAWAIIAN VACATION",

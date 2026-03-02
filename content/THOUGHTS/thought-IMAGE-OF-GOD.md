@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 12-Oct-2012c_2)
-CREATE (t:THOUGHT {
-    name: "thought.IMAGE OF GOD",
+CREATE (t:THOUGHT {    name: "thought.IMAGE OF GOD",
     alias: "Thought: Image Of God",
     parent: "topic.CREATION",
     tags: ['creation', 'identity', 'image', 'god', 'value'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.IMAGE OF GOD",

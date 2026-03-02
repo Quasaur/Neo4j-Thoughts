@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 21-Oct-2013)
-CREATE (t:THOUGHT {
-    name: "thought.HUMANITYS FINAL VIRTUE",
+CREATE (t:THOUGHT {    name: "thought.HUMANITYS FINAL VIRTUE",
     alias: "Thought: Humanity's Final Virtue",
     parent: "topic.GRACE",
     tags: ['jesus', 'virtue', 'humanity', 'grace', 'rejection'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.HUMANITYS FINAL VIRTUE",

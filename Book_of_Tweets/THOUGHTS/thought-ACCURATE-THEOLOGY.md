@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 27-Apr-2012b)
-CREATE (t:THOUGHT {
-    name: "thought.ACCURATE THEOLOGY",
+CREATE (t:THOUGHT {    name: "thought.ACCURATE THEOLOGY",
     alias: "Thought: Accurate Theology,  Easier Life",
     parent: "topic.TRUTH",
     tags: ['theology', 'truth', 'christianity', 'clarity', 'wisdom'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.ACCURATE THEOLOGY",

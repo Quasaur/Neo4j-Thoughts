@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 08-Aug-2010b)
-CREATE (t:THOUGHT {
-    name: "thought.NATURE OF REALITY",
+CREATE (t:THOUGHT {    name: "thought.NATURE OF REALITY",
     alias: "Thought: Nature Of Reality",
     parent: "topic.PHILOSOPHY",
     tags: ['reality', 'matter', 'philosophy', 'ontology', 'perception'],
-    notes: "",
-    level: 4
-});
+    level: 4});
 
 CREATE (c:CONTENT {
     name: "content.NATURE OF REALITY",

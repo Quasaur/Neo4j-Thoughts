@@ -13,12 +13,10 @@ neo4j: true
 ```Cypher
 //create the NULL TOPIC with the same fields as a normal topic
 CREATE (t:TOPIC
-    {
-	  name: "topic.NULL TOPIC",
+    {	  name: "topic.NULL TOPIC",
 		alias: "Topic ZERO: THE NULL TOPIC", 
 		parent: null, 
 		tags: ["topic", "first", "prime", "root", "zero"], 
-		notes: "",
 		level: 0});
 // create multi-lingual description		
 CREATE (d:DESCRIPTION {

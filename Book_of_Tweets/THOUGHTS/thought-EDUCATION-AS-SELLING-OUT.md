@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 24-Mar-2012d)
-CREATE (t:THOUGHT {
-    name: "thought.EDUCATION AS SELLING OUT",
+CREATE (t:THOUGHT {    name: "thought.EDUCATION AS SELLING OUT",
     alias: "Thought: Education As Selling Out",
     parent: "topic.TRUTH",
     tags: ['education', 'truth', 'selling_out', 'race', 'history'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.EDUCATION AS SELLING OUT",

@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 01-Oct-2011a)
-CREATE (t:THOUGHT {
-    name: "thought.NOTHING AND EVERYTHING",
+CREATE (t:THOUGHT {    name: "thought.NOTHING AND EVERYTHING",
     alias: "Thought: Nothing And Everything",
     parent: "topic.HUMANITY",
     tags: ['humanity', 'god', 'value', 'identity', 'paradox'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.NOTHING AND EVERYTHING",

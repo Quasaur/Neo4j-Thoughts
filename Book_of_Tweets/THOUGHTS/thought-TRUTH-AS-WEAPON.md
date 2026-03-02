@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 21-Sep-2011b)
-CREATE (t:THOUGHT {
-    name: "thought.TRUTH AS WEAPON",
+CREATE (t:THOUGHT {    name: "thought.TRUTH AS WEAPON",
     alias: "Thought: Truth As Weapon",
     parent: "topic.TRUTH",
     tags: ['truth', 'power', 'weapon', 'danger', 'reality'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.TRUTH AS WEAPON",

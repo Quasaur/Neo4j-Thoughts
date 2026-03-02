@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 29-Sep-2013b)
-CREATE (t:THOUGHT {
-    name: "thought.CHURCH IS BIG BUSINESS",
+CREATE (t:THOUGHT {    name: "thought.CHURCH IS BIG BUSINESS",
     alias: "Thought: Church Is Big Business",
     parent: "topic.RELIGION",
     tags: ['church', 'business', 'money', 'religion', 'america'],
-    notes: "",
-    level: 4
-});
+    level: 4});
 
 CREATE (c:CONTENT {
     name: "content.CHURCH IS BIG BUSINESS",

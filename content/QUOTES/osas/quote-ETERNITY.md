@@ -13,14 +13,12 @@ neo4j: true
 ```Cypher
 //create the Thought with the same fields as a normal thought
 CREATE (q:QUOTE
-    {
-	    name: "quote.ETERNITY",
+    {	    name: "quote.ETERNITY",
 		alias: "Quote: The Transcendent God", 
 		parent: "topic.THE GODHEAD", 
 		tags: ["god", "eternity", "beginningless", "endless", "transcendence"], 
 		source: "Once Saved, Always Saved: The Assurance of Our Father's LOVE",
 		booklink: "https://www.amazon.com/Once-Saved-Always-Assurance-Fathers-ebook/dp/B0132UEB68",
-		notes: "",
 		level: 1});
 // create multi-lingual content		
 CREATE (c:CONTENT {

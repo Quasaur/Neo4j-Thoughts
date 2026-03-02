@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 07-Sep-2011a)
-CREATE (t:THOUGHT {
-    name: "thought.DNA MEMORY VS REINCARNATION",
+CREATE (t:THOUGHT {    name: "thought.DNA MEMORY VS REINCARNATION",
     alias: "Thought: Dna Memory Vs Reincarnation",
     parent: "topic.PHILOSOPHY",
     tags: ['philosophy', 'reincarnation', 'dna', 'memory', 'biology'],
-    notes: "",
-    level: 4
-});
+    level: 4});
 
 CREATE (c:CONTENT {
     name: "content.DNA MEMORY VS REINCARNATION",

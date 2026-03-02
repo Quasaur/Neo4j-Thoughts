@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 17-Jul-2011)
-CREATE (t:THOUGHT {
-    name: "thought.LEAVING GOD OUT",
+CREATE (t:THOUGHT {    name: "thought.LEAVING GOD OUT",
     alias: "Thought: Leaving God Out",
     parent: "topic.RELIGION",
     tags: ['secularism', 'society', 'religion', 'exclusion', 'faith'],
-    notes: "",
-    level: 4
-});
+    level: 4});
 
 CREATE (c:CONTENT {
     name: "content.LEAVING GOD OUT",

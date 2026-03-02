@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 19-Feb-2012h)
-CREATE (t:THOUGHT {
-    name: "thought.LIVELIER LIVING",
+CREATE (t:THOUGHT {    name: "thought.LIVELIER LIVING",
     alias: "Thought: Livelier Living",
     parent: "topic.SPIRITUALITY",
     tags: ['jesus', 'life', 'joy', 'spirituality', 'character'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.LIVELIER LIVING",

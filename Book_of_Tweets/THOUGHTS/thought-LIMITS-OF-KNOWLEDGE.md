@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 19-Nov-2011)
-CREATE (t:THOUGHT {
-    name: "thought.LIMITS OF KNOWLEDGE",
+CREATE (t:THOUGHT {    name: "thought.LIMITS OF KNOWLEDGE",
     alias: "Thought: Limits Of Knowledge",
     parent: "topic.WISDOM",
     tags: ['wisdom', 'humility', 'knowledge', 'truth', 'maturity'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.LIMITS OF KNOWLEDGE",

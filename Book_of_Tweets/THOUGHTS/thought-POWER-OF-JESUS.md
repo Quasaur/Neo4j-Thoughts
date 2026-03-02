@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 14-Aug-2010a)
-CREATE (t:THOUGHT {
-    name: "thought.POWER OF JESUS",
+CREATE (t:THOUGHT {    name: "thought.POWER OF JESUS",
     alias: "Thought: Power Of Jesus",
     parent: "topic.THE GODHEAD",
     tags: ['jesus', 'power', 'divinity', 'majesty', 'lordship'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.POWER OF JESUS",

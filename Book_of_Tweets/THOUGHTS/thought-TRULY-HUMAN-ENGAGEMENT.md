@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 16-Jan-2014)
-CREATE (t:THOUGHT {
-    name: "thought.TRULY HUMAN ENGAGEMENT",
+CREATE (t:THOUGHT {    name: "thought.TRULY HUMAN ENGAGEMENT",
     alias: "Thought: Truly Human Engagement",
     parent: "topic.HUMANITY",
     tags: ['humanity', 'creator', 'engagement', 'identity'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.TRULY HUMAN ENGAGEMENT",

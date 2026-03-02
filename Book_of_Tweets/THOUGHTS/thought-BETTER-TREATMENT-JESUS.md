@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 29-Mar-2012)
-CREATE (t:THOUGHT {
-    name: "thought.BETTER TREATMENT JESUS",
+CREATE (t:THOUGHT {    name: "thought.BETTER TREATMENT JESUS",
     alias: "Thought: Better Treatment Jesus",
     parent: "topic.THE GODHEAD",
     tags: ['jesus', 'life', 'treatment', 'grace', 'divinity'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.BETTER TREATMENT JESUS",

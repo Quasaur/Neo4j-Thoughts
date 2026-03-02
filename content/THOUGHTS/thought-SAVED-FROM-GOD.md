@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 12-Nov-2010)
-CREATE (t:THOUGHT {
-    name: "thought.SAVED FROM GOD",
+CREATE (t:THOUGHT {    name: "thought.SAVED FROM GOD",
     alias: "Thought: Saved From God",
     parent: "topic.DIVINE SOVEREIGNTY",
     tags: ['salvation', 'sovereignty', 'power', 'judgment', 'mercy'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.SAVED FROM GOD",

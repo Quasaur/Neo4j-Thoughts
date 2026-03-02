@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 11-Jul-2013)
-CREATE (t:THOUGHT {
-    name: "thought.WELFARE JOB CHURCH",
+CREATE (t:THOUGHT {    name: "thought.WELFARE JOB CHURCH",
     alias: "Thought: Welfare Job Church",
     parent: "topic.RELIGION",
     tags: ['welfare', 'church', 'government', 'religion', 'society'],
-    notes: "",
-    level: 4
-});
+    level: 4});
 
 CREATE (c:CONTENT {
     name: "content.WELFARE JOB CHURCH",

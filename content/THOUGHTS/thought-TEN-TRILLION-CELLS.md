@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 07-Sep-2011b)
-CREATE (t:THOUGHT {
-    name: "thought.TEN TRILLION CELLS",
+CREATE (t:THOUGHT {    name: "thought.TEN TRILLION CELLS",
     alias: "Thought: Ten Trillion Cells",
     parent: "topic.BIOLOGY",
     tags: ['creation', 'biology', 'cells', 'life', 'power'],
-    notes: "",
-    level: 6
-});
+    level: 6});
 
 CREATE (c:CONTENT {
     name: "content.TEN TRILLION CELLS",

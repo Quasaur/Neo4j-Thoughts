@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 19-Dec-2011)
-CREATE (t:THOUGHT {
-    name: "thought.WITHHOLDING POWERS",
+CREATE (t:THOUGHT {    name: "thought.WITHHOLDING POWERS",
     alias: "Thought: Withholding Powers",
     parent: "topic.DIVINE SOVEREIGNTY",
     tags: ['power', 'glory', 'sovereignty', 'character', 'responsibility'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.WITHHOLDING POWERS",

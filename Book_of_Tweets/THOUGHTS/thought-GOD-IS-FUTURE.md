@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 29-Jun-2012)
-CREATE (t:THOUGHT {
-    name: "thought.GOD IS FUTURE",
+CREATE (t:THOUGHT {    name: "thought.GOD IS FUTURE",
     alias: "Thought: God Is Future",
     parent: "topic.SPIRITUALITY",
     tags: ['future', 'god', 'spirituality', 'eternity', 'presence'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.GOD IS FUTURE",

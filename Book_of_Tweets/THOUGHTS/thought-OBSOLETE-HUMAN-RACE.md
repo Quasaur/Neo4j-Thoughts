@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 10-Dec-2011)
-CREATE (t:THOUGHT {
-    name: "thought.OBSOLETE HUMAN RACE",
+CREATE (t:THOUGHT {    name: "thought.OBSOLETE HUMAN RACE",
     alias: "Thought: Obsolete Human Race",
     parent: "topic.HUMANITY",
     tags: ['humanity', 'christ', 'grace', 'faith', 'creation'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.OBSOLETE HUMAN RACE",

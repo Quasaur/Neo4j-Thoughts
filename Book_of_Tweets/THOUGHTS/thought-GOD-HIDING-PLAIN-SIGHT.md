@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 18-Sep-2013f)
-CREATE (t:THOUGHT {
-    name: "thought.GOD HIDING PLAIN SIGHT",
+CREATE (t:THOUGHT {    name: "thought.GOD HIDING PLAIN SIGHT",
     alias: "Thought: God Hiding Plain Sight",
     parent: "topic.THE GODHEAD",
     tags: ['hidden', 'sight', 'god', 'presence', 'divinity'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.GOD HIDING PLAIN SIGHT",

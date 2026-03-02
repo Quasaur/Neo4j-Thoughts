@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 21-Dec-2011)
-CREATE (t:THOUGHT {
-    name: "thought.NOTHING WITHOUT GOD",
+CREATE (t:THOUGHT {    name: "thought.NOTHING WITHOUT GOD",
     alias: "Thought: Nothing Without God",
     parent: "topic.HUMANITY",
     tags: ['humanity', 'god', 'value', 'identity', 'dependence'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.NOTHING WITHOUT GOD",

@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 03-Apr-2012b)
-CREATE (t:THOUGHT {
-    name: "thought.PRIEST OF CHRIST",
+CREATE (t:THOUGHT {    name: "thought.PRIEST OF CHRIST",
     alias: "Thought: Priest Of Christ",
     parent: "topic.SPIRITUALITY",
     tags: ['priest', 'christ', 'atmosphere', 'bible', 'assignment'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.PRIEST OF CHRIST",

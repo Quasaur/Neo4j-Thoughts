@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 19-Jan-2012a)
-CREATE (t:THOUGHT {
-    name: "thought.GODS SELF PORTRAIT",
+CREATE (t:THOUGHT {    name: "thought.GODS SELF PORTRAIT",
     alias: "Thought: Gods Self Portrait",
     parent: "topic.THE GODHEAD",
     tags: ['jesus', 'christ', 'portrait', 'humanity', 'holyspirit'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.GODS SELF PORTRAIT",

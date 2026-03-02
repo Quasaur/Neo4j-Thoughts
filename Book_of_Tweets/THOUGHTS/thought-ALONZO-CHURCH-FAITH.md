@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 03-Oct-2013b)
-CREATE (t:THOUGHT {
-    name: "thought.ALONZO CHURCH FAITH",
+CREATE (t:THOUGHT {    name: "thought.ALONZO CHURCH FAITH",
     alias: "Thought: Alonzo Church Faith",
     parent: "topic.RELIGION",
     tags: ['science', 'faith', 'alonzo_church', 'logic', 'religion'],
-    notes: "",
-    level: 4
-});
+    level: 4});
 
 CREATE (c:CONTENT {
     name: "content.ALONZO CHURCH FAITH",

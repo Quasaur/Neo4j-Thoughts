@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 06-Nov-2010e)
-CREATE (t:THOUGHT {
-    name: "thought.STANDARD MODEL HOLES",
+CREATE (t:THOUGHT {    name: "thought.STANDARD MODEL HOLES",
     alias: "Thought: Standard Model Holes",
     parent: "topic.PHILOSOPHY",
     tags: ['science', 'philosophy', 'creation', 'complexity', 'truth'],
-    notes: "",
-    level: 4
-});
+    level: 4});
 
 CREATE (c:CONTENT {
     name: "content.STANDARD MODEL HOLES",

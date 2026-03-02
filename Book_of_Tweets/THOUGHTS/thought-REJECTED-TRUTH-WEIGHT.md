@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 30-May-2012c)
-CREATE (t:THOUGHT {
-    name: "thought.REJECTED TRUTH WEIGHT",
+CREATE (t:THOUGHT {    name: "thought.REJECTED TRUTH WEIGHT",
     alias: "Thought: Rejected Truth Weight",
     parent: "topic.TRUTH",
     tags: ['truth', 'rejection', 'judgment', 'world', 'weight'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.REJECTED TRUTH WEIGHT",

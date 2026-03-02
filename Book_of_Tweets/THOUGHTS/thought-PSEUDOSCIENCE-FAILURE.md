@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 05-Aug-2010)
-CREATE (t:THOUGHT {
-    name: "thought.PSEUDOSCIENCE FAILURE",
+CREATE (t:THOUGHT {    name: "thought.PSEUDOSCIENCE FAILURE",
     alias: "Thought: Pseudoscience Failure",
     parent: "topic.PHILOSOPHY",
     tags: ['science', 'philosophy', 'atheism', 'truth', 'creation'],
-    notes: "",
-    level: 4
-});
+    level: 4});
 
 CREATE (c:CONTENT {
     name: "content.PSEUDOSCIENCE FAILURE",

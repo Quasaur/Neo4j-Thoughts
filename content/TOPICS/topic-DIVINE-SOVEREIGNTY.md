@@ -13,12 +13,10 @@ neo4j: true
 ```Cypher
 //create the NULL with the same fields as a normal topic
 CREATE (t:TOPIC
-    {
-	    name: "topic.DIVINE SOVEREIGNTY",
+    {	    name: "topic.DIVINE SOVEREIGNTY",
 		alias: "Topic: Predestination", 
 		parent: "topic.THE GODHEAD", 
 		tags: ["sovereignty", "lordship", "determinism", "absolute", "volition"], 
-		notes: "",
 		level: 2});
 // create multi-lingual description		
 CREATE (d:DESCRIPTION {

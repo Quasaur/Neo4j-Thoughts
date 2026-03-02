@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 12-Dec-2011)
-CREATE (t:THOUGHT {
-    name: "thought.THE FIRST SIN",
+CREATE (t:THOUGHT {    name: "thought.THE FIRST SIN",
     alias: "Thought: The First Sin",
     parent: "topic.HUMANITY",
     tags: ['sin', 'pride', 'creation', 'identity', 'humanity'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.THE FIRST SIN",

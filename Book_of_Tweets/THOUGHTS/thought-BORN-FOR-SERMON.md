@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 27-Dec-2010)
-CREATE (t:THOUGHT {
-    name: "thought.BORN FOR SERMON",
+CREATE (t:THOUGHT {    name: "thought.BORN FOR SERMON",
     alias: "Thought: Born For Sermon",
     parent: "topic.SPIRITUALITY",
     tags: ['calling', 'ministry', 'prison', 'sermon', 'purpose'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.BORN FOR SERMON",

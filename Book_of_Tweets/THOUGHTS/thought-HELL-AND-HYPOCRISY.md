@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 02-Dec-2011b)
-CREATE (t:THOUGHT {
-    name: "thought.HELL AND HYPOCRISY",
+CREATE (t:THOUGHT {    name: "thought.HELL AND HYPOCRISY",
     alias: "Thought: Hell And Hypocrisy",
     parent: "topic.MORALITY",
     tags: ['judgment', 'hypocrisy', 'hell', 'morality', 'character'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.HELL AND HYPOCRISY",

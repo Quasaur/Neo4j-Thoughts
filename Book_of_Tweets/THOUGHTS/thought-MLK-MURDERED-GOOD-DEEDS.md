@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 28-Aug-2013)
-CREATE (t:THOUGHT {
-    name: "thought.MLK MURDERED GOOD DEEDS",
+CREATE (t:THOUGHT {    name: "thought.MLK MURDERED GOOD DEEDS",
     alias: "Thought: Mlk Murdered Good Deeds",
     parent: "topic.MORALITY",
     tags: ['mlk', 'justice', 'murder', 'deeds', 'morality'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.MLK MURDERED GOOD DEEDS",

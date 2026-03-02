@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 12-Sep-2012b)
-CREATE (t:THOUGHT {
-    name: "thought.CHRIST UNIVERSAL DESTINY",
+CREATE (t:THOUGHT {    name: "thought.CHRIST UNIVERSAL DESTINY",
     alias: "Thought: Christ Universal Destiny",
     parent: "topic.THE GODHEAD",
     tags: ['christ', 'destiny', 'eternity', 'divinity', 'hope'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.CHRIST UNIVERSAL DESTINY",

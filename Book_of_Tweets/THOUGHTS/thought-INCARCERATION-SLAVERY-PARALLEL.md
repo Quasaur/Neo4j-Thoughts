@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 08-Aug-2013)
-CREATE (t:THOUGHT {
-    name: "thought.INCARCERATION SLAVERY PARALLEL",
+CREATE (t:THOUGHT {    name: "thought.INCARCERATION SLAVERY PARALLEL",
     alias: "Thought: Incarceration Slavery Parallel",
     parent: "topic.MORALITY",
     tags: ['incarceration', 'slavery', 'america', 'race', 'justice'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.INCARCERATION SLAVERY PARALLEL",

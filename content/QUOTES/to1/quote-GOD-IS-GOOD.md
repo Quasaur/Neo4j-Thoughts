@@ -13,14 +13,12 @@ neo4j: true
 ```Cypher
 //create the Thought with the same fields as a normal thought
 CREATE (q:QUOTE
-    {
-	    name: "quote.GOD IS GOOD",
+    {	    name: "quote.GOD IS GOOD",
 		alias: "Quote: The Goodness of God", 
 		parent: "topic.THE GODHEAD", 
 		tags: ["goodness", "divine", "god", "good", "great"], 
 		source: "The Traveler's Oasis, Book One",
 		booklink: "https://www.amazon.com/Travelers-Oasis-Book-One-ebook/dp/B00Y43B2OC",
-		notes: "",
 		level: 1});
 // create multi-lingual content		
 CREATE (c:CONTENT {

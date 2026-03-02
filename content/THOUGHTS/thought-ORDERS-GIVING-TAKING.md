@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 20-Apr-2013)
-CREATE (t:THOUGHT {
-    name: "thought.ORDERS GIVING TAKING",
+CREATE (t:THOUGHT {    name: "thought.ORDERS GIVING TAKING",
     alias: "Thought: Orders Giving Taking",
     parent: "topic.WISDOM",
     tags: ['authority', 'humility', 'attitude', 'character', 'orders'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.ORDERS GIVING TAKING",

@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 12-Sep-2013a)
-CREATE (t:THOUGHT {
-    name: "thought.COMMITTING ADAMS SIN",
+CREATE (t:THOUGHT {    name: "thought.COMMITTING ADAMS SIN",
     alias: "Thought: Committing Adams Sin",
     parent: "topic.HUMANITY",
     tags: ['sin', 'adam', 'suffering', 'humanity', 'character'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.COMMITTING ADAMS SIN",

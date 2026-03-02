@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 10-Apr-2013)
-CREATE (t:THOUGHT {
-    name: "thought.INVISIBLE IN IMPOSSIBLE",
+CREATE (t:THOUGHT {    name: "thought.INVISIBLE IN IMPOSSIBLE",
     alias: "Thought: Invisible In Impossible",
     parent: "topic.THE GODHEAD",
     tags: ['god', 'miracle', 'invisible', 'impossible', 'divinity'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.INVISIBLE IN IMPOSSIBLE",

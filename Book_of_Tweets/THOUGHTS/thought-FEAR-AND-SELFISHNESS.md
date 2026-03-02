@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 24-Aug-2011a)
-CREATE (t:THOUGHT {
-    name: "thought.FEAR AND SELFISHNESS",
+CREATE (t:THOUGHT {    name: "thought.FEAR AND SELFISHNESS",
     alias: "Thought: Fear And Selfishness",
     parent: "topic.PSYCHOLOGY",
     tags: ['fear', 'selfishness', 'psychology', 'emotion', 'character'],
-    notes: "",
-    level: 4
-});
+    level: 4});
 
 CREATE (c:CONTENT {
     name: "content.FEAR AND SELFISHNESS",

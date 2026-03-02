@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 15-Oct-2012)
-CREATE (t:THOUGHT {
-    name: "thought.CONTRACTOR NOT SLAVE",
+CREATE (t:THOUGHT {    name: "thought.CONTRACTOR NOT SLAVE",
     alias: "Thought: Contractor Not Slave",
     parent: "topic.MORALITY",
     tags: ['work', 'freedom', 'slave', 'morality', 'society'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.CONTRACTOR NOT SLAVE",

@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 24-Aug-2012)
-CREATE (t:THOUGHT {
-    name: "thought.UNDERSTANDING SIN HELL",
+CREATE (t:THOUGHT {    name: "thought.UNDERSTANDING SIN HELL",
     alias: "Thought: Understanding Sin Hell",
     parent: "topic.EVIL",
     tags: ['sin', 'hell', 'judgment', 'god', 'character'],
-    notes: "",
-    level: 4
-});
+    level: 4});
 
 CREATE (c:CONTENT {
     name: "content.UNDERSTANDING SIN HELL",

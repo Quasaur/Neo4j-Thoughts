@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 17-Sep-2013b)
-CREATE (t:THOUGHT {
-    name: "thought.SHOVING SUGAR BODY",
+CREATE (t:THOUGHT {    name: "thought.SHOVING SUGAR BODY",
     alias: "Thought: Shoving Sugar Body",
     parent: "topic.MORALITY",
     tags: ['sugar', 'health', 'body', 'diabetes', 'morality'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.SHOVING SUGAR BODY",

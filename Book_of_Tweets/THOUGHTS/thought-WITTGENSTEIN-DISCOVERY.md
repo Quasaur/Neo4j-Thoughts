@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 25-Jul-2010)
-CREATE (t:THOUGHT {
-    name: "thought.WITTGENSTEIN DISCOVERY",
+CREATE (t:THOUGHT {    name: "thought.WITTGENSTEIN DISCOVERY",
     alias: "Thought: Wittgenstein Discovery",
     parent: "topic.PHILOSOPHY",
     tags: ['philosophy', 'discovery', 'wittgenstein', 'logic', 'thought'],
-    notes: "",
-    level: 4
-});
+    level: 4});
 
 CREATE (c:CONTENT {
     name: "content.WITTGENSTEIN DISCOVERY",

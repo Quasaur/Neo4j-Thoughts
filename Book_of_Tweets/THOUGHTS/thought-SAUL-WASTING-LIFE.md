@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 09-Oct-2013)
-CREATE (t:THOUGHT {
-    name: "thought.SAUL WASTING LIFE",
+CREATE (t:THOUGHT {    name: "thought.SAUL WASTING LIFE",
     alias: "Thought: Saul Wasting Life",
     parent: "topic.RELIGION",
     tags: ['saul', 'david', 'relationship', 'god', 'waste'],
-    notes: "",
-    level: 4
-});
+    level: 4});
 
 CREATE (c:CONTENT {
     name: "content.SAUL WASTING LIFE",

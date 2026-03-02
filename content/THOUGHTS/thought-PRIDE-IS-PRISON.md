@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 03-Oct-2011)
-CREATE (t:THOUGHT {
-    name: "thought.PRIDE IS PRISON",
+CREATE (t:THOUGHT {    name: "thought.PRIDE IS PRISON",
     alias: "Thought: Pride Is Prison",
     parent: "topic.EVIL",
     tags: ['pride', 'love', 'freedom', 'attitude', 'liberation'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.PRIDE IS PRISON",

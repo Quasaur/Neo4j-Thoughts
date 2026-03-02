@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 29-Sep-2013a)
-CREATE (t:THOUGHT {
-    name: "thought.CONGRESS NOT OURS",
+CREATE (t:THOUGHT {    name: "thought.CONGRESS NOT OURS",
     alias: "Thought: Congress Not Ours",
     parent: "topic.MORALITY",
     tags: ['congress', 'america', 'people', 'morality', 'ownership'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.CONGRESS NOT OURS",

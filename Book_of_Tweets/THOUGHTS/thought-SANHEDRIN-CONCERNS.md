@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 30-Sep-2012)
-CREATE (t:THOUGHT {
-    name: "thought.SANHEDRIN CONCERNS",
+CREATE (t:THOUGHT {    name: "thought.SANHEDRIN CONCERNS",
     alias: "Thought: Sanhedrin Concerns",
     parent: "topic.MORALITY",
     tags: ['authority', 'money', 'morality', 'church', 'history'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.SANHEDRIN CONCERNS",

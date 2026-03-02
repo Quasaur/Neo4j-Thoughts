@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 02-Jun-2013)
-CREATE (t:THOUGHT {
-    name: "thought.GOD NOT DEADBEAT",
+CREATE (t:THOUGHT {    name: "thought.GOD NOT DEADBEAT",
     alias: "Thought: God Not Deadbeat",
     parent: "topic.THE GODHEAD",
     tags: ['provision', 'care', 'god', 'character', 'divinity'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.GOD NOT DEADBEAT",

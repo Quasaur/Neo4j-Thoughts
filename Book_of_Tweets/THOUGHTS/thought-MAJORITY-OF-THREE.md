@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 09-Jun-2014)
-CREATE (t:THOUGHT {
-    name: "thought.MAJORITY OF THREE",
+CREATE (t:THOUGHT {    name: "thought.MAJORITY OF THREE",
     alias: "Thought: Majority Of Three",
     parent: "topic.THE GODHEAD",
     tags: ['godhead', 'life', 'death', 'goodness'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.MAJORITY OF THREE",

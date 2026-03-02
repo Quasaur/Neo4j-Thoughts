@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 16-Apr-2013)
-CREATE (t:THOUGHT {
-    name: "thought.GALATIANS LAW DEBATE",
+CREATE (t:THOUGHT {    name: "thought.GALATIANS LAW DEBATE",
     alias: "Thought: Galatians Law Debate",
     parent: "topic.RELIGION",
     tags: ['galatians', 'law', 'grace', 'bible', 'debate'],
-    notes: "",
-    level: 4
-});
+    level: 4});
 
 CREATE (c:CONTENT {
     name: "content.GALATIANS LAW DEBATE",

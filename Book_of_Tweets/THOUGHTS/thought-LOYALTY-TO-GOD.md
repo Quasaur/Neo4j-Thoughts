@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 21-Oct-2011a)
-CREATE (t:THOUGHT {
-    name: "thought.LOYALTY TO GOD",
+CREATE (t:THOUGHT {    name: "thought.LOYALTY TO GOD",
     alias: "Thought: Loyalty To God",
     parent: "topic.SPIRITUALITY",
     tags: ['loyalty', 'devotion', 'spirituality', 'commitment', 'sacrifice'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.LOYALTY TO GOD",

@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 03-Mar-2012a)
-CREATE (t:THOUGHT {
-    name: "thought.POWER OF WEAKNESS",
+CREATE (t:THOUGHT {    name: "thought.POWER OF WEAKNESS",
     alias: "Thought: Power Of Weakness",
     parent: "topic.WISDOM",
     tags: ['strength', 'weakness', 'power', 'wisdom', 'character'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.POWER OF WEAKNESS",

@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 04-Nov-2013)
-CREATE (t:THOUGHT {
-    name: "thought.NOT LOOKING IDIOT",
+CREATE (t:THOUGHT {    name: "thought.NOT LOOKING IDIOT",
     alias: "Thought: Not Looking Like an Idiot",
     parent: "topic.ATTITUDE",
     tags: ['idiot', 'appearance', 'attitude', 'character'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.NOT LOOKING IDIOT",

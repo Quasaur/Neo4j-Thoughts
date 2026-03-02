@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 17-Oct-2011c)
-CREATE (t:THOUGHT {
-    name: "thought.CORPORATE RACISM",
+CREATE (t:THOUGHT {    name: "thought.CORPORATE RACISM",
     alias: "Thought: Corporate Racism",
     parent: "topic.MORALITY",
     tags: ['racism', 'discrimination', 'morality', 'corporations', 'justice'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.CORPORATE RACISM",

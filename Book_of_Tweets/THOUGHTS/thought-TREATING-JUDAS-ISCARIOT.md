@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 09-Dec-2013)
-CREATE (t:THOUGHT {
-    name: "thought.TREATING JUDAS ISCARIOT",
+CREATE (t:THOUGHT {    name: "thought.TREATING JUDAS ISCARIOT",
     alias: "Thought: Treating Judas Iscariot",
     parent: "topic.THE GODHEAD",
     tags: ['judas', 'jesus', 'treatment', 'disciples'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.TREATING JUDAS ISCARIOT",

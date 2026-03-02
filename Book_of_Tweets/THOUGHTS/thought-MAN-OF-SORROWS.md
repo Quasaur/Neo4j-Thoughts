@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 09-Oct-2012a)
-CREATE (t:THOUGHT {
-    name: "thought.MAN OF SORROWS",
+CREATE (t:THOUGHT {    name: "thought.MAN OF SORROWS",
     alias: "Thought: Man Of Sorrows",
     parent: "topic.THE GODHEAD",
     tags: ['jesus', 'sorrow', 'grief', 'humanity', 'divinity'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.MAN OF SORROWS",

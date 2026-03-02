@@ -11,14 +11,11 @@ neo4j: false
 ---
 
 ```Cypher
-CREATE (t:THOUGHT {
-    name: "thought.LETTING GO",
+CREATE (t:THOUGHT {    name: "thought.LETTING GO",
     alias: "Thought: Unlearning",
     parent: "topic.UNDERSTANDING",
     tags: ["unlearning", "humility", "wisdom", "truth", "change"],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.LETTING GO",

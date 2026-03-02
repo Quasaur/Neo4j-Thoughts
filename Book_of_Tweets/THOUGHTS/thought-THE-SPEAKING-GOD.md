@@ -11,14 +11,11 @@ neo4j: false
 ---
 
 ```Cypher
-CREATE (t:THOUGHT {
-    name: "thought.THE SPEAKING GOD",
+CREATE (t:THOUGHT {    name: "thought.THE SPEAKING GOD",
     alias: "Thought: Divine Word",
     parent: "topic.THE GODHEAD",
     tags: ["divine_word", "divine_speech", "creation_act", "sovereignty", "revelation"],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.THE SPEAKING GOD",

@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 26-Nov-2011b)
-CREATE (t:THOUGHT {
-    name: "thought.SPIRIT OF CHRIST ENCOUNTER",
+CREATE (t:THOUGHT {    name: "thought.SPIRIT OF CHRIST ENCOUNTER",
     alias: "Thought: Spirit Of Christ Encounter",
     parent: "topic.SPIRITUALITY",
     tags: ['spirit', 'encounter', 'christ', 'joy', 'presence'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.SPIRIT OF CHRIST ENCOUNTER",

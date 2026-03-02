@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 06-Oct-2013b)
-CREATE (t:THOUGHT {
-    name: "thought.CONGRESS NO PAY SHUTDOWN",
+CREATE (t:THOUGHT {    name: "thought.CONGRESS NO PAY SHUTDOWN",
     alias: "Thought: Congress No Pay Shutdown",
     parent: "topic.MORALITY",
     tags: ['congress', 'shutdown', 'money', 'morality', 'justice'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.CONGRESS NO PAY SHUTDOWN",

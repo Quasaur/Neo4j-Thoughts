@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 21-Jun-2012)
-CREATE (t:THOUGHT {
-    name: "thought.CHRIST COMING CLOUDS",
+CREATE (t:THOUGHT {    name: "thought.CHRIST COMING CLOUDS",
     alias: "Thought: Christ Coming Clouds",
     parent: "topic.RELIGION",
     tags: ['prophecy', 'jesus', 'return', 'eternity', 'judgment'],
-    notes: "",
-    level: 4
-});
+    level: 4});
 
 CREATE (c:CONTENT {
     name: "content.CHRIST COMING CLOUDS",

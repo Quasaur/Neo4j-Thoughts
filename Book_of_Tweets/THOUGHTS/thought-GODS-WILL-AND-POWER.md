@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 22-Apr-2014)
-CREATE (t:THOUGHT {
-    name: "thought.GODS WILL AND POWER",
+CREATE (t:THOUGHT {    name: "thought.GODS WILL AND POWER",
     alias: "Thought: Gods Will And Power",
     parent: "topic.THE GODHEAD",
     tags: ['will', 'desire', 'power', 'god'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.GODS WILL AND POWER",

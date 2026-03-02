@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 07-Nov-2013)
-CREATE (t:THOUGHT {
-    name: "thought.FUTURE FOR ATHEISTS",
+CREATE (t:THOUGHT {    name: "thought.FUTURE FOR ATHEISTS",
     alias: "Thought: Future For Atheists",
     parent: "topic.PHILOSOPHY",
     tags: ['future', 'creator', 'atheism', 'philosophy'],
-    notes: "",
-    level: 4
-});
+    level: 4});
 
 CREATE (c:CONTENT {
     name: "content.FUTURE FOR ATHEISTS",

@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 28-Nov-2012)
-CREATE (t:THOUGHT {
-    name: "thought.NO DIVINE EXCUSES",
+CREATE (t:THOUGHT {    name: "thought.NO DIVINE EXCUSES",
     alias: "Thought: No Divine Excuses",
     parent: "topic.THE GODHEAD",
     tags: ['forgiveness', 'excuse', 'character', 'god', 'divinity'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.NO DIVINE EXCUSES",

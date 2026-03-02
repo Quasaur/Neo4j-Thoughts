@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 16-Nov-2011b)
-CREATE (t:THOUGHT {
-    name: "thought.HAPPINESS OF GIVING",
+CREATE (t:THOUGHT {    name: "thought.HAPPINESS OF GIVING",
     alias: "Thought: Happiness Of Giving",
     parent: "topic.THE GODHEAD",
     tags: ['giving', 'happiness', 'god', 'character', 'divinity'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.HAPPINESS OF GIVING",

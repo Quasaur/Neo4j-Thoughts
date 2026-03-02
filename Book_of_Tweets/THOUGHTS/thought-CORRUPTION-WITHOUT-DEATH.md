@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 19-Feb-2012a)
-CREATE (t:THOUGHT {
-    name: "thought.CORRUPTION WITHOUT DEATH",
+CREATE (t:THOUGHT {    name: "thought.CORRUPTION WITHOUT DEATH",
     alias: "Thought: Corruption Without Death",
     parent: "topic.HUMANITY",
     tags: ['death', 'corruption', 'humanity', 'character', 'morality'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.CORRUPTION WITHOUT DEATH",

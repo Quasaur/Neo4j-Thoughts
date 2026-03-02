@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 23-Jul-2013a)
-CREATE (t:THOUGHT {
-    name: "thought.COMPREHENDING VS KNOWING",
+CREATE (t:THOUGHT {    name: "thought.COMPREHENDING VS KNOWING",
     alias: "Thought: Comprehending Vs Knowing",
     parent: "topic.THE GODHEAD",
     tags: ['knowledge', 'comprehension', 'god', 'divinity', 'relationship'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.COMPREHENDING VS KNOWING",

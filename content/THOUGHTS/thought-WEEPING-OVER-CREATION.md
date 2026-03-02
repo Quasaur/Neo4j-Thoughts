@@ -11,14 +11,11 @@ neo4j: true
 ---
 
 ```Cypher
-CREATE (t:THOUGHT {
-    name: "thought.WEEPING OVER CREATION",
+CREATE (t:THOUGHT {    name: "thought.WEEPING OVER CREATION",
     alias: "Thought: Ecological Care",
     parent: "topic.ENVIRONMENTAL SCIENCE",
     tags: ["creation", "sorrow", "environment", "stewardship", "pollution"],
-    notes: "",
-    level: 6
-});
+    level: 6});
 
 CREATE (c:CONTENT {
     name: "content.WEEPING OVER CREATION",

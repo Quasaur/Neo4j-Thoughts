@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 23-Mar-2012)
-CREATE (t:THOUGHT {
-    name: "thought.ENDANGERED BLACK MEN",
+CREATE (t:THOUGHT {    name: "thought.ENDANGERED BLACK MEN",
     alias: "Thought: Endangered Black Men",
     parent: "topic.HUMANITY",
     tags: ['race', 'genocide', 'target', 'humanity', 'justice'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.ENDANGERED BLACK MEN",

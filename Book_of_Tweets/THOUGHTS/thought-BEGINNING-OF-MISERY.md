@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 10-Jan-2012)
-CREATE (t:THOUGHT {
-    name: "thought.BEGINNING OF MISERY",
+CREATE (t:THOUGHT {    name: "thought.BEGINNING OF MISERY",
     alias: "Thought: Beginning Of Misery",
     parent: "topic.HUMANITY",
     tags: ['misery', 'pride', 'humanity', 'origin', 'god'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.BEGINNING OF MISERY",

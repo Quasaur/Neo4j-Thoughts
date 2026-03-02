@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 19-Jan-2012d)
-CREATE (t:THOUGHT {
-    name: "thought.DEFINE EXQUISITAGIOUS",
+CREATE (t:THOUGHT {    name: "thought.DEFINE EXQUISITAGIOUS",
     alias: "Thought: Define Exquisitagious",
     parent: "topic.LINGUISTICS",
     tags: ['beauty', 'language', 'humor', 'contagious', 'aesthetics'],
-    notes: "",
-    level: 5
-});
+    level: 5});
 
 CREATE (c:CONTENT {
     name: "content.DEFINE EXQUISITAGIOUS",

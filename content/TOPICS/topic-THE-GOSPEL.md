@@ -13,12 +13,10 @@ neo4j: true
 ```Cypher
 //create the TOPIC with the same fields as a normal topic
 CREATE (t:TOPIC
-    {
-	    name: "topic.THE GOSPEL",
+    {	    name: "topic.THE GOSPEL",
 		alias: "Topic: The Good News", 
 		parent: "topic.THE GODHEAD", 
 		tags: ["evangel", "good_news", "jesus", "salvation", "redemption"], 
-		notes: "",
 		level: 2});
 // create multi-lingual description		
 CREATE (d:DESCRIPTION {

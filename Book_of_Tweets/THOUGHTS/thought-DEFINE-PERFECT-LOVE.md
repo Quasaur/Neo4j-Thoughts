@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 16-Feb-2012b)
-CREATE (t:THOUGHT {
-    name: "thought.DEFINE PERFECT LOVE",
+CREATE (t:THOUGHT {    name: "thought.DEFINE PERFECT LOVE",
     alias: "Thought: Define Perfect Love",
     parent: "topic.PHILOSOPHY",
     tags: ['love', 'identity', 'trinity', 'philosophy', 'unity'],
-    notes: "",
-    level: 4
-});
+    level: 4});
 
 CREATE (c:CONTENT {
     name: "content.DEFINE PERFECT LOVE",

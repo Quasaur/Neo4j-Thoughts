@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 20-Jul-2013i)
-CREATE (t:THOUGHT {
-    name: "thought.PRAYER MAKES HUMAN",
+CREATE (t:THOUGHT {    name: "thought.PRAYER MAKES HUMAN",
     alias: "Thought: Prayer Makes Human",
     parent: "topic.SPIRITUALITY",
     tags: ['prayer', 'humanity', 'animal', 'spirituality', 'essence'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.PRAYER MAKES HUMAN",

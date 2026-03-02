@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 28-Jul-2010)
-CREATE (t:THOUGHT {
-    name: "thought.RELATIONSHIP IMPACT",
+CREATE (t:THOUGHT {    name: "thought.RELATIONSHIP IMPACT",
     alias: "Thought: Relationship Impact",
     parent: "topic.SPIRITUALITY",
     tags: ['spirituality', 'influence', 'relationship', 'god', 'witness'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.RELATIONSHIP IMPACT",

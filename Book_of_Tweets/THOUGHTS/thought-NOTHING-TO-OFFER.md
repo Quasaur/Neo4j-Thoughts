@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 24-Apr-2012a)
-CREATE (t:THOUGHT {
-    name: "thought.NOTHING TO OFFER",
+CREATE (t:THOUGHT {    name: "thought.NOTHING TO OFFER",
     alias: "Thought: Nothing To Offer",
     parent: "topic.THE GODHEAD",
     tags: ['provision', 'offering', 'dependence', 'majesty', 'god'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.NOTHING TO OFFER",

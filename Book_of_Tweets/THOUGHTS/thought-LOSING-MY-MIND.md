@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 10-Oct-2011a)
-CREATE (t:THOUGHT {
-    name: "thought.LOSING MY MIND",
+CREATE (t:THOUGHT {    name: "thought.LOSING MY MIND",
     alias: "Thought: Losing My Mind",
     parent: "topic.PSYCHOLOGY",
     tags: ['insanity', 'mind', 'psychology', 'paradox', 'clarity'],
-    notes: "",
-    level: 4
-});
+    level: 4});
 
 CREATE (c:CONTENT {
     name: "content.LOSING MY MIND",

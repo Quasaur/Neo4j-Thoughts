@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 19-Oct-2011)
-CREATE (t:THOUGHT {
-    name: "thought.FOR OR AGAINST",
+CREATE (t:THOUGHT {    name: "thought.FOR OR AGAINST",
     alias: "Thought: For Or Against",
     parent: "topic.THE GODHEAD",
     tags: ['jesus', 'choice', 'allegiance', 'christ', 'judgment'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.FOR OR AGAINST",

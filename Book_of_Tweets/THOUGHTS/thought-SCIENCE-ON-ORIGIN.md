@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 15-Oct-2011e)
-CREATE (t:THOUGHT {
-    name: "thought.SCIENCE ON ORIGIN",
+CREATE (t:THOUGHT {    name: "thought.SCIENCE ON ORIGIN",
     alias: "Thought: Science On Origin",
     parent: "topic.TRUTH",
     tags: ['science', 'origin', 'development', 'truth', 'evolution'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.SCIENCE ON ORIGIN",

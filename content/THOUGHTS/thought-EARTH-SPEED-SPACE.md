@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 30-Aug-2011c)
-CREATE (t:THOUGHT {
-    name: "thought.EARTH SPEED SPACE",
+CREATE (t:THOUGHT {    name: "thought.EARTH SPEED SPACE",
     alias: "Thought: Earth Speed Space",
     parent: "topic.ASTROPHYSICS",
     tags: ['creation', 'science', 'earth', 'speed', 'majesty'],
-    notes: "",
-    level: 5
-});
+    level: 5});
 
 CREATE (c:CONTENT {
     name: "content.EARTH SPEED SPACE",

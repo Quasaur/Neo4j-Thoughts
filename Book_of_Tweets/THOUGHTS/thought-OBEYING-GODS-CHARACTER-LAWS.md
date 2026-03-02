@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 20-Sep-2013a)
-CREATE (t:THOUGHT {
-    name: "thought.OBEYING GODS CHARACTER LAWS",
+CREATE (t:THOUGHT {    name: "thought.OBEYING GODS CHARACTER LAWS",
     alias: "Thought: Obeying Gods Character Laws",
     parent: "topic.MORALITY",
     tags: ['law', 'character', 'god', 'ethics', 'morality'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.OBEYING GODS CHARACTER LAWS",

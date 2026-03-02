@@ -12,15 +12,13 @@ neo4j: true
 
 ```Cypher
 //create the Passage with the same fields as a normal thought
-CREATE (p:PASSAGE {
-	    name: "passage.HOUSE OF THE WICKED",
+CREATE (p:PASSAGE {	    name: "passage.HOUSE OF THE WICKED",
 		alias: "Passage: The Two Houses", 
 		parent: "topic.EVIL", 
 		tags: ["wicked", "house", "curse", "dwelling", "righteous"], 
 		source: "Proverbs 3:33",
 		sortedsource: "Proverbs 03:33",
 		biblelink: "https://www.biblegateway.com/passage/?search=Proverbs%203%3A33&version=ESV",
-		notes: "",
 		level: 4});
 // create multi-lingual content		
 CREATE (c:CONTENT {

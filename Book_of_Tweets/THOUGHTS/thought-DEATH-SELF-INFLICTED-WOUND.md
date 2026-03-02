@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 30-Oct-2013)
-CREATE (t:THOUGHT {
-    name: "thought.DEATH SELF INFLICTED WOUND",
+CREATE (t:THOUGHT {    name: "thought.DEATH SELF INFLICTED WOUND",
     alias: "Thought: Death Self Inflicted Wound",
     parent: "topic.HUMANITY",
     tags: ['death', 'disobedience', 'separation', 'humanity', 'nature'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.DEATH SELF INFLICTED WOUND",

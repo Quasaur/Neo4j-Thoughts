@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 17-Sep-2013f)
-CREATE (t:THOUGHT {
-    name: "thought.BIBLE HOW TO EAT",
+CREATE (t:THOUGHT {    name: "thought.BIBLE HOW TO EAT",
     alias: "Thought: Bible How To Eat",
     parent: "topic.TRUTH",
     tags: ['bible', 'food', 'health', 'truth', 'life'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.BIBLE HOW TO EAT",

@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 12-Mar-2013a)
-CREATE (t:THOUGHT {
-    name: "thought.GOD ALWAYS RIGHT",
+CREATE (t:THOUGHT {    name: "thought.GOD ALWAYS RIGHT",
     alias: "Thought: God Always Right",
     parent: "topic.THE GODHEAD",
     tags: ['truth', 'perfection', 'god', 'divinity', 'wisdom'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.GOD ALWAYS RIGHT",

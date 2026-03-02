@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 19-Feb-2012c)
-CREATE (t:THOUGHT {
-    name: "thought.INCORRUPTIBLE GOODNESS",
+CREATE (t:THOUGHT {    name: "thought.INCORRUPTIBLE GOODNESS",
     alias: "Thought: Incorruptible Goodness",
     parent: "topic.THE GODHEAD",
     tags: ['goodness', 'god', 'corruption', 'divinity', 'character'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.INCORRUPTIBLE GOODNESS",

@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 08-Aug-2012)
-CREATE (t:THOUGHT {
-    name: "thought.CHURCH AS LOVE GROUP",
+CREATE (t:THOUGHT {    name: "thought.CHURCH AS LOVE GROUP",
     alias: "Thought: Church As Love Group",
     parent: "topic.RELIGION",
     tags: ['church', 'love', 'hate', 'society', 'religion'],
-    notes: "",
-    level: 4
-});
+    level: 4});
 
 CREATE (c:CONTENT {
     name: "content.CHURCH AS LOVE GROUP",

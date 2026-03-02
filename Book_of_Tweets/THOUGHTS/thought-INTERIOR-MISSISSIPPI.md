@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 24-Oct-2011)
-CREATE (t:THOUGHT {
-    name: "thought.INTERIOR MISSISSIPPI",
+CREATE (t:THOUGHT {    name: "thought.INTERIOR MISSISSIPPI",
     alias: "Thought: Interior Mississippi",
     parent: "topic.MORALITY",
     tags: ['society', 'geography', 'culture', 'morality', 'reflection'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.INTERIOR MISSISSIPPI",

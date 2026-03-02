@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 09-Oct-2012b)
-CREATE (t:THOUGHT {
-    name: "thought.GOOD STRONGER EVIL",
+CREATE (t:THOUGHT {    name: "thought.GOOD STRONGER EVIL",
     alias: "Thought: Good Stronger Evil",
     parent: "topic.THE GODHEAD",
     tags: ['jesus', 'victory', 'evil', 'goodness', 'divinity'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.GOOD STRONGER EVIL",

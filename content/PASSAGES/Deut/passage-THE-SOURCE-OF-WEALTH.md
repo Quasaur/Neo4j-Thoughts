@@ -13,15 +13,13 @@ neo4j: true
 ```Cypher
 //create the Passage with the same fields as a normal thought
 CREATE (b:PASSAGE
-    {
-     name: "passage.THE SOURCE OF WEALTH",
+    {     name: "passage.THE SOURCE OF WEALTH",
   alias: "Passage: God--the Source of Abundance!", 
   parent: "topic.WEALTH", 
   tags: ["wealth", "gain", "god", "source", "power"], 
   source: "Deuteronomy 8:18",
   sortedsource: "Deuteronomy 08:18",
   biblelink: "https://www.biblegateway.com/passage/?search=Deuteronomy%208%3A18&version=NASB",
-  notes: "",
   level: 3});
 // create multi-lingual content  
 CREATE (c:CONTENT {

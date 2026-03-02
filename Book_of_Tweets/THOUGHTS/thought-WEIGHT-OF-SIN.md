@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 23-Jul-2011f)
-CREATE (t:THOUGHT {
-    name: "thought.WEIGHT OF SIN",
+CREATE (t:THOUGHT {    name: "thought.WEIGHT OF SIN",
     alias: "Thought: Weight Of Sin",
     parent: "topic.THE GODHEAD",
     tags: ['atonement', 'sin', 'cross', 'redemption', 'jesus'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.WEIGHT OF SIN",

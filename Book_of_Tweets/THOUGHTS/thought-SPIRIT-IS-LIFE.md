@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 10-Aug-2013a)
-CREATE (t:THOUGHT {
-    name: "thought.SPIRIT IS LIFE",
+CREATE (t:THOUGHT {    name: "thought.SPIRIT IS LIFE",
     alias: "Thought: Spirit Is Life",
     parent: "topic.THE GODHEAD",
     tags: ['spirit', 'life', 'science', 'power', 'divinity'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.SPIRIT IS LIFE",

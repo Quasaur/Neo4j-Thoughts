@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 26-Oct-2011a)
-CREATE (t:THOUGHT {
-    name: "thought.EVERYTHING IS SIMPLE",
+CREATE (t:THOUGHT {    name: "thought.EVERYTHING IS SIMPLE",
     alias: "Thought: Everything Is Simple",
     parent: "topic.THE GODHEAD",
     tags: ['simplicity', 'complexity', 'knowledge', 'divinity', 'god'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.EVERYTHING IS SIMPLE",

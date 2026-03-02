@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 02-Nov-2013a)
-CREATE (t:THOUGHT {
-    name: "thought.SIN IS EXPENSIVE",
+CREATE (t:THOUGHT {    name: "thought.SIN IS EXPENSIVE",
     alias: "Thought: Sin Is Expensive",
     parent: "topic.MORALITY",
     tags: ['sin', 'cost', 'society', 'morality', 'consequences'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.SIN IS EXPENSIVE",

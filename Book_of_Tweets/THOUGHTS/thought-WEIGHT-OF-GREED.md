@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 05-Oct-2011b)
-CREATE (t:THOUGHT {
-    name: "thought.WEIGHT OF GREED",
+CREATE (t:THOUGHT {    name: "thought.WEIGHT OF GREED",
     alias: "Thought: Weight Of Greed",
     parent: "topic.MORALITY",
     tags: ['greed', 'society', 'america', 'economics', 'judgment'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.WEIGHT OF GREED",

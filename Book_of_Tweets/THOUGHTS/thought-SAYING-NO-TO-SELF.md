@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 22-Oct-2012c)
-CREATE (t:THOUGHT {
-    name: "thought.SAYING NO TO SELF",
+CREATE (t:THOUGHT {    name: "thought.SAYING NO TO SELF",
     alias: "Thought: Saying No To Self",
     parent: "topic.SPIRITUALITY",
     tags: ['discipline', 'self_denial', 'world', 'devil', 'character'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.SAYING NO TO SELF",

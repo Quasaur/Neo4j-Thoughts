@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 27-Jul-2013c)
-CREATE (t:THOUGHT {
-    name: "thought.DESTROYING THE EARTH",
+CREATE (t:THOUGHT {    name: "thought.DESTROYING THE EARTH",
     alias: "Thought: Destroying The Earth",
     parent: "topic.ENVIRONMENTAL SCIENCE",
     tags: ['judgment', 'earth', 'destruction', 'sovereignty', 'bible'],
-    notes: "",
-    level: 6
-});
+    level: 6});
 
 CREATE (c:CONTENT {
     name: "content.DESTROYING THE EARTH",

@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 22-Apr-2011e)
-CREATE (t:THOUGHT {
-    name: "thought.SEED DESIGN",
+CREATE (t:THOUGHT {    name: "thought.SEED DESIGN",
     alias: "Thought: Seed Design",
     parent: "topic.BOTANY",
     tags: ['design', 'seeds', 'nature', 'creation', 'life'],
-    notes: "",
-    level: 7
-});
+    level: 7});
 
 CREATE (c:CONTENT {
     name: "content.SEED DESIGN",

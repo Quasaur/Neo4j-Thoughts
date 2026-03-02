@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 20-Oct-2011)
-CREATE (t:THOUGHT {
-    name: "thought.NATIONAL DEBT STATS",
+CREATE (t:THOUGHT {    name: "thought.NATIONAL DEBT STATS",
     alias: "Thought: National Debt Stats",
     parent: "topic.MORALITY",
     tags: ['debt', 'economics', 'morality', 'society', 'judgment'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.NATIONAL DEBT STATS",

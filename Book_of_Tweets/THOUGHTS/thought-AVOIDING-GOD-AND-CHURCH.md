@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 24-Mar-2012b)
-CREATE (t:THOUGHT {
-    name: "thought.AVOIDING GOD AND CHURCH",
+CREATE (t:THOUGHT {    name: "thought.AVOIDING GOD AND CHURCH",
     alias: "Thought: Avoiding God And Church",
     parent: "topic.RELIGION",
     tags: ['church', 'religion', 'race', 'avoid', 'faith'],
-    notes: "",
-    level: 4
-});
+    level: 4});
 
 CREATE (c:CONTENT {
     name: "content.AVOIDING GOD AND CHURCH",

@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 31-Oct-2012)
-CREATE (t:THOUGHT {
-    name: "thought.APOSTLES AS VISION",
+CREATE (t:THOUGHT {    name: "thought.APOSTLES AS VISION",
     alias: "Thought: Apostles As Vision",
     parent: "topic.RELIGION",
     tags: ['apostles', 'vision', 'jesus', 'church', 'history'],
-    notes: "",
-    level: 4
-});
+    level: 4});
 
 CREATE (c:CONTENT {
     name: "content.APOSTLES AS VISION",

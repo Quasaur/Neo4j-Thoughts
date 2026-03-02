@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 30-Oct-2011)
-CREATE (t:THOUGHT {
-    name: "thought.INCONVENIENT WILL",
+CREATE (t:THOUGHT {    name: "thought.INCONVENIENT WILL",
     alias: "Thought: Inconvenient Will",
     parent: "topic.SPIRITUALITY",
     tags: ['will', 'obedience', 'spirituality', 'sacrifice', 'convenience'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.INCONVENIENT WILL",

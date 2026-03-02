@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 19-Aug-2013a)
-CREATE (t:THOUGHT {
-    name: "thought.TALKING TO PEOPLE",
+CREATE (t:THOUGHT {    name: "thought.TALKING TO PEOPLE",
     alias: "Thought: Talking To People",
     parent: "topic.WISDOM",
     tags: ["communication", "wisdom", "social_skills", "discernment", "relationships"],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.TALKING TO PEOPLE",

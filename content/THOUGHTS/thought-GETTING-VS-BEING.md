@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 04-Apr-2012a)
-CREATE (t:THOUGHT {
-    name: "thought.GETTING VS BEING",
+CREATE (t:THOUGHT {    name: "thought.GETTING VS BEING",
     alias: "Thought: Getting Vs Being",
     parent: "topic.WISDOM",
     tags: ['possession', 'character', 'getting', 'being', 'attitude'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.GETTING VS BEING",

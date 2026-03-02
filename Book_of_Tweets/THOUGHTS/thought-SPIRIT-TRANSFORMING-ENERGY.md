@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 10-Aug-2013b)
-CREATE (t:THOUGHT {
-    name: "thought.SPIRIT TRANSFORMING ENERGY",
+CREATE (t:THOUGHT {    name: "thought.SPIRIT TRANSFORMING ENERGY",
     alias: "Thought: Spirit Transforming Energy",
     parent: "topic.THE GODHEAD",
     tags: ['spirit', 'energy', 'transformation', 'power', 'divinity'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.SPIRIT TRANSFORMING ENERGY",

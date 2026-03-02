@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 19-Feb-2012e)
-CREATE (t:THOUGHT {
-    name: "thought.LAWS AND THE RICH",
+CREATE (t:THOUGHT {    name: "thought.LAWS AND THE RICH",
     alias: "Thought: Laws And The Rich",
     parent: "topic.MORALITY",
     tags: ['poverty', 'law', 'wealth', 'morality', 'society'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.LAWS AND THE RICH",

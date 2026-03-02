@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 06-Nov-2010c)
-CREATE (t:THOUGHT {
-    name: "thought.EVOLUTION AS RELIGION",
+CREATE (t:THOUGHT {    name: "thought.EVOLUTION AS RELIGION",
     alias: "Thought: Evolution As Religion",
     parent: "topic.PHILOSOPHY",
     tags: ['evolution', 'religion', 'philosophy', 'truth', 'science'],
-    notes: "",
-    level: 4
-});
+    level: 4});
 
 CREATE (c:CONTENT {
     name: "content.EVOLUTION AS RELIGION",

@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 19-Feb-2012b)
-CREATE (t:THOUGHT {
-    name: "thought.ANNIHILATION OF EVIL",
+CREATE (t:THOUGHT {    name: "thought.ANNIHILATION OF EVIL",
     alias: "Thought: Annihilation Of Evil",
     parent: "topic.DIVINE SOVEREIGNTY",
     tags: ['evil', 'destruction', 'sovereignty', 'prophecy', 'forever'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.ANNIHILATION OF EVIL",

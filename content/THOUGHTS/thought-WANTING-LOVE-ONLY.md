@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 23-Jul-2013b)
-CREATE (t:THOUGHT {
-    name: "thought.WANTING LOVE ONLY",
+CREATE (t:THOUGHT {    name: "thought.WANTING LOVE ONLY",
     alias: "Thought: Wanting Love Only",
     parent: "topic.LOVE",
     tags: ['love', 'selfishness', 'attitude', 'pathetic', 'character'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.WANTING LOVE ONLY",

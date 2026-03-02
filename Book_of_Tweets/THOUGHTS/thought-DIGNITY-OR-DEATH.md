@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 12-Oct-2012b)
-CREATE (t:THOUGHT {
-    name: "thought.DIGNITY OR DEATH",
+CREATE (t:THOUGHT {    name: "thought.DIGNITY OR DEATH",
     alias: "Thought: Dignity Or Death",
     parent: "topic.HUMANITY",
     tags: ['dignity', 'freedom', 'humanity', 'character', 'sacrifice'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.DIGNITY OR DEATH",

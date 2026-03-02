@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 10-Sep-2012)
-CREATE (t:THOUGHT {
-    name: "thought.NO GOD FOR CAMERAS",
+CREATE (t:THOUGHT {    name: "thought.NO GOD FOR CAMERAS",
     alias: "Thought: No God For Cameras",
     parent: "topic.THE GODHEAD",
     tags: ['god', 'performance', 'cameras', 'truth', 'character'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.NO GOD FOR CAMERAS",

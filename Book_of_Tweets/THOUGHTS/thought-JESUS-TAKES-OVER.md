@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 09-Sep-2012)
-CREATE (t:THOUGHT {
-    name: "thought.JESUS TAKES OVER",
+CREATE (t:THOUGHT {    name: "thought.JESUS TAKES OVER",
     alias: "Thought: Jesus Takes Over",
     parent: "topic.THE GODHEAD",
     tags: ['jesus', 'power', 'sovereignty', 'kingdom', 'takeover'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.JESUS TAKES OVER",

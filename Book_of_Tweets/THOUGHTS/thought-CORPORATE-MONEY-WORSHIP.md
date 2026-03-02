@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 24-Sep-2011b)
-CREATE (t:THOUGHT {
-    name: "thought.CORPORATE MONEY WORSHIP",
+CREATE (t:THOUGHT {    name: "thought.CORPORATE MONEY WORSHIP",
     alias: "Thought: Corporate Money Worship",
     parent: "topic.MORALITY",
     tags: ['morality', 'wealth', 'corporations', 'idolatry', 'society'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.CORPORATE MONEY WORSHIP",

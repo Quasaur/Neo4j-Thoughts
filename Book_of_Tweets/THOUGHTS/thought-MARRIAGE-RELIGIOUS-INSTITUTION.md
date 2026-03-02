@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 28-Sep-2013)
-CREATE (t:THOUGHT {
-    name: "thought.MARRIAGE RELIGIOUS INSTITUTION",
+CREATE (t:THOUGHT {    name: "thought.MARRIAGE RELIGIOUS INSTITUTION",
     alias: "Thought: Marriage Religious Institution",
     parent: "topic.RELIGION",
     tags: ['marriage', 'religion', 'law', 'institution', 'history'],
-    notes: "",
-    level: 4
-});
+    level: 4});
 
 CREATE (c:CONTENT {
     name: "content.MARRIAGE RELIGIOUS INSTITUTION",

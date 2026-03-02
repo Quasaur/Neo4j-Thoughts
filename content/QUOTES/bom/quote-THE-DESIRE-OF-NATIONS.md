@@ -12,14 +12,12 @@ neo4j: true
 
 ```Cypher
 //create the Thought with the same fields as a normal thought
-CREATE (q:QUOTE {
-	    name: "quote.THE DESIRE OF NATIONS",
+CREATE (q:QUOTE {	    name: "quote.THE DESIRE OF NATIONS",
 		alias: "Quote: Christ - the Fulfillment of All Desire", 
 		parent: "topic.WORSHIP", 
 		tags: ["ruler", "jesuschrist", "desire", "nations", "the_pearl"], 
 		source: "The Basics and More: A Year's Sermons",
 		booklink: "https://www.amazon.com/Basics-More-Years-Sermons-ebook/dp/B00XLMBDR8",
-		notes: "",
 		level: 2});
 // create multi-lingual content		
 CREATE (c:CONTENT {

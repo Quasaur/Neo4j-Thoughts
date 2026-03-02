@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 27-Feb-2012a)
-CREATE (t:THOUGHT {
-    name: "thought.GOD THE RECYCLER",
+CREATE (t:THOUGHT {    name: "thought.GOD THE RECYCLER",
     alias: "Thought: God The Recycler",
     parent: "topic.ENVIRONMENTAL SCIENCE",
     tags: ['recycling', 'creation', 'god', 'restoration', 'humor'],
-    notes: "",
-    level: 6
-});
+    level: 6});
 
 CREATE (c:CONTENT {
     name: "content.GOD THE RECYCLER",

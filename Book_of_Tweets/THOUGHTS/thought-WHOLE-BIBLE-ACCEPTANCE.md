@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 24-Apr-2013)
-CREATE (t:THOUGHT {
-    name: "thought.WHOLE BIBLE ACCEPTANCE",
+CREATE (t:THOUGHT {    name: "thought.WHOLE BIBLE ACCEPTANCE",
     alias: "Thought: Whole Bible Acceptance",
     parent: "topic.TRUTH",
     tags: ['bible', 'truth', 'distortion', 'message', 'authority'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.WHOLE BIBLE ACCEPTANCE",

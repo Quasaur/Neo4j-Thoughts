@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 07-Dec-2012)
-CREATE (t:THOUGHT {
-    name: "thought.ATOMS IN CELL",
+CREATE (t:THOUGHT {    name: "thought.ATOMS IN CELL",
     alias: "Thought: Atoms In Cell",
     parent: "topic.BIOLOGY",
     tags: ['creation', 'atoms', 'biology', 'cell', 'majesty'],
-    notes: "",
-    level: 6
-});
+    level: 6});
 
 CREATE (c:CONTENT {
     name: "content.ATOMS IN CELL",

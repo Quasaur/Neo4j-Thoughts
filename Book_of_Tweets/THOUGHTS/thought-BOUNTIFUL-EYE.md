@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 16-Oct-2012b)
-CREATE (t:THOUGHT {
-    name: "thought.BOUNTIFUL EYE",
+CREATE (t:THOUGHT {    name: "thought.BOUNTIFUL EYE",
     alias: "Thought: Bountiful Eye",
     parent: "topic.MORALITY",
     tags: ['blessing', 'generosity', 'poor', 'morality', 'character'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.BOUNTIFUL EYE",

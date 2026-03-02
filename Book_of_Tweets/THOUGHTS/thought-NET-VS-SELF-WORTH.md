@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 04-Apr-2012b)
-CREATE (t:THOUGHT {
-    name: "thought.NET VS SELF WORTH",
+CREATE (t:THOUGHT {    name: "thought.NET VS SELF WORTH",
     alias: "Thought: Net Vs Self Worth",
     parent: "topic.HUMANITY",
     tags: ['wealth', 'value', 'self_worth', 'humanity', 'confusion'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.NET VS SELF WORTH",

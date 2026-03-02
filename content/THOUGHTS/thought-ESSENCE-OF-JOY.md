@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 06-Jan-2012)
-CREATE (t:THOUGHT {
-    name: "thought.ESSENCE OF JOY",
+CREATE (t:THOUGHT {    name: "thought.ESSENCE OF JOY",
     alias: "Thought: Essence Of Joy",
     parent: "topic.ATTITUDE",
     tags: ['joy', 'god', 'majesty', 'discovery', 'attitude'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.ESSENCE OF JOY",

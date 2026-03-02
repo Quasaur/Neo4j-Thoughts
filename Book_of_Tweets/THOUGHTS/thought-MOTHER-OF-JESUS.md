@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 07-Sep-2011c)
-CREATE (t:THOUGHT {
-    name: "thought.MOTHER OF JESUS",
+CREATE (t:THOUGHT {    name: "thought.MOTHER OF JESUS",
     alias: "Thought: Mother Of Jesus",
     parent: "topic.THE GODHEAD",
     tags: ['mary', 'jesus', 'divinity', 'theology', 'incarnation'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.MOTHER OF JESUS",

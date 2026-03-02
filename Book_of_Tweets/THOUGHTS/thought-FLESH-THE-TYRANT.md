@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 26-Feb-2012b)
-CREATE (t:THOUGHT {
-    name: "thought.FLESH THE TYRANT",
+CREATE (t:THOUGHT {    name: "thought.FLESH THE TYRANT",
     alias: "Thought: Flesh The Tyrant",
     parent: "topic.HUMANITY",
     tags: ['flesh', 'tyrant', 'sin', 'humanity', 'character'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.FLESH THE TYRANT",

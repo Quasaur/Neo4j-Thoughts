@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 01-Dec-2011c)
-CREATE (t:THOUGHT {
-    name: "thought.SECOND COMING STATS",
+CREATE (t:THOUGHT {    name: "thought.SECOND COMING STATS",
     alias: "Thought: Second Coming Stats",
     parent: "topic.RELIGION",
     tags: ['prophecy', 'jesus', 'return', 'bible', 'statistics'],
-    notes: "",
-    level: 4
-});
+    level: 4});
 
 CREATE (c:CONTENT {
     name: "content.SECOND COMING STATS",

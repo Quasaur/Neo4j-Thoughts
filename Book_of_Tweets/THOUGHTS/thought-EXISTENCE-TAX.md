@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 10-Apr-2011)
-CREATE (t:THOUGHT {
-    name: "thought.EXISTENCE TAX",
+CREATE (t:THOUGHT {    name: "thought.EXISTENCE TAX",
     alias: "Thought: Existence Tax",
     parent: "topic.MORALITY",
     tags: ['life', 'morality', 'society', 'tax', 'creation'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.EXISTENCE TAX",

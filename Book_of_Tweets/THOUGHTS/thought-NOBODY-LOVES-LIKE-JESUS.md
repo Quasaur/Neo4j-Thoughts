@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 29-Jul-2011)
-CREATE (t:THOUGHT {
-    name: "thought.NOBODY LOVES LIKE JESUS",
+CREATE (t:THOUGHT {    name: "thought.NOBODY LOVES LIKE JESUS",
     alias: "Thought: Nobody Loves Like Jesus",
     parent: "topic.THE GODHEAD",
     tags: ['love', 'jesus', 'salvation', 'sin', 'mother'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.NOBODY LOVES LIKE JESUS",

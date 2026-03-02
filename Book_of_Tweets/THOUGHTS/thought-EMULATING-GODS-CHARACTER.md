@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 05-May-2012b)
-CREATE (t:THOUGHT {
-    name: "thought.EMULATING GODS CHARACTER",
+CREATE (t:THOUGHT {    name: "thought.EMULATING GODS CHARACTER",
     alias: "Thought: Emulating Gods Character",
     parent: "topic.THE GODHEAD",
     tags: ['character', 'emulation', 'admiration', 'god', 'divinity'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.EMULATING GODS CHARACTER",

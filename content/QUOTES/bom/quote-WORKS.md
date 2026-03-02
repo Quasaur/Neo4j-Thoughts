@@ -12,14 +12,12 @@ neo4j: true
 
 ```Cypher
 //create the Thought with the same fields as a normal thought
-CREATE (q:QUOTE {
-	    name: "quote.WORKS",
+CREATE (q:QUOTE {	    name: "quote.WORKS",
 		alias: "Quote: It Stands Alone", 
 		parent: "topic.RELIGION", 
 		tags: ["religion", "gospel", "truth", "works", "the_cross"], 
 		source: "The Basics and More: A Year's Sermons",
 		booklink: "https://www.amazon.com/Basics-More-Years-Sermons-ebook/dp/B00XLMBDR8",
-		notes: "",
 		level: 4});
 // create multi-lingual content		
 CREATE (c:CONTENT {

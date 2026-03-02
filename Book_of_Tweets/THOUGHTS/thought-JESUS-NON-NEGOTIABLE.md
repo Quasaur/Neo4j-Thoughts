@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 24-Oct-2012c)
-CREATE (t:THOUGHT {
-    name: "thought.JESUS NON NEGOTIABLE",
+CREATE (t:THOUGHT {    name: "thought.JESUS NON NEGOTIABLE",
     alias: "Thought: Jesus Non Negotiable",
     parent: "topic.SPIRITUALITY",
     tags: ['jesus', 'priority', 'spirituality', 'commitment', 'devotion'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.JESUS NON NEGOTIABLE",

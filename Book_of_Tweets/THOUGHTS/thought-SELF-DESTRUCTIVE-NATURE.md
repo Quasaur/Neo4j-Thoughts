@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 17-Sep-2013c)
-CREATE (t:THOUGHT {
-    name: "thought.SELF DESTRUCTIVE NATURE",
+CREATE (t:THOUGHT {    name: "thought.SELF DESTRUCTIVE NATURE",
     alias: "Thought: Self Destructive Nature",
     parent: "topic.HUMANITY",
     tags: ['humanity', 'children', 'destruction', 'nature', 'character'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.SELF DESTRUCTIVE NATURE",

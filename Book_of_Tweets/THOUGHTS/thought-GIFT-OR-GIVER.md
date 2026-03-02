@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md
-CREATE (t:THOUGHT {
-    name: "thought.GIFT OR GIVER",
+CREATE (t:THOUGHT {    name: "thought.GIFT OR GIVER",
     alias: "Thought: GIFT OR GIVER",
     parent: "topic.WORSHIP",
     tags: ["gift", "giver", "priorities", "gratitude", "worship"],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.GIFT OR GIVER",

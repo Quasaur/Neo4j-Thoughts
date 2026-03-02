@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md
-CREATE (t:THOUGHT {
-    name: "thought.BACH AND GENIUS",
+CREATE (t:THOUGHT {    name: "thought.BACH AND GENIUS",
     alias: "Thought: Gift of Genius",
     parent: "topic.MUSIC",
     tags: ["bach", "genius", "music", "gift", "transcendence"],
-    notes: "",
-    level: 5
-});
+    level: 5});
 
 CREATE (c:CONTENT {
     name: "content.BACH AND GENIUS",

@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 25-Sep-2012)
-CREATE (t:THOUGHT {
-    name: "thought.FALSE RELIGION TWIN",
+CREATE (t:THOUGHT {    name: "thought.FALSE RELIGION TWIN",
     alias: "Thought: False Religion Twin",
     parent: "topic.RELIGION",
     tags: ['religion', 'wickedness', 'evil', 'truth', 'character'],
-    notes: "",
-    level: 4
-});
+    level: 4});
 
 CREATE (c:CONTENT {
     name: "content.FALSE RELIGION TWIN",

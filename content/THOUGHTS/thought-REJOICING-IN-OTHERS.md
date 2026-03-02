@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 29-Dec-2011b)
-CREATE (t:THOUGHT {
-    name: "thought.REJOICING IN OTHERS",
+CREATE (t:THOUGHT {    name: "thought.REJOICING IN OTHERS",
     alias: "Thought: Rejoicing In Others",
     parent: "topic.LOVE",
     tags: ['joy', 'character', 'comparison', 'attitude', 'success'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.REJOICING IN OTHERS",

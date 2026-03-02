@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 23-Dec-2011b)
-CREATE (t:THOUGHT {
-    name: "thought.TRANSFORMING POWER LOVE",
+CREATE (t:THOUGHT {    name: "thought.TRANSFORMING POWER LOVE",
     alias: "Thought: Transforming Power Love",
     parent: "topic.THE GODHEAD",
     tags: ['love', 'transformation', 'power', 'god', 'life'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.TRANSFORMING POWER LOVE",

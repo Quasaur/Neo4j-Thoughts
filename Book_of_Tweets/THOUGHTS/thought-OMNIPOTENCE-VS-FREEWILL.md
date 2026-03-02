@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 01-Jun-2012a)
-CREATE (t:THOUGHT {
-    name: "thought.OMNIPOTENCE VS FREEWILL",
+CREATE (t:THOUGHT {    name: "thought.OMNIPOTENCE VS FREEWILL",
     alias: "Thought: Omnipotence Vs Freewill",
     parent: "topic.PHILOSOPHY",
     tags: ['philosophy', 'freewill', 'omnipotence', 'ignorance', 'divinity'],
-    notes: "",
-    level: 4
-});
+    level: 4});
 
 CREATE (c:CONTENT {
     name: "content.OMNIPOTENCE VS FREEWILL",

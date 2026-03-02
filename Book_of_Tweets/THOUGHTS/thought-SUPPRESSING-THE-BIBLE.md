@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 21-Sep-2011a)
-CREATE (t:THOUGHT {
-    name: "thought.SUPPRESSING THE BIBLE",
+CREATE (t:THOUGHT {    name: "thought.SUPPRESSING THE BIBLE",
     alias: "Thought: Suppressing The Bible",
     parent: "topic.TRUTH",
     tags: ['bible', 'satan', 'truth', 'deception', 'revelation'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.SUPPRESSING THE BIBLE",

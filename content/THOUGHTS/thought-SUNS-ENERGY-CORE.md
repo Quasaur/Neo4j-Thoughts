@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 05-Aug-2011)
-CREATE (t:THOUGHT {
-    name: "thought.SUNS ENERGY CORE",
+CREATE (t:THOUGHT {    name: "thought.SUNS ENERGY CORE",
     alias: "Thought: Suns Energy Core",
     parent: "topic.ASTROPHYSICS",
     tags: ['science', 'sun', 'energy', 'creation', 'time'],
-    notes: "",
-    level: 5
-});
+    level: 5});
 
 CREATE (c:CONTENT {
     name: "content.SUNS ENERGY CORE",

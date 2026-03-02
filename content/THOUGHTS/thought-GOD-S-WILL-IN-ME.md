@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 23-Jul-2011a)
-CREATE (t:THOUGHT {
-    name: "thought.GOD'S WILL IN ME",
+CREATE (t:THOUGHT {    name: "thought.GOD'S WILL IN ME",
     alias: "Thought: God's Will In Me",
     parent: "topic.GOD'S WILL",
     tags: ['sovereignty', 'providence', 'grace', 'willpower', 'surrender'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.GOD'S WILL IN ME",

@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 09-Aug-2011)
-CREATE (t:THOUGHT {
-    name: "thought.GREATER THAN BEING LOVED",
+CREATE (t:THOUGHT {    name: "thought.GREATER THAN BEING LOVED",
     alias: "Thought: Greater Than Being Loved",
     parent: "topic.LOVE",
     tags: ['love', 'sacrifice', 'ability', 'emotion', 'divinity'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.GREATER THAN BEING LOVED",

@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 14-Aug-2010b)
-CREATE (t:THOUGHT {
-    name: "thought.KINDNESS OF JESUS",
+CREATE (t:THOUGHT {    name: "thought.KINDNESS OF JESUS",
     alias: "Thought: Kindness Of Jesus",
     parent: "topic.THE GODHEAD",
     tags: ['jesus', 'kindness', 'love', 'divinity', 'compassion'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.KINDNESS OF JESUS",

@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 08-Feb-2012b)
-CREATE (t:THOUGHT {
-    name: "thought.WORLD HATES GOD",
+CREATE (t:THOUGHT {    name: "thought.WORLD HATES GOD",
     alias: "Thought: World Hates God",
     parent: "topic.HUMANITY",
     tags: ['world', 'hate', 'god', 'judgment', 'humanity'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.WORLD HATES GOD",

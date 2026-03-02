@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 05-Nov-2013)
-CREATE (t:THOUGHT {
-    name: "thought.GOD TALKING BACK",
+CREATE (t:THOUGHT {    name: "thought.GOD TALKING BACK",
     alias: "Thought: God Talking Back",
     parent: "topic.THE GODHEAD",
     tags: ['communication', 'god', 'presence', 'divinity'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.GOD TALKING BACK",

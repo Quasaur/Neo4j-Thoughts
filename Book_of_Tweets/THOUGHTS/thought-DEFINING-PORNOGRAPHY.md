@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 03-Sep-2011a)
-CREATE (t:THOUGHT {
-    name: "thought.DEFINING PORNOGRAPHY",
+CREATE (t:THOUGHT {    name: "thought.DEFINING PORNOGRAPHY",
     alias: "Thought: Defining Pornography",
     parent: "topic.MORALITY",
     tags: ['morality', 'purity', 'adultery', 'bible', 'sin'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.DEFINING PORNOGRAPHY",

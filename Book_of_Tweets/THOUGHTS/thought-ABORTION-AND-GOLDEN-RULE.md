@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 17-Oct-2011b)
-CREATE (t:THOUGHT {
-    name: "thought.ABORTION AND GOLDEN RULE",
+CREATE (t:THOUGHT {    name: "thought.ABORTION AND GOLDEN RULE",
     alias: "Thought: Abortion And Golden Rule",
     parent: "topic.MORALITY",
     tags: ['morality', 'abortion', 'golden_rule', 'justice', 'ethics'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.ABORTION AND GOLDEN RULE",

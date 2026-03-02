@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 06-Mar-2014)
-CREATE (t:THOUGHT {
-    name: "thought.HAPPY IF GOD PLEASED",
+CREATE (t:THOUGHT {    name: "thought.HAPPY IF GOD PLEASED",
     alias: "Thought: Happy If God Pleased",
     parent: "topic.WORSHIP",
     tags: ['happiness', 'pleasure', 'god', 'attitude'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.HAPPY IF GOD PLEASED",

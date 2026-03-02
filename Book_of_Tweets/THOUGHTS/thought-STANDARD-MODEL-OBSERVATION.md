@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 16-Oct-2011c)
-CREATE (t:THOUGHT {
-    name: "thought.STANDARD MODEL OBSERVATION",
+CREATE (t:THOUGHT {    name: "thought.STANDARD MODEL OBSERVATION",
     alias: "Thought: Standard Model Observation",
     parent: "topic.PHILOSOPHY",
     tags: ['science', 'philosophy', 'observation', 'cosmos', 'truth'],
-    notes: "",
-    level: 4
-});
+    level: 4});
 
 CREATE (c:CONTENT {
     name: "content.STANDARD MODEL OBSERVATION",

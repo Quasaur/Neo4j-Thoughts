@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 14-Aug-2013b)
-CREATE (t:THOUGHT {
-    name: "thought.TRANSGENDER RESTROOM DEBATE",
+CREATE (t:THOUGHT {    name: "thought.TRANSGENDER RESTROOM DEBATE",
     alias: "Thought: Transgender Restroom Debate",
     parent: "topic.MORALITY",
     tags: ['morality', 'gender', 'society', 'father', 'safety'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.TRANSGENDER RESTROOM DEBATE",

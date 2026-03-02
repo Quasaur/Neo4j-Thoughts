@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 05-Jul-2013a)
-CREATE (t:THOUGHT {
-    name: "thought.CONGRESS HOUSE LORDS",
+CREATE (t:THOUGHT {    name: "thought.CONGRESS HOUSE LORDS",
     alias: "Thought: Congress House Lords",
     parent: "topic.MORALITY",
     tags: ['congress', 'america', 'aristocracy', 'morality', 'society'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.CONGRESS HOUSE LORDS",

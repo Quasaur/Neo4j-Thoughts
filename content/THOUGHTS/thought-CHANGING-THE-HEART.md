@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 05-May-2011a)
-CREATE (t:THOUGHT {
-    name: "thought.CHANGING THE HEART",
+CREATE (t:THOUGHT {    name: "thought.CHANGING THE HEART",
     alias: "Thought: Changing The Heart",
     parent: "topic.DIVINE SOVEREIGNTY",
     tags: ['sovereignty', 'salvation', 'heart', 'transformation', 'providence'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.CHANGING THE HEART",

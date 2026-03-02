@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 26-Nov-2011a)
-CREATE (t:THOUGHT {
-    name: "thought.GOD HAS SENSE",
+CREATE (t:THOUGHT {    name: "thought.GOD HAS SENSE",
     alias: "Thought: God Has Sense",
     parent: "topic.SPIRITUALITY",
     tags: ['relationship', 'communication', 'honor', 'spirituality', 'god'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.GOD HAS SENSE",

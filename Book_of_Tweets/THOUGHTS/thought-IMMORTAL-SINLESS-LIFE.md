@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 01-Jan-2012)
-CREATE (t:THOUGHT {
-    name: "thought.IMMORTAL SINLESS LIFE",
+CREATE (t:THOUGHT {    name: "thought.IMMORTAL SINLESS LIFE",
     alias: "Thought: Immortal Sinless Life",
     parent: "topic.THE GODHEAD",
     tags: ['immortality', 'holiness', 'life', 'sin', 'divinity'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.IMMORTAL SINLESS LIFE",

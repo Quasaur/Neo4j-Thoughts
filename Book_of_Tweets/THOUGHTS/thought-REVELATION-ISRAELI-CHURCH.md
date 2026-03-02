@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 09-Jun-2013)
-CREATE (t:THOUGHT {
-    name: "thought.REVELATION ISRAELI CHURCH",
+CREATE (t:THOUGHT {    name: "thought.REVELATION ISRAELI CHURCH",
     alias: "Thought: Revelation Israeli Church",
     parent: "topic.RELIGION",
     tags: ['revelation', 'israel', 'church', 'bible', 'history'],
-    notes: "",
-    level: 4
-});
+    level: 4});
 
 CREATE (c:CONTENT {
     name: "content.REVELATION ISRAELI CHURCH",

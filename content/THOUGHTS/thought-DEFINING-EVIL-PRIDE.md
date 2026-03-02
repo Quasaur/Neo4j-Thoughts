@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 21-Aug-2012a)
-CREATE (t:THOUGHT {
-    name: "thought.DEFINING EVIL PRIDE",
+CREATE (t:THOUGHT {    name: "thought.DEFINING EVIL PRIDE",
     alias: "Thought: Defining Evil Pride",
     parent: "topic.EVIL",
     tags: ['evil', 'pride', 'self', 'treasure', 'character'],
-    notes: "",
-    level: 4
-});
+    level: 4});
 
 CREATE (c:CONTENT {
     name: "content.DEFINING EVIL PRIDE",

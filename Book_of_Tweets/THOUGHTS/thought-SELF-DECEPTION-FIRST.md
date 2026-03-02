@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 09-Jun-2012)
-CREATE (t:THOUGHT {
-    name: "thought.SELF DECEPTION FIRST",
+CREATE (t:THOUGHT {    name: "thought.SELF DECEPTION FIRST",
     alias: "Thought: Self Deception First",
     parent: "topic.PSYCHOLOGY",
     tags: ['deception', 'self', 'psychology', 'honesty', 'character'],
-    notes: "",
-    level: 4
-});
+    level: 4});
 
 CREATE (c:CONTENT {
     name: "content.SELF DECEPTION FIRST",

@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 01-Jul-2010)
-CREATE (t:THOUGHT {
-    name: "thought.GOD AND EVIL",
+CREATE (t:THOUGHT {    name: "thought.GOD AND EVIL",
     alias: "Thought: God And Evil",
     parent: "topic.DIVINE SOVEREIGNTY",
     tags: ['sovereignty', 'evil', 'providence', 'justice', 'divinity'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.GOD AND EVIL",

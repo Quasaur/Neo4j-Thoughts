@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 13-Mar-2012)
-CREATE (t:THOUGHT {
-    name: "thought.GODS SUPERIOR OFFER",
+CREATE (t:THOUGHT {    name: "thought.GODS SUPERIOR OFFER",
     alias: "Thought: Gods Superior Offer",
     parent: "topic.THE GODHEAD",
     tags: ['god', 'offer', 'value', 'grace', 'majesty'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.GODS SUPERIOR OFFER",

@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 24-Mar-2012c)
-CREATE (t:THOUGHT {
-    name: "thought.PRIDE VS DIGNITY RACE",
+CREATE (t:THOUGHT {    name: "thought.PRIDE VS DIGNITY RACE",
     alias: "Thought: Pride Vs Dignity Race",
     parent: "topic.HUMANITY",
     tags: ['pride', 'dignity', 'race', 'character', 'confusion'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.PRIDE VS DIGNITY RACE",

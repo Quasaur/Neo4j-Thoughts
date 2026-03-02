@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 23-Sep-2011a)
-CREATE (t:THOUGHT {
-    name: "thought.BIBLE AS HISTORY",
+CREATE (t:THOUGHT {    name: "thought.BIBLE AS HISTORY",
     alias: "Thought: Bible As History",
     parent: "topic.TRUTH",
     tags: ['bible', 'truth', 'history', 'inspiration', 'document'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.BIBLE AS HISTORY",

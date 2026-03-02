@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 19-May-2011)
-CREATE (t:THOUGHT {
-    name: "thought.MALCOLM X TRUTH",
+CREATE (t:THOUGHT {    name: "thought.MALCOLM X TRUTH",
     alias: "Thought: Malcolm X Truth",
     parent: "topic.HUMANITY",
     tags: ['truth', 'leadership', 'love', 'humanity', 'justice'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.MALCOLM X TRUTH",

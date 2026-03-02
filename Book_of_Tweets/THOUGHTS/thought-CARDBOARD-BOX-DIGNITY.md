@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 12-Oct-2012d)
-CREATE (t:THOUGHT {
-    name: "thought.CARDBOARD BOX DIGNITY",
+CREATE (t:THOUGHT {    name: "thought.CARDBOARD BOX DIGNITY",
     alias: "Thought: Cardboard Box Dignity",
     parent: "topic.HUMANITY",
     tags: ['dignity', 'wealth', 'humanity', 'character', 'choice'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.CARDBOARD BOX DIGNITY",

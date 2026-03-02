@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 19-Dec-2010)
-CREATE (t:THOUGHT {
-    name: "thought.THE BRINK OF EXTINCTION",
+CREATE (t:THOUGHT {    name: "thought.THE BRINK OF EXTINCTION",
     alias: "Thought: The Brink Of Extinction",
     parent: "topic.THE GODHEAD",
     tags: ['prophecy', 'christ', 'return', 'humanity', 'judgment'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.THE BRINK OF EXTINCTION",

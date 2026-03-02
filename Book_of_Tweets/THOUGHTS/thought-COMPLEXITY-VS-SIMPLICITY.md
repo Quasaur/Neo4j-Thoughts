@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 16-Oct-2011b)
-CREATE (t:THOUGHT {
-    name: "thought.COMPLEXITY VS SIMPLICITY",
+CREATE (t:THOUGHT {    name: "thought.COMPLEXITY VS SIMPLICITY",
     alias: "Thought: Complexity Vs Simplicity",
     parent: "topic.TRUTH",
     tags: ['complexity', 'simplicity', 'science', 'law', 'truth'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.COMPLEXITY VS SIMPLICITY",

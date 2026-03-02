@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 01-Jun-2012c)
-CREATE (t:THOUGHT {
-    name: "thought.UNEQUALLY YOKED MARRIAGE",
+CREATE (t:THOUGHT {    name: "thought.UNEQUALLY YOKED MARRIAGE",
     alias: "Thought: Unequally Yoked Marriage",
     parent: "topic.MORALITY",
     tags: ['marriage', 'unbeliever', 'devil', 'morality', 'family'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.UNEQUALLY YOKED MARRIAGE",

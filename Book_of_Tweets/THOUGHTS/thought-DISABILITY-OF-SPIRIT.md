@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 11-Oct-2013)
-CREATE (t:THOUGHT {
-    name: "thought.DISABILITY OF SPIRIT",
+CREATE (t:THOUGHT {    name: "thought.DISABILITY OF SPIRIT",
     alias: "Thought: Disability Of Spirit",
     parent: "topic.SPIRITUALITY",
     tags: ['presence', 'perception', 'disability', 'spirituality', 'god'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.DISABILITY OF SPIRIT",

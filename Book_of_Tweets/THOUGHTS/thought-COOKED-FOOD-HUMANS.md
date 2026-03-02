@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 23-May-2012a)
-CREATE (t:THOUGHT {
-    name: "thought.COOKED FOOD HUMANS",
+CREATE (t:THOUGHT {    name: "thought.COOKED FOOD HUMANS",
     alias: "Thought: Cooked Food Humans",
     parent: "topic.CREATION",
     tags: ['creation', 'humanity', 'nature', 'food', 'mystery'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.COOKED FOOD HUMANS",

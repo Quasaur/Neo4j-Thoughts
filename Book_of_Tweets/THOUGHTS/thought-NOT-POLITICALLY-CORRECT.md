@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 21-Oct-2011b)
-CREATE (t:THOUGHT {
-    name: "thought.NOT POLITICALLY CORRECT",
+CREATE (t:THOUGHT {    name: "thought.NOT POLITICALLY CORRECT",
     alias: "Thought: Not Politically Correct",
     parent: "topic.THE GODHEAD",
     tags: ['truth', 'politics', 'character', 'god', 'divinity'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.NOT POLITICALLY CORRECT",

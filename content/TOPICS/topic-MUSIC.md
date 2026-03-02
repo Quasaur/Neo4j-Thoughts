@@ -12,14 +12,11 @@ insert: "True"
 ---
 
 ```Cypher
-CREATE (t:TOPIC {
-    name: "topic.MUSIC",
+CREATE (t:TOPIC {    name: "topic.MUSIC",
     alias: "Topic: Music",
     parent: "topic.MUSICOLOGY",
     tags: ["music", "art", "sound", "harmony", "melody"],
-    notes: "",
-    level: 5
-});
+    level: 5});
 
 CREATE (d:DESCRIPTION {
     name: "description.MUSIC",

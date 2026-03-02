@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 02-Dec-2011d)
-CREATE (t:THOUGHT {
-    name: "thought.SUFFERING VS SINNING",
+CREATE (t:THOUGHT {    name: "thought.SUFFERING VS SINNING",
     alias: "Thought: Suffering Vs Sinning",
     parent: "topic.HUMANITY",
     tags: ['suffering', 'sin', 'humanity', 'paradox', 'attitude'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.SUFFERING VS SINNING",

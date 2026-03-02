@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 06-Nov-2010f)
-CREATE (t:THOUGHT {
-    name: "thought.FAITH AND ACCEPTANCE",
+CREATE (t:THOUGHT {    name: "thought.FAITH AND ACCEPTANCE",
     alias: "Thought: Faith And Acceptance",
     parent: "topic.FAITH",
     tags: ['faith', 'acceptance', 'trust', 'truth', 'spirituality'],
-    notes: "",
-    level: 4
-});
+    level: 4});
 
 CREATE (c:CONTENT {
     name: "content.FAITH AND ACCEPTANCE",

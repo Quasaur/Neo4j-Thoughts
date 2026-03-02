@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 06-Oct-2012)
-CREATE (t:THOUGHT {
-    name: "thought.GOD CARES LITTLE",
+CREATE (t:THOUGHT {    name: "thought.GOD CARES LITTLE",
     alias: "Thought: God Cares Little",
     parent: "topic.THE GODHEAD",
     tags: ['compassion', 'little_people', 'care', 'god', 'divinity'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.GOD CARES LITTLE",

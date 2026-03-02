@@ -13,14 +13,12 @@ neo4j: true
 ```Cypher
 //create the Thought with the same fields as a normal thought
 CREATE (q:QUOTE
-    {
-	    name: "quote.FORGOTTEN INJUSTICES",
+    {	    name: "quote.FORGOTTEN INJUSTICES",
 		alias: "Quote: Not Worthy to be Compared", 
 		parent: "topic.THE GODHEAD", 
 		tags: ["goodness", "divine", "injustice", "forgotten", "presence"], 
 		source: "The Traveler's Oasis, Book One",
 		booklink: "https://www.amazon.com/Travelers-Oasis-Book-One-ebook/dp/B00Y43B2OC",
-		notes: "",
 		level: 1});
 // create multi-lingual content		
 CREATE (c:CONTENT {

@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 07-Sep-2011d)
-CREATE (t:THOUGHT {
-    name: "thought.WEATHER AS COMMUNICATION",
+CREATE (t:THOUGHT {    name: "thought.WEATHER AS COMMUNICATION",
     alias: "Thought: Weather As Communication",
     parent: "topic.DIVINE SOVEREIGNTY",
     tags: ['sovereignty', 'weather', 'judgment', 'nature', 'communication'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.WEATHER AS COMMUNICATION",

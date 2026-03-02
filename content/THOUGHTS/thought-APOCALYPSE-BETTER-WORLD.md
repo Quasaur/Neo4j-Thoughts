@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 26-Dec-2013)
-CREATE (t:THOUGHT {
-    name: "thought.APOCALYPSE BETTER WORLD",
+CREATE (t:THOUGHT {    name: "thought.APOCALYPSE BETTER WORLD",
     alias: "Thought: Apocalypse Better World",
     parent: "topic.APOCALYPSE",
     tags: ['apocalypse', 'world', 'future', 'hope'],
-    notes: "",
-    level: 5
-});
+    level: 5});
 
 CREATE (c:CONTENT {
     name: "content.APOCALYPSE BETTER WORLD",

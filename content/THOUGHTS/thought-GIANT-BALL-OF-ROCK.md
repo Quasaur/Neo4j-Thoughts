@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 30-Aug-2011b)
-CREATE (t:THOUGHT {
-    name: "thought.GIANT BALL OF ROCK",
+CREATE (t:THOUGHT {    name: "thought.GIANT BALL OF ROCK",
     alias: "Thought: Giant Ball Of Rock",
     parent: "topic.CREATION",
     tags: ['creation', 'earth', 'perspective', 'power', 'majesty'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.GIANT BALL OF ROCK",

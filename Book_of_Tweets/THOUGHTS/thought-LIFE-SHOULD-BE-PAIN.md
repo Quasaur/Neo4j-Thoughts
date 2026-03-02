@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 23-Jul-2013d)
-CREATE (t:THOUGHT {
-    name: "thought.LIFE SHOULD BE PAIN",
+CREATE (t:THOUGHT {    name: "thought.LIFE SHOULD BE PAIN",
     alias: "Thought: Life Should Be Pain",
     parent: "topic.PHILOSOPHY",
     tags: ['pain', 'life', 'philosophy', 'suffering', 'truth'],
-    notes: "",
-    level: 4
-});
+    level: 4});
 
 CREATE (c:CONTENT {
     name: "content.LIFE SHOULD BE PAIN",

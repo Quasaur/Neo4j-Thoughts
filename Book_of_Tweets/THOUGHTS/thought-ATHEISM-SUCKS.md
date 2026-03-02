@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 10-Aug-2013d)
-CREATE (t:THOUGHT {
-    name: "thought.ATHEISM SUCKS",
+CREATE (t:THOUGHT {    name: "thought.ATHEISM SUCKS",
     alias: "Thought: Atheism Sucks",
     parent: "topic.PHILOSOPHY",
     tags: ['atheism', 'philosophy', 'humanity', 'truth', 'skepticism'],
-    notes: "",
-    level: 4
-});
+    level: 4});
 
 CREATE (c:CONTENT {
     name: "content.ATHEISM SUCKS",

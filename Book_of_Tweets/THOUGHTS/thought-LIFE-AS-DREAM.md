@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md
-CREATE (t:THOUGHT {
-    name: "thought.LIFE AS DREAM",
+CREATE (t:THOUGHT {    name: "thought.LIFE AS DREAM",
     alias: "Thought: LIFE AS DREAM",
     parent: "topic.PHILOSOPHY",
     tags: ["dream", "reality", "presence_god", "awakening", "consciousness"],
-    notes: "",
-    level: 4
-});
+    level: 4});
 
 CREATE (c:CONTENT {
     name: "content.LIFE AS DREAM",

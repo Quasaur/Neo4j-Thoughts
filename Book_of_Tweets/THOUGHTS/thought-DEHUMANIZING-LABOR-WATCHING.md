@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 18-Jul-2013b)
-CREATE (t:THOUGHT {
-    name: "thought.DEHUMANIZING LABOR WATCHING",
+CREATE (t:THOUGHT {    name: "thought.DEHUMANIZING LABOR WATCHING",
     alias: "Thought: Dehumanizing Labor Watching",
     parent: "topic.MORALITY",
     tags: ['labor', 'dehumanization', 'watching', 'justice', 'morality'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.DEHUMANIZING LABOR WATCHING",

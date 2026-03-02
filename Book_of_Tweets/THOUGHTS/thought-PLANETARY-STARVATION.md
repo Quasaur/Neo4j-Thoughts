@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 14-Jun-2012b)
-CREATE (t:THOUGHT {
-    name: "thought.PLANETARY STARVATION",
+CREATE (t:THOUGHT {    name: "thought.PLANETARY STARVATION",
     alias: "Thought: Planetary Starvation",
     parent: "topic.MORALITY",
     tags: ['poverty', 'hunger', 'resources', 'justice', 'morality'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.PLANETARY STARVATION",

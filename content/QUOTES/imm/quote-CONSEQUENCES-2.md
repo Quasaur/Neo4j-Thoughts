@@ -12,14 +12,12 @@ neo4j: true
 
 ```Cypher
 //create the Thought with the same fields as a normal thought
-CREATE (q:QUOTE {
-	    name: "quote.CONSEQUENCES (2)",
+CREATE (q:QUOTE {	    name: "quote.CONSEQUENCES (2)",
 		alias: "Quote: Decisiions have Consequences", 
 		parent: "topic.DIVINE SOVEREIGNTY", 
 		tags: ["decisions", "outcomes", "god", "sovereignty", "volition"], 
 		source: "IMMUNITY to the Lake of Fire: A No-Nonsense Guide",
 		booklink: "https://www.amazon.com/IMMUNITY-LAKE-FIRE-No-Nonsense-Guide-ebook/dp/B08B5J9V8J",
-		notes: "",
 		level: 2});
 // create multi-lingual content		
 CREATE (c:CONTENT {

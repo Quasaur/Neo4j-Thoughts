@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 06-Nov-2010a)
-CREATE (t:THOUGHT {
-    name: "thought.SPECIFIED COMPLEXITY",
+CREATE (t:THOUGHT {    name: "thought.SPECIFIED COMPLEXITY",
     alias: "Thought: Specified Complexity",
     parent: "topic.CREATION",
     tags: ['creation', 'complexity', 'design', 'evolution', 'intelligence'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.SPECIFIED COMPLEXITY",

@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 28-Apr-2011)
-CREATE (t:THOUGHT {
-    name: "thought.FREE WILL ROBOT",
+CREATE (t:THOUGHT {    name: "thought.FREE WILL ROBOT",
     alias: "Thought: Free Will Robot",
     parent: "topic.PHILOSOPHY",
     tags: ['philosophy', 'freewill', 'consciousness', 'robot', 'truth'],
-    notes: "",
-    level: 4
-});
+    level: 4});
 
 CREATE (c:CONTENT {
     name: "content.FREE WILL ROBOT",

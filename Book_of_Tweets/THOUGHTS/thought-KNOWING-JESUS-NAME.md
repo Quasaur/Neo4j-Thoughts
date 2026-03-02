@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 16-Nov-2011a)
-CREATE (t:THOUGHT {
-    name: "thought.KNOWING JESUS NAME",
+CREATE (t:THOUGHT {    name: "thought.KNOWING JESUS NAME",
     alias: "Thought: Knowing Jesus Name",
     parent: "topic.THE GODHEAD",
     tags: ['jesus', 'identity', 'knowledge', 'lord', 'relationship'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.KNOWING JESUS NAME",

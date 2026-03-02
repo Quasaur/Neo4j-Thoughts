@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 27-Jul-2011)
-CREATE (t:THOUGHT {
-    name: "thought.VISIBLE UNIVERSE",
+CREATE (t:THOUGHT {    name: "thought.VISIBLE UNIVERSE",
     alias: "Thought: Visible Universe",
     parent: "topic.COSMOLOGY",
     tags: ['universe', 'creation', 'power', 'majesty', 'sight'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.VISIBLE UNIVERSE",

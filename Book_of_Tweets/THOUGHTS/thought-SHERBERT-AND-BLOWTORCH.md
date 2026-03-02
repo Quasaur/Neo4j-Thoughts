@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 08-Jan-2011)
-CREATE (t:THOUGHT {
-    name: "thought.SHERBERT AND BLOWTORCH",
+CREATE (t:THOUGHT {    name: "thought.SHERBERT AND BLOWTORCH",
     alias: "Thought: Sherbert And Blowtorch",
     parent: "topic.WISDOM",
     tags: ['wisdom', 'logic', 'metaphor', 'patience', 'methodology'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.SHERBERT AND BLOWTORCH",

@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 11-Oct-2010)
-CREATE (t:THOUGHT {
-    name: "thought.GOD THE DREAMER",
+CREATE (t:THOUGHT {    name: "thought.GOD THE DREAMER",
     alias: "Thought: God The Dreamer",
     parent: "topic.PHILOSOPHY",
     tags: ['reality', 'dream', 'existence', 'philosophy', 'creator'],
-    notes: "",
-    level: 4
-});
+    level: 4});
 
 CREATE (c:CONTENT {
     name: "content.GOD THE DREAMER",

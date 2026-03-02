@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 18-Oct-2013)
-CREATE (t:THOUGHT {
-    name: "thought.CHRISTIANS ON CROSSES",
+CREATE (t:THOUGHT {    name: "thought.CHRISTIANS ON CROSSES",
     alias: "Thought: Christians On Crosses",
     parent: "topic.RELIGION",
     tags: ['christians', 'cross', 'identity', 'religion', 'sacrifice'],
-    notes: "",
-    level: 4
-});
+    level: 4});
 
 CREATE (c:CONTENT {
     name: "content.CHRISTIANS ON CROSSES",

@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 24-Jan-2011)
-CREATE (t:THOUGHT {
-    name: "thought.FREEDOM TO RUIN",
+CREATE (t:THOUGHT {    name: "thought.FREEDOM TO RUIN",
     alias: "Thought: Freedom To Ruin",
     parent: "topic.HUMANITY",
     tags: ['freedom', 'responsibility', 'choice', 'humanity', 'ruin'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.FREEDOM TO RUIN",

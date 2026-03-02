@@ -33,17 +33,16 @@ The following rules define the values of the primary and secondary nodes as well
 ## Primary Node
 Rule 8: The Primary node's properties are replicated in the node markdown file's YAML front matter nearly verbatum (except for the type, en_content, ptopic and neo4j YAML properties.). This is done so that the Developer has an easy view of each file's content from the Obsidian Base tables. Where a primary node's property exists in the YAML front matter, the YAML front matter is the source of truth.
 
-### TOPIC Node Type Cypher Query
 #### Deprecated Properties
-Rule 9: the "notes" property has been deprecated and must be removed by the agentic model wherever it is found and the line from which it was deleted in the Cypher CREATE query for the primary TOPIC node removed.
+Rule 9: For the first CREATE query in the Cyper block the "notes" property has been deprecated from all primary node types (TOPIC, THOUGHT, QUOTE and PASSAGE) and must be removed by the agentic model wherever it is found and the line from which it was deleted in the Cypher CREATE query for the node removed so that there are no empty lines within the query.
 
+### TOPIC Node Type Cypher Query
 Rule 10: every Cypher CREATE query for the TOPIC node type must have the following properties and their values:
 	- name
 	- alias
 	- parent
 	- tags
 	- level
-	- 
 ### THOUGHT Node Type
 
 ### QUOTE Node Type

@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 16-Feb-2012a)
-CREATE (t:THOUGHT {
-    name: "thought.CREATING SELFLESS HEART",
+CREATE (t:THOUGHT {    name: "thought.CREATING SELFLESS HEART",
     alias: "Thought: Creating Selfless Heart",
     parent: "topic.THE GODHEAD",
     tags: ['heart', 'transformation', 'creation', 'selfless', 'divinity'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.CREATING SELFLESS HEART",

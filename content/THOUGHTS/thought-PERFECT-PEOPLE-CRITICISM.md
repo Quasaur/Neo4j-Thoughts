@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 24-Oct-2013a)
-CREATE (t:THOUGHT {
-    name: "thought.PERFECT PEOPLE CRITICISM",
+CREATE (t:THOUGHT {    name: "thought.PERFECT PEOPLE CRITICISM",
     alias: "Thought: Perfect People Criticism",
     parent: "topic.ATTITUDE",
     tags: ['perfection', 'criticism', 'response', 'attitude', 'character'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.PERFECT PEOPLE CRITICISM",

@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 20-Sep-2013b)
-CREATE (t:THOUGHT {
-    name: "thought.SEEKING VS HEARING GOD",
+CREATE (t:THOUGHT {    name: "thought.SEEKING VS HEARING GOD",
     alias: "Thought: Seeking Vs Hearing God",
     parent: "topic.SPIRITUALITY",
     tags: ['seeking', 'hearing', 'god', 'desperation', 'spirituality'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.SEEKING VS HEARING GOD",

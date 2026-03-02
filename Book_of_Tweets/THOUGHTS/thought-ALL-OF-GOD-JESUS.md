@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 03-Oct-2013a)
-CREATE (t:THOUGHT {
-    name: "thought.ALL OF GOD JESUS",
+CREATE (t:THOUGHT {    name: "thought.ALL OF GOD JESUS",
     alias: "Thought: All Of God Jesus",
     parent: "topic.THE GODHEAD",
     tags: ['jesus', 'christ', 'fullness', 'divinity', 'god'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.ALL OF GOD JESUS",

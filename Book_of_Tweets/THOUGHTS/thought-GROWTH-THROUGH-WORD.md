@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 03-Apr-2012c)
-CREATE (t:THOUGHT {
-    name: "thought.GROWTH THROUGH WORD",
+CREATE (t:THOUGHT {    name: "thought.GROWTH THROUGH WORD",
     alias: "Thought: Growth Through Word",
     parent: "topic.SPIRITUALITY",
     tags: ['growth', 'word', 'christianity', 'spirituality', 'hearing'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.GROWTH THROUGH WORD",

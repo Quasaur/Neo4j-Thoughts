@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 04-Jul-2013)
-CREATE (t:THOUGHT {
-    name: "thought.AMERICA ACCOUNTABLE FREEDOMS",
+CREATE (t:THOUGHT {    name: "thought.AMERICA ACCOUNTABLE FREEDOMS",
     alias: "Thought: America Accountable Freedoms",
     parent: "topic.MORALITY",
     tags: ['america', 'freedom', 'accountability', 'morality', 'judgment'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.AMERICA ACCOUNTABLE FREEDOMS",

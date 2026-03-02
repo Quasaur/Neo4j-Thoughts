@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 03-Mar-2012c)
-CREATE (t:THOUGHT {
-    name: "thought.TERRIBLE SECRETS",
+CREATE (t:THOUGHT {    name: "thought.TERRIBLE SECRETS",
     alias: "Thought: Terrible Secrets",
     parent: "topic.PSYCHOLOGY",
     tags: ['secrets', 'fear', 'character', 'attitude', 'truth'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.TERRIBLE SECRETS",

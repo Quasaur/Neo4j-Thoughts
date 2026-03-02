@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 09-Oct-2012c)
-CREATE (t:THOUGHT {
-    name: "thought.QUALIFIED TO BREAK",
+CREATE (t:THOUGHT {    name: "thought.QUALIFIED TO BREAK",
     alias: "Thought: Qualified To Break",
     parent: "topic.THE GODHEAD",
     tags: ['love', 'surrender', 'character', 'god', 'divinity'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.QUALIFIED TO BREAK",

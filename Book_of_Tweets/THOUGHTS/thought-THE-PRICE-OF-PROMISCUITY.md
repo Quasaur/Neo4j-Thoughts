@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 16-Nov-2011c)
-CREATE (t:THOUGHT {
-    name: "thought.THE PRICE OF PROMISCUITY",
+CREATE (t:THOUGHT {    name: "thought.THE PRICE OF PROMISCUITY",
     alias: "Thought: The Price Of Promiscuity",
     parent: "topic.MORALITY",
     tags: ['morality', 'purity', 'consequences', 'society', 'character'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.THE PRICE OF PROMISCUITY",

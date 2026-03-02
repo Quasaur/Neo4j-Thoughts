@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 29-Feb-2012c)
-CREATE (t:THOUGHT {
-    name: "thought.DEFINE EVIL JEALOUSY",
+CREATE (t:THOUGHT {    name: "thought.DEFINE EVIL JEALOUSY",
     alias: "Thought: Define Evil Jealousy",
     parent: "topic.EVIL",
     tags: ['jealousy', 'fear', 'evil', 'character', 'philosophy'],
-    notes: "",
-    level: 4
-});
+    level: 4});
 
 CREATE (c:CONTENT {
     name: "content.DEFINE EVIL JEALOUSY",

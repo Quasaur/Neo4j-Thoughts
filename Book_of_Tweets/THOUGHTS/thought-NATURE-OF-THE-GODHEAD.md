@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 31-Jan-2012)
-CREATE (t:THOUGHT {
-    name: "thought.NATURE OF THE GODHEAD",
+CREATE (t:THOUGHT {    name: "thought.NATURE OF THE GODHEAD",
     alias: "Thought: Nature Of The Godhead",
     parent: "topic.THE GODHEAD",
     tags: ['godhead', 'mystery', 'truth', 'knowledge', 'divinity'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.NATURE OF THE GODHEAD",

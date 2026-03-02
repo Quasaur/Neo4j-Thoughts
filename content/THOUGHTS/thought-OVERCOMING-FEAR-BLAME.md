@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 14-Sep-2012)
-CREATE (t:THOUGHT {
-    name: "thought.OVERCOMING FEAR BLAME",
+CREATE (t:THOUGHT {    name: "thought.OVERCOMING FEAR BLAME",
     alias: "Thought: Overcoming Fear Blame",
     parent: "topic.ATTITUDE",
     tags: ['fear', 'blame', 'attitude', 'courage', 'character'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.OVERCOMING FEAR BLAME",

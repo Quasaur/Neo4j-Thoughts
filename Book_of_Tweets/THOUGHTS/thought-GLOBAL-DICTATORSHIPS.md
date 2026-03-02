@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 23-Dec-2011a)
-CREATE (t:THOUGHT {
-    name: "thought.GLOBAL DICTATORSHIPS",
+CREATE (t:THOUGHT {    name: "thought.GLOBAL DICTATORSHIPS",
     alias: "Thought: Global Dictatorships",
     parent: "topic.MORALITY",
     tags: ['dictatorship', 'society', 'justice', 'politics', 'humanity'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.GLOBAL DICTATORSHIPS",

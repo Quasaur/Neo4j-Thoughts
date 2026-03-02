@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 06-May-2011b)
-CREATE (t:THOUGHT {
-    name: "thought.WHISPER OF HOPE",
+CREATE (t:THOUGHT {    name: "thought.WHISPER OF HOPE",
     alias: "Thought: Whisper Of Hope",
     parent: "topic.ATTITUDE",
     tags: ['hope', 'attitude', 'perseverance', 'encouragement', 'resilience'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.WHISPER OF HOPE",

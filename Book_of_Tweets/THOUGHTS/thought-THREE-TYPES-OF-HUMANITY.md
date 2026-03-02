@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 08-Aug-2011)
-CREATE (t:THOUGHT {
-    name: "thought.THREE TYPES OF HUMANITY",
+CREATE (t:THOUGHT {    name: "thought.THREE TYPES OF HUMANITY",
     alias: "Thought: Three Types Of Humanity",
     parent: "topic.HUMANITY",
     tags: ['humanity', 'priority', 'god', 'world', 'classification'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.THREE TYPES OF HUMANITY",

@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 10-Apr-2011)
-CREATE (t:THOUGHT {
-    name: "thought.IMPORTANCE OF DEUTERONOMY",
+CREATE (t:THOUGHT {    name: "thought.IMPORTANCE OF DEUTERONOMY",
     alias: "Thought: Importance Of Deuteronomy",
     parent: "topic.TRUTH",
     tags: ['bible', 'truth', 'history', 'deuteronomy', 'law'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.IMPORTANCE OF DEUTERONOMY",

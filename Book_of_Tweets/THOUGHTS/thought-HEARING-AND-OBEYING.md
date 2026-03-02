@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 20-Aug-2010)
-CREATE (t:THOUGHT {
-    name: "thought.HEARING AND OBEYING",
+CREATE (t:THOUGHT {    name: "thought.HEARING AND OBEYING",
     alias: "Thought: Hearing And Obeying",
     parent: "topic.SPIRITUALITY",
     tags: ['obedience', 'guidance', 'spirituality', 'listening', 'faith'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.HEARING AND OBEYING",

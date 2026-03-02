@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 03-Nov-2010b)
-CREATE (t:THOUGHT {
-    name: "thought.CONSPIRACY THEORIES",
+CREATE (t:THOUGHT {    name: "thought.CONSPIRACY THEORIES",
     alias: "Thought: Conspiracy Theories",
     parent: "topic.UNDERSTANDING",
     tags: ['responsibility', 'failure', 'wisdom', 'truth', 'deception'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.CONSPIRACY THEORIES",

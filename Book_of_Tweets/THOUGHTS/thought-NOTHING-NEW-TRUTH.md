@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 04-Dec-2012)
-CREATE (t:THOUGHT {
-    name: "thought.NOTHING NEW TRUTH",
+CREATE (t:THOUGHT {    name: "thought.NOTHING NEW TRUTH",
     alias: "Thought: Nothing New Truth",
     parent: "topic.TRUTH",
     tags: ['truth', 'antiquity', 'consistency', 'philosophy', 'reality'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.NOTHING NEW TRUTH",

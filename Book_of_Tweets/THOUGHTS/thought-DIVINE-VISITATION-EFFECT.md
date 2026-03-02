@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 15-Sep-2013)
-CREATE (t:THOUGHT {
-    name: "thought.DIVINE VISITATION EFFECT",
+CREATE (t:THOUGHT {    name: "thought.DIVINE VISITATION EFFECT",
     alias: "Thought: Divine Visitation Effect",
     parent: "topic.SPIRITUALITY",
     tags: ['visitation', 'life', 'transformation', 'world', 'spirituality'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.DIVINE VISITATION EFFECT",

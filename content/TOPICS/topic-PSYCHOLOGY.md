@@ -13,12 +13,10 @@ neo4j: true
 ```Cypher
 //create the TOPIC with the same fields as a normal topic
 CREATE (t:TOPIC
-    {
-	    name: "topic.PSYCHOLOGY",
+    {	    name: "topic.PSYCHOLOGY",
 		alias: "Topic: The Science of Mind and Behavior", 
 		parent: "topic.HUMANITY", 
 		tags: ["soul", "psyche", "mind", "awareness", "consciousness"], 
-		notes: "Possible Subtopics:
 - Topic: Behavioral Psychology
 - Topic: Clinical Psychology
 - Topic: Cognitive Psychology

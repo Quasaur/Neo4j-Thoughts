@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 19-Mar-2013)
-CREATE (t:THOUGHT {
-    name: "thought.ULTIMATE REALITY GOD",
+CREATE (t:THOUGHT {    name: "thought.ULTIMATE REALITY GOD",
     alias: "Thought: Ultimate Reality God",
     parent: "topic.THE GODHEAD",
     tags: ['god', 'reality', 'existence', 'philosophy', 'divinity'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.ULTIMATE REALITY GOD",

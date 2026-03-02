@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 18-Jul-2012)
-CREATE (t:THOUGHT {
-    name: "thought.JUDGING MOTIVES DEEDS",
+CREATE (t:THOUGHT {    name: "thought.JUDGING MOTIVES DEEDS",
     alias: "Thought: Judging Motives Deeds",
     parent: "topic.THE GODHEAD",
     tags: ['motives', 'deeds', 'judgment', 'god', 'perspective'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.JUDGING MOTIVES DEEDS",

@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 29-Feb-2012b)
-CREATE (t:THOUGHT {
-    name: "thought.DEFINE DIVINE JEALOUSY",
+CREATE (t:THOUGHT {    name: "thought.DEFINE DIVINE JEALOUSY",
     alias: "Thought: Define Divine Jealousy",
     parent: "topic.THE GODHEAD",
     tags: ['jealousy', 'ownership', 'love', 'responsibility', 'divinity'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.DEFINE DIVINE JEALOUSY",

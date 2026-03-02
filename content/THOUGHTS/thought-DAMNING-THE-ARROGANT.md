@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 08-May-2012)
-CREATE (t:THOUGHT {
-    name: "thought.DAMNING THE ARROGANT",
+CREATE (t:THOUGHT {    name: "thought.DAMNING THE ARROGANT",
     alias: "Thought: Damning The Arrogant",
     parent: "topic.DIVINE SOVEREIGNTY",
     tags: ['judgment', 'arrogance', 'prosperity', 'sovereignty', 'god'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.DAMNING THE ARROGANT",

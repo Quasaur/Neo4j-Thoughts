@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 24-Oct-2012a)
-CREATE (t:THOUGHT {
-    name: "thought.OWNING ALL THINGS",
+CREATE (t:THOUGHT {    name: "thought.OWNING ALL THINGS",
     alias: "Thought: Owning All Things",
     parent: "topic.PHILOSOPHY",
     tags: ['ownership', 'attachment', 'philosophy', 'desire', 'abundance'],
-    notes: "",
-    level: 4
-});
+    level: 4});
 
 CREATE (c:CONTENT {
     name: "content.OWNING ALL THINGS",

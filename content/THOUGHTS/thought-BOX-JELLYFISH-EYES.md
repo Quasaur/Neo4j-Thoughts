@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 18-Aug-2011a)
-CREATE (t:THOUGHT {
-    name: "thought.BOX JELLYFISH EYES",
+CREATE (t:THOUGHT {    name: "thought.BOX JELLYFISH EYES",
     alias: "Thought: Box Jellyfish Eyes",
     parent: "topic.BIOLOGY",
     tags: ['creation', 'nature', 'jellyfish', 'design', 'power'],
-    notes: "",
-    level: 6
-});
+    level: 6});
 
 CREATE (c:CONTENT {
     name: "content.BOX JELLYFISH EYES",

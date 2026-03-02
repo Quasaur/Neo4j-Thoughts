@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 03-Mar-2012b)
-CREATE (t:THOUGHT {
-    name: "thought.ATROCITIES OF RELIGION",
+CREATE (t:THOUGHT {    name: "thought.ATROCITIES OF RELIGION",
     alias: "Thought: Atrocities Of Religion",
     parent: "topic.RELIGION",
     tags: ['religion', 'atrocity', 'character', 'failure', 'judgment'],
-    notes: "",
-    level: 4
-});
+    level: 4});
 
 CREATE (c:CONTENT {
     name: "content.ATROCITIES OF RELIGION",

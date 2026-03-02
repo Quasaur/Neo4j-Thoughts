@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 05-May-2012a)
-CREATE (t:THOUGHT {
-    name: "thought.FAN VS FOLLOWER",
+CREATE (t:THOUGHT {    name: "thought.FAN VS FOLLOWER",
     alias: "Thought: Fan Vs Follower",
     parent: "topic.SPIRITUALITY",
     tags: ['follower', 'fan', 'christ', 'spirituality', 'commitment'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.FAN VS FOLLOWER",

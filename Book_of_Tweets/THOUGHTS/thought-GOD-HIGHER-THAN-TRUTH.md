@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 05-Oct-2013)
-CREATE (t:THOUGHT {
-    name: "thought.GOD HIGHER THAN TRUTH",
+CREATE (t:THOUGHT {    name: "thought.GOD HIGHER THAN TRUTH",
     alias: "Thought: God Higher Than Truth",
     parent: "topic.THE GODHEAD",
     tags: ['truth', 'god', 'gandhi', 'mitchell', 'philosophy'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.GOD HIGHER THAN TRUTH",

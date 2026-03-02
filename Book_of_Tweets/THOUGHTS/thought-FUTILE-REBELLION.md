@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 04-Jan-2012a)
-CREATE (t:THOUGHT {
-    name: "thought.FUTILE REBELLION",
+CREATE (t:THOUGHT {    name: "thought.FUTILE REBELLION",
     alias: "Thought: Futile Rebellion",
     parent: "topic.HUMANITY",
     tags: ['rebellion', 'futility', 'humanity', 'god', 'sovereignty'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.FUTILE REBELLION",

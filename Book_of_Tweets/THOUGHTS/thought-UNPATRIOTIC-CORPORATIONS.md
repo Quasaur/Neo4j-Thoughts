@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 24-Sep-2011c)
-CREATE (t:THOUGHT {
-    name: "thought.UNPATRIOTIC CORPORATIONS",
+CREATE (t:THOUGHT {    name: "thought.UNPATRIOTIC CORPORATIONS",
     alias: "Thought: Unpatriotic Corporations",
     parent: "topic.MORALITY",
     tags: ['morality', 'corporations', 'society', 'patriotism', 'justice'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.UNPATRIOTIC CORPORATIONS",

@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 02-Nov-2013b)
-CREATE (t:THOUGHT {
-    name: "thought.SIN TASTES GOOD",
+CREATE (t:THOUGHT {    name: "thought.SIN TASTES GOOD",
     alias: "Thought: Sin Tastes Good",
     parent: "topic.MORALITY",
     tags: ['sin', 'taste', 'irony', 'morality', 'character'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.SIN TASTES GOOD",

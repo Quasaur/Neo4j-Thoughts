@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 02-Nov-2013)
-CREATE (t:THOUGHT {
-    name: "thought.PEOPLE MORE UNFORGIVING",
+CREATE (t:THOUGHT {    name: "thought.PEOPLE MORE UNFORGIVING",
     alias: "Thought: People More Unforgiving",
     parent: "topic.THE GODHEAD",
     tags: ['forgiveness', 'god', 'people', 'divinity'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.PEOPLE MORE UNFORGIVING",

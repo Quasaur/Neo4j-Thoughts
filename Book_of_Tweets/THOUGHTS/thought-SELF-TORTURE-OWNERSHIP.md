@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 03-Sep-2011b)
-CREATE (t:THOUGHT {
-    name: "thought.SELF TORTURE OWNERSHIP",
+CREATE (t:THOUGHT {    name: "thought.SELF TORTURE OWNERSHIP",
     alias: "Thought: Self Torture Ownership",
     parent: "topic.HUMANITY",
     tags: ['ownership', 'identity', 'self', 'humanity', 'philosophy'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.SELF TORTURE OWNERSHIP",

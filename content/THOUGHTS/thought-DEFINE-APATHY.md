@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 04-Mar-2011)
-CREATE (t:THOUGHT {
-    name: "thought.DEFINE APATHY",
+CREATE (t:THOUGHT {    name: "thought.DEFINE APATHY",
     alias: "Thought: Define Apathy",
     parent: "topic.ATTITUDE",
     tags: ['love', 'hate', 'apathy', 'attitude', 'philosophy'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.DEFINE APATHY",

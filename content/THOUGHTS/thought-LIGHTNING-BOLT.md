@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 22-Apr-2011b)
-CREATE (t:THOUGHT {
-    name: "thought.LIGHTNING BOLT",
+CREATE (t:THOUGHT {    name: "thought.LIGHTNING BOLT",
     alias: "Thought: Lightning Bolt",
     parent: "topic.ENVIRONMENTAL SCIENCE",
     tags: ['creation', 'power', 'lightning', 'nature', 'majesty'],
-    notes: "",
-    level: 6
-});
+    level: 6});
 
 CREATE (c:CONTENT {
     name: "content.LIGHTNING BOLT",

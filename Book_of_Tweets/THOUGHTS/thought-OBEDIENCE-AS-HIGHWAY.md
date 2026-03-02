@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 05-Oct-2011a)
-CREATE (t:THOUGHT {
-    name: "thought.OBEDIENCE AS HIGHWAY",
+CREATE (t:THOUGHT {    name: "thought.OBEDIENCE AS HIGHWAY",
     alias: "Thought: Obedience As Highway",
     parent: "topic.SPIRITUALITY",
     tags: ['obedience', 'guidance', 'restriction', 'spirituality', 'direction'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.OBEDIENCE AS HIGHWAY",

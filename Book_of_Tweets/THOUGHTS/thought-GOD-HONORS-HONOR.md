@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 11-Sep-2010)
-CREATE (t:THOUGHT {
-    name: "thought.GOD HONORS HONOR",
+CREATE (t:THOUGHT {    name: "thought.GOD HONORS HONOR",
     alias: "Thought: God Honors Honor",
     parent: "topic.THE GODHEAD",
     tags: ['god', 'honor', 'justice', 'truth', 'reverence'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.GOD HONORS HONOR",

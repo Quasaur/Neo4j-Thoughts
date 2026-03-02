@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 16-Sep-2013a)
-CREATE (t:THOUGHT {
-    name: "thought.DEFINE BEING ALONE",
+CREATE (t:THOUGHT {    name: "thought.DEFINE BEING ALONE",
     alias: "Thought: Define Being Alone",
     parent: "topic.SPIRITUALITY",
     tags: ['alone', 'presence', 'god', 'awareness', 'spirituality'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.DEFINE BEING ALONE",

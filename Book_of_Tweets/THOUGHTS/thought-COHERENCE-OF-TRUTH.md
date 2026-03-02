@@ -11,14 +11,11 @@ neo4j: false
 ---
 
 ```Cypher
-CREATE (t:THOUGHT {
-    name: "thought.COHERENCE OF TRUTH",
+CREATE (t:THOUGHT {    name: "thought.COHERENCE OF TRUTH",
     alias: "Thought: Logic of Reality",
     parent: "topic.TRUTH",
     tags: ["truth_logic", "reality_check", "coherence", "reason", "discernment"],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.COHERENCE OF TRUTH",

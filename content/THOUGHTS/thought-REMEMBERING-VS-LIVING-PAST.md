@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 07-Aug-2013)
-CREATE (t:THOUGHT {
-    name: "thought.REMEMBERING VS LIVING PAST",
+CREATE (t:THOUGHT {    name: "thought.REMEMBERING VS LIVING PAST",
     alias: "Thought: Remembering Vs Living Past",
     parent: "topic.WISDOM",
     tags: ['past', 'memory', 'attitude', 'sin', 'character'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.REMEMBERING VS LIVING PAST",

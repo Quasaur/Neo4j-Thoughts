@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 22-Mar-2013)
-CREATE (t:THOUGHT {
-    name: "thought.MOVIE ALREADY OVER",
+CREATE (t:THOUGHT {    name: "thought.MOVIE ALREADY OVER",
     alias: "Thought: Movie Already Over",
     parent: "topic.RELIGION",
     tags: ['prophecy', 'bible', 'time', 'judgment', 'eternity'],
-    notes: "",
-    level: 4
-});
+    level: 4});
 
 CREATE (c:CONTENT {
     name: "content.MOVIE ALREADY OVER",

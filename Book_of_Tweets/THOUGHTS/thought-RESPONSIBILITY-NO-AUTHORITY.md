@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 05-Aug-2013)
-CREATE (t:THOUGHT {
-    name: "thought.RESPONSIBILITY NO AUTHORITY",
+CREATE (t:THOUGHT {    name: "thought.RESPONSIBILITY NO AUTHORITY",
     alias: "Thought: Responsibility No Authority",
     parent: "topic.WISDOM",
     tags: ['responsibility', 'authority', 'logic', 'wisdom', 'analogy'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.RESPONSIBILITY NO AUTHORITY",

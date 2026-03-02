@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 09-Oct-2011b)
-CREATE (t:THOUGHT {
-    name: "thought.UNITY IN CHRIST",
+CREATE (t:THOUGHT {    name: "thought.UNITY IN CHRIST",
     alias: "Thought: Unity In Christ",
     parent: "topic.THE GODHEAD",
     tags: ['unity', 'jesus', 'christ', 'community', 'connection'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.UNITY IN CHRIST",

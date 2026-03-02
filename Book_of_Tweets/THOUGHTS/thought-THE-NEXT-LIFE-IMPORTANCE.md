@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 24-May-2014)
-CREATE (t:THOUGHT {
-    name: "thought.THE NEXT LIFE IMPORTANCE",
+CREATE (t:THOUGHT {    name: "thought.THE NEXT LIFE IMPORTANCE",
     alias: "Thought: The Next Life Importance",
     parent: "topic.SPIRITUALITY",
     tags: ['life', 'eternity', 'importance', 'spirituality'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.THE NEXT LIFE IMPORTANCE",

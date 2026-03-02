@@ -17,15 +17,13 @@ neo4j: true
 ```Cypher
 //create the Passage with the same fields as a normal thought
 CREATE (p:PASSAGE
-    {
-	    name: "\"passage.KINDNESS AND TRUTH\"",
+    {	    name: "\"passage.KINDNESS AND TRUTH\"",
 		alias: "Passage: The Keys to Favor and a Good Reputation", 
 		parent: "\"topic.ATTITUDE\"", 
 		tags: ["kindness", "truth", "favor", "reputation", "god"], 
 		source: "Proverbs 3:3,4",
 		sortedsource: "Proverbs 03:03,04",
 		biblelink: "https://www.biblegateway.com/passage/?search=Proverbs+3%3A3-4&version=NASB",
-		notes: "",
 		level: 3});
 // create multi-lingual content		
 CREATE (c:CONTENT {

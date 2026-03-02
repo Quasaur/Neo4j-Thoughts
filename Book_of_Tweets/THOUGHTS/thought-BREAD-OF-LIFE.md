@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 03-Apr-2012a)
-CREATE (t:THOUGHT {
-    name: "thought.BREAD OF LIFE",
+CREATE (t:THOUGHT {    name: "thought.BREAD OF LIFE",
     alias: "Thought: Bread Of Life",
     parent: "topic.THE GODHEAD",
     tags: ['christ', 'bread', 'life', 'overeat', 'spirit'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.BREAD OF LIFE",

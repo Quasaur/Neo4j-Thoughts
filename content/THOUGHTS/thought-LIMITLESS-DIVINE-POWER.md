@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 24-Sep-2011e)
-CREATE (t:THOUGHT {
-    name: "thought.LIMITLESS DIVINE POWER",
+CREATE (t:THOUGHT {    name: "thought.LIMITLESS DIVINE POWER",
     alias: "Thought: Limitless Divine Power",
     parent: "topic.DIVINE SOVEREIGNTY",
     tags: ['power', 'sovereignty', 'god', 'disposal', 'control'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.LIMITLESS DIVINE POWER",

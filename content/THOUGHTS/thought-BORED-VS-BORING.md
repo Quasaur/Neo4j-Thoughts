@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 09-Aug-2013a)
-CREATE (t:THOUGHT {
-    name: "thought.BORED VS BORING",
+CREATE (t:THOUGHT {    name: "thought.BORED VS BORING",
     alias: "Thought: Bored Vs Boring",
     parent: "topic.ATTITUDE",
     tags: ['boredom', 'personality', 'attitude', 'character', 'irony'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.BORED VS BORING",

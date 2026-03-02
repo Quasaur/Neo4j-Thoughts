@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 01-Oct-2010)
-CREATE (t:THOUGHT {
-    name: "thought.END OF ALL FLESH",
+CREATE (t:THOUGHT {    name: "thought.END OF ALL FLESH",
     alias: "Thought: End Of All Flesh",
     parent: "topic.DIVINE SOVEREIGNTY",
     tags: ['judgment', 'sovereignty', 'end_times', 'justice', 'divinity'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.END OF ALL FLESH",

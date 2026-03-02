@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 09-Jul-2011b)
-CREATE (t:THOUGHT {
-    name: "thought.PREFERENCE VS NECESSITY",
+CREATE (t:THOUGHT {    name: "thought.PREFERENCE VS NECESSITY",
     alias: "Thought: Preference Vs Necessity",
     parent: "topic.WISDOM",
     tags: ['wisdom', 'choice', 'necessity', 'priority', 'truth'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.PREFERENCE VS NECESSITY",

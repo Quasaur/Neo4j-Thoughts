@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 26-Jul-2013)
-CREATE (t:THOUGHT {
-    name: "thought.PRAYER AND CHOCOLATE",
+CREATE (t:THOUGHT {    name: "thought.PRAYER AND CHOCOLATE",
     alias: "Thought: Prayer And Chocolate",
     parent: "topic.SPIRITUALITY",
     tags: ['prayer', 'chocolate', 'joy', 'spirituality', 'humor'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.PRAYER AND CHOCOLATE",

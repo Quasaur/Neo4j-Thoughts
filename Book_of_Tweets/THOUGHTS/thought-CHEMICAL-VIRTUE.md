@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 15-Oct-2011f)
-CREATE (t:THOUGHT {
-    name: "thought.CHEMICAL VIRTUE",
+CREATE (t:THOUGHT {    name: "thought.CHEMICAL VIRTUE",
     alias: "Thought: Chemical Virtue",
     parent: "topic.PHILOSOPHY",
     tags: ['supernatural', 'love', 'courage', 'chemistry', 'philosophy'],
-    notes: "",
-    level: 4
-});
+    level: 4});
 
 CREATE (c:CONTENT {
     name: "content.CHEMICAL VIRTUE",

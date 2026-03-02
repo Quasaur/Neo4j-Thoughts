@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 10-Oct-2011c)
-CREATE (t:THOUGHT {
-    name: "thought.PRAYER FOR REVELATION",
+CREATE (t:THOUGHT {    name: "thought.PRAYER FOR REVELATION",
     alias: "Thought: Prayer For Revelation",
     parent: "topic.SPIRITUALITY",
     tags: ['prayer', 'revelation', 'empathy', 'spirituality', 'discernment'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.PRAYER FOR REVELATION",

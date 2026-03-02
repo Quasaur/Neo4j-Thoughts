@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 05-Jul-2011b)
-CREATE (t:THOUGHT {
-    name: "thought.ALL THINGS FOR HIM",
+CREATE (t:THOUGHT {    name: "thought.ALL THINGS FOR HIM",
     alias: "Thought: All Things For Him",
     parent: "topic.THE GODHEAD",
     tags: ['worthyship', 'glory', 'divinity', 'creation', 'worship'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.ALL THINGS FOR HIM",

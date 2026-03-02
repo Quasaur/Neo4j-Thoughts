@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 25-Sep-2013)
-CREATE (t:THOUGHT {
-    name: "thought.MEN SHAVING CHILDREN",
+CREATE (t:THOUGHT {    name: "thought.MEN SHAVING CHILDREN",
     alias: "Thought: Men Shaving Children",
     parent: "topic.HUMANITY",
     tags: ['men', 'women', 'shaving', 'children', 'humor'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.MEN SHAVING CHILDREN",

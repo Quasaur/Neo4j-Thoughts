@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 25-Aug-2011)
-CREATE (t:THOUGHT {
-    name: "thought.GLOBAL ECONOMICS FOOTSTOOL",
+CREATE (t:THOUGHT {    name: "thought.GLOBAL ECONOMICS FOOTSTOOL",
     alias: "Thought: Global Economics Footstool",
     parent: "topic.DIVINE SOVEREIGNTY",
     tags: ['sovereignty', 'economics', 'prophecy', 'jesus', 'victory'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.GLOBAL ECONOMICS FOOTSTOOL",

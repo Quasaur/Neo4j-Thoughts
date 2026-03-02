@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 27-Jun-2011c)
-CREATE (t:THOUGHT {
-    name: "thought.GOD OF FINANCE",
+CREATE (t:THOUGHT {    name: "thought.GOD OF FINANCE",
     alias: "Thought: God Of Finance",
     parent: "topic.THE GODHEAD",
     tags: ['jesus', 'finance', 'economics', 'provision', 'divinity'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.GOD OF FINANCE",

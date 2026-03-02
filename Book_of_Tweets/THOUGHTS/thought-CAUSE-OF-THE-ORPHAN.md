@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 06-Sep-2011)
-CREATE (t:THOUGHT {
-    name: "thought.CAUSE OF THE ORPHAN",
+CREATE (t:THOUGHT {    name: "thought.CAUSE OF THE ORPHAN",
     alias: "Thought: Cause Of The Orphan",
     parent: "topic.MORALITY",
     tags: ['justice', 'orphan', 'poor', 'morality', 'prophet'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.CAUSE OF THE ORPHAN",

@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 03-Nov-2011)
-CREATE (t:THOUGHT {
-    name: "thought.TRAGEDY IN CHURCH",
+CREATE (t:THOUGHT {    name: "thought.TRAGEDY IN CHURCH",
     alias: "Thought: Tragedy In Church",
     parent: "topic.RELIGION",
     tags: ['religion', 'church', 'salvation', 'tragedy', 'deception'],
-    notes: "",
-    level: 4
-});
+    level: 4});
 
 CREATE (c:CONTENT {
     name: "content.TRAGEDY IN CHURCH",

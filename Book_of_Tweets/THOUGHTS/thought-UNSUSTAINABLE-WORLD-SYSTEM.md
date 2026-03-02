@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 26-Feb-2012a)
-CREATE (t:THOUGHT {
-    name: "thought.UNSUSTAINABLE WORLD SYSTEM",
+CREATE (t:THOUGHT {    name: "thought.UNSUSTAINABLE WORLD SYSTEM",
     alias: "Thought: Unsustainable World System",
     parent: "topic.HUMANITY",
     tags: ['humanity', 'world', 'society', 'bible', 'truth'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.UNSUSTAINABLE WORLD SYSTEM",

@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 01-Aug-2013c)
-CREATE (t:THOUGHT {
-    name: "thought.SHOULD BE VS WILL BE",
+CREATE (t:THOUGHT {    name: "thought.SHOULD BE VS WILL BE",
     alias: "Thought: Should Be Vs Will Be",
     parent: "topic.DIVINE SOVEREIGNTY",
     tags: ['sovereignty', 'time', 'prophecy', 'destiny', 'future'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.SHOULD BE VS WILL BE",

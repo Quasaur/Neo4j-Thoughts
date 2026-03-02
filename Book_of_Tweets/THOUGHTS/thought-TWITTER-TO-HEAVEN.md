@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 10-Oct-2011b)
-CREATE (t:THOUGHT {
-    name: "thought.TWITTER TO HEAVEN",
+CREATE (t:THOUGHT {    name: "thought.TWITTER TO HEAVEN",
     alias: "Thought: Twitter To Heaven",
     parent: "topic.SPIRITUALITY",
     tags: ['heaven', 'desire', 'compassion', 'followers', 'eternity'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.TWITTER TO HEAVEN",

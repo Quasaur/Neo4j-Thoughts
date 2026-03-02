@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 22-Sep-2010)
-CREATE (t:THOUGHT {
-    name: "thought.FLESH VS SPIRIT",
+CREATE (t:THOUGHT {    name: "thought.FLESH VS SPIRIT",
     alias: "Thought: Flesh Vs Spirit",
     parent: "topic.SPIRITUALITY",
     tags: ['flesh', 'spirit', 'crucifixion', 'subjection', 'sanctification'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.FLESH VS SPIRIT",

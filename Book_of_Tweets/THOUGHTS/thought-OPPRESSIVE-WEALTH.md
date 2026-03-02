@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 13-May-2012)
-CREATE (t:THOUGHT {
-    name: "thought.OPPRESSIVE WEALTH",
+CREATE (t:THOUGHT {    name: "thought.OPPRESSIVE WEALTH",
     alias: "Thought: Oppressive Wealth",
     parent: "topic.MORALITY",
     tags: ['wealth', 'oppression', 'justice', 'bible', 'accuracy', 'morality'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.OPPRESSIVE WEALTH",

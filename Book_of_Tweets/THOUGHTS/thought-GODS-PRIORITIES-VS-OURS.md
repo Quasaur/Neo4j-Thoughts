@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 23-Nov-2013)
-CREATE (t:THOUGHT {
-    name: "thought.GODS PRIORITIES VS OURS",
+CREATE (t:THOUGHT {    name: "thought.GODS PRIORITIES VS OURS",
     alias: "Thought: Gods Priorities Vs Ours",
     parent: "topic.THE GODHEAD",
     tags: ['priorities', 'importance', 'god', 'humanity'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.GODS PRIORITIES VS OURS",

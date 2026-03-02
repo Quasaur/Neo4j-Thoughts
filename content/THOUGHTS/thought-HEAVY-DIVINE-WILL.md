@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 23-Jul-2011d)
-CREATE (t:THOUGHT {
-    name: "thought.HEAVY DIVINE WILL",
+CREATE (t:THOUGHT {    name: "thought.HEAVY DIVINE WILL",
     alias: "Thought: Heavy Divine Will",
     parent: "topic.DIVINE SOVEREIGNTY",
     tags: ['will', 'prayer', 'mercy', 'sovereignty', 'power'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.HEAVY DIVINE WILL",

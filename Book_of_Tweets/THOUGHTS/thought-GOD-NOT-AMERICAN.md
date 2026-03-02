@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 27-Mar-2012)
-CREATE (t:THOUGHT {
-    name: "thought.GOD NOT AMERICAN",
+CREATE (t:THOUGHT {    name: "thought.GOD NOT AMERICAN",
     alias: "Thought: God Not American",
     parent: "topic.THE GODHEAD",
     tags: ['god', 'politics', 'nation', 'character', 'truth'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.GOD NOT AMERICAN",

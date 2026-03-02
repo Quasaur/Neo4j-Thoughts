@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 17-Oct-2011a)
-CREATE (t:THOUGHT {
-    name: "thought.LIFE FROM INORGANIC",
+CREATE (t:THOUGHT {    name: "thought.LIFE FROM INORGANIC",
     alias: "Thought: Life From Inorganic",
     parent: "topic.TRUTH",
     tags: ['life', 'biology', 'creation', 'origin', 'god'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.LIFE FROM INORGANIC",

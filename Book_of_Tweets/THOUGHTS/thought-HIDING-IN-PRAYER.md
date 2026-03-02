@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 20-Jul-2013e)
-CREATE (t:THOUGHT {
-    name: "thought.HIDING IN PRAYER",
+CREATE (t:THOUGHT {    name: "thought.HIDING IN PRAYER",
     alias: "Thought: Hiding In Prayer",
     parent: "topic.SPIRITUALITY",
     tags: ['prayer', 'world', 'hiding', 'spirituality', 'presence'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.HIDING IN PRAYER",

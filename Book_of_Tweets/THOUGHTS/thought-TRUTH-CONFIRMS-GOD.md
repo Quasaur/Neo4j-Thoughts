@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 15-Oct-2013)
-CREATE (t:THOUGHT {
-    name: "thought.TRUTH CONFIRMS GOD",
+CREATE (t:THOUGHT {    name: "thought.TRUTH CONFIRMS GOD",
     alias: "Thought: Truth Confirms God",
     parent: "topic.TRUTH",
     tags: ['truth', 'existence', 'god', 'denial', 'philosophy'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.TRUTH CONFIRMS GOD",

@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 23-Nov-2011a)
-CREATE (t:THOUGHT {
-    name: "thought.SPARED ON FREEWAY",
+CREATE (t:THOUGHT {    name: "thought.SPARED ON FREEWAY",
     alias: "Thought: Spared On Freeway",
     parent: "topic.SPIRITUALITY",
     tags: ['providence', 'protection', 'miracle', 'gratitude', 'safety'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.SPARED ON FREEWAY",

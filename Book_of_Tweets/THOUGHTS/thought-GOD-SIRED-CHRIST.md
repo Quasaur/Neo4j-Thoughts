@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 02-Oct-2013)
-CREATE (t:THOUGHT {
-    name: "thought.GOD SIRED CHRIST",
+CREATE (t:THOUGHT {    name: "thought.GOD SIRED CHRIST",
     alias: "Thought: God Sired Christ",
     parent: "topic.THE GODHEAD",
     tags: ['christ', 'begotten', 'sired', 'god', 'divinity'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.GOD SIRED CHRIST",

@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 16-Sep-2013d)
-CREATE (t:THOUGHT {
-    name: "thought.CHANGING EVIL TO RIGHTEOUS",
+CREATE (t:THOUGHT {    name: "thought.CHANGING EVIL TO RIGHTEOUS",
     alias: "Thought: Changing Evil To Righteous",
     parent: "topic.THE GODHEAD",
     tags: ['transformation', 'grace', 'genius', 'god', 'divinity'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.CHANGING EVIL TO RIGHTEOUS",

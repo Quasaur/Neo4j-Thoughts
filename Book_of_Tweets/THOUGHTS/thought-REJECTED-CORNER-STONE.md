@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 20-Dec-2013)
-CREATE (t:THOUGHT {
-    name: "thought.REJECTED CORNER STONE",
+CREATE (t:THOUGHT {    name: "thought.REJECTED CORNER STONE",
     alias: "Thought: Rejected Corner Stone",
     parent: "topic.RELIGION",
     tags: ['stone', 'builders', 'rejection', 'jesus'],
-    notes: "",
-    level: 4
-});
+    level: 4});
 
 CREATE (c:CONTENT {
     name: "content.REJECTED CORNER STONE",

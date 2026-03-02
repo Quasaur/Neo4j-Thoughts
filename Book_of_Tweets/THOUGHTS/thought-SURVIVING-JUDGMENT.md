@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md
-CREATE (t:THOUGHT {
-    name: "thought.SURVIVING JUDGMENT",
+CREATE (t:THOUGHT {    name: "thought.SURVIVING JUDGMENT",
     alias: "Thought: SURVIVING JUDGMENT",
     parent: "topic.THE GOSPEL",
     tags: ["salvation", "judgment", "sinner", "survival", "gospel"],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.SURVIVING JUDGMENT",

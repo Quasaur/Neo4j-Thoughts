@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 05-May-2011b)
-CREATE (t:THOUGHT {
-    name: "thought.JUDGMENT OF NATIONS",
+CREATE (t:THOUGHT {    name: "thought.JUDGMENT OF NATIONS",
     alias: "Thought: Judgment Of Nations",
     parent: "topic.APOCALYPSE",
     tags: ['judgment', 'nations', 'politics', 'repentance', 'sovereignty'],
-    notes: "",
-    level: 5
-});
+    level: 5});
 
 CREATE (c:CONTENT {
     name: "content.JUDGMENT OF NATIONS",

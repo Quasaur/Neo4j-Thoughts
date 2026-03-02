@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 09-Aug-2010)
-CREATE (t:THOUGHT {
-    name: "thought.SACRIFICE IN SERVICE",
+CREATE (t:THOUGHT {    name: "thought.SACRIFICE IN SERVICE",
     alias: "Thought: Sacrifice In Service",
     parent: "topic.WORSHIP",
     tags: ['sacrifice', 'service', 'worship', 'devotion', 'commitment'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.SACRIFICE IN SERVICE",

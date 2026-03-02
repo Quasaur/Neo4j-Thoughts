@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 21-Aug-2011)
-CREATE (t:THOUGHT {
-    name: "thought.HUMAN BREATHS DAILY",
+CREATE (t:THOUGHT {    name: "thought.HUMAN BREATHS DAILY",
     alias: "Thought: Human Breaths Daily",
     parent: "topic.BIOLOGY",
     tags: ['creation', 'biology', 'life', 'breath', 'power'],
-    notes: "",
-    level: 6
-});
+    level: 6});
 
 CREATE (c:CONTENT {
     name: "content.HUMAN BREATHS DAILY",

@@ -12,14 +12,11 @@ neo4j: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 16-Feb-2011)
-CREATE (t:THOUGHT {
-    name: "thought.TWO GARDENS",
+CREATE (t:THOUGHT {    name: "thought.TWO GARDENS",
     alias: "Thought: Two Gardens",
     parent: "topic.SOTERIOLOGY",
     tags: ['bible', 'creation', 'eden', 'paradise', 'symbolism'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.TWO GARDENS",

@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 17-Sep-2013a)
-CREATE (t:THOUGHT {
-    name: "thought.EATING BREATHING DEATH",
+CREATE (t:THOUGHT {    name: "thought.EATING BREATHING DEATH",
     alias: "Thought: Eating Breathing Death",
     parent: "topic.MORALITY",
     tags: ['health', 'body', 'death', 'morality', 'healthcare'],
-    notes: "",
-    level: 3
-});
+    level: 3});
 
 CREATE (c:CONTENT {
     name: "content.EATING BREATHING DEATH",

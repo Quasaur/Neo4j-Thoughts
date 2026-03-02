@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 20-Jul-2013f)
-CREATE (t:THOUGHT {
-    name: "thought.UNCONDITIONAL LOVE PRAYER",
+CREATE (t:THOUGHT {    name: "thought.UNCONDITIONAL LOVE PRAYER",
     alias: "Thought: Unconditional Love Prayer",
     parent: "topic.SPIRITUALITY",
     tags: ['prayer', 'love', 'acceptance', 'spirituality', 'presence'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.UNCONDITIONAL LOVE PRAYER",

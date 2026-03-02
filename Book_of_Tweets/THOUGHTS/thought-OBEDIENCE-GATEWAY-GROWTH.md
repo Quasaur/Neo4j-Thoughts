@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 28-Apr-2014)
-CREATE (t:THOUGHT {
-    name: "thought.OBEDIENCE GATEWAY GROWTH",
+CREATE (t:THOUGHT {    name: "thought.OBEDIENCE GATEWAY GROWTH",
     alias: "Thought: Obedience Gateway Growth",
     parent: "topic.SPIRITUALITY",
     tags: ['obedience', 'growth', 'gateway', 'spirituality'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.OBEDIENCE GATEWAY GROWTH",

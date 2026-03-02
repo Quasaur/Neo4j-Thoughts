@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 24-Nov-2011a)
-CREATE (t:THOUGHT {
-    name: "thought.RECONCILING IN CHRIST",
+CREATE (t:THOUGHT {    name: "thought.RECONCILING IN CHRIST",
     alias: "Thought: Reconciling In Christ",
     parent: "topic.THE GODHEAD",
     tags: ['reconciliation', 'christ', 'consolidation', 'bible', 'divinity'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.RECONCILING IN CHRIST",

@@ -12,14 +12,12 @@ neo4j: true
 
 ```Cypher
 //create the Thought with the same fields as a normal thought
-CREATE (q:QUOTE {
-	    name: "quote.HEAVENLY-FOOD",
+CREATE (q:QUOTE {	    name: "quote.HEAVENLY-FOOD",
 		alias: "Quote: Spiritual Nourishment", 
 		parent: "topic.SPIRITUALITY", 
 		tags: ["fullness", "satisfaction", "nourishment", "heavenly_food", "bread_of_life"], 
 		source: "The Basics and More: A Year's Sermons",
 		booklink: "https://www.amazon.com/Basics-More-Years-Sermons-ebook/dp/B00XLMBDR8",
-		notes: "",
 		level: 2});
 // create multi-lingual content		
 CREATE (c:CONTENT {

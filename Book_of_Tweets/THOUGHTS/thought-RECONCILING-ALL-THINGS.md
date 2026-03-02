@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 24-Nov-2011b)
-CREATE (t:THOUGHT {
-    name: "thought.RECONCILING ALL THINGS",
+CREATE (t:THOUGHT {    name: "thought.RECONCILING ALL THINGS",
     alias: "Thought: Reconciling All Things",
     parent: "topic.THE GODHEAD",
     tags: ["reconciliation", "christ", "sovereignty", "consolidation", "divinity"],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.RECONCILING ALL THINGS",

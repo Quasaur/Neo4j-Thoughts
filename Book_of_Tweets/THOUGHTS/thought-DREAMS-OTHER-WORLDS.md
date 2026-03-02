@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 07-Sep-2011)
-CREATE (t:THOUGHT {
-    name: "thought.DREAMS OTHER WORLDS",
+CREATE (t:THOUGHT {    name: "thought.DREAMS OTHER WORLDS",
     alias: "Thought: Dreams Other Worlds",
     parent: "topic.PHILOSOPHY",
     tags: ['philosophy', 'dreams', 'existence', 'universe', 'imagination'],
-    notes: "",
-    level: 4
-});
+    level: 4});
 
 CREATE (c:CONTENT {
     name: "content.DREAMS OTHER WORLDS",

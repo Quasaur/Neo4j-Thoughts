@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 01-Aug-2013b)
-CREATE (t:THOUGHT {
-    name: "thought.EVIL NO CHANCE",
+CREATE (t:THOUGHT {    name: "thought.EVIL NO CHANCE",
     alias: "Thought: Evil No Chance",
     parent: "topic.THE GODHEAD",
     tags: ['god', 'evil', 'victory', 'majesty', 'divinity'],
-    notes: "",
-    level: 1
-});
+    level: 1});
 
 CREATE (c:CONTENT {
     name: "content.EVIL NO CHANCE",

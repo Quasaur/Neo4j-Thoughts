@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 05-Apr-2012b)
-CREATE (t:THOUGHT {
-    name: "thought.TWO TYPES CHURCHES",
+CREATE (t:THOUGHT {    name: "thought.TWO TYPES CHURCHES",
     alias: "Thought: Two Types Churches",
     parent: "topic.RELIGION",
     tags: ['church', 'eternity', 'election', 'religion', 'institutions'],
-    notes: "",
-    level: 4
-});
+    level: 4});
 
 CREATE (c:CONTENT {
     name: "content.TWO TYPES CHURCHES",

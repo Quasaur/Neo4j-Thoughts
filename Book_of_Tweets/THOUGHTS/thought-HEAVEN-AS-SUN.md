@@ -12,14 +12,11 @@ neo4j: false
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 17-Dec-2012)
-CREATE (t:THOUGHT {
-    name: "thought.HEAVEN AS SUN",
+CREATE (t:THOUGHT {    name: "thought.HEAVEN AS SUN",
     alias: "Thought: Heaven As Sun",
     parent: "topic.SPIRITUALITY",
     tags: ['heaven', 'sun', 'metaphor', 'eternity', 'light'],
-    notes: "",
-    level: 2
-});
+    level: 2});
 
 CREATE (c:CONTENT {
     name: "content.HEAVEN AS SUN",
