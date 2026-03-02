@@ -93,12 +93,10 @@ tā bì bǎoshǒu nǐ de jiǎo bù bèi bàn dào."});
 // link content to node
 MATCH (p:PASSAGE {name: 'passage.SECURITY (2)'})
 MATCH (c:CONTENT {name: 'content.SECURITY (2)'})
-MERGE (p)-[:HAS_CONTENT {name: "p.edge.SECURITY (2)"}]->(c)
-RETURN *;
+MERGE (p)-[:HAS_CONTENT {name: "p.edge.SECURITY (2)"}]->(c);
 // link node to parent node
 MATCH (parent:TOPIC {name: 'topic.WISDOM'})
 MATCH (child:PASSAGE {name: 'passage.SECURITY (2)'})
-MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.WISDOM->SECURITY (2)"}]->(child)
-RETURN *;
+MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.WISDOM->SECURITY (2)"}]->(child);
 
 ```

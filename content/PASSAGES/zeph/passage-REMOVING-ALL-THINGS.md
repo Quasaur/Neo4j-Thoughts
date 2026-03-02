@@ -3,7 +3,15 @@ type: PASSAGE
 name: "passage.REMOVING ALL THINGS"
 alias: "Passage: Removing All Things"
 parent: "topic.DIVINE SOVEREIGNTY"
-en_content: "\"I will completely remove all things from the face of the earth.\""
+en_content: "\"
+ es_title: "Eliminando todas las cosas"
+ es_content: ""
+ fr_title: "Supprimer toutes choses"
+ fr_content: ""
+ hi_title: "सभी चीज़ें हटाना"
+ hi_content: ""
+ zh_title: "shān chú suǒ yǒu dōng xī"
+ zh_content: ""
 tags: ["judgment", "sovereignty", "bible", "earth", "prophecy"]
 ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
 level: 2
@@ -11,35 +19,40 @@ neo4j: true
 ---
 
 ```Cypher
-CREATE (t:PASSAGE {
+// CREATE PASSAGE
+CREATE (b:PASSAGE {
     name: "passage.REMOVING ALL THINGS",
     alias: "Passage: Removing All Things",
     parent: "topic.DIVINE SOVEREIGNTY",
     tags: ["judgment", "sovereignty", "bible", "earth", "prophecy"],
-
-    level: 2                   
+    source: "",
+    sortedsource: "",
+    biblelink: "()",
+    level: 2
 });
 
+// CREATE CONTENT
 CREATE (c:CONTENT {
-    name: "content.REMOVING ALL THINGS",
+    name: "content.REMOVING",
     ctype: "PASSAGE",
     en_title: "Removing All Things",
-    en_content: "\"I will completely remove all things from the face of the earth.\"",
-    es_title: "Eliminando todas las cosas",
-    es_content: "«Eliminaré por completo todas las cosas de la faz de la tierra», — Dios",
-    fr_title: "Suppression de toutes choses",
-    fr_content: "« Je supprimerai complètement toutes choses de la surface de la terre », — Dieu",
-    hi_title: "सभी चीज़ों को हटाना",
-    hi_content: ""\मैं धरती की सतह से सभी चीज़ों को पूरी तरह हटा दूँगा,"\ -- ईश्वर",
-    zh_title: "Qīngchú wànwù",
-    zh_content: "“\wǒ bì jiāng dìshàng de yīqiè chèdǐ qīngchú.”\——Shàngdì"
+    en_content: "\",
+ es_title: "Eliminando todas las cosas",
+ es_content: "",
+ fr_title: "Supprimer toutes choses",
+ fr_content: "",
+ hi_title: "सभी चीज़ें हटाना",
+ hi_content: "",
+ zh_title: "shān chú suǒ yǒu dōng xī",
+ zh_content: ""
 });
 
-MATCH (t:PASSAGE {name: "passage.REMOVING ALL THINGS"})
-MATCH (c:CONTENT {name: "content.REMOVING ALL THINGS"})
-MERGE (t)-[:HAS_CONTENT {name: "p.edge.REMOVING ALL THINGS"}]->(c);
+// LINK CONTENT
+MATCH (b:PASSAGE {name: "passage.REMOVING ALL THINGS"})
+MATCH (c:CONTENT {name: "content.REMOVING"})
+MERGE (b)-[:HAS_CONTENT {name: "p.edge.REMOVING ALL THINGS"}]->(c);
 
+// LINK PARENT
 MATCH (parent:TOPIC {name: "topic.DIVINE SOVEREIGNTY"})
 MATCH (child:PASSAGE {name: "passage.REMOVING ALL THINGS"})
-MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.DIVINE SOVEREIGNTY->REMOVING ALL THINGS"}]->(child);
-```
+MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.b.DIVINE SOVEREIGNTY->REMOVING ALL THINGS"}]->(child);

@@ -3,7 +3,15 @@ type: QUOTE
 name: "quote.FOREKNOWN"
 alias: "Quote: Quote: FOREKNOWN"
 parent: "topic.DIVINE-SOVEREIGNTY"
-en_content: "To save you from the coming Wrath GOD must KNOW you."
+en_content: "To save you from the coming Wrath GOD must KNOW you.",
+ es_title: "Cita: PREVISTO",
+ es_content: "Para salvarte de la ira venidera, DIOS debe CONOCERTE.",
+ fr_title: "Citation : PRÉCONNU",
+ fr_content: "Pour vous sauver de la colère à venir, DIEU doit vous CONNAÎTRE.",
+ hi_title: "उद्धरण: अज्ञात",
+ hi_content: "आपको आने वाले क्रोध से बचाने के लिए भगवान को आपको अवश्य जानना चाहिए।",
+ zh_title: "yǐn yòng ： yǐ zhī",
+ zh_content: "wèi le jiāng nǐ cóng jí jiāng dào lái de fèn nù zhōng zhěng jiù chū lái ， shàng dì bì xū rèn shí nǐ 。"
 tags: ["foreknowledge", "god", "intimacy", "jesus_christ", "eternity"]
 ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
 level: 2
@@ -27,7 +35,15 @@ CREATE (c:CONTENT {
     name: "content.FOREKNOWN",
     ctype: "QUOTE",
     en_title: "Quote: FOREKNOWN",
-    en_content: "To save you from the coming Wrath GOD must KNOW you."
+    en_content: "To save you from the coming Wrath GOD must KNOW you.",
+ es_title: "Cita: PREVISTO",
+ es_content: "Para salvarte de la ira venidera, DIOS debe CONOCERTE.",
+ fr_title: "Citation : PRÉCONNU",
+ fr_content: "Pour vous sauver de la colère à venir, DIEU doit vous CONNAÎTRE.",
+ hi_title: "उद्धरण: अज्ञात",
+ hi_content: "आपको आने वाले क्रोध से बचाने के लिए भगवान को आपको अवश्य जानना चाहिए।",
+ zh_title: "yǐn yòng ： yǐ zhī",
+ zh_content: "wèi le jiāng nǐ cóng jí jiāng dào lái de fèn nù zhōng zhěng jiù chū lái ， shàng dì bì xū rèn shí nǐ 。"
 });
 
 // LINK CONTENT

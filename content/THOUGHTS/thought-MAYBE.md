@@ -22,7 +22,15 @@ CREATE (c:CONTENT {
     name: "content.MAYBE",
     ctype: "THOUGHT",
     en_title: "MAYBE",
-    en_content: ""
+ es_title: "TAL VEZ",
+ fr_title: "PEUT ÊTRE",
+ hi_title: "शायद",
+ zh_title: "huò xǔ",
+    en_content: "",
+ es_content: "Tal vez... sólo tal vez... tal vez los monstruos también necesiten amor.",
+ fr_content: "Peut-être... juste peut-être... peut-être que les monstres ont aussi besoin d'amour.",
+ hi_content: "शायद...बस शायद...शायद राक्षसों को भी प्यार की ज़रूरत है।",
+ zh_content: "yě xǔ …… zhǐ shì yě xǔ …… yě xǔ guài wù yě xū yào ài 。"
 });
 
 MATCH (t:THOUGHT)

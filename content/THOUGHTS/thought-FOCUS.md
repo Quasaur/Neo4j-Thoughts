@@ -22,7 +22,15 @@ CREATE (c:CONTENT {
     name: "content.FOCUS",
     ctype: "THOUGHT",
     en_title: "FOCUS",
-    en_content: ""
+ es_title: "ENFOCAR",
+ fr_title: "SE CONCENTRER",
+ hi_title: "केंद्र",
+ zh_title: "zhòng diǎn",
+    en_content: "",
+ es_content: "Cuando tu espalda está contra la pared, no tienes que mirar hacia atrás.",
+ fr_content: "Lorsque vous êtes dos au mur, vous n’avez pas besoin de regarder derrière vous.",
+ hi_content: "जब आपकी पीठ दीवार से सटी हो तो आपको पीछे देखने की जरूरत नहीं है।",
+ zh_content: "dāng nǐ bèi kào qiáng shí ， nǐ bù bì xiàng hòu kàn 。"
 });
 
 MATCH (t:THOUGHT)

@@ -22,7 +22,15 @@ CREATE (c:CONTENT {
     name: "content.AMBITION",
     ctype: "THOUGHT",
     en_title: "AMBITION",
-    en_content: ""
+ es_title: "AMBICIÓN",
+ fr_title: "AMBITION",
+ hi_title: "महत्वाकांक्षा",
+ zh_title: "zhì xiàng",
+    en_content: "",
+ es_content: "¡Dios es todo lo que quieres ser!",
+ fr_content: "Dieu est tout ce que vous voulez être !",
+ hi_content: "ईश्वर वह सब कुछ है जो आप बनना चाहते हैं!",
+ zh_content: "shén jiù shì nǐ xiǎng chéng wéi de yī qiè ！"
 });
 
 MATCH (t:THOUGHT)

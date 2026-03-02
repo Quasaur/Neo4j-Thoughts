@@ -22,7 +22,15 @@ CREATE (c:CONTENT {
     name: "content.VOLITION3",
     ctype: "THOUGHT",
     en_title: "THIRD VOLITION",
-    en_content: ""
+ es_title: "TERCERA VOLICIÓN",
+ fr_title: "TROISIÈME VOLITION",
+ hi_title: "तीसरी इच्छा",
+ zh_title: "dì sān cì yì yuàn",
+    en_content: "",
+ es_content: "El libre albedrío es genial... siempre y cuando tomes las decisiones que Dios aprueba.",
+ fr_content: "Le libre arbitre est formidable… tant que vous faites les choix que Dieu approuve.",
+ hi_content: "स्वतंत्र इच्छा महान है...जब तक आप वही विकल्प चुन रहे हैं जो ईश्वर को मंजूर है।",
+ zh_content: "zì yóu yì zhì shì wěi dà de …… zhǐ yào nǐ zuò chū shàng dì rèn kě de xuǎn zé 。"
 });
 
 MATCH (t:THOUGHT)

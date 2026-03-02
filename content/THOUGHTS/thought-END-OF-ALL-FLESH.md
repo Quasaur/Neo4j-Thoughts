@@ -3,7 +3,15 @@ type: THOUGHT
 name: "thought.END OF ALL FLESH"
 alias: "Thought: End Of All Flesh"
 parent: "topic.DIVINE SOVEREIGNTY"
-en_content: "\"The end of all flesh is come before Me...\" -- God"
+en_content: "\"
+ es_title: "Fin de toda carne"
+ es_content: ""
+ fr_title: "Fin de toute chair"
+ fr_content: ""
+ hi_title: "सभी मांस का अंत"
+ hi_content: ""
+ zh_title: "suǒ yǒu ròu tǐ de zhōng jié"
+ zh_content: ""
 tags: ["judgment", "sovereignty", "end_times", "justice", "divinity"]
 ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
 level: 2
@@ -11,33 +19,35 @@ neo4j: true
 ---
 
 ```Cypher
-// Generated from Book6E-FINAL.md (ID: 01-Oct-2010)
-CREATE (t:THOUGHT {    name: "thought.END OF ALL FLESH",
+CREATE (t:THOUGHT {
+    name: "thought.END OF ALL FLESH",
     alias: "Thought: End Of All Flesh",
     parent: "topic.DIVINE SOVEREIGNTY",
-    tags: ['judgment', 'sovereignty', 'end_times', 'justice', 'divinity'],
-    level: 2});
-
-CREATE (c:CONTENT {
-    name: "content.END OF ALL FLESH",
-    ctype: "THOUGHT",
-    en_title: "End Of All Flesh",
-    en_content: "\"The end of all flesh is come before Me...\" -- God",
-    es_title: "Fin de toda carne",
-    es_content: "",
-    fr_title: "Fin de toute chair",
-    fr_content: "",
-    hi_title: "सभी मांस का अंत",
-    hi_content: "",
-    zh_title: "所有肉体的终结",
-    zh_content: ""
+    tags: ["judgment", "sovereignty", "end_times", "justice", "divinity"],
+    level: 2
 });
 
-MATCH (t:THOUGHT {name: "thought.END OF ALL FLESH"})
-MATCH (c:CONTENT {name: "content.END OF ALL FLESH"})
-MERGE (t)-[:HAS_CONTENT { "name": "edge.END OF ALL FLESH" }]->(c);
+CREATE (c:CONTENT {
+    name: "content.END",
+    ctype: "THOUGHT",
+    en_title: "End Of All Flesh",
+    en_content: "\",
+ es_title: "Fin de toda carne",
+ es_content: "",
+ fr_title: "Fin de toute chair",
+ fr_content: "",
+ hi_title: "सभी मांस का अंत",
+ hi_content: "",
+ zh_title: "suǒ yǒu ròu tǐ de zhōng jié",
+ zh_content: ""
+});
 
-MATCH (parent:TOPIC {name: "topic.DIVINE SOVEREIGNTY"})
-MATCH (child:THOUGHT {name: "thought.END OF ALL FLESH"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "DIVINE SOVEREIGNTY->END OF ALL FLESH" }]->(child);
-```
+MATCH (t:THOUGHT)
+MATCH (c:CONTENT)
+WHERE t.name = "thought.END OF ALL FLESH" AND c.name = "content.END"
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.END OF ALL FLESH"}]->(c);
+
+MATCH (parent:TOPIC)
+MATCH (child:THOUGHT)
+WHERE parent.name = "topic.DIVINE SOVEREIGNTY" AND child.name = "thought.END OF ALL FLESH"
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.DIVINE SOVEREIGNTY->END OF ALL FLESH"}]->(child);

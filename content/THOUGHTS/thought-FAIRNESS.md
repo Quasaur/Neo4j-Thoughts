@@ -22,7 +22,15 @@ CREATE (c:CONTENT {
     name: "content.FAIRNESS",
     ctype: "THOUGHT",
     en_title: "FAIRNESS",
-    en_content: ""
+ es_title: "JUSTICIA",
+ fr_title: "JUSTICE",
+ hi_title: "फेयरनेस",
+ zh_title: "gōng píng xìng",
+    en_content: "",
+ es_content: "La misericordia nunca es justa.",
+ fr_content: "La miséricorde n'est jamais juste.",
+ hi_content: "दया कभी भी उचित नहीं होती.",
+ zh_content: "lián mǐn cóng lái dōu bú shì gōng píng de 。"
 });
 
 MATCH (t:THOUGHT)

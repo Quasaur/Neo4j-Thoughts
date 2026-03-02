@@ -22,7 +22,15 @@ CREATE (c:CONTENT {
     name: "content.WORSHIP",
     ctype: "THOUGHT",
     en_title: "WORSHIP",
-    en_content: ""
+ es_title: "CULTO",
+ fr_title: "CULTE",
+ hi_title: "पूजा",
+ zh_title: "chóng bài",
+    en_content: "",
+ es_content: "Una vida de oración sin adoración siempre será incompleta; un niño nacido muerto.",
+ fr_content: "Une vie de prière sans culte sera toujours incomplète ; un enfant mort-né.",
+ hi_content: "आराधना के बिना प्रार्थना जीवन सदैव अधूरा रहेगा; एक मृत बच्चा.",
+ zh_content: "méi yǒu jìng bài de dǎo gào shēng huó yǒng yuǎn shì bù wán zhěng de ； méi yǒu jìng bài de dǎo gào shēng huó yǒng yuǎn shì bù wán zhěng de 。 yí gè sǐ chǎn de hái zi"
 });
 
 MATCH (t:THOUGHT)

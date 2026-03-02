@@ -39,13 +39,11 @@ Ninguno de los horrores más oscuros inventados por la fuerza demoníaca más ma
 MATCH (q:QUOTE)
 MATCH (c:CONTENT)
 WHERE q.name = "quote.GOODNESS OF GOD" AND c.name = "content.GOODNESS OF GOD"
-MERGE (q)-[:HAS_CONTENT {name: "q.edge.GOODNESS OF GOD"}]->(c)
-RETURN *;
+MERGE (q)-[:HAS_CONTENT {name: "q.edge.GOODNESS OF GOD"}]->(c);
 // link node to parent node
 MATCH (parent:TOPIC)
 MATCH (child:QUOTE)
 WHERE parent.name = "topic.THE GODHEAD" AND child.name = "quote.GOODNESS OF GOD"
-MERGE (parent)-[:HAS_QUOTE {name: "q.edge.THE GODHEAD->GOODNESS OF GOD"}]->(child)
-RETURN *;
+MERGE (parent)-[:HAS_QUOTE {name: "q.edge.THE GODHEAD->GOODNESS OF GOD"}]->(child);
 
 ```

@@ -34,8 +34,7 @@ CREATE (d:DESCRIPTION {
 MATCH (t:TOPIC)
 MATCH (d:DESCRIPTION)
 WHERE t.name = "topic.NULL TOPIC" AND d.name = "desc.NULL_TOPIC"
-MERGE (t)-[:HAS_DESCRIPTION {name: "edge.NULL_TOPIC"}]->(d)
-RETURN *;
+MERGE (t)-[:HAS_DESCRIPTION {name: "edge.NULL_TOPIC"}]->(d);
 CREATE INDEX FOR (t:TOPIC) ON (t.name);
 CREATE INDEX FOR (d:DESCRIPTION) ON (d.name);
 ```

@@ -22,7 +22,15 @@ CREATE (c:CONTENT {
     name: "content.DEBT",
     ctype: "THOUGHT",
     en_title: "DEBT",
-    en_content: ""
+    en_content: "A nation of debtors is a nation of slaves.",
+ es_title: "DEUDA",
+ es_content: "Una nación de deudores es una nación de esclavos.",
+ fr_title: "DETTE",
+ fr_content: "Une nation de débiteurs est une nation d’esclaves.",
+ hi_title: "ऋृण",
+ hi_content: "कर्ज़दारों का राष्ट्र गुलामों का राष्ट्र होता है।",
+ zh_title: "zhài wù",
+ zh_content: "yí gè zhài wù rén de guó jiā jiù shì yí gè nú lì de guó jiā 。"
 });
 
 MATCH (t:THOUGHT)

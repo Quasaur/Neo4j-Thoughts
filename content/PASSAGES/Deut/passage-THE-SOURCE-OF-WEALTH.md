@@ -40,12 +40,10 @@ CREATE (c:CONTENT {
 MATCH (b:PASSAGE)
 MATCH (c:CONTENT)
 WHERE b.name = "passage.THE SOURCE OF WEALTH" AND c.name = "content.THE SOURCE OF WEALTH"
-MERGE (b)-[:HAS_CONTENT {name: "b.edge.THE SOURCE OF WEALTH"}]->(c)
-RETURN *;
+MERGE (b)-[:HAS_CONTENT {name: "b.edge.THE SOURCE OF WEALTH"}]->(c);
 // link node to parent node
 MATCH (parent:TOPIC {name: "topic.WEALTH"})
 MATCH (child:PASSAGE {name: "passage.THE SOURCE OF WEALTH"})
-MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.b.WEALTH->THE SOURCE OF WEALTH"}]->(child)
-RETURN *;
+MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.b.WEALTH->THE SOURCE OF WEALTH"}]->(child);
 
 ```

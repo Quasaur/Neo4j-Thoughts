@@ -3,7 +3,15 @@ type: QUOTE
 name: "quote.EVIL_IDENTIFIED"
 alias: "Quote: Quote: EVIL IDENTIFIED"
 parent: "topic.EVIL"
-en_content: "Evil is not identified by works alone but by the absence of GOD in the human heart. The most altruistic soul walking the Earth today without Christ Jesus is just as damned as the most prolific serial killer."
+en_content: "Evil is not identified by works alone but by the absence of GOD in the human heart. The most altruistic soul walking the Earth today without Christ Jesus is just as damned as the most prolific serial killer.",
+ es_title: "Cita: MAL IDENTIFICADO",
+ es_content: "El mal no se identifica sólo por las obras sino por la ausencia de DIOS en el corazón humano. El alma más altruista que hoy camina por la Tierra sin Cristo Jesús está tan condenada como el asesino en serie más prolífico.",
+ fr_title: "Citation : LE MAL IDENTIFIÉ",
+ fr_content: "Le mal ne s'identifie pas seulement aux œuvres mais à l'absence de DIEU dans le cœur humain. L’âme la plus altruiste qui marche sur Terre aujourd’hui sans Jésus-Christ est tout aussi damnée que le tueur en série le plus prolifique.",
+ hi_title: "उद्धरण: बुराई की पहचान हो गई",
+ hi_content: "बुराई की पहचान केवल कार्यों से नहीं बल्कि मानव हृदय में ईश्वर की अनुपस्थिति से होती है। मसीह यीशु के बिना आज पृथ्वी पर चलने वाली सबसे परोपकारी आत्मा सबसे विपुल सीरियल किलर के समान ही अभिशप्त है।",
+ zh_title: "yǐn yòng ： xié è yǐ shí bié",
+ zh_content: "xié è bù jǐn jǐn qǔ jué yú xíng wéi ， hái qǔ jué yú rén xīn zhōng méi yǒu shàng dì 。 jīn tiān ， zài méi yǒu jī dū yē sū de qíng kuàng xià ， zài dì qiú shàng háng zǒu de zuì wú sī de líng hún jiù xiàng zuì duō chǎn de lián huán shā shǒu yī yàng shòu dào zǔ zhòu 。"
 tags: ["evil", "ungodly", "withoutgod", "humanitarian", "deadworks"]
 ptopic: "[[topic-EVIL]]"
 level: 4
@@ -27,7 +35,15 @@ CREATE (c:CONTENT {
     name: "content.EVIL_IDENTIFIED",
     ctype: "QUOTE",
     en_title: "Quote: EVIL IDENTIFIED",
-    en_content: "Evil is not identified by works alone but by the absence of GOD in the human heart. The most altruistic soul walking the Earth today without Christ Jesus is just as damned as the most prolific serial killer."
+    en_content: "Evil is not identified by works alone but by the absence of GOD in the human heart. The most altruistic soul walking the Earth today without Christ Jesus is just as damned as the most prolific serial killer.",
+ es_title: "Cita: MAL IDENTIFICADO",
+ es_content: "El mal no se identifica sólo por las obras sino por la ausencia de DIOS en el corazón humano. El alma más altruista que hoy camina por la Tierra sin Cristo Jesús está tan condenada como el asesino en serie más prolífico.",
+ fr_title: "Citation : LE MAL IDENTIFIÉ",
+ fr_content: "Le mal ne s'identifie pas seulement aux œuvres mais à l'absence de DIEU dans le cœur humain. L’âme la plus altruiste qui marche sur Terre aujourd’hui sans Jésus-Christ est tout aussi damnée que le tueur en série le plus prolifique.",
+ hi_title: "उद्धरण: बुराई की पहचान हो गई",
+ hi_content: "बुराई की पहचान केवल कार्यों से नहीं बल्कि मानव हृदय में ईश्वर की अनुपस्थिति से होती है। मसीह यीशु के बिना आज पृथ्वी पर चलने वाली सबसे परोपकारी आत्मा सबसे विपुल सीरियल किलर के समान ही अभिशप्त है।",
+ zh_title: "yǐn yòng ： xié è yǐ shí bié",
+ zh_content: "xié è bù jǐn jǐn qǔ jué yú xíng wéi ， hái qǔ jué yú rén xīn zhōng méi yǒu shàng dì 。 jīn tiān ， zài méi yǒu jī dū yē sū de qíng kuàng xià ， zài dì qiú shàng háng zǒu de zuì wú sī de líng hún jiù xiàng zuì duō chǎn de lián huán shā shǒu yī yàng shòu dào zǔ zhòu 。"
 });
 
 // LINK CONTENT

@@ -3,7 +3,15 @@ type: QUOTE
 name: "quote.THE_BOOK_OF_LIFE"
 alias: "Quote: Quote: THE BOOK OF LIFE"
 parent: "topic.DIVINE-SOVEREIGNTY"
-en_content: "As long as your name is written in the Lamb’s Book of LIFE, YOU HAVE NOTHING TO WORRY ABOUT WHATSOEVER; the Lake of Fire can do you no harm."
+en_content: "As long as your name is written in the Lamb’s Book of LIFE, YOU HAVE NOTHING TO WORRY ABOUT WHATSOEVER; the Lake of Fire can do you no harm.",
+ es_title: "Cita: EL LIBRO DE LA VIDA",
+ es_content: "Mientras tu nombre esté escrito en el Libro de la VIDA del Cordero, NO TIENES NADA DE QUÉ PREOCUPARTE; el Lago de Fuego no puede hacerte daño.",
+ fr_title: "Citation : LE LIVRE DE LA VIE",
+ fr_content: "Tant que votre nom est écrit dans le Livre de VIE de l’Agneau, VOUS N’AVEZ RIEN À VOUS INQUIÉTER DE QUOI QUE CE SOIT ; le Lac de Feu ne peut vous faire aucun mal.",
+ hi_title: "उद्धरण: जीवन की किताब",
+ hi_content: "जब तक आपका नाम मेम्ने के जीवन की पुस्तक में लिखा है, आपको किसी भी चीज़ के बारे में चिंता करने की कोई आवश्यकता नहीं है; आग की झील तुम्हें कोई हानि नहीं पहुँचा सकती।",
+ zh_title: "yǐn yòng ：《 shēng mìng zhī shū 》",
+ zh_content: "zhǐ yào nǐ de míng zì xiě zài gāo yáng de shēng mìng cè shàng ， nǐ jiù wú xū dān xīn rèn hé shì qíng ； huǒ hú bú huì duì nǐ zào chéng shāng hài 。"
 tags: ["lamb_of_god", "lake_of_fire", "book_of_life", "immunity", "fearless"]
 ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
 level: 2
@@ -27,7 +35,15 @@ CREATE (c:CONTENT {
     name: "content.THE_BOOK_OF_LIFE",
     ctype: "QUOTE",
     en_title: "Quote: THE BOOK OF LIFE",
-    en_content: "As long as your name is written in the Lamb’s Book of LIFE, YOU HAVE NOTHING TO WORRY ABOUT WHATSOEVER; the Lake of Fire can do you no harm."
+    en_content: "As long as your name is written in the Lamb’s Book of LIFE, YOU HAVE NOTHING TO WORRY ABOUT WHATSOEVER; the Lake of Fire can do you no harm.",
+ es_title: "Cita: EL LIBRO DE LA VIDA",
+ es_content: "Mientras tu nombre esté escrito en el Libro de la VIDA del Cordero, NO TIENES NADA DE QUÉ PREOCUPARTE; el Lago de Fuego no puede hacerte daño.",
+ fr_title: "Citation : LE LIVRE DE LA VIE",
+ fr_content: "Tant que votre nom est écrit dans le Livre de VIE de l’Agneau, VOUS N’AVEZ RIEN À VOUS INQUIÉTER DE QUOI QUE CE SOIT ; le Lac de Feu ne peut vous faire aucun mal.",
+ hi_title: "उद्धरण: जीवन की किताब",
+ hi_content: "जब तक आपका नाम मेम्ने के जीवन की पुस्तक में लिखा है, आपको किसी भी चीज़ के बारे में चिंता करने की कोई आवश्यकता नहीं है; आग की झील तुम्हें कोई हानि नहीं पहुँचा सकती।",
+ zh_title: "yǐn yòng ：《 shēng mìng zhī shū 》",
+ zh_content: "zhǐ yào nǐ de míng zì xiě zài gāo yáng de shēng mìng cè shàng ， nǐ jiù wú xū dān xīn rèn hé shì qíng ； huǒ hú bú huì duì nǐ zào chéng shāng hài 。"
 });
 
 // LINK CONTENT

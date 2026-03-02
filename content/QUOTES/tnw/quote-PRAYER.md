@@ -3,7 +3,15 @@ type: QUOTE
 name: "quote.PRAYER"
 alias: "Quote: Quote: PRAYER"
 parent: "topic.WORSHIP"
-en_content: "To your soul GOD BECOMES MORE REAL AND YOU (and your circumstances and situations) BECOME LESS REAL."
+en_content: "To your soul GOD BECOMES MORE REAL AND YOU (and your circumstances and situations) BECOME LESS REAL.",
+ es_title: "Cita: ORACIÓN",
+ es_content: "Para tu alma DIOS SE VUELVE MÁS REAL Y TÚ (y tus circunstancias y situaciones) SE VUELVE MENOS REAL.",
+ fr_title: "Citation : PRIÈRE",
+ fr_content: "Pour votre âme, DIEU DEVIENT PLUS RÉEL ET VOUS (ainsi que vos circonstances et situations) DEVENEZ MOINS RÉEL.",
+ hi_title: "उद्धरण: प्रार्थना",
+ hi_content: "आपकी आत्मा के लिए ईश्वर अधिक वास्तविक हो जाता है और आप (और आपकी परिस्थितियाँ और परिस्थितियाँ) कम वास्तविक हो जाते हैं।",
+ zh_title: "yǐn yòng ： qí dǎo",
+ zh_content: "duì yú nǐ de líng hún lái shuō ， shàng dì biàn dé gèng jiā zhēn shí ， ér nǐ （ yǐ jí nǐ de huán jìng hé chǔ jìng ） biàn dé bù nà me zhēn shí 。"
 tags: ["pray", "real", "god", "self", "circumstance"]
 ptopic: "[[topic-WORSHIP]]"
 level: 3
@@ -27,7 +35,15 @@ CREATE (c:CONTENT {
     name: "content.PRAYER",
     ctype: "QUOTE",
     en_title: "Quote: PRAYER",
-    en_content: "To your soul GOD BECOMES MORE REAL AND YOU (and your circumstances and situations) BECOME LESS REAL."
+    en_content: "To your soul GOD BECOMES MORE REAL AND YOU (and your circumstances and situations) BECOME LESS REAL.",
+ es_title: "Cita: ORACIÓN",
+ es_content: "Para tu alma DIOS SE VUELVE MÁS REAL Y TÚ (y tus circunstancias y situaciones) SE VUELVE MENOS REAL.",
+ fr_title: "Citation : PRIÈRE",
+ fr_content: "Pour votre âme, DIEU DEVIENT PLUS RÉEL ET VOUS (ainsi que vos circonstances et situations) DEVENEZ MOINS RÉEL.",
+ hi_title: "उद्धरण: प्रार्थना",
+ hi_content: "आपकी आत्मा के लिए ईश्वर अधिक वास्तविक हो जाता है और आप (और आपकी परिस्थितियाँ और परिस्थितियाँ) कम वास्तविक हो जाते हैं।",
+ zh_title: "yǐn yòng ： qí dǎo",
+ zh_content: "duì yú nǐ de líng hún lái shuō ， shàng dì biàn dé gèng jiā zhēn shí ， ér nǐ （ yǐ jí nǐ de huán jìng hé chǔ jìng ） biàn dé bù nà me zhēn shí 。"
 });
 
 // LINK CONTENT

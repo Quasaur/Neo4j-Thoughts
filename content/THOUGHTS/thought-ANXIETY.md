@@ -22,7 +22,15 @@ CREATE (c:CONTENT {
     name: "content.ANXIETY",
     ctype: "THOUGHT",
     en_title: "ANXIETY",
-    en_content: ""
+    en_content: "Don't worry...be obedient!",
+ es_title: "ANSIEDAD",
+ es_content: "No te preocupes... ¡sé obediente!",
+ fr_title: "ANXIÉTÉ",
+ fr_content: "Ne vous inquiétez pas... soyez obéissant !",
+ hi_title: "चिंता",
+ hi_content: "चिंता मत करो...आज्ञाकारी बनो!",
+ zh_title: "jiāo lǜ",
+ zh_content: "bié dān xīn …… tīng huà ！"
 });
 
 MATCH (t:THOUGHT)

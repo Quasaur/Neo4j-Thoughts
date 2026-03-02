@@ -22,7 +22,15 @@ CREATE (c:CONTENT {
     name: "content.GLOVES",
     ctype: "THOUGHT",
     en_title: "GLOVES",
-    en_content: ""
+    en_content: "God is not looking for hands...He's looking for gloves!",
+ es_title: "GUANTES",
+ es_content: "Dios no busca manos... ¡Busca guantes!",
+ fr_title: "GANTS",
+ fr_content: "Dieu ne cherche pas des mains... Il cherche des gants !",
+ hi_title: "दस्ताने",
+ hi_content: "भगवान हाथों की तलाश में नहीं है...वह दस्ताने की तलाश में है!",
+ zh_title: "shǒu tào",
+ zh_content: "shàng dì bú shì zài xún zhǎo shuāng shǒu …… tā shì zài xún zhǎo shǒu tào ！"
 });
 
 MATCH (t:THOUGHT)

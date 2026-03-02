@@ -22,7 +22,15 @@ CREATE (c:CONTENT {
     name: "content.EMPATHY",
     ctype: "THOUGHT",
     en_title: "EMPATHY",
-    en_content: ""
+ es_title: "EMPATÍA",
+ fr_title: "EMPATHIE",
+ hi_title: "समानुभूति",
+ zh_title: "gòng qíng",
+    en_content: "",
+ es_content: "Para AMARTE, debo ser tan tolerante con tus defectos como lo soy con los míos propios.",
+ fr_content: "Pour t’aimer, je dois être aussi tolérante envers tes défauts que envers les miens.",
+ hi_content: "आपसे प्यार करने के लिए, मुझे आपकी कमियों के प्रति उतना ही सहनशील होना होगा जितना कि अपनी कमियों के प्रति।",
+ zh_content: "wèi le ài nǐ ， wǒ bì xū xiàng róng rěn wǒ zì jǐ de quē diǎn yī yàng róng rěn nǐ de quē diǎn 。"
 });
 
 MATCH (t:THOUGHT)

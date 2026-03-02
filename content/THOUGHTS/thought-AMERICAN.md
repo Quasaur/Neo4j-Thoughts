@@ -22,7 +22,15 @@ CREATE (c:CONTENT {
     name: "content.AMERICAN",
     ctype: "THOUGHT",
     en_title: "AMERICAN",
-    en_content: ""
+ es_title: "AMERICANO",
+ fr_title: "AMÉRICAIN",
+ hi_title: "अमेरिकी",
+ zh_title: "měi guó rén",
+    en_content: "",
+ es_content: "No eres realmente estadounidense a menos que seas adicto a algo.",
+ fr_content: "Vous n’êtes pas vraiment américain à moins d’être accro à quelque chose.",
+ hi_content: "आप वास्तव में अमेरिकी नहीं हैं जब तक कि आप किसी चीज़ के आदी न हों।",
+ zh_content: "chú fēi nǐ duì mǒu jiàn shì shàng yǐn ， fǒu zé nǐ jiù bú shì zhēn zhèng de měi guó rén 。"
 });
 
 MATCH (t:THOUGHT)

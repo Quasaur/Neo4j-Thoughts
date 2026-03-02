@@ -22,7 +22,15 @@ CREATE (c:CONTENT {
     name: "content.THINK",
     ctype: "THOUGHT",
     en_title: "THINK",
-    en_content: ""
+ es_title: "PENSAR",
+ fr_title: "PENSE",
+ hi_title: "सोचना",
+ zh_title: "sī kǎo",
+    en_content: "",
+ es_content: "¿Crees que sabes pensar?",
+ fr_content: "Pensez-vous que vous savez penser ?",
+ hi_content: "क्या आपको लगता है कि आप सोचना जानते हैं?",
+ zh_content: "nǐ rèn wéi nǐ zhī dào rú hé sī kǎo ma ？"
 });
 
 MATCH (t:THOUGHT)

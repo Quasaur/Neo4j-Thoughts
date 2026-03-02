@@ -1,10 +1,10 @@
 ---
 type: agent
-typeDesc: "Instructions for aritificial intelligence LLMs, agents and models."
+typeDesc: Instructions for aritificial intelligence LLMs, agents and models.
 creation: 27-Feb-2026@0946
-title: "Part 2 - YAML Properties"
+title: Part 2 - YAML Properties
 series: "Neo4j-Thoughts: Naming Conventions"
-docStatus: COMPLETED
+docStatus: COMPLETE
 ---
 # **Part 2 - YAML Properties** 
 

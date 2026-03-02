@@ -22,7 +22,19 @@ CREATE (c:CONTENT {
     name: "content.HAPPINESS",
     ctype: "THOUGHT",
     en_title: "HAPPINESS",
-    en_content: ""
+ es_title: "FELICIDAD",
+ fr_title: "BONHEUR",
+ hi_title: "ख़ुशी",
+ zh_title: "xìng fú",
+    en_content: "",
+ es_content: "LA FELICIDAD no es producto de hacer lo que quieres...
+...sino de hacer lo CORRECTO.",
+ fr_content: "LE BONHEUR n'est pas le produit du fait de faire ce que l'on veut...
+... mais de faire ce qui est BIEN.",
+ hi_content: "ख़ुशी वह करने का परिणाम नहीं है जो आप चाहते हैं...
+...लेकिन वही करना जो सही है।",
+ zh_content: "xìng fú bú shì zuò nǐ xiǎng zuò de shì de jié guǒ ......
+... ér shì zuò zhèng què de shì 。"
 });
 
 MATCH (t:THOUGHT)

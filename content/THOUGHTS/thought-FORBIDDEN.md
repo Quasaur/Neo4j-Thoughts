@@ -31,7 +31,7 @@ CREATE (c:CONTENT {
     fr_content: "Pourquoi est-ce que l'interdit nous attire ? Parce que c'est interdit !",
     hi_title: "मना किया हुआ",
     hi_content: "हमें मना की हुई चीज़ों की तरफ़ क्या आकर्षित करता है? यह मना है!",
-    zh_title:"Jìnjì",
+    zh_title: "Jìnjì",
     zh_content: "shì shénme xīyǐn wǒmen qù zhuīqiú jìnjì? Yīnwèi tā jìnjì!"
 });
 

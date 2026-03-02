@@ -22,7 +22,15 @@ CREATE (c:CONTENT {
     name: "content.UNFORGIVENESS",
     ctype: "THOUGHT",
     en_title: "UNFORGIVENESS",
-    en_content: ""
+ es_title: "PERDÓN",
+ fr_title: "IMPARDONNANCE",
+ hi_title: "क्षमा न करना",
+ zh_title: "bù kě ráo shù",
+    en_content: "",
+ es_content: "¡Las ÚNICAS personas que van al infierno son aquellas que NO PODRÍAN PERDONAR!",
+ fr_content: "Les SEULS gens qui vont en Enfer sont ceux qui NE PEUVENT PAS PARDONNER !",
+ hi_content: "नर्क में जाने वाले केवल वही लोग हैं जो क्षमा नहीं कर सकते!",
+ zh_content: "wéi yī xià dì yù de rén jiù shì nà xiē wú fǎ kuān shù de rén ！"
 });
 
 MATCH (t:THOUGHT)

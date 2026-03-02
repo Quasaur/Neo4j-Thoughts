@@ -36,13 +36,11 @@ Une forte affection pour autrui découlant de liens familiaux ou personnels ; u
 MATCH (t:TOPIC)
 MATCH (d:DESCRIPTION)
 WHERE t.name = "topic.LOVE" AND d.name = "desc.LOVE"
-MERGE (t)-[:HAS_DESCRIPTION {name: "edge.Love"}]->(d)
-RETURN *;
+MERGE (t)-[:HAS_DESCRIPTION {name: "edge.Love"}]->(d);
 // link node to parent node
 MATCH (parent:TOPIC)
 MATCH (child:TOPIC)
 WHERE parent.name = "topic.THE GODHEAD" AND child.name = "topic.LOVE"
-MERGE (parent)-[:HAS_CHILD {name: "edge.THE GODHEAD->LOVE"}]->(child)
-RETURN *;
+MERGE (parent)-[:HAS_CHILD {name: "edge.THE GODHEAD->LOVE"}]->(child);
 
 ```

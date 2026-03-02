@@ -57,12 +57,10 @@ nǐ de jiǔ zhà bì yíng yì xīnjiǔ."});
 MATCH (b:PASSAGE)
 MATCH (c:CONTENT)
 WHERE b.name = "passage.HONOR GOD" AND c.name = "content.HONOR GOD"
-MERGE (b)-[:HAS_CONTENT {name: "b.edge.HONOR GOD"}]->(c)
-RETURN *;
+MERGE (b)-[:HAS_CONTENT {name: "b.edge.HONOR GOD"}]->(c);
 // link node to parent node
 MATCH (parent:TOPIC {name: "topic.WEALTH"})
 MATCH (child:PASSAGE {name: "passage.HONOR GOD"})
-MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.b.THE GODHEAD->HONOR GOD"}]->(child)
-RETURN *;
+MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.b.THE GODHEAD->HONOR GOD"}]->(child);
 
 ```

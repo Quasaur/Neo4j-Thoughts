@@ -41,12 +41,10 @@ pero los necios recibirán deshonra.",
 // link content to node
 MATCH (p:PASSAGE {name: 'passage.INHERITED HONOR'})
 MATCH (c:CONTENT {name: 'content.INHERITED HONOR'})
-MERGE (p)-[:HAS_CONTENT {name: "p.edge.INHERITED HONOR"}]->(c)
-RETURN *;
+MERGE (p)-[:HAS_CONTENT {name: "p.edge.INHERITED HONOR"}]->(c);
 // link node to parent node
 MATCH (parent:TOPIC {name: 'topic.WISDOM'})
 MATCH (child:PASSAGE {name: 'passage.INHERITED HONOR'})
-MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.WISDOM->INHERITED HONOR"}]->(child)
-RETURN *;
+MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.WISDOM->INHERITED HONOR"}]->(child);
 
 ```

@@ -35,13 +35,11 @@ CREATE (d:DESCRIPTION {
 MATCH (t:TOPIC)
 MATCH (d:DESCRIPTION)
 WHERE t.name = "topic.SPIRITUALITY" AND d.name = "desc.SPIRITUALITY"
-MERGE (t)-[:HAS_DESCRIPTION {name: "edge.Spirituality"}]->(d)
-RETURN *;
+MERGE (t)-[:HAS_DESCRIPTION {name: "edge.Spirituality"}]->(d);
 // link node to parent node
 MATCH (parent:TOPIC)
 MATCH (child:TOPIC)
 WHERE parent.name = "topic.THE GODHEAD" AND child.name = "topic.SPIRITUALITY"
-MERGE (parent)-[:HAS_CHILD {name: "edge.THE GODHEAD->SPIRITUALITY"}]->(child)
-RETURN *;
+MERGE (parent)-[:HAS_CHILD {name: "edge.THE GODHEAD->SPIRITUALITY"}]->(child);
 
 ```

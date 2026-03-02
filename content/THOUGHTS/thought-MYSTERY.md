@@ -22,7 +22,19 @@ CREATE (c:CONTENT {
     name: "content.MYSTERY",
     ctype: "THOUGHT",
     en_title: "MYSTERY",
-    en_content: ""
+ es_title: "MISTERIO",
+ fr_title: "MYSTÈRE",
+ hi_title: "रहस्य",
+ zh_title: "shén mì",
+    en_content: "",
+ es_content: "Hay tantas cosas sobre mi esposa que no entiendo...
+...pero cuando estamos solos y en silencio, ¡ella me da VIDA!",
+ fr_content: "Il y a tellement de choses sur ma femme que je ne comprends pas...
+...mais quand nous sommes seuls ensemble et tranquilles, elle me donne la VIE !",
+ hi_content: "मेरी पत्नी के बारे में बहुत सी बातें हैं जो मुझे समझ नहीं आती...
+...लेकिन जब हम एक साथ अकेले और शांत होते हैं, तो वह मुझे जीवन देती है!",
+ zh_content: "wǒ de qī zǐ yǒu hěn duō shì qíng wǒ bù míng bái ......
+... dàn shì dāng wǒ men dān dú ān jìng dì zài yì qǐ shí ， tā gěi le wǒ shēng mìng ！"
 });
 
 MATCH (t:THOUGHT)

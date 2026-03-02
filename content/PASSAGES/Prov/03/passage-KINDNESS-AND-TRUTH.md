@@ -60,12 +60,10 @@ Zhèyàng, nǐ bì zài shén hé shìrén miànqián méng ēnhuì, dé měihǎ
 // link content to node
 MATCH (p:PASSAGE {name: "passage.KINDNESS AND TRUTH"})
 MATCH (c:CONTENT {name: "content.KINDNESS AND TRUTH"})
-MERGE (p)-[:HAS_CONTENT {name: "p.edge.KINDNESS AND TRUTH"}]->(c)
-RETURN *;
+MERGE (p)-[:HAS_CONTENT {name: "p.edge.KINDNESS AND TRUTH"}]->(c);
 // link node to parent node
 MATCH (parent:TOPIC {name: "topic.ATTITUDE"})
 MATCH (child:PASSAGE {name: "passage.KINDNESS AND TRUTH"})
-MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.ATTITUDE->KINDNESS AND TRUTH"}]->(child)
-RETURN *;
+MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.ATTITUDE->KINDNESS AND TRUTH"}]->(child);
 
 ```

@@ -22,7 +22,15 @@ CREATE (c:CONTENT {
     name: "content.FIGMENTS",
     ctype: "THOUGHT",
     en_title: "FIGMENTS",
-    en_content: ""
+ es_title: "FIGMENTOS",
+ fr_title: "FIGURES",
+ hi_title: "चित्र",
+ zh_title: "rén wù",
+    en_content: "",
+ es_content: "Todos somos producto de la Imaginación Divina... ¡y qué Imaginación!",
+ fr_content: "Nous sommes tous le produit de l’imagination divine – et quelle imagination !",
+ hi_content: "हम सभी दिव्य कल्पना की प्रतिमूर्ति हैं--और क्या कल्पना है!",
+ zh_content: "wǒ men dōu shì shén shèng xiǎng xiàng lì de xū gòu —— zhè shì duō me měi miào de xiǎng xiàng lì a ！"
 });
 
 MATCH (t:THOUGHT)

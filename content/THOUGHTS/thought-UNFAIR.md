@@ -8,7 +8,7 @@ tags: ["god", "unfair", "wise", "bow", "submit"]
 ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
 level: 2
 neo4j: true
-es_content: "You may call God unfair, yet your life is still in His Hand; perhaps it would be wiser to bow and worship than to provoke."
+es_content: "Puedes llamar a Dios injusto, pero tu vida aún está en Sus manos; tal vez sea más sabio inclinarse y adorar que provocar."
 ---
 
 ```Cypher

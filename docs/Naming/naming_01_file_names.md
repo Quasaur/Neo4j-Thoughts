@@ -1,8 +1,8 @@
 ---
 type: agent
-typeDesc: "Instructions for aritificial intelligence LLMs, agents and models."
+typeDesc: Instructions for aritificial intelligence LLMs, agents and models.
 creation: 27-Feb-2026@0942
-title: "Part 1 - File Names"
+title: Part 1 - File Names
 series: "Neo4j-Thoughts: Naming Conventions"
 docStatus: COMPLETE
 ---

@@ -22,7 +22,15 @@ CREATE (c:CONTENT {
     name: "content.PERSEVERANCE",
     ctype: "THOUGHT",
     en_title: "PERSEVERANCE",
-    en_content: ""
+ es_title: "PERSERVERANCIA",
+ fr_title: "PERSÉVÉRANCE",
+ hi_title: "दृढ़ता",
+ zh_title: "yì lì",
+    en_content: "",
+ es_content: "El fracaso está asegurado para quien deja de intentarlo.",
+ fr_content: "L'échec est assuré à celui qui cesse d'essayer.",
+ hi_content: "जो प्रयास करना बंद कर देता है, उसकी असफलता निश्चित है।",
+ zh_content: "duì yú tíng zhǐ cháng shì de rén lái shuō ， shī bài shì zhù dìng de 。"
 });
 
 MATCH (t:THOUGHT)

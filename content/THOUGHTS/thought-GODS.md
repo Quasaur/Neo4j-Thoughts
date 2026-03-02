@@ -22,7 +22,15 @@ CREATE (c:CONTENT {
     name: "content.GODS",
     ctype: "THOUGHT",
     en_title: "GODS",
-    en_content: ""
+ es_title: "GALLINERO",
+ fr_title: "DIEUX",
+ hi_title: "भगवान",
+ zh_title: "shén",
+    en_content: "",
+ es_content: "No es la inteligencia ni el poder lo que nos convierte en dioses... sino la Misericordia y la Compasión.",
+ fr_content: "Ce n'est ni l'intelligence ni le pouvoir qui font de nous des dieux... mais la Miséricorde et la Compassion.",
+ hi_content: "यह न तो बुद्धि है और न ही शक्ति जो हमें देवता बनाती है...बल्कि दया और करुणा है।",
+ zh_content: "shǐ wǒ men chéng wéi shén de jì bú shì zhì huì ， yě bú shì lì liàng …… ér shì rén cí hé tóng qíng xīn 。"
 });
 
 MATCH (t:THOUGHT)

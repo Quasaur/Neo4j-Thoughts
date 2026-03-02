@@ -3,7 +3,15 @@ type: QUOTE
 name: "quote.UNCONDITIONAL_GRACE"
 alias: "Quote: Quote: UNCONDITIONAL GRACE"
 parent: "topic.GRACE"
-en_content: "The Purpose of the Gospel is to bring fallen numanity into The Fellowship of The Godhead. And since the Fellowship of The Godhead is Itself unconditional, The Gospel of Grace must also be unconditional."
+en_content: "The Purpose of the Gospel is to bring fallen numanity into The Fellowship of The Godhead. And since the Fellowship of The Godhead is Itself unconditional, The Gospel of Grace must also be unconditional.",
+ es_title: "Cita: GRACIA INCONDICIONAL",
+ es_content: "El propósito del Evangelio es traer la numanidad caída a la Comunidad de la Divinidad. Y dado que la comunión de la Deidad es en sí misma incondicional, el Evangelio de la Gracia también debe ser incondicional.",
+ fr_title: "Citation : GRÂCE INCONDITIONNELLE",
+ fr_content: "Le but de l’Évangile est d’amener la numité déchue dans la Communauté de la Divinité. Et puisque la communion de la Divinité est elle-même inconditionnelle, l’Évangile de la Grâce doit également être inconditionnel.",
+ hi_title: "उद्धरण: बिना शर्त अनुग्रह",
+ hi_content: "सुसमाचार का उद्देश्य गिरी हुई मानवता को ईश्वर की संगति में लाना है। और चूँकि ईश्वर की संगति स्वयं बिना शर्त है, अनुग्रह का सुसमाचार भी बिना शर्त होना चाहिए।",
+ zh_title: "yǐn yòng ： wú tiáo jiàn de ēn diǎn",
+ zh_content: "fú yīn de mù dì shì jiāng duò luò de rén lèi dài rù shén xìng de tuán qì zhōng 。 jì rán shén xìng de tuán qì běn shēn shì wú tiáo jiàn de ， ēn diǎn de fú yīn yě bì xū shì wú tiáo jiàn de 。"
 tags: ["saved", "understanding", "darkness", "past", "forgotten"]
 ptopic: "[[topic-GRACE]]"
 level: 3
@@ -27,7 +35,15 @@ CREATE (c:CONTENT {
     name: "content.UNCONDITIONAL_GRACE",
     ctype: "QUOTE",
     en_title: "Quote: UNCONDITIONAL GRACE",
-    en_content: "The Purpose of the Gospel is to bring fallen numanity into The Fellowship of The Godhead. And since the Fellowship of The Godhead is Itself unconditional, The Gospel of Grace must also be unconditional."
+    en_content: "The Purpose of the Gospel is to bring fallen numanity into The Fellowship of The Godhead. And since the Fellowship of The Godhead is Itself unconditional, The Gospel of Grace must also be unconditional.",
+ es_title: "Cita: GRACIA INCONDICIONAL",
+ es_content: "El propósito del Evangelio es traer la numanidad caída a la Comunidad de la Divinidad. Y dado que la comunión de la Deidad es en sí misma incondicional, el Evangelio de la Gracia también debe ser incondicional.",
+ fr_title: "Citation : GRÂCE INCONDITIONNELLE",
+ fr_content: "Le but de l’Évangile est d’amener la numité déchue dans la Communauté de la Divinité. Et puisque la communion de la Divinité est elle-même inconditionnelle, l’Évangile de la Grâce doit également être inconditionnel.",
+ hi_title: "उद्धरण: बिना शर्त अनुग्रह",
+ hi_content: "सुसमाचार का उद्देश्य गिरी हुई मानवता को ईश्वर की संगति में लाना है। और चूँकि ईश्वर की संगति स्वयं बिना शर्त है, अनुग्रह का सुसमाचार भी बिना शर्त होना चाहिए।",
+ zh_title: "yǐn yòng ： wú tiáo jiàn de ēn diǎn",
+ zh_content: "fú yīn de mù dì shì jiāng duò luò de rén lèi dài rù shén xìng de tuán qì zhōng 。 jì rán shén xìng de tuán qì běn shēn shì wú tiáo jiàn de ， ēn diǎn de fú yīn yě bì xū shì wú tiáo jiàn de 。"
 });
 
 // LINK CONTENT

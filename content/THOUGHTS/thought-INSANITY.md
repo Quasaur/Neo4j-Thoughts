@@ -22,7 +22,19 @@ CREATE (c:CONTENT {
     name: "content.INSANITY",
     ctype: "THOUGHT",
     en_title: "INSANITY",
-    en_content: ""
+ es_title: "LOCURA",
+ fr_title: "FOLIE",
+ hi_title: "पागलपन",
+ zh_title: "fēng kuáng",
+    en_content: "",
+ es_content: "¡Lucifer tuvo el descaro absoluto de pedirle a su CREADOR que lo adorara!
+En la Corte del Cielo la locura y el pecado son lo mismo.",
+ fr_content: "Lucifer a eu le culot absolu de demander à son CRÉATEUR de l'adorer !
+Dans la Cour du Ciel, la folie et le péché ne font qu'un.",
+ hi_content: "लूसिफ़ेर के पास अपने निर्माता से उसकी पूजा करने के लिए कहने का अदम्य साहस था!
+स्वर्ग के दरबार में पागलपन और पाप एक ही हैं।",
+ zh_content: "lù xī fǎ jìng rán hòu yán wú chǐ dì yāo qiú tā de chuàng zào zhě chóng bài tā ！
+ zài tiān tíng lǐ ， fēng kuáng hé zuì è shì yī huí shì 。"
 });
 
 MATCH (t:THOUGHT)

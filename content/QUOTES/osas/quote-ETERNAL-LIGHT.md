@@ -3,7 +3,15 @@ type: QUOTE
 name: "quote.ETERNAL_LIGHT"
 alias: "Quote: Quote: ETERNAL LIGHT"
 parent: "topic.UNDERSTANDING"
-en_content: "Eventually, as saved beings, our understanding of God will reach the point where darkness will recede into the past as a faint memory."
+en_content: "Eventually, as saved beings, our understanding of God will reach the point where darkness will recede into the past as a faint memory.",
+ es_title: "Cita: LUZ ETERNA",
+ es_content: "Con el tiempo, como seres salvos, nuestra comprensión de Dios llegará al punto en que la oscuridad retrocederá hacia el pasado como un débil recuerdo.",
+ fr_title: "Citation : LUMIÈRE ÉTERNELLE",
+ fr_content: "Finalement, en tant qu’êtres sauvés, notre compréhension de Dieu atteindra le point où les ténèbres disparaîtront dans le passé comme un vague souvenir.",
+ hi_title: "उद्धरण: शाश्वत प्रकाश",
+ hi_content: "अंततः, बचाए गए प्राणियों के रूप में, ईश्वर के बारे में हमारी समझ उस बिंदु तक पहुंच जाएगी जहां अंधकार एक धुंधली स्मृति के रूप में अतीत में सिमट जाएगा।",
+ zh_title: "yǐn yòng ： yǒng héng zhī guāng",
+ zh_content: "zuì zhōng ， zuò wéi dé jiù de rén ， wǒ men duì shén de rèn shí jiāng dá dào zhè yàng de chéng dù ： hēi àn jiāng chéng wéi guò qù de wēi ruò jì yì 。"
 tags: ["saved", "understanding", "darkness", "past", "forgotten"]
 ptopic: "[[topic-UNDERSTANDING]]"
 level: 3
@@ -27,7 +35,15 @@ CREATE (c:CONTENT {
     name: "content.ETERNAL_LIGHT",
     ctype: "QUOTE",
     en_title: "Quote: ETERNAL LIGHT",
-    en_content: "Eventually, as saved beings, our understanding of God will reach the point where darkness will recede into the past as a faint memory."
+    en_content: "Eventually, as saved beings, our understanding of God will reach the point where darkness will recede into the past as a faint memory.",
+ es_title: "Cita: LUZ ETERNA",
+ es_content: "Con el tiempo, como seres salvos, nuestra comprensión de Dios llegará al punto en que la oscuridad retrocederá hacia el pasado como un débil recuerdo.",
+ fr_title: "Citation : LUMIÈRE ÉTERNELLE",
+ fr_content: "Finalement, en tant qu’êtres sauvés, notre compréhension de Dieu atteindra le point où les ténèbres disparaîtront dans le passé comme un vague souvenir.",
+ hi_title: "उद्धरण: शाश्वत प्रकाश",
+ hi_content: "अंततः, बचाए गए प्राणियों के रूप में, ईश्वर के बारे में हमारी समझ उस बिंदु तक पहुंच जाएगी जहां अंधकार एक धुंधली स्मृति के रूप में अतीत में सिमट जाएगा।",
+ zh_title: "yǐn yòng ： yǒng héng zhī guāng",
+ zh_content: "zuì zhōng ， zuò wéi dé jiù de rén ， wǒ men duì shén de rèn shí jiāng dá dào zhè yàng de chéng dù ： hēi àn jiāng chéng wéi guò qù de wēi ruò jì yì 。"
 });
 
 // LINK CONTENT

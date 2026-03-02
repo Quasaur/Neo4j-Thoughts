@@ -22,7 +22,15 @@ CREATE (c:CONTENT {
     name: "content.ISLAM",
     ctype: "THOUGHT",
     en_title: "ISLAM",
-    en_content: ""
+ es_title: "ISLAM",
+ fr_title: "ISLAM",
+ hi_title: "इस्लाम",
+ zh_title: "yī sī lán jiào",
+    en_content: "",
+ es_content: "NO hay armonía posible entre El Evangelio de Jesucristo (que es la única Barrera entre la humanidad y El Lago de Fuego y Azufre) y la Religión de Mahoma.",
+ fr_content: "Il n’y a AUCUNE harmonie possible entre l’Évangile de Jésus-Christ (qui est la seule barrière entre l’humanité et l’étang de feu et de soufre) et la religion de Mahomet.",
+ hi_content: "ईसा मसीह के सुसमाचार (जो मानवता और आग और गंधक की झील के बीच एकमात्र बाधा है) और मोहम्मद के धर्म के बीच कोई सामंजस्य संभव नहीं है।",
+ zh_content: "yē sū jī dū de fú yīn （ zhè shì rén lèi yǔ huǒ liú hú zhī jiān de wéi yī zhàng ài ） yǔ mù hǎn mò dé de zōng jiào zhī jiān bù kě néng yǒu hé xié 。"
 });
 
 MATCH (t:THOUGHT)

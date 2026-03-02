@@ -22,7 +22,15 @@ CREATE (c:CONTENT {
     name: "content.EVERYTHING",
     ctype: "THOUGHT",
     en_title: "EVERYTHING",
-    en_content: ""
+ es_title: "TODO",
+ fr_title: "TOUT",
+ hi_title: "सब कुछ",
+ zh_title: "yī qiè",
+    en_content: "",
+ es_content: "¡Fue el Acto supremo de Humildad para Dios, que no necesita nada, para crearlo todo!",
+ fr_content: "C'était l'acte suprême d'humilité pour Dieu, qui n'a besoin de rien, pour tout créer !",
+ hi_content: "यह ईश्वर के लिए विनम्रता का सर्वोच्च कार्य था, जिसे सब कुछ बनाने के लिए किसी चीज़ की आवश्यकता नहीं है!",
+ zh_content: "zhè shì shàng dì zuì gāo de qiān bēi xíng wéi ， tā bù xū yào rèn hé dōng xī ， jiù chuàng zào le yī qiè ！"
 });
 
 MATCH (t:THOUGHT)

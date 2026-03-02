@@ -37,12 +37,10 @@ CREATE (c:CONTENT {
 // link content to node
 MATCH (p:PASSAGE {name: 'passage.SECURITY'})
 MATCH (c:CONTENT {name: 'content.SECURITY'})
-MERGE (p)-[:HAS_CONTENT {name: "p.edge.SECURITY"}]->(c)
-RETURN *;
+MERGE (p)-[:HAS_CONTENT {name: "p.edge.SECURITY"}]->(c);
 // link node to parent node
 MATCH (parent:TOPIC {name: 'topic.WISDOM'})
 MATCH (child:PASSAGE {name: 'passage.SECURITY'})
-MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.WISDOM->SECURITY"}]->(child)
-RETURN *;
+MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.WISDOM->SECURITY"}]->(child);
 
 ```

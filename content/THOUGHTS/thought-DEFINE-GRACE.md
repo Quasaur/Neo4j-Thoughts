@@ -26,13 +26,13 @@ CREATE (c:CONTENT {
     en_title: "Define Grace",
     en_content: "GRACE is God saying \"I like you! I'm gonna cut you a break!\"",
     es_title: "Definir Gracia",
-    es_content: "La GRACIA es Dios diciendo \"¡Me gustas! ¡Voy a darte un respiro!\"",
+    es_content: "La GRACIA es Dios diciendo \"¡Me gustas! ¡Voy a darte un respiro!\""¡Me gustas! ¡Voy a darte un respiro!\""¡Me gustas! ¡Voy a darte un respiro!\""¡Me gustas! ¡Voy a darte un respiro!\""¡Me gustas! ¡Voy a darte un respiro!\""¡Me gustas! ¡Voy a darte un respiro!\"",
     fr_title: "Définir la Grâce",
-    fr_content: "La GRÂCE est Dieu disant \"Je t'aime bien ! Je vais te donner une chance !\"",
+    fr_content: "La GRÂCE est Dieu disant \"Je t'aime bien ! Je vais te donner une chance !\""Je t'aime bien ! Je vais te donner une chance !\""Je t'aime bien ! Je vais te donner une chance !\""Je t'aime bien ! Je vais te donner une chance !\""Je t'aime bien ! Je vais te donner une chance !\""Je t'aime bien ! Je vais te donner une chance !\"",
     hi_title: "अनुग्रह को परिभाषित करें",
-    hi_content: "अनुग्रह भगवान का कहना है \"मुझे तुम पसंद हो! मैं तुम्हें एक मौका दूंगा!\"",
+    hi_content: "अनुग्रह भगवान का कहना है \"मुझे तुम पसंद हो! मैं तुम्हें एक मौका दूंगा!\""मुझे तुम पसंद हो! मैं तुम्हें एक मौका दूंगा!\""मुझे तुम पसंद हो! मैं तुम्हें एक मौका दूंगा!\""मुझे तुम पसंद हो! मैं तुम्हें एक मौका दूंगा!\""मुझे तुम पसंद हो! मैं तुम्हें एक मौका दूंगा!\""मुझे तुम पसंद हो! मैं तुम्हें एक मौका दूंगा!\"",
     zh_title: "Dìngyì ēnhuì",
-    zh_content: "Ēnhuì shì shàngdì shuō \"Wǒ xǐhuān nǐ! Wǒ yào gěi nǐ yīgè jīhuì!\""
+    zh_content: "Ēnhuì shì shàngdì shuō \"Wǒ xǐhuān nǐ! Wǒ yào gěi nǐ yīgè jīhuì!\""Wǒ xǐhuān nǐ! Wǒ yào gěi nǐ yīgè jīhuì!\""Wǒ xǐhuān nǐ! Wǒ yào gěi nǐ yīgè jīhuì!\""Wǒ xǐhuān nǐ! Wǒ yào gěi nǐ yīgè jīhuì!\""Wǒ xǐhuān nǐ! Wǒ yào gěi nǐ yīgè jīhuì!\""Wǒ xǐhuān nǐ! Wǒ yào gěi nǐ yīgè jīhuì!\""
 });
 
 MATCH (t:THOUGHT {name: "thought.DEFINE GRACE"})

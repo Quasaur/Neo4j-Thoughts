@@ -1,0 +1,2 @@
+# Prompt
+Check the fourth and last query in the Cypher block of every markdown file in the content and Book_of_Tweets folders and remove the "RETURN *" phrase from the query (if it exists), along with the new line, so that the last parenthese of the previous line has the semi-colon of the fourth query next to it. Before you execute, let me know if you have any questions regarding the clarity of my prompt.

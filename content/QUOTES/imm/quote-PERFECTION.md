@@ -38,13 +38,11 @@ CREATE (c:CONTENT {
 MATCH (q:QUOTE)
 MATCH (c:CONTENT)
 WHERE q.name = "quote.PERFECTION" AND c.name = "content.PERFECTION"
-MERGE (q)-[:HAS_CONTENT {name: "q.edge.PERFECTION"}]->(c)
-RETURN *;
+MERGE (q)-[:HAS_CONTENT {name: "q.edge.PERFECTION"}]->(c);
 // link node to parent node
 MATCH (parent:TOPIC)
 MATCH (child:QUOTE)
 WHERE parent.name = "topic.THE GODHEAD" AND child.name = "quote.PERFECTION"
-MERGE (parent)-[:HAS_QUOTE {name: "q.edge.THE GODHEAD->PERFECTION"}]->(child)
-RETURN *;
+MERGE (parent)-[:HAS_QUOTE {name: "q.edge.THE GODHEAD->PERFECTION"}]->(child);
 
 ```

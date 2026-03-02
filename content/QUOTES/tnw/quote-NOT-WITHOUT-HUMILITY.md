@@ -3,7 +3,15 @@ type: QUOTE
 name: "quote.NOT_WITHOUT_HUMILITY"
 alias: "Quote: Quote: NOT WITHOUT HUMILITY"
 parent: "topic.ATTITUDE"
-en_content: "What i wish to remind us all is that THERE'S NO SALVATION WITHOUT REPENTANCE AND THERE'S NO REPENTANCE WITHOUT HUMILITY."
+en_content: "What i wish to remind us all is that THERE'S NO SALVATION WITHOUT REPENTANCE AND THERE'S NO REPENTANCE WITHOUT HUMILITY.",
+ es_title: "Cita: NO SIN HUMILDAD",
+ es_content: "Lo que deseo recordarnos a todos es que NO HAY SALVACIÓN SIN ARREPENTIMIENTO Y NO HAY ARREPENTIMIENTO SIN HUMILDAD.",
+ fr_title: "Citation : PAS SANS HUMILITÉ",
+ fr_content: "Ce que je souhaite nous rappeler à tous, c'est qu'IL N'Y A PAS DE SALUT SANS REPENTANCE ET IL N'Y A PAS DE REPENTANCE SANS HUMILITÉ.",
+ hi_title: "उद्धरण: विनम्रता के बिना नहीं",
+ hi_content: "मैं हम सभी को यह याद दिलाना चाहता हूं कि पश्चाताप के बिना कोई मुक्ति नहीं है और विनम्रता के बिना कोई पश्चाताप नहीं है।",
+ zh_title: "yǐn yòng ： bìng fēi méi yǒu qiān xū",
+ zh_content: "wǒ xiǎng tí xǐng wǒ men dà jiā de shì ， méi yǒu huǐ gǎi jiù méi yǒu jiù shú ， méi yǒu qiān bēi jiù méi yǒu huǐ gǎi 。"
 tags: ["repentance", "gift", "humble", "essential", "heart"]
 ptopic: "[[topic-ATTITUDE]]"
 level: 3
@@ -27,7 +35,15 @@ CREATE (c:CONTENT {
     name: "content.NOT_WITHOUT_HUMILITY",
     ctype: "QUOTE",
     en_title: "Quote: NOT WITHOUT HUMILITY",
-    en_content: "What i wish to remind us all is that THERE'S NO SALVATION WITHOUT REPENTANCE AND THERE'S NO REPENTANCE WITHOUT HUMILITY."
+    en_content: "What i wish to remind us all is that THERE'S NO SALVATION WITHOUT REPENTANCE AND THERE'S NO REPENTANCE WITHOUT HUMILITY.",
+ es_title: "Cita: NO SIN HUMILDAD",
+ es_content: "Lo que deseo recordarnos a todos es que NO HAY SALVACIÓN SIN ARREPENTIMIENTO Y NO HAY ARREPENTIMIENTO SIN HUMILDAD.",
+ fr_title: "Citation : PAS SANS HUMILITÉ",
+ fr_content: "Ce que je souhaite nous rappeler à tous, c'est qu'IL N'Y A PAS DE SALUT SANS REPENTANCE ET IL N'Y A PAS DE REPENTANCE SANS HUMILITÉ.",
+ hi_title: "उद्धरण: विनम्रता के बिना नहीं",
+ hi_content: "मैं हम सभी को यह याद दिलाना चाहता हूं कि पश्चाताप के बिना कोई मुक्ति नहीं है और विनम्रता के बिना कोई पश्चाताप नहीं है।",
+ zh_title: "yǐn yòng ： bìng fēi méi yǒu qiān xū",
+ zh_content: "wǒ xiǎng tí xǐng wǒ men dà jiā de shì ， méi yǒu huǐ gǎi jiù méi yǒu jiù shú ， méi yǒu qiān bēi jiù méi yǒu huǐ gǎi 。"
 });
 
 // LINK CONTENT

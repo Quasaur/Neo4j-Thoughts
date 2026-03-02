@@ -22,7 +22,15 @@ CREATE (c:CONTENT {
     name: "content.SENTIENCE",
     ctype: "THOUGHT",
     en_title: "SENTIENCE",
-    en_content: ""
+ es_title: "SENTENCIA",
+ fr_title: "SENTIENCE",
+ hi_title: "चेतना",
+ zh_title: "zhī jué",
+    en_content: "",
+ es_content: "¡Qué maravilla es la sensibilidad: no sólo soy para Dios, sino que lo soy para mí mismo!",
+ fr_content: "Quelle merveille que la sensibilité : non seulement je suis pour Dieu, mais je le suis pour moi-même !",
+ hi_content: "भावना क्या आश्चर्य है: न केवल मैं ईश्वर के प्रति हूँ, बल्कि मैं स्वयं के प्रति भी हूँ!",
+ zh_content: "zhī jué shì duō me qí miào a ： wǒ bù jǐn duì shàng dì ér yán ， ér qiě duì wǒ zì jǐ yě rú cǐ ！"
 });
 
 MATCH (t:THOUGHT)

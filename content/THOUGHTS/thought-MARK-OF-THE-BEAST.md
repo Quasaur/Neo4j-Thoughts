@@ -31,6 +31,11 @@ Romans 14",
     es_title: "MARCA DE LA BESTIA",
     es_content: "¿No ves...?
 ...que al hacer de la observancia del domingo la \"Marca de la Bestia\" estás pervirtiendo el Verdadero Evangelio y condenando a toda la cristiandad a la condenación eterna?!?!?
+Romanos 14"Marca de la Bestia\" estás pervirtiendo el Verdadero Evangelio y condenando a toda la cristiandad a la condenación eterna?!?!?
+Romanos 14"Marca de la Bestia\" estás pervirtiendo el Verdadero Evangelio y condenando a toda la cristiandad a la condenación eterna?!?!?
+Romanos 14"Marca de la Bestia\" estás pervirtiendo el Verdadero Evangelio y condenando a toda la cristiandad a la condenación eterna?!?!?
+Romanos 14"Marca de la Bestia\" estás pervirtiendo el Verdadero Evangelio y condenando a toda la cristiandad a la condenación eterna?!?!?
+Romanos 14"Marca de la Bestia\" estás pervirtiendo el Verdadero Evangelio y condenando a toda la cristiandad a la condenación eterna?!?!?
 Romanos 14",
     fr_title: "MARQUE DE LA BÊTE",
     fr_content: "Ne vois-tu pas...
@@ -39,6 +44,11 @@ Romains 14",
     hi_title: "जानवर का निशान",
     hi_content: "क्या तुम नहीं देखते...
 ...कि रविवार को \"जानवर का निशान\" बनाकर आप सच्चे सुसमाचार को विकृत कर रहे हैं और पूरे ईसाईजगत को शाश्वत विनाश की निंदा कर रहे हैं?!?!?
+रोमियों 14"जानवर का निशान\" बनाकर आप सच्चे सुसमाचार को विकृत कर रहे हैं और पूरे ईसाईजगत को शाश्वत विनाश की निंदा कर रहे हैं?!?!?
+रोमियों 14"जानवर का निशान\" बनाकर आप सच्चे सुसमाचार को विकृत कर रहे हैं और पूरे ईसाईजगत को शाश्वत विनाश की निंदा कर रहे हैं?!?!?
+रोमियों 14"जानवर का निशान\" बनाकर आप सच्चे सुसमाचार को विकृत कर रहे हैं और पूरे ईसाईजगत को शाश्वत विनाश की निंदा कर रहे हैं?!?!?
+रोमियों 14"जानवर का निशान\" बनाकर आप सच्चे सुसमाचार को विकृत कर रहे हैं और पूरे ईसाईजगत को शाश्वत विनाश की निंदा कर रहे हैं?!?!?
+रोमियों 14"जानवर का निशान\" बनाकर आप सच्चे सुसमाचार को विकृत कर रहे हैं और पूरे ईसाईजगत को शाश्वत विनाश की निंदा कर रहे हैं?!?!?
 रोमियों 14",
     zh_title: "yě shòu yìn jì",
     zh_content: "nán dào nǐ méi kàn dào ...

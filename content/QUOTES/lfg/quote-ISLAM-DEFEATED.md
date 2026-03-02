@@ -3,7 +3,15 @@ type: QUOTE
 name: "quote.ISLAM_DEFEATED"
 alias: "Quote: Quote: ISLAM DEFEATED"
 parent: "topic.RELIGION"
-en_content: "Biblical Christianity will defeat Islam by the same means it defeated paganism: through the Truth of the Holy Bible, the Love of Jesus Christ, and the Life of Christ lived through His followers."
+en_content: "Biblical Christianity will defeat Islam by the same means it defeated paganism: through the Truth of the Holy Bible, the Love of Jesus Christ, and the Life of Christ lived through His followers.",
+ es_title: "Cita: EL ISLAM DERROTADO",
+ es_content: "El cristianismo bíblico derrotará al Islam por los mismos medios que derrotó al paganismo: a través de la Verdad de la Santa Biblia, el Amor de Jesucristo y la Vida de Cristo vivida a través de Sus seguidores.",
+ fr_title: "Citation : L'ISLAM VAINCU",
+ fr_content: "Le christianisme biblique vaincra l’islam de la même manière qu’il a vaincu le paganisme : par la vérité de la Sainte Bible, l’amour de Jésus-Christ et la vie du Christ vécue à travers ses disciples.",
+ hi_title: "उद्धरण: इस्लाम हार गया",
+ hi_content: "बाइबिल आधारित ईसाइयत इस्लाम को उसी तरीके से हरा देगी, जिस तरह से उसने बुतपरस्ती को हराया था: पवित्र बाइबिल की सच्चाई, यीशु मसीह के प्रेम और उनके अनुयायियों के माध्यम से जीए गए मसीह के जीवन के माध्यम से।",
+ zh_title: "yǐn yòng ： yī sī lán bèi jī bài",
+ zh_content: "fú hé shèng jīng de jī dū jiào jiāng yǐ jī bài yì jiào de tóng yàng fāng shì jī bài yī sī lán jiào ： tōng guò shèng jīng de zhēn lǐ 、 yē sū jī dū de ài yǐ jí jī dū de zhuī suí zhě suǒ jīng lì de shēng huó 。"
 tags: ["islam", "christianity", "biblical", "bible", "jesus_christ"]
 ptopic: "[[topic-RELIGION]]"
 level: 4
@@ -27,7 +35,15 @@ CREATE (c:CONTENT {
     name: "content.ISLAM_DEFEATED",
     ctype: "QUOTE",
     en_title: "Quote: ISLAM DEFEATED",
-    en_content: "Biblical Christianity will defeat Islam by the same means it defeated paganism: through the Truth of the Holy Bible, the Love of Jesus Christ, and the Life of Christ lived through His followers."
+    en_content: "Biblical Christianity will defeat Islam by the same means it defeated paganism: through the Truth of the Holy Bible, the Love of Jesus Christ, and the Life of Christ lived through His followers.",
+ es_title: "Cita: EL ISLAM DERROTADO",
+ es_content: "El cristianismo bíblico derrotará al Islam por los mismos medios que derrotó al paganismo: a través de la Verdad de la Santa Biblia, el Amor de Jesucristo y la Vida de Cristo vivida a través de Sus seguidores.",
+ fr_title: "Citation : L'ISLAM VAINCU",
+ fr_content: "Le christianisme biblique vaincra l’islam de la même manière qu’il a vaincu le paganisme : par la vérité de la Sainte Bible, l’amour de Jésus-Christ et la vie du Christ vécue à travers ses disciples.",
+ hi_title: "उद्धरण: इस्लाम हार गया",
+ hi_content: "बाइबिल आधारित ईसाइयत इस्लाम को उसी तरीके से हरा देगी, जिस तरह से उसने बुतपरस्ती को हराया था: पवित्र बाइबिल की सच्चाई, यीशु मसीह के प्रेम और उनके अनुयायियों के माध्यम से जीए गए मसीह के जीवन के माध्यम से।",
+ zh_title: "yǐn yòng ： yī sī lán bèi jī bài",
+ zh_content: "fú hé shèng jīng de jī dū jiào jiāng yǐ jī bài yì jiào de tóng yàng fāng shì jī bài yī sī lán jiào ： tōng guò shèng jīng de zhēn lǐ 、 yē sū jī dū de ài yǐ jí jī dū de zhuī suí zhě suǒ jīng lì de shēng huó 。"
 });
 
 // LINK CONTENT

@@ -22,7 +22,15 @@ CREATE (c:CONTENT {
     name: "content.GUILT",
     ctype: "THOUGHT",
     en_title: "GUILT",
-    en_content: ""
+ es_title: "CULPA",
+ fr_title: "CULPABILITÉ",
+ hi_title: "अपराध",
+ zh_title: "yǒu zuì",
+    en_content: "",
+ es_content: "La culpa es sólo otra expresión del ego.",
+ fr_content: "La culpabilité n'est qu'une autre expression de l'ego.",
+ hi_content: "अपराध बोध अहंकार की ही एक और अभिव्यक्ति है।",
+ zh_content: "nèi jiù zhǐ shì zì wǒ de lìng yī zhǒng biǎo dá 。"
 });
 
 MATCH (t:THOUGHT)

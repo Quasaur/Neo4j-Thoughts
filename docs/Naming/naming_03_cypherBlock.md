@@ -2,7 +2,7 @@
 type: agent
 typeDesc: Instructions for aritificial intelligence LLMs, agents and models.
 creation: 27-Feb-2026@0942
-title: "Part 3 - Cypher Block Naming Conventions"
+title: Part 3 - Cypher Block Naming Conventions
 series: "Neo4j-Thoughts: Naming Conventions"
 docStatus: COMPLETE
 ---
@@ -165,4 +165,52 @@ MERGE (t)-[:HAS_DESCRIPTION {name: "p.edge.FAITHLESSNESS"}]->(d);
 ```
 
 ## Fourth Query: Second Relationship
+Rule 23: the fourth and last Cypher query creates the relationship between the primary node (of type TOPIC, THOUGHT, QUOTE or PASSAGE) and its parent topic (the value of the primary node's "parent" property).
 
+### Primary TOPIC Node to Parent TOPIC Relationship
+Rule 24: The fourth Cypher query makes the Cypher block's primary TOPIC node (created in the first query of the Cypher block) the child of the parent TOPIC identified in the primary TOPIC node's "parent" property using the HAS_CHILD relationship type.
+
+Rule 24a: The value of the "name" property of the relationship has two parts:
+- the prefix "edge."
+- the second part of the HAS_CHILD relationship's "name" property, which consists of the second part of the parent TOPIC node's name (i.e., "COSMOLOGY" of "topic.COSMOLOGY") connected to the second part of the primary TOPIC node's "name" property (i.e., "ASTROPHYSICS" of "topic.ASTROPHYISCS") by the characters "->".
+
+Rule 24b: Following is an example of the part of the fourth cypher query that contains the "name" property:
+```cypher
+MERGE (p)-[:HAS_CHILD {name: "edge.COSMOLOGY->ASTROPHYSICS"}]->(c);
+```
+
+### Primary THOUGHT Node to Parent TOPIC Relationship
+Rule 25: The fourth Cypher query makes the Cypher block's primary THOUGHT node (created in the first query of the Cypher block) the child of the parent TOPIC identified in the primary THOUGHT node's "parent" property using the HAS_THOUGHT relationship type.
+
+Rule 25a: The value of the "name" property of the relationship has two parts:
+- the prefix "t.edge."
+- the second part of the HAS_THOUGHT relationship's "name" property, which consists of the second part of the parent TOPIC node's name (i.e., "HUMANITY" of "topic.HUMANITY") connected to the second part of the primary THOUGHT node's "name" property (i.e., "ACCOUNTABILITY" of "thought.ACCOUNTABILITY") by the characters "->".
+
+Rule 25b: Following is an example of the part of the fourth cypher query that contains the "name" property:
+```cypher
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.HUMANITY->ACCOUNTABILITY"}]->(child);
+```
+
+### Primary QUOTE Node to Parent TOPIC Relationship
+Rule 26: The fourth Cypher query makes the Cypher block's primary QUOTE node (created in the first query of the Cypher block) the child of the parent TOPIC identified in the primary QUOTE node's "parent" property using the HAS_QUOTE relationship type.
+
+Rule 26a: The value of the "name" property of the relationship has two parts:
+- the prefix "q.edge."
+- the second part of the HAS_QUOTE relationship's "name" property, which consists of the second part of the parent TOPIC node's name (i.e., "THE GOSPEL" of "topic.THE GOSPEL") connected to the second part of the primary QUOTE node's "name" property (i.e., "BEGOTTEN" of "quote.BEGOTTEN") by the characters "->".
+
+Rule 26b: Following is an example of the part of the fourth cypher query that contains the "name" property:
+```cypher
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.HUMANITY->ACCOUNTABILITY"}]->(child);
+```
+
+### Primary PASSAGE Node to Parent TOPIC Relationship
+Rule 27: The fourth Cypher query makes the Cypher block's primary PASSAGE node (created in the first query of the Cypher block) the child of the parent TOPIC identified in the primary PASSAGE node's "parent" property using the HAS_PASSAGE relationship type.
+
+Rule 27a: The value of the "name" property of the relationship has two parts:
+- the prefix "p.edge."
+- the second part of the HAS_PASSAGE relationship's "name" property, which consists of the second part of the parent TOPIC node's name (i.e., "WEALTH" of "topic.WEALTH") connected to the second part of the primary QUOTE node's "name" property (i.e., "THE SOURCE OF WEALTH" of "quote.THE SOURCE OF WEALTH") by the characters "->".
+
+Rule 27b: Following is an example of the part of the fourth cypher query that contains the "name" property:
+```cypher
+MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.b.WEALTH->THE SOURCE OF WEALTH"}]->(child);
+```

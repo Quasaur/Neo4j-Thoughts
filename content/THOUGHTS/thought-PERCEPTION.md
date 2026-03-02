@@ -22,7 +22,15 @@ CREATE (c:CONTENT {
     name: "content.PERCEPTION",
     ctype: "THOUGHT",
     en_title: "PERCEPTION",
-    en_content: ""
+ es_title: "PERCEPCIÓN",
+ fr_title: "PERCEPTION",
+ hi_title: "धारणा",
+ zh_title: "dòng chá lì",
+    en_content: "",
+ es_content: "No siempre podemos cambiar lo que vemos... pero siempre podemos cambiar cómo lo vemos.",
+ fr_content: "Nous ne pouvons pas toujours changer ce que nous voyons... mais nous pouvons toujours changer la façon dont nous le voyons.",
+ hi_content: "हम जो देखते हैं उसे हमेशा नहीं बदल सकते...लेकिन हम उसे देखने का तरीका हमेशा बदल सकते हैं।",
+ zh_content: "wǒ men bù néng zǒng shì gǎi biàn wǒ men suǒ kàn dào de …… dàn wǒ men zǒng shì kě yǐ gǎi biàn wǒ men kàn dài tā de fāng shì 。"
 });
 
 MATCH (t:THOUGHT)

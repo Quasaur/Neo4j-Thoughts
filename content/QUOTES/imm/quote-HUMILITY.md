@@ -3,7 +3,15 @@ type: QUOTE
 name: "quote.HUMILITY"
 alias: "Quote: Quote: HUMILITY"
 parent: "topic.HUMILITY"
-en_content: "A realistic view of ourselves in the Light of the Holy Scriptures and in the Presence of Almighty GOD is what we call HUMILITY; and without this humility Salvation is simply impossible."
+en_content: "A realistic view of ourselves in the Light of the Holy Scriptures and in the Presence of Almighty GOD is what we call HUMILITY; and without this humility Salvation is simply impossible.",
+ es_title: "Cita: HUMILDAD",
+ es_content: "Una visión realista de nosotros mismos a la Luz de las Sagradas Escrituras y en la Presencia de DIOS Todopoderoso es lo que llamamos HUMILDAD; y sin esta humildad la Salvación es simplemente imposible.",
+ fr_title: "Citation : HUMILITÉ",
+ fr_content: "Une vision réaliste de nous-mêmes à la Lumière des Saintes Écritures et en Présence de DIEU Tout-Puissant est ce que nous appelons l’HUMILITÉ ; et sans cette humilité, le salut est tout simplement impossible.",
+ hi_title: "उद्धरण: विनम्रता",
+ hi_content: "पवित्र धर्मग्रंथों के प्रकाश में और सर्वशक्तिमान ईश्वर की उपस्थिति में अपने बारे में एक यथार्थवादी दृष्टिकोण को हम विनम्रता कहते हैं; और इस विनम्रता के बिना मुक्ति बिल्कुल असंभव है।",
+ zh_title: "yǐn yòng ： qiān xū",
+ zh_content: "zài shèng jīng de guāng zhào xià hé zài quán néng shàng dì miàn qián duì zì jǐ de xiàn shí kàn fǎ jiù shì wǒ men suǒ shuō de qiān bēi 。 méi yǒu zhè zhǒng qiān bēi ， jiù shú gēn běn bù kě néng 。"
 tags: ["self_image", "bible", "god", "reservedness", "salvation"]
 ptopic: "[[topic-HUMILITY]]"
 level: 4
@@ -27,7 +35,15 @@ CREATE (c:CONTENT {
     name: "content.HUMILITY",
     ctype: "QUOTE",
     en_title: "Quote: HUMILITY",
-    en_content: "A realistic view of ourselves in the Light of the Holy Scriptures and in the Presence of Almighty GOD is what we call HUMILITY; and without this humility Salvation is simply impossible."
+    en_content: "A realistic view of ourselves in the Light of the Holy Scriptures and in the Presence of Almighty GOD is what we call HUMILITY; and without this humility Salvation is simply impossible.",
+ es_title: "Cita: HUMILDAD",
+ es_content: "Una visión realista de nosotros mismos a la Luz de las Sagradas Escrituras y en la Presencia de DIOS Todopoderoso es lo que llamamos HUMILDAD; y sin esta humildad la Salvación es simplemente imposible.",
+ fr_title: "Citation : HUMILITÉ",
+ fr_content: "Une vision réaliste de nous-mêmes à la Lumière des Saintes Écritures et en Présence de DIEU Tout-Puissant est ce que nous appelons l’HUMILITÉ ; et sans cette humilité, le salut est tout simplement impossible.",
+ hi_title: "उद्धरण: विनम्रता",
+ hi_content: "पवित्र धर्मग्रंथों के प्रकाश में और सर्वशक्तिमान ईश्वर की उपस्थिति में अपने बारे में एक यथार्थवादी दृष्टिकोण को हम विनम्रता कहते हैं; और इस विनम्रता के बिना मुक्ति बिल्कुल असंभव है।",
+ zh_title: "yǐn yòng ： qiān xū",
+ zh_content: "zài shèng jīng de guāng zhào xià hé zài quán néng shàng dì miàn qián duì zì jǐ de xiàn shí kàn fǎ jiù shì wǒ men suǒ shuō de qiān bēi 。 méi yǒu zhè zhǒng qiān bēi ， jiù shú gēn běn bù kě néng 。"
 });
 
 // LINK CONTENT

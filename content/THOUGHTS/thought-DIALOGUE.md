@@ -22,7 +22,15 @@ CREATE (c:CONTENT {
     name: "content.DIALOGUE",
     ctype: "THOUGHT",
     en_title: "DIALOGUE",
-    en_content: ""
+ es_title: "DIÁLOGO",
+ fr_title: "DIALOGUE",
+ hi_title: "वार्ता",
+ zh_title: "duì huà",
+    en_content: "",
+ es_content: "Discutir con el Diablo es extremadamente peligroso porque con demasiada frecuencia compartimos su punto de vista.",
+ fr_content: "Discuter avec le Diable est extrêmement dangereux car bien trop souvent nous partageons son point de vue.",
+ hi_content: "शैतान के साथ बहस करना बेहद खतरनाक है क्योंकि अक्सर हम उसका दृष्टिकोण साझा करते हैं।",
+ zh_content: "yǔ mó guǐ zhēng lùn shì jí qí wēi xiǎn de ， yīn wèi wǒ men cháng cháng tóng yì tā de guān diǎn 。"
 });
 
 MATCH (t:THOUGHT)

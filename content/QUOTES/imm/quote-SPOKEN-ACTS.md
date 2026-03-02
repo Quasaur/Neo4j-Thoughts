@@ -3,7 +3,15 @@ type: QUOTE
 name: "quote.SPOKEN_ACTS"
 alias: "Quote: Quote: SPOKEN ACTS"
 parent: "topic.LINGUISTICS"
-en_content: "Spoken words are human acts which are recorded in Heaven meticulously."
+en_content: "Spoken words are human acts which are recorded in Heaven meticulously.",
+ es_title: "Cita: ACTOS HABLADOS",
+ es_content: "Las palabras habladas son actos humanos que quedan registrados meticulosamente en el Cielo.",
+ fr_title: "Citation : ACTES PARLÉS",
+ fr_content: "Les paroles prononcées sont des actes humains qui sont méticuleusement enregistrés au Ciel.",
+ hi_title: "उद्धरण: मौखिक कृत्य",
+ hi_content: "बोले गए शब्द मानवीय कृत्य हैं जिन्हें स्वर्ग में सावधानीपूर्वक दर्ज किया जाता है।",
+ zh_title: "yǐn yòng ： kǒu tóu xíng wéi",
+ zh_content: "yán yǔ shì rén lèi de xíng wéi ， zài tiān shàng bèi xì zhì dì jì lù xià lái 。"
 tags: ["spoken", "words", "idle", "acts", "accountable"]
 ptopic: "[[topic-LINGUISTICS]]"
 level: 5
@@ -27,7 +35,15 @@ CREATE (c:CONTENT {
     name: "content.SPOKEN_ACTS",
     ctype: "QUOTE",
     en_title: "Quote: SPOKEN ACTS",
-    en_content: "Spoken words are human acts which are recorded in Heaven meticulously."
+    en_content: "Spoken words are human acts which are recorded in Heaven meticulously.",
+ es_title: "Cita: ACTOS HABLADOS",
+ es_content: "Las palabras habladas son actos humanos que quedan registrados meticulosamente en el Cielo.",
+ fr_title: "Citation : ACTES PARLÉS",
+ fr_content: "Les paroles prononcées sont des actes humains qui sont méticuleusement enregistrés au Ciel.",
+ hi_title: "उद्धरण: मौखिक कृत्य",
+ hi_content: "बोले गए शब्द मानवीय कृत्य हैं जिन्हें स्वर्ग में सावधानीपूर्वक दर्ज किया जाता है।",
+ zh_title: "yǐn yòng ： kǒu tóu xíng wéi",
+ zh_content: "yán yǔ shì rén lèi de xíng wéi ， zài tiān shàng bèi xì zhì dì jì lù xià lái 。"
 });
 
 // LINK CONTENT

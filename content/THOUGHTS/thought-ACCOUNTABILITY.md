@@ -24,14 +24,14 @@ CREATE (c:CONTENT {
     ctype: "THOUGHT",
     en_title: "ACCOUNTABILITY",
     en_content: "The idea of God introduces the concept of accountability.",
-    es_title: "RESPONSABILIDAD",
-    es_content: "La idea de Dios introduce el concepto de responsabilidad.",
-    fr_title: "RESPONSABILITÉ",
-    fr_content: "L'idée de Dieu introduit le concept de responsabilité.",
+    es_title: "Responsabilidad",
+    es_content: "Dios no te libra de las consecuencias de mis acciones.",
+    fr_title: "Responsabilité",
+    fr_content: "Dieu ne t'épargne pas les conséquences de mes actions.",
     hi_title: "जवाबदेही",
-    hi_content: "ईश्वर का विचार जवाबदेही की अवधारणा का परिचय देता है।",
-    zh_title: "zé rèn",
-    zh_content: "shàng dì de guān niàn yǐn rù le zé rèn de gài niàn 。"
+    hi_content: "भगवान आपको मेरे कार्यों के परिणामों से नहीं बचाते।",
+    zh_title: "问责制",
+    zh_content: "上帝不会让你免受我行为的后果。"
 });
 
 MATCH (t:THOUGHT)

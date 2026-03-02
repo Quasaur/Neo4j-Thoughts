@@ -22,7 +22,15 @@ CREATE (c:CONTENT {
     name: "content.ADOPTION",
     ctype: "THOUGHT",
     en_title: "ADOPTION",
-    en_content: ""
+ es_title: "ADOPCIÓN",
+ fr_title: "ADOPTION",
+ hi_title: "दत्तक ग्रहण",
+ zh_title: "cǎi yòng",
+    en_content: "",
+ es_content: "Él es el Arquitecto del Cosmos y la Sede del Poder Absoluto... ¡y mi Papá!",
+ fr_content: "Il est l'architecte du cosmos et le siège du pouvoir absolu... et mon papa !",
+ hi_content: "वह ब्रह्मांड के वास्तुकार और पूर्ण शक्ति के केंद्र हैं...और मेरे पिताजी!",
+ zh_content: "tā shì yǔ zhòu de jiàn zhù shī hé jué duì quán lì de bǎo zuò …… hái yǒu wǒ de bà bà ！"
 });
 
 MATCH (t:THOUGHT)

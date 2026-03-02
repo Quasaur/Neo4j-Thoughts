@@ -22,7 +22,15 @@ CREATE (c:CONTENT {
     name: "content.BEHIND",
     ctype: "THOUGHT",
     en_title: "BEHIND",
-    en_content: ""
+ es_title: "DETRÁS",
+ fr_title: "DERRIÈRE",
+ hi_title: "पीछे",
+ zh_title: "zài hòu miàn",
+    en_content: "",
+ es_content: "Dios está detrás de todo",
+ fr_content: "Dieu est derrière tout",
+ hi_content: "हर चीज़ के पीछे भगवान है",
+ zh_content: "shén shì yī qiè de bèi hòu"
 });
 
 MATCH (t:THOUGHT)

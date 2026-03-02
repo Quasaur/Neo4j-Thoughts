@@ -36,13 +36,11 @@ CREATE (d:DESCRIPTION {
 MATCH (t:TOPIC)
 MATCH (d:DESCRIPTION)
 WHERE t.name = "topic.PHYSICS" AND d.name = "desc.PHYSICS"
-MERGE (t)-[:HAS_DESCRIPTION {name: "edge.PHYSICS"}]->(d)
-RETURN *;
+MERGE (t)-[:HAS_DESCRIPTION {name: "edge.PHYSICS"}]->(d);
 // link node to parent node
 MATCH (parent:TOPIC)
 MATCH (child:TOPIC)
 WHERE parent.name = "topic.NATURAL SCIENCES" AND child.name = "topic.PHYSICS"
-MERGE (parent)-[:HAS_CHILD {name: "edge.NATURAL SCIENCES->PHYSICS"}]->(child)
-RETURN *;
+MERGE (parent)-[:HAS_CHILD {name: "edge.NATURAL SCIENCES->PHYSICS"}]->(child);
 
 ```

@@ -3,7 +3,15 @@ type: QUOTE
 name: "quote.THE_DESIRE_TO_RETURN"
 alias: "Quote: Quote: THE DESIRE TO RETURN"
 parent: "topic.EVIL"
-en_content: "While any sinner would DO EVERYTHING POSSIBLE to avoid the Lake of Fire, no sinner has ANY DESIRE IN THEIR HEART WHATSOEVER to return to God (repentance)."
+en_content: "While any sinner would DO EVERYTHING POSSIBLE to avoid the Lake of Fire, no sinner has ANY DESIRE IN THEIR HEART WHATSOEVER to return to God (repentance).",
+ es_title: "Cita: EL DESEO DE VOLVER",
+ es_content: "Si bien cualquier pecador haría TODO LO POSIBLE para evitar el Lago de Fuego, ningún pecador tiene NINGÚN DESEO EN SU CORAZÓN de regresar a Dios (arrepentimiento).",
+ fr_title: "Citation : LE DÉSIR DE RETOUR",
+ fr_content: "Alors que n'importe quel pécheur ferait TOUT POSSIBLE pour éviter l'étang de feu, aucun pécheur n'a AUCUN DÉSIR DANS SON CŒUR QUE CE SOIT de retourner à Dieu (repentir).",
+ hi_title: "उद्धरण: लौटने की इच्छा",
+ hi_content: "जबकि कोई भी पापी आग की झील से बचने के लिए हर संभव प्रयास करेगा, किसी भी पापी के दिल में भगवान के पास लौटने (पश्चाताप) की कोई इच्छा नहीं है।",
+ zh_title: "yǐn yòng ： huí guī de yuàn wàng",
+ zh_content: "suī rán rèn hé zuì rén dū huì jǐn yī qiè kě néng bì miǎn huǒ hú ， dàn méi yǒu zuì rén nèi xīn yǒu rèn hé kě wàng huí dào shàng dì shēn biān （ huǐ gǎi ）。"
 tags: ["survival", "lake_of_fire", "repentance", "sinner", "god"]
 ptopic: "[[topic-EVIL]]"
 level: 4
@@ -27,7 +35,15 @@ CREATE (c:CONTENT {
     name: "content.THE_DESIRE_TO_RETURN",
     ctype: "QUOTE",
     en_title: "Quote: THE DESIRE TO RETURN",
-    en_content: "While any sinner would DO EVERYTHING POSSIBLE to avoid the Lake of Fire, no sinner has ANY DESIRE IN THEIR HEART WHATSOEVER to return to God (repentance)."
+    en_content: "While any sinner would DO EVERYTHING POSSIBLE to avoid the Lake of Fire, no sinner has ANY DESIRE IN THEIR HEART WHATSOEVER to return to God (repentance).",
+ es_title: "Cita: EL DESEO DE VOLVER",
+ es_content: "Si bien cualquier pecador haría TODO LO POSIBLE para evitar el Lago de Fuego, ningún pecador tiene NINGÚN DESEO EN SU CORAZÓN de regresar a Dios (arrepentimiento).",
+ fr_title: "Citation : LE DÉSIR DE RETOUR",
+ fr_content: "Alors que n'importe quel pécheur ferait TOUT POSSIBLE pour éviter l'étang de feu, aucun pécheur n'a AUCUN DÉSIR DANS SON CŒUR QUE CE SOIT de retourner à Dieu (repentir).",
+ hi_title: "उद्धरण: लौटने की इच्छा",
+ hi_content: "जबकि कोई भी पापी आग की झील से बचने के लिए हर संभव प्रयास करेगा, किसी भी पापी के दिल में भगवान के पास लौटने (पश्चाताप) की कोई इच्छा नहीं है।",
+ zh_title: "yǐn yòng ： huí guī de yuàn wàng",
+ zh_content: "suī rán rèn hé zuì rén dū huì jǐn yī qiè kě néng bì miǎn huǒ hú ， dàn méi yǒu zuì rén nèi xīn yǒu rèn hé kě wàng huí dào shàng dì shēn biān （ huǐ gǎi ）。"
 });
 
 // LINK CONTENT

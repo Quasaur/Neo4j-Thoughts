@@ -65,12 +65,10 @@ tā yě kàngù jìngqián zhī rén de dàolù."});
 MATCH (b:PASSAGE)
 MATCH (c:CONTENT)
 WHERE b.name = "passage.THE SOURCE OF WISDOM" AND c.name = "content.THE SOURCE OF WISDOM"
-MERGE (b)-[:HAS_CONTENT {name: "p.edge.WISDOM->THE SOURCE OF WISDOM"}]->(c)
-RETURN *;
+MERGE (b)-[:HAS_CONTENT {name: "p.edge.WISDOM->THE SOURCE OF WISDOM"}]->(c);
 // link node to parent node
 MATCH (parent:TOPIC {name: "topic.WISDOM"})
 MATCH (child:PASSAGE {name: "passage.THE SOURCE OF WISDOM"})
-MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.WISDOM->THE SOURCE OF WISDOM"}]->(child)
-RETURN *;
+MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.WISDOM->THE SOURCE OF WISDOM"}]->(child);
 
 ```

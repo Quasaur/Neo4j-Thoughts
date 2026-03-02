@@ -103,12 +103,10 @@ nàxiē jǐn jǐn zhuā zhù tā de rén yǒufúle."});
 // link content to node
 MATCH (p:PASSAGE {name: 'passage.PRICELESS WISDOM'})
 MATCH (c:CONTENT {name: 'content.PRICELESS WISDOM'})
-MERGE (p)-[:HAS_CONTENT {name: "p.edge.PRICELESS WISDOM"}]->(c)
-RETURN *;
+MERGE (p)-[:HAS_CONTENT {name: "p.edge.PRICELESS WISDOM"}]->(c);
 // link node to parent node
 MATCH (parent:TOPIC {name: 'topic.WISDOM'})
 MATCH (child:PASSAGE {name: 'passage.PRICELESS WISDOM'})
-MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.WISDOM->PRICELESS WISDOM"}]->(child)
-RETURN *;
+MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.WISDOM->PRICELESS WISDOM"}]->(child);
 
 ```

@@ -39,12 +39,10 @@ CREATE (c:CONTENT {
 MATCH (b:PASSAGE)
 MATCH (c:CONTENT)
 WHERE b.name = "passage.HEART OF THE KING" AND c.name = "content.HEART OF THE KING"
-MERGE (b)-[:HAS_CONTENT {name: "b.edge.HEART OF THE KING"}]->(c)
-RETURN *;
+MERGE (b)-[:HAS_CONTENT {name: "b.edge.HEART OF THE KING"}]->(c);
 // link node to parent node
 MATCH (parent:TOPIC {name: "topic.DIVINE SOVEREIGNTY"})
 MATCH (child:PASSAGE {name: "passage.HEART OF THE KING"})
-MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.b.THE GODHEAD->HEART OF THE KING"}]->(child)
-RETURN *;
+MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.b.THE GODHEAD->HEART OF THE KING"}]->(child);
 
 ```

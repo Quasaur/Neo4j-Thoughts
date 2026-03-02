@@ -3,7 +3,15 @@ type: QUOTE
 name: "quote.LIMITED_BIBLE"
 alias: "Quote: Quote: LIMITED BIBLE"
 parent: "topic.THE-BIBLE"
-en_content: "The Holy Bible does NOT tell us all there is to know about GOD! The Bible was inspired by GOD for a very specific purpose: to give the saint everything needful to be saved from the Lake of Fire—and therefore from the power of sin."
+en_content: "The Holy Bible does NOT tell us all there is to know about GOD! The Bible was inspired by GOD for a very specific purpose: to give the saint everything needful to be saved from the Lake of Fire—and therefore from the power of sin.",
+ es_title: "Cita: BIBLIA LIMITADA",
+ es_content: "¡La Santa Biblia NO nos dice todo lo que hay que saber acerca de DIOS! La Biblia fue inspirada por DIOS con un propósito muy específico: darle al santo todo lo necesario para ser salvo del Lago de Fuego y, por lo tanto, del poder del pecado.",
+ fr_title: "Citation : BIBLE LIMITÉE",
+ fr_content: "La Sainte Bible ne nous dit PAS tout ce qu’il y a à savoir sur DIEU ! La Bible a été inspirée par DIEU dans un but très précis : donner au saint tout ce dont il a besoin pour être sauvé de l’étang de feu – et donc de la puissance du péché.",
+ hi_title: "उद्धरण: सीमित बाइबिल",
+ hi_content: "पवित्र बाइबल हमें परमेश्वर के बारे में जानने लायक सब कुछ नहीं बताती! बाइबल एक बहुत ही विशिष्ट उद्देश्य के लिए भगवान द्वारा प्रेरित की गई थी: संत को आग की झील से बचाने के लिए आवश्यक हर चीज देना - और इसलिए पाप की शक्ति से।",
+ zh_title: "yǐn yòng ： yǒu xiàn shèng jīng",
+ zh_content: "shèng jīng bìng méi yǒu gào sù wǒ men guān yú shàng dì de yī qiè ！ shèng jīng shì shàng dì wèi le yí gè fēi cháng jù tǐ de mù dì suǒ mò shì de ： jǐ yǔ shèng tú cóng huǒ hú zhōng zhěng jiù chū lái suǒ xū de yī qiè ， cóng ér cóng zuì de quán shì zhōng dé jiù 。"
 tags: ["scriptures", "bible", "uncomprehensive", "purpose", "objective"]
 ptopic: "[[topic-THE-BIBLE]]"
 level: 5
@@ -27,7 +35,15 @@ CREATE (c:CONTENT {
     name: "content.LIMITED_BIBLE",
     ctype: "QUOTE",
     en_title: "Quote: LIMITED BIBLE",
-    en_content: "The Holy Bible does NOT tell us all there is to know about GOD! The Bible was inspired by GOD for a very specific purpose: to give the saint everything needful to be saved from the Lake of Fire—and therefore from the power of sin."
+    en_content: "The Holy Bible does NOT tell us all there is to know about GOD! The Bible was inspired by GOD for a very specific purpose: to give the saint everything needful to be saved from the Lake of Fire—and therefore from the power of sin.",
+ es_title: "Cita: BIBLIA LIMITADA",
+ es_content: "¡La Santa Biblia NO nos dice todo lo que hay que saber acerca de DIOS! La Biblia fue inspirada por DIOS con un propósito muy específico: darle al santo todo lo necesario para ser salvo del Lago de Fuego y, por lo tanto, del poder del pecado.",
+ fr_title: "Citation : BIBLE LIMITÉE",
+ fr_content: "La Sainte Bible ne nous dit PAS tout ce qu’il y a à savoir sur DIEU ! La Bible a été inspirée par DIEU dans un but très précis : donner au saint tout ce dont il a besoin pour être sauvé de l’étang de feu – et donc de la puissance du péché.",
+ hi_title: "उद्धरण: सीमित बाइबिल",
+ hi_content: "पवित्र बाइबल हमें परमेश्वर के बारे में जानने लायक सब कुछ नहीं बताती! बाइबल एक बहुत ही विशिष्ट उद्देश्य के लिए भगवान द्वारा प्रेरित की गई थी: संत को आग की झील से बचाने के लिए आवश्यक हर चीज देना - और इसलिए पाप की शक्ति से।",
+ zh_title: "yǐn yòng ： yǒu xiàn shèng jīng",
+ zh_content: "shèng jīng bìng méi yǒu gào sù wǒ men guān yú shàng dì de yī qiè ！ shèng jīng shì shàng dì wèi le yí gè fēi cháng jù tǐ de mù dì suǒ mò shì de ： jǐ yǔ shèng tú cóng huǒ hú zhōng zhěng jiù chū lái suǒ xū de yī qiè ， cóng ér cóng zuì de quán shì zhōng dé jiù 。"
 });
 
 // LINK CONTENT
