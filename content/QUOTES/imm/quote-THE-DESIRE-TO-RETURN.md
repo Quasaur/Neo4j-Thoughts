@@ -4,7 +4,7 @@ name: "quote.THE_DESIRE_TO_RETURN"
 alias: "Quote: Quote: THE DESIRE TO RETURN"
 parent: "topic.EVIL"
 en_content: "While any sinner would DO EVERYTHING POSSIBLE to avoid the Lake of Fire, no sinner has ANY DESIRE IN THEIR HEART WHATSOEVER to return to God (repentance)."
-tags: ["survival", "lakeoffire", "repentance", "sinner", "god"]
+tags: ["survival", "lake_of_fire", "repentance", "sinner", "god"]
 ptopic: "[[topic-EVIL]]"
 level: 4
 neo4j: true
@@ -16,7 +16,7 @@ CREATE (q:QUOTE {
     name: "quote.THE_DESIRE_TO_RETURN",
     alias: "Quote: Quote: THE DESIRE TO RETURN",
     parent: "topic.EVIL",
-    tags: ["survival", "lakeoffire", "repentance", "sinner", "god"],
+    tags: ["survival", "lake_of_fire", "repentance", "sinner", "god"],
     source: "'IMMMUNITY to the Lake of Fire: A No-Nonsense Guide'",
     booklink: "(https://www.amazon.com/IMMUNITY-LAKE-FIRE-No-Nonsense-Guide-ebook/dp/B08B5J9V8J)",
     level: 4

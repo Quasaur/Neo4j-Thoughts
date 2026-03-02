@@ -4,7 +4,7 @@ name: "quote.THE_BOOK_OF_LIFE"
 alias: "Quote: Quote: THE BOOK OF LIFE"
 parent: "topic.DIVINE-SOVEREIGNTY"
 en_content: "As long as your name is written in the Lamb’s Book of LIFE, YOU HAVE NOTHING TO WORRY ABOUT WHATSOEVER; the Lake of Fire can do you no harm."
-tags: ["lamboflgod", "lakeoffire", "bookoflife", "immunity", "fearless"]
+tags: ["lamb_of_god", "lake_of_fire", "book_of_life", "immunity", "fearless"]
 ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
 level: 2
 neo4j: true
@@ -16,7 +16,7 @@ CREATE (q:QUOTE {
     name: "quote.THE_BOOK_OF_LIFE",
     alias: "Quote: Quote: THE BOOK OF LIFE",
     parent: "topic.DIVINE-SOVEREIGNTY",
-    tags: ["lamboflgod", "lakeoffire", "bookoflife", "immunity", "fearless"],
+    tags: ["lamb_of_god", "lake_of_fire", "book_of_life", "immunity", "fearless"],
     source: "'IMMMUNITY to the Lake of Fire: A No-Nonsense Guide'",
     booklink: "(https://www.amazon.com/IMMUNITY-LAKE-FIRE-No-Nonsense-Guide-ebook/dp/B08B5J9V8J)",
     level: 2

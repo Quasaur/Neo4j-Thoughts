@@ -6,20 +6,22 @@ parent: "topic.THE GOSPEL"
 en_content: |
   PLEASE UNDERSTAND: the First Adam was CREATED; the Last Adam is BEGOTTEN!!!  
   That's why Jesus is called God's 'Only-Begotten' Son.
-tags: ["adam", "first", "last", "jesuschrist", "begotten"]
+tags: ["adam", "first", "last", "jesus_christ", "begotten"]
 ptopic: "\"[[topic-THE]]\""
 level: 2
 neo4j: true
 ---
 ```Cypher
 //create the Thought with the same fields as a normal thought
-CREATE (q:QUOTE {	    name: "quote.BEGOTTEN",
-		alias: "Quote: God's Only Son", 
-		parent: "topic.THE GOSPEL", 
-		tags: ["adam", "first", "last", "jesuschrist", "begotten"], 
-		source: "The Basics and More: A Year's Sermons",
-		booklink: "https://www.amazon.com/Basics-More-Years-Sermons-ebook/dp/B00XLMBDR8",
-		level: 2});
+CREATE (q:QUOTE {	    
+	name: "quote.BEGOTTEN",
+	alias: "Quote: God's Only Son", 
+	parent: "topic.THE GOSPEL", 
+	tags: ["adam", "first", "last", "jesus_christ", "begotten"], 
+	source: "The Basics and More: A Year's Sermons",
+	booklink: "https://www.amazon.com/Basics-More-Years-Sermons-ebook/dp/B00XLMBDR8",
+	level: 2
+});
 // create multi-lingual content		
 CREATE (c:CONTENT {
 	name: "content.BEGOTTEN",

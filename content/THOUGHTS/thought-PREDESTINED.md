@@ -3,7 +3,7 @@ type: THOUGHT
 name: "thought.PREDESTINED"
 alias: "Thought: PREDESTINED"
 parent: "topic.DIVINE-SOVEREIGNTY"
-tags: ["sovereignty", "election", "lordship", "chosen", "jesuschrist"]
+tags: ["sovereignty", "election", "lordship", "chosen", "jesus_christ"]
 ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
 level: 2
 neo4j: true
@@ -14,7 +14,7 @@ CREATE (t:THOUGHT {
     name: "thought.PREDESTINED",
     alias: "Thought: PREDESTINED",
     parent: "topic.DIVINE-SOVEREIGNTY",
-    tags: ["sovereignty", "election", "lordship", "chosen", "jesuschrist"],
+    tags: ["sovereignty", "election", "lordship", "chosen", "jesus_christ"],
     level: 2
 });
 

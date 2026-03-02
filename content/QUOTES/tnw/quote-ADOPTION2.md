@@ -4,7 +4,7 @@ name: "quote.ADOPTION2"
 alias: "Quote: Quote: ADOPTION2"
 parent: "topic.GRACE"
 en_content: "No doubt you can appreciate how important Conversion is to your Salvation. GOD does not exist to the world (or the religious) because, as unredeemed sinners, they do not have the Holy Spirit of GOD dwelling in them, as true Christians do."
-tags: ["bornagain", "rebirth", "holyspirit", "childofgod", "holyspirit"]
+tags: ["bornagain", "rebirth", "holy_spirit", "child_of_god", "holy_spirit"]
 ptopic: "[[topic-GRACE]]"
 level: 3
 neo4j: true
@@ -16,7 +16,7 @@ CREATE (q:QUOTE {
     name: "quote.ADOPTION2",
     alias: "Quote: Quote: ADOPTION2",
     parent: "topic.GRACE",
-    tags: ["bornagain", "rebirth", "holyspirit", "childofgod", "holyspirit"],
+    tags: ["bornagain", "rebirth", "holy_spirit", "child_of_god", "holy_spirit"],
     source: "'The Narrow Way'",
     booklink: "(https://www.amazon.com/Narrow-Way-Calvin-Mitchell-ebook/dp/B0CRYC8WY7)",
     level: 3

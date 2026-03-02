@@ -3,7 +3,7 @@ type: THOUGHT
 name: "thought.CITIZENSHIP"
 alias: "Thought: CITIZENSHIP"
 parent: "topic.ECONOMICS"
-tags: ["citizenship", "kingdom", "reignofgod", "freedom", "jesuschrist"]
+tags: ["citizenship", "kingdom", "reign_of_god", "freedom", "jesus_christ"]
 ptopic: "[[topic-ECONOMICS]]"
 level: 4
 neo4j: true
@@ -14,7 +14,7 @@ CREATE (t:THOUGHT {
     name: "thought.CITIZENSHIP",
     alias: "Thought: CITIZENSHIP",
     parent: "topic.ECONOMICS",
-    tags: ["citizenship", "kingdom", "reignofgod", "freedom", "jesuschrist"],
+    tags: ["citizenship", "kingdom", "reign_of_god", "freedom", "jesus_christ"],
     level: 4
 });
 

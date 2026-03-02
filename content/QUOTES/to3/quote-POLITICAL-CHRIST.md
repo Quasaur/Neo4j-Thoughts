@@ -4,7 +4,7 @@ name: "quote.POLITICAL_CHRIST"
 alias: "Quote: Quote: POLITICAL CHRIST"
 parent: "topic.POLITICAL-SCIENCE"
 en_content: "I state that not only is Jesus' Authority spiritual, but political and economic as well."
-tags: ["jesuschrist", "authority", "political", "spiritual", "economical"]
+tags: ["jesus_christ", "authority", "political", "spiritual", "economical"]
 ptopic: "[[topic-POLITICAL-SCIENCE]]"
 level: 4
 neo4j: true
@@ -16,7 +16,7 @@ CREATE (q:QUOTE {
     name: "quote.POLITICAL_CHRIST",
     alias: "Quote: Quote: POLITICAL CHRIST",
     parent: "topic.POLITICAL-SCIENCE",
-    tags: ["jesuschrist", "authority", "political", "spiritual", "economical"],
+    tags: ["jesus_christ", "authority", "political", "spiritual", "economical"],
     source: "'The Traveler's Oasis, Book Three'",
     booklink: "(https://www.amazon.com/Travelers-Oasis-Book-Three-ebook/dp/B00YRKX8E4)",
     level: 4

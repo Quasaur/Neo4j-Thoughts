@@ -4,7 +4,7 @@ name: "quote.THE_SERVANT_KING"
 alias: "Quote: Quote: THE SERVANT KING"
 parent: "topic.ATTITUDE"
 en_content: "OH MY GOD!!! Here the Lord Jesus Christ distinguishes Himself from all the great men (and great thinkers) of history who have either preceded Him or came after Him! If the Claims Jesus made about Himself are true, He had at His disposal enough absolute power to bend all human society to His Will... Yet, in His First Advent, He refuses to exert a single iota of His Divine Sovereignty to shape human will or human hearts! Rather, by the Spirit of Humility, He calls, teaches and persuades us by means of deeds the lowliest of slaves would be hesitant to perform!"
-tags: ["greatest", "servant", "burdenbearer", "foundation", "jesuschrist"]
+tags: ["greatest", "servant", "burdenbearer", "foundation", "jesus_christ"]
 ptopic: "[[topic-ATTITUDE]]"
 level: 3
 neo4j: true
@@ -16,7 +16,7 @@ CREATE (q:QUOTE {
     name: "quote.THE_SERVANT_KING",
     alias: "Quote: Quote: THE SERVANT KING",
     parent: "topic.ATTITUDE",
-    tags: ["greatest", "servant", "burdenbearer", "foundation", "jesuschrist"],
+    tags: ["greatest", "servant", "burdenbearer", "foundation", "jesus_christ"],
     source: "'The Narrow Way'",
     booklink: "(https://www.amazon.com/Narrow-Way-Calvin-Mitchell-ebook/dp/B0CRYC8WY7)",
     level: 3

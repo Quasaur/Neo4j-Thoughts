@@ -3,7 +3,7 @@ type: THOUGHT
 name: "thought.FRUSTRATION"
 alias: "Thought: FRUSTRATION"
 parent: "topic.FAITHFULNESS"
-tags: ["frustration", "spirituality", "assurance", "fathergod", "jesuschrist"]
+tags: ["frustration", "spirituality", "assurance", "fathergod", "jesus_christ"]
 ptopic: "[[topic-FAITHFULNESS]]"
 level: 2
 neo4j: true
@@ -14,7 +14,7 @@ CREATE (t:THOUGHT {
     name: "thought.FRUSTRATION",
     alias: "Thought: FRUSTRATION",
     parent: "topic.FAITHFULNESS",
-    tags: ["frustration", "spirituality", "assurance", "fathergod", "jesuschrist"],
+    tags: ["frustration", "spirituality", "assurance", "fathergod", "jesus_christ"],
     level: 2
 });
 

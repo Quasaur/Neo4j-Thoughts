@@ -4,7 +4,7 @@ name: "thought.HUMAN_MERCY"
 alias: "Thought: HUMAN MERCY"
 parent: "topic.ATTITUDE"
 en_content: "Oh Most Holy Father of spirits, please grant me the Grace to be merciful to Your Feelings through my submission and faithful obedience to Your Only-Begotten Son The Messiah!"
-tags: ["mercy", "submission", "faithfulness", "obedience", "jesuschrist"]
+tags: ["mercy", "submission", "faithfulness", "obedience", "jesus_christ"]
 ptopic: "[[topic-ATTITUDE]]"
 level: 3
 neo4j: true
@@ -15,7 +15,7 @@ CREATE (t:THOUGHT {
     name: "thought.HUMAN_MERCY",
     alias: "Thought: HUMAN MERCY",
     parent: "topic.ATTITUDE",
-    tags: ["mercy", "submission", "faithfulness", "obedience", "jesuschrist"],
+    tags: ["mercy", "submission", "faithfulness", "obedience", "jesus_christ"],
     level: 3
 });
 

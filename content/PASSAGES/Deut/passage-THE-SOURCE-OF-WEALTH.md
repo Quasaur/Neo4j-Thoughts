@@ -20,7 +20,8 @@ CREATE (b:PASSAGE
   source: "Deuteronomy 8:18",
   sortedsource: "Deuteronomy 08:18",
   biblelink: "https://www.biblegateway.com/passage/?search=Deuteronomy%208%3A18&version=NASB",
-  level: 3});
+  level: 3
+});
 // create multi-lingual content  
 CREATE (c:CONTENT {
  name: "content.THE SOURCE OF WEALTH", 

@@ -4,7 +4,7 @@ name: "quote.FAITH-FOCUSED"
 alias: "Quote: Quote: FAITH-FOCUSED"
 parent: "topic.FAITH"
 en_content: "Here's a hint: if you're stuck in doubt, it's because YOU'RE FOCUSED ON THE WRONG PERSON. If you're looking inward at yourself the only conclusion you can come to is 'impossible.' But if you turn your attention to Jesus and His Unconditional Love for you, your confidence in His Word (in this case Romans Chapter Six) will grow and meet the challenge of your past with the glory of your future in Christ."
-tags: ["faith", "focus", "wordoffaith", "jesuschrist", "self"]
+tags: ["faith", "focus", "word_of_faith", "jesus_christ", "self"]
 ptopic: "[[topic-FAITH]]"
 level: 4
 neo4j: true
@@ -16,7 +16,7 @@ CREATE (q:QUOTE {
     name: "quote.FAITH-FOCUSED",
     alias: "Quote: Quote: FAITH-FOCUSED",
     parent: "topic.FAITH",
-    tags: ["faith", "focus", "wordoffaith", "jesuschrist", "self"],
+    tags: ["faith", "focus", "word_of_faith", "jesus_christ", "self"],
     source: "'The Narrow Way'",
     booklink: "(https://www.amazon.com/Narrow-Way-Calvin-Mitchell-ebook/dp/B0CRYC8WY7)",
     level: 4

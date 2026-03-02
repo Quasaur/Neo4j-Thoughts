@@ -3,7 +3,7 @@ type: THOUGHT
 name: "thought.ADDICTION"
 alias: "Thought: ADDICTION"
 parent: "topic.PSYCHOLOGY"
-tags: ["sanctification", "addiction", "flesh", "thecross", "jesuschrist"]
+tags: ["sanctification", "addiction", "flesh", "thecross", "jesus_christ"]
 ptopic: "[[topic-PSYCHOLOGY]]"
 level: 4
 neo4j: true
@@ -14,7 +14,7 @@ CREATE (t:THOUGHT {
     name: "thought.ADDICTION",
     alias: "Thought: ADDICTION",
     parent: "topic.PSYCHOLOGY",
-    tags: ["sanctification", "addiction", "flesh", "thecross", "jesuschrist"],
+    tags: ["sanctification", "addiction", "flesh", "thecross", "jesus_christ"],
     level: 4
 });
 

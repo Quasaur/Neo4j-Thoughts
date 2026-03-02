@@ -3,7 +3,7 @@ type: THOUGHT
 name: "thought.FORGIVENESS"
 alias: "Thought: FORGIVENESS"
 parent: "topic.MERCY"
-tags: ["forgiveness", "atonement", "propitiation", "thecross", "jesuschrist"]
+tags: ["forgiveness", "atonement", "propitiation", "thecross", "jesus_christ"]
 ptopic: "[[topic-MERCY]]"
 level: 5
 neo4j: true
@@ -14,7 +14,7 @@ CREATE (t:THOUGHT {
     name: "thought.FORGIVENESS",
     alias: "Thought: FORGIVENESS",
     parent: "topic.MERCY",
-    tags: ["forgiveness", "atonement", "propitiation", "thecross", "jesuschrist"],
+    tags: ["forgiveness", "atonement", "propitiation", "thecross", "jesus_christ"],
     level: 5
 });
 

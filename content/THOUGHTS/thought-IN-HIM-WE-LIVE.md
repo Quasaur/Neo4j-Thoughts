@@ -4,7 +4,7 @@ name: "thought.IN_HIM_WE_LIVE"
 alias: "Thought: IN HIM WE LIVE"
 parent: "topic.CREATION"
 en_content: "We are all inside of God...is God inside of us?"
-tags: ["creation", "divine", "fulness", "indwelling", "holyspirit"]
+tags: ["creation", "divine", "fulness", "indwelling", "holy_spirit"]
 ptopic: "[[topic-CREATION]]"
 level: 2
 neo4j: true
@@ -15,7 +15,7 @@ CREATE (t:THOUGHT {
     name: "thought.IN_HIM_WE_LIVE",
     alias: "Thought: IN HIM WE LIVE",
     parent: "topic.CREATION",
-    tags: ["creation", "divine", "fulness", "indwelling", "holyspirit"],
+    tags: ["creation", "divine", "fulness", "indwelling", "holy_spirit"],
     level: 2
 });
 

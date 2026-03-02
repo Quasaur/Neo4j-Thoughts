@@ -4,7 +4,7 @@ name: "quote.TRUTH_AND_FAITH"
 alias: "Quote: Quote: TRUTH AND FAITH"
 parent: "topic.THE-GOSPEL"
 en_content: "GOD lovingly provides both the Truth that saves us from the Lake of Fire as well as the Saving Faith necessary to believe on (from the heart) and live by that Saving Truth."
-tags: ["faith", "truth", "salvation", "lakeoffire", "love"]
+tags: ["faith", "truth", "salvation", "lake_of_fire", "love"]
 ptopic: "[[topic-THE-GOSPEL]]"
 level: 2
 neo4j: true
@@ -16,7 +16,7 @@ CREATE (q:QUOTE {
     name: "quote.TRUTH_AND_FAITH",
     alias: "Quote: Quote: TRUTH AND FAITH",
     parent: "topic.THE-GOSPEL",
-    tags: ["faith", "truth", "salvation", "lakeoffire", "love"],
+    tags: ["faith", "truth", "salvation", "lake_of_fire", "love"],
     source: "'IMMMUNITY to the Lake of Fire: A No-Nonsense Guide'",
     booklink: "(https://www.amazon.com/IMMUNITY-LAKE-FIRE-No-Nonsense-Guide-ebook/dp/B08B5J9V8J)",
     level: 2

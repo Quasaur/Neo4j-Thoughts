@@ -4,7 +4,7 @@ name: "thought.THE_LAST_WORD"
 alias: "Thought: THE LAST WORD"
 parent: "topic.THE-GOSPEL"
 en_content: "Yehoshua Ha Meshiach: Jesus The Christ: The Living Word...The Last Word!"
-tags: ["gospel", "jesuschrist", "livingword", "lastword", "wordofgod"]
+tags: ["gospel", "jesus_christ", "livingword", "lastword", "word_of_god"]
 ptopic: "[[topic-THE-GOSPEL]]"
 level: 2
 neo4j: true
@@ -15,7 +15,7 @@ CREATE (t:THOUGHT {
     name: "thought.THE_LAST_WORD",
     alias: "Thought: THE LAST WORD",
     parent: "topic.THE-GOSPEL",
-    tags: ["gospel", "jesuschrist", "livingword", "lastword", "wordofgod"],
+    tags: ["gospel", "jesus_christ", "livingword", "lastword", "word_of_god"],
     level: 2
 });
 

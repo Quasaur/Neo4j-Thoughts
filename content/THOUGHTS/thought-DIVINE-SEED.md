@@ -4,7 +4,7 @@ name: "thought.DIVINE_SEED"
 alias: "Thought: DIVINE SEED"
 parent: "topic.GRACE"
 en_content: "A woman cannot give her husband a child without first receiving his seed; likewise we cannot give God worship, glory or obedience without first receiving the Seed of His Word fertilized by the Holy Spirit."
-tags: ["seed", "wordofgod", "holyspirit", "sowing", "reaping"]
+tags: ["seed", "word_of_god", "holy_spirit", "sowing", "reaping"]
 ptopic: "[[topic-GRACE]]"
 level: 3
 neo4j: true
@@ -15,7 +15,7 @@ CREATE (t:THOUGHT {
     name: "thought.DIVINE_SEED",
     alias: "Thought: DIVINE SEED",
     parent: "topic.GRACE",
-    tags: ["seed", "wordofgod", "holyspirit", "sowing", "reaping"],
+    tags: ["seed", "word_of_god", "holy_spirit", "sowing", "reaping"],
     level: 3
 });
 

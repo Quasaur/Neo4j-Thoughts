@@ -4,7 +4,7 @@ name: "thought.NOT_LIKE_ME"
 alias: "Thought: NOT-LIKE-ME"
 parent: "topic.MERCY"
 en_content: "I was wrong about God; He's not in any way near as vindictive, judgmental or self-righteous as I am."
-tags: ["idolatry", "divine", "superior", "fruitofthespirit", "grace"]
+tags: ["idolatry", "divine", "superior", "fruit_of_the_spirit", "grace"]
 ptopic: "[[topic-MERCY]]"
 level: 5
 neo4j: true
@@ -15,7 +15,7 @@ CREATE (t:THOUGHT {
     name: "thought.NOT_LIKE_ME",
     alias: "Thought: NOT-LIKE-ME",
     parent: "topic.MERCY",
-    tags: ["idolatry", "divine", "superior", "fruitofthespirit", "grace"],
+    tags: ["idolatry", "divine", "superior", "fruit_of_the_spirit", "grace"],
     level: 5
 });
 

@@ -4,7 +4,7 @@ name: "quote.HUMILITY"
 alias: "Quote: Quote: HUMILITY"
 parent: "topic.HUMILITY"
 en_content: "A realistic view of ourselves in the Light of the Holy Scriptures and in the Presence of Almighty GOD is what we call HUMILITY; and without this humility Salvation is simply impossible."
-tags: ["selfimage", "bible", "god", "reservedness", "salvation"]
+tags: ["self_image", "bible", "god", "reservedness", "salvation"]
 ptopic: "[[topic-HUMILITY]]"
 level: 4
 neo4j: true
@@ -16,7 +16,7 @@ CREATE (q:QUOTE {
     name: "quote.HUMILITY",
     alias: "Quote: Quote: HUMILITY",
     parent: "topic.HUMILITY",
-    tags: ["selfimage", "bible", "god", "reservedness", "salvation"],
+    tags: ["self_image", "bible", "god", "reservedness", "salvation"],
     source: "'IMMMUNITY to the Lake of Fire: A No-Nonsense Guide'",
     booklink: "(https://www.amazon.com/IMMUNITY-LAKE-FIRE-No-Nonsense-Guide-ebook/dp/B08B5J9V8J)",
     level: 4

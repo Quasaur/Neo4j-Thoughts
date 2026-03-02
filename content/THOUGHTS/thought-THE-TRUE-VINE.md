@@ -4,7 +4,7 @@ name: "thought.THE_TRUE_VINE"
 alias: "Thought: THE TRUE VINE"
 parent: "topic.SPIRITUALITY"
 en_content: "In the annals of spirituality EVERYTHING points to Jesus Christ."
-tags: ["spirituality", "bible", "jesuschrist", "nexus", "truevine"]
+tags: ["spirituality", "bible", "jesus_christ", "nexus", "truevine"]
 ptopic: "[[topic-SPIRITUALITY]]"
 level: 2
 neo4j: true
@@ -15,7 +15,7 @@ CREATE (t:THOUGHT {
     name: "thought.THE_TRUE_VINE",
     alias: "Thought: THE TRUE VINE",
     parent: "topic.SPIRITUALITY",
-    tags: ["spirituality", "bible", "jesuschrist", "nexus", "truevine"],
+    tags: ["spirituality", "bible", "jesus_christ", "nexus", "truevine"],
     level: 2
 });
 

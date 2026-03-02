@@ -4,7 +4,7 @@ name: "quote.DUAL_PUNISHMENT"
 alias: "Quote: Quote: DUAL PUNISHMENT"
 parent: "topic.JUSTICE"
 en_content: "It is ILLEGAL for GOD The Father to punish both you and Jesus for the same sin(s)!"
-tags: ["sin", "jesuschrist", "propitiation", "substitute", "sacrifice"]
+tags: ["sin", "jesus_christ", "propitiation", "substitute", "sacrifice"]
 ptopic: "[[topic-JUSTICE]]"
 level: 5
 neo4j: true
@@ -16,7 +16,7 @@ CREATE (q:QUOTE {
     name: "quote.DUAL_PUNISHMENT",
     alias: "Quote: Quote: DUAL PUNISHMENT",
     parent: "topic.JUSTICE",
-    tags: ["sin", "jesuschrist", "propitiation", "substitute", "sacrifice"],
+    tags: ["sin", "jesus_christ", "propitiation", "substitute", "sacrifice"],
     source: "'IMMMUNITY to the Lake of Fire: A No-Nonsense Guide'",
     booklink: "(https://www.amazon.com/IMMUNITY-LAKE-FIRE-No-Nonsense-Guide-ebook/dp/B08B5J9V8J)",
     level: 5

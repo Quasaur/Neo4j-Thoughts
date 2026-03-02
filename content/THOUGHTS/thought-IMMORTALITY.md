@@ -3,7 +3,7 @@ type: THOUGHT
 name: "thought.IMMORTALITY"
 alias: "Thought: IMMORTALITY"
 parent: "topic.FAITHFULNESS"
-tags: ["immortality", "eternallife", "salvation", "desire", "jesuschrist"]
+tags: ["immortality", "eternal_life", "salvation", "desire", "jesus_christ"]
 ptopic: "[[topic-FAITHFULNESS]]"
 level: 2
 neo4j: true
@@ -14,7 +14,7 @@ CREATE (t:THOUGHT {
     name: "thought.IMMORTALITY",
     alias: "Thought: IMMORTALITY",
     parent: "topic.FAITHFULNESS",
-    tags: ["immortality", "eternallife", "salvation", "desire", "jesuschrist"],
+    tags: ["immortality", "eternal_life", "salvation", "desire", "jesus_christ"],
     level: 2
 });
 

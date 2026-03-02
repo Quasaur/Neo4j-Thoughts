@@ -7,7 +7,7 @@ en_content: |
   Dear Christian: your earthly self is just an avatar.
   Your Real Self is hid with Christ in GOD; that’s why Jesus MUST return: so that you (and everyone else) can behold who you really are! 
   Colossians 3:1-4
-tags: ["identity", "selfimage", "imageofgod", "christian", "jesuschrist"]
+tags: ["identity", "self_image", "image_of_god", "christian", "jesus_christ"]
 ptopic: "\"[[topic-GRACE]]\""
 level: 3
 neo4j: true
@@ -17,7 +17,7 @@ CREATE (t:THOUGHT {
     name: '"thought.THE_REAL_YOU"',
     alias: "Thought: The Real You",
     parent: '"topic.GRACE"',
-    tags: ["identity", "selfimage", "imageofgod", "christian", "jesuschrist"],
+    tags: ["identity", "self_image", "image_of_god", "christian", "jesus_christ"],
     level: 3
 });
 

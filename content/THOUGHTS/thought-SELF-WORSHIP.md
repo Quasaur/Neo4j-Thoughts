@@ -4,7 +4,7 @@ name: "thought.SELF_WORSHIP"
 alias: "Thought: SELF WORSHIP"
 parent: "topic.RELIGION"
 en_content: "Self-awareness without God-awareness is just self-worship, from which comes humanitarianism and evolutionary theory."
-tags: ["narcissism", "selfworship", "religion", "humanitarian", "evolution"]
+tags: ["narcissism", "self_worship", "religion", "humanitarian", "evolution"]
 ptopic: "[[topic-RELIGION]]"
 level: 4
 neo4j: true
@@ -15,7 +15,7 @@ CREATE (t:THOUGHT {
     name: "thought.SELF_WORSHIP",
     alias: "Thought: SELF WORSHIP",
     parent: "topic.RELIGION",
-    tags: ["narcissism", "selfworship", "religion", "humanitarian", "evolution"],
+    tags: ["narcissism", "self_worship", "religion", "humanitarian", "evolution"],
     level: 4
 });
 

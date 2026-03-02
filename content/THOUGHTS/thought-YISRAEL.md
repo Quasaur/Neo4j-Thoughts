@@ -3,7 +3,7 @@ type: THOUGHT
 name: "thought.YISRAEL"
 alias: "Thought: YISRAEL"
 parent: "topic.HISTORY"
-tags: ["israel", "apartheid", "genocide", "palestinians", "jesuschrist"]
+tags: ["israel", "apartheid", "genocide", "palestinians", "jesus_christ"]
 ptopic: "[[topic-HISTORY]]"
 level: 4
 neo4j: true
@@ -14,7 +14,7 @@ CREATE (t:THOUGHT {
     name: "thought.YISRAEL",
     alias: "Thought: YISRAEL",
     parent: "topic.HISTORY",
-    tags: ["israel", "apartheid", "genocide", "palestinians", "jesuschrist"],
+    tags: ["israel", "apartheid", "genocide", "palestinians", "jesus_christ"],
     level: 4
 });
 

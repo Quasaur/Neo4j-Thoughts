@@ -4,7 +4,7 @@ name: "thought.DEATH_VS_DEATH"
 alias: "Thought: DEATH VS DEATH"
 parent: "topic.THE-GOSPEL"
 en_content: "Only GOD could come up with the idea of using death to destroy death!!!"
-tags: ["death", "destroy", "idea", "god", "eternallife"]
+tags: ["death", "destroy", "idea", "god", "eternal_life"]
 ptopic: "[[topic-THE-GOSPEL]]"
 level: 2
 neo4j: true
@@ -15,7 +15,7 @@ CREATE (t:THOUGHT {
     name: "thought.DEATH_VS_DEATH",
     alias: "Thought: DEATH VS DEATH",
     parent: "topic.THE-GOSPEL",
-    tags: ["death", "destroy", "idea", "god", "eternallife"],
+    tags: ["death", "destroy", "idea", "god", "eternal_life"],
     level: 2
 });
 

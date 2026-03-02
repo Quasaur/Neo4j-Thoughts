@@ -4,7 +4,7 @@ name: "passage.FREEDOM_OF_DEATH"
 alias: "Passage: FREEDOM OF DEATH"
 parent: "topic.FREEDOM"
 en_content: "For he that is dead is freed from sin."
-tags: ["freedom", "death", "sin", "thecross", "jesuschrist"]
+tags: ["freedom", "death", "sin", "thecross", "jesus_christ"]
 ptopic: "[[topic-FREEDOM]]"
 level: 5
 neo4j: true
@@ -16,7 +16,7 @@ CREATE (b:PASSAGE {
     name: "passage.FREEDOM_OF_DEATH",
     alias: "Passage: FREEDOM OF DEATH",
     parent: "topic.FREEDOM",
-    tags: ["freedom", "death", "sin", "thecross", "jesuschrist"],
+    tags: ["freedom", "death", "sin", "thecross", "jesus_christ"],
     source: "'Romans 6:7'",
     sortedsource: "'Romans 06:07'",
     biblelink: "(https://www.biblegateway.com/passage/?search=Romans+6:7&version=KJV)",

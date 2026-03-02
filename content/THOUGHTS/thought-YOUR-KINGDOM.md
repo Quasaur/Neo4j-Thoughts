@@ -4,7 +4,7 @@ name: "thought.YOUR_KINGDOM"
 alias: "Thought: YOUR KINGDOM"
 parent: "topic.DIVINE-SOVEREIGNTY"
 en_content: "To establish the Kingdom of the Heavens on this Earth, Christ must destroy your kingdom."
-tags: ["kingdom", "heaven", "earth", "destruction", "jesuschrist"]
+tags: ["kingdom", "heaven", "earth", "destruction", "jesus_christ"]
 ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
 level: 2
 neo4j: true
@@ -15,7 +15,7 @@ CREATE (t:THOUGHT {
     name: "thought.YOUR_KINGDOM",
     alias: "Thought: YOUR KINGDOM",
     parent: "topic.DIVINE-SOVEREIGNTY",
-    tags: ["kingdom", "heaven", "earth", "destruction", "jesuschrist"],
+    tags: ["kingdom", "heaven", "earth", "destruction", "jesus_christ"],
     level: 2
 });
 

@@ -4,7 +4,7 @@ name: "thought.LIVING_RELATIONSHIPS"
 alias: "Thought: LIVING RELATIONSHIP"
 parent: "topic.PSYCHOLOGY"
 en_content: "Life is all about relationships."
-tags: ["live", "relationships", "people", "jesuschrist", "god"]
+tags: ["live", "relationships", "people", "jesus_christ", "god"]
 ptopic: "[[topic-PSYCHOLOGY]]"
 level: 4
 neo4j: true
@@ -15,7 +15,7 @@ CREATE (t:THOUGHT {
     name: "thought.LIVING_RELATIONSHIPS",
     alias: "Thought: LIVING RELATIONSHIP",
     parent: "topic.PSYCHOLOGY",
-    tags: ["live", "relationships", "people", "jesuschrist", "god"],
+    tags: ["live", "relationships", "people", "jesus_christ", "god"],
     level: 4
 });
 

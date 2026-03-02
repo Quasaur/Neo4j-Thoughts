@@ -4,7 +4,7 @@ name: "quote.THE_SALVATION"
 alias: "Quote: Quote: THE SALVATION"
 parent: "topic.THE-GOSPEL"
 en_content: "THERE IS NO SALVATION APART FROM JESUS. Let me put this another way: JESUS **IS** THE SALVATION GOD THE FATHER IS OFFERING YOU, as opposed to a set of deeds you must accomplish or words you must say to 'receive' Salvation from Jesus."
-tags: ["theonly", "life", "way", "truth", "jesuschrist"]
+tags: ["theonly", "life", "way", "truth", "jesus_christ"]
 ptopic: "[[topic-THE-GOSPEL]]"
 level: 2
 neo4j: true
@@ -16,7 +16,7 @@ CREATE (q:QUOTE {
     name: "quote.THE_SALVATION",
     alias: "Quote: Quote: THE SALVATION",
     parent: "topic.THE-GOSPEL",
-    tags: ["theonly", "life", "way", "truth", "jesuschrist"],
+    tags: ["theonly", "life", "way", "truth", "jesus_christ"],
     source: "'The Narrow Way'",
     booklink: "(https://www.amazon.com/Narrow-Way-Calvin-Mitchell-ebook/dp/B0CRYC8WY7)",
     level: 2

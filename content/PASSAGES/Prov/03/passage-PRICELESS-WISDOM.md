@@ -16,7 +16,7 @@ en_content: |
   And all her paths are peace.
   She is a tree of life to those who take hold of her,
   And happy are those who hold on to her."
-tags: ["wisdom", "understanding", "riches", "treeoflife", "peace"]
+tags: ["wisdom", "understanding", "riches", "tree_of_life", "peace"]
 ptopic: "\"[[topic-WISDOM]]\""
 level: 3
 neo4j: true
@@ -26,7 +26,7 @@ neo4j: true
 CREATE (p:PASSAGE {	    name: "\"passage.PRICELESS WISDOM\"",
 		alias: "Passage: The Greatest Treasure", 
 		parent: "\"topic.WISDOM\"", 
-		tags: ["wisdom", "understanding", "riches", "treeoflife", "peace"], 
+		tags: ["wisdom", "understanding", "riches", "tree_of_life", "peace"], 
 		source: "Proverbs 3:13-18",
 		sortedsource: "Proverbs 03:13-18",
 		biblelink: "https://www.biblegateway.com/passage/?search=Proverbs%203%3A13-18&version=ESV",

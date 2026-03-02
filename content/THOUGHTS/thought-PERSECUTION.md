@@ -3,7 +3,7 @@ type: THOUGHT
 name: "thought.PERSECUTION"
 alias: "Thought: PERSECUTION"
 parent: "topic.RELIGION"
-tags: ["persecution", "christianity", "original", "authentic", "jesuschrist"]
+tags: ["persecution", "christianity", "original", "authentic", "jesus_christ"]
 ptopic: "[[topic-RELIGION]]"
 level: 4
 neo4j: true
@@ -14,7 +14,7 @@ CREATE (t:THOUGHT {
     name: "thought.PERSECUTION",
     alias: "Thought: PERSECUTION",
     parent: "topic.RELIGION",
-    tags: ["persecution", "christianity", "original", "authentic", "jesuschrist"],
+    tags: ["persecution", "christianity", "original", "authentic", "jesus_christ"],
     level: 4
 });
 

@@ -4,7 +4,7 @@ name: "quote.THE DESIRE OF NATIONS"
 alias: "Quote: Christ - the Fulfillment of All Desire"
 parent: "topic.WORSHIP"
 en_content: "The rich young ruler believed that Jesus had what he wanted, but he didn't know that Jesus was what he wanted."
-tags: ["ruler", "jesuschrist", "desire", "nations", "the_pearl"]
+tags: ["ruler", "jesus_christ", "desire", "nations", "the_pearl"]
 ptopic: "[[topic-WORSHIP]]"
 level: 2
 neo4j: true
@@ -15,7 +15,7 @@ neo4j: true
 CREATE (q:QUOTE {	    name: "quote.THE DESIRE OF NATIONS",
 		alias: "Quote: Christ - the Fulfillment of All Desire", 
 		parent: "topic.WORSHIP", 
-		tags: ["ruler", "jesuschrist", "desire", "nations", "the_pearl"], 
+		tags: ["ruler", "jesus_christ", "desire", "nations", "the_pearl"], 
 		source: "The Basics and More: A Year's Sermons",
 		booklink: "https://www.amazon.com/Basics-More-Years-Sermons-ebook/dp/B00XLMBDR8",
 		level: 2});

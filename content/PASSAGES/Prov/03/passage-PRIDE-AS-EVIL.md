@@ -4,7 +4,7 @@ name: "passage.PRIDE-AS-EVIL"
 alias: "Passage: PRIDE-AS-EVIL"
 parent: "topic.HUMILITY"
 en_content: "Do not be wise in your own eyes; Fear the LORD and turn away from evil. It will be healing to your body And refreshment to your bones."
-tags: ["trust", "faith", "selfdoubt", "acknowledge", "promise"]
+tags: ["trust", "faith", "self_doubt", "acknowledge", "promise"]
 ptopic: "[[topic-HUMILITY]]"
 level: 4
 neo4j: true
@@ -16,7 +16,7 @@ CREATE (b:PASSAGE {
     name: "passage.PRIDE-AS-EVIL",
     alias: "Passage: PRIDE-AS-EVIL",
     parent: "topic.HUMILITY",
-    tags: ["trust", "faith", "selfdoubt", "acknowledge", "promise"],
+    tags: ["trust", "faith", "self_doubt", "acknowledge", "promise"],
     source: "'Proverbs 3:7,8'",
     sortedsource: "'Proverbs 03:07,09'",
     biblelink: "(https://www.biblegateway.com/passage/?search=Proverbs+3%3A7-8&version=NASB)",

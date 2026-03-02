@@ -3,7 +3,7 @@ type: THOUGHT
 name: "thought.PRIORITIES"
 alias: "Thought: PRIORITIES"
 parent: "topic.WISDOM"
-tags: ["priorities", "seekyefirst", "divinewill", "god", "faith"]
+tags: ["priorities", "seekyefirst", "divine_will", "god", "faith"]
 ptopic: "[[topic-WISDOM]]"
 level: 4
 neo4j: true
@@ -14,7 +14,7 @@ CREATE (t:THOUGHT {
     name: "thought.PRIORITIES",
     alias: "Thought: PRIORITIES",
     parent: "topic.WISDOM",
-    tags: ["priorities", "seekyefirst", "divinewill", "god", "faith"],
+    tags: ["priorities", "seekyefirst", "divine_will", "god", "faith"],
     level: 4
 });
 

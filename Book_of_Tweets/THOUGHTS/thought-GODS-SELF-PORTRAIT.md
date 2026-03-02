@@ -4,7 +4,7 @@ name: "thought.GODS SELF PORTRAIT"
 alias: "Thought: Gods Self Portrait"
 parent: "topic.THE GODHEAD"
 en_content: "Jesus Christ is God's Self Portrait, etched on the canvas of humanity by the Holy Spirit."
-tags: ["jesus", "christ", "portrait", "humanity", "holyspirit"]
+tags: ["jesus", "christ", "portrait", "humanity", "holy_spirit"]
 ptopic:
 level: 1
 neo4j: false
@@ -15,7 +15,7 @@ neo4j: false
 CREATE (t:THOUGHT {    name: "thought.GODS SELF PORTRAIT",
     alias: "Thought: Gods Self Portrait",
     parent: "topic.THE GODHEAD",
-    tags: ['jesus', 'christ', 'portrait', 'humanity', 'holyspirit'],
+    tags: ['jesus', 'christ', 'portrait', 'humanity', 'holy_spirit'],
     level: 1});
 
 CREATE (c:CONTENT {

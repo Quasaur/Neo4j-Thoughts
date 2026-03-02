@@ -3,7 +3,7 @@ type: THOUGHT
 name: "thought.VOLITION2"
 alias: "Thought: SECOND VOLITION"
 parent: "topic.DIVINE-SOVEREIGNTY"
-tags: ["freedom", "volition", "freewill", "misused", "abused"]
+tags: ["freedom", "volition", "free_will", "misused", "abused"]
 ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
 level: 2
 neo4j: true
@@ -14,7 +14,7 @@ CREATE (t:THOUGHT {
     name: "thought.VOLITION2",
     alias: "Thought: SECOND VOLITION",
     parent: "topic.DIVINE-SOVEREIGNTY",
-    tags: ["freedom", "volition", "freewill", "misused", "abused"],
+    tags: ["freedom", "volition", "free_will", "misused", "abused"],
     level: 2
 });
 

@@ -4,7 +4,7 @@ name: "quote.ISLAM_DEFEATED"
 alias: "Quote: Quote: ISLAM DEFEATED"
 parent: "topic.RELIGION"
 en_content: "Biblical Christianity will defeat Islam by the same means it defeated paganism: through the Truth of the Holy Bible, the Love of Jesus Christ, and the Life of Christ lived through His followers."
-tags: ["islam", "christianity", "biblical", "bible", "jesuschrist"]
+tags: ["islam", "christianity", "biblical", "bible", "jesus_christ"]
 ptopic: "[[topic-RELIGION]]"
 level: 4
 neo4j: true
@@ -16,7 +16,7 @@ CREATE (q:QUOTE {
     name: "quote.ISLAM_DEFEATED",
     alias: "Quote: Quote: ISLAM DEFEATED",
     parent: "topic.RELIGION",
-    tags: ["islam", "christianity", "biblical", "bible", "jesuschrist"],
+    tags: ["islam", "christianity", "biblical", "bible", "jesus_christ"],
     source: "'Letters from God: A Work of Fiction'",
     booklink: "(https://www.amazon.com/Letters-God-Fiction-Calvin-Mitchell-ebook/dp/B01M255OZX)",
     level: 4

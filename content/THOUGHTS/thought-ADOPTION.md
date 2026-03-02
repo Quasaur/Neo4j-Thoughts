@@ -3,7 +3,7 @@ type: THOUGHT
 name: "thought.ADOPTION"
 alias: "Thought: ADOPTION"
 parent: "topic.THE-GOSPEL"
-tags: ["adoption", "abba", "father", "childofgod", "everlasting"]
+tags: ["adoption", "abba", "father", "child_of_god", "everlasting"]
 ptopic: "[[topic-THE-GOSPEL]]"
 level: 2
 neo4j: true
@@ -14,7 +14,7 @@ CREATE (t:THOUGHT {
     name: "thought.ADOPTION",
     alias: "Thought: ADOPTION",
     parent: "topic.THE-GOSPEL",
-    tags: ["adoption", "abba", "father", "childofgod", "everlasting"],
+    tags: ["adoption", "abba", "father", "child_of_god", "everlasting"],
     level: 2
 });
 

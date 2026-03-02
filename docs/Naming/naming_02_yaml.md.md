@@ -137,9 +137,14 @@ tags: ['occult', 'spirits', 'evil', 'law', 'bible']
 ...followed by a comma to comply with Cypher language syntax.
 To eliminate confusion and to ensure that all YAML front matter properties in node markdown files are in single-line format (except for the YAML property "en_content"), from this point forward, the YAML syntax for the "tags" property will be the following (displayed on its own line):
 ```yaml
-tags: ["occult'\", "spirits", "evil", "law", "bible"]
+tags: ["occult", "spirits", "evil", "law", "bible"]
 ```
 Rule 9a: Whenever the agent find the YAML property "tags" in the original format, it must be changed to the new format.
+
+Rule 9b: Every "tags" array entry that in both the YAML front matter and primary node CREATE query in the Cypher block (which is the first CREATE query in the Cypher block) that contains two or more English words set together without underscores, spaces or dashes should be formatted so that the words are separated by underscores:
+```yaml
+tags: ["mass_shootings", "gun_violence", "holy_spirit", "jesus_christ", "holy_bible"]
+```
 
 ### 7th YAML Property: "ptopic"
 Rule 10: The seventh YAML property listed in the front matter should be "ptopic" and exists only in the Obsidian app's YAML front matter for the markdown files of the following node types:

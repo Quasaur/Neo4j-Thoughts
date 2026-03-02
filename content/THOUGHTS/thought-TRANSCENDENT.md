@@ -3,7 +3,7 @@ type: THOUGHT
 name: "thought.TRANSCENDENT"
 alias: "Thought: TRANSCENDENT"
 parent: "topic.GRACE"
-tags: ["pure", "untainted", "deliverance", "glorification", "jesuschrist"]
+tags: ["pure", "untainted", "deliverance", "glorification", "jesus_christ"]
 ptopic: "[[topic-GRACE]]"
 level: 3
 neo4j: true
@@ -14,7 +14,7 @@ CREATE (t:THOUGHT {
     name: "thought.TRANSCENDENT",
     alias: "Thought: TRANSCENDENT",
     parent: "topic.GRACE",
-    tags: ["pure", "untainted", "deliverance", "glorification", "jesuschrist"],
+    tags: ["pure", "untainted", "deliverance", "glorification", "jesus_christ"],
     level: 3
 });
 

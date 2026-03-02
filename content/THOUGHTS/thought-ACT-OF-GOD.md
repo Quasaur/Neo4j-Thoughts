@@ -4,7 +4,7 @@ name: "thought.ACT_OF_GOD"
 alias: "Thought: Act of God"
 parent: "topic.PSYCHOLOGY"
 en_content: "If every person is an Act of God, what can my wife teach me about God?"
-tags: ["person", "people", "wife", "husband", "imageofgod"]
+tags: ["person", "people", "wife", "husband", "image_of_god"]
 ptopic: "[[topic-PSYCHOLOGY]]"
 level: 4
 neo4j: true
@@ -15,7 +15,7 @@ CREATE (t:THOUGHT {
     name: "thought.ACT_OF_GOD",
     alias: "Thought: Act of God",
     parent: "topic.PSYCHOLOGY",
-    tags: ["person", "people", "wife", "husband", "imageofgod"],
+    tags: ["person", "people", "wife", "husband", "image_of_god"],
     level: 4
 });
 

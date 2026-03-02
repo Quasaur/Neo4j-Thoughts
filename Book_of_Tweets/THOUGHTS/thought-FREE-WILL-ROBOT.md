@@ -4,7 +4,7 @@ name: "thought.FREE WILL ROBOT"
 alias: "Thought: Free Will Robot"
 parent: "topic.PHILOSOPHY"
 en_content: "If you WERE a robot...HOW WOULD YOU KNOW your will wasn't free?"
-tags: ["philosophy", "freewill", "consciousness", "robot", "truth"]
+tags: ["philosophy", "free_will", "consciousness", "robot", "truth"]
 ptopic:
 level: 4
 neo4j: false
@@ -15,7 +15,7 @@ neo4j: false
 CREATE (t:THOUGHT {    name: "thought.FREE WILL ROBOT",
     alias: "Thought: Free Will Robot",
     parent: "topic.PHILOSOPHY",
-    tags: ['philosophy', 'freewill', 'consciousness', 'robot', 'truth'],
+    tags: ['philosophy', 'free_will', 'consciousness', 'robot', 'truth'],
     level: 4});
 
 CREATE (c:CONTENT {

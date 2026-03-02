@@ -3,7 +3,7 @@ type: THOUGHT
 name: "thought.SPIRIT"
 alias: "Thought: SPIRIT"
 parent: "topic.SPIRITS"
-tags: ["holyspirit", "spiritofchrist", "spiritoftruth", "spiritofgrace", "jesuschrist"]
+tags: ["holy_spirit", "spirit_of_christ", "spirit_of_truth", "spirit_of_grace", "jesus_christ"]
 ptopic: "[[topic-SPIRITS]]"
 level: 3
 neo4j: true
@@ -14,7 +14,7 @@ CREATE (t:THOUGHT {
     name: "thought.SPIRIT",
     alias: "Thought: SPIRIT",
     parent: "topic.SPIRITS",
-    tags: ["holyspirit", "spiritofchrist", "spiritoftruth", "spiritofgrace", "jesuschrist"],
+    tags: ["holy_spirit", "spirit_of_christ", "spirit_of_truth", "spirit_of_grace", "jesus_christ"],
     level: 3
 });
 

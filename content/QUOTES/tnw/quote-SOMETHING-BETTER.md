@@ -4,7 +4,7 @@ name: "quote.SOMETHING_BETTER"
 alias: "Quote: Quote: SOMETHING BETTER"
 parent: "topic.THE-GOSPEL"
 en_content: "The Gospel (the REAL Gospel of Jesus Christ) offers Something exponentially better and more exciting than religion...Something so simple, so pure and so wonderful that even those who claim to believe the Gospel still wrestle with the thought that It might be too good to be true!"
-tags: ["superior", "religion", "gospel", "jesuschrist", "simple"]
+tags: ["superior", "religion", "gospel", "jesus_christ", "simple"]
 ptopic: "[[topic-THE-GOSPEL]]"
 level: 2
 neo4j: true
@@ -16,7 +16,7 @@ CREATE (q:QUOTE {
     name: "quote.SOMETHING_BETTER",
     alias: "Quote: Quote: SOMETHING BETTER",
     parent: "topic.THE-GOSPEL",
-    tags: ["superior", "religion", "gospel", "jesuschrist", "simple"],
+    tags: ["superior", "religion", "gospel", "jesus_christ", "simple"],
     source: "'The Narrow Way'",
     booklink: "(https://www.amazon.com/Narrow-Way-Calvin-Mitchell-ebook/dp/B0CRYC8WY7)",
     level: 2

@@ -4,7 +4,7 @@ name: "quote.THE_HEART_OF_MANKIND"
 alias: "Quote: Quote: The HEART OF MANKIND"
 parent: "topic.RELIGION"
 en_content: "None of our achievements, advances, contributions, virtuous deeds or good intentions make up for our evil hearts (hearts that believe GOD is not necessary to live a fulfilling life) ...else Christ would not have had to present Himself as a Sacrifice in our stead."
-tags: ["heart", "human", "ungodly", "jesuschrist", "propitiation"]
+tags: ["heart", "human", "ungodly", "jesus_christ", "propitiation"]
 ptopic: "[[topic-RELIGION]]"
 level: 4
 ---
@@ -15,7 +15,7 @@ CREATE (q:QUOTE {
     name: "quote.THE_HEART_OF_MANKIND",
     alias: "Quote: Quote: The HEART OF MANKIND",
     parent: "topic.RELIGION",
-    tags: ["heart", "human", "ungodly", "jesuschrist", "propitiation"],
+    tags: ["heart", "human", "ungodly", "jesus_christ", "propitiation"],
     source: "'The Narrow Way'",
     booklink: "(https://www.amazon.com/Narrow-Way-Calvin-Mitchell-ebook/dp/B0CRYC8WY7)",
     level: 4

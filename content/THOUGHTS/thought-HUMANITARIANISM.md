@@ -3,7 +3,7 @@ type: THOUGHT
 name: "thought.HUMANITARIANISM"
 alias: "Thought: HUMANITARIANISM"
 parent: "topic.RELIGION"
-tags: ["humanity", "selfworship", "god", "judgment", "accountable"]
+tags: ["humanity", "self_worship", "god", "judgment", "accountable"]
 ptopic: "[[topic-RELIGION]]"
 level: 4
 neo4j: true
@@ -14,7 +14,7 @@ CREATE (t:THOUGHT {
     name: "thought.HUMANITARIANISM",
     alias: "Thought: HUMANITARIANISM",
     parent: "topic.RELIGION",
-    tags: ["humanity", "selfworship", "god", "judgment", "accountable"],
+    tags: ["humanity", "self_worship", "god", "judgment", "accountable"],
     level: 4
 });
 

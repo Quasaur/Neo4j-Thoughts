@@ -4,7 +4,7 @@ name: "thought.THE_LAKE_OF_FIRE_AND_SULFUR"
 alias: "Thought: THE LAKE OF FIRE AND SULFUR"
 parent: "topic.JUSTICE"
 en_content: "Finding yourself foundering alone and helpless in the Ocean of GOD's Wrath for all Eternity...it is now TOO LATE to finally start taking the direction of your lifestyle seriously."
-tags: ["lakeoffire", "wrathofgod", "hell", "regret", "eternity"]
+tags: ["lake_of_fire", "wrath_of_god", "hell", "regret", "eternity"]
 ptopic: "[[topic-JUSTICE]]"
 level: 5
 neo4j: true
@@ -15,7 +15,7 @@ CREATE (t:THOUGHT {
     name: "thought.THE_LAKE_OF_FIRE_AND_SULFUR",
     alias: "Thought: THE LAKE OF FIRE AND SULFUR",
     parent: "topic.JUSTICE",
-    tags: ["lakeoffire", "wrathofgod", "hell", "regret", "eternity"],
+    tags: ["lake_of_fire", "wrath_of_god", "hell", "regret", "eternity"],
     level: 5
 });
 

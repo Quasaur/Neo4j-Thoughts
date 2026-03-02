@@ -3,7 +3,7 @@ type: THOUGHT
 name: "thought.STRENGTH"
 alias: "Thought: STRENGTH"
 parent: "topic.ATTITUDE"
-tags: ["power", "virtue", "strength", "endurance", "jesuschrist"]
+tags: ["power", "virtue", "strength", "endurance", "jesus_christ"]
 ptopic: "[[topic-ATTITUDE]]"
 level: 3
 neo4j: true
@@ -14,7 +14,7 @@ CREATE (t:THOUGHT {
     name: "thought.STRENGTH",
     alias: "Thought: STRENGTH",
     parent: "topic.ATTITUDE",
-    tags: ["power", "virtue", "strength", "endurance", "jesuschrist"],
+    tags: ["power", "virtue", "strength", "endurance", "jesus_christ"],
     level: 3
 });
 

@@ -6,7 +6,7 @@ parent: "\"topic.EVIL\""
 en_content: |
   …for there was no other way…
   …to sacrifice The Lamb of GOD."
-tags: ["lambofgod", "evil", "salvation", "forgiveness", "jesuschrist"]
+tags: ["lamb_of_god", "evil", "salvation", "forgiveness", "jesus_christ"]
 ptopic: "\"[[topic-EVIL]]\""
 level: 4
 neo4j: true
@@ -16,7 +16,7 @@ CREATE (t:THOUGHT {
     name: "\"thought.EVIL_WAS_NECESSARY\"",
     alias: "Thought: EVIL WAS NECESSARY",
     parent: "topic.EVIL",
-    tags: ["lambofgod", "evil", "salvation", "forgiveness", "jesuschrist"],
+    tags: ["lamb_of_god", "evil", "salvation", "forgiveness", "jesus_christ"],
     level: 4
 });
 

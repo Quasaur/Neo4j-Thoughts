@@ -4,7 +4,7 @@ name: "thought.WILL_VS_WILL"
 alias: "Thought: WILL VS WILL"
 parent: "topic.FAITHFULNESS"
 en_content: "The Challenge of life is not to do God's Will, it is to do God's Will when your will is headed in another direction."
-tags: ["selfdenial", "humility", "seekyefirst", "god", "divinewill"]
+tags: ["self_denial", "humility", "seekyefirst", "god", "divine_will"]
 ptopic: "[[topic-FAITHFULNESS]]"
 level: 2
 neo4j: true
@@ -15,7 +15,7 @@ CREATE (t:THOUGHT {
     name: "thought.WILL_VS_WILL",
     alias: "Thought: WILL VS WILL",
     parent: "topic.FAITHFULNESS",
-    tags: ["selfdenial", "humility", "seekyefirst", "god", "divinewill"],
+    tags: ["self_denial", "humility", "seekyefirst", "god", "divine_will"],
     level: 2
 });
 

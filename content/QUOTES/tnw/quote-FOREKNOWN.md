@@ -4,7 +4,7 @@ name: "quote.FOREKNOWN"
 alias: "Quote: Quote: FOREKNOWN"
 parent: "topic.DIVINE-SOVEREIGNTY"
 en_content: "To save you from the coming Wrath GOD must KNOW you."
-tags: ["foreknowledge", "god", "intimacy", "jesuschrist", "eternity"]
+tags: ["foreknowledge", "god", "intimacy", "jesus_christ", "eternity"]
 ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
 level: 2
 neo4j: true
@@ -16,7 +16,7 @@ CREATE (q:QUOTE {
     name: "quote.FOREKNOWN",
     alias: "Quote: Quote: FOREKNOWN",
     parent: "topic.DIVINE-SOVEREIGNTY",
-    tags: ["foreknowledge", "god", "intimacy", "jesuschrist", "eternity"],
+    tags: ["foreknowledge", "god", "intimacy", "jesus_christ", "eternity"],
     source: "'The Narrow Way'",
     booklink: "(https://www.amazon.com/Narrow-Way-Calvin-Mitchell-ebook/dp/B0CRYC8WY7)",
     level: 2

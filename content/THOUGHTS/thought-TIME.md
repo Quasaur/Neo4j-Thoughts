@@ -3,7 +3,7 @@ type: THOUGHT
 name: "thought.TIME"
 alias: "Thought: TIME"
 parent: "topic.JUSTICE"
-tags: ["spirituality", "damnation", "soul", "lakeoffire", "judgment"]
+tags: ["spirituality", "damnation", "soul", "lake_of_fire", "judgment"]
 ptopic: "[[topic-JUSTICE]]"
 level: 5
 neo4j: true
@@ -14,7 +14,7 @@ CREATE (t:THOUGHT {
     name: "thought.TIME",
     alias: "Thought: TIME",
     parent: "topic.JUSTICE",
-    tags: ["spirituality", "damnation", "soul", "lakeoffire", "judgment"],
+    tags: ["spirituality", "damnation", "soul", "lake_of_fire", "judgment"],
     level: 5
 });
 

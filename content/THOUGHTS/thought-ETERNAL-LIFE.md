@@ -4,7 +4,7 @@ name: "thought.ETERNAL_LIFE"
 alias: "Thought: ETERNAL LIFE"
 parent: "topic.FAITHFULNESS"
 en_content: "ETERNAL LIFE: God's promise (covenant) to NEVER stop dreaming about you!"
-tags: ["immortality", "eternallife", "promise", "covenant", "god"]
+tags: ["immortality", "eternal_life", "promise", "covenant", "god"]
 ptopic: "[[topic-FAITHFULNESS]]"
 level: 2
 neo4j: true
@@ -15,7 +15,7 @@ CREATE (t:THOUGHT {
     name: "thought.ETERNAL_LIFE",
     alias: "Thought: ETERNAL LIFE",
     parent: "topic.FAITHFULNESS",
-    tags: ["immortality", "eternallife", "promise", "covenant", "god"],
+    tags: ["immortality", "eternal_life", "promise", "covenant", "god"],
     level: 2
 });
 

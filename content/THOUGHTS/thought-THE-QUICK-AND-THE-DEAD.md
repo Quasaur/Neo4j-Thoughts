@@ -6,7 +6,7 @@ parent: "\"topic.SPIRITUALITY\""
 en_content: |
   You are either alive to God and dead to self…or you are alive to self and dead to God.
   Luke 14:26"
-tags: ["eternallife", "immortality", "spirituality", "god", "jesuschrist"]
+tags: ["eternal_life", "immortality", "spirituality", "god", "jesus_christ"]
 ptopic: "\"[[topic-SPIRITUALITY]]\""
 level: 2
 neo4j: true
@@ -16,7 +16,7 @@ CREATE (t:THOUGHT {
     name: '"thought.THE_QUICK_AND_THE_DEAD"',
     alias: "Thought: The Quick And The Dead",
     parent: '"topic.SPIRITUALITY"',
-    tags: ["eternallife", "immortality", "spirituality", "god", "jesuschrist"],
+    tags: ["eternal_life", "immortality", "spirituality", "god", "jesus_christ"],
     level: 2
 });
 

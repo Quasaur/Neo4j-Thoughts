@@ -4,7 +4,7 @@ name: "quote.CHRIST_IS_ENOUGH"
 alias: "Quote: Quote: CHRIST IS ENOUGH"
 parent: "topic.GRACE"
 en_content: "I say to you again in the Name of The Father, Son and Holy Spirit and in the Presence of Heaven, Earth and all Creation: JESUS CHRIST IS ENOUGH to completely deliver any soul from damnation to Divine Perfection."
-tags: ["jesuschrist", "sufficient", "enough", "salvation", "redemption"]
+tags: ["jesus_christ", "sufficient", "enough", "salvation", "redemption"]
 ptopic: "[[topic-GRACE]]"
 level: 3
 neo4j: true
@@ -16,7 +16,7 @@ CREATE (q:QUOTE {
     name: "quote.CHRIST_IS_ENOUGH",
     alias: "Quote: Quote: CHRIST IS ENOUGH",
     parent: "topic.GRACE",
-    tags: ["jesuschrist", "sufficient", "enough", "salvation", "redemption"],
+    tags: ["jesus_christ", "sufficient", "enough", "salvation", "redemption"],
     source: "'The Traveler's Oasis, Book Two'",
     booklink: "(https://www.amazon.com/Travelers-Oasis-Book-Two-ebook/dp/B00YIT5O9Q)",
     level: 3

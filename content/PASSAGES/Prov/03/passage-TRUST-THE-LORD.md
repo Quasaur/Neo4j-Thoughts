@@ -4,7 +4,7 @@ name: "passage.TRUST_THE_LORD"
 alias: "Passage: TRUST THE LORD"
 parent: "topic.FAITH"
 en_content: "Trust in the LORD with all your heart And do not lean on your own understanding. In all your ways acknowledge Him, And He will make your paths straight."
-tags: ["trust", "faith", "selfdoubt", "acknowledge", "promise"]
+tags: ["trust", "faith", "self_doubt", "acknowledge", "promise"]
 ptopic: "[[topic-FAITH]]"
 level: 4
 neo4j: true
@@ -16,7 +16,7 @@ CREATE (b:PASSAGE {
     name: "passage.TRUST_THE_LORD",
     alias: "Passage: TRUST THE LORD",
     parent: "topic.FAITH",
-    tags: ["trust", "faith", "selfdoubt", "acknowledge", "promise"],
+    tags: ["trust", "faith", "self_doubt", "acknowledge", "promise"],
     source: "'Proverbs 3:5,6'",
     sortedsource: "'Proverbs 03:05-06'",
     biblelink: "(https://www.biblegateway.com/passage/?search=Proverbs+3%3A5-6&version=NASB)",

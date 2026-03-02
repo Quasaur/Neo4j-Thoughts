@@ -4,7 +4,7 @@ name: "thought.WALKING WITH GOD"
 alias: "Thought: Walking With God"
 parent: "topic.SPIRITUALITY"
 en_content: "The Bible doesn't say that God walked with Enoch, but that Enoch walked with God. Enoch was led by the Holy Spirit."
-tags: ["holyspirit", "enoch", "spirituality", "obedience", "fellowship"]
+tags: ["holy_spirit", "enoch", "spirituality", "obedience", "fellowship"]
 ptopic:
 level: 2
 neo4j: false
@@ -15,7 +15,7 @@ neo4j: false
 CREATE (t:THOUGHT {    name: "thought.WALKING WITH GOD",
     alias: "Thought: Walking With God",
     parent: "topic.SPIRITUALITY",
-    tags: ['holyspirit', 'enoch', 'spirituality', 'obedience', 'fellowship'],
+    tags: ['holy_spirit', 'enoch', 'spirituality', 'obedience', 'fellowship'],
     level: 2});
 
 CREATE (c:CONTENT {

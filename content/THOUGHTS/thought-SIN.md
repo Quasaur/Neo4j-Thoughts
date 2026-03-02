@@ -3,7 +3,7 @@ type: THOUGHT
 name: "thought.SIN"
 alias: "Thought: SIN"
 parent: "topic.GRACE"
-tags: ["grace", "gospel", "love", "power", "jesuschrist"]
+tags: ["grace", "gospel", "love", "power", "jesus_christ"]
 ptopic: "[[topic-GRACE]]"
 level: 3
 neo4j: true
@@ -14,7 +14,7 @@ CREATE (t:THOUGHT {
     name: "thought.SIN",
     alias: "Thought: SIN",
     parent: "topic.GRACE",
-    tags: ["grace", "gospel", "love", "power", "jesuschrist"],
+    tags: ["grace", "gospel", "love", "power", "jesus_christ"],
     level: 3
 });
 

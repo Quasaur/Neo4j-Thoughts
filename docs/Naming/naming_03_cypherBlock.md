@@ -37,18 +37,42 @@ Rule 8: The Primary node's properties are replicated in the node markdown file's
 Rule 9: For the first CREATE query in the Cyper block the "notes" property has been deprecated from all primary node types (TOPIC, THOUGHT, QUOTE and PASSAGE) and must be removed by the agentic model wherever it is found and the line from which it was deleted in the Cypher CREATE query for the node removed so that there are no empty lines within the query.
 
 ### TOPIC Node Type Cypher Query
-Rule 10: every Cypher CREATE query for the TOPIC node type must have the following properties and their values:
+Rule 10: Every Cypher CREATE query for the TOPIC node type must have the following properties and their values:
 	- name
 	- alias
 	- parent
 	- tags
 	- level
+
 ### THOUGHT Node Type
+Rule 11: Like the TOPIC node type, every Cypher CREATE query for the THOUGHT node type must have the following properties and their values:
+	- name
+	- alias
+	- parent
+	- tags
+	- level
 
 ### QUOTE Node Type
+Rule 12: Every Cypher CREATE query for the QUOTE node type must have the following properties and their values:
+	- name
+	- alias
+	- parent
+	- tags
+	- source
+	- booklink
+	- level
 
 ### PASSAGE Node Type
-  
+Rule 13: Every Cypher CREATE query for the PASSAGE node type must have the following properties and their values:
+	- name
+	- alias
+	- parent
+	- tags
+	- source
+	- sortedsource
+	- biblelink
+	- level
+
 
 ## Secondary Node
 ### DESCRIPTION Node Type

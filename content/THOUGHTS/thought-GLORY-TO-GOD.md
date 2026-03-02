@@ -4,7 +4,7 @@ name: "thought.GLORY_TO_GOD"
 alias: "Thought: GLORY TO GOD"
 parent: "topic.DIVINE-SOVEREIGNTY"
 en_content: "Whether by Righteousness or Wickedness, we all exist to glorify God!"
-tags: ["thegloryofgod", "splendor", "purpose", "existence", "sovereignty"]
+tags: ["the_glory_of_god", "splendor", "purpose", "existence", "sovereignty"]
 ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
 level: 2
 neo4j: true
@@ -15,7 +15,7 @@ CREATE (t:THOUGHT {
     name: "thought.GLORY_TO_GOD",
     alias: "Thought: GLORY TO GOD",
     parent: "topic.DIVINE-SOVEREIGNTY",
-    tags: ["thegloryofgod", "splendor", "purpose", "existence", "sovereignty"],
+    tags: ["the_glory_of_god", "splendor", "purpose", "existence", "sovereignty"],
     level: 2
 });
 

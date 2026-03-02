@@ -4,7 +4,7 @@ name: "thought.OMNIPOTENCE VS FREEWILL"
 alias: "Thought: Omnipotence Vs Freewill"
 parent: "topic.PHILOSOPHY"
 en_content: "Free Will exists only due to human ignorance of The Divine Omnipotence."
-tags: ["philosophy", "freewill", "omnipotence", "ignorance", "divinity"]
+tags: ["philosophy", "free_will", "omnipotence", "ignorance", "divinity"]
 ptopic:
 level: 4
 neo4j: false
@@ -15,7 +15,7 @@ neo4j: false
 CREATE (t:THOUGHT {    name: "thought.OMNIPOTENCE VS FREEWILL",
     alias: "Thought: Omnipotence Vs Freewill",
     parent: "topic.PHILOSOPHY",
-    tags: ['philosophy', 'freewill', 'omnipotence', 'ignorance', 'divinity'],
+    tags: ['philosophy', 'free_will', 'omnipotence', 'ignorance', 'divinity'],
     level: 4});
 
 CREATE (c:CONTENT {

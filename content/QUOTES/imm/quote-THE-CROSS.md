@@ -4,7 +4,7 @@ name: "quote.THE_CROSS"
 alias: "Quote: Quote: THE CROSS"
 parent: "topic.THE-GOSPEL"
 en_content: "The Power of the Gospel is The Cross of Jesus Christ. The “magic” of The Cross is that GOD loved us so unconditionally and so deeply that He spared neither Himself nor us the pain and agony necessary to provide us a complete delivery from the power, penalty and—most important—the love of and need for sin."
-tags: ["gospel", "power", "jesuschrist", "redemption", "sanctification"]
+tags: ["gospel", "power", "jesus_christ", "redemption", "sanctification"]
 ptopic: "[[topic-THE-GOSPEL]]"
 level: 2
 neo4j: true
@@ -16,7 +16,7 @@ CREATE (q:QUOTE {
     name: "quote.THE_CROSS",
     alias: "Quote: Quote: THE CROSS",
     parent: "topic.THE-GOSPEL",
-    tags: ["gospel", "power", "jesuschrist", "redemption", "sanctification"],
+    tags: ["gospel", "power", "jesus_christ", "redemption", "sanctification"],
     source: "'IMMMUNITY to the Lake of Fire: A No-Nonsense Guide'",
     booklink: "(https://www.amazon.com/IMMUNITY-LAKE-FIRE-No-Nonsense-Guide-ebook/dp/B08B5J9V8J)",
     level: 2

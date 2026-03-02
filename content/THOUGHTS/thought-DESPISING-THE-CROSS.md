@@ -6,7 +6,7 @@ parent: "\"topic.EVIL\""
 en_content: |
   A myriad excuses are offered for the most heinous of crimes…yet beyond any reasonable doubt, the one who despises The Cross of Jesus Christ deserves to burn in the Lake of Fire FOREVER.
   John 16:7-9"
-tags: ["cross", "salvation", "gospel", "lakeoffire", "jesuschrist"]
+tags: ["cross", "salvation", "gospel", "lake_of_fire", "jesus_christ"]
 ptopic: "\"[[topic-EVIL]]\""
 level: 4
 neo4j: true
@@ -16,7 +16,7 @@ CREATE (t:THOUGHT {
     name: "\"thought.DESPISING_THE_CROSS\"",
     alias: "Thought: DESPISING THE CROSS",
     parent: "\"topic.EVIL\"",
-    tags: ["cross", "salvation", "gospel", "lakeoffire", "jesuschrist"],
+    tags: ["cross", "salvation", "gospel", "lake_of_fire", "jesus_christ"],
     level: 4
 });
 
