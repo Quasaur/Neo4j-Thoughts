@@ -75,8 +75,18 @@ Rule 13: Every Cypher CREATE query for the PASSAGE node type must have the follo
 
 
 ## Secondary Node
-### DESCRIPTION Node Type
+The second Cypher CREATE query in the Cypher block creates the node that contains the actual content for the primary node, whether that is the DESCRIPTION of the TOPIC or the COTENT of the THOUGHT, QUERY or PASSAGE node.
 
+### DESCRIPTION Node Type
+Rule 14: Every Cypher CREATE query for the DESCRIPTION node type must have the following properties and their values:
+	- name
+	- alias
+	- parent
+	- tags
+	- source
+	- sortedsource
+	- biblelink
+	- level
 ### CONTENT Node Type
   
 
