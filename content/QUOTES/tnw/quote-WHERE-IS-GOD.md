@@ -9,10 +9,6 @@ ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
 level: 4
 ---
 
-
-
-
-
 ```Cypher
 // CREATE QUOTE
 CREATE (q:QUOTE {

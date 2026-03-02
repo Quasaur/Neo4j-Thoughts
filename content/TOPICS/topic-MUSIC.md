@@ -11,11 +11,6 @@ neo4j: true
 insert: "True"
 ---
 
-
-
-
-# Topic: Music
-
 ```Cypher
 CREATE (t:TOPIC {
     name: "topic.MUSIC",

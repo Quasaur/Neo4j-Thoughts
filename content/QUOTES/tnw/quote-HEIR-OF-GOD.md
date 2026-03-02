@@ -9,10 +9,6 @@ ptopic: "[[topic-THE-GOSPEL]]"
 level: 2
 ---
 
-
-
-
-
 ```Cypher
 // CREATE QUOTE
 CREATE (q:QUOTE {

@@ -10,10 +10,6 @@ level: 4
 neo4j: true
 ---
 
-
-
-
-
 ```Cypher
 // 11-Mar-2010a
 CREATE (t:THOUGHT {

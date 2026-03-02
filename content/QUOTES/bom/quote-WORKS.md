@@ -10,10 +10,6 @@ level: 4
 neo4j: true
 ---
 
-
-
-
-
 ```Cypher
 //create the Thought with the same fields as a normal thought
 CREATE (q:QUOTE {

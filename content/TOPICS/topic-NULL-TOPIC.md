@@ -10,10 +10,6 @@ level: 0
 neo4j: true
 ---
 
-
-
-
-
 ```Cypher
 //create the NULL TOPIC with the same fields as a normal topic
 CREATE (t:TOPIC

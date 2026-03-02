@@ -10,10 +10,6 @@ level: 3
 neo4j: true
 ---
 
-
-
-
-
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.HUMAN_LIFE",

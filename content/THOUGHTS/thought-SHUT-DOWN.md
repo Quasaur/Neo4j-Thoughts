@@ -12,7 +12,6 @@ ptopic: "\"[[topic-FREEDOM]]\""
 level: 5
 neo4j: true
 ---
-
 ```Cypher
 CREATE (t:THOUGHT {
     name: '"thought.SHUT DOWN"',

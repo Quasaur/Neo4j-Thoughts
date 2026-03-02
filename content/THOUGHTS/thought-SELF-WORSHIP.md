@@ -10,10 +10,6 @@ level: 4
 neo4j: true
 ---
 
-
-
-
-
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.SELF_WORSHIP",

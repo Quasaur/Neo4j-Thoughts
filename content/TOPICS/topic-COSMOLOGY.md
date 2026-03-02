@@ -10,10 +10,6 @@ level: 3
 neo4j: true
 ---
 
-
-
-
-
 ```Cypher
 // CREATE TOPIC
 CREATE (t:TOPIC {

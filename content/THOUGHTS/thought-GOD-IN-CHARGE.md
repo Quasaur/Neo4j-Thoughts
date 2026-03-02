@@ -11,7 +11,6 @@ ptopic: "\"[[topic-DIVINE-SOVEREIGNTY]]\""
 level: 2
 neo4j: true
 ---
-
 ```Cypher
 CREATE (t:THOUGHT {
     name: "\"thought.GOD_IN_CHARGE\"",

@@ -10,10 +10,6 @@ level: 3
 neo4j: false
 ---
 
-
-
-
-
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.LETTING GO",

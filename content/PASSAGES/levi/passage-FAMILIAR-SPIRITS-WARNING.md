@@ -10,10 +10,6 @@ level: 4
 neo4j: true
 ---
 
-
-
-
-
 ```Cypher
 CREATE (t:PASSAGE {
     name: "passage.FAMILIAR SPIRITS WARNING",

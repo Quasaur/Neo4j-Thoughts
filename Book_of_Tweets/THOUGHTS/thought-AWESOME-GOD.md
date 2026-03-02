@@ -10,10 +10,6 @@ level: 1
 neo4j: false
 ---
 
-
-
-
-
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.AWESOME GOD",

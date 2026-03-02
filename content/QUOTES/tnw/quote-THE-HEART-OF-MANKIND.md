@@ -9,10 +9,6 @@ ptopic: "[[topic-RELIGION]]"
 level: 4
 ---
 
-
-
-
-
 ```Cypher
 // CREATE QUOTE
 CREATE (q:QUOTE {

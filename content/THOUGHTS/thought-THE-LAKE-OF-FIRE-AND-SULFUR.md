@@ -10,10 +10,6 @@ level: 5
 neo4j: true
 ---
 
-
-
-
-
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.THE_LAKE_OF_FIRE_AND_SULFUR",

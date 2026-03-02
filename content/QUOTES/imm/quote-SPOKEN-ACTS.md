@@ -10,10 +10,6 @@ level: 5
 neo4j: true
 ---
 
-
-
-
-
 ```Cypher
 // CREATE QUOTE
 CREATE (q:QUOTE {

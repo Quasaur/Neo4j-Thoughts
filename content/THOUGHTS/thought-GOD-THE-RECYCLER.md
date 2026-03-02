@@ -10,10 +10,6 @@ level: 6
 neo4j: true
 ---
 
-
-
-
-
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 27-Feb-2012a)
 CREATE (t:THOUGHT {

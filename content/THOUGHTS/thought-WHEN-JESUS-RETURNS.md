@@ -12,7 +12,6 @@ ptopic: "\"[[topic-HISTORY]]\""
 level: 4
 neo4j: true
 ---
-
 ```Cypher
 CREATE (t:THOUGHT {
     name: "\"thought.WHEN_JESUS_RETURNS\"",

@@ -12,7 +12,6 @@ ptopic: "\"[[topic-GRACE]]\""
 level: 3
 neo4j: true
 ---
-
 ```Cypher
 CREATE (t:THOUGHT {
     name: '"thought.THE_REAL_YOU"',

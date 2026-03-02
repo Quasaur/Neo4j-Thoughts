@@ -10,10 +10,6 @@ level: 2
 neo4j: true
 ---
 
-
-
-
-
 ```Cypher
 CREATE (t:PASSAGE {
     name: "passage.THE LORD GIVES",

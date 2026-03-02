@@ -10,10 +10,6 @@ level: 6
 neo4j: true
 ---
 
-
-
-
-
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.WEEPING OVER CREATION",

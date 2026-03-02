@@ -12,7 +12,6 @@ ptopic: "\"[[topic-THE-GOSPEL]]\""
 level: 2
 neo4j: true
 ---
-
 ```Cypher
 CREATE (t:THOUGHT {
     name: "\"thought.INVITE_OR_COMMAND?\"",

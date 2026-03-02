@@ -13,7 +13,6 @@ ptopic: "\"[[topic-WEALTH]]\""
 level: 3
 neo4j: true
 ---
-
 ```Cypher
 //create the Passage with the same fields as a normal thought
 CREATE (b:PASSAGE

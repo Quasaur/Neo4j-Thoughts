@@ -11,7 +11,6 @@ ptopic: "\"[[topic-EVIL]]\""
 level: 4
 neo4j: true
 ---
-
 ```Cypher
 CREATE (t:THOUGHT {
     name: "\"thought.DESPISING_THE_CROSS\"",

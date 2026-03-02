@@ -17,7 +17,6 @@ level: 1
 neo4j: true
 aliases: ""
 ---
-
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.MEEK",

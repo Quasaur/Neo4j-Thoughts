@@ -11,10 +11,6 @@ neo4j: true
 es_content: "You may call God unfair, yet your life is still in His Hand; perhaps it would be wiser to bow and worship than to provoke."
 ---
 
-
-
-
-
 ```Cypher
 // 18-Mar-2010a
 CREATE (t:THOUGHT {

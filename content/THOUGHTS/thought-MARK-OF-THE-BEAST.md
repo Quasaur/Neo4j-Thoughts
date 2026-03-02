@@ -12,7 +12,6 @@ ptopic: "\"[[topic-THE-GOSPEL]]\""
 level: 2
 neo4j: true
 ---
-
 ```Cypher
 CREATE (t:THOUGHT {
     name: '"thought.MARK_OF_THE_BEAST"',

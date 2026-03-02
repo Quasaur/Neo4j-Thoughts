@@ -9,11 +9,6 @@ ptopic: "[[topic-HUMANITY]]"
 level: 4
 neo4j: true
 ---
-
-
-
-
-
 ```Cypher
 // CREATE TOPIC
 CREATE (t:TOPIC {

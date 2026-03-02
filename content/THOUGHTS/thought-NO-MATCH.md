@@ -24,7 +24,6 @@ ptopic: "\"[[topic-BEAUTY]]\""
 level: 5
 neo4j: true
 ---
-
 ```Cypher
 CREATE (t:THOUGHT {
     name: "\"thought.NO_MATCH\"",

@@ -11,7 +11,6 @@ ptopic: "\"[[topic-SPIRITUALITY]]\""
 level: 2
 neo4j: true
 ---
-
 ```Cypher
 CREATE (t:THOUGHT {
     name: '"thought.THE_QUICK_AND_THE_DEAD"',

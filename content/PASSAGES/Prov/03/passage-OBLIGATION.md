@@ -10,9 +10,6 @@ level: 3
 neo4j: true
 ---
 
-
-
-
 ```Cypher
 // CREATE PASSAGE
 CREATE (b:PASSAGE {

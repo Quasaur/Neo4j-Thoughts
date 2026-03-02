@@ -12,7 +12,6 @@ ptopic: "\"[[topic-COSMOLOGY]]\""
 level: 4
 neo4j: true
 ---
-
 ```Cypher
 CREATE (t:THOUGHT {
     name: "\"thought.SCIENCE_CONSPIRACY\"",

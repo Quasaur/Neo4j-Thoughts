@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Neo4j-AI/docs/PROMPTS/Kimi-K2/Neo4j-Thoughts - content folder.md",
+                "file": "docs/Naming/naming_03_cypherBlock.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Neo4j-Thoughts - content folder"
+              "title": "naming_03_cypherBlock"
             }
           }
         ]
@@ -179,10 +179,12 @@
   },
   "active": "723932ef65bf0bbe",
   "lastOpenFiles": [
+    "docs/Naming/naming_05_relationships.md",
+    "content/TOPICS/topic-ANTHROPOLOGY.md",
+    "Neo4j-AI/docs/PROMPTS/Kimi-K2/Neo4j-Thoughts - content folder.md",
     "verify_sync.py",
     "compare_yaml_cypher.py",
     "docs/Naming/naming_02_yaml.md.md",
-    "Neo4j-AI/docs/PROMPTS/Kimi-K2/Neo4j-Thoughts - content folder.md",
     "docs/Naming/naming_04_unaddressed_issues.md",
     "docs/reports/neo4j_auraDB_discrepancies_28-Feb-2026@2140.md",
     "python/__pycache__/generate_auradb_report.cpython-314.pyc",
@@ -211,10 +213,8 @@
     "content/PASSAGES/levi",
     "content/THOUGHTS/EMPTINESS.md",
     "content/QUOTES/bom/quote-THE-DESIRE-OF-NATIONS.md",
-    "content/TOPICS/topic-ANTHROPOLOGY.md",
     "python/check_filenames.py",
     "Neo4j-AI/Kimi K2/Discrepancies/Prompts",
-    "Neo4j-AI/Kimi K2/Discrepancies",
     "Untitled.canvas",
     "public/attachments/og-image.png",
     "public/static/og-image.png",
