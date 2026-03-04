@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
 name: "thought.GUILT"
-alias: "Thought: GUILT"
+alias: "Thought: Guilt"
 parent: "topic.PSYCHOLOGY"
 tags: ["guilt", "expression", "ego", "self", "conscience"]
 ptopic: "[[topic-PSYCHOLOGY]]"
@@ -12,7 +12,7 @@ neo4j: true
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.GUILT",
-    alias: "Thought: GUILT",
+    alias: "Thought: Guilt",
     parent: "topic.PSYCHOLOGY",
     tags: ["guilt", "expression", "ego", "self", "conscience"],
     level: 4
@@ -21,7 +21,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.GUILT",
     ctype: "THOUGHT",
-    en_title: "GUILT",
+    en_title: "Guilt",
  es_title: "CULPA",
  fr_title: "CULPABILITÉ",
  hi_title: "अपराध",

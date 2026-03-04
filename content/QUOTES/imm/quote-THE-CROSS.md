@@ -1,7 +1,7 @@
 ---
 type: QUOTE
-name: "quote.THE_CROSS"
-alias: "Quote: Quote: THE CROSS"
+name: "quote.THE CROSS"
+alias: "Quote: The Cross"
 parent: "topic.THE-GOSPEL"
 en_content: "The Power of the Gospel is The Cross of Jesus Christ. The “magic” of The Cross is that GOD loved us so unconditionally and so deeply that He spared neither Himself nor us the pain and agony necessary to provide us a complete delivery from the power, penalty and—most important—the love of and need for sin."
  es_title: "Cita: LA CRUZ"
@@ -21,8 +21,8 @@ neo4j: true
 ```Cypher
 // CREATE QUOTE
 CREATE (q:QUOTE {
-    name: "quote.THE_CROSS",
-    alias: "Quote: Quote: THE CROSS",
+    name: "quote.THE CROSS",
+    alias: "Quote: The Cross",
     parent: "topic.THE-GOSPEL",
     tags: ["gospel", "power", "jesus_christ", "redemption", "sanctification"],
     source: "'IMMMUNITY to the Lake of Fire: A No-Nonsense Guide'",
@@ -32,9 +32,9 @@ CREATE (q:QUOTE {
 
 // CREATE CONTENT
 CREATE (c:CONTENT {
-    name: "content.THE_CROSS",
+    name: "content.THE CROSS",
     ctype: "QUOTE",
-    en_title: "Quote: THE CROSS",
+    en_title: "The Cross",
     en_content: "The Power of the Gospel is The Cross of Jesus Christ. The “magic” of The Cross is that GOD loved us so unconditionally and so deeply that He spared neither Himself nor us the pain and agony necessary to provide us a complete delivery from the power, penalty and—most important—the love of and need for sin.",
  es_title: "Cita: LA CRUZ",
  es_content: "El Poder del Evangelio es La Cruz de Jesucristo. La “magia” de La Cruz es que DIOS nos amó tan incondicional y tan profundamente que no se ahorró ni a Sí mismo ni a nosotros el dolor y la agonía necesarios para brindarnos una liberación completa del poder, la pena y, lo más importante, el amor y la necesidad del pecado.",
@@ -47,12 +47,12 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (q:QUOTE {name: "quote.THE_CROSS"})
-MATCH (c:CONTENT {name: "content.THE_CROSS"})
-MERGE (q)-[:HAS_CONTENT {name: "q.edge.THE_CROSS"}]->(c);
+MATCH (q:QUOTE {name: "quote.THE CROSS"})
+MATCH (c:CONTENT {name: "content.THE CROSS"})
+MERGE (q)-[:HAS_CONTENT {name: "q.edge.THE CROSS"}]->(c);
 
 // LINK PARENT
 MATCH (parent:TOPIC {name: "topic.THE-GOSPEL"})
-MATCH (child:QUOTE {name: "quote.THE_CROSS"})
-MERGE (parent)-[:HAS_QUOTE {name: "q.edge.THE-GOSPEL->THE_CROSS"}]->(child);
+MATCH (child:QUOTE {name: "quote.THE CROSS"})
+MERGE (parent)-[:HAS_QUOTE {name: "q.edge.THE-GOSPEL->THE CROSS"}]->(child);
 ```

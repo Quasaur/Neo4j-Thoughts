@@ -1,7 +1,7 @@
 ---
 type: QUOTE
-name: "quote.SPOKEN_ACTS"
-alias: "Quote: Quote: SPOKEN ACTS"
+name: "quote.SPOKEN ACTS"
+alias: "Quote: Spoken Acts"
 parent: "topic.LINGUISTICS"
 en_content: "Spoken words are human acts which are recorded in Heaven meticulously.",
  es_title: "Cita: ACTOS HABLADOS",
@@ -21,8 +21,8 @@ neo4j: true
 ```Cypher
 // CREATE QUOTE
 CREATE (q:QUOTE {
-    name: "quote.SPOKEN_ACTS",
-    alias: "Quote: Quote: SPOKEN ACTS",
+    name: "quote.SPOKEN ACTS",
+    alias: "Quote: Spoken Acts",
     parent: "topic.LINGUISTICS",
     tags: ["spoken", "words", "idle", "acts", "accountable"],
     source: "'IMMMUNITY to the Lake of Fire: A No-Nonsense Guide'",
@@ -32,9 +32,9 @@ CREATE (q:QUOTE {
 
 // CREATE CONTENT
 CREATE (c:CONTENT {
-    name: "content.SPOKEN_ACTS",
+    name: "content.SPOKEN ACTS",
     ctype: "QUOTE",
-    en_title: "Quote: SPOKEN ACTS",
+    en_title: "Spoken Acts",
     en_content: "Spoken words are human acts which are recorded in Heaven meticulously.",
  es_title: "Cita: ACTOS HABLADOS",
  es_content: "Las palabras habladas son actos humanos que quedan registrados meticulosamente en el Cielo.",
@@ -47,13 +47,13 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (q:QUOTE {name: "quote.SPOKEN_ACTS"})
-MATCH (c:CONTENT {name: "content.SPOKEN_ACTS"})
-MERGE (q)-[:HAS_CONTENT {name: "q.edge.SPOKEN_ACTS"}]->(c);
+MATCH (q:QUOTE {name: "quote.SPOKEN ACTS"})
+MATCH (c:CONTENT {name: "content.SPOKEN ACTS"})
+MERGE (q)-[:HAS_CONTENT {name: "q.edge.SPOKEN ACTS"}]->(c);
 
 // LINK PARENT
 MATCH (parent:TOPIC {name: "topic.LINGUISTICS"})
-MATCH (child:QUOTE {name: "quote.SPOKEN_ACTS"})
-MERGE (parent)-[:HAS_QUOTE {name: "q.edge.LINGUISTICS->SPOKEN_ACTS"}]->(child);
+MATCH (child:QUOTE {name: "quote.SPOKEN ACTS"})
+MERGE (parent)-[:HAS_QUOTE {name: "q.edge.LINGUISTICS->SPOKEN ACTS"}]->(child);
 
 ```

@@ -1,29 +1,29 @@
 ---
 type: THOUGHT
-name: "\"thought.ONE_REASON\""
-alias: "Thought: ONE REASON"
-parent: "\"topic.ATTITUDE\""
+name: "thought.ONE REASON"
+alias: "Thought: One Reason"
+parent: "topic.ATTITUDE"
 en_content: |
   There’s one reason why many will find themselves in the Lake of Fire when they could’ve been saved: Pride.
   Lay down your weapons and surrender your body and soul to The Lord Jesus Christ…you will NOT regret it!"
 tags: ["apocalypse", "lake_of_fire", "pride", "judgment", "jesus_christ"]
-ptopic: "\"[[topic-ATTITUDE]]\""
+ptopic: "[[topic-ATTITUDE]]"
 level: 3
 neo4j: true
 ---
 ```Cypher
 CREATE (t:THOUGHT {
-    name: "\"thought.ONE_REASON\"",
-    alias: "Thought: ONE REASON",
-    parent: "\"topic.ATTITUDE\"",
+    name: "thought.ONE REASON",
+    alias: "Thought: One Reason",
+    parent: "topic.ATTITUDE",
     tags: ["apocalypse", "lake_of_fire", "pride", "judgment", "jesus_christ"],
     level: 3
 });
 
 CREATE (c:CONTENT {
-    name: "content.ONE_REASON",
+    name: "content.ONE REASON",
     ctype: "THOUGHT",
-    en_title: "ONE REASON",
+    en_title: "One Reason",
     en_content: "There’s one reason why many will find themselves in the Lake of Fire when they could’ve been saved: Pride.
 Lay down your weapons and surrender your body and soul to The Lord Jesus Christ…you will NOT regret it!",
     es_title: "UNA RAZÓN",
@@ -42,11 +42,11 @@ Déposez vos armes et abandonnez votre corps et votre âme au Seigneur Jésus-Ch
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = "thought.ONE_REASON" AND c.name = "content.ONE_REASON"
-MERGE (t)-[:HAS_CONTENT {name: "edge.ONE_REASON"}]->(c);
+WHERE t.name = "thought.ONE REASON" AND c.name = "content.ONE REASON"
+MERGE (t)-[:HAS_CONTENT {name: "edge.ONE REASON"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "topic.ATTITUDE" AND child.name = "thought.ONE_REASON"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.ATTITUDE->ONE_REASON"}]->(child);
+WHERE parent.name = "topic.ATTITUDE" AND child.name = "thought.ONE REASON"
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.ATTITUDE->ONE REASON"}]->(child);
 ```

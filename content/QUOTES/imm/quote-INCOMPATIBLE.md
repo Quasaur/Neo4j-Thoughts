@@ -1,7 +1,7 @@
 ---
 type: QUOTE
 name: "quote.INCOMPATIBLE"
-alias: "Quote: Quote: INCOMPATIBLE"
+alias: "Quote: Incompatible"
 parent: "topic.SPIRITUALITY"
 en_content: "The life you were born into as a human is ABSOLUTELY INCOMPATIBLE with the Life you were born-again into as a Child of GOD.",
  es_title: "Cita: INCOMPATIBLE",
@@ -22,7 +22,7 @@ neo4j: true
 // CREATE QUOTE
 CREATE (q:QUOTE {
     name: "quote.INCOMPATIBLE",
-    alias: "Quote: Quote: INCOMPATIBLE",
+    alias: "Quote: Incompatible",
     parent: "topic.SPIRITUALITY",
     tags: ["flesh", "spirit", "holy_spirit", "god", "adoption"],
     source: "'IMMMUNITY to the Lake of Fire: A No-Nonsense Guide'",
@@ -34,7 +34,7 @@ CREATE (q:QUOTE {
 CREATE (c:CONTENT {
     name: "content.INCOMPATIBLE",
     ctype: "QUOTE",
-    en_title: "Quote: INCOMPATIBLE",
+    en_title: "Incompatible",
     en_content: "The life you were born into as a human is ABSOLUTELY INCOMPATIBLE with the Life you were born-again into as a Child of GOD.",
  es_title: "Cita: INCOMPATIBLE",
  es_content: "La vida en la que naciste como ser humano es ABSOLUTAMENTE INCOMPATIBLE con la vida en la que naciste de nuevo como Hijo de DIOS.",

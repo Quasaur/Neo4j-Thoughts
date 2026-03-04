@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
-name: "thought.PRIMAL_SCREAM"
-alias: "Thought: PRIMAL SCREAM"
+name: "thought.PRIMAL SCREAM"
+alias: "Thought: Primal Scream"
 parent: "topic.HUMOR"
 en_content: "I believe in the Primal Scream."
 tags: ["painting", "expression", "humor", "comedy", "faith"]
@@ -12,17 +12,17 @@ neo4j: true
 
 ```Cypher
 CREATE (t:THOUGHT {
-    name: "thought.PRIMAL_SCREAM",
-    alias: "Thought: PRIMAL SCREAM",
+    name: "thought.PRIMAL SCREAM",
+    alias: "Thought: Primal Scream",
     parent: "topic.HUMOR",
     tags: ["painting", "expression", "humor", "comedy", "faith"],
     level: 4
 });
 
 CREATE (c:CONTENT {
-    name: "content.PRIMAL_SCREAM",
+    name: "content.PRIMAL SCREAM",
     ctype: "THOUGHT",
-    en_title: "PRIMAL SCREAM",
+    en_title: "Primal Scream",
     en_content: "I believe in the Primal Scream.",
     es_title: "GRITO PRIMARIO",
     es_content: "Creo en el Grito Primordial.",
@@ -36,11 +36,11 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = "thought.PRIMAL_SCREAM" AND c.name = "content.PRIMAL_SCREAM"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.PRIMAL_SCREAM"}]->(c);
+WHERE t.name = "thought.PRIMAL SCREAM" AND c.name = "content.PRIMAL SCREAM"
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.PRIMAL SCREAM"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "topic.HUMOR" AND child.name = "thought.PRIMAL_SCREAM"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.HUMOR->PRIMAL_SCREAM"}]->(child);
+WHERE parent.name = "topic.HUMOR" AND child.name = "thought.PRIMAL SCREAM"
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.HUMOR->PRIMAL SCREAM"}]->(child);
 ```

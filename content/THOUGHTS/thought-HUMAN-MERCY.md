@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
-name: "thought.HUMAN_MERCY"
-alias: "Thought: HUMAN MERCY"
+name: "thought.HUMAN MERCY"
+alias: "Thought: Human Mercy"
 parent: "topic.ATTITUDE"
 en_content: "Oh Most Holy Father of spirits, please grant me the Grace to be merciful to Your Feelings through my submission and faithful obedience to Your Only-Begotten Son The Messiah!"
 tags: ["mercy", "submission", "faithfulness", "obedience", "jesus_christ"]
@@ -12,17 +12,17 @@ neo4j: true
 
 ```Cypher
 CREATE (t:THOUGHT {
-    name: "thought.HUMAN_MERCY",
-    alias: "Thought: HUMAN MERCY",
+    name: "thought.HUMAN MERCY",
+    alias: "Thought: Human Mercy",
     parent: "topic.ATTITUDE",
     tags: ["mercy", "submission", "faithfulness", "obedience", "jesus_christ"],
     level: 3
 });
 
 CREATE (c:CONTENT {
-    name: "content.HUMAN_MERCY",
+    name: "content.HUMAN MERCY",
     ctype: "THOUGHT",
-    en_title: "HUMAN MERCY",
+    en_title: "Human Mercy",
     en_content: "Oh Most Holy Father of spirits, please grant me the Grace to be merciful to Your Feelings through my submission and faithful obedience to Your Only-Begotten Son The Messiah!",
     es_title: "MISERICORDIA HUMANA",
     es_content: "¡Oh Santísimo Padre de los espíritus, por favor concédeme la Gracia de ser misericordioso con Tus Sentimientos a través de mi sumisión y fiel obediencia a Tu Unigénito Hijo El Mesías!",
@@ -36,11 +36,11 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = "thought.HUMAN_MERCY" AND c.name = "content.HUMAN_MERCY"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.HUMAN_MERCY"}]->(c);
+WHERE t.name = "thought.HUMAN MERCY" AND c.name = "content.HUMAN MERCY"
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.HUMAN MERCY"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "topic.ATTITUDE" AND child.name = "thought.HUMAN_MERCY"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.ATTITUDE->HUMAN_MERCY"}]->(child);
+WHERE parent.name = "topic.ATTITUDE" AND child.name = "thought.HUMAN MERCY"
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.ATTITUDE->HUMAN MERCY"}]->(child);
 ```

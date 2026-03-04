@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
 name: "thought.UNFORGIVENESS"
-alias: "Thought: UNFORGIVENESS"
+alias: "Thought: Unforgiveness"
 parent: "topic.ATTITUDE"
 tags: ["unforgiveness", "hell", "unmerciful", "condemnation", "salvation"]
 ptopic: "[[topic-ATTITUDE]]"
@@ -12,7 +12,7 @@ neo4j: true
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.UNFORGIVENESS",
-    alias: "Thought: UNFORGIVENESS",
+    alias: "Thought: Unforgiveness",
     parent: "topic.ATTITUDE",
     tags: ["unforgiveness", "hell", "unmerciful", "condemnation", "salvation"],
     level: 3
@@ -21,7 +21,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.UNFORGIVENESS",
     ctype: "THOUGHT",
-    en_title: "UNFORGIVENESS",
+    en_title: "Unforgiveness",
  es_title: "PERDÓN",
  fr_title: "IMPARDONNANCE",
  hi_title: "क्षमा न करना",

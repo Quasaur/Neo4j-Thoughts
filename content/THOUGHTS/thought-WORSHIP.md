@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
 name: "thought.WORSHIP"
-alias: "Thought: WORSHIP"
+alias: "Thought: Worship"
 parent: "topic.SPIRITUALITY"
 tags: ["worship", "praise", "prayer", "fellowship", "eternalfather"]
 ptopic: "[[topic-SPIRITUALITY]]"
@@ -12,7 +12,7 @@ neo4j: true
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.WORSHIP",
-    alias: "Thought: WORSHIP",
+    alias: "Thought: Worship",
     parent: "topic.SPIRITUALITY",
     tags: ["worship", "praise", "prayer", "fellowship", "eternalfather"],
     level: 2
@@ -21,7 +21,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.WORSHIP",
     ctype: "THOUGHT",
-    en_title: "WORSHIP",
+    en_title: "Worship",
  es_title: "CULTO",
  fr_title: "CULTE",
  hi_title: "पूजा",

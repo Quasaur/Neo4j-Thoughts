@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
-name: "thought.OUR_MASTER"
-alias: "Thought: OUR MASTER"
+name: "thought.OUR MASTER"
+alias: "Thought: Our Master"
 parent: "topic.TRUTH"
 en_content: "Truth belongs to no one; It is It's own Master...and ours."
 tags: ["truth", "master", "seovereign", "veritas", "ultimate"]
@@ -12,17 +12,17 @@ neo4j: true
 
 ```Cypher
 CREATE (t:THOUGHT {
-    name: "thought.OUR_MASTER",
-    alias: "Thought: OUR MASTER",
+    name: "thought.OUR MASTER",
+    alias: "Thought: Our Master",
     parent: "topic.TRUTH",
     tags: ["truth", "master", "seovereign", "veritas", "ultimate"],
     level: 2
 });
 
 CREATE (c:CONTENT {
-    name: "content.OUR_MASTER",
+    name: "content.OUR MASTER",
     ctype: "THOUGHT",
-    en_title: "OUR MASTER",
+    en_title: "Our Master",
     en_content: "Truth belongs to no one; It is It's own Master...and ours.",
     es_title: "NUESTRO MAESTRO",
     es_content: "La verdad no pertenece a nadie; Es su propio Maestro... y el nuestro.",
@@ -36,11 +36,11 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = "thought.OUR_MASTER" AND c.name = "content.OUR_MASTER"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.OUR_MASTER"}]->(c);
+WHERE t.name = "thought.OUR MASTER" AND c.name = "content.OUR MASTER"
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.OUR MASTER"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "topic.TRUTH" AND child.name = "thought.OUR_MASTER"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.TRUTH->OUR_MASTER"}]->(child);
+WHERE parent.name = "topic.TRUTH" AND child.name = "thought.OUR MASTER"
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.TRUTH->OUR MASTER"}]->(child);
 ```

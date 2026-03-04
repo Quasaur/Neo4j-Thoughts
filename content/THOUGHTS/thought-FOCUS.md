@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
 name: "thought.FOCUS"
-alias: "Thought: FOCUS"
+alias: "Thought: Focus"
 parent: "topic.PSYCHOLOGY"
 tags: ["focus", "crisis", "forward", "criticalthinking", "faith"]
 ptopic: "[[topic-PSYCHOLOGY]]"
@@ -12,7 +12,7 @@ neo4j: true
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.FOCUS",
-    alias: "Thought: FOCUS",
+    alias: "Thought: Focus",
     parent: "topic.PSYCHOLOGY",
     tags: ["focus", "crisis", "forward", "criticalthinking", "faith"],
     level: 4
@@ -21,7 +21,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.FOCUS",
     ctype: "THOUGHT",
-    en_title: "FOCUS",
+    en_title: "Focus",
  es_title: "ENFOCAR",
  fr_title: "SE CONCENTRER",
  hi_title: "केंद्र",

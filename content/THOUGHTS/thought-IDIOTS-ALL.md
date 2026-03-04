@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
-name: "thought.IDIOTS_ALL"
-alias: "Thought: IDIOTS ALL"
+name: "thought.IDIOTS ALL"
+alias: "Thought: Idiots All"
 parent: "topic.PSYCHOLOGY"
 en_content: "Everyone's an idiot about something!"
 tags: ["foolish", "stupid", "humanity", "everyone", "intelligence"]
@@ -12,17 +12,17 @@ neo4j: true
 
 ```Cypher
 CREATE (t:THOUGHT {
-    name: "thought.IDIOTS_ALL",
-    alias: "Thought: IDIOTS ALL",
+    name: "thought.IDIOTS ALL",
+    alias: "Thought: Idiots All",
     parent: "topic.PSYCHOLOGY",
     tags: ["foolish", "stupid", "humanity", "everyone", "intelligence"],
     level: 4
 });
 
 CREATE (c:CONTENT {
-    name: "content.IDIOTS_ALL",
+    name: "content.IDIOTS ALL",
     ctype: "THOUGHT",
-    en_title: "IDIOTS ALL",
+    en_title: "Idiots All",
     en_content: "Everyone's an idiot about something!",
     es_title: "IDIOTAS TODOS",
     es_content: "¡Todo el mundo es idiota por algo!",
@@ -36,11 +36,11 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = "thought.IDIOTS_ALL" AND c.name = "content.IDIOTS_ALL"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.IDIOTS_ALL"}]->(c);
+WHERE t.name = "thought.IDIOTS ALL" AND c.name = "content.IDIOTS ALL"
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.IDIOTS ALL"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "topic.PSYCHOLOGY" AND child.name = "thought.IDIOTS_ALL"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.PSYCHOLOGY->IDIOTS_ALL"}]->(child);
+WHERE parent.name = "topic.PSYCHOLOGY" AND child.name = "thought.IDIOTS ALL"
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.PSYCHOLOGY->IDIOTS ALL"}]->(child);
 ```

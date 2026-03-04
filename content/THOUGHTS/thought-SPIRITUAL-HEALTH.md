@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
-name: "thought.SPIRITUAL_HEALTH"
-alias: "Thought: SPIRITUAL HEALTH"
+name: "thought.SPIRITUAL HEALTH"
+alias: "Thought: Spiritual Health"
 parent: "topic.SPIRITUALITY"
 en_content: "Spiritual Health: Doing what I know pleases God all of the time."
 tags: ["health", "spiritual", "god", "allpleasing", "character"]
@@ -12,17 +12,17 @@ neo4j: true
 
 ```Cypher
 CREATE (t:THOUGHT {
-    name: "thought.SPIRITUAL_HEALTH",
-    alias: "Thought: SPIRITUAL HEALTH",
+    name: "thought.SPIRITUAL HEALTH",
+    alias: "Thought: Spiritual Health",
     parent: "topic.SPIRITUALITY",
     tags: ["health", "spiritual", "god", "allpleasing", "character"],
     level: 2
 });
 
 CREATE (c:CONTENT {
-    name: "content.SPIRITUAL_HEALTH",
+    name: "content.SPIRITUAL HEALTH",
     ctype: "THOUGHT",
-    en_title: "SPIRITUAL HEALTH",
+    en_title: "Spiritual Health",
     en_content: "Spiritual Health: Doing what I know pleases God all of the time.",
     es_title: "SALUD ESPIRITUAL",
     es_content: "Salud Espiritual: Hacer lo que sé agrada a Dios todo el tiempo.",
@@ -36,11 +36,11 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = "thought.SPIRITUAL_HEALTH" AND c.name = "content.SPIRITUAL_HEALTH"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.SPIRITUAL_HEALTH"}]->(c);
+WHERE t.name = "thought.SPIRITUAL HEALTH" AND c.name = "content.SPIRITUAL HEALTH"
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.SPIRITUAL HEALTH"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "topic.SPIRITUALITY" AND child.name = "thought.SPIRITUAL_HEALTH"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.SPIRITUALITY->SPIRITUAL_HEALTH"}]->(child);
+WHERE parent.name = "topic.SPIRITUALITY" AND child.name = "thought.SPIRITUAL HEALTH"
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.SPIRITUALITY->SPIRITUAL HEALTH"}]->(child);
 ```

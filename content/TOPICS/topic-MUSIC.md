@@ -5,7 +5,7 @@ alias: "Topic: Music"
 parent: "topic.MUSICOLOGY"
 en_content: "The art and science of combining vocal or instrumental sounds to produce beauty of form, harmony, and expression of emotion."
 tags: ["music", "art", "sound", "harmony", "melody"]
-ptopic: "\"[[topic-MUSICOLOGY]]\""
+ptopic: "[[topic-MUSICOLOGY]]"
 level: 5
 neo4j: true
 insert: "True"

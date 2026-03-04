@@ -1,7 +1,7 @@
 ---
 type: QUOTE
 name: "quote.NORMAL-REALITY"
-alias: "Quote: Quote: NORMAL-REALITY"
+alias: "Quote: Normal-reality"
 parent: "topic.TRUTH"
 en_content: "Other things happened, but what i most strongly desire to convey to you is that the lives we experience in this world are NOT as real as Eternity. We live in a temporary sub-reality that is the result of humanity being disconnected from our Great and Precious Heavenly Father. The experience i was granted is NORMAL REALITY...the environment we were MEANT to be born into and live our lives in!!!",
  es_title: "Cita: REALIDAD NORMAL",
@@ -22,7 +22,7 @@ neo4j: true
 // CREATE QUOTE
 CREATE (q:QUOTE {
     name: "quote.NORMAL-REALITY",
-    alias: "Quote: Quote: NORMAL-REALITY",
+    alias: "Quote: Normal-reality",
     parent: "topic.TRUTH",
     tags: ["eternity", "godhead", "reality", "normal", "glory"],
     source: "'The Narrow Way'",
@@ -34,7 +34,7 @@ CREATE (q:QUOTE {
 CREATE (c:CONTENT {
     name: "content.NORMAL-REALITY",
     ctype: "QUOTE",
-    en_title: "Quote: NORMAL-REALITY",
+    en_title: "Normal-reality",
     en_content: "Other things happened, but what i most strongly desire to convey to you is that the lives we experience in this world are NOT as real as Eternity. We live in a temporary sub-reality that is the result of humanity being disconnected from our Great and Precious Heavenly Father. The experience i was granted is NORMAL REALITY...the environment we were MEANT to be born into and live our lives in!!!",
  es_title: "Cita: REALIDAD NORMAL",
  es_content: "Sucedieron otras cosas, pero lo que más deseo transmitirles es que las vidas que experimentamos en este mundo NO son tan reales como la Eternidad. Vivimos en una subrealidad temporal que es el resultado de la desconexión de la humanidad de nuestro Gran y Precioso Padre Celestial. La experiencia que me concedieron es REALIDAD NORMAL... ¡¡¡el entorno en el que debíamos nacer y vivir nuestras vidas!!!",

@@ -1,7 +1,7 @@
 ---
 type: QUOTE
-name: "quote.THE_SERVANT_KING"
-alias: "Quote: Quote: THE SERVANT KING"
+name: "quote.THE SERVANT KING"
+alias: "Quote: The Servant King"
 parent: "topic.ATTITUDE"
 en_content: "OH MY GOD!!! Here the Lord Jesus Christ distinguishes Himself from all the great men (and great thinkers) of history who have either preceded Him or came after Him! If the Claims Jesus made about Himself are true, He had at His disposal enough absolute power to bend all human society to His Will... Yet, in His First Advent, He refuses to exert a single iota of His Divine Sovereignty to shape human will or human hearts! Rather, by the Spirit of Humility, He calls, teaches and persuades us by means of deeds the lowliest of slaves would be hesitant to perform!",
  es_title: "Cita: EL REY SIERVO",
@@ -21,8 +21,8 @@ neo4j: true
 ```Cypher
 // CREATE QUOTE
 CREATE (q:QUOTE {
-    name: "quote.THE_SERVANT_KING",
-    alias: "Quote: Quote: THE SERVANT KING",
+    name: "quote.THE SERVANT KING",
+    alias: "Quote: The Servant King",
     parent: "topic.ATTITUDE",
     tags: ["greatest", "servant", "burdenbearer", "foundation", "jesus_christ"],
     source: "'The Narrow Way'",
@@ -32,9 +32,9 @@ CREATE (q:QUOTE {
 
 // CREATE CONTENT
 CREATE (c:CONTENT {
-    name: "content.THE_SERVANT_KING",
+    name: "content.THE SERVANT KING",
     ctype: "QUOTE",
-    en_title: "Quote: THE SERVANT KING",
+    en_title: "The Servant King",
     en_content: "OH MY GOD!!! Here the Lord Jesus Christ distinguishes Himself from all the great men (and great thinkers) of history who have either preceded Him or came after Him! If the Claims Jesus made about Himself are true, He had at His disposal enough absolute power to bend all human society to His Will... Yet, in His First Advent, He refuses to exert a single iota of His Divine Sovereignty to shape human will or human hearts! Rather, by the Spirit of Humility, He calls, teaches and persuades us by means of deeds the lowliest of slaves would be hesitant to perform!",
  es_title: "Cita: EL REY SIERVO",
  es_content: "¡¡¡AY DIOS MÍO!!! ¡Aquí el Señor Jesucristo se distingue de todos los grandes hombres (y grandes pensadores) de la historia que lo precedieron o vinieron después de Él! Si las afirmaciones que Jesús hizo sobre sí mismo son ciertas, Él tenía a Su disposición suficiente poder absoluto para someter a toda la sociedad humana a Su Voluntad... ¡Sin embargo, en Su Primera Venida, Él se niega a ejercer un solo ápice de Su Divina Soberanía para moldear la voluntad humana o los corazones humanos! Más bien, por el Espíritu de Humildad, Él nos llama, nos enseña y persuade por medio de obras que el más humilde de los esclavos dudaría en realizar.",
@@ -47,13 +47,13 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (q:QUOTE {name: "quote.THE_SERVANT_KING"})
-MATCH (c:CONTENT {name: "content.THE_SERVANT_KING"})
-MERGE (q)-[:HAS_CONTENT {name: "q.edge.THE_SERVANT_KING"}]->(c);
+MATCH (q:QUOTE {name: "quote.THE SERVANT KING"})
+MATCH (c:CONTENT {name: "content.THE SERVANT KING"})
+MERGE (q)-[:HAS_CONTENT {name: "q.edge.THE SERVANT KING"}]->(c);
 
 // LINK PARENT
 MATCH (parent:TOPIC {name: "topic.ATTITUDE"})
-MATCH (child:QUOTE {name: "quote.THE_SERVANT_KING"})
-MERGE (parent)-[:HAS_QUOTE {name: "q.edge.ATTITUDE->THE_SERVANT_KING"}]->(child);
+MATCH (child:QUOTE {name: "quote.THE SERVANT KING"})
+MERGE (parent)-[:HAS_QUOTE {name: "q.edge.ATTITUDE->THE SERVANT KING"}]->(child);
 
 ```

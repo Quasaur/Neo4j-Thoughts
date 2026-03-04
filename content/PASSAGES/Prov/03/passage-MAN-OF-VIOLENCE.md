@@ -1,7 +1,7 @@
 ---
 type: PASSAGE
-name: "passage.MAN_OF_VIOLENCE"
-alias: "Passage: MAN OF VIOLENCE"
+name: "passage.MAN OF VIOLENCE"
+alias: "Passage: Man of Violence"
 parent: "topic.EVIL"
 en_content: "Do not envy a man of violence"
 tags: ["violent", "devious", "abomination", "upright", "confidence"]
@@ -13,8 +13,8 @@ neo4j: true
 ```Cypher
 // CREATE PASSAGE
 CREATE (b:PASSAGE {
-    name: "passage.MAN_OF_VIOLENCE",
-    alias: "Passage: MAN OF VIOLENCE",
+    name: "passage.MAN OF VIOLENCE",
+    alias: "Passage: Man of Violence",
     parent: "topic.EVIL",
     tags: ["violent", "devious", "abomination", "upright", "confidence"],
     source: "'Proverbs 3:31,32'",
@@ -25,9 +25,9 @@ CREATE (b:PASSAGE {
 
 // CREATE CONTENT
 CREATE (c:CONTENT {
-    name: "content.MAN_OF_VIOLENCE",
+    name: "content.MAN OF VIOLENCE",
     ctype: "PASSAGE",
-    en_title: "MAN OF VIOLENCE",
+    en_title: "Man of Violence",
     en_content: "Do not envy a man of violence",
  es_title: "HOMBRE DE VIOLENCIA",
  es_content: "No envidies a un hombre violento",
@@ -40,13 +40,13 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (b:PASSAGE {name: "passage.MAN_OF_VIOLENCE"})
-MATCH (c:CONTENT {name: "content.MAN_OF_VIOLENCE"})
-MERGE (b)-[:HAS_CONTENT {name: "p.edge.MAN_OF_VIOLENCE"}]->(c);
+MATCH (b:PASSAGE {name: "passage.MAN OF VIOLENCE"})
+MATCH (c:CONTENT {name: "content.MAN OF VIOLENCE"})
+MERGE (b)-[:HAS_CONTENT {name: "p.edge.MAN OF VIOLENCE"}]->(c);
 
 // LINK PARENT
 MATCH (parent:TOPIC {name: "topic.EVIL"})
-MATCH (child:PASSAGE {name: "passage.MAN_OF_VIOLENCE"})
-MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.b.EVIL->MAN_OF_VIOLENCE"}]->(child);
+MATCH (child:PASSAGE {name: "passage.MAN OF VIOLENCE"})
+MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.b.EVIL->MAN OF VIOLENCE"}]->(child);
 
 ```

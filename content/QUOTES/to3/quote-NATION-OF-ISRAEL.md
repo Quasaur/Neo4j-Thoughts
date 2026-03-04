@@ -1,7 +1,7 @@
 ---
 type: QUOTE
-name: "quote.NATION_OF_ISRAEL"
-alias: "Quote: Quote: NATION OF ISRAEL"
+name: "quote.NATION OF ISRAEL"
+alias: "Quote: Nation of Israel"
 parent: "topic.POLITICAL-SCIENCE"
 en_content: "The Bible makes a crucial distinction between the Earthly, physical Nation of Israel, which is temporary and the SPIRITUAL Nation of Israel, which is Eternal; nothing about the Gospel or Biblical prophecy makes sense without this truth.",
  es_title: "Cita: NACIÓN DE ISRAEL",
@@ -21,8 +21,8 @@ neo4j: true
 ```Cypher
 // CREATE QUOTE
 CREATE (q:QUOTE {
-    name: "quote.NATION_OF_ISRAEL",
-    alias: "Quote: Quote: NATION OF ISRAEL",
+    name: "quote.NATION OF ISRAEL",
+    alias: "Quote: Nation of Israel",
     parent: "topic.POLITICAL-SCIENCE",
     tags: ["nation", "israel", "earthly", "spiritual", "prophecy"],
     source: "'The Traveler's Oasis, Book Three'",
@@ -32,9 +32,9 @@ CREATE (q:QUOTE {
 
 // CREATE CONTENT
 CREATE (c:CONTENT {
-    name: "content.NATION_OF_ISRAEL",
+    name: "content.NATION OF ISRAEL",
     ctype: "QUOTE",
-    en_title: "Quote: NATION OF ISRAEL",
+    en_title: "Nation of Israel",
     en_content: "The Bible makes a crucial distinction between the Earthly, physical Nation of Israel, which is temporary and the SPIRITUAL Nation of Israel, which is Eternal; nothing about the Gospel or Biblical prophecy makes sense without this truth.",
  es_title: "Cita: NACIÓN DE ISRAEL",
  es_content: "La Biblia hace una distinción crucial entre la Nación física y terrenal de Israel, que es temporal, y la Nación ESPIRITUAL de Israel, que es Eterna; nada sobre el Evangelio o la profecía bíblica tiene sentido sin esta verdad.",
@@ -47,13 +47,13 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (q:QUOTE {name: "quote.NATION_OF_ISRAEL"})
-MATCH (c:CONTENT {name: "content.NATION_OF_ISRAEL"})
-MERGE (q)-[:HAS_CONTENT {name: "q.edge.NATION_OF_ISRAEL"}]->(c);
+MATCH (q:QUOTE {name: "quote.NATION OF ISRAEL"})
+MATCH (c:CONTENT {name: "content.NATION OF ISRAEL"})
+MERGE (q)-[:HAS_CONTENT {name: "q.edge.NATION OF ISRAEL"}]->(c);
 
 // LINK PARENT
 MATCH (parent:TOPIC {name: "topic.POLITICAL-SCIENCE"})
-MATCH (child:QUOTE {name: "quote.NATION_OF_ISRAEL"})
-MERGE (parent)-[:HAS_QUOTE {name: "q.edge.POLITICAL-SCIENCE->NATION_OF_ISRAEL"}]->(child);
+MATCH (child:QUOTE {name: "quote.NATION OF ISRAEL"})
+MERGE (parent)-[:HAS_QUOTE {name: "q.edge.POLITICAL-SCIENCE->NATION OF ISRAEL"}]->(child);
 
 ```

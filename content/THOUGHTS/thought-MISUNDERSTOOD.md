@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
 name: "thought.MISUNDERSTOOD"
-alias: "Thought: MISUNDERSTOOD"
+alias: "Thought: Misunderstood"
 parent: "topic.UNDERSTANDING"
 tags: ["misunderfstood", "understanding", "communication", "fellowship", "intimacy"]
 ptopic: "[[topic-UNDERSTANDING]]"
@@ -12,7 +12,7 @@ neo4j: true
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.MISUNDERSTOOD",
-    alias: "Thought: MISUNDERSTOOD",
+    alias: "Thought: Misunderstood",
     parent: "topic.UNDERSTANDING",
     tags: ["misunderfstood", "understanding", "communication", "fellowship", "intimacy"],
     level: 3
@@ -21,7 +21,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.MISUNDERSTOOD",
     ctype: "THOUGHT",
-    en_title: "MISUNDERSTOOD",
+    en_title: "Misunderstood",
  es_title: "INCOMPRENDIDO",
  fr_title: "MAL COMPRIS",
  hi_title: "गलत समझा",

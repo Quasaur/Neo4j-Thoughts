@@ -1,7 +1,7 @@
 ---
 type: QUOTE
-name: "quote.HEADING_HOME"
-alias: "Quote: Quote: HEADING HOME"
+name: "quote.HEADING HOME"
+alias: "Quote: Heading Home"
 parent: "topic.TRUTH"
 en_content: "Most people focus on the 'deny himself' clause, yet that is NOT the central idea of this statement. To be a disciple of Jesus you must FOLLOW Jesus...but WHERE IS JESUS GOING? In connection to what i said in [Part Fourteen](https://www.clmjournal.com/post/the-narrow-way-part-fourteen-discipleship) regarding Reality, Jesus is RETURNING TO THE FATHER where sin, death and affliction do not exist...and HE IS INVITING YOU TO RETURN THERE WITH HIM!!! This is the HEART of what being 'saved' means, with the added benefit of NEVER BEING CAPABLE OF SINNING AGAIN!!!!"
  es_title: "Cita: RUMBO A CASA"
@@ -21,8 +21,8 @@ neo4j: true
 ```Cypher
 // CREATE QUOTE
 CREATE (q:QUOTE {
-    name: "quote.HEADING_HOME",
-    alias: "Quote: Quote: HEADING HOME",
+    name: "quote.HEADING HOME",
+    alias: "Quote: Heading Home",
     parent: "topic.TRUTH",
     tags: ["home", "safety", "joy", "rest", "godhead"],
     source: "'The Narrow Way'",
@@ -32,9 +32,9 @@ CREATE (q:QUOTE {
 
 // CREATE CONTENT
 CREATE (c:CONTENT {
-    name: "content.HEADING_HOME",
+    name: "content.HEADING HOME",
     ctype: "QUOTE",
-    en_title: "Quote: HEADING HOME",
+    en_title: "Heading Home",
     en_content: "Most people focus on the 'deny himself' clause, yet that is NOT the central idea of this statement. To be a disciple of Jesus you must FOLLOW Jesus...but WHERE IS JESUS GOING? In connection to what i said in [Part Fourteen](https://www.clmjournal.com/post/the-narrow-way-part-fourteen-discipleship) regarding Reality, Jesus is RETURNING TO THE FATHER where sin, death and affliction do not exist...and HE IS INVITING YOU TO RETURN THERE WITH HIM!!! This is the HEART of what being 'saved' means, with the added benefit of NEVER BEING CAPABLE OF SINNING AGAIN!!!!",
  es_title: "Cita: RUMBO A CASA",
  es_content: "La mayoría de la gente se centra en la cláusula de \"negarse a sí mismo\", pero esa NO es la idea central de esta declaración. Para ser discípulo de Jesús debes SEGUIR a Jesús...pero ¿A DÓNDE VA JESÚS? En conexión con lo que dije en [Parte Catorce](https://www.clmjournal.com/post/the-narrow-way-part-fourteen-discipleship) con respecto a la Realidad, Jesús está REGRESANDO AL PADRE donde el pecado, la muerte y la aflicción no existen... ¡¡¡Y TE ESTÁ INVITANDO A REGRESAR ALLÍ CON ÉL!!! ¡¡¡Este es el CORAZÓN de lo que significa ser 'salvo', con el beneficio adicional de NUNCA SER CAPAZ DE PECAR OTRA VEZ!!!!",
@@ -47,12 +47,12 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (q:QUOTE {name: "quote.HEADING_HOME"})
-MATCH (c:CONTENT {name: "content.HEADING_HOME"})
-MERGE (q)-[:HAS_CONTENT {name: "q.edge.HEADING_HOME"}]->(c);
+MATCH (q:QUOTE {name: "quote.HEADING HOME"})
+MATCH (c:CONTENT {name: "content.HEADING HOME"})
+MERGE (q)-[:HAS_CONTENT {name: "q.edge.HEADING HOME"}]->(c);
 
 // LINK PARENT
 MATCH (parent:TOPIC {name: "topic.TRUTH"})
-MATCH (child:QUOTE {name: "quote.HEADING_HOME"})
-MERGE (parent)-[:HAS_QUOTE {name: "q.edge.TRUTH->HEADING_HOME"}]->(child);
+MATCH (child:QUOTE {name: "quote.HEADING HOME"})
+MERGE (parent)-[:HAS_QUOTE {name: "q.edge.TRUTH->HEADING HOME"}]->(child);
 ```

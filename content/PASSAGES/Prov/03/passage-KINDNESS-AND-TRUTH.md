@@ -1,8 +1,8 @@
 ---
 type: PASSAGE
-name: "\"passage.KINDNESS AND TRUTH\""
+name: "passage.KINDNESS AND TRUTH"
 alias: "Passage: The Keys to Favor and a Good Reputation"
-parent: "\"topic.ATTITUDE\""
+parent: "topic.ATTITUDE"
 en_content: |
   Do not let kindness and truth leave you;
   Bind them around your neck,
@@ -10,16 +10,16 @@ en_content: |
   So you will find favor and a good reputation
   In the sight of God and man."
 tags: ["kindness", "truth", "favor", "reputation", "god"]
-ptopic: "\"[[topic-ATTITUDE]]\""
+ptopic: "[[topic-ATTITUDE]]"
 level: 3
 neo4j: true
 ---
 ```Cypher
 //create the Passage with the same fields as a normal thought
 CREATE (p:PASSAGE
-    {	    name: "\"passage.KINDNESS AND TRUTH\"",
+    {	    name: "passage.KINDNESS AND TRUTH",
 		alias: "Passage: The Keys to Favor and a Good Reputation", 
-		parent: "\"topic.ATTITUDE\"", 
+		parent: "topic.ATTITUDE", 
 		tags: ["kindness", "truth", "favor", "reputation", "god"], 
 		source: "Proverbs 3:3,4",
 		sortedsource: "Proverbs 03:03,04",
@@ -29,7 +29,7 @@ CREATE (p:PASSAGE
 CREATE (c:CONTENT {
 	name: "content.KINDNESS AND TRUTH", 
 	ctype: "PASSAGE",
-	en_title: "KINDNESS AND TRUTH", 
+	en_title: "Kindness and Truth", 
 	en_content: "Do not let kindness and truth leave you;
 Bind them around your neck,
 Write them on the tablet of your heart.

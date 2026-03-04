@@ -1,20 +1,20 @@
 ---
 type: THOUGHT
-name: "\"thought.THE_REAL_YOU\""
+name: "thought.THE REAL YOU"
 alias: "Thought: The Real You"
-parent: "\"topic.GRACE\""
+parent: "topic.GRACE"
 en_content: |
   Dear Christian: your earthly self is just an avatar.
   Your Real Self is hid with Christ in GOD; that’s why Jesus MUST return: so that you (and everyone else) can behold who you really are! 
   Colossians 3:1-4
 tags: ["identity", "self_image", "image_of_god", "christian", "jesus_christ"]
-ptopic: "\"[[topic-GRACE]]\""
+ptopic: "[[topic-GRACE]]"
 level: 3
 neo4j: true
 ---
 ```Cypher
 CREATE (t:THOUGHT {
-    name: '"thought.THE_REAL_YOU"',
+    name: '"thought.THE REAL YOU"',
     alias: "Thought: The Real You",
     parent: '"topic.GRACE"',
     tags: ["identity", "self_image", "image_of_god", "christian", "jesus_christ"],
@@ -22,9 +22,9 @@ CREATE (t:THOUGHT {
 });
 
 CREATE (c:CONTENT {
-    name: "content.THE_REAL_YOU",
+    name: "content.THE REAL YOU",
     ctype: "THOUGHT",
-    en_title: "THE REAL YOU",
+    en_title: "The Real You",
     en_content: "Dear Christian: your earthly self is just an avatar.
 Your Real Self is hid with Christ in GOD; that’s why Jesus MUST return: so that you (and everyone else) can behold who you really are! 
 Colossians 3:1-4",
@@ -48,11 +48,11 @@ Colossiens 3:1-4",
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = '"thought.THE_REAL_YOU"' AND c.name = "content.THE_REAL_YOU"
-MERGE (t)-[:HAS_CONTENT {name: "edge.THE_REAL_YOU"}]->(c);
+WHERE t.name = '"thought.THE REAL YOU"' AND c.name = "content.THE REAL YOU"
+MERGE (t)-[:HAS_CONTENT {name: "edge.THE REAL YOU"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = '"topic.GRACE"' AND child.name = '"thought.THE_REAL_YOU"'
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.GRACE->THE_REAL_YOU"}]->(child);
+WHERE parent.name = '"topic.GRACE"' AND child.name = '"thought.THE REAL YOU"'
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.GRACE->THE REAL YOU"}]->(child);
 ```

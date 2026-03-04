@@ -21,7 +21,7 @@ CREATE (t:TOPIC
 // create multi-lingual description		
 CREATE (d:DESCRIPTION {
 	name: "desc.FAITHFULNESS", 
-	en_title: "FAITHFULNESS", 
+	en_title: "Faithfulness", 
 	en_content: "Adherence to something to which one is bound by a pledge or duty.", 
 	es_title: "FIDELIDAD", 
 	es_content: "Adherencia a algo a lo que uno está obligado por una promesa o deber.", 

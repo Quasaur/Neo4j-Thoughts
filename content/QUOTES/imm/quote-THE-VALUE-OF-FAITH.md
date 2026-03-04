@@ -1,7 +1,7 @@
 ---
 type: QUOTE
-name: "quote.THE_VALUE_OF_FAITH"
-alias: "Quote: Quote: THE VALUE OF FAITH"
+name: "quote.THE VALUE OF FAITH"
+alias: "Quote: The Value of Faith"
 parent: "topic.FAITH"
 en_content: "Faith is only as potent and valuable (or, only as REAL) as the idea, object or person in/upon which that faith is placed.",
  es_title: "Cita: EL VALOR DE LA FE",
@@ -20,8 +20,8 @@ level: 4
 ```Cypher
 // CREATE QUOTE
 CREATE (q:QUOTE {
-    name: "quote.THE_VALUE_OF_FAITH",
-    alias: "Quote: Quote: THE VALUE OF FAITH",
+    name: "quote.THE VALUE OF FAITH",
+    alias: "Quote: The Value of Faith",
     parent: "topic.FAITH",
     tags: ["faith", "value", "worth", "target", "object"],
     source: "'IMMMUNITY to the Lake of Fire: A No-Nonsense Guide'",
@@ -31,9 +31,9 @@ CREATE (q:QUOTE {
 
 // CREATE CONTENT
 CREATE (c:CONTENT {
-    name: "content.THE_VALUE_OF_FAITH",
+    name: "content.THE VALUE OF FAITH",
     ctype: "QUOTE",
-    en_title: "Quote: THE VALUE OF FAITH",
+    en_title: "The Value of Faith",
     en_content: "Faith is only as potent and valuable (or, only as REAL) as the idea, object or person in/upon which that faith is placed.",
  es_title: "Cita: EL VALOR DE LA FE",
  es_content: "La fe es tan potente y valiosa (o tan REAL) como la idea, el objeto o la persona en la que se deposita esa fe.",
@@ -46,13 +46,13 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (q:QUOTE {name: "quote.THE_VALUE_OF_FAITH"})
-MATCH (c:CONTENT {name: "content.THE_VALUE_OF_FAITH"})
-MERGE (q)-[:HAS_CONTENT {name: "q.edge.THE_VALUE_OF_FAITH"}]->(c);
+MATCH (q:QUOTE {name: "quote.THE VALUE OF FAITH"})
+MATCH (c:CONTENT {name: "content.THE VALUE OF FAITH"})
+MERGE (q)-[:HAS_CONTENT {name: "q.edge.THE VALUE OF FAITH"}]->(c);
 
 // LINK PARENT
 MATCH (parent:TOPIC {name: "topic.FAITH"})
-MATCH (child:QUOTE {name: "quote.THE_VALUE_OF_FAITH"})
-MERGE (parent)-[:HAS_QUOTE {name: "q.edge.FAITH->THE_VALUE_OF_FAITH"}]->(child);
+MATCH (child:QUOTE {name: "quote.THE VALUE OF FAITH"})
+MERGE (parent)-[:HAS_QUOTE {name: "q.edge.FAITH->THE VALUE OF FAITH"}]->(child);
 
 ```

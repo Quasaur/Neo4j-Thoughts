@@ -23,7 +23,7 @@ CREATE (t:TOPIC {
 // CREATE DESCRIPTION
 CREATE (d:DESCRIPTION {
     name: "desc.ECONOMICS",
-    en_title: "ECONOMICS",
+    en_title: "Economics",
     en_content: "Social science concerned chiefly with description and analysis of the production, distribution, and consumption of goods and services.",
     es_title: "ECONOMÍA",
     es_content: "Ciencia social preocupada principalmente por la descripción y el análisis de la producción, distribución y consumo de bienes y servicios.",

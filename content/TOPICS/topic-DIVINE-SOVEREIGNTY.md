@@ -21,7 +21,7 @@ CREATE (t:TOPIC
 // create multi-lingual description		
 CREATE (d:DESCRIPTION {
 	name: "desc.DIVINE SOVEREIGNTY", 
-	en_title: "DIVINE SOVEREIGNTY", 
+	en_title: "Divine Sovereignty", 
 	en_content: "The theological concept that God has absolute control over all things, meaning everything that happens in the universe occurs according to His plan and will, signifying His supreme authority and power over creation; essentially, God is the ultimate ruler with complete dominion over all aspects of existence.", 
 	es_title: "SOBERANÍA DIVINA", 
 	es_content: "El concepto teológico de que Dios tiene control absoluto sobre todas las cosas, lo que significa que todo lo que sucede en el universo ocurre según su plan y voluntad, lo que significa su suprema autoridad y poder sobre la creación; esencialmente, Dios es el gobernante supremo con dominio completo sobre todos los aspectos de la existencia.", 

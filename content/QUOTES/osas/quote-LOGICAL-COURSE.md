@@ -1,7 +1,7 @@
 ---
 type: QUOTE
-name: "quote.LOGICAL_COURSE"
-alias: "Quote: Quote: LOGICAL COURSE"
+name: "quote.LOGICAL COURSE"
+alias: "Quote: Logical Course"
 parent: "topic.FAITH"
 en_content: "The logical course of action for an ignorant creature (and all creatures are ignorant to varying degrees) is to place its total faith in its Creator Who knows and understands all.",
  es_title: "Cita: CURSO LÓGICO",
@@ -21,8 +21,8 @@ neo4j: true
 ```Cypher
 // CREATE QUOTE
 CREATE (q:QUOTE {
-    name: "quote.LOGICAL_COURSE",
-    alias: "Quote: Quote: LOGICAL COURSE",
+    name: "quote.LOGICAL COURSE",
+    alias: "Quote: Logical Course",
     parent: "topic.FAITH",
     tags: ["logic", "action", "faith", "creator", "understanding"],
     source: "'Once Saved, Always Saved: The Assurance of Our Father's LOVE'",
@@ -32,9 +32,9 @@ CREATE (q:QUOTE {
 
 // CREATE CONTENT
 CREATE (c:CONTENT {
-    name: "content.LOGICAL_COURSE",
+    name: "content.LOGICAL COURSE",
     ctype: "QUOTE",
-    en_title: "Quote: LOGICAL COURSE",
+    en_title: "Logical Course",
     en_content: "The logical course of action for an ignorant creature (and all creatures are ignorant to varying degrees) is to place its total faith in its Creator Who knows and understands all.",
  es_title: "Cita: CURSO LÓGICO",
  es_content: "El curso de acción lógico para una criatura ignorante (y todas las criaturas son ignorantes en diversos grados) es depositar su fe total en su Creador, Quien lo sabe y lo comprende todo.",
@@ -47,13 +47,13 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (q:QUOTE {name: "quote.LOGICAL_COURSE"})
-MATCH (c:CONTENT {name: "content.LOGICAL_COURSE"})
-MERGE (q)-[:HAS_CONTENT {name: "q.edge.LOGICAL_COURSE"}]->(c);
+MATCH (q:QUOTE {name: "quote.LOGICAL COURSE"})
+MATCH (c:CONTENT {name: "content.LOGICAL COURSE"})
+MERGE (q)-[:HAS_CONTENT {name: "q.edge.LOGICAL COURSE"}]->(c);
 
 // LINK PARENT
 MATCH (parent:TOPIC {name: "topic.FAITH"})
-MATCH (child:QUOTE {name: "quote.LOGICAL_COURSE"})
-MERGE (parent)-[:HAS_QUOTE {name: "q.edge.FAITH->LOGICAL_COURSE"}]->(child);
+MATCH (child:QUOTE {name: "quote.LOGICAL COURSE"})
+MERGE (parent)-[:HAS_QUOTE {name: "q.edge.FAITH->LOGICAL COURSE"}]->(child);
 
 ```

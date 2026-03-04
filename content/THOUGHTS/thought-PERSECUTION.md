@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
 name: "thought.PERSECUTION"
-alias: "Thought: PERSECUTION"
+alias: "Thought: Persecution"
 parent: "topic.RELIGION"
 tags: ["persecution", "christianity", "original", "authentic", "jesus_christ"]
 ptopic: "[[topic-RELIGION]]"
@@ -12,7 +12,7 @@ neo4j: true
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.PERSECUTION",
-    alias: "Thought: PERSECUTION",
+    alias: "Thought: Persecution",
     parent: "topic.RELIGION",
     tags: ["persecution", "christianity", "original", "authentic", "jesus_christ"],
     level: 4
@@ -21,7 +21,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.PERSECUTION",
     ctype: "THOUGHT",
-    en_title: "PERSECUTION",
+    en_title: "Persecution",
  es_title: "PERSECUCIÓN",
  fr_title: "PERSÉCUTION",
  hi_title: "उत्पीड़न",

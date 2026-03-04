@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
-name: "thought.SOL_ROTATION"
-alias: "Thought: SOL ROTATION"
+name: "thought.SOL ROTATION"
+alias: "Thought: Sol Rotation"
 parent: "topic.CREATION"
 en_content: "Creation Wonder: A point at the Sun's equator takes 25 days to rotate, while points 15° from the sun's north and south poles take 34 days!"
 tags: ["sol", "sun", "star", "rotation", "axis"]
@@ -12,17 +12,17 @@ neo4j: true
 
 ```Cypher
 CREATE (t:THOUGHT {
-    name: "thought.SOL_ROTATION",
-    alias: "Thought: SOL ROTATION",
+    name: "thought.SOL ROTATION",
+    alias: "Thought: Sol Rotation",
     parent: "topic.CREATION",
     tags: ["sol", "sun", "star", "rotation", "axis"],
     level: 2
 });
 
 CREATE (c:CONTENT {
-    name: "content.SOL_ROTATION",
+    name: "content.SOL ROTATION",
     ctype: "THOUGHT",
-    en_title: "SOL ROTATION",
+    en_title: "Sol Rotation",
     en_content: "Creation Wonder: A point at the Sun's equator takes 25 days to rotate, while points 15° from the sun's north and south poles take 34 days!",
     es_title: "ROTACIÓN SOLAR",
     es_content: "Maravilla de la creación: un punto en el ecuador del Sol tarda 25 días en girar, mientras que los puntos a 15° de los polos norte y sur del Sol tardan 34 días.",
@@ -36,11 +36,11 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = "thought.SOL_ROTATION" AND c.name = "content.SOL_ROTATION"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.SOL_ROTATION"}]->(c);
+WHERE t.name = "thought.SOL ROTATION" AND c.name = "content.SOL ROTATION"
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.SOL ROTATION"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "topic.CREATION" AND child.name = "thought.SOL_ROTATION"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.CREATION->SOL_ROTATION"}]->(child);
+WHERE parent.name = "topic.CREATION" AND child.name = "thought.SOL ROTATION"
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.CREATION->SOL ROTATION"}]->(child);
 ```

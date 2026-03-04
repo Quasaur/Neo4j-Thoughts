@@ -1,7 +1,7 @@
 ---
 type: PASSAGE
-name: "passage.FATE_OF_THE_WICKED"
-alias: "Passage: FATE OF THE WICKED"
+name: "passage.FATE OF THE WICKED"
+alias: "Passage: Fate of the Wicked"
 parent: "topic.EVIL"
 en_content: "But the wicked will be eliminated from the land, And the treacherous will be torn away from it."
 tags: ["wicked", "eliminated", "treacherous", "torn", "land"]
@@ -13,8 +13,8 @@ neo4j: true
 ```Cypher
 // CREATE PASSAGE
 CREATE (b:PASSAGE {
-    name: "passage.FATE_OF_THE_WICKED",
-    alias: "Passage: FATE OF THE WICKED",
+    name: "passage.FATE OF THE WICKED",
+    alias: "Passage: Fate of the Wicked",
     parent: "topic.EVIL",
     tags: ["wicked", "eliminated", "treacherous", "torn", "land"],
     source: "'Proverbs 2:22'",
@@ -25,9 +25,9 @@ CREATE (b:PASSAGE {
 
 // CREATE CONTENT
 CREATE (c:CONTENT {
-    name: "content.FATE_OF_THE_WICKED",
+    name: "content.FATE OF THE WICKED",
     ctype: "PASSAGE",
-    en_title: "FATE OF THE WICKED",
+    en_title: "Fate of the Wicked",
     en_content: "But the wicked will be eliminated from the land, And the treacherous will be torn away from it.",
  es_title: "DESTINO DE LOS MALVADOS",
  es_content: "Pero los impíos serán eliminados de la tierra, y los traidores serán arrancados de ella.",
@@ -40,13 +40,13 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (b:PASSAGE {name: "passage.FATE_OF_THE_WICKED"})
-MATCH (c:CONTENT {name: "content.FATE_OF_THE_WICKED"})
-MERGE (b)-[:HAS_CONTENT {name: "p.edge.FATE_OF_THE_WICKED"}]->(c);
+MATCH (b:PASSAGE {name: "passage.FATE OF THE WICKED"})
+MATCH (c:CONTENT {name: "content.FATE OF THE WICKED"})
+MERGE (b)-[:HAS_CONTENT {name: "p.edge.FATE OF THE WICKED"}]->(c);
 
 // LINK PARENT
 MATCH (parent:TOPIC {name: "topic.EVIL"})
-MATCH (child:PASSAGE {name: "passage.FATE_OF_THE_WICKED"})
-MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.b.EVIL->FATE_OF_THE_WICKED"}]->(child);
+MATCH (child:PASSAGE {name: "passage.FATE OF THE WICKED"})
+MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.b.EVIL->FATE OF THE WICKED"}]->(child);
 
 ```

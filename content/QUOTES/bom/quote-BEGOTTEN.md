@@ -7,7 +7,7 @@ en_content: |
   PLEASE UNDERSTAND: the First Adam was CREATED; the Last Adam is BEGOTTEN!!!  
   That's why Jesus is called God's 'Only-Begotten' Son.
 tags: ["adam", "first", "last", "jesus_christ", "begotten"]
-ptopic: "\"[[topic-THE]]\""
+ptopic: "[[topic-THE]]"
 level: 2
 neo4j: true
 ---
@@ -26,7 +26,7 @@ CREATE (q:QUOTE {
 CREATE (c:CONTENT {
  name: "content.BEGOTTEN",
  ctype: "QUOTE",
- en_title: "BEGOTTEN", 
+ en_title: "Begotten", 
  en_content: "PLEASE UNDERSTAND: the First Adam was CREATED; the Last Adam is BEGOTTEN!!!  
 That's why Jesus is called God's 'Only-Begotten' Son.", 
  es_title: "Engendrado", 

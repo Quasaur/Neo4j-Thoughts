@@ -21,7 +21,7 @@ CREATE (t:TOPIC
 // create multi-lingual description		
 CREATE (d:DESCRIPTION {
 	name: "desc.HOLINESS", 
-	en_title: "HOLINESS", 
+	en_title: "Holiness", 
 	en_content: "The quality or state of being holy; a Being (God) Who is exalted and worthy of complete devotion as One perfect in goodness and righteousness; a human devoted entirely to the Deity or the Work of the Deity; having a Divine quality; that object which is venerated as sacred.", 
 	es_title: "SANTIDAD", 
 	es_content: "La cualidad o estado de ser santo; un Ser (Dios) que es exaltado y digno de completa devoción como Uno perfecto en bondad y rectitud; un ser humano dedicado enteramente a la Deidad o a la Obra de la Deidad; que tiene una cualidad Divina; aquel objeto que se venera como sagrado.", 

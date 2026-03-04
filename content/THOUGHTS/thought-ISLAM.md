@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
 name: "thought.ISLAM"
-alias: "Thought: ISLAM"
+alias: "Thought: Islam"
 parent: "topic.RELIGION"
 tags: ["islam", "religion", "antichrist", "demonic", "deception"]
 ptopic: "[[topic-RELIGION]]"
@@ -12,7 +12,7 @@ neo4j: true
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.ISLAM",
-    alias: "Thought: ISLAM",
+    alias: "Thought: Islam",
     parent: "topic.RELIGION",
     tags: ["islam", "religion", "antichrist", "demonic", "deception"],
     level: 4
@@ -21,7 +21,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.ISLAM",
     ctype: "THOUGHT",
-    en_title: "ISLAM",
+    en_title: "Islam",
  es_title: "ISLAM",
  fr_title: "ISLAM",
  hi_title: "इस्लाम",

@@ -1,21 +1,21 @@
 ---
 type: THOUGHT
-name: "\"thought.SHUT DOWN\""
-alias: "Thought: SHUT DOWN"
-parent: "\"topic.FREEDOM\""
+name: "thought.SHUT DOWN"
+alias: "Thought: Shut Down"
+parent: "topic.FREEDOM"
 en_content: |
   To the United States Congress:
   You can't shut down the porn industry, yet you can shut down my constitutional right to free expression on TikTok...
   ...you're FIRED.
 tags: ["free", "expression", "constitutiion", "rights", "tiktok"]
-ptopic: "\"[[topic-FREEDOM]]\""
+ptopic: "[[topic-FREEDOM]]"
 level: 5
 neo4j: true
 ---
 ```Cypher
 CREATE (t:THOUGHT {
     name: '"thought.SHUT DOWN"',
-    alias: "Thought: SHUT DOWN",
+    alias: "Thought: Shut Down",
     parent: '"topic.FREEDOM"',
     tags: ["free", "expression", "constitutiion", "rights", "tiktok"],
     level: 5
@@ -24,7 +24,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.SHUT DOWN",
     ctype: "THOUGHT",
-    en_title: "SHUT DOWN",
+    en_title: "Shut Down",
     en_content: "To the United States Congress:
 You can't shut down the porn industry, yet you can shut down my constitutional right to free expression on TikTok...
 ...you're FIRED.",
@@ -54,5 +54,5 @@ MERGE (t)-[:HAS_CONTENT {name: "edge.SHUT DOWN"}]->(c);
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
 WHERE parent.name = '"topic.FREEDOM"' AND child.name = '"thought.SHUT DOWN"'
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.FREEDOM->SHUT_DOWN"}]->(child);
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.FREEDOM->SHUT DOWN"}]->(child);
 ```

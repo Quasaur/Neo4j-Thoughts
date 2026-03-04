@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
-name: "thought.HUMAN_LAW"
-alias: "Thought: HUMAN LAW"
+name: "thought.HUMAN LAW"
+alias: "Thought: Human Law"
 parent: "topic.LAW"
 en_content: "Without accountability, there is no foundation for human law or human hope."
 tags: ["humanity", "god", "accountable", "law", "hope"]
@@ -12,17 +12,17 @@ neo4j: true
 
 ```Cypher
 CREATE (t:THOUGHT {
-    name: "thought.HUMAN_LAW",
-    alias: "Thought: HUMAN LAW",
+    name: "thought.HUMAN LAW",
+    alias: "Thought: Human Law",
     parent: "topic.LAW",
     tags: ["humanity", "god", "accountable", "law", "hope"],
     level: 4
 });
 
 CREATE (c:CONTENT {
-    name: "content.HUMAN_LAW",
+    name: "content.HUMAN LAW",
     ctype: "THOUGHT",
-    en_title: "HUMAN LAW",
+    en_title: "Human Law",
     en_content: "Without accountability, there is no foundation for human law or human hope.",
     es_title: "LEY HUMANA",
     es_content: "Sin rendición de cuentas, no hay fundamento para la ley humana ni para la esperanza humana.",
@@ -36,11 +36,11 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = "thought.HUMAN_LAW" AND c.name = "content.HUMAN_LAW"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.HUMAN_LAW"}]->(c);
+WHERE t.name = "thought.HUMAN LAW" AND c.name = "content.HUMAN LAW"
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.HUMAN LAW"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "topic.LAW" AND child.name = "thought.HUMAN_LAW"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.LAW->HUMAN_LAW"}]->(child);
+WHERE parent.name = "topic.LAW" AND child.name = "thought.HUMAN LAW"
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.LAW->HUMAN LAW"}]->(child);
 ```

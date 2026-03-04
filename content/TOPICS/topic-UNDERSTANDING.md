@@ -21,7 +21,7 @@ CREATE (t:TOPIC
 // create multi-lingual description		
 CREATE (d:DESCRIPTION {
 	name: "desc.UNDERSTANDING", 
-	en_title: "UNDERSTANDING", 
+	en_title: "Understanding", 
 	en_content: "A mental grasp of truth or an agreement between individuals or groups.", 
 	es_title: "Comprensión", 
 	es_content: "Una comprensión mental de la verdad o un acuerdo entre individuos o grupos.", 

@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
 name: "thought.FULLNESS"
-alias: "Thought: FULLNESS"
+alias: "Thought: Fullness"
 parent: "topic.GRACE"
 tags: ["spirituality", "fullness", "overflow", "immunity", "life"]
 ptopic: "[[topic-GRACE]]"
@@ -12,7 +12,7 @@ neo4j: true
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.FULLNESS",
-    alias: "Thought: FULLNESS",
+    alias: "Thought: Fullness",
     parent: "topic.GRACE",
     tags: ["spirituality", "fullness", "overflow", "immunity", "life"],
     level: 3
@@ -21,7 +21,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.FULLNESS",
     ctype: "THOUGHT",
-    en_title: "FULLNESS",
+    en_title: "Fullness",
  es_title: "PLENITUD",
  fr_title: "PLÉNITUDE",
  hi_title: "परिपूर्णता",

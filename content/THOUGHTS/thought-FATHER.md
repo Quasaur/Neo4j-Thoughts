@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
 name: "thought.FATHER"
-alias: "Thought: FATHER"
+alias: "Thought: Father"
 parent: "topic.GRACE"
 tags: ["father", "flesh", "spirit", "knowledgeimmortality"]
 ptopic: "[[topic-GRACE]]"
@@ -12,7 +12,7 @@ neo4j: true
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.FATHER",
-    alias: "Thought: FATHER",
+    alias: "Thought: Father",
     parent: "topic.GRACE",
     tags: ["father", "flesh", "spirit", "knowledgeimmortality"],
     level: 3
@@ -21,7 +21,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.FATHER",
     ctype: "THOUGHT",
-    en_title: "FATHER",
+    en_title: "Father",
     en_content: "I never got to know the father of my flesh; yet perhaps the greater tragedy is not getting to know the Father of my spirit.",
  es_title: "PADRE",
  es_content: "Nunca llegué a conocer al padre de mi carne; sin embargo, tal vez la mayor tragedia sea no conocer al Padre de mi espíritu.",

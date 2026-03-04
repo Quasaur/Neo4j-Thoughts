@@ -1,6 +1,6 @@
 ---
 type: THOUGHT
-name: "thought.ANOTHER_SINNER"
+name: "thought.ANOTHER SINNER"
 alias: "Thought: Another Sinner"
 parent: "topic.EVIL"
 en_content: "Satan is just another sinner."
@@ -12,7 +12,7 @@ neo4j: true
 
 ```Cypher
 CREATE (t:THOUGHT {
-    name: "thought.ANOTHER_SINNER",
+    name: "thought.ANOTHER SINNER",
     alias: "Thought: Another Sinner",
     parent: "topic.EVIL",
     tags: ["satan", "sinner", "inferior", "god", "christ"],
@@ -20,7 +20,7 @@ CREATE (t:THOUGHT {
 });
 
 CREATE (c:CONTENT {
-    name: "content.ANOTHER_SINNER",
+    name: "content.ANOTHER SINNER",
     ctype: "THOUGHT",
     en_title: "Another Sinner",
     en_content: "Satan is just another sinner.",
@@ -36,11 +36,11 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = "thought.ANOTHER_SINNER" AND c.name = "content.ANOTHER_SINNER"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.ANOTHER_SINNER"}]->(c);
+WHERE t.name = "thought.ANOTHER SINNER" AND c.name = "content.ANOTHER SINNER"
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.ANOTHER SINNER"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "topic.EVIL" AND child.name = "thought.ANOTHER_SINNER"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.EVIL->ANOTHER_SINNER"}]->(child);
+WHERE parent.name = "topic.EVIL" AND child.name = "thought.ANOTHER SINNER"
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.EVIL->ANOTHER SINNER"}]->(child);
 ```

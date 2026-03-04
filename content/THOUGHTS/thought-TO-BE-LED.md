@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
-name: "thought.TO_BE_LED"
-alias: "Thought: TO BE LED"
+name: "thought.TO BE LED"
+alias: "Thought: To Be Led"
 parent: "topic.GRACE"
 tags: ["led", "follow", "leadership", "holy_spirit", "travel"]
 ptopic: "[[topic-GRACE]]"
@@ -11,17 +11,17 @@ neo4j: true
 
 ```Cypher
 CREATE (t:THOUGHT {
-    name: "thought.TO_BE_LED",
-    alias: "Thought: TO BE LED",
+    name: "thought.TO BE LED",
+    alias: "Thought: To Be Led",
     parent: "topic.GRACE",
     tags: ["led", "follow", "leadership", "holy_spirit", "travel"],
     level: 3
 });
 
 CREATE (c:CONTENT {
-    name: "content.TO_BE_LED",
+    name: "content.TO BE LED",
     ctype: "THOUGHT",
-    en_title: "TO BE LED",
+    en_title: "To Be Led",
  es_title: "SER LED",
  fr_title: "A LED",
  hi_title: "द्वारा नेतृत्व",
@@ -35,11 +35,11 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = "thought.TO_BE_LED" AND c.name = "content.TO_BE_LED"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.TO_BE_LED"}]->(c);
+WHERE t.name = "thought.TO BE LED" AND c.name = "content.TO BE LED"
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.TO BE LED"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "topic.GRACE" AND child.name = "thought.TO_BE_LED"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.GRACE->TO_BE_LED"}]->(child);
+WHERE parent.name = "topic.GRACE" AND child.name = "thought.TO BE LED"
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.GRACE->TO BE LED"}]->(child);
 ```

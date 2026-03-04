@@ -5,7 +5,7 @@ alias: "Topic: The Science of Mind and Behavior"
 parent: "topic.HUMANITY"
 en_content: "The study of mind and behavior in relation to a particular field of knowledge or activity."
 tags: ["soul", "psyche", "mind", "awareness", "consciousness"]
-ptopic: "\"[[topic-HUMANITY]]\""
+ptopic: "[[topic-HUMANITY]]"
 level: 4
 neo4j: true
 ---
@@ -26,7 +26,7 @@ CREATE (t:TOPIC
 // create multi-lingual description		
 CREATE (d:DESCRIPTION {
 	name: "desc.PSYCHOLOGY", 
-	en_title: "PSYCHOLOGY", 
+	en_title: "Psychology", 
 	en_content: "The study of mind and behavior in relation to a particular field of knowledge or activity.", 
 	es_title: "Psicología", 
 	es_content: "El estudio de la mente y el comportamiento en relación con un campo particular de conocimiento o actividad.", 

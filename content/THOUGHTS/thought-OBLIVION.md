@@ -1,20 +1,20 @@
 ---
 type: THOUGHT
-name: "\"thought.OBLIVION\""
-alias: "Thought: OBLIVION"
-parent: "\"topic.HISTORY\""
+name: "thought.OBLIVION"
+alias: "Thought: Oblivion"
+parent: "topic.HISTORY"
 en_content: |
   # OBLIVION
   The Lord Jesus said that humanity would be driven to the edge of extinction before He returns…and Jesus never lies."
 tags: ["apocalypse", "ele", "extinction", "oblivion", "thelastday"]
-ptopic: "\"[[topic-HISTORY]]\""
+ptopic: "[[topic-HISTORY]]"
 level: 4
 neo4j: true
 ---
 ```Cypher
 CREATE (t:THOUGHT {
     name: '"thought.OBLIVION"',
-    alias: "Thought: OBLIVION",
+    alias: "Thought: Oblivion",
     parent: '"topic.HISTORY"',
     tags: ["apocalypse", "ele", "extinction", "oblivion", "thelastday"],
     level: 4
@@ -23,7 +23,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.OBLIVION",
     ctype: "THOUGHT",
-    en_title: "OBLIVION",
+    en_title: "Oblivion",
  es_title: "OLVIDO",
  fr_title: "OUBLI",
  hi_title: "विस्मरण",

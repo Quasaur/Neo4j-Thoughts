@@ -1,7 +1,7 @@
 ---
 type: PASSAGE
-name: "passage.TRUST_THE_LORD"
-alias: "Passage: TRUST THE LORD"
+name: "passage.TRUST THE LORD"
+alias: "Passage: Trust the Lord"
 parent: "topic.FAITH"
 en_content: "Trust in the LORD with all your heart And do not lean on your own understanding. In all your ways acknowledge Him, And He will make your paths straight."
 tags: ["trust", "faith", "self_doubt", "acknowledge", "promise"]
@@ -13,8 +13,8 @@ neo4j: true
 ```Cypher
 // CREATE PASSAGE
 CREATE (b:PASSAGE {
-    name: "passage.TRUST_THE_LORD",
-    alias: "Passage: TRUST THE LORD",
+    name: "passage.TRUST THE LORD",
+    alias: "Passage: Trust the Lord",
     parent: "topic.FAITH",
     tags: ["trust", "faith", "self_doubt", "acknowledge", "promise"],
     source: "'Proverbs 3:5,6'",
@@ -25,13 +25,13 @@ CREATE (b:PASSAGE {
 
 // CREATE CONTENT
 CREATE (c:CONTENT {
-    name: "content.TRUST_THE_LORD",
+    name: "content.TRUST THE LORD",
     ctype: "PASSAGE",
     en_title: "'Passage: TRUST THE LORD'",
     en_content: "Trust in the LORD with all your heart And do not lean on your own understanding. In all your ways acknowledge Him, And He will make your paths straight.",
  es_title: "'Pasaje: CONFÍA EN EL SEÑOR'",
  es_content: "Confía en Jehová con todo tu corazón y no te apoyes en tu propia prudencia. Reconócelo en todos tus caminos, y él enderezará tus veredas.",
- fr_title: "\"Passage : FAITES CONFIANCE AU SEIGNEUR\"",
+ fr_title: "Passage : FAITES CONFIANCE AU SEIGNEUR",
  fr_content: "Confie-toi à l'Éternel de tout ton cœur, et ne t'appuie pas sur ta propre intelligence. Dans toutes vos voies, reconnaissez-le, et il aplanira vos sentiers.",
  hi_title: "'मार्ग: प्रभु पर भरोसा रखें'",
  hi_content: "पूरे दिल से यहोवा पर भरोसा रखो और अपनी समझ का सहारा मत लो। अपने सभी मार्गों में उसे स्वीकार करो, और वह तुम्हारे लिए मार्ग सीधा करेगा।",
@@ -40,13 +40,13 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (b:PASSAGE {name: "passage.TRUST_THE_LORD"})
-MATCH (c:CONTENT {name: "content.TRUST_THE_LORD"})
-MERGE (b)-[:HAS_CONTENT {name: "p.edge.TRUST_THE_LORD"}]->(c);
+MATCH (b:PASSAGE {name: "passage.TRUST THE LORD"})
+MATCH (c:CONTENT {name: "content.TRUST THE LORD"})
+MERGE (b)-[:HAS_CONTENT {name: "p.edge.TRUST THE LORD"}]->(c);
 
 // LINK PARENT
 MATCH (parent:TOPIC {name: "topic.FAITH"})
-MATCH (child:PASSAGE {name: "passage.TRUST_THE_LORD"})
-MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.b.FAITH->TRUST_THE_LORD"}]->(child);
+MATCH (child:PASSAGE {name: "passage.TRUST THE LORD"})
+MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.b.FAITH->TRUST THE LORD"}]->(child);
 
 ```

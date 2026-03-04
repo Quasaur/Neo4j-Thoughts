@@ -1,7 +1,7 @@
 ---
 type: QUOTE
 name: "quote.JUSTIFICATION"
-alias: "Quote: Quote: JUSTIFICATION"
+alias: "Quote: Justification"
 parent: "topic.GRACE"
 en_content: "Oh My GOD! GOD is justifying the ungodly: that is, He is DECLARING THE UNGODLY LEGALLY JUST for Christ's Sake!! This has nothing to do with feelings, but WHAT YOU BELIEVE IN YOUR HEART!!! If you believe in your heart that what was done to Christ in the garden, in the Sanhedrin, before Herod, before Pilate, in the Praetorium and on the Cross was done for YOU, GOD considers you as just as Christ is EVEN THOUGH YOU ARE NOT!!!",
  es_title: "Cita: JUSTIFICACIÓN",
@@ -22,7 +22,7 @@ neo4j: true
 // CREATE QUOTE
 CREATE (q:QUOTE {
     name: "quote.JUSTIFICATION",
-    alias: "Quote: Quote: JUSTIFICATION",
+    alias: "Quote: Justification",
     parent: "topic.GRACE",
     tags: ["just", "legal", "grace", "jesus_christ", "adquited"],
     source: "'The Narrow Way'",
@@ -34,7 +34,7 @@ CREATE (q:QUOTE {
 CREATE (c:CONTENT {
     name: "content.JUSTIFICATION",
     ctype: "QUOTE",
-    en_title: "Quote: JUSTIFICATION",
+    en_title: "Justification",
     en_content: "Oh My GOD! GOD is justifying the ungodly: that is, He is DECLARING THE UNGODLY LEGALLY JUST for Christ's Sake!! This has nothing to do with feelings, but WHAT YOU BELIEVE IN YOUR HEART!!! If you believe in your heart that what was done to Christ in the garden, in the Sanhedrin, before Herod, before Pilate, in the Praetorium and on the Cross was done for YOU, GOD considers you as just as Christ is EVEN THOUGH YOU ARE NOT!!!",
  es_title: "Cita: JUSTIFICACIÓN",
  es_content: "¡Ay dios mío! ¡¡DIOS está justificando a los impíos: es decir, Él está DECLARANDO A LOS IMPÍOS LEGALMENTE JUSTOS por amor de Cristo!! Esto no tiene que ver con sentimientos, sino con LO QUE CREES EN TU CORAZÓN!!! Si crees en tu corazón que lo que le fue hecho a Cristo en el huerto, en el Sanedrín, ante Herodes, ante Pilato, en el Pretorio y en la Cruz, fue hecho por TI, DIOS te considera tan justo como Cristo AUNQUE NO LO SEAS!!!",

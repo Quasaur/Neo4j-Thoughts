@@ -23,7 +23,7 @@ CREATE (t:TOPIC {
 // CREATE DESCRIPTION
 CREATE (d:DESCRIPTION {
     name: "desc.PHILOSOPHY",
-    en_title: "PHILOSOPHY",
+    en_title: "Philosophy",
     en_content: "A foundational discipline within the Humanities. It explores fundamental questions about existence, knowledge, values, reason, mind, and language. As such, it provides a framework for understanding other humanities fields like literature, history, art, and religion. While philosophy can be considered a standalone discipline, it also intersects and informs many other areas of study within the humanities.",
     es_title: "FILOSOFÍA",
     es_content: "Disciplina fundamental dentro de las humanidades. Explora cuestiones fundamentales sobre la existencia, el conocimiento, los valores, la razón, la mente y el lenguaje. Como tal, proporciona un marco para comprender otros campos de las humanidades, como la literatura, la historia, el arte y la religión. Si bien la filosofía puede considerarse una disciplina independiente, también se relaciona con muchas otras áreas de estudio dentro de las humanidades y las orienta.",

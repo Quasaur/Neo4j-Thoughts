@@ -1,21 +1,21 @@
 ---
 type: PASSAGE
-name: "\"passage.INHERITED HONOR\""
-alias: "Passage: HONOR AND DISGRACE"
-parent: "\"topic.WISDOM\""
+name: "passage.INHERITED HONOR"
+alias: "Passage: Honor and Disgrace"
+parent: "topic.WISDOM"
 en_content: |
   The wise will inherit honor,
       but fools get disgrace."
 tags: ["wise", "inherit", "honor", "fools", "disgrace"]
-ptopic: "\"[[topic-WISDOM]]\""
+ptopic: "[[topic-WISDOM]]"
 level: 3
 neo4j: true
 ---
 ```Cypher
 //create the Passage with the same fields as a normal thought
-CREATE (p:PASSAGE {	    name: "\"passage.INHERITED HONOR\"",
-		alias: "Passage: HONOR AND DISGRACE", 
-		parent: "\"topic.WISDOM\"", 
+CREATE (p:PASSAGE {	    name: "passage.INHERITED HONOR",
+		alias: "Passage: Honor and Disgrace", 
+		parent: "topic.WISDOM", 
 		tags: ["wise", "inherit", "honor", "fools", "disgrace"], 
 		source: "Proverbs 3:35",
 		sortedsource: "Proverbs 03:35",
@@ -25,7 +25,7 @@ CREATE (p:PASSAGE {	    name: "\"passage.INHERITED HONOR\"",
 CREATE (c:CONTENT {
 	name: "content.INHERITED HONOR",
 	ctype: "PASSAGE",
-	en_title: "INHERITED HONOR", 
+	en_title: "Inherited Honor", 
 	en_content: "The wise will inherit honor,  
     but fools get disgrace.", 
 	es_title: "Honor Heredado", 

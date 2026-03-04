@@ -1,7 +1,7 @@
 ---
 type: QUOTE
-name: "quote.POLITICAL_CHRIST"
-alias: "Quote: Quote: POLITICAL CHRIST"
+name: "quote.POLITICAL CHRIST"
+alias: "Quote: Political Christ"
 parent: "topic.POLITICAL-SCIENCE"
 en_content: "I state that not only is Jesus' Authority spiritual, but political and economic as well.",
  es_title: "Cita: CRISTO POLÍTICO",
@@ -21,8 +21,8 @@ neo4j: true
 ```Cypher
 // CREATE QUOTE
 CREATE (q:QUOTE {
-    name: "quote.POLITICAL_CHRIST",
-    alias: "Quote: Quote: POLITICAL CHRIST",
+    name: "quote.POLITICAL CHRIST",
+    alias: "Quote: Political Christ",
     parent: "topic.POLITICAL-SCIENCE",
     tags: ["jesus_christ", "authority", "political", "spiritual", "economical"],
     source: "'The Traveler's Oasis, Book Three'",
@@ -32,9 +32,9 @@ CREATE (q:QUOTE {
 
 // CREATE CONTENT
 CREATE (c:CONTENT {
-    name: "content.POLITICAL_CHRIST",
+    name: "content.POLITICAL CHRIST",
     ctype: "QUOTE",
-    en_title: "Quote: POLITICAL CHRIST",
+    en_title: "Political Christ",
     en_content: "I state that not only is Jesus' Authority spiritual, but political and economic as well.",
  es_title: "Cita: CRISTO POLÍTICO",
  es_content: "Afirmo que la Autoridad de Jesús no sólo es espiritual, sino también política y económica.",
@@ -47,13 +47,13 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (q:QUOTE {name: "quote.POLITICAL_CHRIST"})
-MATCH (c:CONTENT {name: "content.POLITICAL_CHRIST"})
-MERGE (q)-[:HAS_CONTENT {name: "q.edge.POLITICAL_CHRIST"}]->(c);
+MATCH (q:QUOTE {name: "quote.POLITICAL CHRIST"})
+MATCH (c:CONTENT {name: "content.POLITICAL CHRIST"})
+MERGE (q)-[:HAS_CONTENT {name: "q.edge.POLITICAL CHRIST"}]->(c);
 
 // LINK PARENT
 MATCH (parent:TOPIC {name: "topic.POLITICAL-SCIENCE"})
-MATCH (child:QUOTE {name: "quote.POLITICAL_CHRIST"})
-MERGE (parent)-[:HAS_QUOTE {name: "q.edge.POLITICAL-SCIENCE->POLITICAL_CHRIST"}]->(child);
+MATCH (child:QUOTE {name: "quote.POLITICAL CHRIST"})
+MERGE (parent)-[:HAS_QUOTE {name: "q.edge.POLITICAL-SCIENCE->POLITICAL CHRIST"}]->(child);
 
 ```

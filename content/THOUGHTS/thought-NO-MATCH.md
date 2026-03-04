@@ -1,8 +1,8 @@
 ---
 type: THOUGHT
-name: "\"thought.NO_MATCH\""
-alias: "Thought: NO MATCH"
-parent: "\"topic.BEAUTY\""
+name: "thought.NO MATCH"
+alias: "Thought: No Match"
+parent: "topic.BEAUTY"
 en_content: |
   # Thought: NO MATCH
   [!Thought-en]
@@ -20,23 +20,23 @@ en_content: |
   [!思考-zh]
   世上最美丽的人也比不上天堂里最丑陋的人。
 tags: ["evolution", "science", "religion", "evidence", "faith"]
-ptopic: "\"[[topic-BEAUTY]]\""
+ptopic: "[[topic-BEAUTY]]"
 level: 5
 neo4j: true
 ---
 ```Cypher
 CREATE (t:THOUGHT {
-    name: "\"thought.NO_MATCH\"",
-    alias: "Thought: NO MATCH",
-    parent: "\"topic.BEAUTY\"",
+    name: "thought.NO MATCH",
+    alias: "Thought: No Match",
+    parent: "topic.BEAUTY",
     tags: ["evolution", "science", "religion", "evidence", "faith"],
     level: 5
 });
 
 CREATE (c:CONTENT {
-    name: "content.NO_MATCH",
+    name: "content.NO MATCH",
     ctype: "THOUGHT",
-    en_title: "NO MATCH",
+    en_title: "No Match",
     en_content: "# Thought: NO MATCH
 [!Thought-en]
 The Most Beautiful Person on Earth is NO MATCH for the Ugliest Person in Heaven.
@@ -120,11 +120,11 @@ La personne la plus belle sur Terre n’est PAS à la hauteur de la personne la 
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = "\"thought.NO_MATCH\"" AND c.name = "content.NO_MATCH"
-MERGE (t)-[:HAS_CONTENT {name: "edge.NO_MATCH"}]->(c);
+WHERE t.name = "thought.NO MATCH" AND c.name = "content.NO MATCH"
+MERGE (t)-[:HAS_CONTENT {name: "edge.NO MATCH"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "\"topic.BEAUTY\"" AND child.name = "\"thought.NO_MATCH\""
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.BEAUTY->NO_MATCH"}]->(child);
+WHERE parent.name = "topic.BEAUTY" AND child.name = "thought.NO MATCH"
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.BEAUTY->NO MATCH"}]->(child);
 ```

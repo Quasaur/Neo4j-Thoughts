@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
 name: "thought.SPIRIT"
-alias: "Thought: SPIRIT"
+alias: "Thought: Spirit"
 parent: "topic.SPIRITS"
 tags: ["holy_spirit", "spirit_of_christ", "spirit_of_truth", "spirit_of_grace", "jesus_christ"]
 ptopic: "[[topic-SPIRITS]]"
@@ -12,7 +12,7 @@ neo4j: true
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.SPIRIT",
-    alias: "Thought: SPIRIT",
+    alias: "Thought: Spirit",
     parent: "topic.SPIRITS",
     tags: ["holy_spirit", "spirit_of_christ", "spirit_of_truth", "spirit_of_grace", "jesus_christ"],
     level: 3
@@ -21,7 +21,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.SPIRIT",
     ctype: "THOUGHT",
-    en_title: "SPIRIT",
+    en_title: "Spirit",
  es_title: "ESPÍRITU",
  fr_title: "ESPRIT",
  hi_title: "आत्मा",

@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
-name: "thought.NOT_LIKE_ME"
-alias: "Thought: NOT-LIKE-ME"
+name: "thought.NOT LIKE ME"
+alias: "Thought: Not-like-me"
 parent: "topic.MERCY"
 en_content: "I was wrong about God; He's not in any way near as vindictive, judgmental or self-righteous as I am."
 tags: ["idolatry", "divine", "superior", "fruit_of_the_spirit", "grace"]
@@ -12,17 +12,17 @@ neo4j: true
 
 ```Cypher
 CREATE (t:THOUGHT {
-    name: "thought.NOT_LIKE_ME",
-    alias: "Thought: NOT-LIKE-ME",
+    name: "thought.NOT LIKE ME",
+    alias: "Thought: Not-like-me",
     parent: "topic.MERCY",
     tags: ["idolatry", "divine", "superior", "fruit_of_the_spirit", "grace"],
     level: 5
 });
 
 CREATE (c:CONTENT {
-    name: "content.NOT_LIKE_ME",
+    name: "content.NOT LIKE ME",
     ctype: "THOUGHT",
-    en_title: "NOT-LIKE-ME",
+    en_title: "Not-like-me",
     en_content: "I was wrong about God; He's not in any way near as vindictive, judgmental or self-righteous as I am.",
     es_title: "NO COMO YO",
     es_content: "Me equivoqué acerca de Dios; Él no es de ninguna manera tan vengativo, crítico o moralista como yo.",
@@ -36,11 +36,11 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = "thought.NOT_LIKE_ME" AND c.name = "content.NOT_LIKE_ME"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.NOT_LIKE_ME"}]->(c);
+WHERE t.name = "thought.NOT LIKE ME" AND c.name = "content.NOT LIKE ME"
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.NOT LIKE ME"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "topic.MERCY" AND child.name = "thought.NOT_LIKE_ME"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.MERCY->NOT_LIKE_ME"}]->(child);
+WHERE parent.name = "topic.MERCY" AND child.name = "thought.NOT LIKE ME"
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.MERCY->NOT LIKE ME"}]->(child);
 ```

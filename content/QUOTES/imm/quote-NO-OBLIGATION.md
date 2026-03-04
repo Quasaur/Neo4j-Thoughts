@@ -1,7 +1,7 @@
 ---
 type: QUOTE
-name: "quote.NO_OBLIGATION"
-alias: "Quote: Quote: NO OBLIGATION"
+name: "quote.NO OBLIGATION"
+alias: "Quote: No Obligation"
 parent: "topic.MERCY"
 en_content: "GOD is under no obligation to be merciful to evil. Sinners are evil, and every human is a sinner. By the definitions of the terms “mercy” and “forgiveness,” these virtues can never be owed to the sinner. GOD would’ve been perfectly righteous and just to annihilate Adam and Eve before their offspring could permeate the surface of the Earth with the wretchedness and horror you see today. Even more so: GOD would’ve been just to shut Lucifer down before anyone else was affected."
  es_title: "Cotización: SIN COMPROMISO"
@@ -21,8 +21,8 @@ neo4j: true
 ```Cypher
 // CREATE QUOTE
 CREATE (q:QUOTE {
-    name: "quote.NO_OBLIGATION",
-    alias: "Quote: Quote: NO OBLIGATION",
+    name: "quote.NO OBLIGATION",
+    alias: "Quote: No Obligation",
     parent: "topic.MERCY",
     tags: ["god", "sovereignty", "unowed", "leniency", "evil"],
     source: "'IMMMUNITY to the Lake of Fire: A No-Nonsense Guide'",
@@ -32,9 +32,9 @@ CREATE (q:QUOTE {
 
 // CREATE CONTENT
 CREATE (c:CONTENT {
-    name: "content.NO_OBLIGATION",
+    name: "content.NO OBLIGATION",
     ctype: "QUOTE",
-    en_title: "Quote: NO OBLIGATION",
+    en_title: "No Obligation",
     en_content: "GOD is under no obligation to be merciful to evil. Sinners are evil, and every human is a sinner. By the definitions of the terms “mercy” and “forgiveness,” these virtues can never be owed to the sinner. GOD would’ve been perfectly righteous and just to annihilate Adam and Eve before their offspring could permeate the surface of the Earth with the wretchedness and horror you see today. Even more so: GOD would’ve been just to shut Lucifer down before anyone else was affected.",
  es_title: "Cotización: SIN COMPROMISO",
  es_content: "DIOS no tiene ninguna obligación de ser misericordioso con el mal. Los pecadores son malos y todo ser humano es un pecador. Según las definiciones de los términos “misericordia” y “perdón”, estas virtudes nunca se pueden deber al pecador. DIOS habría sido perfectamente recto y justo al aniquilar a Adán y Eva antes de que su descendencia pudiera impregnar la superficie de la Tierra con la miseria y el horror que vemos hoy. Aún más: DIOS habría sido justo si hubiera cerrado a Lucifer antes de que alguien más se viera afectado.",
@@ -47,12 +47,12 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (q:QUOTE {name: "quote.NO_OBLIGATION"})
-MATCH (c:CONTENT {name: "content.NO_OBLIGATION"})
-MERGE (q)-[:HAS_CONTENT {name: "q.edge.NO_OBLIGATION"}]->(c);
+MATCH (q:QUOTE {name: "quote.NO OBLIGATION"})
+MATCH (c:CONTENT {name: "content.NO OBLIGATION"})
+MERGE (q)-[:HAS_CONTENT {name: "q.edge.NO OBLIGATION"}]->(c);
 
 // LINK PARENT
 MATCH (parent:TOPIC {name: "topic.MERCY"})
-MATCH (child:QUOTE {name: "quote.NO_OBLIGATION"})
-MERGE (parent)-[:HAS_QUOTE {name: "q.edge.MERCY->NO_OBLIGATION"}]->(child);
+MATCH (child:QUOTE {name: "quote.NO OBLIGATION"})
+MERGE (parent)-[:HAS_QUOTE {name: "q.edge.MERCY->NO OBLIGATION"}]->(child);
 ```

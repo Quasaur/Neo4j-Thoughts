@@ -1,7 +1,7 @@
 ---
 type: PASSAGE
-name: "passage.DISCIPLINE_AND_REBUKE"
-alias: "Passage: DISCIPLINE AND REBUKE"
+name: "passage.DISCIPLINE AND REBUKE"
+alias: "Passage: Discipline and Rebuke"
 parent: "topic.HUMILITY"
 en_content: "My son, do not reject the discipline of the LORD Or loathe His rebuke, For whom the LORD loves He disciplines,"
 tags: ["humility", "discipline", "rebuke", "love", "delight"]
@@ -13,8 +13,8 @@ neo4j: true
 ```Cypher
 // CREATE PASSAGE
 CREATE (b:PASSAGE {
-    name: "passage.DISCIPLINE_AND_REBUKE",
-    alias: "Passage: DISCIPLINE AND REBUKE",
+    name: "passage.DISCIPLINE AND REBUKE",
+    alias: "Passage: Discipline and Rebuke",
     parent: "topic.HUMILITY",
     tags: ["humility", "discipline", "rebuke", "love", "delight"],
     source: "'Proverbs 3:11,12'",
@@ -25,9 +25,9 @@ CREATE (b:PASSAGE {
 
 // CREATE CONTENT
 CREATE (c:CONTENT {
-    name: "content.DISCIPLINE_AND_REBUKE",
+    name: "content.DISCIPLINE AND REBUKE",
     ctype: "PASSAGE",
-    en_title: "DISCIPLINE AND REBUKE",
+    en_title: "Discipline and Rebuke",
     en_content: "My son, do not reject the discipline of the LORD Or loathe His rebuke, For whom the LORD loves He disciplines,",
  es_title: "DISCIPLINA Y REPRODUCCIÓN",
  es_content: "Hijo mío, no rechaces la disciplina de Jehová ni detestes su reprensión; porque Jehová disciplina a quien ama.",
@@ -40,13 +40,13 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (b:PASSAGE {name: "passage.DISCIPLINE_AND_REBUKE"})
-MATCH (c:CONTENT {name: "content.DISCIPLINE_AND_REBUKE"})
-MERGE (b)-[:HAS_CONTENT {name: "p.edge.DISCIPLINE_AND_REBUKE"}]->(c);
+MATCH (b:PASSAGE {name: "passage.DISCIPLINE AND REBUKE"})
+MATCH (c:CONTENT {name: "content.DISCIPLINE AND REBUKE"})
+MERGE (b)-[:HAS_CONTENT {name: "p.edge.DISCIPLINE AND REBUKE"}]->(c);
 
 // LINK PARENT
 MATCH (parent:TOPIC {name: "topic.HUMILITY"})
-MATCH (child:PASSAGE {name: "passage.DISCIPLINE_AND_REBUKE"})
-MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.b.HUMILITY->DISCIPLINE_AND_REBUKE"}]->(child);
+MATCH (child:PASSAGE {name: "passage.DISCIPLINE AND REBUKE"})
+MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.b.HUMILITY->DISCIPLINE AND REBUKE"}]->(child);
 
 ```

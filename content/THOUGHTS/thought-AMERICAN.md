@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
 name: "thought.AMERICAN"
-alias: "Thought: AMERICAN"
+alias: "Thought: American"
 parent: "topic.POLITICAL-SCIENCE"
 tags: ["nationalism", "american", "addiction", "dependency", "codependency"]
 ptopic: "[[topic-POLITICAL-SCIENCE]]"
@@ -12,7 +12,7 @@ neo4j: true
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.AMERICAN",
-    alias: "Thought: AMERICAN",
+    alias: "Thought: American",
     parent: "topic.POLITICAL-SCIENCE",
     tags: ["nationalism", "american", "addiction", "dependency", "codependency"],
     level: 4
@@ -21,7 +21,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.AMERICAN",
     ctype: "THOUGHT",
-    en_title: "AMERICAN",
+    en_title: "American",
  es_title: "AMERICANO",
  fr_title: "AMÉRICAIN",
  hi_title: "अमेरिकी",

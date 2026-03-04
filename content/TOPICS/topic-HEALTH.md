@@ -23,7 +23,7 @@ CREATE (t:TOPIC {
 // CREATE DESCRIPTION
 CREATE (d:DESCRIPTION {
     name: "desc.HEALTH",
-    en_title: "HEALTH",
+    en_title: "Health",
     en_content: "The condition of being sound in body, mind, or spirit; freedom from physical disease or pain; the general condition of the body.",
     es_title: "SALUD",
     es_content: "La condición de estar sano de cuerpo, mente o espíritu; libertad de enfermedad física o dolor; la condición general del cuerpo.",

@@ -24,7 +24,7 @@ CREATE (p:PASSAGE {	    name: "passage.WHAT THE WISE DO",
 CREATE (c:CONTENT {
 	name: "content.WHAT THE WISE DO",
 	ctype: "PASSAGE",
-	en_title: "WHAT THE WISE DO", 
+	en_title: "What the Wise Do", 
 	en_content: "A wise person will hear and increase in learning, and a person of understanding will acquire wise counsel.", 
 	es_title: "Lo que hacen los sabios", 
 	es_content: "El sabio oirá y aumentará su conocimiento, y el entendido adquirirá consejo sabio.", 

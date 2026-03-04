@@ -5,7 +5,7 @@ alias: "Thought: Gift of Genius"
 parent: "topic.MUSIC"
 en_content: "Johann Sebastian Bach is one of those rare souls whose gifts transcend all genius!"
 tags: ["bach", "genius", "music", "gift", "transcendence"]
-ptopic: "\"[[topic-MUSIC]]\""
+ptopic: "[[topic-MUSIC]]"
 level: 5
 neo4j: true
 ---
@@ -21,7 +21,7 @@ CREATE (t:THOUGHT {    name: "thought.BACH AND GENIUS",
 CREATE (c:CONTENT {
     name: "content.BACH AND GENIUS",
     ctype: "THOUGHT",
-    en_title: "BACH AND GENIUS",
+    en_title: "Bach and Genius",
     en_content: "Johann Sebastian Bach is one of those rare souls whose gifts transcend all genius!",
     es_title: "BACH Y GENIO",
     es_content: "¡Johann Sebastian Bach es una de esas raras almas cuyos dones trascienden todo genio!",

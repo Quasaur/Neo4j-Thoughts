@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
 name: "thought.REALITY"
-alias: "Thought: REALITY"
+alias: "Thought: Reality"
 parent: "topic.TRUTH"
 tags: ["cosmology", "relativity", "geocentricity", "michelson", "intelligentdesign"]
 ptopic: "[[topic-TRUTH]]"
@@ -12,7 +12,7 @@ neo4j: true
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.REALITY",
-    alias: "Thought: REALITY",
+    alias: "Thought: Reality",
     parent: "topic.TRUTH",
     tags: ["cosmology", "relativity", "geocentricity", "michelson", "intelligentdesign"],
     level: 2
@@ -21,7 +21,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.REALITY",
     ctype: "THOUGHT",
-    en_title: "REALITY",
+    en_title: "Reality",
  es_title: "REALIDAD",
  fr_title: "RÉALITÉ",
  hi_title: "वास्तविकता",

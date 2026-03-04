@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
-name: "thought.PAINFUL_TRUTH"
-alias: "Thought: PAINFUL TRUTH"
+name: "thought.PAINFUL TRUTH"
+alias: "Thought: Painful Truth"
 parent: "topic.PSYCHOLOGY"
 en_content: "Perhaps the Truth only hurts when we refuse to submit to It."
 tags: ["tedx", "russellellis", "whitesupremacy", "change", "faith"]
@@ -12,17 +12,17 @@ neo4j: true
 
 ```Cypher
 CREATE (t:THOUGHT {
-    name: "thought.PAINFUL_TRUTH",
-    alias: "Thought: PAINFUL TRUTH",
+    name: "thought.PAINFUL TRUTH",
+    alias: "Thought: Painful Truth",
     parent: "topic.PSYCHOLOGY",
     tags: ["tedx", "russellellis", "whitesupremacy", "change", "faith"],
     level: 4
 });
 
 CREATE (c:CONTENT {
-    name: "content.PAINFUL_TRUTH",
+    name: "content.PAINFUL TRUTH",
     ctype: "THOUGHT",
-    en_title: "PAINFUL TRUTH",
+    en_title: "Painful Truth",
     en_content: "Perhaps the Truth only hurts when we refuse to submit to It.",
     es_title: "VERDAD DOLOROSA",
     es_content: "Quizás la Verdad sólo duele cuando nos negamos a someternos a Ella.",
@@ -36,11 +36,11 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = "thought.PAINFUL_TRUTH" AND c.name = "content.PAINFUL_TRUTH"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.PAINFUL_TRUTH"}]->(c);
+WHERE t.name = "thought.PAINFUL TRUTH" AND c.name = "content.PAINFUL TRUTH"
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.PAINFUL TRUTH"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "topic.PSYCHOLOGY" AND child.name = "thought.PAINFUL_TRUTH"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.PSYCHOLOGY->PAINFUL_TRUTH"}]->(child);
+WHERE parent.name = "topic.PSYCHOLOGY" AND child.name = "thought.PAINFUL TRUTH"
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.PSYCHOLOGY->PAINFUL TRUTH"}]->(child);
 ```

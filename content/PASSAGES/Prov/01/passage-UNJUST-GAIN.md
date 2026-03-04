@@ -24,7 +24,7 @@ CREATE (p:PASSAGE {	    name: "passage.UNJUST GAIN",
 CREATE (c:CONTENT {
 	name: "content.UNJUST GAIN",
 	ctype: "PASSAGE",
-	en_title: "UNJUST GAIN", 
+	en_title: "Unjust Gain", 
 	en_content: "Such are the ways of everyone who makes unjust gain; it takes away the life of its possessors.", 
 	es_title: "Ganancia injusta", 
 	es_content: "Así procede todo el que obtiene ganancia injusta: quita la vida a sus poseedores.", 

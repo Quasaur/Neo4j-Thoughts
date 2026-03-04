@@ -1,7 +1,7 @@
 ---
 type: QUOTE
 name: "quote.FAITH-FOCUSED"
-alias: "Quote: Quote: FAITH-FOCUSED"
+alias: "Quote: Faith-focused"
 parent: "topic.FAITH"
 en_content: "Here's a hint: if you're stuck in doubt, it's because YOU'RE FOCUSED ON THE WRONG PERSON. If you're looking inward at yourself the only conclusion you can come to is 'impossible.' But if you turn your attention to Jesus and His Unconditional Love for you, your confidence in His Word (in this case Romans Chapter Six) will grow and meet the challenge of your past with the glory of your future in Christ."
  es_title: "Cita: CENTRADO EN LA FE"
@@ -22,7 +22,7 @@ neo4j: true
 // CREATE QUOTE
 CREATE (q:QUOTE {
     name: "quote.FAITH-FOCUSED",
-    alias: "Quote: Quote: FAITH-FOCUSED",
+    alias: "Quote: Faith-focused",
     parent: "topic.FAITH",
     tags: ["faith", "focus", "word_of_faith", "jesus_christ", "self"],
     source: "'The Narrow Way'",
@@ -34,7 +34,7 @@ CREATE (q:QUOTE {
 CREATE (c:CONTENT {
     name: "content.FAITH",
     ctype: "QUOTE",
-    en_title: "Quote: FAITH-FOCUSED",
+    en_title: "Faith-focused",
     en_content: "Here's a hint: if you're stuck in doubt, it's because YOU'RE FOCUSED ON THE WRONG PERSON. If you're looking inward at yourself the only conclusion you can come to is 'impossible.' But if you turn your attention to Jesus and His Unconditional Love for you, your confidence in His Word (in this case Romans Chapter Six) will grow and meet the challenge of your past with the glory of your future in Christ.",
  es_title: "Cita: CENTRADO EN LA FE",
  es_content: "Aquí tienes una pista: si tienes dudas, es porque ESTÁS ENFOCADO EN LA PERSONA EQUIVOCADA. Si miras hacia adentro, la única conclusión a la que puedes llegar es \"imposible\". Pero si diriges tu atención a Jesús y Su amor incondicional por ti, tu confianza en Su Palabra (en este caso Romanos Capítulo Seis) crecerá y enfrentará el desafío de tu pasado con la gloria de tu futuro en Cristo.",

@@ -1,7 +1,7 @@
 ---
 type: PASSAGE
 name: "passage.SCORNERS"
-alias: "Passage: SCORNERS"
+alias: "Passage: Scorners"
 parent: "topic.EVIL"
 en_content: "Toward the scorners He [The LORD] is scornful,"
 tags: ["scorners", "scornful", "humble", "gift", "favor"]
@@ -14,7 +14,7 @@ neo4j: true
 // CREATE PASSAGE
 CREATE (b:PASSAGE {
     name: "passage.SCORNERS",
-    alias: "Passage: SCORNERS",
+    alias: "Passage: Scorners",
     parent: "topic.EVIL",
     tags: ["scorners", "scornful", "humble", "gift", "favor"],
     source: "'Proverbs 3:34'",
@@ -27,7 +27,7 @@ CREATE (b:PASSAGE {
 CREATE (c:CONTENT {
     name: "content.SCORNERS",
     ctype: "PASSAGE",
-    en_title: "SCORNERS",
+    en_title: "Scorners",
     en_content: "Toward the scorners He [The LORD] is scornful,",
  es_title: "SCORNERADORES",
  es_content: "Con los escarnecedores Él [Jehová] es escarnecedor,",

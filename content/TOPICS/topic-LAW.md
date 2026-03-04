@@ -23,7 +23,7 @@ CREATE (t:TOPIC {
 // CREATE DESCRIPTION
 CREATE (d:DESCRIPTION {
     name: "desc.LAW",
-    en_title: "LAW",
+    en_title: "Law",
     en_content: "A binding custom or practice of a community formally recognized as binding or enforced by a controlling authority.",
     es_title: "LEY",
     es_content: "Una costumbre o práctica vinculante de una comunidad formalmente reconocida como vinculante o impuesta por una autoridad controladora.",

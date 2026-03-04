@@ -1,8 +1,8 @@
 ---
 type: PASSAGE
-name: "\"passage.PRICELESS WISDOM\""
+name: "passage.PRICELESS WISDOM"
 alias: "Passage: The Greatest Treasure"
-parent: "\"topic.WISDOM\""
+parent: "topic.WISDOM"
 en_content: |
   Blessed is a person who finds wisdom,
   And one who obtains understanding.
@@ -17,15 +17,15 @@ en_content: |
   She is a tree of life to those who take hold of her,
   And happy are those who hold on to her."
 tags: ["wisdom", "understanding", "riches", "tree_of_life", "peace"]
-ptopic: "\"[[topic-WISDOM]]\""
+ptopic: "[[topic-WISDOM]]"
 level: 3
 neo4j: true
 ---
 ```Cypher
 //create the Passage with the same fields as a normal thought
-CREATE (p:PASSAGE {	    name: "\"passage.PRICELESS WISDOM\"",
+CREATE (p:PASSAGE {	    name: "passage.PRICELESS WISDOM",
 		alias: "Passage: The Greatest Treasure", 
-		parent: "\"topic.WISDOM\"", 
+		parent: "topic.WISDOM", 
 		tags: ["wisdom", "understanding", "riches", "tree_of_life", "peace"], 
 		source: "Proverbs 3:13-18",
 		sortedsource: "Proverbs 03:13-18",
@@ -35,7 +35,7 @@ CREATE (p:PASSAGE {	    name: "\"passage.PRICELESS WISDOM\"",
 CREATE (c:CONTENT {
 	name: "content.PRICELESS WISDOM",
 	ctype: "PASSAGE",
-	en_title: "PRICELESS WISDOM", 
+	en_title: "Priceless Wisdom", 
 	en_content: "Blessed is a person who finds wisdom,
 And one who obtains understanding.
 For her profit is better than the profit of silver,

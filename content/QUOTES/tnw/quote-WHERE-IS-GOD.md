@@ -1,7 +1,7 @@
 ---
 type: QUOTE
-name: "quote.WHERE_IS_GOD?"
-alias: "Quote: Quote: WHERE IS GOD?"
+name: "quote.WHERE IS GOD?"
+alias: "Quote: Where is God?"
 parent: "topic.DIVINE-SOVEREIGNTY"
 en_content: "GOD is the eight-billion-ton Leviathan in the room...yet you cannot see, hear, smell, taste, touch or perceive Him. Spiritists and other occult adepts with years of experience in the spirit realm seriously doubt His Existence because they've never encountered Him, though He fills all things ([Jeremiah 23:24](https://www.biblegateway.com/passage/?search=Jeremiah+23%3A24&version=ESV))...WHY is that? It is because they, like you and i, are EVIL and therefore enemies of GOD. And like you and i, they are DEAD to Him and His Transcendently HOLY Nature.",
  es_title: "Cita: ¿DÓNDE ESTÁ DIOS?",
@@ -20,8 +20,8 @@ level: 4
 ```Cypher
 // CREATE QUOTE
 CREATE (q:QUOTE {
-    name: "quote.WHERE_IS_GOD?",
-    alias: "Quote: Quote: WHERE IS GOD?",
+    name: "quote.WHERE IS GOD?",
+    alias: "Quote: Where is God?",
     parent: "topic.DIVINE-SOVEREIGNTY",
     tags: ["unperceived", "spiritual_death", "separation", "evil", "no_fellowship"],
     source: "'The Narrow Way'",
@@ -31,9 +31,9 @@ CREATE (q:QUOTE {
 
 // CREATE CONTENT
 CREATE (c:CONTENT {
-    name: "content.WHERE_IS_GOD?",
+    name: "content.WHERE IS GOD?",
     ctype: "QUOTE",
-    en_title: "Quote: WHERE IS GOD?",
+    en_title: "Where is God?",
     en_content: "GOD is the eight-billion-ton Leviathan in the room...yet you cannot see, hear, smell, taste, touch or perceive Him. Spiritists and other occult adepts with years of experience in the spirit realm seriously doubt His Existence because they've never encountered Him, though He fills all things ([Jeremiah 23:24](https://www.biblegateway.com/passage/?search=Jeremiah+23%3A24&version=ESV))...WHY is that? It is because they, like you and i, are EVIL and therefore enemies of GOD. And like you and i, they are DEAD to Him and His Transcendently HOLY Nature.",
  es_title: "Cita: ¿DÓNDE ESTÁ DIOS?",
  es_content: "DIOS es el Leviatán de ocho mil millones de toneladas en la habitación... sin embargo, no puedes verlo, oírlo, olerlo, saborearlo, tocarlo ni percibirlo. Los espiritistas y otros adeptos ocultistas con años de experiencia en el reino espiritual dudan seriamente de Su Existencia porque nunca lo han encontrado, aunque Él llena todas las cosas ([Jeremías 23:24](https://www.biblegateway.com/passage/?search=Jeremiah+23%3A24&version=ESV))...¿POR QUÉ? Es porque ellos, como tú y yo, somos MALVADOS y por lo tanto enemigos de DIOS. Y como tú y yo, están MUERTOS para Él y Su Naturaleza Trascendente y SANTA.",
@@ -46,13 +46,13 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (q:QUOTE {name: "quote.WHERE_IS_GOD?"})
-MATCH (c:CONTENT {name: "content.WHERE_IS_GOD?"})
-MERGE (q)-[:HAS_CONTENT {name: "q.edge.WHERE_IS_GOD?"}]->(c);
+MATCH (q:QUOTE {name: "quote.WHERE IS GOD?"})
+MATCH (c:CONTENT {name: "content.WHERE IS GOD?"})
+MERGE (q)-[:HAS_CONTENT {name: "q.edge.WHERE IS GOD?"}]->(c);
 
 // LINK PARENT
 MATCH (parent:TOPIC {name: "topic.DIVINE-SOVEREIGNTY"})
-MATCH (child:QUOTE {name: "quote.WHERE_IS_GOD?"})
-MERGE (parent)-[:HAS_QUOTE {name: "q.edge.DIVINE-SOVEREIGNTY->WHERE_IS_GOD?"}]->(child);
+MATCH (child:QUOTE {name: "quote.WHERE IS GOD?"})
+MERGE (parent)-[:HAS_QUOTE {name: "q.edge.DIVINE-SOVEREIGNTY->WHERE IS GOD?"}]->(child);
 
 ```

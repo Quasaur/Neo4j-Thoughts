@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
-name: "thought.LOVING_OR_LOVED?"
-alias: "Thought: LOVING OR LOVED?"
+name: "thought.LOVING OR LOVED?"
+alias: "Thought: Loving or Loved?"
 parent: "topic.PSYCHOLOGY"
 en_content: "So...which is better: loving God or being loved by God?"
 tags: ["loving", "loved", "give", "receive", "preference"]
@@ -12,17 +12,17 @@ neo4j: true
 
 ```Cypher
 CREATE (t:THOUGHT {
-    name: "thought.LOVING_OR_LOVED?",
-    alias: "Thought: LOVING OR LOVED?",
+    name: "thought.LOVING OR LOVED?",
+    alias: "Thought: Loving or Loved?",
     parent: "topic.PSYCHOLOGY",
     tags: ["loving", "loved", "give", "receive", "preference"],
     level: 4
 });
 
 CREATE (c:CONTENT {
-    name: "content.LOVING_OR_LOVED?",
+    name: "content.LOVING OR LOVED?",
     ctype: "THOUGHT",
-    en_title: "LOVING OR LOVED?",
+    en_title: "Loving or Loved?",
     en_content: "So...which is better: loving God or being loved by God?",
     es_title: "¿AMAR O AMAR?",
     es_content: "Entonces... ¿qué es mejor: amar a Dios o ser amado por Dios?",
@@ -36,11 +36,11 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = "thought.LOVING_OR_LOVED?" AND c.name = "content.LOVING_OR_LOVED?"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.LOVING_OR_LOVED?"}]->(c);
+WHERE t.name = "thought.LOVING OR LOVED?" AND c.name = "content.LOVING OR LOVED?"
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.LOVING OR LOVED?"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "topic.PSYCHOLOGY" AND child.name = "thought.LOVING_OR_LOVED?"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.PSYCHOLOGY->LOVING_OR_LOVED?"}]->(child);
+WHERE parent.name = "topic.PSYCHOLOGY" AND child.name = "thought.LOVING OR LOVED?"
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.PSYCHOLOGY->LOVING OR LOVED?"}]->(child);
 ```

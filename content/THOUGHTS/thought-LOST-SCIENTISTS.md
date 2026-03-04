@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
-name: "thought.LOST_SCIENTISTS"
-alias: "Thought: LOST SCIENTISTS"
+name: "thought.LOST SCIENTISTS"
+alias: "Thought: Lost Scientists"
 parent: "topic.COSMOLOGY"
 en_content: "The truth is that scientists have had to admit that they're lost beyond the Big Bang."
 tags: ["science", "bigbang", "lost", "creatiion", "origin"]
@@ -12,17 +12,17 @@ neo4j: true
 
 ```Cypher
 CREATE (t:THOUGHT {
-    name: "thought.LOST_SCIENTISTS",
-    alias: "Thought: LOST SCIENTISTS",
+    name: "thought.LOST SCIENTISTS",
+    alias: "Thought: Lost Scientists",
     parent: "topic.COSMOLOGY",
     tags: ["science", "bigbang", "lost", "creatiion", "origin"],
     level: 4
 });
 
 CREATE (c:CONTENT {
-    name: "content.LOST_SCIENTISTS",
+    name: "content.LOST SCIENTISTS",
     ctype: "THOUGHT",
-    en_title: "LOST SCIENTISTS",
+    en_title: "Lost Scientists",
     en_content: "The truth is that scientists have had to admit that they're lost beyond the Big Bang.",
     es_title: "CIENTÍFICOS PERDIDOS",
     es_content: "La verdad es que los científicos han tenido que admitir que están perdidos más allá del Big Bang.",
@@ -36,11 +36,11 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = "thought.LOST_SCIENTISTS" AND c.name = "content.LOST_SCIENTISTS"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.LOST_SCIENTISTS"}]->(c);
+WHERE t.name = "thought.LOST SCIENTISTS" AND c.name = "content.LOST SCIENTISTS"
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.LOST SCIENTISTS"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "topic.COSMOLOGY" AND child.name = "thought.LOST_SCIENTISTS"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.COSMOLOGY->LOST_SCIENTISTS"}]->(child);
+WHERE parent.name = "topic.COSMOLOGY" AND child.name = "thought.LOST SCIENTISTS"
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.COSMOLOGY->LOST SCIENTISTS"}]->(child);
 ```

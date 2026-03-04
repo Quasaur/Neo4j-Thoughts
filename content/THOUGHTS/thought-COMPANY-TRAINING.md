@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
-name: "thought.COMPANY_TRAINING"
-alias: "Thought: COMPANY TRAINING"
+name: "thought.COMPANY TRAINING"
+alias: "Thought: Company Training"
 parent: "topic.PSYCHOLOGY"
 en_content: "Why is it that companies don't give their employees time to complete Web- and Computer-based training courses?"
 tags: ["time", "training", "courses", "company", "mismanagement"]
@@ -12,17 +12,17 @@ neo4j: true
 
 ```Cypher
 CREATE (t:THOUGHT {
-    name: "thought.COMPANY_TRAINING",
-    alias: "Thought: COMPANY TRAINING",
+    name: "thought.COMPANY TRAINING",
+    alias: "Thought: Company Training",
     parent: "topic.PSYCHOLOGY",
     tags: ["time", "training", "courses", "company", "mismanagement"],
     level: 4
 });
 
 CREATE (c:CONTENT {
-    name: "content.COMPANY_TRAINING",
+    name: "content.COMPANY TRAINING",
     ctype: "THOUGHT",
-    en_title: "COMPANY TRAINING",
+    en_title: "Company Training",
     en_content: "Why is it that companies don't give their employees time to complete Web- and Computer-based training courses?",
     es_title: "FORMACIÓN EN EMPRESA",
     es_content: "¿Por qué las empresas no dan a sus empleados tiempo para completar cursos de formación basados ​​en la Web y en ordenador?",
@@ -36,11 +36,11 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = "thought.COMPANY_TRAINING" AND c.name = "content.COMPANY_TRAINING"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.COMPANY_TRAINING"}]->(c);
+WHERE t.name = "thought.COMPANY TRAINING" AND c.name = "content.COMPANY TRAINING"
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.COMPANY TRAINING"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "topic.PSYCHOLOGY" AND child.name = "thought.COMPANY_TRAINING"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.PSYCHOLOGY->COMPANY_TRAINING"}]->(child);
+WHERE parent.name = "topic.PSYCHOLOGY" AND child.name = "thought.COMPANY TRAINING"
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.PSYCHOLOGY->COMPANY TRAINING"}]->(child);
 ```

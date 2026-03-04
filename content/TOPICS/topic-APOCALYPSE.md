@@ -1,7 +1,7 @@
 ---
 type: TOPIC
 name: "topic.APOCALYPSE"
-alias: "Topic: ESCHATOLOGY"
+alias: "Topic: Eschatology"
 parent: "topic.HISTORY"
 en_content: "Eschatology; the End of all things."
 tags: ["eschatology", "last_day", "end_of_the_world"]
@@ -14,7 +14,7 @@ neo4j: true
 // CREATE TOPIC
 CREATE (t:TOPIC {
     name: "topic.APOCALYPSE",
-    alias: "Topic: ESCHATOLOGY",
+    alias: "Topic: Eschatology",
     parent: "topic.HISTORY",
     tags: ["eschatology", "last_day", "end_of_the_world"],
     level: 5
@@ -23,7 +23,7 @@ CREATE (t:TOPIC {
 // CREATE DESCRIPTION
 CREATE (d:DESCRIPTION {
     name: "desc.APOCALYPSE",
-    en_title: "APOCALYPSE",
+    en_title: "Apocalypse",
     en_content: "Eschatology; the End of all things.",
     es_title: "APOCALIPSIS",
     es_content: "Escatología; el fin de todas las cosas.",

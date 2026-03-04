@@ -1,7 +1,7 @@
 ---
 type: QUOTE
-name: "quote.ETERNAL_LIGHT"
-alias: "Quote: Quote: ETERNAL LIGHT"
+name: "quote.ETERNAL LIGHT"
+alias: "Quote: Eternal Light"
 parent: "topic.UNDERSTANDING"
 en_content: "Eventually, as saved beings, our understanding of God will reach the point where darkness will recede into the past as a faint memory.",
  es_title: "Cita: LUZ ETERNA",
@@ -21,8 +21,8 @@ neo4j: true
 ```Cypher
 // CREATE QUOTE
 CREATE (q:QUOTE {
-    name: "quote.ETERNAL_LIGHT",
-    alias: "Quote: Quote: ETERNAL LIGHT",
+    name: "quote.ETERNAL LIGHT",
+    alias: "Quote: Eternal Light",
     parent: "topic.UNDERSTANDING",
     tags: ["saved", "understanding", "darkness", "past", "forgotten"],
     source: "'Once Saved, Always Saved: The Assurance of Our Father's LOVE'",
@@ -32,9 +32,9 @@ CREATE (q:QUOTE {
 
 // CREATE CONTENT
 CREATE (c:CONTENT {
-    name: "content.ETERNAL_LIGHT",
+    name: "content.ETERNAL LIGHT",
     ctype: "QUOTE",
-    en_title: "Quote: ETERNAL LIGHT",
+    en_title: "Eternal Light",
     en_content: "Eventually, as saved beings, our understanding of God will reach the point where darkness will recede into the past as a faint memory.",
  es_title: "Cita: LUZ ETERNA",
  es_content: "Con el tiempo, como seres salvos, nuestra comprensión de Dios llegará al punto en que la oscuridad retrocederá hacia el pasado como un débil recuerdo.",
@@ -47,13 +47,13 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (q:QUOTE {name: "quote.ETERNAL_LIGHT"})
-MATCH (c:CONTENT {name: "content.ETERNAL_LIGHT"})
-MERGE (q)-[:HAS_CONTENT {name: "q.edge.ETERNAL_LIGHT"}]->(c);
+MATCH (q:QUOTE {name: "quote.ETERNAL LIGHT"})
+MATCH (c:CONTENT {name: "content.ETERNAL LIGHT"})
+MERGE (q)-[:HAS_CONTENT {name: "q.edge.ETERNAL LIGHT"}]->(c);
 
 // LINK PARENT
 MATCH (parent:TOPIC {name: "topic.UNDERSTANDING"})
-MATCH (child:QUOTE {name: "quote.ETERNAL_LIGHT"})
-MERGE (parent)-[:HAS_QUOTE {name: "q.edge.UNDERSTANDING->ETERNAL_LIGHT"}]->(child);
+MATCH (child:QUOTE {name: "quote.ETERNAL LIGHT"})
+MERGE (parent)-[:HAS_QUOTE {name: "q.edge.UNDERSTANDING->ETERNAL LIGHT"}]->(child);
 
 ```

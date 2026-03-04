@@ -23,7 +23,7 @@ CREATE (t:TOPIC {
 // CREATE DESCRIPTION
 CREATE (d:DESCRIPTION {
     name: "desc.FREEDOM",
-    en_title: "FREEDOM",
+    en_title: "Freedom",
     en_content: "The absence of necessity, coercion, or constraint in choice or action with the framework of morality and law.",
     es_title: "LIBERTAD",
     es_content: "La ausencia de necesidad, coacción o restricción en la elección o acción dentro del marco de la moralidad y la ley.",

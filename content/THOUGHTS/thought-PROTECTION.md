@@ -1,19 +1,19 @@
 ---
 type: THOUGHT
 name: "thought.PROTECTION"
-alias: "Thought: PROTECTION"
+alias: "Thought: Protection"
 en_content: |
   # PROTECTION
   Without the Holy Spirit of Christ humanity has no defense against the Devil, those who rule the world or even our own lower natures."
 tags: ["holy_spirit", "spirit_of_truth", "standard", "defense", "jesus_christ"]
-ptopic: "\"[[topic-THE-GODHEAD]]\""
+ptopic: "[[topic-THE-GODHEAD]]"
 level: 1
 neo4j: true
 ---
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.PROTECTION",
-    alias: "Thought: PROTECTION",
+    alias: "Thought: Protection",
     parent: "topic.THE GODHEAD",
     tags: ["holy_spirit", "spirit_of_truth", "standard", "defense", "jesus_christ"],
     level: 1
@@ -22,7 +22,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.PROTECTION",
     ctype: "THOUGHT",
-    en_title: "PROTECTION",
+    en_title: "Protection",
     en_content: "# PROTECTION
 Without the Holy Spirit of Christ humanity has no defense against the Devil, those who rule the world or even our own lower natures.",
     es_title: "PROTECCIÓN",

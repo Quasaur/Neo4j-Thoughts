@@ -23,7 +23,7 @@ CREATE (t:TOPIC {
 // CREATE DESCRIPTION
 CREATE (d:DESCRIPTION {
     name: "desc.GRACE",
-    en_title: "GRACE",
+    en_title: "Grace",
     en_content: "Unmerited Divine Favor given to humans for their sanctification and regeneration; the same Favor God the Father bestows on His Only-Begotten Son Jesus Christ.",
     es_title: "GRACIA",
     es_content: "Favor Divino inmerecido dado a los humanos para su santificación y regeneración; el mismo Favor que Dios Padre otorga a Su Hijo Unigénito Jesucristo.",

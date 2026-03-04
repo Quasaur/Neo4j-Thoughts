@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
-name: "thought.ETERNAL_LIFE"
-alias: "Thought: ETERNAL LIFE"
+name: "thought.ETERNAL LIFE"
+alias: "Thought: Eternal Life"
 parent: "topic.FAITHFULNESS"
 en_content: "ETERNAL LIFE: God's promise (covenant) to NEVER stop dreaming about you!"
 tags: ["immortality", "eternal_life", "promise", "covenant", "god"]
@@ -12,17 +12,17 @@ neo4j: true
 
 ```Cypher
 CREATE (t:THOUGHT {
-    name: "thought.ETERNAL_LIFE",
-    alias: "Thought: ETERNAL LIFE",
+    name: "thought.ETERNAL LIFE",
+    alias: "Thought: Eternal Life",
     parent: "topic.FAITHFULNESS",
     tags: ["immortality", "eternal_life", "promise", "covenant", "god"],
     level: 2
 });
 
 CREATE (c:CONTENT {
-    name: "content.ETERNAL_LIFE",
+    name: "content.ETERNAL LIFE",
     ctype: "THOUGHT",
-    en_title: "ETERNAL LIFE",
+    en_title: "Eternal Life",
     en_content: "ETERNAL LIFE: God's promise (covenant) to NEVER stop dreaming about you!",
     es_title: "VIDA ETERNA",
     es_content: "VIDA ETERNA: La promesa (pacto) de Dios de ¡NUNCA dejar de soñar contigo!",
@@ -36,11 +36,11 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = "thought.ETERNAL_LIFE" AND c.name = "content.ETERNAL_LIFE"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.ETERNAL_LIFE"}]->(c);
+WHERE t.name = "thought.ETERNAL LIFE" AND c.name = "content.ETERNAL LIFE"
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.ETERNAL LIFE"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "topic.FAITHFULNESS" AND child.name = "thought.ETERNAL_LIFE"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.FAITHFULNESS->ETERNAL_LIFE"}]->(child);
+WHERE parent.name = "topic.FAITHFULNESS" AND child.name = "thought.ETERNAL LIFE"
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.FAITHFULNESS->ETERNAL LIFE"}]->(child);
 ```

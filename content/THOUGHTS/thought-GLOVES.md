@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
 name: "thought.GLOVES"
-alias: "Thought: GLOVES"
+alias: "Thought: Gloves"
 parent: "topic.EVANGELISM"
 tags: ["vessel", "instrument", "gospel", "missionaries", "believers"]
 ptopic: "[[topic-EVANGELISM]]"
@@ -12,7 +12,7 @@ neo4j: true
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.GLOVES",
-    alias: "Thought: GLOVES",
+    alias: "Thought: Gloves",
     parent: "topic.EVANGELISM",
     tags: ["vessel", "instrument", "gospel", "missionaries", "believers"],
     level: 3
@@ -21,7 +21,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.GLOVES",
     ctype: "THOUGHT",
-    en_title: "GLOVES",
+    en_title: "Gloves",
     en_content: "God is not looking for hands...He's looking for gloves!",
  es_title: "GUANTES",
  es_content: "Dios no busca manos... ¡Busca guantes!",

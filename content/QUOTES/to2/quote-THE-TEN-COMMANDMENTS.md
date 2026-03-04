@@ -1,7 +1,7 @@
 ---
 type: QUOTE
-name: "quote.THE_TEN_COMMANDMENTS"
-alias: "Quote: Quote: THE TEN COMMANDMENTS"
+name: "quote.THE TEN COMMANDMENTS"
+alias: "Quote: The Ten Commandments"
 parent: "topic.LAW"
 en_content: "God places an INESTIMABLE VALUE upon the Ten Commandments; and it deeply concerns me that so many of today's Christians take NO TIME to familiarize themselves with any of the first five books of the Bible which clearly identify the One True God in no uncertain terms.",
  es_title: "Cita: LOS DIEZ MANDAMIENTOS",
@@ -21,8 +21,8 @@ neo4j: true
 ```Cypher
 // CREATE QUOTE
 CREATE (q:QUOTE {
-    name: "quote.THE_TEN_COMMANDMENTS",
-    alias: "Quote: Quote: THE TEN COMMANDMENTS",
+    name: "quote.THE TEN COMMANDMENTS",
+    alias: "Quote: The Ten Commandments",
     parent: "topic.LAW",
     tags: ["peace", "perfect", "grace", "holiness", "love"],
     source: "'The Traveler's Oasis, Book Two'",
@@ -32,9 +32,9 @@ CREATE (q:QUOTE {
 
 // CREATE CONTENT
 CREATE (c:CONTENT {
-    name: "content.THE_TEN_COMMANDMENTS",
+    name: "content.THE TEN COMMANDMENTS",
     ctype: "QUOTE",
-    en_title: "Quote: THE TEN COMMANDMENTS",
+    en_title: "The Ten Commandments",
     en_content: "God places an INESTIMABLE VALUE upon the Ten Commandments; and it deeply concerns me that so many of today's Christians take NO TIME to familiarize themselves with any of the first five books of the Bible which clearly identify the One True God in no uncertain terms.",
  es_title: "Cita: LOS DIEZ MANDAMIENTOS",
  es_content: "Dios pone un VALOR INESTIMABLE a los Diez Mandamientos; y me preocupa profundamente que muchos de los cristianos de hoy NO se tomen TIEMPO para familiarizarse con cualquiera de los primeros cinco libros de la Biblia que identifican claramente al Único Dios Verdadero en términos inequívocos.",
@@ -47,13 +47,13 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (q:QUOTE {name: "quote.THE_TEN_COMMANDMENTS"})
-MATCH (c:CONTENT {name: "content.THE_TEN_COMMANDMENTS"})
-MERGE (q)-[:HAS_CONTENT {name: "q.edge.THE_TEN_COMMANDMENTS"}]->(c);
+MATCH (q:QUOTE {name: "quote.THE TEN COMMANDMENTS"})
+MATCH (c:CONTENT {name: "content.THE TEN COMMANDMENTS"})
+MERGE (q)-[:HAS_CONTENT {name: "q.edge.THE TEN COMMANDMENTS"}]->(c);
 
 // LINK PARENT
 MATCH (parent:TOPIC {name: "topic.LAW"})
-MATCH (child:QUOTE {name: "quote.THE_TEN_COMMANDMENTS"})
-MERGE (parent)-[:HAS_QUOTE {name: "q.edge.LAW->THE_TEN_COMMANDMENTS"}]->(child);
+MATCH (child:QUOTE {name: "quote.THE TEN COMMANDMENTS"})
+MERGE (parent)-[:HAS_QUOTE {name: "q.edge.LAW->THE TEN COMMANDMENTS"}]->(child);
 
 ```

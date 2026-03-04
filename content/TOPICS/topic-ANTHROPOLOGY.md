@@ -22,7 +22,7 @@ CREATE (t:TOPIC {
 // CREATE DESCRIPTION
 CREATE (d:DESCRIPTION {
     name: "desc.ANTHROPOLOGY",
-    en_title: "ANTHROPOLOGY",
+    en_title: "Anthropology",
     en_content: "The study of human beings and their ancestors through time and space and in relation to physical character, environmental and social relations, and culture.",
     es_title: "ANTROPOLOGÍA",
     es_content: "El estudio de los seres humanos y sus antepasados a través del tiempo y el espacio y en relación con el carácter físico, las relaciones ambientales y sociales, y la cultura.",

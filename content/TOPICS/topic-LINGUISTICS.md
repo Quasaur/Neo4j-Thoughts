@@ -23,7 +23,7 @@ CREATE (t:TOPIC {
 // CREATE DESCRIPTION
 CREATE (d:DESCRIPTION {
     name: "desc.LINGUISTICS",
-    en_title: "LINGUISTICS",
+    en_title: "Linguistics",
     en_content: "The study of human speech including the units, nature, structure, and modification of language.",
     es_title: "LINGÜÍSTICA",
     es_content: "El estudio del habla humana, incluidas las unidades, la naturaleza, la estructura y la modificación del lenguaje.",

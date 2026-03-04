@@ -1,7 +1,7 @@
 ---
 type: QUOTE
 name: "quote.CHAOS"
-alias: "Quote: Quote: CHAOS"
+alias: "Quote: Chaos"
 parent: "topic.PSYCHOLOGY"
 en_content: "We fear Chaos above little else and, consciously or subconsciously, are constantly trying to create order where there may actually be none.",
  es_title: "Cita: CAOS",
@@ -22,7 +22,7 @@ neo4j: true
 // CREATE QUOTE
 CREATE (q:QUOTE {
     name: "quote.CHAOS",
-    alias: "Quote: Quote: CHAOS",
+    alias: "Quote: Chaos",
     parent: "topic.PSYCHOLOGY",
     tags: ["chaos", "disorder", "fear", "perception", "delusion"],
     source: "'The Traveler's Oasis, Book Three'",
@@ -34,7 +34,7 @@ CREATE (q:QUOTE {
 CREATE (c:CONTENT {
     name: "content.CHAOS",
     ctype: "QUOTE",
-    en_title: "Quote: CHAOS",
+    en_title: "Chaos",
     en_content: "We fear Chaos above little else and, consciously or subconsciously, are constantly trying to create order where there may actually be none.",
  es_title: "Cita: CAOS",
  es_content: "Tememos al Caos por encima de cualquier otra cosa y, consciente o inconscientemente, intentamos constantemente crear orden donde en realidad no lo hay.",

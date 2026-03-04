@@ -1,6 +1,6 @@
 ---
 type: THOUGHT
-name: "thought.ACT_OF_GOD"
+name: "thought.ACT OF GOD"
 alias: "Thought: Act of God"
 parent: "topic.PSYCHOLOGY"
 en_content: "If every person is an Act of God, what can my wife teach me about God?"
@@ -12,7 +12,7 @@ neo4j: true
 
 ```Cypher
 CREATE (t:THOUGHT {
-    name: "thought.ACT_OF_GOD",
+    name: "thought.ACT OF GOD",
     alias: "Thought: Act of God",
     parent: "topic.PSYCHOLOGY",
     tags: ["person", "people", "wife", "husband", "image_of_god"],
@@ -20,7 +20,7 @@ CREATE (t:THOUGHT {
 });
 
 CREATE (c:CONTENT {
-    name: "content.ACT_OF_GOD",
+    name: "content.ACT OF GOD",
     ctype: "THOUGHT",
     en_title: "Act of God",
     en_content: "If every person is an Act of God, what can my wife teach me about God?",
@@ -36,11 +36,11 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = "thought.ACT_OF_GOD" AND c.name = "content.ACT_OF_GOD"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.ACT_OF_GOD"}]->(c);
+WHERE t.name = "thought.ACT OF GOD" AND c.name = "content.ACT OF GOD"
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.ACT OF GOD"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "topic.PSYCHOLOGY" AND child.name = "thought.ACT_OF_GOD"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.PSYCHOLOGY->ACT_OF_GOD"}]->(child);
+WHERE parent.name = "topic.PSYCHOLOGY" AND child.name = "thought.ACT OF GOD"
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.PSYCHOLOGY->ACT OF GOD"}]->(child);
 ```

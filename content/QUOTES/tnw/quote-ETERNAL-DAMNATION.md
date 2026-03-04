@@ -1,7 +1,7 @@
 ---
 type: QUOTE
-name: "quote.ETERNAL_DAMNATION"
-alias: "Quote: Quote: ETERNAL DAMNATION"
+name: "quote.ETERNAL DAMNATION"
+alias: "Quote: Eternal Damnation"
 parent: "topic.APOCALYPSE"
 en_content: "Likewise, those who participate in the Second Resurrection will come forth completely intact: spirit, soul and body with no parts or organs missing. There is a reason the word 'resurrection' must be defined this way... Look carefully at the [Twentieth Chapter of Revelation](https://mobile.biblegateway.com/passage/?search=Revelation+20&version=KJV). After all of the Damned are resurrected Death and Hades (the place of disembodied souls) are themselves cast into the Lake of Fire and Sulfur! The implication is horrifyingly obvious: if Death no longer exists, then no matter what damage is done to you by the Fire and Sulfur, you can never die! There is no relief and there is no reprieve.",
  es_title: "Cita: CONDENACIÓN ETERNA",
@@ -21,8 +21,8 @@ neo4j: true
 ```Cypher
 // CREATE QUOTE
 CREATE (q:QUOTE {
-    name: "quote.ETERNAL_DAMNATION",
-    alias: "Quote: Quote: ETERNAL DAMNATION",
+    name: "quote.ETERNAL DAMNATION",
+    alias: "Quote: Eternal Damnation",
     parent: "topic.APOCALYPSE",
     tags: ["lake_of_fire", "sulfur", "wrath", "torment", "breathless"],
     source: "'The Narrow Way'",
@@ -32,9 +32,9 @@ CREATE (q:QUOTE {
 
 // CREATE CONTENT
 CREATE (c:CONTENT {
-    name: "content.ETERNAL_DAMNATION",
+    name: "content.ETERNAL DAMNATION",
     ctype: "QUOTE",
-    en_title: "Quote: ETERNAL DAMNATION",
+    en_title: "Eternal Damnation",
     en_content: "Likewise, those who participate in the Second Resurrection will come forth completely intact: spirit, soul and body with no parts or organs missing. There is a reason the word 'resurrection' must be defined this way... Look carefully at the [Twentieth Chapter of Revelation](https://mobile.biblegateway.com/passage/?search=Revelation+20&version=KJV). After all of the Damned are resurrected Death and Hades (the place of disembodied souls) are themselves cast into the Lake of Fire and Sulfur! The implication is horrifyingly obvious: if Death no longer exists, then no matter what damage is done to you by the Fire and Sulfur, you can never die! There is no relief and there is no reprieve.",
  es_title: "Cita: CONDENACIÓN ETERNA",
  es_content: "Asimismo, quienes participen en la Segunda Resurrección saldrán completamente intactos: espíritu, alma y cuerpo, sin que les falte ninguna parte ni órgano. Hay una razón por la que la palabra 'resurrección' debe definirse de esta manera... Mire cuidadosamente el [Capítulo Vigésimo de Apocalipsis](https://mobile.biblegateway.com/passage/?search=Revelation+20&version=KJV). Después de que todos los Condenados resuciten, ¡la Muerte y el Hades (el lugar de las almas incorpóreas) son arrojados al Lago de Fuego y Azufre! La implicación es terriblemente obvia: si la Muerte ya no existe, entonces no importa el daño que te hagan el Fuego y el Azufre, ¡nunca podrás morir! No hay alivio ni respiro.",
@@ -47,13 +47,13 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (q:QUOTE {name: "quote.ETERNAL_DAMNATION"})
-MATCH (c:CONTENT {name: "content.ETERNAL_DAMNATION"})
-MERGE (q)-[:HAS_CONTENT {name: "q.edge.ETERNAL_DAMNATION"}]->(c);
+MATCH (q:QUOTE {name: "quote.ETERNAL DAMNATION"})
+MATCH (c:CONTENT {name: "content.ETERNAL DAMNATION"})
+MERGE (q)-[:HAS_CONTENT {name: "q.edge.ETERNAL DAMNATION"}]->(c);
 
 // LINK PARENT
 MATCH (parent:TOPIC {name: "topic.APOCALYPSE"})
-MATCH (child:QUOTE {name: "quote.ETERNAL_DAMNATION"})
-MERGE (parent)-[:HAS_QUOTE {name: "q.edge.APOCALYPSE->ETERNAL_DAMNATION"}]->(child);
+MATCH (child:QUOTE {name: "quote.ETERNAL DAMNATION"})
+MERGE (parent)-[:HAS_QUOTE {name: "q.edge.APOCALYPSE->ETERNAL DAMNATION"}]->(child);
 
 ```

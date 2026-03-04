@@ -1,7 +1,7 @@
 ---
 type: QUOTE
-name: "quote.ISLAM_DEFEATED"
-alias: "Quote: Quote: ISLAM DEFEATED"
+name: "quote.ISLAM DEFEATED"
+alias: "Quote: Islam Defeated"
 parent: "topic.RELIGION"
 en_content: "Biblical Christianity will defeat Islam by the same means it defeated paganism: through the Truth of the Holy Bible, the Love of Jesus Christ, and the Life of Christ lived through His followers.",
  es_title: "Cita: EL ISLAM DERROTADO",
@@ -21,8 +21,8 @@ neo4j: true
 ```Cypher
 // CREATE QUOTE
 CREATE (q:QUOTE {
-    name: "quote.ISLAM_DEFEATED",
-    alias: "Quote: Quote: ISLAM DEFEATED",
+    name: "quote.ISLAM DEFEATED",
+    alias: "Quote: Islam Defeated",
     parent: "topic.RELIGION",
     tags: ["islam", "christianity", "biblical", "bible", "jesus_christ"],
     source: "'Letters from God: A Work of Fiction'",
@@ -32,9 +32,9 @@ CREATE (q:QUOTE {
 
 // CREATE CONTENT
 CREATE (c:CONTENT {
-    name: "content.ISLAM_DEFEATED",
+    name: "content.ISLAM DEFEATED",
     ctype: "QUOTE",
-    en_title: "Quote: ISLAM DEFEATED",
+    en_title: "Islam Defeated",
     en_content: "Biblical Christianity will defeat Islam by the same means it defeated paganism: through the Truth of the Holy Bible, the Love of Jesus Christ, and the Life of Christ lived through His followers.",
  es_title: "Cita: EL ISLAM DERROTADO",
  es_content: "El cristianismo bíblico derrotará al Islam por los mismos medios que derrotó al paganismo: a través de la Verdad de la Santa Biblia, el Amor de Jesucristo y la Vida de Cristo vivida a través de Sus seguidores.",
@@ -47,13 +47,13 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (q:QUOTE {name: "quote.ISLAM_DEFEATED"})
-MATCH (c:CONTENT {name: "content.ISLAM_DEFEATED"})
-MERGE (q)-[:HAS_CONTENT {name: "q.edge.ISLAM_DEFEATED"}]->(c);
+MATCH (q:QUOTE {name: "quote.ISLAM DEFEATED"})
+MATCH (c:CONTENT {name: "content.ISLAM DEFEATED"})
+MERGE (q)-[:HAS_CONTENT {name: "q.edge.ISLAM DEFEATED"}]->(c);
 
 // LINK PARENT
 MATCH (parent:TOPIC {name: "topic.RELIGION"})
-MATCH (child:QUOTE {name: "quote.ISLAM_DEFEATED"})
-MERGE (parent)-[:HAS_QUOTE {name: "q.edge.RELIGION->ISLAM_DEFEATED"}]->(child);
+MATCH (child:QUOTE {name: "quote.ISLAM DEFEATED"})
+MERGE (parent)-[:HAS_QUOTE {name: "q.edge.RELIGION->ISLAM DEFEATED"}]->(child);
 
 ```

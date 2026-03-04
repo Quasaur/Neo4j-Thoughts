@@ -3,7 +3,7 @@ type: THOUGHT
 name: "thought.PROVING CREATION"
 alias: "Thought: Proving Creation"
 parent: "topic.CREATION"
-en_content: "\"In The Beginning God created the heavens and the Earth.\" -- Genesis 1:1 There's not a soul on the planet that can prove otherwise."
+en_content: "In The Beginning God created the heavens and the Earth. -- Genesis 1:1 There's not a soul on the planet that can prove otherwise."
 tags: ["creation", "truth", "bible", "science", "origin"]
 ptopic: "[[topic-CREATION]]"
 level: 2
@@ -22,7 +22,7 @@ CREATE (c:CONTENT {
     name: "content.PROVING CREATION",
     ctype: "THOUGHT",
     en_title: "Proving Creation",
-    en_content: "\"In The Beginning God created the heavens and the Earth.\" -- Genesis 1:1 There's not a soul on the planet that can prove otherwise.",
+    en_content: "In The Beginning God created the heavens and the Earth. -- Genesis 1:1 There's not a soul on the planet that can prove otherwise.",
     es_title: "Probando la Creación",
     es_content: "La Biblia no intenta probar la existencia de Dios o defender el relato de la creación. Simplemente declara: \"En el principio creó Dios los cielos y la tierra\" (Génesis 1:1). Esta declaración audaz asume la realidad de Dios como Creador sin argumentos elaborados o evidencia científica. Las Escrituras presentan la creación como un acto de fe que debe ser aceptado por la fe, no como una teoría que requiere validación humana.",
     fr_title: "Prouver la Création",

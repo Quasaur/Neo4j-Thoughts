@@ -1,21 +1,21 @@
 ---
 type: THOUGHT
 name: "thought.EGO"
-alias: "Thought: EGO"
+alias: "Thought: Ego"
 en_content: |
   The Earth is 3.5 million times bigger than me...
   ..the Sun is a million times bigger than the Earth...
   ...that means the Sun is 176 SEPTILLION (176 followed by 24 zeros) times larger than myself...
   ...GOD is great...I am pathetic."
 tags: ["god", "sun", "earth", "humility", "myself"]
-ptopic: "\"[[topic-THE-GODHEAD]]\""
+ptopic: "[[topic-THE-GODHEAD]]"
 level: 1
 neo4j: true
 ---
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.EGO",
-    alias: "Thought: EGO",
+    alias: "Thought: Ego",
     parent: "topic.THE GODHEAD",
     tags: ["god", "sun", "earth", "humility", "myself"],
     level: 1
@@ -24,7 +24,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.EGO",
     ctype: "THOUGHT",
-    en_title: "EGO",
+    en_title: "Ego",
     en_content: "The Earth is 3.5 million times bigger than me...
 ..the Sun is a million times bigger than the Earth...
 ...that means the Sun is 176 SEPTILLION (176 followed by 24 zeros) times larger than myself...

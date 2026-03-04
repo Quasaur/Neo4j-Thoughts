@@ -23,7 +23,7 @@ CREATE (t:TOPIC {
 // CREATE DESCRIPTION
 CREATE (d:DESCRIPTION {
     name: "desc.HUMOR",
-    en_title: "HUMOR",
+    en_title: "Humor",
     en_content: "The mental faculty of discovering, expressing, or appreciating the ludicrous or absurdly incongruous; the ability to be funny or to be amused by things that are funny; something that is or is designed to be comical or amusing.",
     es_title: "HUMOR",
     es_content: "La facultad mental de descubrir, expresar o apreciar lo ridículo o absurdamente incongruente; la capacidad de ser divertido o de divertirse con cosas que son divertidas; algo que es o está diseñado para ser cómico o divertido.",

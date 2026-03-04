@@ -21,7 +21,7 @@ CREATE (t:THOUGHT {    name: "thought.DIVINE WILL",
 CREATE (c:CONTENT {
     name: "content.DIVINE WILL",
     ctype: "THOUGHT",
-    en_title: "DIVINE WILL",
+    en_title: "Divine Will",
     en_content: "Do you really believe that God has EVER done something He didn't want to do?",
     es_title: "VOLUNTAD DIVINA",
     es_content: "¿De verdad crees que Dios ha hecho ALGUNA VEZ algo que no quería hacer?",

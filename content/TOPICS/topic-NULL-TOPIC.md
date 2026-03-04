@@ -20,7 +20,7 @@ CREATE (t:TOPIC
 		level: 0});
 // create multi-lingual description		
 CREATE (d:DESCRIPTION {
-	name: "desc.NULL_TOPIC", 
+	name: "desc.NULL TOPIC", 
 	en_title: "Null Topic", 
 	en_content: "This is the NULL TOPIC: the root of the Book of Thoughts graph database.", 
 	es_title: "Tema Nulo", 
@@ -33,8 +33,8 @@ CREATE (d:DESCRIPTION {
 	zh_content: "chāoyuè de gēnběn huò jīngshén xiànshí."});
 MATCH (t:TOPIC)
 MATCH (d:DESCRIPTION)
-WHERE t.name = "topic.NULL TOPIC" AND d.name = "desc.NULL_TOPIC"
-MERGE (t)-[:HAS_DESCRIPTION {name: "edge.NULL_TOPIC"}]->(d);
+WHERE t.name = "topic.NULL TOPIC" AND d.name = "desc.NULL TOPIC"
+MERGE (t)-[:HAS_DESCRIPTION {name: "edge.NULL TOPIC"}]->(d);
 CREATE INDEX FOR (t:TOPIC) ON (t.name);
 CREATE INDEX FOR (d:DESCRIPTION) ON (d.name);
 ```

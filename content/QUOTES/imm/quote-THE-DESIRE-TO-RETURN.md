@@ -1,7 +1,7 @@
 ---
 type: QUOTE
-name: "quote.THE_DESIRE_TO_RETURN"
-alias: "Quote: Quote: THE DESIRE TO RETURN"
+name: "quote.THE DESIRE TO RETURN"
+alias: "Quote: The Desire to Return"
 parent: "topic.EVIL"
 en_content: "While any sinner would DO EVERYTHING POSSIBLE to avoid the Lake of Fire, no sinner has ANY DESIRE IN THEIR HEART WHATSOEVER to return to God (repentance).",
  es_title: "Cita: EL DESEO DE VOLVER",
@@ -21,8 +21,8 @@ neo4j: true
 ```Cypher
 // CREATE QUOTE
 CREATE (q:QUOTE {
-    name: "quote.THE_DESIRE_TO_RETURN",
-    alias: "Quote: Quote: THE DESIRE TO RETURN",
+    name: "quote.THE DESIRE TO RETURN",
+    alias: "Quote: The Desire to Return",
     parent: "topic.EVIL",
     tags: ["survival", "lake_of_fire", "repentance", "sinner", "god"],
     source: "'IMMMUNITY to the Lake of Fire: A No-Nonsense Guide'",
@@ -32,9 +32,9 @@ CREATE (q:QUOTE {
 
 // CREATE CONTENT
 CREATE (c:CONTENT {
-    name: "content.THE_DESIRE_TO_RETURN",
+    name: "content.THE DESIRE TO RETURN",
     ctype: "QUOTE",
-    en_title: "Quote: THE DESIRE TO RETURN",
+    en_title: "The Desire to Return",
     en_content: "While any sinner would DO EVERYTHING POSSIBLE to avoid the Lake of Fire, no sinner has ANY DESIRE IN THEIR HEART WHATSOEVER to return to God (repentance).",
  es_title: "Cita: EL DESEO DE VOLVER",
  es_content: "Si bien cualquier pecador haría TODO LO POSIBLE para evitar el Lago de Fuego, ningún pecador tiene NINGÚN DESEO EN SU CORAZÓN de regresar a Dios (arrepentimiento).",
@@ -47,13 +47,13 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (q:QUOTE {name: "quote.THE_DESIRE_TO_RETURN"})
-MATCH (c:CONTENT {name: "content.THE_DESIRE_TO_RETURN"})
-MERGE (q)-[:HAS_CONTENT {name: "q.edge.THE_DESIRE_TO_RETURN"}]->(c);
+MATCH (q:QUOTE {name: "quote.THE DESIRE TO RETURN"})
+MATCH (c:CONTENT {name: "content.THE DESIRE TO RETURN"})
+MERGE (q)-[:HAS_CONTENT {name: "q.edge.THE DESIRE TO RETURN"}]->(c);
 
 // LINK PARENT
 MATCH (parent:TOPIC {name: "topic.EVIL"})
-MATCH (child:QUOTE {name: "quote.THE_DESIRE_TO_RETURN"})
-MERGE (parent)-[:HAS_QUOTE {name: "q.edge.EVIL->THE_DESIRE_TO_RETURN"}]->(child);
+MATCH (child:QUOTE {name: "quote.THE DESIRE TO RETURN"})
+MERGE (parent)-[:HAS_QUOTE {name: "q.edge.EVIL->THE DESIRE TO RETURN"}]->(child);
 
 ```

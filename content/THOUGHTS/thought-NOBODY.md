@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
 name: "thought.NOBODY"
-alias: "Thought: NOBODY"
+alias: "Thought: Nobody"
 parent: "topic.EVIL"
 tags: ["depravity", "religion", "apostasy", "spirituality", "hell"]
 ptopic: "[[topic-EVIL]]"
@@ -12,7 +12,7 @@ neo4j: true
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.NOBODY",
-    alias: "Thought: NOBODY",
+    alias: "Thought: Nobody",
     parent: "topic.EVIL",
     tags: ["depravity", "religion", "apostasy", "spirituality", "hell"],
     level: 4
@@ -21,7 +21,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.NOBODY",
     ctype: "THOUGHT",
-    en_title: "NOBODY",
+    en_title: "Nobody",
  es_title: "NADIE",
  fr_title: "PERSONNE",
  hi_title: "कोई नहीं",

@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
-name: "thought.IN_HIM_WE_LIVE"
-alias: "Thought: IN HIM WE LIVE"
+name: "thought.IN HIM WE LIVE"
+alias: "Thought: In Him We Live"
 parent: "topic.CREATION"
 en_content: "We are all inside of God...is God inside of us?"
 tags: ["creation", "divine", "fulness", "indwelling", "holy_spirit"]
@@ -12,17 +12,17 @@ neo4j: true
 
 ```Cypher
 CREATE (t:THOUGHT {
-    name: "thought.IN_HIM_WE_LIVE",
-    alias: "Thought: IN HIM WE LIVE",
+    name: "thought.IN HIM WE LIVE",
+    alias: "Thought: In Him We Live",
     parent: "topic.CREATION",
     tags: ["creation", "divine", "fulness", "indwelling", "holy_spirit"],
     level: 2
 });
 
 CREATE (c:CONTENT {
-    name: "content.IN_HIM_WE_LIVE",
+    name: "content.IN HIM WE LIVE",
     ctype: "THOUGHT",
-    en_title: "IN HIM WE LIVE",
+    en_title: "In Him We Live",
     en_content: "We are all inside of God...is God inside of us?",
     es_title: "EN ÉL VIVIMOS",
     es_content: "Todos estamos dentro de Dios... ¿está Dios dentro de nosotros?",
@@ -36,11 +36,11 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = "thought.IN_HIM_WE_LIVE" AND c.name = "content.IN_HIM_WE_LIVE"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.IN_HIM_WE_LIVE"}]->(c);
+WHERE t.name = "thought.IN HIM WE LIVE" AND c.name = "content.IN HIM WE LIVE"
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.IN HIM WE LIVE"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "topic.CREATION" AND child.name = "thought.IN_HIM_WE_LIVE"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.CREATION->IN_HIM_WE_LIVE"}]->(child);
+WHERE parent.name = "topic.CREATION" AND child.name = "thought.IN HIM WE LIVE"
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.CREATION->IN HIM WE LIVE"}]->(child);
 ```

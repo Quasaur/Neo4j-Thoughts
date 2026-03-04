@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
 name: "thought.INTEGRITY"
-alias: "Thought: INTEGRITY"
+alias: "Thought: Integrity"
 parent: "topic.MORALITY"
 tags: ["stand", "True", "integrity", "character", "godliness"]
 ptopic: "[[topic-MORALITY]]"
@@ -12,7 +12,7 @@ neo4j: true
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.INTEGRITY",
-    alias: "Thought: INTEGRITY",
+    alias: "Thought: Integrity",
     parent: "topic.MORALITY",
     tags: ["stand", "True", "integrity", "character", "godliness"],
     level: 3
@@ -21,7 +21,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.INTEGRITY",
     ctype: "THOUGHT",
-    en_title: "INTEGRITY",
+    en_title: "Integrity",
  es_title: "INTEGRIDAD",
  fr_title: "INTÉGRITÉ",
  hi_title: "अखंडता",

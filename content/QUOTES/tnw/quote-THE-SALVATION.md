@@ -1,7 +1,7 @@
 ---
 type: QUOTE
-name: "quote.THE_SALVATION"
-alias: "Quote: Quote: THE SALVATION"
+name: "quote.THE SALVATION"
+alias: "Quote: The Salvation"
 parent: "topic.THE-GOSPEL"
 en_content: "THERE IS NO SALVATION APART FROM JESUS. Let me put this another way: JESUS **IS** THE SALVATION GOD THE FATHER IS OFFERING YOU, as opposed to a set of deeds you must accomplish or words you must say to 'receive' Salvation from Jesus.",
  es_title: "Cita: LA SALVACIÓN",
@@ -21,8 +21,8 @@ neo4j: true
 ```Cypher
 // CREATE QUOTE
 CREATE (q:QUOTE {
-    name: "quote.THE_SALVATION",
-    alias: "Quote: Quote: THE SALVATION",
+    name: "quote.THE SALVATION",
+    alias: "Quote: The Salvation",
     parent: "topic.THE-GOSPEL",
     tags: ["theonly", "life", "way", "truth", "jesus_christ"],
     source: "'The Narrow Way'",
@@ -32,9 +32,9 @@ CREATE (q:QUOTE {
 
 // CREATE CONTENT
 CREATE (c:CONTENT {
-    name: "content.THE_SALVATION",
+    name: "content.THE SALVATION",
     ctype: "QUOTE",
-    en_title: "Quote: THE SALVATION",
+    en_title: "The Salvation",
     en_content: "THERE IS NO SALVATION APART FROM JESUS. Let me put this another way: JESUS **IS** THE SALVATION GOD THE FATHER IS OFFERING YOU, as opposed to a set of deeds you must accomplish or words you must say to 'receive' Salvation from Jesus.",
  es_title: "Cita: LA SALVACIÓN",
  es_content: "NO HAY SALVACIÓN APARTE DE JESÚS. Permíteme decirlo de otra manera: JESÚS **ES** LA SALVACIÓN QUE DIOS EL PADRE TE OFRECE, a diferencia de un conjunto de hechos que debes realizar o palabras que debes decir para 'recibir' la Salvación de Jesús.",
@@ -47,13 +47,13 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (q:QUOTE {name: "quote.THE_SALVATION"})
-MATCH (c:CONTENT {name: "content.THE_SALVATION"})
-MERGE (q)-[:HAS_CONTENT {name: "q.edge.THE_SALVATION"}]->(c);
+MATCH (q:QUOTE {name: "quote.THE SALVATION"})
+MATCH (c:CONTENT {name: "content.THE SALVATION"})
+MERGE (q)-[:HAS_CONTENT {name: "q.edge.THE SALVATION"}]->(c);
 
 // LINK PARENT
 MATCH (parent:TOPIC {name: "topic.THE-GOSPEL"})
-MATCH (child:QUOTE {name: "quote.THE_SALVATION"})
-MERGE (parent)-[:HAS_QUOTE {name: "q.edge.THE-GOSPEL->THE_SALVATION"}]->(child);
+MATCH (child:QUOTE {name: "quote.THE SALVATION"})
+MERGE (parent)-[:HAS_QUOTE {name: "q.edge.THE-GOSPEL->THE SALVATION"}]->(child);
 
 ```

@@ -1,7 +1,7 @@
 ---
 type: QUOTE
 name: "quote.BANKRUPT"
-alias: "Quote: Quote: BANKRUPT"
+alias: "Quote: Bankrupt"
 parent: "topic.GRACE"
 en_content: "We can never be allowed to experience the Power of GOD’s Holy Spirit until we fully understand that we are absolutely bankrupt (both morally and spiritually), with nothing to offer GOD except our sin, our shame and our failure.",
  es_title: "Cita: BANCARROTA",
@@ -22,7 +22,7 @@ neo4j: true
 // CREATE QUOTE
 CREATE (q:QUOTE {
     name: "quote.BANKRUPT",
-    alias: "Quote: Quote: BANKRUPT",
+    alias: "Quote: Bankrupt",
     parent: "topic.GRACE",
     tags: ["offering", "sin", "shame", "failure", "holy_spirit"],
     source: "'IMMMUNITY to the Lake of Fire: A No-Nonsense Guide'",
@@ -34,7 +34,7 @@ CREATE (q:QUOTE {
 CREATE (c:CONTENT {
     name: "content.BANKRUPT",
     ctype: "QUOTE",
-    en_title: "Quote: BANKRUPT",
+    en_title: "Bankrupt",
     en_content: "We can never be allowed to experience the Power of GOD’s Holy Spirit until we fully understand that we are absolutely bankrupt (both morally and spiritually), with nothing to offer GOD except our sin, our shame and our failure.",
  es_title: "Cita: BANCARROTA",
  es_content: "Nunca se nos permitirá experimentar el poder del Espíritu Santo de DIOS hasta que entendamos completamente que estamos absolutamente en bancarrota (tanto moral como espiritualmente), sin nada que ofrecer a DIOS excepto nuestro pecado, nuestra vergüenza y nuestro fracaso.",

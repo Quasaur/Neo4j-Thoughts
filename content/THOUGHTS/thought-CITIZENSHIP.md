@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
 name: "thought.CITIZENSHIP"
-alias: "Thought: CITIZENSHIP"
+alias: "Thought: Citizenship"
 parent: "topic.ECONOMICS"
 tags: ["citizenship", "kingdom", "reign_of_god", "freedom", "jesus_christ"]
 ptopic: "[[topic-ECONOMICS]]"
@@ -12,7 +12,7 @@ neo4j: true
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.CITIZENSHIP",
-    alias: "Thought: CITIZENSHIP",
+    alias: "Thought: Citizenship",
     parent: "topic.ECONOMICS",
     tags: ["citizenship", "kingdom", "reign_of_god", "freedom", "jesus_christ"],
     level: 4
@@ -21,7 +21,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.CITIZENSHIP",
     ctype: "THOUGHT",
-    en_title: "CITIZENSHIP",
+    en_title: "Citizenship",
     en_content: "REMEMBER: there is no 'cost of living' in the Kingdom of the Heavens. Change your citizenship IMMEDIATELY!!!",
  es_title: "CIUDADANÍA",
  es_content: "RECUERDA: no hay 'costo de vida' en el Reino de los Cielos. ¡¡¡Cambia tu ciudadanía INMEDIATAMENTE!!!",

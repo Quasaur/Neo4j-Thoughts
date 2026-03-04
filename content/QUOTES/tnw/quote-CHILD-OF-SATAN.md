@@ -1,7 +1,7 @@
 ---
 type: QUOTE
-name: "quote.CHILD_OF_SATAN"
-alias: "Quote: Quote: CHILD OF SATAN"
+name: "quote.CHILD OF SATAN"
+alias: "Quote: Child of Satan"
 parent: "topic.EVIL"
 en_content: "It is impossible to be a sinner and not harbor in your heart some lie that you cling to as truth. Do you even now yet see yourself as a 'good person' who could 'benefit' from having an 'advisor' such as Jesus at your side? Or are you willing to admit that you're a child of the Devil, by your very nature damned for Wrath and in DESPERATE NEED of the Only-Begotten Son of GOD's Mercy, Forgiveness and Saving Grace?"
  es_title: "Cita: HIJO DE SATANÁS"
@@ -21,8 +21,8 @@ neo4j: true
 ```Cypher
 // CREATE QUOTE
 CREATE (q:QUOTE {
-    name: "quote.CHILD_OF_SATAN",
-    alias: "Quote: Quote: CHILD OF SATAN",
+    name: "quote.CHILD OF SATAN",
+    alias: "Quote: Child of Satan",
     parent: "topic.EVIL",
     tags: ["evil", "wicked", "reprobate", "hopeless", "jesus_christ"],
     source: "'The Narrow Way'",
@@ -32,9 +32,9 @@ CREATE (q:QUOTE {
 
 // CREATE CONTENT
 CREATE (c:CONTENT {
-    name: "content.CHILD_OF_SATAN",
+    name: "content.CHILD OF SATAN",
     ctype: "QUOTE",
-    en_title: "Quote: CHILD OF SATAN",
+    en_title: "Child of Satan",
     en_content: "It is impossible to be a sinner and not harbor in your heart some lie that you cling to as truth. Do you even now yet see yourself as a 'good person' who could 'benefit' from having an 'advisor' such as Jesus at your side? Or are you willing to admit that you're a child of the Devil, by your very nature damned for Wrath and in DESPERATE NEED of the Only-Begotten Son of GOD's Mercy, Forgiveness and Saving Grace?",
  es_title: "Cita: HIJO DE SATANÁS",
  es_content: "Es imposible ser pecador y no albergar en tu corazón alguna mentira a la que te aferras como verdad. ¿Se ve todavía ahora como una \"buena persona\" que podría \"beneficiarse\" de tener a su lado un \"consejero\" como Jesús? ¿O estás dispuesto a admitir que eres un hijo del Diablo, por tu propia naturaleza condenado por la ira y con una NECESIDAD DESESPERADA del Hijo Unigénito de la Misericordia, el Perdón y la Gracia Salvadora de DIOS?",
@@ -47,12 +47,12 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (q:QUOTE {name: "quote.CHILD_OF_SATAN"})
-MATCH (c:CONTENT {name: "content.CHILD_OF_SATAN"})
-MERGE (q)-[:HAS_CONTENT {name: "q.edge.CHILD_OF_SATAN"}]->(c);
+MATCH (q:QUOTE {name: "quote.CHILD OF SATAN"})
+MATCH (c:CONTENT {name: "content.CHILD OF SATAN"})
+MERGE (q)-[:HAS_CONTENT {name: "q.edge.CHILD OF SATAN"}]->(c);
 
 // LINK PARENT
 MATCH (parent:TOPIC {name: "topic.EVIL"})
-MATCH (child:QUOTE {name: "quote.CHILD_OF_SATAN"})
-MERGE (parent)-[:HAS_QUOTE {name: "q.edge.EVIL->CHILD_OF_SATAN"}]->(child);
+MATCH (child:QUOTE {name: "quote.CHILD OF SATAN"})
+MERGE (parent)-[:HAS_QUOTE {name: "q.edge.EVIL->CHILD OF SATAN"}]->(child);
 ```

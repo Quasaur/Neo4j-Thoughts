@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
 name: "thought.ENDING"
-alias: "Thought: ENDING"
+alias: "Thought: Ending"
 parent: "topic.APOCALYPSE"
 en_content: "\"
  es_title: "FINAL"
@@ -21,7 +21,7 @@ neo4j: true
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.ENDING",
-    alias: "Thought: ENDING",
+    alias: "Thought: Ending",
     parent: "topic.APOCALYPSE",
     tags: ["ending", "bible", "apocalypse", "judgment", "newjerusalem"],
     level: 5
@@ -30,7 +30,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.ENDING",
     ctype: "THOUGHT",
-    en_title: "ENDING",
+    en_title: "Ending",
     en_content: "\",
  es_title: "FINAL",
  es_content: "",

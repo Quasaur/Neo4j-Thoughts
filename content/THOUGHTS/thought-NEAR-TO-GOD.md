@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
-name: "thought.NEAR_TO_GOD"
-alias: "Thought: NEAR TO GOD"
+name: "thought.NEAR TO GOD"
+alias: "Thought: Near to God"
 parent: "topic.EVIL"
 en_content: "No one comes near to God who is not called by God to do so (John 6:44)."
 tags: ["access", "calling", "desire", "predestined", "foreknowledge"]
@@ -12,17 +12,17 @@ neo4j: true
 
 ```Cypher
 CREATE (t:THOUGHT {
-    name: "thought.NEAR_TO_GOD",
-    alias: "Thought: NEAR TO GOD",
+    name: "thought.NEAR TO GOD",
+    alias: "Thought: Near to God",
     parent: "topic.EVIL",
     tags: ["access", "calling", "desire", "predestined", "foreknowledge"],
     level: 4
 });
 
 CREATE (c:CONTENT {
-    name: "content.NEAR_TO_GOD",
+    name: "content.NEAR TO GOD",
     ctype: "THOUGHT",
-    en_title: "NEAR TO GOD",
+    en_title: "Near to God",
     en_content: "No one comes near to God who is not called by God to do so (John 6:44).",
     es_title: "CERCA DE DIOS",
     es_content: "Nadie se acerca a Dios si no es llamado por Dios a hacerlo (Juan 6:44).",
@@ -36,11 +36,11 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = "thought.NEAR_TO_GOD" AND c.name = "content.NEAR_TO_GOD"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.NEAR_TO_GOD"}]->(c);
+WHERE t.name = "thought.NEAR TO GOD" AND c.name = "content.NEAR TO GOD"
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.NEAR TO GOD"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "topic.EVIL" AND child.name = "thought.NEAR_TO_GOD"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.EVIL->NEAR_TO_GOD"}]->(child);
+WHERE parent.name = "topic.EVIL" AND child.name = "thought.NEAR TO GOD"
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.EVIL->NEAR TO GOD"}]->(child);
 ```

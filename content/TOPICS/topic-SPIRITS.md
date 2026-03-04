@@ -23,7 +23,7 @@ CREATE (t:TOPIC {
 // CREATE DESCRIPTION
 CREATE (d:DESCRIPTION {
     name: "desc.SPIRITS",
-    en_title: "SPIRITS",
+    en_title: "Spirits",
     en_content: "The animating or vital Principle held to give life to physical organisms; supernatural being or essence.",
     es_title: "ESPÍRITUS",
     es_content: "El Principio animador o vital que se sostiene que da vida a los organismos físicos; ser o esencia sobrenatural.",

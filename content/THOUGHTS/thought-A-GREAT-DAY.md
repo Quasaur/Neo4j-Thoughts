@@ -20,7 +20,7 @@ CREATE (t:THOUGHT {
 });
 
 CREATE (c:CONTENT {
-    name: "content.A_GREAT_DAY",
+    name: "content.A GREAT DAY",
     ctype: "THOUGHT",
     en_title: "A Great Day",
     en_content: "Today was great--except for the sleeping, eating and working.",

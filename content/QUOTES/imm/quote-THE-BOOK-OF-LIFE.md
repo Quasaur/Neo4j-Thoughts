@@ -1,7 +1,7 @@
 ---
 type: QUOTE
-name: "quote.THE_BOOK_OF_LIFE"
-alias: "Quote: Quote: THE BOOK OF LIFE"
+name: "quote.THE BOOK OF LIFE"
+alias: "Quote: The Book of Life"
 parent: "topic.DIVINE-SOVEREIGNTY"
 en_content: "As long as your name is written in the Lamb’s Book of LIFE, YOU HAVE NOTHING TO WORRY ABOUT WHATSOEVER; the Lake of Fire can do you no harm.",
  es_title: "Cita: EL LIBRO DE LA VIDA",
@@ -21,8 +21,8 @@ neo4j: true
 ```Cypher
 // CREATE QUOTE
 CREATE (q:QUOTE {
-    name: "quote.THE_BOOK_OF_LIFE",
-    alias: "Quote: Quote: THE BOOK OF LIFE",
+    name: "quote.THE BOOK OF LIFE",
+    alias: "Quote: The Book of Life",
     parent: "topic.DIVINE-SOVEREIGNTY",
     tags: ["lamb_of_god", "lake_of_fire", "book_of_life", "immunity", "fearless"],
     source: "'IMMMUNITY to the Lake of Fire: A No-Nonsense Guide'",
@@ -32,9 +32,9 @@ CREATE (q:QUOTE {
 
 // CREATE CONTENT
 CREATE (c:CONTENT {
-    name: "content.THE_BOOK_OF_LIFE",
+    name: "content.THE BOOK OF LIFE",
     ctype: "QUOTE",
-    en_title: "Quote: THE BOOK OF LIFE",
+    en_title: "The Book of Life",
     en_content: "As long as your name is written in the Lamb’s Book of LIFE, YOU HAVE NOTHING TO WORRY ABOUT WHATSOEVER; the Lake of Fire can do you no harm.",
  es_title: "Cita: EL LIBRO DE LA VIDA",
  es_content: "Mientras tu nombre esté escrito en el Libro de la VIDA del Cordero, NO TIENES NADA DE QUÉ PREOCUPARTE; el Lago de Fuego no puede hacerte daño.",
@@ -47,13 +47,13 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (q:QUOTE {name: "quote.THE_BOOK_OF_LIFE"})
-MATCH (c:CONTENT {name: "content.THE_BOOK_OF_LIFE"})
-MERGE (q)-[:HAS_CONTENT {name: "q.edge.THE_BOOK_OF_LIFE"}]->(c);
+MATCH (q:QUOTE {name: "quote.THE BOOK OF LIFE"})
+MATCH (c:CONTENT {name: "content.THE BOOK OF LIFE"})
+MERGE (q)-[:HAS_CONTENT {name: "q.edge.THE BOOK OF LIFE"}]->(c);
 
 // LINK PARENT
 MATCH (parent:TOPIC {name: "topic.DIVINE-SOVEREIGNTY"})
-MATCH (child:QUOTE {name: "quote.THE_BOOK_OF_LIFE"})
-MERGE (parent)-[:HAS_QUOTE {name: "q.edge.DIVINE-SOVEREIGNTY->THE_BOOK_OF_LIFE"}]->(child);
+MATCH (child:QUOTE {name: "quote.THE BOOK OF LIFE"})
+MERGE (parent)-[:HAS_QUOTE {name: "q.edge.DIVINE-SOVEREIGNTY->THE BOOK OF LIFE"}]->(child);
 
 ```

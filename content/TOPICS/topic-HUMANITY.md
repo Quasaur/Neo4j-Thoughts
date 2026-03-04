@@ -5,7 +5,7 @@ alias: "Topic: Mankind"
 parent: "topic.CREATION"
 en_content: "Mankind, male and female, created in the Image and Likeness of The GODHEAD."
 tags: ["adam", "humans", "mankind", "homosapiens", "likeness_of_god"]
-ptopic: "\"[[topic-CREATION]]\""
+ptopic: "[[topic-CREATION]]"
 level: 2
 neo4j: true
 ---
@@ -21,7 +21,7 @@ CREATE (t:TOPIC
 // create multi-lingual description		
 CREATE (d:DESCRIPTION {
 	name: "desc.HUMANITY", 
-	en_title: "HUMANITY", 
+	en_title: "Humanity", 
 	en_content: "Mankind, male and female, created in the Image and Likeness of The GODHEAD.", 
 	es_title: "HUMANIDAD", 
 	es_content: "La humanidad, hombre y mujer, creados a Imagen y Semejanza de la DEIDAD.", 

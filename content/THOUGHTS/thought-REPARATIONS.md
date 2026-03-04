@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
 name: "thought.REPARATIONS"
-alias: "Thought: REPARATIONS"
+alias: "Thought: Reparations"
 parent: "topic.JUSTICE"
 tags: ["reparations", "slavery", "blackamericans", "compensation", "justice"]
 ptopic: "[[topic-JUSTICE]]"
@@ -12,7 +12,7 @@ neo4j: true
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.REPARATIONS",
-    alias: "Thought: REPARATIONS",
+    alias: "Thought: Reparations",
     parent: "topic.JUSTICE",
     tags: ["reparations", "slavery", "blackamericans", "compensation", "justice"],
     level: 5
@@ -21,7 +21,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.REPARATIONS",
     ctype: "THOUGHT",
-    en_title: "REPARATIONS",
+    en_title: "Reparations",
  es_title: "INDEMNIZACIÓN",
  fr_title: "RÉPARATIONS",
  hi_title: "मुआवज़ा",

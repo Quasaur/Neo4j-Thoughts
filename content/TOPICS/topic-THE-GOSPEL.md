@@ -21,7 +21,7 @@ CREATE (t:TOPIC
 // create multi-lingual description		
 CREATE (d:DESCRIPTION {
 	name: "desc.THE GOSPEL", 
-	en_title: "THE GOSPEL", 
+	en_title: "The Gospel", 
 	en_content: "The Life, Death, Burial, Resurrection, Ascension and Return of Jesus Christ.", 
 	es_title: "EL EVANGELIO", 
 	es_content: "Vida, Muerte, Sepultura, Resurrección, Ascensión y Regreso de Jesucristo.", 

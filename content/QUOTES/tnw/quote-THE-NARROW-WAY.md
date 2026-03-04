@@ -1,7 +1,7 @@
 ---
 type: QUOTE
-name: "quote.THE_NARROW_WAY"
-alias: "Quote: Quote: THE NARROW WAY"
+name: "quote.THE NARROW WAY"
+alias: "Quote: The Narrow Way"
 parent: "topic.THE-GOSPEL"
 en_content: "As the only means to peace with our Creator, the Narrow Way (the Gospel) must be communicated with clarity and simplicity. Declared properly, the Narrow Way will always push me into a corner and compel me to decide against my self and for GOD. The Objective of Salvation is not to get GOD on my side, but to get me to take the side of GOD against my self!",
  es_title: "Cita: EL CAMINO ESTRECHO",
@@ -21,8 +21,8 @@ neo4j: true
 ```Cypher
 // CREATE QUOTE
 CREATE (q:QUOTE {
-    name: "quote.THE_NARROW_WAY",
-    alias: "Quote: Quote: THE NARROW WAY",
+    name: "quote.THE NARROW WAY",
+    alias: "Quote: The Narrow Way",
     parent: "topic.THE-GOSPEL",
     tags: ["god", "peace", "reconciliation", "self_denial", "submission"],
     source: "'The Narrow Way'",
@@ -32,9 +32,9 @@ CREATE (q:QUOTE {
 
 // CREATE CONTENT
 CREATE (c:CONTENT {
-    name: "content.THE_NARROW_WAY",
+    name: "content.THE NARROW WAY",
     ctype: "QUOTE",
-    en_title: "Quote: THE NARROW WAY",
+    en_title: "The Narrow Way",
     en_content: "As the only means to peace with our Creator, the Narrow Way (the Gospel) must be communicated with clarity and simplicity. Declared properly, the Narrow Way will always push me into a corner and compel me to decide against my self and for GOD. The Objective of Salvation is not to get GOD on my side, but to get me to take the side of GOD against my self!",
  es_title: "Cita: EL CAMINO ESTRECHO",
  es_content: "Como único medio para la paz con nuestro Creador, el Camino Estrecho (el Evangelio) debe comunicarse con claridad y sencillez. Declarado correctamente, el Camino Estrecho siempre me arrinconará y me obligará a decidir en contra de mí mismo y por DIOS. ¡El Objetivo de la Salvación no es poner a DIOS de mi lado, sino hacer que yo me ponga del lado de DIOS contra mí mismo!",
@@ -47,13 +47,13 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (q:QUOTE {name: "quote.THE_NARROW_WAY"})
-MATCH (c:CONTENT {name: "content.THE_NARROW_WAY"})
-MERGE (q)-[:HAS_CONTENT {name: "q.edge.THE_NARROW_WAY"}]->(c);
+MATCH (q:QUOTE {name: "quote.THE NARROW WAY"})
+MATCH (c:CONTENT {name: "content.THE NARROW WAY"})
+MERGE (q)-[:HAS_CONTENT {name: "q.edge.THE NARROW WAY"}]->(c);
 
 // LINK PARENT
 MATCH (parent:TOPIC {name: "topic.THE-GOSPEL"})
-MATCH (child:QUOTE {name: "quote.THE_NARROW_WAY"})
-MERGE (parent)-[:HAS_QUOTE {name: "q.edge.THE-GOSPEL->THE_NARROW_WAY"}]->(child);
+MATCH (child:QUOTE {name: "quote.THE NARROW WAY"})
+MERGE (parent)-[:HAS_QUOTE {name: "q.edge.THE-GOSPEL->THE NARROW WAY"}]->(child);
 
 ```

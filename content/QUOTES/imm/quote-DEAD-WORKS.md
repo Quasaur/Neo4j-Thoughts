@@ -1,7 +1,7 @@
 ---
 type: QUOTE
-name: "quote.DEAD_WORKS"
-alias: "Quote: Quote: DEAD WORKS"
+name: "quote.DEAD WORKS"
+alias: "Quote: Dead Works"
 parent: "topic.RELIGION"
 en_content: "The obedience of the sinner CANNOT BE ACCEPTED by GOD because since the sinner is spiritually dead THEIR OBEDIENCE IS DEAD AS WELL.",
  es_title: "Cita: OBRAS MUERTAS",
@@ -21,8 +21,8 @@ neo4j: true
 ```Cypher
 // CREATE QUOTE
 CREATE (q:QUOTE {
-    name: "quote.DEAD_WORKS",
-    alias: "Quote: Quote: DEAD WORKS",
+    name: "quote.DEAD WORKS",
+    alias: "Quote: Dead Works",
     parent: "topic.RELIGION",
     tags: ["sinner", "obedience", "deadspirit", "works", "filthyrags"],
     source: "'IMMMUNITY to the Lake of Fire: A No-Nonsense Guide'",
@@ -32,9 +32,9 @@ CREATE (q:QUOTE {
 
 // CREATE CONTENT
 CREATE (c:CONTENT {
-    name: "content.DEAD_WORKS",
+    name: "content.DEAD WORKS",
     ctype: "QUOTE",
-    en_title: "Quote: DEAD WORKS",
+    en_title: "Dead Works",
     en_content: "The obedience of the sinner CANNOT BE ACCEPTED by GOD because since the sinner is spiritually dead THEIR OBEDIENCE IS DEAD AS WELL.",
  es_title: "Cita: OBRAS MUERTAS",
  es_content: "La obediencia del pecador NO PUEDE SER ACEPTADA por DIOS porque como el pecador está espiritualmente muerto, SU OBEDIENCIA TAMBIÉN ESTÁ MUERTA.",
@@ -47,13 +47,13 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (q:QUOTE {name: "quote.DEAD_WORKS"})
-MATCH (c:CONTENT {name: "content.DEAD_WORKS"})
-MERGE (q)-[:HAS_CONTENT {name: "q.edge.DEAD_WORKS"}]->(c);
+MATCH (q:QUOTE {name: "quote.DEAD WORKS"})
+MATCH (c:CONTENT {name: "content.DEAD WORKS"})
+MERGE (q)-[:HAS_CONTENT {name: "q.edge.DEAD WORKS"}]->(c);
 
 // LINK PARENT
 MATCH (parent:TOPIC {name: "topic.RELIGION"})
-MATCH (child:QUOTE {name: "quote.DEAD_WORKS"})
-MERGE (parent)-[:HAS_QUOTE {name: "q.edge.RELIGION->DEAD_WORKS"}]->(child);
+MATCH (child:QUOTE {name: "quote.DEAD WORKS"})
+MERGE (parent)-[:HAS_QUOTE {name: "q.edge.RELIGION->DEAD WORKS"}]->(child);
 
 ```

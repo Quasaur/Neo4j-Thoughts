@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
 name: "thought.HUMANITARIANISM"
-alias: "Thought: HUMANITARIANISM"
+alias: "Thought: Humanitarianism"
 parent: "topic.RELIGION"
 tags: ["humanity", "self_worship", "god", "judgment", "accountable"]
 ptopic: "[[topic-RELIGION]]"
@@ -12,7 +12,7 @@ neo4j: true
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.HUMANITARIANISM",
-    alias: "Thought: HUMANITARIANISM",
+    alias: "Thought: Humanitarianism",
     parent: "topic.RELIGION",
     tags: ["humanity", "self_worship", "god", "judgment", "accountable"],
     level: 4
@@ -21,7 +21,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.HUMANITARIANISM",
     ctype: "THOUGHT",
-    en_title: "HUMANITARIANISM",
+    en_title: "Humanitarianism",
  es_title: "HUMANITARISMO",
  fr_title: "HUMANITARISME",
  hi_title: "मानवतावाद",

@@ -1,7 +1,7 @@
 ---
 type: QUOTE
-name: "quote.TRANSCENDENT_VALUE"
-alias: "Quote: Quote: TRANSCENDENT VALUE"
+name: "quote.TRANSCENDENT VALUE"
+alias: "Quote: Transcendent Value"
 parent: "topic.THE-GOSPEL"
 en_content: "The promise of the Gospel is that GOD The Father gives us Christ, Who is of TRANSCENDENT VALUE to Him; and in so doing we become as valuable to GOD as Christ is!",
  es_title: "Cita: VALOR TRASCENDENTE",
@@ -21,8 +21,8 @@ neo4j: true
 ```Cypher
 // CREATE QUOTE
 CREATE (q:QUOTE {
-    name: "quote.TRANSCENDENT_VALUE",
-    alias: "Quote: Quote: TRANSCENDENT VALUE",
+    name: "quote.TRANSCENDENT VALUE",
+    alias: "Quote: Transcendent Value",
     parent: "topic.THE-GOSPEL",
     tags: ["gospel", "promise", "jesus_christ", "value", "precious"],
     source: "'IMMMUNITY to the Lake of Fire: A No-Nonsense Guide'",
@@ -32,9 +32,9 @@ CREATE (q:QUOTE {
 
 // CREATE CONTENT
 CREATE (c:CONTENT {
-    name: "content.TRANSCENDENT_VALUE",
+    name: "content.TRANSCENDENT VALUE",
     ctype: "QUOTE",
-    en_title: "Quote: TRANSCENDENT VALUE",
+    en_title: "Transcendent Value",
     en_content: "The promise of the Gospel is that GOD The Father gives us Christ, Who is of TRANSCENDENT VALUE to Him; and in so doing we become as valuable to GOD as Christ is!",
  es_title: "Cita: VALOR TRASCENDENTE",
  es_content: "La promesa del Evangelio es que DIOS El Padre nos da a Cristo, Quien es de VALOR TRASCENDENTE para Él; ¡y al hacerlo nos volvemos tan valiosos para DIOS como lo es Cristo!",
@@ -47,13 +47,13 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (q:QUOTE {name: "quote.TRANSCENDENT_VALUE"})
-MATCH (c:CONTENT {name: "content.TRANSCENDENT_VALUE"})
-MERGE (q)-[:HAS_CONTENT {name: "q.edge.TRANSCENDENT_VALUE"}]->(c);
+MATCH (q:QUOTE {name: "quote.TRANSCENDENT VALUE"})
+MATCH (c:CONTENT {name: "content.TRANSCENDENT VALUE"})
+MERGE (q)-[:HAS_CONTENT {name: "q.edge.TRANSCENDENT VALUE"}]->(c);
 
 // LINK PARENT
 MATCH (parent:TOPIC {name: "topic.THE-GOSPEL"})
-MATCH (child:QUOTE {name: "quote.TRANSCENDENT_VALUE"})
-MERGE (parent)-[:HAS_QUOTE {name: "q.edge.THE-GOSPEL->TRANSCENDENT_VALUE"}]->(child);
+MATCH (child:QUOTE {name: "quote.TRANSCENDENT VALUE"})
+MERGE (parent)-[:HAS_QUOTE {name: "q.edge.THE-GOSPEL->TRANSCENDENT VALUE"}]->(child);
 
 ```

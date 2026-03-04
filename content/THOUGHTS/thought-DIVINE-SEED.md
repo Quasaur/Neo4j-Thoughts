@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
-name: "thought.DIVINE_SEED"
-alias: "Thought: DIVINE SEED"
+name: "thought.DIVINE SEED"
+alias: "Thought: Divine Seed"
 parent: "topic.GRACE"
 en_content: "A woman cannot give her husband a child without first receiving his seed; likewise we cannot give God worship, glory or obedience without first receiving the Seed of His Word fertilized by the Holy Spirit."
 tags: ["seed", "word_of_god", "holy_spirit", "sowing", "reaping"]
@@ -12,17 +12,17 @@ neo4j: true
 
 ```Cypher
 CREATE (t:THOUGHT {
-    name: "thought.DIVINE_SEED",
-    alias: "Thought: DIVINE SEED",
+    name: "thought.DIVINE SEED",
+    alias: "Thought: Divine Seed",
     parent: "topic.GRACE",
     tags: ["seed", "word_of_god", "holy_spirit", "sowing", "reaping"],
     level: 3
 });
 
 CREATE (c:CONTENT {
-    name: "content.DIVINE_SEED",
+    name: "content.DIVINE SEED",
     ctype: "THOUGHT",
-    en_title: "DIVINE SEED",
+    en_title: "Divine Seed",
     en_content: "A woman cannot give her husband a child without first receiving his seed; likewise we cannot give God worship, glory or obedience without first receiving the Seed of His Word fertilized by the Holy Spirit.",
     es_title: "SEMILLA DIVINA",
     es_content: "Una mujer no puede darle un hijo a su marido sin antes recibir su simiente; de igual manera no podemos darle adoración, gloria u obediencia a Dios sin antes recibir la Semilla de Su Palabra fecundada por el Espíritu Santo.",
@@ -36,11 +36,11 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = "thought.DIVINE_SEED" AND c.name = "content.DIVINE_SEED"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.DIVINE_SEED"}]->(c);
+WHERE t.name = "thought.DIVINE SEED" AND c.name = "content.DIVINE SEED"
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.DIVINE SEED"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "topic.GRACE" AND child.name = "thought.DIVINE_SEED"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.GRACE->DIVINE_SEED"}]->(child);
+WHERE parent.name = "topic.GRACE" AND child.name = "thought.DIVINE SEED"
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.GRACE->DIVINE SEED"}]->(child);
 ```

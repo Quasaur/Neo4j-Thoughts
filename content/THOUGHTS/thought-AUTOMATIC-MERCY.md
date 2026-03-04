@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
-name: "thought.AUTOMATIC_MERCY"
-alias: "Thought: AUTHOMATIC MERCY"
+name: "thought.AUTOMATIC MERCY"
+alias: "Thought: Authomatic Mercy"
 parent: "topic.ATTITUDE"
 en_content: "God’s love for sinners doesn’t negate His utter hatred of sin. Mercy is neither owed nor deserved and should NEVER be presumed."
 tags: ["spirituality", "mercy", "hatred", "gospel", "life"]
@@ -12,17 +12,17 @@ neo4j: true
 
 ```Cypher
 CREATE (t:THOUGHT {
-    name: "thought.AUTOMATIC_MERCY",
-    alias: "Thought: AUTHOMATIC MERCY",
+    name: "thought.AUTOMATIC MERCY",
+    alias: "Thought: Authomatic Mercy",
     parent: "topic.ATTITUDE",
     tags: ["spirituality", "mercy", "hatred", "gospel", "life"],
     level: 3
 });
 
 CREATE (c:CONTENT {
-    name: "content.AUTOMATIC_MERCY",
+    name: "content.AUTOMATIC MERCY",
     ctype: "THOUGHT",
-    en_title: "AUTHOMATIC MERCY",
+    en_title: "Authomatic Mercy",
     en_content: "God’s love for sinners doesn’t negate His utter hatred of sin. Mercy is neither owed nor deserved and should NEVER be presumed.",
     es_title: "MISERICORDIA AUTOMATICA",
     es_content: "El amor de Dios por los pecadores no niega su odio total hacia el pecado. La misericordia no se debe ni se merece y NUNCA se debe presumir.",
@@ -36,11 +36,11 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = "thought.AUTOMATIC_MERCY" AND c.name = "content.AUTOMATIC_MERCY"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.AUTOMATIC_MERCY"}]->(c);
+WHERE t.name = "thought.AUTOMATIC MERCY" AND c.name = "content.AUTOMATIC MERCY"
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.AUTOMATIC MERCY"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "topic.ATTITUDE" AND child.name = "thought.AUTOMATIC_MERCY"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.ATTITUDE->AUTOMATIC_MERCY"}]->(child);
+WHERE parent.name = "topic.ATTITUDE" AND child.name = "thought.AUTOMATIC MERCY"
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.ATTITUDE->AUTOMATIC MERCY"}]->(child);
 ```

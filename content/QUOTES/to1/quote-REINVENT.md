@@ -1,7 +1,7 @@
 ---
 type: QUOTE
 name: "quote.REINVENT"
-alias: "Quote: Quote: REINVENT"
+alias: "Quote: Reinvent"
 parent: "topic.GRACE"
 en_content: "It would be completely unnecessary (and a waste of time) for me to try to accomplish what God has already done for me",
  es_title: "Cita: REINVENTARSE",
@@ -22,7 +22,7 @@ neo4j: true
 // CREATE QUOTE
 CREATE (q:QUOTE {
     name: "quote.REINVENT",
-    alias: "Quote: Quote: REINVENT",
+    alias: "Quote: Reinvent",
     parent: "topic.GRACE",
     tags: ["gift", "grace", "accomplish", "effort", "duplicate"],
     source: "'The Traveler's Oasis, Book One'",
@@ -34,7 +34,7 @@ CREATE (q:QUOTE {
 CREATE (c:CONTENT {
     name: "content.REINVENT",
     ctype: "QUOTE",
-    en_title: "Quote: REINVENT",
+    en_title: "Reinvent",
     en_content: "It would be completely unnecessary (and a waste of time) for me to try to accomplish what God has already done for me",
  es_title: "Cita: REINVENTARSE",
  es_content: "Sería completamente innecesario (y una pérdida de tiempo) para mí intentar lograr lo que Dios ya ha hecho por mí.",

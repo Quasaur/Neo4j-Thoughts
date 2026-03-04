@@ -1,7 +1,7 @@
 ---
 type: QUOTE
 name: "quote.GENIUS"
-alias: "Quote: Quote: GENIUS"
+alias: "Quote: Genius"
 parent: "topic.UNDERSTANDING"
 en_content: "Genius, like patience or temperance, is a SPIRITUAL attribute that can be acquired at any point in the life by either the Sovereignty of God or by simply asking God for it.",
  es_title: "Cita: GENIO",
@@ -22,7 +22,7 @@ neo4j: true
 // CREATE QUOTE
 CREATE (q:QUOTE {
     name: "quote.GENIUS",
-    alias: "Quote: Quote: GENIUS",
+    alias: "Quote: Genius",
     parent: "topic.UNDERSTANDING",
     tags: ["gift", "grace", "accomplish", "effort", "duplicate"],
     source: "'The Traveler's Oasis, Book Three'",
@@ -34,7 +34,7 @@ CREATE (q:QUOTE {
 CREATE (c:CONTENT {
     name: "content.GENIUS",
     ctype: "QUOTE",
-    en_title: "Quote: GENIUS",
+    en_title: "Genius",
     en_content: "Genius, like patience or temperance, is a SPIRITUAL attribute that can be acquired at any point in the life by either the Sovereignty of God or by simply asking God for it.",
  es_title: "Cita: GENIO",
  es_content: "El genio, como la paciencia o la templanza, es un atributo ESPIRITUAL que se puede adquirir en cualquier momento de la vida ya sea por la Soberanía de Dios o simplemente pidiéndola a Dios.",

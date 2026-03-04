@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
-name: "thought.HOME_SWEET_HOME"
-alias: "Thought: HOME, SWEET HOME"
+name: "thought.HOME SWEET HOME"
+alias: "Thought: Home, Sweet Home"
 parent: "topic.THE-GOSPEL"
 en_content: "GOD is my Home...and I am His!"
 tags: ["home", "sweet", "safety", "fellowship", "godhead"]
@@ -12,17 +12,17 @@ neo4j: true
 
 ```Cypher
 CREATE (t:THOUGHT {
-    name: "thought.HOME_SWEET_HOME",
-    alias: "Thought: HOME, SWEET HOME",
+    name: "thought.HOME SWEET HOME",
+    alias: "Thought: Home, Sweet Home",
     parent: "topic.THE-GOSPEL",
     tags: ["home", "sweet", "safety", "fellowship", "godhead"],
     level: 2
 });
 
 CREATE (c:CONTENT {
-    name: "content.HOME_SWEET_HOME",
+    name: "content.HOME SWEET HOME",
     ctype: "THOUGHT",
-    en_title: "HOME, SWEET HOME",
+    en_title: "Home, Sweet Home",
     en_content: "GOD is my Home...and I am His!",
     es_title: "HOGAR DULCE HOGAR",
     es_content: "DIOS es mi Hogar...y yo soy Suyo!",
@@ -36,11 +36,11 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = "thought.HOME_SWEET_HOME" AND c.name = "content.HOME_SWEET_HOME"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.HOME_SWEET_HOME"}]->(c);
+WHERE t.name = "thought.HOME SWEET HOME" AND c.name = "content.HOME SWEET HOME"
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.HOME SWEET HOME"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "topic.THE-GOSPEL" AND child.name = "thought.HOME_SWEET_HOME"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.THE-GOSPEL->HOME_SWEET_HOME"}]->(child);
+WHERE parent.name = "topic.THE-GOSPEL" AND child.name = "thought.HOME SWEET HOME"
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.THE-GOSPEL->HOME SWEET HOME"}]->(child);
 ```

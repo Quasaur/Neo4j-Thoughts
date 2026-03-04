@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
-name: "thought.TRUE_FAITH"
-alias: "Thought: TRUE FAITH"
+name: "thought.TRUE FAITH"
+alias: "Thought: True Faith"
 parent: "topic.FAITH"
 en_content: "True Faith is believing in God enough to place His Revealed Will above my own."
 tags: ["faith", "trust", "confidence", "obedience", "submission"]
@@ -12,17 +12,17 @@ neo4j: true
 
 ```Cypher
 CREATE (t:THOUGHT {
-    name: "thought.TRUE_FAITH",
-    alias: "Thought: TRUE FAITH",
+    name: "thought.TRUE FAITH",
+    alias: "Thought: True Faith",
     parent: "topic.FAITH",
     tags: ["faith", "trust", "confidence", "obedience", "submission"],
     level: 4
 });
 
 CREATE (c:CONTENT {
-    name: "content.TRUE_FAITH",
+    name: "content.TRUE FAITH",
     ctype: "THOUGHT",
-    en_title: "TRUE FAITH",
+    en_title: "True Faith",
     en_content: "True Faith is believing in God enough to place His Revealed Will above my own.",
     es_title: "FE VERDADERA",
     es_content: "La verdadera fe es creer en Dios lo suficiente como para poner Su Voluntad Revelada por encima de la mía.",
@@ -36,11 +36,11 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = "thought.TRUE_FAITH" AND c.name = "content.TRUE_FAITH"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.TRUE_FAITH"}]->(c);
+WHERE t.name = "thought.TRUE FAITH" AND c.name = "content.TRUE FAITH"
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.TRUE FAITH"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "topic.FAITH" AND child.name = "thought.TRUE_FAITH"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.FAITH->TRUE_FAITH"}]->(child);
+WHERE parent.name = "topic.FAITH" AND child.name = "thought.TRUE FAITH"
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.FAITH->TRUE FAITH"}]->(child);
 ```

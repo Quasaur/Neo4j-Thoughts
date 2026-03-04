@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
 name: "thought.PERSEVERANCE"
-alias: "Thought: PERSEVERANCE"
+alias: "Thought: Perseverance"
 parent: "topic.ATTITUDE"
 tags: ["persistence", "failure", "quitting", "consequence", "success"]
 ptopic: "[[topic-ATTITUDE]]"
@@ -12,7 +12,7 @@ neo4j: true
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.PERSEVERANCE",
-    alias: "Thought: PERSEVERANCE",
+    alias: "Thought: Perseverance",
     parent: "topic.ATTITUDE",
     tags: ["persistence", "failure", "quitting", "consequence", "success"],
     level: 3
@@ -21,7 +21,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.PERSEVERANCE",
     ctype: "THOUGHT",
-    en_title: "PERSEVERANCE",
+    en_title: "Perseverance",
  es_title: "PERSERVERANCIA",
  fr_title: "PERSÉVÉRANCE",
  hi_title: "दृढ़ता",

@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
 name: "thought.BENEFICIARIES"
-alias: "Thought: BENEFICIARIES"
+alias: "Thought: Beneficiaries"
 parent: "topic.EVANGELISM"
 tags: ["interpersonal", "encounter", "daily", "victims", "beneficiaries"]
 ptopic: "[[topic-EVANGELISM]]"
@@ -12,7 +12,7 @@ neo4j: true
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.BENEFICIARIES",
-    alias: "Thought: BENEFICIARIES",
+    alias: "Thought: Beneficiaries",
     parent: "topic.EVANGELISM",
     tags: ["interpersonal", "encounter", "daily", "victims", "beneficiaries"],
     level: 3
@@ -21,7 +21,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.BENEFICIARIES",
     ctype: "THOUGHT",
-    en_title: "BENEFICIARIES",
+    en_title: "Beneficiaries",
     en_content: "Those I encounter in my everyday life are either victims or beneficiaries of my relationship with God.",
  es_title: "BENEFICIARIOS",
  es_content: "Aquellos con los que me encuentro en mi vida diaria son víctimas o beneficiarios de mi relación con Dios.",

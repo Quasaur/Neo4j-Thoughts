@@ -24,7 +24,7 @@ CREATE (p:PASSAGE {	    name: "passage.SECURITY",
 CREATE (c:CONTENT {
 	name: "content.SECURITY",
 	ctype: "PASSAGE",
-	en_title: "SECURITY", 
+	en_title: "Security", 
 	en_content: "But whoever listens to Me (Wisdom) will live securely and will be at ease from the dread of evil.", 
 	es_title: "Seguridad", 
 	es_content: "Pero acuérdate del Señor tu Dios, porque Él te da el poder para hacer las riquezas, a fin de confirmar su pacto que juró a tus padres, como en este día.", 

@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
 name: "thought.HOLY-SPIRIT"
-alias: "Thought: THE HOLY SPIRIT"
+alias: "Thought: The Holy Spirit"
 parent: "topic.THE GODHEAD"
 en_content: "The Holy Spirit is God, and all men must be filled with Him."
 tags: ["holy_spirit", "deity", "god", "fullness", "filling"]
@@ -13,16 +13,16 @@ neo4j: true
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.HOLY-SPIRIT",
-    alias: "Thought: THE HOLY SPIRIT",
+    alias: "Thought: The Holy Spirit",
     parent: "topic.THE GODHEAD",
     tags: ["holy_spirit", "deity", "god", "fullness", "filling"],
     level: 1
 });
 
 CREATE (c:CONTENT {
-    name: "content.THE_HOLY_SPIRIT",
+    name: "content.THE HOLY SPIRIT",
     ctype: "THOUGHT",
-    en_title: "THE HOLY SPIRIT",
+    en_title: "The Holy Spirit",
     en_content: "The Holy Spirit is God, and all men must be filled with Him.",
     es_title: "EL ESPÍRITU SANTO",
     es_content: "El Espíritu Santo es Dios y todos los hombres deben ser llenos de Él.",
@@ -36,7 +36,7 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = "thought.HOLY-SPIRIT" AND c.name = "content.THE_HOLY_SPIRIT"
+WHERE t.name = "thought.HOLY-SPIRIT" AND c.name = "content.THE HOLY SPIRIT"
 MERGE (t)-[:HAS_CONTENT {name: "t.edge.HOLY-SPIRIT"}]->(c);
 
 MATCH (parent:TOPIC)

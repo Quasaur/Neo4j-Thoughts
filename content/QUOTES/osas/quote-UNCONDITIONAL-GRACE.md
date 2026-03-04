@@ -1,7 +1,7 @@
 ---
 type: QUOTE
-name: "quote.UNCONDITIONAL_GRACE"
-alias: "Quote: Quote: UNCONDITIONAL GRACE"
+name: "quote.UNCONDITIONAL GRACE"
+alias: "Quote: Unconditional Grace"
 parent: "topic.GRACE"
 en_content: "The Purpose of the Gospel is to bring fallen numanity into The Fellowship of The Godhead. And since the Fellowship of The Godhead is Itself unconditional, The Gospel of Grace must also be unconditional.",
  es_title: "Cita: GRACIA INCONDICIONAL",
@@ -21,8 +21,8 @@ neo4j: true
 ```Cypher
 // CREATE QUOTE
 CREATE (q:QUOTE {
-    name: "quote.UNCONDITIONAL_GRACE",
-    alias: "Quote: Quote: UNCONDITIONAL GRACE",
+    name: "quote.UNCONDITIONAL GRACE",
+    alias: "Quote: Unconditional Grace",
     parent: "topic.GRACE",
     tags: ["saved", "understanding", "darkness", "past", "forgotten"],
     source: "'Once Saved, Always Saved: The Assurance of Our Father's LOVE'",
@@ -32,9 +32,9 @@ CREATE (q:QUOTE {
 
 // CREATE CONTENT
 CREATE (c:CONTENT {
-    name: "content.UNCONDITIONAL_GRACE",
+    name: "content.UNCONDITIONAL GRACE",
     ctype: "QUOTE",
-    en_title: "Quote: UNCONDITIONAL GRACE",
+    en_title: "Unconditional Grace",
     en_content: "The Purpose of the Gospel is to bring fallen numanity into The Fellowship of The Godhead. And since the Fellowship of The Godhead is Itself unconditional, The Gospel of Grace must also be unconditional.",
  es_title: "Cita: GRACIA INCONDICIONAL",
  es_content: "El propósito del Evangelio es traer la numanidad caída a la Comunidad de la Divinidad. Y dado que la comunión de la Deidad es en sí misma incondicional, el Evangelio de la Gracia también debe ser incondicional.",
@@ -47,13 +47,13 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (q:QUOTE {name: "quote.UNCONDITIONAL_GRACE"})
-MATCH (c:CONTENT {name: "content.UNCONDITIONAL_GRACE"})
-MERGE (q)-[:HAS_CONTENT {name: "q.edge.UNCONDITIONAL_GRACE"}]->(c);
+MATCH (q:QUOTE {name: "quote.UNCONDITIONAL GRACE"})
+MATCH (c:CONTENT {name: "content.UNCONDITIONAL GRACE"})
+MERGE (q)-[:HAS_CONTENT {name: "q.edge.UNCONDITIONAL GRACE"}]->(c);
 
 // LINK PARENT
 MATCH (parent:TOPIC {name: "topic.GRACE"})
-MATCH (child:QUOTE {name: "quote.UNCONDITIONAL_GRACE"})
-MERGE (parent)-[:HAS_QUOTE {name: "q.edge.GRACE->UNCONDITIONAL_GRACE"}]->(child);
+MATCH (child:QUOTE {name: "quote.UNCONDITIONAL GRACE"})
+MERGE (parent)-[:HAS_QUOTE {name: "q.edge.GRACE->UNCONDITIONAL GRACE"}]->(child);
 
 ```

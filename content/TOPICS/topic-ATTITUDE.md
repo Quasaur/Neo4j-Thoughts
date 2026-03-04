@@ -21,7 +21,7 @@ CREATE (t:TOPIC
 // create multi-lingual description		
 CREATE (d:DESCRIPTION {
 	name: "desc.ATTITUDE", 
-	en_title: "ATTITUDE", 
+	en_title: "Attitude", 
 	en_content: "A feeling, emotion or mental position to a fact or state.", 
 	es_title: "Actitud", 
 	es_content: "Un sentimiento, emoción o posición mental ante un hecho o estado.", 

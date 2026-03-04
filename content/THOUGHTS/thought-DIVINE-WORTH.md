@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
-name: "thought.DIVINE_WORTH"
-alias: "Thought: DIVINE WORTH"
+name: "thought.DIVINE WORTH"
+alias: "Thought: Divine Worth"
 parent: "topic.HOLINESS"
 en_content: "God is holy. Which means that God is worth more than you or I...more than all the life in the cosmos put together."
 tags: ["deity", "holy", "worth", "value", "diine"]
@@ -12,15 +12,15 @@ neo4j: true
 
 ```Cypher
 CREATE (t:THOUGHT {
-    name: "thought.DIVINE_WORTH",
-    alias: "Thought: DIVINE WORTH",
+    name: "thought.DIVINE WORTH",
+    alias: "Thought: Divine Worth",
     parent: "topic.HOLINESS",
     tags: ["deity", "holy", "worth", "value", "diine"],
     level: 2
 });
 
 CREATE (c:CONTENT {
-    name: "content.DIVINE_WORTH",
+    name: "content.DIVINE WORTH",
     ctype: "THOUGHT",
     en_title: "Divine Worth",
     en_content: "God is holy. Which means that God is worth more than you or I...more than all the life in the cosmos put together.",
@@ -36,11 +36,11 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = "thought.DIVINE_WORTH" AND c.name = "content.DIVINE_WORTH"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.DIVINE_WORTH"}]->(c);
+WHERE t.name = "thought.DIVINE WORTH" AND c.name = "content.DIVINE WORTH"
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.DIVINE WORTH"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "topic.HOLINESS" AND child.name = "thought.DIVINE_WORTH"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.HOLINESS->DIVINE_WORTH"}]->(child);
+WHERE parent.name = "topic.HOLINESS" AND child.name = "thought.DIVINE WORTH"
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.HOLINESS->DIVINE WORTH"}]->(child);
 ```

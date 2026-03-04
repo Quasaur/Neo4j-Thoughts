@@ -1,7 +1,7 @@
 ---
 type: QUOTE
 name: "quote.PERFORMANCE"
-alias: "Quote: Quote: PERFORMANCE"
+alias: "Quote: Performance"
 parent: "topic.RELIGION"
 en_content: "Doubt: As long as ANY PART of your Salvation is dependent upon your performance rather than Christ’s Righteousness, you can NEVER be assured of your Eternal Salvation nor of your name’s place in the Lamb’s Book of LIFE.",
  es_title: "Cita: RENDIMIENTO",
@@ -22,7 +22,7 @@ neo4j: true
 // CREATE QUOTE
 CREATE (q:QUOTE {
     name: "quote.PERFORMANCE",
-    alias: "Quote: Quote: PERFORMANCE",
+    alias: "Quote: Performance",
     parent: "topic.RELIGION",
     tags: ["doubt", "performance", "christ", "righteousness", "assurance"],
     source: "'IMMMUNITY to the Lake of Fire: A No-Nonsense Guide'",
@@ -34,7 +34,7 @@ CREATE (q:QUOTE {
 CREATE (c:CONTENT {
     name: "content.PERFORMANCE",
     ctype: "QUOTE",
-    en_title: "Quote: PERFORMANCE",
+    en_title: "Performance",
     en_content: "Doubt: As long as ANY PART of your Salvation is dependent upon your performance rather than Christ’s Righteousness, you can NEVER be assured of your Eternal Salvation nor of your name’s place in the Lamb’s Book of LIFE.",
  es_title: "Cita: RENDIMIENTO",
  es_content: "Duda: Mientras CUALQUIER PARTE de tu Salvación dependa de tu desempeño y no de la Justicia de Cristo, NUNCA podrás estar seguro de tu Salvación Eterna ni del lugar de tu nombre en el Libro de la VIDA del Cordero.",

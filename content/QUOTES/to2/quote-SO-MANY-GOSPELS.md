@@ -1,7 +1,7 @@
 ---
 type: QUOTE
-name: "quote.SO_MANY_GOSPELS"
-alias: "Quote: Quote: SO MANY GOSPELS"
+name: "quote.SO MANY GOSPELS"
+alias: "Quote: So Many Gospels"
 parent: "topic.RELIGION"
 en_content: "The fact is that there are many 'gospels' floating around in religious sects (both Catholic and Protestant, as well as non-Christian esoterics); most of them not really giving any glory to the Lordship of Jesus Christ nor agreeing with the doctrines handed down by those who were witnesses to His Holy Resurrection.",
  es_title: "Cita: TANTOS EVANGELIOS",
@@ -21,8 +21,8 @@ neo4j: true
 ```Cypher
 // CREATE QUOTE
 CREATE (q:QUOTE {
-    name: "quote.SO_MANY_GOSPELS",
-    alias: "Quote: Quote: SO MANY GOSPELS",
+    name: "quote.SO MANY GOSPELS",
+    alias: "Quote: So Many Gospels",
     parent: "topic.RELIGION",
     tags: ["gospels", "False", "religion", "doctrine", "jesus_christ"],
     source: "'The Traveler's Oasis, Book Two'",
@@ -32,9 +32,9 @@ CREATE (q:QUOTE {
 
 // CREATE CONTENT
 CREATE (c:CONTENT {
-    name: "content.SO_MANY_GOSPELS",
+    name: "content.SO MANY GOSPELS",
     ctype: "QUOTE",
-    en_title: "Quote: SO MANY GOSPELS",
+    en_title: "So Many Gospels",
     en_content: "The fact is that there are many 'gospels' floating around in religious sects (both Catholic and Protestant, as well as non-Christian esoterics); most of them not really giving any glory to the Lordship of Jesus Christ nor agreeing with the doctrines handed down by those who were witnesses to His Holy Resurrection.",
  es_title: "Cita: TANTOS EVANGELIOS",
  es_content: "El hecho es que hay muchos 'evangelios' flotando en sectas religiosas (tanto católicas como protestantes, así como esotéricas no cristianas); la mayoría de ellos realmente no dan ninguna gloria al Señorío de Jesucristo ni están de acuerdo con las doctrinas transmitidas por aquellos que fueron testigos de Su Santa Resurrección.",
@@ -47,13 +47,13 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (q:QUOTE {name: "quote.SO_MANY_GOSPELS"})
-MATCH (c:CONTENT {name: "content.SO_MANY_GOSPELS"})
-MERGE (q)-[:HAS_CONTENT {name: "q.edge.SO_MANY_GOSPELS"}]->(c);
+MATCH (q:QUOTE {name: "quote.SO MANY GOSPELS"})
+MATCH (c:CONTENT {name: "content.SO MANY GOSPELS"})
+MERGE (q)-[:HAS_CONTENT {name: "q.edge.SO MANY GOSPELS"}]->(c);
 
 // LINK PARENT
 MATCH (parent:TOPIC {name: "topic.RELIGION"})
-MATCH (child:QUOTE {name: "quote.SO_MANY_GOSPELS"})
-MERGE (parent)-[:HAS_QUOTE {name: "q.edge.RELIGION->SO_MANY_GOSPELS"}]->(child);
+MATCH (child:QUOTE {name: "quote.SO MANY GOSPELS"})
+MERGE (parent)-[:HAS_QUOTE {name: "q.edge.RELIGION->SO MANY GOSPELS"}]->(child);
 
 ```

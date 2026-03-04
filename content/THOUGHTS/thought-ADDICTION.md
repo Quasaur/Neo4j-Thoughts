@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
 name: "thought.ADDICTION"
-alias: "Thought: ADDICTION"
+alias: "Thought: Addiction"
 parent: "topic.PSYCHOLOGY"
 tags: ["sanctification", "addiction", "flesh", "the_cross", "jesus_christ"]
 ptopic: "[[topic-PSYCHOLOGY]]"
@@ -12,7 +12,7 @@ neo4j: true
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.ADDICTION",
-    alias: "Thought: ADDICTION",
+    alias: "Thought: Addiction",
     parent: "topic.PSYCHOLOGY",
     tags: ["sanctification", "addiction", "flesh", "the_cross", "jesus_christ"],
     level: 4
@@ -21,7 +21,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.ADDICTION",
     ctype: "THOUGHT",
-    en_title: "ADDICTION",
+    en_title: "Addiction",
  es_title: "ADICCIÓN",
  fr_title: "DÉPENDANCE",
  hi_title: "लत",

@@ -1,7 +1,7 @@
 ---
 type: PASSAGE
 name: "passage.THE SOURCE OF WISDOM"
-alias: "Passage: THE SOURCE OF WISDOM"
+alias: "Passage: The Source of Wisdom"
 parent: "topic.WISDOM"
 en_content: "For the Lord gives wisdom; From His mouth come knowledge and understanding. He stores up sound wisdom for the upright; He is a shield to those who walk in integrity, Guarding the paths of justice, And He watches over the way of His godly ones."
 tags: ["wisdom", "gift", "knowledge", "understanding", "integrity"]
@@ -15,7 +15,7 @@ neo4j: false
 CREATE (b:PASSAGE
     {
      name: "passage.THE SOURCE OF WISDOM",
-     alias: "Passage: THE SOURCE OF WISDOM", 
+     alias: "Passage: The Source of Wisdom", 
      parent: "topic.WISDOM", 
      tags: ["wisdom", "gift", "knowledge", "understanding", "integrity"], 
      source: "Proverbs 2:6-8",

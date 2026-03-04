@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
-name: "thought.SOL_VELOCITY"
-alias: "Thought: SOL VELOCITY"
+name: "thought.SOL VELOCITY"
+alias: "Thought: Sol Velocity"
 parent: "topic.CREATION"
 en_content: "Creation Wonder: Our Sun is moving at 600,000 miles per hour around the center of the Milky Way galaxy, or 100,000 m.p.h. faster than past calculations!"
 tags: ["sol", "sun", "star", "velocity", "speed"]
@@ -12,17 +12,17 @@ neo4j: true
 
 ```Cypher
 CREATE (t:THOUGHT {
-    name: "thought.SOL_VELOCITY",
-    alias: "Thought: SOL VELOCITY",
+    name: "thought.SOL VELOCITY",
+    alias: "Thought: Sol Velocity",
     parent: "topic.CREATION",
     tags: ["sol", "sun", "star", "velocity", "speed"],
     level: 2
 });
 
 CREATE (c:CONTENT {
-    name: "content.SOL_VELOCITY",
+    name: "content.SOL VELOCITY",
     ctype: "THOUGHT",
-    en_title: "SOL VELOCITY",
+    en_title: "Sol Velocity",
     en_content: "Creation Wonder: Our Sun is moving at 600,000 miles per hour around the center of the Milky Way galaxy, or 100,000 m.p.h. faster than past calculations!",
     es_title: "VELOCIDAD SOLAR",
     es_content: "Maravilla de la creación: Nuestro Sol se mueve a 600.000 millas por hora alrededor del centro de la Vía Láctea, o 100.000 mph. ¡Más rápido que los cálculos anteriores!",
@@ -36,11 +36,11 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = "thought.SOL_VELOCITY" AND c.name = "content.SOL_VELOCITY"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.SOL_VELOCITY"}]->(c);
+WHERE t.name = "thought.SOL VELOCITY" AND c.name = "content.SOL VELOCITY"
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.SOL VELOCITY"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "topic.CREATION" AND child.name = "thought.SOL_VELOCITY"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.CREATION->SOL_VELOCITY"}]->(child);
+WHERE parent.name = "topic.CREATION" AND child.name = "thought.SOL VELOCITY"
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.CREATION->SOL VELOCITY"}]->(child);
 ```

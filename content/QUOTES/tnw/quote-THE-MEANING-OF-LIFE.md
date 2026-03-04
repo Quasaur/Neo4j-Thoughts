@@ -1,7 +1,7 @@
 ---
 type: QUOTE
-name: "quote.THE_MEANING_OF_LIFE"
-alias: "Quote: Quote: The MEANING OF LIFE"
+name: "quote.THE MEANING OF LIFE"
+alias: "Quote: The MEANING OF LIFE"
 parent: "topic.PHILOSOPHY"
 en_content: "Most importantly you will finally meet your Creator; and the moment you gaze into His Piercing Eyes you will realize with relentless clarity that your existence was never about you but was all about Him. He is truly the Center of all attention, the Cause of all excitement, the Objective of all worship, the Fountain of all life, the Nexus of all reality and the Meaning behind all chaos. Even evil itself, as brief a part it played in the panorama of cosmic history, only existed to serve His marvelous Purpose...then to be no more forever.",
  es_title: "Cita: El SENTIDO DE LA VIDA",
@@ -20,8 +20,8 @@ level: 4
 ```Cypher
 // CREATE QUOTE
 CREATE (q:QUOTE {
-    name: "quote.THE_MEANING_OF_LIFE",
-    alias: "Quote: Quote: The MEANING OF LIFE",
+    name: "quote.THE MEANING OF LIFE",
+    alias: "Quote: The MEANING OF LIFE",
     parent: "topic.PHILOSOPHY",
     tags: ["lake_of_fire", "sulfur", "wrath", "torment", "breathless"],
     source: "'The Narrow Way'",
@@ -31,7 +31,7 @@ CREATE (q:QUOTE {
 
 // CREATE CONTENT
 CREATE (c:CONTENT {
-    name: "content.THE_MEANING_OF_LIFE",
+    name: "content.THE MEANING OF LIFE",
     ctype: "QUOTE",
     en_title: "Quote: The MEANING OF LIFE",
     en_content: "Most importantly you will finally meet your Creator; and the moment you gaze into His Piercing Eyes you will realize with relentless clarity that your existence was never about you but was all about Him. He is truly the Center of all attention, the Cause of all excitement, the Objective of all worship, the Fountain of all life, the Nexus of all reality and the Meaning behind all chaos. Even evil itself, as brief a part it played in the panorama of cosmic history, only existed to serve His marvelous Purpose...then to be no more forever.",
@@ -46,13 +46,13 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (q:QUOTE {name: "quote.THE_MEANING_OF_LIFE"})
-MATCH (c:CONTENT {name: "content.THE_MEANING_OF_LIFE"})
-MERGE (q)-[:HAS_CONTENT {name: "q.edge.THE_MEANING_OF_LIFE"}]->(c);
+MATCH (q:QUOTE {name: "quote.THE MEANING OF LIFE"})
+MATCH (c:CONTENT {name: "content.THE MEANING OF LIFE"})
+MERGE (q)-[:HAS_CONTENT {name: "q.edge.THE MEANING OF LIFE"}]->(c);
 
 // LINK PARENT
 MATCH (parent:TOPIC {name: "topic.PHILOSOPHY"})
-MATCH (child:QUOTE {name: "quote.THE_MEANING_OF_LIFE"})
-MERGE (parent)-[:HAS_QUOTE {name: "q.edge.PHILOSOPHY->THE_MEANING_OF_LIFE"}]->(child);
+MATCH (child:QUOTE {name: "quote.THE MEANING OF LIFE"})
+MERGE (parent)-[:HAS_QUOTE {name: "q.edge.PHILOSOPHY->THE MEANING OF LIFE"}]->(child);
 
 ```

@@ -1,7 +1,7 @@
 ---
 type: QUOTE
-name: "quote.ONE_WILL"
-alias: "Quote: Quote: ONE WILL"
+name: "quote.ONE WILL"
+alias: "Quote: One Will"
 parent: "topic.DIVINE-SOVEREIGNTY"
 en_content: "Precious Reader, I have experienced The Light of Eternity saturating my being (The Traveler's Oasis: Book One, Chapter 18) and i can tell you that THERE IS ONLY ONE WILL THAT HAS EVER AND WILL EVER EXIST!",
  es_title: "Cita: UNA VOLUNTAD",
@@ -21,8 +21,8 @@ neo4j: true
 ```Cypher
 // CREATE QUOTE
 CREATE (q:QUOTE {
-    name: "quote.ONE_WILL",
-    alias: "Quote: Quote: ONE WILL",
+    name: "quote.ONE WILL",
+    alias: "Quote: One Will",
     parent: "topic.DIVINE-SOVEREIGNTY",
     tags: ["light", "eternity", "onewill", "deity", "sovereignty"],
     source: "'Once Saved, Always Saved: The Assurance of Our Father's LOVE'",
@@ -32,9 +32,9 @@ CREATE (q:QUOTE {
 
 // CREATE CONTENT
 CREATE (c:CONTENT {
-    name: "content.ONE_WILL",
+    name: "content.ONE WILL",
     ctype: "QUOTE",
-    en_title: "Quote: ONE WILL",
+    en_title: "One Will",
     en_content: "Precious Reader, I have experienced The Light of Eternity saturating my being (The Traveler's Oasis: Book One, Chapter 18) and i can tell you that THERE IS ONLY ONE WILL THAT HAS EVER AND WILL EVER EXIST!",
  es_title: "Cita: UNA VOLUNTAD",
  es_content: "Precioso Lector, he experimentado La Luz de la Eternidad saturando mi ser (El Oasis del Viajero: Libro Uno, Capítulo 18) y puedo decirte que ¡SOLO HAY UNA VOLUNTAD QUE SIEMPRE HA EXISTIDO Y SIEMPRE EXISTIRÁ!",
@@ -47,13 +47,13 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (q:QUOTE {name: "quote.ONE_WILL"})
-MATCH (c:CONTENT {name: "content.ONE_WILL"})
-MERGE (q)-[:HAS_CONTENT {name: "q.edge.ONE_WILL"}]->(c);
+MATCH (q:QUOTE {name: "quote.ONE WILL"})
+MATCH (c:CONTENT {name: "content.ONE WILL"})
+MERGE (q)-[:HAS_CONTENT {name: "q.edge.ONE WILL"}]->(c);
 
 // LINK PARENT
 MATCH (parent:TOPIC {name: "topic.DIVINE-SOVEREIGNTY"})
-MATCH (child:QUOTE {name: "quote.ONE_WILL"})
-MERGE (parent)-[:HAS_QUOTE {name: "q.edge.DIVINE-SOVEREIGNTY->ONE_WILL"}]->(child);
+MATCH (child:QUOTE {name: "quote.ONE WILL"})
+MERGE (parent)-[:HAS_QUOTE {name: "q.edge.DIVINE-SOVEREIGNTY->ONE WILL"}]->(child);
 
 ```

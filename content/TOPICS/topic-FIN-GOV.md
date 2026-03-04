@@ -23,7 +23,7 @@ CREATE (t:TOPIC {
 // CREATE DESCRIPTION
 CREATE (d:DESCRIPTION {
     name: "desc.FIN-GOV",
-    en_title: "GOVERNMENT-FINANCE",
+    en_title: "Government-finance",
     en_content: "Government finances include revenues, expenditures (spending), debt, and assets (cash and security holdings).",
     es_title: "FINANZAS DEL GOBIERNO",
     es_content: "Las finanzas del gobierno incluyen ingresos, gastos, deuda y activos (efectivo y tenencias de valores).",

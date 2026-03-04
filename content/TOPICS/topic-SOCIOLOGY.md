@@ -23,7 +23,7 @@ CREATE (t:TOPIC {
 // CREATE DESCRIPTION
 CREATE (d:DESCRIPTION {
     name: "desc.SOCIOLOGY",
-    en_title: "SOCIOLOGY",
+    en_title: "Sociology",
     en_content: "The science of society, social institutions, and social relationships.",
     es_title: "SOCIOLOGÍA",
     es_content: "La ciencia de la sociedad, las instituciones sociales y las relaciones sociales.",

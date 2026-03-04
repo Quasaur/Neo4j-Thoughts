@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
 name: "thought.FIGMENTS"
-alias: "Thought: FIGMENTS"
+alias: "Thought: Figments"
 parent: "topic.CREATION"
 tags: ["imagination", "fables", "lessreal", "fictitious", "created"]
 ptopic: "[[topic-CREATION]]"
@@ -12,7 +12,7 @@ neo4j: true
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.FIGMENTS",
-    alias: "Thought: FIGMENTS",
+    alias: "Thought: Figments",
     parent: "topic.CREATION",
     tags: ["imagination", "fables", "lessreal", "fictitious", "created"],
     level: 2
@@ -21,7 +21,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.FIGMENTS",
     ctype: "THOUGHT",
-    en_title: "FIGMENTS",
+    en_title: "Figments",
  es_title: "FIGMENTOS",
  fr_title: "FIGURES",
  hi_title: "चित्र",

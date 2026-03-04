@@ -1,30 +1,30 @@
 ---
 type: THOUGHT
-name: "\"thought.INVITE_OR_COMMAND?\""
-alias: "Thought: INVITE OR COMMAND"
-parent: "\"topic.THE-GOSPEL\""
+name: "thought.INVITE OR COMMAND?"
+alias: "Thought: Invite or Command"
+parent: "topic.THE-GOSPEL"
 en_content: |
   In American churches people are INVITED to receive the Gospel; this is a un-Biblical heresy.
   God COMMANDS all people to repent and believe the Gospel.
   Acts 17:30,31"
 tags: ["repent", "invite", "command", "gospel", "judgment"]
-ptopic: "\"[[topic-THE-GOSPEL]]\""
+ptopic: "[[topic-THE-GOSPEL]]"
 level: 2
 neo4j: true
 ---
 ```Cypher
 CREATE (t:THOUGHT {
-    name: "\"thought.INVITE_OR_COMMAND?\"",
-    alias: "Thought: INVITE OR COMMAND",
-    parent: "\"topic.THE-GOSPEL\"",
+    name: "thought.INVITE OR COMMAND?",
+    alias: "Thought: Invite or Command",
+    parent: "topic.THE-GOSPEL",
     tags: ["repent", "invite", "command", "gospel", "judgment"],
     level: 2
 });
 
 CREATE (c:CONTENT {
-    name: "content.INVITE_OR_COMMAND?",
+    name: "content.INVITE OR COMMAND?",
     ctype: "THOUGHT",
-    en_title: "INVITE OR COMMAND",
+    en_title: "Invite or Command",
     en_content: "In American churches people are INVITED to receive the Gospel; this is a un-Biblical heresy.
 God COMMANDS all people to repent and believe the Gospel.
 Acts 17:30,31",
@@ -48,11 +48,11 @@ Actes 17:30,31",
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = "\"thought.INVITE_OR_COMMAND?\"" AND c.name = "content.INVITE_OR_COMMAND?"
-MERGE (t)-[:HAS_CONTENT {name: "edge.INVITE_OR_COMMAND?"}]->(c);
+WHERE t.name = "thought.INVITE OR COMMAND?" AND c.name = "content.INVITE OR COMMAND?"
+MERGE (t)-[:HAS_CONTENT {name: "edge.INVITE OR COMMAND?"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "\"topic.THE-GOSPEL\"" AND child.name = "\"thought.INVITE_OR_COMMAND?\""
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.THE-GOSPEL->INVITE_OR_COMMAND?"}]->(child);
+WHERE parent.name = "topic.THE-GOSPEL" AND child.name = "thought.INVITE OR COMMAND?"
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.THE-GOSPEL->INVITE OR COMMAND?"}]->(child);
 ```

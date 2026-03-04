@@ -1,7 +1,7 @@
 ---
 type: QUOTE
 name: "quote.SELF-SACRIFICE"
-alias: "Quote: Quote: SELF-SACRIFICE"
+alias: "Quote: Self-sacrifice"
 parent: "topic.HUMILITY"
 en_content: "Did i drift off topic, Dear Reader? Not at all; the spirit of worship, obedience and self-sacrifice for the Glory of GOD is the product of True, Divinely-given Faith that exists in the heart, and not just the mind. GOD gave up That which was EVERYTHING to Him to love you; and if you truly desire to be filled with His Holy Spirit, That Selfsame Member of the Eternal GODHEAD will inspire you to the same level of self-sacrificial love we see in Christ Himself.",
  es_title: "Cita: AUTOSACRIFICIO",
@@ -22,7 +22,7 @@ neo4j: true
 // CREATE QUOTE
 CREATE (q:QUOTE {
     name: "quote.SELF-SACRIFICE",
-    alias: "Quote: Quote: SELF-SACRIFICE",
+    alias: "Quote: Self-sacrifice",
     parent: "topic.HUMILITY",
     tags: ["self_sacrifice", "submission", "offering", "love", "christfirst"],
     source: "'The Narrow Way'",
@@ -34,7 +34,7 @@ CREATE (q:QUOTE {
 CREATE (c:CONTENT {
     name: "content.SELF-SACRIFICE",
     ctype: "QUOTE",
-    en_title: "Quote: SELF-SACRIFICE",
+    en_title: "Self-sacrifice",
     en_content: "Did i drift off topic, Dear Reader? Not at all; the spirit of worship, obedience and self-sacrifice for the Glory of GOD is the product of True, Divinely-given Faith that exists in the heart, and not just the mind. GOD gave up That which was EVERYTHING to Him to love you; and if you truly desire to be filled with His Holy Spirit, That Selfsame Member of the Eternal GODHEAD will inspire you to the same level of self-sacrificial love we see in Christ Himself.",
  es_title: "Cita: AUTOSACRIFICIO",
  es_content: "¿Me desvié del tema, querido lector? De nada; El espíritu de adoración, obediencia y autosacrificio para la Gloria de DIOS es el producto de la Fe Verdadera y Divina que existe en el corazón, y no solo en la mente. DIOS entregó Aquello que era TODO para Él para amarte; y si realmente deseas ser lleno de Su Espíritu Santo, Ese Mismo Miembro de la DIOS Eterna te inspirará al mismo nivel de amor abnegado que vemos en Cristo mismo.",

@@ -1,30 +1,30 @@
 ---
 type: THOUGHT
-name: "\"thought.SCIENCE_CONSPIRACY\""
-alias: "Thought: SCIENCE CONSPIRACY"
-parent: "\"topic.COSMOLOGY\""
+name: "thought.SCIENCE CONSPIRACY"
+alias: "Thought: Science Conspiracy"
+parent: "topic.COSMOLOGY"
 en_content: |
   The gods of the scientific community have deceived us: Einstein’s special and general theories of relativity CONTRADICT each other: either the speed of light is unchangeable or the Earth is, in fact, the center of the known universe!
   Michelson’s two experiments verify the existence of the ETHER…nullifying special relativity entirely!
   A standard model based on a geocentric universe is less complicated, makes more sense and eliminates the need for “dark” matter & energy. “NOTHING”, BY DEFINITION, DOES NOT EXIST.
 tags: ["science", "cosmology", "geocentricity", "michelson", "creationism"]
-ptopic: "\"[[topic-COSMOLOGY]]\""
+ptopic: "[[topic-COSMOLOGY]]"
 level: 4
 neo4j: true
 ---
 ```Cypher
 CREATE (t:THOUGHT {
-    name: "\"thought.SCIENCE_CONSPIRACY\"",
-    alias: "Thought: SCIENCE CONSPIRACY",
+    name: "thought.SCIENCE CONSPIRACY",
+    alias: "Thought: Science Conspiracy",
     parent: "topic.COSMOLOGY",
     tags: ["science", "cosmology", "geocentricity", "michelson", "creationism"],
     level: 4
 });
 
 CREATE (c:CONTENT {
-    name: "content.SCIENCE_CONSPIRACY",
+    name: "content.SCIENCE CONSPIRACY",
     ctype: "THOUGHT",
-    en_title: "SCIENCE CONSPIRACY",
+    en_title: "Science Conspiracy",
     en_content: "The gods of the scientific community have deceived us: Einstein’s special and general theories of relativity CONTRADICT each other: either the speed of light is unchangeable or the Earth is, in fact, the center of the known universe!
 Michelson’s two experiments verify the existence of the ETHER…nullifying special relativity entirely!
 A standard model based on a geocentric universe is less complicated, makes more sense and eliminates the need for “dark” matter & energy. “NOTHING”, BY DEFINITION, DOES NOT EXIST.",
@@ -48,11 +48,11 @@ Un modèle standard basé sur un univers géocentrique est moins compliqué, a p
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = "thought.SCIENCE_CONSPIRACY" AND c.name = "content.SCIENCE_CONSPIRACY"
-MERGE (t)-[:HAS_CONTENT {name: "edge.SCIENCE_CONSPIRACY"}]->(c);
+WHERE t.name = "thought.SCIENCE CONSPIRACY" AND c.name = "content.SCIENCE CONSPIRACY"
+MERGE (t)-[:HAS_CONTENT {name: "edge.SCIENCE CONSPIRACY"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "topic.COSMOLOGY" AND child.name = "thought.SCIENCE_CONSPIRACY"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.COSMOLOGY->SCIENCE_CONSPIRACY"}]->(child);
+WHERE parent.name = "topic.COSMOLOGY" AND child.name = "thought.SCIENCE CONSPIRACY"
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.COSMOLOGY->SCIENCE CONSPIRACY"}]->(child);
 ```

@@ -1,7 +1,7 @@
 ---
 type: QUOTE
-name: "quote.HEIR_OF_GOD!"
-alias: "Quote: Quote: HEIR OF GOD!"
+name: "quote.HEIR OF GOD!"
+alias: "Quote: Heir of God!"
 parent: "topic.THE-GOSPEL"
 en_content: "Thankfully, GOD has looked upon your situation with compassion and is not only offering you an escape from His Wrath, but a priceless opportunity TO BECOME HIS HEIR!!! All the 'heavy lifting' has been done for you, yet you must set your heart to follow Your Creator (GOD The Word, incarnated as Jesus the Messiah) back to the Father of all spirits and NOT LOOK BACK on the familiar life you were born into.",
  es_title: "Cita: ¡HEREDERO DE DIOS!",
@@ -20,8 +20,8 @@ level: 2
 ```Cypher
 // CREATE QUOTE
 CREATE (q:QUOTE {
-    name: "quote.HEIR_OF_GOD!",
-    alias: "Quote: Quote: HEIR OF GOD!",
+    name: "quote.HEIR OF GOD!",
+    alias: "Quote: Heir of God!",
     parent: "topic.THE-GOSPEL",
     tags: ["heir", "adoption", "son", "daughter", "jesus_christ"],
     source: "'The Narrow Way'",
@@ -31,9 +31,9 @@ CREATE (q:QUOTE {
 
 // CREATE CONTENT
 CREATE (c:CONTENT {
-    name: "content.HEIR_OF_GOD!",
+    name: "content.HEIR OF GOD!",
     ctype: "QUOTE",
-    en_title: "Quote: HEIR OF GOD!",
+    en_title: "Heir of God!",
     en_content: "Thankfully, GOD has looked upon your situation with compassion and is not only offering you an escape from His Wrath, but a priceless opportunity TO BECOME HIS HEIR!!! All the 'heavy lifting' has been done for you, yet you must set your heart to follow Your Creator (GOD The Word, incarnated as Jesus the Messiah) back to the Father of all spirits and NOT LOOK BACK on the familiar life you were born into.",
  es_title: "Cita: ¡HEREDERO DE DIOS!",
  es_content: "¡¡¡Afortunadamente, DIOS ha mirado tu situación con compasión y no solo te ofrece un escape de Su ira, sino también una oportunidad invaluable DE CONVERTIRTE EN SU HEREDERO!!! Todo el 'trabajo pesado' ya se ha hecho por ti, pero debes establecer tu corazón para seguir a Tu Creador (DIOS, la Palabra, encarnado como Jesús el Mesías) de regreso al Padre de todos los espíritus y NO MIRAR ATRÁS a la vida familiar en la que naciste.",
@@ -46,13 +46,13 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (q:QUOTE {name: "quote.HEIR_OF_GOD!"})
-MATCH (c:CONTENT {name: "content.HEIR_OF_GOD!"})
-MERGE (q)-[:HAS_CONTENT {name: "q.edge.HEIR_OF_GOD!"}]->(c);
+MATCH (q:QUOTE {name: "quote.HEIR OF GOD!"})
+MATCH (c:CONTENT {name: "content.HEIR OF GOD!"})
+MERGE (q)-[:HAS_CONTENT {name: "q.edge.HEIR OF GOD!"}]->(c);
 
 // LINK PARENT
 MATCH (parent:TOPIC {name: "topic.THE-GOSPEL"})
-MATCH (child:QUOTE {name: "quote.HEIR_OF_GOD!"})
-MERGE (parent)-[:HAS_QUOTE {name: "q.edge.THE-GOSPEL->HEIR_OF_GOD!"}]->(child);
+MATCH (child:QUOTE {name: "quote.HEIR OF GOD!"})
+MERGE (parent)-[:HAS_QUOTE {name: "q.edge.THE-GOSPEL->HEIR OF GOD!"}]->(child);
 
 ```

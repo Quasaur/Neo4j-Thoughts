@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
-name: "thought.THE_TRUE_VINE"
-alias: "Thought: THE TRUE VINE"
+name: "thought.THE TRUE VINE"
+alias: "Thought: The True Vine"
 parent: "topic.SPIRITUALITY"
 en_content: "In the annals of spirituality EVERYTHING points to Jesus Christ."
 tags: ["spirituality", "bible", "jesus_christ", "nexus", "truevine"]
@@ -12,17 +12,17 @@ neo4j: true
 
 ```Cypher
 CREATE (t:THOUGHT {
-    name: "thought.THE_TRUE_VINE",
-    alias: "Thought: THE TRUE VINE",
+    name: "thought.THE TRUE VINE",
+    alias: "Thought: The True Vine",
     parent: "topic.SPIRITUALITY",
     tags: ["spirituality", "bible", "jesus_christ", "nexus", "truevine"],
     level: 2
 });
 
 CREATE (c:CONTENT {
-    name: "content.THE_TRUE_VINE",
+    name: "content.THE TRUE VINE",
     ctype: "THOUGHT",
-    en_title: "THE TRUE VINE",
+    en_title: "The True Vine",
     en_content: "In the annals of spirituality EVERYTHING points to Jesus Christ.",
     es_title: "LA VERDADERA VID",
     es_content: "En los anales de la espiritualidad TODO apunta a Jesucristo.",
@@ -36,11 +36,11 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = "thought.THE_TRUE_VINE" AND c.name = "content.THE_TRUE_VINE"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.THE_TRUE_VINE"}]->(c);
+WHERE t.name = "thought.THE TRUE VINE" AND c.name = "content.THE TRUE VINE"
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.THE TRUE VINE"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "topic.SPIRITUALITY" AND child.name = "thought.THE_TRUE_VINE"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.SPIRITUALITY->THE_TRUE_VINE"}]->(child);
+WHERE parent.name = "topic.SPIRITUALITY" AND child.name = "thought.THE TRUE VINE"
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.SPIRITUALITY->THE TRUE VINE"}]->(child);
 ```

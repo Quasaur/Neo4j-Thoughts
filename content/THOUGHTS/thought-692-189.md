@@ -1,10 +1,10 @@
 ---
 type: THOUGHT
-name: "thought.692_189"
+name: "thought.692, 189"
 alias: "Thought: 692, 189"
 parent: "topic.PSYCHOLOGY"
 en_content: "There have been 692 mass shootings in the U.S. in 2021…</br>…and 189 mass shootings in the U.S.A. this year already…</br>…and it’s just May…</br>…and it’s the Church’s fault.</br>2nd Chronicles 7:14"
-tags: ["massshootings", "gunviolence", "guns", "church", "prayer"]
+tags: ["mass_shootings", "gun_violence", "guns", "church", "prayer"]
 ptopic: "[[topic-PSYCHOLOGY]]"
 level: 4
 neo4j: true
@@ -12,10 +12,10 @@ neo4j: true
 
 ```Cypher
 CREATE (t:THOUGHT {
-    name: "thought.692_189",
+    name: "thought.692, 189",
     alias: "Thought: 692, 189",
     parent: "topic.PSYCHOLOGY",
-    tags: ["massshootings", "gunviolence", "guns", "church", "prayer"],
+    tags: ["mass_shootings", "gun_violence", "guns", "church", "prayer"],
     level: 4
 });
 
@@ -37,10 +37,10 @@ CREATE (c:CONTENT {
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
 WHERE t.name = "thought.692_189" AND c.name = "content.692_189"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.692_189"}]->(c);
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.692 189"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
 WHERE parent.name = "topic.PSYCHOLOGY" AND child.name = "thought.692_189"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.PSYCHOLOGY->692_189"}]->(child);
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.PSYCHOLOGY->692 189"}]->(child);
 ```

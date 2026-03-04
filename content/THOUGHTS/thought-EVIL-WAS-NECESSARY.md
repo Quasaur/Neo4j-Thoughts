@@ -1,29 +1,29 @@
 ---
 type: THOUGHT
-name: "\"thought.EVIL_WAS_NECESSARY\""
-alias: "Thought: EVIL WAS NECESSARY"
-parent: "\"topic.EVIL\""
+name: "thought.EVIL WAS NECESSARY"
+alias: "Thought: Evil Was Necessary"
+parent: "topic.EVIL"
 en_content: |
   …for there was no other way…
   …to sacrifice The Lamb of GOD."
 tags: ["lamb_of_god", "evil", "salvation", "forgiveness", "jesus_christ"]
-ptopic: "\"[[topic-EVIL]]\""
+ptopic: "[[topic-EVIL]]"
 level: 4
 neo4j: true
 ---
 ```Cypher
 CREATE (t:THOUGHT {
-    name: "\"thought.EVIL_WAS_NECESSARY\"",
-    alias: "Thought: EVIL WAS NECESSARY",
+    name: "thought.EVIL WAS NECESSARY",
+    alias: "Thought: Evil Was Necessary",
     parent: "topic.EVIL",
     tags: ["lamb_of_god", "evil", "salvation", "forgiveness", "jesus_christ"],
     level: 4
 });
 
 CREATE (c:CONTENT {
-    name: "content.EVIL_WAS_NECESSARY",
+    name: "content.EVIL WAS NECESSARY",
     ctype: "THOUGHT",
-    en_title: "EVIL WAS NECESSARY",
+    en_title: "Evil Was Necessary",
     en_content: "…for there was no other way…
 …to sacrifice The Lamb of GOD.",
     es_title: "EL MAL ERA NECESARIO",
@@ -42,11 +42,11 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = "thought.EVIL_WAS_NECESSARY" AND c.name = "content.EVIL_WAS_NECESSARY"
-MERGE (t)-[:HAS_CONTENT {name: "edge.EVIL_WAS_NECESSARY"}]->(c);
+WHERE t.name = "thought.EVIL WAS NECESSARY" AND c.name = "content.EVIL WAS NECESSARY"
+MERGE (t)-[:HAS_CONTENT {name: "edge.EVIL WAS NECESSARY"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "topic.EVIL" AND child.name = "thought.EVIL_WAS_NECESSARY"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.EVIL->EVIL_WAS_NECESSARY"}]->(child);
+WHERE parent.name = "topic.EVIL" AND child.name = "thought.EVIL WAS NECESSARY"
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.EVIL->EVIL WAS NECESSARY"}]->(child);
 ```

@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
-name: "thought.PROSPERITY_NOW"
-alias: "Thought: PROSPERITY NOW"
+name: "thought.PROSPERITY NOW"
+alias: "Thought: Prosperity Now"
 parent: "topic.RELIGION"
 en_content: "If the itinerary of our lives is in our hands instead of God’s, then prayer is no longer supplication, but sorcery."
 tags: ["prosperity", "faith", "prayer", "supplication", "sorcery"]
@@ -12,17 +12,17 @@ neo4j: true
 
 ```Cypher
 CREATE (t:THOUGHT {
-    name: "thought.PROSPERITY_NOW",
-    alias: "Thought: PROSPERITY NOW",
+    name: "thought.PROSPERITY NOW",
+    alias: "Thought: Prosperity Now",
     parent: "topic.RELIGION",
     tags: ["prosperity", "faith", "prayer", "supplication", "sorcery"],
     level: 4
 });
 
 CREATE (c:CONTENT {
-    name: "content.PROSPERITY_NOW",
+    name: "content.PROSPERITY NOW",
     ctype: "THOUGHT",
-    en_title: "PROSPERITY NOW",
+    en_title: "Prosperity Now",
     en_content: "If the itinerary of our lives is in our hands instead of God’s, then prayer is no longer supplication, but sorcery.",
     es_title: "PROSPERIDAD AHORA",
     es_content: "Si el itinerario de nuestra vida está en nuestras manos y no en las de Dios, entonces la oración ya no es súplica, sino brujería.",
@@ -36,11 +36,11 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = "thought.PROSPERITY_NOW" AND c.name = "content.PROSPERITY_NOW"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.PROSPERITY_NOW"}]->(c);
+WHERE t.name = "thought.PROSPERITY NOW" AND c.name = "content.PROSPERITY NOW"
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.PROSPERITY NOW"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "topic.RELIGION" AND child.name = "thought.PROSPERITY_NOW"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.RELIGION->PROSPERITY_NOW"}]->(child);
+WHERE parent.name = "topic.RELIGION" AND child.name = "thought.PROSPERITY NOW"
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.RELIGION->PROSPERITY NOW"}]->(child);
 ```

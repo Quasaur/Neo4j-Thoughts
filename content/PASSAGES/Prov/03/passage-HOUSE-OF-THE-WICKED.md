@@ -24,7 +24,7 @@ CREATE (p:PASSAGE {	    name: "passage.HOUSE OF THE WICKED",
 CREATE (c:CONTENT {
 	name: "content.HOUSE OF THE WICKED",
 	ctype: "PASSAGE",
-	en_title: "HOUSE OF THE WICKED", 
+	en_title: "House of the Wicked", 
 	en_content: "The Lord's curse is on the house of the wicked, but He blesses the dwelling of the righteous.", 
 	es_title: "La casa de los malvados", 
 	es_content: "La maldición del Señor recae sobre la casa de los malvados, pero bendice la morada de los justos.", 

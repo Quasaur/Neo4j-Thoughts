@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
-name: "thought.ROYAL_DIET"
-alias: "Thought: DIET01"
+name: "thought.ROYAL DIET"
+alias: "Thought: Diet01"
 parent: "topic.HEALTH"
 en_content: "Eat breakfast like a king | queen; eat lunch like a prince | princess; eat dinner like a pauper. - Brian Tracy"
 tags: ["breakfast", "lunch", "dinner", "king", "prince"]
@@ -12,17 +12,17 @@ neo4j: true
 
 ```Cypher
 CREATE (t:THOUGHT {
-    name: "thought.ROYAL_DIET",
-    alias: "Thought: DIET01",
+    name: "thought.ROYAL DIET",
+    alias: "Thought: Diet01",
     parent: "topic.HEALTH",
     tags: ["breakfast", "lunch", "dinner", "king", "prince"],
     level: 4
 });
 
 CREATE (c:CONTENT {
-    name: "content.ROYAL_DIET",
+    name: "content.ROYAL DIET",
     ctype: "THOUGHT",
-    en_title: "DIET01",
+    en_title: "Diet01",
     en_content: "Eat breakfast like a king | queen; eat lunch like a prince | princess; eat dinner like a pauper. - Brian Tracy",
     es_title: "DIETA01",
     es_content: "Desayuna como un rey | reina; almorzar como un príncipe | princesa; cenar como un pobre. -Brian Tracy",
@@ -36,11 +36,11 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = "thought.ROYAL_DIET" AND c.name = "content.ROYAL_DIET"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.ROYAL_DIET"}]->(c);
+WHERE t.name = "thought.ROYAL DIET" AND c.name = "content.ROYAL DIET"
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.ROYAL DIET"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "topic.HEALTH" AND child.name = "thought.ROYAL_DIET"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.HEALTH->ROYAL_DIET"}]->(child);
+WHERE parent.name = "topic.HEALTH" AND child.name = "thought.ROYAL DIET"
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.HEALTH->ROYAL DIET"}]->(child);
 ```

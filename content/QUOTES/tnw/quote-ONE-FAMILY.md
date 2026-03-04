@@ -1,7 +1,7 @@
 ---
 type: QUOTE
-name: "quote.ONE_FAMILY"
-alias: "Quote: Quote: ONE FAMILY"
+name: "quote.ONE FAMILY"
+alias: "Quote: One Family"
 parent: "topic.THE-GOSPEL"
 en_content: "GOD created the human family with the intent of filling its members with the SAME FULLNESS His Divine Family enjoys; since the advent of sin, however, humans have conspired with demons to so darken that which was designed to be glorious that the Presence of Divinity would be temporarily forced out.",
  es_title: "Cita: UNA FAMILIA",
@@ -21,8 +21,8 @@ neo4j: true
 ```Cypher
 // CREATE QUOTE
 CREATE (q:QUOTE {
-    name: "quote.ONE_FAMILY",
-    alias: "Quote: Quote: ONE FAMILY",
+    name: "quote.ONE FAMILY",
+    alias: "Quote: One Family",
     parent: "topic.THE-GOSPEL",
     tags: ["tribe", "clan", "family", "united", "jesus_christ"],
     source: "'The Narrow Way'",
@@ -32,9 +32,9 @@ CREATE (q:QUOTE {
 
 // CREATE CONTENT
 CREATE (c:CONTENT {
-    name: "content.ONE_FAMILY",
+    name: "content.ONE FAMILY",
     ctype: "QUOTE",
-    en_title: "Quote: ONE FAMILY",
+    en_title: "One Family",
     en_content: "GOD created the human family with the intent of filling its members with the SAME FULLNESS His Divine Family enjoys; since the advent of sin, however, humans have conspired with demons to so darken that which was designed to be glorious that the Presence of Divinity would be temporarily forced out.",
  es_title: "Cita: UNA FAMILIA",
  es_content: "DIOS creó la familia humana con la intención de llenar a sus miembros de la MISMA PLENITUD de la que disfruta Su Divina Familia; Sin embargo, desde la llegada del pecado, los humanos han conspirado con los demonios para oscurecer tanto lo que fue diseñado para ser glorioso que la Presencia de la Divinidad sería temporalmente expulsada.",
@@ -47,13 +47,13 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (q:QUOTE {name: "quote.ONE_FAMILY"})
-MATCH (c:CONTENT {name: "content.ONE_FAMILY"})
-MERGE (q)-[:HAS_CONTENT {name: "q.edge.ONE_FAMILY"}]->(c);
+MATCH (q:QUOTE {name: "quote.ONE FAMILY"})
+MATCH (c:CONTENT {name: "content.ONE FAMILY"})
+MERGE (q)-[:HAS_CONTENT {name: "q.edge.ONE FAMILY"}]->(c);
 
 // LINK PARENT
 MATCH (parent:TOPIC {name: "topic.THE-GOSPEL"})
-MATCH (child:QUOTE {name: "quote.ONE_FAMILY"})
-MERGE (parent)-[:HAS_QUOTE {name: "q.edge.THE-GOSPEL->ONE_FAMILY"}]->(child);
+MATCH (child:QUOTE {name: "quote.ONE FAMILY"})
+MERGE (parent)-[:HAS_QUOTE {name: "q.edge.THE-GOSPEL->ONE FAMILY"}]->(child);
 
 ```

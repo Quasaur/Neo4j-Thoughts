@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
 name: "thought.DUST"
-alias: "Thought: DUST"
+alias: "Thought: Dust"
 parent: "topic.ATTITUDE"
 tags: ["dust", "humanity", "humility", "worth", "dirt"]
 ptopic: "[[topic-ATTITUDE]]"
@@ -12,7 +12,7 @@ neo4j: true
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.DUST",
-    alias: "Thought: DUST",
+    alias: "Thought: Dust",
     parent: "topic.ATTITUDE",
     tags: ["dust", "humanity", "humility", "worth", "dirt"],
     level: 3
@@ -21,7 +21,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.DUST",
     ctype: "THOUGHT",
-    en_title: "DUST",
+    en_title: "Dust",
  es_title: "POLVO",
  fr_title: "POUSSIÈRE",
  hi_title: "धूल",

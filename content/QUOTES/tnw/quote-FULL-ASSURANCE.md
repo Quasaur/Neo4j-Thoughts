@@ -1,7 +1,7 @@
 ---
 type: QUOTE
-name: "quote.FULL_ASSURANCE"
-alias: "Quote: Quote: FULL ASSURANCE"
+name: "quote.FULL ASSURANCE"
+alias: "Quote: Full Assurance"
 parent: "topic.GRACE"
 en_content: "i know that KNOWING that you're going to be Saved from the Wrath of GOD is declared heresy by the Roman Catholic Church; if you STUDY A RELIABLE TRANSLATION OF THE BIBLE, however, you will see that GOD wants you to be assured and confident of your eternal destiny ([1 John 5:13-15](https://www.biblegateway.com/passage/?search=1+John+5%3A13-15&version=KJV))",
  es_title: "Cotización: PLENA SEGURIDAD",
@@ -21,8 +21,8 @@ neo4j: true
 ```Cypher
 // CREATE QUOTE
 CREATE (q:QUOTE {
-    name: "quote.FULL_ASSURANCE",
-    alias: "Quote: Quote: FULL ASSURANCE",
+    name: "quote.FULL ASSURANCE",
+    alias: "Quote: Full Assurance",
     parent: "topic.GRACE",
     tags: ["knowing", "confidence", "guarantee", "holy_spirit", "divine_witness"],
     source: "'The Narrow Way'",
@@ -32,9 +32,9 @@ CREATE (q:QUOTE {
 
 // CREATE CONTENT
 CREATE (c:CONTENT {
-    name: "content.FULL_ASSURANCE",
+    name: "content.FULL ASSURANCE",
     ctype: "QUOTE",
-    en_title: "Quote: FULL ASSURANCE",
+    en_title: "Full Assurance",
     en_content: "i know that KNOWING that you're going to be Saved from the Wrath of GOD is declared heresy by the Roman Catholic Church; if you STUDY A RELIABLE TRANSLATION OF THE BIBLE, however, you will see that GOD wants you to be assured and confident of your eternal destiny ([1 John 5:13-15](https://www.biblegateway.com/passage/?search=1+John+5%3A13-15&version=KJV))",
  es_title: "Cotización: PLENA SEGURIDAD",
  es_content: "Sé que SABER que vas a ser Salvado de la Ira de DIOS es declarado herejía por la Iglesia Católica Romana; sin embargo, si ESTUDIAS UNA TRADUCCIÓN CONFIABLE DE LA BIBLIA, verás que DIOS quiere que tengas seguridad y confianza en tu destino eterno ([1 Juan 5:13-15](https://www.biblegateway.com/passage/?search=1+John+5%3A13-15&version=KJV))",
@@ -47,13 +47,13 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (q:QUOTE {name: "quote.FULL_ASSURANCE"})
-MATCH (c:CONTENT {name: "content.FULL_ASSURANCE"})
-MERGE (q)-[:HAS_CONTENT {name: "q.edge.FULL_ASSURANCE"}]->(c);
+MATCH (q:QUOTE {name: "quote.FULL ASSURANCE"})
+MATCH (c:CONTENT {name: "content.FULL ASSURANCE"})
+MERGE (q)-[:HAS_CONTENT {name: "q.edge.FULL ASSURANCE"}]->(c);
 
 // LINK PARENT
 MATCH (parent:TOPIC {name: "topic.GRACE"})
-MATCH (child:QUOTE {name: "quote.FULL_ASSURANCE"})
-MERGE (parent)-[:HAS_QUOTE {name: "q.edge.GRACE->FULL_ASSURANCE"}]->(child);
+MATCH (child:QUOTE {name: "quote.FULL ASSURANCE"})
+MERGE (parent)-[:HAS_QUOTE {name: "q.edge.GRACE->FULL ASSURANCE"}]->(child);
 
 ```

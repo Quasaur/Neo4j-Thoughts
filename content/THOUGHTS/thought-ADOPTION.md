@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
 name: "thought.ADOPTION"
-alias: "Thought: ADOPTION"
+alias: "Thought: Adoption"
 parent: "topic.THE-GOSPEL"
 tags: ["adoption", "abba", "father", "child_of_god", "everlasting"]
 ptopic: "[[topic-THE-GOSPEL]]"
@@ -12,7 +12,7 @@ neo4j: true
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.ADOPTION",
-    alias: "Thought: ADOPTION",
+    alias: "Thought: Adoption",
     parent: "topic.THE-GOSPEL",
     tags: ["adoption", "abba", "father", "child_of_god", "everlasting"],
     level: 2
@@ -21,7 +21,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.ADOPTION",
     ctype: "THOUGHT",
-    en_title: "ADOPTION",
+    en_title: "Adoption",
  es_title: "ADOPCIÓN",
  fr_title: "ADOPTION",
  hi_title: "दत्तक ग्रहण",

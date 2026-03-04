@@ -21,7 +21,7 @@ CREATE (t:TOPIC
 // create multi-lingual description		
 CREATE (d:DESCRIPTION {
 	name: "desc.The GODHEAD", 
-	en_title: "THE GODHEAD", 
+	en_title: "The Godhead", 
 	en_content: "The Being of God as existing in Three Persons.", 
 	es_title: "La DEIDAD", 
 	es_content: "El Ser de Dios existiendo en Tres Personas.", 

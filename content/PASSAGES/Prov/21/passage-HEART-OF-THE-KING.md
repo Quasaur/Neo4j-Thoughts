@@ -25,7 +25,7 @@ CREATE (b:PASSAGE
 CREATE (c:CONTENT {
 	name: "content.HEART OF THE KING", 
 	ctype: "PASSAGE",
-	en_title: "HEART OF THE KING", 
+	en_title: "Heart of the King", 
 	en_content: "The king’s heart is like channels of water in the Hand of the LORD; He turns it wherever He pleases.", 
 	es_title: "CORAZÓN DEL REY", 
 	es_content: "El corazón del rey es como canales de agua en la mano del Señor; Él lo inclina a donde quiere.", 
@@ -39,7 +39,7 @@ CREATE (c:CONTENT {
 MATCH (b:PASSAGE)
 MATCH (c:CONTENT)
 WHERE b.name = "passage.HEART OF THE KING" AND c.name = "content.HEART OF THE KING"
-MERGE (b)-[:HAS_CONTENT {name: "b.edge.HEART OF THE KING"}]->(c);
+MERGE (b)-[:HAS_CONTENT {name: "p.edge.HEART OF THE KING"}]->(c);
 // link node to parent node
 MATCH (parent:TOPIC {name: "topic.DIVINE SOVEREIGNTY"})
 MATCH (child:PASSAGE {name: "passage.HEART OF THE KING"})

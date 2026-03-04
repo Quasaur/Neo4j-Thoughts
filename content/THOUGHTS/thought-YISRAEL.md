@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
 name: "thought.YISRAEL"
-alias: "Thought: YISRAEL"
+alias: "Thought: Yisrael"
 parent: "topic.HISTORY"
 tags: ["israel", "apartheid", "genocide", "palestinians", "jesus_christ"]
 ptopic: "[[topic-HISTORY]]"
@@ -12,7 +12,7 @@ neo4j: true
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.YISRAEL",
-    alias: "Thought: YISRAEL",
+    alias: "Thought: Yisrael",
     parent: "topic.HISTORY",
     tags: ["israel", "apartheid", "genocide", "palestinians", "jesus_christ"],
     level: 4
@@ -21,7 +21,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.YISRAEL",
     ctype: "THOUGHT",
-    en_title: "YISRAEL",
+    en_title: "Yisrael",
  es_title: "YISRAEL",
  fr_title: "YISRAËL",
  hi_title: "इजरेल",

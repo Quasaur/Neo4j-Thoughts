@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
-name: "thought.US_FOREIGN_POLICY"
-alias: "Thought: DARK US FOREIGN POLICY"
+name: "thought.US FOREIGN POLICY"
+alias: "Thought: Dark Us Foreign Policy"
 parent: "topic.POLITICAL-SCIENCE"
 en_content: "USA foreign policy is imperial, dictatorial, ruthless, dirty, immoral...inevitably invoking the WRATH OF GOD against us all."
 tags: ["usa", "foreignpolicy", "govoverthrow", "wrath_of_god", "threat"]
@@ -12,17 +12,17 @@ neo4j: true
 
 ```Cypher
 CREATE (t:THOUGHT {
-    name: "thought.US_FOREIGN_POLICY",
-    alias: "Thought: DARK US FOREIGN POLICY",
+    name: "thought.US FOREIGN POLICY",
+    alias: "Thought: Dark Us Foreign Policy",
     parent: "topic.POLITICAL-SCIENCE",
     tags: ["usa", "foreignpolicy", "govoverthrow", "wrath_of_god", "threat"],
     level: 4
 });
 
 CREATE (c:CONTENT {
-    name: "content.US_FOREIGN_POLICY",
+    name: "content.US FOREIGN POLICY",
     ctype: "THOUGHT",
-    en_title: "DARK US FOREIGN POLICY",
+    en_title: "Dark Us Foreign Policy",
     en_content: "USA foreign policy is imperial, dictatorial, ruthless, dirty, immoral...inevitably invoking the WRATH OF GOD against us all.",
     es_title: "OSCURA POLÍTICA EXTERIOR DE EE.UU.",
     es_content: "La política exterior de Estados Unidos es imperial, dictatorial, despiadada, sucia, inmoral... inevitablemente invoca la IRA DE DIOS contra todos nosotros.",
@@ -36,11 +36,11 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = "thought.US_FOREIGN_POLICY" AND c.name = "content.US_FOREIGN_POLICY"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.US_FOREIGN_POLICY"}]->(c);
+WHERE t.name = "thought.US FOREIGN POLICY" AND c.name = "content.US FOREIGN POLICY"
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.US FOREIGN POLICY"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "topic.POLITICAL-SCIENCE" AND child.name = "thought.US_FOREIGN_POLICY"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.POLITICAL-SCIENCE->US_FOREIGN_POLICY"}]->(child);
+WHERE parent.name = "topic.POLITICAL-SCIENCE" AND child.name = "thought.US FOREIGN POLICY"
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.POLITICAL-SCIENCE->US FOREIGN POLICY"}]->(child);
 ```

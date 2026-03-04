@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
 name: "thought.PERCEPTION"
-alias: "Thought: PERCEPTION"
+alias: "Thought: Perception"
 parent: "topic.ATTITUDE"
 tags: ["attitude", "seeing", "observing", "perception", "selfimprovement"]
 ptopic: "[[topic-ATTITUDE]]"
@@ -12,7 +12,7 @@ neo4j: true
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.PERCEPTION",
-    alias: "Thought: PERCEPTION",
+    alias: "Thought: Perception",
     parent: "topic.ATTITUDE",
     tags: ["attitude", "seeing", "observing", "perception", "selfimprovement"],
     level: 3
@@ -21,7 +21,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.PERCEPTION",
     ctype: "THOUGHT",
-    en_title: "PERCEPTION",
+    en_title: "Perception",
  es_title: "PERCEPCIÓN",
  fr_title: "PERCEPTION",
  hi_title: "धारणा",

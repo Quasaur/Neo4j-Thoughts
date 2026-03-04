@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
-name: "thought.SELF_DENIAL"
-alias: "Thought: SELF-DENIAL"
+name: "thought.SELF DENIAL"
+alias: "Thought: Self-denial"
 parent: "topic.ATTITUDE"
 en_content: "If you can't say \"No\" to Self, you can't say \"Yes\" to God."
 tags: ["self", "denial", "humility", "deprecation", "worship"]
@@ -12,17 +12,17 @@ neo4j: true
 
 ```Cypher
 CREATE (t:THOUGHT {
-    name: "thought.SELF_DENIAL",
-    alias: "Thought: SELF-DENIAL",
+    name: "thought.SELF DENIAL",
+    alias: "Thought: Self-denial",
     parent: "topic.ATTITUDE",
     tags: ["self", "denial", "humility", "deprecation", "worship"],
     level: 3
 });
 
 CREATE (c:CONTENT {
-    name: "content.SELF_DENIAL",
+    name: "content.SELF DENIAL",
     ctype: "THOUGHT",
-    en_title: "SELF-DENIAL",
+    en_title: "Self-denial",
     en_content: "If you can't say \"No\" to Self, you can't say \"Yes\" to God.",
 	es_title: "ABNEGACIÓN",
     es_content: "Si no puedes decir \"No\" a ti mismo, no puedes decir \"Sí\" a Dios.",
@@ -36,11 +36,11 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = "thought.SELF_DENIAL" AND c.name = "content.SELF_DENIAL"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.SELF_DENIAL"}]->(c);
+WHERE t.name = "thought.SELF DENIAL" AND c.name = "content.SELF DENIAL"
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.SELF DENIAL"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "topic.ATTITUDE" AND child.name = "thought.SELF_DENIAL"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.ATTITUDE->SELF_DENIAL"}]->(child);
+WHERE parent.name = "topic.ATTITUDE" AND child.name = "thought.SELF DENIAL"
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.ATTITUDE->SELF DENIAL"}]->(child);
 ```

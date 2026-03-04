@@ -23,7 +23,7 @@ CREATE (t:TOPIC {
 // CREATE DESCRIPTION
 CREATE (d:DESCRIPTION {
     name: "desc.COSMOLOGY",
-    en_title: "COSMOLOGY",
+    en_title: "Cosmology",
     en_content: "The study of the social belief systems humans have held across different times and places. Scientific cosmology involves studying the universe through astronomy and physics.",
     es_title: "COSMOLOGÍA",
     es_content: "El estudio de los sistemas de creencias sociales que los humanos han mantenido a través de diferentes tiempos y lugares. La cosmología científica implica estudiar el universo a través de la astronomía y la física.",

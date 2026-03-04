@@ -21,7 +21,7 @@ CREATE (t:TOPIC
 // create multi-lingual description		
 CREATE (d:DESCRIPTION {
 	name: "desc.LOVE", 
-	en_title: "LOVE", 
+	en_title: "Love", 
 	en_content: "A strong affection for another arising out of kinship or personal ties; attraction based on affection and tenderness; affection based on admiration, benevolence, or common interests; an assurance of affection; warm attachment, enthusiasm, or devotion; the object of attachment, devotion, or admiration.", 
 	es_title: "AMOR", 
 	es_content: "Un fuerte afecto por otra persona que surge del parentesco o de lazos personales; atracción basada en el afecto y la ternura; afecto basado en la admiración, la benevolencia o intereses comunes; una garantía de afecto; un cálido apego, entusiasmo o devoción; el objeto de apego, devoción o admiración.", 

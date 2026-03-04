@@ -1,7 +1,7 @@
 ---
 type: QUOTE
-name: "quote.CHRIST_IS_ENOUGH"
-alias: "Quote: Quote: CHRIST IS ENOUGH"
+name: "quote.CHRIST IS ENOUGH"
+alias: "Quote: Christ is Enough"
 parent: "topic.GRACE"
 en_content: "I say to you again in the Name of The Father, Son and Holy Spirit and in the Presence of Heaven, Earth and all Creation: JESUS CHRIST IS ENOUGH to completely deliver any soul from damnation to Divine Perfection.",
  es_title: "Cita: CRISTO ES SUFICIENTE",
@@ -21,8 +21,8 @@ neo4j: true
 ```Cypher
 // CREATE QUOTE
 CREATE (q:QUOTE {
-    name: "quote.CHRIST_IS_ENOUGH",
-    alias: "Quote: Quote: CHRIST IS ENOUGH",
+    name: "quote.CHRIST IS ENOUGH",
+    alias: "Quote: Christ is Enough",
     parent: "topic.GRACE",
     tags: ["jesus_christ", "sufficient", "enough", "salvation", "redemption"],
     source: "'The Traveler's Oasis, Book Two'",
@@ -32,9 +32,9 @@ CREATE (q:QUOTE {
 
 // CREATE CONTENT
 CREATE (c:CONTENT {
-    name: "content.CHRIST_IS_ENOUGH",
+    name: "content.CHRIST IS ENOUGH",
     ctype: "QUOTE",
-    en_title: "Quote: CHRIST IS ENOUGH",
+    en_title: "Christ is Enough",
     en_content: "I say to you again in the Name of The Father, Son and Holy Spirit and in the Presence of Heaven, Earth and all Creation: JESUS CHRIST IS ENOUGH to completely deliver any soul from damnation to Divine Perfection.",
  es_title: "Cita: CRISTO ES SUFICIENTE",
  es_content: "Les digo nuevamente en el Nombre del Padre, del Hijo y del Espíritu Santo y en la Presencia del Cielo, de la Tierra y de toda la Creación: JESUCRISTO ES BASTANTE para liberar completamente a cualquier alma de la condenación a la Perfección Divina.",
@@ -47,13 +47,13 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (q:QUOTE {name: "quote.CHRIST_IS_ENOUGH"})
-MATCH (c:CONTENT {name: "content.CHRIST_IS_ENOUGH"})
-MERGE (q)-[:HAS_CONTENT {name: "q.edge.CHRIST_IS_ENOUGH"}]->(c);
+MATCH (q:QUOTE {name: "quote.CHRIST IS ENOUGH"})
+MATCH (c:CONTENT {name: "content.CHRIST IS ENOUGH"})
+MERGE (q)-[:HAS_CONTENT {name: "q.edge.CHRIST IS ENOUGH"}]->(c);
 
 // LINK PARENT
 MATCH (parent:TOPIC {name: "topic.GRACE"})
-MATCH (child:QUOTE {name: "quote.CHRIST_IS_ENOUGH"})
-MERGE (parent)-[:HAS_QUOTE {name: "q.edge.GRACE->CHRIST_IS_ENOUGH"}]->(child);
+MATCH (child:QUOTE {name: "quote.CHRIST IS ENOUGH"})
+MERGE (parent)-[:HAS_QUOTE {name: "q.edge.GRACE->CHRIST IS ENOUGH"}]->(child);
 
 ```

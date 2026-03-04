@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
 name: "thought.EVERYTHING"
-alias: "Thought: EVERYTHING"
+alias: "Thought: Everything"
 parent: "topic.CREATION"
 tags: ["god", "creator", "all", "kingdom", "cosmos"]
 ptopic: "[[topic-CREATION]]"
@@ -12,7 +12,7 @@ neo4j: true
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.EVERYTHING",
-    alias: "Thought: EVERYTHING",
+    alias: "Thought: Everything",
     parent: "topic.CREATION",
     tags: ["god", "creator", "all", "kingdom", "cosmos"],
     level: 2
@@ -21,7 +21,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.EVERYTHING",
     ctype: "THOUGHT",
-    en_title: "EVERYTHING",
+    en_title: "Everything",
  es_title: "TODO",
  fr_title: "TOUT",
  hi_title: "सब कुछ",

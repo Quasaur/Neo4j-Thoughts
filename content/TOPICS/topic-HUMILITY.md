@@ -21,7 +21,7 @@ CREATE (t:TOPIC
 // create multi-lingual description		
 CREATE (d:DESCRIPTION {
 	name: "desc.HUMILITY", 
-	en_title: "HUMILITY", 
+	en_title: "Humility", 
 	en_content: "Not having or showing any feelings of superiority, self-assertiveness, or showiness.", 
 	es_title: "Humildad", 
 	es_content: "No tener ni mostrar sentimientos de superioridad, autoafirmación ni ostentación.", 

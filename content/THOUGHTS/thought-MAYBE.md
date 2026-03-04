@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
 name: "thought.MAYBE"
-alias: "Thought: MAYBE"
+alias: "Thought: Maybe"
 parent: "topic.MERCY"
 tags: ["compassion", "pity", "leniency", "kindness", "love"]
 ptopic: "[[topic-MERCY]]"
@@ -12,7 +12,7 @@ neo4j: true
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.MAYBE",
-    alias: "Thought: MAYBE",
+    alias: "Thought: Maybe",
     parent: "topic.MERCY",
     tags: ["compassion", "pity", "leniency", "kindness", "love"],
     level: 5
@@ -21,7 +21,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.MAYBE",
     ctype: "THOUGHT",
-    en_title: "MAYBE",
+    en_title: "Maybe",
  es_title: "TAL VEZ",
  fr_title: "PEUT ÊTRE",
  hi_title: "शायद",

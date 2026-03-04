@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
 name: "thought.POINTLESS"
-alias: "Thought: POINTLESS"
+alias: "Thought: Pointless"
 parent: "topic.DIVINE-SOVEREIGNTY"
 tags: ["pointless", "purpose", "meaning", "god", "sovereignty"]
 ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
@@ -12,7 +12,7 @@ neo4j: true
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.POINTLESS",
-    alias: "Thought: POINTLESS",
+    alias: "Thought: Pointless",
     parent: "topic.DIVINE-SOVEREIGNTY",
     tags: ["pointless", "purpose", "meaning", "god", "sovereignty"],
     level: 2
@@ -21,7 +21,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.POINTLESS",
     ctype: "THOUGHT",
-    en_title: "POINTLESS",
+    en_title: "Pointless",
  es_title: "INÚTIL",
  fr_title: "INUTILE",
  hi_title: "व्यर्थ",

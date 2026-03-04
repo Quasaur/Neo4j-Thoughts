@@ -21,7 +21,7 @@ CREATE (t:TOPIC
 // create multi-lingual description		
 CREATE (d:DESCRIPTION {
 	name: "desc.RELIGION", 
-	en_title: "RELIGION", 
+	en_title: "Religion", 
 	en_content: "A personal or institutionalized system of religious attitudes, beliefs, and practices.", 
 	es_title: "Religión", 
 	es_content: "Un système personnel ou institutionnalisé d’attitudes, de croyances et de pratiques religieuses.", 

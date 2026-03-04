@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
-name: "thought.DARK_MATTER"
-alias: "Thought: DARK MATTER"
+name: "thought.DARK MATTER"
+alias: "Thought: Dark Matter"
 parent: "topic.COSMOLOGY"
 en_content: "What if dark matter is a type of WATER?"
 tags: ["genesis", "creation", "universe", "waters", "science"]
@@ -12,17 +12,17 @@ neo4j: true
 
 ```Cypher
 CREATE (t:THOUGHT {
-    name: "thought.DARK_MATTER",
-    alias: "Thought: DARK MATTER",
+    name: "thought.DARK MATTER",
+    alias: "Thought: Dark Matter",
     parent: "topic.COSMOLOGY",
     tags: ["genesis", "creation", "universe", "waters", "science"],
     level: 4
 });
 
 CREATE (c:CONTENT {
-    name: "content.DARK_MATTER",
+    name: "content.DARK MATTER",
     ctype: "THOUGHT",
-    en_title: "DARK MATTER",
+    en_title: "Dark Matter",
     en_content: "What if dark matter is a type of WATER?",
     es_title: "MATERIA OSCURA",
     es_content: "¿Y si la materia oscura fuera un tipo de AGUA?",
@@ -36,11 +36,11 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = "thought.DARK_MATTER" AND c.name = "content.DARK_MATTER"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.DARK_MATTER"}]->(c);
+WHERE t.name = "thought.DARK MATTER" AND c.name = "content.DARK MATTER"
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.DARK MATTER"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "topic.COSMOLOGY" AND child.name = "thought.DARK_MATTER"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.COSMOLOGY->DARK_MATTER"}]->(child);
+WHERE parent.name = "topic.COSMOLOGY" AND child.name = "thought.DARK MATTER"
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.COSMOLOGY->DARK MATTER"}]->(child);
 ```

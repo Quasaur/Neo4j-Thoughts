@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
 name: "thought.BEHIND"
-alias: "Thought: BEHIND"
+alias: "Thought: Behind"
 parent: "topic.DIVINE-SOVEREIGNTY"
 tags: ["divine", "sovereignty", "impetus", "control", "all"]
 ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
@@ -12,7 +12,7 @@ neo4j: true
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.BEHIND",
-    alias: "Thought: BEHIND",
+    alias: "Thought: Behind",
     parent: "topic.DIVINE-SOVEREIGNTY",
     tags: ["divine", "sovereignty", "impetus", "control", "all"],
     level: 2
@@ -21,7 +21,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.BEHIND",
     ctype: "THOUGHT",
-    en_title: "BEHIND",
+    en_title: "Behind",
  es_title: "DETRÁS",
  fr_title: "DERRIÈRE",
  hi_title: "पीछे",

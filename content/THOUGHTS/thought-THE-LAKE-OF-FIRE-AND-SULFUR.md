@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
-name: "thought.THE_LAKE_OF_FIRE_AND_SULFUR"
-alias: "Thought: THE LAKE OF FIRE AND SULFUR"
+name: "thought.THE LAKE OF FIRE AND SULFUR"
+alias: "Thought: The Lake of Fire and Sulfur"
 parent: "topic.JUSTICE"
 en_content: "Finding yourself foundering alone and helpless in the Ocean of GOD's Wrath for all Eternity...it is now TOO LATE to finally start taking the direction of your lifestyle seriously."
 tags: ["lake_of_fire", "wrath_of_god", "hell", "regret", "eternity"]
@@ -12,17 +12,17 @@ neo4j: true
 
 ```Cypher
 CREATE (t:THOUGHT {
-    name: "thought.THE_LAKE_OF_FIRE_AND_SULFUR",
-    alias: "Thought: THE LAKE OF FIRE AND SULFUR",
+    name: "thought.THE LAKE OF FIRE AND SULFUR",
+    alias: "Thought: The Lake of Fire and Sulfur",
     parent: "topic.JUSTICE",
     tags: ["lake_of_fire", "wrath_of_god", "hell", "regret", "eternity"],
     level: 5
 });
 
 CREATE (c:CONTENT {
-    name: "content.THE_LAKE_OF_FIRE_AND_SULFUR",
+    name: "content.THE LAKE OF FIRE AND SULFUR",
     ctype: "THOUGHT",
-    en_title: "THE LAKE OF FIRE AND SULFUR",
+    en_title: "The Lake of Fire and Sulfur",
     en_content: "Finding yourself foundering alone and helpless in the Ocean of GOD's Wrath for all Eternity...it is now TOO LATE to finally start taking the direction of your lifestyle seriously.",
     es_title: "EL LAGO DE FUEGO Y AZUFRE",
     es_content: "Al encontrarte hundido solo e indefenso en el Océano de la Ira de DIOS por toda la Eternidad... ahora es DEMASIADO TARDE para finalmente comenzar a tomar en serio la dirección de tu estilo de vida.",
@@ -36,11 +36,11 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = "thought.THE_LAKE_OF_FIRE_AND_SULFUR" AND c.name = "content.THE_LAKE_OF_FIRE_AND_SULFUR"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.THE_LAKE_OF_FIRE_AND_SULFUR"}]->(c);
+WHERE t.name = "thought.THE LAKE OF FIRE AND SULFUR" AND c.name = "content.THE LAKE OF FIRE AND SULFUR"
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.THE LAKE OF FIRE AND SULFUR"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "topic.JUSTICE" AND child.name = "thought.THE_LAKE_OF_FIRE_AND_SULFUR"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.JUSTICE->THE_LAKE_OF_FIRE_AND_SULFUR"}]->(child);
+WHERE parent.name = "topic.JUSTICE" AND child.name = "thought.THE LAKE OF FIRE AND SULFUR"
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.JUSTICE->THE LAKE OF FIRE AND SULFUR"}]->(child);
 ```

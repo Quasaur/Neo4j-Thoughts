@@ -1,7 +1,7 @@
 ---
 type: QUOTE
 name: "quote.FEELINGS"
-alias: "Quote: Quote: FEELINGS"
+alias: "Quote: Feelings"
 parent: "topic.FAITH"
 en_content: "Your personal neuroses (guilt, shame, depression, bipolar disorder, etc.) notwithstanding, when you pray GOD STOPS WHAT HE’S DOING AND LISTENS! Your perception of His Presence (or lack thereof) is irrelevant; what matters is the truth and your faith in the truth…not your feelings.",
  es_title: "Cita: SENTIMIENTOS",
@@ -22,7 +22,7 @@ neo4j: true
 // CREATE QUOTE
 CREATE (q:QUOTE {
     name: "quote.FEELINGS",
-    alias: "Quote: Quote: FEELINGS",
+    alias: "Quote: Feelings",
     parent: "topic.FAITH",
     tags: ["feelings", "emotions", "faith", "word_of_god", "believe"],
     source: "'IMMMUNITY to the Lake of Fire: A No-Nonsense Guide'",
@@ -34,7 +34,7 @@ CREATE (q:QUOTE {
 CREATE (c:CONTENT {
     name: "content.FEELINGS",
     ctype: "QUOTE",
-    en_title: "Quote: FEELINGS",
+    en_title: "Feelings",
     en_content: "Your personal neuroses (guilt, shame, depression, bipolar disorder, etc.) notwithstanding, when you pray GOD STOPS WHAT HE’S DOING AND LISTENS! Your perception of His Presence (or lack thereof) is irrelevant; what matters is the truth and your faith in the truth…not your feelings.",
  es_title: "Cita: SENTIMIENTOS",
  es_content: "A pesar de tus neurosis personales (culpa, vergüenza, depresión, trastorno bipolar, etc.), cuando oras, ¡DIOS DEJA LO QUE ESTÁ HACIENDO Y ESCUCHA! Tu percepción de Su Presencia (o falta de ella) es irrelevante; lo que importa es la verdad y tu fe en la verdad... no tus sentimientos.",

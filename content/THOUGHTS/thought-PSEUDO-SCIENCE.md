@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
-name: "thought.PSEUDO_SCIENCE"
-alias: "Thought: PSEUDO-SCIENCE"
+name: "thought.PSEUDO SCIENCE"
+alias: "Thought: Pseudo-science"
 parent: "topic.COSMOLOGY"
 en_content: "There is no science without God."
 tags: ["science", "divinity", "pseudoscience", "truth", "deity"]
@@ -12,17 +12,17 @@ neo4j: true
 
 ```Cypher
 CREATE (t:THOUGHT {
-    name: "thought.PSEUDO_SCIENCE",
-    alias: "Thought: PSEUDO-SCIENCE",
+    name: "thought.PSEUDO SCIENCE",
+    alias: "Thought: Pseudo-science",
     parent: "topic.COSMOLOGY",
     tags: ["science", "divinity", "pseudoscience", "truth", "deity"],
     level: 4
 });
 
 CREATE (c:CONTENT {
-    name: "content.PSEUDO_SCIENCE",
+    name: "content.PSEUDO SCIENCE",
     ctype: "THOUGHT",
-    en_title: "PSEUDO-SCIENCE",
+    en_title: "Pseudo-science",
     en_content: "There is no science without God.",
     es_title: "PSEUDO-CIENCIA",
     es_content: "No hay ciencia sin Dios.",
@@ -36,11 +36,11 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = "thought.PSEUDO_SCIENCE" AND c.name = "content.PSEUDO_SCIENCE"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.PSEUDO_SCIENCE"}]->(c);
+WHERE t.name = "thought.PSEUDO SCIENCE" AND c.name = "content.PSEUDO SCIENCE"
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.PSEUDO SCIENCE"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "topic.COSMOLOGY" AND child.name = "thought.PSEUDO_SCIENCE"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.COSMOLOGY->PSEUDO_SCIENCE"}]->(child);
+WHERE parent.name = "topic.COSMOLOGY" AND child.name = "thought.PSEUDO SCIENCE"
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.COSMOLOGY->PSEUDO SCIENCE"}]->(child);
 ```

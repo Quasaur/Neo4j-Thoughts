@@ -1,7 +1,7 @@
 ---
 type: QUOTE
-name: "quote.DUAL_PUNISHMENT"
-alias: "Quote: Quote: DUAL PUNISHMENT"
+name: "quote.DUAL PUNISHMENT"
+alias: "Quote: Dual Punishment"
 parent: "topic.JUSTICE"
 en_content: "It is ILLEGAL for GOD The Father to punish both you and Jesus for the same sin(s)!",
  es_title: "Cita: CASTIGO DOBLE",
@@ -21,8 +21,8 @@ neo4j: true
 ```Cypher
 // CREATE QUOTE
 CREATE (q:QUOTE {
-    name: "quote.DUAL_PUNISHMENT",
-    alias: "Quote: Quote: DUAL PUNISHMENT",
+    name: "quote.DUAL PUNISHMENT",
+    alias: "Quote: Dual Punishment",
     parent: "topic.JUSTICE",
     tags: ["sin", "jesus_christ", "propitiation", "substitute", "sacrifice"],
     source: "'IMMMUNITY to the Lake of Fire: A No-Nonsense Guide'",
@@ -32,9 +32,9 @@ CREATE (q:QUOTE {
 
 // CREATE CONTENT
 CREATE (c:CONTENT {
-    name: "content.DUAL_PUNISHMENT",
+    name: "content.DUAL PUNISHMENT",
     ctype: "QUOTE",
-    en_title: "Quote: DUAL PUNISHMENT",
+    en_title: "Dual Punishment",
     en_content: "It is ILLEGAL for GOD The Father to punish both you and Jesus for the same sin(s)!",
  es_title: "Cita: CASTIGO DOBLE",
  es_content: "¡Es ILEGAL que DIOS Padre castigue tanto a usted como a Jesús por los mismos pecados!",
@@ -47,13 +47,13 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (q:QUOTE {name: "quote.DUAL_PUNISHMENT"})
-MATCH (c:CONTENT {name: "content.DUAL_PUNISHMENT"})
-MERGE (q)-[:HAS_CONTENT {name: "q.edge.DUAL_PUNISHMENT"}]->(c);
+MATCH (q:QUOTE {name: "quote.DUAL PUNISHMENT"})
+MATCH (c:CONTENT {name: "content.DUAL PUNISHMENT"})
+MERGE (q)-[:HAS_CONTENT {name: "q.edge.DUAL PUNISHMENT"}]->(c);
 
 // LINK PARENT
 MATCH (parent:TOPIC {name: "topic.JUSTICE"})
-MATCH (child:QUOTE {name: "quote.DUAL_PUNISHMENT"})
-MERGE (parent)-[:HAS_QUOTE {name: "q.edge.JUSTICE->DUAL_PUNISHMENT"}]->(child);
+MATCH (child:QUOTE {name: "quote.DUAL PUNISHMENT"})
+MERGE (parent)-[:HAS_QUOTE {name: "q.edge.JUSTICE->DUAL PUNISHMENT"}]->(child);
 
 ```

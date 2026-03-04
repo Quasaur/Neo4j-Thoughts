@@ -23,7 +23,7 @@ CREATE (t:TOPIC {
 // CREATE DESCRIPTION
 CREATE (d:DESCRIPTION {
     name: "desc.MERCY",
-    en_title: "MERCY",
+    en_title: "Mercy",
     en_content: "Compassion or forbearance shown to an offender or to one subject to another’s power.",
     es_title: "MISERICORDIA",
     es_content: "Compasión o tolerancia mostrada a un ofensor o a uno sujeto al poder de otro.",

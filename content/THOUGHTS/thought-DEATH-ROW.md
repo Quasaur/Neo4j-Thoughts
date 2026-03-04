@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
-name: "thought.DEATH_ROW"
-alias: "Thought: DEATH ROW"
+name: "thought.DEATH ROW"
+alias: "Thought: Death Row"
 parent: "topic.THE-GOSPEL"
 en_content: "The whole world is on Death Row. A FULL PARDON is being offered by Jesus...take it!"
 tags: ["condemnation", "world", "pardon", "receive", "jesus"]
@@ -12,15 +12,15 @@ neo4j: true
 
 ```Cypher
 CREATE (t:THOUGHT {
-    name: "thought.DEATH_ROW",
-    alias: "Thought: DEATH ROW",
+    name: "thought.DEATH ROW",
+    alias: "Thought: Death Row",
     parent: "topic.THE-GOSPEL",
     tags: ["condemnation", "world", "pardon", "receive", "jesus"],
     level: 2
 });
 
 CREATE (c:CONTENT {
-    name: "content.DEATH_ROW",
+    name: "content.DEATH ROW",
     ctype: "THOUGHT",
     en_title: "Death Row",
     en_content: "The whole world is on Death Row. A FULL PARDON is being offered by Jesus...take it!",
@@ -36,11 +36,11 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = "thought.DEATH_ROW" AND c.name = "content.DEATH_ROW"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.DEATH_ROW"}]->(c);
+WHERE t.name = "thought.DEATH ROW" AND c.name = "content.DEATH ROW"
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.DEATH ROW"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "topic.THE-GOSPEL" AND child.name = "thought.DEATH_ROW"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.THE-GOSPEL->DEATH_ROW"}]->(child);
+WHERE parent.name = "topic.THE-GOSPEL" AND child.name = "thought.DEATH ROW"
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.THE-GOSPEL->DEATH ROW"}]->(child);
 ```

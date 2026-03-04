@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
 name: "thought.SIN"
-alias: "Thought: SIN"
+alias: "Thought: Sin"
 parent: "topic.GRACE"
 tags: ["grace", "gospel", "love", "power", "jesus_christ"]
 ptopic: "[[topic-GRACE]]"
@@ -12,7 +12,7 @@ neo4j: true
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.SIN",
-    alias: "Thought: SIN",
+    alias: "Thought: Sin",
     parent: "topic.GRACE",
     tags: ["grace", "gospel", "love", "power", "jesus_christ"],
     level: 3
@@ -21,7 +21,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.SIN",
     ctype: "THOUGHT",
-    en_title: "SIN",
+    en_title: "Sin",
  es_title: "PECADO",
  fr_title: "PÉCHÉ",
  hi_title: "पाप",

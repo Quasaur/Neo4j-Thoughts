@@ -24,7 +24,7 @@ CREATE (q:QUOTE
 CREATE (c:CONTENT {
 	name: "content.GOD IS GOOD", 
 	ctype: "QUOTE",
-	en_title: "GOD IS GOOD", 
+	en_title: "God is Good", 
 	en_content: "All of the gravest injustices committed by humanity against its own would not even be remembered in the Presence of the Divine Goodness.", 
 	es_title: "Dios es bueno.", 
 	es_content: "Dios es tan bueno que la pesadez (de la palabra hebrea que significa 'grandeza') de su bondad supera con creces cualquier maldad que pudiera haber experimentado en cualquier momento.", 

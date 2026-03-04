@@ -23,7 +23,7 @@ CREATE (t:TOPIC {
 // CREATE DESCRIPTION
 CREATE (d:DESCRIPTION {
     name: "desc.HISTORY",
-    en_title: "HISTORY",
+    en_title: "History",
     en_content: "An account of important events in the order in which they happened",
     es_title: "HISTORIA",
     es_content: "Un relato de eventos importantes en el orden en que ocurrieron.",

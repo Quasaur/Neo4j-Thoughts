@@ -1,30 +1,30 @@
 ---
 type: THOUGHT
-name: "\"thought.WHEN_JESUS_RETURNS\""
+name: "thought.WHEN JESUS RETURNS"
 alias: "Thought: When Jesus Returns"
-parent: "\"topic.HISTORY\""
+parent: "topic.HISTORY"
 en_content: |
   …and with Him choirs of angels that outnumber demons and humans combined, it’s over (the deception, delusion and lies).
   NOW is the time to turn off the TV, radio and phone.
   NOW is the time for weeping, mourning, repenting, begging for mercy and praying."
 tags: ["apocalypse", "demons", "angels", "spirituality", "life"]
-ptopic: "\"[[topic-HISTORY]]\""
+ptopic: "[[topic-HISTORY]]"
 level: 4
 neo4j: true
 ---
 ```Cypher
 CREATE (t:THOUGHT {
-    name: "\"thought.WHEN_JESUS_RETURNS\"",
+    name: "thought.WHEN JESUS RETURNS",
     alias: "Thought: When Jesus Returns",
-    parent: "\"topic.HISTORY\"",
+    parent: "topic.HISTORY",
     tags: ["apocalypse", "demons", "angels", "spirituality", "life"],
     level: 4
 });
 
 CREATE (c:CONTENT {
-    name: "content.WHEN_JESUS_RETURNS",
+    name: "content.WHEN JESUS RETURNS",
     ctype: "THOUGHT",
-    en_title: "WHEN JESUS RETURNS",
+    en_title: "When Jesus Returns",
     en_content: "…and with Him choirs of angels that outnumber demons and humans combined, it’s over (the deception, delusion and lies).
 NOW is the time to turn off the TV, radio and phone.
 NOW is the time for weeping, mourning, repenting, begging for mercy and praying.",
@@ -48,11 +48,11 @@ MAINTENANT est le moment de pleurer, de faire le deuil, de se repentir, de deman
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = "thought.WHEN_JESUS_RETURNS" AND c.name = "content.WHEN_JESUS_RETURNS"
-MERGE (t)-[:HAS_CONTENT {name: "edge.WHEN_JESUS_RETURNS"}]->(c);
+WHERE t.name = "thought.WHEN JESUS RETURNS" AND c.name = "content.WHEN JESUS RETURNS"
+MERGE (t)-[:HAS_CONTENT {name: "edge.WHEN JESUS RETURNS"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "\"topic.HISTORY\"" AND child.name = "\"thought.WHEN_JESUS_RETURNS\""
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.HISTORY->WHEN_JESUS_RETURNS"}]->(child);
+WHERE parent.name = "topic.HISTORY" AND child.name = "thought.WHEN JESUS RETURNS"
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.HISTORY->WHEN JESUS RETURNS"}]->(child);
 ```

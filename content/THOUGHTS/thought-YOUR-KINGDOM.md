@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
-name: "thought.YOUR_KINGDOM"
-alias: "Thought: YOUR KINGDOM"
+name: "thought.YOUR KINGDOM"
+alias: "Thought: Your Kingdom"
 parent: "topic.DIVINE-SOVEREIGNTY"
 en_content: "To establish the Kingdom of the Heavens on this Earth, Christ must destroy your kingdom."
 tags: ["kingdom", "heaven", "earth", "destruction", "jesus_christ"]
@@ -12,17 +12,17 @@ neo4j: true
 
 ```Cypher
 CREATE (t:THOUGHT {
-    name: "thought.YOUR_KINGDOM",
-    alias: "Thought: YOUR KINGDOM",
+    name: "thought.YOUR KINGDOM",
+    alias: "Thought: Your Kingdom",
     parent: "topic.DIVINE-SOVEREIGNTY",
     tags: ["kingdom", "heaven", "earth", "destruction", "jesus_christ"],
     level: 2
 });
 
 CREATE (c:CONTENT {
-    name: "content.YOUR_KINGDOM",
+    name: "content.YOUR KINGDOM",
     ctype: "THOUGHT",
-    en_title: "YOUR KINGDOM",
+    en_title: "Your Kingdom",
     en_content: "To establish the Kingdom of the Heavens on this Earth, Christ must destroy your kingdom.",
     es_title: "TU REINO",
     es_content: "Para establecer el Reino de los Cielos en esta Tierra, Cristo debe destruir vuestro reino.",
@@ -36,11 +36,11 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = "thought.YOUR_KINGDOM" AND c.name = "content.YOUR_KINGDOM"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.YOUR_KINGDOM"}]->(c);
+WHERE t.name = "thought.YOUR KINGDOM" AND c.name = "content.YOUR KINGDOM"
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.YOUR KINGDOM"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "topic.DIVINE-SOVEREIGNTY" AND child.name = "thought.YOUR_KINGDOM"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.DIVINE-SOVEREIGNTY->YOUR_KINGDOM"}]->(child);
+WHERE parent.name = "topic.DIVINE-SOVEREIGNTY" AND child.name = "thought.YOUR KINGDOM"
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.DIVINE-SOVEREIGNTY->YOUR KINGDOM"}]->(child);
 ```

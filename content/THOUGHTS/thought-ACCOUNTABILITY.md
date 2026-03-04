@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
 name: "thought.ACCOUNTABILITY"
-alias: "Thought: ACCOUNTABILITY"
+alias: "Thought: Accountability"
 parent: "topic.HUMANITY"
 en_content: "The idea of God introduces the concept of accountability."
 tags: ["god", "lord", "judgment", "accountable", "responsible"]
@@ -13,7 +13,7 @@ neo4j: true
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.ACCOUNTABILITY",
-    alias: "Thought: ACCOUNTABILITY",
+    alias: "Thought: Accountability",
     parent: "topic.HUMANITY",
     tags: ["god", "lord", "judgment", "accountable", "responsible"],
     level: 3
@@ -22,7 +22,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.ACCOUNTABILITY",
     ctype: "THOUGHT",
-    en_title: "ACCOUNTABILITY",
+    en_title: "Accountability",
     en_content: "The idea of God introduces the concept of accountability.",
     es_title: "Responsabilidad",
     es_content: "Dios no te libra de las consecuencias de mis acciones.",

@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
-name: "thought.EVOLUTION_IS_SCIENCE?"
-alias: "Thought: EVOLUTION IS SCIENCE?"
+name: "thought.EVOLUTION IS SCIENCE?"
+alias: "Thought: Evolution is Science?"
 parent: "topic.RELIGION"
 en_content: "To equate science and evolution (considering the MOUNTAIN of evidence against evolution) would be premature, I think!"
 tags: ["evolution", "science", "religion", "evidence", "faith"]
@@ -12,17 +12,17 @@ neo4j: true
 
 ```Cypher
 CREATE (t:THOUGHT {
-    name: "thought.EVOLUTION_IS_SCIENCE?",
-    alias: "Thought: EVOLUTION IS SCIENCE?",
+    name: "thought.EVOLUTION IS SCIENCE?",
+    alias: "Thought: Evolution is Science?",
     parent: "topic.RELIGION",
     tags: ["evolution", "science", "religion", "evidence", "faith"],
     level: 4
 });
 
 CREATE (c:CONTENT {
-    name: "content.EVOLUTION_IS_SCIENCE?",
+    name: "content.EVOLUTION IS SCIENCE?",
     ctype: "THOUGHT",
-    en_title: "EVOLUTION IS SCIENCE?",
+    en_title: "Evolution is Science?",
     en_content: "To equate science and evolution (considering the MOUNTAIN of evidence against evolution) would be premature, I think!",
     es_title: "¿LA EVOLUCIÓN ES CIENCIA?",
     es_content: "¡Creo que equiparar ciencia y evolución (teniendo en cuenta la MONTAÑA de evidencia contra la evolución) sería prematuro!",
@@ -36,11 +36,11 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = "thought.EVOLUTION_IS_SCIENCE?" AND c.name = "content.EVOLUTION_IS_SCIENCE?"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.EVOLUTION_IS_SCIENCE?"}]->(c);
+WHERE t.name = "thought.EVOLUTION IS SCIENCE?" AND c.name = "content.EVOLUTION IS SCIENCE?"
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.EVOLUTION IS SCIENCE?"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "topic.RELIGION" AND child.name = "thought.EVOLUTION_IS_SCIENCE?"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.RELIGION->EVOLUTION_IS_SCIENCE?"}]->(child);
+WHERE parent.name = "topic.RELIGION" AND child.name = "thought.EVOLUTION IS SCIENCE?"
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.RELIGION->EVOLUTION IS SCIENCE?"}]->(child);
 ```

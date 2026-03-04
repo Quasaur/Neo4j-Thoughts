@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
 name: "thought.GNOSIS"
-alias: "Thought: GNOSIS"
+alias: "Thought: Gnosis"
 parent: "topic.FAITH"
 tags: ["gnosis", "faith", "immortality", "knowledge", "believe"]
 ptopic: "[[topic-FAITH]]"
@@ -12,7 +12,7 @@ neo4j: true
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.GNOSIS",
-    alias: "Thought: GNOSIS",
+    alias: "Thought: Gnosis",
     parent: "topic.FAITH",
     tags: ["gnosis", "faith", "immortality", "knowledge", "believe"],
     level: 4
@@ -21,7 +21,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.GNOSIS",
     ctype: "THOUGHT",
-    en_title: "GNOSIS",
+    en_title: "Gnosis",
     en_content: "The Knowledge that brings IMMORTALITY is not hidden…it's just incredibly difficult to BELIEVE (in the Biblical sense)!",
  es_title: "GNOSIS",
  es_content: "El Conocimiento que trae la INMORTALIDAD no está oculto... ¡es simplemente increíblemente difícil de CREER (en el sentido bíblico)!",

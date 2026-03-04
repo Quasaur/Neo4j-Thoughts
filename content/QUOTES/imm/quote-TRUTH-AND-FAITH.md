@@ -1,7 +1,7 @@
 ---
 type: QUOTE
-name: "quote.TRUTH_AND_FAITH"
-alias: "Quote: Quote: TRUTH AND FAITH"
+name: "quote.TRUTH AND FAITH"
+alias: "Quote: Truth and Faith"
 parent: "topic.THE-GOSPEL"
 en_content: "GOD lovingly provides both the Truth that saves us from the Lake of Fire as well as the Saving Faith necessary to believe on (from the heart) and live by that Saving Truth.",
  es_title: "Cita: VERDAD Y FE",
@@ -21,8 +21,8 @@ neo4j: true
 ```Cypher
 // CREATE QUOTE
 CREATE (q:QUOTE {
-    name: "quote.TRUTH_AND_FAITH",
-    alias: "Quote: Quote: TRUTH AND FAITH",
+    name: "quote.TRUTH AND FAITH",
+    alias: "Quote: Truth and Faith",
     parent: "topic.THE-GOSPEL",
     tags: ["faith", "truth", "salvation", "lake_of_fire", "love"],
     source: "'IMMMUNITY to the Lake of Fire: A No-Nonsense Guide'",
@@ -32,9 +32,9 @@ CREATE (q:QUOTE {
 
 // CREATE CONTENT
 CREATE (c:CONTENT {
-    name: "content.TRUTH_AND_FAITH",
+    name: "content.TRUTH AND FAITH",
     ctype: "QUOTE",
-    en_title: "Quote: TRUTH AND FAITH",
+    en_title: "Truth and Faith",
     en_content: "GOD lovingly provides both the Truth that saves us from the Lake of Fire as well as the Saving Faith necessary to believe on (from the heart) and live by that Saving Truth.",
  es_title: "Cita: VERDAD Y FE",
  es_content: "DIOS amorosamente proporciona tanto la Verdad que nos salva del Lago de Fuego como también la Fe Salvadora necesaria para creer (desde el corazón) y vivir según esa Verdad Salvadora.",
@@ -47,13 +47,13 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (q:QUOTE {name: "quote.TRUTH_AND_FAITH"})
-MATCH (c:CONTENT {name: "content.TRUTH_AND_FAITH"})
-MERGE (q)-[:HAS_CONTENT {name: "q.edge.TRUTH_AND_FAITH"}]->(c);
+MATCH (q:QUOTE {name: "quote.TRUTH AND FAITH"})
+MATCH (c:CONTENT {name: "content.TRUTH AND FAITH"})
+MERGE (q)-[:HAS_CONTENT {name: "q.edge.TRUTH AND FAITH"}]->(c);
 
 // LINK PARENT
 MATCH (parent:TOPIC {name: "topic.THE-GOSPEL"})
-MATCH (child:QUOTE {name: "quote.TRUTH_AND_FAITH"})
-MERGE (parent)-[:HAS_QUOTE {name: "q.edge.THE-GOSPEL->TRUTH_AND_FAITH"}]->(child);
+MATCH (child:QUOTE {name: "quote.TRUTH AND FAITH"})
+MERGE (parent)-[:HAS_QUOTE {name: "q.edge.THE-GOSPEL->TRUTH AND FAITH"}]->(child);
 
 ```

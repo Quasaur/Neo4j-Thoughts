@@ -24,7 +24,7 @@ CREATE (q:QUOTE
 CREATE (c:CONTENT {
 	name: "content.FORGOTTEN INJUSTICES", 
 	ctype: "QUOTE",
-	en_title: "FORGOTTEN INJUSTICES", 
+	en_title: "Forgotten Injustices", 
 	en_content: "All of the gravest injustices committed by humanity against its own would not even be remembered in the Presence of the Divine Goodness.", 
 	es_title: "INJUSTICIAS OLVIDADAS", 
 	es_content: "Todas las más graves injusticias cometidas por la humanidad contra sí misma ni siquiera serían recordadas ante la Presencia de la Bondad Divina.", 

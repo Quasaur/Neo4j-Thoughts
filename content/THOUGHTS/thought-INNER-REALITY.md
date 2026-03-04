@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
-name: "thought.INNER_REALITY"
-alias: "Thought: INNER REALITY"
+name: "thought.INNER REALITY"
+alias: "Thought: Inner Reality"
 parent: "topic.ATTITUDE"
 en_content: "What's going on INSIDE of you is far more potent, effectual and real—to you--than what's going on outside of you."
 tags: ["heart", "feelings", "perception", "reaction", "reality"]
@@ -12,17 +12,17 @@ neo4j: true
 
 ```Cypher
 CREATE (t:THOUGHT {
-    name: "thought.INNER_REALITY",
-    alias: "Thought: INNER REALITY",
+    name: "thought.INNER REALITY",
+    alias: "Thought: Inner Reality",
     parent: "topic.ATTITUDE",
     tags: ["heart", "feelings", "perception", "reaction", "reality"],
     level: 3
 });
 
 CREATE (c:CONTENT {
-    name: "content.INNER_REALITY",
+    name: "content.INNER REALITY",
     ctype: "THOUGHT",
-    en_title: "INNER REALITY",
+    en_title: "Inner Reality",
     en_content: "What's going on INSIDE of you is far more potent, effectual and real—to you--than what's going on outside of you.",
     es_title: "REALIDAD INTERIOR",
     es_content: "Lo que sucede DENTRO de usted es mucho más potente, eficaz y real (para usted) que lo que sucede fuera de usted.",
@@ -36,11 +36,11 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = "thought.INNER_REALITY" AND c.name = "content.INNER_REALITY"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.INNER_REALITY"}]->(c);
+WHERE t.name = "thought.INNER REALITY" AND c.name = "content.INNER REALITY"
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.INNER REALITY"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "topic.ATTITUDE" AND child.name = "thought.INNER_REALITY"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.ATTITUDE->INNER_REALITY"}]->(child);
+WHERE parent.name = "topic.ATTITUDE" AND child.name = "thought.INNER REALITY"
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.ATTITUDE->INNER REALITY"}]->(child);
 ```

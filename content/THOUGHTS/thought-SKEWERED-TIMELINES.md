@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
-name: "thought.SKEWERED_TIMELINES"
-alias: "Thought: SKEWERED TIMELINES"
+name: "thought.SKEWERED TIMELINES"
+alias: "Thought: Skewered Timelines"
 parent: "topic.HISTORY"
 en_content: "To prove evolution, so-called science has completely skewered the chronological, geological and human timelines."
 tags: ["evolution", "pseudoscience", "timelines", "religion", "creation"]
@@ -12,17 +12,17 @@ neo4j: true
 
 ```Cypher
 CREATE (t:THOUGHT {
-    name: "thought.SKEWERED_TIMELINES",
-    alias: "Thought: SKEWERED TIMELINES",
+    name: "thought.SKEWERED TIMELINES",
+    alias: "Thought: Skewered Timelines",
     parent: "topic.HISTORY",
     tags: ["evolution", "pseudoscience", "timelines", "religion", "creation"],
     level: 4
 });
 
 CREATE (c:CONTENT {
-    name: "content.SKEWERED_TIMELINES",
+    name: "content.SKEWERED TIMELINES",
     ctype: "THOUGHT",
-    en_title: "SKEWERED TIMELINES",
+    en_title: "Skewered Timelines",
     en_content: "To prove evolution, so-called science has completely skewered the chronological, geological and human timelines.",
     es_title: "CRONOGRAMAS ENCHUFADOS",
     es_content: "Para demostrar la evolución, la llamada ciencia ha trastocado por completo las líneas de tiempo cronológicas, geológicas y humanas.",
@@ -36,11 +36,11 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = "thought.SKEWERED_TIMELINES" AND c.name = "content.SKEWERED_TIMELINES"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.SKEWERED_TIMELINES"}]->(c);
+WHERE t.name = "thought.SKEWERED TIMELINES" AND c.name = "content.SKEWERED TIMELINES"
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.SKEWERED TIMELINES"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "topic.HISTORY" AND child.name = "thought.SKEWERED_TIMELINES"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.HISTORY->SKEWERED_TIMELINES"}]->(child);
+WHERE parent.name = "topic.HISTORY" AND child.name = "thought.SKEWERED TIMELINES"
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.HISTORY->SKEWERED TIMELINES"}]->(child);
 ```

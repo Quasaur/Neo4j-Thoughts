@@ -1,7 +1,7 @@
 ---
 type: QUOTE
-name: "quote.CESSATION_OF_LABOR"
-alias: "Quote: Quote: CESSATION OF LABOR"
+name: "quote.CESSATION OF LABOR"
+alias: "Quote: Cessation of Labor"
 parent: "topic.GRACE"
 en_content: "Upon entering by faith into Christ Jesus, the soul CEASES FROM ITS OWN LABOR, just as God did fro His. There is Peace; endless, refreshing, soothing, loving, empowering PEACE.",
  es_title: "Cita: CESE DEL TRABAJO",
@@ -21,8 +21,8 @@ neo4j: true
 ```Cypher
 // CREATE QUOTE
 CREATE (q:QUOTE {
-    name: "quote.CESSATION_OF_LABOR",
-    alias: "Quote: Quote: CESSATION OF LABOR",
+    name: "quote.CESSATION OF LABOR",
+    alias: "Quote: Cessation of Labor",
     parent: "topic.GRACE",
     tags: ["inchrist", "byfaith", "soul", "rest", "peace"],
     source: "'The Traveler's Oasis, Book Two'",
@@ -32,9 +32,9 @@ CREATE (q:QUOTE {
 
 // CREATE CONTENT
 CREATE (c:CONTENT {
-    name: "content.CESSATION_OF_LABOR",
+    name: "content.CESSATION OF LABOR",
     ctype: "QUOTE",
-    en_title: "Quote: CESSATION OF LABOR",
+    en_title: "Cessation of Labor",
     en_content: "Upon entering by faith into Christ Jesus, the soul CEASES FROM ITS OWN LABOR, just as God did fro His. There is Peace; endless, refreshing, soothing, loving, empowering PEACE.",
  es_title: "Cita: CESE DEL TRABAJO",
  es_content: "Al entrar por la fe en Cristo Jesús, el alma CESA DE SU PROPIO TRABAJO, así como Dios lo hizo con el suyo. Hay Paz; PAZ infinita, refrescante, calmante, amorosa y empoderadora.",
@@ -47,13 +47,13 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (q:QUOTE {name: "quote.CESSATION_OF_LABOR"})
-MATCH (c:CONTENT {name: "content.CESSATION_OF_LABOR"})
-MERGE (q)-[:HAS_CONTENT {name: "q.edge.CESSATION_OF_LABOR"}]->(c);
+MATCH (q:QUOTE {name: "quote.CESSATION OF LABOR"})
+MATCH (c:CONTENT {name: "content.CESSATION OF LABOR"})
+MERGE (q)-[:HAS_CONTENT {name: "q.edge.CESSATION OF LABOR"}]->(c);
 
 // LINK PARENT
 MATCH (parent:TOPIC {name: "topic.GRACE"})
-MATCH (child:QUOTE {name: "quote.CESSATION_OF_LABOR"})
-MERGE (parent)-[:HAS_QUOTE {name: "q.edge.GRACE->CESSATION_OF_LABOR"}]->(child);
+MATCH (child:QUOTE {name: "quote.CESSATION OF LABOR"})
+MERGE (parent)-[:HAS_QUOTE {name: "q.edge.GRACE->CESSATION OF LABOR"}]->(child);
 
 ```

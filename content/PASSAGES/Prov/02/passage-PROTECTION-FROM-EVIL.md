@@ -1,7 +1,7 @@
 ---
 type: PASSAGE
-name: "passage.PROTECTION_FROM_EVIL"
-alias: "Passage: PROTECTION FROM EVIL"
+name: "passage.PROTECTION FROM EVIL"
+alias: "Passage: Protection From Evil"
 parent: "topic.EVIL"
 en_content: "For wisdom will enter your heart, And knowledge will be delightful to your soul; Discretion will watch over you, Understanding will guard you, To rescue you from the way of evil, From a person who speaks perverse things;"
 tags: ["wisdom", "knowledge", "discretion", "understanding", "rescue"]
@@ -13,8 +13,8 @@ neo4j: true
 ```Cypher
 // CREATE PASSAGE
 CREATE (b:PASSAGE {
-    name: "passage.PROTECTION_FROM_EVIL",
-    alias: "Passage: PROTECTION FROM EVIL",
+    name: "passage.PROTECTION FROM EVIL",
+    alias: "Passage: Protection From Evil",
     parent: "topic.EVIL",
     tags: ["wisdom", "knowledge", "discretion", "understanding", "rescue"],
     source: "'Proverbs 2:10-12'",
@@ -25,9 +25,9 @@ CREATE (b:PASSAGE {
 
 // CREATE CONTENT
 CREATE (c:CONTENT {
-    name: "content.PROTECTION_FROM_EVIL",
+    name: "content.PROTECTION FROM EVIL",
     ctype: "PASSAGE",
-    en_title: "PROTECTION FROM EVIL",
+    en_title: "Protection From Evil",
     en_content: "For wisdom will enter your heart, And knowledge will be delightful to your soul; Discretion will watch over you, Understanding will guard you, To rescue you from the way of evil, From a person who speaks perverse things;",
  es_title: "PROTECCIÓN CONTRA EL MAL",
  es_content: "Porque la sabiduría entrará en tu corazón, y el conocimiento será delicia para tu alma; La discreción te guardará, el entendimiento te guardará, para librarte del camino del mal, del que habla cosas perversas;",
@@ -40,13 +40,13 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (b:PASSAGE {name: "passage.PROTECTION_FROM_EVIL"})
-MATCH (c:CONTENT {name: "content.PROTECTION_FROM_EVIL"})
-MERGE (b)-[:HAS_CONTENT {name: "p.edge.PROTECTION_FROM_EVIL"}]->(c);
+MATCH (b:PASSAGE {name: "passage.PROTECTION FROM EVIL"})
+MATCH (c:CONTENT {name: "content.PROTECTION FROM EVIL"})
+MERGE (b)-[:HAS_CONTENT {name: "p.edge.PROTECTION FROM EVIL"}]->(c);
 
 // LINK PARENT
 MATCH (parent:TOPIC {name: "topic.EVIL"})
-MATCH (child:PASSAGE {name: "passage.PROTECTION_FROM_EVIL"})
-MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.b.EVIL->PROTECTION_FROM_EVIL"}]->(child);
+MATCH (child:PASSAGE {name: "passage.PROTECTION FROM EVIL"})
+MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.b.EVIL->PROTECTION FROM EVIL"}]->(child);
 
 ```

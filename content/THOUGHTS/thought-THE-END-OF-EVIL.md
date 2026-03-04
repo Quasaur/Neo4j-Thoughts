@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
 name: "thought.THE END OF EVIL"
-alias: "Thought: THE END OF EVIL"
+alias: "Thought: The End of Evil"
 parent: "topic.EVIL"
 en_content: "The Day is coming when evil will no longer exist."
 tags: ["day", "evil", "cessation", "hope", "future"]
@@ -13,14 +13,14 @@ neo4j: true
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.THE END OF EVIL",
-    alias: "Thought: THE END OF EVIL",
+    alias: "Thought: The End of Evil",
     parent: "topic.EVIL",
     tags: ["day", "evil", "cessation", "hope", "future"],
     level: 4
 });
 
 CREATE (c:CONTENT {
-    name: "content.THE_END_OF_EVIL",
+    name: "content.THE END OF EVIL",
     ctype: "THOUGHT",
     en_title: "The End of Evil",
     en_content: "The Day is coming when evil will no longer exist.",
@@ -36,11 +36,11 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = "thought.THE_END_OF_EVIL" AND c.name = "content.THE_END_OF_EVIL"
+WHERE t.name = "thought.THE END OF EVIL" AND c.name = "content.THE END OF EVIL"
 MERGE (t)-[:HAS_CONTENT {name: "t.edge.THE END OF EVIL"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "topic.EVIL" AND child.name = "thought.THE_END_OF_EVIL"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.EVIL->THE_END_OF_EVIL"}]->(child);
+WHERE parent.name = "topic.EVIL" AND child.name = "thought.THE END OF EVIL"
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.EVIL->THE END OF EVIL"}]->(child);
 ```

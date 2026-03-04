@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
 name: "thought.DISCRETION"
-alias: "Thought: DISCRETION"
+alias: "Thought: Discretion"
 parent: "topic.PSYCHOLOGY"
 tags: ["discretion", "sensitivity", "tactfulness", "relationships", "wisdom"]
 ptopic: "[[topic-PSYCHOLOGY]]"
@@ -12,7 +12,7 @@ neo4j: true
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.DISCRETION",
-    alias: "Thought: DISCRETION",
+    alias: "Thought: Discretion",
     parent: "topic.PSYCHOLOGY",
     tags: ["discretion", "sensitivity", "tactfulness", "relationships", "wisdom"],
     level: 4
@@ -21,7 +21,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.DISCRETION",
     ctype: "THOUGHT",
-    en_title: "DISCRETION",
+    en_title: "Discretion",
  es_title: "DISCRECIÓN",
  fr_title: "DISCRÉTION",
  hi_title: "विवेक",

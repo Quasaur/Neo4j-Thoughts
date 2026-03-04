@@ -1,7 +1,7 @@
 ---
 type: QUOTE
-name: "quote.THE_HEART_OF_MANKIND"
-alias: "Quote: Quote: The HEART OF MANKIND"
+name: "quote.THE HEART OF MANKIND"
+alias: "Quote: The HEART OF MANKIND"
 parent: "topic.RELIGION"
 en_content: "None of our achievements, advances, contributions, virtuous deeds or good intentions make up for our evil hearts (hearts that believe GOD is not necessary to live a fulfilling life) ...else Christ would not have had to present Himself as a Sacrifice in our stead.",
  es_title: "Cita: El CORAZÓN DE LA HUMANIDAD",
@@ -20,8 +20,8 @@ level: 4
 ```Cypher
 // CREATE QUOTE
 CREATE (q:QUOTE {
-    name: "quote.THE_HEART_OF_MANKIND",
-    alias: "Quote: Quote: The HEART OF MANKIND",
+    name: "quote.THE HEART OF MANKIND",
+    alias: "Quote: The HEART OF MANKIND",
     parent: "topic.RELIGION",
     tags: ["heart", "human", "ungodly", "jesus_christ", "propitiation"],
     source: "'The Narrow Way'",
@@ -31,7 +31,7 @@ CREATE (q:QUOTE {
 
 // CREATE CONTENT
 CREATE (c:CONTENT {
-    name: "content.THE_HEART_OF_MANKIND",
+    name: "content.THE HEART OF MANKIND",
     ctype: "QUOTE",
     en_title: "Quote: The HEART OF MANKIND",
     en_content: "None of our achievements, advances, contributions, virtuous deeds or good intentions make up for our evil hearts (hearts that believe GOD is not necessary to live a fulfilling life) ...else Christ would not have had to present Himself as a Sacrifice in our stead.",
@@ -46,13 +46,13 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (q:QUOTE {name: "quote.THE_HEART_OF_MANKIND"})
-MATCH (c:CONTENT {name: "content.THE_HEART_OF_MANKIND"})
-MERGE (q)-[:HAS_CONTENT {name: "q.edge.THE_HEART_OF_MANKIND"}]->(c);
+MATCH (q:QUOTE {name: "quote.THE HEART OF MANKIND"})
+MATCH (c:CONTENT {name: "content.THE HEART OF MANKIND"})
+MERGE (q)-[:HAS_CONTENT {name: "q.edge.THE HEART OF MANKIND"}]->(c);
 
 // LINK PARENT
 MATCH (parent:TOPIC {name: "topic.RELIGION"})
-MATCH (child:QUOTE {name: "quote.THE_HEART_OF_MANKIND"})
-MERGE (parent)-[:HAS_QUOTE {name: "q.edge.RELIGION->THE_HEART_OF_MANKIND"}]->(child);
+MATCH (child:QUOTE {name: "quote.THE HEART OF MANKIND"})
+MERGE (parent)-[:HAS_QUOTE {name: "q.edge.RELIGION->THE HEART OF MANKIND"}]->(child);
 
 ```

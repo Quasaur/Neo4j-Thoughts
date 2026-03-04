@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
-name: "thought.HAPPY_SABBATH"
-alias: "Thought: HAPPY SABBATH"
+name: "thought.HAPPY SABBATH"
+alias: "Thought: Happy Sabbath"
 parent: "topic.CREATION"
 en_content: "Happy Sabbath, Earth!"
 tags: ["happy", "sabbath", "earth", "creation", "rest"]
@@ -12,17 +12,17 @@ neo4j: true
 
 ```Cypher
 CREATE (t:THOUGHT {
-    name: "thought.HAPPY_SABBATH",
-    alias: "Thought: HAPPY SABBATH",
+    name: "thought.HAPPY SABBATH",
+    alias: "Thought: Happy Sabbath",
     parent: "topic.CREATION",
     tags: ["happy", "sabbath", "earth", "creation", "rest"],
     level: 2
 });
 
 CREATE (c:CONTENT {
-    name: "content.HAPPY_SABBATH",
+    name: "content.HAPPY SABBATH",
     ctype: "THOUGHT",
-    en_title: "HAPPY SABBATH",
+    en_title: "Happy Sabbath",
     en_content: "Happy Sabbath, Earth!",
     es_title: "FELIZ SÁBADO",
     es_content: "¡Feliz sábado, Tierra!",
@@ -36,11 +36,11 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = "thought.HAPPY_SABBATH" AND c.name = "content.HAPPY_SABBATH"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.HAPPY_SABBATH"}]->(c);
+WHERE t.name = "thought.HAPPY SABBATH" AND c.name = "content.HAPPY SABBATH"
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.HAPPY SABBATH"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "topic.CREATION" AND child.name = "thought.HAPPY_SABBATH"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.CREATION->HAPPY_SABBATH"}]->(child);
+WHERE parent.name = "topic.CREATION" AND child.name = "thought.HAPPY SABBATH"
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.CREATION->HAPPY SABBATH"}]->(child);
 ```

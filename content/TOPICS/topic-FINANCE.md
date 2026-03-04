@@ -23,7 +23,7 @@ CREATE (t:TOPIC {
 // CREATE DESCRIPTION
 CREATE (d:DESCRIPTION {
     name: "desc.FINANCE",
-    en_title: "FINANCE",
+    en_title: "Finance",
     en_content: "Money or other liquid resources of a government, business, group, or individual; the system that includes the circulation of money, the granting of credit, the making of investments, and the provision of banking facilities; the science or study of the management of funds; the obtaining of funds or capital.",
     es_title: "FINANZAS",
     es_content: "Dinero u otros recursos líquidos de un gobierno, empresa, grupo o individuo; el sistema que incluye la circulación de dinero, la concesión de crédito, la realización de inversiones y la provisión de servicios bancarios; la ciencia o el estudio de la gestión de fondos; la obtención de fondos o capital.",

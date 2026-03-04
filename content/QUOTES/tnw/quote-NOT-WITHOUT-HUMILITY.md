@@ -1,7 +1,7 @@
 ---
 type: QUOTE
-name: "quote.NOT_WITHOUT_HUMILITY"
-alias: "Quote: Quote: NOT WITHOUT HUMILITY"
+name: "quote.NOT WITHOUT HUMILITY"
+alias: "Quote: Not Without Humility"
 parent: "topic.ATTITUDE"
 en_content: "What i wish to remind us all is that THERE'S NO SALVATION WITHOUT REPENTANCE AND THERE'S NO REPENTANCE WITHOUT HUMILITY.",
  es_title: "Cita: NO SIN HUMILDAD",
@@ -21,8 +21,8 @@ neo4j: true
 ```Cypher
 // CREATE QUOTE
 CREATE (q:QUOTE {
-    name: "quote.NOT_WITHOUT_HUMILITY",
-    alias: "Quote: Quote: NOT WITHOUT HUMILITY",
+    name: "quote.NOT WITHOUT HUMILITY",
+    alias: "Quote: Not Without Humility",
     parent: "topic.ATTITUDE",
     tags: ["repentance", "gift", "humble", "essential", "heart"],
     source: "'The Narrow Way'",
@@ -32,9 +32,9 @@ CREATE (q:QUOTE {
 
 // CREATE CONTENT
 CREATE (c:CONTENT {
-    name: "content.NOT_WITHOUT_HUMILITY",
+    name: "content.NOT WITHOUT HUMILITY",
     ctype: "QUOTE",
-    en_title: "Quote: NOT WITHOUT HUMILITY",
+    en_title: "Not Without Humility",
     en_content: "What i wish to remind us all is that THERE'S NO SALVATION WITHOUT REPENTANCE AND THERE'S NO REPENTANCE WITHOUT HUMILITY.",
  es_title: "Cita: NO SIN HUMILDAD",
  es_content: "Lo que deseo recordarnos a todos es que NO HAY SALVACIÓN SIN ARREPENTIMIENTO Y NO HAY ARREPENTIMIENTO SIN HUMILDAD.",
@@ -47,13 +47,13 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (q:QUOTE {name: "quote.NOT_WITHOUT_HUMILITY"})
-MATCH (c:CONTENT {name: "content.NOT_WITHOUT_HUMILITY"})
-MERGE (q)-[:HAS_CONTENT {name: "q.edge.NOT_WITHOUT_HUMILITY"}]->(c);
+MATCH (q:QUOTE {name: "quote.NOT WITHOUT HUMILITY"})
+MATCH (c:CONTENT {name: "content.NOT WITHOUT HUMILITY"})
+MERGE (q)-[:HAS_CONTENT {name: "q.edge.NOT WITHOUT HUMILITY"}]->(c);
 
 // LINK PARENT
 MATCH (parent:TOPIC {name: "topic.ATTITUDE"})
-MATCH (child:QUOTE {name: "quote.NOT_WITHOUT_HUMILITY"})
-MERGE (parent)-[:HAS_QUOTE {name: "q.edge.ATTITUDE->NOT_WITHOUT_HUMILITY"}]->(child);
+MATCH (child:QUOTE {name: "quote.NOT WITHOUT HUMILITY"})
+MERGE (parent)-[:HAS_QUOTE {name: "q.edge.ATTITUDE->NOT WITHOUT HUMILITY"}]->(child);
 
 ```

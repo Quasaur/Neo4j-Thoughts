@@ -23,7 +23,7 @@ CREATE (t:TOPIC {
 // CREATE DESCRIPTION
 CREATE (d:DESCRIPTION {
     name: "desc.EVANGELISM",
-    en_title: "EVANGELISM",
+    en_title: "Evangelism",
     en_content: "The winning or revival of personal commitments to Christ; making disciples of all nations; militant or crusading zeal.",
     es_title: "EVANGELISMO",
     es_content: "La obtención o reavivamiento de compromisos personales con Cristo; hacer discípulos de todas las naciones; celo militante o de cruzada.",

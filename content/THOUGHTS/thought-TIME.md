@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
 name: "thought.TIME"
-alias: "Thought: TIME"
+alias: "Thought: Time"
 parent: "topic.JUSTICE"
 tags: ["spirituality", "damnation", "soul", "lake_of_fire", "judgment"]
 ptopic: "[[topic-JUSTICE]]"
@@ -12,7 +12,7 @@ neo4j: true
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.TIME",
-    alias: "Thought: TIME",
+    alias: "Thought: Time",
     parent: "topic.JUSTICE",
     tags: ["spirituality", "damnation", "soul", "lake_of_fire", "judgment"],
     level: 5
@@ -21,7 +21,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.TIME",
     ctype: "THOUGHT",
-    en_title: "TIME",
+    en_title: "Time",
  es_title: "TIEMPO",
  fr_title: "TEMPS",
  hi_title: "समय",

@@ -1,8 +1,8 @@
 ---
 type: PASSAGE
-name: "\"passage.SECURITY (2)\""
+name: "passage.SECURITY (2)"
 alias: "Passage: Wisdom and Discretion"
-parent: "\"topic.WISDOM\""
+parent: "topic.WISDOM"
 en_content: |
   My son, do not lose sight of these—
   keep sound wisdom and discretion,  
@@ -16,15 +16,15 @@ en_content: |
   or of the ruin of the wicked, when it comes, for the LORD will be your confidence  
   and will keep your foot from being caught."
 tags: ["discretion", "wisdom", "secure", "life", "confidence"]
-ptopic: "\"[[topic-WISDOM]]\""
+ptopic: "[[topic-WISDOM]]"
 level: 3
 neo4j: true
 ---
 ```Cypher
 //create the Passage with the same fields as a normal thought
-CREATE (p:PASSAGE {	    name: "\"passage.SECURITY (2)\"",
+CREATE (p:PASSAGE {	    name: "passage.SECURITY (2)",
 		alias: "Passage: Wisdom and Discretion", 
-		parent: "\"topic.WISDOM\"", 
+		parent: "topic.WISDOM", 
 		tags: ["discretion", "wisdom", "secure", "life", "confidence"], 
 		source: "Proverbs 3:21-26",
 		sortedsource: "Proverbs 03:21-26",

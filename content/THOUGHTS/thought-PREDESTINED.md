@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
 name: "thought.PREDESTINED"
-alias: "Thought: PREDESTINED"
+alias: "Thought: Predestined"
 parent: "topic.DIVINE-SOVEREIGNTY"
 tags: ["sovereignty", "election", "lordship", "chosen", "jesus_christ"]
 ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
@@ -12,7 +12,7 @@ neo4j: true
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.PREDESTINED",
-    alias: "Thought: PREDESTINED",
+    alias: "Thought: Predestined",
     parent: "topic.DIVINE-SOVEREIGNTY",
     tags: ["sovereignty", "election", "lordship", "chosen", "jesus_christ"],
     level: 2
@@ -21,7 +21,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.PREDESTINED",
     ctype: "THOUGHT",
-    en_title: "PREDESTINED",
+    en_title: "Predestined",
  es_title: "PREDESTINADO",
  fr_title: "PRÉDESTINÉ",
  hi_title: "पूर्वनिर्धारित",

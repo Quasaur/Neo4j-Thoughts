@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
 name: "thought.VOLITION4"
-alias: "Thought: FOURTH VOLITION"
+alias: "Thought: Fourth Volition"
 parent: "topic.DIVINE-SOVEREIGNTY"
 tags: ["freedom", "volition", "free_will", "hell", "damnation"]
 ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
@@ -12,7 +12,7 @@ neo4j: true
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.VOLITION4",
-    alias: "Thought: FOURTH VOLITION",
+    alias: "Thought: Fourth Volition",
     parent: "topic.DIVINE-SOVEREIGNTY",
     tags: ["freedom", "volition", "free_will", "hell", "damnation"],
     level: 2
@@ -21,7 +21,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.VOLITION4",
     ctype: "THOUGHT",
-    en_title: "FOURTH VOLITION",
+    en_title: "Fourth Volition",
  es_title: "CUARTA VOLICIÓN",
  fr_title: "QUATRIÈME VOLITION",
  hi_title: "चौथी इच्छा",

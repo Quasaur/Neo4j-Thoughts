@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
 name: "thought.AWARENESS"
-alias: "Thought: GOD AWARENESS"
+alias: "Thought: God Awareness"
 en_content: "Self-awareness is the second most precious gift God has given us; the first is God-awareness!"
 tags: ["faith", "awareness", "self", "god", "worship"]
 ptopic: "[[topic-THE-GODHEAD]]"
@@ -12,7 +12,7 @@ neo4j: true
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.AWARENESS",
-    alias: "Thought: GOD AWARENESS",
+    alias: "Thought: God Awareness",
     parent: "topic.THE-GODHEAD",
     tags: ["faith", "awareness", "self", "god", "worship"],
     level: 1
@@ -21,7 +21,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.AWARENESS",
     ctype: "THOUGHT",
-    en_title: "AWARENESS",
+    en_title: "Awareness",
     en_content: "Self-awareness is the second most precious gift God has given us; the first is God-awareness!",
     es_title: "CONCIENCIA DE DIOS",
     es_content: "La autoconciencia es el segundo regalo más preciado que Dios nos ha dado; ¡El primero es la conciencia de Dios!",

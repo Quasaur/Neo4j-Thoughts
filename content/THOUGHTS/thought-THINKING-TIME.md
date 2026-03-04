@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
-name: "thought.THINKING_TIME"
-alias: "Thought: THINKING TIME"
+name: "thought.THINKING TIME"
+alias: "Thought: Thinking Time"
 parent: "topic.PSYCHOLOGY"
 en_content: "God spends 100% of His Time thinking about us...how much time do we spend thinking about Him?"
 tags: ["thinking", "time", "focus", "priorities", "god"]
@@ -12,17 +12,17 @@ neo4j: true
 
 ```Cypher
 CREATE (t:THOUGHT {
-    name: "thought.THINKING_TIME",
-    alias: "Thought: THINKING TIME",
+    name: "thought.THINKING TIME",
+    alias: "Thought: Thinking Time",
     parent: "topic.PSYCHOLOGY",
     tags: ["thinking", "time", "focus", "priorities", "god"],
     level: 4
 });
 
 CREATE (c:CONTENT {
-    name: "content.THINKING_TIME",
+    name: "content.THINKING TIME",
     ctype: "THOUGHT",
-    en_title: "THINKING TIME",
+    en_title: "Thinking Time",
     en_content: "God spends 100% of His Time thinking about us...how much time do we spend thinking about Him?",
     es_title: "TIEMPO PARA PENSAR",
     es_content: "Dios pasa el 100% de Su Tiempo pensando en nosotros... ¿cuánto tiempo pasamos nosotros pensando en Él?",
@@ -36,11 +36,11 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = "thought.THINKING_TIME" AND c.name = "content.THINKING_TIME"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.THINKING_TIME"}]->(c);
+WHERE t.name = "thought.THINKING TIME" AND c.name = "content.THINKING TIME"
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.THINKING TIME"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "topic.PSYCHOLOGY" AND child.name = "thought.THINKING_TIME"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.PSYCHOLOGY->THINKING_TIME"}]->(child);
+WHERE parent.name = "topic.PSYCHOLOGY" AND child.name = "thought.THINKING TIME"
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.PSYCHOLOGY->THINKING TIME"}]->(child);
 ```

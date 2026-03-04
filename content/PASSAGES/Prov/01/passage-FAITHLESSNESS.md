@@ -1,7 +1,7 @@
 ---
 type: PASSAGE
 name: "passage.FAITHLESSNESS"
-alias: "Passage: FAITHLESSNESS"
+alias: "Passage: Faithlessness"
 parent: "topic.EVIL"
 en_content: "For the faithlessness of the naive will kill them, and the complacency of fools will destroy them."
 tags: ["faithlessness", "naive", "complacency", "fools", "destruction"]
@@ -14,7 +14,7 @@ neo4j: true
 // CREATE PASSAGE
 CREATE (b:PASSAGE {
     name: "passage.FAITHLESSNESS",
-    alias: "Passage: FAITHLESSNESS",
+    alias: "Passage: Faithlessness",
     parent: "topic.EVIL",
     tags: ["faithlessness", "naive", "complacency", "fools", "destruction"],
     source: "'Proverbs 1:32'",
@@ -27,7 +27,7 @@ CREATE (b:PASSAGE {
 CREATE (c:CONTENT {
     name: "content.FAITHLESSNESS",
     ctype: "PASSAGE",
-    en_title: "FAITHLESSNESS",
+    en_title: "Faithlessness",
     en_content: "For the faithlessness of the naive will kill them, and the complacency of fools will destroy them.",
  es_title: "FIDELIDAD",
  es_content: "Porque la infidelidad de los ingenuos los matará, y la complacencia de los necios los destruirá.",

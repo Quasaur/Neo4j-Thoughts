@@ -1,7 +1,7 @@
 ---
 type: QUOTE
 name: "quote.HUMILITY"
-alias: "Quote: Quote: HUMILITY"
+alias: "Quote: Humility"
 parent: "topic.HUMILITY"
 en_content: "A realistic view of ourselves in the Light of the Holy Scriptures and in the Presence of Almighty GOD is what we call HUMILITY; and without this humility Salvation is simply impossible.",
  es_title: "Cita: HUMILDAD",
@@ -22,7 +22,7 @@ neo4j: true
 // CREATE QUOTE
 CREATE (q:QUOTE {
     name: "quote.HUMILITY",
-    alias: "Quote: Quote: HUMILITY",
+    alias: "Quote: Humility",
     parent: "topic.HUMILITY",
     tags: ["self_image", "bible", "god", "reservedness", "salvation"],
     source: "'IMMMUNITY to the Lake of Fire: A No-Nonsense Guide'",
@@ -34,7 +34,7 @@ CREATE (q:QUOTE {
 CREATE (c:CONTENT {
     name: "content.HUMILITY",
     ctype: "QUOTE",
-    en_title: "Quote: HUMILITY",
+    en_title: "Humility",
     en_content: "A realistic view of ourselves in the Light of the Holy Scriptures and in the Presence of Almighty GOD is what we call HUMILITY; and without this humility Salvation is simply impossible.",
  es_title: "Cita: HUMILDAD",
  es_content: "Una visión realista de nosotros mismos a la Luz de las Sagradas Escrituras y en la Presencia de DIOS Todopoderoso es lo que llamamos HUMILDAD; y sin esta humildad la Salvación es simplemente imposible.",

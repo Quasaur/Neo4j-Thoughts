@@ -23,7 +23,7 @@ CREATE (q:QUOTE {	    name: "quote.WORKS",
 CREATE (c:CONTENT {
 	name: "content.WORKS",
 	ctype: "QUOTE",
-	en_title: "WORKS", 
+	en_title: "Works", 
 	en_content: "This is one of the most conveincing proofs of the Truth of Christianity: every other religion on the planet Earth is a religion of righteousness by works. That is why the Cross of Christ is considered foolish by the world.",
 	es_title: "Obras", 
 	es_content: "Esta es una de las pruebas más contundentes de la verdad del cristianismo: todas las demás religiones del planeta Tierra son religiones de justicia por obras. Por eso, la cruz de Cristo es considerada una locura por el mundo.",

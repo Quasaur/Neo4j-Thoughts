@@ -23,7 +23,7 @@ CREATE (t:TOPIC {
 // CREATE DESCRIPTION
 CREATE (d:DESCRIPTION {
     name: "desc.JUSTICE",
-    en_title: "JUSTICE",
+    en_title: "Justice",
     en_content: "The practice or instance of giving to others what is their due.",
     es_title: "JUSTICIA",
     es_content: "La práctica o instancia de dar a otros lo que les corresponde.",

@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
 name: "thought.DEBTORS"
-alias: "Thought: DEBTORS"
+alias: "Thought: Debtors"
 parent: "topic.ECONOMICS"
 tags: ["economics", "nation", "debtors", "slaves", "liability"]
 ptopic: "[[topic-ECONOMICS]]"
@@ -12,7 +12,7 @@ neo4j: true
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.DEBTORS",
-    alias: "Thought: DEBTORS",
+    alias: "Thought: Debtors",
     parent: "topic.ECONOMICS",
     tags: ["economics", "nation", "debtors", "slaves", "liability"],
     level: 4
@@ -21,7 +21,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.DEBTORS",
     ctype: "THOUGHT",
-    en_title: "DEBTORS",
+    en_title: "Debtors",
     en_content: "A nation of debtors is a nation of slaves.",
  es_title: "DEUDORES",
  es_content: "Una nación de deudores es una nación de esclavos.",

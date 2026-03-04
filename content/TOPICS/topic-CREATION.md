@@ -5,7 +5,7 @@ alias: "Topic: The Universe / Multiverse"
 parent: "topic.THE GODHEAD"
 en_content: "All beings, places and things that exist apart from The GODHEAD as a result of Divine Creation."
 tags: ["creation", "cosmos", "universe", "dominion", "kingdom"]
-ptopic: "\"[[topic-THE-GODHEAD]]\""
+ptopic: "[[topic-THE-GODHEAD]]"
 level: 1
 neo4j: true
 ---
@@ -21,7 +21,7 @@ CREATE (t:TOPIC
 // create multi-lingual description		
 CREATE (d:DESCRIPTION {
 	name: "desc.CREATION", 
-	en_title: "CREATION", 
+	en_title: "Creation", 
 	en_content: "All beings, places and things that exist apart from The GODHEAD as a result of Divine Creation.", 
 	es_title: "CREACIÓN", 
 	es_content: "Todos los seres, lugares y cosas que existen aparte de La DEIDAD como resultado de la Creación Divina.", 

@@ -23,7 +23,7 @@ CREATE (t:TOPIC {
 // CREATE DESCRIPTION
 CREATE (d:DESCRIPTION {
     name: "desc.GEOLOGY",
-    en_title: "GEOLOGY",
+    en_title: "Geology",
     en_content: "Study of the solid matter of a celestial body.",
     es_title: "GEOLOGÍA",
     es_content: "Estudio de la materia sólida de un cuerpo celeste.",

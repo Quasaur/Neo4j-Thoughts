@@ -24,7 +24,7 @@ CREATE (q:QUOTE
 CREATE (c:CONTENT {
 	name: "content.ETERNITY", 
 	ctype: "QUOTE",
-	en_title: "ETERNITY", 
+	en_title: "Eternity", 
 	en_content: "With the word 'Eternity' we acknowledge (at least intellectually) that God has no beginning, which creates all kinds of problems for tiny minds like ours.", 
 	es_title: "ETERNIDADMISMO", 
 	es_content: "Con la palabra 'Eternidad' reconocemos (al menos intelectualmente) que Dios no tiene principio, lo cual crea todo tipo de problemas para mentes diminutas como la nuestra.", 

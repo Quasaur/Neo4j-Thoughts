@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
-name: "thought.FIRST_RULE"
-alias: "Thought: FIRST RULE"
+name: "thought.FIRST RULE"
+alias: "Thought: First Rule"
 parent: "topic.HUMOR"
 en_content: "First rule of Twitter: you do not talk about FaceBook. (dying of laughter)."
 tags: ["humor", "comedy", "social", "media", "movie"]
@@ -12,17 +12,17 @@ neo4j: true
 
 ```Cypher
 CREATE (t:THOUGHT {
-    name: "thought.FIRST_RULE",
-    alias: "Thought: FIRST RULE",
+    name: "thought.FIRST RULE",
+    alias: "Thought: First Rule",
     parent: "topic.HUMOR",
     tags: ["humor", "comedy", "social", "media", "movie"],
     level: 5
 });
 
 CREATE (c:CONTENT {
-    name: "content.FIRST_RULE",
+    name: "content.FIRST RULE",
     ctype: "THOUGHT",
-    en_title: "FIRST RULE",
+    en_title: "First Rule",
     en_content: "First rule of Twitter: you do not talk about FaceBook. (dying of laughter).",
 	es_title: "PRIMERA REGLA",
     es_content: "Primera regla de Twitter: no se habla de Facebook. Morir de risa.",
@@ -36,11 +36,11 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = "thought.FIRST_RULE" AND c.name = "content.FIRST_RULE"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.FIRST_RULE"}]->(c);
+WHERE t.name = "thought.FIRST RULE" AND c.name = "content.FIRST RULE"
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.FIRST RULE"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "topic.HUMOR" AND child.name = "thought.FIRST_RULE"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.HUMOR->FIRST_RULE"}]->(child);
+WHERE parent.name = "topic.HUMOR" AND child.name = "thought.FIRST RULE"
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.HUMOR->FIRST RULE"}]->(child);
 ```

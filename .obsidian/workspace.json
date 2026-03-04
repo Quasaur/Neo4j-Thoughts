@@ -4,41 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "10fe2b47dd8f65f2",
+        "id": "776845395530ebbc",
         "type": "tabs",
         "children": [
           {
-            "id": "d8e95085e8a0bbb0",
+            "id": "9dca4b4b207e1ac9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/Naming/naming_04_edge_case_issues.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "naming_04_edge_case_issues"
-            }
-          },
-          {
-            "id": "f5e1e49131856679",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/reports/unaddressed_issues_02-Mar-2026@1415.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "unaddressed_issues_02-Mar-2026@1415"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -70,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "GNOSIS",
+                "query": "?\",",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -121,7 +100,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/THOUGHTS/n/NO-WATER.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +109,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for NO-WATER"
+              "title": "Backlinks"
             }
           },
           {
@@ -167,18 +145,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/THOUGHTS/n/NO-WATER.md"
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of NO-WATER"
+              "title": "Outline"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,16 +173,26 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f5e1e49131856679",
+  "active": "9dca4b4b207e1ac9",
   "lastOpenFiles": [
-    "docs/Naming/naming_04_edge_case_issues.md",
+    "Neo4j-AI/Kimi K2/Discrepancies/Prompts/Prompts.md",
+    "docs/reports/edge_case_issues.md",
+    "AuraDB",
+    "docs/Naming/naming_04_cypherBlock.md",
+    "docs/Naming/naming_03_yaml.md",
+    "Book_of_Tweets/THOUGHTS/thought-DANGEROUS-AND-SAFE.md",
+    "docs/Naming/naming_01_neo4j_specs.md",
+    "Book_of_Tweets/THOUGHTS/thought-COOKED-FOOD-HUMANS.md",
+    "Book_of_Tweets/THOUGHTS/thought-ALONZO-CHURCH-FAITH.md",
+    "content/THOUGHTS/thought-ACT-OF-GOD.md",
+    "content/QUOTES/tnw/quote-LAW-OF-DOUBT.md",
+    "content/QUOTES/tnw/quote-CHILD-OF-SATAN.md",
+    "content/THOUGHTS/thought-DARK-MATTER.md",
+    "docs/Naming/naming_02_file_names.md",
     "docs/reports/unaddressed_issues_02-Mar-2026@1415.md",
-    "docs/Naming/naming_03_cypherBlock.md",
     "Neo4j-AI/docs/PROMPTS/Kimi-K2/Unadressed Issues Addressed.md",
-    "docs/Naming/naming_02_yaml.md",
     "docs/reports/TRANSLATION_SUMMARY.md",
     "docs/Naming/naming_02_yaml.md.md",
-    "docs/Naming/naming_01_file_names.md",
     "Neo4j-AI/docs/PROMPTS/Kimi-K2/RETURN of Fourth Query.md",
     "docs/reports/unaddressed_issues.md",
     "content/THOUGHTS/thought-GNOSIS.md",
@@ -216,21 +206,11 @@
     "sync_from_wisdom_api.py",
     "sync_translations_from_wisdom_book.py",
     "translate_missing_content.py",
-    "check_description_nodes.py",
     "docs/Naming/naming_05_relationships.md",
     "content/TOPICS/topic-ANTHROPOLOGY.md",
     "Neo4j-AI/docs/PROMPTS/Kimi-K2/Neo4j-Thoughts - content folder.md",
     "docs/reports/neo4j_auraDB_discrepancies_28-Feb-2026@2140.md",
     "docs/reports/yaml_corrections_28-Feb-2026@2105.md",
-    "docs/reports/CONTENT ctype PROPERTY.md",
-    "content/THOUGHTS/thought-ULTIMATE.md",
-    "content/THOUGHTS/thought-COWARDS.md",
-    "content/THOUGHTS/thought-AWARENESS.md",
-    "content/THOUGHTS/thought-EGO.md",
-    "content/THOUGHTS/thought-MIRACLES.md",
-    "content/THOUGHTS/thought-ULTIMATE2.md",
-    "content/THOUGHTS/thought-GOD.md",
-    "content/THOUGHTS/thought-PROTECTION.md",
     "Untitled.canvas",
     "public/attachments/og-image.png",
     "public/static/og-image.png",

@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
 name: "thought.PRIORITIES"
-alias: "Thought: PRIORITIES"
+alias: "Thought: Priorities"
 parent: "topic.WISDOM"
 tags: ["priorities", "seekyefirst", "divine_will", "god", "faith"]
 ptopic: "[[topic-WISDOM]]"
@@ -12,7 +12,7 @@ neo4j: true
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.PRIORITIES",
-    alias: "Thought: PRIORITIES",
+    alias: "Thought: Priorities",
     parent: "topic.WISDOM",
     tags: ["priorities", "seekyefirst", "divine_will", "god", "faith"],
     level: 4
@@ -21,7 +21,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.PRIORITIES",
     ctype: "THOUGHT",
-    en_title: "PRIORITIES",
+    en_title: "Priorities",
  es_title: "PRIORIDADES",
  fr_title: "PRIORITÉS",
  hi_title: "वरीयताओं",

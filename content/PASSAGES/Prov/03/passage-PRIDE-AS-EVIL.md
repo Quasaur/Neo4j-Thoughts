@@ -1,7 +1,7 @@
 ---
 type: PASSAGE
 name: "passage.PRIDE-AS-EVIL"
-alias: "Passage: PRIDE-AS-EVIL"
+alias: "Passage: Pride-as-evil"
 parent: "topic.HUMILITY"
 en_content: "Do not be wise in your own eyes; Fear the LORD and turn away from evil. It will be healing to your body And refreshment to your bones."
 tags: ["trust", "faith", "self_doubt", "acknowledge", "promise"]
@@ -14,7 +14,7 @@ neo4j: true
 // CREATE PASSAGE
 CREATE (b:PASSAGE {
     name: "passage.PRIDE-AS-EVIL",
-    alias: "Passage: PRIDE-AS-EVIL",
+    alias: "Passage: Pride-as-evil",
     parent: "topic.HUMILITY",
     tags: ["trust", "faith", "self_doubt", "acknowledge", "promise"],
     source: "'Proverbs 3:7,8'",
@@ -27,7 +27,7 @@ CREATE (b:PASSAGE {
 CREATE (c:CONTENT {
     name: "content.PRIDE-AS-EVIL",
     ctype: "PASSAGE",
-    en_title: "PRIDE-AS-EVIL",
+    en_title: "Pride-as-evil",
     en_content: "Do not be wise in your own eyes; Fear the LORD and turn away from evil. It will be healing to your body And refreshment to your bones.",
  es_title: "ORGULLO COMO MAL",
  es_content: "No seas sabio en tu propia opinión; Teme al Señor y apártate del mal. Será sanidad para tu cuerpo y refrigerio para tus huesos.",

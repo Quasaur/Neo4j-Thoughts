@@ -21,7 +21,7 @@ CREATE (t:TOPIC
 // create multi-lingual description		
 CREATE (d:DESCRIPTION {
 	name: "desc.SPIRITUALITY", 
-	en_title: "SPIRITUALITY", 
+	en_title: "Spirituality", 
 	en_content: "Sensitivity or attachment to the values of the Holy Spirit of God.", 
 	es_title: "ESPIRITUALIDAD", 
 	es_content: "Sensibilidad o apego a los valores del Espíritu Santo de Dios.", 

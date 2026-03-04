@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
-name: "thought.THE_BIBLE"
-alias: "Thought: THE BIBLE"
+name: "thought.THE BIBLE"
+alias: "Thought: The Bible"
 parent: "topic.HISTORY"
 en_content: "As time draws closer to the Return of Jesus and The Great Delusion begins to tighten its grip on the minds of the unsaved, the Role of the Bible as the Divinely-appointed Rule of Faith and Practice will suffer an increasingly vicious assault not only from outside the Assembly of Believers, but also increasingly from within!"
 tags: ["apocalypse", "bible", "rock", "spirituality", "delusion"]
@@ -12,17 +12,17 @@ neo4j: true
 
 ```Cypher
 CREATE (t:THOUGHT {
-    name: "thought.THE_BIBLE",
-    alias: "Thought: THE BIBLE",
+    name: "thought.THE BIBLE",
+    alias: "Thought: The Bible",
     parent: "topic.HISTORY",
     tags: ["apocalypse", "bible", "rock", "spirituality", "delusion"],
     level: 4
 });
 
 CREATE (c:CONTENT {
-    name: "content.THE_BIBLE",
+    name: "content.THE BIBLE",
     ctype: "THOUGHT",
-    en_title: "THE BIBLE",
+    en_title: "The Bible",
     en_content: "As time draws closer to the Return of Jesus and The Great Delusion begins to tighten its grip on the minds of the unsaved, the Role of the Bible as the Divinely-appointed Rule of Faith and Practice will suffer an increasingly vicious assault not only from outside the Assembly of Believers, but also increasingly from within!",
     es_title: "LA BIBLIA",
     es_content: "A medida que el tiempo se acerca al Retorno de Jesús y el Gran Engaño comienza a afianzarse en las mentes de los no salvos, el papel de la Biblia como Regla de fe y práctica divinamente designada sufrirá un ataque cada vez más cruel no sólo desde fuera de la Asamblea de Creyentes, ¡sino también cada vez más desde dentro!",
@@ -36,11 +36,11 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = "thought.THE_BIBLE" AND c.name = "content.THE_BIBLE"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.THE_BIBLE"}]->(c);
+WHERE t.name = "thought.THE BIBLE" AND c.name = "content.THE BIBLE"
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.THE BIBLE"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "topic.HISTORY" AND child.name = "thought.THE_BIBLE"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.HISTORY->THE_BIBLE"}]->(child);
+WHERE parent.name = "topic.HISTORY" AND child.name = "thought.THE BIBLE"
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.HISTORY->THE BIBLE"}]->(child);
 ```

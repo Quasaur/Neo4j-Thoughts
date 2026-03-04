@@ -1,7 +1,7 @@
 ---
 type: QUOTE
-name: "quote.LAW_OF_DOUBT"
-alias: "Quote: Quote: LAW OF DOUBT"
+name: "quote.LAW OF DOUBT"
+alias: "Quote: Law of Doubt"
 parent: "topic.RELIGION"
 en_content: "As stated in my book '[IMMUNITY to the Lake of Fire: a No-Nonsense Guide](https://www.clmbooks.life/book-ip)' religion has declared the doctrine of Full Assurance (Once Saved, Always Saved) to not only be a heresy, but an unforgivable sin (Council of Trent, Sixth Session, Chapter XVI, Canons on Justification). That is to say: Doubt itself, the sworn enemy of Faith ([Matthew 14:31](https://mobile.biblegateway.com/passage/?search=Matthew+14%3A31&version=ESV); [James 1:5-8](https://mobile.biblegateway.com/passage/?search=James+1%3A5-8&version=ESV)), is adopted by institutionalized religion as both critical and necessary. Gadzooks! What am i missing here? How can i walk with Jesus in full assurance of Faith if He can't even guarantee the completion of the Good Work our Heavenly Father began in me?",
  es_title: "Cita: LEY DE LA DUDA",
@@ -21,8 +21,8 @@ neo4j: true
 ```Cypher
 // CREATE QUOTE
 CREATE (q:QUOTE {
-    name: "quote.LAW_OF_DOUBT",
-    alias: "Quote: Quote: LAW OF DOUBT",
+    name: "quote.LAW OF DOUBT",
+    alias: "Quote: Law of Doubt",
     parent: "topic.RELIGION",
     tags: ["doubt", "faiithless", "promise", "gospel", "fullassurance"],
     source: "'The Narrow Way'",
@@ -32,9 +32,9 @@ CREATE (q:QUOTE {
 
 // CREATE CONTENT
 CREATE (c:CONTENT {
-    name: "content.LAW_OF_DOUBT",
+    name: "content.LAW OF DOUBT",
     ctype: "QUOTE",
-    en_title: "Quote: LAW OF DOUBT",
+    en_title: "Law of Doubt",
     en_content: "As stated in my book '[IMMUNITY to the Lake of Fire: a No-Nonsense Guide](https://www.clmbooks.life/book-ip)' religion has declared the doctrine of Full Assurance (Once Saved, Always Saved) to not only be a heresy, but an unforgivable sin (Council of Trent, Sixth Session, Chapter XVI, Canons on Justification). That is to say: Doubt itself, the sworn enemy of Faith ([Matthew 14:31](https://mobile.biblegateway.com/passage/?search=Matthew+14%3A31&version=ESV); [James 1:5-8](https://mobile.biblegateway.com/passage/?search=James+1%3A5-8&version=ESV)), is adopted by institutionalized religion as both critical and necessary. Gadzooks! What am i missing here? How can i walk with Jesus in full assurance of Faith if He can't even guarantee the completion of the Good Work our Heavenly Father began in me?",
  es_title: "Cita: LEY DE LA DUDA",
  es_content: "Como se indica en mi libro '[INMUNIDAD al Lago de Fuego: una guía sensata](https://www.clmbooks.life/book-ip)' la religión ha declarado que la doctrina de la Plena Seguridad (Una vez salvo, siempre salvo) no sólo es una herejía, sino también un pecado imperdonable (Concilio de Trento, Sexta Sesión, Capítulo XVI, Cánones sobre la Justificación). Es decir: la duda misma, enemiga jurada de la fe ([Mateo 14:31](https://mobile.biblegateway.com/passage/?search=Matthew+14%3A31&version=ESV); [Santiago 1:5-8](https://mobile.biblegateway.com/passage/?search=James+1%3A5-8&version=ESV)), es adoptada por la religión institucionalizada como crítica y necesario. ¡Gadzooks! ¿Qué me falta aquí? ¿Cómo puedo caminar con Jesús en plena seguridad de Fe si Él ni siquiera puede garantizar la finalización de la Buena Obra que nuestro Padre Celestial comenzó en mí?",
@@ -47,13 +47,13 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (q:QUOTE {name: "quote.LAW_OF_DOUBT"})
-MATCH (c:CONTENT {name: "content.LAW_OF_DOUBT"})
-MERGE (q)-[:HAS_CONTENT {name: "q.edge.LAW_OF_DOUBT"}]->(c);
+MATCH (q:QUOTE {name: "quote.LAW OF DOUBT"})
+MATCH (c:CONTENT {name: "content.LAW OF DOUBT"})
+MERGE (q)-[:HAS_CONTENT {name: "q.edge.LAW OF DOUBT"}]->(c);
 
 // LINK PARENT
 MATCH (parent:TOPIC {name: "topic.RELIGION"})
-MATCH (child:QUOTE {name: "quote.LAW_OF_DOUBT"})
-MERGE (parent)-[:HAS_QUOTE {name: "q.edge.RELIGION->LAW_OF_DOUBT"}]->(child);
+MATCH (child:QUOTE {name: "quote.LAW OF DOUBT"})
+MERGE (parent)-[:HAS_QUOTE {name: "q.edge.RELIGION->LAW OF DOUBT"}]->(child);
 
 ```

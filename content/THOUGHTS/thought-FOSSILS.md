@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
 name: "thought.FOSSILS"
-alias: "Thought: FOSSILS"
+alias: "Thought: Fossils"
 parent: "topic.GEOLOGY"
 tags: ["geology", "fossils", "creationism", "intelligentdesign", "evidence"]
 ptopic: "[[topic-GEOLOGY]]"
@@ -12,7 +12,7 @@ neo4j: true
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.FOSSILS",
-    alias: "Thought: FOSSILS",
+    alias: "Thought: Fossils",
     parent: "topic.GEOLOGY",
     tags: ["geology", "fossils", "creationism", "intelligentdesign", "evidence"],
     level: 4
@@ -21,7 +21,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.FOSSILS",
     ctype: "THOUGHT",
-    en_title: "FOSSILS",
+    en_title: "Fossils",
  es_title: "FÓSILES",
  fr_title: "FOSSILES",
  hi_title: "जीवाश्मों",

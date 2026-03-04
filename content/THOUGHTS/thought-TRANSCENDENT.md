@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
 name: "thought.TRANSCENDENT"
-alias: "Thought: TRANSCENDENT"
+alias: "Thought: Transcendent"
 parent: "topic.GRACE"
 tags: ["pure", "untainted", "deliverance", "glorification", "jesus_christ"]
 ptopic: "[[topic-GRACE]]"
@@ -12,7 +12,7 @@ neo4j: true
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.TRANSCENDENT",
-    alias: "Thought: TRANSCENDENT",
+    alias: "Thought: Transcendent",
     parent: "topic.GRACE",
     tags: ["pure", "untainted", "deliverance", "glorification", "jesus_christ"],
     level: 3
@@ -21,7 +21,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.TRANSCENDENT",
     ctype: "THOUGHT",
-    en_title: "TRANSCENDENT",
+    en_title: "Transcendent",
  es_title: "TRASCENDENTE",
  fr_title: "TRANSCENDANT",
  hi_title: "उत्कृष्ट",

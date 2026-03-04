@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
 name: "thought.DIFFICULTY"
-alias: "Thought: DIFFICULTY"
+alias: "Thought: Difficulty"
 parent: "topic.ATTITUDE"
 tags: ["difficulty", "challenge", "struggle", "humility", "confession"]
 ptopic: "[[topic-ATTITUDE]]"
@@ -12,7 +12,7 @@ neo4j: true
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.DIFFICULTY",
-    alias: "Thought: DIFFICULTY",
+    alias: "Thought: Difficulty",
     parent: "topic.ATTITUDE",
     tags: ["difficulty", "challenge", "struggle", "humility", "confession"],
     level: 3
@@ -21,7 +21,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.DIFFICULTY",
     ctype: "THOUGHT",
-    en_title: "DIFFICULTY",
+    en_title: "Difficulty",
  es_title: "DIFICULTAD",
  fr_title: "DIFFICULTÉ",
  hi_title: "कठिनाई",

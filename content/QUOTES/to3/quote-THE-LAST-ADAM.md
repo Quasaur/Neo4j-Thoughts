@@ -1,7 +1,7 @@
 ---
 type: QUOTE
-name: "quote.THE_LAST_ADAM"
-alias: "Quote: Quote: THE LAST ADAM"
+name: "quote.THE LAST ADAM"
+alias: "Quote: The Last Adam"
 parent: "topic.HUMANITY"
 en_content: "Jesus is the most powerful human in the universe! And having in His Body exalted humanity beyond the reach of sin and affliction, He became the Last Adam of a new race of humanity, and has poured out His Divine Holy Spirit upon all who in faith call upon Him.",
  es_title: "Cita: EL ÚLTIMO ADÁN",
@@ -21,8 +21,8 @@ neo4j: true
 ```Cypher
 // CREATE QUOTE
 CREATE (q:QUOTE {
-    name: "quote.THE_LAST_ADAM",
-    alias: "Quote: Quote: THE LAST ADAM",
+    name: "quote.THE LAST ADAM",
+    alias: "Quote: The Last Adam",
     parent: "topic.HUMANITY",
     tags: ["jesus_christ", "lastadam", "humanity", "exalted", "holy_spirit"],
     source: "'The Traveler's Oasis, Book Three'",
@@ -32,9 +32,9 @@ CREATE (q:QUOTE {
 
 // CREATE CONTENT
 CREATE (c:CONTENT {
-    name: "content.THE_LAST_ADAM",
+    name: "content.THE LAST ADAM",
     ctype: "QUOTE",
-    en_title: "Quote: THE LAST ADAM",
+    en_title: "The Last Adam",
     en_content: "Jesus is the most powerful human in the universe! And having in His Body exalted humanity beyond the reach of sin and affliction, He became the Last Adam of a new race of humanity, and has poured out His Divine Holy Spirit upon all who in faith call upon Him.",
  es_title: "Cita: EL ÚLTIMO ADÁN",
  es_content: "¡Jesús es el ser humano más poderoso del universo! Y habiendo exaltado en Su Cuerpo a la humanidad más allá del alcance del pecado y de la aflicción, se convirtió en el Último Adán de una nueva raza de humanidad, y ha derramado Su Divino Espíritu Santo sobre todos los que con fe lo invocan.",
@@ -47,13 +47,13 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (q:QUOTE {name: "quote.THE_LAST_ADAM"})
-MATCH (c:CONTENT {name: "content.THE_LAST_ADAM"})
-MERGE (q)-[:HAS_CONTENT {name: "q.edge.THE_LAST_ADAM"}]->(c);
+MATCH (q:QUOTE {name: "quote.THE LAST ADAM"})
+MATCH (c:CONTENT {name: "content.THE LAST ADAM"})
+MERGE (q)-[:HAS_CONTENT {name: "q.edge.THE LAST ADAM"}]->(c);
 
 // LINK PARENT
 MATCH (parent:TOPIC {name: "topic.HUMANITY"})
-MATCH (child:QUOTE {name: "quote.THE_LAST_ADAM"})
-MERGE (parent)-[:HAS_QUOTE {name: "q.edge.HUMANITY->THE_LAST_ADAM"}]->(child);
+MATCH (child:QUOTE {name: "quote.THE LAST ADAM"})
+MERGE (parent)-[:HAS_QUOTE {name: "q.edge.HUMANITY->THE LAST ADAM"}]->(child);
 
 ```

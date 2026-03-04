@@ -7,7 +7,7 @@ en_content: |
   …except God. Even when He MOVES, God is at REST
   …GLORY!!!!!!!!!!!!!!!!!!!!"
 tags: ["rest", "sabbath", "peace", "contentment", "fullness"]
-ptopic: "\"[[topic-THE-GODHEAD]]\""
+ptopic: "[[topic-THE-GODHEAD]]"
 level: 1
 neo4j: true
 ---
@@ -23,7 +23,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.MOTION",
     ctype: "THOUGHT",
-    en_title: "MOTION",
+    en_title: "Motion",
     en_content: "Everything that exists is MOVING…
 …except God. Even when He MOVES, God is at REST
 …GLORY!!!!!!!!!!!!!!!!!!!!",

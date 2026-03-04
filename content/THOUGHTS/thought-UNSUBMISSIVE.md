@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
 name: "thought.UNSUBMISSIVE"
-alias: "Thought: UNSUBMISSIVE"
+alias: "Thought: Unsubmissive"
 parent: "topic.DIVINE-SOVEREIGNTY"
 tags: ["unsubmissive", "rebellious", "pointless", "meaningless", "god"]
 ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
@@ -12,7 +12,7 @@ neo4j: true
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.UNSUBMISSIVE",
-    alias: "Thought: UNSUBMISSIVE",
+    alias: "Thought: Unsubmissive",
     parent: "topic.DIVINE-SOVEREIGNTY",
     tags: ["unsubmissive", "rebellious", "pointless", "meaningless", "god"],
     level: 2
@@ -21,7 +21,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.UNSUBMISSIVE",
     ctype: "THOUGHT",
-    en_title: "UNSUBMISSIVE",
+    en_title: "Unsubmissive",
  es_title: "INSUMISO",
  fr_title: "NON SOUMIS",
  hi_title: "अलग",

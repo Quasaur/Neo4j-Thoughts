@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
 name: "thought.REACTION"
-alias: "Thought: REACTION"
+alias: "Thought: Reaction"
 parent: "topic.PSYCHOLOGY"
 en_content: "Feeling is the reaction of the flesh to circumstance. Feeling is not Truth. Just because you feel angry it doesn't mean you should be."
 tags: ["react", "feeling", "flesh", "circumstance", "truth"]
@@ -14,7 +14,7 @@ neo4j: true
 // 
 CREATE (t:THOUGHT {
     name: "thought.REACTION",
-    alias: "Thought: REACTION",
+    alias: "Thought: Reaction",
     parent: "topic.PSYCHOLOGY",
     tags: ["react", "feeling", "flesh", "circumstance", "truth"],
     level: 4

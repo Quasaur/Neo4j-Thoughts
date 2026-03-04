@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
 name: "thought.IMMORTALITY"
-alias: "Thought: IMMORTALITY"
+alias: "Thought: Immortality"
 parent: "topic.FAITHFULNESS"
 tags: ["immortality", "eternal_life", "salvation", "desire", "jesus_christ"]
 ptopic: "[[topic-FAITHFULNESS]]"
@@ -12,7 +12,7 @@ neo4j: true
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.IMMORTALITY",
-    alias: "Thought: IMMORTALITY",
+    alias: "Thought: Immortality",
     parent: "topic.FAITHFULNESS",
     tags: ["immortality", "eternal_life", "salvation", "desire", "jesus_christ"],
     level: 2
@@ -21,7 +21,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.IMMORTALITY",
     ctype: "THOUGHT",
-    en_title: "IMMORTALITY",
+    en_title: "Immortality",
  es_title: "INMORTALIDAD",
  fr_title: "IMMORTALITÉ",
  hi_title: "अमरता",

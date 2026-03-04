@@ -21,7 +21,7 @@ CREATE (t:TOPIC
 // create multi-lingual description		
 CREATE (d:DESCRIPTION {
 	name: "desc.TRUTH", 
-	en_title: "TRUTH", 
+	en_title: "Truth", 
 	en_content: "A transcendent fundamental or spiritual reality.", 
 	es_title: "VERDAD", 
 	es_content: "Una realidad fundamental o espiritual trascendente.", 

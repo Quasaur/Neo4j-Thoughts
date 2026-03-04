@@ -1,7 +1,7 @@
 ---
 type: QUOTE
 name: "quote.FOREKNOWN"
-alias: "Quote: Quote: FOREKNOWN"
+alias: "Quote: Foreknown"
 parent: "topic.DIVINE-SOVEREIGNTY"
 en_content: "To save you from the coming Wrath GOD must KNOW you.",
  es_title: "Cita: PREVISTO",
@@ -22,7 +22,7 @@ neo4j: true
 // CREATE QUOTE
 CREATE (q:QUOTE {
     name: "quote.FOREKNOWN",
-    alias: "Quote: Quote: FOREKNOWN",
+    alias: "Quote: Foreknown",
     parent: "topic.DIVINE-SOVEREIGNTY",
     tags: ["foreknowledge", "god", "intimacy", "jesus_christ", "eternity"],
     source: "'The Narrow Way'",
@@ -34,7 +34,7 @@ CREATE (q:QUOTE {
 CREATE (c:CONTENT {
     name: "content.FOREKNOWN",
     ctype: "QUOTE",
-    en_title: "Quote: FOREKNOWN",
+    en_title: "Foreknown",
     en_content: "To save you from the coming Wrath GOD must KNOW you.",
  es_title: "Cita: PREVISTO",
  es_content: "Para salvarte de la ira venidera, DIOS debe CONOCERTE.",

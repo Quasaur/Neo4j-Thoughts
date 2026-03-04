@@ -23,7 +23,7 @@ CREATE (t:TOPIC {
 // CREATE DESCRIPTION
 CREATE (d:DESCRIPTION {
     name: "desc.FAITH",
-    en_title: "FAITH",
+    en_title: "Faith",
     en_content: "Confidence in the Words of God that inspires intent, speech and action.",
     es_title: "FE",
     es_content: "Confianza en las Palabras de Dios que inspiran intención, palabra y acción.",

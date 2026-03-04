@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
-name: "thought.GLORY_TO_GOD"
-alias: "Thought: GLORY TO GOD"
+name: "thought.GLORY TO GOD"
+alias: "Thought: Glory to God"
 parent: "topic.DIVINE-SOVEREIGNTY"
 en_content: "Whether by Righteousness or Wickedness, we all exist to glorify God!"
 tags: ["the_glory_of_god", "splendor", "purpose", "existence", "sovereignty"]
@@ -12,17 +12,17 @@ neo4j: true
 
 ```Cypher
 CREATE (t:THOUGHT {
-    name: "thought.GLORY_TO_GOD",
-    alias: "Thought: GLORY TO GOD",
+    name: "thought.GLORY TO GOD",
+    alias: "Thought: Glory to God",
     parent: "topic.DIVINE-SOVEREIGNTY",
     tags: ["the_glory_of_god", "splendor", "purpose", "existence", "sovereignty"],
     level: 2
 });
 
 CREATE (c:CONTENT {
-    name: "content.GLORY_TO_GOD",
+    name: "content.GLORY TO GOD",
     ctype: "THOUGHT",
-    en_title: "GLORY TO GOD",
+    en_title: "Glory to God",
     en_content: "Whether by Righteousness or Wickedness, we all exist to glorify God!",
     es_title: "GLORIA A DIOS",
     es_content: "Ya sea por Justicia o por Maldad, ¡todos existimos para glorificar a Dios!",
@@ -36,11 +36,11 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = "thought.GLORY_TO_GOD" AND c.name = "content.GLORY_TO_GOD"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.GLORY_TO_GOD"}]->(c);
+WHERE t.name = "thought.GLORY TO GOD" AND c.name = "content.GLORY TO GOD"
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.GLORY TO GOD"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "topic.DIVINE-SOVEREIGNTY" AND child.name = "thought.GLORY_TO_GOD"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.DIVINE-SOVEREIGNTY->GLORY_TO_GOD"}]->(child);
+WHERE parent.name = "topic.DIVINE-SOVEREIGNTY" AND child.name = "thought.GLORY TO GOD"
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.DIVINE-SOVEREIGNTY->GLORY TO GOD"}]->(child);
 ```

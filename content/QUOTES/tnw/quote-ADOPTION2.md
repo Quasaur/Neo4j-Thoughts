@@ -1,7 +1,7 @@
 ---
 type: QUOTE
 name: "quote.ADOPTION2"
-alias: "Quote: Quote: ADOPTION2"
+alias: "Quote: Adoption2"
 parent: "topic.GRACE"
 en_content: "No doubt you can appreciate how important Conversion is to your Salvation. GOD does not exist to the world (or the religious) because, as unredeemed sinners, they do not have the Holy Spirit of GOD dwelling in them, as true Christians do.",
  es_title: "Cita: ADOPCIÓN2",
@@ -12,7 +12,7 @@ en_content: "No doubt you can appreciate how important Conversion is to your Sal
  hi_content: "इसमें कोई संदेह नहीं कि आप समझ सकते हैं कि रूपांतरण आपके उद्धार के लिए कितना महत्वपूर्ण है। दुनिया (या धार्मिक) के लिए ईश्वर का कोई अस्तित्व नहीं है, क्योंकि, मुक्ति न पाए पापियों के रूप में, उनमें ईश्वर की पवित्र आत्मा का वास नहीं है, जैसा कि सच्चे ईसाइयों में होता है।",
  zh_title: "yǐn yòng ： cǎi yòng 2",
  zh_content: "háo wú yí wèn ， nǐ kě yǐ tǐ huì dào guī yī duì nǐ de jiù shú yǒu duō me zhòng yào 。 duì yú shì jiè （ huò zōng jiào ） lái shuō ， shàng dì bìng bù cún zài ， yīn wèi zuò wéi wèi dé jiù shú de zuì rén ， tā men méi yǒu xiàng zhēn zhèng de jī dū tú nà yàng yǒu shàng dì de shèng líng zhù zài tā men lǐ miàn 。"
-tags: ["bornagain", "rebirth", "holy_spirit", "child_of_god", "holy_spirit"]
+tags: ["born_again", "rebirth", "holy_spirit", "child_of_god", "holy_spirit"]
 ptopic: "[[topic-GRACE]]"
 level: 3
 neo4j: true
@@ -22,9 +22,9 @@ neo4j: true
 // CREATE QUOTE
 CREATE (q:QUOTE {
     name: "quote.ADOPTION2",
-    alias: "Quote: Quote: ADOPTION2",
+    alias: "Quote: Adoption2",
     parent: "topic.GRACE",
-    tags: ["bornagain", "rebirth", "holy_spirit", "child_of_god", "holy_spirit"],
+    tags: ["born_again", "rebirth", "holy_spirit", "child_of_god", "holy_spirit"],
     source: "'The Narrow Way'",
     booklink: "(https://www.amazon.com/Narrow-Way-Calvin-Mitchell-ebook/dp/B0CRYC8WY7)",
     level: 3
@@ -34,7 +34,7 @@ CREATE (q:QUOTE {
 CREATE (c:CONTENT {
     name: "content.ADOPTION2",
     ctype: "QUOTE",
-    en_title: "Quote: ADOPTION2",
+    en_title: "Adoption2",
     en_content: "No doubt you can appreciate how important Conversion is to your Salvation. GOD does not exist to the world (or the religious) because, as unredeemed sinners, they do not have the Holy Spirit of GOD dwelling in them, as true Christians do.",
  es_title: "Cita: ADOPCIÓN2",
  es_content: "Sin duda podrás apreciar lo importante que es la Conversión para tu Salvación. DIOS no existe para el mundo (ni para los religiosos) porque, como pecadores no redimidos, no tienen el Espíritu Santo de DIOS morando en ellos, como lo hacen los verdaderos cristianos.",

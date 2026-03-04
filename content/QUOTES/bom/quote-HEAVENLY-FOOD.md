@@ -23,7 +23,7 @@ CREATE (q:QUOTE {	    name: "quote.HEAVENLY-FOOD",
 CREATE (c:CONTENT {
 	name: "content.HEAVENLY-FOOD",
 	ctype: "QUOTE",
-	en_title: "HEAVENLY FOOD", 
+	en_title: "Heavenly Food", 
 	en_content: "We try to make these things nourish our spirits, because we have not learned to sit at the Table of Heaven and eat the Heavenly Food as consistently and habitually as we eat physical food!", 
 	es_title: "Alimento Celestial", 
 	es_content: "Intentamos que estas cosas alimenten nuestro espíritu, porque no hemos aprendido a sentarnos a la Mesa del Cielo y comer el Alimento Celestial con tanta constancia y habitualidad como comemos la comida física.",

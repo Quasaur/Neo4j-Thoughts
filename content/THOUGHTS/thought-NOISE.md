@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
 name: "thought.NOISE"
-alias: "Thought: NOISE"
+alias: "Thought: Noise"
 parent: "topic.GRACE"
 tags: ["heart", "noise", "voice_of_god", "hearing", "holy_spirit"]
 ptopic: "[[topic-GRACE]]"
@@ -12,7 +12,7 @@ neo4j: true
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.NOISE",
-    alias: "Thought: NOISE",
+    alias: "Thought: Noise",
     parent: "topic.GRACE",
     tags: ["heart", "noise", "voice_of_god", "hearing", "holy_spirit"],
     level: 3
@@ -21,7 +21,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.NOISE",
     ctype: "THOUGHT",
-    en_title: "NOISE",
+    en_title: "Noise",
  es_title: "RUIDO",
  fr_title: "BRUIT",
  hi_title: "शोर",

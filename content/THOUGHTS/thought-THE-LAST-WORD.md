@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
-name: "thought.THE_LAST_WORD"
-alias: "Thought: THE LAST WORD"
+name: "thought.THE LAST WORD"
+alias: "Thought: The Last Word"
 parent: "topic.THE-GOSPEL"
 en_content: "Yehoshua Ha Meshiach: Jesus The Christ: The Living Word...The Last Word!"
 tags: ["gospel", "jesus_christ", "livingword", "lastword", "word_of_god"]
@@ -12,17 +12,17 @@ neo4j: true
 
 ```Cypher
 CREATE (t:THOUGHT {
-    name: "thought.THE_LAST_WORD",
-    alias: "Thought: THE LAST WORD",
+    name: "thought.THE LAST WORD",
+    alias: "Thought: The Last Word",
     parent: "topic.THE-GOSPEL",
     tags: ["gospel", "jesus_christ", "livingword", "lastword", "word_of_god"],
     level: 2
 });
 
 CREATE (c:CONTENT {
-    name: "content.THE_LAST_WORD",
+    name: "content.THE LAST WORD",
     ctype: "THOUGHT",
-    en_title: "THE LAST WORD",
+    en_title: "The Last Word",
     en_content: "Yehoshua Ha Meshiach: Jesus The Christ: The Living Word...The Last Word!",
     es_title: "LA ÚLTIMA PALABRA",
     es_content: "Yehoshua Ha Meshiach: Jesús El Cristo: La Palabra Viva... ¡La Última Palabra!",
@@ -36,11 +36,11 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = "thought.THE_LAST_WORD" AND c.name = "content.THE_LAST_WORD"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.THE_LAST_WORD"}]->(c);
+WHERE t.name = "thought.THE LAST WORD" AND c.name = "content.THE LAST WORD"
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.THE LAST WORD"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "topic.THE-GOSPEL" AND child.name = "thought.THE_LAST_WORD"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.THE-GOSPEL->THE_LAST_WORD"}]->(child);
+WHERE parent.name = "topic.THE-GOSPEL" AND child.name = "thought.THE LAST WORD"
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.THE-GOSPEL->THE LAST WORD"}]->(child);
 ```

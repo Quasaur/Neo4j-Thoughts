@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
-name: "thought.SELF_WORSHIP"
-alias: "Thought: SELF WORSHIP"
+name: "thought.SELF WORSHIP"
+alias: "Thought: Self Worship"
 parent: "topic.RELIGION"
 en_content: "Self-awareness without God-awareness is just self-worship, from which comes humanitarianism and evolutionary theory."
 tags: ["narcissism", "self_worship", "religion", "humanitarian", "evolution"]
@@ -12,17 +12,17 @@ neo4j: true
 
 ```Cypher
 CREATE (t:THOUGHT {
-    name: "thought.SELF_WORSHIP",
-    alias: "Thought: SELF WORSHIP",
+    name: "thought.SELF WORSHIP",
+    alias: "Thought: Self Worship",
     parent: "topic.RELIGION",
     tags: ["narcissism", "self_worship", "religion", "humanitarian", "evolution"],
     level: 4
 });
 
 CREATE (c:CONTENT {
-    name: "content.SELF_WORSHIP",
+    name: "content.SELF WORSHIP",
     ctype: "THOUGHT",
-    en_title: "SELF WORSHIP",
+    en_title: "Self Worship",
     en_content: "Self-awareness without God-awareness is just self-worship, from which comes humanitarianism and evolutionary theory.",
     es_title: "AUTOADORACIÓN",
     es_content: "La autoconciencia sin conciencia de Dios es sólo adoración a uno mismo, de la que proviene el humanitarismo y la teoría de la evolución.",
@@ -36,11 +36,11 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = "thought.SELF_WORSHIP" AND c.name = "content.SELF_WORSHIP"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.SELF_WORSHIP"}]->(c);
+WHERE t.name = "thought.SELF WORSHIP" AND c.name = "content.SELF WORSHIP"
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.SELF WORSHIP"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "topic.RELIGION" AND child.name = "thought.SELF_WORSHIP"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.RELIGION->SELF_WORSHIP"}]->(child);
+WHERE parent.name = "topic.RELIGION" AND child.name = "thought.SELF WORSHIP"
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.RELIGION->SELF WORSHIP"}]->(child);
 ```

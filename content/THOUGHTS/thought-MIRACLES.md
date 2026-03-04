@@ -8,7 +8,7 @@ en_content: |
   the only Acts God is doing,
   and the only Acts God will ever do!"
 tags: ["miracles", "acts_of_god", "divine_power", "glory_of_god", "signs"]
-ptopic: "\"[[topic-THE-GODHEAD]]\""
+ptopic: "[[topic-THE-GODHEAD]]"
 level: 1
 neo4j: true
 ---
@@ -24,7 +24,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.MIRACLES",
     ctype: "THOUGHT",
-    en_title: "MIRACLES",
+    en_title: "Miracles",
     en_content: "Miracles are...
 ...the only Acts God has ever done,
 the only Acts God is doing,

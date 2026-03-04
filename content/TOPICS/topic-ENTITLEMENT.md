@@ -23,7 +23,7 @@ CREATE (t:TOPIC {
 // CREATE DESCRIPTION
 CREATE (d:DESCRIPTION {
     name: "desc.ENTITLEMENT",
-    en_title: "ENTITLEMENT",
+    en_title: "Entitlement",
     en_content: "Law, contract or belief that one is deserving of or entitled to certain rights, benefits and privileges.",
     es_title: "DERECHO",
     es_content: "Ley, contrato o creencia de que uno merece o tiene derecho a ciertos derechos, beneficios y privilegios.",

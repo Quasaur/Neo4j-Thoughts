@@ -1,29 +1,29 @@
 ---
 type: THOUGHT
-name: "\"thought.GOD_IN_CHARGE\""
-alias: "Thought: GOD IN CHARGE"
-parent: "\"topic.DIVINE-SOVEREIGNTY\""
+name: "thought.GOD IN CHARGE"
+alias: "Thought: God in Charge"
+parent: "topic.DIVINE-SOVEREIGNTY"
 en_content: |
   I've been told my tweets are a bit ambiguous, so here's a moment of clarity:
    God is running your life...whether you believe He exists or not..
 tags: ["belief", "truth", "control", "god", "sovereignty"]
-ptopic: "\"[[topic-DIVINE-SOVEREIGNTY]]\""
+ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
 level: 2
 neo4j: true
 ---
 ```Cypher
 CREATE (t:THOUGHT {
-    name: "\"thought.GOD_IN_CHARGE\"",
-    alias: "Thought: GOD IN CHARGE",
-    parent: "\"topic.DIVINE-SOVEREIGNTY\"",
+    name: "thought.GOD IN CHARGE",
+    alias: "Thought: God in Charge",
+    parent: "topic.DIVINE-SOVEREIGNTY",
     tags: ["belief", "truth", "control", "god", "sovereignty"],
     level: 2
 });
 
 CREATE (c:CONTENT {
-    name: "content.GOD_IN_CHARGE",
+    name: "content.GOD IN CHARGE",
     ctype: "THOUGHT",
-    en_title: "GOD IN CHARGE",
+    en_title: "God in Charge",
     en_content: "I've been told my tweets are a bit ambiguous, so here's a moment of clarity:
  God is running your life...whether you believe He exists or not..",
     es_title: "DIOS A CARGO",
@@ -42,11 +42,11 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = "\"thought.GOD_IN_CHARGE\"" AND c.name = "content.GOD_IN_CHARGE"
-MERGE (t)-[:HAS_CONTENT {name: "edge.GOD_IN_CHARGE"}]->(c);
+WHERE t.name = "thought.GOD IN CHARGE" AND c.name = "content.GOD IN CHARGE"
+MERGE (t)-[:HAS_CONTENT {name: "edge.GOD IN CHARGE"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "\"topic.DIVINE-SOVEREIGNTY\"" AND child.name = "\"thought.GOD_IN_CHARGE\""
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.DIVINE-SOVEREIGNTY->GOD_IN_CHARGE"}]->(child);
+WHERE parent.name = "topic.DIVINE-SOVEREIGNTY" AND child.name = "thought.GOD IN CHARGE"
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.DIVINE-SOVEREIGNTY->GOD IN CHARGE"}]->(child);
 ```

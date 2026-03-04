@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
 name: "thought.DIALOGUE"
-alias: "Thought: DIALOGUE"
+alias: "Thought: Dialogue"
 parent: "topic.EVIL"
 tags: ["devil", "ego", "slave", "sin", "tongue"]
 ptopic: "[[topic-EVIL]]"
@@ -12,7 +12,7 @@ neo4j: true
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.DIALOGUE",
-    alias: "Thought: DIALOGUE",
+    alias: "Thought: Dialogue",
     parent: "topic.EVIL",
     tags: ["devil", "ego", "slave", "sin", "tongue"],
     level: 4
@@ -21,7 +21,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.DIALOGUE",
     ctype: "THOUGHT",
-    en_title: "DIALOGUE",
+    en_title: "Dialogue",
  es_title: "DIÁLOGO",
  fr_title: "DIALOGUE",
  hi_title: "वार्ता",

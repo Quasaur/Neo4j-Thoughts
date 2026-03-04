@@ -1,7 +1,7 @@
 ---
 type: PASSAGE
 name: "passage.NEIGHBORS"
-alias: "Passage: NEIGHBORS"
+alias: "Passage: Neighbors"
 parent: "topic.SOCIOLOGY"
 en_content: "Do not plan evil against your neighbor,"
 tags: ["scheme", "neighbor", "innocent", "contention", "motive"]
@@ -14,7 +14,7 @@ neo4j: true
 // CREATE PASSAGE
 CREATE (b:PASSAGE {
     name: "passage.NEIGHBORS",
-    alias: "Passage: NEIGHBORS",
+    alias: "Passage: Neighbors",
     parent: "topic.SOCIOLOGY",
     tags: ["scheme", "neighbor", "innocent", "contention", "motive"],
     source: "'Proverbs 3:29,30'",
@@ -27,7 +27,7 @@ CREATE (b:PASSAGE {
 CREATE (c:CONTENT {
     name: "content.NEIGHBORS",
     ctype: "PASSAGE",
-    en_title: "NEIGHBORS",
+    en_title: "Neighbors",
     en_content: "Do not plan evil against your neighbor,",
  es_title: "VECINOS",
  es_content: "No planees el mal contra tu prójimo,",

@@ -23,7 +23,7 @@ CREATE (t:TOPIC {
 // CREATE DESCRIPTION
 CREATE (d:DESCRIPTION {
     name: "desc.THE-BIBLE",
-    en_title: "THE BIBLE",
+    en_title: "The Bible",
     en_content: "The Sacred Scriptures of Christians comprising the Old Testament and the New Testament.",
     es_title: "LA BIBLIA",
     es_content: "Las Sagradas Escrituras de los cristianos que comprenden el Antiguo Testamento y el Nuevo Testamento.",

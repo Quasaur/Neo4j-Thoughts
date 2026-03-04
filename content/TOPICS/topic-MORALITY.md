@@ -21,7 +21,7 @@ CREATE (t:TOPIC
 // create multi-lingual description		
 CREATE (d:DESCRIPTION {
 	name: "desc.MORALITY", 
-	en_title: "MORALITY", 
+	en_title: "Morality", 
 	en_content: "A doctrine or system of moral conduct.", 
 	es_title: "Moralidad", 
 	es_content: "Una doctrina o sistema de conducta moral.", 

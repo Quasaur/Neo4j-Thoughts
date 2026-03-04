@@ -25,7 +25,7 @@ CREATE (b:PASSAGE
 CREATE (c:CONTENT {
 	name: "content.KNOWLEDGE", 
 	ctype: "PASSAGE",
-	en_title: "KNOWLEDGE", 
+	en_title: "Knowledge", 
 	en_content: "The fear of the LORD is the beginning of knowledge; fools despise wisdom and instruction.", 
 	es_title: "CONOCIMIENTO", 
 	es_content: "El temor del SEÑOR es el principio del conocimiento; los necios desprecian la sabiduría y la instrucción.", 
@@ -39,7 +39,7 @@ CREATE (c:CONTENT {
 MATCH (b:PASSAGE)
 MATCH (c:CONTENT)
 WHERE b.name = "passage.KNOWLEDGE" AND c.name = "content.KNOWLEDGE"
-MERGE (b)-[:HAS_CONTENT {name: "b.edge.KNOWLEDGE"}]->(c);
+MERGE (b)-[:HAS_CONTENT {name: "p.edge.KNOWLEDGE"}]->(c);
 // link node to parent node
 MATCH (parent:TOPIC {name: "topic.HUMANITY"})
 MATCH (child:PASSAGE {name: "passage.KNOWLEDGE"})

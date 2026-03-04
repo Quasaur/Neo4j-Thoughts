@@ -21,7 +21,7 @@ CREATE (t:TOPIC
 // create multi-lingual description		
 CREATE (d:DESCRIPTION {
 	name: "desc.WEALTH", 
-	en_title: "WEALTH", 
+	en_title: "Wealth", 
 	en_content: "The abundance of valuable material, possessions or resources.", 
 	es_title: "Riqueza", 
 	es_content: "La abundancia de materiales, posesiones o recursos valiosos.", 

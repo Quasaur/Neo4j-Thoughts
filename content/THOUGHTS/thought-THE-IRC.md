@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
-name: "thought.THE_IRC"
-alias: "Thought: THE IRC"
+name: "thought.THE IRC"
+alias: "Thought: The Irc"
 parent: "topic.FIN-GOV"
 en_content: "The United States tax code, otherwise know as the Internal Revenue Code (IRC), was written by The Devil; his paw prints are all over it."
 tags: ["government", "finance", "code", "usa", "tax"]
@@ -12,17 +12,17 @@ neo4j: true
 
 ```Cypher
 CREATE (t:THOUGHT {
-    name: "thought.THE_IRC",
-    alias: "Thought: THE IRC",
+    name: "thought.THE IRC",
+    alias: "Thought: The Irc",
     parent: "topic.FIN-GOV",
     tags: ["government", "finance", "code", "usa", "tax"],
     level: 5
 });
 
 CREATE (c:CONTENT {
-    name: "content.THE_IRC",
+    name: "content.THE IRC",
     ctype: "THOUGHT",
-    en_title: "THE IRC",
+    en_title: "The Irc",
     en_content: "The United States tax code, otherwise know as the Internal Revenue Code (IRC), was written by The Devil; his paw prints are all over it.",
 	es_title: "EL IRC",
     es_content: "El código tributario de los Estados Unidos, también conocido como Código de Rentas Internas (IRC), fue escrito por El Diablo; sus huellas están por todas partes.",
@@ -36,11 +36,11 @@ CREATE (c:CONTENT {
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = "thought.THE_IRC" AND c.name = "content.THE_IRC"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.THE_IRC"}]->(c);
+WHERE t.name = "thought.THE IRC" AND c.name = "content.THE IRC"
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.THE IRC"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "topic.FIN-GOV" AND child.name = "thought.THE_IRC"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.FIN-GOV->THE_IRC"}]->(child);
+WHERE parent.name = "topic.FIN-GOV" AND child.name = "thought.THE IRC"
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.FIN-GOV->THE IRC"}]->(child);
 ```

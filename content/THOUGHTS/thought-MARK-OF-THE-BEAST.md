@@ -1,30 +1,30 @@
 ---
 type: THOUGHT
-name: "\"thought.MARK_OF_THE_BEAST\""
-alias: "Thought: MARK OF THE BEAST"
-parent: "\"topic.THE-GOSPEL\""
+name: "thought.MARK OF THE BEAST"
+alias: "Thought: Mark of the Beast"
+parent: "topic.THE-GOSPEL"
 en_content: |
   Do you not see...
   ...that by making the observance of Sunday the "Mark of the Beast" you are perverting the True Gospel and condemning all of Christendom to Eternal Damnation?!?!?
   Romans 14"
 tags: ["gospel", "sunday", "sabbath", "faith", "works"]
-ptopic: "\"[[topic-THE-GOSPEL]]\""
+ptopic: "[[topic-THE-GOSPEL]]"
 level: 2
 neo4j: true
 ---
 ```Cypher
 CREATE (t:THOUGHT {
-    name: '"thought.MARK_OF_THE_BEAST"',
-    alias: "Thought: MARK OF THE BEAST",
+    name: '"thought.MARK OF THE BEAST"',
+    alias: "Thought: Mark of the Beast",
     parent: '"topic.THE-GOSPEL"',
     tags: ["gospel", "sunday", "sabbath", "faith", "works"],
     level: 2
 });
 
 CREATE (c:CONTENT {
-    name: "content.MARK_OF_THE_BEAST",
+    name: "content.MARK OF THE BEAST",
     ctype: "THOUGHT",
-    en_title: "MARK OF THE BEAST",
+    en_title: "Mark of the Beast",
     en_content: "Do you not see...
 ...that by making the observance of Sunday the \"Mark of the Beast\" you are perverting the True Gospel and condemning all of Christendom to Eternal Damnation?!?!?
 Romans 14",
@@ -58,11 +58,11 @@ Romains 14",
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = '"thought.MARK_OF_THE_BEAST"' AND c.name = "content.MARK_OF_THE_BEAST"
-MERGE (t)-[:HAS_CONTENT {name: "edge.MARK_OF_THE_BEAST"}]->(c);
+WHERE t.name = '"thought.MARK OF THE BEAST"' AND c.name = "content.MARK OF THE BEAST"
+MERGE (t)-[:HAS_CONTENT {name: "edge.MARK OF THE BEAST"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = '"topic.THE-GOSPEL"' AND child.name = '"thought.MARK_OF_THE_BEAST"'
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.THE-GOSPEL->MARK_OF_THE_BEAST"}]->(child);
+WHERE parent.name = '"topic.THE-GOSPEL"' AND child.name = '"thought.MARK OF THE BEAST"'
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.THE-GOSPEL->MARK OF THE BEAST"}]->(child);
 ```

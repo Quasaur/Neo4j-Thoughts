@@ -1,7 +1,7 @@
 ---
 type: QUOTE
-name: "quote.WEALTH_AND_FAITH"
-alias: "Quote: Quote: WEALTH AND FAITH"
+name: "quote.WEALTH AND FAITH"
+alias: "Quote: Wealth and Faith"
 parent: "topic.WEALTH"
 en_content: "Wealth and Faith are mutually exclusive: having one, it does not necessarily follow that you will have the other in this life. When it comes to His Own, GOD determines the economic station of His Children. In perspective, however, there are no poor people in Heaven: you may have to wait till Eternity to receive your wealth (Matthew 6:19,20).",
  es_title: "Cita: RIQUEZA Y FE",
@@ -21,8 +21,8 @@ neo4j: true
 ```Cypher
 // CREATE QUOTE
 CREATE (q:QUOTE {
-    name: "quote.WEALTH_AND_FAITH",
-    alias: "Quote: Quote: WEALTH AND FAITH",
+    name: "quote.WEALTH AND FAITH",
+    alias: "Quote: Wealth and Faith",
     parent: "topic.WEALTH",
     tags: ["wealth", "faith", "exclusivity", "sovereignty", "heaven"],
     source: "'IMMMUNITY to the Lake of Fire: A No-Nonsense Guide'",
@@ -32,9 +32,9 @@ CREATE (q:QUOTE {
 
 // CREATE CONTENT
 CREATE (c:CONTENT {
-    name: "content.WEALTH_AND_FAITH",
+    name: "content.WEALTH AND FAITH",
     ctype: "QUOTE",
-    en_title: "Quote: WEALTH AND FAITH",
+    en_title: "Wealth and Faith",
     en_content: "Wealth and Faith are mutually exclusive: having one, it does not necessarily follow that you will have the other in this life. When it comes to His Own, GOD determines the economic station of His Children. In perspective, however, there are no poor people in Heaven: you may have to wait till Eternity to receive your wealth (Matthew 6:19,20).",
  es_title: "Cita: RIQUEZA Y FE",
  es_content: "La riqueza y la fe son mutuamente excluyentes: teniendo una, no necesariamente se sigue que tendrás la otra en esta vida. Cuando se trata de los Suyos, DIOS determina la posición económica de Sus Hijos. En perspectiva, sin embargo, no hay pobres en el Cielo: es posible que tengas que esperar hasta la Eternidad para recibir tus riquezas (Mateo 6:19,20).",
@@ -47,13 +47,13 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (q:QUOTE {name: "quote.WEALTH_AND_FAITH"})
-MATCH (c:CONTENT {name: "content.WEALTH_AND_FAITH"})
-MERGE (q)-[:HAS_CONTENT {name: "q.edge.WEALTH_AND_FAITH"}]->(c);
+MATCH (q:QUOTE {name: "quote.WEALTH AND FAITH"})
+MATCH (c:CONTENT {name: "content.WEALTH AND FAITH"})
+MERGE (q)-[:HAS_CONTENT {name: "q.edge.WEALTH AND FAITH"}]->(c);
 
 // LINK PARENT
 MATCH (parent:TOPIC {name: "topic.WEALTH"})
-MATCH (child:QUOTE {name: "quote.WEALTH_AND_FAITH"})
-MERGE (parent)-[:HAS_QUOTE {name: "q.edge.WEALTH->WEALTH_AND_FAITH"}]->(child);
+MATCH (child:QUOTE {name: "quote.WEALTH AND FAITH"})
+MERGE (parent)-[:HAS_QUOTE {name: "q.edge.WEALTH->WEALTH AND FAITH"}]->(child);
 
 ```

@@ -1,7 +1,7 @@
 ---
 type: QUOTE
-name: "quote.THE_CALL"
-alias: "Quote: Quote: THE CALL"
+name: "quote.THE CALL"
+alias: "Quote: The Call"
 parent: "topic.THE-GOSPEL"
 en_content: "That being said, for the last two thousand years GOD has put out a call to every nation, tribe, tongue and people on the face of the planet to turn to His Only-Begotten Son Jesus Christ for the forgiveness of ALL SIN--past, present and future--and to receive The Gift of The Holy Spirit of GOD and embark on the transcendent experience of That Priceless Treasure: a Sinless, Endless Life!",
  es_title: "Cita: LA LLAMADA",
@@ -21,8 +21,8 @@ neo4j: true
 ```Cypher
 // CREATE QUOTE
 CREATE (q:QUOTE {
-    name: "quote.THE_CALL",
-    alias: "Quote: Quote: THE CALL",
+    name: "quote.THE CALL",
+    alias: "Quote: The Call",
     parent: "topic.THE-GOSPEL",
     tags: ["preaching", "goodnews", "gladtidings", "command", "repentance"],
     source: "'The Narrow Way'",
@@ -32,9 +32,9 @@ CREATE (q:QUOTE {
 
 // CREATE CONTENT
 CREATE (c:CONTENT {
-    name: "content.THE_CALL",
+    name: "content.THE CALL",
     ctype: "QUOTE",
-    en_title: "Quote: THE CALL",
+    en_title: "The Call",
     en_content: "That being said, for the last two thousand years GOD has put out a call to every nation, tribe, tongue and people on the face of the planet to turn to His Only-Begotten Son Jesus Christ for the forgiveness of ALL SIN--past, present and future--and to receive The Gift of The Holy Spirit of GOD and embark on the transcendent experience of That Priceless Treasure: a Sinless, Endless Life!",
  es_title: "Cita: LA LLAMADA",
  es_content: "Dicho esto, durante los últimos dos mil años, DIOS ha hecho un llamado a cada nación, tribu, lengua y pueblo sobre la faz del planeta para que recurran a Su Hijo Unigénito Jesucristo para el perdón de TODO PECADO (pasado, presente y futuro) y para recibir el Don del Espíritu Santo de DIOS y embarcarse en la experiencia trascendente de Ese Tesoro Invaluable: ¡una Vida sin pecado y sin fin!",
@@ -47,13 +47,13 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (q:QUOTE {name: "quote.THE_CALL"})
-MATCH (c:CONTENT {name: "content.THE_CALL"})
-MERGE (q)-[:HAS_CONTENT {name: "q.edge.THE_CALL"}]->(c);
+MATCH (q:QUOTE {name: "quote.THE CALL"})
+MATCH (c:CONTENT {name: "content.THE CALL"})
+MERGE (q)-[:HAS_CONTENT {name: "q.edge.THE CALL"}]->(c);
 
 // LINK PARENT
 MATCH (parent:TOPIC {name: "topic.THE-GOSPEL"})
-MATCH (child:QUOTE {name: "quote.THE_CALL"})
-MERGE (parent)-[:HAS_QUOTE {name: "q.edge.THE-GOSPEL->THE_CALL"}]->(child);
+MATCH (child:QUOTE {name: "quote.THE CALL"})
+MERGE (parent)-[:HAS_QUOTE {name: "q.edge.THE-GOSPEL->THE CALL"}]->(child);
 
 ```

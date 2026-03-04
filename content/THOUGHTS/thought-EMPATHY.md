@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
 name: "thought.EMPATHY"
-alias: "Thought: EMPATHY"
+alias: "Thought: Empathy"
 parent: "topic.LOVE"
 tags: ["emptiness", "void", "hunger", "addiction", "spirituality"]
 ptopic: "[[topic-LOVE]]"
@@ -12,7 +12,7 @@ neo4j: true
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.EMPATHY",
-    alias: "Thought: EMPATHY",
+    alias: "Thought: Empathy",
     parent: "topic.LOVE",
     tags: ["emptiness", "void", "hunger", "addiction", "spirituality"],
     level: 2
@@ -21,7 +21,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.EMPATHY",
     ctype: "THOUGHT",
-    en_title: "EMPATHY",
+    en_title: "Empathy",
  es_title: "EMPATÍA",
  fr_title: "EMPATHIE",
  hi_title: "समानुभूति",

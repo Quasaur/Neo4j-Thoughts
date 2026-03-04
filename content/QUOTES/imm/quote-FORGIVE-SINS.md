@@ -1,7 +1,7 @@
 ---
 type: QUOTE
-name: "quote.FORGIVE_SINS"
-alias: "Quote: Quote: FORGIVE SINS"
+name: "quote.FORGIVE SINS"
+alias: "Quote: Forgive Sins"
 parent: "topic.MERCY"
 en_content: "Only GOD The Word (in the Person of The Lord Jesus Christ) has authority on Earth to forgive sins and apply His own Blood to the soul of the sinner!",
  es_title: "Cita: PERDONA LOS PECADOS",
@@ -21,8 +21,8 @@ neo4j: true
 ```Cypher
 // CREATE QUOTE
 CREATE (q:QUOTE {
-    name: "quote.FORGIVE_SINS",
-    alias: "Quote: Quote: FORGIVE SINS",
+    name: "quote.FORGIVE SINS",
+    alias: "Quote: Forgive Sins",
     parent: "topic.MERCY",
     tags: ["jesus_christ", "authority", "earth", "remission", "sins"],
     source: "'IMMMUNITY to the Lake of Fire: A No-Nonsense Guide'",
@@ -32,9 +32,9 @@ CREATE (q:QUOTE {
 
 // CREATE CONTENT
 CREATE (c:CONTENT {
-    name: "content.FORGIVE_SINS",
+    name: "content.FORGIVE SINS",
     ctype: "QUOTE",
-    en_title: "Quote: FORGIVE SINS",
+    en_title: "Forgive Sins",
     en_content: "Only GOD The Word (in the Person of The Lord Jesus Christ) has authority on Earth to forgive sins and apply His own Blood to the soul of the sinner!",
  es_title: "Cita: PERDONA LOS PECADOS",
  es_content: "¡Sólo DIOS La Palabra (en la Persona del Señor Jesucristo) tiene autoridad en la Tierra para perdonar pecados y aplicar Su propia Sangre al alma del pecador!",
@@ -47,13 +47,13 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (q:QUOTE {name: "quote.FORGIVE_SINS"})
-MATCH (c:CONTENT {name: "content.FORGIVE_SINS"})
-MERGE (q)-[:HAS_CONTENT {name: "q.edge.FORGIVE_SINS"}]->(c);
+MATCH (q:QUOTE {name: "quote.FORGIVE SINS"})
+MATCH (c:CONTENT {name: "content.FORGIVE SINS"})
+MERGE (q)-[:HAS_CONTENT {name: "q.edge.FORGIVE SINS"}]->(c);
 
 // LINK PARENT
 MATCH (parent:TOPIC {name: "topic.MERCY"})
-MATCH (child:QUOTE {name: "quote.FORGIVE_SINS"})
-MERGE (parent)-[:HAS_QUOTE {name: "q.edge.MERCY->FORGIVE_SINS"}]->(child);
+MATCH (child:QUOTE {name: "quote.FORGIVE SINS"})
+MERGE (parent)-[:HAS_QUOTE {name: "q.edge.MERCY->FORGIVE SINS"}]->(child);
 
 ```

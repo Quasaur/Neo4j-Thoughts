@@ -1,7 +1,7 @@
 ---
 type: QUOTE
-name: "quote.PERFECT_PEACE"
-alias: "Quote: Quote: PERFECT PEACE"
+name: "quote.PERFECT PEACE"
+alias: "Quote: Perfect Peace"
 parent: "topic.GRACE"
 en_content: "Every cell in my body relaxed in Perfect Peace. Every fear was vanquished. And that's why my body collapsed like a rag doll to the floor on that stage in front of all those people.",
  es_title: "Cita: PAZ PERFECTA",
@@ -21,8 +21,8 @@ neo4j: true
 ```Cypher
 // CREATE QUOTE
 CREATE (q:QUOTE {
-    name: "quote.PERFECT_PEACE",
-    alias: "Quote: Quote: PERFECT PEACE",
+    name: "quote.PERFECT PEACE",
+    alias: "Quote: Perfect Peace",
     parent: "topic.GRACE",
     tags: ["peace", "perfect", "grace", "holiness", "love"],
     source: "'The Traveler's Oasis, Book One'",
@@ -32,9 +32,9 @@ CREATE (q:QUOTE {
 
 // CREATE CONTENT
 CREATE (c:CONTENT {
-    name: "content.PERFECT_PEACE",
+    name: "content.PERFECT PEACE",
     ctype: "QUOTE",
-    en_title: "Quote: PERFECT PEACE",
+    en_title: "Perfect Peace",
     en_content: "Every cell in my body relaxed in Perfect Peace. Every fear was vanquished. And that's why my body collapsed like a rag doll to the floor on that stage in front of all those people.",
  es_title: "Cita: PAZ PERFECTA",
  es_content: "Cada célula de mi cuerpo se relajó en Perfecta Paz. Todo temor fue vencido. Y es por eso que mi cuerpo se desplomó como un muñeco de trapo en el suelo en ese escenario frente a toda esa gente.",
@@ -47,13 +47,13 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (q:QUOTE {name: "quote.PERFECT_PEACE"})
-MATCH (c:CONTENT {name: "content.PERFECT_PEACE"})
-MERGE (q)-[:HAS_CONTENT {name: "q.edge.PERFECT_PEACE"}]->(c);
+MATCH (q:QUOTE {name: "quote.PERFECT PEACE"})
+MATCH (c:CONTENT {name: "content.PERFECT PEACE"})
+MERGE (q)-[:HAS_CONTENT {name: "q.edge.PERFECT PEACE"}]->(c);
 
 // LINK PARENT
 MATCH (parent:TOPIC {name: "topic.GRACE"})
-MATCH (child:QUOTE {name: "quote.PERFECT_PEACE"})
-MERGE (parent)-[:HAS_QUOTE {name: "q.edge.GRACE->PERFECT_PEACE"}]->(child);
+MATCH (child:QUOTE {name: "quote.PERFECT PEACE"})
+MERGE (parent)-[:HAS_QUOTE {name: "q.edge.GRACE->PERFECT PEACE"}]->(child);
 
 ```

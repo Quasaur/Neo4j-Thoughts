@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
 name: "thought.GOD"
-alias: "Thought: IMPERSONAL GOD"
+alias: "Thought: Impersonal God"
 en_content: "An impersonal god is not God at all; that is why the God of the Hebrews named Himself 'I AM'\"."
 tags: ["god", "personal", "impersonal", "sentience", "self_aware"]
 ptopic: "[[topic-THE-GODHEAD]]"
@@ -12,7 +12,7 @@ neo4j: true
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.GOD",
-    alias: "Thought: IMPERSONAL GOD",
+    alias: "Thought: Impersonal God",
     parent: "topic.THE GODHEAD",
     tags: ["god", "personal", "impersonal", "sentience", "self_aware"],
     level: 1
@@ -21,7 +21,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.GOD",
     ctype: "THOUGHT",
-    en_title: "GOD",
+    en_title: "God",
     en_content: "An impersonal god is not God at all; that is why the God of the Hebrews named Himself 'I AM'\".",
     es_title: "DIOS IMPERSONAL",
     es_content: "Un dios impersonal no es Dios en absoluto; por eso el Dios de los hebreos se llamó 'YO SOY'\".",

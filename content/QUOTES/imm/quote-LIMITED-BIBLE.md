@@ -1,7 +1,7 @@
 ---
 type: QUOTE
-name: "quote.LIMITED_BIBLE"
-alias: "Quote: Quote: LIMITED BIBLE"
+name: "quote.LIMITED BIBLE"
+alias: "Quote: Limited Bible"
 parent: "topic.THE-BIBLE"
 en_content: "The Holy Bible does NOT tell us all there is to know about GOD! The Bible was inspired by GOD for a very specific purpose: to give the saint everything needful to be saved from the Lake of Fire—and therefore from the power of sin.",
  es_title: "Cita: BIBLIA LIMITADA",
@@ -21,8 +21,8 @@ neo4j: true
 ```Cypher
 // CREATE QUOTE
 CREATE (q:QUOTE {
-    name: "quote.LIMITED_BIBLE",
-    alias: "Quote: Quote: LIMITED BIBLE",
+    name: "quote.LIMITED BIBLE",
+    alias: "Quote: Limited Bible",
     parent: "topic.THE-BIBLE",
     tags: ["scriptures", "bible", "uncomprehensive", "purpose", "objective"],
     source: "'IMMMUNITY to the Lake of Fire: A No-Nonsense Guide'",
@@ -32,9 +32,9 @@ CREATE (q:QUOTE {
 
 // CREATE CONTENT
 CREATE (c:CONTENT {
-    name: "content.LIMITED_BIBLE",
+    name: "content.LIMITED BIBLE",
     ctype: "QUOTE",
-    en_title: "Quote: LIMITED BIBLE",
+    en_title: "Limited Bible",
     en_content: "The Holy Bible does NOT tell us all there is to know about GOD! The Bible was inspired by GOD for a very specific purpose: to give the saint everything needful to be saved from the Lake of Fire—and therefore from the power of sin.",
  es_title: "Cita: BIBLIA LIMITADA",
  es_content: "¡La Santa Biblia NO nos dice todo lo que hay que saber acerca de DIOS! La Biblia fue inspirada por DIOS con un propósito muy específico: darle al santo todo lo necesario para ser salvo del Lago de Fuego y, por lo tanto, del poder del pecado.",
@@ -47,13 +47,13 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (q:QUOTE {name: "quote.LIMITED_BIBLE"})
-MATCH (c:CONTENT {name: "content.LIMITED_BIBLE"})
-MERGE (q)-[:HAS_CONTENT {name: "q.edge.LIMITED_BIBLE"}]->(c);
+MATCH (q:QUOTE {name: "quote.LIMITED BIBLE"})
+MATCH (c:CONTENT {name: "content.LIMITED BIBLE"})
+MERGE (q)-[:HAS_CONTENT {name: "q.edge.LIMITED BIBLE"}]->(c);
 
 // LINK PARENT
 MATCH (parent:TOPIC {name: "topic.THE-BIBLE"})
-MATCH (child:QUOTE {name: "quote.LIMITED_BIBLE"})
-MERGE (parent)-[:HAS_QUOTE {name: "q.edge.THE-BIBLE->LIMITED_BIBLE"}]->(child);
+MATCH (child:QUOTE {name: "quote.LIMITED BIBLE"})
+MERGE (parent)-[:HAS_QUOTE {name: "q.edge.THE-BIBLE->LIMITED BIBLE"}]->(child);
 
 ```

@@ -1,7 +1,7 @@
 ---
 type: QUOTE
 name: "quote.PRAYER"
-alias: "Quote: Quote: PRAYER"
+alias: "Quote: Prayer"
 parent: "topic.WORSHIP"
 en_content: "To your soul GOD BECOMES MORE REAL AND YOU (and your circumstances and situations) BECOME LESS REAL.",
  es_title: "Cita: ORACIÓN",
@@ -22,7 +22,7 @@ neo4j: true
 // CREATE QUOTE
 CREATE (q:QUOTE {
     name: "quote.PRAYER",
-    alias: "Quote: Quote: PRAYER",
+    alias: "Quote: Prayer",
     parent: "topic.WORSHIP",
     tags: ["pray", "real", "god", "self", "circumstance"],
     source: "'The Narrow Way'",
@@ -34,7 +34,7 @@ CREATE (q:QUOTE {
 CREATE (c:CONTENT {
     name: "content.PRAYER",
     ctype: "QUOTE",
-    en_title: "Quote: PRAYER",
+    en_title: "Prayer",
     en_content: "To your soul GOD BECOMES MORE REAL AND YOU (and your circumstances and situations) BECOME LESS REAL.",
  es_title: "Cita: ORACIÓN",
  es_content: "Para tu alma DIOS SE VUELVE MÁS REAL Y TÚ (y tus circunstancias y situaciones) SE VUELVE MENOS REAL.",

@@ -21,7 +21,7 @@ CREATE (t:TOPIC
 // create multi-lingual description		
 CREATE (d:DESCRIPTION {
 	name: "desc.EVIL", 
-	en_title: "EVIL", 
+	en_title: "Evil", 
 	en_content: "The fact of suffering, misfortune, and wrongdoing; a cosmic wicked force; something or someone that brings sorrow, distress, or calamity; one that steals, kills and destroys; that angelic being which is the fountain of pride (Lucifer, Satan, the Devil)", 
 	es_title: "Maldad", 
 	es_content: "El hecho del sufrimiento, la desgracia y la maldad; una fuerza cósmica malvada; algo o alguien que trae tristeza, angustia o calamidad; alguien que roba, mata y destruye; ese ser angelical que es la fuente del orgullo (Lucifer, Satanás, el Diablo).", 

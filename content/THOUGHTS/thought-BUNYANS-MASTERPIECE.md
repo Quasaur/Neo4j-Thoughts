@@ -23,7 +23,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.BUNYANS MASTERPIECE",
     ctype: "THOUGHT",
-    en_title: "BUNYANS MASTERPIECE",
+    en_title: "Bunyans Masterpiece",
     en_content: "Reading Bunyan's masterpiece: The Doctrine of Law and Grace Unfolded...Wow!!!",
     es_title: "OBRA DE BUNYAN",
     es_content: "Leyendo la obra maestra de Bunyan: La doctrina de la ley y la gracia desplegadas... ¡Guau!",

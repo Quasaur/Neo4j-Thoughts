@@ -21,7 +21,7 @@ CREATE (t:TOPIC
 // create multi-lingual description		
 CREATE (d:DESCRIPTION {
 	name: "desc.WISDOM", 
-	en_title: "WISDOM", 
+	en_title: "Wisdom", 
 	en_content: "A wise attitude, belief, or course of action.", 
 	es_title: "Sabiduría", 
 	es_content: "Una actitud, creencia o curso de acción sabio.", 

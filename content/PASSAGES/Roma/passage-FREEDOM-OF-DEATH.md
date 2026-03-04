@@ -1,7 +1,7 @@
 ---
 type: PASSAGE
-name: "passage.FREEDOM_OF_DEATH"
-alias: "Passage: FREEDOM OF DEATH"
+name: "passage.FREEDOM OF DEATH"
+alias: "Passage: Freedom of Death"
 parent: "topic.FREEDOM"
 en_content: "For he that is dead is freed from sin."
 tags: ["freedom", "death", "sin", "thecross", "jesus_christ"]
@@ -13,8 +13,8 @@ neo4j: true
 ```Cypher
 // CREATE PASSAGE
 CREATE (b:PASSAGE {
-    name: "passage.FREEDOM_OF_DEATH",
-    alias: "Passage: FREEDOM OF DEATH",
+    name: "passage.FREEDOM OF DEATH",
+    alias: "Passage: Freedom of Death",
     parent: "topic.FREEDOM",
     tags: ["freedom", "death", "sin", "thecross", "jesus_christ"],
     source: "'Romans 6:7'",
@@ -25,9 +25,9 @@ CREATE (b:PASSAGE {
 
 // CREATE CONTENT
 CREATE (c:CONTENT {
-    name: "content.FREEDOM_OF_DEATH",
+    name: "content.FREEDOM OF DEATH",
     ctype: "PASSAGE",
-    en_title: "FREEDOM OF DEATH",
+    en_title: "Freedom of Death",
     en_content: "For he that is dead is freed from sin.",
  es_title: "LIBERTAD DE MUERTE",
  es_content: "Porque el que está muerto queda libre del pecado.",
@@ -40,13 +40,13 @@ CREATE (c:CONTENT {
 });
 
 // LINK CONTENT
-MATCH (b:PASSAGE {name: "passage.FREEDOM_OF_DEATH"})
-MATCH (c:CONTENT {name: "content.FREEDOM_OF_DEATH"})
-MERGE (b)-[:HAS_CONTENT {name: "p.edge.FREEDOM_OF_DEATH"}]->(c);
+MATCH (b:PASSAGE {name: "passage.FREEDOM OF DEATH"})
+MATCH (c:CONTENT {name: "content.FREEDOM OF DEATH"})
+MERGE (b)-[:HAS_CONTENT {name: "p.edge.FREEDOM OF DEATH"}]->(c);
 
 // LINK PARENT
 MATCH (parent:TOPIC {name: "topic.FREEDOM"})
-MATCH (child:PASSAGE {name: "passage.FREEDOM_OF_DEATH"})
-MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.b.FREEDOM->FREEDOM_OF_DEATH"}]->(child);
+MATCH (child:PASSAGE {name: "passage.FREEDOM OF DEATH"})
+MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.b.FREEDOM->FREEDOM OF DEATH"}]->(child);
 
 ```

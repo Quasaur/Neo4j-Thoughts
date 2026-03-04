@@ -1,9 +1,9 @@
 ---
 type: THOUGHT
 name: "thought.RESULTS"
-alias: "Thought: RESULTS"
+alias: "Thought: Results"
 parent: "topic.PSYCHOLOGY"
-tags: ["gunviolence", "massshootings", "gunlaws", "nra", "uscongress"]
+tags: ["gun_violence", "mass_shootings", "gunlaws", "nra", "uscongress"]
 ptopic: "[[topic-PSYCHOLOGY]]"
 level: 4
 neo4j: true
@@ -12,16 +12,16 @@ neo4j: true
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.RESULTS",
-    alias: "Thought: RESULTS",
+    alias: "Thought: Results",
     parent: "topic.PSYCHOLOGY",
-    tags: ["gunviolence", "massshootings", "gunlaws", "nra", "uscongress"],
+    tags: ["gun_violence", "mass_shootings", "gunlaws", "nra", "uscongress"],
     level: 4
 });
 
 CREATE (c:CONTENT {
     name: "content.RESULTS",
     ctype: "THOUGHT",
-    en_title: "RESULTS",
+    en_title: "Results",
  es_title: "RESULTADOS",
  fr_title: "RÉSULTATS",
  hi_title: "परिणाम",

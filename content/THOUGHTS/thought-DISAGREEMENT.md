@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
 name: "thought.DISAGREEMENT"
-alias: "Thought: DISAGREEMENT"
+alias: "Thought: Disagreement"
 parent: "topic.FAITH"
 tags: ["faith", "doctrine", "apostasy", "heresy", "conflict"]
 ptopic: "[[topic-FAITH]]"
@@ -12,7 +12,7 @@ neo4j: true
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.DISAGREEMENT",
-    alias: "Thought: DISAGREEMENT",
+    alias: "Thought: Disagreement",
     parent: "topic.FAITH",
     tags: ["faith", "doctrine", "apostasy", "heresy", "conflict"],
     level: 4
@@ -21,7 +21,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.DISAGREEMENT",
     ctype: "THOUGHT",
-    en_title: "DISAGREEMENT",
+    en_title: "Disagreement",
     en_content: "Arguing with the Devil is extremely dangerous because far too often we share his point of view.",
  es_title: "DESACUERDO",
  es_content: "Discutir con el Diablo es extremadamente peligroso porque con demasiada frecuencia compartimos su punto de vista.",

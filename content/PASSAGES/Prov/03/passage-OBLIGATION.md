@@ -1,7 +1,7 @@
 ---
 type: PASSAGE
 name: "passage.OBLIGATION"
-alias: "Passage: OBLIGATION"
+alias: "Passage: Obligation"
 parent: "topic.MORALITY"
 en_content: "Do not withhold good from those to whom it is due,"
 tags: ["obligation", "due", "now", "bills", "morality"]
@@ -14,7 +14,7 @@ neo4j: true
 // CREATE PASSAGE
 CREATE (b:PASSAGE {
     name: "passage.OBLIGATION",
-    alias: "Passage: OBLIGATION",
+    alias: "Passage: Obligation",
     parent: "topic.MORALITY",
     tags: ["obligation", "due", "now", "bills", "morality"],
     source: "'Proverbs 3:27,28'",
@@ -27,7 +27,7 @@ CREATE (b:PASSAGE {
 CREATE (c:CONTENT {
     name: "content.OBLIGATION",
     ctype: "PASSAGE",
-    en_title: "OBLIGATION",
+    en_title: "Obligation",
     en_content: "Do not withhold good from those to whom it is due,",
  es_title: "OBLIGACIÓN",
  es_content: "No niegues el bien a quien es debido,",

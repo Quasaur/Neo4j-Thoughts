@@ -23,7 +23,7 @@ CREATE (t:TOPIC {
 // CREATE DESCRIPTION
 CREATE (d:DESCRIPTION {
     name: "desc.BEAUTY",
-    en_title: "BEAUTY",
+    en_title: "Beauty",
     en_content: "The quality or group of qualities in a person or thing that gives pleasure to the senses or the mind; a person (especially a woman) who is beautiful; an excellent or appealing quality.",
     es_title: "BELLEZA",
     es_content: "La cualidad o grupo de cualidades de una persona o cosa que da placer a los sentidos o a la mente; una persona (especialmente una mujer) que es bella; una cualidad excelente o atractiva.",

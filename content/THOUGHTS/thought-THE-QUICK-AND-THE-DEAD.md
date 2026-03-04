@@ -1,19 +1,19 @@
 ---
 type: THOUGHT
-name: "\"thought.THE_QUICK_AND_THE_DEAD\""
+name: "thought.THE QUICK AND THE DEAD"
 alias: "Thought: The Quick And The Dead"
-parent: "\"topic.SPIRITUALITY\""
+parent: "topic.SPIRITUALITY"
 en_content: |
   You are either alive to God and dead to self…or you are alive to self and dead to God.
   Luke 14:26"
 tags: ["eternal_life", "immortality", "spirituality", "god", "jesus_christ"]
-ptopic: "\"[[topic-SPIRITUALITY]]\""
+ptopic: "[[topic-SPIRITUALITY]]"
 level: 2
 neo4j: true
 ---
 ```Cypher
 CREATE (t:THOUGHT {
-    name: '"thought.THE_QUICK_AND_THE_DEAD"',
+    name: '"thought.THE QUICK AND THE DEAD"',
     alias: "Thought: The Quick And The Dead",
     parent: '"topic.SPIRITUALITY"',
     tags: ["eternal_life", "immortality", "spirituality", "god", "jesus_christ"],
@@ -21,9 +21,9 @@ CREATE (t:THOUGHT {
 });
 
 CREATE (c:CONTENT {
-    name: "content.THE_QUICK_AND_THE_DEAD",
+    name: "content.THE QUICK AND THE DEAD",
     ctype: "THOUGHT",
-    en_title: "THE QUICK AND THE DEAD",
+    en_title: "The Quick and the Dead",
     en_content: "You are either alive to God and dead to self…or you are alive to self and dead to God.
 Luke 14:26",
     es_title: "LOS VIVOS Y LOS MUERTOS",
@@ -42,11 +42,11 @@ Luc 14:26",
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
-WHERE t.name = '"thought.THE_QUICK_AND_THE_DEAD"' AND c.name = "content.THE_QUICK_AND_THE_DEAD"
-MERGE (t)-[:HAS_CONTENT {name: "edge.THE_QUICK_AND_THE_DEAD"}]->(c);
+WHERE t.name = '"thought.THE QUICK AND THE DEAD"' AND c.name = "content.THE QUICK AND THE DEAD"
+MERGE (t)-[:HAS_CONTENT {name: "edge.THE QUICK AND THE DEAD"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = '"topic.SPIRITUALITY"' AND child.name = '"thought.THE_QUICK_AND_THE_DEAD"'
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.SPIRITUALITY->THE_QUICK_AND_THE_DEAD"}]->(child);
+WHERE parent.name = '"topic.SPIRITUALITY"' AND child.name = '"thought.THE QUICK AND THE DEAD"'
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.SPIRITUALITY->THE QUICK AND THE DEAD"}]->(child);
 ```

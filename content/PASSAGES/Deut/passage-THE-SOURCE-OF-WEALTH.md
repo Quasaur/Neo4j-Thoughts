@@ -26,7 +26,7 @@ CREATE (b:PASSAGE
 CREATE (c:CONTENT {
  name: "content.THE SOURCE OF WEALTH", 
  ctype: "PASSAGE",
- en_title: "THE SOURCE OF WEALTH", 
+ en_title: "The Source of Wealth", 
  en_content: "But you are to remember the LORD your God, for it is He Who is giving you power to make wealth, in order to confirm His Covenant which He swore to your fathers, as it is this day.", 
  es_title: "La Fuente de la Riqueza", 
  es_content: "Pero acuérdate del Señor tu Dios, porque Él te da el poder para hacer las riquezas, a fin de confirmar su pacto que juró a tus padres, como en este día.", 
@@ -40,7 +40,7 @@ CREATE (c:CONTENT {
 MATCH (b:PASSAGE)
 MATCH (c:CONTENT)
 WHERE b.name = "passage.THE SOURCE OF WEALTH" AND c.name = "content.THE SOURCE OF WEALTH"
-MERGE (b)-[:HAS_CONTENT {name: "b.edge.THE SOURCE OF WEALTH"}]->(c);
+MERGE (b)-[:HAS_CONTENT {name: "p.edge.THE SOURCE OF WEALTH"}]->(c);
 // link node to parent node
 MATCH (parent:TOPIC {name: "topic.WEALTH"})
 MATCH (child:PASSAGE {name: "passage.THE SOURCE OF WEALTH"})

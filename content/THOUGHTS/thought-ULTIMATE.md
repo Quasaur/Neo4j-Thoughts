@@ -1,7 +1,7 @@
 ---
 type: THOUGHT
 name: "thought.ULTIMATE"
-alias: "Thought: THE ULTIMATE"
+alias: "Thought: The Ultimate"
 parent: "topic.THE GODHEAD"
 en_content: "That which is Ultimate cannot be Ultimate unless \"it\" (He) is also PERSONAL."
 tags: ["humanity", "self_worship", "god", "judgement", "accountable"]
@@ -13,7 +13,7 @@ neo4j: true
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.ULTIMATE",
-    alias: "Thought: THE ULTIMATE",
+    alias: "Thought: The Ultimate",
     parent: "topic.THE GODHEAD",
     tags: ["humanity", "self_worship", "god", "judgement", "accountable"],
     level: 1
@@ -22,7 +22,7 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.ULTIMATE",
     ctype: "THOUGHT",
-    en_title: "ULTIMATE",
+    en_title: "Ultimate",
     en_content: "That which is Ultimate cannot be Ultimate unless \"it\" (He) is also PERSONAL.",
     es_title: "LO ÚLTIMO",
     es_content: "Aquello que es Último no puede ser Último a menos que \"eso\" (Él) sea también PERSONAL.",
