@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.PRAYER"
 alias: "Quote: Prayer"
 parent: "topic.WORSHIP"
+source: "'The Narrow Way'"
 en_content: "To your soul GOD BECOMES MORE REAL AND YOU (and your circumstances and situations) BECOME LESS REAL.",
  es_title: "Cita: ORACIÓN",
  es_content: "Para tu alma DIOS SE VUELVE MÁS REAL Y TÚ (y tus circunstancias y situaciones) SE VUELVE MENOS REAL.",

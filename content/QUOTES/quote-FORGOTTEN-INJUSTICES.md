@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.FORGOTTEN INJUSTICES"
 alias: "Quote: Not Worthy to be Compared"
 parent: "topic.THE GODHEAD"
+source: "The Traveler's Oasis, Book One"
 en_content: "All of the gravest injustices committed by humanity against its own would not even be remembered in the Presence of the Divine Goodness."
 tags: ["goodness", "divine", "injustice", "forgotten", "presence"]
 ptopic: "[[topic-THE]]"

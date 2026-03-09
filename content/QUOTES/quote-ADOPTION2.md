@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.ADOPTION2"
 alias: "Quote: Adoption2"
 parent: "topic.GRACE"
+source: "'The Narrow Way'"
 en_content: "No doubt you can appreciate how important Conversion is to your Salvation. GOD does not exist to the world (or the religious) because, as unredeemed sinners, they do not have the Holy Spirit of GOD dwelling in them, as true Christians do.",
  es_title: "Cita: ADOPCIÓN2",
  es_content: "Sin duda podrás apreciar lo importante que es la Conversión para tu Salvación. DIOS no existe para el mundo (ni para los religiosos) porque, como pecadores no redimidos, no tienen el Espíritu Santo de DIOS morando en ellos, como lo hacen los verdaderos cristianos.",

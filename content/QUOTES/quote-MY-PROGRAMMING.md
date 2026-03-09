@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.MY PROGRAMMING"
 alias: "Quote: My Programming"
 parent: "topic.PSYCHOLOGY"
+source: "'The Traveler's Oasis, Book Two'"
 en_content: "In contrast, my programming was virtually complete. When my controller raised his firearm to his son's face, the well-honed logic that had so faithfully enabled me to survive numerous assignments kicked into gear with machine-like precision.",
  es_title: "Cita: MI PROGRAMACIÓN",
  es_content: "Por el contrario, mi programación estaba prácticamente completa. Cuando mi controlador levantó su arma de fuego hacia la cara de su hijo, la lógica perfeccionada que tan fielmente me había permitido sobrevivir a numerosas tareas se puso en marcha con precisión similar a la de una máquina.",

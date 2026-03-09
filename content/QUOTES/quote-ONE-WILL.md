@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.ONE WILL"
 alias: "Quote: One Will"
 parent: "topic.DIVINE-SOVEREIGNTY"
+source: "'Once Saved, Always Saved: The Assurance of Our Father's LOVE'"
 en_content: "Precious Reader, I have experienced The Light of Eternity saturating my being (The Traveler's Oasis: Book One, Chapter 18) and i can tell you that THERE IS ONLY ONE WILL THAT HAS EVER AND WILL EVER EXIST!",
  es_title: "Cita: UNA VOLUNTAD",
  es_content: "Precioso Lector, he experimentado La Luz de la Eternidad saturando mi ser (El Oasis del Viajero: Libro Uno, Capítulo 18) y puedo decirte que ¡SOLO HAY UNA VOLUNTAD QUE SIEMPRE HA EXISTIDO Y SIEMPRE EXISTIRÁ!",

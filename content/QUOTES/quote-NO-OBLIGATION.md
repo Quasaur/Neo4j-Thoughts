@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.NO OBLIGATION"
 alias: "Quote: No Obligation"
 parent: "topic.MERCY"
+source: "'IMMMUNITY to the Lake of Fire: A No-Nonsense Guide'"
 en_content: "GOD is under no obligation to be merciful to evil. Sinners are evil, and every human is a sinner. By the definitions of the terms “mercy” and “forgiveness,” these virtues can never be owed to the sinner. GOD would’ve been perfectly righteous and just to annihilate Adam and Eve before their offspring could permeate the surface of the Earth with the wretchedness and horror you see today. Even more so: GOD would’ve been just to shut Lucifer down before anyone else was affected."
  es_title: "Cotización: SIN COMPROMISO"
  es_content: "DIOS no tiene ninguna obligación de ser misericordioso con el mal. Los pecadores son malos y todo ser humano es un pecador. Según las definiciones de los términos “misericordia” y “perdón”, estas virtudes nunca se pueden deber al pecador. DIOS habría sido perfectamente recto y justo al aniquilar a Adán y Eva antes de que su descendencia pudiera impregnar la superficie de la Tierra con la miseria y el horror que vemos hoy. Aún más: DIOS habría sido justo si hubiera cerrado a Lucifer antes de que alguien más se viera afectado."

@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.HEIR OF GOD!"
 alias: "Quote: Heir of God!"
 parent: "topic.THE-GOSPEL"
+source: "'The Narrow Way'"
 en_content: "Thankfully, GOD has looked upon your situation with compassion and is not only offering you an escape from His Wrath, but a priceless opportunity TO BECOME HIS HEIR!!! All the 'heavy lifting' has been done for you, yet you must set your heart to follow Your Creator (GOD The Word, incarnated as Jesus the Messiah) back to the Father of all spirits and NOT LOOK BACK on the familiar life you were born into.",
  es_title: "Cita: ¡HEREDERO DE DIOS!",
  es_content: "¡¡¡Afortunadamente, DIOS ha mirado tu situación con compasión y no solo te ofrece un escape de Su ira, sino también una oportunidad invaluable DE CONVERTIRTE EN SU HEREDERO!!! Todo el 'trabajo pesado' ya se ha hecho por ti, pero debes establecer tu corazón para seguir a Tu Creador (DIOS, la Palabra, encarnado como Jesús el Mesías) de regreso al Padre de todos los espíritus y NO MIRAR ATRÁS a la vida familiar en la que naciste.",

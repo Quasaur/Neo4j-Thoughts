@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.REINVENT"
 alias: "Quote: Reinvent"
 parent: "topic.GRACE"
+source: "'The Traveler's Oasis, Book One'"
 en_content: "It would be completely unnecessary (and a waste of time) for me to try to accomplish what God has already done for me",
  es_title: "Cita: REINVENTARSE",
  es_content: "Sería completamente innecesario (y una pérdida de tiempo) para mí intentar lograr lo que Dios ya ha hecho por mí.",

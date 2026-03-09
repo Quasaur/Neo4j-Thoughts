@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.LIMITED BIBLE"
 alias: "Quote: Limited Bible"
 parent: "topic.THE BIBLE"
+source: "'IMMMUNITY to the Lake of Fire: A No-Nonsense Guide'"
 en_content: "The Holy Bible does NOT tell us all there is to know about GOD! The Bible was inspired by GOD for a very specific purpose: to give the saint everything needful to be saved from the Lake of Fire—and therefore from the power of sin.",
  es_title: "Cita: BIBLIA LIMITADA",
  es_content: "¡La Santa Biblia NO nos dice todo lo que hay que saber acerca de DIOS! La Biblia fue inspirada por DIOS con un propósito muy específico: darle al santo todo lo necesario para ser salvo del Lago de Fuego y, por lo tanto, del poder del pecado.",

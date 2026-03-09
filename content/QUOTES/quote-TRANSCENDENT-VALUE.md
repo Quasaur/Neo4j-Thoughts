@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.TRANSCENDENT VALUE"
 alias: "Quote: Transcendent Value"
 parent: "topic.THE-GOSPEL"
+source: "'IMMMUNITY to the Lake of Fire: A No-Nonsense Guide'"
 en_content: "The promise of the Gospel is that GOD The Father gives us Christ, Who is of TRANSCENDENT VALUE to Him; and in so doing we become as valuable to GOD as Christ is!",
  es_title: "Cita: VALOR TRASCENDENTE",
  es_content: "La promesa del Evangelio es que DIOS El Padre nos da a Cristo, Quien es de VALOR TRASCENDENTE para Él; ¡y al hacerlo nos volvemos tan valiosos para DIOS como lo es Cristo!",

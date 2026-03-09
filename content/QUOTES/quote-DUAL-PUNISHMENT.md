@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.DUAL PUNISHMENT"
 alias: "Quote: Dual Punishment"
 parent: "topic.JUSTICE"
+source: "'IMMMUNITY to the Lake of Fire: A No-Nonsense Guide'"
 en_content: "It is ILLEGAL for GOD The Father to punish both you and Jesus for the same sin(s)!",
  es_title: "Cita: CASTIGO DOBLE",
  es_content: "¡Es ILEGAL que DIOS Padre castigue tanto a usted como a Jesús por los mismos pecados!",

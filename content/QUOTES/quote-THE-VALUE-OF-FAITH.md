@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.THE VALUE OF FAITH"
 alias: "Quote: The Value of Faith"
 parent: "topic.FAITH"
+source: "'IMMMUNITY to the Lake of Fire: A No-Nonsense Guide'"
 en_content: "Faith is only as potent and valuable (or, only as REAL) as the idea, object or person in/upon which that faith is placed.",
  es_title: "Cita: EL VALOR DE LA FE",
  es_content: "La fe es tan potente y valiosa (o tan REAL) como la idea, el objeto o la persona en la que se deposita esa fe.",

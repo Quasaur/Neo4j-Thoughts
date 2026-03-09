@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.THE NARROW WAY"
 alias: "Quote: The Narrow Way"
 parent: "topic.THE-GOSPEL"
+source: "'The Narrow Way'"
 en_content: "As the only means to peace with our Creator, the Narrow Way (the Gospel) must be communicated with clarity and simplicity. Declared properly, the Narrow Way will always push me into a corner and compel me to decide against my self and for GOD. The Objective of Salvation is not to get GOD on my side, but to get me to take the side of GOD against my self!",
  es_title: "Cita: EL CAMINO ESTRECHO",
  es_content: "Como único medio para la paz con nuestro Creador, el Camino Estrecho (el Evangelio) debe comunicarse con claridad y sencillez. Declarado correctamente, el Camino Estrecho siempre me arrinconará y me obligará a decidir en contra de mí mismo y por DIOS. ¡El Objetivo de la Salvación no es poner a DIOS de mi lado, sino hacer que yo me ponga del lado de DIOS contra mí mismo!",

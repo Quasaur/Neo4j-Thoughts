@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.SO MANY GOSPELS"
 alias: "Quote: So Many Gospels"
 parent: "topic.RELIGION"
+source: "'The Traveler's Oasis, Book Two'"
 en_content: "The fact is that there are many 'gospels' floating around in religious sects (both Catholic and Protestant, as well as non-Christian esoterics); most of them not really giving any glory to the Lordship of Jesus Christ nor agreeing with the doctrines handed down by those who were witnesses to His Holy Resurrection.",
  es_title: "Cita: TANTOS EVANGELIOS",
  es_content: "El hecho es que hay muchos 'evangelios' flotando en sectas religiosas (tanto católicas como protestantes, así como esotéricas no cristianas); la mayoría de ellos realmente no dan ninguna gloria al Señorío de Jesucristo ni están de acuerdo con las doctrinas transmitidas por aquellos que fueron testigos de Su Santa Resurrección.",

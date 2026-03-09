@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.LOGICAL COURSE"
 alias: "Quote: Logical Course"
 parent: "topic.FAITH"
+source: "'Once Saved, Always Saved: The Assurance of Our Father's LOVE'"
 en_content: "The logical course of action for an ignorant creature (and all creatures are ignorant to varying degrees) is to place its total faith in its Creator Who knows and understands all.",
  es_title: "Cita: CURSO LÓGICO",
  es_content: "El curso de acción lógico para una criatura ignorante (y todas las criaturas son ignorantes en diversos grados) es depositar su fe total en su Creador, Quien lo sabe y lo comprende todo.",

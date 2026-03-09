@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.MIRACLES (2)"
 alias: "Quote: Divine Miracles"
 parent: "topic.THE GODHEAD"
+source: "IMMMUNITY to the Lake of Fire: A No-Nonsense Guide"
 en_content: "When the One True GOD performs a miracle, that miracle is entirely consistent with His overall Purpose and Agenda; which means that while Divine miracles transcend reason and logic, they do not contradict reason and logic…a distinction that is critical to discerning between the Finger of GOD and the lying wonders of Satan."
 tags: ["miracles", "divine", "reason", "logic", "discernment"]
 ptopic: "[[topic-THE]]"

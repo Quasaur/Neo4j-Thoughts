@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.UNCONDITIONAL GRACE"
 alias: "Quote: Unconditional Grace"
 parent: "topic.GRACE"
+source: "'Once Saved, Always Saved: The Assurance of Our Father's LOVE'"
 en_content: "The Purpose of the Gospel is to bring fallen numanity into The Fellowship of The Godhead. And since the Fellowship of The Godhead is Itself unconditional, The Gospel of Grace must also be unconditional.",
  es_title: "Cita: GRACIA INCONDICIONAL",
  es_content: "El propósito del Evangelio es traer la numanidad caída a la Comunidad de la Divinidad. Y dado que la comunión de la Deidad es en sí misma incondicional, el Evangelio de la Gracia también debe ser incondicional.",

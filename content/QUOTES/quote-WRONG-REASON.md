@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.WRONG REASON"
 alias: "Quote: Wrong Reason"
 parent: "topic.ATTITUDE"
+source: "'The Basics and More: A Year's Sermons'"
 en_content: "IT IS POSSIBLE TO PERFORM A GOOD DEED FOR THE WRONG REASON (Luke 18:9-14). Is there anything wrong with fasting or tithing? No; BUT the Pharisee's bad ATTITUDE turned his good deeds into iniquity!"
 tags: ["deed", "reason", "attitude", "parable", "prayer"]
 ptopic: "[[topic-ATTITUDE]]"

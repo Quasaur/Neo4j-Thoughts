@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.CHRIST THE END"
 alias: "Quote: Christ the End"
 parent: "topic.LAW"
+source: "'The Traveler's Oasis, Book Two'"
 en_content: "Just as Christ is the 'end' (the COMPLETION of or FULFILLMENT of) the ceremonial law of sacrifices and atonement, He is the 'end' of the Old Covenant (the Ten Commandments) itself.",
  es_title: "Cita: CRISTO FINAL",
  es_content: "Así como Cristo es el 'fin' (la TERMINACIÓN o CUMPLIMIENTO de) la ley ceremonial de los sacrificios y la expiación, Él es el 'fin' del Antiguo Pacto (los Diez Mandamientos) mismo.",

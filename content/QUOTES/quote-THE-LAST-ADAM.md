@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.THE LAST ADAM"
 alias: "Quote: The Last Adam"
 parent: "topic.HUMANITY"
+source: "'The Traveler's Oasis, Book Three'"
 en_content: "Jesus is the most powerful human in the universe! And having in His Body exalted humanity beyond the reach of sin and affliction, He became the Last Adam of a new race of humanity, and has poured out His Divine Holy Spirit upon all who in faith call upon Him.",
  es_title: "Cita: EL ÚLTIMO ADÁN",
  es_content: "¡Jesús es el ser humano más poderoso del universo! Y habiendo exaltado en Su Cuerpo a la humanidad más allá del alcance del pecado y de la aflicción, se convirtió en el Último Adán de una nueva raza de humanidad, y ha derramado Su Divino Espíritu Santo sobre todos los que con fe lo invocan.",

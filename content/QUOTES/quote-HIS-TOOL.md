@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.HIS TOOL"
 alias: "Quote: His Tool"
 parent: "topic.EVIL"
+source: "'The Narrow Way'"
 en_content: "The Truth is this: a small cabal of individuals rule the world; their master is the Devil ([1 John 5:19](https://www.biblegateway.com/passage/?search=1+John+5%3A19&version=ESV)) and his Masters are the GODHEAD. Evil is a tool in the Hand of a Holy GOD, used to accomplish His Good Purpose ([Genesis 50:20](https://www.biblegateway.com/passage/?search=Genesis+50%3A20&version=ESV); [Romans 8:28](https://www.biblegateway.com/passage/?search=Romans+8%3A28&version=ESV)).",
  es_title: "Cita: SU HERRAMIENTA",
  es_content: "La Verdad es ésta: una pequeña camarilla de individuos gobierna el mundo; su amo es el Diablo ([1 Juan 5:19](https://www.biblegateway.com/passage/?search=1+John+5%3A19&version=ESV)) y sus Amos son la DIOSA. El mal es una herramienta en la Mano de un DIOS Santo, utilizada para lograr Su Buen Propósito ([Génesis 50:20](https://www.biblegateway.com/passage/?search=Genesis+50%3A20&version=ESV); [Romanos 8:28](https://www.biblegateway.com/passage/?search=Romans+8%3A28&version=ESV)).",

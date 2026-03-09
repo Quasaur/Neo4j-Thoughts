@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.WHERE IS GOD?"
 alias: "Quote: Where is God?"
 parent: "topic.DIVINE-SOVEREIGNTY"
+source: "'The Narrow Way'"
 en_content: "GOD is the eight-billion-ton Leviathan in the room...yet you cannot see, hear, smell, taste, touch or perceive Him. Spiritists and other occult adepts with years of experience in the spirit realm seriously doubt His Existence because they've never encountered Him, though He fills all things ([Jeremiah 23:24](https://www.biblegateway.com/passage/?search=Jeremiah+23%3A24&version=ESV))...WHY is that? It is because they, like you and i, are EVIL and therefore enemies of GOD. And like you and i, they are DEAD to Him and His Transcendently HOLY Nature.",
  es_title: "Cita: ¿DÓNDE ESTÁ DIOS?",
  es_content: "DIOS es el Leviatán de ocho mil millones de toneladas en la habitación... sin embargo, no puedes verlo, oírlo, olerlo, saborearlo, tocarlo ni percibirlo. Los espiritistas y otros adeptos ocultistas con años de experiencia en el reino espiritual dudan seriamente de Su Existencia porque nunca lo han encontrado, aunque Él llena todas las cosas ([Jeremías 23:24](https://www.biblegateway.com/passage/?search=Jeremiah+23%3A24&version=ESV))...¿POR QUÉ? Es porque ellos, como tú y yo, somos MALVADOS y por lo tanto enemigos de DIOS. Y como tú y yo, están MUERTOS para Él y Su Naturaleza Trascendente y SANTA.",

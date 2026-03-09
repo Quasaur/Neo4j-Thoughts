@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.CHOSEN"
 alias: "Quote: Chosen"
 parent: "topic.DIVINE-SOVEREIGNTY"
+source: "'The Narrow Way'"
 en_content: "Contrary to popular American religious legend that passes for sound Christian doctrine, the choice that COUNTS towards your ultimate eternal fate and mine is not our decisions but GOD's (John 15:16).",
  es_title: "Cita: ELEGIDO",
  es_content: "Contrariamente a la leyenda religiosa popular estadounidense que pasa por sana doctrina cristiana, la elección que CUENTA para su destino eterno final y el mío no es nuestra decisión sino la de DIOS (Juan 15:16).",

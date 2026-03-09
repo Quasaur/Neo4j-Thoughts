@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.INCOMPATIBLE"
 alias: "Quote: Incompatible"
 parent: "topic.SPIRITUALITY"
+source: "'IMMMUNITY to the Lake of Fire: A No-Nonsense Guide'"
 en_content: "The life you were born into as a human is ABSOLUTELY INCOMPATIBLE with the Life you were born-again into as a Child of GOD.",
  es_title: "Cita: INCOMPATIBLE",
  es_content: "La vida en la que naciste como ser humano es ABSOLUTAMENTE INCOMPATIBLE con la vida en la que naciste de nuevo como Hijo de DIOS.",

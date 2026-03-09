@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.EVIL IDENTIFIED"
 alias: "Quote: Evil Identified"
 parent: "topic.EVIL"
+source: "'The Narrow Way'"
 en_content: "Evil is not identified by works alone but by the absence of GOD in the human heart. The most altruistic soul walking the Earth today without Christ Jesus is just as damned as the most prolific serial killer.",
  es_title: "Cita: MAL IDENTIFICADO",
  es_content: "El mal no se identifica sólo por las obras sino por la ausencia de DIOS en el corazón humano. El alma más altruista que hoy camina por la Tierra sin Cristo Jesús está tan condenada como el asesino en serie más prolífico.",

@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.NO NEED"
 alias: "Quote: No Need"
 parent: "topic.WEALTH"
+source: "'IMMMUNITY to the Lake of Fire: A No-Nonsense Guide'"
 en_content: "You do not need money to either survive or thrive in this life or the next.",
  es_title: "Cita: NO ES NECESARIO",
  es_content: "No necesitas dinero para sobrevivir o prosperar en esta vida o en la siguiente.",

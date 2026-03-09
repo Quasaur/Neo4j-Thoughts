@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.GOODNESS OF GOD"
 alias: "Quote: The Supreme Goodness of God"
 parent: "topic.THE GODHEAD"
+source: "The Traveler's Oasis, Book One"
 en_content: "None of the darkest horrors concocted by the most evil demonic force can ever have a chance against the Goodness of God."
 tags: ["goodness", "horrors", "god", "demons", "transcendent"]
 ptopic: "[[topic-THE]]"

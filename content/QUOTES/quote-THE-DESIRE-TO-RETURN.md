@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.THE DESIRE TO RETURN"
 alias: "Quote: The Desire to Return"
 parent: "topic.EVIL"
+source: "'IMMMUNITY to the Lake of Fire: A No-Nonsense Guide'"
 en_content: "While any sinner would DO EVERYTHING POSSIBLE to avoid the Lake of Fire, no sinner has ANY DESIRE IN THEIR HEART WHATSOEVER to return to God (repentance).",
  es_title: "Cita: EL DESEO DE VOLVER",
  es_content: "Si bien cualquier pecador haría TODO LO POSIBLE para evitar el Lago de Fuego, ningún pecador tiene NINGÚN DESEO EN SU CORAZÓN de regresar a Dios (arrepentimiento).",

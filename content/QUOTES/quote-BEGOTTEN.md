@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.BEGOTTEN"
 alias: "Quote: God's Only Son"
 parent: "topic.THE GOSPEL"
+source: "The Basics and More: A Year's Sermons"
 en_content: |
   PLEASE UNDERSTAND: the First Adam was CREATED; the Last Adam is BEGOTTEN!!!  
   That's why Jesus is called God's 'Only-Begotten' Son.

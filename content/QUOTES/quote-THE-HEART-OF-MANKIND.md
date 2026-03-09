@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.THE HEART OF MANKIND"
 alias: "Quote: The HEART OF MANKIND"
 parent: "topic.RELIGION"
+source: "'The Narrow Way'"
 en_content: "None of our achievements, advances, contributions, virtuous deeds or good intentions make up for our evil hearts (hearts that believe GOD is not necessary to live a fulfilling life) ...else Christ would not have had to present Himself as a Sacrifice in our stead.",
  es_title: "Cita: El CORAZÓN DE LA HUMANIDAD",
  es_content: "Ninguno de nuestros logros, avances, contribuciones, obras virtuosas o buenas intenciones compensan nuestros corazones malvados (corazones que creen que DIOS no es necesario para vivir una vida plena)...de lo contrario, Cristo no habría tenido que presentarse como un Sacrificio en nuestro lugar.",

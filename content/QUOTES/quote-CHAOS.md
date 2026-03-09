@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.CHAOS"
 alias: "Quote: Chaos"
 parent: "topic.PSYCHOLOGY"
+source: "'The Traveler's Oasis, Book Three'"
 en_content: "We fear Chaos above little else and, consciously or subconsciously, are constantly trying to create order where there may actually be none.",
  es_title: "Cita: CAOS",
  es_content: "Tememos al Caos por encima de cualquier otra cosa y, consciente o inconscientemente, intentamos constantemente crear orden donde en realidad no lo hay.",

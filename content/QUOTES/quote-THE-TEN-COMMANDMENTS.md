@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.THE TEN COMMANDMENTS"
 alias: "Quote: The Ten Commandments"
 parent: "topic.LAW"
+source: "'The Traveler's Oasis, Book Two'"
 en_content: "God places an INESTIMABLE VALUE upon the Ten Commandments; and it deeply concerns me that so many of today's Christians take NO TIME to familiarize themselves with any of the first five books of the Bible which clearly identify the One True God in no uncertain terms.",
  es_title: "Cita: LOS DIEZ MANDAMIENTOS",
  es_content: "Dios pone un VALOR INESTIMABLE a los Diez Mandamientos; y me preocupa profundamente que muchos de los cristianos de hoy NO se tomen TIEMPO para familiarizarse con cualquiera de los primeros cinco libros de la Biblia que identifican claramente al Único Dios Verdadero en términos inequívocos.",

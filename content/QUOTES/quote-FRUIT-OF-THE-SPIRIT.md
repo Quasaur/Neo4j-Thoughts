@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.FRUIT OF THE SPIRIT"
 alias: "Quote: Fruit of the Spirit"
 parent: "topic.GRACE"
+source: "'The Narrow Way'"
 en_content: "Notice they're not called the Works of the Spirit but the Fruit of the Spirit. The Apostle is drawing a contrast between the WORKS of the flesh and the FRUIT of the Holy Spirit of GOD...subtle yet critical. 'Works...fruit...what does it matter?' Ahhhh...it does matter, and the difference determines the destiny of billions for Heaven or Hell!"
  es_title: "Cita: FRUTO DEL ESPÍRITU"
  es_content: "Note que no se llaman Obras del Espíritu sino Fruto del Espíritu. El Apóstol está haciendo un contraste entre las OBRAS de la carne y el FRUTO del Espíritu Santo de DIOS... sutil pero crítico. 'Funciona...fruta...¿qué importa?' Ahhhh... ¡sí importa, y la diferencia determina el destino de miles de millones al Cielo o al Infierno!"

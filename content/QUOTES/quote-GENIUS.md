@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.GENIUS"
 alias: "Quote: Genius"
 parent: "topic.UNDERSTANDING"
+source: "'The Traveler's Oasis, Book Three'"
 en_content: "Genius, like patience or temperance, is a SPIRITUAL attribute that can be acquired at any point in the life by either the Sovereignty of God or by simply asking God for it.",
  es_title: "Cita: GENIO",
  es_content: "El genio, como la paciencia o la templanza, es un atributo ESPIRITUAL que se puede adquirir en cualquier momento de la vida ya sea por la Soberanía de Dios o simplemente pidiéndola a Dios.",

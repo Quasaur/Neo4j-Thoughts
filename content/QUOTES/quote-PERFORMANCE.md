@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.PERFORMANCE"
 alias: "Quote: Performance"
 parent: "topic.RELIGION"
+source: "'IMMMUNITY to the Lake of Fire: A No-Nonsense Guide'"
 en_content: "Doubt: As long as ANY PART of your Salvation is dependent upon your performance rather than Christ’s Righteousness, you can NEVER be assured of your Eternal Salvation nor of your name’s place in the Lamb’s Book of LIFE.",
  es_title: "Cita: RENDIMIENTO",
  es_content: "Duda: Mientras CUALQUIER PARTE de tu Salvación dependa de tu desempeño y no de la Justicia de Cristo, NUNCA podrás estar seguro de tu Salvación Eterna ni del lugar de tu nombre en el Libro de la VIDA del Cordero.",

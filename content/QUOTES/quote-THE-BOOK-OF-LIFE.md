@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.THE BOOK OF LIFE"
 alias: "Quote: The Book of Life"
 parent: "topic.DIVINE-SOVEREIGNTY"
+source: "'IMMMUNITY to the Lake of Fire: A No-Nonsense Guide'"
 en_content: "As long as your name is written in the Lamb’s Book of LIFE, YOU HAVE NOTHING TO WORRY ABOUT WHATSOEVER; the Lake of Fire can do you no harm.",
  es_title: "Cita: EL LIBRO DE LA VIDA",
  es_content: "Mientras tu nombre esté escrito en el Libro de la VIDA del Cordero, NO TIENES NADA DE QUÉ PREOCUPARTE; el Lago de Fuego no puede hacerte daño.",

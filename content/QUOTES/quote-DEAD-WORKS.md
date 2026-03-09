@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.DEAD WORKS"
 alias: "Quote: Dead Works"
 parent: "topic.RELIGION"
+source: "'IMMMUNITY to the Lake of Fire: A No-Nonsense Guide'"
 en_content: "The obedience of the sinner CANNOT BE ACCEPTED by GOD because since the sinner is spiritually dead THEIR OBEDIENCE IS DEAD AS WELL.",
  es_title: "Cita: OBRAS MUERTAS",
  es_content: "La obediencia del pecador NO PUEDE SER ACEPTADA por DIOS porque como el pecador está espiritualmente muerto, SU OBEDIENCIA TAMBIÉN ESTÁ MUERTA.",

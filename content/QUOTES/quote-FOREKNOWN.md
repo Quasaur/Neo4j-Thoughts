@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.FOREKNOWN"
 alias: "Quote: Foreknown"
 parent: "topic.DIVINE-SOVEREIGNTY"
+source: "'The Narrow Way'"
 en_content: "To save you from the coming Wrath GOD must KNOW you.",
  es_title: "Cita: PREVISTO",
  es_content: "Para salvarte de la ira venidera, DIOS debe CONOCERTE.",

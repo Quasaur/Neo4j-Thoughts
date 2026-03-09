@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.THE CROSS"
 alias: "Quote: The Cross"
 parent: "topic.THE-GOSPEL"
+source: "'IMMMUNITY to the Lake of Fire: A No-Nonsense Guide'"
 en_content: "The Power of the Gospel is The Cross of Jesus Christ. The “magic” of The Cross is that GOD loved us so unconditionally and so deeply that He spared neither Himself nor us the pain and agony necessary to provide us a complete delivery from the power, penalty and—most important—the love of and need for sin."
  es_title: "Cita: LA CRUZ"
  es_content: "El Poder del Evangelio es La Cruz de Jesucristo. La “magia” de La Cruz es que DIOS nos amó tan incondicional y tan profundamente que no se ahorró ni a Sí mismo ni a nosotros el dolor y la agonía necesarios para brindarnos una liberación completa del poder, la pena y, lo más importante, el amor y la necesidad del pecado."

@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.PERFECTION"
 alias: "Quote: Perfection's Necessity"
 parent: "topic.THE GODHEAD"
+source: "IMMMUNITY to the Lake of Fire: A No-Nonsense Guide"
 en_content: "Be it ever so ubiquitous, the existence of imperfection does not prove that Perfection does not exist! Rather, the recognition of imperfection, by the very name with which we label it, is proof that, deep in the human spirit, the truth of Perfection is both extant and, at a very deep level, assumed even by those who dishonestly claim that It doesn’t exist. IF PERFECTION DOES NOT EXIST, NEITHER DOES IMPERFECTION; you can’t logically have one without the other!"
 tags: ["imperfection", "perfection", "god", "existence", "duality"]
 ptopic: "[[topic-THE]]"

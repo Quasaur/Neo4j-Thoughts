@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.THE CHRISTIAN SYSTEM"
 alias: "Quote: The Christian System"
 parent: "topic.POLITICAL SCIENCE"
+source: "'The Traveler's Oasis, Book Three'"
 en_content: "So what is Christianity? Jesus Christ, and all Truth concerning Him IS Christianity. So by saying that Jesus Christ is a political / economic figurehead as well as a spiritual figurehead I am implying that Christianity is a political / economic system as well.",
  es_title: "Cita: EL SISTEMA CRISTIANO",
  es_content: "Entonces ¿qué es el cristianismo? Jesucristo, y toda verdad acerca de Él ES cristianismo. Entonces, al decir que Jesucristo es una figura política/económica así como una figura espiritual, estoy implicando que el cristianismo es también un sistema político/económico.",

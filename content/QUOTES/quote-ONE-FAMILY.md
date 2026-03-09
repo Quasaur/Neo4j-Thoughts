@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.ONE FAMILY"
 alias: "Quote: One Family"
 parent: "topic.THE-GOSPEL"
+source: "'The Narrow Way'"
 en_content: "GOD created the human family with the intent of filling its members with the SAME FULLNESS His Divine Family enjoys; since the advent of sin, however, humans have conspired with demons to so darken that which was designed to be glorious that the Presence of Divinity would be temporarily forced out.",
  es_title: "Cita: UNA FAMILIA",
  es_content: "DIOS creó la familia humana con la intención de llenar a sus miembros de la MISMA PLENITUD de la que disfruta Su Divina Familia; Sin embargo, desde la llegada del pecado, los humanos han conspirado con los demonios para oscurecer tanto lo que fue diseñado para ser glorioso que la Presencia de la Divinidad sería temporalmente expulsada.",

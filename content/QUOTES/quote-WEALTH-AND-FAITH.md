@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.WEALTH AND FAITH"
 alias: "Quote: Wealth and Faith"
 parent: "topic.WEALTH"
+source: "'IMMMUNITY to the Lake of Fire: A No-Nonsense Guide'"
 en_content: "Wealth and Faith are mutually exclusive: having one, it does not necessarily follow that you will have the other in this life. When it comes to His Own, GOD determines the economic station of His Children. In perspective, however, there are no poor people in Heaven: you may have to wait till Eternity to receive your wealth (Matthew 6:19,20).",
  es_title: "Cita: RIQUEZA Y FE",
  es_content: "La riqueza y la fe son mutuamente excluyentes: teniendo una, no necesariamente se sigue que tendrás la otra en esta vida. Cuando se trata de los Suyos, DIOS determina la posición económica de Sus Hijos. En perspectiva, sin embargo, no hay pobres en el Cielo: es posible que tengas que esperar hasta la Eternidad para recibir tus riquezas (Mateo 6:19,20).",

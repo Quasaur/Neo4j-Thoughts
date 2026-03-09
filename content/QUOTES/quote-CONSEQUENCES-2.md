@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.CONSEQUENCES (2)"
 alias: "Quote: Decisions have Consequences"
 parent: "topic.DIVINE SOVEREIGNTY"
+source: "IMMUNITY to the Lake of Fire: A No-Nonsense Guide"
 en_content: "Every sentient being is a 'free-will' agent and can make decisions (acts of the will) to determine their destiny, but ONLY GOD DETERMINES THE CONSEQUENCES OF THOSE DECISIONS AND ACTIONS. The Jew who assisted in the weaponization of Zyklon gas for use in World War I had no idea his government would use the same gas to exterminate millions of European Jews in World War II. In the same way, neither you nor I can imagine the far-reaching consequences of the decisions we make today."
 tags: ["decisions", "outcomes", "god", "sovereignty", "volition"]
 ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"

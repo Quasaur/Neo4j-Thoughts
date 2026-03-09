@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.SPOKEN ACTS"
 alias: "Quote: Spoken Acts"
 parent: "topic.LINGUISTICS"
+source: "'IMMMUNITY to the Lake of Fire: A No-Nonsense Guide'"
 en_content: "Spoken words are human acts which are recorded in Heaven meticulously.",
  es_title: "Cita: ACTOS HABLADOS",
  es_content: "Las palabras habladas son actos humanos que quedan registrados meticulosamente en el Cielo.",

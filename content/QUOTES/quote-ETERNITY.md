@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.ETERNITY"
 alias: "Quote: The Transcendent God"
 parent: "topic.THE GODHEAD"
+source: "Once Saved, Always Saved: The Assurance of Our Father's LOVE"
 en_content: "With the word 'Eternity' we acknowledge (at least intellectually) that God has no beginning, which creates all kinds of problems for tiny minds like ours."
 tags: ["god", "eternity", "beginningless", "endless", "transcendence"]
 ptopic: "[[topic-THE]]"

@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.CESSATION OF LABOR"
 alias: "Quote: Cessation of Labor"
 parent: "topic.GRACE"
+source: "'The Traveler's Oasis, Book Two'"
 en_content: "Upon entering by faith into Christ Jesus, the soul CEASES FROM ITS OWN LABOR, just as God did fro His. There is Peace; endless, refreshing, soothing, loving, empowering PEACE.",
  es_title: "Cita: CESE DEL TRABAJO",
  es_content: "Al entrar por la fe en Cristo Jesús, el alma CESA DE SU PROPIO TRABAJO, así como Dios lo hizo con el suyo. Hay Paz; PAZ infinita, refrescante, calmante, amorosa y empoderadora.",

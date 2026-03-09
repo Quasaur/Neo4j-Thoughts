@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.ISLAM DEFEATED"
 alias: "Quote: Islam Defeated"
 parent: "topic.RELIGION"
+source: "'Letters from God: A Work of Fiction'"
 en_content: "Biblical Christianity will defeat Islam by the same means it defeated paganism: through the Truth of the Holy Bible, the Love of Jesus Christ, and the Life of Christ lived through His followers.",
  es_title: "Cita: EL ISLAM DERROTADO",
  es_content: "El cristianismo bíblico derrotará al Islam por los mismos medios que derrotó al paganismo: a través de la Verdad de la Santa Biblia, el Amor de Jesucristo y la Vida de Cristo vivida a través de Sus seguidores.",

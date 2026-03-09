@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.HUMILITY"
 alias: "Quote: Humility"
 parent: "topic.HUMILITY"
+source: "'IMMMUNITY to the Lake of Fire: A No-Nonsense Guide'"
 en_content: "A realistic view of ourselves in the Light of the Holy Scriptures and in the Presence of Almighty GOD is what we call HUMILITY; and without this humility Salvation is simply impossible.",
  es_title: "Cita: HUMILDAD",
  es_content: "Una visión realista de nosotros mismos a la Luz de las Sagradas Escrituras y en la Presencia de DIOS Todopoderoso es lo que llamamos HUMILDAD; y sin esta humildad la Salvación es simplemente imposible.",

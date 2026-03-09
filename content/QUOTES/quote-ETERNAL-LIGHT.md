@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.ETERNAL LIGHT"
 alias: "Quote: Eternal Light"
 parent: "topic.UNDERSTANDING"
+source: "'Once Saved, Always Saved: The Assurance of Our Father's LOVE'"
 en_content: "Eventually, as saved beings, our understanding of God will reach the point where darkness will recede into the past as a faint memory.",
  es_title: "Cita: LUZ ETERNA",
  es_content: "Con el tiempo, como seres salvos, nuestra comprensión de Dios llegará al punto en que la oscuridad retrocederá hacia el pasado como un débil recuerdo.",

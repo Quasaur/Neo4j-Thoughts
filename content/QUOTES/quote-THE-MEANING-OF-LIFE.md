@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.THE MEANING OF LIFE"
 alias: "Quote: The MEANING OF LIFE"
 parent: "topic.PHILOSOPHY"
+source: "'The Narrow Way'"
 en_content: "Most importantly you will finally meet your Creator; and the moment you gaze into His Piercing Eyes you will realize with relentless clarity that your existence was never about you but was all about Him. He is truly the Center of all attention, the Cause of all excitement, the Objective of all worship, the Fountain of all life, the Nexus of all reality and the Meaning behind all chaos. Even evil itself, as brief a part it played in the panorama of cosmic history, only existed to serve His marvelous Purpose...then to be no more forever.",
  es_title: "Cita: El SENTIDO DE LA VIDA",
  es_content: "Lo más importante es que finalmente conocerás a tu Creador; y en el momento en que mires Sus ojos penetrantes, te darás cuenta con claridad implacable de que tu existencia nunca se trató de ti, sino de Él. Él es verdaderamente el Centro de toda atención, la Causa de toda emoción, el Objetivo de toda adoración, la Fuente de toda vida, el Nexo de toda realidad y el Significado detrás de todo caos. Incluso el mal mismo, por breve que haya sido su papel en el panorama de la historia cósmica, sólo existió para servir a Su maravilloso Propósito... y luego dejar de existir para siempre.",

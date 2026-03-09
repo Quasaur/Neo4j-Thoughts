@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.BANKRUPT"
 alias: "Quote: Bankrupt"
 parent: "topic.GRACE"
+source: "'IMMMUNITY to the Lake of Fire: A No-Nonsense Guide'"
 en_content: "We can never be allowed to experience the Power of GOD’s Holy Spirit until we fully understand that we are absolutely bankrupt (both morally and spiritually), with nothing to offer GOD except our sin, our shame and our failure.",
  es_title: "Cita: BANCARROTA",
  es_content: "Nunca se nos permitirá experimentar el poder del Espíritu Santo de DIOS hasta que entendamos completamente que estamos absolutamente en bancarrota (tanto moral como espiritualmente), sin nada que ofrecer a DIOS excepto nuestro pecado, nuestra vergüenza y nuestro fracaso.",

@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.NATION OF ISRAEL"
 alias: "Quote: Nation of Israel"
 parent: "topic.POLITICAL SCIENCE"
+source: "'The Traveler's Oasis, Book Three'"
 en_content: "The Bible makes a crucial distinction between the Earthly, physical Nation of Israel, which is temporary and the SPIRITUAL Nation of Israel, which is Eternal; nothing about the Gospel or Biblical prophecy makes sense without this truth.",
  es_title: "Cita: NACIÓN DE ISRAEL",
  es_content: "La Biblia hace una distinción crucial entre la Nación física y terrenal de Israel, que es temporal, y la Nación ESPIRITUAL de Israel, que es Eterna; nada sobre el Evangelio o la profecía bíblica tiene sentido sin esta verdad.",

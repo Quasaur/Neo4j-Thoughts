@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.THE SALVATION"
 alias: "Quote: The Salvation"
 parent: "topic.THE-GOSPEL"
+source: "'The Narrow Way'"
 en_content: "THERE IS NO SALVATION APART FROM JESUS. Let me put this another way: JESUS **IS** THE SALVATION GOD THE FATHER IS OFFERING YOU, as opposed to a set of deeds you must accomplish or words you must say to 'receive' Salvation from Jesus.",
  es_title: "Cita: LA SALVACIÓN",
  es_content: "NO HAY SALVACIÓN APARTE DE JESÚS. Permíteme decirlo de otra manera: JESÚS **ES** LA SALVACIÓN QUE DIOS EL PADRE TE OFRECE, a diferencia de un conjunto de hechos que debes realizar o palabras que debes decir para 'recibir' la Salvación de Jesús.",

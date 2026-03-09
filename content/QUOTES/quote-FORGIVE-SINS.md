@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.FORGIVE SINS"
 alias: "Quote: Forgive Sins"
 parent: "topic.MERCY"
+source: "'IMMMUNITY to the Lake of Fire: A No-Nonsense Guide'"
 en_content: "Only GOD The Word (in the Person of The Lord Jesus Christ) has authority on Earth to forgive sins and apply His own Blood to the soul of the sinner!",
  es_title: "Cita: PERDONA LOS PECADOS",
  es_content: "¡Sólo DIOS La Palabra (en la Persona del Señor Jesucristo) tiene autoridad en la Tierra para perdonar pecados y aplicar Su propia Sangre al alma del pecador!",

@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.TRUTH AND FAITH"
 alias: "Quote: Truth and Faith"
 parent: "topic.THE-GOSPEL"
+source: "'IMMMUNITY to the Lake of Fire: A No-Nonsense Guide'"
 en_content: "GOD lovingly provides both the Truth that saves us from the Lake of Fire as well as the Saving Faith necessary to believe on (from the heart) and live by that Saving Truth.",
  es_title: "Cita: VERDAD Y FE",
  es_content: "DIOS amorosamente proporciona tanto la Verdad que nos salva del Lago de Fuego como también la Fe Salvadora necesaria para creer (desde el corazón) y vivir según esa Verdad Salvadora.",

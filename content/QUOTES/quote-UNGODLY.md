@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.UNGODLY"
 alias: "Quote: Ungodly"
 parent: "topic.EVIL"
+source: "'The Narrow Way'"
 en_content: "And this is what the Bible means by the term 'ungodly' ([Psalms 1:4,5](https://www.biblegateway.com/passage/?search=Psalms+1%3A4-5&version=ESV)): not that we deliberately choose to spend every waking moment committing atrocities, but that as much as we desire to live good, just and quiet lives, WE'D RATHER DO SO WITHOUT GOD.",
  es_title: "Cita: IMPÍO",
  es_content: "Y esto es lo que la Biblia quiere decir con el término 'impío' ([Salmos 1:4,5](https://www.biblegateway.com/passage/?search=Psalms+1%3A4-5&version=ESV)): no es que elegimos deliberadamente pasar cada momento de vigilia cometiendo atrocidades, sino que por mucho que deseemos vivir una vida buena, justa y tranquila, PREFERIRÍAMOS HACERLO SIN DIOS.",

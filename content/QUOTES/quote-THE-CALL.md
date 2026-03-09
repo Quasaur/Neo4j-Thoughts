@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.THE CALL"
 alias: "Quote: The Call"
 parent: "topic.THE-GOSPEL"
+source: "'The Narrow Way'"
 en_content: "That being said, for the last two thousand years GOD has put out a call to every nation, tribe, tongue and people on the face of the planet to turn to His Only-Begotten Son Jesus Christ for the forgiveness of ALL SIN--past, present and future--and to receive The Gift of The Holy Spirit of GOD and embark on the transcendent experience of That Priceless Treasure: a Sinless, Endless Life!",
  es_title: "Cita: LA LLAMADA",
  es_content: "Dicho esto, durante los últimos dos mil años, DIOS ha hecho un llamado a cada nación, tribu, lengua y pueblo sobre la faz del planeta para que recurran a Su Hijo Unigénito Jesucristo para el perdón de TODO PECADO (pasado, presente y futuro) y para recibir el Don del Espíritu Santo de DIOS y embarcarse en la experiencia trascendente de Ese Tesoro Invaluable: ¡una Vida sin pecado y sin fin!",

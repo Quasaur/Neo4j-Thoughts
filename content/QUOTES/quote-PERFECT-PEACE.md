@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.PERFECT PEACE"
 alias: "Quote: Perfect Peace"
 parent: "topic.GRACE"
+source: "'The Traveler's Oasis, Book One'"
 en_content: "Every cell in my body relaxed in Perfect Peace. Every fear was vanquished. And that's why my body collapsed like a rag doll to the floor on that stage in front of all those people.",
  es_title: "Cita: PAZ PERFECTA",
  es_content: "Cada célula de mi cuerpo se relajó en Perfecta Paz. Todo temor fue vencido. Y es por eso que mi cuerpo se desplomó como un muñeco de trapo en el suelo en ese escenario frente a toda esa gente.",

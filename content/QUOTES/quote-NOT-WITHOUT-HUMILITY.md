@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.NOT WITHOUT HUMILITY"
 alias: "Quote: Not Without Humility"
 parent: "topic.ATTITUDE"
+source: "'The Narrow Way'"
 en_content: "What i wish to remind us all is that THERE'S NO SALVATION WITHOUT REPENTANCE AND THERE'S NO REPENTANCE WITHOUT HUMILITY.",
  es_title: "Cita: NO SIN HUMILDAD",
  es_content: "Lo que deseo recordarnos a todos es que NO HAY SALVACIÓN SIN ARREPENTIMIENTO Y NO HAY ARREPENTIMIENTO SIN HUMILDAD.",

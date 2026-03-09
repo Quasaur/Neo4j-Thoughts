@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.CHRIST IS ENOUGH"
 alias: "Quote: Christ is Enough"
 parent: "topic.GRACE"
+source: "'The Traveler's Oasis, Book Two'"
 en_content: "I say to you again in the Name of The Father, Son and Holy Spirit and in the Presence of Heaven, Earth and all Creation: JESUS CHRIST IS ENOUGH to completely deliver any soul from damnation to Divine Perfection.",
  es_title: "Cita: CRISTO ES SUFICIENTE",
  es_content: "Les digo nuevamente en el Nombre del Padre, del Hijo y del Espíritu Santo y en la Presencia del Cielo, de la Tierra y de toda la Creación: JESUCRISTO ES BASTANTE para liberar completamente a cualquier alma de la condenación a la Perfección Divina.",

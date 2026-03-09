@@ -3,6 +3,7 @@ type: QUOTE
 name: "quote.POLITICAL CHRIST"
 alias: "Quote: Political Christ"
 parent: "topic.POLITICAL SCIENCE"
+source: "'The Traveler's Oasis, Book Three'"
 en_content: "I state that not only is Jesus' Authority spiritual, but political and economic as well.",
  es_title: "Cita: CRISTO POLÍTICO",
  es_content: "Afirmo que la Autoridad de Jesús no sólo es espiritual, sino también política y económica.",
