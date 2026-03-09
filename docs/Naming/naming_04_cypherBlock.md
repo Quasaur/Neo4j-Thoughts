@@ -84,6 +84,9 @@ Rule 7a: There must be clear distinction between the PASSAGE content and the PAS
 ## Secondary Node
 Rule 8: The second Cypher CREATE query in the Cypher block creates the node that contains the actual content for the primary node, whether that is the DESCRIPTION of the TOPIC or the COTENT of the THOUGHT, QUERY or PASSAGE node.
 
+Rule 8a: Whether referring to the DESCRIPTION node or CONTENT node, the value of the property "en_title" will be the same as that of the "alias" property of the primary node.
+
+Rule 8b: The values of the properties "es_title", "fr_title", "hi_title" and "zh_title", whether they belong to a DESCRIPTION or CONTENT node, with be faithful translations in their respective languages (Spanish, French, Hini & Chinese Pinyin) of the value for the "en_title" property.
 ### DESCRIPTION Node Type
 Rule 9: Every Cypher CREATE query for the DESCRIPTION node type must have the following properties and their values:
 	- name

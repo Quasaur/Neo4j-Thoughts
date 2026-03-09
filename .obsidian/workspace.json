@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "776845395530ebbc",
+        "id": "785a6f9764e8c31c",
         "type": "tabs",
         "children": [
           {
-            "id": "9dca4b4b207e1ac9",
+            "id": "425c98ae8e1997a4",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -49,10 +49,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "?\",",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               },
@@ -84,7 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 380.5026054382324
+    "width": 236.50043487548828
   },
   "right": {
     "id": "23b5a9898015fd07",
@@ -145,12 +145,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Neo4j-AI/Kimi K2/Discrepancies/Prompts/Prompts.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Prompts"
             }
           }
         ],
@@ -158,7 +159,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -173,44 +175,44 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9dca4b4b207e1ac9",
+  "active": "425c98ae8e1997a4",
   "lastOpenFiles": [
-    "Neo4j-AI/Kimi K2/Discrepancies/Prompts/Prompts.md",
-    "docs/reports/edge_case_issues.md",
+    "content/TOPICS/topic-SOTERIOLOGY.md",
+    "content/TOPICS/topic-THE-GOSPEL.md",
+    "content/TOPICS/topic-HOLINESS.md",
+    "content/TOPICS/topic-DIVINE-SOVEREIGNTY.md",
+    "content/TOPICS/topic-FINANCE.md",
+    "content/TOPICS/topic-GRACE.md",
+    "content/TOPICS/topic-THE-GODHEAD.md",
+    "content/TOPICS/topic-WISDOM.md",
+    "content/TOPICS/topic-CREATION.md",
+    "TOPICS_VERIFICATION_REPORT.md",
+    "content/TOPICS/topic-POLITICAL-SCIENCE.md",
+    "content/TOPICS/topic-RELIGION.md",
+    "content/TOPICS/topic-THE-BIBLE.md",
+    "content/TOPICS/topic-ASTROPHYSICS.md",
+    "content/TOPICS/topic-ATTITUDE.md",
+    "content/TOPICS/topic-SPIRITUALITY.md",
+    "content/TOPICS/topic-MUSICOLOGY.md",
+    "content/TOPICS/topic-MUSIC.md",
+    "content/TOPICS/topic-WEALTH.md",
+    "content/TOPICS/topic-GUILT.md",
+    "content/TOPICS/topic-FAITH.md",
+    "BASES/Content THOUGHTS.base",
+    "content/THOUGHTS/thought-EARTH-SPEED-SPACE.md",
+    "content/THOUGHTS/thought-JUDGMENT-OF-NATIONS.md",
+    "content/THOUGHTS/thought-HORDES-OF-THE-ABYSS.md",
+    "content/THOUGHTS/thought-BETTER-WORLD.md",
+    "BASES/Base-TOPICs.base",
+    "Untitled.md",
+    "BASES/Base-Book_of_Tweets.base",
+    "python/add_verified_property.py",
+    "BASES/Base-WEBDEV.base",
+    "BASES/Base-Quotes in Neo4j.base",
+    "BASES/Base-Passages in Neo4j.base",
+    "BASES/Base-PASSAGES.base",
     "AuraDB",
-    "docs/Naming/naming_04_cypherBlock.md",
-    "docs/Naming/naming_03_yaml.md",
-    "Book_of_Tweets/THOUGHTS/thought-DANGEROUS-AND-SAFE.md",
-    "docs/Naming/naming_01_neo4j_specs.md",
-    "Book_of_Tweets/THOUGHTS/thought-COOKED-FOOD-HUMANS.md",
-    "Book_of_Tweets/THOUGHTS/thought-ALONZO-CHURCH-FAITH.md",
-    "content/THOUGHTS/thought-ACT-OF-GOD.md",
-    "content/QUOTES/tnw/quote-LAW-OF-DOUBT.md",
-    "content/QUOTES/tnw/quote-CHILD-OF-SATAN.md",
-    "content/THOUGHTS/thought-DARK-MATTER.md",
-    "docs/Naming/naming_02_file_names.md",
-    "docs/reports/unaddressed_issues_02-Mar-2026@1415.md",
-    "Neo4j-AI/docs/PROMPTS/Kimi-K2/Unadressed Issues Addressed.md",
-    "docs/reports/TRANSLATION_SUMMARY.md",
-    "docs/Naming/naming_02_yaml.md.md",
-    "Neo4j-AI/docs/PROMPTS/Kimi-K2/RETURN of Fourth Query.md",
-    "docs/reports/unaddressed_issues.md",
-    "content/THOUGHTS/thought-GNOSIS.md",
     "rebuild_corrupted_files.py",
-    "fix_remaining_translations.py",
-    "translate_quotes_final.py",
-    "translate_quotes_batch.py",
-    "translate_remaining_quotes.py",
-    "update_missing_content.py",
-    "Neo4j-AI/docs/PROMPTS/Kimi-K2/Third Query in Cypher Block (CONTENT).md",
-    "sync_from_wisdom_api.py",
-    "sync_translations_from_wisdom_book.py",
-    "translate_missing_content.py",
-    "docs/Naming/naming_05_relationships.md",
-    "content/TOPICS/topic-ANTHROPOLOGY.md",
-    "Neo4j-AI/docs/PROMPTS/Kimi-K2/Neo4j-Thoughts - content folder.md",
-    "docs/reports/neo4j_auraDB_discrepancies_28-Feb-2026@2140.md",
-    "docs/reports/yaml_corrections_28-Feb-2026@2105.md",
     "Untitled.canvas",
     "public/attachments/og-image.png",
     "public/static/og-image.png",

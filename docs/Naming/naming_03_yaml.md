@@ -21,7 +21,7 @@ Rule 2: Deprecated YAML properties include:
 - "draft" (node should be displayed on static site)
 - "inserted" (this node has been uploaded to the AuraDB).
 
-Rule 2a: These properties, if found in the YAML front matter of any markdown file, should be removed from the markdown file along with their values.
+Rule 2a: These properties, if found in the YAML front matter of any markdown file, should be removed from the YAML section of the markdown file along with their values.
 
 ## Approved YAML Properties
 
@@ -37,6 +37,7 @@ tags:
 ptopic:
 level:
 neo4j:
+verified
 ```
 
 ### 1st YAML Property: "type"
@@ -92,7 +93,7 @@ Rule 5b: The format of the "alias" field is as follows:
  c. "Quote: "
  d. "Passage: "
  
-- The second part of the "alias" field identifies the title of the node in Initial Caps (words in full capitals are forbidden in the values of the "alias" property in both the YAML front matter and the Cypher block). Together with the node type, these two components form the "alias":
+- The second part of the "alias" field identifies the title of the node in Initial Caps (words in full capitals) as well as ampersands ('&') are forbidden in the values of the "alias" property in both the YAML front matter and the Cypher block). Together with the node type, these two components form the "alias":
  a. "Topic: The Godhead"
  b. "Thought: Emptiness"
  c. "Quote: The Desire of Nations"
@@ -126,7 +127,7 @@ Rule 7a: The format of the value is demonstrated in the following YAML block:
 en_content: "This is example English content."
 ```
 
-Rule 7b: The entire value for the YAML property "en_content" must be enclosed in double quotes.
+Rule 7b: The entire value for the YAML property "en_content" must end with a period ('.') and be enclosed in double quotes (this rule is true for the "en_content" field in both the YAML front matter and the Cypher block).
 
 Rule 7c: In the case of multi-line values for the YAML property "en_content", lines 2 and beyond must be tab-indented to be recognized by the Obsidian.md app as parts of the same value:
 
@@ -195,7 +196,9 @@ Rule 9b: Every "tags" array entry that in both the YAML front matter and primary
 tags: ["mass_shootings", "gun_violence", "holy_spirit", "jesus_christ", "holy_bible"]
 ```
 
-..and the same goes for the "tags" array in the Cypher block.
+...and the same goes for the "tags" array in the Cypher block.
+
+Rule 9c: Every "tags" array must contain five keywords; any "tags" array having less than five keywords must be flagged by the agentic model and corrected (with the assistance of the Developer, if necessary).
 
 ### 7th YAML Property: "ptopic"
 
@@ -233,6 +236,11 @@ Rule 11b: The value of the YAML property "level" doesn't require enclosing doubl
 
 ### 9th YAML Property: "neo4j"
 
-Rule 12: the ninth and last YAML property is "neo4j"...the value of which is boolean (either true or false). If the value of "neo4j" is true, the Cypher block of the markdown file is assumed to have already been uploaded to the Neo4j AuraDB instance; a value false means the file's Cypher block has not yet been executed against the AuraDB instance.
+Rule 12: the ninth YAML property is "neo4j"...the value of which is boolean (either true or false). If the value of "neo4j" is true, the Cypher block of the markdown file is assumed to have already been uploaded to the Neo4j AuraDB instance; a value false means the file's Cypher block has not yet been executed against the AuraDB instance.
 
-Rule 12a: The value of the YAML property "level" doesn't require enclosing double quotes.
+Rule 12a: The value of the YAML property "neo4j" doesn't require enclosing double quotes.
+
+### 10th YAML Property: "verified"
+Rule 13: the ninth (and last) YAML property is "verified", which exists exclusively for the use of the Developer. The value of the "verified" property is either true or falose.
+
+Rule 12a: The value of the YAML property "verified" doesn't require enclosing double quotes.

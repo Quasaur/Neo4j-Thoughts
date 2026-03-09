@@ -3,28 +3,19 @@ views:
     name: Table
     filters:
       and:
-        - type == "TOPIC"
         - file.folder.startsWith("content")
+        - type == "THOUGHT"
     groupBy:
       property: parent
       direction: ASC
     order:
       - file.name
-      - name
+      - type
+      - file.folder
       - level
-      - parent
       - neo4j
       - verified
       - alias
     sort:
       - property: level
         direction: ASC
-      - property: name
-        direction: ASC
-    columnSize:
-      note.name: 211
-      note.level: 96
-      note.parent: 182
-      note.neo4j: 103
-      note.alias: 315
-    rowHeight: medium

@@ -23,3 +23,17 @@ secrets.json
 
 # Secret documentation files (moved to Neo4j-AI/SECRETS/)
 Neo4j-AI/SECRETS/
+
+# Database backups (may contain sensitive data, use environment-specific storage)
+BACKUPS/*.json
+!BACKUPS/.gitkeep
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Analysis scripts with potential credentials (use env vars instead)
+# Note: Scripts should read credentials from environment, not hardcode them

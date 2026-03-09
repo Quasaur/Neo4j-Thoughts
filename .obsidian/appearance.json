@@ -1,9 +1,9 @@
 {
-  "cssTheme": "Vileplume",
+  "cssTheme": "",
   "interfaceFontFamily": "Courier,American Typewriter",
-  "theme": "obsidian",
+  "theme": "system",
   "baseFontSize": 18,
-  "accentColor": "",
+  "accentColor": "#e8eb2d",
   "enabledCssSnippets": [
     "callouts",
     "tableOutlines"

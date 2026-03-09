@@ -4,25 +4,64 @@ Complete Neo4j AuraDB Export (Schema + Data)
 Exports all schema (indexes, constraints) and all graph data (nodes, relationships)
 Uses native Cypher only - works on all Neo4j instances including AuraDB
 
+Configuration: Set environment variables or create .env file:
+  NEO4J_URI=neo4j+s://your-instance.databases.neo4j.io
+  NEO4J_USERNAME=neo4j
+  NEO4J_PASSWORD=your-password
+
 Output: BACKUPS/auradb_complete_export_YYYYMMDD_HHMMSS.json
 """
 
 import json
 import os
+import sys
 from neo4j import GraphDatabase
 from datetime import datetime
 from pathlib import Path
 
-# Neo4j AuraDB Connection
-URI = "neo4j+s://cf81ef03.databases.neo4j.io"
-AUTH = ("neo4j", "BfLateGN_PldIlF7nd60M1m2v088QJelp9y9nuY9Y-s")
+# Try to load from .env file if python-dotenv is available
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
+
+# Neo4j AuraDB Connection - from environment variables
+URI = os.environ.get("NEO4J_URI", "")
+USERNAME = os.environ.get("NEO4J_USERNAME", "")
+PASSWORD = os.environ.get("NEO4J_PASSWORD", "")
 
 # Backup directory
-BACKUP_DIR = Path("/Users/quasaur/Developer/Neo4j-Thoughts/BACKUPS")
+BACKUP_DIR = Path(__file__).parent.parent / "BACKUPS"
+
+
+def validate_config():
+    """Validate that required environment variables are set"""
+    missing = []
+    if not URI:
+        missing.append("NEO4J_URI")
+    if not USERNAME:
+        missing.append("NEO4J_USERNAME")
+    if not PASSWORD:
+        missing.append("NEO4J_PASSWORD")
+    
+    if missing:
+        print("❌ ERROR: Missing required environment variables:")
+        for var in missing:
+            print(f"   - {var}")
+        print("\nSet these variables in your environment or create a .env file:")
+        print("  NEO4J_URI=neo4j+s://your-instance.databases.neo4j.io")
+        print("  NEO4J_USERNAME=neo4j")
+        print("  NEO4J_PASSWORD=your-password")
+        print("\nNote: Never commit passwords to Git!")
+        sys.exit(1)
+
 
 def full_export():
     """Export complete database schema and data"""
-    driver = GraphDatabase.driver(URI, auth=AUTH)
+    validate_config()
+    
+    driver = GraphDatabase.driver(URI, auth=(USERNAME, PASSWORD))
     
     timestamp = datetime.now()
     export_data = {
@@ -31,7 +70,7 @@ def full_export():
             "date": timestamp.strftime("%Y-%m-%d"),
             "time": timestamp.strftime("%H:%M:%S"),
             "source": "Neo4j AuraDB",
-            "uri": URI,
+            "uri": URI.replace(PASSWORD, "***REDACTED***") if PASSWORD else URI,
             "database": "neo4j"
         },
         "schema": {
@@ -51,6 +90,7 @@ def full_export():
         print("COMPLETE AURADB EXPORT - SCHEMA + DATA")
         print("=" * 80)
         print(f"Started: {timestamp.strftime('%Y-%m-%d %H:%M:%S')}")
+        print(f"Source: {URI}")
         print()
         
         with driver.session() as session:
