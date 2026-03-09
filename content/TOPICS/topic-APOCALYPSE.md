@@ -8,6 +8,7 @@ tags: ["eschatology", "last_day", "end_of_the_world"]
 ptopic: "[[topic-HISTORY]]"
 level: 5
 neo4j: true
+verified: true
 ---
 
 ```Cypher
@@ -23,15 +24,15 @@ CREATE (t:TOPIC {
 // CREATE DESCRIPTION
 CREATE (d:DESCRIPTION {
     name: "desc.APOCALYPSE",
-    en_title: "Apocalypse",
+    en_title: "Topic: Eschatology",
     en_content: "Eschatology; the End of all things.",
-    es_title: "APOCALIPSIS",
+    es_title: "Tema: Escatología",
     es_content: "Escatología; el fin de todas las cosas.",
-    fr_title: "APOCALYPSE",
+    fr_title: "Sujet : Eschatologie",
     fr_content: "Eschatologie ; la fin de toutes choses.",
-    hi_title: "कयामत",
+    hi_title: "विषय: परलोक विद्या",
     hi_content: "परलोकविद्या; सभी चीजों का अंत।",
-    zh_title: "Qǐshì",
+    zh_title: "Zhǔtí: Mòshì lùn",
     zh_content: "Mòshìlùn; wànwù de zhōngjié."
 });
 

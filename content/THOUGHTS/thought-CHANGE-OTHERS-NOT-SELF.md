@@ -8,6 +8,7 @@ tags: ["change", "growth", "attitude", "pain", "transformation"]
 ptopic: "[[topic-ATTITUDE]]"
 level: 3
 neo4j: true
+verified: false
 ---
 
 ```Cypher

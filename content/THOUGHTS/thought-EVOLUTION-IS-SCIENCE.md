@@ -8,6 +8,7 @@ tags: ["evolution", "science", "religion", "evidence", "faith"]
 ptopic: "[[topic-RELIGION]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher

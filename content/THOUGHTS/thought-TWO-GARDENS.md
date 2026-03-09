@@ -8,6 +8,7 @@ tags: ["bible", "creation", "eden", "paradise", "symbolism"]
 ptopic: "[[topic-SOTERIOLOGY]]"
 level: 3
 neo4j: true
+verified: false
 ---
 
 ```Cypher

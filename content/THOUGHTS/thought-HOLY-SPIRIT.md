@@ -8,6 +8,7 @@ tags: ["holy_spirit", "deity", "god", "fullness", "filling"]
 ptopic: "[[topic-THE-GODHEAD]]"
 level: 1
 neo4j: true
+verified: false
 ---
 
 ```Cypher

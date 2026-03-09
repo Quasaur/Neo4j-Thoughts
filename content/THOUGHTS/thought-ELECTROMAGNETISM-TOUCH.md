@@ -8,6 +8,7 @@ tags: ["science", "physics", "creation", "design", "power"]
 ptopic: "[[topic-PHYSICS]]"
 level: 6
 neo4j: true
+verified: false
 ---
 
 ```Cypher

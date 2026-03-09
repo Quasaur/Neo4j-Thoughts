@@ -7,6 +7,7 @@ tags: ["imagination", "imagery", "vision", "mind", "realization"]
 ptopic: "[[topic-UNDERSTANDING]]"
 level: 3
 neo4j: true
+verified: false
 ---
 
 ```Cypher

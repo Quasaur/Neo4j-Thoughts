@@ -1,19 +1,20 @@
 ---
 type: TOPIC
 name: "topic.ANTHROPOLOGY"
-alias: "Topic: The Study of Humanity Throughout its History"
+alias: "Topic: Humanity Throughout History"
 parent: "topic.HUMANITY"
 en_content: "The study of human beings and their ancestors through time and space and in relation to physical character, environmental and social relations, and culture."
 tags: ["cultural", "physical", "archaeology", "linquistic"]
 ptopic: "[[topic-HUMANITY]]"
 level: 4
 neo4j: true
+verified: true
 ---
 ```Cypher
 // CREATE TOPIC
 CREATE (t:TOPIC {
     name: "topic.ANTHROPOLOGY",
-    alias: "Topic: The Study of Humanity Throughout its History",
+    alias: "Topic: Humanity Throughout History",
     parent: "topic.HUMANITY",
     tags: ["cultural", "physical", "archaeology", "linquistic"],
     level: 4
@@ -22,15 +23,15 @@ CREATE (t:TOPIC {
 // CREATE DESCRIPTION
 CREATE (d:DESCRIPTION {
     name: "desc.ANTHROPOLOGY",
-    en_title: "Anthropology",
+    en_title: "Topic: Humanity Throughout History",
     en_content: "The study of human beings and their ancestors through time and space and in relation to physical character, environmental and social relations, and culture.",
-    es_title: "ANTROPOLOGÍA",
+    es_title: "Tema: La humanidad a lo largo de la historia",
     es_content: "El estudio de los seres humanos y sus antepasados a través del tiempo y el espacio y en relación con el carácter físico, las relaciones ambientales y sociales, y la cultura.",
-    fr_title: "ANTHROPOLOGIE",
+    fr_title: "Sujet : L'humanité à travers l'histoire",
     fr_content: "L'étude des êtres humains et de leurs ancêtres à travers le temps et l'espace et en relation avec le caractère physique, les relations environnementales et sociales, et la culture.",
-    hi_title: "मानव विज्ञान",
+    hi_title: "विषय: पूरे इतिहास में मानवता",
     hi_content: "समय और स्थान के आर-पार, और शारीरिक चरित्र, पर्यावरणीय और सामाजिक संबंधों, और संस्कृति के संबंध में मनुष्यों और उनके पूर्वजों का अध्ययन।",
-    zh_title: "Rénlèixué",
+    zh_title: "Zhǔtí: Rénlèi lìshǐ",
     zh_content: "Rénlèi jí qí zǔxiān tōngguò shíjiān hé kōngjiān, bìng qiě zài wùlǐ tèzhēng, huánjìng hé shèhuì guānxì yǐjí wénhuà fāngmiàn de yánjiū."
 });
 

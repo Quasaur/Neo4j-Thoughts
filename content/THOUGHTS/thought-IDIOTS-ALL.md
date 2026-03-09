@@ -8,6 +8,7 @@ tags: ["foolish", "stupid", "humanity", "everyone", "intelligence"]
 ptopic: "[[topic-PSYCHOLOGY]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher

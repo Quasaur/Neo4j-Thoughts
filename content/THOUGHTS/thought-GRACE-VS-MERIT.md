@@ -8,6 +8,7 @@ tags: ["grace", "merit", "salvation", "choice", "gospel"]
 ptopic: "[[topic-GRACE]]"
 level: 3
 neo4j: true
+verified: false
 ---
 
 ```Cypher

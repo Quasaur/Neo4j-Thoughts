@@ -8,6 +8,7 @@ tags: ["love", "hate", "apathy", "attitude", "philosophy"]
 ptopic: "[[topic-ATTITUDE]]"
 level: 3
 neo4j: true
+verified: false
 ---
 
 ```Cypher

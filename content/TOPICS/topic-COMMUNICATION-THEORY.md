@@ -8,6 +8,7 @@ tags: ["information", "context", "encoding", "transmission", "interpretation"]
 ptopic: "[[topic-HUMANITY]]"
 level: 4
 neo4j: true
+verified: true
 ---
 
 ```Cypher
@@ -22,15 +23,15 @@ CREATE (t:TOPIC
 // create multi-lingual description		
 CREATE (d:DESCRIPTION {
 	name: "desc.COMMUNICATION THEORY", 
-	en_title: "Communication Theory", 
+	en_title: "Topic: Information Sharing", 
 	en_content: "A systematic, interdisciplinary study of how information is created, encoded, transmitted, received, and interpreted across human, technological, and symbolic systems.", 
-	es_title: "Teoría de la comunicación", 
+	es_title: "Tema: Intercambio de información", 
 	es_content: "Un estudio sistemático e interdisciplinario de cómo se crea, codifica, transmite, recibe e interpreta la información a través de sistemas humanos, tecnológicos y simbólicos.", 
-	fr_title: "Théorie de la communication", 
+	fr_title: "Sujet : Partage d'informations", 
 	fr_content: "Une étude systématique et interdisciplinaire de la manière dont l'information est créée, codée, transmise, reçue et interprétée à travers les systèmes humains, technologiques et symboliques.", 
-	hi_title: "कम्युनिकेशन थ्योरी", 
+	hi_title: "विषय: सूचना साझा करना", 
 	hi_content: "यह एक सिस्टमैटिक, इंटरडिसिप्लिनरी स्टडी है कि इंसानी, टेक्नोलॉजिकल और सिंबॉलिक सिस्टम में जानकारी कैसे बनाई जाती है, एन्कोड की जाती है, भेजी जाती है, रिसीव की जाती है और समझी जाती है।", 
-	zh_title: "Chuánbò lǐlùn", 
+	zh_title: "Zhǔtí: Xìnxī gòngxiǎng", 
 	zh_content: "zhè shì yī mén xìtǒng xìng de kuà xuékē yánjiū, tàntǎo xìnxī rúhé zài rénlèi xìtǒng, jìshù xìtǒng hé fúhào xìtǒng zhōng bèi chuàngzào, biānmǎ, chuánshū, jiēshōu hé jiědú."});
 // link description to node
 MATCH (t:TOPIC)

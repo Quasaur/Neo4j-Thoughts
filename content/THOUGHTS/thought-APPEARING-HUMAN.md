@@ -8,6 +8,7 @@ tags: ["deception", "evil", "appearance", "caution", "humanity"]
 ptopic: "[[topic-EVIL]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher

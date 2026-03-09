@@ -15,6 +15,7 @@ en_content: "Thankfully, GOD has looked upon your situation with compassion and 
 tags: ["heir", "adoption", "son", "daughter", "jesus_christ"]
 ptopic: "[[topic-THE-GOSPEL]]"
 level: 2
+verified: false
 ---
 
 ```Cypher

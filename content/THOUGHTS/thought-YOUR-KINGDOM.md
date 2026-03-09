@@ -8,6 +8,7 @@ tags: ["kingdom", "heaven", "earth", "destruction", "jesus_christ"]
 ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
 level: 2
 neo4j: true
+verified: false
 ---
 
 ```Cypher

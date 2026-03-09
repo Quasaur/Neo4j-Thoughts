@@ -16,6 +16,7 @@ tags: ["jesus_christ", "authority", "earth", "remission", "sins"]
 ptopic: "[[topic-MERCY]]"
 level: 5
 neo4j: true
+verified: false
 ---
 
 ```Cypher

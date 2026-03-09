@@ -16,6 +16,7 @@ tags: ["survival", "lake_of_fire", "repentance", "sinner", "god"]
 ptopic: "[[topic-EVIL]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher

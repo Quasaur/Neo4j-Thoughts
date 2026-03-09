@@ -11,6 +11,7 @@ tags: ["free", "expression", "constitutiion", "rights", "tiktok"]
 ptopic: "[[topic-FREEDOM]]"
 level: 5
 neo4j: true
+verified: false
 ---
 ```Cypher
 CREATE (t:THOUGHT {

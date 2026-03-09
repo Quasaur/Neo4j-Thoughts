@@ -8,6 +8,7 @@ tags: ["creation", "purpose", "sovereignty", "relations", "divine_will"]
 ptopic: "[[topic-CREATION]]"
 level: 2
 neo4j: true
+verified: false
 ---
 
 ```Cypher

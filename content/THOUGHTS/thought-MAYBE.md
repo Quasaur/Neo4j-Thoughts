@@ -7,6 +7,7 @@ tags: ["compassion", "pity", "leniency", "kindness", "love"]
 ptopic: "[[topic-MERCY]]"
 level: 5
 neo4j: true
+verified: false
 ---
 
 ```Cypher

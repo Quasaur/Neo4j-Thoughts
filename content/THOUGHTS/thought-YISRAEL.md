@@ -7,6 +7,7 @@ tags: ["israel", "apartheid", "genocide", "palestinians", "jesus_christ"]
 ptopic: "[[topic-HISTORY]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher

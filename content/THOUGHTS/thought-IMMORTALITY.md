@@ -7,6 +7,7 @@ tags: ["immortality", "eternal_life", "salvation", "desire", "jesus_christ"]
 ptopic: "[[topic-FAITHFULNESS]]"
 level: 2
 neo4j: true
+verified: false
 ---
 
 ```Cypher

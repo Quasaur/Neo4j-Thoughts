@@ -9,6 +9,7 @@ ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
 level: 2
 neo4j: true
 es_content: "Puedes llamar a Dios injusto, pero tu vida aún está en Sus manos; tal vez sea más sabio inclinarse y adorar que provocar."
+verified: false
 ---
 
 ```Cypher

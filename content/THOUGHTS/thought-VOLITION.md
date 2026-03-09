@@ -7,6 +7,7 @@ tags: ["paradox", "volition", "free_will", "fullness", "jesus_christ"]
 ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
 level: 2
 neo4j: true
+verified: false
 ---
 
 ```Cypher

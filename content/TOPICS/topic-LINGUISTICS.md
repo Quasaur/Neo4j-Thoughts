@@ -8,6 +8,7 @@ tags: ["human", "speech", "anthropology", "language", "lexical"]
 ptopic: "[[topic-ANTHROPOLOGY]]"
 level: 5
 neo4j: true
+verified: true
 ---
 
 ```Cypher
@@ -23,15 +24,15 @@ CREATE (t:TOPIC {
 // CREATE DESCRIPTION
 CREATE (d:DESCRIPTION {
     name: "desc.LINGUISTICS",
-    en_title: "Linguistics",
+    en_title: "Topic: Linguistic Anthropology",
     en_content: "The study of human speech including the units, nature, structure, and modification of language.",
-    es_title: "LINGÜÍSTICA",
+    es_title: "Tema: Antropología lingüística",
     es_content: "El estudio del habla humana, incluidas las unidades, la naturaleza, la estructura y la modificación del lenguaje.",
-    fr_title: "LINGUISTIQUE",
+    fr_title: "Sujet : Anthropologie linguistique",
     fr_content: "L'étude de la parole humaine, y compris les unités, la nature, la structure et la modification du langage.",
-    hi_title: "भाषाविज्ञान",
+    hi_title: "विषय: भाषाई मानवविज्ञान",
     hi_content: "मानव वाणी का अध्ययन जिसमें भाषा की इकाइयाँ, प्रकृति, संरचना और संशोधन शामिल हैं।",
-    zh_title: "Yǔyán xué",
+    zh_title: "Zhǔtí: Yǔyán rénlèi xué",
     zh_content: "Rénlèi yǔyán de yánjiū, bāokuò yǔyán de dānyuán, xìngzhì, jiégòu hé xiūgǎi."
 });
 

@@ -8,6 +8,7 @@ tags: ["life", "attitude", "supernatural", "being", "incorporeals"]
 ptopic: "[[topic-CREATION]]"
 level: 3
 neo4j: true
+verified: true
 ---
 
 ```Cypher
@@ -23,15 +24,15 @@ CREATE (t:TOPIC {
 // CREATE DESCRIPTION
 CREATE (d:DESCRIPTION {
     name: "desc.SPIRITS",
-    en_title: "Spirits",
+    en_title: "Topic: Children of the Holy Spirit",
     en_content: "The animating or vital Principle held to give life to physical organisms; supernatural being or essence.",
-    es_title: "ESPÍRITUS",
+    es_title: "Tema: Hijas del Espíritu Santo",
     es_content: "El Principio animador o vital que se sostiene que da vida a los organismos físicos; ser o esencia sobrenatural.",
-    fr_title: "ESPRITS",
+    fr_title: "Sujet : Les enfants du Saint-Esprit",
     fr_content: "Le Principe animateur ou vital tenu pour donner la vie aux organismes physiques ; être ou essence surnaturel.",
-    hi_title: "आत्मायें",
+    hi_title: "विषय: पवित्र आत्मा के बच्चे",
     hi_content: "वह चेतन या प्राणदायक सिद्धांत जिसे भौतिक जीवों को जीवन देने वाला माना जाता है; अलौकिक प्राणी या सार।",
-    zh_title: "Línglèi",
+    zh_title: "Zhǔtí: Shènglíng de érnǚ",
     zh_content: "Wéichí wùlǐ shēngwù shēngmìng de qūdòng huò shēngmìng yuánzé; chāozìrán de cúnzài huò běnzhì."
 });
 

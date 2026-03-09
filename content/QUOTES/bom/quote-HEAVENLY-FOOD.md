@@ -8,6 +8,7 @@ tags: ["fullness", "satisfaction", "nourishment", "heavenly_food", "bread_of_lif
 ptopic: "[[topic-SPIRITUALITY]]"
 level: 2
 neo4j: true
+verified: false
 ---
 
 ```Cypher

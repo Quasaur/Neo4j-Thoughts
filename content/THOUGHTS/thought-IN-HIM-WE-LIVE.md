@@ -8,6 +8,7 @@ tags: ["creation", "divine", "fulness", "indwelling", "holy_spirit"]
 ptopic: "[[topic-CREATION]]"
 level: 2
 neo4j: true
+verified: false
 ---
 
 ```Cypher

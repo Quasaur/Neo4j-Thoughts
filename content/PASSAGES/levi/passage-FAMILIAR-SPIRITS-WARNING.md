@@ -8,6 +8,7 @@ tags: ["occult", "spirits", "evil", "law", "bible"]
 ptopic: "[[topic-EVIL]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher

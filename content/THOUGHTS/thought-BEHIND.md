@@ -7,6 +7,7 @@ tags: ["divine", "sovereignty", "impetus", "control", "all"]
 ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
 level: 2
 neo4j: true
+verified: false
 ---
 
 ```Cypher

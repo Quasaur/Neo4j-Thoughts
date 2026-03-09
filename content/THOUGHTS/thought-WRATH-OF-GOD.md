@@ -8,6 +8,7 @@ tags: ["wrath", "god", "judgment", "earth", "sovereignty"]
 ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
 level: 5
 neo4j: true
+verified: false
 ---
 
 ```Cypher

@@ -7,6 +7,7 @@ tags: ["dailyroutine", "eating", "sleeping", "working", "discipline"]
 ptopic: "[[topic-THE-GOSPEL]]"
 level: 2
 neo4j: true
+verified: false
 ---
 
 ```Cypher

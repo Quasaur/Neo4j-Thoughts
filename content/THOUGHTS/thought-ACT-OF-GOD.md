@@ -8,6 +8,7 @@ tags: ["person", "people", "wife", "husband", "image_of_god"]
 ptopic: "[[topic-PSYCHOLOGY]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher

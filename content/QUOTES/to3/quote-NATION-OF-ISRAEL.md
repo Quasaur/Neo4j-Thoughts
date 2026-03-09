@@ -2,7 +2,7 @@
 type: QUOTE
 name: "quote.NATION OF ISRAEL"
 alias: "Quote: Nation of Israel"
-parent: "topic.POLITICAL-SCIENCE"
+parent: "topic.POLITICAL SCIENCE"
 en_content: "The Bible makes a crucial distinction between the Earthly, physical Nation of Israel, which is temporary and the SPIRITUAL Nation of Israel, which is Eternal; nothing about the Gospel or Biblical prophecy makes sense without this truth.",
  es_title: "Cita: NACIÓN DE ISRAEL",
  es_content: "La Biblia hace una distinción crucial entre la Nación física y terrenal de Israel, que es temporal, y la Nación ESPIRITUAL de Israel, que es Eterna; nada sobre el Evangelio o la profecía bíblica tiene sentido sin esta verdad.",
@@ -13,9 +13,10 @@ en_content: "The Bible makes a crucial distinction between the Earthly, physical
  zh_title: "yǐn yòng ： yǐ sè liè mín zú bào",
  zh_content: "shèng jīng duì dì shàng de 、 wù zhì dì yǐ sè liè guó （ duǎn zàn de ） hé jīng shén de yǐ sè liè guó （ yǒng héng de ） zuò chū le zhòng yào de qū fēn 。 rú guǒ méi yǒu zhè ge zhēn lǐ ， fú yīn huò shèng jīng de yù yán jiù háo wú yì yì 。"
 tags: ["nation", "israel", "earthly", "spiritual", "prophecy"]
-ptopic: "[[topic-POLITICAL-SCIENCE]]"
+ptopic: "[[topic-POLITICAL SCIENCE]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher
@@ -23,7 +24,7 @@ neo4j: true
 CREATE (q:QUOTE {
     name: "quote.NATION OF ISRAEL",
     alias: "Quote: Nation of Israel",
-    parent: "topic.POLITICAL-SCIENCE",
+    parent: "topic.POLITICAL SCIENCE",
     tags: ["nation", "israel", "earthly", "spiritual", "prophecy"],
     source: "'The Traveler's Oasis, Book Three'",
     booklink: "(https://www.amazon.com/Travelers-Oasis-Book-Three-ebook/dp/B00YRKX8E4)",

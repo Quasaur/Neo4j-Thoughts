@@ -2,19 +2,20 @@
 type: THOUGHT
 name: "thought.THE IRC"
 alias: "Thought: The Irc"
-parent: "topic.FIN-GOV"
+parent: "topic.FIN GOV"
 en_content: "The United States tax code, otherwise know as the Internal Revenue Code (IRC), was written by The Devil; his paw prints are all over it."
 tags: ["government", "finance", "code", "usa", "tax"]
-ptopic: "[[topic-FIN-GOV]]"
+ptopic: "[[topic-FIN GOV]]"
 level: 5
 neo4j: true
+verified: false
 ---
 
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.THE IRC",
     alias: "Thought: The Irc",
-    parent: "topic.FIN-GOV",
+    parent: "topic.FIN GOV",
     tags: ["government", "finance", "code", "usa", "tax"],
     level: 5
 });
@@ -41,6 +42,6 @@ MERGE (t)-[:HAS_CONTENT {name: "t.edge.THE IRC"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
-WHERE parent.name = "topic.FIN-GOV" AND child.name = "thought.THE IRC"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.FIN-GOV->THE IRC"}]->(child);
+WHERE parent.name = "topic.FIN GOV" AND child.name = "thought.THE IRC"
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.FIN GOV->THE IRC"}]->(child);
 ```

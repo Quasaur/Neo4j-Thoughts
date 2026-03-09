@@ -8,6 +8,7 @@ tags: ["fear_of_the_lord", "beginning", "knowledge", "fools", "instruction"]
 ptopic: "[[topic-HUMANITY]]"
 level: 3
 neo4j: true
+verified: false
 ---
 
 ```Cypher

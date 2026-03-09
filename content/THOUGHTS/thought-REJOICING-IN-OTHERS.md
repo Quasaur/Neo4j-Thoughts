@@ -8,6 +8,7 @@ tags: ["joy", "character", "comparison", "attitude", "success"]
 ptopic: "[[topic-LOVE]]"
 level: 3
 neo4j: true
+verified: false
 ---
 
 ```Cypher

@@ -1,0 +1,1112 @@
+{
+  "TOPIC_nodes": 59,
+  "DESCRIPTION_nodes": 66,
+  "THOUGHT_nodes": 215,
+  "QUOTE_nodes": 77,
+  "PASSAGE_nodes": 22,
+  "CONTENT_nodes": 335,
+  "HAS_DESCRIPTION_rels": 63,
+  "HAS_CHILD_rels": 58,
+  "HAS_THOUGHT_rels": 213,
+  "HAS_QUOTE_rels": 72,
+  "HAS_PASSAGE_rels": 22,
+  "HAS_CONTENT_rels": 314,
+  "topics": [
+    {
+      "name": "topic.NULL TOPIC",
+      "alias": "Topic Zero: The Null Topic",
+      "parent": "no parent",
+      "tags": [
+        "topic",
+        "first",
+        "prime",
+        "root",
+        "zero"
+      ],
+      "level": "0"
+    },
+    {
+      "name": "topic.CREATION",
+      "alias": "Topic: The Universe",
+      "parent": "topic.THE GODHEAD",
+      "tags": [
+        "creation",
+        "cosmos",
+        "universe",
+        "dominion",
+        "kingdom"
+      ],
+      "level": "1"
+    },
+    {
+      "name": "topic.THE GODHEAD",
+      "alias": "Topic: The Godhead",
+      "parent": "topic.NULL TOPIC",
+      "tags": [
+        "starting_point",
+        "level_one",
+        "alpha",
+        "omega",
+        "the_one"
+      ],
+      "level": "1"
+    },
+    {
+      "name": "topic.DIVINE SOVEREIGNTY",
+      "alias": "Topic: Predestination",
+      "parent": "topic.THE GODHEAD",
+      "tags": [
+        "sovereignty",
+        "lordship",
+        "determinism",
+        "absolute",
+        "volition"
+      ],
+      "level": "2"
+    },
+    {
+      "name": "topic.FAITHFULNESS",
+      "alias": "Topic: Steadfastness",
+      "parent": "topic.THE GODHEAD",
+      "tags": [
+        "commitment",
+        "fidelity",
+        "steadfastness",
+        "reliability",
+        "dependability"
+      ],
+      "level": "3"
+    },
+    {
+      "name": "topic.HOLINESS",
+      "alias": "Topic: God's Essence",
+      "parent": "topic.THE GODHEAD",
+      "tags": [
+        "sacred",
+        "sacrosanct",
+        "godliness",
+        "piety",
+        "virtue"
+      ],
+      "level": "2"
+    },
+    {
+      "name": "topic.LOVE",
+      "alias": "Topic: God is Love",
+      "parent": "topic.THE GODHEAD",
+      "tags": [
+        "divine",
+        "love",
+        "spirit",
+        "affection",
+        "cherish"
+      ],
+      "level": "2"
+    },
+    {
+      "name": "topic.SPIRITUALITY",
+      "alias": "Topic: Godliness",
+      "parent": "topic.THE GODHEAD",
+      "tags": [
+        "attitude",
+        "transcendence",
+        "metaphysical",
+        "supernatural",
+        "breathless"
+      ],
+      "level": "3"
+    },
+    {
+      "name": "topic.THE GOSPEL",
+      "alias": "Topic: The Good News",
+      "parent": "topic.THE GODHEAD",
+      "tags": [
+        "evangel",
+        "good_news",
+        "jesus",
+        "salvation",
+        "redemption"
+      ],
+      "level": "2"
+    },
+    {
+      "name": "topic.TRUTH",
+      "alias": "Topic: The Divine Being",
+      "parent": "topic.THE GODHEAD",
+      "tags": [
+        "actuality",
+        "reality",
+        "fact",
+        "verity",
+        "authentic"
+      ],
+      "level": "2"
+    },
+    {
+      "name": "topic.HUMANITY",
+      "alias": "Topic: Mankind",
+      "parent": "topic.CREATION",
+      "tags": [
+        "adam",
+        "humans",
+        "mankind",
+        "homosapiens",
+        "likeness_of_god"
+      ],
+      "level": "2"
+    },
+    {
+      "name": "topic.WEALTH",
+      "alias": "Topic: Abundance",
+      "parent": "topic.CREATION",
+      "tags": [
+        "assets",
+        "capital",
+        "fortune",
+        "resources",
+        "riches"
+      ],
+      "level": "3"
+    },
+    {
+      "name": "topic.ATTITUDE",
+      "alias": "Topic: Spiritual Disposition",
+      "parent": "topic.SPIRITUALITY",
+      "tags": [
+        "mentality",
+        "disposition",
+        "feeling",
+        "spirit",
+        "fruit"
+      ],
+      "level": "3"
+    },
+    {
+      "name": "topic.WISDOM",
+      "alias": "Topic: The Application of Knowledge",
+      "parent": "topic.SPIRITUALITY",
+      "tags": [
+        "insight",
+        "discernment",
+        "perception",
+        "understanding",
+        "brilliance"
+      ],
+      "level": "3"
+    },
+    {
+      "name": "topic.UNDERSTANDING",
+      "alias": "Topic: Comprehension",
+      "parent": "topic.SPIRITUALITY",
+      "tags": [
+        "comprehension",
+        "mental",
+        "grasp",
+        "agreement",
+        "ascertain"
+      ],
+      "level": "3"
+    },
+    {
+      "name": "topic.HUMILITY",
+      "alias": "Topic: Lowliness of Heart",
+      "parent": "topic.ATTITUDE",
+      "tags": [
+        "humble",
+        "lowly",
+        "service",
+        "lowliness",
+        "meekness"
+      ],
+      "level": "4"
+    },
+    {
+      "name": "topic.WORSHIP",
+      "alias": "Topic: Obeisance",
+      "parent": "topic.CREATION",
+      "tags": [
+        "worship",
+        "devotion",
+        "humility",
+        "adoration",
+        "reverence"
+      ],
+      "level": "3"
+    },
+    {
+      "name": "topic.MORALITY",
+      "alias": "Topic: Matters of the Conscience",
+      "parent": "topic.SPIRITUALITY",
+      "tags": [
+        "morals",
+        "righteousness",
+        "decency",
+        "virtue",
+        "integrity"
+      ],
+      "level": "3"
+    },
+    {
+      "name": "topic.EVIL",
+      "alias": "Topic: Malevolence",
+      "parent": "topic.MORALITY",
+      "tags": [
+        "entitled",
+        "privilege",
+        "flesh",
+        "pride",
+        "right"
+      ],
+      "level": "4"
+    },
+    {
+      "name": "topic.RELIGION",
+      "alias": "Topic: Humanity's Attempt to Manipulate God",
+      "parent": "topic.MORALITY",
+      "tags": [
+        "cult",
+        "paganism",
+        "sect",
+        "ritual",
+        "superstition"
+      ],
+      "level": "4"
+    },
+    {
+      "name": "topic.PSYCHOLOGY",
+      "alias": "Topic: The Science of Mind and Behavior",
+      "parent": "topic.HUMANITY",
+      "tags": [
+        "soul",
+        "psyche",
+        "mind",
+        "awareness",
+        "consciousness"
+      ],
+      "level": "4"
+    },
+    {
+      "name": "topic.ANTHROPOLOGY",
+      "alias": "Topic: Humanity Throughout History",
+      "parent": "topic.HUMANITY",
+      "tags": [
+        "cultural",
+        "physical",
+        "archaeology",
+        "linquistic"
+      ],
+      "level": "4"
+    },
+    {
+      "name": "topic.COSMOLOGY",
+      "alias": "Topic: Humanity's World Views",
+      "parent": "topic.HUMANITY",
+      "tags": [
+        "metaphysics",
+        "astronomy",
+        "universe",
+        "social",
+        "scientific"
+      ],
+      "level": "3"
+    },
+    {
+      "name": "topic.MUSIC",
+      "alias": "Topic: Music",
+      "parent": "topic.MUSICOLOGY",
+      "tags": [
+        "music",
+        "art",
+        "sound",
+        "harmony",
+        "melody"
+      ],
+      "level": "5"
+    },
+    {
+      "name": "topic.MUSICOLOGY",
+      "alias": "Topic: The Study of Music",
+      "parent": "topic.HUMANITY",
+      "tags": [
+        "musicology",
+        "music",
+        "study",
+        "research",
+        "history",
+        "theory"
+      ],
+      "level": "4"
+    },
+    {
+      "name": "topic.FINANCE",
+      "alias": "Topic: Sources of Funding",
+      "parent": "topic.WEALTH",
+      "tags": [
+        "currency",
+        "subsidize",
+        "funding",
+        "bankroll",
+        "liquidate"
+      ],
+      "level": "4"
+    },
+    {
+      "name": "topic.GEOLOGY",
+      "alias": "Topic: Rock Strata",
+      "parent": "topic.HUMANITY",
+      "tags": [
+        "rocks",
+        "strata",
+        "layers",
+        "earth",
+        "land"
+      ],
+      "level": "4"
+    },
+    {
+      "name": "topic.GRACE",
+      "alias": "Topic: Gospel of Grace",
+      "parent": "topic.CREATION",
+      "tags": [
+        "kindness",
+        "blessing",
+        "benevolence",
+        "empower",
+        "anointing"
+      ],
+      "level": "3"
+    },
+    {
+      "name": "topic.HISTORY",
+      "alias": "Topic: Chronology",
+      "parent": "topic.HUMANITY",
+      "tags": [
+        "annals",
+        "chronicles",
+        "biography",
+        "records",
+        "journal"
+      ],
+      "level": "4"
+    },
+    {
+      "name": "topic.HUMOR",
+      "alias": "Topic: The Science of Laughter",
+      "parent": "topic.PSYCHOLOGY",
+      "tags": [
+        "ludicrous",
+        "absurd",
+        "incongruous",
+        "comical",
+        "funny"
+      ],
+      "level": "5"
+    },
+    {
+      "name": "topic.LAW",
+      "alias": "Topic: Jurisprudence",
+      "parent": "topic.MORALITY",
+      "tags": [
+        "ordiance",
+        "legislation",
+        "regulation",
+        "statute",
+        "act"
+      ],
+      "level": "4"
+    },
+    {
+      "name": "topic.LINGUISTICS",
+      "alias": "Topic: Linguistic Anthropology",
+      "parent": "topic.ANTHROPOLOGY",
+      "tags": [
+        "human",
+        "speech",
+        "anthropology",
+        "language",
+        "lexical"
+      ],
+      "level": "5"
+    },
+    {
+      "name": "topic.MERCY",
+      "alias": "Topic: Compassion",
+      "parent": "topic.LAW",
+      "tags": [
+        "compassion",
+        "leniency",
+        "clemency",
+        "empathy",
+        "sympathy"
+      ],
+      "level": "5"
+    },
+    {
+      "name": "topic.PHILOSOPHY",
+      "alias": "Topic: The Science of Ideology",
+      "parent": "topic.HUMANITY",
+      "tags": [
+        "fundamentals",
+        "humanities",
+        "existence",
+        "reason",
+        "knowledge"
+      ],
+      "level": "4"
+    },
+    {
+      "name": "topic.SOCIOLOGY",
+      "alias": "Topic: Social Structures",
+      "parent": "topic.SOCIAL SCIENCES",
+      "tags": [
+        "humanity",
+        "relations",
+        "interactions",
+        "groups",
+        "organization"
+      ],
+      "level": "5"
+    },
+    {
+      "name": "topic.SPIRITS",
+      "alias": "Topic: Children of the Holy Spirit",
+      "parent": "topic.CREATION",
+      "tags": [
+        "life",
+        "attitude",
+        "supernatural",
+        "being",
+        "incorporeals"
+      ],
+      "level": "3"
+    },
+    {
+      "name": "topic.FREEDOM",
+      "alias": "Topic: Free to be Moral",
+      "parent": "topic.LAW",
+      "tags": [
+        "free",
+        "choice",
+        "options",
+        "unrestrained",
+        "decisions"
+      ],
+      "level": "5"
+    },
+    {
+      "name": "topic.JUSTICE",
+      "alias": "Topic: Equity Between All Peoples",
+      "parent": "topic.LAW",
+      "tags": [
+        "equity",
+        "fairness",
+        "impartiality",
+        "equitability",
+        "honor"
+      ],
+      "level": "5"
+    },
+    {
+      "name": "topic.GUILT",
+      "alias": "Topic: Guilt",
+      "parent": "topic.RELIGION",
+      "tags": [
+        "responsibility",
+        "transgression",
+        "condemnation",
+        "repentance",
+        "atonement"
+      ],
+      "level": "5"
+    },
+    {
+      "name": "topic.FAITH",
+      "alias": "Topic: Faith from the Spirit, Will and Word of God",
+      "parent": "topic.ATTITUDE",
+      "tags": [
+        "truth",
+        "doctrine",
+        "belief",
+        "confidence",
+        "trust"
+      ],
+      "level": "4"
+    },
+    {
+      "name": "topic.APOCALYPSE",
+      "alias": "Topic: Eschatology",
+      "parent": "topic.HISTORY",
+      "tags": [
+        "eschatology",
+        "last_day",
+        "end_of_the_world"
+      ],
+      "level": "5"
+    },
+    {
+      "name": "topic.BEAUTY",
+      "alias": "Topic: Beauty of Body or Character",
+      "parent": "topic.HEALTH",
+      "tags": [
+        "attractiveness",
+        "loveliness",
+        "comeliness"
+      ],
+      "level": "5"
+    },
+    {
+      "name": "topic.ECONOMICS",
+      "alias": "Topic: Commerce",
+      "parent": "topic.HUMANITY",
+      "tags": [
+        "consumption",
+        "production",
+        "distribution"
+      ],
+      "level": "4"
+    },
+    {
+      "name": "topic.ENTITLEMENT",
+      "alias": "Topic: Arrogance",
+      "parent": "topic.ATTITUDE",
+      "tags": [
+        "entitled",
+        "privilege",
+        "right"
+      ],
+      "level": "4"
+    },
+    {
+      "name": "topic.EVANGELISM",
+      "alias": "Topic: Fishing for Men",
+      "parent": "topic.THE GOSPEL",
+      "tags": [
+        "faith_sharing",
+        "persuasion",
+        "discipling",
+        "good_news"
+      ],
+      "level": "3"
+    },
+    {
+      "name": "topic.FIN GOV",
+      "alias": "Topic: How Government is Financed",
+      "parent": "topic.FINANCE",
+      "tags": [
+        "currency",
+        "subsidize",
+        "funding",
+        "bankroll",
+        "liquidate"
+      ],
+      "level": "5"
+    },
+    {
+      "name": "topic.NATURAL SCIENCES",
+      "alias": "Topic: Matter and Energy",
+      "parent": "topic.COSMOLOGY",
+      "tags": [
+        "matter",
+        "astrophysics",
+        "physics",
+        "chemistry",
+        "biology"
+      ],
+      "level": "5"
+    },
+    {
+      "name": "topic.BIOLOGY",
+      "alias": "Topic: Living Matter",
+      "parent": "topic.NATURAL SCIENCES",
+      "tags": [
+        "matter",
+        "energy",
+        "life",
+        "spirit",
+        "knowledge"
+      ],
+      "level": "6"
+    },
+    {
+      "name": "topic.COMMUNICATION THEORY",
+      "alias": "Topic: Information Sharing",
+      "parent": "topic.HUMANITY",
+      "tags": [
+        "information",
+        "context",
+        "encoding",
+        "transmission",
+        "interpretation"
+      ],
+      "level": "4"
+    },
+    {
+      "name": "topic.ASTROPHYSICS",
+      "alias": "Topic: The Physics of Astronomy",
+      "parent": "topic.COSMOLOGY",
+      "tags": [
+        "space_time",
+        "radiation",
+        "nucleosynthesis",
+        "high_energy",
+        "cosmic_plasma"
+      ],
+      "level": "5"
+    },
+    {
+      "name": "topic.PHYSICS",
+      "alias": "Topic: Physical Properties of Matter",
+      "parent": "topic.NATURAL SCIENCES",
+      "tags": [
+        "matter",
+        "energy",
+        "force",
+        "motion",
+        "law"
+      ],
+      "level": "6"
+    },
+    {
+      "name": "topic.ENVIRONMENTAL SCIENCE",
+      "alias": "Topic: Earth's Natural Processes",
+      "parent": "topic.NATURAL SCIENCES",
+      "tags": [
+        "ecosystem",
+        "resources",
+        "climate",
+        "cycle",
+        "change"
+      ],
+      "level": "6"
+    },
+    {
+      "name": "topic.HEALTH SCIENCES",
+      "alias": "Topic: The Science of Human Health",
+      "parent": "topic.COSMOLOGY",
+      "tags": [
+        "wellness",
+        "disease",
+        "care",
+        "public_health",
+        "interdisciplinary"
+      ],
+      "level": "5"
+    },
+    {
+      "name": "topic.BOTANY",
+      "alias": "Topic: Plant Life",
+      "parent": "topic.BIOLOGY",
+      "tags": [
+        "plants",
+        "reproduction",
+        "physiology",
+        "taxonomy",
+        "ecology"
+      ],
+      "level": "5"
+    },
+    {
+      "name": "topic.SOTERIOLOGY",
+      "alias": "Topic: God's Redemptive Plan",
+      "parent": "topic.THE GOSPEL",
+      "tags": [
+        "salvation",
+        "redemption",
+        "atonement",
+        "grace",
+        "restoration"
+      ],
+      "level": "3"
+    },
+    {
+      "name": "topic.POLITICAL SCIENCE",
+      "alias": "Topic: Politics",
+      "parent": "topic.SOCIAL SCIENCES",
+      "tags": [
+        "power",
+        "governance",
+        "institutions",
+        "policy",
+        "behavior"
+      ],
+      "level": "5"
+    },
+    {
+      "name": "topic.THE BIBLE",
+      "alias": "Topic: The Story of Redemption",
+      "parent": "topic.ANTHROPOLOGY",
+      "tags": [
+        "literature",
+        "scriptures",
+        "hebrew",
+        "greek",
+        "linquistic"
+      ],
+      "level": "5"
+    },
+    {
+      "name": "topic.HEALTH",
+      "alias": "Topic: Health and Nutrition",
+      "parent": "topic.HUMANITY",
+      "tags": [
+        "nutrition",
+        "exercise",
+        "lifestyle",
+        "physique",
+        "mental"
+      ],
+      "level": "4"
+    },
+    {
+      "name": "topic.SOCIAL SCIENCES",
+      "alias": "Topic: Human Interaction in Social Systems",
+      "parent": "topic.HUMANITY",
+      "tags": [
+        "society",
+        "behavior",
+        "institutions",
+        "culture",
+        "analysis"
+      ],
+      "level": "4"
+    }
+  ],
+  "descriptions": [
+    {
+      "name": "desc.CREATION",
+      "en_title": "Topic: The Universe",
+      "en_content": "All beings, places and things that exist apart from The GODHEAD as a result of Divine Creation."
+    },
+    {
+      "name": "desc.The GODHEAD",
+      "en_title": "THE GODHEAD",
+      "en_content": "The Being of God as existing in Three Persons."
+    },
+    {
+      "name": "desc.NULL_TOPIC",
+      "en_title": "NULL TOPIC",
+      "en_content": "This is the NULL TOPIC: the root of the Book of Wisdom's graph database."
+    },
+    {
+      "name": "desc.DIVINE SOVEREIGNTY",
+      "en_title": "Topic: Predestination",
+      "en_content": "The theological concept that God has absolute control over all things, meaning everything that happens in the universe occurs according to His plan and will, signifying His supreme authority and power over creation; essentially, God is the ultimate ruler with complete dominion over all aspects of existence."
+    },
+    {
+      "name": "desc.FAITHFULNESS",
+      "en_title": "Topic: Steadfastness",
+      "en_content": "Adherence to something to which one is bound by a pledge or duty."
+    },
+    {
+      "name": "desc.HOLINESS",
+      "en_title": "Topic: God's Essence",
+      "en_content": "The quality or state of being holy; a Being (God) Who is exalted and worthy of complete devotion as One perfect in goodness and righteousness; a human devoted entirely to the Deity or the Work of the Deity; having a Divine quality; that object which is venerated as sacred."
+    },
+    {
+      "name": "desc.LOVE",
+      "en_title": "Topic: God is Love",
+      "en_content": "A strong affection for another arising out of kinship or personal ties; attraction based on affection and tenderness; affection based on admiration, benevolence, or common interests;\u00a0an assurance of affection; warm\u00a0attachment, enthusiasm, or devotion; the object of attachment, devotion, or admiration."
+    },
+    {
+      "name": "desc.SPIRITUALITY",
+      "en_title": "Topic: Godliness",
+      "en_content": "Sensitivity or attachment to the values of the Holy Spirit of God."
+    },
+    {
+      "name": "desc.THE GOSPEL",
+      "en_title": "Topic: The Good News",
+      "en_content": "The Life, Death, Burial, Resurrection, Ascension and Return of Jesus Christ."
+    },
+    {
+      "name": "desc.TRUTH",
+      "en_title": "Topic: The Divine Being",
+      "en_content": "A transcendent fundamental or spiritual reality."
+    },
+    {
+      "name": "desc.HUMANITY",
+      "en_title": "Topic: Mankind",
+      "en_content": "Mankind, male and female, created in the Image and Likeness of The GODHEAD."
+    },
+    {
+      "name": "desc.WEALTH",
+      "en_title": "Topic: Abundance",
+      "en_content": "The abundance of valuable material, possessions or resources."
+    },
+    {
+      "name": "desc.ATTITUDE",
+      "en_title": "Topic: Spiritual Disposition",
+      "en_content": "A feeling, emotion or mental position to a fact or state."
+    },
+    {
+      "name": "desc.WISDOM",
+      "en_title": "Topic: The Application of Knowledge",
+      "en_content": "A wise attitude, belief, or course of action."
+    },
+    {
+      "name": "desc.UNDERSTANDING",
+      "en_title": "Topic: Comprehension",
+      "en_content": "A mental grasp of truth or an agreement between individuals or groups."
+    },
+    {
+      "name": "desc.HUMILITY",
+      "en_title": "Topic: Lowliness of Heart",
+      "en_content": "Not having or showing any feelings of superiority, self-assertiveness, or showiness."
+    },
+    {
+      "name": "desc.WORSHIP",
+      "en_title": "Topic: Obeisance",
+      "en_content": "To honor or show reverence for as The Divine Being; to regard with great or extravagant respect, honor, or devotion; to perform or take part in worship or an act of worship (i.e., falling on one's knees or face in humility and obeisance)."
+    },
+    {
+      "name": "desc.MORALITY",
+      "en_title": "Topic: Matters of the Conscience",
+      "en_content": "A doctrine or system of moral conduct."
+    },
+    {
+      "name": "desc.EVIL",
+      "en_title": "Topic: Malevolence",
+      "en_content": "The fact of suffering, misfortune, and wrongdoing; a cosmic wicked force; something or someone that brings sorrow, distress, or calamity; one that steals, kills and destroys; that angelic being which is the fountain of pride (Lucifer, Satan, the Devil)."
+    },
+    {
+      "name": "desc.RELIGION",
+      "en_title": "Topic: Humanity's Attempt to Manipulate God",
+      "en_content": "A personal or institutionalized system of religious attitudes, beliefs, and practices."
+    },
+    {
+      "name": "desc.PSYCHOLOGY",
+      "en_title": "Topic: The Science of Mind and Behavior",
+      "en_content": "The study of mind and behavior in relation to a particular field of knowledge or activity."
+    },
+    {
+      "name": "desc.ANTHROPOLOGY",
+      "en_title": "Topic: Humanity Throughout History",
+      "en_content": "The study of human beings and their ancestors through time and space and in relation to physical character, environmental and social relations, and culture."
+    },
+    {
+      "name": "desc.COSMOLOGY",
+      "en_title": "Topic: Humanity's World Views",
+      "en_content": "The study of the social belief systems humans have held across different times and places. Scientific cosmology involves studying the universe through astronomy and physics."
+    },
+    {
+      "name": "description.MUSIC",
+      "en_title": "Music",
+      "en_content": "The art and science of combining vocal or instrumental sounds to produce beauty of form, harmony, and expression of emotion."
+    },
+    {
+      "name": "description.MUSICOLOGY",
+      "en_title": "Musicology",
+      "en_content": "The scholarly study of music, encompassing the historical, cultural, theoretical, and scientific aspects of music and its role in human society."
+    },
+    {
+      "name": "desc.FINANCE",
+      "en_title": "Topic: Sources of Funding",
+      "en_content": "Money or other liquid resources of a government, business, group, or individual; the system that includes the circulation of money, the granting of credit, the making of investments, and the provision of banking facilities; the science or study of the management of funds; the obtaining of funds or capital."
+    },
+    {
+      "name": "desc.GEOLOGY",
+      "en_title": "Topic: Rock Strata",
+      "en_content": "Study of the solid matter of a celestial body."
+    },
+    {
+      "name": "desc.GRACE",
+      "en_title": "Topic: Gospel of Grace",
+      "en_content": "Unmerited Divine Favor given to humans for their sanctification and regeneration; the same Favor God the Father bestows on His Only-Begotten Son Jesus Christ."
+    },
+    {
+      "name": "desc.HISTORY",
+      "en_title": "Topic: Chronology",
+      "en_content": "An account of important events in the order in which they happened."
+    },
+    {
+      "name": "desc.HUMOR",
+      "en_title": "Topic: The Science of Laughter",
+      "en_content": "The mental faculty of discovering, expressing, or appreciating the ludicrous or absurdly incongruous;\u00a0the ability to be funny or to be amused by things that are funny; something that is or is designed to be comical or amusing."
+    },
+    {
+      "name": "desc.LAW",
+      "en_title": "Topic: Jurisprudence",
+      "en_content": "A binding custom or practice of a community\u00a0formally recognized as binding or enforced by a controlling authority."
+    },
+    {
+      "name": "desc.LINGUISTICS",
+      "en_title": "Topic: Linguistic Anthropology",
+      "en_content": "The study of human speech including the units, nature, structure, and modification of language."
+    },
+    {
+      "name": "desc.MERCY",
+      "en_title": "Topic: Compassion",
+      "en_content": "Compassion or forbearance shown to an offender or to one subject to another\u2019s power."
+    },
+    {
+      "name": "desc.PHILOSOPHY",
+      "en_title": "Topic: The Science of Ideology",
+      "en_content": "A foundational discipline within the Humanities. It explores fundamental questions about existence, knowledge, values, reason, mind, and language. As such, it provides a framework for understanding other humanities fields like literature, history, art, and religion. While philosophy can be considered a standalone discipline, it also intersects and informs many other areas of study within the humanities."
+    },
+    {
+      "name": "desc.POLITICAL-SCIENCE",
+      "en_title": "POLITICAL SCIENCE",
+      "en_content": "Exalting one nation above all others and placing primary emphasis on promotion of its culture and interests as opposed to those of other nations."
+    },
+    {
+      "name": "desc.SOCIOLOGY",
+      "en_title": "Topic: Social Structures",
+      "en_content": "The science of society, social institutions, and social relationships."
+    },
+    {
+      "name": "desc.SPIRITS",
+      "en_title": "Topic: Children of the Holy Spirit",
+      "en_content": "The animating or vital Principle held to give life to physical organisms; supernatural being or essence."
+    },
+    {
+      "name": "desc.THE-BIBLE",
+      "en_title": "THE BIBLE",
+      "en_content": "The Sacred Scriptures of Christians comprising the Old Testament and the New Testament."
+    },
+    {
+      "name": "desc.FIN-GOV",
+      "en_title": "GOVERNMENT-FINANCE",
+      "en_content": "Government finances include revenues, expenditures (spending), debt, and assets (cash and security holdings)."
+    },
+    {
+      "name": "desc.FREEDOM",
+      "en_title": "Topic: Free to be Moral",
+      "en_content": "The absence of necessity, coercion, or constraint in choice or action with the framework of morality and law."
+    },
+    {
+      "name": "desc.JUSTICE",
+      "en_title": "Topic: Equity Between All Peoples",
+      "en_content": "The practice or instance of giving to others what is their due."
+    },
+    {
+      "name": "desc.GUILT",
+      "en_title": "Topic: Guilt",
+      "en_content": "A feeling of responsibility for wrongdoing; a courtroom conviction."
+    },
+    {
+      "name": "desc.FAITH",
+      "en_title": "Topic: Faith from the Spirit, Will and Word of God",
+      "en_content": "Confidence in the Words of God that inspires intent, speech and action."
+    },
+    {
+      "name": "desc.APOCALYPSE",
+      "en_title": "Topic: Eschatology",
+      "en_content": "Eschatology; the End of all things."
+    },
+    {
+      "name": "desc.BEAUTY",
+      "en_title": "Topic: Beauty of Body or Character",
+      "en_content": "The quality or group of qualities in a person or thing that gives pleasure to the senses or the mind; a person (especially a woman) who is beautiful; an excellent or appealing quality."
+    },
+    {
+      "name": "desc.ECONOMICS",
+      "en_title": "Topic: Commerce",
+      "en_content": "Social science concerned chiefly with description and analysis of the production, distribution, and consumption of goods and services."
+    },
+    {
+      "name": "desc.ENTITLEMENT",
+      "en_title": "Topic: Arrogance",
+      "en_content": "Law, contract or belief that one is deserving of or entitled to certain rights, benefits and privileges."
+    },
+    {
+      "name": "desc.EVANGELISM",
+      "en_title": "Topic: Fishers for Men",
+      "en_content": "The winning or revival of personal commitments to Christ;\u00a0making disciples of all nations; militant or crusading zeal."
+    },
+    {
+      "name": "desc.FIN GOV",
+      "en_title": "Topic: How Government is Financed",
+      "en_content": "Government finances include revenues, expenditures (spending), debt, and assets (cash and security holdings)."
+    },
+    {
+      "name": "desc.MUSIC",
+      "en_title": "Topic: Music",
+      "en_content": "The art and science of combining vocal or instrumental sounds to produce beauty of form, harmony, and expression of emotion."
+    },
+    {
+      "name": "desc.NATURAL SCIENCES",
+      "en_title": "Topic: Matter and Energy",
+      "en_content": "Any of the sciences (such as physics, chemistry, or biology) that deal with matter, energy, and their interrelations and transformations or with objectively measurable phenomena."
+    },
+    {
+      "name": "desc.BIOLOGY",
+      "en_title": "Topic: Living Matter",
+      "en_content": "A branch of knowledge that deals with living organisms and vital processes."
+    },
+    {
+      "name": "desc.COMMUNICATION THEORY",
+      "en_title": "Topic: Information Sharing",
+      "en_content": "A systematic, interdisciplinary study of how information is created, encoded, transmitted, received, and interpreted across human, technological, and symbolic systems."
+    },
+    {
+      "name": "desc.ASTROPHYSICS",
+      "en_title": "Topic: The Physics of Astronomy",
+      "en_content": "A branch of\u00a0astronomy\u00a0dealing especially with the behavior, physical properties, and dynamic processes of celestial objects and phenomena."
+    },
+    {
+      "name": "desc.PHYSICS",
+      "en_title": "Topic: Physical Properties of Matter",
+      "en_content": "The physical properties and composition of matter."
+    },
+    {
+      "name": "desc.ENVIRONMENTAL SCIENCE",
+      "en_title": "Topic: Earth's Natural Processes",
+      "en_content": "The branch of the Natural Sciences that studies how the solid Earth, its water, its air, and its living organisms interact, and how these interconnected systems change over time."
+    },
+    {
+      "name": "desc.HEALTH SCIENCES",
+      "en_title": "Topic: The Science of Human Health",
+      "en_content": "The interdisciplinary field that studies the human body, health, disease, and healthcare systems in order to prevent illness, improve well\u2011being, and deliver effective clinical and public\u2011health interventions."
+    },
+    {
+      "name": "desc.BOTANY",
+      "en_title": "Topic: Plant Life",
+      "en_content": "The scientific study of plants\u2014their structure, function, reproduction, evolution, classification, and interactions with the environment."
+    },
+    {
+      "name": "desc.SOTERIOLOGY",
+      "en_title": "Topic: God's Redemptive Plan",
+      "en_content": "The branch of theology that studies the nature, purpose, and process of salvation\u2014how it is achieved, how it is applied to humanity, and how it ultimately transforms both people and creation."
+    },
+    {
+      "name": "desc.MUSICOLOGY",
+      "en_title": "Topic: The Study of Music",
+      "en_content": "The scholarly study of music, encompassing the historical, cultural, theoretical, and scientific aspects of music and its role in human society."
+    },
+    {
+      "name": "desc.NULL TOPIC",
+      "en_title": "Null Topic",
+      "en_content": "This is the NULL TOPIC: the root of the Book of Thoughts graph database."
+    },
+    {
+      "name": "desc.POLITICAL SCIENCE",
+      "en_title": "Political Science",
+      "en_content": "The systematic study of power, governance, public institutions, political behavior, and the processes through which societies make collective decisions. It analyzes how authority is organized, exercised, contested, and justified within and between communities."
+    },
+    {
+      "name": "desc.THE BIBLE",
+      "en_title": "Topic: The Story of Redemption",
+      "en_content": "The Sacred Scriptures of Christians comprising the Old Testament and the New Testament."
+    },
+    {
+      "name": "desc.THE GODHEAD",
+      "en_title": "Topic: The Godhead",
+      "en_content": "The Being of God as existing in Three Persons."
+    },
+    {
+      "name": "desc.HEALTH",
+      "en_title": "Topic: Health and Nutrition",
+      "en_content": "The condition of being sound in body, mind, or spirit; freedom from physical disease or pain; the general condition of the body."
+    },
+    {
+      "name": "desc.SOCIAL SCIENCES",
+      "en_title": "Topic: Human Interaction in Social Systems",
+      "en_content": "The group of academic disciplines that systematically study human behavior, social relationships, institutions, and societies using empirical, analytical, and interpretive methods to explain how people interact and how social systems function."
+    }
+  ],
+  "orphaned_thoughts": [
+    "thought.ACTS_OF_THE_APOSTLES",
+    "thought.AMERICAN",
+    "thought.THE_IRC",
+    "thought.US_FOREIGN_POLICY"
+  ]
+}

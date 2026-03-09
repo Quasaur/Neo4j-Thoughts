@@ -8,6 +8,7 @@ tags: ["faith", "word", "riches", "distraction", "growth"]
 ptopic: "[[topic-FAITH]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher

@@ -8,6 +8,7 @@ tags: ["scheme", "neighbor", "innocent", "contention", "motive"]
 ptopic: "[[topic-SOCIOLOGY]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher

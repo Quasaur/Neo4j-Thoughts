@@ -8,6 +8,7 @@ tags: ["violent", "devious", "abomination", "upright", "confidence"]
 ptopic: "[[topic-EVIL]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher

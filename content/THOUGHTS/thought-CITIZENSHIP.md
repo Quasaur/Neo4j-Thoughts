@@ -7,6 +7,7 @@ tags: ["citizenship", "kingdom", "reign_of_god", "freedom", "jesus_christ"]
 ptopic: "[[topic-ECONOMICS]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher

@@ -8,6 +8,7 @@ tags: ["gospel", "jesus_christ", "livingword", "lastword", "word_of_god"]
 ptopic: "[[topic-THE-GOSPEL]]"
 level: 2
 neo4j: true
+verified: false
 ---
 
 ```Cypher

@@ -10,6 +10,7 @@ tags: ["apocalypse", "ele", "extinction", "oblivion", "thelastday"]
 ptopic: "[[topic-HISTORY]]"
 level: 4
 neo4j: true
+verified: false
 ---
 ```Cypher
 CREATE (t:THOUGHT {

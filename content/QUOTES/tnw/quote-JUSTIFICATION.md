@@ -16,6 +16,7 @@ tags: ["just", "legal", "grace", "jesus_christ", "adquited"]
 ptopic: "[[topic-GRACE]]"
 level: 3
 neo4j: true
+verified: false
 ---
 
 ```Cypher

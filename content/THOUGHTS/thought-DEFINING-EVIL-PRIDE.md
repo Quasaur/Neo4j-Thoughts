@@ -8,6 +8,7 @@ tags: ["evil", "pride", "self", "treasure", "character"]
 ptopic: "[[topic-EVIL]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher

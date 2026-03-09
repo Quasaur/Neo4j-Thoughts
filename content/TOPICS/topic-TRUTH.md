@@ -8,6 +8,7 @@ tags: ["actuality", "reality", "fact", "verity", "authentic"]
 ptopic: "[[topic-THE-GODHEAD]]"
 level: 2
 neo4j: true
+verified: true
 ---
 
 ```Cypher
@@ -21,21 +22,21 @@ CREATE (t:TOPIC
 // create multi-lingual description		
 CREATE (d:DESCRIPTION {
 	name: "desc.TRUTH", 
-	en_title: "Truth", 
+	en_title: "Topic: The Divine Being", 
 	en_content: "A transcendent fundamental or spiritual reality.", 
-	es_title: "VERDAD", 
+	es_title: "Tema: El Ser Divino", 
 	es_content: "Una realidad fundamental o espiritual trascendente.", 
-	fr_title: "VÉRITÉ", 
+	fr_title: "Sujet : L'Etre Divin", 
 	fr_content: "Une réalité fondamentale ou spirituelle transcendante.", 
-	hi_title: "सत्य", 
+	hi_title: "विषय: दिव्य सत्ता", 
 	hi_content: "एक पारलौकिक मौलिक या आध्यात्मिक वास्तविकता।", 
-	zh_title: "Zhēnlǐ", 
+	zh_title: "zhǔ tí ：shén shèng cún zài", 
 	zh_content: "chāoyuè de gēnběn huò jīngshén xiànshí."});
 // link description to node
 MATCH (t:TOPIC)
 MATCH (d:DESCRIPTION)
 WHERE t.name = "topic.TRUTH" AND d.name = "desc.TRUTH"
-MERGE (t)-[:HAS_DESCRIPTION {name: "edge.Truth"}]->(d);
+MERGE (t)-[:HAS_DESCRIPTION {name: "edge.TRUTH"}]->(d);
 // link node to parent node
 MATCH (parent:TOPIC)
 MATCH (child:TOPIC)

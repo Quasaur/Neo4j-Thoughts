@@ -16,6 +16,7 @@ tags: ["tribe", "clan", "family", "united", "jesus_christ"]
 ptopic: "[[topic-THE-GOSPEL]]"
 level: 2
 neo4j: true
+verified: false
 ---
 
 ```Cypher

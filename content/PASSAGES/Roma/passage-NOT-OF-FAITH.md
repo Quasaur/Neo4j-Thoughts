@@ -8,6 +8,7 @@ tags: ["faith", "doubt", "condemnation", "sin", "word_of_god"]
 ptopic: "[[topic-FAITH]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher

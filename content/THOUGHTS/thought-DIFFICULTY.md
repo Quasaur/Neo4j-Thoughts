@@ -7,6 +7,7 @@ tags: ["difficulty", "challenge", "struggle", "humility", "confession"]
 ptopic: "[[topic-ATTITUDE]]"
 level: 3
 neo4j: true
+verified: false
 ---
 
 ```Cypher

@@ -7,6 +7,7 @@ tags: ["pure", "untainted", "deliverance", "glorification", "jesus_christ"]
 ptopic: "[[topic-GRACE]]"
 level: 3
 neo4j: true
+verified: false
 ---
 
 ```Cypher

@@ -16,6 +16,7 @@ tags: ["ungodly", "godless", "self_worship", "humanitarian", "damned"]
 ptopic: "[[topic-EVIL]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher

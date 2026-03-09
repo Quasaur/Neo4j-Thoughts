@@ -8,6 +8,7 @@ tags: ["wise", "listening", "learning", "collecting", "counsel"]
 ptopic: "[[topic-UNDERSTANDING]]"
 level: 3
 neo4j: true
+verified: false
 ---
 
 ```Cypher

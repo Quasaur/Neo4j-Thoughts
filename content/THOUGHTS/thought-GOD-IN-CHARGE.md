@@ -10,6 +10,7 @@ tags: ["belief", "truth", "control", "god", "sovereignty"]
 ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
 level: 2
 neo4j: true
+verified: false
 ---
 ```Cypher
 CREATE (t:THOUGHT {

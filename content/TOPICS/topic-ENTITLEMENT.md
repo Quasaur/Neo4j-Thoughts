@@ -8,6 +8,7 @@ tags: ["entitled", "privilege", "right"]
 ptopic: "[[topic-ATTITUDE]]"
 level: 4
 neo4j: true
+verified: true
 ---
 
 ```Cypher
@@ -23,15 +24,15 @@ CREATE (t:TOPIC {
 // CREATE DESCRIPTION
 CREATE (d:DESCRIPTION {
     name: "desc.ENTITLEMENT",
-    en_title: "Entitlement",
+    en_title: "Topic: Arrogance",
     en_content: "Law, contract or belief that one is deserving of or entitled to certain rights, benefits and privileges.",
-    es_title: "DERECHO",
+    es_title: "Sujet : L'arrogance",
     es_content: "Ley, contrato o creencia de que uno merece o tiene derecho a ciertos derechos, beneficios y privilegios.",
-    fr_title: "DROIT",
+    fr_title: "Sujet : L'arrogance",
     fr_content: "Loi, contrat ou croyance selon laquelle on mérite ou a droit à certains droits, avantages et privilèges.",
-    hi_title: "अधिकार",
+    hi_title: "विषय: अहंकार",
     hi_content: "कानून, अनुबंध या विश्वास है कि कोई कुछ अधिकारों, लाभों और विशेषाधिकारों का हकदार है।",
-    zh_title: "Quánlì",
+    zh_title: "Zhǔtí: Àomàn",
     zh_content: "Fǎlǜ, hétóng huò xìnniàn, jí yīgè rén yǒu zīgé huò yǒu quán xiǎngyǒu mǒu xiē quánlì, fúlì hé tèquán."
 });
 

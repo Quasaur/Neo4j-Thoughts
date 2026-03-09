@@ -8,6 +8,7 @@ tags: ["science", "sun", "energy", "creation", "time"]
 ptopic: "[[topic-ASTROPHYSICS]]"
 level: 5
 neo4j: true
+verified: false
 ---
 
 ```Cypher

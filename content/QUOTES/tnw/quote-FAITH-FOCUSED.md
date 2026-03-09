@@ -16,6 +16,7 @@ tags: ["faith", "focus", "word_of_faith", "jesus_christ", "self"]
 ptopic: "[[topic-FAITH]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher

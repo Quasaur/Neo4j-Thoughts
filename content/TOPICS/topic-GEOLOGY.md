@@ -8,6 +8,7 @@ tags: ["rocks", "strata", "layers", "earth", "land"]
 ptopic: "[[topic-HUMANITY]]"
 level: 4
 neo4j: true
+verified: true
 ---
 
 ```Cypher
@@ -23,15 +24,15 @@ CREATE (t:TOPIC {
 // CREATE DESCRIPTION
 CREATE (d:DESCRIPTION {
     name: "desc.GEOLOGY",
-    en_title: "Geology",
+    en_title: "Topic: Rock Strata",
     en_content: "Study of the solid matter of a celestial body.",
-    es_title: "GEOLOGÍA",
+    es_title: "Tema: Estratos rocosos",
     es_content: "Estudio de la materia sólida de un cuerpo celeste.",
-    fr_title: "GÉOLOGIE",
+    fr_title: "Sujet : Strates rocheuses",
     fr_content: "Étude de la matiere solide d'un corps céleste.",
-    hi_title: "भूगर्भ शास्त्र",
+    hi_title: "विषय: चट्टानी स्तर",
     hi_content: "किसी आकाशीय पिंड के ठोस पदार्थ का अध्ययन।",
-    zh_title: "Dìzhì",
+    zh_title: "Zhǔtí: Yáncéng",
     zh_content: "Tiāntǐ gùtǐ wùzhí de yánjiū."
 });
 

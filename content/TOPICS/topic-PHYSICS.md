@@ -8,6 +8,7 @@ tags: ["matter", "energy", "force", "motion", "law"]
 ptopic: "[[topic-NATURAL-SCIENCES]]"
 level: 6
 neo4j: true
+verified: true
 ---
 
 ```Cypher
@@ -22,15 +23,15 @@ CREATE (t:TOPIC
 // create multi-lingual description		
 CREATE (d:DESCRIPTION {
 	name: "desc.PHYSICS", 
-	en_title: "Physics", 
+	en_title: "Topic: Physical Properties of Matter", 
 	en_content: "The physical properties and composition of matter.", 
-	es_title: "Física",
+	es_title: "Tema: Propiedades físicas de la materia",
 	es_content: "Las propiedades físicas y la composición de la materia.", 
-	fr_title: "Physique", 
+	fr_title: "Sujet : Propriétés physiques de la matière", 
 	fr_content: "Les propriétés physiques et la composition de la matière.", 
-	hi_title: "भौतिकी", 
+	hi_title: "विषय: पदार्थ के भौतिक गुण", 
 	hi_content: "पदार्थ के भौतिक गुण और संरचना।", 
-	zh_title: "Wùlǐ xué", 
+	zh_title: "Zhǔtí: Wùzhí de wùlǐ xìngzhì", 
 	zh_content: "wùzhí de wùlǐ xìngzhì hé zǔchéng."});
 // link description to node
 MATCH (t:TOPIC)

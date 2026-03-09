@@ -10,6 +10,7 @@ tags: ["eternal_life", "immortality", "spirituality", "god", "jesus_christ"]
 ptopic: "[[topic-SPIRITUALITY]]"
 level: 2
 neo4j: true
+verified: false
 ---
 ```Cypher
 CREATE (t:THOUGHT {

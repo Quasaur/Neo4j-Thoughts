@@ -8,6 +8,7 @@ tags: ["self", "denial", "humility", "deprecation", "worship"]
 ptopic: "[[topic-ATTITUDE]]"
 level: 3
 neo4j: true
+verified: false
 ---
 
 ```Cypher

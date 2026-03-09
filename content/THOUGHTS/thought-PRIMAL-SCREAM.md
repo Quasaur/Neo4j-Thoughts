@@ -8,6 +8,7 @@ tags: ["painting", "expression", "humor", "comedy", "faith"]
 ptopic: "[[topic-HUMOR]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher

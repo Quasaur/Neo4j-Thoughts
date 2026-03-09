@@ -8,6 +8,7 @@ tags: ["seed", "word_of_god", "holy_spirit", "sowing", "reaping"]
 ptopic: "[[topic-GRACE]]"
 level: 3
 neo4j: true
+verified: false
 ---
 
 ```Cypher

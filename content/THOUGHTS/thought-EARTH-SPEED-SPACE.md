@@ -8,6 +8,7 @@ tags: ["creation", "science", "earth", "speed", "majesty"]
 ptopic: "topic-ASTROPHYSICS"
 level: 5
 neo4j: true
+verified: true
 ---
 
 ```Cypher
@@ -21,23 +22,23 @@ CREATE (t:THOUGHT {    name: "thought.EARTH SPEED SPACE",
 CREATE (c:CONTENT {
     name: "content.EARTH SPEED SPACE",
     ctype: "THOUGHT",
-    en_title: "Earth Speed Space",
+    en_title: "Thought: Earth Speed Space",
     en_content: "The Earth is tearing thru space at over 667,000 MPH, and we're not dead ...God is great!",
-    es_title: "Velocidad Terrestre Espacial",
+    es_title: "Pensamiento: Tierra Velocidad Espacio",
     es_content: "La Tierra está desgarrando el espacio a más de 667,000 MPH, y no estamos muertos... ¡Dios es grande!",
-    fr_title: "Vitesse Terrestre Spatiale",
+    fr_title: "Pensée : Terre Vitesse Espace",
     fr_content: "La Terre fonce à travers l'espace à plus de 667 000 MPH, et nous ne sommes pas morts... Dieu est grand !",
-    hi_title: "पृथ्वी गति अंतरिक्ष",
+    hi_title: "विचार: पृथ्वी गति अंतरिक्ष",
     hi_content: "पृथ्वी अंतरिक्ष में 667,000 MPH से अधिक गति से दौड़ रही है, और हम मरे नहीं हैं... भगवान महान है!",
-    zh_title: "Di Qiu Su Du Kong Jian",
+    zh_title: "sī xiǎng : dì qiú sù dù kōng jiān",
     zh_content: "Di qiu zheng yi chao guo 667,000 MPH de su du chuan yue tai kong, er wo men mei you si... Shang di shi wei da de!"
 });
 
 MATCH (t:THOUGHT {name: "thought.EARTH SPEED SPACE"})
 MATCH (c:CONTENT {name: "content.EARTH SPEED SPACE"})
-MERGE (t)-[:HAS_CONTENT { "name": "edge.EARTH SPEED SPACE" }]->(c);
+MERGE (t)-[:HAS_CONTENT { "name": "t.edge.EARTH SPEED SPACE" }]->(c);
 
 MATCH (parent:TOPIC {name: "topic.ASTROPHYSICS"})
 MATCH (child:THOUGHT {name: "thought.EARTH SPEED SPACE"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "ASTROPHYSICS->EARTH SPEED SPACE" }]->(child);
+MERGE (parent)-[:HAS_THOUGHT { "name": "t.edge.ASTROPHYSICS->EARTH SPEED SPACE" }]->(child);
 ```

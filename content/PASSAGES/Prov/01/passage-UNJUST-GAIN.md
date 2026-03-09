@@ -8,6 +8,7 @@ tags: ["gain", "greed", "unjust", "death", "just"]
 ptopic: "[[topic-WEALTH]]"
 level: 3
 neo4j: true
+verified: false
 ---
 
 ```Cypher

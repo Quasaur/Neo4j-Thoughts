@@ -7,6 +7,7 @@ tags: ["crime", "punishment", "intent", "kill", "judgment"]
 ptopic: "[[topic-PSYCHOLOGY]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher

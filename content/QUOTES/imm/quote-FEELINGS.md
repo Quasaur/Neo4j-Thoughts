@@ -16,6 +16,7 @@ tags: ["feelings", "emotions", "faith", "word_of_god", "believe"]
 ptopic: "[[topic-FAITH]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher

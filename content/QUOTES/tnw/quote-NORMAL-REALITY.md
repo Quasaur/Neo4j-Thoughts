@@ -16,6 +16,7 @@ tags: ["eternity", "godhead", "reality", "normal", "glory"]
 ptopic: "[[topic-TRUTH]]"
 level: 2
 neo4j: true
+verified: false
 ---
 
 ```Cypher

@@ -16,6 +16,7 @@ tags: ["light", "eternity", "onewill", "deity", "sovereignty"]
 ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
 level: 2
 neo4j: true
+verified: false
 ---
 
 ```Cypher

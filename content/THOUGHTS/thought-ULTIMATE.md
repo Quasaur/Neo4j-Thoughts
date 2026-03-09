@@ -8,6 +8,7 @@ tags: ["humanity", "self_worship", "god", "judgement", "accountable"]
 ptopic: "[[topic-THE-GODHEAD]]"
 level: 1
 neo4j: true
+verified: false
 ---
 
 ```Cypher

@@ -1,0 +1,1 @@
+   26 PASSAGE                                  84 QUOTE                                    170 THOUGHT                                 47 TOPIC

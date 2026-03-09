@@ -7,6 +7,7 @@ tags: ["god", "personal", "impersonal", "sentience", "self_aware"]
 ptopic: "[[topic-THE-GODHEAD]]"
 level: 1
 neo4j: true
+verified: false
 ---
 
 ```Cypher

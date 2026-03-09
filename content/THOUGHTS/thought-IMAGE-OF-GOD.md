@@ -8,6 +8,7 @@ tags: ["creation", "identity", "image", "god", "value"]
 ptopic: "[[topic-CREATION]]"
 level: 2
 neo4j: true
+verified: false
 ---
 
 ```Cypher

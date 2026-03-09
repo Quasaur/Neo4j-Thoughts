@@ -8,6 +8,7 @@ tags: ["glory", "humanity", "obedience", "rebellion"]
 ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
 level: 2
 neo4j: true
+verified: false
 ---
 
 ```Cypher

@@ -7,6 +7,7 @@ tags: ["cosmology", "relativity", "geocentricity", "michelson", "intelligentdesi
 ptopic: "[[topic-TRUTH]]"
 level: 2
 neo4j: true
+verified: false
 ---
 
 ```Cypher

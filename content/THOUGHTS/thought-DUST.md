@@ -7,6 +7,7 @@ tags: ["dust", "humanity", "humility", "worth", "dirt"]
 ptopic: "[[topic-ATTITUDE]]"
 level: 3
 neo4j: true
+verified: false
 ---
 
 ```Cypher

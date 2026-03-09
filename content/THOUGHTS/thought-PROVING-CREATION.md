@@ -8,6 +8,7 @@ tags: ["creation", "truth", "bible", "science", "origin"]
 ptopic: "[[topic-CREATION]]"
 level: 2
 neo4j: true
+verified: false
 ---
 
 ```Cypher

@@ -16,6 +16,7 @@ parent: "topic.THE GODHEAD"
 level: 1
 neo4j: true
 aliases: ""
+verified: false
 ---
 ```Cypher
 CREATE (t:THOUGHT {

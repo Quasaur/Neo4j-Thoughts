@@ -8,6 +8,7 @@ tags: ["trust", "confidence", "ignorance", "faith", "philosophy"]
 ptopic: "[[topic-FAITH]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher

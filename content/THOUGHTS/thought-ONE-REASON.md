@@ -10,6 +10,7 @@ tags: ["apocalypse", "lake_of_fire", "pride", "judgment", "jesus_christ"]
 ptopic: "[[topic-ATTITUDE]]"
 level: 3
 neo4j: true
+verified: false
 ---
 ```Cypher
 CREATE (t:THOUGHT {

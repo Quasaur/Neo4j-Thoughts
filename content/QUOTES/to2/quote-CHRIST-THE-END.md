@@ -16,6 +16,7 @@ tags: ["jesus_christ", "completion", "fulfillment", "ceremonial_law", "old_coven
 ptopic: "[[topic-LAW]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher

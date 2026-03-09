@@ -8,6 +8,7 @@ tags: ["love", "selfishness", "attitude", "pathetic", "character"]
 ptopic: "[[topic-LOVE]]"
 level: 3
 neo4j: true
+verified: false
 ---
 
 ```Cypher

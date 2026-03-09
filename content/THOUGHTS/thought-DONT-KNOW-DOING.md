@@ -8,6 +8,7 @@ tags: ["forgiveness", "ignorance", "humanity", "mercy", "bible"]
 ptopic: "[[topic-MERCY]]"
 level: 5
 neo4j: true
+verified: false
 ---
 
 ```Cypher

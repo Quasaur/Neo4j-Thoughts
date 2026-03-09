@@ -8,6 +8,7 @@ tags: ["happy", "sabbath", "earth", "creation", "rest"]
 ptopic: "[[topic-CREATION]]"
 level: 2
 neo4j: true
+verified: false
 ---
 
 ```Cypher

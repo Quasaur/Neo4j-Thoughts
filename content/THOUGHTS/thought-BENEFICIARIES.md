@@ -7,6 +7,7 @@ tags: ["interpersonal", "encounter", "daily", "victims", "beneficiaries"]
 ptopic: "[[topic-EVANGELISM]]"
 level: 3
 neo4j: true
+verified: false
 ---
 
 ```Cypher

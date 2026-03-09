@@ -8,6 +8,7 @@ tags: ["equality", "christ", "return", "politics", "society"]
 ptopic: "[[topic-SOTERIOLOGY]]"
 level: 3
 neo4j: true
+verified: false
 ---
 
 ```Cypher

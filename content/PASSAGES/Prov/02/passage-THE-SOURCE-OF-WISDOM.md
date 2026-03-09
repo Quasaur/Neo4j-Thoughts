@@ -8,6 +8,7 @@ tags: ["wisdom", "gift", "knowledge", "understanding", "integrity"]
 ptopic: "[[topic-WISDOM]]"
 level: 3
 neo4j: false
+verified: false
 ---
 
 ```Cypher

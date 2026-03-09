@@ -16,6 +16,7 @@ tags: ["repentance", "gift", "humble", "essential", "heart"]
 ptopic: "[[topic-ATTITUDE]]"
 level: 3
 neo4j: true
+verified: false
 ---
 
 ```Cypher

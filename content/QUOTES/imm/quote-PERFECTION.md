@@ -8,6 +8,7 @@ tags: ["imperfection", "perfection", "god", "existence", "duality"]
 ptopic: "[[topic-THE]]"
 level: 1
 neo4j: true
+verified: false
 ---
 
 ```Cypher

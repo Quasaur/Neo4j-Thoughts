@@ -16,6 +16,7 @@ tags: ["pray", "real", "god", "self", "circumstance"]
 ptopic: "[[topic-WORSHIP]]"
 level: 3
 neo4j: true
+verified: false
 ---
 
 ```Cypher

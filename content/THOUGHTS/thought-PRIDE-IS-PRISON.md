@@ -8,6 +8,7 @@ tags: ["pride", "love", "freedom", "attitude", "liberation"]
 ptopic: "[[topic-EVIL]]"
 level: 3
 neo4j: true
+verified: false
 ---
 
 ```Cypher

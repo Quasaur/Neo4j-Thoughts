@@ -1,0 +1,30 @@
+{
+  "timestamp": "20260309_091829",
+  "summary": {},
+  "node_counts": {
+    "TOPIC": 59,
+    "DESCRIPTION": 66,
+    "THOUGHT": 215,
+    "QUOTE": 77,
+    "PASSAGE": 22,
+    "CONTENT": 335
+  },
+  "relationship_counts": {
+    "HAS_DESCRIPTION": 63,
+    "HAS_CHILD": 58,
+    "HAS_THOUGHT": 217,
+    "HAS_QUOTE": 77,
+    "HAS_PASSAGE": 22,
+    "HAS_CONTENT": 314
+  },
+  "orphaned_nodes": {
+    "THOUGHT": 0,
+    "QUOTE": 0,
+    "PASSAGE": 0
+  },
+  "verification_checks": {
+    "topics_without_description": 0,
+    "topics_without_parent_rel": 0,
+    "all_new_topics_present": true
+  }
+}

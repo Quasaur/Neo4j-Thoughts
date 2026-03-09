@@ -8,6 +8,7 @@ tags: ["kindness", "blessing", "benevolence", "empower", "anointing"]
 ptopic: "[[topic-CREATION]]"
 level: 3
 neo4j: true
+verified: true
 ---
 
 ```Cypher
@@ -23,15 +24,15 @@ CREATE (t:TOPIC {
 // CREATE DESCRIPTION
 CREATE (d:DESCRIPTION {
     name: "desc.GRACE",
-    en_title: "Grace",
+    en_title: "Topic: Gospel of Grace",
     en_content: "Unmerited Divine Favor given to humans for their sanctification and regeneration; the same Favor God the Father bestows on His Only-Begotten Son Jesus Christ.",
-    es_title: "GRACIA",
+    es_title: "Tema: Evangelio de la Gracia",
     es_content: "Favor Divino inmerecido dado a los humanos para su santificación y regeneración; el mismo Favor que Dios Padre otorga a Su Hijo Unigénito Jesucristo.",
-    fr_title: "GRÂCE",
+    fr_title: "Sujet : L’Évangile de la grâce",
     fr_content: "Faveur divine imméritée accordée aux humains pour leur sanctification et leur régénération ; la même faveur que Dieu le Père accorde à son Fils unique Jésus-Christ.",
-    hi_title: "कृपा",
+    hi_title: "विषय: अनुग्रह का सुसमाचार",
     hi_content: "मनुष्यों को उनके पवित्रीकरण और पुनर्जन्म के लिए दिया गया अप्रतिभुत ईश्वरीय अनुग्रह; वही अनुग्रह जो पिता परमेश्वर ने अपने एकलौते पुत्र यीशु मसीह को प्रदान किया।",
-    zh_title: "Ēndiǎn",
+    zh_title: "Zhǔtí: Ēndiǎn de fúyīn",
     zh_content: "Shàngdì wèile shǐ rénlèi chéng shèng hé chóngshēng ér cìyǔ rénlèi wúcháng de ēnhuì; tiānfù yě jiāng tóngyàng de ēnhuì cìyǔle tā de dúshēngzǐ yēsū jīdū."
 });
 

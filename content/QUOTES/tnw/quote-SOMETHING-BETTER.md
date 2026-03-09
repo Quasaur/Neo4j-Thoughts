@@ -16,6 +16,7 @@ tags: ["superior", "religion", "gospel", "jesus_christ", "simple"]
 ptopic: "[[topic-THE-GOSPEL]]"
 level: 2
 neo4j: true
+verified: false
 ---
 
 ```Cypher

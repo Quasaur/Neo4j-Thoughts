@@ -8,6 +8,7 @@ tags: ["sovereignty", "blessing", "jodb", "lords_name", "trust"]
 ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
 level: 2
 neo4j: true
+verified: false
 ---
 
 ```Cypher

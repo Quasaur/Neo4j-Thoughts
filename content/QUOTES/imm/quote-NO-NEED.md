@@ -16,6 +16,7 @@ tags: ["survive", "thrive", "needless", "money", "wisdom"]
 ptopic: "[[topic-WEALTH]]"
 level: 3
 neo4j: true
+verified: false
 ---
 
 ```Cypher

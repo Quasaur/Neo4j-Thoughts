@@ -8,6 +8,7 @@ tags: ["assets", "capital", "fortune", "resources", "riches"]
 ptopic: "[[topic-CREATION]]"
 level: 3
 neo4j: true
+verified: true
 ---
 
 ```Cypher
@@ -17,19 +18,20 @@ CREATE (t:TOPIC
 		alias: "Topic: Abundance", 
 		parent: "topic.CREATION", 
 		tags: ["assets", "capital", "fortune", "resources", "riches"], 
-		level: 3});
+		level: 3
+		});
 // create multi-lingual description		
 CREATE (d:DESCRIPTION {
 	name: "desc.WEALTH", 
-	en_title: "Wealth", 
+	en_title: "Topic: Abundance", 
 	en_content: "The abundance of valuable material, possessions or resources.", 
-	es_title: "Riqueza", 
+	es_title: "Tema: Abundancia", 
 	es_content: "La abundancia de materiales, posesiones o recursos valiosos.", 
-	fr_title: "Richesse", 
+	fr_title: "Sujet : L'abondance", 
 	fr_content: "L'abondance de biens matériels, de possessions ou de ressources de valeur.", 
-	hi_title: "मधन", 
+	hi_title: "विषय: बहुतायत", 
 	hi_content: "मूल्यवान सामग्री, संपत्ति या संसाधनों की प्रचुरता।", 
-	zh_title: "Cáifù", 
+	zh_title: "Zhǔtí: Fēngshèng", 
 	zh_content: "fēngfù de bǎoguì wùzhí, cáichǎn huò zīyuán."});
 // link description to node
 MATCH (t:TOPIC)

@@ -8,6 +8,7 @@ tags: ["humanity", "godhead", "intelligent", "life", "purpose"]
 ptopic: "[[topic-WORSHIP]]"
 level: 3
 neo4j: true
+verified: false
 ---
 
 ```Cypher

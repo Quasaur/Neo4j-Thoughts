@@ -15,6 +15,7 @@ en_content: "None of our achievements, advances, contributions, virtuous deeds o
 tags: ["heart", "human", "ungodly", "jesus_christ", "propitiation"]
 ptopic: "[[topic-RELIGION]]"
 level: 4
+verified: false
 ---
 
 ```Cypher

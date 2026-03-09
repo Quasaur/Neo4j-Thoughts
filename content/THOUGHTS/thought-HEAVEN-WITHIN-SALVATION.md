@@ -8,6 +8,7 @@ tags: ["salvation", "heaven", "transformation", "grace", "presence"]
 ptopic: "[[topic-GRACE]]"
 level: 3
 neo4j: true
+verified: false
 ---
 
 ```Cypher

@@ -8,6 +8,7 @@ tags: ["power", "glory", "sovereignty", "character", "responsibility"]
 ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
 level: 2
 neo4j: true
+verified: false
 ---
 
 ```Cypher

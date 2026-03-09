@@ -7,6 +7,7 @@ tags: ["freedom", "volition", "free_will", "accountability", "judgment"]
 ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
 level: 2
 neo4j: true
+verified: false
 ---
 
 ```Cypher

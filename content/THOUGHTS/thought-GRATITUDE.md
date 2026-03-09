@@ -7,6 +7,7 @@ tags: ["thanksgiving", "humility", "decision", "mercy", "dead"]
 ptopic: "[[topic-ATTITUDE]]"
 level: 3
 neo4j: true
+verified: false
 ---
 
 ```Cypher

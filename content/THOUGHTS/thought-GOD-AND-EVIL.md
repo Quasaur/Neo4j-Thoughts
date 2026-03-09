@@ -8,6 +8,7 @@ tags: ["sovereignty", "evil", "providence", "justice", "divinity"]
 ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
 level: 2
 neo4j: true
+verified: false
 ---
 
 ```Cypher

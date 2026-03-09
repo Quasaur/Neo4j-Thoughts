@@ -16,6 +16,7 @@ tags: ["god", "sovereignty", "unowed", "leniency", "evil"]
 ptopic: "[[topic-MERCY]]"
 level: 5
 neo4j: true
+verified: false
 ---
 
 ```Cypher

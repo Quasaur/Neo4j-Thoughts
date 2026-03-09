@@ -16,6 +16,7 @@ tags: ["god", "peace", "reconciliation", "self_denial", "submission"]
 ptopic: "[[topic-THE-GOSPEL]]"
 level: 2
 neo4j: true
+verified: false
 ---
 
 ```Cypher

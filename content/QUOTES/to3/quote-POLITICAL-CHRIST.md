@@ -2,7 +2,7 @@
 type: QUOTE
 name: "quote.POLITICAL CHRIST"
 alias: "Quote: Political Christ"
-parent: "topic.POLITICAL-SCIENCE"
+parent: "topic.POLITICAL SCIENCE"
 en_content: "I state that not only is Jesus' Authority spiritual, but political and economic as well.",
  es_title: "Cita: CRISTO POLÍTICO",
  es_content: "Afirmo que la Autoridad de Jesús no sólo es espiritual, sino también política y económica.",
@@ -13,9 +13,10 @@ en_content: "I state that not only is Jesus' Authority spiritual, but political 
  zh_title: "yǐn yòng ： zhèng zhì jī dū",
  zh_content: "wǒ xiǎng shuō ， yē sū de quán wēi bù jǐn shì jīng shén shàng de ， ér qiě shì zhèng zhì shàng hé jīng jì shàng de 。"
 tags: ["jesus_christ", "authority", "political", "spiritual", "economical"]
-ptopic: "[[topic-POLITICAL-SCIENCE]]"
+ptopic: "[[topic-POLITICAL SCIENCE]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher
@@ -23,7 +24,7 @@ neo4j: true
 CREATE (q:QUOTE {
     name: "quote.POLITICAL CHRIST",
     alias: "Quote: Political Christ",
-    parent: "topic.POLITICAL-SCIENCE",
+    parent: "topic.POLITICAL SCIENCE",
     tags: ["jesus_christ", "authority", "political", "spiritual", "economical"],
     source: "'The Traveler's Oasis, Book Three'",
     booklink: "(https://www.amazon.com/Travelers-Oasis-Book-Three-ebook/dp/B00YRKX8E4)",

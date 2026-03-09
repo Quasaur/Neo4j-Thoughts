@@ -7,6 +7,7 @@ tags: ["debt", "entitlement", "apocalypse", "worship", "grace"]
 ptopic: "[[topic-ENTITLEMENT]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher

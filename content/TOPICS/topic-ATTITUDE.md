@@ -8,6 +8,7 @@ tags: ["mentality", "disposition", "feeling", "spirit", "fruit"]
 ptopic: "[[topic-SPIRITUALITY]]"
 level: 3
 neo4j: true
+verified: true
 ---
 
 ```Cypher
@@ -21,15 +22,15 @@ CREATE (t:TOPIC
 // create multi-lingual description		
 CREATE (d:DESCRIPTION {
 	name: "desc.ATTITUDE", 
-	en_title: "Attitude", 
+	en_title: "Topic: Spiritual Disposition", 
 	en_content: "A feeling, emotion or mental position to a fact or state.", 
-	es_title: "Actitud", 
+	es_title: "Tema: Disposición espiritual", 
 	es_content: "Un sentimiento, emoción o posición mental ante un hecho o estado.", 
-	fr_title: "Attitude", 
+	fr_title: "Sujet : Disposition spirituelle", 
 	fr_content: "Un sentiment, une émotion ou une position mentale face à un fait ou à un état.", 
-	hi_title: "दृष्टिकोण", 
+	hi_title: "विषय: आध्यात्मिक स्वभाव", 
 	hi_content: "किसी तथ्य या स्थिति के प्रति एक भावना, भाव या मानसिक स्थिति।", 
-	zh_title: "Tàidù", 
+	zh_title: "Zhǔtí: Língxìng qīngxiàng", 
 	zh_content: "duì mǒu yī shìshí huò zhuàngtài de gǎnjué, qíngxù huò xīnlǐ lìchǎng."});
 // link description to node
 MATCH (t:TOPIC)
@@ -40,6 +41,6 @@ MERGE (t)-[:HAS_DESCRIPTION {name: "edge.ATTITUDE"}]->(d);
 MATCH (parent:TOPIC)
 MATCH (child:TOPIC)
 WHERE parent.name = "topic.SPIRITUALITY" AND child.name = "topic.ATTITUDE"
-MERGE (parent)-[:HAS_CHILD {name: "edge.CREATION->ATTITUDE"}]->(child);
+MERGE (parent)-[:HAS_CHILD {name: "edge.SPIRITUALITY->ATTITUDE"}]->(child);
 
 ```

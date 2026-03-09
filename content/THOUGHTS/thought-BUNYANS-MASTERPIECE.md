@@ -8,6 +8,7 @@ tags: ["john_bunyan", "law", "grace", "literature", "revelation"]
 ptopic: "[[topic-GRACE]]"
 level: 3
 neo4j: true
+verified: false
 ---
 
 ```Cypher

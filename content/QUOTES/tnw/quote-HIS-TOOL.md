@@ -16,6 +16,7 @@ tags: ["knowing", "confidence", "guarantee", "holy_spirit", "divine_witness"]
 ptopic: "[[topic-EVIL]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher

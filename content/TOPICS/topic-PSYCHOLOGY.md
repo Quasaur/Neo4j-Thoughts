@@ -8,6 +8,7 @@ tags: ["soul", "psyche", "mind", "awareness", "consciousness"]
 ptopic: "[[topic-HUMANITY]]"
 level: 4
 neo4j: true
+verified: true
 ---
 
 ```Cypher
@@ -17,24 +18,20 @@ CREATE (t:TOPIC
 		alias: "Topic: The Science of Mind and Behavior", 
 		parent: "topic.HUMANITY", 
 		tags: ["soul", "psyche", "mind", "awareness", "consciousness"], 
-- Topic: Behavioral Psychology
-- Topic: Clinical Psychology
-- Topic: Cognitive Psychology
-- Topic: Developmental Psychology
-- Topic: Social Psychology",
-		level: 4});
+		level: 4
+		});
 // create multi-lingual description		
 CREATE (d:DESCRIPTION {
 	name: "desc.PSYCHOLOGY", 
-	en_title: "Psychology", 
+	en_title: "Topic: The Science of Mind and Behavior", 
 	en_content: "The study of mind and behavior in relation to a particular field of knowledge or activity.", 
-	es_title: "Psicología", 
+	es_title: "Tema: La ciencia de la mente y el comportamiento", 
 	es_content: "El estudio de la mente y el comportamiento en relación con un campo particular de conocimiento o actividad.", 
-	fr_title: "Psychologie", 
+	fr_title: "Sujet : La science de l'esprit et du comportement", 
 	fr_content: "L'étude de l'esprit et du comportement en relation avec un domaine particulier de connaissance ou d'activité.", 
-	hi_title: "साइकोलॉजी",
+	hi_title: "विषय: मन और व्यवहार का विज्ञान",
 	hi_content: "किसी खास ज्ञान या काम के क्षेत्र के संबंध में मन और व्यवहार का अध्ययन।",
-	zh_title: "Xīnlǐ xué",
+	zh_title: "Zhǔtí: Xīnzhì yǔ xíngwéi kēxué",
 	zh_content: "yánjiū xīnlǐ hé xíngwéi yǔ tèdìng zhīshì lǐngyù huò huódòng zhī jiān guānxì de xuékē."});
 // link description to node
 MATCH (t:TOPIC)

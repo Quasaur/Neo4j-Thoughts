@@ -8,6 +8,7 @@ tags: ["accuser", "devil", "focus", "grace"]
 ptopic: "[[topic-GUILT]]"
 level: 5
 neo4j: true
+verified: false
 ---
 
 ```Cypher

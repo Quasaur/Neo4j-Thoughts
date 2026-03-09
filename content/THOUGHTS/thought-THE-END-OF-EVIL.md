@@ -8,6 +8,7 @@ tags: ["day", "evil", "cessation", "hope", "future"]
 ptopic: "[[topic-EVIL]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher

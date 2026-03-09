@@ -1,19 +1,20 @@
 ---
 type: QUOTE
 name: "quote.CONSEQUENCES (2)"
-alias: "Quote: Decisiions have Consequences"
+alias: "Quote: Decisions have Consequences"
 parent: "topic.DIVINE SOVEREIGNTY"
 en_content: "Every sentient being is a 'free-will' agent and can make decisions (acts of the will) to determine their destiny, but ONLY GOD DETERMINES THE CONSEQUENCES OF THOSE DECISIONS AND ACTIONS. The Jew who assisted in the weaponization of Zyklon gas for use in World War I had no idea his government would use the same gas to exterminate millions of European Jews in World War II. In the same way, neither you nor I can imagine the far-reaching consequences of the decisions we make today."
 tags: ["decisions", "outcomes", "god", "sovereignty", "volition"]
-ptopic: "[[topic-DIVINE]]"
+ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
 level: 2
 neo4j: true
+verified: false
 ---
 
 ```Cypher
 //create the Thought with the same fields as a normal thought
 CREATE (q:QUOTE {	    name: "quote.CONSEQUENCES (2)",
-		alias: "Quote: Decisiions have Consequences", 
+		alias: "Quote: Decisions have Consequences", 
 		parent: "topic.DIVINE SOVEREIGNTY", 
 		tags: ["decisions", "outcomes", "god", "sovereignty", "volition"], 
 		source: "IMMUNITY to the Lake of Fire: A No-Nonsense Guide",
@@ -44,4 +45,4 @@ MATCH (child:QUOTE)
 WHERE parent.name = 'topic.DIVINE SOVEREIGNTY' AND child.name = 'quote.CONSEQUENCES (2)'
 MERGE (parent)-[:HAS_QUOTE {name: "q.edge.DIVINE SOVEREIGNTY->CONSEQUENCES (2)"}]->(child);
 
-```
+```,file_path:

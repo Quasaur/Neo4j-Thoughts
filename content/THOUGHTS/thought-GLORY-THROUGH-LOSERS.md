@@ -8,6 +8,7 @@ tags: ["grace", "glory", "humility", "weakness", "blessing"]
 ptopic: "[[topic-GRACE]]"
 level: 3
 neo4j: true
+verified: false
 ---
 
 ```Cypher

@@ -8,6 +8,7 @@ tags: ["forgiveness", "cross", "atonement", "grace", "pride"]
 ptopic: "[[topic-MERCY]]"
 level: 5
 neo4j: true
+verified: false
 ---
 
 ```Cypher

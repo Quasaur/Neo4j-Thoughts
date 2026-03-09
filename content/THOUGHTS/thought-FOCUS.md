@@ -7,6 +7,7 @@ tags: ["focus", "crisis", "forward", "criticalthinking", "faith"]
 ptopic: "[[topic-PSYCHOLOGY]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher

@@ -7,6 +7,7 @@ tags: ["gun_violence", "mass_shootings", "gunlaws", "nra", "uscongress"]
 ptopic: "[[topic-PSYCHOLOGY]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher

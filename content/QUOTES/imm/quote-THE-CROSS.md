@@ -16,6 +16,7 @@ tags: ["gospel", "power", "jesus_christ", "redemption", "sanctification"]
 ptopic: "[[topic-THE-GOSPEL]]"
 level: 2
 neo4j: true
+verified: false
 ---
 
 ```Cypher

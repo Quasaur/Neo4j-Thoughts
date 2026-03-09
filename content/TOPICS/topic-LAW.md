@@ -8,6 +8,7 @@ tags: ["ordiance", "legislation", "regulation", "statute", "act"]
 ptopic: "[[topic-MORALITY]]"
 level: 4
 neo4j: true
+verified: true
 ---
 
 ```Cypher
@@ -23,15 +24,15 @@ CREATE (t:TOPIC {
 // CREATE DESCRIPTION
 CREATE (d:DESCRIPTION {
     name: "desc.LAW",
-    en_title: "Law",
+    en_title: "Topic: Jurisprudence",
     en_content: "A binding custom or practice of a community formally recognized as binding or enforced by a controlling authority.",
-    es_title: "LEY",
+    es_title: "Tema: Jurisprudencia",
     es_content: "Una costumbre o práctica vinculante de una comunidad formalmente reconocida como vinculante o impuesta por una autoridad controladora.",
-    fr_title: "LOI",
+    fr_title: "Sujet : Jurisprudence",
     fr_content: "Une coutume ou une pratique contraignante d'une communauté officiellement reconnue comme contraignante ou appliquée par une autorité de contrôle.",
-    hi_title: "कानून",
+    hi_title: "विषय: न्यायशास्त्र",
     hi_content: "किसी समुदाय का बाध्यकारी रिवाज या अभ्यास जिसे औपचारिक रूप से बाध्यकारी माना जाता है या किसी नियंत्रक प्राधिकरण द्वारा लागू किया जाता है।",
-    zh_title: "Fǎlǜ",
+    zh_title: "Zhǔtí: Fǎ lǐxué",
     zh_content: "Shèqū de bǎngdìng xísú huò shíjiàn, bèi zhèngshì rènkě wéi bǎngdìng huò yóu kòngzhì jīgòu zhíxíng."
 });
 

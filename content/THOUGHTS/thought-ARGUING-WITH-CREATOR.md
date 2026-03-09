@@ -8,6 +8,7 @@ tags: ["humanity", "rebellion", "creation", "argument", "pride"]
 ptopic: "[[topic-HUMANITY]]"
 level: 3
 neo4j: true
+verified: false
 ---
 
 ```Cypher

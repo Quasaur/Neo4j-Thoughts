@@ -8,6 +8,7 @@ tags: ["judgment", "arrogance", "prosperity", "sovereignty", "god"]
 ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
 level: 2
 neo4j: true
+verified: false
 ---
 
 ```Cypher

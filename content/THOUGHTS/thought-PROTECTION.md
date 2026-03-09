@@ -9,6 +9,7 @@ tags: ["holy_spirit", "spirit_of_truth", "standard", "defense", "jesus_christ"]
 ptopic: "[[topic-THE-GODHEAD]]"
 level: 1
 neo4j: true
+verified: false
 ---
 ```Cypher
 CREATE (t:THOUGHT {

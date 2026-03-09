@@ -8,6 +8,7 @@ tags: ["adam", "humans", "mankind", "homosapiens", "likeness_of_god"]
 ptopic: "[[topic-CREATION]]"
 level: 2
 neo4j: true
+verified: true
 ---
 
 ```Cypher
@@ -17,19 +18,20 @@ CREATE (t:TOPIC
 		alias: "Topic: Mankind", 
 		parent: "topic.CREATION", 
 		tags: ["adam", "humans", "mankind", "homosapiens", "likeness_of_god"], 
-		level: 2});
+		level: 2
+		});
 // create multi-lingual description		
 CREATE (d:DESCRIPTION {
 	name: "desc.HUMANITY", 
-	en_title: "Humanity", 
+	en_title: "Topic: Mankind", 
 	en_content: "Mankind, male and female, created in the Image and Likeness of The GODHEAD.", 
-	es_title: "HUMANIDAD", 
+	es_title: "Tema: La humanidad", 
 	es_content: "La humanidad, hombre y mujer, creados a Imagen y Semejanza de la DEIDAD.", 
-	fr_title: "L'HUMANITÉ", 
+	fr_title: "Sujet : L'humanité", 
 	fr_content: "L'humanité, homme et femme, a été créée à l'image et à la ressemblance de la DIVINITÉ.", 
-	hi_title: "मानवता", 
+	hi_title: "विषय: मानव जाति", 
 	hi_content: "मानव जाति, नर और मादा, ईश्वर की छवि और समानता में बनाई गई है।", 
-	zh_title: "Rénlèi", 
+	zh_title: "Zhǔtí: Rénlèi", 
 	zh_content: "rénlèi, wúlùn nánnǚ, dōu shì ànzhào shén de xíngxiàng hé yàngshì bèi chuàngzào de."});
 // link description to node
 MATCH (t:TOPIC)

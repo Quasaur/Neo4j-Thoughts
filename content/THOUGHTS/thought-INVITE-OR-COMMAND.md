@@ -11,6 +11,7 @@ tags: ["repent", "invite", "command", "gospel", "judgment"]
 ptopic: "[[topic-THE-GOSPEL]]"
 level: 2
 neo4j: true
+verified: false
 ---
 ```Cypher
 CREATE (t:THOUGHT {

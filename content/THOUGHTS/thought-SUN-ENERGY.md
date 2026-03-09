@@ -8,6 +8,7 @@ tags: ["creation", "sun", "power", "matter", "majesty"]
 ptopic: "[[topic-ASTROPHYSICS]]"
 level: 5
 neo4j: true
+verified: false
 ---
 
 ```Cypher

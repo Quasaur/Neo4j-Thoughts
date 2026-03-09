@@ -8,6 +8,7 @@ tags: ["design", "language", "intelligence", "communication", "creation"]
 ptopic: "[[topic-COMMUNICATION-THEORY]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher

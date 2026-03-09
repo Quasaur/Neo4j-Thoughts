@@ -8,6 +8,7 @@ tags: ["people", "reason", "life", "attitude", "problem"]
 ptopic: "[[topic-WISDOM]]"
 level: 3
 neo4j: true
+verified: false
 ---
 
 ```Cypher

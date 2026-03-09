@@ -8,6 +8,7 @@ tags: ["narcissism", "self_worship", "religion", "humanitarian", "evolution"]
 ptopic: "[[topic-RELIGION]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher

@@ -7,6 +7,7 @@ tags: ["spirituality", "damnation", "soul", "lake_of_fire", "judgment"]
 ptopic: "[[topic-JUSTICE]]"
 level: 5
 neo4j: true
+verified: false
 ---
 
 ```Cypher

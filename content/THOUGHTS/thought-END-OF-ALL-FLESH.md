@@ -16,6 +16,7 @@ tags: ["judgment", "sovereignty", "end_times", "justice", "divinity"]
 ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
 level: 2
 neo4j: true
+verified: false
 ---
 
 ```Cypher

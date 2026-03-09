@@ -8,6 +8,7 @@ tags: ["mass_shootings", "gun_violence", "guns", "church", "prayer"]
 ptopic: "[[topic-PSYCHOLOGY]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher

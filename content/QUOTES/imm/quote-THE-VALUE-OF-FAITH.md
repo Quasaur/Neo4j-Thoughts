@@ -15,6 +15,7 @@ en_content: "Faith is only as potent and valuable (or, only as REAL) as the idea
 tags: ["faith", "value", "worth", "target", "object"]
 ptopic: "[[topic-FAITH]]"
 level: 4
+verified: false
 ---
 
 ```Cypher

@@ -8,6 +8,7 @@ tags: ["sovereignty", "providence", "grace", "willpower", "surrender"]
 ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
 level: 2
 neo4j: true
+verified: false
 ---
 
 ```Cypher

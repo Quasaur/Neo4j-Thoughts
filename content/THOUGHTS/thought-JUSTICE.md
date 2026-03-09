@@ -7,6 +7,7 @@ tags: ["justice", "spirituality", "forgiveness", "gospel", "fair"]
 ptopic: "[[topic-JUSTICE]]"
 level: 5
 neo4j: true
+verified: false
 ---
 
 ```Cypher

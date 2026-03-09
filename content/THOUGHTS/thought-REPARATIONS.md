@@ -7,6 +7,7 @@ tags: ["reparations", "slavery", "blackamericans", "compensation", "justice"]
 ptopic: "[[topic-JUSTICE]]"
 level: 5
 neo4j: true
+verified: false
 ---
 
 ```Cypher

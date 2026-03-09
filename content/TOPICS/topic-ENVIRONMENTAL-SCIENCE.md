@@ -8,6 +8,7 @@ tags: ["ecosystem", "resources", "climate", "cycle", "change"]
 ptopic: "[[topic-NATURAL-SCIENCES]]"
 level: 6
 neo4j: true
+verified: true
 ---
 
 ```Cypher
@@ -18,19 +19,20 @@ CREATE (t:TOPIC
 		alias: "Topic: Earth's Natural Processes", 
 		parent: "topic.NATURAL SCIENCES", 
 		tags: ["ecosystem", "resources", "climate", "cycle", "change"], 
-		level: 6});
+		level: 6
+	});
 // create multi-lingual description		
 CREATE (d:DESCRIPTION {
 	name: "desc.ENVIRONMENTAL SCIENCE", 
-	en_title: "Environmental Science", 
+	en_title: "Topic: Earth's Natural Processes", 
 	en_content: "The branch of the Natural Sciences that studies how the solid Earth, its water, its air, and its living organisms interact, and how these interconnected systems change over time.", 
-	es_title: "Ciencias Ambientales",
+	es_title: "Tema: Procesos naturales de la Tierra",
 	es_content: "Rama de las Ciencias Naturales que estudia cómo interactúan la Tierra sólida, el agua, el aire y los organismos vivos, y cómo cambian estos sistemas interconectados con el tiempo.", 
-	fr_title: "Sciences de l'environnement", 
+	fr_title: "Sujet : Les processus naturels de la Terre", 
 	fr_content: "Branche des sciences naturelles qui étudie les interactions entre la Terre solide, son eau, son air et ses organismes vivants, et la manière dont ces systèmes interconnectés évoluent au fil du temps.", 
-	hi_title: "पर्यावरण विज्ञान", 
+	hi_title: "विषय: पृथ्वी की प्राकृतिक प्रक्रियाएँ", 
 	hi_content: "प्राकृतिक विज्ञान की वह शाखा जो यह अध्ययन करती है कि ठोस पृथ्वी, उसका पानी, उसकी हवा और उसके जीवित जीव कैसे एक-दूसरे से इंटरैक्ट करते हैं, और ये आपस में जुड़े सिस्टम समय के साथ कैसे बदलते हैं।", 
-	zh_title: "Huánjìng kēxué", 
+	zh_title: "Zhǔtí: Dìqiú de zìrán guòchéng", 
 	zh_content: "zìrán kēxué de yīgè fēnzhī, yánjiū dìqiú de gùtǐ bùfèn, shuǐ, kōngqì jí qí shēngwù tǐ rúhé xiānghù zuòyòng, yǐjí zhèxiē xiānghù guānlián de xìtǒng rúhé suí shíjiān biànhuà."});
 // link description to node
 MATCH (t:TOPIC)

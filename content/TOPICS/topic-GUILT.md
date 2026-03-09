@@ -1,13 +1,14 @@
 ---
 type: TOPIC
 name: "topic.GUILT"
-alias: "Topic: Guilt - The Instrument of Law & Religion"
+alias: "Topic: Guilt"
 parent: "topic.RELIGION"
 en_content: "A feeling of responsibility for wrongdoing; a courtroom conviction."
 tags: ["responsibility", "transgression", "condemnation", "repentance", "atonement"]
 ptopic: "[[topic-RELIGION]]"
 level: 5
-neo4j: false
+neo4j: true
+verified: true
 ---
 
 ```Cypher
@@ -15,7 +16,7 @@ neo4j: false
 CREATE (t:TOPIC
     {
 	    name: "topic.GUILT",
-		alias: "Topic: Guilt - The Instrument of Law & Religion", 
+		alias: "Topic: Guilt", 
 		parent: "topic.RELIGION", 
 		tags: ["responsibility", "transgression", "condemnation", "repentance", "atonement"],
 		level: 5
@@ -23,15 +24,15 @@ CREATE (t:TOPIC
 // create multi-lingual description		
 CREATE (d:DESCRIPTION {
 	name: "desc.GUILT", 
-	en_title: "Guilt", 
+	en_title: "Topic: Guilt", 
 	en_content: "A feeling of responsibility for wrongdoing; a courtroom conviction.", 
-	es_title: "Culpa", 
+	es_title: "Tema: Culpa", 
 	es_content: "Sentimiento de responsabilidad por haber cometido una falta; una condena judicial.", 
-	fr_title: "Culpabilité", 
+	fr_title: "Sujet : La culpabilité", 
 	fr_content: "Un sentiment de responsabilité pour une faute commise ; une condamnation par un tribunal.", 
-	hi_title: "दोष",
+	hi_title: "विषय: अपराधबोध",
 	hi_content: "गलत काम के लिए ज़िम्मेदारी का एहसास; कोर्ट में सज़ा मिलना।",
-	zh_title: "Zuì'è gǎn",
+	zh_title: "Zhǔtí: Nèijiù",
 	zh_content: "duì zìjǐ de cuòwù xíngwéi gǎndào nèijiù; fǎtíng shàng de dìngzuì."
 	});
 // link description to node

@@ -8,6 +8,7 @@ tags: ["wellness", "disease", "care", "public_health", "interdisciplinary"]
 ptopic: "[[topic-COSMOLOGY]]"
 level: 5
 neo4j: true
+verified: true
 ---
 
 ```Cypher
@@ -22,15 +23,15 @@ CREATE (t:TOPIC
 // create multi-lingual description		
 CREATE (d:DESCRIPTION {
 	name: "desc.HEALTH SCIENCES", 
-	en_title: "Health Sciences", 
+	en_title: "Topic: The Science of Human Health", 
 	en_content: "The interdisciplinary field that studies the human body, health, disease, and healthcare systems in order to prevent illness, improve well‑being, and deliver effective clinical and public‑health interventions.", 
-	es_title: "Ciencias de la Salud",
+	es_title: "Tema: La ciencia de la salud humana",
 	es_content: "Campo interdisciplinario que estudia el cuerpo humano, la salud, las enfermedades y los sistemas de atención médica con el fin de prevenir enfermedades, mejorar el bienestar y brindar intervenciones clínicas y de salud pública efectivas.", 
-	fr_title: "Sciences de la santé", 
+	fr_title: "Sujet : La science de la santé humaine", 
 	fr_content: "Ce domaine interdisciplinaire étudie le corps humain, la santé, les maladies et les systèmes de santé afin de prévenir les maladies, d'améliorer le bien-être et de mettre en œuvre des interventions cliniques et de santé publique efficaces.", 
-	hi_title: "स्वास्थ्य विज्ञान", 
+	hi_title: "विषय: मानव स्वास्थ्य का विज्ञान", 
 	hi_content: "यह एक इंटरडिसिप्लिनरी फील्ड है जो बीमारी को रोकने, सेहत को बेहतर बनाने और असरदार क्लिनिकल और पब्लिक हेल्थ इंटरवेंशन देने के लिए इंसानी शरीर, स्वास्थ्य, बीमारी और हेल्थकेयर सिस्टम का अध्ययन करती है।", 
-	zh_title: "Jiànkāng kēxué", 
+	zh_title: "Zhǔtí: Rénlèi jiànkāng kēxué", 
 	zh_content: "zhè shì yīgè kuà xuékē lǐngyù, yánjiū réntǐ, jiànkāng, jíbìng hé yīliáo bǎojiàn xìtǒng, zhǐ zài yùfáng jíbìng, gǎishàn jiànkāng zhuàngkuàng, bìng tígōng yǒuxiào de línchuáng hé gōnggòng wèishēng gānyù cuòshī."});
 // link description to node
 MATCH (t:TOPIC)

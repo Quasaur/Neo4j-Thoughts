@@ -8,6 +8,7 @@ tags: ["prosperity", "faith", "prayer", "supplication", "sorcery"]
 ptopic: "[[topic-RELIGION]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher

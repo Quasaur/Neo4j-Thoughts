@@ -2,19 +2,20 @@
 type: THOUGHT
 name: "thought.ACTS OF THE APOSTLES"
 alias: "Thought: Acts of the Apostles"
-parent: "topic.THE-BIBLE"
+parent: "topic.THE BIBLE"
 en_content: "The Acts of the Apostles mentions thirty-two countries, fifty-four cities and nine islands without a factual or historical error."
 tags: ["bible", "luke", "chronology", "geography", "accuracy"]
-ptopic: "[[topic-THE-BIBLE]]"
+ptopic: "[[topic-THE BIBLE]]"
 level: 5
 neo4j: true
+verified: false
 ---
 
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.ACTS OF THE APOSTLES",
     alias: "Thought: Acts of the Apostles",
-    parent: "topic.THE-BIBLE",
+    parent: "topic.THE BIBLE",
     tags: ["bible", "luke", "chronology", "geography", "accuracy"],
     level: 5
 });

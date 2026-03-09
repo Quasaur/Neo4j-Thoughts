@@ -7,6 +7,7 @@ tags: ["spirits", "sentience", "god", "selfaware", "iam"]
 ptopic: "[[topic-SPIRITS]]"
 level: 3
 neo4j: true
+verified: false
 ---
 
 ```Cypher

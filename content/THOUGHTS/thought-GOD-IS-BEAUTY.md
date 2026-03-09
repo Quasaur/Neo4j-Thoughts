@@ -8,6 +8,7 @@ tags: ["beauty", "aesthetics", "divinity", "holiness", "character"]
 ptopic: "[[topic-BEAUTY]]"
 level: 5
 neo4j: false
+verified: false
 ---
 
 ```Cypher

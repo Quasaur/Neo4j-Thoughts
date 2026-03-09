@@ -16,6 +16,7 @@ tags: ["gospel", "promise", "jesus_christ", "value", "precious"]
 ptopic: "[[topic-THE-GOSPEL]]"
 level: 2
 neo4j: true
+verified: false
 ---
 
 ```Cypher

@@ -7,6 +7,7 @@ tags: ["insanity", "madness", "delusion", "narcissism", "fooliishness"]
 ptopic: "[[topic-PSYCHOLOGY]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher

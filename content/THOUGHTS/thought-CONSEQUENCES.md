@@ -7,6 +7,7 @@ tags: ["consequences", "mercy", "sovereignty", "sin", "suffering"]
 ptopic: "[[topic-MERCY]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher

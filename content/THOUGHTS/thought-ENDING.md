@@ -16,6 +16,7 @@ tags: ["ending", "bible", "apocalypse", "judgment", "newjerusalem"]
 ptopic: "[[topic-APOCALYPSE]]"
 level: 5
 neo4j: true
+verified: false
 ---
 
 ```Cypher

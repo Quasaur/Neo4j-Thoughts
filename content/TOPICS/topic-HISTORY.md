@@ -3,11 +3,12 @@ type: TOPIC
 name: "topic.HISTORY"
 alias: "Topic: Chronology"
 parent: "topic.HUMANITY"
-en_content: "An account of important events in the order in which they happened"
+en_content: "An account of important events in the order in which they happened."
 tags: ["annals", "chronicles", "biography", "records", "journal"]
 ptopic: "[[topic-HUMANITY]]"
 level: 4
 neo4j: true
+verified: true
 ---
 
 ```Cypher
@@ -23,15 +24,15 @@ CREATE (t:TOPIC {
 // CREATE DESCRIPTION
 CREATE (d:DESCRIPTION {
     name: "desc.HISTORY",
-    en_title: "History",
-    en_content: "An account of important events in the order in which they happened",
-    es_title: "HISTORIA",
+    en_title: "Topic: Chronology",
+    en_content: "An account of important events in the order in which they happened.",
+    es_title: "Tema: Cronología",
     es_content: "Un relato de eventos importantes en el orden en que ocurrieron.",
-    fr_title: "HISTOIRE",
+    fr_title: "Sujet : Chronologie",
     fr_content: "Un récit d'événements importants dans l'ordre où ils se sont produits.",
-    hi_title: "इतिहास",
+    hi_title: "विषय: कालक्रम",
     hi_content: "महत्वपूर्ण घटनाओं का एक विवरण जिस क्रम में वे घटित हुए।",
-    zh_title: "Lìshǐ",
+    zh_title: "Zhǔtí: Nián biǎo",
     zh_content: "Ànzhào shìjiàn fāshēng de shùnxù duì zhòngyào shìjiàn de jìshù."
 });
 

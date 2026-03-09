@@ -8,6 +8,7 @@ tags: ["faith", "truth", "imagination", "lifestyle", "action"]
 ptopic: "[[topic-FAITH]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher

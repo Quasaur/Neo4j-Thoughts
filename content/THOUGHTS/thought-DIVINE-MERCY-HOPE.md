@@ -8,6 +8,7 @@ tags: ["mercy", "hope", "grace", "humanity", "salvation"]
 ptopic: "[[topic-MERCY]]"
 level: 5
 neo4j: true
+verified: false
 ---
 
 ```Cypher

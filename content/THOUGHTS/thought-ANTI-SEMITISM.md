@@ -10,6 +10,7 @@ tags: ["antisemitism", "antinegro", "antijew", "antiblack", "jesus_christ"]
 ptopic: "[[topic-PSYCHOLOGY]]"
 level: 4
 neo4j: true
+verified: false
 ---
 ```Cypher
 CREATE (t:THOUGHT {

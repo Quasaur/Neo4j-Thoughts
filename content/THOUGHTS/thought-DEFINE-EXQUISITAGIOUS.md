@@ -8,6 +8,7 @@ tags: ["beauty", "language", "humor", "contagious", "aesthetics"]
 ptopic: "[[topic-LINGUISTICS]]"
 level: 5
 neo4j: false
+verified: false
 ---
 
 ```Cypher

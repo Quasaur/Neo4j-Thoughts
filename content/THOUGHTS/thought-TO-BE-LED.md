@@ -7,6 +7,7 @@ tags: ["led", "follow", "leadership", "holy_spirit", "travel"]
 ptopic: "[[topic-GRACE]]"
 level: 3
 neo4j: true
+verified: false
 ---
 
 ```Cypher

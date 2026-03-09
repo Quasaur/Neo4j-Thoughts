@@ -8,6 +8,7 @@ tags: ["spirituality", "bible", "jesus_christ", "nexus", "truevine"]
 ptopic: "[[topic-SPIRITUALITY]]"
 level: 2
 neo4j: true
+verified: false
 ---
 
 ```Cypher

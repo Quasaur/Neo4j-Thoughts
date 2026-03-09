@@ -16,6 +16,7 @@ tags: ["doubt", "performance", "christ", "righteousness", "assurance"]
 ptopic: "[[topic-RELIGION]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher

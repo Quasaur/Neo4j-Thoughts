@@ -8,6 +8,7 @@ tags: ["universe", "creation", "power", "majesty", "sight"]
 ptopic: "[[topic-COSMOLOGY]]"
 level: 3
 neo4j: true
+verified: false
 ---
 
 ```Cypher

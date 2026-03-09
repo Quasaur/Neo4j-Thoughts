@@ -8,6 +8,7 @@ tags: ["judgment", "earth", "destruction", "sovereignty", "bible"]
 ptopic: "[[topic-ENVIRONMENTAL-SCIENCE]]"
 level: 6
 neo4j: true
+verified: false
 ---
 
 ```Cypher

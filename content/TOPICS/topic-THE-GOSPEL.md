@@ -5,9 +5,10 @@ alias: "Topic: The Good News"
 parent: "topic.THE GODHEAD"
 en_content: "The Life, Death, Burial, Resurrection, Ascension and Return of Jesus Christ."
 tags: ["evangel", "good_news", "jesus", "salvation", "redemption"]
-ptopic: "[[topic-THE GODHEAD]]"
+ptopic: "[[topic-THE-GODHEAD]]"
 level: 2
 neo4j: true
+verified: true
 ---
 
 ```Cypher
@@ -17,25 +18,26 @@ CREATE (t:TOPIC
 		alias: "Topic: The Good News", 
 		parent: "topic.THE GODHEAD", 
 		tags: ["evangel", "good_news", "jesus", "salvation", "redemption"], 
-		level: 2});
+		level: 2
+	});
 // create multi-lingual description		
 CREATE (d:DESCRIPTION {
 	name: "desc.THE GOSPEL", 
-	en_title: "The Gospel", 
+	en_title: "Topic: The Good News", 
 	en_content: "The Life, Death, Burial, Resurrection, Ascension and Return of Jesus Christ.", 
-	es_title: "EL EVANGELIO", 
+	es_title: "Tema: La buena noticia", 
 	es_content: "Vida, Muerte, Sepultura, Resurrección, Ascensión y Regreso de Jesucristo.", 
-	fr_title: "L'ÉVANGILE", 
+	fr_title: "Sujet : La Bonne Nouvelle", 
 	fr_content: "La vie, la mort, l'ensevelissement, la résurrection, l'ascension et le retour de Jésus-Christ.", 
-	hi_title: "सुसमाचार", 
+	hi_title: "विषय: अच्छी खबर", 
 	hi_content: "यीशु मसीह का जीवन, मृत्यु, दफ़न, पुनरुत्थान, स्वर्गारोहण और वापसी।", 
-	zh_title: "Fúyīn", 
+	zh_title: "zhǔ tí ：hǎo xiāo xī", 
 	zh_content: "yēsū jīdū de shēngpíng, sǐwáng, máizàng, fùhuó, shēngtiān hé zàilái."});
 // link description to node
 MATCH (t:TOPIC)
 MATCH (d:DESCRIPTION)
 WHERE t.name = "topic.THE GOSPEL" AND d.name = "desc.THE GOSPEL"
-MERGE (t)-[:HAS_DESCRIPTION {name: "edge.The Gospel"}]->(d);
+MERGE (t)-[:HAS_DESCRIPTION {name: "edge.THE GOSPEL"}]->(d);
 // link node to parent node
 MATCH (parent:TOPIC)
 MATCH (child:TOPIC)

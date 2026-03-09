@@ -16,6 +16,7 @@ tags: ["self_sacrifice", "submission", "offering", "love", "christfirst"]
 ptopic: "[[topic-HUMILITY]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher

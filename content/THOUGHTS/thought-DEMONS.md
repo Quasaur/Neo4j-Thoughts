@@ -7,6 +7,7 @@ tags: ["demons", "hardhearted", "grace", "divine", "jesus_christ"]
 ptopic: "[[topic-SPIRITS]]"
 level: 3
 neo4j: true
+verified: false
 ---
 
 ```Cypher

@@ -7,6 +7,7 @@ tags: ["justice", "fairness", "mercy", "forgiveness", "compassion"]
 ptopic: "[[topic-JUSTICE]]"
 level: 5
 neo4j: true
+verified: false
 ---
 
 ```Cypher

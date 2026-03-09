@@ -8,6 +8,7 @@ tags: ["obligation", "due", "now", "bills", "morality"]
 ptopic: "[[topic-MORALITY]]"
 level: 3
 neo4j: true
+verified: false
 ---
 
 ```Cypher

@@ -7,6 +7,7 @@ tags: ["devil", "ego", "slave", "sin", "tongue"]
 ptopic: "[[topic-EVIL]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher

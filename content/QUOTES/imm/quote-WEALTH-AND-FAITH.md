@@ -16,6 +16,7 @@ tags: ["wealth", "faith", "exclusivity", "sovereignty", "heaven"]
 ptopic: "[[topic-WEALTH]]"
 level: 3
 neo4j: true
+verified: false
 ---
 
 ```Cypher

@@ -16,6 +16,7 @@ tags: ["evil", "wicked", "reprobate", "hopeless", "jesus_christ"]
 ptopic: "[[topic-EVIL]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher

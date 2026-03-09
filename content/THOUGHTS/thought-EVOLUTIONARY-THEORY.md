@@ -8,6 +8,7 @@ tags: ["evolution", "theory", "unlawful", "unproven", "unscientific"]
 ptopic: "[[topic-COSMOLOGY]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher

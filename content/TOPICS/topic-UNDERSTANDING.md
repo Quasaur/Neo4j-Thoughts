@@ -8,6 +8,7 @@ tags: ["comprehension", "mental", "grasp", "agreement", "ascertain"]
 ptopic: "[[topic-SPIRITUALITY]]"
 level: 3
 neo4j: true
+verified: true
 ---
 
 ```Cypher
@@ -21,15 +22,15 @@ CREATE (t:TOPIC
 // create multi-lingual description		
 CREATE (d:DESCRIPTION {
 	name: "desc.UNDERSTANDING", 
-	en_title: "Understanding", 
+	en_title: "Topic: Comprehension", 
 	en_content: "A mental grasp of truth or an agreement between individuals or groups.", 
-	es_title: "Comprensión", 
+	es_title: "Tema: Comprensión", 
 	es_content: "Una comprensión mental de la verdad o un acuerdo entre individuos o grupos.", 
-	fr_title: "Compréhension", 
+	fr_title: "Sujet : Compréhension", 
 	fr_content: "Une compréhension mentale de la vérité ou un accord entre des individus ou des groupes.", 
-	hi_title: "समझ", 
+	hi_title: "विषय: समझ", 
 	hi_content: "सत्य की मानसिक समझ या व्यक्तियों या समूहों के बीच सहमति।", 
-	zh_title: "Lǐjiě", 
+	zh_title: "zhǔ tí ： lǐ jiě", 
 	zh_content: "duì zhēnlǐ de xīnlǐ bǎwò, huò gèrén huò qúntǐ zhī jiān de gòngshì."});
 // link description to node
 MATCH (t:TOPIC)

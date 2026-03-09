@@ -16,6 +16,7 @@ tags: ["jesus_christ", "lastadam", "humanity", "exalted", "holy_spirit"]
 ptopic: "[[topic-HUMANITY]]"
 level: 3
 neo4j: true
+verified: false
 ---
 
 ```Cypher

@@ -8,6 +8,7 @@ tags: ["forgiveness", "hypocrisy", "attitude", "character", "disgusting"]
 ptopic: "[[topic-LOVE]]"
 level: 3
 neo4j: true
+verified: false
 ---
 
 ```Cypher

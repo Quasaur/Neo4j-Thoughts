@@ -8,6 +8,7 @@ tags: ["pride", "attitude", "reason", "character", "arrogance"]
 ptopic: "[[topic-EVIL]]"
 level: 3
 neo4j: true
+verified: false
 ---
 
 ```Cypher

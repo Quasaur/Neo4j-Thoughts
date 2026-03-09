@@ -8,6 +8,7 @@ tags: ["health", "spiritual", "god", "allpleasing", "character"]
 ptopic: "[[topic-SPIRITUALITY]]"
 level: 2
 neo4j: true
+verified: false
 ---
 
 ```Cypher

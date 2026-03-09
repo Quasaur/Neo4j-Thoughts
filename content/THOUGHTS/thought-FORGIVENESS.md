@@ -7,6 +7,7 @@ tags: ["forgiveness", "atonement", "propitiation", "thecross", "jesus_christ"]
 ptopic: "[[topic-MERCY]]"
 level: 5
 neo4j: true
+verified: false
 ---
 
 ```Cypher

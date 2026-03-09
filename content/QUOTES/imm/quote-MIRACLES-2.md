@@ -8,6 +8,7 @@ tags: ["miracles", "divine", "reason", "logic", "discernment"]
 ptopic: "[[topic-THE]]"
 level: 1
 neo4j: true
+verified: false
 ---
 
 ```Cypher

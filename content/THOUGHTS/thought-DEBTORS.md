@@ -7,6 +7,7 @@ tags: ["economics", "nation", "debtors", "slaves", "liability"]
 ptopic: "[[topic-ECONOMICS]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher

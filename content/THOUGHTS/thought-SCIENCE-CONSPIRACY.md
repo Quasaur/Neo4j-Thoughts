@@ -11,6 +11,7 @@ tags: ["science", "cosmology", "geocentricity", "michelson", "creationism"]
 ptopic: "[[topic-COSMOLOGY]]"
 level: 4
 neo4j: true
+verified: false
 ---
 ```Cypher
 CREATE (t:THOUGHT {

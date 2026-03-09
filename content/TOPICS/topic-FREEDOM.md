@@ -8,6 +8,7 @@ tags: ["free", "choice", "options", "unrestrained", "decisions"]
 ptopic: "[[topic-LAW]]"
 level: 5
 neo4j: true
+verified: true
 ---
 
 ```Cypher
@@ -23,15 +24,15 @@ CREATE (t:TOPIC {
 // CREATE DESCRIPTION
 CREATE (d:DESCRIPTION {
     name: "desc.FREEDOM",
-    en_title: "Freedom",
+    en_title: "Topic: Free to be Moral",
     en_content: "The absence of necessity, coercion, or constraint in choice or action with the framework of morality and law.",
-    es_title: "LIBERTAD",
+    es_title: "Tema: Libre para ser moral",
     es_content: "La ausencia de necesidad, coacción o restricción en la elección o acción dentro del marco de la moralidad y la ley.",
-    fr_title: "LIBERTÉ",
+    fr_title: "Sujet : Libre d'être moral",
     fr_content: "L'absence de nécessité, de coercition ou de contrainte dans le choix ou l'action dans le cadre de la moralité et de la loi.",
-    hi_title: "आज़ादी",
+    hi_title: "विषय: नैतिक होने की आज़ादी",
     hi_content: "नैतिकता और कानून के ढांचे के भीतर पसंद या कार्रवाई में आवश्यकता, जबरदस्ती या बाधा की अनुपस्थिति।",
-    zh_title: "Zìyóu",
+    zh_title: "Zhǔtí: Zìyóu xuǎnzé dàodé zhǔnzé",
     zh_content: "Zài dàodé hé fǎlǜ de kuàngjià nèi, xuǎnzé huò xíngdòng zhōng quēfá bìyào, qiǎngpò huò yuēshù."
 });
 

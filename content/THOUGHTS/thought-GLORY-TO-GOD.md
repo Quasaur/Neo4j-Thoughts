@@ -8,6 +8,7 @@ tags: ["the_glory_of_god", "splendor", "purpose", "existence", "sovereignty"]
 ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
 level: 2
 neo4j: true
+verified: false
 ---
 
 ```Cypher

@@ -13,6 +13,7 @@ tags: ["kindness", "truth", "favor", "reputation", "god"]
 ptopic: "[[topic-ATTITUDE]]"
 level: 3
 neo4j: true
+verified: false
 ---
 ```Cypher
 //create the Passage with the same fields as a normal thought

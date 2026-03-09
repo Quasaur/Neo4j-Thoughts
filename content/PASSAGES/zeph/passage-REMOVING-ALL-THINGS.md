@@ -16,6 +16,7 @@ tags: ["judgment", "sovereignty", "bible", "earth", "prophecy"]
 ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
 level: 2
 neo4j: true
+verified: false
 ---
 
 ```Cypher

@@ -16,6 +16,7 @@ tags: ["gift", "grace", "accomplish", "effort", "duplicate"]
 ptopic: "[[topic-UNDERSTANDING]]"
 level: 3
 neo4j: true
+verified: false
 ---
 
 ```Cypher

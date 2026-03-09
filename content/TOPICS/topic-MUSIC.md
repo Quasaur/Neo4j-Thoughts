@@ -8,7 +8,7 @@ tags: ["music", "art", "sound", "harmony", "melody"]
 ptopic: "[[topic-MUSICOLOGY]]"
 level: 5
 neo4j: true
-insert: "True"
+verified: true
 ---
 
 ```Cypher
@@ -19,22 +19,22 @@ CREATE (t:TOPIC {    name: "topic.MUSIC",
     level: 5});
 
 CREATE (d:DESCRIPTION {
-    name: "description.MUSIC",
-    en_title: "Music",
+    name: "desc.MUSIC",
+    en_title: "Topic: Music",
     en_content: "The art and science of combining vocal or instrumental sounds to produce beauty of form, harmony, and expression of emotion.",
-    es_title: "Música",
+    es_title: "Tema: Música",
     es_content: "El arte y la ciencia de combinar sonidos vocales o instrumentales para producir belleza de forma, armonía y expresión de emociones.",
-    fr_title: "Musique",
+    fr_title: "Sujet : Musique",
     fr_content: "L'art et la science de combiner des sons vocaux ou instrumentaux pour produire une beauté de forme, d'harmonie et une expression d'émotion.",
-    hi_title: "संगीत",
+    hi_title: "विषय: संगीत",
     hi_content: "संगीत रूप की सुंदरता, सद्भाव और भावना की अभिव्यक्ति का उत्पादन करने के लिए मुखर या वाद्य ध्वनियों के संयोजन की कला और विज्ञान।",
-    zh_title: "yīn yuè",
+    zh_title: "Zhǔtí: Yīnyuè",
     zh_content: "yīn yuè shì yī mén jié hé rén shēng huò lè qì shēng yīn yǐ chǎn shēng xíng tà sù fǎ 、 hé xié hé qíng gǎn biǎo dá de yì shù hé kē xué 。"
 });
 
 MATCH (t:TOPIC)
 MATCH (d:DESCRIPTION)
-WHERE t.name = "topic.MUSIC" AND d.name = "description.MUSIC"
+WHERE t.name = "topic.MUSIC" AND d.name = "desc.MUSIC"
 MERGE (t)-[:HAS_DESCRIPTION {name: "edge.MUSIC"}]->(d);
 
 MATCH (parent:TOPIC)

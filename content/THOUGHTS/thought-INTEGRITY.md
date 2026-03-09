@@ -7,6 +7,7 @@ tags: ["stand", "True", "integrity", "character", "godliness"]
 ptopic: "[[topic-MORALITY]]"
 level: 3
 neo4j: true
+verified: false
 ---
 
 ```Cypher

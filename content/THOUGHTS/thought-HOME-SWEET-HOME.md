@@ -8,6 +8,7 @@ tags: ["home", "sweet", "safety", "fellowship", "godhead"]
 ptopic: "[[topic-THE-GOSPEL]]"
 level: 2
 neo4j: true
+verified: false
 ---
 
 ```Cypher

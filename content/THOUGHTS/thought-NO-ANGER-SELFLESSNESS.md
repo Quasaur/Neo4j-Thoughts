@@ -8,6 +8,7 @@ tags: ["selflessness", "anger", "attitude", "peace", "character"]
 ptopic: "[[topic-ATTITUDE]]"
 level: 3
 neo4j: true
+verified: false
 ---
 
 ```Cypher

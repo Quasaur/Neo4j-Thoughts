@@ -8,6 +8,7 @@ tags: ["pride", "devil", "evil", "selfishness", "deception"]
 ptopic: "[[topic-EVIL]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher

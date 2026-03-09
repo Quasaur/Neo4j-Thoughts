@@ -8,6 +8,7 @@ tags: ["tedx", "russellellis", "whitesupremacy", "change", "faith"]
 ptopic: "[[topic-PSYCHOLOGY]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher

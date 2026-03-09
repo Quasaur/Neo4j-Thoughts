@@ -2,19 +2,20 @@
 type: THOUGHT
 name: "thought.US FOREIGN POLICY"
 alias: "Thought: Dark Us Foreign Policy"
-parent: "topic.POLITICAL-SCIENCE"
+parent: "topic.POLITICAL SCIENCE"
 en_content: "USA foreign policy is imperial, dictatorial, ruthless, dirty, immoral...inevitably invoking the WRATH OF GOD against us all."
 tags: ["usa", "foreignpolicy", "govoverthrow", "wrath_of_god", "threat"]
-ptopic: "[[topic-POLITICAL-SCIENCE]]"
+ptopic: "[[topic-POLITICAL SCIENCE]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher
 CREATE (t:THOUGHT {
     name: "thought.US FOREIGN POLICY",
     alias: "Thought: Dark Us Foreign Policy",
-    parent: "topic.POLITICAL-SCIENCE",
+    parent: "topic.POLITICAL SCIENCE",
     tags: ["usa", "foreignpolicy", "govoverthrow", "wrath_of_god", "threat"],
     level: 4
 });

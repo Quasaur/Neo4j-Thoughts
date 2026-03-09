@@ -8,6 +8,7 @@ tags: ["morals", "righteousness", "decency", "virtue", "integrity"]
 ptopic: "[[topic-SPIRITUALITY]]"
 level: 3
 neo4j: true
+verified: true
 ---
 
 ```Cypher
@@ -21,15 +22,15 @@ CREATE (t:TOPIC
 // create multi-lingual description		
 CREATE (d:DESCRIPTION {
 	name: "desc.MORALITY", 
-	en_title: "Morality", 
+	en_title: "Topic: Matters of the Conscience", 
 	en_content: "A doctrine or system of moral conduct.", 
-	es_title: "Moralidad", 
+	es_title: "Tema: Asuntos de conciencia", 
 	es_content: "Una doctrina o sistema de conducta moral.", 
-	fr_title: "Moralité", 
+	fr_title: "Sujet : Questions de conscience", 
 	fr_content: "Une doctrine ou un système de conduite morale.", 
-	hi_title: "नैतिकता", 
+	hi_title: "विषय: अंतरात्मा के मामले", 
 	hi_content: "नैतिक आचरण का एक सिद्धांत या प्रणाली।", 
-	zh_title: "Dàodé", 
+	zh_title: "Zhǔtí: Liángxīn wèntí", 
 	zh_content: "dàodé xíngwéi de jiàoyì huò tǐxì."});
 // link description to node
 MATCH (t:TOPIC)

@@ -8,6 +8,7 @@ tags: ["ruler", "jesus_christ", "desire", "nations", "the_pearl"]
 ptopic: "[[topic-WORSHIP]]"
 level: 2
 neo4j: true
+verified: false
 ---
 
 ```Cypher

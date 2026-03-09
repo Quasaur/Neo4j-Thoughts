@@ -16,6 +16,7 @@ tags: ["gospel", "purpose", "fellowship", "godhead", "unconditional"]
 ptopic: "[[topic-GRACE]]"
 level: 3
 neo4j: true
+verified: false
 ---
 
 ```Cypher

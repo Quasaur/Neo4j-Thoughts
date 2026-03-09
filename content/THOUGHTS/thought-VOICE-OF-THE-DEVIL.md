@@ -8,6 +8,7 @@ tags: ["hate", "bitterness", "violence", "devil", "spiritual_warfare"]
 ptopic: "[[topic-EVIL]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher

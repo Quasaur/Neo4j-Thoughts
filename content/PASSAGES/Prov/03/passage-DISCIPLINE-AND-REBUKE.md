@@ -8,6 +8,7 @@ tags: ["humility", "discipline", "rebuke", "love", "delight"]
 ptopic: "[[topic-HUMILITY]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher

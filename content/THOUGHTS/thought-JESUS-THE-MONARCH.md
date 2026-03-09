@@ -5,9 +5,10 @@ alias: "Thought: Jesus The Monarch"
 parent: "topic.POLITICAL SCIENCE"
 en_content: "Jesus is neither a Republican nor a Democrat; Jesus is God...an Absolute Monarch."
 tags: ["sovereignty", "monarchy", "authority", "politics", "divinity"]
-ptopic: "[[topic-POLITICAL-SCIENCE]]"
+ptopic: "[[topic-POLITICAL SCIENCE]]"
 level: 5
 neo4j: true
+verified: false
 ---
 
 ```Cypher

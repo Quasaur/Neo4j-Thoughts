@@ -16,6 +16,7 @@ tags: ["faith", "truth", "salvation", "lake_of_fire", "love"]
 ptopic: "[[topic-THE-GOSPEL]]"
 level: 2
 neo4j: true
+verified: false
 ---
 
 ```Cypher

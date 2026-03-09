@@ -8,6 +8,7 @@ tags: ["religion", "gospel", "truth", "works", "the_cross"]
 ptopic: "[[topic-RELIGION]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher

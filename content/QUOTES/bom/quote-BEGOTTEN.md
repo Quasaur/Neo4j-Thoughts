@@ -10,6 +10,7 @@ tags: ["adam", "first", "last", "jesus_christ", "begotten"]
 ptopic: "[[topic-THE]]"
 level: 2
 neo4j: true
+verified: false
 ---
 ```Cypher
 //create the Thought with the same fields as a normal thought

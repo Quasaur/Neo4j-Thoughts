@@ -8,6 +8,7 @@ tags: ["science", "bigbang", "lost", "creatiion", "origin"]
 ptopic: "[[topic-COSMOLOGY]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher

@@ -8,6 +8,7 @@ tags: ["violence", "society", "media", "attitude", "failure"]
 ptopic: "[[topic-WISDOM]]"
 level: 3
 neo4j: true
+verified: false
 ---
 
 ```Cypher

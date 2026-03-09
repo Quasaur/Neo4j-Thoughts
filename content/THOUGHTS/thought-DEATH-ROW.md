@@ -8,6 +8,7 @@ tags: ["condemnation", "world", "pardon", "receive", "jesus"]
 ptopic: "[[topic-THE-GOSPEL]]"
 level: 2
 neo4j: true
+verified: false
 ---
 
 ```Cypher

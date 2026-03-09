@@ -8,6 +8,7 @@ tags: ["sol", "sun", "star", "rotation", "axis"]
 ptopic: "[[topic-CREATION]]"
 level: 2
 neo4j: true
+verified: false
 ---
 
 ```Cypher

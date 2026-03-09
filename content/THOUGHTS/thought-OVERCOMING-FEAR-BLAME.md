@@ -8,6 +8,7 @@ tags: ["fear", "blame", "attitude", "courage", "character"]
 ptopic: "[[topic-ATTITUDE]]"
 level: 3
 neo4j: true
+verified: false
 ---
 
 ```Cypher

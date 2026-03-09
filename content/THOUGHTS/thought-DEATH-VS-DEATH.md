@@ -8,6 +8,7 @@ tags: ["death", "destroy", "idea", "god", "eternal_life"]
 ptopic: "[[topic-THE-GOSPEL]]"
 level: 2
 neo4j: true
+verified: false
 ---
 
 ```Cypher

@@ -8,6 +8,7 @@ tags: ["grace", "satan", "human_nature", "evil", "comparison"]
 ptopic: "[[topic-EVIL]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher

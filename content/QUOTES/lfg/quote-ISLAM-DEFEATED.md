@@ -16,6 +16,7 @@ tags: ["islam", "christianity", "biblical", "bible", "jesus_christ"]
 ptopic: "[[topic-RELIGION]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher

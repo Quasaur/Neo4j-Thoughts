@@ -16,6 +16,7 @@ tags: ["sin", "jesus_christ", "propitiation", "substitute", "sacrifice"]
 ptopic: "[[topic-JUSTICE]]"
 level: 5
 neo4j: true
+verified: false
 ---
 
 ```Cypher

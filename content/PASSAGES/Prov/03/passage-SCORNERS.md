@@ -8,6 +8,7 @@ tags: ["scorners", "scornful", "humble", "gift", "favor"]
 ptopic: "[[topic-EVIL]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher

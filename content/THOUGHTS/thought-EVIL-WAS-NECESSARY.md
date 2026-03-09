@@ -10,6 +10,7 @@ tags: ["lamb_of_god", "evil", "salvation", "forgiveness", "jesus_christ"]
 ptopic: "[[topic-EVIL]]"
 level: 4
 neo4j: true
+verified: false
 ---
 ```Cypher
 CREATE (t:THOUGHT {

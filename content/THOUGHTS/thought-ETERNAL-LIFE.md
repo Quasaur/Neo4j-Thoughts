@@ -8,6 +8,7 @@ tags: ["immortality", "eternal_life", "promise", "covenant", "god"]
 ptopic: "[[topic-FAITHFULNESS]]"
 level: 2
 neo4j: true
+verified: false
 ---
 
 ```Cypher

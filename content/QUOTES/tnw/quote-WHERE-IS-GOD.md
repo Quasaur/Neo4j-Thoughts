@@ -15,6 +15,7 @@ en_content: "GOD is the eight-billion-ton Leviathan in the room...yet you cannot
 tags: ["unperceived", "spiritual_death", "separation", "evil", "no_fellowship"]
 ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
 level: 4
+verified: false
 ---
 
 ```Cypher

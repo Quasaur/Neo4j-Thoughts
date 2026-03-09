@@ -1,23 +1,25 @@
 ---
 type: TOPIC
 name: "topic.NULL TOPIC"
-alias: "Topic ZERO: THE NULL TOPIC"
-parent: "null"
-en_content: "This is the NULL TOPIC: the root of the Book of Thoughts graph database."
+alias: "Topic Zero: The Null Topic"
+parent: "no parent"
+en_content: "This is the NULL TOPIC: the root of the Book of Wisdom graph database."
 tags: ["topic", "first", "prime", "root", "zero"]
 ptopic:
 level: 0
 neo4j: true
+verified: true
 ---
 
 ```Cypher
 //create the NULL TOPIC with the same fields as a normal topic
 CREATE (t:TOPIC
-    {	  name: "topic.NULL TOPIC",
-		alias: "Topic ZERO: THE NULL TOPIC", 
+    {	name: "topic.NULL TOPIC",
+		alias: "Topic Zero: The Null Topic", 
 		parent: null, 
 		tags: ["topic", "first", "prime", "root", "zero"], 
-		level: 0});
+		level: 0
+		});
 // create multi-lingual description		
 CREATE (d:DESCRIPTION {
 	name: "desc.NULL TOPIC", 
@@ -30,7 +32,9 @@ CREATE (d:DESCRIPTION {
 	hi_title: "मूल विषय", 
 	hi_content: "यह शून्य विषय है: विचारों की पुस्तक ग्राफ डेटाबेस का मूल।", 
 	zh_title: "Zhēnlǐ", 
-	zh_content: "chāoyuè de gēnběn huò jīngshén xiànshí."});
+	zh_content: "chāoyuè de gēnběn huò jīngshén xiànshí."
+	});
+	
 MATCH (t:TOPIC)
 MATCH (d:DESCRIPTION)
 WHERE t.name = "topic.NULL TOPIC" AND d.name = "desc.NULL TOPIC"

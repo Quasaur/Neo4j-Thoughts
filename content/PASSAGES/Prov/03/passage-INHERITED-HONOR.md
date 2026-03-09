@@ -10,6 +10,7 @@ tags: ["wise", "inherit", "honor", "fools", "disgrace"]
 ptopic: "[[topic-WISDOM]]"
 level: 3
 neo4j: true
+verified: false
 ---
 ```Cypher
 //create the Passage with the same fields as a normal thought

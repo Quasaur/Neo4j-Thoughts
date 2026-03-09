@@ -2,7 +2,7 @@
 type: QUOTE
 name: "quote.THE CHRISTIAN SYSTEM"
 alias: "Quote: The Christian System"
-parent: "topic.POLITICAL-SCIENCE"
+parent: "topic.POLITICAL SCIENCE"
 en_content: "So what is Christianity? Jesus Christ, and all Truth concerning Him IS Christianity. So by saying that Jesus Christ is a political / economic figurehead as well as a spiritual figurehead I am implying that Christianity is a political / economic system as well.",
  es_title: "Cita: EL SISTEMA CRISTIANO",
  es_content: "Entonces ¿qué es el cristianismo? Jesucristo, y toda verdad acerca de Él ES cristianismo. Entonces, al decir que Jesucristo es una figura política/económica así como una figura espiritual, estoy implicando que el cristianismo es también un sistema político/económico.",
@@ -13,9 +13,10 @@ en_content: "So what is Christianity? Jesus Christ, and all Truth concerning Him
  zh_title: "yǐn yòng ： jī dū jiào tǐ xì",
  zh_content: "nà me shén me shì jī dū jiào ne ？ yē sū jī dū yǐ jí guān yú tā de suǒ yǒu zhēn lǐ dōu shì jī dū jiào 。 yīn cǐ ， tōng guò shuō yē sū jī dū shì yí gè zhèng zhì / jīng jì kuǐ lěi yǐ jí jīng shén kuǐ lěi ， wǒ shì zài àn shì jī dū jiào yě shì yí gè zhèng zhì / jīng jì tǐ xì 。"
 tags: ["christianity", "jesus_christ", "truth", "political", "economic"]
-ptopic: "[[topic-POLITICAL-SCIENCE]]"
+ptopic: "[[topic-POLITICAL SCIENCE]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher
@@ -23,7 +24,7 @@ neo4j: true
 CREATE (q:QUOTE {
     name: "quote.THE CHRISTIAN SYSTEM",
     alias: "Quote: The Christian System",
-    parent: "topic.POLITICAL-SCIENCE",
+    parent: "topic.POLITICAL SCIENCE",
     tags: ["christianity", "jesus_christ", "truth", "political", "economic"],
     source: "'The Traveler's Oasis, Book Three'",
     booklink: "(https://www.amazon.com/Travelers-Oasis-Book-Three-ebook/dp/B00YRKX8E4)",

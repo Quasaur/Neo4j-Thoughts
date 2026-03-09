@@ -7,6 +7,7 @@ tags: ["persistence", "failure", "quitting", "consequence", "success"]
 ptopic: "[[topic-ATTITUDE]]"
 level: 3
 neo4j: true
+verified: false
 ---
 
 ```Cypher

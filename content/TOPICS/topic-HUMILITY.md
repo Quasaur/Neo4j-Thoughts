@@ -8,6 +8,7 @@ tags: ["humble", "lowly", "service", "lowliness", "meekness"]
 ptopic: "[[topic-ATTITUDE]]"
 level: 4
 neo4j: true
+verified: true
 ---
 
 ```Cypher
@@ -21,15 +22,15 @@ CREATE (t:TOPIC
 // create multi-lingual description		
 CREATE (d:DESCRIPTION {
 	name: "desc.HUMILITY", 
-	en_title: "Humility", 
+	en_title: "Topic: Lowliness of Heart", 
 	en_content: "Not having or showing any feelings of superiority, self-assertiveness, or showiness.", 
-	es_title: "Humildad", 
+	es_title: "Tema: Humildad de corazón", 
 	es_content: "No tener ni mostrar sentimientos de superioridad, autoafirmación ni ostentación.", 
-	fr_title: "Humilité", 
+	fr_title: "Sujet : L'humilité du cœur", 
 	fr_content: "Ne pas éprouver ni manifester de sentiments de supériorité, d'affirmation de soi ou d'ostentation.", 
-	hi_title: "विनम्रता", 
+	hi_title: "विषय: दिल की दीनता", 
 	hi_content: "श्रेष्ठता, आत्म-दृढ़ता या दिखावे जैसी कोई भावना न रखना या प्रदर्शित न करना।", 
-	zh_title: "Qiānxùn", 
+	zh_title: "Zhǔtí: Qiānbēi de xīn", 
 	zh_content: "bù biǎoxiàn chū rènhé yōuyuè gǎn, zìfù gǎn huò xuànyào gǎn."});
 // link description to node
 MATCH (t:TOPIC)

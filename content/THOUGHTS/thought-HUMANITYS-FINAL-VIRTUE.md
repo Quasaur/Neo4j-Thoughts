@@ -8,6 +8,7 @@ tags: ["jesus", "virtue", "humanity", "grace", "rejection"]
 ptopic: "[[topic-GRACE]]"
 level: 3
 neo4j: true
+verified: false
 ---
 
 ```Cypher

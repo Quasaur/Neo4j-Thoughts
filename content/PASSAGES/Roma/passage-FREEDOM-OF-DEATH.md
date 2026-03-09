@@ -8,6 +8,7 @@ tags: ["freedom", "death", "sin", "thecross", "jesus_christ"]
 ptopic: "[[topic-FREEDOM]]"
 level: 5
 neo4j: true
+verified: false
 ---
 
 ```Cypher

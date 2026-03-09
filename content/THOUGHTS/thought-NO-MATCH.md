@@ -23,6 +23,7 @@ tags: ["evolution", "science", "religion", "evidence", "faith"]
 ptopic: "[[topic-BEAUTY]]"
 level: 5
 neo4j: true
+verified: false
 ---
 ```Cypher
 CREATE (t:THOUGHT {

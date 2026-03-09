@@ -16,6 +16,7 @@ tags: ["lamb_of_god", "lake_of_fire", "book_of_life", "immunity", "fearless"]
 ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
 level: 2
 neo4j: true
+verified: false
 ---
 
 ```Cypher

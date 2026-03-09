@@ -7,6 +7,7 @@ tags: ["holy_spirit", "spirit_of_christ", "spirit_of_truth", "spirit_of_grace", 
 ptopic: "[[topic-SPIRITS]]"
 level: 3
 neo4j: true
+verified: false
 ---
 
 ```Cypher

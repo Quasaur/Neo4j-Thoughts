@@ -11,6 +11,7 @@ tags: ["miracles", "acts_of_god", "divine_power", "glory_of_god", "signs"]
 ptopic: "[[topic-THE-GODHEAD]]"
 level: 1
 neo4j: true
+verified: false
 ---
 ```Cypher
 CREATE (t:THOUGHT {

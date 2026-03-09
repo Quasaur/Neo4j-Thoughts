@@ -8,6 +8,7 @@ tags: ["idolatry", "divine", "superior", "fruit_of_the_spirit", "grace"]
 ptopic: "[[topic-MERCY]]"
 level: 5
 neo4j: true
+verified: false
 ---
 
 ```Cypher

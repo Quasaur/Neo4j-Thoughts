@@ -2,7 +2,7 @@
 type: QUOTE
 name: "quote.SCRIPTURE AS HISTORY"
 alias: "Quote: Scripture as History"
-parent: "topic.THE-BIBLE"
+parent: "topic.THE BIBLE"
 en_content: "The Bible is the most accurate ancient library of its kind, and 1,500 years of so-called 'higher criticism' has not proven otherwise. Rather, the reliability and reputation of the Holy Scriptures has only increased with the continuous examination of Their contents."
  es_title: "Cita: LA ESCRITURA COMO HISTORIA"
  es_content: "La Biblia es la biblioteca antigua más precisa de su tipo, y 1.500 años de la llamada \"alta crítica\" no han demostrado lo contrario. Más bien, la confiabilidad y reputación de las Sagradas Escrituras solo ha aumentado con el examen continuo de Su contenido."
@@ -13,9 +13,10 @@ en_content: "The Bible is the most accurate ancient library of its kind, and 1,5
  zh_title: "yǐn yòng ： shèng jīng zuò wéi lì shǐ"
  zh_content: "《 shèng jīng 》 shì tóng lèi zhōng zuì zhǔn què de gǔ dài tú shū guǎn ，1500  nián de suǒ wèi “ gāo děng pī píng ” bìng méi yǒu zhèng míng shì shí bìng fēi rú cǐ 。 xiāng fǎn ， shèng jīng de kě kào xìng hé shēng yù zhǐ huì suí zhe duì qí nèi róng de bù duàn jiǎn yàn ér zēng jiā 。"
 tags: ["bible", "research", "reliability", "holyscripture", "accuracy"]
-ptopic: "[[topic-THE-BIBLE]]"
+ptopic: "[[topic-THE BIBLE]]"
 level: 5
 neo4j: true
+verified: false
 ---
 
 ```Cypher
@@ -23,7 +24,7 @@ neo4j: true
 CREATE (q:QUOTE {
     name: "quote.SCRIPTURE AS HISTORY",
     alias: "Quote: Scripture as History",
-    parent: "topic.THE-BIBLE",
+    parent: "topic.THE BIBLE",
     tags: ["bible", "research", "reliability", "holyscripture", "accuracy"],
     source: "'The Narrow Way'",
     booklink: "()",

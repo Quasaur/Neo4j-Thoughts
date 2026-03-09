@@ -8,6 +8,7 @@ tags: ["faith", "will", "god", "knowledge"]
 ptopic: "[[topic-FAITH]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher

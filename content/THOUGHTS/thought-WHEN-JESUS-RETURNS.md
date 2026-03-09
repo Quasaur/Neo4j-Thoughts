@@ -11,6 +11,7 @@ tags: ["apocalypse", "demons", "angels", "spirituality", "life"]
 ptopic: "[[topic-HISTORY]]"
 level: 4
 neo4j: true
+verified: false
 ---
 ```Cypher
 CREATE (t:THOUGHT {

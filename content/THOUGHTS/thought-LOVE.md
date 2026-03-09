@@ -7,6 +7,7 @@ tags: ["love", "spirit", "attitude", "selfless", "generosity"]
 ptopic: "[[topic-LOVE]]"
 level: 2
 neo4j: true
+verified: false
 ---
 
 ```Cypher

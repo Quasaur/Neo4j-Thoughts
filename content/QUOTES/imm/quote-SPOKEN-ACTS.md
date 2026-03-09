@@ -16,6 +16,7 @@ tags: ["spoken", "words", "idle", "acts", "accountable"]
 ptopic: "[[topic-LINGUISTICS]]"
 level: 5
 neo4j: true
+verified: false
 ---
 
 ```Cypher

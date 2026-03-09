@@ -16,6 +16,7 @@ tags: ["chosen", "god", "sovereignty", "jesus_christ", "eternity"]
 ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
 level: 2
 neo4j: true
+verified: false
 ---
 
 ```Cypher

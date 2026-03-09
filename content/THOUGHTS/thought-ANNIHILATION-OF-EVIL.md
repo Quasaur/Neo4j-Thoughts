@@ -8,6 +8,7 @@ tags: ["evil", "destruction", "sovereignty", "prophecy", "forever"]
 ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
 level: 2
 neo4j: true
+verified: false
 ---
 
 ```Cypher

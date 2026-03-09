@@ -8,6 +8,7 @@ tags: ["faith", "evolution", "design", "creation", "science"]
 ptopic: "[[topic-PHILOSOPHY]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher

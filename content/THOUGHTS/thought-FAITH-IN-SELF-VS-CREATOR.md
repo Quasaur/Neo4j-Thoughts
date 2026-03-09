@@ -8,6 +8,7 @@ tags: ["faith", "self", "creator", "disaster", "trust"]
 ptopic: "[[topic-FAITH]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher

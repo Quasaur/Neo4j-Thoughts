@@ -16,6 +16,7 @@ tags: ["offering", "sin", "shame", "failure", "holy_spirit"]
 ptopic: "[[topic-GRACE]]"
 level: 3
 neo4j: true
+verified: false
 ---
 
 ```Cypher

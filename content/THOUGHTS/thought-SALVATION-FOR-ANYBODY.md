@@ -8,6 +8,7 @@ tags: ["salvation", "grace", "power", "god", "hope"]
 ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
 level: 2
 neo4j: true
+verified: false
 ---
 
 ```Cypher

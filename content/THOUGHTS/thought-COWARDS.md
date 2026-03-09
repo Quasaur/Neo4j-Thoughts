@@ -7,6 +7,7 @@ tags: ["terrorists", "freedom_fighters", "cowards", "children", "satan"]
 ptopic: "[[topic-EVIL]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 

@@ -8,6 +8,7 @@ tags: ["god", "lord", "judgment", "accountable", "responsible"]
 ptopic: "[[topic-HUMANITY]]"
 level: 3
 neo4j: true
+verified: false
 ---
 
 ```Cypher

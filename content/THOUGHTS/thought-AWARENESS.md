@@ -7,6 +7,7 @@ tags: ["faith", "awareness", "self", "god", "worship"]
 ptopic: "[[topic-THE-GODHEAD]]"
 level: 1
 neo4j: true
+verified: false
 ---
 
 ```Cypher

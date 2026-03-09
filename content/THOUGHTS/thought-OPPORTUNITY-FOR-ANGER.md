@@ -8,6 +8,7 @@ tags: ["anger", "attitude", "character", "human_nature", "emotion"]
 ptopic: "[[topic-ATTITUDE]]"
 level: 3
 neo4j: true
+verified: false
 ---
 
 ```Cypher

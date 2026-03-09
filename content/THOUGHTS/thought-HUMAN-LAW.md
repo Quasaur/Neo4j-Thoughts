@@ -8,6 +8,7 @@ tags: ["humanity", "god", "accountable", "law", "hope"]
 ptopic: "[[topic-LAW]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher

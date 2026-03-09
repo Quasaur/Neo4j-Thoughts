@@ -7,6 +7,7 @@ tags: ["priorities", "seekyefirst", "divine_will", "god", "faith"]
 ptopic: "[[topic-WISDOM]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher

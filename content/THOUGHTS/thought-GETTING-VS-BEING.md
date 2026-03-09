@@ -8,6 +8,7 @@ tags: ["possession", "character", "getting", "being", "attitude"]
 ptopic: "[[topic-WISDOM]]"
 level: 3
 neo4j: true
+verified: false
 ---
 
 ```Cypher

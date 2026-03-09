@@ -8,6 +8,7 @@ tags: ["self_denial", "humility", "seekyefirst", "god", "divine_will"]
 ptopic: "[[topic-FAITHFULNESS]]"
 level: 2
 neo4j: true
+verified: false
 ---
 
 ```Cypher

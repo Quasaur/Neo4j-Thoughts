@@ -7,6 +7,7 @@ tags: ["gnosis", "faith", "immortality", "knowledge", "believe"]
 ptopic: "[[topic-FAITH]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher

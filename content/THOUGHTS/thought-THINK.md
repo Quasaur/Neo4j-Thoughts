@@ -7,6 +7,7 @@ tags: ["think", "howto", "cognition", "critical", "logic"]
 ptopic: "[[topic-PSYCHOLOGY]]"
 level: 4
 neo4j: true
+verified: false
 ---
 
 ```Cypher

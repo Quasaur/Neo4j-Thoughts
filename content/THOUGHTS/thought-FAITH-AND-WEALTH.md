@@ -8,6 +8,7 @@ tags: ["faith", "wealth", "spiritual_riches", "provision", "belief"]
 ptopic: "[[topic-WEALTH]]"
 level: 3
 neo4j: true
+verified: false
 ---
 
 ```Cypher

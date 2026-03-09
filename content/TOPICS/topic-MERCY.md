@@ -8,6 +8,7 @@ tags: ["compassion", "leniency", "clemency", "empathy", "sympathy"]
 ptopic: "[[topic-LAW]]"
 level: 5
 neo4j: true
+verified: true
 ---
 
 ```Cypher
@@ -23,15 +24,15 @@ CREATE (t:TOPIC {
 // CREATE DESCRIPTION
 CREATE (d:DESCRIPTION {
     name: "desc.MERCY",
-    en_title: "Mercy",
+    en_title: "Topic: Compassion",
     en_content: "Compassion or forbearance shown to an offender or to one subject to another’s power.",
-    es_title: "MISERICORDIA",
+    es_title: "Tema: Compasión",
     es_content: "Compasión o tolerancia mostrada a un ofensor o a uno sujeto al poder de otro.",
-    fr_title: "MISÉRICORDE",
+    fr_title: "Sujet : Compassion",
     fr_content: "Compassion ou indulgence témoignée à un délinquant ou à une personne soumise au pouvoir d'autrui.",
-    hi_title: "दया",
+    hi_title: "विषय: करुणा",
     hi_content: "किसी अपराधी या किसी अन्य की शक्ति के अधीन व्यक्ति के प्रति दिखाई गई करुणा या सहनशीलता।",
-    zh_title: "Cíbēi",
+    zh_title: "Zhǔtí: Tóngqíng xīn",
     zh_content: "Duì zuìfàn huò shòu tā rén quánlì zhī pèi zhě fǎn xiǎn de cíbēi huò rěnràng."
 });
 

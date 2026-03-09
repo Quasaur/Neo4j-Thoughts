@@ -8,6 +8,7 @@ tags: ["matter", "energy", "life", "spirit", "knowledge"]
 ptopic: "[[topic-NATURAL-SCIENCES]]"
 level: 6
 neo4j: true
+verified: true
 ---
 
 ```Cypher
@@ -18,19 +19,20 @@ CREATE (t:TOPIC
 		alias: "Topic: Living Matter", 
 		parent: "topic.NATURAL SCIENCES", 
 		tags: ["matter", "energy", "life", "spirit", "knowledge"], 
-		level: 6});
+		level: 6
+	});
 // create multi-lingual description		
 CREATE (d:DESCRIPTION {
 	name: "desc.BIOLOGY", 
-	en_title: "Biology", 
+	en_title: "Topic: Living Matter", 
 	en_content: "A branch of knowledge that deals with living organisms and vital processes.", 
-	es_title: "Biología",
+	es_title: "Tema: Materia viva",
 	es_content: "Una rama del conocimiento que se ocupa de los organismos vivos y los procesos vitales.", 
-	fr_title: "Biologie", 
+	fr_title: "Sujet : La matière vivante", 
 	fr_content: "Une branche du savoir qui traite des organismes vivants et des processus vitaux.", 
-	hi_title: "जीव विज्ञान", 
+	hi_title: "विषय: जीवित पदार्थ", 
 	hi_content: "कज्ञान की एक शाखा जो जीवित जीवों और महत्वपूर्ण प्रक्रियाओं से संबंधित है।", 
-	zh_title: "Shēngwù xué", 
+	zh_title: "Zhǔtí: Shēngmìng wùzhí", 
 	zh_content: "yī mén yánjiūshēng wùtǐ hé shēngmìng guòchéng de xuékē."});
 // link description to node
 MATCH (t:TOPIC)

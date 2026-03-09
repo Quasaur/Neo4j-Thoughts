@@ -7,6 +7,7 @@ tags: ["adoption", "abba", "father", "child_of_god", "everlasting"]
 ptopic: "[[topic-THE-GOSPEL]]"
 level: 2
 neo4j: true
+verified: false
 ---
 
 ```Cypher

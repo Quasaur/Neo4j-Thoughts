@@ -8,6 +8,7 @@ tags: ["love", "transformation", "heart", "grace", "salvation"]
 ptopic: "[[topic-LOVE]]"
 level: 2
 neo4j: true
+verified: false
 ---
 
 ```Cypher

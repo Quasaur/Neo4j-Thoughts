@@ -8,6 +8,7 @@ tags: ["heart", "king", "divine_sovereignty", "water_streams", "free_will"]
 ptopic: "[[topic-DIVINE]]"
 level: 3
 neo4j: true
+verified: false
 ---
 
 ```Cypher
