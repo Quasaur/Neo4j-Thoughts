@@ -1,0 +1,623 @@
+{
+  "timestamp": "2026-03-13T07:58:15.303909",
+  "stats": {
+    "processed": 80,
+    "quote_updated": 16,
+    "content_updated": 16,
+    "quote_missing_in_db": 58,
+    "content_missing_in_db": 44,
+    "errors": 1,
+    "no_changes": 1
+  },
+  "details": [
+    {
+      "filename": "quote-ADOPTION-2.md",
+      "quote_name": "quote.ADOPTION (2)",
+      "actions": [
+        "QUOTE node missing in AuraDB",
+        "CONTENT node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-BANKRUPT.md",
+      "quote_name": "quote.BANKRUPT",
+      "actions": [
+        "Updated QUOTE: ['alias', 'tags', 'source']",
+        "Updated CONTENT: ['ctype', 'en_title', 'es_title', 'fr_title', 'zh_title']"
+      ]
+    },
+    {
+      "filename": "quote-CESSATION-OF-LABOR.md",
+      "quote_name": "quote.CESSATION OF LABOR",
+      "actions": [
+        "QUOTE node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-CHAOS.md",
+      "quote_name": "quote.CHAOS",
+      "actions": [
+        "Updated QUOTE: ['alias', 'source']",
+        "Updated CONTENT: ['ctype', 'en_title', 'es_title', 'fr_title', 'zh_title']"
+      ]
+    },
+    {
+      "filename": "quote-CHILD-OF-SATAN.md",
+      "quote_name": "quote.CHILD OF SATAN",
+      "actions": [
+        "QUOTE node missing in AuraDB",
+        "CONTENT node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-CHOSEN.md",
+      "quote_name": "quote.CHOSEN",
+      "actions": [
+        "Updated QUOTE: ['alias', 'parent', 'tags', 'source', 'booklink']",
+        "Updated CONTENT: ['ctype', 'en_title', 'es_title', 'fr_title', 'zh_title', 'zh_content']"
+      ]
+    },
+    {
+      "filename": "quote-CHRIST-IS-ENOUGH.md",
+      "quote_name": "quote.CHRIST IS ENOUGH",
+      "actions": [
+        "QUOTE node missing in AuraDB",
+        "CONTENT node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-CHRIST-THE-END.md",
+      "quote_name": "quote.CHRIST THE END",
+      "actions": [
+        "QUOTE node missing in AuraDB",
+        "CONTENT node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-CONSEQUENCES-2.md",
+      "quote_name": "quote.CONSEQUENCES (2)",
+      "actions": [
+        "Updated QUOTE: ['alias']",
+        "Updated CONTENT: ['ctype', 'en_title', 'es_title', 'fr_title', 'hi_title', 'zh_title']"
+      ]
+    },
+    {
+      "filename": "quote-DEAD-WORKS.md",
+      "quote_name": "quote.DEAD WORKS",
+      "actions": [
+        "QUOTE node missing in AuraDB",
+        "CONTENT node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-DESIRE-OF-NATIONS.md",
+      "quote_name": "quote.DESIRE OF NATIONS",
+      "actions": [
+        "QUOTE node missing in AuraDB",
+        "CONTENT node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-DUAL-PUNISHMENT.md",
+      "quote_name": "quote.DUAL PUNISHMENT",
+      "actions": [
+        "QUOTE node missing in AuraDB",
+        "CONTENT node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-ETERNAL-DAMNATION.md",
+      "quote_name": "quote.ETERNAL DAMNATION",
+      "actions": [
+        "QUOTE node missing in AuraDB",
+        "CONTENT node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-ETERNAL-LIGHT.md",
+      "quote_name": "quote.ETERNAL LIGHT",
+      "actions": [
+        "QUOTE node missing in AuraDB",
+        "CONTENT node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-ETERNITY.md",
+      "quote_name": "quote.ETERNITY",
+      "actions": [
+        "Updated CONTENT: ['ctype', 'en_title', 'es_title', 'fr_title', 'hi_title', 'zh_title']"
+      ]
+    },
+    {
+      "filename": "quote-EVIL-IDENTIFIED.md",
+      "quote_name": "quote.EVIL IDENTIFIED",
+      "actions": [
+        "QUOTE node missing in AuraDB",
+        "CONTENT node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-FAITH-FOCUSED.md",
+      "quote_name": "quote.FAITH FOCUSED",
+      "actions": [
+        "QUOTE node missing in AuraDB",
+        "CONTENT node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-FEELINGS.md",
+      "quote_name": "quote.FEELINGS",
+      "actions": [
+        "QUOTE node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-FOREKNOWN.md",
+      "quote_name": "quote.FOREKNOWN",
+      "actions": [
+        "Updated QUOTE: ['alias', 'parent', 'tags', 'source', 'booklink']",
+        "Updated CONTENT: ['ctype', 'en_title', 'es_title', 'fr_title', 'zh_title']"
+      ]
+    },
+    {
+      "filename": "quote-FORGIVE-SINS.md",
+      "quote_name": "quote.FORGIVE SINS",
+      "actions": [
+        "QUOTE node missing in AuraDB",
+        "CONTENT node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-FORGOTTEN-INJUSTICES.md",
+      "quote_name": "quote.FORGOTTEN INJUSTICES",
+      "actions": [
+        "Failed to update CONTENT"
+      ]
+    },
+    {
+      "filename": "quote-FRUIT-OF-THE-SPIRIT.md",
+      "quote_name": "quote.FRUIT OF THE SPIRIT",
+      "actions": [
+        "QUOTE node missing in AuraDB",
+        "CONTENT node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-FULL-ASSURANCE.md",
+      "quote_name": "quote.FULL ASSURANCE",
+      "actions": [
+        "QUOTE node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-GENIUS.md",
+      "quote_name": "quote.GENIUS",
+      "actions": [
+        "Updated QUOTE: ['alias', 'source', 'booklink']",
+        "Updated CONTENT: ['ctype', 'en_title', 'es_title', 'fr_title', 'zh_title']"
+      ]
+    },
+    {
+      "filename": "quote-GOD-IS-GENEROUS.md",
+      "quote_name": "quote.GOD IS GENEROUS",
+      "actions": [
+        "QUOTE node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-GOD-IS-GOOD.md",
+      "quote_name": "quote.GOD IS GOOD",
+      "actions": [
+        "Updated CONTENT: ['ctype', 'en_title', 'es_title', 'fr_title', 'hi_title', 'zh_title']"
+      ]
+    },
+    {
+      "filename": "quote-GOODNESS-OF-GOD.md",
+      "quote_name": "quote.GOODNESS OF GOD",
+      "actions": [
+        "Updated CONTENT: ['ctype', 'en_title', 'es_title', 'es_content', 'fr_title', 'hi_title', 'zh_title']"
+      ]
+    },
+    {
+      "filename": "quote-HEADING-HOME.md",
+      "quote_name": "quote.HEADING HOME",
+      "actions": [
+        "QUOTE node missing in AuraDB",
+        "CONTENT node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-HEAVENLY-FOOD.md",
+      "quote_name": "quote.HEAVENLY FOOD",
+      "actions": [
+        "QUOTE node missing in AuraDB",
+        "CONTENT node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-HEIR-OF-GOD.md",
+      "quote_name": "quote.HEIR OF GOD!",
+      "actions": [
+        "QUOTE node missing in AuraDB",
+        "CONTENT node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-HIS-TOOL.md",
+      "quote_name": "quote.HIS TOOL",
+      "actions": [
+        "QUOTE node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-HUMILITY.md",
+      "quote_name": "quote.HUMILITY",
+      "actions": [
+        "Updated QUOTE: ['alias', 'tags', 'source']"
+      ]
+    },
+    {
+      "filename": "quote-INCOMPATIBLE.md",
+      "quote_name": "quote.INCOMPATIBLE",
+      "actions": [
+        "Updated QUOTE: ['alias', 'tags', 'source', 'booklink']",
+        "Updated CONTENT: ['ctype', 'en_title', 'es_title', 'fr_title', 'zh_title']"
+      ]
+    },
+    {
+      "filename": "quote-ISLAM-DEFEATED.md",
+      "quote_name": "quote.ISLAM DEFEATED",
+      "actions": [
+        "QUOTE node missing in AuraDB",
+        "CONTENT node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-JUSTIFICATION.md",
+      "quote_name": "quote.JUSTIFICATION",
+      "actions": [
+        "Updated QUOTE: ['alias', 'tags', 'source', 'booklink']",
+        "Updated CONTENT: ['ctype', 'en_title', 'es_title', 'fr_title', 'zh_title']"
+      ]
+    },
+    {
+      "filename": "quote-LAW-OF-DOUBT.md",
+      "quote_name": "quote.LAW OF DOUBT",
+      "actions": [
+        "QUOTE node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-LIMITED-BIBLE.md",
+      "quote_name": "quote.LIMITED BIBLE",
+      "actions": [
+        "QUOTE node missing in AuraDB",
+        "CONTENT node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-LOGICAL-COURSE.md",
+      "quote_name": "quote.LOGICAL COURSE",
+      "actions": [
+        "QUOTE node missing in AuraDB",
+        "CONTENT node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-MIRACLES-2.md",
+      "quote_name": "quote.MIRACLES (2)",
+      "actions": [
+        "Updated QUOTE: ['source']"
+      ]
+    },
+    {
+      "filename": "quote-MY-PROGRAMMING.md",
+      "quote_name": "quote.MY PROGRAMMING",
+      "actions": [
+        "QUOTE node missing in AuraDB",
+        "CONTENT node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-NATION-OF-ISRAEL.md",
+      "quote_name": "quote.NATION OF ISRAEL",
+      "actions": [
+        "QUOTE node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-NO-NEED.md",
+      "quote_name": "quote.NO NEED",
+      "actions": [
+        "QUOTE node missing in AuraDB",
+        "CONTENT node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-NO-OBLIGATION.md",
+      "quote_name": "quote.NO OBLIGATION",
+      "actions": [
+        "QUOTE node missing in AuraDB",
+        "CONTENT node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-NORMAL-REALITY.md",
+      "quote_name": "quote.NORMAL REALITY",
+      "actions": [
+        "QUOTE node missing in AuraDB",
+        "CONTENT node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-NOT-WITHOUT-HUMILITY.md",
+      "quote_name": "quote.NOT WITHOUT HUMILITY",
+      "actions": [
+        "QUOTE node missing in AuraDB",
+        "CONTENT node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-ONE-FAMILY.md",
+      "quote_name": "quote.ONE FAMILY",
+      "actions": [
+        "QUOTE node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-ONE-WILL.md",
+      "quote_name": "quote.ONE WILL",
+      "actions": [
+        "QUOTE node missing in AuraDB",
+        "CONTENT node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-PERFECT-PEACE.md",
+      "quote_name": "quote.PERFECT PEACE",
+      "actions": [
+        "QUOTE node missing in AuraDB",
+        "CONTENT node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-PERFECTION.md",
+      "quote_name": "quote.PERFECTION",
+      "actions": [
+        "Updated QUOTE: ['source']"
+      ]
+    },
+    {
+      "filename": "quote-PERFORMANCE.md",
+      "quote_name": "quote.PERFORMANCE",
+      "actions": [
+        "Updated QUOTE: ['alias', 'source', 'booklink']",
+        "Updated CONTENT: ['ctype', 'en_title', 'es_title', 'fr_title', 'zh_title', 'zh_content']"
+      ]
+    },
+    {
+      "filename": "quote-POLITICAL-CHRIST.md",
+      "quote_name": "quote.POLITICAL CHRIST",
+      "actions": [
+        "QUOTE node missing in AuraDB",
+        "CONTENT node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-PRAYER.md",
+      "quote_name": "quote.PRAYER",
+      "actions": [
+        "Updated QUOTE: ['alias', 'source', 'booklink']",
+        "Updated CONTENT: ['ctype', 'en_title', 'es_title', 'fr_title', 'zh_title']"
+      ]
+    },
+    {
+      "filename": "quote-REINVENT.md",
+      "quote_name": "quote.REINVENT",
+      "actions": [
+        "Updated QUOTE: ['alias', 'source', 'booklink']",
+        "Updated CONTENT: ['ctype', 'en_title', 'es_title', 'fr_title', 'zh_title']"
+      ]
+    },
+    {
+      "filename": "quote-SCRIPTURE-AS-HISTORY.md",
+      "quote_name": "quote.SCRIPTURE AS HISTORY",
+      "actions": [
+        "QUOTE node missing in AuraDB",
+        "CONTENT node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-SELF-SACRIFICE.md",
+      "quote_name": "quote.SELF-SACRIFICE",
+      "actions": [
+        "Updated QUOTE: ['alias', 'tags', 'source', 'booklink']"
+      ]
+    },
+    {
+      "filename": "quote-SO-MANY-GOSPELS.md",
+      "quote_name": "quote.SO MANY GOSPELS",
+      "actions": [
+        "QUOTE node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-SOMETHING-BETTER.md",
+      "quote_name": "quote.SOMETHING BETTER",
+      "actions": [
+        "QUOTE node missing in AuraDB",
+        "CONTENT node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-SPOKEN-ACTS.md",
+      "quote_name": "quote.SPOKEN ACTS",
+      "actions": [
+        "QUOTE node missing in AuraDB",
+        "CONTENT node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-THE-BOOK-OF-LIFE.md",
+      "quote_name": "quote.THE BOOK OF LIFE",
+      "actions": [
+        "QUOTE node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-THE-CALL.md",
+      "quote_name": "quote.THE CALL",
+      "actions": [
+        "QUOTE node missing in AuraDB",
+        "CONTENT node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-THE-CHRISTIAN-SYSTEM.md",
+      "quote_name": "quote.THE CHRISTIAN SYSTEM",
+      "actions": [
+        "QUOTE node missing in AuraDB",
+        "CONTENT node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-THE-CROSS.md",
+      "quote_name": "quote.THE CROSS",
+      "actions": [
+        "QUOTE node missing in AuraDB",
+        "CONTENT node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-THE-DESIRE-TO-RETURN.md",
+      "quote_name": "quote.THE DESIRE TO RETURN",
+      "actions": [
+        "QUOTE node missing in AuraDB",
+        "CONTENT node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-THE-HEART-OF-MANKIND.md",
+      "quote_name": "quote.THE HEART OF MANKIND",
+      "actions": [
+        "QUOTE node missing in AuraDB",
+        "CONTENT node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-THE-LAST-ADAM.md",
+      "quote_name": "quote.THE LAST ADAM",
+      "actions": [
+        "QUOTE node missing in AuraDB",
+        "CONTENT node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-THE-MEANING-OF-LIFE.md",
+      "quote_name": "quote.THE MEANING OF LIFE",
+      "actions": [
+        "QUOTE node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-THE-NARROW-WAY.md",
+      "quote_name": "quote.THE NARROW WAY",
+      "actions": [
+        "QUOTE node missing in AuraDB",
+        "CONTENT node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-THE-SALVATION.md",
+      "quote_name": "quote.THE SALVATION",
+      "actions": [
+        "QUOTE node missing in AuraDB",
+        "CONTENT node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-THE-SERVANT-KING.md",
+      "quote_name": "quote.THE SERVANT KING",
+      "actions": [
+        "QUOTE node missing in AuraDB",
+        "CONTENT node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-THE-TEN-COMMANDMENTS.md",
+      "quote_name": "quote.THE TEN COMMANDMENTS",
+      "actions": [
+        "QUOTE node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-THE-VALUE-OF-FAITH.md",
+      "quote_name": "quote.THE VALUE OF FAITH",
+      "actions": [
+        "QUOTE node missing in AuraDB",
+        "CONTENT node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-TRANSCENDENT-VALUE.md",
+      "quote_name": "quote.TRANSCENDENT VALUE",
+      "actions": [
+        "QUOTE node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-TRUTH-AND-FAITH.md",
+      "quote_name": "quote.TRUTH AND FAITH",
+      "actions": [
+        "QUOTE node missing in AuraDB",
+        "CONTENT node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-UNCONDITIONAL-GRACE.md",
+      "quote_name": "quote.UNCONDITIONAL GRACE",
+      "actions": [
+        "QUOTE node missing in AuraDB",
+        "CONTENT node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-UNGODLY.md",
+      "quote_name": "quote.UNGODLY",
+      "actions": [
+        "Updated QUOTE: ['alias', 'tags', 'source', 'booklink']",
+        "Updated CONTENT: ['ctype', 'en_title', 'en_content', 'es_title', 'es_content', 'fr_title', 'fr_content', 'hi_content', 'zh_title', 'zh_content']"
+      ]
+    },
+    {
+      "filename": "quote-WEALTH-AND-FAITH.md",
+      "quote_name": "quote.WEALTH AND FAITH",
+      "actions": [
+        "QUOTE node missing in AuraDB",
+        "CONTENT node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-WHERE-IS-GOD.md",
+      "quote_name": "quote.WHERE IS GOD?",
+      "actions": [
+        "QUOTE node missing in AuraDB",
+        "CONTENT node missing in AuraDB"
+      ]
+    },
+    {
+      "filename": "quote-WORKS.md",
+      "quote_name": "quote.WORKS",
+      "actions": [
+        "Updated CONTENT: ['ctype', 'en_title', 'es_title', 'fr_title', 'hi_title', 'zh_title']"
+      ]
+    },
+    {
+      "filename": "quote-WRONG-REASON.md",
+      "quote_name": "quote.WRONG REASON",
+      "actions": [
+        "QUOTE node missing in AuraDB"
+      ]
+    }
+  ]
+}

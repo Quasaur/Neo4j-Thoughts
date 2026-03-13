@@ -4,14 +4,13 @@ name: "quote.BEGOTTEN"
 alias: "Quote: God's Only Son"
 parent: "topic.THE GOSPEL"
 source: "The Basics and More: A Year's Sermons"
-en_content: |
-  PLEASE UNDERSTAND: the First Adam was CREATED; the Last Adam is BEGOTTEN!!!  
-  That's why Jesus is called God's 'Only-Begotten' Son.
+en_content: "PLEASE UNDERSTAND: the First Adam was CREATED; the Last Adam is BEGOTTEN!!!  
+  That's why Jesus is called God's 'Only-Begotten' Son."
 tags: ["adam", "first", "last", "jesus_christ", "begotten"]
-ptopic: "[[topic-THE]]"
+ptopic: "[[topic-THE-GOSPEL]]"
 level: 2
 neo4j: true
-verified: false
+verified: true
 ---
 ```Cypher
 //create the Thought with the same fields as a normal thought
@@ -28,19 +27,19 @@ CREATE (q:QUOTE {
 CREATE (c:CONTENT {
  name: "content.BEGOTTEN",
  ctype: "QUOTE",
- en_title: "Begotten", 
+ en_title: "Quote: God's Only Son", 
  en_content: "PLEASE UNDERSTAND: the First Adam was CREATED; the Last Adam is BEGOTTEN!!!  
 That's why Jesus is called God's 'Only-Begotten' Son.", 
- es_title: "Engendrado", 
+ es_title: "Cita: El único hijo de Dios", 
  es_content: "POR FAVOR, ENTIENDA: el Primer Adán fue CREADO; ¡el Último Adán es ENGENDRADO!
 Por eso a Jesús se le llama el Hijo Unigénito de Dios.", 
- fr_title: "Engendré", 
+ fr_title: "Citation : Le Fils unique de Dieu", 
  fr_content: "VEUILLEZ COMPRENDRE : le premier Adam a été CRÉÉ ; le dernier Adam est ENGENDÉ !
 C’est pourquoi Jésus est appelé le Fils unique de Dieu.", 
- hi_title: "जन्मा",
+ hi_title: "उद्धरण: भगवान का एकमात्र पुत्र",
  hi_content: "कृपया समझें: पहला आदम सृजा गया था; अंतिम आदम जन्मा है!!!
 इसलिए यीशु को परमेश्वर का 'एकलौता' पुत्र कहा जाता है।",
- zh_title: "Shòu shēng",
+ zh_title: "yǐn yòng : shàng dì de dú shēng zi",
  zh_content: "qǐng lǐjiě: Dì yī gè yàdāng shì bèi zào de; mòhòu de yàdāng shì shòu shēng de!!!
 Yīncǐ, yēsū bèi chēng wéi shàngdì de 'dúshēngzǐ'."});
 // link content to node

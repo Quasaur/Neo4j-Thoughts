@@ -12,3 +12,13 @@ In the document docs/reports/edge_case_issues.md i have added responses to the r
 Compare the content folder (recursively) against the documents in the docs/Naming folder and identify discrepan
 cies or violatiions of the standards established in the docs/Naming folder, and document those discrepancies in a
 new markdown document in the docs/reports folder, including the file creation timestampt in its file name.
+
+## Prompt 5
+Compare the content/QUOTES folder against the documents in the docs/Naming folder and identify any errors, discrepancies or violations of the standards established by the markdown files in the docs/Naming folder, and document those discrepancies in a
+new markdown document in the docs/reports folder, including the file creation timestamp in its file name.
+
+## Prompt 6
+The markdown files in the content/QUOTES folder are considered source of truth. Connect to the Neo4j AuraDB online instance and compare all of the QUOTE nodes and their connected CONTENT nodes against the Cypher blocks in the markdown files of the content/QUOTES folder and refactor or replace any AuraDB QUOTE node property or the QUOTE node's connected CONTENT node properties with those in the Cypher blocks of the markdown files in the content/QUOTES folder.
+
+## Prompt 7
+Whatever nodes that exist in the content/QUOTES folder that are missing in the AuraDB online instance you must upload to the AuraDB. When all is done, there should be 80 QUOTE nodes in the AuraDB; any QUOTE nodes in the AuraDB that do not exist in the content/QUOTES folder you must delete along with their relationships and child nodes.

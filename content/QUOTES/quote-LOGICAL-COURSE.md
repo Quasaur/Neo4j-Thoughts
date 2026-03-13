@@ -3,21 +3,13 @@ type: QUOTE
 name: "quote.LOGICAL COURSE"
 alias: "Quote: Logical Course"
 parent: "topic.FAITH"
-source: "'Once Saved, Always Saved: The Assurance of Our Father's LOVE'"
-en_content: "The logical course of action for an ignorant creature (and all creatures are ignorant to varying degrees) is to place its total faith in its Creator Who knows and understands all.",
- es_title: "Cita: CURSO LÓGICO",
- es_content: "El curso de acción lógico para una criatura ignorante (y todas las criaturas son ignorantes en diversos grados) es depositar su fe total en su Creador, Quien lo sabe y lo comprende todo.",
- fr_title: "Citation : COURS LOGIQUE",
- fr_content: "La ligne de conduite logique pour une créature ignorante (et toutes les créatures sont ignorantes à des degrés divers) est de placer sa confiance totale en son Créateur qui sait et comprend tout.",
- hi_title: "उद्धरण: तार्किक पाठ्यक्रम",
- hi_content: "एक अज्ञानी प्राणी (और सभी प्राणी अलग-अलग डिग्री तक अज्ञानी हैं) के लिए कार्रवाई का तार्किक तरीका अपने निर्माता पर अपना पूरा विश्वास रखना है जो सब कुछ जानता और समझता है।",
- zh_title: "yǐn yòng ： luó jí kè chéng",
- zh_content: "duì yú yí gè wú zhī de shēng wù （ suǒ yǒu de shēng wù dōu bù tóng chéng dù dì wú zhī ） lái shuō ， hé hū luó jí de xíng dòng fāng zhēn shì wán quán xiāng xìn zhī dào bìng lǐ jiě yī qiè de zào wù zhǔ 。"
+source: "Once Saved, Always Saved: The Assurance of Our Father's LOVE"
+en_content: "The logical course of action for an ignorant creature (and all creatures are ignorant to varying degrees) is to place its total faith in its Creator Who knows and understands all."
 tags: ["logic", "action", "faith", "creator", "understanding"]
 ptopic: "[[topic-FAITH]]"
 level: 4
 neo4j: true
-verified: false
+verified: true
 ---
 
 ```Cypher
@@ -27,8 +19,8 @@ CREATE (q:QUOTE {
     alias: "Quote: Logical Course",
     parent: "topic.FAITH",
     tags: ["logic", "action", "faith", "creator", "understanding"],
-    source: "'Once Saved, Always Saved: The Assurance of Our Father's LOVE'",
-    booklink: "(https://www.amazon.com/Once-Saved-Always-Assurance-Fathers-ebook/dp/B0132UEB68)",
+    source: "Once Saved, Always Saved: The Assurance of Our Father's LOVE",
+    booklink: "https://www.amazon.com/Once-Saved-Always-Assurance-Fathers-ebook/dp/B0132UEB68",
     level: 4
 });
 
@@ -36,15 +28,15 @@ CREATE (q:QUOTE {
 CREATE (c:CONTENT {
     name: "content.LOGICAL COURSE",
     ctype: "QUOTE",
-    en_title: "Logical Course",
+    en_title: "Quote: Logical Course",
     en_content: "The logical course of action for an ignorant creature (and all creatures are ignorant to varying degrees) is to place its total faith in its Creator Who knows and understands all.",
- es_title: "Cita: CURSO LÓGICO",
+ es_title: "Cita: Curso Lógico",
  es_content: "El curso de acción lógico para una criatura ignorante (y todas las criaturas son ignorantes en diversos grados) es depositar su fe total en su Creador, Quien lo sabe y lo comprende todo.",
- fr_title: "Citation : COURS LOGIQUE",
+ fr_title: "Citation : Cours de logique",
  fr_content: "La ligne de conduite logique pour une créature ignorante (et toutes les créatures sont ignorantes à des degrés divers) est de placer sa confiance totale en son Créateur qui sait et comprend tout.",
  hi_title: "उद्धरण: तार्किक पाठ्यक्रम",
  hi_content: "एक अज्ञानी प्राणी (और सभी प्राणी अलग-अलग डिग्री तक अज्ञानी हैं) के लिए कार्रवाई का तार्किक तरीका अपने निर्माता पर अपना पूरा विश्वास रखना है जो सब कुछ जानता और समझता है।",
- zh_title: "yǐn yòng ： luó jí kè chéng",
+ zh_title: "yǐn yòng ：luó jí kè chéng",
  zh_content: "duì yú yí gè wú zhī de shēng wù （ suǒ yǒu de shēng wù dōu bù tóng chéng dù dì wú zhī ） lái shuō ， hé hū luó jí de xíng dòng fāng zhēn shì wán quán xiāng xìn zhī dào bìng lǐ jiě yī qiè de zào wù zhǔ 。"
 });
 

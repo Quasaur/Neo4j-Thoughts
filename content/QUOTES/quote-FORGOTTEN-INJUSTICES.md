@@ -6,35 +6,36 @@ parent: "topic.THE GODHEAD"
 source: "The Traveler's Oasis, Book One"
 en_content: "All of the gravest injustices committed by humanity against its own would not even be remembered in the Presence of the Divine Goodness."
 tags: ["goodness", "divine", "injustice", "forgotten", "presence"]
-ptopic: "[[topic-THE]]"
+ptopic: "[[topic-THE-GODHEAD]]"
 level: 1
 neo4j: true
-verified: false
+verified: true
 ---
 
 ```Cypher
 //create the Thought with the same fields as a normal thought
-CREATE (q:QUOTE
-    {	    name: "quote.FORGOTTEN INJUSTICES",
+CREATE (q:QUOTE {
+		name: "quote.FORGOTTEN INJUSTICES",
 		alias: "Quote: Not Worthy to be Compared", 
 		parent: "topic.THE GODHEAD", 
 		tags: ["goodness", "divine", "injustice", "forgotten", "presence"], 
 		source: "The Traveler's Oasis, Book One",
 		booklink: "https://www.amazon.com/Travelers-Oasis-Book-One-ebook/dp/B00Y43B2OC",
-		level: 1});
+		level: 1
+	});
 // create multi-lingual content		
 CREATE (c:CONTENT {
 	name: "content.FORGOTTEN INJUSTICES", 
 	ctype: "QUOTE",
-	en_title: "Forgotten Injustices", 
+	en_title: "Quote: Not Worthy to be Compared", 
 	en_content: "All of the gravest injustices committed by humanity against its own would not even be remembered in the Presence of the Divine Goodness.", 
-	es_title: "INJUSTICIAS OLVIDADAS", 
+	es_title: "Cita: No es digno de ser comparado", 
 	es_content: "Todas las más graves injusticias cometidas por la humanidad contra sí misma ni siquiera serían recordadas ante la Presencia de la Bondad Divina.", 
-	fr_title: "INJUSTICES OUBLIÉES", 
+	fr_title: "Citation : Pas digne d'être comparé", 
 	fr_content: "Toutes les injustices les plus graves commises par l’humanité envers les siens ne seraient même pas rappelées en présence de la Bonté Divine.", 
-	hi_title: "भूले हुए अन्याय", 
+	hi_title: "उद्धरण: तुलना के लायक नहीं",
 	hi_content: "मानवता द्वारा अपने ही लोगों के विरुद्ध किए गए सभी गंभीर अन्याय ईश्वरीय अच्छाई की उपस्थिति में याद भी नहीं किए जाएँगे।", 
-	zh_title: "Bèi yíwàng de bùgōng", 
+	zh_title: "yǐn yòng : bù zhí dé bǐ jiào", 
 	zh_content: "rénlèi duì zìjǐ fàn xià de suǒyǒu zuì yánzhòng de bùgōng, zài shénshèng shànliáng de miànqián dōu bù huì bèi jì qǐ."});
 // link content to node
 MATCH (q:QUOTE)

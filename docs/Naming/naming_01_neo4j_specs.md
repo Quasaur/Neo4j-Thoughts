@@ -1,9 +1,9 @@
 ---
 type: agent
-typeDesc: Instructions for aritificial intelligence LLMs, agents and models.
+typeDesc: Instructions for artificial intelligence LLMs, agents and models.
 creation: 02-Mar-2026@2005
-title: "Part 1 - Neo4j CYPHER Language Specifications"
-version: 1.0
+title: Part 1 - Neo4j CYPHER Language Specifications
+version: 1
 series: "Neo4j-Thoughts: Naming Conventions"
 docStatus: COMPLETE
 ---

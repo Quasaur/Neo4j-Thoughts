@@ -3,21 +3,13 @@ type: QUOTE
 name: "quote.REINVENT"
 alias: "Quote: Reinvent"
 parent: "topic.GRACE"
-source: "'The Traveler's Oasis, Book One'"
-en_content: "It would be completely unnecessary (and a waste of time) for me to try to accomplish what God has already done for me",
- es_title: "Cita: REINVENTARSE",
- es_content: "Sería completamente innecesario (y una pérdida de tiempo) para mí intentar lograr lo que Dios ya ha hecho por mí.",
- fr_title: "Citation : RÉINVENTER",
- fr_content: "Il serait totalement inutile (et une perte de temps) pour moi d'essayer d'accomplir ce que Dieu a déjà fait pour moi.",
- hi_title: "उद्धरण: पुनः आविष्कार",
- hi_content: "मेरे लिए यह पूरी तरह से अनावश्यक (और समय की बर्बादी) होगी कि भगवान ने मेरे लिए जो किया है उसे पूरा करने की कोशिश करें",
- zh_title: "yǐn yòng ： zhòng sù",
- zh_content: "duì wǒ lái shuō ， cháng shì wán chéng shàng dì yǐ jīng wèi wǒ suǒ zuò de shì qíng shì wán quán méi yǒu bì yào de （ ér qiě shì làng fèi shí jiān ）"
+source: "The Traveler's Oasis, Book One"
+en_content: "It would be completely unnecessary (and a waste of time) for me to try to accomplish what God has already done for me."
 tags: ["gift", "grace", "accomplish", "effort", "duplicate"]
 ptopic: "[[topic-GRACE]]"
 level: 3
 neo4j: true
-verified: false
+verified: true
 ---
 
 ```Cypher
@@ -27,8 +19,8 @@ CREATE (q:QUOTE {
     alias: "Quote: Reinvent",
     parent: "topic.GRACE",
     tags: ["gift", "grace", "accomplish", "effort", "duplicate"],
-    source: "'The Traveler's Oasis, Book One'",
-    booklink: "(https://www.amazon.com/Travelers-Oasis-Book-One-ebook/dp/B00Y43B2OC)",
+    source: "The Traveler's Oasis, Book One",
+    booklink: "https://www.amazon.com/Travelers-Oasis-Book-One-ebook/dp/B00Y43B2OC",
     level: 3
 });
 
@@ -36,15 +28,15 @@ CREATE (q:QUOTE {
 CREATE (c:CONTENT {
     name: "content.REINVENT",
     ctype: "QUOTE",
-    en_title: "Reinvent",
+    en_title: "Quote: Reinvent",
     en_content: "It would be completely unnecessary (and a waste of time) for me to try to accomplish what God has already done for me",
- es_title: "Cita: REINVENTARSE",
+ es_title: "Cita: Reinventar",
  es_content: "Sería completamente innecesario (y una pérdida de tiempo) para mí intentar lograr lo que Dios ya ha hecho por mí.",
- fr_title: "Citation : RÉINVENTER",
+ fr_title: "Citation : Réinventer",
  fr_content: "Il serait totalement inutile (et une perte de temps) pour moi d'essayer d'accomplir ce que Dieu a déjà fait pour moi.",
  hi_title: "उद्धरण: पुनः आविष्कार",
  hi_content: "मेरे लिए यह पूरी तरह से अनावश्यक (और समय की बर्बादी) होगी कि भगवान ने मेरे लिए जो किया है उसे पूरा करने की कोशिश करें",
- zh_title: "yǐn yòng ： zhòng sù",
+ zh_title: "yǐn yòng ：zhòng sù",
  zh_content: "duì wǒ lái shuō ， cháng shì wán chéng shàng dì yǐ jīng wèi wǒ suǒ zuò de shì qíng shì wán quán méi yǒu bì yào de （ ér qiě shì làng fèi shí jiān ）"
 });
 

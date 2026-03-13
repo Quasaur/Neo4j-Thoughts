@@ -3,21 +3,13 @@ type: QUOTE
 name: "quote.NO NEED"
 alias: "Quote: No Need"
 parent: "topic.WEALTH"
-source: "'IMMMUNITY to the Lake of Fire: A No-Nonsense Guide'"
-en_content: "You do not need money to either survive or thrive in this life or the next.",
- es_title: "Cita: NO ES NECESARIO",
- es_content: "No necesitas dinero para sobrevivir o prosperar en esta vida o en la siguiente.",
- fr_title: "Citation : PAS BESOIN",
- fr_content: "Vous n’avez pas besoin d’argent pour survivre ou prospérer dans cette vie ou dans la suivante.",
- hi_title: "उद्धरण: कोई ज़रूरत नहीं",
- hi_content: "आपको इस जीवन या अगले जीवन में जीवित रहने या आगे बढ़ने के लिए धन की आवश्यकता नहीं है।",
- zh_title: "yǐn yòng ：  bù xū yào",
- zh_content: "nǐ bù xū yào jīn qián lái zài jīn shēng huò lái shì shēng cún huò fā zhǎn 。"
+source: "IMMUNITY to the Lake of Fire: A No-Nonsense Guide"
+en_content: "You do not need money to either survive or thrive in this life or the next."
 tags: ["survive", "thrive", "needless", "money", "wisdom"]
 ptopic: "[[topic-WEALTH]]"
 level: 3
 neo4j: true
-verified: false
+verified: true
 ---
 
 ```Cypher
@@ -27,8 +19,8 @@ CREATE (q:QUOTE {
     alias: "Quote: No Need",
     parent: "topic.WEALTH",
     tags: ["survive", "thrive", "needless", "money", "wisdom"],
-    source: "'IMMMUNITY to the Lake of Fire: A No-Nonsense Guide'",
-    booklink: "(https://www.amazon.com/IMMUNITY-LAKE-FIRE-No-Nonsense-Guide-ebook/dp/B08B5J9V8J)",
+    source: "IMMUNITY to the Lake of Fire: A No-Nonsense Guide",
+    booklink: "https://www.amazon.com/IMMUNITY-LAKE-FIRE-No-Nonsense-Guide-ebook/dp/B08B5J9V8J",
     level: 3
 });
 
@@ -36,15 +28,15 @@ CREATE (q:QUOTE {
 CREATE (c:CONTENT {
     name: "content.NO NEED",
     ctype: "QUOTE",
-    en_title: "No Need",
+    en_title: "Quote: No Need",
     en_content: "You do not need money to either survive or thrive in this life or the next.",
- es_title: "Cita: NO ES NECESARIO",
+ es_title: "Cita: No es necesario",
  es_content: "No necesitas dinero para sobrevivir o prosperar en esta vida o en la siguiente.",
- fr_title: "Citation : PAS BESOIN",
+ fr_title: "Citation : Pas besoin",
  fr_content: "Vous n’avez pas besoin d’argent pour survivre ou prospérer dans cette vie ou dans la suivante.",
  hi_title: "उद्धरण: कोई ज़रूरत नहीं",
  hi_content: "आपको इस जीवन या अगले जीवन में जीवित रहने या आगे बढ़ने के लिए धन की आवश्यकता नहीं है।",
- zh_title: "yǐn yòng ：  bù xū yào",
+ zh_title: "yǐn yòng ：bù xū yào",
  zh_content: "nǐ bù xū yào jīn qián lái zài jīn shēng huò lái shì shēng cún huò fā zhǎn 。"
 });
 

@@ -2,22 +2,14 @@
 type: QUOTE
 name: "quote.THE SALVATION"
 alias: "Quote: The Salvation"
-parent: "topic.THE-GOSPEL"
-source: "'The Narrow Way'"
-en_content: "THERE IS NO SALVATION APART FROM JESUS. Let me put this another way: JESUS **IS** THE SALVATION GOD THE FATHER IS OFFERING YOU, as opposed to a set of deeds you must accomplish or words you must say to 'receive' Salvation from Jesus.",
- es_title: "Cita: LA SALVACIÓN",
- es_content: "NO HAY SALVACIÓN APARTE DE JESÚS. Permíteme decirlo de otra manera: JESÚS **ES** LA SALVACIÓN QUE DIOS EL PADRE TE OFRECE, a diferencia de un conjunto de hechos que debes realizar o palabras que debes decir para 'recibir' la Salvación de Jesús.",
- fr_title: "Citation : LE SALUT",
- fr_content: "IL N'Y A PAS DE SALUT EN DEHORS DE JÉSUS. Permettez-moi de formuler cela autrement : JÉSUS **EST** LE SALUT DIEU LE PÈRE VOUS OFFRE, par opposition à un ensemble d'actes que vous devez accomplir ou de paroles que vous devez dire pour « recevoir » le salut de Jésus.",
- hi_title: "उद्धरण: मोक्ष",
- hi_content: "यीशु के अलावा कोई मुक्ति नहीं है। मैं इसे दूसरे तरीके से कहना चाहता हूं: यीशु वह मुक्तिदाता ईश्वर है जो पिता आपको प्रदान कर रहा है, यह उन कार्यों के सेट के विपरीत है जिन्हें आपको पूरा करना होगा या जो शब्द आपको यीशु से मुक्ति 'प्राप्त करने' के लिए कहने होंगे।",
- zh_title: "yǐn yòng ： jiù shú",
- zh_content: "chú le yē sū zhī wài ， bié wú zhěng jiù 。 ràng wǒ huàn jù huà shuō ： yē sū ** shì ** tiān fù shén tí gōng gěi nǐ de jiù ēn ， ér bú shì nǐ bì xū wán chéng de yī xì liè xíng wéi huò nǐ bì xū shuō de huà cái néng “ jiē shòu ” lái zì yē sū de jiù ēn 。"
-tags: ["theonly", "life", "way", "truth", "jesus_christ"]
+parent: "topic.THE GOSPEL"
+source: "The Narrow Way"
+en_content: "THERE IS NO SALVATION APART FROM JESUS. Let me put this another way: JESUS **IS** THE SALVATION GOD THE FATHER IS OFFERING YOU, as opposed to a set of deeds you must accomplish or words you must say to 'receive' Salvation from Jesus."
+tags: ["the_only", "life", "way", "truth", "jesus_christ"]
 ptopic: "[[topic-THE-GOSPEL]]"
 level: 2
 neo4j: true
-verified: false
+verified: true
 ---
 
 ```Cypher
@@ -25,10 +17,10 @@ verified: false
 CREATE (q:QUOTE {
     name: "quote.THE SALVATION",
     alias: "Quote: The Salvation",
-    parent: "topic.THE-GOSPEL",
-    tags: ["theonly", "life", "way", "truth", "jesus_christ"],
-    source: "'The Narrow Way'",
-    booklink: "(https://www.amazon.com/Narrow-Way-Calvin-Mitchell-ebook/dp/B0CRYC8WY7)",
+    parent: "topic.THE GOSPEL",
+    tags: ["the_only", "life", "way", "truth", "jesus_christ"],
+    source: "The Narrow Way",
+    booklink: "https://www.amazon.com/Narrow-Way-Calvin-Mitchell-ebook/dp/B0CRYC8WY7",
     level: 2
 });
 
@@ -36,15 +28,15 @@ CREATE (q:QUOTE {
 CREATE (c:CONTENT {
     name: "content.THE SALVATION",
     ctype: "QUOTE",
-    en_title: "The Salvation",
+    en_title: "Quote: The Salvation",
     en_content: "THERE IS NO SALVATION APART FROM JESUS. Let me put this another way: JESUS **IS** THE SALVATION GOD THE FATHER IS OFFERING YOU, as opposed to a set of deeds you must accomplish or words you must say to 'receive' Salvation from Jesus.",
- es_title: "Cita: LA SALVACIÓN",
+ es_title: "Cita: La salvación",
  es_content: "NO HAY SALVACIÓN APARTE DE JESÚS. Permíteme decirlo de otra manera: JESÚS **ES** LA SALVACIÓN QUE DIOS EL PADRE TE OFRECE, a diferencia de un conjunto de hechos que debes realizar o palabras que debes decir para 'recibir' la Salvación de Jesús.",
- fr_title: "Citation : LE SALUT",
+ fr_title: "Citation : LE Salut",
  fr_content: "IL N'Y A PAS DE SALUT EN DEHORS DE JÉSUS. Permettez-moi de formuler cela autrement : JÉSUS **EST** LE SALUT DIEU LE PÈRE VOUS OFFRE, par opposition à un ensemble d'actes que vous devez accomplir ou de paroles que vous devez dire pour « recevoir » le salut de Jésus.",
  hi_title: "उद्धरण: मोक्ष",
  hi_content: "यीशु के अलावा कोई मुक्ति नहीं है। मैं इसे दूसरे तरीके से कहना चाहता हूं: यीशु वह मुक्तिदाता ईश्वर है जो पिता आपको प्रदान कर रहा है, यह उन कार्यों के सेट के विपरीत है जिन्हें आपको पूरा करना होगा या जो शब्द आपको यीशु से मुक्ति 'प्राप्त करने' के लिए कहने होंगे।",
- zh_title: "yǐn yòng ： jiù shú",
+ zh_title: "yǐn yòng ：jiù shú",
  zh_content: "chú le yē sū zhī wài ， bié wú zhěng jiù 。 ràng wǒ huàn jù huà shuō ： yē sū ** shì ** tiān fù shén tí gōng gěi nǐ de jiù ēn ， ér bú shì nǐ bì xū wán chéng de yī xì liè xíng wéi huò nǐ bì xū shuō de huà cái néng “ jiē shòu ” lái zì yē sū de jiù ēn 。"
 });
 
@@ -54,8 +46,8 @@ MATCH (c:CONTENT {name: "content.THE SALVATION"})
 MERGE (q)-[:HAS_CONTENT {name: "q.edge.THE SALVATION"}]->(c);
 
 // LINK PARENT
-MATCH (parent:TOPIC {name: "topic.THE-GOSPEL"})
+MATCH (parent:TOPIC {name: "topic.THE GOSPEL"})
 MATCH (child:QUOTE {name: "quote.THE SALVATION"})
-MERGE (parent)-[:HAS_QUOTE {name: "q.edge.THE-GOSPEL->THE SALVATION"}]->(child);
+MERGE (parent)-[:HAS_QUOTE {name: "q.edge.THE GOSPEL->THE SALVATION"}]->(child);
 
 ```

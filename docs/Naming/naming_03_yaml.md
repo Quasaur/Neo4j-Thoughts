@@ -1,9 +1,9 @@
 ---
 type: agent
-typeDesc: Instructions for aritificial intelligence LLMs, agents and models.
+typeDesc: Instructions for artificial intelligence LLMs, agents and models.
 creation: 27-Feb-2026@0946
-title: "Part 3 - YAML Properties"
-version: 2.0
+title: Part 3 - YAML Properties
+version: 2
 series: "Neo4j-Thoughts: Naming Conventions"
 docStatus: COMPLETE
 ---
@@ -32,6 +32,7 @@ type:
 name:
 alias:
 parent:
+source
 en_content:
 tags:
 ptopic:
@@ -114,22 +115,35 @@ Rule 6: The fourth YAML property listed in the front matter should be "parent" a
 
 Rule 6a: the YAML property "parent" identifies the "name" field of the parent TOPIC, and therefore must follow the same naming convention as the "name" field of any node that contains that property.
 
-### 5th YAML Property: "en_content"
+### 5th YAML Property: "source" (Quote)
 
-Rule 7: The fifth YAML property listed in the front matter should be "en_content", which is added to enable the Developer to browse the English content of any DESCRIPTION or CONTENT node from the Obsidian.md app's Base tables. The "en_content" property exists only in the following node types:
+Rule 7: The fifth YAML property listed in the front matter should be "source" and exists in the following node types found in the Cypher block of the markdown file:
+
+- QUOTE
+- PASSAGE
+
+Rule 7a: At this time only the QUOTE node type has its "source" property included in the YAML front matter.
+
+Rule 7b: The YAML property "source" identifies the title of the book from which the quote was retrieved.
+
+Rule 7c: The value of the YAML property "source" should be enclosed only with double quotes (i.e., "The Narrow Way"), not double and single quotes (i.e., "'The Narrow Way'"). This rule applies to the QUOTE node's "source" property as well. 
+
+### 6th YAML Property: "en_content"
+
+Rule 8: The sixth YAML property listed in the front matter should be "en_content", which is added to enable the Developer to browse the English content of any DESCRIPTION or CONTENT node from the Obsidian app's Base tables. The "en_content" property exists only in the following node types:
 
 - DESCRIPTION (for node type TOPIC)
 - CONTENT (for node types THOUGHT, QUOTE & PASSAGE)
 
-Rule 7a: The format of the value is demonstrated in the following YAML block:
+Rule 8a: The format of the value is demonstrated in the following YAML block:
 
 ```yaml
 en_content: "This is example English content."
 ```
 
-Rule 7b: The entire value for the YAML property "en_content" must end with a period ('.') and be enclosed in double quotes (this rule is true for the "en_content" field in both the YAML front matter and the Cypher block).
+Rule 8b: The entire value for the YAML property "en_content" must end with a period, question mark or exclamation point and be enclosed in double quotes (this rule is true for the "en_content" field in both the YAML front matter and the Cypher block).
 
-Rule 7c: In the case of multi-line values for the YAML property "en_content", lines 2 and beyond must be tab-indented to be recognized by the Obsidian.md app as parts of the same value:
+Rule 8c: In the case of multi-line values for the YAML property "en_content", lines 2 and beyond must be tab-indented to be recognized by the Obsidian.md app as parts of the same value:
 
 ```yaml
 en_content: "It’s why we eat when we’re not hungry.
@@ -139,7 +153,7 @@ en_content: "It’s why we eat when we’re not hungry.
  How insane it is, then, to attend Church for years and NEVER meet Jesus!!!"
 ```
 
-Rule 7d: The following properties belong exclusively to the secondary node (DESCRIPTION or CONTENT) in the Cypher block and must NOT appear in the YAML front matter:
+Rule 8d: The following properties belong exclusively to the secondary node (DESCRIPTION or CONTENT) in the Cypher block and must NOT appear in the YAML front matter:
 
 - es_title
 - es_content
@@ -153,18 +167,18 @@ Rule 7d: The following properties belong exclusively to the secondary node (DESC
 - ctype
 If any of these properties are found in the YAML front matter, the agentic model must remove them along with their values from the YAML section. Their values remain in the Cypher block's secondary node CREATE query where they belong.
 
-Rule 7e: As a general principle, the YAML front matter must contain ONLY the nine approved properties listed in Rule 2's "Approved YAML Properties" block (type, name, alias, parent, en_content, tags, ptopic, level, neo4j) in the order specified. Any property not in this approved list — including trailing commas, leading spaces, or other formatting artifacts carried over from Cypher syntax — must be removed from the YAML section.
+Rule 8e: As a general principle, the YAML front matter must contain ONLY the nine approved properties listed in Rule 2's "Approved YAML Properties" block (type, name, alias, parent, en_content, tags, ptopic, level, neo4j) in the order specified. Any property not in this approved list — including trailing commas, leading spaces, or other formatting artifacts carried over from Cypher syntax — must be removed from the YAML section.
 
-### 6th YAML Property: "tags"
+### 7th YAML Property: "tags"
 
-Rule 8: The sixth YAML property listed in the front matter should be "tags" and exists in the following node types found in the Cypher Block section of the markdown file:
+Rule 9: The seventh YAML property listed in the front matter should be "tags" and exists in the following node types found in the Cypher Block section of the markdown file:
 
 - TOPIC
 - THOUGHT
 - QUOTE
 - PASSAGE
 
-Rule 9: The YAML property "tags" is unique in that, unlike other YAML properties, its value consists of an array of five values which are keywords associated with the name and content of the containing node. Originally, the YAML property "tags" displays its array in the following format:
+Rule 9b: The YAML property "tags" is unique in that, unlike other YAML properties, its value consists of an array of five values which are keywords associated with the name and content of the containing node. Originally, the YAML property "tags" displays its array in the following format:
 
 ```yaml
 tags:
@@ -188,9 +202,9 @@ To eliminate confusion and to ensure that all YAML front matter properties in no
 tags: ["occult", "spirits", "evil", "law", "bible"]
 ```
 
-Rule 9a: Whenever the agent find the YAML property "tags" in the original format, it must be changed to the new format.
+Rule 9c: Whenever the agent find the YAML property "tags" in the original format, it must be changed to the new format.
 
-Rule 9b: Every "tags" array entry that in both the YAML front matter and primary node CREATE query in the Cypher block (which is the first CREATE query in the Cypher block) that contains two or more English words set together without underscores, spaces or dashes should be formatted so that the words are separated by underscores:
+Rule 9d: Every "tags" array entry that in both the YAML front matter and primary node CREATE query in the Cypher block (which is the first CREATE query in the Cypher block) that contains two or more English words set together without underscores, spaces or dashes should be formatted so that the words are separated by underscores:
 
 ```yaml
 tags: ["mass_shootings", "gun_violence", "holy_spirit", "jesus_christ", "holy_bible"]
@@ -198,11 +212,11 @@ tags: ["mass_shootings", "gun_violence", "holy_spirit", "jesus_christ", "holy_bi
 
 ...and the same goes for the "tags" array in the Cypher block.
 
-Rule 9c: Every "tags" array must contain five keywords; any "tags" array having less than five keywords must be flagged by the agentic model and corrected (with the assistance of the Developer, if necessary).
+Rule 9e: Every "tags" array must contain five keywords; any "tags" array having less than five keywords must be flagged by the agentic model and corrected (with the assistance of the Developer, if necessary).
 
-### 7th YAML Property: "ptopic"
+### 8th YAML Property: "ptopic"
 
-Rule 10: The seventh YAML property listed in the front matter should be "ptopic" and exists only in the Obsidian app's YAML front matter for the markdown files of the following node types:
+Rule 10: The eighth YAML property listed in the front matter should be "ptopic" and exists only in the Obsidian app's YAML front matter for the markdown files of the following node types:
 
 - TOPIC
 - THOUGHT
@@ -221,9 +235,9 @@ Rule 10b: Up till now the value of the YAML property "ptopic" has been manually 
   ptopic: "[[topic-FAITH]]"
 ...and so on.
 
-### 8th YAML Property: "level"
+### 9th YAML Property: "level"
 
-Rule 11: The eighth YAML property listed in the front matter should be "level" and exists only in the Obsidian app's YAML front matter and as a property of the following node types in the Cypher block of each markdown file:
+Rule 11: The ninth YAML property listed in the front matter should be "level" and exists only in the Obsidian app's YAML front matter and as a property of the following node types in the Cypher block of each markdown file:
 
 - TOPIC
 - THOUGHT
@@ -234,13 +248,13 @@ Rule 11a: The YAML property "level" contains an integer that represents the dist
 
 Rule 11b: The value of the YAML property "level" doesn't require enclosing double quotes.
 
-### 9th YAML Property: "neo4j"
+### 10th YAML Property: "neo4j"
 
-Rule 12: the ninth YAML property is "neo4j"...the value of which is boolean (either true or false). If the value of "neo4j" is true, the Cypher block of the markdown file is assumed to have already been uploaded to the Neo4j AuraDB instance; a value false means the file's Cypher block has not yet been executed against the AuraDB instance.
+Rule 12: the tenth YAML property is "neo4j"...the value of which is boolean (either true or false). If the value of "neo4j" is true, the Cypher block of the markdown file is assumed to have already been uploaded to the Neo4j AuraDB instance; a value false means the file's Cypher block has not yet been executed against the AuraDB instance.
 
 Rule 12a: The value of the YAML property "neo4j" doesn't require enclosing double quotes.
 
-### 10th YAML Property: "verified"
-Rule 13: the ninth (and last) YAML property is "verified", which exists exclusively for the use of the Developer. The value of the "verified" property is either true or falose.
+### 11th YAML Property: "verified"
+Rule 13: the eleventh (and last) YAML property is "verified", which exists exclusively for the use of the Developer. The value of the "verified" property is either true or falose.
 
-Rule 12a: The value of the YAML property "verified" doesn't require enclosing double quotes.
+Rule 13a: The value of the YAML property "verified" doesn't require enclosing double quotes.

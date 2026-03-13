@@ -4,12 +4,12 @@ name: "quote.WORKS"
 alias: "Quote: It Stands Alone"
 parent: "topic.RELIGION"
 source: "The Basics and More: A Year's Sermons"
-en_content: "This is one of the most conveincing proofs of the Truth of Christianity: every other religion on the planet Earth is a religion of righteousness by works. That is why the Cross of Christ is considered foolish by the world."
+en_content: "This is one of the most convincing proofs of the Truth of Christianity: every other religion on the planet Earth is a religion of righteousness by works. That is why the Cross of Christ is considered foolish by the world."
 tags: ["religion", "gospel", "truth", "works", "the_cross"]
 ptopic: "[[topic-RELIGION]]"
 level: 4
 neo4j: true
-verified: false
+verified: true
 ---
 
 ```Cypher
@@ -25,15 +25,15 @@ CREATE (q:QUOTE {	    name: "quote.WORKS",
 CREATE (c:CONTENT {
 	name: "content.WORKS",
 	ctype: "QUOTE",
-	en_title: "Works", 
+	en_title: "Quote: It Stands Alone", 
 	en_content: "This is one of the most conveincing proofs of the Truth of Christianity: every other religion on the planet Earth is a religion of righteousness by works. That is why the Cross of Christ is considered foolish by the world.",
-	es_title: "Obras", 
+	es_title: "Cita: Está solo", 
 	es_content: "Esta es una de las pruebas más contundentes de la verdad del cristianismo: todas las demás religiones del planeta Tierra son religiones de justicia por obras. Por eso, la cruz de Cristo es considerada una locura por el mundo.",
-	fr_title: "Œuvres", 
+	fr_title: "Citation : Il est autonome", 
 	fr_content: "C'est l'une des preuves les plus convaincantes de la vérité du christianisme : toutes les autres religions sur la planète Terre sont des religions de justice par les œuvres. C'est pourquoi la Croix du Christ est considérée comme une folie par le monde.",
-	hi_title: "काम",
+	hi_title: "उद्धरण: यह अकेला खड़ा है",
 	hi_content: "यह ईसाई धर्म की सच्चाई का सबसे पक्का सबूत है: धरती पर बाकी सभी धर्म कामों से नेकी का धर्म है। इसीलिए दुनिया में क्राइस्ट के क्रॉस को बेवकूफी माना जाता है।",
-	zh_title: "Xíngwéi",
+	zh_title: "yǐn yòng : tā shì dú lì de",
 	zh_content: "zhè shì jīdūjiào zhēnlǐ zuì lìng rén xìnfú de zhèngjù zhī yī: Dìqiú shàng suǒyǒu qítā zōngjiào dōu shì kào xíngwéi chēng yì de zōngjiào. Zhèng yīn rúcǐ, jīdū de shízìjià cái bèi shìrén shì wéi yúzhuō."});
 // link content to node
 MATCH (q:QUOTE)

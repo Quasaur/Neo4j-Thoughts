@@ -2,14 +2,14 @@
 type: QUOTE
 name: "quote.GOODNESS OF GOD"
 alias: "Quote: The Supreme Goodness of God"
-parent: "topic.THE GODHEAD"
+parent: topic.THE GODHEAD
 source: "The Traveler's Oasis, Book One"
 en_content: "None of the darkest horrors concocted by the most evil demonic force can ever have a chance against the Goodness of God."
 tags: ["goodness", "horrors", "god", "demons", "transcendent"]
-ptopic: "[[topic-THE]]"
+ptopic: "[[topic-THE-GODHEAD]]"
 level: 1
 neo4j: true
-verified: false
+verified: true
 ---
 
 ```Cypher
@@ -26,16 +26,15 @@ CREATE (q:QUOTE
 CREATE (c:CONTENT {
 	name: "content.GOODNESS OF GOD", 
 	ctype: "QUOTE",
-	en_title: "Goodness of God", 
+	en_title: "Quote: The Supreme Goodness of God", 
 	en_content: "None of the darkest horrors concocted by the most evil demonic force can ever have a chance against the Goodness of God.", 
-	es_title: "Bondad de Dios", 
-	es_content: "Bondad de Dios
-Ninguno de los horrores más oscuros inventados por la fuerza demoníaca más maligna puede tener alguna posibilidad contra la Bondad de Dios.", 
-	fr_title: "La bonté de Dieu", 
+	es_title: "Cita: La Suprema Bondad de Dios", 
+	es_content: "Ninguno de los horrores más oscuros inventados por la fuerza demoníaca más maligna puede tener alguna posibilidad contra la Bondad de Dios.", 
+	fr_title: "Citation : La bonté suprême de Dieu", 
 	fr_content: "Aucune des horreurs les plus sombres concoctées par la force démoniaque la plus maléfique ne peut avoir la moindre chance contre la bonté de Dieu.", 
-	hi_title: "ईश्वर की अच्छाई", 
+	hi_title: "उद्धरण: ईश्वर की सर्वोच्च अच्छाई", 
 	hi_content: "सबसे बुरी राक्षसी शक्ति द्वारा रची गई सबसे भयावह भयावहता कभी भी ईश्वर की अच्छाई के सामने टिक नहीं सकती।", 
-	zh_title: "Shàngdì dì měidé", 
+	zh_title: "yǐn yán : shàng dì de zhì shàn", 
 	zh_content: "zuì xié'è de èmó lìliàng suǒ zhìzào de zuì hēi'àn de kǒngbù, zài shàngdì dì měidé miànqián háo wú shèngsuàn."});
 // link content to node
 MATCH (q:QUOTE)

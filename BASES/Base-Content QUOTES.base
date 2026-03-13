@@ -1,0 +1,27 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.folder.startsWith("content")
+        - file.name.startsWith("quote-")
+    groupBy:
+      property: source
+      direction: ASC
+    order:
+      - file.name
+      - parent
+      - level
+      - neo4j
+      - verified
+      - source
+    sort:
+      - property: verified
+        direction: DESC
+      - property: level
+        direction: ASC
+      - property: parent
+        direction: ASC
+    columnSize:
+      note.parent: 219
+      note.level: 79

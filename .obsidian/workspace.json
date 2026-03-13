@@ -4,17 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "785a6f9764e8c31c",
+        "id": "9651828008c84be6",
         "type": "tabs",
         "children": [
           {
-            "id": "425c98ae8e1997a4",
+            "id": "95a9c588554ea229",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "content/QUOTES/quote-SELF-SACRIFICE.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "quote-SELF-SACRIFICE"
             }
           }
         ]
@@ -49,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "SELF-SACRIFICE",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -84,7 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 236.50043487548828
+    "width": 491.5004348754883
   },
   "right": {
     "id": "23b5a9898015fd07",
@@ -118,12 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/THOUGHTS/n/NO-WATER.md",
+                "file": "content/QUOTES/quote-SELF-SACRIFICE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from NO-WATER"
+              "title": "Outgoing links from quote-SELF-SACRIFICE"
             }
           },
           {
@@ -145,13 +150,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Neo4j-AI/Kimi K2/Discrepancies/Prompts/Prompts.md",
+                "file": "content/QUOTES/quote-SELF-SACRIFICE.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Prompts"
+              "title": "Outline of quote-SELF-SACRIFICE"
             }
           }
         ],
@@ -159,7 +164,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 329.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -175,44 +180,44 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "425c98ae8e1997a4",
+  "active": "305af3f688655817",
   "lastOpenFiles": [
-    "content/TOPICS/topic-SOTERIOLOGY.md",
-    "content/TOPICS/topic-THE-GOSPEL.md",
-    "content/TOPICS/topic-HOLINESS.md",
-    "content/TOPICS/topic-DIVINE-SOVEREIGNTY.md",
-    "content/TOPICS/topic-FINANCE.md",
-    "content/TOPICS/topic-GRACE.md",
-    "content/TOPICS/topic-THE-GODHEAD.md",
-    "content/TOPICS/topic-WISDOM.md",
-    "content/TOPICS/topic-CREATION.md",
-    "TOPICS_VERIFICATION_REPORT.md",
-    "content/TOPICS/topic-POLITICAL-SCIENCE.md",
-    "content/TOPICS/topic-RELIGION.md",
-    "content/TOPICS/topic-THE-BIBLE.md",
-    "content/TOPICS/topic-ASTROPHYSICS.md",
-    "content/TOPICS/topic-ATTITUDE.md",
-    "content/TOPICS/topic-SPIRITUALITY.md",
-    "content/TOPICS/topic-MUSICOLOGY.md",
-    "content/TOPICS/topic-MUSIC.md",
-    "content/TOPICS/topic-WEALTH.md",
-    "content/TOPICS/topic-GUILT.md",
-    "content/TOPICS/topic-FAITH.md",
-    "BASES/Content THOUGHTS.base",
-    "content/THOUGHTS/thought-EARTH-SPEED-SPACE.md",
-    "content/THOUGHTS/thought-JUDGMENT-OF-NATIONS.md",
-    "content/THOUGHTS/thought-HORDES-OF-THE-ABYSS.md",
-    "content/THOUGHTS/thought-BETTER-WORLD.md",
-    "BASES/Base-TOPICs.base",
-    "Untitled.md",
-    "BASES/Base-Book_of_Tweets.base",
-    "python/add_verified_property.py",
-    "BASES/Base-WEBDEV.base",
-    "BASES/Base-Quotes in Neo4j.base",
-    "BASES/Base-Passages in Neo4j.base",
-    "BASES/Base-PASSAGES.base",
-    "AuraDB",
-    "rebuild_corrupted_files.py",
+    "verify_final.py",
+    "fix_self_sacrifice.py",
+    "Neo4j-AI/Kimi K2/Discrepancies/Prompts/Prompts.md",
+    "docs/reports/QUOTE_COMPLETE_SYNC_2026-03-13_0804.json",
+    "sync_quotes_complete.py",
+    "docs/reports/QUOTE_SYNC_REPORT_2026-03-13_0758.json",
+    "sync_quotes_to_auradb.py",
+    "content/QUOTES/quote-POLITICAL-CHRIST.md",
+    "content/QUOTES/quote-SCRIPTURE-AS-HISTORY.md",
+    "content/QUOTES/quote-THE-CHRISTIAN-SYSTEM.md",
+    "content/QUOTES/quote-NATION-OF-ISRAEL.md",
+    "content/QUOTES/quote-WHERE-IS-GOD.md",
+    "content/QUOTES/quote-HEIR-OF-GOD.md",
+    "content/QUOTES/quote-BEGOTTEN.md",
+    "docs/reports/QUOTE_discrepancy_report_2026-03-13_0717.md",
+    "docs/Naming/naming_03_yaml.md",
+    "docs/Naming/naming_04_cypherBlock.md",
+    "docs/reports/QUOTE_discrepancy_report_2026-03-13_0724.md",
+    "analyze_quotes.py",
+    "BASES/Base-Content QUOTES.base",
+    "content/QUOTES/quote-SO-MANY-GOSPELS.md",
+    "content/QUOTES/quote-MY-PROGRAMMING.md",
+    "content/QUOTES/quote-THE-TEN-COMMANDMENTS.md",
+    "content/QUOTES/quote-CHRIST-THE-END.md",
+    "content/QUOTES/quote-CHRIST-IS-ENOUGH.md",
+    "content/THOUGHTS/thought-ACT-OF-GOD.md",
+    "content/QUOTES/quote-GENIUS.md",
+    "content/QUOTES/quote-THE-LAST-ADAM.md",
+    "content/QUOTES/quote-REINVENT.md",
+    "docs/Naming/naming_02_file_names.md",
+    "docs/Naming/naming_01_neo4j_specs.md",
+    "content/QUOTES/quote-PERFECT-PEACE.md",
+    "content/QUOTES/quote-ETERNAL-DAMNATION.md",
+    "BASES/Base-Content TOPICs.base",
+    "process_quotes.py",
+    "ANALYSIS/query_quotes_auradb.py",
     "Untitled.canvas",
     "public/attachments/og-image.png",
     "public/static/og-image.png",
