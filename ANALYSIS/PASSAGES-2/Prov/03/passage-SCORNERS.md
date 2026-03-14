@@ -1,0 +1,53 @@
+---
+type: PASSAGE
+name: "passage.SCORNERS"
+alias: "Passage: Scorners"
+parent: "topic.EVIL"
+en_content: "Toward the scorners He [The LORD] is scornful,"
+tags: ["scorners", "scornful", "humble", "gift", "favor"]
+ptopic: "[[topic-EVIL]]"
+level: 4
+neo4j: true
+verified: false
+---
+
+```Cypher
+// CREATE PASSAGE
+CREATE (b:PASSAGE {
+    name: "passage.SCORNERS",
+    alias: "Passage: Scorners",
+    parent: "topic.EVIL",
+    tags: ["scorners", "scornful", "humble", "gift", "favor"],
+    source: "'Proverbs 3:34'",
+    sortedsource: "'Proverbs 03:34'",
+    biblelink: "(https://www.biblegateway.com/passage/?search=Proverbs%203%3A34&version=ESV)",
+    level: 4
+});
+
+// CREATE CONTENT
+CREATE (c:CONTENT {
+    name: "content.SCORNERS",
+    ctype: "PASSAGE",
+    en_title: "Scorners",
+    en_content: "Toward the scorners He [The LORD] is scornful,",
+ es_title: "SCORNERADORES",
+ es_content: "Con los escarnecedores Él [Jehová] es escarnecedor,",
+ fr_title: "Les moqueurs",
+ fr_content: "Il [l'Éternel] se moque des moqueurs,",
+ hi_title: "उपहास करने वाले",
+ hi_content: "वह [प्रभु] ठट्ठा करनेवालों के प्रति तिरस्कार करता है,",
+ zh_title: "miè shì zhě",
+ zh_content: "tā ［ yē hé huá ］ miǎo shì xiè màn de rén ，",
+});
+
+// LINK CONTENT
+MATCH (b:PASSAGE {name: "passage.SCORNERS"})
+MATCH (c:CONTENT {name: "content.SCORNERS"})
+MERGE (b)-[:HAS_CONTENT {name: "p.edge.SCORNERS"}]->(c);
+
+// LINK PARENT
+MATCH (parent:TOPIC {name: "topic.EVIL"})
+MATCH (child:PASSAGE {name: "passage.SCORNERS"})
+MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.b.EVIL->SCORNERS"}]->(child);
+
+```

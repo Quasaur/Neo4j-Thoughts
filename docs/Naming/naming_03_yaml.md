@@ -147,8 +147,8 @@ Rule 8c: In the case of multi-line values for the YAML property "en_content", li
 
 ```yaml
 en_content: "It’s why we eat when we’re not hungry.
- It’s why we watch hours of mindless television and play with ouija boards and horoscopes.
- It’s why we pursue one addiction after another, and there’s only One Cure that will fill that black hole in
+	It’s why we watch hours of mindless television and play with ouija boards and horoscopes.
+	It’s why we pursue one addiction after another, and there’s only One Cure that will fill thatblack hole in
  the core of our being: The Lord Jesus Christ.
  How insane it is, then, to attend Church for years and NEVER meet Jesus!!!"
 ```

@@ -22,3 +22,6 @@ The markdown files in the content/QUOTES folder are considered source of truth. 
 
 ## Prompt 7
 Whatever nodes that exist in the content/QUOTES folder that are missing in the AuraDB online instance you must upload to the AuraDB. When all is done, there should be 80 QUOTE nodes in the AuraDB; any QUOTE nodes in the AuraDB that do not exist in the content/QUOTES folder you must delete along with their relationships and child nodes.
+
+## Prompt 8
+Review the contents of the content/PASSAGES folder. I have discovered a more efficient set of queries for the PASSAGE node type Cypher block: the three markdown files which contain the YAML property "verified" with a value of "true" are the three examples of the new Cypher query format; refactor all other markdown files in the content/PASSAGES folder (recursively) to use the new query. Be sure not to alter any property values!
