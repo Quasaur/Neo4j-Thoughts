@@ -8,7 +8,7 @@ tags: ["judgment", "sovereignty", "bible", "earth", "prophecy"]
 ptopic: "[[topic-DIVINE-SOVEREIGNTY]]"
 level: 2
 neo4j: true
-verified: false
+verified: true
 ---
 
 ```Cypher
@@ -19,22 +19,25 @@ CREATE (t:PASSAGE {
     parent: "topic.DIVINE SOVEREIGNTY",
     alias: "Passage: Removing All Things",
     tags: ["judgment", "sovereignty", "bible", "earth", "prophecy"],
+    source: "Proverbs 21:1",
+    sortedsource: "Proverbs 21:01",
+    biblelink: "https://www.biblegateway.com/passage/?search=Zephaniah%201&version=NASB",
     level: 2
 })
 
 CREATE (c:CONTENT {
     name: "content.REMOVING ALL THINGS",
     ctype: "PASSAGE",
-    en_title: "Removing All Things",
+    en_title: "Passage: Removing All Things",
     en_content: "I will completely remove all things from the face of the earth.",
-    es_title: "Eliminando todas las cosas",
-    es_content: "«Eliminaré por completo todas las cosas de la faz de la tierra», — Dios",
-    fr_title: "Suppression de toutes choses",
-    fr_content: "« Je supprimerai complètement toutes choses de la surface de la terre », — Dieu",
-    hi_title: "सभी चीज़ों को हटाना",
-    hi_content: "मैं धरती की सतह से सभी चीज़ों को पूरी तरह हटा दूँगा, — ईश्वर",
-    zh_title: "Qīngchú wànwù",
-    zh_content: "wǒ bì jiāng dìshàng de yīqiè chèdǐ qīngchú.——Shàngdì"
+    es_title: "Pasaje: Quitar todas las cosas",
+    es_content: "Eliminaré por completo todas las cosas de la faz de la tierra.",
+    fr_title: "Passage : Supprimer toutes choses",
+    fr_content: "Je supprimerai complètement toutes choses de la surface de la terre.",
+    hi_title: "परिच्छेद: सभी चीजों को हटाना",
+    hi_content: "मैं पृथ्वी पर से सब कुछ पूरी तरह मिटा दूँगा।",
+    zh_title: "duàn luò : yí chú suǒ yǒu dōng xī",
+    zh_content: "wǒ jiāng chè dǐ qīng chú dì qiú biǎo miàn de yī qiè ."
 })
 
 // 2. Link Content to Passage using the variables 't' and 'c'
