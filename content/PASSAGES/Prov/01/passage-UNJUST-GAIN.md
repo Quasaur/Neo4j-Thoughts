@@ -12,17 +12,21 @@ verified: false
 ---
 
 ```Cypher
-//create the Passage with the same fields as a normal thought
-CREATE (p:PASSAGE {	    name: "passage.UNJUST GAIN",
+// 1. Create the Passage and Content nodes
+// Using 'p' and 'c' as variables to keep them in memory
+CREATE (p:PASSAGE {
+    name: "passage.UNJUST GAIN",
+    parent: "topic.WEALTH",
 		alias: "Passage: Cheating is Deadly", 
-		parent: "topic.WEALTH", 
 		tags: ["gain", "greed", "unjust", "death", "just"], 
 		source: "Proverbs 1:19",
 		sortedsource: "Proverbs 01:19",
 		biblelink: "https://www.biblegateway.com/passage/?search=Proverbs+1%3A19&version=NASBNASB",
-		level: 3});
-// create multi-lingual content		
+		level: 3
+})
+
 CREATE (c:CONTENT {
+    
 	name: "content.UNJUST GAIN",
 	ctype: "PASSAGE",
 	en_title: "Unjust Gain", 
@@ -34,14 +38,17 @@ CREATE (c:CONTENT {
 	hi_title: "अन्यायपूर्ण लाभ", 
 	hi_content: "जो लोग अन्यायपूर्ण लाभ कमाते हैं, उनके तरीके ऐसे ही होते हैं; यह अपने मालिकों के जीवन को छीन लेता है।", 
 	zh_title: "Bù yì zhī cái", 
-	zh_content: "fán móuqǔ bù yì zhī cái de rén, dōu shì rúcǐ xíngjìng; bù yì zhī cái duó qùle yǒngyǒu zhě de shēngmìng."});
-// link content to node
-MATCH (p:PASSAGE {name: 'passage.UNJUST GAIN'})
-MATCH (c:CONTENT {name: 'content.UNJUST GAIN'})
-MERGE (p)-[:HAS_CONTENT {name: "p.edge.UNJUST GAIN"}]->(c);
-// link node to parent node
-MATCH (parent:TOPIC {name: 'topic.WEALTH'})
-MATCH (child:PASSAGE {name: 'passage.UNJUST GAIN'})
-MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.WEALTH->UNJUST GAIN"}]->(child);
+	zh_content: "fán móuqǔ bù yì zhī cái de rén, dōu shì rúcǐ xíngjìng; bù yì zhī cái duó qùle yǒngyǒu zhě de shēngmìng."
+})
 
+// 2. Link Content to Passage using the variables 'p' and 'c'
+MERGE (p)-[r1:HAS_CONTENT]->(c)
+ON CREATE SET r1.name = "p.edge.UNJUST GAIN"
+
+// 3. Pass 'p' forward, find the Parent Topic, and link them
+WITH p
+MATCH (parent:TOPIC {name: "topic.WEALTH"})
+MERGE (parent)-[r2:HAS_PASSAGE]->(p)
+ON CREATE SET r2.name = "p.edge.WEALTH->UNJUST GAIN"
+RETURN p, parent;
 ```

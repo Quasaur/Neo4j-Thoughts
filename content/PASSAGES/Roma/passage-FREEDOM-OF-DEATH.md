@@ -12,20 +12,22 @@ verified: false
 ---
 
 ```Cypher
-// CREATE PASSAGE
+// 1. Create the Passage and Content nodes
+// Using 'b' and 'c' as variables to keep them in memory
 CREATE (b:PASSAGE {
     name: "passage.FREEDOM OF DEATH",
-    alias: "Passage: Freedom of Death",
     parent: "topic.FREEDOM",
+    alias: "Passage: Freedom of Death",
     tags: ["freedom", "death", "sin", "thecross", "jesus_christ"],
     source: "'Romans 6:7'",
     sortedsource: "'Romans 06:07'",
     biblelink: "(https://www.biblegateway.com/passage/?search=Romans+6:7&version=KJV)",
     level: 5
-});
+})
 
-// CREATE CONTENT
 CREATE (c:CONTENT {
+    
+    
     name: "content.FREEDOM OF DEATH",
     ctype: "PASSAGE",
     en_title: "Freedom of Death",
@@ -38,16 +40,18 @@ CREATE (c:CONTENT {
  hi_content: "क्योंकि जो मर गया वह पाप से मुक्त हो गया।",
  zh_title: "sǐ wáng zì yóu",
  zh_content: "yīn wèi sǐ zhě jiù tuō lí le zuì niè 。",
-});
 
-// LINK CONTENT
-MATCH (b:PASSAGE {name: "passage.FREEDOM OF DEATH"})
-MATCH (c:CONTENT {name: "content.FREEDOM OF DEATH"})
-MERGE (b)-[:HAS_CONTENT {name: "p.edge.FREEDOM OF DEATH"}]->(c);
 
-// LINK PARENT
+})
+
+// 2. Link Content to Passage using the variables 'b' and 'c'
+MERGE (b)-[r1:HAS_CONTENT]->(c)
+ON CREATE SET r1.name = "p.edge.FREEDOM OF DEATH"
+
+// 3. Pass 'b' forward, find the Parent Topic, and link them
+WITH b
 MATCH (parent:TOPIC {name: "topic.FREEDOM"})
-MATCH (child:PASSAGE {name: "passage.FREEDOM OF DEATH"})
-MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.b.FREEDOM->FREEDOM OF DEATH"}]->(child);
-
+MERGE (parent)-[r2:HAS_PASSAGE]->(b)
+ON CREATE SET r2.name = "p.edge.FREEDOM->FREEDOM OF DEATH"
+RETURN b, parent;
 ```

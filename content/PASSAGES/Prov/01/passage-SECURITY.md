@@ -12,17 +12,21 @@ verified: false
 ---
 
 ```Cypher
-//create the Passage with the same fields as a normal thought
-CREATE (p:PASSAGE {	    name: "passage.SECURITY",
+// 1. Create the Passage and Content nodes
+// Using 'p' and 'c' as variables to keep them in memory
+CREATE (p:PASSAGE {
+    name: "passage.SECURITY",
+    parent: "topic.WISDOM",
 		alias: "Passage: Wisdom brings Security", 
-		parent: "topic.WISDOM", 
 		tags: ["listening", "wisdom", "securely", "ease", "dread"], 
 		source: "Proverbs 1:33",
 		sortedsource: "Proverbs 01:33",
 		biblelink: "https://www.biblegateway.com/passage/?search=Proverbs+1%3A33&version=NASB",
-		level: 3});
-// create multi-lingual content		
+		level: 3
+})
+
 CREATE (c:CONTENT {
+    
 	name: "content.SECURITY",
 	ctype: "PASSAGE",
 	en_title: "Security", 
@@ -34,14 +38,17 @@ CREATE (c:CONTENT {
 	hi_title: "सुरक्षा", 
 	hi_content: "लेकिन जो कोई मेरी (बुद्धि की) सुनेगा, वह सुरक्षित रहेगा और बुराई के भय से मुक्त रहेगा।", 
 	zh_title: "Ānquán", 
-	zh_content: "fán tīngcóng wǒ (zhìhuì) de rén, bì ānrán dù rì, bù jùpà zāihuò."});
-// link content to node
-MATCH (p:PASSAGE {name: 'passage.SECURITY'})
-MATCH (c:CONTENT {name: 'content.SECURITY'})
-MERGE (p)-[:HAS_CONTENT {name: "p.edge.SECURITY"}]->(c);
-// link node to parent node
-MATCH (parent:TOPIC {name: 'topic.WISDOM'})
-MATCH (child:PASSAGE {name: 'passage.SECURITY'})
-MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.WISDOM->SECURITY"}]->(child);
+	zh_content: "fán tīngcóng wǒ (zhìhuì) de rén, bì ānrán dù rì, bù jùpà zāihuò."
+})
 
+// 2. Link Content to Passage using the variables 'p' and 'c'
+MERGE (p)-[r1:HAS_CONTENT]->(c)
+ON CREATE SET r1.name = "p.edge.SECURITY"
+
+// 3. Pass 'p' forward, find the Parent Topic, and link them
+WITH p
+MATCH (parent:TOPIC {name: "topic.WISDOM"})
+MERGE (parent)-[r2:HAS_PASSAGE]->(p)
+ON CREATE SET r2.name = "p.edge.WISDOM->SECURITY"
+RETURN p, parent;
 ```

@@ -12,20 +12,22 @@ verified: false
 ---
 
 ```Cypher
-// CREATE PASSAGE
+// 1. Create the Passage and Content nodes
+// Using 'b' and 'c' as variables to keep them in memory
 CREATE (b:PASSAGE {
     name: "passage.PROTECTION FROM EVIL",
-    alias: "Passage: Protection From Evil",
     parent: "topic.EVIL",
+    alias: "Passage: Protection From Evil",
     tags: ["wisdom", "knowledge", "discretion", "understanding", "rescue"],
     source: "'Proverbs 2:10-12'",
     sortedsource: "'Proverbs 02:10-12'",
     biblelink: "(https://www.biblegateway.com/passage/?search=proverbs+2%3A10-12&version=NASB)",
     level: 4
-});
+})
 
-// CREATE CONTENT
 CREATE (c:CONTENT {
+    
+    
     name: "content.PROTECTION FROM EVIL",
     ctype: "PASSAGE",
     en_title: "Protection From Evil",
@@ -38,16 +40,18 @@ CREATE (c:CONTENT {
  hi_content: "क्योंकि बुद्धि तेरे हृदय में प्रवेश करेगी, और ज्ञान से तेरा मन प्रसन्न होगा; विवेक तेरी रक्षा करेगा, समझ तेरी रक्षा करेगी, और तुझे बुराई के मार्ग से बचाएगा, और टेढ़ी-मेढ़ी बातें बोलनेवाले से बचाएगा;",
  zh_title: "bǎo hù miǎn shòu xié è qīn hài",
  zh_content: "yīn wèi zhì huì jiāng jìn rù nǐ de nèi xīn ， zhī shí jiàng lìng nǐ de líng hún yú yuè ； míng biàn huì bǎo hù nǐ ， cōng míng huì bǎo hù nǐ ， jiù nǐ tuō lí è dào ， tuō lí shuō guāi huà de rén 。",
-});
 
-// LINK CONTENT
-MATCH (b:PASSAGE {name: "passage.PROTECTION FROM EVIL"})
-MATCH (c:CONTENT {name: "content.PROTECTION FROM EVIL"})
-MERGE (b)-[:HAS_CONTENT {name: "p.edge.PROTECTION FROM EVIL"}]->(c);
 
-// LINK PARENT
+})
+
+// 2. Link Content to Passage using the variables 'b' and 'c'
+MERGE (b)-[r1:HAS_CONTENT]->(c)
+ON CREATE SET r1.name = "p.edge.PROTECTION FROM EVIL"
+
+// 3. Pass 'b' forward, find the Parent Topic, and link them
+WITH b
 MATCH (parent:TOPIC {name: "topic.EVIL"})
-MATCH (child:PASSAGE {name: "passage.PROTECTION FROM EVIL"})
-MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.b.EVIL->PROTECTION FROM EVIL"}]->(child);
-
+MERGE (parent)-[r2:HAS_PASSAGE]->(b)
+ON CREATE SET r2.name = "p.edge.EVIL->PROTECTION FROM EVIL"
+RETURN b, parent;
 ```

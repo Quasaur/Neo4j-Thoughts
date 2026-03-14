@@ -12,17 +12,21 @@ verified: false
 ---
 
 ```Cypher
-//create the Passage with the same fields as a normal thought
-CREATE (p:PASSAGE {	    name: "passage.HOUSE OF THE WICKED",
+// 1. Create the Passage and Content nodes
+// Using 'p' and 'c' as variables to keep them in memory
+CREATE (p:PASSAGE {
+    name: "passage.HOUSE OF THE WICKED",
+    parent: "topic.EVIL",
 		alias: "Passage: The Two Houses", 
-		parent: "topic.EVIL", 
 		tags: ["wicked", "house", "curse", "dwelling", "righteous"], 
 		source: "Proverbs 3:33",
 		sortedsource: "Proverbs 03:33",
 		biblelink: "https://www.biblegateway.com/passage/?search=Proverbs%203%3A33&version=ESV",
-		level: 4});
-// create multi-lingual content		
+		level: 4
+})
+
 CREATE (c:CONTENT {
+    
 	name: "content.HOUSE OF THE WICKED",
 	ctype: "PASSAGE",
 	en_title: "House of the Wicked", 
@@ -34,14 +38,17 @@ CREATE (c:CONTENT {
 	hi_title: "दुष्टों का घर",
 	hi_content: "दुष्टों के घर पर प्रभु का श्राप है, परन्तु धर्मियों के घर पर वह आशीष देता है।", 
 	zh_title: "Èrén zhī jiā",
-	zh_content: "yēhéhuá zhòu zǔ èrén zhī jiā, cì fú yǔ yì rén de jūsuǒ."});
-// link content to node
-MATCH (p:PASSAGE {name: 'passage.HOUSE OF THE WICKED'})
-MATCH (c:CONTENT {name: 'content.HOUSE OF THE WICKED'})
-MERGE (p)-[:HAS_CONTENT {name: "p.edge.HOUSE OF THE WICKED"}]->(c);
-// link node to parent node
-MATCH (parent:TOPIC {name: 'topic.EVIL'})
-MATCH (child:PASSAGE {name: 'passage.HOUSE OF THE WICKED'})
-MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.EVIL->HOUSE OF THE WICKED"}]->(child);
+	zh_content: "yēhéhuá zhòu zǔ èrén zhī jiā, cì fú yǔ yì rén de jūsuǒ."
+})
 
+// 2. Link Content to Passage using the variables 'p' and 'c'
+MERGE (p)-[r1:HAS_CONTENT]->(c)
+ON CREATE SET r1.name = "p.edge.HOUSE OF THE WICKED"
+
+// 3. Pass 'p' forward, find the Parent Topic, and link them
+WITH p
+MATCH (parent:TOPIC {name: "topic.EVIL"})
+MERGE (parent)-[r2:HAS_PASSAGE]->(p)
+ON CREATE SET r2.name = "p.edge.EVIL->HOUSE OF THE WICKED"
+RETURN p, parent;
 ```

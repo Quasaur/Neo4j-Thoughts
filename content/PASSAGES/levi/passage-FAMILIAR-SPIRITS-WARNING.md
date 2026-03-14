@@ -12,16 +12,20 @@ verified: false
 ---
 
 ```Cypher
+// 1. Create the Passage and Content nodes
+// Using 't' and 'c' as variables to keep them in memory
 CREATE (t:PASSAGE {
     name: "passage.FAMILIAR SPIRITS WARNING",
-    alias: "Passage: Familiar Spirits Warning",
     parent: "topic.EVIL",
+    alias: "Passage: Familiar Spirits Warning",
     tags: ["occult", "spirits", "evil", "law", "bible"],
 
     level: 4
-});
+})
 
 CREATE (c:CONTENT {
+    
+    
     name: "content.FAMILIAR SPIRITS WARNING",
     ctype: "PASSAGE",
     en_title: "Familiar Spirits Warning",
@@ -36,13 +40,18 @@ Ne vous tournez pas vers les médiums ni les spirites ; ne les consultez pas, de
     hi_content: "माध्यमों या आत्माओं से बात करने वालों के पास न जाएं; उनसे अपवित्र होने के लिए उन्हें न ढूंढें। मैं तुम्हारा परमेश्वर यहोवा हूँ।",
     zh_title: "Jǐngtì xié líng",
     zh_content: "bù yāo qiúzhù yú líng méi huò zhāohún shùshì; bùyào xúnqiú tāmen de bāngzhù, yǐmiǎn bèi tāmen diànwū. Wǒ shì yēhéhuá nǐ de shén."
-});
 
-MATCH (t:PASSAGE {name: "passage.FAMILIAR SPIRITS WARNING"})
-MATCH (c:CONTENT {name: "content.FAMILIAR SPIRITS WARNING"})
-MERGE (t)-[:HAS_CONTENT {name: "p.edge.FAMILIAR SPIRITS WARNING"}]->(c);
 
+})
+
+// 2. Link Content to Passage using the variables 't' and 'c'
+MERGE (t)-[r1:HAS_CONTENT]->(c)
+ON CREATE SET r1.name = "p.edge.FAMILIAR SPIRITS WARNING"
+
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
 MATCH (parent:TOPIC {name: "topic.EVIL"})
-MATCH (child:PASSAGE {name: "passage.FAMILIAR SPIRITS WARNING"})
-MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.EVIL->FAMILIAR SPIRITS WARNING"}]->(child);
+MERGE (parent)-[r2:HAS_PASSAGE]->(t)
+ON CREATE SET r2.name = "p.edge.EVIL->FAMILIAR SPIRITS WARNING"
+RETURN t, parent;
 ```

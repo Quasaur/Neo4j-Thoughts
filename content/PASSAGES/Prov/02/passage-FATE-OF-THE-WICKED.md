@@ -12,20 +12,22 @@ verified: false
 ---
 
 ```Cypher
-// CREATE PASSAGE
+// 1. Create the Passage and Content nodes
+// Using 'b' and 'c' as variables to keep them in memory
 CREATE (b:PASSAGE {
     name: "passage.FATE OF THE WICKED",
-    alias: "Passage: Fate of the Wicked",
     parent: "topic.EVIL",
+    alias: "Passage: Fate of the Wicked",
     tags: ["wicked", "eliminated", "treacherous", "torn", "land"],
     source: "'Proverbs 2:22'",
     sortedsource: "'Proverbs 02:22'",
     biblelink: "(https://www.biblegateway.com/passage/?search=proverbs+2%3A22&version=NASB)",
     level: 4
-});
+})
 
-// CREATE CONTENT
 CREATE (c:CONTENT {
+    
+    
     name: "content.FATE OF THE WICKED",
     ctype: "PASSAGE",
     en_title: "Fate of the Wicked",
@@ -38,16 +40,18 @@ CREATE (c:CONTENT {
  hi_content: "परन्तु दुष्ट लोग देश में से नाश किए जाएंगे, और विश्वासघाती उस में से नाश किए जाएंगे।",
  zh_title: "è rén de mìng yùn",
  zh_content: "dàn è rén bì cóng dì shàng bèi xiāo miè ， jiān zhà rén bì cóng dì shàng bèi bá chú 。",
-});
 
-// LINK CONTENT
-MATCH (b:PASSAGE {name: "passage.FATE OF THE WICKED"})
-MATCH (c:CONTENT {name: "content.FATE OF THE WICKED"})
-MERGE (b)-[:HAS_CONTENT {name: "p.edge.FATE OF THE WICKED"}]->(c);
 
-// LINK PARENT
+})
+
+// 2. Link Content to Passage using the variables 'b' and 'c'
+MERGE (b)-[r1:HAS_CONTENT]->(c)
+ON CREATE SET r1.name = "p.edge.FATE OF THE WICKED"
+
+// 3. Pass 'b' forward, find the Parent Topic, and link them
+WITH b
 MATCH (parent:TOPIC {name: "topic.EVIL"})
-MATCH (child:PASSAGE {name: "passage.FATE OF THE WICKED"})
-MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.b.EVIL->FATE OF THE WICKED"}]->(child);
-
+MERGE (parent)-[r2:HAS_PASSAGE]->(b)
+ON CREATE SET r2.name = "p.edge.EVIL->FATE OF THE WICKED"
+RETURN b, parent;
 ```

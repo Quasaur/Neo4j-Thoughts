@@ -12,20 +12,22 @@ verified: false
 ---
 
 ```Cypher
-// CREATE PASSAGE
+// 1. Create the Passage and Content nodes
+// Using 'b' and 'c' as variables to keep them in memory
 CREATE (b:PASSAGE {
     name: "passage.TRUST THE LORD",
-    alias: "Passage: Trust the Lord",
     parent: "topic.FAITH",
+    alias: "Passage: Trust the Lord",
     tags: ["trust", "faith", "self_doubt", "acknowledge", "promise"],
     source: "'Proverbs 3:5,6'",
     sortedsource: "'Proverbs 03:05-06'",
     biblelink: "(https://www.biblegateway.com/passage/?search=Proverbs+3%3A5-6&version=NASB)",
     level: 4
-});
+})
 
-// CREATE CONTENT
 CREATE (c:CONTENT {
+    
+    
     name: "content.TRUST THE LORD",
     ctype: "PASSAGE",
     en_title: "'Passage: TRUST THE LORD'",
@@ -38,16 +40,18 @@ CREATE (c:CONTENT {
  hi_content: "पूरे दिल से यहोवा पर भरोसा रखो और अपनी समझ का सहारा मत लो। अपने सभी मार्गों में उसे स्वीकार करो, और वह तुम्हारे लिए मार्ग सीधा करेगा।",
  zh_title: "“ jīng wén ： xiāng xìn yē hé huá ”",
  zh_content: "quán xīn quán yì dì xìn lài zhǔ ， bú yào yī kào zì jǐ de lǐ jiě 。 zài nǐ yī qiè suǒ xíng de lù shàng dōu yào chéng rèn tā ， tā jiù huì zhǐ yǐn nǐ de dào lù 。",
-});
 
-// LINK CONTENT
-MATCH (b:PASSAGE {name: "passage.TRUST THE LORD"})
-MATCH (c:CONTENT {name: "content.TRUST THE LORD"})
-MERGE (b)-[:HAS_CONTENT {name: "p.edge.TRUST THE LORD"}]->(c);
 
-// LINK PARENT
+})
+
+// 2. Link Content to Passage using the variables 'b' and 'c'
+MERGE (b)-[r1:HAS_CONTENT]->(c)
+ON CREATE SET r1.name = "p.edge.TRUST THE LORD"
+
+// 3. Pass 'b' forward, find the Parent Topic, and link them
+WITH b
 MATCH (parent:TOPIC {name: "topic.FAITH"})
-MATCH (child:PASSAGE {name: "passage.TRUST THE LORD"})
-MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.b.FAITH->TRUST THE LORD"}]->(child);
-
+MERGE (parent)-[r2:HAS_PASSAGE]->(b)
+ON CREATE SET r2.name = "p.edge.FAITH->TRUST THE LORD"
+RETURN b, parent;
 ```

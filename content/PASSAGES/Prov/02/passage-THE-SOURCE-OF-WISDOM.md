@@ -12,19 +12,22 @@ verified: false
 ---
 
 ```Cypher
-//create the Passage with the same fields as a normal thought
-CREATE (b:PASSAGE
-    {
-     name: "passage.THE SOURCE OF WISDOM",
+// 1. Create the Passage and Content nodes
+// Using 'b' and 'c' as variables to keep them in memory
+CREATE (b:PASSAGE {
+    name: "passage.THE SOURCE OF WISDOM",
+    parent: "topic.WISDOM",
      alias: "Passage: The Source of Wisdom", 
-     parent: "topic.WISDOM", 
      tags: ["wisdom", "gift", "knowledge", "understanding", "integrity"], 
      source: "Proverbs 2:6-8",
      sortedsource: "Proverbs 02:06-08",
      biblelink: "(https://www.biblegateway.com/passage/?search=Deuteronomy%208%3A18&version=NASB)",
-     level: 3});
-// create multi-lingual content  
+     level: 3
+})
+
 CREATE (c:CONTENT {
+    
+    
  name: "content.THE SOURCE OF WISDOM", 
  ctype: "PASSAGE",
  en_title: "The Source of Wisdom", 
@@ -61,15 +64,18 @@ zhīshì hé wùxìng dōu chūzì tā de kǒu.
 Tā wèi zhèngzhí rén jīcún zhēn zhìhuì;
 tā zuò xíngwéi zhèngzhí zhī rén de dùnpái,
 shǒuhù zhèngyì de dàolù,
-tā yě kàngù jìngqián zhī rén de dàolù."});
-// link content to node
-MATCH (b:PASSAGE)
-MATCH (c:CONTENT)
-WHERE b.name = "passage.THE SOURCE OF WISDOM" AND c.name = "content.THE SOURCE OF WISDOM"
-MERGE (b)-[:HAS_CONTENT {name: "p.edge.WISDOM->THE SOURCE OF WISDOM"}]->(c);
-// link node to parent node
-MATCH (parent:TOPIC {name: "topic.WISDOM"})
-MATCH (child:PASSAGE {name: "passage.THE SOURCE OF WISDOM"})
-MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.WISDOM->THE SOURCE OF WISDOM"}]->(child);
+tā yě kàngù jìngqián zhī rén de dàolù."
 
+})
+
+// 2. Link Content to Passage using the variables 'b' and 'c'
+MERGE (b)-[r1:HAS_CONTENT]->(c)
+ON CREATE SET r1.name = "p.edge.THE SOURCE OF WISDOM"
+
+// 3. Pass 'b' forward, find the Parent Topic, and link them
+WITH b
+MATCH (parent:TOPIC {name: "topic.WISDOM"})
+MERGE (parent)-[r2:HAS_PASSAGE]->(b)
+ON CREATE SET r2.name = "p.edge.WISDOM->THE SOURCE OF WISDOM"
+RETURN b, parent;
 ```

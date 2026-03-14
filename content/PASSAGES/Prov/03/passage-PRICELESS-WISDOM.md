@@ -23,17 +23,21 @@ neo4j: true
 verified: false
 ---
 ```Cypher
-//create the Passage with the same fields as a normal thought
-CREATE (p:PASSAGE {	    name: "passage.PRICELESS WISDOM",
+// 1. Create the Passage and Content nodes
+// Using 'p' and 'c' as variables to keep them in memory
+CREATE (p:PASSAGE {
+    name: "passage.PRICELESS WISDOM",
+    parent: "topic.WISDOM",
 		alias: "Passage: The Greatest Treasure", 
-		parent: "topic.WISDOM", 
 		tags: ["wisdom", "understanding", "riches", "tree_of_life", "peace"], 
 		source: "Proverbs 3:13-18",
 		sortedsource: "Proverbs 03:13-18",
 		biblelink: "https://www.biblegateway.com/passage/?search=Proverbs%203%3A13-18&version=ESV",
-		level: 3});
-// create multi-lingual content		
+		level: 3
+})
+
 CREATE (c:CONTENT {
+    
 	name: "content.PRICELESS WISDOM",
 	ctype: "PASSAGE",
 	en_title: "Priceless Wisdom", 
@@ -100,14 +104,17 @@ tā zuǒshǒu wòzhe cáifù hé zūn róng.
 Tā de dàolù shì ānlè zhī lù,
 tā de yīqiè lùtú dōu shì píng'ān.
 Tā duì nàxiē zhuā zhù tā de rén, jiùshì shēngmìng shù;
-nàxiē jǐn jǐn zhuā zhù tā de rén yǒufúle."});
-// link content to node
-MATCH (p:PASSAGE {name: 'passage.PRICELESS WISDOM'})
-MATCH (c:CONTENT {name: 'content.PRICELESS WISDOM'})
-MERGE (p)-[:HAS_CONTENT {name: "p.edge.PRICELESS WISDOM"}]->(c);
-// link node to parent node
-MATCH (parent:TOPIC {name: 'topic.WISDOM'})
-MATCH (child:PASSAGE {name: 'passage.PRICELESS WISDOM'})
-MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.WISDOM->PRICELESS WISDOM"}]->(child);
+nàxiē jǐn jǐn zhuā zhù tā de rén yǒufúle."
+})
 
+// 2. Link Content to Passage using the variables 'p' and 'c'
+MERGE (p)-[r1:HAS_CONTENT]->(c)
+ON CREATE SET r1.name = "p.edge.PRICELESS WISDOM"
+
+// 3. Pass 'p' forward, find the Parent Topic, and link them
+WITH p
+MATCH (parent:TOPIC {name: "topic.WISDOM"})
+MERGE (parent)-[r2:HAS_PASSAGE]->(p)
+ON CREATE SET r2.name = "p.edge.WISDOM->PRICELESS WISDOM"
+RETURN p, parent;
 ```

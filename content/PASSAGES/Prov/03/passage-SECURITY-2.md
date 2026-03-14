@@ -22,17 +22,21 @@ neo4j: true
 verified: false
 ---
 ```Cypher
-//create the Passage with the same fields as a normal thought
-CREATE (p:PASSAGE {	    name: "passage.SECURITY (2)",
+// 1. Create the Passage and Content nodes
+// Using 'p' and 'c' as variables to keep them in memory
+CREATE (p:PASSAGE {
+    name: "passage.SECURITY (2)",
+    parent: "topic.WISDOM",
 		alias: "Passage: Wisdom and Discretion", 
-		parent: "topic.WISDOM", 
 		tags: ["discretion", "wisdom", "secure", "life", "confidence"], 
 		source: "Proverbs 3:21-26",
 		sortedsource: "Proverbs 03:21-26",
 		biblelink: "https://www.biblegateway.com/passage/?search=Proverbs%203%3A21-26&version=ESV",
-		level: 3});
-// create multi-lingual content		
+		level: 3
+})
+
 CREATE (c:CONTENT {
+    
 	name: "content.SECURITY (2)",
 	ctype: "PASSAGE",
 	en_title: "SECURITY (2)", 
@@ -90,14 +94,17 @@ nǐ de jiǎo yě bù zhì diédǎo.
 Nǐ tǎng xià, bì bù jùpà; nǐ tǎng xià, shuì dé xiāngtián.
 Bùyào hàipà tū lái de jīngkǒng,
 yě bùyào hàipà èrén de huǐmiè líndào. Yīnwèi yēhéhuá shì nǐ suǒ yǐkào de,
-tā bì bǎoshǒu nǐ de jiǎo bù bèi bàn dào."});
-// link content to node
-MATCH (p:PASSAGE {name: 'passage.SECURITY (2)'})
-MATCH (c:CONTENT {name: 'content.SECURITY (2)'})
-MERGE (p)-[:HAS_CONTENT {name: "p.edge.SECURITY (2)"}]->(c);
-// link node to parent node
-MATCH (parent:TOPIC {name: 'topic.WISDOM'})
-MATCH (child:PASSAGE {name: 'passage.SECURITY (2)'})
-MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.WISDOM->SECURITY (2)"}]->(child);
+tā bì bǎoshǒu nǐ de jiǎo bù bèi bàn dào."
+})
 
+// 2. Link Content to Passage using the variables 'p' and 'c'
+MERGE (p)-[r1:HAS_CONTENT]->(c)
+ON CREATE SET r1.name = "p.edge.SECURITY (2)"
+
+// 3. Pass 'p' forward, find the Parent Topic, and link them
+WITH p
+MATCH (parent:TOPIC {name: "topic.WISDOM"})
+MERGE (parent)-[r2:HAS_PASSAGE]->(p)
+ON CREATE SET r2.name = "p.edge.WISDOM->SECURITY (2)"
+RETURN p, parent;
 ```
