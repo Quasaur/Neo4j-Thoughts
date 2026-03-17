@@ -8,7 +8,7 @@ tags: ["creation", "earth", "storms", "power", "majesty"]
 ptopic: "[[topic-ASTROPHYSICS]]"
 level: 5
 neo4j: true
-verified: false
+verified: true
 ---
 
 
@@ -25,15 +25,15 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.EARTH STORMS",
     ctype: "THOUGHT",
-    en_title: "Earth Storms",
+    en_title: "Thought: Earth Storms",
     en_content: "Earth has about 16 million storms per year...God is Great!",
-    es_title: "Tormentas Terrestres",
+    es_title: "Pensamiento: Tormentas terrestres",
     es_content: "La Tierra tiene aproximadamente 16 millones de tormentas por año...¡Dios es Grande!",
-    fr_title: "Tempêtes Terrestres",
+    fr_title: "Pensée : Tempêtes terrestres",
     fr_content: "La Terre a environ 16 millions de tempêtes par an...Dieu est Grand !",
-    hi_title: "पृथ्वी के तूफान",
+    hi_title: "विचार: पृथ्वी तूफान",
     hi_content: "पृथ्वी पर प्रतिवर्ष लगभग 1.6 करोड़ तूफान आते हैं...परमेश्वर महान है!",
-    zh_title: "Dìqiú Fēngbào",
+    zh_title: "sī xiǎng : dì qiú fēng bào",
     zh_content: "Dìqiú měinián dàyuē yǒu 1600 wàn cì fēngbào...Shàngdì shì wěidà de!"
 });
 

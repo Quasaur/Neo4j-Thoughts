@@ -32,7 +32,7 @@ type:
 name:
 alias:
 parent:
-source
+source | sortedsource
 en_content:
 tags:
 ptopic:
@@ -115,18 +115,21 @@ Rule 6: The fourth YAML property listed in the front matter should be "parent" a
 
 Rule 6a: the YAML property "parent" identifies the "name" field of the parent TOPIC, and therefore must follow the same naming convention as the "name" field of any node that contains that property.
 
-### 5th YAML Property: "source" (Quote)
+### 5th YAML Property: "source" (QUOTE) or "sortedsource" (PASSAGE)
 
-Rule 7: The fifth YAML property listed in the front matter should be "source" and exists in the following node types found in the Cypher block of the markdown file:
+Rule 7: The fifth YAML property listed in the front matter should be (in the case of a QUOTE node) "source" or (in the case of a PASSAGE node) "sorted source". These properties exist in the following node types found in the Cypher block of the markdown file:
 
 - QUOTE
 - PASSAGE
 
-Rule 7a: At this time only the QUOTE node type has its "source" property included in the YAML front matter.
+Rule 7b: The YAML property "source" identifies the title of the book from which the QUOTE was retrieved.
 
-Rule 7b: The YAML property "source" identifies the title of the book from which the quote was retrieved.
+Rule 7c: The value of the YAML property "source" should be enclosed only with double quotes (i.e., "The Narrow Way"), not double and single quotes (i.e., "'The Narrow Way'"). This rule applies to the QUOTE node's "source" property in the Cypher block as well. 
 
-Rule 7c: The value of the YAML property "source" should be enclosed only with double quotes (i.e., "The Narrow Way"), not double and single quotes (i.e., "'The Narrow Way'"). This rule applies to the QUOTE node's "source" property as well. 
+Rule 7d: The YAML property "sortedsource" identifies book, chapter and verse(s) of the Bible from which the PASSAGE was retrieved.
+
+Rule 7e: The value of the YAML property "sortedsource" should be enclosed only with double quotes (i.e., "Proverbs 01:05"), not double and single quotes (i.e., "'Proverbs 01:05'"). This rule applies to the PASSAGE node's "sortdsource" property in the Cypher block as well. 
+
 
 ### 6th YAML Property: "en_content"
 

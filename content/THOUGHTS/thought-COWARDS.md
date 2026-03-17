@@ -2,18 +2,14 @@
 type: THOUGHT
 name: "thought.COWARDS"
 alias: "Thought: The Terrorist Delusion"
+parent: "topic.EVIL"
 en_content: "Terrorists and freedom fighters are children of the Devil...COWARDS...just like their daddy."
 tags: ["terrorists", "freedom_fighters", "cowards", "children", "satan"]
 ptopic: "[[topic-EVIL]]"
 level: 4
 neo4j: true
-verified: false
+verified: true
 ---
-
-
-
-
-
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 26-Dec-2013)
@@ -28,15 +24,15 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.COWARDS",
     ctype: "THOUGHT",
-    en_title: "Cowards",
+    en_title: "Thought: The Terrorist Delusion",
     en_content: "Terrorists and freedom fighters are children of the Devil...COWARDS...just like their daddy.",
-    es_title: "Cobardes",
+    es_title: "Pensamiento: El engaño terrorista",
     es_content: "Los terroristas y los luchadores por la libertad son hijos del diablo... COBARDES... igual que su papá.",
-    fr_title: "Lâches",
+    fr_title: "Pensée : l’illusion terroriste",
     fr_content: "Les terroristes et les combattants de la liberté sont des enfants du Diable... des lâches... tout comme leur père.",
-    hi_title: "कायर",
+    hi_title: "विचार: आतंकवादी भ्रम",
     hi_content: "आतंकवादी और स्वतंत्रता सेनानी शैतान के बच्चे हैं...कायर...ठीक अपने बाप की तरह।",
-    zh_title: "Nuòfū",
+    zh_title: "sī xiǎng : kǒng bù zhǔ yì wàng xiǎng",
     zh_content: "kǒngbù fèn zǐ hé zìyóu zhànshì dōu shì móguǐ de zǐsì……nuòfū……jiù xiàng tāmen de lǎo diē yīyàng."
 });
 

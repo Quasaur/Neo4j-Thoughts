@@ -1,3 +1,7 @@
+formulas:
+  Untitled: ""
+  Untitled 2: ""
+  Row: row()+1
 views:
   - type: table
     name: Table
@@ -16,6 +20,16 @@ views:
       - neo4j
       - verified
       - alias
+      - formula.Untitled 2
     sort:
       - property: level
         direction: ASC
+  - type: list
+    name: View
+    filters:
+      and:
+        - file.folder.startsWith("content")
+        - type == "THOUGHT"
+    order:
+      - file.name
+      - formula.Untitled

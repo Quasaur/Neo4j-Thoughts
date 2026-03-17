@@ -36,6 +36,7 @@ The following rules define the values of the primary and secondary nodes as well
 ## Primary Node
 Rule 2: The Primary node's properties are replicated in the node markdown file's YAML front matter nearly verbatum (except for the type, en_content, ptopic and neo4j YAML properties.). This is done so that the Developer has an easy view of each file's Cypher block content from the Obsidian Base tables. Where a primary node's property exists in the YAML front matter, the YAML front matter is the source of truth.
 
+Rule 2a: The last property of both the primary node (TOPIC, THOUGHT, QUOTE & PASSAGE) and the secondary node (DESCRIPTION or CONTENT) must not end with a comma, being the last property in the query.
 #### Deprecated Properties
 Rule 3: For the first CREATE query in the Cyper block the "notes" property has been deprecated from all primary node types (TOPIC, THOUGHT, QUOTE and PASSAGE) and must be removed by the agentic model wherever it is found and the line from which it was deleted in the Cypher CREATE query for the node removed so that there are no empty lines within the query.
 
@@ -84,7 +85,9 @@ Rule 7: Every Cypher CREATE query for the PASSAGE node type must have the follow
 	- biblelink
 	- level
 
-Rule 7a: There must be clear distinction between the PASSAGE content and the PASSAAGE reference properties (source, sortedsource, biblelink). That is to say the source, sortedsource and biblelink properties of a PASSAGE should never be found in the value of any property of the PASSAGE's CONTENT node.
+Rule 7a: There must be clear distinction between the PASSAGE content and the PASSAGE reference properties (source, sortedsource, biblelink). That is to say the source, sortedsource and biblelink properties of a PASSAGE should never be found in the value of any property of the PASSAGE's CONTENT node.
+
+Rule 7b: The values of the source, sortedsource and biblelink properties of the PASSAGE node should each be enclosed in double quotes...not double and single quotes together, and not double quotes and parentheses.
 
 ## Secondary Node
 Rule 8: The second Cypher CREATE query in the Cypher block creates the node that contains the actual content for the primary node, whether that is the DESCRIPTION of the TOPIC or the COTENT of the THOUGHT, QUERY or PASSAGE node.
@@ -199,10 +202,6 @@ MERGE (t)-[:HAS_DESCRIPTION {name: "q.edge.BEGOTTEN"}]->(d);
 Rule 14: The value of the "name" property of the PASSAGE to CONTENT relationship has two parts:
 - the prefix "p.edge."
 - the second part of the PASSAGE node's name (.i.e., "FAITHLESSNESS" of "passage.FAITHLESSNESS").
-
-Rule 14a: Following is an example of the part of the third Cypher query that contains the replationship's "name" field:
-```cypher
-MERGE (t)-[:HAS_DESCRIPTION {name: "p.edge.FAITHLESSNESS"}]->(d);
 ```
 
 ## Fourth Query: Second Relationship
@@ -257,44 +256,6 @@ MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.HUMANITY->ACCOUNTABILITY"}]->(child)
 ### Primary QUOTE Node to Parent TOPIC Relationship
 Rule 18: The fourth Cypher query makes the Cypher block's primary QUOTE node (created in the first query of the Cypher block) the child of the parent TOPIC identified in the primary QUOTE node's "parent" property using the HAS_QUOTE relationship type.
 
-#### First (MATCH) Statement
-Rule 18a: The value of the first "name" property of the relationship has two parts:
-- the prefix "topic."
-- the second part of the parent TOPIC's "name" property, which consists of the second part of the parent TOPIC node's name (i.e., "POLITICAL SCIENCE" of "topic.POLITICAL SCIENCE"). The second part of the first name property must follow the rules of TOPIC names: only spaces are allowed between multiple CAPITAL WORDS...no underscores, spaces or dashes allowed.
-
-Rule 18b: Following is an example of the part of the fourth cypher query that contains the first "name" property:
-```cypher
-MATCH (parent:TOPIC {name: "topic.POLITICAL SCIENCE");
-```
-#### Second (MATCH) Statement
-Rule 18c: The value of the second "name" property of the relationship has two parts:
-- the prefix "quote."
-- the second part of the child QUOTE's "name" property, which consists of the second part of the child QUOTE node's name (i.e., "POLITICAL CHRIST" of "quote.POLITICAL CHRIST"). The second part of the second name property must follow the rules of QUOTE names: only spaces are allowed between multiple CAPITAL WORDS...no underscores, spaces or dashes allowed.
-
-Rule 18d: Following is an example of the part of the fourth cypher query that contains the second "name" property:
-```cypher
-MATCH (child:TOPIC {name: "quote.POLITICAL CHRIST");
-```
-
-#### Third (MERGE) Statement
-Rule 18a: The value of the third "name" property of the relationship has two parts:
-- the prefix "q.edge."
-- the second part of the HAS_QUOTE relationship's "name" property, which consists of the second part of the parent TOPIC node's name (i.e., "THE GOSPEL" of "topic.THE GOSPEL") connected to the second part of the primary QUOTE node's "name" property (i.e., "BEGOTTEN" of "quote.BEGOTTEN") by the characters "->". The second part of both the parent and child name properties must follow the rules of all node names: only spaces are allowed between multiple CAPITAL WORDS...no underscores, spaces or dashes allowed.
-
-Rule 18b: Following is an example of the part of the fourth cypher query that contains the "name" property:
-```cypher
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.HUMANITY->ACCOUNTABILITY"}]->(child);
-```
-
 ### Primary PASSAGE Node to Parent TOPIC Relationship
 Rule 19: The fourth Cypher query makes the Cypher block's primary PASSAGE node (created in the first query of the Cypher block) the child of the parent TOPIC identified in the primary PASSAGE node's "parent" property using the HAS_PASSAGE relationship type.
 
-#### Third (MERGE) Statement
-Rule 19a: The value of the third "name" property of the relationship has two parts:
-- the prefix "p.edge."
-- the second part of the HAS_PASSAGE relationship's "name" property, which consists of the second part of the parent TOPIC node's name (i.e., "WEALTH" of "topic.WEALTH") connected to the second part of the primary PASSAGE node's "name" property (i.e., "THE SOURCE OF WEALTH" of "passage.THE SOURCE OF WEALTH") by the characters "->". The second part of both the parent and child name properties must follow the rules of all node names: only spaces are allowed between multiple CAPITAL WORDS...no underscores, spaces or dashes allowed.
-
-Rule 19b: Following is an example of the part of the fourth cypher query that contains the "name" property:
-```cypher
-MERGE (parent)-[:HAS_PASSAGE {name: "p.edge.b.WEALTH->THE SOURCE OF WEALTH"}]->(child);
-```

@@ -1,22 +1,19 @@
 ---
 type: THOUGHT
-name: "thought.ENDING"
+name: thought.ENDING
 alias: "Thought: Ending"
-parent: "topic.APOCALYPSE"
-en_content: "","
- es_title: "FINAL"
- es_content: ""
- fr_title: "FIN"
- fr_content: ""
- hi_title: "ख़त्म होना"
- hi_content: ""
- zh_title: "jié shù"
- zh_content: ""
-tags: ["ending", "bible", "apocalypse", "judgment", "newjerusalem"]
+parent: topic.APOCALYPSE
+en_content: The Bible goes into far more detail regarding how the world will end than how the world began.
+tags:
+  - ending
+  - bible
+  - apocalypse
+  - judgment
+  - new_jerusalem
 ptopic: "[[topic-APOCALYPSE]]"
 level: 5
 neo4j: true
-verified: false
+verified: true
 ---
 
 
@@ -26,23 +23,23 @@ CREATE (t:THOUGHT {
     name: "thought.ENDING",
     alias: "Thought: Ending",
     parent: "topic.APOCALYPSE",
-    tags: ["ending", "bible", "apocalypse", "judgment", "newjerusalem"],
+    tags: ["ending", "bible", "apocalypse", "judgment", "new_jerusalem"],
     level: 5
 });
 
 CREATE (c:CONTENT {
     name: "content.ENDING",
     ctype: "THOUGHT",
-    en_title: "Ending",
-    en_content: "",
-    es_title: "FINAL",
-    es_content: "",
-    fr_title: "FIN",
-    fr_content: "",
-    hi_title: "ख़त्म होना",
-    hi_content: "",
-    zh_title: "jié shù",
-    zh_content: ""
+    en_title: "Thought: Ending",
+    en_content: "The Bible goes into far more detail regarding how the world will end than how the world began.",
+    es_title: "Pensamiento: final",
+    es_content: "La Biblia entra en muchos más detalles sobre cómo terminará el mundo que cómo comenzó.",
+    fr_title: "Pensée : Fin",
+    fr_content: "La Bible donne beaucoup plus de détails sur la façon dont le monde finira que sur la façon dont le monde a commencé.",
+    hi_title: "विचार: समाप्त",
+    hi_content: "दुनिया कैसे शुरू हुई इसकी तुलना में बाइबल इस बारे में कहीं अधिक विस्तार से बताती है कि दुनिया का अंत कैसे होगा।",
+    zh_title: "xiǎng fǎ : jié shù",
+    zh_content: "shèng jīng duì shì jiè rú hé jié shù de miáo shù bǐ shì jiè rú hé kāi shǐ gèng jiā xiáng xì ."
 });
 
 // 2. Link Content to Thought using the variables 't' and 'c'

@@ -25,3 +25,52 @@ Whatever nodes that exist in the content/QUOTES folder that are missing in the A
 
 ## Prompt 8
 Review the contents of the content/PASSAGES folder. I have discovered a more efficient set of queries for the PASSAGE node type Cypher block: the three markdown files which contain the YAML property "verified" with a value of "true" are the three examples of the new Cypher query format; refactor all other markdown files in the content/PASSAGES folder (recursively) to use the new query. Be sure not to alter any property values!
+
+## Prompt 9
+Compare the number of PASSAGE markdown files in the ANALYSIS/PASSAGES-2 folder (recursively) against those in the content/PASSAGES folder (recursively) and give me a count of each.
+
+## Prompt 9a
+Move all markdown files that are in the content/PASSAGES folder (recursively) and move them to the content/PASSAGES folder itself, then delete all of the empty sub-folders under content/PASSAGES.
+
+## Prompt 9b
+Check the markdown files in content/PASSAGES recursively against the markdown files in docs/Naming for consistency and give me a report; dd not change the contents of any markdown file!!!!!
+
+## Prompt 10
+The markdown files in the content/PASSAGES folder are considered source of truth. 
+
+Connect to the Neo4j AuraDB online instance and compare all of the PASSAGE nodes and their connected CONTENT nodes in the AuraDB instance against the Cypher blocks in the markdown files of the content/PASSAGES folder and refactor or replace any AuraDB QUOTE node property or the PASSAGE node's connected CONTENT node properties with those in the Cypher blocks of the markdown files in the content/PASSAGE folder.
+
+Whatever nodes that exist in the content/PASSAGES folder that are missing in the AuraDB online instance you must upload to the AuraDB. When all is done, there should be 28 PASSAGE nodes in the AuraDB; any QUOTE nodes in the AuraDB that do not exist in the content/QUOTES folder you must delete along with their relationships and child nodes.
+
+## Prompt 11
+This prompt contains instructions regarding the contents of the content/THOUGHTS folder. I have discovered a more efficient set of queries for the THOUGHT node type Cypher block: the markdown file at content/THOUGHTS/thought-BETTER-WORLD.md is the example of the new Cypher query format; refactor the Cypher blocks of all other markdown files in the content/THOUGHTS folder to use the new query format. Be sure not to alter any property values in the Cypher blocks!
+
+## Prompt 12
+Create the docs/reports/thoughts_uploaded.md markdown file. 
+
+As i give you files in the content/THOUGHTS folder with the YAML property "verified: true" to use in the refactoring and replacing of THOUGHT nodes in the Neo4j AuraDB online instance, add the names of those files to the docs/reports/thoughts_uploaded.md file. 
+
+Starting now, i'm ordering you to connect to the Neo4j AuraDB online instance and compare the first batch of files in the content/THOUGHTS folder with the YAML property "verified: true" against the corresponding THOUGHT nodes in the AuraDB and refactor or replace their properties. 
+
+If for some reason there is a THOUGHT in content/THOUGHTS with the YAML property "verified: true" that does not exist in the AuraDB, you are ordered to use the Cypher block of that file to insert the THOUGHT node, its CONTENT node as well as its parent relationship into the AuraDB. 
+
+If for some reason the required parent TOPIC of the THOUGHT does not exist in the AuraDB, find the parent TOPIC in the content/TOPICS folder, insert the parent TOPIC using its Cypher block, and then proceed with the THOUGHT insertion.
+
+Commands to run THOUGHT refactor process:
+```zsh
+ cd /Users/quasaur/Developer/Neo4j-Thoughts
+  source .venv/bin/activate
+  python3 python/AuraDB/sync_verified_thoughts.py
+```
+
+## Python 13
+Take the markdown file /Book_of_Tweets/BIBLE/passage-END-OF-ALL-FLESH.md and compare its contents against the Neo4j AuraDB online instance.
+
+If the PASSAGE node contained in the aforementioned markdown file exists in the AuraDB instance, refactor the AuraDB PASSAGE node to match the nodes & properties in the Cypher block of the aforementioned markdown file.
+
+If the PASSAGE node doesn't exist in the AuraDB run the aforementioned node's Cypher block queries to add the node to the AuraDB.
+
+When the aforementioned markdown file's contents are completely synced against the AuraDB, move the aforementioned markdown file to the content/PASSAGES folder.
+
+
+

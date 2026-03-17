@@ -1,0 +1,16 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.folder.startsWith("content")
+        - type == "PASSAGE"
+    groupBy:
+      property: parent
+      direction: ASC
+    order:
+      - file.name
+      - name
+      - level
+      - neo4j
+      - verified

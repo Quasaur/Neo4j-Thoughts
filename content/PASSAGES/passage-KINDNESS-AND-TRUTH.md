@@ -1,0 +1,76 @@
+---
+type: PASSAGE
+name: "passage.KINDNESS AND TRUTH"
+alias: "Passage: The Keys to Favor and a Good Reputation"
+parent: "topic.ATTITUDE"
+sortedsource: "Proverbs 03:03,04"
+en_content: "Do not let kindness and truth leave you;
+  Bind them around your neck,
+  Write them on the tablet of your heart.
+  So you will find favor and a good reputation
+  In the sight of God and man."
+tags: ["kindness", "truth", "favor", "reputation", "god"]
+ptopic: "[[topic-ATTITUDE]]"
+level: 3
+neo4j: true
+verified: true
+---
+
+```Cypher
+// 1. Create the Passage and Content nodes
+// Using 'p' and 'c' as variables to keep them in memory
+CREATE (p:PASSAGE {
+    name: "passage.KINDNESS AND TRUTH",
+    parent: "topic.ATTITUDE",
+    alias: "Passage: The Keys to Favor and a Good Reputation",
+    tags: ["kindness", "truth", "favor", "reputation", "god"],
+    source: "Proverbs 3:3,4",
+    sortedsource: "Proverbs 03:03,04",
+    biblelink: "https://www.biblegateway.com/passage/?search=Proverbs+3%3A3-4&version=NASB",
+    level: 3
+})
+
+CREATE (c:CONTENT {
+    name: "content.KINDNESS AND TRUTH",
+    ctype: "PASSAGE",
+    en_title: "Passage: The Keys to Favor and a Good Reputation",
+    en_content: "Do not let kindness and truth leave you;
+Bind them around your neck,
+Write them on the tablet of your heart.
+So you will find favor and a good reputation
+In the sight of God and man.",
+    es_title: "Pasaje: Las claves del favor y de la buena reputación",
+    es_content: "No dejes que la bondad y la verdad te abandonen;
+átalas a tu cuello,
+escríbelas en la tabla de tu corazón.
+Así hallarás favor y buena reputación
+ante los ojos de Dios y de los hombres.",
+    fr_title: "Passage : les clés de la faveur et d'une bonne réputation",
+    fr_content: "Ne laisse pas la bonté et la vérité t'abandonner;
+Lien-les autour de ton cou,
+Écris-les sur la tablette de ton cœur.
+Ainsi tu trouveras grâce et bonne réputation
+Aux yeux de Dieu et des hommes.",
+    hi_title: "परिच्छेद: अनुकूलता और अच्छी प्रतिष्ठा की कुंजी",
+    hi_content: "दया और सच्चाई को अपने से दूर न जाने देना;
+इन्हें अपने गले में बाँध लेना,
+इन्हें अपने हृदय की पटिया पर लिख लेना।
+ताकि तुम परमेश्वर और मनुष्य की दृष्टि में अनुग्रह और अच्छी प्रतिष्ठा पा सको।",
+    zh_title: "wén zhāng : huò dé qīng lài hé liáng hǎo shēng yù de guān jiàn",
+    zh_content: "bùkě ràng cí'ài yǔ chéngshí líkāi nǐ;
+yào xì zài nǐ de jǐngxiàng shàng,
+kè zài nǐ de xīn bǎn shàng.
+Zhèyàng, nǐ bì zài shén hé shìrén miànqián méng ēnhuì, dé měihǎo de míngshēng."
+})
+
+// 2. Link Content to Passage using the variables 'p' and 'c'
+MERGE (p)-[r1:HAS_CONTENT]->(c)
+ON CREATE SET r1.name = "p.edge.KINDNESS AND TRUTH"
+
+// 3. Pass 'p' forward, find the Parent Topic, and link them
+WITH p
+MATCH (parent:TOPIC {name: "topic.ATTITUDE"})
+MERGE (parent)-[r2:HAS_PASSAGE]->(p)
+ON CREATE SET r2.name = "p.edge.ATTITUDE->KINDNESS AND TRUTH"
+RETURN p, parent;
+```

@@ -466,7 +466,7 @@ X03-Apr-2010: It\'s a strange thing: we are all sinners, but we are \"shocked\" 
 
 26-Sep-2010: I have met the Lord Jesus: He is to live for, and to die for!
 
-01-Oct-2010: \"The end of all flesh is come before Me\...\" \-- God
+01-Oct-2010: \"The  is come before Me\...\" \-- God
 
 11-Oct-2010: Existence is a Dream\--but we\'re not the dreamers\...God is!
 
