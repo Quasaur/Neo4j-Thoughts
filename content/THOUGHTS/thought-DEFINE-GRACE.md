@@ -11,8 +11,9 @@ neo4j: true
 verified: false
 ---
 
+
 ```Cypher
-// Generated from Book6E-FINAL.md (ID: 19-Apr-2011)
+// Generated from Book6E-FINAL.md (ID: 26-Dec-2013)
 CREATE (t:THOUGHT {
     name: "thought.DEFINE GRACE",
     alias: "Thought: Define Grace",
@@ -25,22 +26,24 @@ CREATE (c:CONTENT {
     name: "content.DEFINE GRACE",
     ctype: "THOUGHT",
     en_title: "Define Grace",
-    en_content: "GRACE is God saying \"I like you! I'm gonna cut you a break!\"",
+    en_content: "GRACE is God saying \\\"I like you! I'm gonna cut you a break!\\\"",
     es_title: "Definir Gracia",
-    es_content: "La GRACIA es Dios diciendo \"¡Me gustas! ¡Voy a darte un respiro!\""¡Me gustas! ¡Voy a darte un respiro!\""¡Me gustas! ¡Voy a darte un respiro!\""¡Me gustas! ¡Voy a darte un respiro!\""¡Me gustas! ¡Voy a darte un respiro!\""¡Me gustas! ¡Voy a darte un respiro!\"",
-    fr_title: "Définir la Grâce",
-    fr_content: "La GRÂCE est Dieu disant \"Je t'aime bien ! Je vais te donner une chance !\""Je t'aime bien ! Je vais te donner une chance !\""Je t'aime bien ! Je vais te donner une chance !\""Je t'aime bien ! Je vais te donner une chance !\""Je t'aime bien ! Je vais te donner une chance !\""Je t'aime bien ! Je vais te donner une chance !\"",
-    hi_title: "अनुग्रह को परिभाषित करें",
-    hi_content: "अनुग्रह भगवान का कहना है \"मुझे तुम पसंद हो! मैं तुम्हें एक मौका दूंगा!\""मुझे तुम पसंद हो! मैं तुम्हें एक मौका दूंगा!\""मुझे तुम पसंद हो! मैं तुम्हें एक मौका दूंगा!\""मुझे तुम पसंद हो! मैं तुम्हें एक मौका दूंगा!\""मुझे तुम पसंद हो! मैं तुम्हें एक मौका दूंगा!\""मुझे तुम पसंद हो! मैं तुम्हें एक मौका दूंगा!\"",
-    zh_title: "Dìngyì ēnhuì",
-    zh_content: "Ēnhuì shì shàngdì shuō \"Wǒ xǐhuān nǐ! Wǒ yào gěi nǐ yīgè jīhuì!\""Wǒ xǐhuān nǐ! Wǒ yào gěi nǐ yīgè jīhuì!\""Wǒ xǐhuān nǐ! Wǒ yào gěi nǐ yīgè jīhuì!\""Wǒ xǐhuān nǐ! Wǒ yào gěi nǐ yīgè jīhuì!\""Wǒ xǐhuān nǐ! Wǒ yào gěi nǐ yīgè jīhuì!\""Wǒ xǐhuān nǐ! Wǒ yào gěi nǐ yīgè jīhuì!\""
+    es_content: "La GRACIA es Dios diciendo \\\"¡Me gustas! ¡Voy a darte un respiro!\\\"",
+    fr_title: "",
+    fr_content: "La GRÂCE est Dieu disant \\\"Je t'aime bien ! Je vais te donner une chance !\\\"",
+    hi_title: "",
+    hi_content: "अनुग्रह भगवान का कहना है \\\"मुझे तुम पसंद हो! मैं तुम्हें एक मौका दूंगा!\\\"",
+    zh_title: "",
+    zh_content: "Ēnhuì shì shàngdì shuō \\\"Wǒ xǐhuān nǐ! Wǒ yào gěi nǐ yīgè jīhuì!\\\""
 });
 
-MATCH (t:THOUGHT {name: "thought.DEFINE GRACE"})
-MATCH (c:CONTENT {name: "content.DEFINE GRACE"})
-MERGE (t)-[:HAS_CONTENT { "name": "t.edge.DEFINE GRACE" }]->(c);
-
-MATCH (parent:TOPIC {name: "topic.GRACE"})
-MATCH (child:THOUGHT {name: "thought.DEFINE GRACE"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "t.edge.GRACE->DEFINE GRACE" }]->(child);
+// 2. Link Content to Thought using the variables 't' and 'c'
+MERGE (t)-[r:HAS_CONTENT]->(c)
+ON CREATE SET r.name = "t.edge.DEFINE GRACE"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
+MATCH (parent:TOPIC {name: ""})
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.->DEFINE GRACE"
+RETURN t, parent;
 ```

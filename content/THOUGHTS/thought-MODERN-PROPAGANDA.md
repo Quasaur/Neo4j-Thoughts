@@ -11,8 +11,9 @@ neo4j: true
 verified: false
 ---
 
+
 ```Cypher
-// Generated from Book6E-FINAL.md (ID: 03-Sep-2010a)
+// Generated from Book6E-FINAL.md (ID: 26-Dec-2013)
 CREATE (t:THOUGHT {
     name: "thought.MODERN PROPAGANDA",
     alias: "Thought: Modern Propaganda",
@@ -36,11 +37,13 @@ CREATE (c:CONTENT {
     zh_content: "xiàn dài xuān chuán （ shàn liáng de xī xuè guǐ 、 qián chéng de láng rén 、 shàn liáng de méi jiè ） shǐ rén lèi yǒng yuǎn huá rù sā dàn de shén mì lǐng yù 。"
 });
 
-MATCH (t:THOUGHT {name: "thought.MODERN PROPAGANDA"})
-MATCH (c:CONTENT {name: "content.MODERN PROPAGANDA"})
-MERGE (t)-[:HAS_CONTENT { "name": "t.edge.MODERN PROPAGANDA" }]->(c);
-
-MATCH (parent:TOPIC {name: "topic.EVIL"})
-MATCH (child:THOUGHT {name: "thought.MODERN PROPAGANDA"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "t.edge.EVIL->MODERN PROPAGANDA" }]->(child);
+// 2. Link Content to Thought using the variables 't' and 'c'
+MERGE (t)-[r:HAS_CONTENT]->(c)
+ON CREATE SET r.name = "t.edge.MODERN PROPAGANDA"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
+MATCH (parent:TOPIC {name: ""})
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.->MODERN PROPAGANDA"
+RETURN t, parent;
 ```

@@ -11,7 +11,9 @@ neo4j: true
 verified: false
 ---
 
+
 ```Cypher
+// Generated from Book6E-FINAL.md (ID: 26-Dec-2013)
 CREATE (t:THOUGHT {
     name: "thought.SKEWERED TIMELINES",
     alias: "Thought: Skewered Timelines",
@@ -35,13 +37,13 @@ CREATE (c:CONTENT {
     zh_content: "wèi le zhèng míng jìn huà lùn ， suǒ wèi de kē xué wán quán wāi qū le nián dài 、 dì zhì hé rén lèi de shí jiān xiàn 。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.SKEWERED TIMELINES" AND c.name = "content.SKEWERED TIMELINES"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.SKEWERED TIMELINES"}]->(c);
-
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.HISTORY" AND child.name = "thought.SKEWERED TIMELINES"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.HISTORY->SKEWERED TIMELINES"}]->(child);
+// 2. Link Content to Thought using the variables 't' and 'c'
+MERGE (t)-[r:HAS_CONTENT]->(c)
+ON CREATE SET r.name = "t.edge.SKEWERED TIMELINES"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
+MATCH (parent:TOPIC {name: "topic.HISTORY"})
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.HISTORY->SKEWERED TIMELINES"
+RETURN t, parent;
 ```

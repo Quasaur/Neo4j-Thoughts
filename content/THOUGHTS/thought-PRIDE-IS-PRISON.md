@@ -11,13 +11,16 @@ neo4j: true
 verified: false
 ---
 
+
 ```Cypher
-// Generated from Book6E-FINAL.md (ID: 03-Oct-2011)
-CREATE (t:THOUGHT {    name: "thought.PRIDE IS PRISON",
+// Generated from Book6E-FINAL.md (ID: 26-Dec-2013)
+CREATE (t:THOUGHT {
+    name: "thought.PRIDE IS PRISON",
     alias: "Thought: Pride Is Prison",
     parent: "topic.EVIL",
     tags: ['pride', 'love', 'freedom', 'attitude', 'liberation'],
-    level: 3});
+    level: 3
+});
 
 CREATE (c:CONTENT {
     name: "content.PRIDE IS PRISON",
@@ -34,13 +37,13 @@ CREATE (c:CONTENT {
     zh_content: "Jiāo'ào shì yīzuò jiānyù, ér Wútiáojiàn de Ài shì wéiyī de Jiětuō zhě."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.PRIDE IS PRISON" AND c.name = "content.PRIDE IS PRISON"
-MERGE (t)-[:HAS_CONTENT { "name": "edge.PRIDE IS PRISON" }]->(c);
-
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.ATTITUDE" AND child.name = "thought.PRIDE IS PRISON"
-MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE->PRIDE IS PRISON" }]->(child);
+// 2. Link Content to Thought using the variables 't' and 'c'
+MERGE (t)-[r:HAS_CONTENT]->(c)
+ON CREATE SET r.name = "t.edge.PRIDE IS PRISON"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
+MATCH (parent:TOPIC {name: "topic.ATTITUDE"})
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.ATTITUDE->PRIDE IS PRISON"
+RETURN t, parent;
 ```

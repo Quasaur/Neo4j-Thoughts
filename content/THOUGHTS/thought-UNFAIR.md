@@ -12,8 +12,9 @@ es_content: "Puedes llamar a Dios injusto, pero tu vida aún está en Sus manos;
 verified: false
 ---
 
+
 ```Cypher
-// 18-Mar-2010a
+// Generated from Book6E-FINAL.md (ID: 26-Dec-2013)
 CREATE (t:THOUGHT {
     name: "thought.UNFAIR",
     alias: "Thought: Unfair",
@@ -32,18 +33,18 @@ CREATE (c:CONTENT {
     fr_title: "Injuste",
     fr_content: "Vous pouvez qualifier Dieu d'injuste, mais votre vie reste entre ses mains ; il serait peut-être plus sage de s'incliner et de l'adorer que de le provoquer.",
     hi_title: "अन्याय",
-    hi_content: "आप भगवान को अन्यायी कह सकते हैं, फिर भी आपकी ज़िंदगी उनके हाथ में है; शायद गुस्सा दिलाने के बजाय झुकना और पूजा करना ज़्यादा समझदारी होगी।"",
-    zh_title: "Bù gōngpíng",
+    hi_content: "आप भगवान को अन्यायी कह सकते हैं, फिर भी आपकी ज़िंदगी उनके हाथ में है; शायद गुस्सा दिलाने के बजाय झुकना और पूजा करना ज़्यादा समझदारी होगी।",
+    zh_title: "",
     zh_content: "nǐ huòxǔ huì shuō shàngdì bù gōngpíng, dàn nǐ de shēngmìng réngrán zhǎngwò zài tā shǒuzhōng; huòxǔ fǔshǒu jìng bài bǐ jīnù tā gèng míngzhì."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.UNFAIR" AND c.name = "content.UNFAIR"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.UNFAIR"}]->(c);
-
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.DIVINE-SOVEREIGNTY" AND child.name = "thought.UNFAIR"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.DIVINE-SOVEREIGNTY->UNFAIR"}]->(child);
+// 2. Link Content to Thought using the variables 't' and 'c'
+MERGE (t)-[r:HAS_CONTENT]->(c)
+ON CREATE SET r.name = "t.edge.UNFAIR"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
+MATCH (parent:TOPIC {name: "topic.DIVINE-SOVEREIGNTY"})
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.DIVINE-SOVEREIGNTY->UNFAIR"
+RETURN t, parent;
 ```

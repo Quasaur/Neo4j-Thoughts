@@ -11,7 +11,9 @@ neo4j: true
 verified: false
 ---
 
+
 ```Cypher
+// Generated from Book6E-FINAL.md (ID: 26-Dec-2013)
 CREATE (t:THOUGHT {
     name: "thought.THE IRC",
     alias: "Thought: The Irc",
@@ -25,23 +27,23 @@ CREATE (c:CONTENT {
     ctype: "THOUGHT",
     en_title: "The Irc",
     en_content: "The United States tax code, otherwise know as the Internal Revenue Code (IRC), was written by The Devil; his paw prints are all over it.",
-	es_title: "EL IRC",
+    es_title: "EL IRC",
     es_content: "El código tributario de los Estados Unidos, también conocido como Código de Rentas Internas (IRC), fue escrito por El Diablo; sus huellas están por todas partes.",
-	fr_title: "LE IRC",
+    fr_title: "LE IRC",
     fr_content: "Le code fiscal des États-Unis, également connu sous le nom d’Internal Revenue Code (IRC), a été rédigé par le Diable ; ses empreintes de pattes sont partout.",
-	hi_title: "आईआरसी",
+    hi_title: "आईआरसी",
     hi_content: "संयुक्त राज्य कर कोड, जिसे अन्यथा आंतरिक राजस्व कोड (आईआरसी) के रूप में जाना जाता है, द डेविल द्वारा लिखा गया था; उसके पंजे के निशान इस पर हैं।",
-	zh_title: "IRC",
+    zh_title: "IRC",
     zh_content: "měi guó shuì fǎ ， yě chēng wéi 《 guó nèi shuì shōu fǎ diǎn 》（IRC）， shì yóu mó guǐ zhì dìng de ； shàng miàn dào chù dōu shì tā de zhǎo yìn 。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.THE IRC" AND c.name = "content.THE IRC"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.THE IRC"}]->(c);
-
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.FIN GOV" AND child.name = "thought.THE IRC"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.FIN GOV->THE IRC"}]->(child);
+// 2. Link Content to Thought using the variables 't' and 'c'
+MERGE (t)-[r:HAS_CONTENT]->(c)
+ON CREATE SET r.name = "t.edge.THE IRC"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
+MATCH (parent:TOPIC {name: "topic.FIN GOV"})
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.FIN GOV->THE IRC"
+RETURN t, parent;
 ```

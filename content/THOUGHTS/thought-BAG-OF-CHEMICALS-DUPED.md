@@ -11,8 +11,9 @@ neo4j: true
 verified: false
 ---
 
+
 ```Cypher
-// Generated from Book6E-FINAL.md (ID: 10-Aug-2013c)
+// Generated from Book6E-FINAL.md (ID: 26-Dec-2013)
 CREATE (t:THOUGHT {
     name: "thought.BAG OF CHEMICALS DUPED",
     alias: "Thought: Bag Of Chemicals Duped",
@@ -36,11 +37,13 @@ CREATE (c:CONTENT {
     zh_content: "Hěn nán xiǎngxiàng rénmen huì bèi piàn qù rènwéi tāmen zhǐshì yīgè zhuāng mǎn huàxué wùzhì hé diànlì de dàizi.  hěn nán xiǎng xiàng rén men huì bèi piàn qù rèn wéi tā men zhǐ shì yí gè zhuāng mǎn huà xué wù zhì hé diàn lì de dài zi 。"
 });
 
-MATCH (t:THOUGHT {name: "thought.BAG OF CHEMICALS DUPED"})
-MATCH (c:CONTENT {name: "content.BAG OF CHEMICALS DUPED"})
-MERGE (t)-[:HAS_CONTENT { "name": "t.edge.BAG OF CHEMICALS DUPED" }]->(c);
-
-MATCH (parent:TOPIC {name: "topic.HUMANITY"})
-MATCH (child:THOUGHT {name: "thought.BAG OF CHEMICALS DUPED"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "t.edge.HUMANITY->BAG OF CHEMICALS DUPED" }]->(child);
+// 2. Link Content to Thought using the variables 't' and 'c'
+MERGE (t)-[r:HAS_CONTENT]->(c)
+ON CREATE SET r.name = "t.edge.BAG OF CHEMICALS DUPED"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
+MATCH (parent:TOPIC {name: ""})
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.->BAG OF CHEMICALS DUPED"
+RETURN t, parent;
 ```

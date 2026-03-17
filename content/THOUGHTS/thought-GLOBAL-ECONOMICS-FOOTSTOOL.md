@@ -11,13 +11,16 @@ neo4j: true
 verified: false
 ---
 
+
 ```Cypher
-// Generated from Book6E-FINAL.md (ID: 25-Aug-2011)
-CREATE (t:THOUGHT {    name: "thought.GLOBAL ECONOMICS FOOTSTOOL",
+// Generated from Book6E-FINAL.md (ID: 26-Dec-2013)
+CREATE (t:THOUGHT {
+    name: "thought.GLOBAL ECONOMICS FOOTSTOOL",
     alias: "Thought: Global Economics Footstool",
     parent: "topic.DIVINE SOVEREIGNTY",
     tags: ['sovereignty', 'economics', 'prophecy', 'jesus', 'victory'],
-    level: 2});
+    level: 2
+});
 
 CREATE (c:CONTENT {
     name: "content.GLOBAL ECONOMICS FOOTSTOOL",
@@ -34,11 +37,13 @@ CREATE (c:CONTENT {
     zh_content: "Quánqiú jīngjì: Shàngdì zhèng shǐ Jīdū de dírén chéngwéi tā de jiǎodèng. 全球经济：上帝正使基督的敌人成为他的脚凳。"
 });
 
-MATCH (t:THOUGHT {name: "thought.GLOBAL ECONOMICS FOOTSTOOL"})
-MATCH (c:CONTENT {name: "content.GLOBAL ECONOMICS FOOTSTOOL"})
-MERGE (t)-[:HAS_CONTENT { "name": "edge.GLOBAL ECONOMICS FOOTSTOOL" }]->(c);
-
-MATCH (parent:TOPIC {name: "topic.DIVINE SOVEREIGNTY"})
-MATCH (child:THOUGHT {name: "thought.GLOBAL ECONOMICS FOOTSTOOL"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "DIVINE SOVEREIGNTY->GLOBAL ECONOMICS FOOTSTOOL" }]->(child);
+// 2. Link Content to Thought using the variables 't' and 'c'
+MERGE (t)-[r:HAS_CONTENT]->(c)
+ON CREATE SET r.name = "t.edge.GLOBAL ECONOMICS FOOTSTOOL"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
+MATCH (parent:TOPIC {name: ""})
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.->GLOBAL ECONOMICS FOOTSTOOL"
+RETURN t, parent;
 ```

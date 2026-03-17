@@ -11,7 +11,9 @@ level: 1
 neo4j: true
 verified: false
 ---
+
 ```Cypher
+// Generated from Book6E-FINAL.md (ID: 26-Dec-2013)
 CREATE (t:THOUGHT {
     name: "thought.PROTECTION",
     alias: "Thought: Protection",
@@ -40,13 +42,13 @@ Sans le Saint-Esprit du Christ, l’humanité n’a aucune défense contre le Di
  méi yǒu jī dū de shèng líng ， rén lèi jiù wú fǎ dǐ yù mó guǐ 、 tǒng zhì shì jiè de rén ， shèn zhì wǒ men zì jǐ de dī děng běn xìng 。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.PROTECTION" AND c.name = "content.PROTECTION"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.PROTECTION"}]->(c);
-
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.THE GODHEAD" AND child.name = "thought.PROTECTION"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.THE GODHEAD->PROTECTION"}]->(child);
+// 2. Link Content to Thought using the variables 't' and 'c'
+MERGE (t)-[r:HAS_CONTENT]->(c)
+ON CREATE SET r.name = "t.edge.PROTECTION"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
+MATCH (parent:TOPIC {name: "topic.THE GODHEAD"})
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.THE GODHEAD->PROTECTION"
+RETURN t, parent;
 ```

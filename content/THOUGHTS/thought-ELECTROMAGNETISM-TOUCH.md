@@ -11,13 +11,16 @@ neo4j: true
 verified: false
 ---
 
+
 ```Cypher
-// Generated from Book6E-FINAL.md (ID: 24-Sep-2011a)
-CREATE (t:THOUGHT {    name: "thought.ELECTROMAGNETISM TOUCH",
+// Generated from Book6E-FINAL.md (ID: 26-Dec-2013)
+CREATE (t:THOUGHT {
+    name: "thought.ELECTROMAGNETISM TOUCH",
     alias: "Thought: Electromagnetism Touch",
     parent: "topic.PHYSICS",
     tags: ['science', 'physics', 'creation', 'design', 'power'],
-    level: 6});
+    level: 6
+});
 
 CREATE (c:CONTENT {
     name: "content.ELECTROMAGNETISM TOUCH",
@@ -34,11 +37,13 @@ CREATE (c:CONTENT {
     zh_content: "Zai zhengchang qingkuang xia, dianci zu zhi renhe liang ge biaomian xiangchu...Shangdi shi weida de!"
 });
 
-MATCH (t:THOUGHT {name: "thought.ELECTROMAGNETISM TOUCH"})
-MATCH (c:CONTENT {name: "content.ELECTROMAGNETISM TOUCH"})
-MERGE (t)-[:HAS_CONTENT { "name": "edge.ELECTROMAGNETISM TOUCH" }]->(c);
-
-MATCH (parent:TOPIC {name: "topic.PHYSICS"})
-MATCH (child:THOUGHT {name: "thought.ELECTROMAGNETISM TOUCH"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "PHYSICS->ELECTROMAGNETISM TOUCH" }]->(child);
+// 2. Link Content to Thought using the variables 't' and 'c'
+MERGE (t)-[r:HAS_CONTENT]->(c)
+ON CREATE SET r.name = "t.edge.ELECTROMAGNETISM TOUCH"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
+MATCH (parent:TOPIC {name: ""})
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.->ELECTROMAGNETISM TOUCH"
+RETURN t, parent;
 ```

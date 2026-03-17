@@ -10,7 +10,9 @@ neo4j: true
 verified: false
 ---
 
+
 ```Cypher
+// Generated from Book6E-FINAL.md (ID: 26-Dec-2013)
 CREATE (t:THOUGHT {
     name: "thought.NOISE",
     alias: "Thought: Noise",
@@ -23,24 +25,24 @@ CREATE (c:CONTENT {
     name: "content.NOISE",
     ctype: "THOUGHT",
     en_title: "Noise",
- es_title: "RUIDO",
- fr_title: "BRUIT",
- hi_title: "शोर",
- zh_title: "zào yīn",
     en_content: "",
- es_content: "¡Es difícil escuchar la Voz de Dios cuando mi corazón hace tanto ruido!",
- fr_content: "C'est difficile d'entendre la Voix de Dieu quand mon cœur fait autant de bruit !",
- hi_content: "जब मेरा दिल इतना शोर कर रहा हो तो भगवान की आवाज़ सुनना कठिन है!",
- zh_content: "dāng wǒ de xīn fā chū rú cǐ dà de zào yīn shí ， hěn nán tīng dào shàng dì de shēng yīn ！"
+    es_title: "RUIDO",
+    es_content: "¡Es difícil escuchar la Voz de Dios cuando mi corazón hace tanto ruido!",
+    fr_title: "BRUIT",
+    fr_content: "C'est difficile d'entendre la Voix de Dieu quand mon cœur fait autant de bruit !",
+    hi_title: "शोर",
+    hi_content: "जब मेरा दिल इतना शोर कर रहा हो तो भगवान की आवाज़ सुनना कठिन है!",
+    zh_title: "zào yīn",
+    zh_content: "dāng wǒ de xīn fā chū rú cǐ dà de zào yīn shí ， hěn nán tīng dào shàng dì de shēng yīn ！"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.NOISE" AND c.name = "content.NOISE"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.NOISE"}]->(c);
-
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.GRACE" AND child.name = "thought.NOISE"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.GRACE->NOISE"}]->(child);
+// 2. Link Content to Thought using the variables 't' and 'c'
+MERGE (t)-[r:HAS_CONTENT]->(c)
+ON CREATE SET r.name = "t.edge.NOISE"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
+MATCH (parent:TOPIC {name: "topic.GRACE"})
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.GRACE->NOISE"
+RETURN t, parent;
 ```

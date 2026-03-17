@@ -13,11 +13,13 @@ level: 3
 neo4j: true
 verified: false
 ---
+
 ```Cypher
+// Generated from Book6E-FINAL.md (ID: 26-Dec-2013)
 CREATE (t:THOUGHT {
-    name: '"thought.THE REAL YOU"',
+    name: "\"thought.THE REAL YOU\"",
     alias: "Thought: The Real You",
-    parent: '"topic.GRACE"',
+    parent: "\"topic.GRACE\"",
     tags: ["identity", "self_image", "image_of_god", "christian", "jesus_christ"],
     level: 3
 });
@@ -47,13 +49,13 @@ Colossiens 3:1-4",
  gē luó xī shū  3:1-4"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = '"thought.THE REAL YOU"' AND c.name = "content.THE REAL YOU"
-MERGE (t)-[:HAS_CONTENT {name: "edge.THE REAL YOU"}]->(c);
-
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = '"topic.GRACE"' AND child.name = '"thought.THE REAL YOU"'
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.GRACE->THE REAL YOU"}]->(child);
+// 2. Link Content to Thought using the variables 't' and 'c'
+MERGE (t)-[r:HAS_CONTENT]->(c)
+ON CREATE SET r.name = "t.edge.'"thought.THE REAL YOU"'"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
+MATCH (parent:TOPIC {name: ""})
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.->'"thought.THE REAL YOU"'"
+RETURN t, parent;
 ```

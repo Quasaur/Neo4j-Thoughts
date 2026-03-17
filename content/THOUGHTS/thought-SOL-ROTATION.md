@@ -11,7 +11,9 @@ neo4j: true
 verified: false
 ---
 
+
 ```Cypher
+// Generated from Book6E-FINAL.md (ID: 26-Dec-2013)
 CREATE (t:THOUGHT {
     name: "thought.SOL ROTATION",
     alias: "Thought: Sol Rotation",
@@ -35,13 +37,13 @@ CREATE (c:CONTENT {
     zh_content: "chuàng shì qí guān ： tài yáng chì dào shàng de yì diǎn xū yào 25 tiān cái néng zì zhuàn ， ér yǔ tài yáng nán běi liǎng jí chéng 15° de diǎn zé xū yào 34 tiān ！"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.SOL ROTATION" AND c.name = "content.SOL ROTATION"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.SOL ROTATION"}]->(c);
-
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.CREATION" AND child.name = "thought.SOL ROTATION"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.CREATION->SOL ROTATION"}]->(child);
+// 2. Link Content to Thought using the variables 't' and 'c'
+MERGE (t)-[r:HAS_CONTENT]->(c)
+ON CREATE SET r.name = "t.edge.SOL ROTATION"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
+MATCH (parent:TOPIC {name: "topic.CREATION"})
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.CREATION->SOL ROTATION"
+RETURN t, parent;
 ```

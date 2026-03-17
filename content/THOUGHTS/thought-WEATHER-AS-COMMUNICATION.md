@@ -11,13 +11,16 @@ neo4j: true
 verified: false
 ---
 
+
 ```Cypher
-// Generated from Book6E-FINAL.md (ID: 07-Sep-2011d)
-CREATE (t:THOUGHT {    name: "thought.WEATHER AS COMMUNICATION",
+// Generated from Book6E-FINAL.md (ID: 26-Dec-2013)
+CREATE (t:THOUGHT {
+    name: "thought.WEATHER AS COMMUNICATION",
     alias: "Thought: Weather As Communication",
     parent: "topic.DIVINE SOVEREIGNTY",
     tags: ['sovereignty', 'weather', 'judgment', 'nature', 'communication'],
-    level: 2});
+    level: 2
+});
 
 CREATE (c:CONTENT {
     name: "content.WEATHER AS COMMUNICATION",
@@ -34,11 +37,13 @@ CREATE (c:CONTENT {
     zh_content: "Lishi zhi 7:12-14; Liweiji 18:25: Shi de, Shen QUESHI tongguo tianqi he ziran lai goutong he chengfa."
 });
 
-MATCH (t:THOUGHT {name: "thought.WEATHER AS COMMUNICATION"})
-MATCH (c:CONTENT {name: "content.WEATHER AS COMMUNICATION"})
-MERGE (t)-[:HAS_CONTENT { "name": "edge.WEATHER AS COMMUNICATION" }]->(c);
-
-MATCH (parent:TOPIC {name: "topic.DIVINE SOVEREIGNTY"})
-MATCH (child:THOUGHT {name: "thought.WEATHER AS COMMUNICATION"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "DIVINE SOVEREIGNTY->WEATHER AS COMMUNICATION" }]->(child);
+// 2. Link Content to Thought using the variables 't' and 'c'
+MERGE (t)-[r:HAS_CONTENT]->(c)
+ON CREATE SET r.name = "t.edge.WEATHER AS COMMUNICATION"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
+MATCH (parent:TOPIC {name: ""})
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.->WEATHER AS COMMUNICATION"
+RETURN t, parent;
 ```

@@ -13,7 +13,8 @@ verified: true
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 26-Dec-2013)
-CREATE (t:THOUGHT {    name: "thought.BETTER WORLD",
+CREATE (t:THOUGHT {    
+	name: "thought.BETTER WORLD",
     alias: "Thought: A Better World",
     parent: "topic.APOCALYPSE",
     tags: ["apocalypse", "world", "future", "hope", "new_earth"],
@@ -35,11 +36,13 @@ CREATE (c:CONTENT {
     zh_content: "Gèng měihǎo de shìjiè jíjiāng láilín! Qǐshìlù!"
 });
 
-MATCH (t:THOUGHT {name: "thought.BETTER WORLD"})
-MATCH (c:CONTENT {name: "content.BETTER WORLD"})
-MERGE (t)-[:HAS_CONTENT { "name": "t.edge.BETTER WORLD" }]->(c);
-
+// 2. Link Content to Thought using the variables 't' and 'c'
+MERGE (t)-[r:HAS_CONTENT]->(c);
+ON CREATE SET r.name = "t.edge.BETTER WORLD"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
 MATCH (parent:TOPIC {name: "topic.APOCALYPSE"})
-MATCH (child:THOUGHT {name: "thought.BETTER WORLD"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "t.edge.APOCALYPSE->BETTER WORLD" }]->(child);
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.APOCALYPSE->BETTER WORLD"
+RETURN t, parent;
 ```

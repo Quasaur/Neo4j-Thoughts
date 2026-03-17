@@ -10,7 +10,9 @@ neo4j: true
 verified: false
 ---
 
+
 ```Cypher
+// Generated from Book6E-FINAL.md (ID: 26-Dec-2013)
 CREATE (t:THOUGHT {
     name: "thought.FATHER",
     alias: "Thought: Father",
@@ -24,23 +26,23 @@ CREATE (c:CONTENT {
     ctype: "THOUGHT",
     en_title: "Father",
     en_content: "I never got to know the father of my flesh; yet perhaps the greater tragedy is not getting to know the Father of my spirit.",
- es_title: "PADRE",
- es_content: "Nunca llegué a conocer al padre de mi carne; sin embargo, tal vez la mayor tragedia sea no conocer al Padre de mi espíritu.",
- fr_title: "PÈRE",
- fr_content: "Je n’ai jamais connu le père de ma chair ; mais peut-être que la plus grande tragédie est de ne pas connaître le Père de mon esprit.",
- hi_title: "पिता",
- hi_content: "मैं अपने शरीर के पिता को कभी नहीं जान पाया; फिर भी शायद सबसे बड़ी त्रासदी मेरी आत्मा के पिता को न जान पाना है।",
- zh_title: "fù qīn",
- zh_content: "wǒ cóng wèi rèn shí guò wǒ de qīn shēng fù qīn ； rán ér ， yě xǔ gèng dà de bēi jù shì wú fǎ rèn shí wǒ jīng shén zhī fù 。"
+    es_title: "PADRE",
+    es_content: "Nunca llegué a conocer al padre de mi carne; sin embargo, tal vez la mayor tragedia sea no conocer al Padre de mi espíritu.",
+    fr_title: "PÈRE",
+    fr_content: "Je n’ai jamais connu le père de ma chair ; mais peut-être que la plus grande tragédie est de ne pas connaître le Père de mon esprit.",
+    hi_title: "पिता",
+    hi_content: "मैं अपने शरीर के पिता को कभी नहीं जान पाया; फिर भी शायद सबसे बड़ी त्रासदी मेरी आत्मा के पिता को न जान पाना है।",
+    zh_title: "fù qīn",
+    zh_content: "wǒ cóng wèi rèn shí guò wǒ de qīn shēng fù qīn ； rán ér ， yě xǔ gèng dà de bēi jù shì wú fǎ rèn shí wǒ jīng shén zhī fù 。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.FATHER" AND c.name = "content.FATHER"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.FATHER"}]->(c);
-
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.GRACE" AND child.name = "thought.FATHER"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.GRACE->FATHER"}]->(child);
+// 2. Link Content to Thought using the variables 't' and 'c'
+MERGE (t)-[r:HAS_CONTENT]->(c)
+ON CREATE SET r.name = "t.edge.FATHER"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
+MATCH (parent:TOPIC {name: "topic.GRACE"})
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.GRACE->FATHER"
+RETURN t, parent;
 ```

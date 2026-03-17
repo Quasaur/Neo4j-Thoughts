@@ -11,8 +11,9 @@ neo4j: true
 verified: false
 ---
 
+
 ```Cypher
-// Generated from Book6E-FINAL.md (ID: 25-Sep-2010)
+// Generated from Book6E-FINAL.md (ID: 26-Dec-2013)
 CREATE (t:THOUGHT {
     name: "thought.CHOKING THE WORD",
     alias: "Thought: Choking The Word",
@@ -33,14 +34,16 @@ CREATE (c:CONTENT {
     hi_title: "वचन को दबाना",
     hi_content: "जैसे खरपतवार एक फूल को दबा देती है, इस जीवन की चिंताएं और धन का धोखा मेरे हृदय में परमेश्वर के वचन को दबा देते हैं, और इसे निष्फल बना देते हैं।",
     zh_title: "Yānmò Zhēn Dào",
-    zh_content: "Xiàng yěcǎo yānmò huāduǒ yīyàng, Jīnshì de sīlǜ hé cáif\u00f9 de míhuò yānmòle wǒ xīnzhōng de Shén Dào, Shǐ tā bùnéng jiéguǒ."
+    zh_content: "Xiàng yěcǎo yānmò huāduǒ yīyàng, Jīnshì de sīlǜ hé cáif\\u00f9 de míhuò yānmòle wǒ xīnzhōng de Shén Dào, Shǐ tā bùnéng jiéguǒ."
 });
 
-MATCH (t:THOUGHT {name: "thought.CHOKING THE WORD"})
-MATCH (c:CONTENT {name: "content.CHOKING THE WORD"})
-MERGE (t)-[:HAS_CONTENT { "name": "t.edge.CHOKING THE WORD" }]->(c);
-
-MATCH (parent:TOPIC {name: "topic.FAITH"})
-MATCH (child:THOUGHT {name: "thought.CHOKING THE WORD"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "t.edge.FAITH->CHOKING THE WORD" }]->(child);
+// 2. Link Content to Thought using the variables 't' and 'c'
+MERGE (t)-[r:HAS_CONTENT]->(c)
+ON CREATE SET r.name = "t.edge.CHOKING THE WORD"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
+MATCH (parent:TOPIC {name: ""})
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.->CHOKING THE WORD"
+RETURN t, parent;
 ```

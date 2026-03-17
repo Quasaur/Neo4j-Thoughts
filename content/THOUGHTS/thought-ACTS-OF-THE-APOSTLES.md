@@ -11,7 +11,9 @@ neo4j: true
 verified: false
 ---
 
+
 ```Cypher
+// Generated from Book6E-FINAL.md (ID: 26-Dec-2013)
 CREATE (t:THOUGHT {
     name: "thought.ACTS OF THE APOSTLES",
     alias: "Thought: Acts of the Apostles",
@@ -35,13 +37,13 @@ CREATE (c:CONTENT {
     zh_content: "《 shǐ tú xíng chuán 》 tí dào le sān shí èr gè guó jiā 、 wǔ shí sì gè chéng shì hé jiǔ gè dǎo yǔ ， méi yǒu rèn hé shì shí huò lì shǐ cuò wù 。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.ACTS OF THE APOSTLES" AND c.name = "content.ACTS OF THE APOSTLES"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.ACTS OF THE APOSTLES"}]->(c);
-
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.THE-BIBLE" AND child.name = "thought.ACTS OF THE APOSTLES"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.THE-BIBLE->ACTS OF THE APOSTLES"}]->(child);
+// 2. Link Content to Thought using the variables 't' and 'c'
+MERGE (t)-[r:HAS_CONTENT]->(c)
+ON CREATE SET r.name = "t.edge.ACTS OF THE APOSTLES"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
+MATCH (parent:TOPIC {name: "topic.THE-BIBLE"})
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.THE-BIBLE->ACTS OF THE APOSTLES"
+RETURN t, parent;
 ```

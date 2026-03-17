@@ -11,13 +11,16 @@ neo4j: true
 verified: false
 ---
 
+
 ```Cypher
-// Generated from Book6E-FINAL.md (ID: 21-Oct-2013)
-CREATE (t:THOUGHT {    name: "thought.HUMANITYS FINAL VIRTUE",
+// Generated from Book6E-FINAL.md (ID: 26-Dec-2013)
+CREATE (t:THOUGHT {
+    name: "thought.HUMANITYS FINAL VIRTUE",
     alias: "Thought: Humanity's Final Virtue",
     parent: "topic.GRACE",
     tags: ['jesus', 'virtue', 'humanity', 'grace', 'rejection'],
-    level: 3});
+    level: 3
+});
 
 CREATE (c:CONTENT {
     name: "content.HUMANITYS FINAL VIRTUE",
@@ -34,11 +37,13 @@ CREATE (c:CONTENT {
     zh_content: "rénlèi zuìhòu yěshì wéiyī shèng xià de dé háng jiùshì yēsū jīdū; jùjué tā jiùshì bèiqì wǒmen jǐn cún de liáng shàn."
 });
 
-MATCH (t:THOUGHT {name: "thought.HUMANITYS FINAL VIRTUE"})
-MATCH (c:CONTENT {name: "content.HUMANITYS FINAL VIRTUE"})
-MERGE (t)-[:HAS_CONTENT { name: "t.edge.HUMANITYS FINAL VIRTUE" }]->(c);
-
-MATCH (parent:TOPIC {name: "topic.GRACE"})
-MATCH (child:THOUGHT {name: "thought.HUMANITYS FINAL VIRTUE"})
-MERGE (parent)-[:HAS_THOUGHT { name: "t.edge.GRACE->HUMANITYS FINAL VIRTUE" }]->(child);
+// 2. Link Content to Thought using the variables 't' and 'c'
+MERGE (t)-[r:HAS_CONTENT]->(c)
+ON CREATE SET r.name = "t.edge.HUMANITYS FINAL VIRTUE"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
+MATCH (parent:TOPIC {name: ""})
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.->HUMANITYS FINAL VIRTUE"
+RETURN t, parent;
 ```

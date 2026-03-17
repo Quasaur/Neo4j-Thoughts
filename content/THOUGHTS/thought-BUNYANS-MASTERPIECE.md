@@ -11,8 +11,9 @@ neo4j: true
 verified: false
 ---
 
+
 ```Cypher
-// Generated from Book6E-FINAL.md
+// Generated from Book6E-FINAL.md (ID: 26-Dec-2013)
 CREATE (t:THOUGHT {
     name: "thought.BUNYANS MASTERPIECE",
     alias: "Thought: Law and Grace",
@@ -31,16 +32,18 @@ CREATE (c:CONTENT {
     fr_title: "CHEF-D'ŒUVRE DE BUNYAN",
     fr_content: "Lecture du chef-d'œuvre de Bunyan : La Doctrine de la Loi et de la Grâce Dévoilée... Wow !!!",
     hi_title: "बनियान की कृति",
-    hi_content: "बनियान की उत्कृष्ट कृति पढ़ रहे हैं: कानून और अनुग्रह का सिद्धांत सामने आया... वाह!!!"
+    hi_content: "बनियान की उत्कृष्ट कृति पढ़ रहे हैं: कानून और अनुग्रह का सिद्धांत सामने आया... वाह!!!",
     zh_title: "bān nián jié zuò",
     zh_content: "yuè dú bān nián de jié zuò ： lǜ fǎ hé ēn diǎn de jiào yì zhǎn kāi le …… wà o ！"
 });
 
-MATCH (t:THOUGHT {name: "thought.BUNYANS MASTERPIECE"})
-MATCH (c:CONTENT {name: "content.BUNYANS MASTERPIECE"})
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.BUNYANS MASTERPIECE"}]->(c);
-
-MATCH (parent:TOPIC {name: "topic.GRACE"})
-MATCH (child:THOUGHT {name: "thought.BUNYANS MASTERPIECE"})
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.GRACE->BUNYANS MASTERPIECE"}]->(child);
+// 2. Link Content to Thought using the variables 't' and 'c'
+MERGE (t)-[r:HAS_CONTENT]->(c)
+ON CREATE SET r.name = "t.edge.BUNYANS MASTERPIECE"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
+MATCH (parent:TOPIC {name: ""})
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.->BUNYANS MASTERPIECE"
+RETURN t, parent;
 ```

@@ -10,7 +10,9 @@ neo4j: true
 verified: false
 ---
 
+
 ```Cypher
+// Generated from Book6E-FINAL.md (ID: 26-Dec-2013)
 CREATE (t:THOUGHT {
     name: "thought.THINK",
     alias: "Thought: Think",
@@ -23,24 +25,24 @@ CREATE (c:CONTENT {
     name: "content.THINK",
     ctype: "THOUGHT",
     en_title: "Think",
- es_title: "PENSAR",
- fr_title: "PENSE",
- hi_title: "सोचना",
- zh_title: "sī kǎo",
     en_content: "",
- es_content: "¿Crees que sabes pensar?",
- fr_content: "Pensez-vous que vous savez penser ?",
- hi_content: "क्या आपको लगता है कि आप सोचना जानते हैं?",
- zh_content: "nǐ rèn wéi nǐ zhī dào rú hé sī kǎo ma ？"
+    es_title: "PENSAR",
+    es_content: "¿Crees que sabes pensar?",
+    fr_title: "PENSE",
+    fr_content: "Pensez-vous que vous savez penser ?",
+    hi_title: "सोचना",
+    hi_content: "क्या आपको लगता है कि आप सोचना जानते हैं?",
+    zh_title: "sī kǎo",
+    zh_content: "nǐ rèn wéi nǐ zhī dào rú hé sī kǎo ma ？"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.THINK" AND c.name = "content.THINK"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.THINK"}]->(c);
-
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.PSYCHOLOGY" AND child.name = "thought.THINK"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.PSYCHOLOGY->THINK"}]->(child);
+// 2. Link Content to Thought using the variables 't' and 'c'
+MERGE (t)-[r:HAS_CONTENT]->(c)
+ON CREATE SET r.name = "t.edge.THINK"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
+MATCH (parent:TOPIC {name: "topic.PSYCHOLOGY"})
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.PSYCHOLOGY->THINK"
+RETURN t, parent;
 ```

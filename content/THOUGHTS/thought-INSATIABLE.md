@@ -11,7 +11,9 @@ neo4j: true
 verified: false
 ---
 
+
 ```Cypher
+// Generated from Book6E-FINAL.md (ID: 26-Dec-2013)
 CREATE (t:THOUGHT {
     name: "thought.INSATIABLE",
     alias: "Thought: Insatiable",
@@ -28,20 +30,20 @@ CREATE (c:CONTENT {
     es_title: "Insaciable",
     es_content: "La naturaleza humana nunca se satisface. Por ello, la humanidad se ve inmersa en todo tipo de adicciones para saciar a la bestia implacable.",
     fr_title: "Insatiable",
-    fr_content: "La nature humaine est insatiable. C'est pourquoi l'humanité sombre dans toutes sortes d'addictions pour assouvir sa soif insatiable.".
-    hi_title: "भी न तृप्त होने वाला".
-    hi_content: "इंसानी शरीर कभी संतुष्ट नहीं होता। इसलिए इंसान इस बेरहम जानवर को संतुष्ट करने के लिए हर तरह के नशे में डूबा रहता है।",
+    fr_content: "La nature humaine est insatiable. C'est pourquoi l'humanité sombre dans toutes sortes d'addictions pour assouvir sa soif insatiable.",
+    hi_title: "",
+    hi_content: "",
     zh_title: "Yǒng bù mǎnzú",
     zh_content: "rénlèi de ròutǐ běnxìng yǒng bù mǎnzú. Yīncǐ, rénlèi chénnì yú gè zhǒng gè yàng de shìhào, yǐ qiú mǎnzú zhè wúqíng de yěshòu."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.INSATIABLE" AND c.name = "content.INSATIABLE"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.INSATIABLE"}]->(c);
-
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.EVIL" AND child.name = "thought.INSATIABLE"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.EVIL->INSATIABLE"}]->(child);
+// 2. Link Content to Thought using the variables 't' and 'c'
+MERGE (t)-[r:HAS_CONTENT]->(c)
+ON CREATE SET r.name = "t.edge.INSATIABLE"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
+MATCH (parent:TOPIC {name: "topic.EVIL"})
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.EVIL->INSATIABLE"
+RETURN t, parent;
 ```

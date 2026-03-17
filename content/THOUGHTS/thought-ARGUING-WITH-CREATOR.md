@@ -11,8 +11,9 @@ neo4j: true
 verified: false
 ---
 
+
 ```Cypher
-// Generated from Book6E-FINAL.md (ID: 21-Sep-2010)
+// Generated from Book6E-FINAL.md (ID: 26-Dec-2013)
 CREATE (t:THOUGHT {
     name: "thought.ARGUING WITH CREATOR",
     alias: "Thought: Arguing With Creator",
@@ -36,11 +37,13 @@ CREATE (c:CONTENT {
     zh_content: "Rénlèi de chángjiǔ xiāoqiǎn jiùshì yǔ qí Chuàngzàozhǔ zhēnglùn.  rén lèi de cháng jiǔ xiāo qiǎn jiù shì yǔ qí zào wù zhǔ zhēng lùn 。"
 });
 
-MATCH (t:THOUGHT {name: "thought.ARGUING WITH CREATOR"})
-MATCH (c:CONTENT {name: "content.ARGUING WITH CREATOR"})
-MERGE (t)-[:HAS_CONTENT { "name": "t.edge.ARGUING WITH CREATOR" }]->(c);
-
-MATCH (parent:TOPIC {name: "topic.HUMANITY"})
-MATCH (child:THOUGHT {name: "thought.ARGUING WITH CREATOR"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "t.edge.HUMANITY->ARGUING WITH CREATOR" }]->(child);
+// 2. Link Content to Thought using the variables 't' and 'c'
+MERGE (t)-[r:HAS_CONTENT]->(c)
+ON CREATE SET r.name = "t.edge.ARGUING WITH CREATOR"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
+MATCH (parent:TOPIC {name: ""})
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.->ARGUING WITH CREATOR"
+RETURN t, parent;
 ```

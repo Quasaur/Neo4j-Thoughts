@@ -11,8 +11,9 @@ neo4j: true
 verified: true
 ---
 
+
 ```Cypher
-// Generated from Book6E-FINAL.md (ID: 18-Sep-2013d)
+// Generated from Book6E-FINAL.md (ID: 26-Dec-2013)
 CREATE (t:THOUGHT {
     name: "thought.HORDES OF THE ABYSS",
     alias: "Thought: Hordes Of The Abyss",
@@ -36,11 +37,13 @@ CREATE (c:CONTENT {
     zh_content: "rén lèi jiāng shòu dào shēn yuān bù luò de bài fǎng , yīn wèi zhè shì rén lèi tōng guò qí xíng wéi suǒ yāo qiú de ."
 });
 
-MATCH (t:THOUGHT {name: "thought.HORDES OF THE ABYSS"})
-MATCH (c:CONTENT {name: "content.HORDES OF THE ABYSS"})
-MERGE (t)-[:HAS_CONTENT { "name": "t.edge.HORDES OF THE ABYSS" }]->(c);
-
-MATCH (parent:TOPIC {name: "topic.APOCALYPSE"})
-MATCH (child:THOUGHT {name: "thought.HORDES OF THE ABYSS"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "t.edge.APOCALYPSE->HORDES OF THE ABYSS" }]->(child);
+// 2. Link Content to Thought using the variables 't' and 'c'
+MERGE (t)-[r:HAS_CONTENT]->(c)
+ON CREATE SET r.name = "t.edge.HORDES OF THE ABYSS"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
+MATCH (parent:TOPIC {name: ""})
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.->HORDES OF THE ABYSS"
+RETURN t, parent;
 ```

@@ -13,7 +13,9 @@ level: 2
 neo4j: true
 verified: false
 ---
+
 ```Cypher
+// Generated from Book6E-FINAL.md (ID: 26-Dec-2013)
 CREATE (t:THOUGHT {
     name: "thought.INVITE OR COMMAND?",
     alias: "Thought: Invite or Command",
@@ -47,13 +49,13 @@ Actes 17:30,31",
  shǐ tú xíng chuán  17:30,31"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.INVITE OR COMMAND?" AND c.name = "content.INVITE OR COMMAND?"
-MERGE (t)-[:HAS_CONTENT {name: "edge.INVITE OR COMMAND?"}]->(c);
-
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.THE-GOSPEL" AND child.name = "thought.INVITE OR COMMAND?"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.THE-GOSPEL->INVITE OR COMMAND?"}]->(child);
+// 2. Link Content to Thought using the variables 't' and 'c'
+MERGE (t)-[r:HAS_CONTENT]->(c)
+ON CREATE SET r.name = "t.edge.INVITE OR COMMAND?"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
+MATCH (parent:TOPIC {name: "topic.THE-GOSPEL"})
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.THE-GOSPEL->INVITE OR COMMAND?"
+RETURN t, parent;
 ```

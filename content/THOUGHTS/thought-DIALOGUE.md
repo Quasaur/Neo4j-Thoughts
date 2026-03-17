@@ -10,7 +10,9 @@ neo4j: true
 verified: false
 ---
 
+
 ```Cypher
+// Generated from Book6E-FINAL.md (ID: 26-Dec-2013)
 CREATE (t:THOUGHT {
     name: "thought.DIALOGUE",
     alias: "Thought: Dialogue",
@@ -23,24 +25,24 @@ CREATE (c:CONTENT {
     name: "content.DIALOGUE",
     ctype: "THOUGHT",
     en_title: "Dialogue",
- es_title: "DIÁLOGO",
- fr_title: "DIALOGUE",
- hi_title: "वार्ता",
- zh_title: "duì huà",
     en_content: "",
- es_content: "Discutir con el Diablo es extremadamente peligroso porque con demasiada frecuencia compartimos su punto de vista.",
- fr_content: "Discuter avec le Diable est extrêmement dangereux car bien trop souvent nous partageons son point de vue.",
- hi_content: "शैतान के साथ बहस करना बेहद खतरनाक है क्योंकि अक्सर हम उसका दृष्टिकोण साझा करते हैं।",
- zh_content: "yǔ mó guǐ zhēng lùn shì jí qí wēi xiǎn de ， yīn wèi wǒ men cháng cháng tóng yì tā de guān diǎn 。"
+    es_title: "DIÁLOGO",
+    es_content: "Discutir con el Diablo es extremadamente peligroso porque con demasiada frecuencia compartimos su punto de vista.",
+    fr_title: "DIALOGUE",
+    fr_content: "Discuter avec le Diable est extrêmement dangereux car bien trop souvent nous partageons son point de vue.",
+    hi_title: "वार्ता",
+    hi_content: "शैतान के साथ बहस करना बेहद खतरनाक है क्योंकि अक्सर हम उसका दृष्टिकोण साझा करते हैं।",
+    zh_title: "duì huà",
+    zh_content: "yǔ mó guǐ zhēng lùn shì jí qí wēi xiǎn de ， yīn wèi wǒ men cháng cháng tóng yì tā de guān diǎn 。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.DIALOGUE" AND c.name = "content.DIALOGUE"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.DIALOGUE"}]->(c);
-
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.EVIL" AND child.name = "thought.DIALOGUE"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.EVIL->DIALOGUE"}]->(child);
+// 2. Link Content to Thought using the variables 't' and 'c'
+MERGE (t)-[r:HAS_CONTENT]->(c)
+ON CREATE SET r.name = "t.edge.DIALOGUE"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
+MATCH (parent:TOPIC {name: "topic.EVIL"})
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.EVIL->DIALOGUE"
+RETURN t, parent;
 ```

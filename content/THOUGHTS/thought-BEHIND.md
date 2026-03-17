@@ -10,7 +10,9 @@ neo4j: true
 verified: false
 ---
 
+
 ```Cypher
+// Generated from Book6E-FINAL.md (ID: 26-Dec-2013)
 CREATE (t:THOUGHT {
     name: "thought.BEHIND",
     alias: "Thought: Behind",
@@ -23,24 +25,24 @@ CREATE (c:CONTENT {
     name: "content.BEHIND",
     ctype: "THOUGHT",
     en_title: "Behind",
- es_title: "DETRÁS",
- fr_title: "DERRIÈRE",
- hi_title: "पीछे",
- zh_title: "zài hòu miàn",
     en_content: "",
- es_content: "Dios está detrás de todo",
- fr_content: "Dieu est derrière tout",
- hi_content: "हर चीज़ के पीछे भगवान है",
- zh_content: "shén shì yī qiè de bèi hòu"
+    es_title: "DETRÁS",
+    es_content: "Dios está detrás de todo",
+    fr_title: "DERRIÈRE",
+    fr_content: "Dieu est derrière tout",
+    hi_title: "पीछे",
+    hi_content: "हर चीज़ के पीछे भगवान है",
+    zh_title: "zài hòu miàn",
+    zh_content: "shén shì yī qiè de bèi hòu"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.BEHIND" AND c.name = "content.BEHIND"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.BEHIND"}]->(c);
-
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.DIVINE-SOVEREIGNTY" AND child.name = "thought.BEHIND"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.DIVINE-SOVEREIGNTY->BEHIND"}]->(child);
+// 2. Link Content to Thought using the variables 't' and 'c'
+MERGE (t)-[r:HAS_CONTENT]->(c)
+ON CREATE SET r.name = "t.edge.BEHIND"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
+MATCH (parent:TOPIC {name: "topic.DIVINE-SOVEREIGNTY"})
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.DIVINE-SOVEREIGNTY->BEHIND"
+RETURN t, parent;
 ```

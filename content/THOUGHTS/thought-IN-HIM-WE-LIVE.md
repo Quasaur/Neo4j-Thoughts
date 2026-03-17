@@ -11,7 +11,9 @@ neo4j: true
 verified: false
 ---
 
+
 ```Cypher
+// Generated from Book6E-FINAL.md (ID: 26-Dec-2013)
 CREATE (t:THOUGHT {
     name: "thought.IN HIM WE LIVE",
     alias: "Thought: In Him We Live",
@@ -35,13 +37,13 @@ CREATE (c:CONTENT {
     zh_content: "wǒ men dōu zài shàng dì zhī nèi …… shàng dì zài wǒ men zhī nèi ma ？"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.IN HIM WE LIVE" AND c.name = "content.IN HIM WE LIVE"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.IN HIM WE LIVE"}]->(c);
-
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.CREATION" AND child.name = "thought.IN HIM WE LIVE"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.CREATION->IN HIM WE LIVE"}]->(child);
+// 2. Link Content to Thought using the variables 't' and 'c'
+MERGE (t)-[r:HAS_CONTENT]->(c)
+ON CREATE SET r.name = "t.edge.IN HIM WE LIVE"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
+MATCH (parent:TOPIC {name: "topic.CREATION"})
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.CREATION->IN HIM WE LIVE"
+RETURN t, parent;
 ```

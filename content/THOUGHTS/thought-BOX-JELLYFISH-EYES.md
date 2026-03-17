@@ -11,13 +11,16 @@ neo4j: true
 verified: false
 ---
 
+
 ```Cypher
-// Generated from Book6E-FINAL.md (ID: 18-Aug-2011a)
-CREATE (t:THOUGHT {    name: "thought.BOX JELLYFISH EYES",
+// Generated from Book6E-FINAL.md (ID: 26-Dec-2013)
+CREATE (t:THOUGHT {
+    name: "thought.BOX JELLYFISH EYES",
     alias: "Thought: Box Jellyfish Eyes",
     parent: "topic.BIOLOGY",
     tags: ['creation', 'nature', 'jellyfish', 'design', 'power'],
-    level: 6});
+    level: 6
+});
 
 CREATE (c:CONTENT {
     name: "content.BOX JELLYFISH EYES",
@@ -34,11 +37,13 @@ CREATE (c:CONTENT {
     zh_content: "Xiāngxíng shāyú--dàzìrán zuì yǒudú de shēngwù--yǒu 24 zhī yǎnjuāng hé 360 dù shìjào... Shàngdì zhēn wěidà! 箱形水母--大自然最有毒的生物--有24只眼睛和360度视角...上帝真伟大！"
 });
 
-MATCH (t:THOUGHT {name: "thought.BOX JELLYFISH EYES"})
-MATCH (c:CONTENT {name: "content.BOX JELLYFISH EYES"})
-MERGE (t)-[:HAS_CONTENT { "name": "edge.BOX JELLYFISH EYES" }]->(c);
-
-MATCH (parent:TOPIC {name: "topic.BIOLOGY"})
-MATCH (child:THOUGHT {name: "thought.BOX JELLYFISH EYES"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "BIOLOGY->BOX JELLYFISH EYES" }]->(child);
+// 2. Link Content to Thought using the variables 't' and 'c'
+MERGE (t)-[r:HAS_CONTENT]->(c)
+ON CREATE SET r.name = "t.edge.BOX JELLYFISH EYES"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
+MATCH (parent:TOPIC {name: ""})
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.->BOX JELLYFISH EYES"
+RETURN t, parent;
 ```

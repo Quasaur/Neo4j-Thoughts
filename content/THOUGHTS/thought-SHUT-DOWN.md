@@ -13,11 +13,13 @@ level: 5
 neo4j: true
 verified: false
 ---
+
 ```Cypher
+// Generated from Book6E-FINAL.md (ID: 26-Dec-2013)
 CREATE (t:THOUGHT {
-    name: '"thought.SHUT DOWN"',
+    name: "\"thought.SHUT DOWN\"",
     alias: "Thought: Shut Down",
-    parent: '"topic.FREEDOM"',
+    parent: "\"topic.FREEDOM\"",
     tags: ["free", "expression", "constitutiion", "rights", "tiktok"],
     level: 5
 });
@@ -47,13 +49,13 @@ Vous ne pouvez pas fermer l’industrie du porno, mais vous pouvez néanmoins su
 ... nǐ bèi jiě gù le 。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = '"thought.SHUT DOWN"' AND c.name = "content.SHUT DOWN"
-MERGE (t)-[:HAS_CONTENT {name: "edge.SHUT DOWN"}]->(c);
-
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = '"topic.FREEDOM"' AND child.name = '"thought.SHUT DOWN"'
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.FREEDOM->SHUT DOWN"}]->(child);
+// 2. Link Content to Thought using the variables 't' and 'c'
+MERGE (t)-[r:HAS_CONTENT]->(c)
+ON CREATE SET r.name = "t.edge.'"thought.SHUT DOWN"'"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
+MATCH (parent:TOPIC {name: ""})
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.->'"thought.SHUT DOWN"'"
+RETURN t, parent;
 ```

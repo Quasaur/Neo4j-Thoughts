@@ -11,13 +11,16 @@ neo4j: true
 verified: false
 ---
 
+
 ```Cypher
-// Generated from Book6E-FINAL.md (ID: 21-Mar-2012)
-CREATE (t:THOUGHT {    name: "thought.CHANGE OTHERS NOT SELF",
+// Generated from Book6E-FINAL.md (ID: 26-Dec-2013)
+CREATE (t:THOUGHT {
+    name: "thought.CHANGE OTHERS NOT SELF",
     alias: "Thought: Change Others Not Self",
     parent: "topic.ATTITUDE",
     tags: ['change', 'growth', 'attitude', 'pain', 'transformation'],
-    level: 3});
+    level: 3
+});
 
 CREATE (c:CONTENT {
     name: "content.CHANGE OTHERS NOT SELF",
@@ -34,13 +37,13 @@ CREATE (c:CONTENT {
     zh_content: "Wǒmen xīwàng Shàngdì gǎibiàn suǒyǒu rén chúle wǒmen zìjǐ; Yīnwèi shìshí shì gǎibiàn kěnéng shì yīgè tòngkǔ de guòchéng... Jíshǐ shì Shàngdì zài jìnxíng shí."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.CHANGE OTHERS NOT SELF" AND c.name = "content.CHANGE OTHERS NOT SELF"
-MERGE (t)-[:HAS_CONTENT { "name": "edge.CHANGE OTHERS NOT SELF" }]->(c);
-
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.ATTITUDE" AND child.name = "thought.CHANGE OTHERS NOT SELF"
-MERGE (parent)-[:HAS_THOUGHT { "name": "ATTITUDE->CHANGE OTHERS NOT SELF" }]->(child);
+// 2. Link Content to Thought using the variables 't' and 'c'
+MERGE (t)-[r:HAS_CONTENT]->(c)
+ON CREATE SET r.name = "t.edge.CHANGE OTHERS NOT SELF"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
+MATCH (parent:TOPIC {name: "topic.ATTITUDE"})
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.ATTITUDE->CHANGE OTHERS NOT SELF"
+RETURN t, parent;
 ```

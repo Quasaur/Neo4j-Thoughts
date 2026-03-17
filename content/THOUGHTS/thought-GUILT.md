@@ -10,7 +10,9 @@ neo4j: true
 verified: false
 ---
 
+
 ```Cypher
+// Generated from Book6E-FINAL.md (ID: 26-Dec-2013)
 CREATE (t:THOUGHT {
     name: "thought.GUILT",
     alias: "Thought: Guilt",
@@ -23,24 +25,24 @@ CREATE (c:CONTENT {
     name: "content.GUILT",
     ctype: "THOUGHT",
     en_title: "Guilt",
- es_title: "CULPA",
- fr_title: "CULPABILITÉ",
- hi_title: "अपराध",
- zh_title: "yǒu zuì",
     en_content: "",
- es_content: "La culpa es sólo otra expresión del ego.",
- fr_content: "La culpabilité n'est qu'une autre expression de l'ego.",
- hi_content: "अपराध बोध अहंकार की ही एक और अभिव्यक्ति है।",
- zh_content: "nèi jiù zhǐ shì zì wǒ de lìng yī zhǒng biǎo dá 。"
+    es_title: "CULPA",
+    es_content: "La culpa es sólo otra expresión del ego.",
+    fr_title: "CULPABILITÉ",
+    fr_content: "La culpabilité n'est qu'une autre expression de l'ego.",
+    hi_title: "अपराध",
+    hi_content: "अपराध बोध अहंकार की ही एक और अभिव्यक्ति है।",
+    zh_title: "yǒu zuì",
+    zh_content: "nèi jiù zhǐ shì zì wǒ de lìng yī zhǒng biǎo dá 。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.GUILT" AND c.name = "content.GUILT"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.GUILT"}]->(c);
-
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.PSYCHOLOGY" AND child.name = "thought.GUILT"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.PSYCHOLOGY->GUILT"}]->(child);
+// 2. Link Content to Thought using the variables 't' and 'c'
+MERGE (t)-[r:HAS_CONTENT]->(c)
+ON CREATE SET r.name = "t.edge.GUILT"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
+MATCH (parent:TOPIC {name: "topic.PSYCHOLOGY"})
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.PSYCHOLOGY->GUILT"
+RETURN t, parent;
 ```

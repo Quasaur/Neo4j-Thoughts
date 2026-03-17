@@ -11,9 +11,11 @@ neo4j: true
 verified: true
 ---
 
+
 ```Cypher
-// Generated from Book6E-FINAL.md (ID: 05-May-2011b)
-CREATE (t:THOUGHT {    name: "thought.JUDGMENT OF NATIONS",
+// Generated from Book6E-FINAL.md (ID: 26-Dec-2013)
+CREATE (t:THOUGHT {
+    name: "thought.JUDGMENT OF NATIONS",
     alias: "Thought: Judgment Of Nations",
     parent: "topic.APOCALYPSE",
     tags: ['judgment', 'nations', 'politics', 'repentance', 'sovereignty'],
@@ -35,11 +37,13 @@ CREATE (c:CONTENT {
     zh_content: "Shàng Dì bù jǐn yào shěn pàn gè rén, ér qiě yào shěn pàn wàn guó (zú qún hé zhèng zhì). Yuàn Shàng Dì cì gěi Měi Guó huǐ gǎi."
 });
 
-MATCH (t:THOUGHT {name: "thought.JUDGMENT OF NATIONS"})
-MATCH (c:CONTENT {name: "content.JUDGMENT OF NATIONS"})
-MERGE (t)-[:HAS_CONTENT { "name": "t.edge.JUDGMENT OF NATIONS" }]->(c);
-
-MATCH (parent:TOPIC {name: "topic.APOCALYPSE"})
-MATCH (child:THOUGHT {name: "thought.JUDGMENT OF NATIONS"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "t.edge.APOCALYPSE->JUDGMENT OF NATIONS" }]->(child);
+// 2. Link Content to Thought using the variables 't' and 'c'
+MERGE (t)-[r:HAS_CONTENT]->(c)
+ON CREATE SET r.name = "t.edge.JUDGMENT OF NATIONS"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
+MATCH (parent:TOPIC {name: ""})
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.->JUDGMENT OF NATIONS"
+RETURN t, parent;
 ```

@@ -11,19 +11,22 @@ neo4j: true
 verified: false
 ---
 
+
 ```Cypher
-// Generated from Book6E-FINAL.md (ID: 01-Jan-2013)
-CREATE (t:THOUGHT {    name: "thought.HOLLYWOOD VIOLENCE PREMISE",
+// Generated from Book6E-FINAL.md (ID: 26-Dec-2013)
+CREATE (t:THOUGHT {
+    name: "thought.HOLLYWOOD VIOLENCE PREMISE",
     alias: "Thought: Hollywood Violence Premise",
     parent: "topic.WISDOM",
     tags: ['violence', 'society', 'media', 'attitude', 'failure'],
-    level: 3});
+    level: 3
+});
 
 CREATE (c:CONTENT {
     name: "content.HOLLYWOOD VIOLENCE PREMISE",
     ctype: "THOUGHT",
     en_title: "Hollywood Violence Premise",
-    en_content: "The original premise of Hollywood violence was \"If they're watching violence they're not committing it.\"...Oops!",
+    en_content: "The original premise of Hollywood violence was \\\"If they're watching violence they're not committing it.\\\"...Oops!",
     es_title: "Premisa de la Violencia de Hollywood",
     es_content: "La premisa original de la violencia de Hollywood era que podía mostrar la brutalidad del pecado sin glorificarla, sirviendo como una advertencia moral. Sin embargo, esta línea se ha difuminado considerablemente, y ahora gran parte del entretenimiento parece celebrar la violencia en lugar de condenarla.",
     fr_title: "Prémisse de la Violence d'Hollywood",
@@ -34,13 +37,13 @@ CREATE (c:CONTENT {
     zh_content: "Hǎoláiwù bàolì de yuánshǐ qiántí shì tā kěyǐ zhǎnshì zuì'è de cánkù ér bù měihuà tā, zuòwéi dàodé jǐnggào. Rán'ér, zhè tiáo jièxiàn yǐjīng xiāngdāng móhu le, xiànzài dàbùfèn yúlè sìhū zài qìngzhù bàolì ér bùshì qiǎnzé tā."
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.HOLLYWOOD VIOLENCE PREMISE" AND c.name = "content.HOLLYWOOD VIOLENCE PREMISE"
-MERGE (t)-[:HAS_CONTENT { "name": "edge.HOLLYWOOD VIOLENCE PREMISE" }]->(c);
-
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.WISDOM" AND child.name = "thought.HOLLYWOOD VIOLENCE PREMISE"
-MERGE (parent)-[:HAS_THOUGHT { "name": "WISDOM->HOLLYWOOD VIOLENCE PREMISE" }]->(child);
+// 2. Link Content to Thought using the variables 't' and 'c'
+MERGE (t)-[r:HAS_CONTENT]->(c)
+ON CREATE SET r.name = "t.edge.HOLLYWOOD VIOLENCE PREMISE"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
+MATCH (parent:TOPIC {name: "topic.WISDOM"})
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.WISDOM->HOLLYWOOD VIOLENCE PREMISE"
+RETURN t, parent;
 ```

@@ -11,7 +11,9 @@ neo4j: true
 verified: false
 ---
 
+
 ```Cypher
+// Generated from Book6E-FINAL.md (ID: 26-Dec-2013)
 CREATE (t:THOUGHT {
     name: "thought.EVOLUTION IS SCIENCE?",
     alias: "Thought: Evolution is Science?",
@@ -35,13 +37,13 @@ CREATE (c:CONTENT {
     zh_content: "wǒ rèn wéi ， jiāng kē xué yǔ jìn huà lùn děng tóng qǐ lái （ kǎo lǜ dào fǎn duì jìn huà lùn de dà liàng zhèng jù ） hái wéi shí guò zǎo ！"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.EVOLUTION IS SCIENCE?" AND c.name = "content.EVOLUTION IS SCIENCE?"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.EVOLUTION IS SCIENCE?"}]->(c);
-
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.RELIGION" AND child.name = "thought.EVOLUTION IS SCIENCE?"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.RELIGION->EVOLUTION IS SCIENCE?"}]->(child);
+// 2. Link Content to Thought using the variables 't' and 'c'
+MERGE (t)-[r:HAS_CONTENT]->(c)
+ON CREATE SET r.name = "t.edge.EVOLUTION IS SCIENCE?"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
+MATCH (parent:TOPIC {name: "topic.RELIGION"})
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.RELIGION->EVOLUTION IS SCIENCE?"
+RETURN t, parent;
 ```

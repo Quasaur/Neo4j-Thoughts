@@ -11,8 +11,9 @@ neo4j: true
 verified: false
 ---
 
+
 ```Cypher
-// Generated from Book6E-FINAL.md (ID: 10-Jul-2011)
+// Generated from Book6E-FINAL.md (ID: 26-Dec-2013)
 CREATE (t:THOUGHT {
     name: "thought.FOSSIL AMINO ACIDS",
     alias: "Thought: Fossil Amino Acids",
@@ -36,11 +37,13 @@ CREATE (c:CONTENT {
     zh_content: "Weishenme anjisuan rengran zai huashi zhong beizhao dao, zai ji yi nian hou ye mei you fenjie?"
 });
 
-MATCH (t:THOUGHT {name: "thought.FOSSIL AMINO ACIDS"})
-MATCH (c:CONTENT {name: "content.FOSSIL AMINO ACIDS"})
-MERGE (t)-[:HAS_CONTENT { "name": "edge.FOSSIL AMINO ACIDS" }]->(c);
-
-MATCH (parent:TOPIC {name: "topic.GEOLOGY"})
-MATCH (child:THOUGHT {name: "thought.FOSSIL AMINO ACIDS"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "GEOLOGY->FOSSIL AMINO ACIDS" }]->(child);
+// 2. Link Content to Thought using the variables 't' and 'c'
+MERGE (t)-[r:HAS_CONTENT]->(c)
+ON CREATE SET r.name = "t.edge.FOSSIL AMINO ACIDS"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
+MATCH (parent:TOPIC {name: ""})
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.->FOSSIL AMINO ACIDS"
+RETURN t, parent;
 ```

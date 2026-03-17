@@ -11,8 +11,9 @@ neo4j: true
 verified: false
 ---
 
+
 ```Cypher
-// Generated from Book6E-FINAL.md (ID: 03-Aug-2010a)
+// Generated from Book6E-FINAL.md (ID: 26-Dec-2013)
 CREATE (t:THOUGHT {
     name: "thought.JESUS THE MONARCH",
     alias: "Thought: Jesus The Monarch",
@@ -36,11 +37,13 @@ CREATE (c:CONTENT {
     zh_content: "耶稣既不是共和党人，也不是民主党人。耶稣是神……绝对的君主。"
 });
 
-MATCH (t:THOUGHT {name: "thought.JESUS THE MONARCH"})
-MATCH (c:CONTENT {name: "content.JESUS THE MONARCH"})
-MERGE (t)-[:HAS_CONTENT { "name": "edge.JESUS THE MONARCH" }]->(c);
-
-MATCH (parent:TOPIC {name: "topic.POLITICAL SCIENCE"})
-MATCH (child:THOUGHT {name: "thought.JESUS THE MONARCH"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "POLITICAL SCIENCE->JESUS THE MONARCH" }]->(child);
+// 2. Link Content to Thought using the variables 't' and 'c'
+MERGE (t)-[r:HAS_CONTENT]->(c)
+ON CREATE SET r.name = "t.edge.JESUS THE MONARCH"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
+MATCH (parent:TOPIC {name: ""})
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.->JESUS THE MONARCH"
+RETURN t, parent;
 ```

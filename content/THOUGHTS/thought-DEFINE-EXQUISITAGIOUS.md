@@ -11,13 +11,16 @@ neo4j: false
 verified: false
 ---
 
+
 ```Cypher
-// Generated from Book6E-FINAL.md (ID: 19-Jan-2012d)
-CREATE (t:THOUGHT {    name: "thought.DEFINE EXQUISITAGIOUS",
+// Generated from Book6E-FINAL.md (ID: 26-Dec-2013)
+CREATE (t:THOUGHT {
+    name: "thought.DEFINE EXQUISITAGIOUS",
     alias: "Thought: Define Exquisitagious",
     parent: "topic.LINGUISTICS",
     tags: ['beauty', 'language', 'humor', 'contagious', 'aesthetics'],
-    level: 5});
+    level: 5
+});
 
 CREATE (c:CONTENT {
     name: "content.DEFINE EXQUISITAGIOUS",
@@ -34,13 +37,13 @@ CREATE (c:CONTENT {
     zh_content: "Xīn cí: Jīngzhì de Yìsi: Mǒu wù rúcǐ jīngzhì, gǎnqíng jiù chuánrǎn!"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.DEFINE EXQUISITAGIOUS" AND c.name = "content.DEFINE EXQUISITAGIOUS"
-MERGE (t)-[:HAS_CONTENT { "name": "edge.DEFINE EXQUISITAGIOUS" }]->(c);
-
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.LINGUISTICS" AND child.name = "thought.DEFINE EXQUISITAGIOUS"
-MERGE (parent)-[:HAS_THOUGHT { "name": "LINGUISTICS->DEFINE EXQUISITAGIOUS" }]->(child);
+// 2. Link Content to Thought using the variables 't' and 'c'
+MERGE (t)-[r:HAS_CONTENT]->(c)
+ON CREATE SET r.name = "t.edge.DEFINE EXQUISITAGIOUS"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
+MATCH (parent:TOPIC {name: "topic.LINGUISTICS"})
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.LINGUISTICS->DEFINE EXQUISITAGIOUS"
+RETURN t, parent;
 ```

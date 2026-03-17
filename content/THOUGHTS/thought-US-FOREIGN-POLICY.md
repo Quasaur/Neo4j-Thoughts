@@ -11,7 +11,9 @@ neo4j: true
 verified: false
 ---
 
+
 ```Cypher
+// Generated from Book6E-FINAL.md (ID: 26-Dec-2013)
 CREATE (t:THOUGHT {
     name: "thought.US FOREIGN POLICY",
     alias: "Thought: Dark Us Foreign Policy",
@@ -35,13 +37,13 @@ CREATE (c:CONTENT {
     zh_content: "měi guó de wài jiāo zhèng cè shì dì guó zhǔ yì de 、 dú cái de 、 wú qíng de 、 āng zāng de 、 bù dào dé de …… bù kě bì miǎn dì huì yǐn qǐ shàng dì duì wǒ men suǒ yǒu rén de fèn nù 。"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.US FOREIGN POLICY" AND c.name = "content.US FOREIGN POLICY"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.US FOREIGN POLICY"}]->(c);
-
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.POLITICAL-SCIENCE" AND child.name = "thought.US FOREIGN POLICY"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.POLITICAL-SCIENCE->US FOREIGN POLICY"}]->(child);
+// 2. Link Content to Thought using the variables 't' and 'c'
+MERGE (t)-[r:HAS_CONTENT]->(c)
+ON CREATE SET r.name = "t.edge.US FOREIGN POLICY"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
+MATCH (parent:TOPIC {name: "topic.POLITICAL-SCIENCE"})
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.POLITICAL-SCIENCE->US FOREIGN POLICY"
+RETURN t, parent;
 ```

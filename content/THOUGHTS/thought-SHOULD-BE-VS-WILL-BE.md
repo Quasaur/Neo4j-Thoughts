@@ -11,13 +11,16 @@ neo4j: true
 verified: false
 ---
 
+
 ```Cypher
-// Generated from Book6E-FINAL.md (ID: 01-Aug-2013c)
-CREATE (t:THOUGHT {    name: "thought.SHOULD BE VS WILL BE",
+// Generated from Book6E-FINAL.md (ID: 26-Dec-2013)
+CREATE (t:THOUGHT {
+    name: "thought.SHOULD BE VS WILL BE",
     alias: "Thought: Should Be Vs Will Be",
     parent: "topic.DIVINE SOVEREIGNTY",
     tags: ['sovereignty', 'time', 'prophecy', 'destiny', 'future'],
-    level: 2});
+    level: 2
+});
 
 CREATE (c:CONTENT {
     name: "content.SHOULD BE VS WILL BE",
@@ -34,11 +37,13 @@ CREATE (c:CONTENT {
     zh_content: "Yi qie dou ru qi suo ying, dan fei ru qi suo jiang."
 });
 
-MATCH (t:THOUGHT {name: "thought.SHOULD BE VS WILL BE"})
-MATCH (c:CONTENT {name: "content.SHOULD BE VS WILL BE"})
-MERGE (t)-[:HAS_CONTENT { "name": "edge.SHOULD BE VS WILL BE" }]->(c);
-
-MATCH (parent:TOPIC {name: "topic.DIVINE SOVEREIGNTY"})
-MATCH (child:THOUGHT {name: "thought.SHOULD BE VS WILL BE"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "edge.DIVINE SOVEREIGNTY->SHOULD BE VS WILL BE" }]->(child);
+// 2. Link Content to Thought using the variables 't' and 'c'
+MERGE (t)-[r:HAS_CONTENT]->(c)
+ON CREATE SET r.name = "t.edge.SHOULD BE VS WILL BE"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
+MATCH (parent:TOPIC {name: ""})
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.->SHOULD BE VS WILL BE"
+RETURN t, parent;
 ```

@@ -11,8 +11,9 @@ neo4j: true
 verified: false
 ---
 
+
 ```Cypher
-// Generated from Book6E-FINAL.md (ID: 19-Feb-2012f)
+// Generated from Book6E-FINAL.md (ID: 26-Dec-2013)
 CREATE (t:THOUGHT {
     name: "thought.EQUALITY AT RETURN",
     alias: "Thought: Equality At Return",
@@ -36,11 +37,13 @@ CREATE (c:CONTENT {
     zh_content: "Zhen Zheng De Jing Ji Zheng Zhi He She Hui Ping Deng Yong Yuan Bu Hui Zai Di Qiu Shang Cun Zai, Zhi Dao Ji Du Fu Gui."
 });
 
-MATCH (t:THOUGHT {name: "thought.EQUALITY AT RETURN"})
-MATCH (c:CONTENT {name: "content.EQUALITY AT RETURN"})
-MERGE (t)-[:HAS_CONTENT { "name": "edge.EQUALITY AT RETURN" }]->(c);
-
-MATCH (parent:TOPIC {name: "topic.SOTERIOLOGY"})
-MATCH (child:THOUGHT {name: "thought.EQUALITY AT RETURN"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "SOTERIOLOGY>EQUALITY AT RETURN" }]->(child);
+// 2. Link Content to Thought using the variables 't' and 'c'
+MERGE (t)-[r:HAS_CONTENT]->(c)
+ON CREATE SET r.name = "t.edge.EQUALITY AT RETURN"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
+MATCH (parent:TOPIC {name: ""})
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.->EQUALITY AT RETURN"
+RETURN t, parent;
 ```

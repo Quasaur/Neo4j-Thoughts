@@ -11,13 +11,16 @@ neo4j: true
 verified: false
 ---
 
+
 ```Cypher
-// Generated from Book6E-FINAL.md (ID: 06-Nov-2010a)
-CREATE (t:THOUGHT {    name: "thought.SPECIFIED COMPLEXITY",
+// Generated from Book6E-FINAL.md (ID: 26-Dec-2013)
+CREATE (t:THOUGHT {
+    name: "thought.SPECIFIED COMPLEXITY",
     alias: "Thought: Specified Complexity",
     parent: "topic.CREATION",
     tags: ['creation', 'complexity', 'design', 'evolution', 'intelligence'],
-    level: 2});
+    level: 2
+});
 
 CREATE (c:CONTENT {
     name: "content.SPECIFIED COMPLEXITY",
@@ -34,11 +37,13 @@ CREATE (c:CONTENT {
     zh_content: "进化论无法解释特定的复杂性。"
 });
 
-MATCH (t:THOUGHT {name: "thought.SPECIFIED COMPLEXITY"})
-MATCH (c:CONTENT {name: "content.SPECIFIED COMPLEXITY"})
-MERGE (t)-[:HAS_CONTENT { "name": "edge.SPECIFIED COMPLEXITY" }]->(c);
-
-MATCH (parent:TOPIC {name: "topic.CREATION"})
-MATCH (child:THOUGHT {name: "thought.SPECIFIED COMPLEXITY"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "CREATION->SPECIFIED COMPLEXITY" }]->(child);
+// 2. Link Content to Thought using the variables 't' and 'c'
+MERGE (t)-[r:HAS_CONTENT]->(c)
+ON CREATE SET r.name = "t.edge.SPECIFIED COMPLEXITY"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
+MATCH (parent:TOPIC {name: ""})
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.->SPECIFIED COMPLEXITY"
+RETURN t, parent;
 ```

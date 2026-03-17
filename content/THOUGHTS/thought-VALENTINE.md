@@ -10,7 +10,9 @@ neo4j: true
 verified: false
 ---
 
+
 ```Cypher
+// Generated from Book6E-FINAL.md (ID: 26-Dec-2013)
 CREATE (t:THOUGHT {
     name: "thought.VALENTINE",
     alias: "Thought: Valentine",
@@ -23,31 +25,26 @@ CREATE (c:CONTENT {
     name: "content.VALENTINE",
     ctype: "THOUGHT",
     en_title: "Valentine",
- es_title: "ENAMORADO",
- fr_title: "VALENTIN",
- hi_title: "प्रेमी",
- zh_title: "qíng rén jié",
     en_content: "",
- es_content: "En este San Valentín me pregunto: ¿Cómo puedo evitar dar por sentado a mi esposa?
-¿Por qué Dios escogió a esta mujer para mí?\""""",
- fr_content: "En ce jour de la Saint-Valentin, je me demande : « Comment puis-je éviter de prendre ma femme pour acquise ?
-Pourquoi Dieu a-t-il choisi cette femme pour moi ? »",
- hi_content: "इस सेंट वैलेंटाइन दिवस पर मैं अपने आप से पूछता हूं \"मैं अपनी पत्नी को हल्के में लेने से कैसे बच सकता हूं?
-भगवान ने मेरे लिए इस महिला को क्यों चुना?\""मैं अपनी पत्नी को हल्के में लेने से कैसे बच सकता हूं?
-भगवान ने मेरे लिए इस महिला को क्यों चुना?\""मैं अपनी पत्नी को हल्के में लेने से कैसे बच सकता हूं?
-भगवान ने मेरे लिए इस महिला को क्यों चुना?\""मैं अपनी पत्नी को हल्के में लेने से कैसे बच सकता हूं?
-भगवान ने मेरे लिए इस महिला को क्यों चुना?\"",
- zh_content: "zài zhè ge qíng rén jié ， wǒ wèn zì jǐ ：“ wǒ zěn yàng cái néng bì miǎn bǎ wǒ de qī zǐ shì wèi lǐ suǒ dāng rán ？
- wèi shén me shàng dì yào wèi wǒ tiāo xuǎn zhè ge nǚ rén ？”"मैं अपनी पत्नी को हल्के में लेने से कैसे बच सकता हूं?\nभगवान ने मेरे लिए इस महिला को क्यों चुना?\"""
+    es_title: "ENAMORADO",
+    es_content: "En este San Valentín me pregunto: ¿Cómo puedo evitar dar por sentado a mi esposa?
+¿Por qué Dios escogió a esta mujer para mí?\\\"",
+    fr_title: "VALENTIN",
+    fr_content: "",
+    hi_title: "प्रेमी",
+    hi_content: "इस सेंट वैलेंटाइन दिवस पर मैं अपने आप से पूछता हूं \\\"मैं अपनी पत्नी को हल्के में लेने से कैसे बच सकता हूं?
+भगवान ने मेरे लिए इस महिला को क्यों चुना?\\\"",
+    zh_title: "qíng rén jié",
+    zh_content: ""
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.VALENTINE" AND c.name = "content.VALENTINE"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.VALENTINE"}]->(c);
-
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.PSYCHOLOGY" AND child.name = "thought.VALENTINE"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.PSYCHOLOGY->VALENTINE"}]->(child);
+// 2. Link Content to Thought using the variables 't' and 'c'
+MERGE (t)-[r:HAS_CONTENT]->(c)
+ON CREATE SET r.name = "t.edge.VALENTINE"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
+MATCH (parent:TOPIC {name: "topic.PSYCHOLOGY"})
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.PSYCHOLOGY->VALENTINE"
+RETURN t, parent;
 ```

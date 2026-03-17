@@ -10,7 +10,9 @@ neo4j: true
 verified: false
 ---
 
+
 ```Cypher
+// Generated from Book6E-FINAL.md (ID: 26-Dec-2013)
 CREATE (t:THOUGHT {
     name: "thought.AMBITION",
     alias: "Thought: Ambition",
@@ -23,24 +25,24 @@ CREATE (c:CONTENT {
     name: "content.AMBITION",
     ctype: "THOUGHT",
     en_title: "Ambition",
- es_title: "AMBICIÓN",
- fr_title: "AMBITION",
- hi_title: "महत्वाकांक्षा",
- zh_title: "zhì xiàng",
     en_content: "",
- es_content: "¡Dios es todo lo que quieres ser!",
- fr_content: "Dieu est tout ce que vous voulez être !",
- hi_content: "ईश्वर वह सब कुछ है जो आप बनना चाहते हैं!",
- zh_content: "shén jiù shì nǐ xiǎng chéng wéi de yī qiè ！"
+    es_title: "AMBICIÓN",
+    es_content: "¡Dios es todo lo que quieres ser!",
+    fr_title: "AMBITION",
+    fr_content: "Dieu est tout ce que vous voulez être !",
+    hi_title: "महत्वाकांक्षा",
+    hi_content: "ईश्वर वह सब कुछ है जो आप बनना चाहते हैं!",
+    zh_title: "zhì xiàng",
+    zh_content: "shén jiù shì nǐ xiǎng chéng wéi de yī qiè ！"
 });
 
-MATCH (t:THOUGHT)
-MATCH (c:CONTENT)
-WHERE t.name = "thought.AMBITION" AND c.name = "content.AMBITION"
-MERGE (t)-[:HAS_CONTENT {name: "t.edge.AMBITION"}]->(c);
-
-MATCH (parent:TOPIC)
-MATCH (child:THOUGHT)
-WHERE parent.name = "topic.THE-GOSPEL" AND child.name = "thought.AMBITION"
-MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.THE-GOSPEL->AMBITION"}]->(child);
+// 2. Link Content to Thought using the variables 't' and 'c'
+MERGE (t)-[r:HAS_CONTENT]->(c)
+ON CREATE SET r.name = "t.edge.AMBITION"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
+MATCH (parent:TOPIC {name: "topic.THE-GOSPEL"})
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.THE-GOSPEL->AMBITION"
+RETURN t, parent;
 ```
