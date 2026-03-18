@@ -39,7 +39,7 @@ CREATE (c:CONTENT {
 
 // 2. Link Content to Thought using the variables 't' and 'c'
 MERGE (t)-[r:HAS_CONTENT]->(c)
-ON CREATE SET r.name = "t.edge.OUTER VS INNER BEAUTY";
+ON CREATE SET r.name = "t.edge.OUTER VS INNER BEAUTY"
 // 3. Pass 't' forward, find the Parent Topic, and link them
 WITH t
 MATCH (parent:TOPIC {name: "topic.ATTITUDE"})

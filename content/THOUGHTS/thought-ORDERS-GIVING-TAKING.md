@@ -44,6 +44,6 @@ ON CREATE SET r.name = "t.edge.ORDERS GIVING TAKING"
 WITH t
 MATCH (parent:TOPIC {name: "topic.ATTITUDE"})
 MERGE (parent)-[r2:HAS_THOUGHT]->(t)
-ON CREATE SET r2.name = "t.edge.ATTITUDE->ORDERS GIVING TAKING"
+ON CREATE SET r2.name = "t.edge.WISDOM->ORDERS GIVING TAKING"
 RETURN t, parent;
 ```

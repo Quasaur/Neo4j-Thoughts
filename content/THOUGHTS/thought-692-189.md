@@ -43,8 +43,8 @@ MERGE (t)-[r:HAS_CONTENT]->(c)
 ON CREATE SET r.name = "t.edge.692, 189"
 // 3. Pass 't' forward, find the Parent Topic, and link them
 WITH t
-MATCH (parent:TOPIC {name: ""})
+MATCH (parent:TOPIC {name: "topic.PSYCHOLOGY"})
 MERGE (parent)-[r2:HAS_THOUGHT]->(t)
-ON CREATE SET r2.name = "t.edge.->692, 189"
+ON CREATE SET r2.name = "t.edge.PSYCHOLOGY->692, 189"
 RETURN t, parent;
 ```

@@ -43,6 +43,6 @@ ON CREATE SET r.name = "t.edge.AMERICAN"
 WITH t
 MATCH (parent:TOPIC {name: "topic.POLITICAL-SCIENCE"})
 MERGE (parent)-[r2:HAS_THOUGHT]->(t)
-ON CREATE SET r2.name = "t.edge.POLITICAL-SCIENCE->AMERICAN"
+ON CREATE SET r2.name = "t.edge.POLITICAL SCIENCE->AMERICAN"
 RETURN t, parent;
 ```

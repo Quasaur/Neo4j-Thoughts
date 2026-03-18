@@ -42,8 +42,8 @@ MERGE (t)-[r:HAS_CONTENT]->(c)
 ON CREATE SET r.name = "t.edge.EARTH SPEED SPACE"
 // 3. Pass 't' forward, find the Parent Topic, and link them
 WITH t
-MATCH (parent:TOPIC {name: ""})
+MATCH (parent:TOPIC {name: "topic.ASTROPHYSICS"})
 MERGE (parent)-[r2:HAS_THOUGHT]->(t)
-ON CREATE SET r2.name = "t.edge.->EARTH SPEED SPACE"
+ON CREATE SET r2.name = "t.edge.ASTROPHYSICS->EARTH SPEED SPACE"
 RETURN t, parent;
 ```

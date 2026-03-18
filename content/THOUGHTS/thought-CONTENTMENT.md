@@ -3,11 +3,12 @@ type: THOUGHT
 name: "thought.CONTENTMENT"
 alias: "Thought: Contentment"
 parent: "topic.ATTITUDE"
-tags: ["contentment", "acceptance", "carefree", "failure", "faith"]
+en_content: "I play my best chess when i don’t care about winning…or rather, when I have no anxiety over making mistakes."
+tags: ["contentment", "acceptance", "care_free", "failure", "faith"]
 ptopic: "[[topic-ATTITUDE]]"
 level: 3
 neo4j: true
-verified: false
+verified: true
 ---
 
 
@@ -17,22 +18,22 @@ CREATE (t:THOUGHT {
     name: "thought.CONTENTMENT",
     alias: "Thought: Contentment",
     parent: "topic.ATTITUDE",
-    tags: ["contentment", "acceptance", "carefree", "failure", "faith"],
+    tags: ["contentment", "acceptance", "care_free", "failure", "faith"],
     level: 3
 });
 
 CREATE (c:CONTENT {
     name: "content.CONTENTMENT",
     ctype: "THOUGHT",
-    en_title: "Contentment",
-    en_content: "",
-    es_title: "CONTENTAMIENTO",
+    en_title: "Thought: Contentment",
+    en_content: "I play my best chess when i don’t care about winning…or rather, when I have no anxiety over making mistakes.",
+    es_title: "Pensamiento: contentamiento",
     es_content: "Juego mi mejor ajedrez cuando no me importa ganar... o mejor dicho, cuando no tengo ansiedad por cometer errores.",
-    fr_title: "CONTENTEMENT",
+    fr_title: "Pensée : contentement",
     fr_content: "Je joue de mon mieux aux échecs quand je ne me soucie pas de gagner… ou plutôt, quand je n’ai aucune angoisse à l’idée de faire des erreurs.",
-    hi_title: "संतोष",
+    hi_title: "विचार: संतोष",
     hi_content: "मैं अपना सर्वश्रेष्ठ शतरंज तब खेलता हूं जब मुझे जीत की परवाह नहीं होती... या यूँ कहें कि, जब मुझे गलतियाँ करने की कोई चिंता नहीं होती।",
-    zh_title: "mǎn yì",
+    zh_title: "sī xiǎng : zhī zú cháng lè",
     zh_content: "dāng wǒ bù guān xīn shèng lì shí ， huò zhě gèng què qiè dì shuō ， dāng wǒ bù dān xīn fàn cuò wù shí ， wǒ huì xià zuì hǎo de qí 。"
 });
 

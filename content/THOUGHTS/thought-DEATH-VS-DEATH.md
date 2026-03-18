@@ -44,6 +44,6 @@ ON CREATE SET r.name = "t.edge.DEATH VS DEATH"
 WITH t
 MATCH (parent:TOPIC {name: "topic.THE-GOSPEL"})
 MERGE (parent)-[r2:HAS_THOUGHT]->(t)
-ON CREATE SET r2.name = "t.edge.THE-GOSPEL->DEATH VS DEATH"
+ON CREATE SET r2.name = "t.edge.THE GOSPEL->DEATH VS DEATH"
 RETURN t, parent;
 ```

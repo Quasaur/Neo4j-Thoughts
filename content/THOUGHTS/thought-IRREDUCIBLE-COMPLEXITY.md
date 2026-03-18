@@ -42,8 +42,8 @@ MERGE (t)-[r:HAS_CONTENT]->(c)
 ON CREATE SET r.name = "t.edge.IRREDUCIBLE COMPLEXITY"
 // 3. Pass 't' forward, find the Parent Topic, and link them
 WITH t
-MATCH (parent:TOPIC {name: ""})
+MATCH (parent:TOPIC {name: "topic.CREATION"})
 MERGE (parent)-[r2:HAS_THOUGHT]->(t)
-ON CREATE SET r2.name = "t.edge.->IRREDUCIBLE COMPLEXITY"
+ON CREATE SET r2.name = "t.edge.CREATION->IRREDUCIBLE COMPLEXITY"
 RETURN t, parent;
 ```

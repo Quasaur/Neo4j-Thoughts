@@ -45,6 +45,6 @@ ON CREATE SET r.name = "t.edge.UNFAIR"
 WITH t
 MATCH (parent:TOPIC {name: "topic.DIVINE-SOVEREIGNTY"})
 MERGE (parent)-[r2:HAS_THOUGHT]->(t)
-ON CREATE SET r2.name = "t.edge.DIVINE-SOVEREIGNTY->UNFAIR"
+ON CREATE SET r2.name = "t.edge.DIVINE SOVEREIGNTY->UNFAIR"
 RETURN t, parent;
 ```

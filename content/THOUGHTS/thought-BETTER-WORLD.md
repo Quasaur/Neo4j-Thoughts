@@ -37,7 +37,7 @@ CREATE (c:CONTENT {
 });
 
 // 2. Link Content to Thought using the variables 't' and 'c'
-MERGE (t)-[r:HAS_CONTENT]->(c);
+MERGE (t)-[r:HAS_CONTENT]->(c)
 ON CREATE SET r.name = "t.edge.BETTER WORLD"
 // 3. Pass 't' forward, find the Parent Topic, and link them
 WITH t
