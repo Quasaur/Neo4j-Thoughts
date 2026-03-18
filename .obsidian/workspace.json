@@ -4,20 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "b1d4653f866a4700",
+        "id": "3885150ee9571ad0",
         "type": "tabs",
         "children": [
           {
-            "id": "88d7e89e1191fdd6",
+            "id": "c2dba8a569a55beb",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "BASES/Base-Content PASSAGES.base",
-                "viewName": "Table"
+                "file": "content/THOUGHTS/thought-CONTENTMENT.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-table",
-              "title": "Base-Content PASSAGES"
+              "icon": "lucide-file",
+              "title": "thought-CONTENTMENT"
             }
           }
         ]
@@ -52,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "SELF-SACRIFICE",
+                "query": "thought.ENDING",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -87,7 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 303.5004348754883
+    "width": 438.500732421875
   },
   "right": {
     "id": "23b5a9898015fd07",
@@ -121,12 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BASES/Base-Content PASSAGES.base",
+                "file": "content/THOUGHTS/thought-CONTENTMENT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Base-Content PASSAGES"
+              "title": "Outgoing links from thought-CONTENTMENT"
             }
           },
           {
@@ -136,7 +138,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -148,12 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "content/THOUGHTS/thought-CONTENTMENT.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of thought-CONTENTMENT"
             }
           }
         ],
@@ -177,44 +182,43 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "88d7e89e1191fdd6",
+  "active": "c2dba8a569a55beb",
   "lastOpenFiles": [
-    "content/PASSAGES/zeph/passage-REMOVING-ALL-THINGS.md",
-    "ANALYSIS/PASSAGES-2/Prov/21/passage-HEART-OF-THE-KING.md",
-    "ANALYSIS/PASSAGES-2/zeph/passage-REMOVING-ALL-THINGS.md",
-    "BASES/Base-Content PASSAGES.base",
-    "content/PASSAGES/Prov/03/passage-KINDNESS-AND-TRUTH.md",
-    "content/PASSAGES/Prov/21/passage-HEART-OF-THE-KING.md",
-    "ANALYSIS/PASSAGES-2/job/passage-THE-LORD-GIVES.md",
-    "content/PASSAGES/job/passage-THE-LORD-GIVES.md",
-    "docs/reports/PASSAGES_Cypher_Refactoring_Report_2026-03-14.md",
-    "content/PASSAGES/Deut/passage-THE-SOURCE-OF-WEALTH.md",
+    "BASES/Base-Content THOUGHTS.base",
+    "content/THOUGHTS/thought-CHANGE-OTHERS-NOT-SELF.md",
+    "content/THOUGHTS/thought-BORED-VS-BORING.md",
+    "content/THOUGHTS/thought-AUTOMATIC-MERCY.md",
+    "content/THOUGHTS/thought-ATTENTION-DESIRE.md",
+    "content/THOUGHTS/thought-ARROGANCE-VS-DIGNITY.md",
+    "content/THOUGHTS/thought-ANGER-AS-CONTAGION.md",
+    "content/PASSAGES/passage-END-OF-ALL-FLESH.md",
     "Neo4j-AI/Kimi K2/Discrepancies/Prompts/Prompts.md",
-    "ANALYSIS/PASSAGES-2/Prov/03/passage-TRUST-THE-LORD.md",
-    "ANALYSIS/PASSAGES-2/Prov/03/passage-SECURITY-2.md",
-    "ANALYSIS/PASSAGES-2/Prov/03/passage-SCORNERS.md",
-    "ANALYSIS/PASSAGES-2/Prov/03/passage-PRIDE-AS-EVIL.md",
-    "ANALYSIS/PASSAGES-2/Prov/03/passage-PRICELESS-WISDOM.md",
-    "ANALYSIS/PASSAGES-2/Prov/03/passage-OBLIGATION.md",
-    "ANALYSIS/PASSAGES-2/Prov/03/passage-NEIGHBORS.md",
-    "ANALYSIS/PASSAGES-2/Prov/03/passage-MAN-OF-VIOLENCE.md",
-    "ANALYSIS/PASSAGES-2/Prov/03/passage-KINDNESS-AND-TRUTH.md",
-    "ANALYSIS/PASSAGES-2/Prov/03/passage-INHERITED-HONOR.md",
-    "ANALYSIS/PASSAGES-2/Prov/03/passage-HOUSE-OF-THE-WICKED.md",
-    "ANALYSIS/PASSAGES-2/Prov/03/passage-HONOR-GOD.md",
-    "ANALYSIS/PASSAGES-2/Prov/03/passage-DISCIPLINE-AND-REBUKE.md",
-    "ANALYSIS/PASSAGES-2/Prov/01/passage-WHAT-THE-WISE-DO.md",
-    "ANALYSIS/PASSAGES-2/Prov/01/passage-UNJUST-GAIN.md",
-    "ANALYSIS/PASSAGES-2/Prov/01/passage-SECURITY.md",
-    "ANALYSIS/PASSAGES-2/Prov/21",
-    "ANALYSIS/PASSAGES-2/Prov/03",
-    "ANALYSIS/PASSAGES-2/Prov/01",
-    "ANALYSIS/PASSAGES-2/Prov/02",
-    "ANALYSIS/PASSAGES-2/zeph",
-    "ANALYSIS/PASSAGES-2/levi",
-    "ANALYSIS/PASSAGES-2/job",
-    "ANALYSIS/PASSAGES-2/Roma",
-    "ANALYSIS/PASSAGES-2/Prov",
+    "AGENTS.md",
+    "python/repo/sync_local_content.py",
+    "python/AuraDB/sync_auradb_topics.py",
+    "python/AuraDB/query_quotes_auradb.py",
+    "python/AuraDB/investigate_orphans.py",
+    "python/AuraDB/fix_orphans.py",
+    "python/AuraDB/final_report.py",
+    "python/AuraDB/complete_auradb_export.py",
+    "python/content/add_source_to_quotes.py",
+    "python/Book_of_Tweets/check_yaml_frontmatter.py",
+    "Untitled.md",
+    "content/THOUGHTS/thought-OUTER-VS-INNER-BEAUTY.md",
+    "docs/reports/thoughts_uploaded.md",
+    "content/THOUGHTS/thought-SUNS-ENERGY-CORE.md",
+    "content/THOUGHTS/thought-SUN-ENERGY.md",
+    "content/THOUGHTS/thought-EARTH-STORMS.md",
+    "content/THOUGHTS/thought-ENDING.md",
+    "Book_of_Tweets/BIBLE/passage-END-OF-ALL-FLESH.md",
+    "content/THOUGHTS/thought-COWARDS.md",
+    "content/PASSAGES/passage-FAITHLESSNESS.md",
+    "Book_of_Tweets/Book6E-FINAL.md",
+    "content/THOUGHTS/thought-BETTER-WORLD.md",
+    "content/QUOTES/quote-MIRACLES-2.md",
+    "content/QUOTES/quote-THE-HEART-OF-MANKIND.md",
+    "content/QUOTES/quote-WORKS.md",
+    "content/QUOTES/quote-BEGOTTEN.md",
     "Untitled.canvas",
     "public/attachments/og-image.png",
     "public/static/og-image.png",

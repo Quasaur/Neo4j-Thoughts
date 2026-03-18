@@ -8,7 +8,7 @@ tags: ["attitude", "attention", "human_nature", "desire", "pride"]
 ptopic: "[[topic-ATTITUDE]]"
 level: 3
 neo4j: true
-verified: false
+verified: true
 ---
 
 
@@ -25,15 +25,15 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.ATTENTION DESIRE",
     ctype: "THOUGHT",
-    en_title: "Attention Desire",
+    en_title: "Thought: Attention Desire",
     en_content: "I only want your attention when you don't want to give it to me.",
-    es_title: "Deseo de Atención",
+    es_title: "Pensamiento: Deseo de Atención",
     es_content: "Solo quiero tu atención cuando no quieres dármela.",
-    fr_title: "Désir d'Attention",
+    fr_title: "Pensée : Désir d'Attention",
     fr_content: "Je ne veux ton attention que lorsque tu ne veux pas me la donner.",
-    hi_title: "विट्गेन्स्टाइन की खोज",
+    hi_title: "विचार: ध्यान इच्छा",
     hi_content: "मुझे केवल तभी आपका ध्यान चाहिए जब आप मुझे देना नहीं चाहते।",
-    zh_title: "Kěwàng guānzhù",
+    zh_title: "xiǎng fǎ : guān zhù yù wàng",
     zh_content: "Wǒ zhǐ zài nǐ bù xiǎng gěi wǒ guānzhù de shíhòu cái xiǎng yào nǐ de guānzhù."
 });
 

@@ -1,14 +1,14 @@
 ---
 type: THOUGHT
 name: "thought.BORED VS BORING"
-alias: "Thought: Bored Vs Boring"
+alias: "Thought: Bored vs Boring"
 parent: "topic.ATTITUDE"
 en_content: "Better to be bored than to be boring."
 tags: ["boredom", "personality", "attitude", "character", "irony"]
 ptopic: "[[topic-ATTITUDE]]"
 level: 3
 neo4j: true
-verified: false
+verified: true
 ---
 
 
@@ -18,23 +18,23 @@ CREATE (t:THOUGHT {
     name: "thought.BORED VS BORING",
     alias: "Thought: Bored Vs Boring",
     parent: "topic.ATTITUDE",
-    tags: ['boredom', 'personality', 'attitude', 'character', 'irony'],
+    tags: ["boredom", "personality", "attitude", "character", "irony"],
     level: 3
 });
 
 CREATE (c:CONTENT {
     name: "content.BORED VS BORING",
     ctype: "THOUGHT",
-    en_title: "Bored Vs Boring",
+    en_title: "Thought: Bored vs Boring",
     en_content: "Better to be bored than to be boring.",
-    es_title: "Aburrido versus Aburridor",
+    es_title: "Pensamiento: Aburrido versus Aburridor",
     es_content: "Mejor estar aburrido que ser aburridor.",
-    fr_title: "Ennuyé contre Ennuyeux",
+    fr_title: "Pensée : Ennuyé ou Ennuyeux",
     fr_content: "Mieux vaut s'ennuyer que d'être ennuyeux.",
-    hi_title: "ऊबा बनाम उबाऊ",
+    hi_title: "विचार: ऊब बनाम उबाऊ",
     hi_content: "ऊबा होना उबाऊ होने से बेहतर है।",
-    zh_title: "Gǎnjué wúliáo yǔ língrén yànfán 感觉无聊与令人厌烦",
-    zh_content: "Gǎnjué wúliáo yě bǐ chéngwéi língrén yànfán de rén hǎo. 感觉无聊也比成为令人厌烦的人好。"
+    zh_title: "xiǎng fǎ : wú liáo yǔ wú liáo",
+    zh_content: "wú liáo zǒng bǐ wú liáo hǎo ."
 });
 
 // 2. Link Content to Thought using the variables 't' and 'c'

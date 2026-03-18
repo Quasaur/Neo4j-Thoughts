@@ -8,7 +8,7 @@ tags: ["anger", "reason", "soul", "attitude", "character"]
 ptopic: "[[topic-ATTITUDE]]"
 level: 3
 neo4j: true
-verified: false
+verified: true
 ---
 
 
@@ -18,22 +18,22 @@ CREATE (t:THOUGHT {
     name: "thought.ANGER AS CONTAGION",
     alias: "Thought: Anger As Contagion",
     parent: "topic.ATTITUDE",
-    tags: ['anger', 'reason', 'soul', 'attitude', 'character'],
+    tags: ["anger", "reason", "soul", "attitude", "character"],
     level: 3
 });
 
 CREATE (c:CONTENT {
     name: "content.ANGER AS CONTAGION",
     ctype: "THOUGHT",
-    en_title: "Anger As Contagion",
+    en_title: "Thought: Anger As Contagion",
     en_content: "Anger is a contagion that easily leaps from soul to soul where there is an absence of reason.",
-    es_title: "La Ira como Contagio",
+    es_title: "Pensamiento: La ira como contagio",
     es_content: "La ira es un contagio que salta fácilmente de alma en alma donde hay ausencia de razón.",
-    fr_title: "La Colère comme Contagion",
+    fr_title: "Pensée : La colère comme contagion",
     fr_content: "La colère est une contagion qui saute facilement d'âme en âme là où la raison est absente.",
-    hi_title: "संक्रमण के रूप में क्रोध",
+    hi_title: "विचार: क्रोध छूत के समान है",
     hi_content: "क्रोध एक संक्रमण है जो आसानी से एक आत्मा से दूसरी आत्मा में कूद जाता है जहां तर्क की अनुपस्थिति होती है।",
-    zh_title: "Fènnù rú chuánrǎnbìng",
+    zh_title: "xiǎng fǎ : Fènnù rú chuánrǎnbìng",
     zh_content: "Fènnù shì yī zhǒng chuánrǎnbìng, zài quēfá lǐxìng de dìfāng hěn róngyì cóng yīgè línghún tiào dào lìng yīgè línghún."
 });
 
