@@ -33,11 +33,12 @@ CREATE (c:CONTENT {
     zh_content: "Shengjing shuo dianying yijing jieshu le... gunchu zimu ba!"
 });
 
-MATCH (t:THOUGHT {name: "thought.MOVIE ALREADY OVER"})
-MATCH (c:CONTENT {name: "content.MOVIE ALREADY OVER"})
-MERGE (t)-[:HAS_CONTENT { "name": "edge.MOVIE ALREADY OVER" }]->(c);
-
+MERGE (t)-[r:HAS_CONTENT]->(c)
+ON CREATE SET r.name = "t.edge.MOVIE ALREADY OVER"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
 MATCH (parent:TOPIC {name: "topic.RELIGION"})
-MATCH (child:THOUGHT {name: "thought.MOVIE ALREADY OVER"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "RELIGION->MOVIE ALREADY OVER" }]->(child);
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.RELIGION->MOVIE ALREADY OVER"
+RETURN t, parent;
 ```

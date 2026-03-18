@@ -33,11 +33,12 @@ CREATE (c:CONTENT {
     zh_content: "Zhuiqiu Shangdi jiu shi zhuiqiu xingfu. Zhuiqiu xingfu jiu shi zhuiqiu Shangdi."
 });
 
-MATCH (t:THOUGHT {name: "thought.PURSUIT OF HAPPINESS"})
-MATCH (c:CONTENT {name: "content.PURSUIT OF HAPPINESS"})
-MERGE (t)-[:HAS_CONTENT { "name": "edge.PURSUIT OF HAPPINESS" }]->(c);
-
+MERGE (t)-[r:HAS_CONTENT]->(c)
+ON CREATE SET r.name = "t.edge.PURSUIT OF HAPPINESS"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
 MATCH (parent:TOPIC {name: "topic.THE GODHEAD"})
-MATCH (child:THOUGHT {name: "thought.PURSUIT OF HAPPINESS"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->PURSUIT OF HAPPINESS" }]->(child);
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.THE GODHEAD->PURSUIT OF HAPPINESS"
+RETURN t, parent;
 ```

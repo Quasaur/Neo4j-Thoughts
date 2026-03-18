@@ -33,11 +33,12 @@ CREATE (c:CONTENT {
     zh_content: "Zìyóu Yìzhì jǐnjǐn yīnwèi rénlèi duì Shénshèng Quánnéng de wúzhī ér cúnzài."
 });
 
-MATCH (t:THOUGHT {name: "thought.OMNIPOTENCE VS FREEWILL"})
-MATCH (c:CONTENT {name: "content.OMNIPOTENCE VS FREEWILL"})
-MERGE (t)-[:HAS_CONTENT { "name": "edge.OMNIPOTENCE VS FREEWILL" }]->(c);
-
+MERGE (t)-[r:HAS_CONTENT]->(c)
+ON CREATE SET r.name = "t.edge.OMNIPOTENCE VS FREEWILL"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
 MATCH (parent:TOPIC {name: "topic.PHILOSOPHY"})
-MATCH (child:THOUGHT {name: "thought.OMNIPOTENCE VS FREEWILL"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY->OMNIPOTENCE VS FREEWILL" }]->(child);
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.PHILOSOPHY->OMNIPOTENCE VS FREEWILL"
+RETURN t, parent;
 ```

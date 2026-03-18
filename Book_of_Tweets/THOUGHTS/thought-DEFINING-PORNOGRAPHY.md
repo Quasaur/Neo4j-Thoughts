@@ -33,11 +33,12 @@ CREATE (c:CONTENT {
     zh_content: "Ma Tai Fu Yin 5:27-30: Se qing zuo pin dui yi ge yi hun nan ren lai shuo shi tong jian, dui yi ge dan shen nan ren lai shuo shi xing yin luan."
 });
 
-MATCH (t:THOUGHT {name: "thought.DEFINING PORNOGRAPHY"})
-MATCH (c:CONTENT {name: "content.DEFINING PORNOGRAPHY"})
-MERGE (t)-[:HAS_CONTENT { "name": "edge.DEFINING PORNOGRAPHY" }]->(c);
-
+MERGE (t)-[r:HAS_CONTENT]->(c)
+ON CREATE SET r.name = "t.edge.DEFINING PORNOGRAPHY"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
 MATCH (parent:TOPIC {name: "topic.MORALITY"})
-MATCH (child:THOUGHT {name: "thought.DEFINING PORNOGRAPHY"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->DEFINING PORNOGRAPHY" }]->(child);
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.MORALITY->DEFINING PORNOGRAPHY"
+RETURN t, parent;
 ```

@@ -33,11 +33,12 @@ CREATE (c:CONTENT {
     zh_content: "Shèngjīng shuō Shàngdì bùnéng sāhuǎng. Yīncǐ, rúguǒ Shèngjīng bùshì yīgè zhǔnquè de lìshǐ wénjiàn, nàme tā jiù bùnéng shì Shàngdì suǒ qǐfā de.  shèng jīng shuō shàng dì bù néng sā huǎng 。 yīn cǐ ， rú guǒ shèng jīng bú shì yí gè zhǔn què de lì shǐ wén jiàn ， nà me tā jiù bù néng shì shàng dì suǒ qǐ fā de 。"
 });
 
-MATCH (t:THOUGHT {name: "thought.BIBLE AS HISTORY"})
-MATCH (c:CONTENT {name: "content.BIBLE AS HISTORY"})
-MERGE (t)-[:HAS_CONTENT { "name": "edge.BIBLE AS HISTORY" }]->(c);
-
+MERGE (t)-[r:HAS_CONTENT]->(c)
+ON CREATE SET r.name = "t.edge.BIBLE AS HISTORY"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
 MATCH (parent:TOPIC {name: "topic.TRUTH"})
-MATCH (child:THOUGHT {name: "thought.BIBLE AS HISTORY"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH->BIBLE AS HISTORY" }]->(child);
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.TRUTH->BIBLE AS HISTORY"
+RETURN t, parent;
 ```

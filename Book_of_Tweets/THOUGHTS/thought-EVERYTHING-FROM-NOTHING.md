@@ -33,11 +33,12 @@ CREATE (c:CONTENT {
     zh_content: "Shuo yiqie dou cong wu zhong lai shi meiyou yiyi de."
 });
 
-MATCH (t:THOUGHT {name: "thought.EVERYTHING FROM NOTHING"})
-MATCH (c:CONTENT {name: "content.EVERYTHING FROM NOTHING"})
-MERGE (t)-[:HAS_CONTENT { "name": "edge.EVERYTHING FROM NOTHING" }]->(c);
-
+MERGE (t)-[r:HAS_CONTENT]->(c)
+ON CREATE SET r.name = "t.edge.EVERYTHING FROM NOTHING"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
 MATCH (parent:TOPIC {name: "topic.TRUTH"})
-MATCH (child:THOUGHT {name: "thought.EVERYTHING FROM NOTHING"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "TRUTH->EVERYTHING FROM NOTHING" }]->(child);
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.TRUTH->EVERYTHING FROM NOTHING"
+RETURN t, parent;
 ```

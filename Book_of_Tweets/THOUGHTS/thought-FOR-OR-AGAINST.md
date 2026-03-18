@@ -33,11 +33,12 @@ CREATE (c:CONTENT {
     zh_content: "\"
 });
 
-MATCH (t:THOUGHT {name: "thought.FOR OR AGAINST"})
-MATCH (c:CONTENT {name: "content.FOR OR AGAINST"})
-MERGE (t)-[:HAS_CONTENT { "name": "edge.FOR OR AGAINST" }]->(c);
-
+MERGE (t)-[r:HAS_CONTENT]->(c)
+ON CREATE SET r.name = "t.edge.FOR OR AGAINST"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
 MATCH (parent:TOPIC {name: "topic.THE GODHEAD"})
-MATCH (child:THOUGHT {name: "thought.FOR OR AGAINST"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "THE GODHEAD->FOR OR AGAINST" }]->(child);
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.THE GODHEAD->FOR OR AGAINST"
+RETURN t, parent;
 ```

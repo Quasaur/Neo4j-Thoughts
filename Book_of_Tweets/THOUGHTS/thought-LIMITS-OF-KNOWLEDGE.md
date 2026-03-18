@@ -33,11 +33,12 @@ CREATE (c:CONTENT {
     zh_content: "\"
 });
 
-MATCH (t:THOUGHT {name: "thought.LIMITS OF KNOWLEDGE"})
-MATCH (c:CONTENT {name: "content.LIMITS OF KNOWLEDGE"})
-MERGE (t)-[:HAS_CONTENT { "name": "edge.LIMITS OF KNOWLEDGE" }]->(c);
-
+MERGE (t)-[r:HAS_CONTENT]->(c)
+ON CREATE SET r.name = "t.edge.LIMITS OF KNOWLEDGE"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
 MATCH (parent:TOPIC {name: "topic.WISDOM"})
-MATCH (child:THOUGHT {name: "thought.LIMITS OF KNOWLEDGE"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "WISDOM->LIMITS OF KNOWLEDGE" }]->(child);
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.WISDOM->LIMITS OF KNOWLEDGE"
+RETURN t, parent;
 ```

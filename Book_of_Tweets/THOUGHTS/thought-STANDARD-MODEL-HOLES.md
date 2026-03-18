@@ -33,11 +33,12 @@ CREATE (c:CONTENT {
     zh_content: "biāo zhǔn mó xíng zhōng de lòu dòng 、 bù kě jiǎn huà de tè dìng fù zá xìng 、 huà shí jì lù zhōng quē fá guò dù liàn jiē ...... rèn nǐ xuǎn zé 。"
 });
 
-MATCH (t:THOUGHT {name: "thought.STANDARD MODEL HOLES"})
-MATCH (c:CONTENT {name: "content.STANDARD MODEL HOLES"})
-MERGE (t)-[:HAS_CONTENT { "name": "edge.STANDARD MODEL HOLES" }]->(c);
-
+MERGE (t)-[r:HAS_CONTENT]->(c)
+ON CREATE SET r.name = "t.edge.STANDARD MODEL HOLES"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
 MATCH (parent:TOPIC {name: "topic.PHILOSOPHY"})
-MATCH (child:THOUGHT {name: "thought.STANDARD MODEL HOLES"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY->STANDARD MODEL HOLES" }]->(child);
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.PHILOSOPHY->STANDARD MODEL HOLES"
+RETURN t, parent;
 ```

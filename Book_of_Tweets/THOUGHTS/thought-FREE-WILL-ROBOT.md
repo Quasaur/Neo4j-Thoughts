@@ -33,11 +33,12 @@ CREATE (c:CONTENT {
     zh_content: "Rú guǒ nǐ SHÌ yī gè jī qì rén...nǐ RÚHÉ zhī dào nǐ de yì zhì bù shì zì yóu de?"
 });
 
-MATCH (t:THOUGHT {name: "thought.FREE WILL ROBOT"})
-MATCH (c:CONTENT {name: "content.FREE WILL ROBOT"})
-MERGE (t)-[:HAS_CONTENT { "name": "edge.FREE WILL ROBOT" }]->(c);
-
+MERGE (t)-[r:HAS_CONTENT]->(c)
+ON CREATE SET r.name = "t.edge.FREE WILL ROBOT"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
 MATCH (parent:TOPIC {name: "topic.PHILOSOPHY"})
-MATCH (child:THOUGHT {name: "thought.FREE WILL ROBOT"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "PHILOSOPHY->FREE WILL ROBOT" }]->(child);
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.PHILOSOPHY->FREE WILL ROBOT"
+RETURN t, parent;
 ```

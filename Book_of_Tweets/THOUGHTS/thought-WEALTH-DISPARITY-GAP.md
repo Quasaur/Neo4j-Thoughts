@@ -33,11 +33,12 @@ CREATE (c:CONTENT {
     zh_content: "Bairenjiating zhongwei caifu: Meiyuan 113,000 yuan. Heirenjiating zhongwei caifu: Meiyuan 5,700 yuan. Ai, shi de... shenghuo zhen gongping!"
 });
 
-MATCH (t:THOUGHT {name: "thought.WEALTH DISPARITY GAP"})
-MATCH (c:CONTENT {name: "content.WEALTH DISPARITY GAP"})
-MERGE (t)-[:HAS_CONTENT { "name": "edge.WEALTH DISPARITY GAP" }]->(c);
-
+MERGE (t)-[r:HAS_CONTENT]->(c)
+ON CREATE SET r.name = "t.edge.WEALTH DISPARITY GAP"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
 MATCH (parent:TOPIC {name: "topic.MORALITY"})
-MATCH (child:THOUGHT {name: "thought.WEALTH DISPARITY GAP"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "MORALITY->WEALTH DISPARITY GAP" }]->(child);
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.MORALITY->WEALTH DISPARITY GAP"
+RETURN t, parent;
 ```

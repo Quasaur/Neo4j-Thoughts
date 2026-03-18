@@ -33,11 +33,12 @@ CREATE (c:CONTENT {
     zh_content: "Ru Guo Ni Sheng Huo Zai Kuai Su Dao Shang, Yao Zhu Yi Ni De Si Jiao."
 });
 
-MATCH (t:THOUGHT {name: "thought.FAST LANE BLIND SPOTS"})
-MATCH (c:CONTENT {name: "content.FAST LANE BLIND SPOTS"})
-MERGE (t)-[:HAS_CONTENT { "name": "edge.FAST LANE BLIND SPOTS" }]->(c);
-
+MERGE (t)-[r:HAS_CONTENT]->(c)
+ON CREATE SET r.name = "t.edge.FAST LANE BLIND SPOTS"
+// 3. Pass 't' forward, find the Parent Topic, and link them
+WITH t
 MATCH (parent:TOPIC {name: "topic.WISDOM"})
-MATCH (child:THOUGHT {name: "thought.FAST LANE BLIND SPOTS"})
-MERGE (parent)-[:HAS_THOUGHT { "name": "WISDOM->FAST LANE BLIND SPOTS" }]->(child);
+MERGE (parent)-[r2:HAS_THOUGHT]->(t)
+ON CREATE SET r2.name = "t.edge.WISDOM->FAST LANE BLIND SPOTS"
+RETURN t, parent;
 ```
