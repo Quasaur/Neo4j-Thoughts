@@ -44,6 +44,16 @@ Use this decision tree to determine where a script belongs:
    - General utility scripts, repo-wide analysis, etc.
    - **→ Place in: `python/repo/`**
 
+### Before Creating Any Python Script
+
+Before creating a new Python script, **always search the `python/` folder recursively** to check if an existing script will either:
+1. Complete the planned operation as-is, or
+2. Can be modified to complete the operation.
+
+Only create a new script if no suitable existing script is found.
+
+---
+
 ### Priority Order
 
 When a script could fit multiple categories, use this priority:

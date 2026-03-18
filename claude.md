@@ -190,7 +190,8 @@ AUTH = ("neo4j", "BfLateGN_PldIlF7nd60M1m2v088QJelp9y9nuY9Y-s")
 
 ## Critical Reminders
 
-1. **Always check existing Obsidian-Cypher files** for format reference before creating new ones
+1. **Before creating any Python script**, search the `python/` folder recursively to check if an existing script will either complete the planned operation or can be modified to complete the operation. Only create a new script if no suitable existing script is found.
+2. **Always check existing Obsidian-Cypher files** for format reference before creating new ones
 2. **Query Neo4j database** to verify existing node structure before modifications
 3. **Level inheritance**: Children inherit parent's level, subtopics are parent + 1
 4. **Use terminal git commands**, never GitKraken tools
