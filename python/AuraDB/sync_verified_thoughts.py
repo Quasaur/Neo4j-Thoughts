@@ -125,8 +125,8 @@ class ThoughtSync:
         statements = [s.strip() for s in cleaned.split(';') if s.strip()]
         return statements
     
-    def get_verified_thought_files(self):
-        """Get all markdown files with verified: true"""
+    def get_verified_thought_files(self, parent_filter=None, batch_limit=None):
+        """Get markdown files with verified: true, optionally filtered by parent topic."""
         verified_files = []
         for md_file in sorted(THOUGHTS_DIR.glob("*.md")):
             with open(md_file, 'r', encoding='utf-8') as f:
@@ -134,12 +134,16 @@ class ThoughtSync:
             
             yaml_data = self.extract_yaml_frontmatter(content)
             if yaml_data and yaml_data.get('verified') == True:
+                if parent_filter and yaml_data.get('parent') != parent_filter:
+                    continue
                 verified_files.append({
                     'filepath': md_file,
                     'filename': md_file.name,
                     'yaml': yaml_data,
                     'content': content
                 })
+                if batch_limit and len(verified_files) >= batch_limit:
+                    break
         
         return verified_files
     
@@ -456,7 +460,11 @@ class ThoughtSync:
             
             if success:
                 print(f"   ✓ Created THOUGHT: {thought_name}")
-                self.report['created'].append(filename)
+                self.report['created'].append({
+                    'file': filename,
+                    'thought': thought_name,
+                    'parent': parent_topic
+                })
             else:
                 print(f"   ✗ Error creating THOUGHT: {error}")
                 self.report['errors'].append({'file': filename, 'error': error})
@@ -466,115 +474,93 @@ class ThoughtSync:
         return True
     
     def update_report_file(self):
-        """Update the thoughts_uploaded.md report file"""
+        """Append a new batch section to thoughts_uploaded.md, preserving history."""
         now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        
-        # Read existing content if file exists
+        date_str = datetime.now().strftime("%Y-%m-%d")
+
+        # Read existing content
         existing_content = ""
         if REPORT_FILE.exists():
             with open(REPORT_FILE, 'r', encoding='utf-8') as f:
                 existing_content = f.read()
-        
-        # Build new content
-        lines = [
-            "# Thoughts Uploaded to Neo4j AuraDB",
-            "",
-            f"**Last Updated:** {now}",
-            "",
-            "## Summary",
-            "",
-            f"- **Total Files Processed:** {len(self.report['processed'])}",
+
+        # Count existing batches to label the new one
+        batch_count = len(re.findall(r'^## \w+ Batch \(', existing_content, re.MULTILINE))
+        batch_num = batch_count + 1
+        batch_labels = {
+            1: 'First', 2: 'Second', 3: 'Third', 4: 'Fourth', 5: 'Fifth',
+            6: 'Sixth', 7: 'Seventh', 8: 'Eighth', 9: 'Ninth', 10: 'Tenth'
+        }
+        batch_label = batch_labels.get(batch_num, f'{batch_num}th')
+
+        # Build the new batch section
+        created_files = [c['file'] for c in self.report['created']]
+        section = [
+            f"\n## {batch_label} Batch ({date_str})\n",
             f"- **THOUGHTs Created:** {len(self.report['created'])}",
             f"- **THOUGHTs Updated:** {len(self.report['updated'])}",
             f"- **TOPICs Created:** {len(self.report['topics_created'])}",
             f"- **Errors:** {len(self.report['errors'])}",
-            "",
-            "## Processed Files",
-            ""
         ]
-        
-        if self.report['processed']:
-            lines.append("| Filename | Status | Details |")
-            lines.append("|----------|--------|---------|")
-            
-            for filename in self.report['processed']:
-                # Determine status
-                if filename in self.report['created']:
-                    status = "✅ Created"
-                    details = "New THOUGHT node inserted"
-                elif any(u['file'] == filename for u in self.report['updated']):
-                    status = "🔄 Updated"
-                    update_info = next(u for u in self.report['updated'] if u['file'] == filename)
-                    details = f"{len(update_info['changes'])} field(s) updated"
-                else:
-                    status = "⏭️  Skipped"
-                    details = "No changes needed"
-                
-                lines.append(f"| {filename} | {status} | {details} |")
-        else:
-            lines.append("*No files processed yet*")
-        
-        lines.extend([
-            "",
-            "## Created THOUGHTs",
-            ""
-        ])
-        
+
         if self.report['created']:
-            for filename in self.report['created']:
-                lines.append(f"- {filename}")
-        else:
-            lines.append("*No THOUGHTs created in this batch*")
-        
-        lines.extend([
-            "",
-            "## Updated THOUGHTs",
-            ""
-        ])
-        
+            section.append("\n### Created THOUGHTs\n")
+            section.append("| Filename | THOUGHT Name | Parent TOPIC |")
+            section.append("|----------|--------------|--------------|")
+            for item in self.report['created']:
+                section.append(f"| {item['file']} | {item['thought']} | {item['parent']} |")
+
         if self.report['updated']:
+            section.append("\n### Updated THOUGHTs\n")
             for update in self.report['updated']:
-                lines.append(f"- **{update['file']}** ({update['thought']})")
+                section.append(f"- **{update['file']}** ({update['thought']})")
                 for change in update['changes']:
-                    lines.append(f"  - {change}")
-        else:
-            lines.append("*No THOUGHTs updated in this batch*")
-        
-        lines.extend([
-            "",
-            "## Created Parent TOPICs",
-            ""
-        ])
-        
-        if self.report['topics_created']:
-            for topic in self.report['topics_created']:
-                lines.append(f"- {topic}")
-        else:
-            lines.append("*No TOPICs created in this batch*")
-        
-        lines.extend([
-            "",
-            "## Errors",
-            ""
-        ])
-        
+                    section.append(f"  - {change}")
+
+        skipped = [f for f in self.report['processed']
+                   if f not in created_files and not any(u['file'] == f for u in self.report['updated'])]
+        if skipped:
+            section.append("\n### Existing THOUGHTs (No Changes Needed)\n")
+            section.append("| Filename | THOUGHT Name | Parent TOPIC |")
+            section.append("|----------|--------------|--------------|")
+            for filename in skipped:
+                section.append(f"| {filename} | — | — |")
+
         if self.report['errors']:
+            section.append("\n### Errors\n")
             for error in self.report['errors']:
-                lines.append(f"- **{error['file']}**: {error['error']}")
+                section.append(f"- **{error['file']}**: {error['error']}")
+
+        new_section_text = '\n'.join(section)
+
+        # Update existing content or build from scratch
+        if existing_content:
+            # Update the Last Updated date in the header
+            updated = re.sub(
+                r'\*\*Last Updated:\*\* .*',
+                f'**Last Updated:** {now}',
+                existing_content
+            )
+            # Strip trailing footer and append new batch, then re-add footer
+            footer = "\n---\n\n*This file tracks all THOUGHT files with `verified: true` that have been uploaded to Neo4j AuraDB.*"
+            base = updated
+            if base.rstrip().endswith("*"):
+                # Remove old footer
+                base = re.sub(r'\n---\n\n\*This file tracks.*$', '', base.rstrip(), flags=re.DOTALL)
+            output = base.rstrip() + new_section_text + '\n' + footer + '\n'
         else:
-            lines.append("*No errors*")
-        
-        lines.extend([
-            "",
-            "---",
-            "",
-            "*This file is automatically generated by the sync script.*"
-        ])
-        
-        # Write to file
+            header = [
+                "# Thoughts Uploaded to Neo4j AuraDB",
+                "",
+                f"**Last Updated:** {now}",
+                "",
+            ]
+            footer = "\n---\n\n*This file tracks all THOUGHT files with `verified: true` that have been uploaded to Neo4j AuraDB.*\n"
+            output = '\n'.join(header) + new_section_text + '\n' + footer
+
         with open(REPORT_FILE, 'w', encoding='utf-8') as f:
-            f.write('\n'.join(lines))
-        
+            f.write(output)
+
         print(f"\n📝 Report updated: {REPORT_FILE}")
     
     def print_summary(self):
@@ -598,6 +584,12 @@ class ThoughtSync:
 
 
 def main():
+    import argparse
+    parser = argparse.ArgumentParser(description="Sync verified THOUGHT files to AuraDB")
+    parser.add_argument('--parent', default=None, help="Filter by parent topic (e.g. topic.ATTITUDE)")
+    parser.add_argument('--limit', type=int, default=None, help="Max number of files to process")
+    args = parser.parse_args()
+
     sync = ThoughtSync()
     
     try:
@@ -607,8 +599,13 @@ def main():
         
         # Get verified files
         print("\n🔍 Scanning for verified THOUGHT files...")
-        verified_files = sync.get_verified_thought_files()
-        print(f"   Found {len(verified_files)} files with verified: true")
+        verified_files = sync.get_verified_thought_files(
+            parent_filter=args.parent,
+            batch_limit=args.limit
+        )
+        filter_info = f" with parent '{args.parent}'" if args.parent else ""
+        limit_info = f" (limit: {args.limit})" if args.limit else ""
+        print(f"   Found {len(verified_files)} files with verified: true{filter_info}{limit_info}")
         
         if not verified_files:
             print("\n⚠️  No verified files to process")

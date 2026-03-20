@@ -4,25 +4,54 @@
     "type": "split",
     "children": [
       {
-        "id": "3885150ee9571ad0",
+        "id": "c34542ef76565ba2",
         "type": "tabs",
         "children": [
           {
-            "id": "c2dba8a569a55beb",
+            "id": "137577abf5f82583",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "BASES/Base-Content THOUGHTS.base",
+                "viewName": "Table"
+              },
+              "icon": "lucide-table",
+              "title": "Base-Content THOUGHTS"
+            }
+          },
+          {
+            "id": "30c19e9f0384453d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/THOUGHTS/thought-CONTENTMENT.md",
+                "file": "Neo4j-AI/Kimi K2/Discrepancies/Prompts/Prompts.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "thought-CONTENTMENT"
+              "title": "Prompts"
+            }
+          },
+          {
+            "id": "615cae334f80769f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Neo4j-AI/Kimi K2/Discrepancies/Prompts/Prompts.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Prompts"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -89,7 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 438.500732421875
+    "width": 563.500732421875
   },
   "right": {
     "id": "23b5a9898015fd07",
@@ -123,12 +152,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/THOUGHTS/thought-CONTENTMENT.md",
+                "file": "BASES/Base-Content THOUGHTS.base",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from thought-CONTENTMENT"
+              "title": "Outgoing links from Base-Content THOUGHTS"
             }
           },
           {
@@ -152,13 +181,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/THOUGHTS/thought-CONTENTMENT.md",
+                "file": "BASES/Base-Content THOUGHTS.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of thought-CONTENTMENT"
+              "title": "Outline of Base-Content THOUGHTS"
             }
           }
         ],
@@ -182,17 +211,29 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c2dba8a569a55beb",
+  "active": "615cae334f80769f",
   "lastOpenFiles": [
+    "Neo4j-AI/Kimi K2/Discrepancies/Prompts/Prompts.md",
+    "docs/reports/AuraDB_TOPIC_Sync_Report_2026-03-09.md",
+    "docs/reports/thoughts_uploaded.md",
     "BASES/Base-Content THOUGHTS.base",
+    "content/THOUGHTS/thought-DIFFICULTY.md",
+    "content/THOUGHTS/thought-DEFINE-HOPE.md",
+    "content/THOUGHTS/thought-DEFINE-APATHY.md",
+    "BASES/Base-Book_of_Tweets.base",
+    "docs/reports/book_of_tweets_cypher_refactor_2026-03-18_1019.md",
+    "python/Book_of_Tweets/refactor_cypher_q3_q4.py",
+    "content/THOUGHTS/thought-BETTER-WORLD.md",
+    "docs/reports/cypher_corrections_summary_2026-03-18_0955.md",
+    "docs/reports/cypher_q3_q4_audit_2026-03-18_0921.md",
+    "content/THOUGHTS/thought-ARROGANCE-VS-DIGNITY.md",
+    "content/THOUGHTS/thought-ATTENTION-DESIRE.md",
+    "content/THOUGHTS/thought-ANGER-AS-CONTAGION.md",
     "content/THOUGHTS/thought-CHANGE-OTHERS-NOT-SELF.md",
+    "content/THOUGHTS/thought-CONTENTMENT.md",
     "content/THOUGHTS/thought-BORED-VS-BORING.md",
     "content/THOUGHTS/thought-AUTOMATIC-MERCY.md",
-    "content/THOUGHTS/thought-ATTENTION-DESIRE.md",
-    "content/THOUGHTS/thought-ARROGANCE-VS-DIGNITY.md",
-    "content/THOUGHTS/thought-ANGER-AS-CONTAGION.md",
     "content/PASSAGES/passage-END-OF-ALL-FLESH.md",
-    "Neo4j-AI/Kimi K2/Discrepancies/Prompts/Prompts.md",
     "AGENTS.md",
     "python/repo/sync_local_content.py",
     "python/AuraDB/sync_auradb_topics.py",
@@ -201,24 +242,13 @@
     "python/AuraDB/fix_orphans.py",
     "python/AuraDB/final_report.py",
     "python/AuraDB/complete_auradb_export.py",
-    "python/content/add_source_to_quotes.py",
-    "python/Book_of_Tweets/check_yaml_frontmatter.py",
     "Untitled.md",
     "content/THOUGHTS/thought-OUTER-VS-INNER-BEAUTY.md",
-    "docs/reports/thoughts_uploaded.md",
     "content/THOUGHTS/thought-SUNS-ENERGY-CORE.md",
     "content/THOUGHTS/thought-SUN-ENERGY.md",
     "content/THOUGHTS/thought-EARTH-STORMS.md",
     "content/THOUGHTS/thought-ENDING.md",
     "Book_of_Tweets/BIBLE/passage-END-OF-ALL-FLESH.md",
-    "content/THOUGHTS/thought-COWARDS.md",
-    "content/PASSAGES/passage-FAITHLESSNESS.md",
-    "Book_of_Tweets/Book6E-FINAL.md",
-    "content/THOUGHTS/thought-BETTER-WORLD.md",
-    "content/QUOTES/quote-MIRACLES-2.md",
-    "content/QUOTES/quote-THE-HEART-OF-MANKIND.md",
-    "content/QUOTES/quote-WORKS.md",
-    "content/QUOTES/quote-BEGOTTEN.md",
     "Untitled.canvas",
     "public/attachments/og-image.png",
     "public/static/og-image.png",
