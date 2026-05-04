@@ -44,7 +44,7 @@ This document contains critical rules and conventions that must be followed at a
 - `HAS_PASSAGE`: TOPIC → PASSAGE
 - `HAS_DESCRIPTION`: TOPIC → DESCRIPTION
 - `HAS_CONTENT`: THOUGHT/QUOTE/PASSAGE → CONTENT
-- `HAS_TOPIC`: TOPIC → TOPIC (parent to subtopic)
+- `HAS_CHILD`: TOPIC → TOPIC (parent to subtopic)
 
 **NEVER use:**
 - `FITS_WITHIN`
@@ -57,20 +57,16 @@ This document contains critical rules and conventions that must be followed at a
 
 ### Required YAML Frontmatter Properties
 ```yaml
+type: THOUGHT|QUOTE|PASSAGE|TOPIC
 name: "thought.NAME WITH SPACES"
 alias: "<NODE>: Display Name"
-type: THOUGHT|QUOTE|PASSAGE|TOPIC
-parent: "topic.PARENT NAME" o topic.PARENTNAME [has a single-word parent]
-tags:
-  - tag1
-  - tag2
-  - tag3
-  - tag4
-  - tag5
-neo4j: true
-ptopic: "[[topic-PARENT NAME]]"
+parent: "topic.PARENT NAME"
+en_content: "English content summary."
+tags: ["tag1", "tag2", "tag3", "tag4", "tag5"]
+ptopic: "[[topic-PARENT-NAME]]"
 level: N
-inserted: true
+neo4j: true
+verified: false
 ```
 
 **IMPORTANT**: All YAML `name` & `alias` values will be encased in quotes ("").
@@ -78,6 +74,7 @@ inserted: true
 ### Properties to EXCLUDE
 - `draft` - Delete this
 - `mling` - Delete this
+- `inserted` - Delete this
 - `aliases` - Use `alias` (singular) instead
 - `title` - Use `alias` instead
 
@@ -110,19 +107,19 @@ CREATE (c:CONTENT {
     fr_content: "Contenu en français...",
     hi_title: "उदाहरण",
     hi_content: "हिंदी सामग्री...",
-    zh_title: "例子",
-    zh_content: "中文内容..."
+    zh_title: "lì zi",
+    zh_content: "zhōng wén nèi róng..."
 });
 
 MATCH (t:THOUGHT)
 MATCH (c:CONTENT)
 WHERE t.name = "thought.EXAMPLE" AND c.name = "content.EXAMPLE"
-MERGE (t)-[:HAS_CONTENT {name: "edge.EXAMPLE"}]->(c);
+MERGE (t)-[:HAS_CONTENT {name: "t.edge.EXAMPLE"}]->(c);
 
 MATCH (parent:TOPIC)
 MATCH (child:THOUGHT)
 WHERE parent.name = "topic.PARENT" AND child.name = "thought.EXAMPLE"
-MERGE (parent)-[:HAS_THOUGHT {name: "edge.PARENT->EXAMPLE"}]->(child);
+MERGE (parent)-[:HAS_THOUGHT {name: "t.edge.PARENT->EXAMPLE"}]->(child);
 ```
 
 ### Naming Conventions
@@ -167,8 +164,8 @@ content/
 ```
 
 ### Insertion Status
-- **Inserted**: File has embedded Cypher block AND `inserted: true` in frontmatter
-- **Not Inserted**: File may have embedded Cypher but not yet run against database
+- **Inserted**: File has embedded Cypher block AND `neo4j: true` in frontmatter
+- **Not Inserted**: File may have embedded Cypher but `neo4j: false` (or property absent)
 - Files in `UnInserted/` should NOT be moved to main folder until actually inserted into Neo4j AuraDB
 
 ---
@@ -192,12 +189,12 @@ AUTH = ("neo4j", "BfLateGN_PldIlF7nd60M1m2v088QJelp9y9nuY9Y-s")
 
 1. **Before creating any Python script**, search the `python/` folder recursively to check if an existing script will either complete the planned operation or can be modified to complete the operation. Only create a new script if no suitable existing script is found.
 2. **Always check existing Obsidian-Cypher files** for format reference before creating new ones
-2. **Query Neo4j database** to verify existing node structure before modifications
-3. **Level inheritance**: Children inherit parent's level, subtopics are parent + 1
-4. **Use terminal git commands**, never GitKraken tools
-5. **Don't move files to main THOUGHTS folder** until they're actually inserted into Neo4j
+3. **Query Neo4j database** to verify existing node structure before modifications
+4. **Level inheritance**: Children inherit parent's level, subtopics are parent + 1
+5. **Use terminal git commands**, never GitKraken tools
+6. **Don't move files to main THOUGHTS folder** until they're actually inserted into Neo4j
 
 ---
 
 ## Document Version
-Last Updated: January 10, 2026
+Last Updated: April 3, 2026

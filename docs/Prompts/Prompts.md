@@ -145,3 +145,7 @@ topic.ATTITUDE" as their parent topic. The script is supposed to:
 (2) Refactor the target AuraDB THOUGHT nodes according to the batch of markdown files in content/THOUGHTS, which are the source of truth;
 (3) Add the inserted markdown file names to the markdown file docs/reports/thoughts_uploaded.md . 
 When the script is finished, give me a report.
+
+## Prompt 16 - MacBook Wipe AuraDB Update
+Check the contents/TRHOUGHTS folder contents against the online Neo4j AuraDB instance: look only on those THOUGHT files in the content/THOUGHTS folder where the YAML property `parent: "topic.ATTITUDE"` exists. 
+In the AuraDB instance: if the child CONTENT node defined in the target THOOUGHT node's HAS_CONTENT relationship has an en_title property value that begins with "Thought:", mark the local YAML property "verified:" as 'true' (no quotes) and update the property values in both the YAML front matter and Cypher block in the targeted markdown file with the values in the AuraDB from that THOUGHT node and its CONTENT node. 

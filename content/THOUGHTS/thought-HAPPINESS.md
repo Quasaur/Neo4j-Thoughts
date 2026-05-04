@@ -3,11 +3,12 @@ type: THOUGHT
 name: "thought.HAPPINESS"
 alias: "Thought: Happiness"
 parent: "topic.ATTITUDE"
+en_content: "Happiness is not the result of doing what you want...but of doing what is right."
 tags: ["happy", "fulfilled", "satisfied", "delighted", "content"]
 ptopic: "[[topic-ATTITUDE]]"
 level: 3
 neo4j: true
-verified: false
+verified: true
 ---
 
 
@@ -24,20 +25,16 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.HAPPINESS",
     ctype: "THOUGHT",
-    en_title: "Happiness",
-    en_content: "",
-    es_title: "FELICIDAD",
-    es_content: "LA FELICIDAD no es producto de hacer lo que quieres...
-...sino de hacer lo CORRECTO.",
-    fr_title: "BONHEUR",
-    fr_content: "LE BONHEUR n'est pas le produit du fait de faire ce que l'on veut...
-... mais de faire ce qui est BIEN.",
-    hi_title: "ख़ुशी",
-    hi_content: "ख़ुशी वह करने का परिणाम नहीं है जो आप चाहते हैं...
-...लेकिन वही करना जो सही है।",
-    zh_title: "xìng fú",
-    zh_content: "xìng fú bú shì zuò nǐ xiǎng zuò de shì de jié guǒ ......
-... ér shì zuò zhèng què de shì 。"
+    en_title: "Thought: Happiness",
+    en_content: "Happiness is not the result of doing what you want...but of doing what is right.",
+    es_title: "Pensamiento: felicidad",
+    es_content: "LA FELICIDAD no es producto de hacer lo que quieres...sino de hacer lo CORRECTO.",
+    fr_title: "Pensée : Bonheur",
+    fr_content: "LE BONHEUR n'est pas le produit du fait de faire ce que l'on veut...mais de faire ce qui est BIEN.",
+    hi_title: "विचार: ख़ुशी",
+    hi_content: "ख़ुशी वह करने का परिणाम नहीं है जो आप चाहते हैं...लेकिन वही करना जो सही है।",
+    zh_title: "sī xiǎng : xìng fú",
+    zh_content: "xìng fú bú shì zuò nǐ xiǎng zuò de shì de jié guǒ ... ér shì zuò zhèng què de shì 。"
 });
 
 // 2. Link Content to Thought using the variables 't' and 'c'

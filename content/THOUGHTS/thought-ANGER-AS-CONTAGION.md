@@ -1,8 +1,9 @@
 ---
-type: THOUGHT
+type: "THOUGHT"
 name: "thought.ANGER AS CONTAGION"
 alias: "Thought: Anger As Contagion"
 parent: "topic.ATTITUDE"
+en_title: "Thought: Anger As Contagion"
 en_content: "Anger is a contagion that easily leaps from soul to soul where there is an absence of reason."
 tags: ["anger", "reason", "soul", "attitude", "character"]
 ptopic: "[[topic-ATTITUDE]]"
@@ -10,7 +11,6 @@ level: 3
 neo4j: true
 verified: true
 ---
-
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 26-Dec-2013)
@@ -27,14 +27,14 @@ CREATE (c:CONTENT {
     ctype: "THOUGHT",
     en_title: "Thought: Anger As Contagion",
     en_content: "Anger is a contagion that easily leaps from soul to soul where there is an absence of reason.",
-    es_title: "Pensamiento: La ira como contagio",
-    es_content: "La ira es un contagio que salta fácilmente de alma en alma donde hay ausencia de razón.",
-    fr_title: "Pensée : La colère comme contagion",
-    fr_content: "La colère est une contagion qui saute facilement d'âme en âme là où la raison est absente.",
-    hi_title: "विचार: क्रोध छूत के समान है",
-    hi_content: "क्रोध एक संक्रमण है जो आसानी से एक आत्मा से दूसरी आत्मा में कूद जाता है जहां तर्क की अनुपस्थिति होती है।",
-    zh_title: "xiǎng fǎ : Fènnù rú chuánrǎnbìng",
-    zh_content: "Fènnù shì yī zhǒng chuánrǎnbìng, zài quēfá lǐxìng de dìfāng hěn róngyì cóng yīgè línghún tiào dào lìng yīgè línghún."
+    es_title: "",
+    es_content: "",
+    fr_title: "",
+    fr_content: "",
+    hi_title: "",
+    hi_content: "",
+    zh_title: "",
+    zh_content: ""
 });
 
 // 2. Link Content to Thought using the variables 't' and 'c'

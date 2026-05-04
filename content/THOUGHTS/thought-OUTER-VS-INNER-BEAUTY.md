@@ -1,8 +1,9 @@
 ---
-type: THOUGHT
+type: "THOUGHT"
 name: "thought.OUTER VS INNER BEAUTY"
 alias: "Thought: Outer vs Inner Beauty"
 parent: "topic.ATTITUDE"
+en_title: "Thought: Outer vs Inner Beauty"
 en_content: "Outer beauty doesn't make up for inner ugly."
 tags: ["beauty", "character", "appearance", "aesthetics", "holiness"]
 ptopic: "[[topic-ATTITUDE]]"
@@ -10,7 +11,6 @@ level: 3
 neo4j: true
 verified: true
 ---
-
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 26-Dec-2013)
@@ -27,14 +27,14 @@ CREATE (c:CONTENT {
     ctype: "THOUGHT",
     en_title: "Thought: Outer vs Inner Beauty",
     en_content: "Outer beauty doesn't make up for inner ugly.",
-    es_title: "Pensamiento: belleza exterior versus belleza interior",
-    es_content: "La belleza exterior no compensa la fealdad interior.",
-    fr_title: "Pensée : beauté extérieure ou beauté intérieure",
-    fr_content: "La beauté extérieure ne compense pas la laideur intérieure.",
-    hi_title: "विचार: बाहरी बनाम आंतरिक सुंदरता",
-    hi_content: "बाहरी सुंदरता भीतरी कुरूपता की भरपाई नहीं करती।",
-    zh_title: "sī kǎo : wài zài měi yǔ nèi zài měi",
-    zh_content: "Wai zai de mei li bu neng mi bu nei zai de chou lou."
+    es_title: "",
+    es_content: "",
+    fr_title: "",
+    fr_content: "",
+    hi_title: "",
+    hi_content: "",
+    zh_title: "",
+    zh_content: ""
 });
 
 // 2. Link Content to Thought using the variables 't' and 'c'

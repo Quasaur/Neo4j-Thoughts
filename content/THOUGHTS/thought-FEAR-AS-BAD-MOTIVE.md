@@ -1,16 +1,16 @@
 ---
-type: THOUGHT
+type: "THOUGHT"
 name: "thought.FEAR AS BAD MOTIVE"
 alias: "Thought: Fear As Bad Motive"
 parent: "topic.ATTITUDE"
+en_title: "Thought: Fear As Bad Motive"
 en_content: "Fear is rarely a good motive for any action."
 tags: ["fear", "motive", "action", "attitude", "character"]
 ptopic: "[[topic-ATTITUDE]]"
 level: 3
 neo4j: true
-verified: false
+verified: true
 ---
-
 
 ```Cypher
 // Generated from Book6E-FINAL.md (ID: 26-Dec-2013)
@@ -18,23 +18,23 @@ CREATE (t:THOUGHT {
     name: "thought.FEAR AS BAD MOTIVE",
     alias: "Thought: Fear As Bad Motive",
     parent: "topic.ATTITUDE",
-    tags: ['fear', 'motive', 'action', 'attitude', 'character'],
+    tags: ["fear", "motive", "action", "attitude", "character"],
     level: 3
 });
 
 CREATE (c:CONTENT {
     name: "content.FEAR AS BAD MOTIVE",
     ctype: "THOUGHT",
-    en_title: "Fear As Bad Motive",
+    en_title: "Thought: Fear As Bad Motive",
     en_content: "Fear is rarely a good motive for any action.",
-    es_title: "El Miedo Como Mal Motivo",
-    es_content: "El miedo rara vez es un buen motivo para cualquier acción.",
-    fr_title: "La Peur Comme Mauvaise Motivation",
-    fr_content: "La peur est rarement une bonne motivation pour toute action.",
-    hi_title: "बुरी प्रेरणा के रूप में भय",
-    hi_content: "भय शायद ही कभी किसी भी कार्य के लिए एक अच्छी प्रेरणा होता है।",
-    zh_title: "Kǒngjù Zuòwéi Bùliáng Dòngjī",
-    zh_content: "Kǒngjù hěn shǎo shì rènhé xíngdòng de hǎo dòngjī."
+    es_title: "",
+    es_content: "",
+    fr_title: "",
+    fr_content: "",
+    hi_title: "",
+    hi_content: "",
+    zh_title: "",
+    zh_content: ""
 });
 
 // 2. Link Content to Thought using the variables 't' and 'c'

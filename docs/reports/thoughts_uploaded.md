@@ -4,7 +4,7 @@
 
 ## Summary
 
-- **Total Files with verified: true:** 9
+- **Total Files with verified: true:** 22
 - **THOUGHTs Created:** 8
 - **THOUGHTs Updated:** 1 (HORDES-OF-THE-ABYSS en_content)
 - **TOPICs Created:** 0 (all parent TOPICs already existed)
@@ -81,3 +81,15 @@ All 9 verified THOUGHT files have been synced to Neo4j AuraDB:
 ---
 
 *This file tracks all THOUGHT files with `verified: true` that have been uploaded to Neo4j AuraDB.*
+
+## Addendum (2026-04-03)
+
+The following 3 files have `verified: true` in their YAML frontmatter but were not previously recorded in this tracking document. They have been added here for completeness.
+
+| Filename | THOUGHT Name | Parent TOPIC |
+|----------|--------------|--------------|
+| thought-ESSENCE-OF-JOY.md | thought.ESSENCE OF JOY | topic.ATTITUDE |
+| thought-FEAR-AS-BAD-MOTIVE.md | thought.FEAR AS BAD MOTIVE | topic.ATTITUDE |
+| thought-OUTER-VS-INNER-BEAUTY.md | thought.OUTER VS INNER BEAUTY | topic.ATTITUDE |
+
+**Last Updated:** 2026-04-03

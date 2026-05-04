@@ -3,11 +3,12 @@ type: THOUGHT
 name: "thought.GRATITUDE"
 alias: "Thought: Gratitude"
 parent: "topic.ATTITUDE"
+en_content: "The last few months have been very challenging...but it's better than being dead (LOL)!"
 tags: ["thanksgiving", "humility", "decision", "mercy", "dead"]
 ptopic: "[[topic-ATTITUDE]]"
 level: 3
 neo4j: true
-verified: false
+verified: true
 ---
 
 
@@ -24,15 +25,15 @@ CREATE (t:THOUGHT {
 CREATE (c:CONTENT {
     name: "content.GRATITUDE",
     ctype: "THOUGHT",
-    en_title: "Gratitude",
-    en_content: "",
-    es_title: "GRATITUD",
-    es_content: "Los últimos meses han sido muy desafiantes... ¡pero es mejor que estar muerto (LOL)!",
-    fr_title: "GRATITUDE",
-    fr_content: "Les derniers mois ont été très difficiles... mais c'est mieux que d'être mort (MDR) !",
-    hi_title: "कृतज्ञता",
+    en_title: "Thought: Gratitude",
+    en_content: "The last few months have been very challenging...but it's better than being dead (LOL)!",
+    es_title: "Pensamiento: Gratitud",
+    es_content: "Los últimos meses han sido muy desafiantes...¡pero es mejor que estar muerto (LOL)!",
+    fr_title: "Pensée : gratitude",
+    fr_content: "Les derniers mois ont été très difficiles...mais c'est mieux que d'être mort (MDR) !",
+    hi_title: "विचार: कृतज्ञता",
     hi_content: "पिछले कुछ महीने बहुत चुनौतीपूर्ण रहे हैं...लेकिन यह मरने से भी बेहतर है (LOL)!",
-    zh_title: "gǎn jī",
+    zh_title: "sī xiǎng : gǎn ēn",
     zh_content: "guò qù de jǐ gè yuè fēi cháng jù yǒu tiǎo zhàn xìng …… dàn zǒng bǐ sǐ le hǎo （ xiào ）！"
 });
 
